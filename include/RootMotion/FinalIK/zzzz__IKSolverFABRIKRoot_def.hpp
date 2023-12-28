@@ -13,11 +13,11 @@ CORDL_MODULE_EXPORT(IKSolverFABRIKRoot)
 namespace UnityEngine {
 class Transform;
 }
-namespace RootMotion::FinalIK {
-class FABRIKChain;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class FABRIKChain;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;

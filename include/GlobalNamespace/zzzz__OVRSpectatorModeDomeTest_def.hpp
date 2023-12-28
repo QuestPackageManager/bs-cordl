@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpectatorModeDomeTest)
-namespace UnityEngine {
-class Camera;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class __OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections {
-class IEnumerator;
+class Camera;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,7 +145,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSpectatorM
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7847)), TypeDefinitionIndex(TypeDefinitionIndex(7756))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7847))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8181))
 // CS Name: ::OVRSpectatorModeDomeTest*
 class CORDL_TYPE OVRSpectatorModeDomeTest : public ::UnityEngine::MonoBehaviour {

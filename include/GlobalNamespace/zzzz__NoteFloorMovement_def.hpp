@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteFloorMovement)
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace UnityEngine {
+struct Vector3;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteFloorMovement);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
 // CS Name: ::NoteFloorMovement*
 class CORDL_TYPE NoteFloorMovement : public ::UnityEngine::MonoBehaviour {

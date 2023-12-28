@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GcmBlockCipher)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
 }
-namespace Org::BouncyCastle::Crypto::Modes::Gcm {
-class IGcmExponentiator;
-}
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class IGcmMultiplier;
+}
+namespace Org::BouncyCastle::Crypto::Modes::Gcm {
+class IGcmExponentiator;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {

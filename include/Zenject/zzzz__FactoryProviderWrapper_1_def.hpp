@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryProviderWrapper_1)
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 class IProvider;
 }
 namespace System {
 class Object;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
 class IFactory;
@@ -21,7 +21,7 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectContext;
+template <typename TValue> class IFactory_1;
 }
 // Forward declare root types
 namespace Zenject {

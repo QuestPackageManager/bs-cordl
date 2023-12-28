@@ -9,13 +9,13 @@ namespace BGNet::Logging {
 class __Debug__LoggerLinkedList;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Exception;
 }
 namespace BGNet::Logging {
 class __Debug__ILogger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace BGNet::Logging {

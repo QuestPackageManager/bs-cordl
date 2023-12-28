@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Math)
 namespace UnityEngine {
-struct Ray;
+struct Rect;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 struct Normal;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine {
-struct Bounds;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 class Bounds2D;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace UnityEngine {
+struct Ray;
+}
 namespace UnityEngine::ProBuilder {
-class Face;
+struct Edge;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

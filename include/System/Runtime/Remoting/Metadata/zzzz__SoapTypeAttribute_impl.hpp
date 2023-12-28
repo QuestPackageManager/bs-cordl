@@ -135,87 +135,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__useAttribute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useAttribute;
 }
 constexpr bool const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__useAttribute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useAttribute;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__useAttribute(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useAttribute = value;
 }
 constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlElementName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlElementName;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlElementName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlElementName;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__xmlElementName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlElementName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlNamespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlNamespace;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlNamespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlNamespace;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__xmlNamespace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlTypeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlTypeName;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlTypeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlTypeName;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__xmlTypeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlTypeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlTypeNamespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlTypeNamespace;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__xmlTypeNamespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlTypeNamespace;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__xmlTypeNamespace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlTypeNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__isType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isType;
 }
 constexpr bool const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__isType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isType;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__isType(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isType = value;
 }
 constexpr bool& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__isElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isElement;
 }
 constexpr bool const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__get__isElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isElement;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__set__isElement(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isElement = value;
 }
 inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* System::Runtime::Remoting::Metadata::SoapTypeAttribute::New_ctor() {

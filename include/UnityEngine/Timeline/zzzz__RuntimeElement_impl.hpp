@@ -122,15 +122,15 @@ constexpr UnityEngine::Timeline::RuntimeElement::operator ::UnityEngine::Timelin
   return static_cast<::UnityEngine::Timeline::IInterval*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::Timeline::RuntimeElement::__get__intervalBit_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalBit_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Timeline::RuntimeElement::__get__intervalBit_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalBit_k__BackingField;
 }
 constexpr void UnityEngine::Timeline::RuntimeElement::__set__intervalBit_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intervalBit_k__BackingField = value;
 }
 inline int64_t UnityEngine::Timeline::RuntimeElement::get_intervalStart() {

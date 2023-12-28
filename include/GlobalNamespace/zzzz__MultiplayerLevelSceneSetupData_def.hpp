@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLevelSceneSetupData)
 namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {

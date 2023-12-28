@@ -1,18 +1,18 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextWriter_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__Base64Encoder_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__Base64Encoder_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextWriter.get_Base64Encoder
 template <>
 
@@ -832,123 +832,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::TextWriter*& Newtonsoft::Json::JsonTextWriter::__get__writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& Newtonsoft::Json::JsonTextWriter::__get__writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__writer(::System::IO::TextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Utilities::Base64Encoder*& Newtonsoft::Json::JsonTextWriter::__get__base64Encoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____base64Encoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::Base64Encoder*> const& Newtonsoft::Json::JsonTextWriter::__get__base64Encoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____base64Encoder;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__base64Encoder(::Newtonsoft::Json::Utilities::Base64Encoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____base64Encoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr char16_t& Newtonsoft::Json::JsonTextWriter::__get__indentChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indentChar;
 }
 constexpr char16_t const& Newtonsoft::Json::JsonTextWriter::__get__indentChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indentChar;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__indentChar(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____indentChar = value;
 }
 constexpr int32_t& Newtonsoft::Json::JsonTextWriter::__get__indentation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indentation;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonTextWriter::__get__indentation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indentation;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__indentation(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____indentation = value;
 }
 constexpr char16_t& Newtonsoft::Json::JsonTextWriter::__get__quoteChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quoteChar;
 }
 constexpr char16_t const& Newtonsoft::Json::JsonTextWriter::__get__quoteChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quoteChar;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__quoteChar(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____quoteChar = value;
 }
 constexpr bool& Newtonsoft::Json::JsonTextWriter::__get__quoteName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quoteName;
 }
 constexpr bool const& Newtonsoft::Json::JsonTextWriter::__get__quoteName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quoteName;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__quoteName(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____quoteName = value;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& Newtonsoft::Json::JsonTextWriter::__get__charEscapeFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charEscapeFlags;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& Newtonsoft::Json::JsonTextWriter::__get__charEscapeFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charEscapeFlags;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__charEscapeFlags(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____charEscapeFlags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Newtonsoft::Json::JsonTextWriter::__get__writeBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeBuffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Newtonsoft::Json::JsonTextWriter::__get__writeBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeBuffer;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__writeBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writeBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& Newtonsoft::Json::JsonTextWriter::__get__arrayPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& Newtonsoft::Json::JsonTextWriter::__get__arrayPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayPool;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrayPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Newtonsoft::Json::JsonTextWriter::__get__indentChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indentChars;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Newtonsoft::Json::JsonTextWriter::__get__indentChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indentChars;
 }
 constexpr void Newtonsoft::Json::JsonTextWriter::__set__indentChars(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____indentChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::Base64Encoder* Newtonsoft::Json::JsonTextWriter::get_Base64Encoder() {

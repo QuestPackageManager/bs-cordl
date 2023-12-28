@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Runtime::Serialization::DataContractAttribute::__get_isReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isReference;
 }
 constexpr bool const& System::Runtime::Serialization::DataContractAttribute::__get_isReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isReference;
 }
 constexpr void System::Runtime::Serialization::DataContractAttribute::__set_isReference(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isReference = value;
 }
 inline bool System::Runtime::Serialization::DataContractAttribute::get_IsReference() {

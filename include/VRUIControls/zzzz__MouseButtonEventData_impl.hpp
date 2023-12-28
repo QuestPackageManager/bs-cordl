@@ -43,27 +43,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& VRUIControls::MouseButtonEventData::__get_buttonState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonState;
 }
 constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& VRUIControls::MouseButtonEventData::__get_buttonState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonState;
 }
 constexpr void VRUIControls::MouseButtonEventData::__set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buttonState = value;
 }
 constexpr ::UnityEngine::EventSystems::PointerEventData*& VRUIControls::MouseButtonEventData::__get_buttonData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonData;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& VRUIControls::MouseButtonEventData::__get_buttonData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonData;
 }
 constexpr void VRUIControls::MouseButtonEventData::__set_buttonData(::UnityEngine::EventSystems::PointerEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buttonData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool VRUIControls::MouseButtonEventData::PressedThisFrame() {

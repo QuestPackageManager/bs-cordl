@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentSpawnRotation)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class SpawnRotationBeatmapEventData;
 }
 namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;

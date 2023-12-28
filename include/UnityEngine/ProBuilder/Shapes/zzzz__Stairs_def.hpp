@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stairs)
 namespace UnityEngine {
-struct Bounds;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Bounds;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;

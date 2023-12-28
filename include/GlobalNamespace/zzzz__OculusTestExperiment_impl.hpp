@@ -3,12 +3,12 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
-#include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
+#include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentData_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OculusTestExperiment__ExperimentData.get_experimentPlatformKey
 template <>
 
@@ -44,15 +44,15 @@ constexpr GlobalNamespace::__OculusTestExperiment__ExperimentData::operator ::Gl
   return static_cast<::GlobalNamespace::IExperimentData*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::__OculusTestExperiment__ExperimentData::__get__experimentPlatformKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____experimentPlatformKey;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusTestExperiment__ExperimentData::__get__experimentPlatformKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____experimentPlatformKey;
 }
 constexpr void GlobalNamespace::__OculusTestExperiment__ExperimentData::__set__experimentPlatformKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____experimentPlatformKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__OculusTestExperiment__ExperimentData::get_experimentPlatformKey() {
@@ -155,15 +155,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IExperimentModel*& GlobalNamespace::OculusTestExperiment::__get__experimentModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____experimentModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IExperimentModel*> const& GlobalNamespace::OculusTestExperiment::__get__experimentModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____experimentModel;
 }
 constexpr void GlobalNamespace::OculusTestExperiment::__set__experimentModel(::GlobalNamespace::IExperimentModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____experimentModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OculusTestExperiment::Init() {

@@ -8,41 +8,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeTypeHandle)
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Reflection {
 struct CorElementType;
 }
 namespace System::Reflection {
-class RuntimeAssembly;
+struct TypeAttributes;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Reflection {
+class RuntimeAssembly;
 }
 namespace System::Threading {
 struct StackCrawlMark;
 }
+namespace System::Reflection {
+class Assembly;
+}
 namespace System {
-class RuntimeType;
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class RuntimeType;
 }
 namespace System {
-class Object;
-}
-namespace System::Reflection {
-class Assembly;
+class Type;
 }
 namespace System::Reflection {
 class RuntimeModule;
-}
-namespace System::Reflection {
-struct TypeAttributes;
 }
 // Forward declare root types
 namespace System {

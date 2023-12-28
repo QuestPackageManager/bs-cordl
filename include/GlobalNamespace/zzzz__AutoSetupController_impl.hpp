@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AutoSetupController_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "GlobalNamespace/zzzz__AutoSetupData_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AutoSetupController.add_didFinishEvent
 template <>
 
@@ -161,112 +161,112 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::AutoSetupController::__get__closeButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closeButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::AutoSetupController::__get__closeButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closeButton;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__closeButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____closeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::AutoSetupController::__get__selectBasedOnSuggestionsToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectBasedOnSuggestionsToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::AutoSetupController::__get__selectBasedOnSuggestionsToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectBasedOnSuggestionsToggle;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__selectBasedOnSuggestionsToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectBasedOnSuggestionsToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::AutoSetupController::__get__autoStartWhenAllReadyToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoStartWhenAllReadyToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::AutoSetupController::__get__autoStartWhenAllReadyToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoStartWhenAllReadyToggle;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__autoStartWhenAllReadyToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____autoStartWhenAllReadyToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::AutoSetupController::__get__forceAutoStartAfterSongSelectionToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceAutoStartAfterSongSelectionToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::AutoSetupController::__get__forceAutoStartAfterSongSelectionToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceAutoStartAfterSongSelectionToggle;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__forceAutoStartAfterSongSelectionToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____forceAutoStartAfterSongSelectionToggle)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::AutoSetupController::__get__randomSongIfNoneSuggestedToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomSongIfNoneSuggestedToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::AutoSetupController::__get__randomSongIfNoneSuggestedToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomSongIfNoneSuggestedToggle;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__randomSongIfNoneSuggestedToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomSongIfNoneSuggestedToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::AutoSetupData*>*& GlobalNamespace::AutoSetupController::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::AutoSetupData*>*> const& GlobalNamespace::AutoSetupController::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ButtonBinder*& GlobalNamespace::AutoSetupController::__get__buttonBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::AutoSetupController::__get__buttonBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__buttonBinder(::HMUI::ButtonBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::AutoSetupController::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::AutoSetupController::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AutoSetupData*& GlobalNamespace::AutoSetupController::__get__autoSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoSetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AutoSetupData*> const& GlobalNamespace::AutoSetupController::__get__autoSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoSetupData;
 }
 constexpr void GlobalNamespace::AutoSetupController::__set__autoSetupData(::GlobalNamespace::AutoSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____autoSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::AutoSetupController::add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value) {

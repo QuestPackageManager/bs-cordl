@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonBinaryWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Bson::BsonBinaryWriter.get_DateTimeKindHandling
 template <>
 
@@ -184,39 +184,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::BinaryWriter*& Newtonsoft::Json::Bson::BsonBinaryWriter::__get__writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryWriter*> const& Newtonsoft::Json::Bson::BsonBinaryWriter::__get__writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr void Newtonsoft::Json::Bson::BsonBinaryWriter::__set__writer(::System::IO::BinaryWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Newtonsoft::Json::Bson::BsonBinaryWriter::__get__largeByteBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____largeByteBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Newtonsoft::Json::Bson::BsonBinaryWriter::__get__largeByteBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____largeByteBuffer;
 }
 constexpr void Newtonsoft::Json::Bson::BsonBinaryWriter::__set__largeByteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____largeByteBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTimeKind& Newtonsoft::Json::Bson::BsonBinaryWriter::__get__DateTimeKindHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DateTimeKindHandling_k__BackingField;
 }
 constexpr ::System::DateTimeKind const& Newtonsoft::Json::Bson::BsonBinaryWriter::__get__DateTimeKindHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DateTimeKindHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Bson::BsonBinaryWriter::__set__DateTimeKindHandling_k__BackingField(::System::DateTimeKind value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DateTimeKindHandling_k__BackingField = value;
 }
 inline void Newtonsoft::Json::Bson::BsonBinaryWriter::setStaticF_Encoding(::System::Text::Encoding* value) {

@@ -3,14 +3,14 @@
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__RankModel_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
+#include "GlobalNamespace/zzzz__RankModel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType::__LevelCompletionResults__LevelEndStateType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -153,291 +153,291 @@ constexpr GlobalNamespace::LevelCompletionResults::operator ::System::IComparabl
   return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::LevelCompletionResults::__get_gameplayModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::LevelCompletionResults::__get_gameplayModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_modifiedScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiedScore;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_modifiedScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiedScore;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_modifiedScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifiedScore = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_multipliedScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multipliedScore;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_multipliedScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multipliedScore;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_multipliedScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multipliedScore = value;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank& GlobalNamespace::LevelCompletionResults::__get_rank() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rank;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank const& GlobalNamespace::LevelCompletionResults::__get_rank() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rank;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_rank(::GlobalNamespace::__RankModel__Rank value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rank = value;
 }
 constexpr bool& GlobalNamespace::LevelCompletionResults::__get_fullCombo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullCombo;
 }
 constexpr bool const& GlobalNamespace::LevelCompletionResults::__get_fullCombo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullCombo;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_fullCombo(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fullCombo = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_leftSaberMovementDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftSaberMovementDistance;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_leftSaberMovementDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftSaberMovementDistance;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_leftSaberMovementDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftSaberMovementDistance = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_rightSaberMovementDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightSaberMovementDistance;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_rightSaberMovementDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightSaberMovementDistance;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_rightSaberMovementDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightSaberMovementDistance = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_leftHandMovementDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandMovementDistance;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_leftHandMovementDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandMovementDistance;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_leftHandMovementDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftHandMovementDistance = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_rightHandMovementDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandMovementDistance;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_rightHandMovementDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandMovementDistance;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_rightHandMovementDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightHandMovementDistance = value;
 }
 constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType& GlobalNamespace::LevelCompletionResults::__get_levelEndStateType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndStateType;
 }
 constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType const& GlobalNamespace::LevelCompletionResults::__get_levelEndStateType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndStateType;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_levelEndStateType(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEndStateType = value;
 }
 constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction& GlobalNamespace::LevelCompletionResults::__get_levelEndAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndAction;
 }
 constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction const& GlobalNamespace::LevelCompletionResults::__get_levelEndAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndAction;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_levelEndAction(::GlobalNamespace::__LevelCompletionResults__LevelEndAction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEndAction = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_energy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___energy;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_energy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___energy;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_energy(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___energy = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_goodCutsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goodCutsCount;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_goodCutsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goodCutsCount;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_goodCutsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___goodCutsCount = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_badCutsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badCutsCount;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_badCutsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badCutsCount;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_badCutsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___badCutsCount = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_missedCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missedCount;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_missedCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missedCount;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_missedCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___missedCount = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_notGoodCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notGoodCount;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_notGoodCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notGoodCount;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_notGoodCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___notGoodCount = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_okCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___okCount;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_okCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___okCount;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_okCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___okCount = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_maxCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCutScore;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_maxCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCutScore;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_maxCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_totalCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalCutScore;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_totalCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalCutScore;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_totalCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___totalCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_goodCutsCountForNotesWithFullScoreScoringType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goodCutsCountForNotesWithFullScoreScoringType;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_goodCutsCountForNotesWithFullScoreScoringType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goodCutsCountForNotesWithFullScoreScoringType;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_goodCutsCountForNotesWithFullScoreScoringType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___goodCutsCountForNotesWithFullScoreScoringType = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___averageCenterDistanceCutScoreForNotesWithFullScoreScoringType;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___averageCenterDistanceCutScoreForNotesWithFullScoreScoringType;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___averageCenterDistanceCutScoreForNotesWithFullScoreScoringType = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_averageCutScoreForNotesWithFullScoreScoringType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___averageCutScoreForNotesWithFullScoreScoringType;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_averageCutScoreForNotesWithFullScoreScoringType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___averageCutScoreForNotesWithFullScoreScoringType;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_averageCutScoreForNotesWithFullScoreScoringType(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___averageCutScoreForNotesWithFullScoreScoringType = value;
 }
 constexpr int32_t& GlobalNamespace::LevelCompletionResults::__get_maxCombo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCombo;
 }
 constexpr int32_t const& GlobalNamespace::LevelCompletionResults::__get_maxCombo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCombo;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_maxCombo(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCombo = value;
 }
 constexpr float_t& GlobalNamespace::LevelCompletionResults::__get_endSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endSongTime;
 }
 constexpr float_t const& GlobalNamespace::LevelCompletionResults::__get_endSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endSongTime;
 }
 constexpr void GlobalNamespace::LevelCompletionResults::__set_endSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endSongTime = value;
 }
 inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompletionResults::New_ctor() {

@@ -12,29 +12,29 @@ CORDL_MODULE_EXPORT(MonoIO)
 namespace System::IO {
 struct MonoFileType;
 }
-namespace System {
-class Exception;
-}
-namespace System::IO {
-struct MonoIOError;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System::IO {
-struct FileMode;
-}
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System::IO {
-struct FileShare;
+namespace System {
+class Exception;
 }
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
 namespace System::IO {
+struct FileAccess;
+}
+namespace System::IO {
 struct FileOptions;
+}
+namespace System::IO {
+struct MonoIOError;
+}
+namespace System::IO {
+struct FileShare;
+}
+namespace System::IO {
+struct FileMode;
 }
 // Forward declare root types
 namespace System::IO {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::IO::MonoIO);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3630))
 // CS Name: ::System.IO::MonoIO*
 class CORDL_TYPE MonoIO : public ::System::Object {

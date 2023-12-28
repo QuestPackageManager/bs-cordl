@@ -3,8 +3,8 @@
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__NavigationMoveEvent__Direction::__NavigationMoveEvent__Direction(int32_t value__) noexcept {
   this->value__ = value__;
@@ -120,27 +120,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::__NavigationMoveEvent__Direction& UnityEngine::UIElements::NavigationMoveEvent::__get__direction_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____direction_k__BackingField;
 }
 constexpr ::UnityEngine::UIElements::__NavigationMoveEvent__Direction const& UnityEngine::UIElements::NavigationMoveEvent::__get__direction_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____direction_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::NavigationMoveEvent::__set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationMoveEvent__Direction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____direction_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::NavigationMoveEvent::__get__move_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____move_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::NavigationMoveEvent::__get__move_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____move_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::NavigationMoveEvent::__set__move_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____move_k__BackingField = value;
 }
 /// @param deadZone: float_t (default: 0.6)

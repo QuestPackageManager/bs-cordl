@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Pkix::PkixPolicyNode.get_Depth
 template <>
 
@@ -278,87 +278,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mChildren() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mChildren;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mChildren() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mChildren;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mChildren(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mChildren)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDepth;
 }
 constexpr int32_t const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDepth;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mDepth = value;
 }
 constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mExpectedPolicies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mExpectedPolicies;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mExpectedPolicies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mExpectedPolicies;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mExpectedPolicies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mParent;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixPolicyNode*> const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mParent;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mParent(::Org::BouncyCastle::Pkix::PkixPolicyNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mPolicyQualifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPolicyQualifiers;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mPolicyQualifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPolicyQualifiers;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mPolicyQualifiers(::Org::BouncyCastle::Utilities::Collections::ISet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mPolicyQualifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mValidPolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mValidPolicy;
 }
 constexpr ::StringW const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mValidPolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mValidPolicy;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mValidPolicy(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mValidPolicy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mCritical() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCritical;
 }
 constexpr bool const& Org::BouncyCastle::Pkix::PkixPolicyNode::__get_mCritical() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCritical;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixPolicyNode::__set_mCritical(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mCritical = value;
 }
 inline int32_t Org::BouncyCastle::Pkix::PkixPolicyNode::get_Depth() {

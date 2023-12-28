@@ -11,29 +11,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VirtualMouseInput)
-namespace UnityEngine::InputSystem {
-struct InputActionProperty;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace System {
-class Action;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
 }
-namespace UnityEngine::InputSystem::UI {
-struct __VirtualMouseInput__CursorMode;
+namespace UnityEngine::InputSystem {
+struct InputActionProperty;
 }
 namespace UnityEngine::InputSystem {
 class Mouse;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::InputSystem::UI {
+struct __VirtualMouseInput__CursorMode;
 }
 namespace UnityEngine {
 class Canvas;
@@ -100,7 +100,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::__
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6164)),
 // TypeDefinitionIndex(TypeDefinitionIndex(6384))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6385)) CS Name: ::UnityEngine.InputSystem.UI::VirtualMouseInput*
 class CORDL_TYPE VirtualMouseInput : public ::UnityEngine::MonoBehaviour {
 public:

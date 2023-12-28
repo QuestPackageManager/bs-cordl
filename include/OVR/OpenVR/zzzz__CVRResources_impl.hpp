@@ -51,15 +51,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRResources& OVR::OpenVR::CVRResources::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRResources const& OVR::OpenVR::CVRResources::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRResources::__set_FnTable(::OVR::OpenVR::IVRResources value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRResources* OVR::OpenVR::CVRResources::New_ctor(void* pInterface) {

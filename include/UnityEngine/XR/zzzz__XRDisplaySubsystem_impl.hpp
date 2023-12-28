@@ -3,8 +3,8 @@
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_impl.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode::__XRDisplaySubsystem__LateLatchNode(int32_t value__) noexcept {
   this->value__ = value__;

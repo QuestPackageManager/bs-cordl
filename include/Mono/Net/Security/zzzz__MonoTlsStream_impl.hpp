@@ -6,23 +6,23 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
+#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18.MoveNext
 template <>
 
@@ -208,99 +208,99 @@ constexpr Mono::Net::Security::MonoTlsStream::operator ::System::IDisposable*() 
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Mono::Net::Security::MobileTlsProvider*& Mono::Net::Security::MonoTlsStream::__get_provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___provider;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& Mono::Net::Security::MonoTlsStream::__get_provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___provider;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_provider(::Mono::Net::Security::MobileTlsProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::NetworkStream*& Mono::Net::Security::MonoTlsStream::__get_networkStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___networkStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& Mono::Net::Security::MonoTlsStream::__get_networkStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___networkStream;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_networkStream(::System::Net::Sockets::NetworkStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___networkStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpWebRequest*& Mono::Net::Security::MonoTlsStream::__get_request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& Mono::Net::Security::MonoTlsStream::__get_request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_request(::System::Net::HttpWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::Interface::MonoTlsSettings*& Mono::Net::Security::MonoTlsStream::__get_settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& Mono::Net::Security::MonoTlsStream::__get_settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___settings;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_settings(::Mono::Security::Interface::MonoTlsSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Security::SslStream*& Mono::Net::Security::MonoTlsStream::__get_sslStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& Mono::Net::Security::MonoTlsStream::__get_sslStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslStream;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_sslStream(::System::Net::Security::SslStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sslStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& Mono::Net::Security::MonoTlsStream::__get_sslStreamLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslStreamLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Mono::Net::Security::MonoTlsStream::__get_sslStreamLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslStreamLock;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_sslStreamLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sslStreamLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebExceptionStatus& Mono::Net::Security::MonoTlsStream::__get_status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr ::System::Net::WebExceptionStatus const& Mono::Net::Security::MonoTlsStream::__get_status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set_status(::System::Net::WebExceptionStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___status = value;
 }
 constexpr bool& Mono::Net::Security::MonoTlsStream::__get__CertificateValidationFailed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CertificateValidationFailed_k__BackingField;
 }
 constexpr bool const& Mono::Net::Security::MonoTlsStream::__get__CertificateValidationFailed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CertificateValidationFailed_k__BackingField;
 }
 constexpr void Mono::Net::Security::MonoTlsStream::__set__CertificateValidationFailed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CertificateValidationFailed_k__BackingField = value;
 }
 inline ::System::Net::HttpWebRequest* Mono::Net::Security::MonoTlsStream::get_Request() {

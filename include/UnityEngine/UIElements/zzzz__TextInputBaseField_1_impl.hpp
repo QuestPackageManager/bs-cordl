@@ -6,119 +6,119 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ContextualMenuPopulateEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ContextualMenuPopulateEvent_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_MaxLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxLength;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_MaxLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxLength;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__set_m_MaxLength(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MaxLength)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_Password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Password;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_Password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Password;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__set_m_Password(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_MaskCharacter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskCharacter;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_MaskCharacter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskCharacter;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__set_m_MaskCharacter(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MaskCharacter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_Text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Text;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_Text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Text;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_IsReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_IsReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IsReadOnly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_IsDelayed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDelayed;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__get_m_IsDelayed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDelayed;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IsDelayed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType>
@@ -155,220 +155,220 @@ template <typename TValueType> constexpr UnityEngine::UIElements::__TextInputBas
   return static_cast<::UnityEngine::UIElements::ITextElement*>(static_cast<void*>(this));
 }
 template <typename TValueType> constexpr ::StringW& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_OriginalText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OriginalText;
 }
 template <typename TValueType> constexpr ::StringW const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_OriginalText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OriginalText;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_OriginalText(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OriginalText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isReadOnly_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReadOnly_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isReadOnly_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReadOnly_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__isReadOnly_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isReadOnly_k__BackingField = value;
 }
 template <typename TValueType> constexpr int32_t& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__maxLength_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxLength_k__BackingField;
 }
 template <typename TValueType> constexpr int32_t const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__maxLength_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxLength_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__maxLength_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxLength_k__BackingField = value;
 }
 template <typename TValueType> constexpr char16_t& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__maskChar_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maskChar_k__BackingField;
 }
 template <typename TValueType> constexpr char16_t const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__maskChar_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maskChar_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__maskChar_k__BackingField(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maskChar_k__BackingField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isPasswordField_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPasswordField_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isPasswordField_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPasswordField_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__isPasswordField_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPasswordField_k__BackingField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__doubleClickSelectsWord_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doubleClickSelectsWord_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__doubleClickSelectsWord_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doubleClickSelectsWord_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__doubleClickSelectsWord_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____doubleClickSelectsWord_k__BackingField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__tripleClickSelectsLine_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tripleClickSelectsLine_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__tripleClickSelectsLine_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tripleClickSelectsLine_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__tripleClickSelectsLine_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tripleClickSelectsLine_k__BackingField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isDelayed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDelayed_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isDelayed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDelayed_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__isDelayed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDelayed_k__BackingField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isDragging_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDragging_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__isDragging_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDragging_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__isDragging_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDragging_k__BackingField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_TouchScreenTextFieldInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchScreenTextFieldInitialized;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_TouchScreenTextFieldInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchScreenTextFieldInitialized;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_TouchScreenTextFieldInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TouchScreenTextFieldInitialized = value;
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_HardwareKeyboardPoller() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HardwareKeyboardPoller;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_HardwareKeyboardPoller() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HardwareKeyboardPoller;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_HardwareKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HardwareKeyboardPoller)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::Color& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_SelectionColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectionColor;
 }
 template <typename TValueType> constexpr ::UnityEngine::Color const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_SelectionColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectionColor;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_SelectionColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SelectionColor = value;
 }
 template <typename TValueType> constexpr ::UnityEngine::Color& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_CursorColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CursorColor;
 }
 template <typename TValueType> constexpr ::UnityEngine::Color const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_CursorColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CursorColor;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_CursorColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CursorColor = value;
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__editorEventHandler_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editorEventHandler_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEventHandler*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__editorEventHandler_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editorEventHandler_k__BackingField;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__editorEventHandler_k__BackingField(::UnityEngine::UIElements::TextEditorEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____editorEventHandler_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::TextEditorEngine*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__editorEngine_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editorEngine_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEngine*> const&
 UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get__editorEngine_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editorEngine_k__BackingField;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set__editorEngine_k__BackingField(::UnityEngine::UIElements::TextEditorEngine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____editorEngine_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::ITextHandle*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_TextHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextHandle;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_TextHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextHandle;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_TextHandle(::UnityEngine::UIElements::ITextHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextHandle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::StringW& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_Text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Text;
 }
 template <typename TValueType> constexpr ::StringW const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__get_m_Text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Text;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__set_m_Text(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::ResetValueAndText() {
@@ -831,57 +831,57 @@ template <typename TValueType> inline void UnityEngine::UIElements::__TextInputB
 // Ctor Parameters []
 template <typename TValueType> constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__TextInputBaseField_1__TextInputBase() {}
 template <typename TValueType> constexpr int32_t& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get_m_VisualInputTabIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisualInputTabIndex;
 }
 template <typename TValueType> constexpr int32_t const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get_m_VisualInputTabIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisualInputTabIndex;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__set_m_VisualInputTabIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VisualInputTabIndex = value;
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get_m_TextInputBase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextInputBase;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*> const&
 UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get_m_TextInputBase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextInputBase;
 }
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__set_m_TextInputBase(::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextInputBase)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::ITextHandle*& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get__iTextHandle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iTextHandle_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextHandle*> const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get__iTextHandle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iTextHandle_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__set__iTextHandle_k__BackingField(::UnityEngine::UIElements::ITextHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____iTextHandle_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::System::Action_1<bool>*& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get_onIsReadOnlyChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onIsReadOnlyChanged;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__get_onIsReadOnlyChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onIsReadOnlyChanged;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__set_onIsReadOnlyChanged(::System::Action_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onIsReadOnlyChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType>

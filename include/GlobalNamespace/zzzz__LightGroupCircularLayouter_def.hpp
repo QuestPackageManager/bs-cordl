@@ -74,7 +74,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightGroupCir
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4928)), TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4928)), TypeDefinitionIndex(TypeDefinitionIndex(4935))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4929))
 // CS Name: ::LightGroupCircularLayouter*
 class CORDL_TYPE LightGroupCircularLayouter : public ::GlobalNamespace::LightGroupSubsystem {

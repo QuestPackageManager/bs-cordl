@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(TrackingServices)
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Services {

@@ -2,53 +2,53 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayFragment_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__elements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__elements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__set__elements(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__freeCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeCount;
 }
 template <typename T> constexpr int32_t const& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__freeCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeCount;
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__set__freeCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____freeCount = value;
 }
 template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__prev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prev;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& System::Threading::SparselyPopulatedArrayFragment_1<T>::__get__prev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prev;
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* System::Threading::SparselyPopulatedArrayFragment_1<T>::New_ctor(int32_t size) {

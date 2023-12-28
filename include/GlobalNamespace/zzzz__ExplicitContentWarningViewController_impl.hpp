@@ -3,12 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ExplicitContentWarningViewController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__ExplicitContentWarningViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9._ctor
 template <>
@@ -113,40 +113,40 @@ constexpr GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutin
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ExplicitContentWarningViewController*& GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExplicitContentWarningViewController*> const&
 GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::__set___4__this(::GlobalNamespace::ExplicitContentWarningViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9* GlobalNamespace::__ExplicitContentWarningViewController___MainCoroutine_d__9::New_ctor(int32_t __1__state) {
@@ -309,63 +309,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::ExplicitContentWarningViewController::__get__showButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::ExplicitContentWarningViewController::__get__showButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showButton;
 }
 constexpr void GlobalNamespace::ExplicitContentWarningViewController::__set__showButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____showButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::ExplicitContentWarningViewController::__get__hideButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hideButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::ExplicitContentWarningViewController::__get__hideButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hideButton;
 }
 constexpr void GlobalNamespace::ExplicitContentWarningViewController::__set__hideButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hideButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerDataModel*& GlobalNamespace::ExplicitContentWarningViewController::__get__playerDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& GlobalNamespace::ExplicitContentWarningViewController::__get__playerDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr void GlobalNamespace::ExplicitContentWarningViewController::__set__playerDataModel(::GlobalNamespace::PlayerDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::ExplicitContentWarningViewController::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ExplicitContentWarningViewController::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::ExplicitContentWarningViewController::__set_didFinishEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::ExplicitContentWarningViewController::__get__coroutineInProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineInProgress;
 }
 constexpr bool const& GlobalNamespace::ExplicitContentWarningViewController::__get__coroutineInProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineInProgress;
 }
 constexpr void GlobalNamespace::ExplicitContentWarningViewController::__set__coroutineInProgress(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____coroutineInProgress = value;
 }
 inline void GlobalNamespace::ExplicitContentWarningViewController::add_didFinishEvent(::System::Action* value) {

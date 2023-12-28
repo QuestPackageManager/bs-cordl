@@ -7,22 +7,22 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllersRecorder_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
-#include "GlobalNamespace/zzzz__VRControllersRecorder_def.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__VRController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "UnityEngine/zzzz__TextAsset_def.hpp"
-#include "System/IO/zzzz__BinaryReader_def.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
+#include "GlobalNamespace/zzzz__VRControllersRecorder_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
+#include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "GlobalNamespace/zzzz__VRController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IConstructorStringGenerator_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -94,267 +94,267 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xPos1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPos1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xPos1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPos1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__xPos1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xPos1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yPos1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yPos1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yPos1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yPos1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__yPos1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yPos1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zPos1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zPos1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zPos1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zPos1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__zPos1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zPos1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xPos2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPos2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xPos2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPos2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__xPos2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xPos2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yPos2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yPos2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yPos2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yPos2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__yPos2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yPos2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zPos2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zPos2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zPos2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zPos2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__zPos2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zPos2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xPos3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPos3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xPos3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPos3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__xPos3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xPos3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yPos3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yPos3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yPos3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yPos3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__yPos3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yPos3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zPos3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zPos3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zPos3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zPos3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__zPos3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zPos3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xRot1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xRot1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xRot1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xRot1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__xRot1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xRot1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yRot1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yRot1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yRot1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yRot1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__yRot1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yRot1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zRot1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zRot1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zRot1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zRot1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__zRot1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zRot1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__wRot1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wRot1;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__wRot1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wRot1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__wRot1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wRot1 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xRot2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xRot2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xRot2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xRot2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__xRot2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xRot2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yRot2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yRot2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yRot2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yRot2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__yRot2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yRot2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zRot2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zRot2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zRot2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zRot2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__zRot2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zRot2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__wRot2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wRot2;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__wRot2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wRot2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__wRot2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wRot2 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xRot3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xRot3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__xRot3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xRot3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__xRot3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xRot3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yRot3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yRot3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__yRot3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yRot3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__yRot3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yRot3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zRot3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zRot3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__zRot3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zRot3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__zRot3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zRot3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__wRot3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wRot3;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__wRot3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wRot3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__wRot3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wRot3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__get__time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::__set__time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time = value;
 }
 inline ::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable* GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable::New_ctor() {
@@ -384,17 +384,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*, ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*>&
 GlobalNamespace::__VRControllersRecorder__SavedData::__get__keyframes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyframes;
 }
 constexpr ::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*, ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*> const&
 GlobalNamespace::__VRControllersRecorder__SavedData::__get__keyframes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyframes;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__SavedData::__set__keyframes(
     ::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*, ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyframes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__VRControllersRecorder__SavedData* GlobalNamespace::__VRControllersRecorder__SavedData::New_ctor() {
@@ -625,87 +625,87 @@ constexpr GlobalNamespace::__VRControllersRecorder__Keyframe::operator ::GlobalN
   return static_cast<::GlobalNamespace::IConstructorStringGenerator*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_pos1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos1;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_pos1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_pos1(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos1 = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_pos2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos2;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_pos2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_pos2(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos2 = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_pos3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos3;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_pos3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_pos3(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos3 = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_rot1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rot1;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_rot1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rot1;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_rot1(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rot1 = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_rot2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rot2;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_rot2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rot2;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_rot2(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rot2 = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_rot3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rot3;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_rot3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rot3;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_rot3(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rot3 = value;
 }
 constexpr float_t& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr float_t const& GlobalNamespace::__VRControllersRecorder__Keyframe::__get_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__Keyframe::__set_time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
 }
 inline ::UnityEngine::Pose GlobalNamespace::__VRControllersRecorder__Keyframe::get_leftControllerPose() {
@@ -1042,52 +1042,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*& GlobalNamespace::__VRControllersRecorder__State::__get__keyframes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyframes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*> const&
 GlobalNamespace::__VRControllersRecorder__State::__get__keyframes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyframes;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__State::__set__keyframes(::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyframes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Pose& GlobalNamespace::__VRControllersRecorder__State::__get_leftControllerOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftControllerOffset;
 }
 constexpr ::UnityEngine::Pose const& GlobalNamespace::__VRControllersRecorder__State::__get_leftControllerOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftControllerOffset;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__State::__set_leftControllerOffset(::UnityEngine::Pose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftControllerOffset = value;
 }
 constexpr ::UnityEngine::Pose& GlobalNamespace::__VRControllersRecorder__State::__get_rightControllerOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightControllerOffset;
 }
 constexpr ::UnityEngine::Pose const& GlobalNamespace::__VRControllersRecorder__State::__get_rightControllerOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightControllerOffset;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__State::__set_rightControllerOffset(::UnityEngine::Pose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightControllerOffset = value;
 }
 constexpr uint32_t& GlobalNamespace::__VRControllersRecorder__State::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr uint32_t const& GlobalNamespace::__VRControllersRecorder__State::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void GlobalNamespace::__VRControllersRecorder__State::__set__version(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 inline ::GlobalNamespace::__VRControllersRecorder__State*
@@ -1691,327 +1691,327 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::TextAsset*& GlobalNamespace::VRControllersRecorder::__get__recordingTextAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingTextAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& GlobalNamespace::VRControllersRecorder::__get__recordingTextAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingTextAsset;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__recordingTextAsset(::UnityEngine::TextAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingTextAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::VRControllersRecorder::__get__recordingFileName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingFileName;
 }
 constexpr ::StringW const& GlobalNamespace::VRControllersRecorder::__get__recordingFileName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingFileName;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__recordingFileName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingFileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRControllersRecorder__Mode& GlobalNamespace::VRControllersRecorder::__get__mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
 constexpr ::GlobalNamespace::__VRControllersRecorder__Mode const& GlobalNamespace::VRControllersRecorder::__get__mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__mode(::GlobalNamespace::__VRControllersRecorder__Mode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mode = value;
 }
 constexpr bool& GlobalNamespace::VRControllersRecorder::__get__dontMoveHead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dontMoveHead;
 }
 constexpr bool const& GlobalNamespace::VRControllersRecorder::__get__dontMoveHead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dontMoveHead;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__dontMoveHead(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dontMoveHead = value;
 }
 constexpr bool& GlobalNamespace::VRControllersRecorder::__get__changeToNonVRCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____changeToNonVRCamera;
 }
 constexpr bool const& GlobalNamespace::VRControllersRecorder::__get__changeToNonVRCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____changeToNonVRCamera;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__changeToNonVRCamera(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____changeToNonVRCamera = value;
 }
 constexpr bool& GlobalNamespace::VRControllersRecorder::__get__adjustSabersPositionBasedOnHeadPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____adjustSabersPositionBasedOnHeadPosition;
 }
 constexpr bool const& GlobalNamespace::VRControllersRecorder::__get__adjustSabersPositionBasedOnHeadPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____adjustSabersPositionBasedOnHeadPosition;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__adjustSabersPositionBasedOnHeadPosition(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____adjustSabersPositionBasedOnHeadPosition = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::VRControllersRecorder::__get__headRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headRotationOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::VRControllersRecorder::__get__headRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headRotationOffset;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__headRotationOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headRotationOffset = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::VRControllersRecorder::__get__headPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::VRControllersRecorder::__get__headPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPositionOffset;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__headPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPositionOffset = value;
 }
 constexpr float_t& GlobalNamespace::VRControllersRecorder::__get__headSmooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headSmooth;
 }
 constexpr float_t const& GlobalNamespace::VRControllersRecorder::__get__headSmooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headSmooth;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__headSmooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headSmooth = value;
 }
 constexpr float_t& GlobalNamespace::VRControllersRecorder::__get__cameraFOV() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraFOV;
 }
 constexpr float_t const& GlobalNamespace::VRControllersRecorder::__get__cameraFOV() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraFOV;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__cameraFOV(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraFOV = value;
 }
 constexpr float_t& GlobalNamespace::VRControllersRecorder::__get__controllersTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::VRControllersRecorder::__get__controllersTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersTimeOffset;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__controllersTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____controllersTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::VRControllersRecorder::__get__controllersSmooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersSmooth;
 }
 constexpr float_t const& GlobalNamespace::VRControllersRecorder::__get__controllersSmooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersSmooth;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__controllersSmooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____controllersSmooth = value;
 }
 constexpr ::GlobalNamespace::VRController*& GlobalNamespace::VRControllersRecorder::__get__controller0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller0;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& GlobalNamespace::VRControllersRecorder::__get__controller0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller0;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__controller0(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controller0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VRController*& GlobalNamespace::VRControllersRecorder::__get__controller1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller1;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& GlobalNamespace::VRControllersRecorder::__get__controller1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller1;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__controller1(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controller1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::VRControllersRecorder::__get__headTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::VRControllersRecorder::__get__headTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTransform;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__headTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::VRControllersRecorder::__get__camera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____camera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::VRControllersRecorder::__get__camera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____camera;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__camera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::VRControllersRecorder::__get__recorderCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recorderCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::VRControllersRecorder::__get__recorderCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recorderCamera;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__recorderCamera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recorderCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::VRControllersRecorder::__get__spawnRotationTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnRotationTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::VRControllersRecorder::__get__spawnRotationTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnRotationTransform;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__spawnRotationTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spawnRotationTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::VRControllersRecorder::__get__originTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::VRControllersRecorder::__get__originTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originTransform;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__originTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AudioTimeSyncController*& GlobalNamespace::VRControllersRecorder::__get__audioTimeSyncController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& GlobalNamespace::VRControllersRecorder::__get__audioTimeSyncController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::VRControllersRecorder::__get__controller0Transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller0Transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::VRControllersRecorder::__get__controller0Transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller0Transform;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__controller0Transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controller0Transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::VRControllersRecorder::__get__controller1Transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller1Transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::VRControllersRecorder::__get__controller1Transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller1Transform;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__controller1Transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controller1Transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::VRControllersRecorder::__get__hasHead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasHead;
 }
 constexpr bool const& GlobalNamespace::VRControllersRecorder::__get__hasHead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasHead;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__hasHead(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasHead = value;
 }
 constexpr bool& GlobalNamespace::VRControllersRecorder::__get__hasController0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasController0;
 }
 constexpr bool const& GlobalNamespace::VRControllersRecorder::__get__hasController0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasController0;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__hasController0(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasController0 = value;
 }
 constexpr bool& GlobalNamespace::VRControllersRecorder::__get__hasController1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasController1;
 }
 constexpr bool const& GlobalNamespace::VRControllersRecorder::__get__hasController1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasController1;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__hasController1(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasController1 = value;
 }
 constexpr ::GlobalNamespace::__VRControllersRecorder__State*& GlobalNamespace::VRControllersRecorder::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRControllersRecorder__State*> const& GlobalNamespace::VRControllersRecorder::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__state(::GlobalNamespace::__VRControllersRecorder__State* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::VRControllersRecorder::__get__keyframeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyframeIndex;
 }
 constexpr int32_t const& GlobalNamespace::VRControllersRecorder::__get__keyframeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyframeIndex;
 }
 constexpr void GlobalNamespace::VRControllersRecorder::__set__keyframeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyframeIndex = value;
 }
 inline ::System::ValueTuple_3<::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose> GlobalNamespace::VRControllersRecorder::get_currentPoses() {

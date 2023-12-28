@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "UnityEngine/zzzz__Logger_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/zzzz__ILogger_def.hpp"
-#include "UnityEngine/zzzz__ILogHandler_def.hpp"
-#include "UnityEngine/zzzz__LogType_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/zzzz__LogType_def.hpp"
+#include "UnityEngine/zzzz__ILogHandler_def.hpp"
+#include "UnityEngine/zzzz__ILogger_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Logger._ctor
 template <>
 
@@ -235,39 +235,39 @@ constexpr UnityEngine::Logger::operator ::UnityEngine::ILogHandler*() noexcept {
   return static_cast<::UnityEngine::ILogHandler*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::ILogHandler*& UnityEngine::Logger::__get__logHandler_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logHandler_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ILogHandler*> const& UnityEngine::Logger::__get__logHandler_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logHandler_k__BackingField;
 }
 constexpr void UnityEngine::Logger::__set__logHandler_k__BackingField(::UnityEngine::ILogHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logHandler_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Logger::__get__logEnabled_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logEnabled_k__BackingField;
 }
 constexpr bool const& UnityEngine::Logger::__get__logEnabled_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logEnabled_k__BackingField;
 }
 constexpr void UnityEngine::Logger::__set__logEnabled_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____logEnabled_k__BackingField = value;
 }
 constexpr ::UnityEngine::LogType& UnityEngine::Logger::__get__filterLogType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterLogType_k__BackingField;
 }
 constexpr ::UnityEngine::LogType const& UnityEngine::Logger::__get__filterLogType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterLogType_k__BackingField;
 }
 constexpr void UnityEngine::Logger::__set__filterLogType_k__BackingField(::UnityEngine::LogType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____filterLogType_k__BackingField = value;
 }
 inline ::UnityEngine::Logger* UnityEngine::Logger::New_ctor(::UnityEngine::ILogHandler* logHandler) {

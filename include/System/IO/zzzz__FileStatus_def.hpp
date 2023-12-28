@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStatus)
 namespace System {
-struct DateTimeOffset;
-}
-namespace GlobalNamespace {
-struct __Interop__Sys__FileStatus;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+struct DateTimeOffset;
 }
 namespace System::IO {
 struct FileAttributes;
+}
+namespace GlobalNamespace {
+struct __Interop__Sys__FileStatus;
 }
 // Forward declare root types
 namespace System::IO {

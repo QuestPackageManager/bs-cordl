@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::IX509Store.GetMatches
 template <>
 

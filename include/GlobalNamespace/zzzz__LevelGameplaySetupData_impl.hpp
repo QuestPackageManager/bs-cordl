@@ -110,27 +110,27 @@ constexpr GlobalNamespace::LevelGameplaySetupData::operator ::GlobalNamespace::I
   return static_cast<::GlobalNamespace::ILevelGameplaySetupData*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::PreviewDifficultyBeatmap*& GlobalNamespace::LevelGameplaySetupData::__get__beatmapLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewDifficultyBeatmap*> const& GlobalNamespace::LevelGameplaySetupData::__get__beatmapLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
 constexpr void GlobalNamespace::LevelGameplaySetupData::__set__beatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::LevelGameplaySetupData::__get__gameplayModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::LevelGameplaySetupData::__get__gameplayModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
 constexpr void GlobalNamespace::LevelGameplaySetupData::__set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::PreviewDifficultyBeatmap* GlobalNamespace::LevelGameplaySetupData::get_beatmapLevel() {

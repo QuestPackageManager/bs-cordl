@@ -95,39 +95,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>& RootMotion::FinalIK::IKExecutionOrder::__get_IKComponents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKComponents;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> const& RootMotion::FinalIK::IKExecutionOrder::__get_IKComponents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKComponents;
 }
 constexpr void RootMotion::FinalIK::IKExecutionOrder::__set_IKComponents(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___IKComponents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Animator*& RootMotion::FinalIK::IKExecutionOrder::__get_animator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& RootMotion::FinalIK::IKExecutionOrder::__get_animator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animator;
 }
 constexpr void RootMotion::FinalIK::IKExecutionOrder::__set_animator(::UnityEngine::Animator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::IKExecutionOrder::__get_fixedFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedFrame;
 }
 constexpr bool const& RootMotion::FinalIK::IKExecutionOrder::__get_fixedFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedFrame;
 }
 constexpr void RootMotion::FinalIK::IKExecutionOrder::__set_fixedFrame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fixedFrame = value;
 }
 inline bool RootMotion::FinalIK::IKExecutionOrder::get_animatePhysics() {

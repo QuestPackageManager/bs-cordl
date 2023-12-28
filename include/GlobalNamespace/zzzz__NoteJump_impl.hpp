@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJump_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpaceConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpaceConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteJump.add_noteJumpDidFinishEvent
 template <>
 
@@ -271,387 +271,387 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::NoteJump::__get__rotatedObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotatedObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::NoteJump::__get__rotatedObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotatedObject;
 }
 constexpr void GlobalNamespace::NoteJump::__set__rotatedObject(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotatedObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__yAvoidanceUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceUp;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__yAvoidanceUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceUp;
 }
 constexpr void GlobalNamespace::NoteJump::__set__yAvoidanceUp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAvoidanceUp = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__yAvoidanceDown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceDown;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__yAvoidanceDown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceDown;
 }
 constexpr void GlobalNamespace::NoteJump::__set__yAvoidanceDown(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAvoidanceDown = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__endDistanceOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDistanceOffset;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__endDistanceOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDistanceOffset;
 }
 constexpr void GlobalNamespace::NoteJump::__set__endDistanceOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endDistanceOffset = value;
 }
 constexpr ::GlobalNamespace::PlayerTransforms*& GlobalNamespace::NoteJump::__get__playerTransforms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTransforms;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& GlobalNamespace::NoteJump::__get__playerTransforms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTransforms;
 }
 constexpr void GlobalNamespace::NoteJump::__set__playerTransforms(::GlobalNamespace::PlayerTransforms* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerSpaceConvertor*& GlobalNamespace::NoteJump::__get__playerSpaceConvertor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpaceConvertor;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpaceConvertor*> const& GlobalNamespace::NoteJump::__get__playerSpaceConvertor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpaceConvertor;
 }
 constexpr void GlobalNamespace::NoteJump::__set__playerSpaceConvertor(::GlobalNamespace::PlayerSpaceConvertor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSpaceConvertor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::NoteJump::__get__audioTimeSyncController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::NoteJump::__get__audioTimeSyncController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr void GlobalNamespace::NoteJump::__set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::NoteJump::__get_noteJumpDidFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__get_noteJumpDidFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidFinishEvent;
 }
 constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidFinishEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::NoteJump::__get_noteJumpDidPassMissedMarkerEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassMissedMarkerEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__get_noteJumpDidPassMissedMarkerEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassMissedMarkerEvent;
 }
 constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidPassMissedMarkerEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidPassMissedMarkerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::NoteJump*>*& GlobalNamespace::NoteJump::__get_noteJumpDidPassThreeQuartersEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassThreeQuartersEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteJump*>*> const& GlobalNamespace::NoteJump::__get_noteJumpDidPassThreeQuartersEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassThreeQuartersEvent;
 }
 constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteJump*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidPassThreeQuartersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::NoteJump::__get_noteJumpDidPassHalfEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassHalfEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__get_noteJumpDidPassHalfEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassHalfEvent;
 }
 constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidPassHalfEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidPassHalfEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<float_t>*& GlobalNamespace::NoteJump::__get_noteJumpDidUpdateProgressEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidUpdateProgressEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& GlobalNamespace::NoteJump::__get_noteJumpDidUpdateProgressEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidUpdateProgressEvent;
 }
 constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidUpdateProgressEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__startPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__startPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPos;
 }
 constexpr void GlobalNamespace::NoteJump::__set__startPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__endPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__endPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos;
 }
 constexpr void GlobalNamespace::NoteJump::__set__endPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endPos = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__jumpDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDuration;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__jumpDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDuration;
 }
 constexpr void GlobalNamespace::NoteJump::__set__jumpDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpDuration = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__moveVec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveVec;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__moveVec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveVec;
 }
 constexpr void GlobalNamespace::NoteJump::__set__moveVec(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveVec = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__beatTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatTime;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__beatTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatTime;
 }
 constexpr void GlobalNamespace::NoteJump::__set__beatTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatTime = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__startVerticalVelocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startVerticalVelocity;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__startVerticalVelocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startVerticalVelocity;
 }
 constexpr void GlobalNamespace::NoteJump::__set__startVerticalVelocity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startVerticalVelocity = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__startRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__startRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotation;
 }
 constexpr void GlobalNamespace::NoteJump::__set__startRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__middleRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____middleRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__middleRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____middleRotation;
 }
 constexpr void GlobalNamespace::NoteJump::__set__middleRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____middleRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__endRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__endRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endRotation;
 }
 constexpr void GlobalNamespace::NoteJump::__set__endRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endRotation = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__gravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__gravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
 constexpr void GlobalNamespace::NoteJump::__set__gravity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gravity = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__yAvoidance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidance;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__yAvoidance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidance;
 }
 constexpr void GlobalNamespace::NoteJump::__set__yAvoidance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAvoidance = value;
 }
 constexpr float_t& GlobalNamespace::NoteJump::__get__missedTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedTime;
 }
 constexpr float_t const& GlobalNamespace::NoteJump::__get__missedTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedTime;
 }
 constexpr void GlobalNamespace::NoteJump::__set__missedTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missedTime = value;
 }
 constexpr bool& GlobalNamespace::NoteJump::__get__missedMarkReported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedMarkReported;
 }
 constexpr bool const& GlobalNamespace::NoteJump::__get__missedMarkReported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedMarkReported;
 }
 constexpr void GlobalNamespace::NoteJump::__set__missedMarkReported(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missedMarkReported = value;
 }
 constexpr bool& GlobalNamespace::NoteJump::__get__threeQuartersMarkReported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threeQuartersMarkReported;
 }
 constexpr bool const& GlobalNamespace::NoteJump::__get__threeQuartersMarkReported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threeQuartersMarkReported;
 }
 constexpr void GlobalNamespace::NoteJump::__set__threeQuartersMarkReported(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____threeQuartersMarkReported = value;
 }
 constexpr bool& GlobalNamespace::NoteJump::__get__halfJumpMarkReported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____halfJumpMarkReported;
 }
 constexpr bool const& GlobalNamespace::NoteJump::__get__halfJumpMarkReported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____halfJumpMarkReported;
 }
 constexpr void GlobalNamespace::NoteJump::__set__halfJumpMarkReported(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____halfJumpMarkReported = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__localPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__localPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition;
 }
 constexpr void GlobalNamespace::NoteJump::__set__localPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPosition = value;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& GlobalNamespace::NoteJump::__get__randomRotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomRotations;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::NoteJump::__get__randomRotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomRotations;
 }
 constexpr void GlobalNamespace::NoteJump::__set__randomRotations(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomRotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__worldRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__worldRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldRotation;
 }
 constexpr void GlobalNamespace::NoteJump::__set__worldRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____worldRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__inverseWorldRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseWorldRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__inverseWorldRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseWorldRotation;
 }
 constexpr void GlobalNamespace::NoteJump::__set__inverseWorldRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inverseWorldRotation = value;
 }
 constexpr bool& GlobalNamespace::NoteJump::__get__rotateTowardsPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateTowardsPlayer;
 }
 constexpr bool const& GlobalNamespace::NoteJump::__get__rotateTowardsPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateTowardsPlayer;
 }
 constexpr void GlobalNamespace::NoteJump::__set__rotateTowardsPlayer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotateTowardsPlayer = value;
 }
 inline void GlobalNamespace::NoteJump::add_noteJumpDidFinishEvent(::System::Action* value) {

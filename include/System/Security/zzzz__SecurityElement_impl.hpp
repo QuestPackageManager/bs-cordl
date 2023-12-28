@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 //  Writing Method size for method: ::System::Security::__SecurityElement__SecurityAttribute._ctor
 template <>
@@ -48,27 +48,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Security::__SecurityElement__SecurityAttribute::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& System::Security::__SecurityElement__SecurityAttribute::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void System::Security::__SecurityElement__SecurityAttribute::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::__SecurityElement__SecurityAttribute::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr ::StringW const& System::Security::__SecurityElement__SecurityAttribute::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr void System::Security::__SecurityElement__SecurityAttribute::__set__value(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::__SecurityElement__SecurityAttribute* System::Security::__SecurityElement__SecurityAttribute::New_ctor(::StringW name, ::StringW value) {
@@ -365,51 +365,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Security::SecurityElement::__get_text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr ::StringW const& System::Security::SecurityElement::__get_text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr void System::Security::SecurityElement::__set_text(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::SecurityElement::__get_tag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tag;
 }
 constexpr ::StringW const& System::Security::SecurityElement::__get_tag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tag;
 }
 constexpr void System::Security::SecurityElement::__set_tag(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& System::Security::SecurityElement::__get_attributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::SecurityElement::__get_attributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
 constexpr void System::Security::SecurityElement::__set_attributes(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& System::Security::SecurityElement::__get_children() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::SecurityElement::__get_children() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
 constexpr void System::Security::SecurityElement::__set_children(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___children)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::SecurityElement::setStaticF_invalid_tag_chars(::ArrayW<char16_t, ::Array<char16_t>*> value) {

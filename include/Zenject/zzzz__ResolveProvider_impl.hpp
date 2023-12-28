@@ -2,15 +2,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__ResolveProvider_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__InjectSources_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__InjectSources_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::ResolveProvider._ctor
 template <>
 
@@ -109,75 +109,75 @@ constexpr Zenject::ResolveProvider::operator ::Zenject::IProvider*() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 constexpr ::System::Object*& Zenject::ResolveProvider::__get__identifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____identifier;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::ResolveProvider::__get__identifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____identifier;
 }
 constexpr void Zenject::ResolveProvider::__set__identifier(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____identifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& Zenject::ResolveProvider::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::ResolveProvider::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void Zenject::ResolveProvider::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::ResolveProvider::__get__contractType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contractType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::ResolveProvider::__get__contractType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contractType;
 }
 constexpr void Zenject::ResolveProvider::__set__contractType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contractType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::ResolveProvider::__get__isOptional() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isOptional;
 }
 constexpr bool const& Zenject::ResolveProvider::__get__isOptional() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isOptional;
 }
 constexpr void Zenject::ResolveProvider::__set__isOptional(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isOptional = value;
 }
 constexpr ::Zenject::InjectSources& Zenject::ResolveProvider::__get__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____source;
 }
 constexpr ::Zenject::InjectSources const& Zenject::ResolveProvider::__get__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____source;
 }
 constexpr void Zenject::ResolveProvider::__set__source(::Zenject::InjectSources value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____source = value;
 }
 constexpr bool& Zenject::ResolveProvider::__get__matchAll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matchAll;
 }
 constexpr bool const& Zenject::ResolveProvider::__get__matchAll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matchAll;
 }
 constexpr void Zenject::ResolveProvider::__set__matchAll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____matchAll = value;
 }
 inline ::Zenject::ResolveProvider* Zenject::ResolveProvider::New_ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::System::Object* identifier, bool isOptional,

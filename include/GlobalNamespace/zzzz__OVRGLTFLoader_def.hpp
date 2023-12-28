@@ -14,20 +14,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFLoader)
-namespace UnityEngine {
-class SkinnedMeshRenderer;
+namespace GlobalNamespace {
+struct OVRMeshData;
 }
 namespace GlobalNamespace {
-struct OVRMeshAttributes;
+struct OVRChunkType;
+}
+namespace GlobalNamespace {
+class __OVRGLTFLoader____c__DisplayClass30_0;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct OVRGLTFScene;
+}
+namespace GlobalNamespace {
+class OVRGLTFAnimationNodeMorphTargetHandler;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace GlobalNamespace {
-struct OVRMaterialData;
+struct OVRTextureQualityFiltering;
 }
 namespace GlobalNamespace {
-struct OVRGLTFScene;
+class OVRGLTFAnimatinonNode;
+}
+namespace UnityEngine {
+class SkinnedMeshRenderer;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -36,46 +54,28 @@ namespace System::IO {
 class Stream;
 }
 namespace GlobalNamespace {
-class __OVRGLTFLoader____c__DisplayClass30_0;
+struct OVRMaterialData;
 }
 namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace GlobalNamespace {
+struct OVRMeshAttributes;
+}
+namespace GlobalNamespace {
+struct OVRTextureData;
+}
+namespace GlobalNamespace {
 struct OVRGLTFInputNode;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimatinonNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct OVRMeshData;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct OVRTextureQualityFiltering;
-}
 namespace UnityEngine {
 class Shader;
 }
-namespace GlobalNamespace {
-struct OVRChunkType;
-}
 namespace UnityEngine {
 class Texture2D;
-}
-namespace GlobalNamespace {
-struct OVRTextureData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -153,8 +153,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRGLTFLoader
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7564))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
 class CORDL_TYPE OVRGLTFLoader : public ::System::Object {
 public:
   // Declarations

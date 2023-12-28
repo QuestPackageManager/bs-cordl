@@ -125,27 +125,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X500DistinguishedName::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& System::Security::Cryptography::X509Certificates::X500DistinguishedName::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X500DistinguishedName::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::X509Certificates::X500DistinguishedName::__get_canonEncoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canonEncoding;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::X509Certificates::X500DistinguishedName::__get_canonEncoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canonEncoding;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X500DistinguishedName::__set_canonEncoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___canonEncoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteBasicCutInfoHelper)
-namespace GlobalNamespace {
-struct SaberType;
-}
-namespace GlobalNamespace {
-struct ColorType;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
+struct ColorType;
+}
+namespace GlobalNamespace {
+struct SaberType;
+}
+namespace GlobalNamespace {
 struct NoteCutDirection;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

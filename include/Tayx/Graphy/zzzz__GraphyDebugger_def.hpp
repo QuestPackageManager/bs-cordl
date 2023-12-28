@@ -11,49 +11,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphyDebugger)
 namespace Tayx::Graphy {
-struct __GraphyDebugger__DebugComparer;
+class __GraphyDebugger____c__DisplayClass18_0;
+}
+namespace Tayx::Graphy {
+class __GraphyDebugger____c__DisplayClass19_0;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
 }
-namespace System {
-class Action;
+namespace Tayx::Graphy {
+class __GraphyDebugger____c;
+}
+namespace Tayx::Graphy {
+struct __GraphyDebugger__DebugVariable;
+}
+namespace Tayx::Graphy {
+class __GraphyDebugger__DebugPacket;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Tayx::Graphy {
+struct __GraphyDebugger__DebugComparer;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioMonitor;
 }
 namespace Tayx::Graphy {
-class __GraphyDebugger____c__DisplayClass18_0;
-}
-namespace Tayx::Graphy {
-struct __GraphyDebugger__DebugVariable;
-}
-namespace Tayx::Graphy::Ram {
-class G_RamMonitor;
-}
-namespace Tayx::Graphy {
-struct __GraphyDebugger__DebugCondition;
-}
-namespace Tayx::Graphy {
-class __GraphyDebugger__DebugPacket;
-}
-namespace Tayx::Graphy {
-class __GraphyDebugger____c__DisplayClass19_0;
-}
-namespace Tayx::Graphy {
 class __GraphyDebugger____c__DisplayClass21_0;
-}
-namespace Tayx::Graphy {
-struct __GraphyDebugger__ConditionEvaluation;
 }
 namespace Tayx::Graphy {
 struct __GraphyDebugger__MessageType;
 }
 namespace Tayx::Graphy {
-class __GraphyDebugger____c;
+struct __GraphyDebugger__DebugCondition;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Tayx::Graphy {
+struct __GraphyDebugger__ConditionEvaluation;
+}
+namespace Tayx::Graphy::Ram {
+class G_RamMonitor;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
@@ -379,7 +379,7 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger__
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15054)), TypeDefinitionIndex(TypeDefinitionIndex(15053)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15053)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15054))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15056))
 // CS Name: ::GraphyDebugger::DebugPacket*
 class CORDL_TYPE __GraphyDebugger__DebugPacket : public ::System::Object {
@@ -831,7 +831,7 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2552 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2552 }), TypeDefinitionIndex(TypeDefinitionIndex(15071))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15061))
 // CS Name: ::Tayx.Graphy::GraphyDebugger*
 class CORDL_TYPE GraphyDebugger : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyDebugger*> {

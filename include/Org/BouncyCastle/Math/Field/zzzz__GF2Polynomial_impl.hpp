@@ -87,15 +87,15 @@ constexpr Org::BouncyCastle::Math::Field::GF2Polynomial::operator ::Org::BouncyC
   return static_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::Field::GF2Polynomial::__get_exponents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exponents;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::Field::GF2Polynomial::__get_exponents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exponents;
 }
 constexpr void Org::BouncyCastle::Math::Field::GF2Polynomial::__set_exponents(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___exponents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents) {

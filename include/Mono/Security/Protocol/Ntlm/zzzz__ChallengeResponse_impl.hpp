@@ -186,51 +186,51 @@ constexpr Mono::Security::Protocol::Ntlm::ChallengeResponse::operator ::System::
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr bool const& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr void Mono::Security::Protocol::Ntlm::ChallengeResponse::__set__disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__challenge() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____challenge;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__challenge() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____challenge;
 }
 constexpr void Mono::Security::Protocol::Ntlm::ChallengeResponse::__set__challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____challenge)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__lmpwd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lmpwd;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__lmpwd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lmpwd;
 }
 constexpr void Mono::Security::Protocol::Ntlm::ChallengeResponse::__set__lmpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lmpwd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__ntpwd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ntpwd;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__ntpwd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ntpwd;
 }
 constexpr void Mono::Security::Protocol::Ntlm::ChallengeResponse::__set__ntpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ntpwd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Mono::Security::Protocol::Ntlm::ChallengeResponse::setStaticF_magic(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

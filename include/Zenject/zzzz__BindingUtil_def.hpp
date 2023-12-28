@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(BindingUtil)
 namespace System {
 class Type;
 }
+namespace System {
+class Object;
+}
+namespace Zenject {
+struct InvalidBindResponses;
+}
 namespace UnityEngine {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
 class IProvider;
-}
-namespace Zenject {
-struct InvalidBindResponses;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {

@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SoloModeSelectionViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SoloModeSelectionViewController_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__SoloModeSelectionViewController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType::__SoloModeSelectionViewController__MenuType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -150,66 +150,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::SoloModeSelectionViewController::__get__freePlayModeButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freePlayModeButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::SoloModeSelectionViewController::__get__freePlayModeButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freePlayModeButton;
 }
 constexpr void GlobalNamespace::SoloModeSelectionViewController::__set__freePlayModeButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____freePlayModeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::SoloModeSelectionViewController::__get__oneSaberModeButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oneSaberModeButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::SoloModeSelectionViewController::__get__oneSaberModeButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oneSaberModeButton;
 }
 constexpr void GlobalNamespace::SoloModeSelectionViewController::__set__oneSaberModeButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oneSaberModeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::SoloModeSelectionViewController::__get__noArrowsModeButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noArrowsModeButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::SoloModeSelectionViewController::__get__noArrowsModeButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noArrowsModeButton;
 }
 constexpr void GlobalNamespace::SoloModeSelectionViewController::__set__noArrowsModeButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noArrowsModeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::SoloModeSelectionViewController::__get__dismissButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dismissButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::SoloModeSelectionViewController::__get__dismissButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dismissButton;
 }
 constexpr void GlobalNamespace::SoloModeSelectionViewController::__set__dismissButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dismissButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*&
 GlobalNamespace::SoloModeSelectionViewController::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*> const&
 GlobalNamespace::SoloModeSelectionViewController::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::SoloModeSelectionViewController::__set_didFinishEvent(
     ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SoloModeSelectionViewController::add_didFinishEvent(

@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRApplications_def.hpp"
 #include "OVR/OpenVR/zzzz__AppOverrideKeys_t_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRApplicationError_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRApplicationProperty_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRApplicationTransitionState_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRApplications._ctor
 template <>
 
@@ -499,15 +499,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRApplications& OVR::OpenVR::CVRApplications::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRApplications const& OVR::OpenVR::CVRApplications::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRApplications::__set_FnTable(::OVR::OpenVR::IVRApplications value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRApplications* OVR::OpenVR::CVRApplications::New_ctor(void* pInterface) {

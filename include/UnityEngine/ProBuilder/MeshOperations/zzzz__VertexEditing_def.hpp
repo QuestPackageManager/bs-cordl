@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexEditing)
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Edge;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
+class FaceRebuildData;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
+template <typename T1, typename T2> struct SimpleTuple_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
 }
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

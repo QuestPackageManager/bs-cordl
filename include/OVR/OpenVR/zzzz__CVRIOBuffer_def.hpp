@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRIOBuffer)
 namespace OVR::OpenVR {
-struct EIOBufferError;
+struct EIOBufferMode;
 }
 namespace OVR::OpenVR {
-struct EIOBufferMode;
+struct EIOBufferError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

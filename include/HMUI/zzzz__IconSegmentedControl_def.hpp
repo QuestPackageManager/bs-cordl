@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IconSegmentedControl)
 namespace HMUI {
-class __SegmentedControl__IDataSource;
+class IconSegmentedControlCell;
+}
+namespace HMUI {
+class SegmentedControlCell;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace HMUI {
-class __IconSegmentedControl__DataItem;
-}
-namespace HMUI {
-class SegmentedControlCell;
-}
-namespace HMUI {
-class IconSegmentedControlCell;
+class __SegmentedControl__IDataSource;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace HMUI {
+class __IconSegmentedControl__DataItem;
 }
 namespace UnityEngine {
 class Sprite;

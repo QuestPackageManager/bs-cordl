@@ -4,12 +4,12 @@
 #include "Zenject/zzzz__ProjectContext_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::Zenject::ProjectContext.add_PreInstall
 template <>
 
@@ -366,111 +366,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& Zenject::ProjectContext::__get_PreInstall() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreInstall;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Zenject::ProjectContext::__get_PreInstall() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreInstall;
 }
 constexpr void Zenject::ProjectContext::__set_PreInstall(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PreInstall)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& Zenject::ProjectContext::__get_PostInstall() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PostInstall;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Zenject::ProjectContext::__get_PostInstall() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PostInstall;
 }
 constexpr void Zenject::ProjectContext::__set_PostInstall(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PostInstall)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& Zenject::ProjectContext::__get_PreResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreResolve;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Zenject::ProjectContext::__get_PreResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreResolve;
 }
 constexpr void Zenject::ProjectContext::__set_PreResolve(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PreResolve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& Zenject::ProjectContext::__get_PostResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PostResolve;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Zenject::ProjectContext::__get_PostResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PostResolve;
 }
 constexpr void Zenject::ProjectContext::__set_PostResolve(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PostResolve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::ProjectContext::__get__parentNewObjectsUnderContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentNewObjectsUnderContext;
 }
 constexpr bool const& Zenject::ProjectContext::__get__parentNewObjectsUnderContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentNewObjectsUnderContext;
 }
 constexpr void Zenject::ProjectContext::__set__parentNewObjectsUnderContext(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____parentNewObjectsUnderContext = value;
 }
 constexpr ::Zenject::ReflectionBakingCoverageModes& Zenject::ProjectContext::__get__editorReflectionBakingCoverageMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editorReflectionBakingCoverageMode;
 }
 constexpr ::Zenject::ReflectionBakingCoverageModes const& Zenject::ProjectContext::__get__editorReflectionBakingCoverageMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editorReflectionBakingCoverageMode;
 }
 constexpr void Zenject::ProjectContext::__set__editorReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____editorReflectionBakingCoverageMode = value;
 }
 constexpr ::Zenject::ReflectionBakingCoverageModes& Zenject::ProjectContext::__get__buildsReflectionBakingCoverageMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildsReflectionBakingCoverageMode;
 }
 constexpr ::Zenject::ReflectionBakingCoverageModes const& Zenject::ProjectContext::__get__buildsReflectionBakingCoverageMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildsReflectionBakingCoverageMode;
 }
 constexpr void Zenject::ProjectContext::__set__buildsReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____buildsReflectionBakingCoverageMode = value;
 }
 constexpr ::Zenject::ZenjectSettings*& Zenject::ProjectContext::__get__settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenjectSettings*> const& Zenject::ProjectContext::__get__settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr void Zenject::ProjectContext::__set__settings(::Zenject::ZenjectSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& Zenject::ProjectContext::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::ProjectContext::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void Zenject::ProjectContext::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Zenject::ProjectContext::setStaticF__instance(::Zenject::ProjectContext* value) {

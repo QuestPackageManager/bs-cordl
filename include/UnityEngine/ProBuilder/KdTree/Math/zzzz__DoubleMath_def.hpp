@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::Math::DoubleMath);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree::Math {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15927), inst: 2704 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15927), inst: 2704 }), TypeDefinitionIndex(TypeDefinitionIndex(15927))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15925))
 // CS Name: ::UnityEngine.ProBuilder.KdTree.Math::DoubleMath*
 class CORDL_TYPE DoubleMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t> {

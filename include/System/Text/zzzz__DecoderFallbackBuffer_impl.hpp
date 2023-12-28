@@ -146,27 +146,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::cordl_internals::Ptr<uint8_t>& System::Text::DecoderFallbackBuffer::__get_byteStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteStart;
 }
 constexpr ::cordl_internals::Ptr<uint8_t> const& System::Text::DecoderFallbackBuffer::__get_byteStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteStart;
 }
 constexpr void System::Text::DecoderFallbackBuffer::__set_byteStart(::cordl_internals::Ptr<uint8_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___byteStart)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<char16_t>& System::Text::DecoderFallbackBuffer::__get_charEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEnd;
 }
 constexpr ::cordl_internals::Ptr<char16_t> const& System::Text::DecoderFallbackBuffer::__get_charEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEnd;
 }
 constexpr void System::Text::DecoderFallbackBuffer::__set_charEnd(::cordl_internals::Ptr<char16_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charEnd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool System::Text::DecoderFallbackBuffer::Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index) {

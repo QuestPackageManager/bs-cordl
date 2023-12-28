@@ -4,23 +4,23 @@
 #include "UnityEngine/zzzz__TextGenerationError_impl.hpp"
 #include "UnityEngine/zzzz__TextGenerationSettings_impl.hpp"
 #include "UnityEngine/zzzz__TextGenerator_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/zzzz__UILineInfo_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__UICharInfo_def.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
 #include "UnityEngine/zzzz__TextGenerationError_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
+#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/zzzz__UICharInfo_def.hpp"
+#include "UnityEngine/zzzz__UILineInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextGenerator._ctor
 template <>
@@ -539,135 +539,135 @@ constexpr UnityEngine::TextGenerator::operator ::System::IDisposable*() noexcept
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& UnityEngine::TextGenerator::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::TextGenerator::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 constexpr ::StringW& UnityEngine::TextGenerator::__get_m_LastString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastString;
 }
 constexpr ::StringW const& UnityEngine::TextGenerator::__get_m_LastString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastString;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_LastString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LastString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::TextGenerationSettings& UnityEngine::TextGenerator::__get_m_LastSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastSettings;
 }
 constexpr ::UnityEngine::TextGenerationSettings const& UnityEngine::TextGenerator::__get_m_LastSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastSettings;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_LastSettings(::UnityEngine::TextGenerationSettings value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastSettings = value;
 }
 constexpr bool& UnityEngine::TextGenerator::__get_m_HasGenerated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HasGenerated;
 }
 constexpr bool const& UnityEngine::TextGenerator::__get_m_HasGenerated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HasGenerated;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_HasGenerated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HasGenerated = value;
 }
 constexpr ::UnityEngine::TextGenerationError& UnityEngine::TextGenerator::__get_m_LastValid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastValid;
 }
 constexpr ::UnityEngine::TextGenerationError const& UnityEngine::TextGenerator::__get_m_LastValid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastValid;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_LastValid(::UnityEngine::TextGenerationError value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastValid = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*& UnityEngine::TextGenerator::__get_m_Verts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Verts;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*> const& UnityEngine::TextGenerator::__get_m_Verts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Verts;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_Verts(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Verts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*& UnityEngine::TextGenerator::__get_m_Characters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Characters;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*> const& UnityEngine::TextGenerator::__get_m_Characters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Characters;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_Characters(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Characters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*& UnityEngine::TextGenerator::__get_m_Lines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Lines;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*> const& UnityEngine::TextGenerator::__get_m_Lines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Lines;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_Lines(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Lines)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::TextGenerator::__get_m_CachedVerts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedVerts;
 }
 constexpr bool const& UnityEngine::TextGenerator::__get_m_CachedVerts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedVerts;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_CachedVerts(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CachedVerts = value;
 }
 constexpr bool& UnityEngine::TextGenerator::__get_m_CachedCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedCharacters;
 }
 constexpr bool const& UnityEngine::TextGenerator::__get_m_CachedCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedCharacters;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_CachedCharacters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CachedCharacters = value;
 }
 constexpr bool& UnityEngine::TextGenerator::__get_m_CachedLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedLines;
 }
 constexpr bool const& UnityEngine::TextGenerator::__get_m_CachedLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedLines;
 }
 constexpr void UnityEngine::TextGenerator::__set_m_CachedLines(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CachedLines = value;
 }
 inline ::UnityEngine::TextGenerator* UnityEngine::TextGenerator::New_ctor() {

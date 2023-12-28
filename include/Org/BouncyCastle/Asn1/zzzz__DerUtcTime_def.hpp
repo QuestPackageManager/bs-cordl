@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerUtcTime)
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
 }
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

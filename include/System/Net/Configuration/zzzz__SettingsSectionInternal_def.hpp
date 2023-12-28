@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Net::Configuration::SettingsSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9340))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9340)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9315))
 // CS Name: ::System.Net.Configuration::SettingsSectionInternal*
 class CORDL_TYPE SettingsSectionInternal : public ::System::Object {

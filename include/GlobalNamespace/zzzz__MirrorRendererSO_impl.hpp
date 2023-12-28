@@ -5,20 +5,20 @@
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MirrorRendererSO__CameraTransformData.Equals
@@ -346,222 +346,222 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::MirrorRendererSO::__get__reflectLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectLayers;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::MirrorRendererSO::__get__reflectLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectLayers;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__reflectLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reflectLayers = value;
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__get__stereoTextureWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stereoTextureWidth;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__get__stereoTextureWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stereoTextureWidth;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__stereoTextureWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stereoTextureWidth = value;
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__get__stereoTextureHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stereoTextureHeight;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__get__stereoTextureHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stereoTextureHeight;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__stereoTextureHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stereoTextureHeight = value;
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__get__monoTextureWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoTextureWidth;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__get__monoTextureWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoTextureWidth;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__monoTextureWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____monoTextureWidth = value;
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__get__monoTextureHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoTextureHeight;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__get__monoTextureHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoTextureHeight;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__monoTextureHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____monoTextureHeight = value;
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__get__maxAntiAliasing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxAntiAliasing;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__get__maxAntiAliasing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxAntiAliasing;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__maxAntiAliasing(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxAntiAliasing = value;
 }
 constexpr bool& GlobalNamespace::MirrorRendererSO::__get__disableDepthTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableDepthTexture;
 }
 constexpr bool const& GlobalNamespace::MirrorRendererSO::__get__disableDepthTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableDepthTexture;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__disableDepthTexture(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disableDepthTexture = value;
 }
 constexpr bool& GlobalNamespace::MirrorRendererSO::__get__enableBloomPrePass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableBloomPrePass;
 }
 constexpr bool const& GlobalNamespace::MirrorRendererSO::__get__enableBloomPrePass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableBloomPrePass;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__enableBloomPrePass(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enableBloomPrePass = value;
 }
 constexpr ::GlobalNamespace::BloomPrePassRendererSO*& GlobalNamespace::MirrorRendererSO::__get__bloomPrePassRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassRendererSO*> const& GlobalNamespace::MirrorRendererSO::__get__bloomPrePassRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassRenderer;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__bloomPrePassRenderer(::GlobalNamespace::BloomPrePassRendererSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomPrePassEffectSO*& GlobalNamespace::MirrorRendererSO::__get__bloomPrePassEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffect;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectSO*> const& GlobalNamespace::MirrorRendererSO::__get__bloomPrePassEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffect;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__bloomPrePassEffect(::GlobalNamespace::BloomPrePassEffectSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& GlobalNamespace::MirrorRendererSO::__get__clearDepthShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearDepthShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::MirrorRendererSO::__get__clearDepthShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearDepthShader;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__clearDepthShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearDepthShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& GlobalNamespace::MirrorRendererSO::__get__bloomPrePassRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassRenderTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& GlobalNamespace::MirrorRendererSO::__get__bloomPrePassRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassRenderTexture;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__bloomPrePassRenderTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::MirrorRendererSO::__get__mirrorCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::MirrorRendererSO::__get__mirrorCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorCamera;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__mirrorCamera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__get__antialiasing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____antialiasing;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__get__antialiasing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____antialiasing;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__antialiasing(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____antialiasing = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityEngine::RenderTexture*>*&
 GlobalNamespace::MirrorRendererSO::__get__renderTextures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderTextures;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityEngine::RenderTexture*>*> const&
 GlobalNamespace::MirrorRendererSO::__get__renderTextures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderTextures;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set__renderTextures(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityEngine::RenderTexture*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderTextures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__get_kLeftRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kLeftRect;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__get_kLeftRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kLeftRect;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set_kLeftRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kLeftRect = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__get_kRightRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kRightRect;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__get_kRightRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kRightRect;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set_kRightRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kRightRect = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__get_kFullRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kFullRect;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__get_kFullRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kFullRect;
 }
 constexpr void GlobalNamespace::MirrorRendererSO::__set_kFullRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kFullRect = value;
 }
 inline void GlobalNamespace::MirrorRendererSO::OnValidate() {

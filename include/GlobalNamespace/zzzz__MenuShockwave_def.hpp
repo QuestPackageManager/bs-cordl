@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MenuShockwave)
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace VRUIControls {
 class VRPointer;
 }
 namespace GlobalNamespace {
 class Signal;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

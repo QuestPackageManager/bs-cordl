@@ -77,39 +77,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Runtime::Remoting::WellKnownClientTypeEntry::__get_obj_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Remoting::WellKnownClientTypeEntry::__get_obj_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr void System::Runtime::Remoting::WellKnownClientTypeEntry::__set_obj_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj_type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::WellKnownClientTypeEntry::__get_obj_url() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_url;
 }
 constexpr ::StringW const& System::Runtime::Remoting::WellKnownClientTypeEntry::__get_obj_url() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_url;
 }
 constexpr void System::Runtime::Remoting::WellKnownClientTypeEntry::__set_obj_url(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj_url)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::WellKnownClientTypeEntry::__get_app_url() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___app_url;
 }
 constexpr ::StringW const& System::Runtime::Remoting::WellKnownClientTypeEntry::__get_app_url() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___app_url;
 }
 constexpr void System::Runtime::Remoting::WellKnownClientTypeEntry::__set_app_url(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___app_url)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* System::Runtime::Remoting::WellKnownClientTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl) {

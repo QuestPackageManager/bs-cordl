@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentRangeHeaderValue)
 namespace System {
-template <typename T> struct Nullable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class ICloneable;

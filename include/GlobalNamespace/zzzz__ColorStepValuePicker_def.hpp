@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(ColorStepValuePicker)
 namespace UnityEngine::UI {
 class Button;
 }
+namespace HMUI {
+class ImageView;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace System {
 class Action;
-}
-namespace HMUI {
-class ImageView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

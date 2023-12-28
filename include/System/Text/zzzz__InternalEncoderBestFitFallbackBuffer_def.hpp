@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalEncoderBestFitFallbackBuffer)
-namespace System {
-class Object;
-}
 namespace System::Text {
 class InternalEncoderBestFitFallback;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {

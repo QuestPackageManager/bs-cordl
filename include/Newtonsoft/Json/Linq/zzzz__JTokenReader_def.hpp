@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JTokenReader)
-namespace Newtonsoft::Json::Linq {
-class JContainer;
-}
 namespace Newtonsoft::Json {
 struct JsonToken;
 }
@@ -16,13 +13,16 @@ namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace Newtonsoft::Json::Linq {
-class JToken;
+class JContainer;
+}
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

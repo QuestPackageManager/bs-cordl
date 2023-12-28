@@ -1,15 +1,15 @@
 #pragma once
 #include "System/IO/zzzz__FileStream_impl.hpp"
 #include "System/Net/zzzz__FileWebStream_def.hpp"
-#include "System/Net/zzzz__FileWebRequest_def.hpp"
-#include "System/Net/zzzz__CloseExState_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/IO/zzzz__FileMode_def.hpp"
-#include "System/IO/zzzz__FileShare_def.hpp"
+#include "System/Net/zzzz__CloseExState_def.hpp"
+#include "System/Net/zzzz__FileWebRequest_def.hpp"
 #include "System/Net/zzzz__ICloseEx_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__FileShare_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::FileWebStream._ctor
 template <>
 
@@ -182,15 +182,15 @@ constexpr System::Net::FileWebStream::operator ::System::Net::ICloseEx*() noexce
   return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::FileWebRequest*& System::Net::FileWebStream::__get_m_request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::FileWebRequest*> const& System::Net::FileWebStream::__get_m_request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_request;
 }
 constexpr void System::Net::FileWebStream::__set_m_request(::System::Net::FileWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::FileWebStream* System::Net::FileWebStream::New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,

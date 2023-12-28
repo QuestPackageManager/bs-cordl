@@ -170,42 +170,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>& UnityEngine::UIElements::PointerDispatchState::__get_m_PendingPointerCapture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PendingPointerCapture;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const&
 UnityEngine::UIElements::PointerDispatchState::__get_m_PendingPointerCapture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PendingPointerCapture;
 }
 constexpr void
 UnityEngine::UIElements::PointerDispatchState::__set_m_PendingPointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PendingPointerCapture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>& UnityEngine::UIElements::PointerDispatchState::__get_m_PointerCapture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerCapture;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const&
 UnityEngine::UIElements::PointerDispatchState::__get_m_PointerCapture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerCapture;
 }
 constexpr void UnityEngine::UIElements::PointerDispatchState::__set_m_PointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PointerCapture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& UnityEngine::UIElements::PointerDispatchState::__get_m_ShouldSendCompatibilityMouseEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldSendCompatibilityMouseEvents;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& UnityEngine::UIElements::PointerDispatchState::__get_m_ShouldSendCompatibilityMouseEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldSendCompatibilityMouseEvents;
 }
 constexpr void UnityEngine::UIElements::PointerDispatchState::__set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ShouldSendCompatibilityMouseEvents)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

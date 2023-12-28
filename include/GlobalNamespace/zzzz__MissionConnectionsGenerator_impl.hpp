@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionConnectionsGenerator_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionConnectionsGenerator.get__rootMissionNode
 template <>
 
@@ -95,52 +95,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MissionNodesManager*& GlobalNamespace::MissionConnectionsGenerator::__get__missionNodesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodesManager*> const& GlobalNamespace::MissionConnectionsGenerator::__get__missionNodesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodesManager;
 }
 constexpr void GlobalNamespace::MissionConnectionsGenerator::__set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNodesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MissionNodeConnection*& GlobalNamespace::MissionConnectionsGenerator::__get__nodeConnectionPref() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeConnectionPref;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeConnection*> const& GlobalNamespace::MissionConnectionsGenerator::__get__nodeConnectionPref() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeConnectionPref;
 }
 constexpr void GlobalNamespace::MissionConnectionsGenerator::__set__nodeConnectionPref(::GlobalNamespace::MissionNodeConnection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodeConnectionPref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::MissionConnectionsGenerator::__get__connectionsCanvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionsCanvas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::MissionConnectionsGenerator::__get__connectionsCanvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionsCanvas;
 }
 constexpr void GlobalNamespace::MissionConnectionsGenerator::__set__connectionsCanvas(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionsCanvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*& GlobalNamespace::MissionConnectionsGenerator::__get__missionNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*> const&
 GlobalNamespace::MissionConnectionsGenerator::__get__missionNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodes;
 }
 constexpr void GlobalNamespace::MissionConnectionsGenerator::__set__missionNodes(::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MissionNode* GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode() {

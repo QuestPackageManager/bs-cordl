@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBigCuttableColliderSize_def.hpp"
+#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
-#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteBigCuttableColliderSize.Awake
 template <>
@@ -66,39 +66,39 @@ constexpr GlobalNamespace::NoteBigCuttableColliderSize::operator ::GlobalNamespa
   return static_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::NoteController*& GlobalNamespace::NoteBigCuttableColliderSize::__get__noteController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteController*> const& GlobalNamespace::NoteBigCuttableColliderSize::__get__noteController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteController;
 }
 constexpr void GlobalNamespace::NoteBigCuttableColliderSize::__set__noteController(::GlobalNamespace::NoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::BoxCollider*& GlobalNamespace::NoteBigCuttableColliderSize::__get__boxCollider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boxCollider;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::BoxCollider*> const& GlobalNamespace::NoteBigCuttableColliderSize::__get__boxCollider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boxCollider;
 }
 constexpr void GlobalNamespace::NoteBigCuttableColliderSize::__set__boxCollider(::UnityEngine::BoxCollider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boxCollider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteBigCuttableColliderSize::__get__defaultColliderSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColliderSize;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteBigCuttableColliderSize::__get__defaultColliderSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColliderSize;
 }
 constexpr void GlobalNamespace::NoteBigCuttableColliderSize::__set__defaultColliderSize(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultColliderSize = value;
 }
 inline void GlobalNamespace::NoteBigCuttableColliderSize::Awake() {

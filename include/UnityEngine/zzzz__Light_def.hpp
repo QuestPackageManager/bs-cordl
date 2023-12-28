@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class Texture;
+struct LightType;
 }
 namespace UnityEngine {
-struct LightType;
+class Texture;
 }
 namespace UnityEngine {
 struct LightBakingOutput;

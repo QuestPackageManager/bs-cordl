@@ -2,10 +2,10 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AsnDecodeStatus_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierExtension_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierHashAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierHashAlgorithm_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension._ctor
 template <>
 
@@ -227,39 +227,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__subjectKeyIdentifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subjectKeyIdentifier;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__subjectKeyIdentifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subjectKeyIdentifier;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__set__subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subjectKeyIdentifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__ski() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ski;
 }
 constexpr ::StringW const& System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__ski() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ski;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__set__ski(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ski)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus& System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus const& System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__set__status(::System::Security::Cryptography::AsnDecodeStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 inline ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension* System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor() {

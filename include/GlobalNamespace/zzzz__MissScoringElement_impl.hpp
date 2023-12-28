@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissScoringElement.get_cutScore
 template <>
 
@@ -92,27 +92,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& GlobalNamespace::MissScoringElement::__get__multiplierEventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierEventType;
 }
 constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& GlobalNamespace::MissScoringElement::__get__multiplierEventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierEventType;
 }
 constexpr void GlobalNamespace::MissScoringElement::__set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplierEventType = value;
 }
 constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& GlobalNamespace::MissScoringElement::__get__wouldBeCorrectCutBestPossibleMultiplierEventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wouldBeCorrectCutBestPossibleMultiplierEventType;
 }
 constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& GlobalNamespace::MissScoringElement::__get__wouldBeCorrectCutBestPossibleMultiplierEventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wouldBeCorrectCutBestPossibleMultiplierEventType;
 }
 constexpr void GlobalNamespace::MissScoringElement::__set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wouldBeCorrectCutBestPossibleMultiplierEventType = value;
 }
 inline int32_t GlobalNamespace::MissScoringElement::get_cutScore() {

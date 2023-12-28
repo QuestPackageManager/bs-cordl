@@ -11,9 +11,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Interop)
-namespace System {
-class Exception;
-}
 namespace GlobalNamespace {
 class __Interop__Sys;
 }
@@ -21,31 +18,34 @@ namespace GlobalNamespace {
 struct __Interop__ErrorInfo;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Exception;
 }
 namespace GlobalNamespace {
 struct __Interop__Error;
 }
-namespace GlobalNamespace {
-struct __Interop__Sys__NodeType;
-}
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace GlobalNamespace {
-struct __Interop__Sys__Permissions;
-}
-namespace GlobalNamespace {
-struct __Interop__Sys__DirectoryEntry;
-}
-namespace GlobalNamespace {
-struct __Interop__Sys__FileStatus;
+template <typename T, typename TResult> class Func_2;
 }
 namespace GlobalNamespace {
 struct __Interop__Sys__FileStatusFlags;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafeFileHandle;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace GlobalNamespace {
+struct __Interop__Sys__NodeType;
+}
+namespace GlobalNamespace {
+struct __Interop__Sys__DirectoryEntry;
+}
+namespace GlobalNamespace {
+struct __Interop__Sys__Permissions;
+}
+namespace GlobalNamespace {
+struct __Interop__Sys__FileStatus;
 }
 namespace System {
 template <typename T> struct Span_1;

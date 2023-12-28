@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormatProvider)
-namespace System::Globalization {
-class __FormatProvider__Number;
-}
 namespace System::Text {
 struct ValueStringBuilder;
 }
@@ -20,6 +17,9 @@ class NumberFormatInfo;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+class __FormatProvider__Number;
 }
 namespace GlobalNamespace {
 struct __FormatProvider__Number__NumberBuffer;

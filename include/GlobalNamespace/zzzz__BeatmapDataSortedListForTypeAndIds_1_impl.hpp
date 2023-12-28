@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataSortedListForTypeAndIds_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataSortedListForTypeAndIds_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TBase>
 inline void GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>::setStaticF___9(::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* value) {
@@ -72,55 +72,55 @@ template <typename TBase> constexpr ::GlobalNamespace::__BeatmapDataSortedListFo
 template <typename TBase>
 constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__get__items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename TBase>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>*> const&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__get__items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename TBase>
 constexpr void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__set__items(
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TBase>
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__get__sortedListsDataProcessors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedListsDataProcessors;
 }
 template <typename TBase>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*> const&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__get__sortedListsDataProcessors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedListsDataProcessors;
 }
 template <typename TBase>
 constexpr void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__set__sortedListsDataProcessors(
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sortedListsDataProcessors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TBase>
 constexpr ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__get__itemToNodeMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodeMap;
 }
 template <typename TBase>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*> const&
 GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__get__itemToNodeMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodeMap;
 }
 template <typename TBase>
 constexpr void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__set__itemToNodeMap(
     ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____itemToNodeMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TBase>

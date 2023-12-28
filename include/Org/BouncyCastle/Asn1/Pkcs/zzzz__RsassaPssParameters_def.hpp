@@ -7,9 +7,6 @@ CORDL_MODULE_EXPORT(RsassaPssParameters)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace System {
 class Object;
 }
@@ -18,6 +15,9 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {

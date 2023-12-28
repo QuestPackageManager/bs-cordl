@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsContentInfoParser_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataParser_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedDataParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedDataParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser._ctor
 template <>
 
@@ -108,63 +108,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get_recipientInfoStore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recipientInfoStore;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get_recipientInfoStore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recipientInfoStore;
 }
 constexpr void Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recipientInfoStore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get_envelopedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envelopedData;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*> const& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get_envelopedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envelopedData;
 }
 constexpr void Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___envelopedData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get__encAlg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encAlg;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get__encAlg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encAlg;
 }
 constexpr void Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__set__encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encAlg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get__unprotectedAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unprotectedAttributes;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get__unprotectedAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unprotectedAttributes;
 }
 constexpr void Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__set__unprotectedAttributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unprotectedAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get__attrNotRead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attrNotRead;
 }
 constexpr bool const& Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__get__attrNotRead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attrNotRead;
 }
 constexpr void Org::BouncyCastle::Cms::CmsEnvelopedDataParser::__set__attrNotRead(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____attrNotRead = value;
 }
 inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* Org::BouncyCastle::Cms::CmsEnvelopedDataParser::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData) {

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__DisposerReplySink_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::DisposerReplySink._ctor
 template <>
 
@@ -58,27 +58,27 @@ constexpr System::Runtime::Remoting::DisposerReplySink::operator ::System::Runti
   return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::DisposerReplySink::__get__next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& System::Runtime::Remoting::DisposerReplySink::__get__next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr void System::Runtime::Remoting::DisposerReplySink::__set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IDisposable*& System::Runtime::Remoting::DisposerReplySink::__get__disposable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& System::Runtime::Remoting::DisposerReplySink::__get__disposable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposable;
 }
 constexpr void System::Runtime::Remoting::DisposerReplySink::__set__disposable(::System::IDisposable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::DisposerReplySink* System::Runtime::Remoting::DisposerReplySink::New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next,

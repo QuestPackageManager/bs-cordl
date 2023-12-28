@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRChaperone)
 namespace OVR::OpenVR {
-struct HmdColor_t;
+struct ChaperoneCalibrationState;
 }
 namespace OVR::OpenVR {
-struct ChaperoneCalibrationState;
+struct HmdColor_t;
 }
 namespace OVR::OpenVR {
 struct HmdQuad_t;

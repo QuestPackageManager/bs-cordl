@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__Creator_1_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline ::Newtonsoft::Json::Utilities::Creator_1<T>* Newtonsoft::Json::Utilities::Creator_1<T>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::Newtonsoft::Json::Utilities::Creator_1<T>*>(object, method));

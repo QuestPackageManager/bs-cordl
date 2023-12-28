@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChunkedInputStream)
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class Object;
 }
 namespace System::Net {
@@ -17,17 +20,14 @@ class MonoChunkParser;
 namespace System::Net {
 class HttpListenerContext;
 }
+namespace System::Net {
+class __ChunkedInputStream__ReadBufferState;
+}
 namespace System {
 class IAsyncResult;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Net {
-class __ChunkedInputStream__ReadBufferState;
-}
-namespace System {
-class AsyncCallback;
 }
 namespace System::Net {
 class HttpStreamAsyncResult;

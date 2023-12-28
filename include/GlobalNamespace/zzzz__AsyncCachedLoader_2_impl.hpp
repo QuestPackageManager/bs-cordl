@@ -6,16 +6,16 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 template <typename TKey, typename TValue>
 inline void GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>::_ctor(TKey keyId, ::System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource,
@@ -111,61 +111,61 @@ template <typename TKey, typename TValue> constexpr ::GlobalNamespace::__AsyncCa
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>*&
 GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__scheduledTaskList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scheduledTaskList;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>*> const&
 GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__scheduledTaskList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scheduledTaskList;
 }
 template <typename TKey, typename TValue>
 constexpr void
 GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__set__scheduledTaskList(::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scheduledTaskList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::HMCache_2<TKey, TValue>*& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__cache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cache;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<TKey, TValue>*> const& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__cache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cache;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__set__cache(::GlobalNamespace::HMCache_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>*& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__resultValueFunc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultValueFunc;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>*> const&
 GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__resultValueFunc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultValueFunc;
 }
 template <typename TKey, typename TValue>
 constexpr void
 GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__set__resultValueFunc(::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultValueFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr bool& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__isLoading() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isLoading;
 }
 template <typename TKey, typename TValue> constexpr bool const& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__get__isLoading() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isLoading;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__set__isLoading(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isLoading = value;
 }
 template <typename TKey, typename TValue> inline void GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::ClearCache() {

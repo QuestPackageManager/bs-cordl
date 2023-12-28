@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestStream)
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;

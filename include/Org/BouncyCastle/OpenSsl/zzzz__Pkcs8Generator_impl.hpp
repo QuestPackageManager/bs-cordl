@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__Pkcs8Generator_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::OpenSsl::Pkcs8Generator._ctor
 template <>
 
@@ -100,63 +100,63 @@ constexpr Org::BouncyCastle::OpenSsl::Pkcs8Generator::operator ::Org::BouncyCast
   return static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
 }
 constexpr void Org::BouncyCastle::OpenSsl::Pkcs8Generator::__set_password(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_algorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___algorithm;
 }
 constexpr ::StringW const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_algorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___algorithm;
 }
 constexpr void Org::BouncyCastle::OpenSsl::Pkcs8Generator::__set_algorithm(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___algorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_iterationCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
 constexpr int32_t const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_iterationCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
 constexpr void Org::BouncyCastle::OpenSsl::Pkcs8Generator::__set_iterationCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iterationCount = value;
 }
 constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_privKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_privKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privKey;
 }
 constexpr void Org::BouncyCastle::OpenSsl::Pkcs8Generator::__set_privKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
 constexpr void Org::BouncyCastle::OpenSsl::Pkcs8Generator::__set_random(::Org::BouncyCastle::Security::SecureRandom* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::OpenSsl::Pkcs8Generator::setStaticF_PbeSha1_RC4_128(::StringW value) {

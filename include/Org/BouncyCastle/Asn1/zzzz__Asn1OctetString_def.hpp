@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1OctetString)
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
@@ -14,13 +20,7 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace System {
-class Object;
 }
 namespace System::IO {
 class Stream;

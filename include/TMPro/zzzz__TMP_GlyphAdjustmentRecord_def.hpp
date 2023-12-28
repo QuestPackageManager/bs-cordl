@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_GlyphAdjustmentRecord)
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphAdjustmentRecord;
-}
 namespace TMPro {
 struct TMP_GlyphValueRecord;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphAdjustmentRecord;
 }
 // Forward declare root types
 namespace TMPro {

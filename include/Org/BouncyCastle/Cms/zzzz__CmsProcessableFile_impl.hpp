@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableFile_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__FileInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsProcessableFile._ctor
 template <>
 
@@ -91,27 +91,27 @@ constexpr Org::BouncyCastle::Cms::CmsProcessableFile::operator ::Org::BouncyCast
   return static_cast<::Org::BouncyCastle::Cms::CmsReadable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::FileInfo*& Org::BouncyCastle::Cms::CmsProcessableFile::__get__file() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____file;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::FileInfo*> const& Org::BouncyCastle::Cms::CmsProcessableFile::__get__file() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____file;
 }
 constexpr void Org::BouncyCastle::Cms::CmsProcessableFile::__set__file(::System::IO::FileInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____file)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Cms::CmsProcessableFile::__get__bufSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufSize;
 }
 constexpr int32_t const& Org::BouncyCastle::Cms::CmsProcessableFile::__get__bufSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufSize;
 }
 constexpr void Org::BouncyCastle::Cms::CmsProcessableFile::__set__bufSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bufSize = value;
 }
 inline ::Org::BouncyCastle::Cms::CmsProcessableFile* Org::BouncyCastle::Cms::CmsProcessableFile::New_ctor(::System::IO::FileInfo* file) {

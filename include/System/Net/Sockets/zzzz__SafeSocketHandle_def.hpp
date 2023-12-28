@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeSocketHandle)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Threading {
 class Thread;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace System::Diagnostics {
 class StackTrace;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Net::Sockets {

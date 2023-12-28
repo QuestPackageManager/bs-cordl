@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenModeController_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
 #include "HMUI/zzzz__ScreenModeData_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 //  Writing Method size for method: ::HMUI::ScreenModeController.Awake
 template <>
 
@@ -59,51 +59,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::HMUI::CurvedCanvasSettings*, ::Array<::HMUI::CurvedCanvasSettings*>*>& HMUI::ScreenModeController::__get__curvedCanvases() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvases;
 }
 constexpr ::ArrayW<::HMUI::CurvedCanvasSettings*, ::Array<::HMUI::CurvedCanvasSettings*>*> const& HMUI::ScreenModeController::__get__curvedCanvases() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvases;
 }
 constexpr void HMUI::ScreenModeController::__set__curvedCanvases(::ArrayW<::HMUI::CurvedCanvasSettings*, ::Array<::HMUI::CurvedCanvasSettings*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curvedCanvases)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& HMUI::ScreenModeController::__get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& HMUI::ScreenModeController::__get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr void HMUI::ScreenModeController::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ScreenModeData*& HMUI::ScreenModeController::__get__defaultModeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultModeData;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenModeData*> const& HMUI::ScreenModeController::__get__defaultModeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultModeData;
 }
 constexpr void HMUI::ScreenModeController::__set__defaultModeData(::HMUI::ScreenModeData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultModeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& HMUI::ScreenModeController::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& HMUI::ScreenModeController::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void HMUI::ScreenModeController::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::ScreenModeController::Awake() {

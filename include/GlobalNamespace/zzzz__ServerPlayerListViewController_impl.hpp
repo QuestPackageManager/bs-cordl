@@ -1,20 +1,20 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerPlayerListViewController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
-#include "GlobalNamespace/zzzz__GameServerPlayersTableView_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameServerPlayersTableView_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ServerPlayerListViewController.add_selectSuggestedBeatmapEvent
 template <>
 
@@ -313,162 +313,162 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GameServerPlayersTableView*& GlobalNamespace::ServerPlayerListViewController::__get__gameServerPlayersTableView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameServerPlayersTableView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerPlayersTableView*> const& GlobalNamespace::ServerPlayerListViewController::__get__gameServerPlayersTableView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameServerPlayersTableView;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__gameServerPlayersTableView(::GlobalNamespace::GameServerPlayersTableView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameServerPlayersTableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::ServerPlayerListViewController::__get__invitePlayerButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invitePlayerButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::ServerPlayerListViewController::__get__invitePlayerButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invitePlayerButton;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__invitePlayerButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____invitePlayerButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::HoverHint*& GlobalNamespace::ServerPlayerListViewController::__get__cantInvitePlayerHoverHint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cantInvitePlayerHoverHint;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& GlobalNamespace::ServerPlayerListViewController::__get__cantInvitePlayerHoverHint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cantInvitePlayerHoverHint;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__cantInvitePlayerHoverHint(::HMUI::HoverHint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cantInvitePlayerHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IInvitePlatformHandler*& GlobalNamespace::ServerPlayerListViewController::__get__invitePlatformHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invitePlatformHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IInvitePlatformHandler*> const& GlobalNamespace::ServerPlayerListViewController::__get__invitePlatformHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invitePlatformHandler;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__invitePlatformHandler(::GlobalNamespace::IInvitePlatformHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____invitePlatformHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& GlobalNamespace::ServerPlayerListViewController::__get__lobbyPlayersDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayersDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& GlobalNamespace::ServerPlayerListViewController::__get__lobbyPlayersDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayersDataModel;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyPlayersDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::ServerPlayerListViewController::__get__lobbyStateDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::ServerPlayerListViewController::__get__lobbyStateDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyStateDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& GlobalNamespace::ServerPlayerListViewController::__get__lobbyPlayerPermissionsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayerPermissionsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& GlobalNamespace::ServerPlayerListViewController::__get__lobbyPlayerPermissionsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayerPermissionsModel;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyPlayerPermissionsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ILobbyGameStateController*& GlobalNamespace::ServerPlayerListViewController::__get__lobbyGameStateController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& GlobalNamespace::ServerPlayerListViewController::__get__lobbyGameStateController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateController;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyGameStateController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*& GlobalNamespace::ServerPlayerListViewController::__get_selectSuggestedBeatmapEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectSuggestedBeatmapEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*> const&
 GlobalNamespace::ServerPlayerListViewController::__get_selectSuggestedBeatmapEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectSuggestedBeatmapEvent;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectSuggestedBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& GlobalNamespace::ServerPlayerListViewController::__get_selectSuggestedGameplayModifiersEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectSuggestedGameplayModifiersEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::GameplayModifiers*>*> const&
 GlobalNamespace::ServerPlayerListViewController::__get_selectSuggestedGameplayModifiersEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectSuggestedGameplayModifiersEvent;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectSuggestedGameplayModifiersEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::StringW>*& GlobalNamespace::ServerPlayerListViewController::__get_kickPlayerEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kickPlayerEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& GlobalNamespace::ServerPlayerListViewController::__get_kickPlayerEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kickPlayerEvent;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set_kickPlayerEvent(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___kickPlayerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::ServerPlayerListViewController::__get_didOpenInvitePanelEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didOpenInvitePanelEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ServerPlayerListViewController::__get_didOpenInvitePanelEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didOpenInvitePanelEvent;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set_didOpenInvitePanelEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didOpenInvitePanelEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ButtonBinder*& GlobalNamespace::ServerPlayerListViewController::__get__buttonBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::ServerPlayerListViewController::__get__buttonBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void GlobalNamespace::ServerPlayerListViewController::__set__buttonBinder(::HMUI::ButtonBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value) {

@@ -2,17 +2,17 @@
 #include "GlobalNamespace/zzzz__BloomPrePassLight_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__ParametricBoxController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TubeBloomPrePassLight.add_didRefreshEvent
 template <>
 
@@ -356,435 +356,435 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::TubeBloomPrePassLight::__get__mainEffectPostProcessEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectPostProcessEnabled;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::TubeBloomPrePassLight::__get__mainEffectPostProcessEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectPostProcessEnabled;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__mainEffectPostProcessEnabled(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectPostProcessEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__width() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__width() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__width(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____width = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__overrideChildrenLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideChildrenLength;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__overrideChildrenLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideChildrenLength;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__overrideChildrenLength(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overrideChildrenLength = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__center() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____center;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__center() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____center;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__center(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____center = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::TubeBloomPrePassLight::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::TubeBloomPrePassLight::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__colorAlphaMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAlphaMultiplier;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__colorAlphaMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAlphaMultiplier;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__colorAlphaMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorAlphaMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__bloomFogIntensityMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogIntensityMultiplier;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__bloomFogIntensityMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogIntensityMultiplier;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__bloomFogIntensityMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomFogIntensityMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__fakeBloomIntensityMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeBloomIntensityMultiplier;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__fakeBloomIntensityMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeBloomIntensityMultiplier;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__fakeBloomIntensityMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fakeBloomIntensityMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__boostToWhite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boostToWhite;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__boostToWhite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boostToWhite;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__boostToWhite(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boostToWhite = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__lightWidthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightWidthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__lightWidthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightWidthMultiplier;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__lightWidthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightWidthMultiplier = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__addWidthToLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addWidthToLength;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__addWidthToLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addWidthToLength;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__addWidthToLength(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____addWidthToLength = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__thickenWithDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thickenWithDistance;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__thickenWithDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thickenWithDistance;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__thickenWithDistance(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____thickenWithDistance = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::TubeBloomPrePassLight::__get__thickenCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thickenCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::TubeBloomPrePassLight::__get__thickenCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thickenCurve;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__thickenCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____thickenCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__minDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minDistance;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__minDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minDistance;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__minDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minDistance = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__maxDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxDistance;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__maxDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxDistance;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__maxDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxDistance = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__minWidthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minWidthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__minWidthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minWidthMultiplier;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__minWidthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minWidthMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__maxWidthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxWidthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__maxWidthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxWidthMultiplier;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__maxWidthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxWidthMultiplier = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__disableRenderersOnZeroAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableRenderersOnZeroAlpha;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__disableRenderersOnZeroAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableRenderersOnZeroAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__disableRenderersOnZeroAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disableRenderersOnZeroAlpha = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__bakedGlowWidthScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedGlowWidthScale;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__bakedGlowWidthScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedGlowWidthScale;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__bakedGlowWidthScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bakedGlowWidthScale = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__forceUseBakedGlow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceUseBakedGlow;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__forceUseBakedGlow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceUseBakedGlow;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__forceUseBakedGlow(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceUseBakedGlow = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__updateAlways() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateAlways;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__updateAlways() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateAlways;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__updateAlways(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____updateAlways = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__limitAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limitAlpha;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__limitAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limitAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__limitAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____limitAlpha = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__minAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__minAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__minAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__maxAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxAlpha;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__maxAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__maxAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxAlpha = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__overrideChildrenAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideChildrenAlpha;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__overrideChildrenAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideChildrenAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__overrideChildrenAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overrideChildrenAlpha = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__startAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startAlpha;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__startAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__startAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startAlpha = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__endAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endAlpha;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__endAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endAlpha;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__endAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endAlpha = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__overrideChildrenWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideChildrenWidth;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__overrideChildrenWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideChildrenWidth;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__overrideChildrenWidth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overrideChildrenWidth = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__startWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startWidth;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__startWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startWidth;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__startWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startWidth = value;
 }
 constexpr float_t& GlobalNamespace::TubeBloomPrePassLight::__get__endWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endWidth;
 }
 constexpr float_t const& GlobalNamespace::TubeBloomPrePassLight::__get__endWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endWidth;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__endWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endWidth = value;
 }
 constexpr ::GlobalNamespace::ParametricBoxController*& GlobalNamespace::TubeBloomPrePassLight::__get__parametricBoxController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parametricBoxController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParametricBoxController*> const& GlobalNamespace::TubeBloomPrePassLight::__get__parametricBoxController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parametricBoxController;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__parametricBoxController(::GlobalNamespace::ParametricBoxController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parametricBoxController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Parametric3SliceSpriteController*& GlobalNamespace::TubeBloomPrePassLight::__get__dynamic3SliceSprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamic3SliceSprite;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Parametric3SliceSpriteController*> const& GlobalNamespace::TubeBloomPrePassLight::__get__dynamic3SliceSprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamic3SliceSprite;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__dynamic3SliceSprite(::GlobalNamespace::Parametric3SliceSpriteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dynamic3SliceSprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::TubeBloomPrePassLight::__get_didRefreshEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didRefreshEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::TubeBloomPrePassLight::__get_didRefreshEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didRefreshEvent;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set_didRefreshEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didRefreshEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLight::__get__isDirty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDirty;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLight::__get__isDirty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDirty;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__isDirty(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDirty = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::TubeBloomPrePassLight::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::TubeBloomPrePassLight::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLight::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::TubeBloomPrePassLight::add_didRefreshEvent(::System::Action* value) {

@@ -18,39 +18,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__get__meshKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshKey;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__get__meshKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshKey;
 }
 constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__meshKey(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshKey = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__get__vertexIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__get__vertexIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__vertexIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexIndex = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_VertexEntry::__get__normalIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_VertexEntry::__get__normalIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__normalIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalIndex = value;
 }
 inline ::HoudiniEngineUnity::HEU_VertexEntry* HoudiniEngineUnity::HEU_VertexEntry::New_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex) {

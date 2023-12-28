@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordStream)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class __RecordStream__SequenceNumber;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __RecordStream__HandshakeHashUpdateStream;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
+class TlsProtocol;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __RecordStream__SequenceNumber;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsProtocol;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace Org::BouncyCastle::Utilities::IO {
-class BaseOutputStream;
+class __RecordStream__HandshakeHashUpdateStream;
 }
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Utilities::IO {
+class BaseOutputStream;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/zzzz__EndPoint_impl.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/zzzz__EndPoint_def.hpp"
+#include "System/Net/zzzz__SocketAddress_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/zzzz__EndPoint_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Net/zzzz__SocketAddress_def.hpp"
 //  Writing Method size for method: ::System::Net::IPEndPoint.get_AddressFamily
 template <>
 
@@ -134,27 +134,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::IPAddress*& System::Net::IPEndPoint::__get__address() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____address;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& System::Net::IPEndPoint::__get__address() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____address;
 }
 constexpr void System::Net::IPEndPoint::__set__address(::System::Net::IPAddress* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____address)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::IPEndPoint::__get__port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
 }
 constexpr int32_t const& System::Net::IPEndPoint::__get__port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
 }
 constexpr void System::Net::IPEndPoint::__set__port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____port = value;
 }
 inline void System::Net::IPEndPoint::setStaticF_Any(::System::Net::IPEndPoint* value) {

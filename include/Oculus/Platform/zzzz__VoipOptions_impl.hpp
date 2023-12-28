@@ -2,8 +2,8 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipOptions_def.hpp"
-#include "Oculus/Platform/zzzz__VoipBitrate_def.hpp"
 #include "Oculus/Platform/zzzz__VoipDtxState_def.hpp"
+#include "Oculus/Platform/zzzz__VoipBitrate_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::VoipOptions._ctor
 template <>
 
@@ -76,15 +76,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& Oculus::Platform::VoipOptions::__get_Handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Handle;
 }
 constexpr void* const& Oculus::Platform::VoipOptions::__get_Handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Handle;
 }
 constexpr void Oculus::Platform::VoipOptions::__set_Handle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Handle = value;
 }
 inline ::Oculus::Platform::VoipOptions* Oculus::Platform::VoipOptions::New_ctor() {

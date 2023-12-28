@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::KeyPairPersistence._ctor
 template <>
 
@@ -387,51 +387,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::CspParameters*& Mono::Security::Cryptography::KeyPairPersistence::__get__params() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____params;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::CspParameters*> const& Mono::Security::Cryptography::KeyPairPersistence::__get__params() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____params;
 }
 constexpr void Mono::Security::Cryptography::KeyPairPersistence::__set__params(::System::Security::Cryptography::CspParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____params)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Security::Cryptography::KeyPairPersistence::__get__keyvalue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyvalue;
 }
 constexpr ::StringW const& Mono::Security::Cryptography::KeyPairPersistence::__get__keyvalue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyvalue;
 }
 constexpr void Mono::Security::Cryptography::KeyPairPersistence::__set__keyvalue(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyvalue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Security::Cryptography::KeyPairPersistence::__get__filename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filename;
 }
 constexpr ::StringW const& Mono::Security::Cryptography::KeyPairPersistence::__get__filename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filename;
 }
 constexpr void Mono::Security::Cryptography::KeyPairPersistence::__set__filename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Security::Cryptography::KeyPairPersistence::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::StringW const& Mono::Security::Cryptography::KeyPairPersistence::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void Mono::Security::Cryptography::KeyPairPersistence::__set__container(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Mono::Security::Cryptography::KeyPairPersistence::setStaticF__userPathExists(bool value) {

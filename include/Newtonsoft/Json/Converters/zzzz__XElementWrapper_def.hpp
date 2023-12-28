@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XElementWrapper)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml::Linq {
 class XElement;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlElement;

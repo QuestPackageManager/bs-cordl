@@ -128,27 +128,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::ListColorController::__get__idx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx;
 }
 constexpr int32_t const& GlobalNamespace::ListColorController::__get__idx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx;
 }
 constexpr void GlobalNamespace::ListColorController::__set__idx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idx = value;
 }
 constexpr int32_t& GlobalNamespace::ListColorController::__get__numberOfElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfElements;
 }
 constexpr int32_t const& GlobalNamespace::ListColorController::__get__numberOfElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfElements;
 }
 constexpr void GlobalNamespace::ListColorController::__set__numberOfElements(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfElements = value;
 }
 inline bool GlobalNamespace::ListColorController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {

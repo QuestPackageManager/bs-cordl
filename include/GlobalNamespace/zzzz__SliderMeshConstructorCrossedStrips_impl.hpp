@@ -65,15 +65,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::SliderMeshConstructorCrossedStrips::__get__triangleMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triangleMap;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::SliderMeshConstructorCrossedStrips::__get__triangleMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triangleMap;
 }
 constexpr void GlobalNamespace::SliderMeshConstructorCrossedStrips::__set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____triangleMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SliderMeshConstructorCrossedStrips::CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path) {

@@ -2,13 +2,13 @@
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
 //  Writing Method size for method: ::System::Text::__UnicodeEncoding__Decoder._ctor
 template <>
 
@@ -53,27 +53,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::__UnicodeEncoding__Decoder::__get_lastByte() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastByte;
 }
 constexpr int32_t const& System::Text::__UnicodeEncoding__Decoder::__get_lastByte() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastByte;
 }
 constexpr void System::Text::__UnicodeEncoding__Decoder::__set_lastByte(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastByte = value;
 }
 constexpr char16_t& System::Text::__UnicodeEncoding__Decoder::__get_lastChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastChar;
 }
 constexpr char16_t const& System::Text::__UnicodeEncoding__Decoder::__get_lastChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastChar;
 }
 constexpr void System::Text::__UnicodeEncoding__Decoder::__set_lastChar(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastChar = value;
 }
 inline ::System::Text::__UnicodeEncoding__Decoder* System::Text::__UnicodeEncoding__Decoder::New_ctor(::System::Text::UnicodeEncoding* encoding) {
@@ -492,39 +492,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Text::UnicodeEncoding::__get_isThrowException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isThrowException;
 }
 constexpr bool const& System::Text::UnicodeEncoding::__get_isThrowException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isThrowException;
 }
 constexpr void System::Text::UnicodeEncoding::__set_isThrowException(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isThrowException = value;
 }
 constexpr bool& System::Text::UnicodeEncoding::__get_bigEndian() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigEndian;
 }
 constexpr bool const& System::Text::UnicodeEncoding::__get_bigEndian() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigEndian;
 }
 constexpr void System::Text::UnicodeEncoding::__set_bigEndian(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bigEndian = value;
 }
 constexpr bool& System::Text::UnicodeEncoding::__get_byteOrderMark() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteOrderMark;
 }
 constexpr bool const& System::Text::UnicodeEncoding::__get_byteOrderMark() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteOrderMark;
 }
 constexpr void System::Text::UnicodeEncoding::__set_byteOrderMark(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___byteOrderMark = value;
 }
 inline void System::Text::UnicodeEncoding::setStaticF_s_bigEndianDefault(::System::Text::UnicodeEncoding* value) {

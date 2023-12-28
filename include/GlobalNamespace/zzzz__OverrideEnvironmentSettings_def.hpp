@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(OverrideEnvironmentSettings)
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

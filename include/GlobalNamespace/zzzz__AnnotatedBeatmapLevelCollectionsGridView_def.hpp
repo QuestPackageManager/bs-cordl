@@ -6,41 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsGridView)
+namespace GlobalNamespace {
+class __GridView__IDataSource;
+}
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
 }
-namespace GlobalNamespace {
-class AnnotatedBeatmapLevelCollectionCell;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
 namespace HMUI {
 class SelectableCell;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
-}
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 class GridView;
@@ -48,23 +27,44 @@ class GridView;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-class __GridView__IDataSource;
+namespace HMUI {
+struct __SelectableCell__TransitionType;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class PageControl;
 }
 namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
+class BeatmapLevelsPromoDataSO;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class AnnotatedBeatmapLevelCollectionCell;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,10 +3,10 @@
 #include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
-#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::__RegexCharClass__LowerCaseMapping._ctor
 template <>
@@ -703,64 +703,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*& System::Text::RegularExpressions::RegexCharClass::__get__rangelist() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rangelist;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>*> const&
 System::Text::RegularExpressions::RegexCharClass::__get__rangelist() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rangelist;
 }
 constexpr void System::Text::RegularExpressions::RegexCharClass::__set__rangelist(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::__RegexCharClass__SingleRange>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rangelist)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& System::Text::RegularExpressions::RegexCharClass::__get__categories() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____categories;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Text::RegularExpressions::RegexCharClass::__get__categories() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____categories;
 }
 constexpr void System::Text::RegularExpressions::RegexCharClass::__set__categories(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____categories)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::RegularExpressions::RegexCharClass::__get__canonical() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canonical;
 }
 constexpr bool const& System::Text::RegularExpressions::RegexCharClass::__get__canonical() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canonical;
 }
 constexpr void System::Text::RegularExpressions::RegexCharClass::__set__canonical(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____canonical = value;
 }
 constexpr bool& System::Text::RegularExpressions::RegexCharClass::__get__negate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____negate;
 }
 constexpr bool const& System::Text::RegularExpressions::RegexCharClass::__get__negate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____negate;
 }
 constexpr void System::Text::RegularExpressions::RegexCharClass::__set__negate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____negate = value;
 }
 constexpr ::System::Text::RegularExpressions::RegexCharClass*& System::Text::RegularExpressions::RegexCharClass::__get__subtractor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subtractor;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& System::Text::RegularExpressions::RegexCharClass::__get__subtractor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subtractor;
 }
 constexpr void System::Text::RegularExpressions::RegexCharClass::__set__subtractor(::System::Text::RegularExpressions::RegexCharClass* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subtractor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Text::RegularExpressions::RegexCharClass::setStaticF_s_internalRegexIgnoreCase(::StringW value) {

@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryPairedUserAccountCommand)
 namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
+class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __QueryPairedUserAccountCommand__Result;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -173,7 +173,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6481)), TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6480))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6480)), TypeDefinitionIndex(TypeDefinitionIndex(6481))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6482))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryPairedUserAccountCommand
 #pragma pack(push, 0)

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallback_def.hpp"
-#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::InternalDecoderBestFitFallback._ctor
 template <>
 
@@ -84,39 +84,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::Encoding*& System::Text::InternalDecoderBestFitFallback::__get__encoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Text::InternalDecoderBestFitFallback::__get__encoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
 constexpr void System::Text::InternalDecoderBestFitFallback::__set__encoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Text::InternalDecoderBestFitFallback::__get__arrayBestFit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayBestFit;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Text::InternalDecoderBestFitFallback::__get__arrayBestFit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayBestFit;
 }
 constexpr void System::Text::InternalDecoderBestFitFallback::__set__arrayBestFit(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrayBestFit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr char16_t& System::Text::InternalDecoderBestFitFallback::__get__cReplacement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cReplacement;
 }
 constexpr char16_t const& System::Text::InternalDecoderBestFitFallback::__get__cReplacement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cReplacement;
 }
 constexpr void System::Text::InternalDecoderBestFitFallback::__set__cReplacement(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cReplacement = value;
 }
 inline ::System::Text::InternalDecoderBestFitFallback* System::Text::InternalDecoderBestFitFallback::New_ctor(::System::Text::Encoding* encoding) {

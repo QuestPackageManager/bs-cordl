@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpLiteralData)
 namespace Org::BouncyCastle::Bcpg {
-class LiteralDataPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Bcpg {
+class LiteralDataPacket;
 }
 namespace System {
 struct DateTime;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

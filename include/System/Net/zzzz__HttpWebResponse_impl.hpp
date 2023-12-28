@@ -2,18 +2,18 @@
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__HttpWebResponse_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__Version_def.hpp"
 #include "System/Net/zzzz__WebResponseStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/zzzz__CookieContainer_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpWebResponse._ctor
 template <>
 
@@ -257,147 +257,147 @@ constexpr System::Net::HttpWebResponse::operator ::System::IDisposable*() noexce
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Uri*& System::Net::HttpWebResponse::__get_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::HttpWebResponse::__get_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr void System::Net::HttpWebResponse::__set_uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebHeaderCollection*& System::Net::HttpWebResponse::__get_webHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___webHeaders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::HttpWebResponse::__get_webHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___webHeaders;
 }
 constexpr void System::Net::HttpWebResponse::__set_webHeaders(::System::Net::WebHeaderCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___webHeaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::CookieCollection*& System::Net::HttpWebResponse::__get_cookieCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& System::Net::HttpWebResponse::__get_cookieCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieCollection;
 }
 constexpr void System::Net::HttpWebResponse::__set_cookieCollection(::System::Net::CookieCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookieCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpWebResponse::__get_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr ::StringW const& System::Net::HttpWebResponse::__get_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void System::Net::HttpWebResponse::__set_method(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Version*& System::Net::HttpWebResponse::__get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Net::HttpWebResponse::__get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr void System::Net::HttpWebResponse::__set_version(::System::Version* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpStatusCode& System::Net::HttpWebResponse::__get_statusCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusCode;
 }
 constexpr ::System::Net::HttpStatusCode const& System::Net::HttpWebResponse::__get_statusCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusCode;
 }
 constexpr void System::Net::HttpWebResponse::__set_statusCode(::System::Net::HttpStatusCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___statusCode = value;
 }
 constexpr ::StringW& System::Net::HttpWebResponse::__get_statusDescription() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusDescription;
 }
 constexpr ::StringW const& System::Net::HttpWebResponse::__get_statusDescription() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusDescription;
 }
 constexpr void System::Net::HttpWebResponse::__set_statusDescription(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___statusDescription)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Net::HttpWebResponse::__get_contentLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentLength;
 }
 constexpr int64_t const& System::Net::HttpWebResponse::__get_contentLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentLength;
 }
 constexpr void System::Net::HttpWebResponse::__set_contentLength(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentLength = value;
 }
 constexpr ::StringW& System::Net::HttpWebResponse::__get_contentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr ::StringW const& System::Net::HttpWebResponse::__get_contentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr void System::Net::HttpWebResponse::__set_contentType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::CookieContainer*& System::Net::HttpWebResponse::__get_cookie_container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookie_container;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& System::Net::HttpWebResponse::__get_cookie_container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookie_container;
 }
 constexpr void System::Net::HttpWebResponse::__set_cookie_container(::System::Net::CookieContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookie_container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::HttpWebResponse::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& System::Net::HttpWebResponse::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void System::Net::HttpWebResponse::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 constexpr ::System::IO::Stream*& System::Net::HttpWebResponse::__get_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::HttpWebResponse::__get_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr void System::Net::HttpWebResponse::__set_stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor() {

@@ -95,15 +95,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Playables::Playable& UnityEngine::Timeline::InfiniteRuntimeClip::__get_m_Playable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Playable;
 }
 constexpr ::UnityEngine::Playables::Playable const& UnityEngine::Timeline::InfiniteRuntimeClip::__get_m_Playable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Playable;
 }
 constexpr void UnityEngine::Timeline::InfiniteRuntimeClip::__set_m_Playable(::UnityEngine::Playables::Playable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Playable = value;
 }
 inline void UnityEngine::Timeline::InfiniteRuntimeClip::setStaticF_kIntervalEnd(int64_t value) {

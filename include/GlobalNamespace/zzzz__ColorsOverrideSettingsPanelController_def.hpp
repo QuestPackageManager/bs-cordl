@@ -5,26 +5,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorsOverrideSettingsPanelController)
+namespace GlobalNamespace {
+class ColorSchemeDropdown;
+}
+namespace GlobalNamespace {
+class EditColorSchemeController;
+}
 namespace HMUI {
-class ButtonBinder;
+class PanelAnimationSO;
 }
 namespace GlobalNamespace {
 class ColorSchemesSettings;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-class ColorSchemeDropdown;
+namespace HMUI {
+class ButtonBinder;
 }
 namespace HMUI {
 class ModalView;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::UI {
+class Button;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+class ColorScheme;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
@@ -32,17 +38,11 @@ class IAnalyticsModel;
 namespace UnityEngine::UI {
 class Toggle;
 }
-namespace GlobalNamespace {
-class EditColorSchemeController;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace HMUI {
-class DropdownWithTableView;
-}
-namespace HMUI {
-class PanelAnimationSO;
+class IRefreshable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

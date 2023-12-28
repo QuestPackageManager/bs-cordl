@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IFactoryProviderBase_1)
 namespace System {
-class Object;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class InjectTypeInfo;
+class Type;
 }
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -25,16 +25,16 @@ namespace System {
 struct Guid;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace System {
-class Type;
+class Action;
 }
-namespace Zenject {
-class IProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,7 +48,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11194))
 // CS Name: ::Zenject::IFactoryProviderBase`1<TContract>*
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {

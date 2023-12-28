@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerGameplayAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPositionHUDController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPositionHUDController_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator.OnDestroy
 template <>
@@ -131,65 +131,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::CoreGameHUDController*& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__coreGameHUDController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coreGameHUDController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CoreGameHUDController*> const& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__coreGameHUDController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coreGameHUDController;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__set__coreGameHUDController(::GlobalNamespace::CoreGameHUDController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coreGameHUDController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerPositionHUDController*& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__multiplayerPositionHUDController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPositionHUDController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPositionHUDController*> const&
 GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__multiplayerPositionHUDController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPositionHUDController;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__set__multiplayerPositionHUDController(::GlobalNamespace::MultiplayerPositionHUDController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerPositionHUDController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__levelEndActionsPublisher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelEndActionsPublisher;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const&
 GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__levelEndActionsPublisher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelEndActionsPublisher;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__set__levelEndActionsPublisher(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelEndActionsPublisher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::FloatTween*& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__fadeOutHUDTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutHUDTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__fadeOutHUDTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutHUDTween;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__set__fadeOutHUDTween(::Tweening::FloatTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeOutHUDTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 inline void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::OnDestroy() {

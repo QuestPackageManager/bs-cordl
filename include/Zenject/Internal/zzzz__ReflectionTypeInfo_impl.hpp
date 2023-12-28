@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"
@@ -27,27 +27,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::FieldInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::__get_FieldInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FieldInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::__get_FieldInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FieldInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::__set_FieldInfo(::System::Reflection::FieldInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___FieldInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::InjectableInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::__get_InjectableInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectableInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectableInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::__get_InjectableInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectableInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::__set_InjectableInfo(::Zenject::InjectableInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectableInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo::New_ctor(::System::Reflection::FieldInfo* fieldInfo,
@@ -80,27 +80,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::ParameterInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::__get_ParameterInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ParameterInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ParameterInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::__get_ParameterInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ParameterInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::__set_ParameterInfo(::System::Reflection::ParameterInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ParameterInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::InjectableInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::__get_InjectableInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectableInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectableInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::__get_InjectableInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectableInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::__set_InjectableInfo(::Zenject::InjectableInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectableInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo::New_ctor(::System::Reflection::ParameterInfo* parameterInfo,
@@ -133,27 +133,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::PropertyInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::__get_PropertyInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PropertyInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::__get_PropertyInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PropertyInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::__set_PropertyInfo(::System::Reflection::PropertyInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PropertyInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::InjectableInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::__get_InjectableInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectableInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectableInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::__get_InjectableInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectableInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::__set_InjectableInfo(::Zenject::InjectableInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectableInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo::New_ctor(::System::Reflection::PropertyInfo* propertyInfo,
@@ -188,29 +188,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::MethodInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo::__get_MethodInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MethodInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo::__get_MethodInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MethodInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo::__set_MethodInfo(::System::Reflection::MethodInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MethodInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>*& Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo::__get_Parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>*> const&
 Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo::__get_Parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 constexpr void
 Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo::__set_Parameters(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*
@@ -248,29 +248,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::ConstructorInfo*& Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo::__get_ConstructorInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConstructorInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo::__get_ConstructorInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConstructorInfo;
 }
 constexpr void Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo::__set_ConstructorInfo(::System::Reflection::ConstructorInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ConstructorInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>*& Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo::__get_Parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>*> const&
 Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo::__get_Parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 constexpr void
 Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo::__set_Parameters(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo*
@@ -313,78 +313,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& Zenject::Internal::ReflectionTypeInfo::__get_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::Internal::ReflectionTypeInfo::__get_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr void Zenject::Internal::ReflectionTypeInfo::__set_Type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::Internal::ReflectionTypeInfo::__get_BaseType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BaseType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::Internal::ReflectionTypeInfo::__get_BaseType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BaseType;
 }
 constexpr void Zenject::Internal::ReflectionTypeInfo::__set_BaseType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BaseType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo*>*& Zenject::Internal::ReflectionTypeInfo::__get_InjectProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectProperties;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo*>*> const&
 Zenject::Internal::ReflectionTypeInfo::__get_InjectProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectProperties;
 }
 constexpr void Zenject::Internal::ReflectionTypeInfo::__set_InjectProperties(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectProperties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>*& Zenject::Internal::ReflectionTypeInfo::__get_InjectFields() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectFields;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>*> const&
 Zenject::Internal::ReflectionTypeInfo::__get_InjectFields() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectFields;
 }
 constexpr void Zenject::Internal::ReflectionTypeInfo::__set_InjectFields(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectFields)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo*& Zenject::Internal::ReflectionTypeInfo::__get_InjectConstructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectConstructor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo*> const& Zenject::Internal::ReflectionTypeInfo::__get_InjectConstructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectConstructor;
 }
 constexpr void Zenject::Internal::ReflectionTypeInfo::__set_InjectConstructor(::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*>*& Zenject::Internal::ReflectionTypeInfo::__get_InjectMethods() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectMethods;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*>*> const&
 Zenject::Internal::ReflectionTypeInfo::__get_InjectMethods() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InjectMethods;
 }
 constexpr void Zenject::Internal::ReflectionTypeInfo::__set_InjectMethods(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InjectMethods)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::Internal::ReflectionTypeInfo*

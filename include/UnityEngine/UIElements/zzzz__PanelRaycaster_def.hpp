@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelRaycaster)
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+struct __PanelRaycaster__FloatIntBits;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
-}
-namespace UnityEngine::UIElements {
-struct __PanelRaycaster__FloatIntBits;
+struct RaycastResult;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class IRuntimePanelComponent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

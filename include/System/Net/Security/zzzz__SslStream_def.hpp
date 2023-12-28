@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SslStream)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -20,20 +20,38 @@ template <typename TResult> class Task_1;
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
-namespace Mono::Net::Security {
-class MobileTlsProvider;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System::Net::Security {
+class __SslStream____c__DisplayClass21_0;
 }
 namespace System::Net::Security {
 class LocalCertificateSelectionCallback;
 }
+namespace System {
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace Mono::Security::Interface {
+class MonoTlsProvider;
 }
 namespace System {
 class Object;
 }
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
@@ -41,26 +59,8 @@ struct SslProtocols;
 namespace System::IO {
 class Stream;
 }
-namespace System::Net::Security {
-class __SslStream____c__DisplayClass21_0;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace Mono::Security::Interface {
-class MonoTlsProvider;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net::Security {

@@ -20,64 +20,7 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct __UIRStylePainter__Entry;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class MeshWriteData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace UnityEngine::UIElements::UIR {
-class VectorImageManager;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-template <typename T> struct __UIRStylePainter__TempDataAlloc_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
-}
-namespace GlobalNamespace {
-class __MeshBuilder__AllocMeshData__Allocator;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__AllocMeshData;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace UnityEngine::UIElements {
 struct Vertex;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct __UIRStylePainter__ClosingInfo;
 }
 namespace UnityEngine::UIElements {
 struct TextureId;
@@ -85,23 +28,80 @@ struct TextureId;
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__BorderParams;
 }
-namespace UnityEngine::UIElements {
-class IStylePainter;
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+template <typename T> struct __UIRStylePainter__TempDataAlloc_1;
 }
 namespace UnityEngine::UIElements {
 class AtlasBase;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__RectangleParams;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct __UIRStylePainter__ClosingInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class VectorImageManager;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct __UIRStylePainter__Entry;
+}
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContext__MeshFlags;
+}
+namespace GlobalNamespace {
+class __MeshBuilder__AllocMeshData__Allocator;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class ITextHandle;
 }
+namespace UnityEngine::UIElements {
+class IStylePainter;
+}
 namespace UnityEngine::UIElements::UIR {
-struct VertexFlags;
+struct __MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
+}
+namespace UnityEngine::UIElements::UIR {
+struct VertexFlags;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -128,9 +128,9 @@ MARK_GEN_VAL_T(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(7339)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7440))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7447)) CS Name: ::UIRStylePainter::Entry
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(7440)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7339))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7447)) CS Name: ::UIRStylePainter::Entry
 struct CORDL_TYPE __UIRStylePainter__Entry {
 public:
   // Declarations
@@ -210,8 +210,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Im
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7330)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9994), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(9994))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7448)) CS Name: ::UIRStylePainter::ClosingInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(9994), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(7330))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7448)) CS Name: ::UIRStylePainter::ClosingInfo
 struct CORDL_TYPE __UIRStylePainter__ClosingInfo {
 public:
   // Declarations
@@ -329,9 +329,9 @@ public:
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 369, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7448)), TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7447)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7449), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(7330)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7449), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7450)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7447)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7449), inst: 756 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7330)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7449), inst: 752 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7450)) CS
 // Name: ::UnityEngine.UIElements.UIR.Implementation::UIRStylePainter*
 class CORDL_TYPE UIRStylePainter : public ::System::Object {
 public:

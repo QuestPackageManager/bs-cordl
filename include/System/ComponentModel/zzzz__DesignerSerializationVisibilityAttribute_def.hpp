@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DesignerSerializationVisibilityAttribute)
-namespace System::ComponentModel {
-struct DesignerSerializationVisibility;
-}
 namespace System {
 class Object;
+}
+namespace System::ComponentModel {
+struct DesignerSerializationVisibility;
 }
 // Forward declare root types
 namespace System::ComponentModel {

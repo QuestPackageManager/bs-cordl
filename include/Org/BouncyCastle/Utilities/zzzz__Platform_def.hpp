@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Platform)
+namespace System::IO {
+class Stream;
+}
 namespace System::Globalization {
 class CompareInfo;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IList;
@@ -15,23 +21,17 @@ class IList;
 namespace System::Collections {
 class ICollection;
 }
-namespace System {
-class Exception;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::IO {
 class TextWriter;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::IO {
-class Stream;
-}
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ActivationServices)
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System {
+class Object;
+}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
 }
 namespace System::Runtime::Remoting::Messaging {
 class ConstructionCall;
 }
 namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
+class Type;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RemotingProxy;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {

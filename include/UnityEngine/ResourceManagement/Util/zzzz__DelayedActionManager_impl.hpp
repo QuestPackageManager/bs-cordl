@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DelayedActionManager_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DelayedActionManager_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo._ctor
 template <>
 
@@ -307,75 +307,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
                    ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>&
 UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_Actions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Actions;
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
                    ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*> const&
 UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_Actions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Actions;
 }
 constexpr void UnityEngine::ResourceManagement::Util::DelayedActionManager::__set_m_Actions(
     ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
              ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Actions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*&
 UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_DelayedActions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelayedActions;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*> const&
 UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_DelayedActions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelayedActions;
 }
 constexpr void UnityEngine::ResourceManagement::Util::DelayedActionManager::__set_m_DelayedActions(
     ::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DelayedActions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*&
 UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_NodeCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodeCache;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*> const&
 UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_NodeCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodeCache;
 }
 constexpr void UnityEngine::ResourceManagement::Util::DelayedActionManager::__set_m_NodeCache(
     ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NodeCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_CollectionIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CollectionIndex;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_CollectionIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CollectionIndex;
 }
 constexpr void UnityEngine::ResourceManagement::Util::DelayedActionManager::__set_m_CollectionIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CollectionIndex = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_DestroyOnCompletion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DestroyOnCompletion;
 }
 constexpr bool const& UnityEngine::ResourceManagement::Util::DelayedActionManager::__get_m_DestroyOnCompletion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DestroyOnCompletion;
 }
 constexpr void UnityEngine::ResourceManagement::Util::DelayedActionManager::__set_m_DestroyOnCompletion(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DestroyOnCompletion = value;
 }
 inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*

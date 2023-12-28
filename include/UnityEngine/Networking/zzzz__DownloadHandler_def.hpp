@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DownloadHandler)
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
 namespace System::Text {
 class Encoding;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {

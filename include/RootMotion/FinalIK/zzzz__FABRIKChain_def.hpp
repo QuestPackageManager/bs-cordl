@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FABRIKChain)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class FABRIK;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

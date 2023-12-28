@@ -170,39 +170,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::GUIContent::__get_m_Text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Text;
 }
 constexpr ::StringW const& UnityEngine::GUIContent::__get_m_Text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Text;
 }
 constexpr void UnityEngine::GUIContent::__set_m_Text(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Texture*& UnityEngine::GUIContent::__get_m_Image() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Image;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture*> const& UnityEngine::GUIContent::__get_m_Image() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Image;
 }
 constexpr void UnityEngine::GUIContent::__set_m_Image(::UnityEngine::Texture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Image)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::GUIContent::__get_m_Tooltip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tooltip;
 }
 constexpr ::StringW const& UnityEngine::GUIContent::__get_m_Tooltip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tooltip;
 }
 constexpr void UnityEngine::GUIContent::__set_m_Tooltip(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Tooltip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::GUIContent::setStaticF_s_Text(::UnityEngine::GUIContent* value) {

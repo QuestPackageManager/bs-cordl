@@ -61,15 +61,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::EventSystems::AbstractEventData::__get_m_Used() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Used;
 }
 constexpr bool const& UnityEngine::EventSystems::AbstractEventData::__get_m_Used() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Used;
 }
 constexpr void UnityEngine::EventSystems::AbstractEventData::__set_m_Used(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Used = value;
 }
 inline void UnityEngine::EventSystems::AbstractEventData::Reset() {

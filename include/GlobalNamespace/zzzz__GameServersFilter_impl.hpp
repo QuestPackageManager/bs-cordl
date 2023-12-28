@@ -18,111 +18,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::GameServersFilter::__get_filterByDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filterByDifficulty;
 }
 constexpr bool const& GlobalNamespace::GameServersFilter::__get_filterByDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filterByDifficulty;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_filterByDifficulty(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filterByDifficulty = value;
 }
 constexpr ::GlobalNamespace::BeatmapDifficultyMask& GlobalNamespace::GameServersFilter::__get_filteredDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filteredDifficulty;
 }
 constexpr ::GlobalNamespace::BeatmapDifficultyMask const& GlobalNamespace::GameServersFilter::__get_filteredDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filteredDifficulty;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_filteredDifficulty(::GlobalNamespace::BeatmapDifficultyMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filteredDifficulty = value;
 }
 constexpr bool& GlobalNamespace::GameServersFilter::__get_filterByModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filterByModifiers;
 }
 constexpr bool const& GlobalNamespace::GameServersFilter::__get_filterByModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filterByModifiers;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_filterByModifiers(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filterByModifiers = value;
 }
 constexpr ::GlobalNamespace::GameplayModifierMask& GlobalNamespace::GameServersFilter::__get_filteredModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filteredModifiers;
 }
 constexpr ::GlobalNamespace::GameplayModifierMask const& GlobalNamespace::GameServersFilter::__get_filteredModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filteredModifiers;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_filteredModifiers(::GlobalNamespace::GameplayModifierMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filteredModifiers = value;
 }
 constexpr bool& GlobalNamespace::GameServersFilter::__get_filterBySongPacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filterBySongPacks;
 }
 constexpr bool const& GlobalNamespace::GameServersFilter::__get_filterBySongPacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filterBySongPacks;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_filterBySongPacks(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filterBySongPacks = value;
 }
 constexpr ::GlobalNamespace::SongPackMask& GlobalNamespace::GameServersFilter::__get_filteredSongPacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filteredSongPacks;
 }
 constexpr ::GlobalNamespace::SongPackMask const& GlobalNamespace::GameServersFilter::__get_filteredSongPacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filteredSongPacks;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_filteredSongPacks(::GlobalNamespace::SongPackMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filteredSongPacks = value;
 }
 constexpr bool& GlobalNamespace::GameServersFilter::__get_showFull() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showFull;
 }
 constexpr bool const& GlobalNamespace::GameServersFilter::__get_showFull() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showFull;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_showFull(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showFull = value;
 }
 constexpr bool& GlobalNamespace::GameServersFilter::__get_showProtected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showProtected;
 }
 constexpr bool const& GlobalNamespace::GameServersFilter::__get_showProtected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showProtected;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_showProtected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showProtected = value;
 }
 constexpr bool& GlobalNamespace::GameServersFilter::__get_showInternetGames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showInternetGames;
 }
 constexpr bool const& GlobalNamespace::GameServersFilter::__get_showInternetGames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showInternetGames;
 }
 constexpr void GlobalNamespace::GameServersFilter::__set_showInternetGames(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showInternetGames = value;
 }
 inline ::GlobalNamespace::GameServersFilter* GlobalNamespace::GameServersFilter::New_ctor() {

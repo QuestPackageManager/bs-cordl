@@ -2,8 +2,8 @@
 #include "System/IO/zzzz__UnmanagedMemoryStream_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/IO/zzzz__PinnedBufferMemoryStream_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream._ctor
 template <>
 
@@ -78,27 +78,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::PinnedBufferMemoryStream::__get__array() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::PinnedBufferMemoryStream::__get__array() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 constexpr void System::IO::PinnedBufferMemoryStream::__set__array(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& System::IO::PinnedBufferMemoryStream::__get__pinningHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pinningHandle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& System::IO::PinnedBufferMemoryStream::__get__pinningHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pinningHandle;
 }
 constexpr void System::IO::PinnedBufferMemoryStream::__set__pinningHandle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pinningHandle = value;
 }
 inline ::System::IO::PinnedBufferMemoryStream* System::IO::PinnedBufferMemoryStream::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array) {

@@ -5,15 +5,15 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 template <typename TValue> constexpr ::UnityEngine::Transform*& Zenject::MonoMemoryPool_1<TValue>::__get__originalParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalParent;
 }
 template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& Zenject::MonoMemoryPool_1<TValue>::__get__originalParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalParent;
 }
 template <typename TValue> constexpr void Zenject::MonoMemoryPool_1<TValue>::__set__originalParent(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> inline ::Zenject::MonoMemoryPool_1<TValue>* Zenject::MonoMemoryPool_1<TValue>::New_ctor() {

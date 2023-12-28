@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyWrapperUtil)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
 class IKeyWrapper;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class IKeyUnwrapper;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

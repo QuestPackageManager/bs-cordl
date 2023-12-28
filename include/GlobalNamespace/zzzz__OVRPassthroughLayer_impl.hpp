@@ -9,18 +9,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPassthroughColorLut_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPassthroughColorLut_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -322,115 +322,115 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__noneHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noneHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler*> const& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__noneHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noneHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__noneHandler(::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noneHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__lutHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lutHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler*> const& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__lutHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lutHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__lutHandler(::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lutHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__interpolatedLutHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interpolatedLutHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler*> const&
 GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__interpolatedLutHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interpolatedLutHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__interpolatedLutHandler(::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____interpolatedLutHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__monoToRgbaHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoToRgbaHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler*> const&
 GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__monoToRgbaHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoToRgbaHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__monoToRgbaHandler(::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____monoToRgbaHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__monoToMonoHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoToMonoHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler*> const&
 GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__monoToMonoHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoToMonoHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__monoToMonoHandler(::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____monoToMonoHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__bcsHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bcsHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler*> const& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__bcsHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bcsHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__bcsHandler(::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bcsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__colorMapDataHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapDataHandle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__colorMapDataHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapDataHandle;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorMapDataHandle = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__colorMapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get__colorMapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapData;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set__colorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorMapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*& GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get_CurrentStyleHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CurrentStyleHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*> const&
 GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__get_CurrentStyleHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CurrentStyleHandler;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__StylesHandler::__set_CurrentStyleHandler(::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CurrentStyleHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* GlobalNamespace::__OVRPassthroughLayer__StylesHandler::New_ctor() {
@@ -775,27 +775,27 @@ constexpr GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::ope
   return static_cast<::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::__get__colorMapDataHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapDataHandle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::__get__colorMapDataHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapDataHandle;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::__set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorMapDataHandle = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::__get__colorMapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::__get__colorMapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorMapData;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::__set__colorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorMapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline uint32_t GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler::get_MapSize() {
@@ -975,15 +975,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler::__get__tmpColorMapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tmpColorMapData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler::__get__tmpColorMapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tmpColorMapData;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler::__set__tmpColorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tmpColorMapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline uint32_t GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler::get_MapSize() {
@@ -1391,63 +1391,63 @@ constexpr GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::operator ::Gl
   return static_cast<::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__currentFlipLutY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFlipLutY;
 }
 constexpr bool const& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__currentFlipLutY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFlipLutY;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__set__currentFlipLutY(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentFlipLutY = value;
 }
 constexpr ::UnityEngine::Texture2D*& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__currentColorLutSourceTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentColorLutSourceTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__currentColorLutSourceTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentColorLutSourceTexture;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__set__currentColorLutSourceTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentColorLutSourceTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRPassthroughColorLut*& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__Lut_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Lut_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRPassthroughColorLut*> const& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__Lut_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Lut_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__set__Lut_k__BackingField(::GlobalNamespace::OVRPassthroughColorLut* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Lut_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__Weight_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Weight_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__Weight_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Weight_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__set__Weight_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Weight_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__IsValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__get__IsValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsValid_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::__set__IsValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsValid_k__BackingField = value;
 }
 inline ::GlobalNamespace::OVRPassthroughColorLut* GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler::get_Lut() {
@@ -1639,28 +1639,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Texture2D*& GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::__get__currentColorLutTargetTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentColorLutTargetTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::__get__currentColorLutTargetTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentColorLutTargetTexture;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::__set__currentColorLutTargetTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentColorLutTargetTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRPassthroughColorLut*& GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::__get__LutTarget_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LutTarget_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRPassthroughColorLut*> const&
 GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::__get__LutTarget_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LutTarget_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::__set__LutTarget_k__BackingField(::GlobalNamespace::OVRPassthroughColorLut* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____LutTarget_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::OVRPassthroughColorLut* GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler::get_LutTarget() {
@@ -1744,15 +1744,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0::__get_obj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0::__get_obj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0::__set_obj(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0* GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0::New_ctor() {
@@ -1803,15 +1803,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0::__get_obj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0::__get_obj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr void GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0::__set_obj(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0* GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0::New_ctor() {
@@ -2394,382 +2394,382 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType& GlobalNamespace::OVRPassthroughLayer::__get_projectionSurfaceType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___projectionSurfaceType;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType const& GlobalNamespace::OVRPassthroughLayer::__get_projectionSurfaceType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___projectionSurfaceType;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_projectionSurfaceType(::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___projectionSurfaceType = value;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayType& GlobalNamespace::OVRPassthroughLayer::__get_overlayType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overlayType;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayType const& GlobalNamespace::OVRPassthroughLayer::__get_overlayType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overlayType;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_overlayType(::GlobalNamespace::__OVROverlay__OverlayType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overlayType = value;
 }
 constexpr int32_t& GlobalNamespace::OVRPassthroughLayer::__get_compositionDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionDepth;
 }
 constexpr int32_t const& GlobalNamespace::OVRPassthroughLayer::__get_compositionDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionDepth;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_compositionDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___compositionDepth = value;
 }
 constexpr bool& GlobalNamespace::OVRPassthroughLayer::__get_hidden() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hidden;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughLayer::__get_hidden() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hidden;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_hidden(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hidden = value;
 }
 constexpr bool& GlobalNamespace::OVRPassthroughLayer::__get_overridePerLayerColorScaleAndOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overridePerLayerColorScaleAndOffset;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughLayer::__get_overridePerLayerColorScaleAndOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overridePerLayerColorScaleAndOffset;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_overridePerLayerColorScaleAndOffset(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overridePerLayerColorScaleAndOffset = value;
 }
 constexpr ::UnityEngine::Vector4& GlobalNamespace::OVRPassthroughLayer::__get_colorScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScale;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::OVRPassthroughLayer::__get_colorScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScale;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorScale(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorScale = value;
 }
 constexpr ::UnityEngine::Vector4& GlobalNamespace::OVRPassthroughLayer::__get_colorOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorOffset;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::OVRPassthroughLayer::__get_colorOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorOffset;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorOffset(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorOffset = value;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorType_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorType_;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorType_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorType_;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapEditorType_(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMapEditorType_ = value;
 }
 constexpr ::UnityEngine::Gradient*& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorGradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorGradient;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorGradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorGradient;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapEditorGradient(::UnityEngine::Gradient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorMapEditorGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorContrast() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorContrast;
 }
 constexpr float_t const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorContrast() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorContrast;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapEditorContrast(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMapEditorContrast = value;
 }
 constexpr float_t& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorBrightness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorBrightness;
 }
 constexpr float_t const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorBrightness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorBrightness;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapEditorBrightness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMapEditorBrightness = value;
 }
 constexpr float_t& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorPosterize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorPosterize;
 }
 constexpr float_t const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorPosterize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorPosterize;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapEditorPosterize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMapEditorPosterize = value;
 }
 constexpr float_t& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorSaturation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorSaturation;
 }
 constexpr float_t const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapEditorSaturation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapEditorSaturation;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapEditorSaturation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMapEditorSaturation = value;
 }
 constexpr ::UnityEngine::Texture2D*& GlobalNamespace::OVRPassthroughLayer::__get__colorLutSourceTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorLutSourceTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& GlobalNamespace::OVRPassthroughLayer::__get__colorLutSourceTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorLutSourceTexture;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set__colorLutSourceTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorLutSourceTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Texture2D*& GlobalNamespace::OVRPassthroughLayer::__get__colorLutTargetTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorLutTargetTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& GlobalNamespace::OVRPassthroughLayer::__get__colorLutTargetTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorLutTargetTexture;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set__colorLutTargetTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorLutTargetTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRPassthroughLayer::__get__lutWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lutWeight;
 }
 constexpr float_t const& GlobalNamespace::OVRPassthroughLayer::__get__lutWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lutWeight;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set__lutWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lutWeight = value;
 }
 constexpr bool& GlobalNamespace::OVRPassthroughLayer::__get__flipLutY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipLutY;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughLayer::__get__flipLutY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipLutY;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set__flipLutY(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flipLutY = value;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__Settings& GlobalNamespace::OVRPassthroughLayer::__get__settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__Settings const& GlobalNamespace::OVRPassthroughLayer::__get__settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set__settings(::GlobalNamespace::__OVRPassthroughLayer__Settings value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____settings = value;
 }
 constexpr ::GlobalNamespace::OVRCameraRig*& GlobalNamespace::OVRPassthroughLayer::__get_cameraRig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRig;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& GlobalNamespace::OVRPassthroughLayer::__get_cameraRig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRig;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_cameraRig(::GlobalNamespace::OVRCameraRig* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cameraRig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRPassthroughLayer::__get_cameraRigInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRigInitialized;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughLayer::__get_cameraRigInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRigInitialized;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_cameraRigInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cameraRigInitialized = value;
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRPassthroughLayer::__get_auxGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___auxGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRPassthroughLayer::__get_auxGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___auxGameObject;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_auxGameObject(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___auxGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVROverlay*& GlobalNamespace::OVRPassthroughLayer::__get_passthroughOverlay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passthroughOverlay;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVROverlay*> const& GlobalNamespace::OVRPassthroughLayer::__get_passthroughOverlay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passthroughOverlay;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_passthroughOverlay(::GlobalNamespace::OVROverlay* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___passthroughOverlay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>*&
 GlobalNamespace::OVRPassthroughLayer::__get_surfaceGameObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___surfaceGameObjects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>*> const&
 GlobalNamespace::OVRPassthroughLayer::__get_surfaceGameObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___surfaceGameObjects;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_surfaceGameObjects(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___surfaceGameObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>*& GlobalNamespace::OVRPassthroughLayer::__get_deferredSurfaceGameObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deferredSurfaceGameObjects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>*> const&
 GlobalNamespace::OVRPassthroughLayer::__get_deferredSurfaceGameObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deferredSurfaceGameObjects;
 }
 constexpr void
 GlobalNamespace::OVRPassthroughLayer::__set_deferredSurfaceGameObjects(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___deferredSurfaceGameObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>*& GlobalNamespace::OVRPassthroughLayer::__get_serializedSurfaceGeometry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedSurfaceGeometry;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>*> const&
 GlobalNamespace::OVRPassthroughLayer::__get_serializedSurfaceGeometry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedSurfaceGeometry;
 }
 constexpr void
 GlobalNamespace::OVRPassthroughLayer::__set_serializedSurfaceGeometry(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serializedSurfaceGeometry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRPassthroughLayer::__get_textureOpacity_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureOpacity_;
 }
 constexpr float_t const& GlobalNamespace::OVRPassthroughLayer::__get_textureOpacity_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureOpacity_;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_textureOpacity_(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___textureOpacity_ = value;
 }
 constexpr bool& GlobalNamespace::OVRPassthroughLayer::__get_edgeRenderingEnabled_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___edgeRenderingEnabled_;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughLayer::__get_edgeRenderingEnabled_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___edgeRenderingEnabled_;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_edgeRenderingEnabled_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___edgeRenderingEnabled_ = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRPassthroughLayer::__get_edgeColor_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___edgeColor_;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRPassthroughLayer::__get_edgeColor_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___edgeColor_;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_edgeColor_(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___edgeColor_ = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType& GlobalNamespace::OVRPassthroughLayer::__get_colorMapType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapType;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType const& GlobalNamespace::OVRPassthroughLayer::__get_colorMapType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMapType;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_colorMapType(::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMapType = value;
 }
 constexpr bool& GlobalNamespace::OVRPassthroughLayer::__get_styleDirty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___styleDirty;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughLayer::__get_styleDirty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___styleDirty;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set_styleDirty(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___styleDirty = value;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler*& GlobalNamespace::OVRPassthroughLayer::__get__stylesHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPassthroughLayer__StylesHandler*> const& GlobalNamespace::OVRPassthroughLayer::__get__stylesHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesHandler;
 }
 constexpr void GlobalNamespace::OVRPassthroughLayer::__set__stylesHandler(::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stylesHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRPassthroughLayer::setStaticF__editorToColorMapType(

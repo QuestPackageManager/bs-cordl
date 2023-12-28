@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CodeAccessPermission)
 namespace System::Security {
-class ISecurityEncodable;
+class SecurityElement;
 }
-namespace System::Security {
-class IPermission;
+namespace System::Security::Permissions {
+struct PermissionState;
 }
 namespace System {
 class Object;
 }
-namespace System::Security {
-class SecurityElement;
-}
 namespace System {
 class Type;
 }
-namespace System::Security::Permissions {
-struct PermissionState;
+namespace System::Security {
+class IPermission;
+}
+namespace System::Security {
+class ISecurityEncodable;
 }
 // Forward declare root types
 namespace System::Security {

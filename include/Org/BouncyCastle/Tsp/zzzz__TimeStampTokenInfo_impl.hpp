@@ -2,13 +2,13 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenInfo_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TstInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__GenTimeAccuracy_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TstInfo_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampTokenInfo._ctor
 template <>
 
@@ -207,27 +207,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Tsp::TstInfo*& Org::BouncyCastle::Tsp::TimeStampTokenInfo::__get_tstInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tstInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TstInfo*> const& Org::BouncyCastle::Tsp::TimeStampTokenInfo::__get_tstInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tstInfo;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenInfo::__set_tstInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tstInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& Org::BouncyCastle::Tsp::TimeStampTokenInfo::__get_genTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___genTime;
 }
 constexpr ::System::DateTime const& Org::BouncyCastle::Tsp::TimeStampTokenInfo::__get_genTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___genTime;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenInfo::__set_genTime(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___genTime = value;
 }
 inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* Org::BouncyCastle::Tsp::TimeStampTokenInfo::New_ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo) {

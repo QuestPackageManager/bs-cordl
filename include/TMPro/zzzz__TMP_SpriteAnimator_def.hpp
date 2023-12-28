@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteAnimator)
 namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace TMPro {
 class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
 }
-namespace TMPro {
-class TMP_Text;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace TMPro {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7);
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 548, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12405)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12332))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12405)), TypeDefinitionIndex(TypeDefinitionIndex(12332)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12418))
 // CS Name: ::TMP_SpriteAnimator::<DoSpriteAnimationInternal>d__7*
 class CORDL_TYPE __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 : public ::System::Object {

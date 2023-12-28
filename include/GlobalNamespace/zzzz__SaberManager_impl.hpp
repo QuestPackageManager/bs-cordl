@@ -24,27 +24,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__SaberManager__InitData::__get_oneSaberMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oneSaberMode;
 }
 constexpr bool const& GlobalNamespace::__SaberManager__InitData::__get_oneSaberMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oneSaberMode;
 }
 constexpr void GlobalNamespace::__SaberManager__InitData::__set_oneSaberMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___oneSaberMode = value;
 }
 constexpr ::GlobalNamespace::SaberType& GlobalNamespace::__SaberManager__InitData::__get_oneSaberType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oneSaberType;
 }
 constexpr ::GlobalNamespace::SaberType const& GlobalNamespace::__SaberManager__InitData::__get_oneSaberType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oneSaberType;
 }
 constexpr void GlobalNamespace::__SaberManager__InitData::__set_oneSaberType(::GlobalNamespace::SaberType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___oneSaberType = value;
 }
 /// @param oneSaberType: ::GlobalNamespace::SaberType (default: static_cast<int32_t>(0x0))
@@ -225,64 +225,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::Saber*& GlobalNamespace::SaberManager::__get__leftSaber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftSaber;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& GlobalNamespace::SaberManager::__get__leftSaber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftSaber;
 }
 constexpr void GlobalNamespace::SaberManager::__set__leftSaber(::GlobalNamespace::Saber* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftSaber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Saber*& GlobalNamespace::SaberManager::__get__rightSaber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightSaber;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& GlobalNamespace::SaberManager::__get__rightSaber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightSaber;
 }
 constexpr void GlobalNamespace::SaberManager::__set__rightSaber(::GlobalNamespace::Saber* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightSaber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__SaberManager__InitData*& GlobalNamespace::SaberManager::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberManager__InitData*> const& GlobalNamespace::SaberManager::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::SaberManager::__set__initData(::GlobalNamespace::__SaberManager__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::SaberManager::__get__started() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____started;
 }
 constexpr bool const& GlobalNamespace::SaberManager::__get__started() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____started;
 }
 constexpr void GlobalNamespace::SaberManager::__set__started(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____started = value;
 }
 constexpr ::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*& GlobalNamespace::SaberManager::__get_didUpdateSaberPositionsEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateSaberPositionsEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*> const&
 GlobalNamespace::SaberManager::__get_didUpdateSaberPositionsEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateSaberPositionsEvent;
 }
 constexpr void GlobalNamespace::SaberManager::__set_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didUpdateSaberPositionsEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::Saber* GlobalNamespace::SaberManager::get_leftSaber() {

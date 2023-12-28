@@ -10,13 +10,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

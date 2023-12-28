@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult::__HttpListenerRequestUriBuilder__ParsingResult(int32_t value__) noexcept {
   this->value__ = value__;
@@ -268,111 +268,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::HttpListenerRequestUriBuilder::__get_rawUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawUri;
 }
 constexpr ::StringW const& System::Net::HttpListenerRequestUriBuilder::__get_rawUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawUri;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_rawUri(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rawUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriScheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriScheme;
 }
 constexpr ::StringW const& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriScheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriScheme;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_cookedUriScheme(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookedUriScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriHost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriHost;
 }
 constexpr ::StringW const& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriHost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriHost;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_cookedUriHost(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookedUriHost)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriPath;
 }
 constexpr ::StringW const& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriPath;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_cookedUriPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookedUriPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriQuery() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriQuery;
 }
 constexpr ::StringW const& System::Net::HttpListenerRequestUriBuilder::__get_cookedUriQuery() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookedUriQuery;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_cookedUriQuery(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookedUriQuery)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& System::Net::HttpListenerRequestUriBuilder::__get_requestUriString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestUriString;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Net::HttpListenerRequestUriBuilder::__get_requestUriString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestUriString;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_requestUriString(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___requestUriString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<uint8_t>*& System::Net::HttpListenerRequestUriBuilder::__get_rawOctets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawOctets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint8_t>*> const& System::Net::HttpListenerRequestUriBuilder::__get_rawOctets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawOctets;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_rawOctets(::System::Collections::Generic::List_1<uint8_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rawOctets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpListenerRequestUriBuilder::__get_rawPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawPath;
 }
 constexpr ::StringW const& System::Net::HttpListenerRequestUriBuilder::__get_rawPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawPath;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_rawPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rawPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& System::Net::HttpListenerRequestUriBuilder::__get_requestUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestUri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::HttpListenerRequestUriBuilder::__get_requestUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestUri;
 }
 constexpr void System::Net::HttpListenerRequestUriBuilder::__set_requestUri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___requestUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::HttpListenerRequestUriBuilder::setStaticF_useCookedRequestUrl(bool value) {

@@ -2,17 +2,17 @@
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
-#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
+#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
+#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialNoteController.get_noteMovement
 template <>
 
@@ -204,63 +204,63 @@ constexpr GlobalNamespace::TutorialNoteController::operator ::GlobalNamespace::I
   return static_cast<::GlobalNamespace::INoteMirrorable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::BoxCuttableBySaber*& GlobalNamespace::TutorialNoteController::__get__cuttableBySaberCore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableBySaberCore;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoxCuttableBySaber*> const& GlobalNamespace::TutorialNoteController::__get__cuttableBySaberCore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableBySaberCore;
 }
 constexpr void GlobalNamespace::TutorialNoteController::__set__cuttableBySaberCore(::GlobalNamespace::BoxCuttableBySaber* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cuttableBySaberCore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BoxCuttableBySaber*& GlobalNamespace::TutorialNoteController::__get__cuttableBySaberBeforeNote() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableBySaberBeforeNote;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoxCuttableBySaber*> const& GlobalNamespace::TutorialNoteController::__get__cuttableBySaberBeforeNote() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableBySaberBeforeNote;
 }
 constexpr void GlobalNamespace::TutorialNoteController::__set__cuttableBySaberBeforeNote(::GlobalNamespace::BoxCuttableBySaber* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cuttableBySaberBeforeNote)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::TutorialNoteController::__get__wrapperGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrapperGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::TutorialNoteController::__get__wrapperGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrapperGO;
 }
 constexpr void GlobalNamespace::TutorialNoteController::__set__wrapperGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____wrapperGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::TutorialNoteController::__get__beforeNoteCutWasOk() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeNoteCutWasOk;
 }
 constexpr bool const& GlobalNamespace::TutorialNoteController::__get__beforeNoteCutWasOk() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeNoteCutWasOk;
 }
 constexpr void GlobalNamespace::TutorialNoteController::__set__beforeNoteCutWasOk(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeNoteCutWasOk = value;
 }
 constexpr float_t& GlobalNamespace::TutorialNoteController::__get__cutAngleTolerance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutAngleTolerance;
 }
 constexpr float_t const& GlobalNamespace::TutorialNoteController::__get__cutAngleTolerance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutAngleTolerance;
 }
 constexpr void GlobalNamespace::TutorialNoteController::__set__cutAngleTolerance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutAngleTolerance = value;
 }
 inline ::GlobalNamespace::NoteMovement* GlobalNamespace::TutorialNoteController::get_noteMovement() {

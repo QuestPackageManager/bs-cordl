@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockMultiplayerStatusModel_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockMultiplayerStatusModel.GetMultiplayerStatusAsync
 template <>
 
@@ -38,15 +38,15 @@ constexpr GlobalNamespace::MockMultiplayerStatusModel::operator ::GlobalNamespac
   return static_cast<::GlobalNamespace::IMultiplayerStatusModel*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::MultiplayerStatusData*& GlobalNamespace::MockMultiplayerStatusModel::__get__multiplayerStatusData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerStatusData*> const& GlobalNamespace::MockMultiplayerStatusModel::__get__multiplayerStatusData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusData;
 }
 constexpr void GlobalNamespace::MockMultiplayerStatusModel::__set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerStatusData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*

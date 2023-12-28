@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3Mask)
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

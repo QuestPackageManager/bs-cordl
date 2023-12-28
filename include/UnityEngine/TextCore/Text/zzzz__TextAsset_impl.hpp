@@ -143,63 +143,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::TextCore::Text::TextAsset::__get_m_Version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
 constexpr ::StringW const& UnityEngine::TextCore::Text::TextAsset::__get_m_Version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
 constexpr void UnityEngine::TextCore::Text::TextAsset::__set_m_Version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::TextCore::Text::TextAsset::__get_m_InstanceID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InstanceID;
 }
 constexpr int32_t const& UnityEngine::TextCore::Text::TextAsset::__get_m_InstanceID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InstanceID;
 }
 constexpr void UnityEngine::TextCore::Text::TextAsset::__set_m_InstanceID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InstanceID = value;
 }
 constexpr int32_t& UnityEngine::TextCore::Text::TextAsset::__get_m_HashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HashCode;
 }
 constexpr int32_t const& UnityEngine::TextCore::Text::TextAsset::__get_m_HashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HashCode;
 }
 constexpr void UnityEngine::TextCore::Text::TextAsset::__set_m_HashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HashCode = value;
 }
 constexpr ::UnityEngine::Material*& UnityEngine::TextCore::Text::TextAsset::__get_m_Material() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Material;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& UnityEngine::TextCore::Text::TextAsset::__get_m_Material() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Material;
 }
 constexpr void UnityEngine::TextCore::Text::TextAsset::__set_m_Material(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::TextCore::Text::TextAsset::__get_m_MaterialHashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaterialHashCode;
 }
 constexpr int32_t const& UnityEngine::TextCore::Text::TextAsset::__get_m_MaterialHashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaterialHashCode;
 }
 constexpr void UnityEngine::TextCore::Text::TextAsset::__set_m_MaterialHashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaterialHashCode = value;
 }
 inline ::StringW UnityEngine::TextCore::Text::TextAsset::get_version() {

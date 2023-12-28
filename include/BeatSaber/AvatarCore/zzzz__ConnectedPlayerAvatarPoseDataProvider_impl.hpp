@@ -2,13 +2,13 @@
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__ConnectedPlayerAvatarPoseDataProvider_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
+#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider.get_currentPose
 template <>
 
@@ -96,66 +96,66 @@ constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get_poseDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*> const&
 BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get_poseDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseDidChangeEvent;
 }
 constexpr void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__set_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poseDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IConnectedPlayer*& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__connectedPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__connectedPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
 constexpr void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::INodePoseSyncStateManager*& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__nodePoseSyncStateManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const&
 BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__nodePoseSyncStateManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
 constexpr void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodePoseSyncStateManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__avatarPoseRestriction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseRestriction;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const&
 BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__avatarPoseRestriction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseRestriction;
 }
 constexpr void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__set__avatarPoseRestriction(::BeatSaber::AvatarCore::IAvatarPoseRestriction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarPoseRestriction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::AvatarCore::AvatarPoseData& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__currentPose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPose;
 }
 constexpr ::BeatSaber::AvatarCore::AvatarPoseData const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__get__currentPose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPose;
 }
 constexpr void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__set__currentPose(::BeatSaber::AvatarCore::AvatarPoseData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentPose = value;
 }
 inline ::BeatSaber::AvatarCore::AvatarPoseData BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::get_currentPose() {

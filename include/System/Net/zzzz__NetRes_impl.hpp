@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NetRes_def.hpp"
-#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
 #include "System/Net/zzzz__FtpStatusCode_def.hpp"
+#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
 //  Writing Method size for method: ::System::Net::NetRes.GetWebStatusString
 template <>
 

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(PlayableOutput)
-namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 class IPlayableOutput;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

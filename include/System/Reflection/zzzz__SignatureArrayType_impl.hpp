@@ -111,27 +111,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Reflection::SignatureArrayType::__get__rank() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rank;
 }
 constexpr int32_t const& System::Reflection::SignatureArrayType::__get__rank() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rank;
 }
 constexpr void System::Reflection::SignatureArrayType::__set__rank(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rank = value;
 }
 constexpr bool& System::Reflection::SignatureArrayType::__get__isMultiDim() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMultiDim;
 }
 constexpr bool const& System::Reflection::SignatureArrayType::__get__isMultiDim() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMultiDim;
 }
 constexpr void System::Reflection::SignatureArrayType::__set__isMultiDim(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isMultiDim = value;
 }
 inline ::System::Reflection::SignatureArrayType* System::Reflection::SignatureArrayType::New_ctor(::System::Reflection::SignatureType* elementType, int32_t rank, bool isMultiDim) {

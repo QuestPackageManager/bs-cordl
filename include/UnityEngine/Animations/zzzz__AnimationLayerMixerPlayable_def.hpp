@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationLayerMixerPlayable)
-namespace UnityEngine {
-class AvatarMask;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine {
+class AvatarMask;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

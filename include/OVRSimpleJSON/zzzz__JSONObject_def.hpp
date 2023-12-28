@@ -9,25 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONObject)
 namespace OVRSimpleJSON {
-struct __JSONNode__Enumerator;
-}
-namespace OVRSimpleJSON {
 class __JSONObject____c__DisplayClass21_0;
-}
-namespace OVRSimpleJSON {
-struct JSONTextMode;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace OVRSimpleJSON {
-struct JSONNodeType;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace OVRSimpleJSON {
 class __JSONObject___get_Children_d__23;
@@ -35,8 +17,32 @@ class __JSONObject___get_Children_d__23;
 namespace OVRSimpleJSON {
 class JSONNode;
 }
+namespace OVRSimpleJSON {
+struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
+struct JSONNodeType;
+}
+namespace OVRSimpleJSON {
+struct __JSONNode__Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -46,12 +52,6 @@ class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -121,8 +121,8 @@ static_assert(::cordl_internals::size_check_v<::OVRSimpleJSON::__JSONObject____c
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1429 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8204)), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8208)) CS Name: ::JSONObject::<get_Children>d__23*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1429 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8204))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8208)) CS Name: ::JSONObject::<get_Children>d__23*
 class CORDL_TYPE __JSONObject___get_Children_d__23 : public ::System::Object {
 public:
   // Declarations

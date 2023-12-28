@@ -9,9 +9,6 @@ namespace GlobalNamespace {
 class Vector3SO;
 }
 namespace GlobalNamespace {
-class FloatSO;
-}
-namespace GlobalNamespace {
 class StepValuePicker;
 }
 namespace UnityEngine::UI {
@@ -19,6 +16,9 @@ class Button;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

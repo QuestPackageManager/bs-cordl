@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MatchCollection)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace System::Text::RegularExpressions {
 class Match;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Text::RegularExpressions {
 class __MatchCollection__Enumerator;
@@ -31,29 +31,29 @@ class __MatchCollection__Enumerator;
 namespace System::Text::RegularExpressions {
 class Regex;
 }
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections {
-class IList;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IList;
 }
 namespace System {
 class IDisposable;

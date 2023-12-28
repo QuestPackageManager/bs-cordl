@@ -3,19 +3,19 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/IO/zzzz__FileStream_def.hpp"
-#include "System/IO/zzzz__FileStream_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafeFileHandle_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__FileMode_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafeFileHandle_def.hpp"
 #include "System/IO/zzzz__FileShare_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__FileStream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/IO/zzzz__FileMode_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/IO/zzzz__FileOptions_def.hpp"
 //  Writing Method size for method: ::System::IO::__FileStream__ReadDelegate._ctor
 template <>
@@ -903,183 +903,183 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::FileStream::__get_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::FileStream::__get_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf;
 }
 constexpr void System::IO::FileStream::__set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::IO::FileStream::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& System::IO::FileStream::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::IO::FileStream::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Microsoft::Win32::SafeHandles::SafeFileHandle*& System::IO::FileStream::__get_safeHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___safeHandle;
 }
 constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeFileHandle*> const& System::IO::FileStream::__get_safeHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___safeHandle;
 }
 constexpr void System::IO::FileStream::__set_safeHandle(::Microsoft::Win32::SafeHandles::SafeFileHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___safeHandle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IO::FileStream::__get_isExposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isExposed;
 }
 constexpr bool const& System::IO::FileStream::__get_isExposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isExposed;
 }
 constexpr void System::IO::FileStream::__set_isExposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isExposed = value;
 }
 constexpr int64_t& System::IO::FileStream::__get_append_startpos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___append_startpos;
 }
 constexpr int64_t const& System::IO::FileStream::__get_append_startpos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___append_startpos;
 }
 constexpr void System::IO::FileStream::__set_append_startpos(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___append_startpos = value;
 }
 constexpr ::System::IO::FileAccess& System::IO::FileStream::__get_access() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___access;
 }
 constexpr ::System::IO::FileAccess const& System::IO::FileStream::__get_access() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___access;
 }
 constexpr void System::IO::FileStream::__set_access(::System::IO::FileAccess value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___access = value;
 }
 constexpr bool& System::IO::FileStream::__get_owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr bool const& System::IO::FileStream::__get_owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr void System::IO::FileStream::__set_owner(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___owner = value;
 }
 constexpr bool& System::IO::FileStream::__get_async() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async;
 }
 constexpr bool const& System::IO::FileStream::__get_async() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async;
 }
 constexpr void System::IO::FileStream::__set_async(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___async = value;
 }
 constexpr bool& System::IO::FileStream::__get_canseek() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canseek;
 }
 constexpr bool const& System::IO::FileStream::__get_canseek() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canseek;
 }
 constexpr void System::IO::FileStream::__set_canseek(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___canseek = value;
 }
 constexpr bool& System::IO::FileStream::__get_anonymous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anonymous;
 }
 constexpr bool const& System::IO::FileStream::__get_anonymous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anonymous;
 }
 constexpr void System::IO::FileStream::__set_anonymous(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___anonymous = value;
 }
 constexpr bool& System::IO::FileStream::__get_buf_dirty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_dirty;
 }
 constexpr bool const& System::IO::FileStream::__get_buf_dirty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_dirty;
 }
 constexpr void System::IO::FileStream::__set_buf_dirty(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buf_dirty = value;
 }
 constexpr int32_t& System::IO::FileStream::__get_buf_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_size;
 }
 constexpr int32_t const& System::IO::FileStream::__get_buf_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_size;
 }
 constexpr void System::IO::FileStream::__set_buf_size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buf_size = value;
 }
 constexpr int32_t& System::IO::FileStream::__get_buf_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_length;
 }
 constexpr int32_t const& System::IO::FileStream::__get_buf_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_length;
 }
 constexpr void System::IO::FileStream::__set_buf_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buf_length = value;
 }
 constexpr int32_t& System::IO::FileStream::__get_buf_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_offset;
 }
 constexpr int32_t const& System::IO::FileStream::__get_buf_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_offset;
 }
 constexpr void System::IO::FileStream::__set_buf_offset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buf_offset = value;
 }
 constexpr int64_t& System::IO::FileStream::__get_buf_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_start;
 }
 constexpr int64_t const& System::IO::FileStream::__get_buf_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf_start;
 }
 constexpr void System::IO::FileStream::__set_buf_start(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buf_start = value;
 }
 inline void System::IO::FileStream::setStaticF_buf_recycle(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

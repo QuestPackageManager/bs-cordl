@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalMissingHandlerResponses_impl.hpp"
 #include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::SignalDeclarationBindInfo._ctor
 template <>
 
@@ -160,63 +160,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& Zenject::SignalDeclarationBindInfo::__get__Identifier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Identifier_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::SignalDeclarationBindInfo::__get__Identifier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Identifier_k__BackingField;
 }
 constexpr void Zenject::SignalDeclarationBindInfo::__set__Identifier_k__BackingField(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Identifier_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::SignalDeclarationBindInfo::__get__SignalType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::SignalDeclarationBindInfo::__get__SignalType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalType_k__BackingField;
 }
 constexpr void Zenject::SignalDeclarationBindInfo::__set__SignalType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SignalType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::SignalDeclarationBindInfo::__get__RunAsync_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RunAsync_k__BackingField;
 }
 constexpr bool const& Zenject::SignalDeclarationBindInfo::__get__RunAsync_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RunAsync_k__BackingField;
 }
 constexpr void Zenject::SignalDeclarationBindInfo::__set__RunAsync_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____RunAsync_k__BackingField = value;
 }
 constexpr int32_t& Zenject::SignalDeclarationBindInfo::__get__TickPriority_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TickPriority_k__BackingField;
 }
 constexpr int32_t const& Zenject::SignalDeclarationBindInfo::__get__TickPriority_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TickPriority_k__BackingField;
 }
 constexpr void Zenject::SignalDeclarationBindInfo::__set__TickPriority_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____TickPriority_k__BackingField = value;
 }
 constexpr ::Zenject::SignalMissingHandlerResponses& Zenject::SignalDeclarationBindInfo::__get__MissingHandlerResponse_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MissingHandlerResponse_k__BackingField;
 }
 constexpr ::Zenject::SignalMissingHandlerResponses const& Zenject::SignalDeclarationBindInfo::__get__MissingHandlerResponse_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MissingHandlerResponse_k__BackingField;
 }
 constexpr void Zenject::SignalDeclarationBindInfo::__set__MissingHandlerResponse_k__BackingField(::Zenject::SignalMissingHandlerResponses value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MissingHandlerResponse_k__BackingField = value;
 }
 inline ::Zenject::SignalDeclarationBindInfo* Zenject::SignalDeclarationBindInfo::New_ctor(::System::Type* signalType) {

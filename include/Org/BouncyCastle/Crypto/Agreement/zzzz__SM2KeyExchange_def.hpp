@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SM2KeyExchange)
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+class SM2KeyExchangePublicParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class SM2KeyExchangePublicParameters;
+class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

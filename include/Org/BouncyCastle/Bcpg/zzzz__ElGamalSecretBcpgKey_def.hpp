@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElGamalSecretBcpgKey)
-namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;

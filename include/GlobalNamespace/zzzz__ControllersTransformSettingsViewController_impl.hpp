@@ -102,111 +102,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::ControllersTransformSettingsViewController::__get__controllerPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerPosition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__controllerPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerPosition;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__controllerPosition(::GlobalNamespace::Vector3SO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllerPosition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Vector3SO*& GlobalNamespace::ControllersTransformSettingsViewController::__get__controllerRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerRotation;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__controllerRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerRotation;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__controllerRotation(::GlobalNamespace::Vector3SO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllerRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::ControllersTransformSettingsViewController::__get__posXSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posXSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__posXSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posXSlider;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__posXSlider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____posXSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::ControllersTransformSettingsViewController::__get__posYSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posYSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__posYSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posYSlider;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__posYSlider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____posYSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::ControllersTransformSettingsViewController::__get__posZSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posZSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__posZSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posZSlider;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__posZSlider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____posZSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::ControllersTransformSettingsViewController::__get__rotXSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotXSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__rotXSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotXSlider;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__rotXSlider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotXSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::ControllersTransformSettingsViewController::__get__rotYSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotYSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__rotYSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotYSlider;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__rotYSlider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotYSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::ControllersTransformSettingsViewController::__get__rotZSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotZSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__rotZSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotZSlider;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__rotZSlider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotZSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::ControllersTransformSettingsViewController::__get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::ControllersTransformSettingsViewController::__get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ControllersTransformSettingsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {

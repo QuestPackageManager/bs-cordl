@@ -52,15 +52,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::ComponentModel::EditorBrowsableState& System::ComponentModel::EditorBrowsableAttribute::__get_browsableState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___browsableState;
 }
 constexpr ::System::ComponentModel::EditorBrowsableState const& System::ComponentModel::EditorBrowsableAttribute::__get_browsableState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___browsableState;
 }
 constexpr void System::ComponentModel::EditorBrowsableAttribute::__set_browsableState(::System::ComponentModel::EditorBrowsableState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___browsableState = value;
 }
 inline ::System::ComponentModel::EditorBrowsableAttribute* System::ComponentModel::EditorBrowsableAttribute::New_ctor(::System::ComponentModel::EditorBrowsableState state) {

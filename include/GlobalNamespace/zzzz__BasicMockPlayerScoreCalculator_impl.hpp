@@ -40,51 +40,51 @@ constexpr GlobalNamespace::BasicMockPlayerScoreCalculator::operator ::GlobalName
   return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__hitFrequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitFrequency;
 }
 constexpr float_t const& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__hitFrequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitFrequency;
 }
 constexpr void GlobalNamespace::BasicMockPlayerScoreCalculator::__set__hitFrequency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hitFrequency = value;
 }
 constexpr int32_t& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__minScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minScore;
 }
 constexpr int32_t const& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__minScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minScore;
 }
 constexpr void GlobalNamespace::BasicMockPlayerScoreCalculator::__set__minScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minScore = value;
 }
 constexpr int32_t& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__maxScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxScore;
 }
 constexpr int32_t const& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__maxScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxScore;
 }
 constexpr void GlobalNamespace::BasicMockPlayerScoreCalculator::__set__maxScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxScore = value;
 }
 constexpr ::System::Random*& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& GlobalNamespace::BasicMockPlayerScoreCalculator::__get__random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr void GlobalNamespace::BasicMockPlayerScoreCalculator::__set__random(::System::Random* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param hitFrequency: float_t (default: 0.95)

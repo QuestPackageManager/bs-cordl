@@ -8,16 +8,16 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace System {
-class Object;
+class Action;
 }
 namespace UnityEngine::Playables {
 class INotification;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::Playables {
 class INotificationReceiver;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

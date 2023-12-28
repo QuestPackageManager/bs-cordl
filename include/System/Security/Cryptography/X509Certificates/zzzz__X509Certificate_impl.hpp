@@ -2,15 +2,15 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate.Reset
 template <>
 
@@ -600,124 +600,124 @@ constexpr System::Security::Cryptography::X509Certificates::X509Certificate::ope
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& System::Security::Cryptography::X509Certificates::X509Certificate::__get_impl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impl;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*> const&
 System::Security::Cryptography::X509Certificates::X509Certificate::__get_impl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impl;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_impl(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___impl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyCertHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyCertHash;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyCertHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyCertHash;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyCertHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazyCertHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazySerialNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazySerialNumber;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazySerialNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazySerialNumber;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazySerialNumber(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazySerialNumber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyIssuer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyIssuer;
 }
 constexpr ::StringW const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyIssuer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyIssuer;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyIssuer(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazyIssuer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazySubject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazySubject;
 }
 constexpr ::StringW const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazySubject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazySubject;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazySubject(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazySubject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyKeyAlgorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyKeyAlgorithm;
 }
 constexpr ::StringW const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyKeyAlgorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyKeyAlgorithm;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyKeyAlgorithm(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazyKeyAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyKeyAlgorithmParameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyKeyAlgorithmParameters;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyKeyAlgorithmParameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyKeyAlgorithmParameters;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyKeyAlgorithmParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazyKeyAlgorithmParameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyPublicKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyPublicKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyPublicKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyPublicKey;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lazyPublicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyNotBefore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyNotBefore;
 }
 constexpr ::System::DateTime const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyNotBefore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyNotBefore;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyNotBefore(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lazyNotBefore = value;
 }
 constexpr ::System::DateTime& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyNotAfter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyNotAfter;
 }
 constexpr ::System::DateTime const& System::Security::Cryptography::X509Certificates::X509Certificate::__get_lazyNotAfter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lazyNotAfter;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate::__set_lazyNotAfter(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lazyNotAfter = value;
 }
 inline void System::Security::Cryptography::X509Certificates::X509Certificate::Reset() {

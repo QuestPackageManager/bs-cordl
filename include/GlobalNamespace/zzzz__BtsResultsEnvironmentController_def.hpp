@@ -9,17 +9,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BtsResultsEnvironmentController)
-namespace GlobalNamespace {
-class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
@@ -27,8 +18,11 @@ class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
 namespace GlobalNamespace {
 class BTSCharacterDataModel;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
+}
+namespace GlobalNamespace {
+class __BTSCharacterDataModel__PrefabWithId;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
@@ -37,28 +31,34 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
 namespace GlobalNamespace {
-class __BTSCharacterDataModel__PrefabWithId;
+class IReadonlyBeatmapData;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
-class Transform;
+class GameObject;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace GlobalNamespace {
-class BTSCharacter;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
-class BTSCharacterResultAnimationController;
+class BTSCharacter;
 }
 namespace UnityEngine::AddressableAssets {
 class AssetReference;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class BTSCharacterResultAnimationController;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;

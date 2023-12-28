@@ -6,28 +6,28 @@
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "TMPro/zzzz__TMP_TextInfo_def.hpp"
-#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18._ctor
 template <>
@@ -128,39 +128,39 @@ constexpr TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::operator ::Sys
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshProUGUI*& TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__set___4__this(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18* TMPro::__TextMeshProUGUI___DelayedGraphicRebuild_d__18::New_ctor(int32_t __1__state) {
@@ -303,39 +303,39 @@ constexpr TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::operator ::Sy
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshProUGUI*& TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__set___4__this(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19* TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19::New_ctor(int32_t __1__state) {
@@ -1385,243 +1385,243 @@ constexpr TMPro::TextMeshProUGUI::operator ::UnityEngine::UI::ILayoutElement*() 
   return static_cast<::UnityEngine::UI::ILayoutElement*>(static_cast<void*>(this));
 }
 constexpr bool& TMPro::TextMeshProUGUI::__get_m_isRebuildingLayout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isRebuildingLayout;
 }
 constexpr bool const& TMPro::TextMeshProUGUI::__get_m_isRebuildingLayout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isRebuildingLayout;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_isRebuildingLayout(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isRebuildingLayout = value;
 }
 constexpr ::UnityEngine::Coroutine*& TMPro::TextMeshProUGUI::__get_m_DelayedGraphicRebuild() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelayedGraphicRebuild;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& TMPro::TextMeshProUGUI::__get_m_DelayedGraphicRebuild() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelayedGraphicRebuild;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_DelayedGraphicRebuild(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DelayedGraphicRebuild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Coroutine*& TMPro::TextMeshProUGUI::__get_m_DelayedMaterialRebuild() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelayedMaterialRebuild;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& TMPro::TextMeshProUGUI::__get_m_DelayedMaterialRebuild() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelayedMaterialRebuild;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_DelayedMaterialRebuild(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DelayedMaterialRebuild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rect& TMPro::TextMeshProUGUI::__get_m_ClipRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClipRect;
 }
 constexpr ::UnityEngine::Rect const& TMPro::TextMeshProUGUI::__get_m_ClipRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClipRect;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_ClipRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClipRect = value;
 }
 constexpr bool& TMPro::TextMeshProUGUI::__get_m_ValidRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValidRect;
 }
 constexpr bool const& TMPro::TextMeshProUGUI::__get_m_ValidRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValidRect;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_ValidRect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ValidRect = value;
 }
 constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>*& TMPro::TextMeshProUGUI::__get_OnPreRenderText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnPreRenderText;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::TMPro::TMP_TextInfo*>*> const& TMPro::TextMeshProUGUI::__get_OnPreRenderText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnPreRenderText;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnPreRenderText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& TMPro::TextMeshProUGUI::__get_m_hasFontAssetChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasFontAssetChanged;
 }
 constexpr bool const& TMPro::TextMeshProUGUI::__get_m_hasFontAssetChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasFontAssetChanged;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_hasFontAssetChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasFontAssetChanged = value;
 }
 constexpr ::ArrayW<::TMPro::TMP_SubMeshUI*, ::Array<::TMPro::TMP_SubMeshUI*>*>& TMPro::TextMeshProUGUI::__get_m_subTextObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_subTextObjects;
 }
 constexpr ::ArrayW<::TMPro::TMP_SubMeshUI*, ::Array<::TMPro::TMP_SubMeshUI*>*> const& TMPro::TextMeshProUGUI::__get_m_subTextObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_subTextObjects;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_subTextObjects(::ArrayW<::TMPro::TMP_SubMeshUI*, ::Array<::TMPro::TMP_SubMeshUI*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_subTextObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& TMPro::TextMeshProUGUI::__get_m_previousLossyScaleY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_previousLossyScaleY;
 }
 constexpr float_t const& TMPro::TextMeshProUGUI::__get_m_previousLossyScaleY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_previousLossyScaleY;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_previousLossyScaleY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_previousLossyScaleY = value;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& TMPro::TextMeshProUGUI::__get_m_RectTransformCorners() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RectTransformCorners;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& TMPro::TextMeshProUGUI::__get_m_RectTransformCorners() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RectTransformCorners;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_RectTransformCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RectTransformCorners)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasRenderer*& TMPro::TextMeshProUGUI::__get_m_canvasRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_canvasRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasRenderer*> const& TMPro::TextMeshProUGUI::__get_m_canvasRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_canvasRenderer;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_canvasRenderer(::UnityEngine::CanvasRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_canvasRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Canvas*& TMPro::TextMeshProUGUI::__get_m_canvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_canvas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& TMPro::TextMeshProUGUI::__get_m_canvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_canvas;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_canvas(::UnityEngine::Canvas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_canvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& TMPro::TextMeshProUGUI::__get_m_CanvasScaleFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CanvasScaleFactor;
 }
 constexpr float_t const& TMPro::TextMeshProUGUI::__get_m_CanvasScaleFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CanvasScaleFactor;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_CanvasScaleFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CanvasScaleFactor = value;
 }
 constexpr bool& TMPro::TextMeshProUGUI::__get_m_isFirstAllocation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isFirstAllocation;
 }
 constexpr bool const& TMPro::TextMeshProUGUI::__get_m_isFirstAllocation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isFirstAllocation;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_isFirstAllocation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isFirstAllocation = value;
 }
 constexpr int32_t& TMPro::TextMeshProUGUI::__get_m_max_characters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_max_characters;
 }
 constexpr int32_t const& TMPro::TextMeshProUGUI::__get_m_max_characters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_max_characters;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_max_characters(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_max_characters = value;
 }
 constexpr ::UnityEngine::Material*& TMPro::TextMeshProUGUI::__get_m_baseMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_baseMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::TextMeshProUGUI::__get_m_baseMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_baseMaterial;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_baseMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_baseMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& TMPro::TextMeshProUGUI::__get_m_isScrollRegionSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isScrollRegionSet;
 }
 constexpr bool const& TMPro::TextMeshProUGUI::__get_m_isScrollRegionSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isScrollRegionSet;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_isScrollRegionSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isScrollRegionSet = value;
 }
 constexpr ::UnityEngine::Vector4& TMPro::TextMeshProUGUI::__get_m_maskOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maskOffset;
 }
 constexpr ::UnityEngine::Vector4 const& TMPro::TextMeshProUGUI::__get_m_maskOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maskOffset;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_maskOffset(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maskOffset = value;
 }
 constexpr ::UnityEngine::Matrix4x4& TMPro::TextMeshProUGUI::__get_m_EnvMapMatrix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EnvMapMatrix;
 }
 constexpr ::UnityEngine::Matrix4x4 const& TMPro::TextMeshProUGUI::__get_m_EnvMapMatrix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EnvMapMatrix;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_EnvMapMatrix(::UnityEngine::Matrix4x4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EnvMapMatrix = value;
 }
 constexpr bool& TMPro::TextMeshProUGUI::__get_m_isRegisteredForEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isRegisteredForEvents;
 }
 constexpr bool const& TMPro::TextMeshProUGUI::__get_m_isRegisteredForEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isRegisteredForEvents;
 }
 constexpr void TMPro::TextMeshProUGUI::__set_m_isRegisteredForEvents(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isRegisteredForEvents = value;
 }
 inline void TMPro::TextMeshProUGUI::setStaticF_k_GenerateTextMarker(::Unity::Profiling::ProfilerMarker value) {

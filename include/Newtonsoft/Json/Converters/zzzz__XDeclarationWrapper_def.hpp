@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XDeclarationWrapper)
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml {
 struct XmlNodeType;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlDeclaration;

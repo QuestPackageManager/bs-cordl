@@ -10,16 +10,16 @@ namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+class __LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
+class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color32Serializable)
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace System {
 class Object;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace UnityEngine {
 struct Color32;

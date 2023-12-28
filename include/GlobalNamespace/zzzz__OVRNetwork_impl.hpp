@@ -7,9 +7,9 @@
 #include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Net/Sockets/zzzz__TcpListener_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRNetwork__FrameHeader.ToBytes
 template <>
 
@@ -163,40 +163,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::TcpListener*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__get_tcpListener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcpListener;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpListener*> const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__get_tcpListener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcpListener;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__set_tcpListener(::System::Net::Sockets::TcpListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcpListener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__get_clientsLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientsLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__get_clientsLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientsLock;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__set_clientsLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientsLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__get_clients() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clients;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*> const&
 GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__get_clients() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clients;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::__set_clients(::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clients)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::StartListening(int32_t listeningPort) {
@@ -369,88 +369,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_connectionStateChangedCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionStateChangedCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_connectionStateChangedCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionStateChangedCallback;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_connectionStateChangedCallback(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionStateChangedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_payloadReceivedCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___payloadReceivedCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>*> const&
 GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_payloadReceivedCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___payloadReceivedCallback;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_payloadReceivedCallback(::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___payloadReceivedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::TcpClient*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_tcpClient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcpClient;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpClient*> const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_tcpClient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcpClient;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_tcpClient(::System::Net::Sockets::TcpClient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcpClient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_receivedBuffers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receivedBuffers;
 }
 constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_receivedBuffers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receivedBuffers;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_receivedBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___receivedBuffers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_receivedBufferIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receivedBufferIndex;
 }
 constexpr int32_t const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_receivedBufferIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receivedBufferIndex;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_receivedBufferIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___receivedBufferIndex = value;
 }
 constexpr int32_t& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_receivedBufferDataSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receivedBufferDataSize;
 }
 constexpr int32_t const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_receivedBufferDataSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receivedBufferDataSize;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_receivedBufferDataSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___receivedBufferDataSize = value;
 }
 constexpr ::System::Threading::ManualResetEvent*& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_readyReceiveDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readyReceiveDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__get_readyReceiveDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readyReceiveDataEvent;
 }
 constexpr void GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::__set_readyReceiveDataEvent(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readyReceiveDataEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::get_connectionState() {

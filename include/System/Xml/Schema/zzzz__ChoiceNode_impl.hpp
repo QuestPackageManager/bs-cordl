@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__ChoiceNode_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::ChoiceNode.ConstructChildPos
 template <>
 

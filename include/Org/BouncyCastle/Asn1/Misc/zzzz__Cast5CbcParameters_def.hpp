@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cast5CbcParameters)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace System {
-class Object;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Misc {

@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410NamedParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410ParamSetParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters._ctor
 template <>
 

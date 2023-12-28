@@ -4,11 +4,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaElement_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAttribute_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInfo._ctor
 template <>
 
@@ -151,99 +151,99 @@ constexpr System::Xml::Schema::XmlSchemaInfo::operator ::System::Xml::Schema::IX
   return static_cast<::System::Xml::Schema::IXmlSchemaInfo*>(static_cast<void*>(this));
 }
 constexpr bool& System::Xml::Schema::XmlSchemaInfo::__get_isDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDefault;
 }
 constexpr bool const& System::Xml::Schema::XmlSchemaInfo::__get_isDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDefault;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_isDefault(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isDefault = value;
 }
 constexpr bool& System::Xml::Schema::XmlSchemaInfo::__get_isNil() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isNil;
 }
 constexpr bool const& System::Xml::Schema::XmlSchemaInfo::__get_isNil() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isNil;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_isNil(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isNil = value;
 }
 constexpr ::System::Xml::Schema::XmlSchemaElement*& System::Xml::Schema::XmlSchemaInfo::__get_schemaElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaElement;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& System::Xml::Schema::XmlSchemaInfo::__get_schemaElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaElement;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_schemaElement(::System::Xml::Schema::XmlSchemaElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::XmlSchemaAttribute*& System::Xml::Schema::XmlSchemaInfo::__get_schemaAttribute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaAttribute;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttribute*> const& System::Xml::Schema::XmlSchemaInfo::__get_schemaAttribute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaAttribute;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_schemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaAttribute)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::XmlSchemaType*& System::Xml::Schema::XmlSchemaInfo::__get_schemaType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& System::Xml::Schema::XmlSchemaInfo::__get_schemaType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_schemaType(::System::Xml::Schema::XmlSchemaType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& System::Xml::Schema::XmlSchemaInfo::__get_memberType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& System::Xml::Schema::XmlSchemaInfo::__get_memberType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberType;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::XmlSchemaValidity& System::Xml::Schema::XmlSchemaInfo::__get_validity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validity;
 }
 constexpr ::System::Xml::Schema::XmlSchemaValidity const& System::Xml::Schema::XmlSchemaInfo::__get_validity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validity;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_validity(::System::Xml::Schema::XmlSchemaValidity value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validity = value;
 }
 constexpr ::System::Xml::Schema::XmlSchemaContentType& System::Xml::Schema::XmlSchemaInfo::__get_contentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr ::System::Xml::Schema::XmlSchemaContentType const& System::Xml::Schema::XmlSchemaInfo::__get_contentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr void System::Xml::Schema::XmlSchemaInfo::__set_contentType(::System::Xml::Schema::XmlSchemaContentType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentType = value;
 }
 inline ::System::Xml::Schema::XmlSchemaInfo* System::Xml::Schema::XmlSchemaInfo::New_ctor() {

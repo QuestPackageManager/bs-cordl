@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpConsoleCommand_def.hpp"
-#include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
+#include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpConsoleCommand.get_isAsyncCommand
@@ -157,27 +157,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::DebugConsoleController*& GlobalNamespace::HelpConsoleCommand::__get__console() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____console;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DebugConsoleController*> const& GlobalNamespace::HelpConsoleCommand::__get__console() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____console;
 }
 constexpr void GlobalNamespace::HelpConsoleCommand::__set__console(::GlobalNamespace::DebugConsoleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____console)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>*& GlobalNamespace::HelpConsoleCommand::__get__commandName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commandName;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<::StringW>*> const& GlobalNamespace::HelpConsoleCommand::__get__commandName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commandName;
 }
 constexpr void GlobalNamespace::HelpConsoleCommand::__set__commandName(::GlobalNamespace::OptionalArgument_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____commandName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::HelpConsoleCommand::get_isAsyncCommand() {

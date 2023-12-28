@@ -102,15 +102,15 @@ constexpr Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::operator ::
   return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Cryptography::RandomNumberGenerator*& Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::__get_rndProv() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rndProv;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::__get_rndProv() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rndProv;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::__set_rndProv(::System::Security::Cryptography::RandomNumberGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rndProv)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor() {

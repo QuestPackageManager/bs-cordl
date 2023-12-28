@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsCipherFactory)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipherFactory;

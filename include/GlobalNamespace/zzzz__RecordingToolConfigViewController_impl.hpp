@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolConfigViewController.DidActivate
 template <>
 
@@ -34,27 +34,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::TextPageScrollView*& GlobalNamespace::RecordingToolConfigViewController::__get__textPageScrollView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textPageScrollView;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::TextPageScrollView*> const& GlobalNamespace::RecordingToolConfigViewController::__get__textPageScrollView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textPageScrollView;
 }
 constexpr void GlobalNamespace::RecordingToolConfigViewController::__set__textPageScrollView(::HMUI::TextPageScrollView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textPageScrollView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingToolManager*& GlobalNamespace::RecordingToolConfigViewController::__get__recordingToolManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolManager*> const& GlobalNamespace::RecordingToolConfigViewController::__get__recordingToolManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolManager;
 }
 constexpr void GlobalNamespace::RecordingToolConfigViewController::__set__recordingToolManager(::GlobalNamespace::RecordingToolManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RecordingToolConfigViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {

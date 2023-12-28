@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyBackgroundExecutionHelper_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SonyBackgroundExecutionHelper.add_didGoToBackgroundExecutionEvent
 template <>
 
@@ -110,39 +110,39 @@ constexpr GlobalNamespace::SonyBackgroundExecutionHelper::operator ::Zenject::IT
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr ::System::Action*& GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToBackgroundExecutionEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToBackgroundExecutionEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToBackgroundExecutionEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToBackgroundExecutionEvent;
 }
 constexpr void GlobalNamespace::SonyBackgroundExecutionHelper::__set_didGoToBackgroundExecutionEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didGoToBackgroundExecutionEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToForegroundExecutionEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToForegroundExecutionEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SonyBackgroundExecutionHelper::__get_didGoToForegroundExecutionEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didGoToForegroundExecutionEvent;
 }
 constexpr void GlobalNamespace::SonyBackgroundExecutionHelper::__set_didGoToForegroundExecutionEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didGoToForegroundExecutionEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::SonyBackgroundExecutionHelper::__get__isInBackgroundExecution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInBackgroundExecution;
 }
 constexpr bool const& GlobalNamespace::SonyBackgroundExecutionHelper::__get__isInBackgroundExecution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInBackgroundExecution;
 }
 constexpr void GlobalNamespace::SonyBackgroundExecutionHelper::__set__isInBackgroundExecution(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isInBackgroundExecution = value;
 }
 inline void GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToBackgroundExecutionEvent(::System::Action* value) {

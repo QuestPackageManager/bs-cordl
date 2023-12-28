@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectNull)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
+class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;

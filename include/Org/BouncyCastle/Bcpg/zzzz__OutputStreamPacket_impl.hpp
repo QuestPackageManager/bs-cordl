@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& Org::BouncyCastle::Bcpg::OutputStreamPacket::__get_bcpgOut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bcpgOut;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& Org::BouncyCastle::Bcpg::OutputStreamPacket::__get_bcpgOut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bcpgOut;
 }
 constexpr void Org::BouncyCastle::Bcpg::OutputStreamPacket::__set_bcpgOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bcpgOut)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* Org::BouncyCastle::Bcpg::OutputStreamPacket::New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut) {

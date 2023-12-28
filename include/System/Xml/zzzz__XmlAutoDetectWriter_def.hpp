@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAutoDetectWriter)
 namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-class XmlEventCache;
-}
-namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Xml {
-struct XmlOutputMethod;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Xml {
-class OnRemoveWriter;
+class IXmlNamespaceResolver;
 }
 namespace System::IO {
 class TextWriter;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlRawWriter;
 }
 namespace System::Xml {
-class XmlRawWriter;
+class OnRemoveWriter;
+}
+namespace System::Xml {
+struct XmlOutputMethod;
+}
+namespace System::Xml {
+struct XmlStandalone;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Xml {
+class XmlEventCache;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {

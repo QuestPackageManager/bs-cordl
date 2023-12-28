@@ -1,7 +1,7 @@
 #pragma once
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKQuaternion.get_identity
 template <>
 

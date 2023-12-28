@@ -18,27 +18,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::VoipMuteState& Oculus::Platform::Models::SystemVoipState::__get_MicrophoneMuted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MicrophoneMuted;
 }
 constexpr ::Oculus::Platform::VoipMuteState const& Oculus::Platform::Models::SystemVoipState::__get_MicrophoneMuted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MicrophoneMuted;
 }
 constexpr void Oculus::Platform::Models::SystemVoipState::__set_MicrophoneMuted(::Oculus::Platform::VoipMuteState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MicrophoneMuted = value;
 }
 constexpr ::Oculus::Platform::SystemVoipStatus& Oculus::Platform::Models::SystemVoipState::__get_Status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Status;
 }
 constexpr ::Oculus::Platform::SystemVoipStatus const& Oculus::Platform::Models::SystemVoipState::__get_Status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Status;
 }
 constexpr void Oculus::Platform::Models::SystemVoipState::__set_Status(::Oculus::Platform::SystemVoipStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Status = value;
 }
 inline ::Oculus::Platform::Models::SystemVoipState* Oculus::Platform::Models::SystemVoipState::New_ctor(void* o) {

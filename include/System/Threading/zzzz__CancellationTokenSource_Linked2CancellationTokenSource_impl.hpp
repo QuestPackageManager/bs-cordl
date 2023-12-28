@@ -36,27 +36,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::CancellationTokenRegistration& System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::__get__reg1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reg1;
 }
 constexpr ::System::Threading::CancellationTokenRegistration const& System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::__get__reg1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reg1;
 }
 constexpr void System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::__set__reg1(::System::Threading::CancellationTokenRegistration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reg1 = value;
 }
 constexpr ::System::Threading::CancellationTokenRegistration& System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::__get__reg2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reg2;
 }
 constexpr ::System::Threading::CancellationTokenRegistration const& System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::__get__reg2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reg2;
 }
 constexpr void System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::__set__reg2(::System::Threading::CancellationTokenRegistration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reg2 = value;
 }
 inline ::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource*

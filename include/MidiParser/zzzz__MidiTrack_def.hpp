@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MidiTrack)
-namespace MidiParser {
-struct MidiEvent;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace MidiParser {
+struct MidiEvent;
 }
 // Forward declare root types
 namespace MidiParser {

@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance.get_playerCount
 template <>
 
@@ -50,27 +50,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__get__playerCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerCount;
 }
 constexpr int32_t const& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__get__playerCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerCount;
 }
 constexpr void GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__set__playerCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playerCount = value;
 }
 constexpr float_t& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__get__distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distance;
 }
 constexpr float_t const& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__get__distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distance;
 }
 constexpr void GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__set__distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____distance = value;
 }
 inline int32_t GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::get_playerCount() {
@@ -199,65 +199,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*>&
 GlobalNamespace::BeatmapObjectSpawnCenter::__get__distances() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distances;
 }
 constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> const&
 GlobalNamespace::BeatmapObjectSpawnCenter::__get__distances() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distances;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnCenter::__set__distances(
     ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____distances)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnCenter::__get__defaultDistnace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultDistnace;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnCenter::__get__defaultDistnace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultDistnace;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnCenter::__set__defaultDistnace(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultDistnace = value;
 }
 constexpr ::System::Action_1<float_t>*& GlobalNamespace::BeatmapObjectSpawnCenter::__get_spawnCenterDistanceWasFoundEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnCenterDistanceWasFoundEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& GlobalNamespace::BeatmapObjectSpawnCenter::__get_spawnCenterDistanceWasFoundEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnCenterDistanceWasFoundEvent;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnCenter::__set_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spawnCenterDistanceWasFoundEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::BeatmapObjectSpawnCenter::__get__spawnCenterDistanceWasFound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistanceWasFound;
 }
 constexpr bool const& GlobalNamespace::BeatmapObjectSpawnCenter::__get__spawnCenterDistanceWasFound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistanceWasFound;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnCenter::__set__spawnCenterDistanceWasFound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnCenterDistanceWasFound = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnCenter::__get__spawnCenterDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistance;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnCenter::__get__spawnCenterDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistance;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnCenter::__set__spawnCenterDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnCenterDistance = value;
 }
 inline float_t GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistance() {

@@ -73,27 +73,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HMUI::SegmentedControlCell::__get__cellNumber_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellNumber_k__BackingField;
 }
 constexpr int32_t const& HMUI::SegmentedControlCell::__get__cellNumber_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellNumber_k__BackingField;
 }
 constexpr void HMUI::SegmentedControlCell::__set__cellNumber_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cellNumber_k__BackingField = value;
 }
 constexpr ::HMUI::SegmentedControl*& HMUI::SegmentedControlCell::__get__segmentedControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____segmentedControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::SegmentedControl*> const& HMUI::SegmentedControlCell::__get__segmentedControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____segmentedControl;
 }
 constexpr void HMUI::SegmentedControlCell::__set__segmentedControl(::HMUI::SegmentedControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____segmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t HMUI::SegmentedControlCell::get_cellNumber() {

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputInteraction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6712))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6131))
 // CS Name: ::UnityEngine.InputSystem::InputInteraction*
 class CORDL_TYPE InputInteraction : public ::System::Object {

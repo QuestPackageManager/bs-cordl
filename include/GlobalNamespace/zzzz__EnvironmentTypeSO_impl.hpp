@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::EnvironmentTypeSO::__get__typeNameLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeNameLocalizationKey;
 }
 constexpr ::StringW const& GlobalNamespace::EnvironmentTypeSO::__get__typeNameLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeNameLocalizationKey;
 }
 constexpr void GlobalNamespace::EnvironmentTypeSO::__set__typeNameLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeNameLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::EnvironmentTypeSO::get_typeNameLocalizationKey() {

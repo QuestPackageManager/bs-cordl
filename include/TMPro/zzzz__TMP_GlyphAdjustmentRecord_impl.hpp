@@ -1,8 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__TMP_GlyphValueRecord_impl.hpp"
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
-#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"
+#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_GlyphAdjustmentRecord.get_glyphIndex
 template <>
 

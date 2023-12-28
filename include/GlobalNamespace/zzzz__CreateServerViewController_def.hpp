@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(CreateServerViewController)
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
-class CreateServerFormController;
+struct CreateServerFormData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class MultiplayerModeSettings;
+class CreateServerFormController;
 }
 namespace GlobalNamespace {
-struct CreateServerFormData;
-}
-namespace UnityEngine::UI {
-class Button;
+class MultiplayerModeSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {

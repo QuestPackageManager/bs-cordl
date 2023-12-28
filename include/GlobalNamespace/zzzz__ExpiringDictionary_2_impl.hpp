@@ -1,55 +1,55 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr TKey& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TValue> constexpr TKey const& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__set_key(TKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr TValue& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TKey, typename TValue> constexpr TValue const& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__set_value(TValue value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr int64_t& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_expireTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expireTime;
 }
 template <typename TKey, typename TValue> constexpr int64_t const& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__get_expireTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expireTime;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__set_expireTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___expireTime = value;
 }
 template <typename TKey, typename TValue> inline void GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::Dispose() {
@@ -83,60 +83,60 @@ template <typename TKey, typename TValue> constexpr GlobalNamespace::__ExpiringD
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr int32_t& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TKey, typename TValue> constexpr int32_t const& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TKey, typename TValue> constexpr TValue& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TValue> constexpr TValue const& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__set___2__current(TValue value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*> const&
 GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__set___4__this(::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*&
 GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
 GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__set___7__wrap1(
     ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
@@ -200,79 +200,79 @@ template <typename TKey, typename TValue> constexpr GlobalNamespace::ExpiringDic
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::BGNet::Core::ITimeProvider*& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__timeProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__timeProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__set__timeProvider(::BGNet::Core::ITimeProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr int64_t& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__expirationLengthMs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expirationLengthMs;
 }
 template <typename TKey, typename TValue> constexpr int64_t const& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__expirationLengthMs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expirationLengthMs;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__set__expirationLengthMs(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____expirationLengthMs = value;
 }
 template <typename TKey, typename TValue>
 constexpr ::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__expirationQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expirationQueue;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__expirationQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expirationQueue;
 }
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__set__expirationQueue(::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expirationQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*&
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__entryLookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entryLookup;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__entryLookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entryLookup;
 }
 template <typename TKey, typename TValue>
 constexpr void
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__set__entryLookup(::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entryLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__reusableEntries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reusableEntries;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__get__reusableEntries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reusableEntries;
 }
 template <typename TKey, typename TValue>
 constexpr void
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__set__reusableEntries(::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reusableEntries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> inline int32_t GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::get_Count() {

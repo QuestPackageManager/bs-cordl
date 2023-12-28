@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceFilter)
-namespace System {
-class Object;
-}
 namespace System::Diagnostics {
 class TraceEventCache;
 }
 namespace System::Diagnostics {
 struct TraceEventType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Diagnostics {

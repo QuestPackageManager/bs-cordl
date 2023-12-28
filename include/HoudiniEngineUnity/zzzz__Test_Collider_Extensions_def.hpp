@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_Collider_Extensions)
-namespace UnityEngine {
-class Collider;
-}
-namespace HoudiniEngineUnity {
-class Test_Collider;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class __Test_Collider_Extensions____c;
+}
+namespace HoudiniEngineUnity {
+class Test_Collider;
+}
+namespace UnityEngine {
+class Collider;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;

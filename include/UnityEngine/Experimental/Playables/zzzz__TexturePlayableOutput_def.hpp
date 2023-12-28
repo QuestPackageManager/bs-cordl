@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TexturePlayableOutput)
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+class IPlayableOutput;
 }
 namespace UnityEngine::Playables {
-class IPlayableOutput;
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Playables {

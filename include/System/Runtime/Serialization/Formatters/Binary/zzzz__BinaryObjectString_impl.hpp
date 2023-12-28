@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString._ctor
 template <>
 
@@ -79,27 +79,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::__get_objectId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectId;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::__get_objectId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectId;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::__set_objectId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___objectId = value;
 }
 constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::__set_value(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::New_ctor() {

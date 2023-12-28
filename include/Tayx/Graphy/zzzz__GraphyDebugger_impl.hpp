@@ -5,10 +5,10 @@
 #include "Tayx/Graphy/zzzz__GraphyDebugger_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyDebugger_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -118,208 +118,208 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Active() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Active;
 }
 constexpr bool const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Active() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Active;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_Active(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Active = value;
 }
 constexpr int32_t& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Id;
 }
 constexpr int32_t const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Id;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_Id(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Id = value;
 }
 constexpr bool& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ExecuteOnce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExecuteOnce;
 }
 constexpr bool const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ExecuteOnce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExecuteOnce;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_ExecuteOnce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ExecuteOnce = value;
 }
 constexpr float_t& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_InitSleepTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitSleepTime;
 }
 constexpr float_t const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_InitSleepTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitSleepTime;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_InitSleepTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InitSleepTime = value;
 }
 constexpr float_t& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ExecuteSleepTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExecuteSleepTime;
 }
 constexpr float_t const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ExecuteSleepTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExecuteSleepTime;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_ExecuteSleepTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ExecuteSleepTime = value;
 }
 constexpr ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ConditionEvaluation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConditionEvaluation;
 }
 constexpr ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ConditionEvaluation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConditionEvaluation;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_ConditionEvaluation(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConditionEvaluation = value;
 }
 constexpr ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>*& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_DebugConditions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DebugConditions;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>*> const&
 Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_DebugConditions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DebugConditions;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_DebugConditions(::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DebugConditions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::__GraphyDebugger__MessageType& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_MessageType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MessageType;
 }
 constexpr ::Tayx::Graphy::__GraphyDebugger__MessageType const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_MessageType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MessageType;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_MessageType(::Tayx::Graphy::__GraphyDebugger__MessageType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MessageType = value;
 }
 constexpr ::StringW& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Message;
 }
 constexpr ::StringW const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Message;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_Message(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_TakeScreenshot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TakeScreenshot;
 }
 constexpr bool const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_TakeScreenshot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TakeScreenshot;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_TakeScreenshot(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TakeScreenshot = value;
 }
 constexpr ::StringW& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ScreenshotFileName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ScreenshotFileName;
 }
 constexpr ::StringW const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_ScreenshotFileName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ScreenshotFileName;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_ScreenshotFileName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ScreenshotFileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_DebugBreak() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DebugBreak;
 }
 constexpr bool const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_DebugBreak() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DebugBreak;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_DebugBreak(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DebugBreak = value;
 }
 constexpr ::UnityEngine::Events::UnityEvent*& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_UnityEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UnityEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_UnityEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UnityEvents;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_UnityEvents(::UnityEngine::Events::UnityEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UnityEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Action*>*& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Callbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Callbacks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_Callbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Callbacks;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_Callbacks(::System::Collections::Generic::List_1<::System::Action*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Callbacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_canBeChecked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canBeChecked;
 }
 constexpr bool const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_canBeChecked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___canBeChecked;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_canBeChecked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___canBeChecked = value;
 }
 constexpr bool& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_executed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___executed;
 }
 constexpr bool const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_executed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___executed;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_executed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___executed = value;
 }
 constexpr float_t& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_timePassed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timePassed;
 }
 constexpr float_t const& Tayx::Graphy::__GraphyDebugger__DebugPacket::__get_timePassed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timePassed;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger__DebugPacket::__set_timePassed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timePassed = value;
 }
 inline bool Tayx::Graphy::__GraphyDebugger__DebugPacket::get_Check() {
@@ -377,15 +377,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0::__get_packetId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetId;
 }
 constexpr int32_t const& Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0::__get_packetId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetId;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0::__set_packetId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetId = value;
 }
 inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0* Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0::New_ctor() {
@@ -434,15 +434,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0::__get_packetId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetId;
 }
 constexpr int32_t const& Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0::__get_packetId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetId;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0::__set_packetId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetId = value;
 }
 inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0* Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0::New_ctor() {
@@ -491,15 +491,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0::__get_packetId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetId;
 }
 constexpr int32_t const& Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0::__get_packetId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetId;
 }
 constexpr void Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0::__set_packetId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetId = value;
 }
 inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0* Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0::New_ctor() {
@@ -859,52 +859,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>*& Tayx::Graphy::GraphyDebugger::__get_m_debugPackets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_debugPackets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>*> const&
 Tayx::Graphy::GraphyDebugger::__get_m_debugPackets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_debugPackets;
 }
 constexpr void Tayx::Graphy::GraphyDebugger::__set_m_debugPackets(::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_debugPackets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Fps::G_FpsMonitor*& Tayx::Graphy::GraphyDebugger::__get_m_fpsMonitor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsMonitor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsMonitor*> const& Tayx::Graphy::GraphyDebugger::__get_m_fpsMonitor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsMonitor;
 }
 constexpr void Tayx::Graphy::GraphyDebugger::__set_m_fpsMonitor(::Tayx::Graphy::Fps::G_FpsMonitor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Ram::G_RamMonitor*& Tayx::Graphy::GraphyDebugger::__get_m_ramMonitor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramMonitor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamMonitor*> const& Tayx::Graphy::GraphyDebugger::__get_m_ramMonitor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramMonitor;
 }
 constexpr void Tayx::Graphy::GraphyDebugger::__set_m_ramMonitor(::Tayx::Graphy::Ram::G_RamMonitor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ramMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Audio::G_AudioMonitor*& Tayx::Graphy::GraphyDebugger::__get_m_audioMonitor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioMonitor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioMonitor*> const& Tayx::Graphy::GraphyDebugger::__get_m_audioMonitor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioMonitor;
 }
 constexpr void Tayx::Graphy::GraphyDebugger::__set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_audioMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Tayx::Graphy::GraphyDebugger* Tayx::Graphy::GraphyDebugger::New_ctor() {

@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepContext_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationConstraint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepEdgeEvent_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepPointComparator_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFront_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepBasin_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepEdgeEvent_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepBasin_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationAlgorithm_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFront_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationConstraint_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFrontNode_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Triangulatable_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepPointComparator_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext.get_Head
 template <>
 
@@ -314,87 +314,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_ALPHA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ALPHA;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_ALPHA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ALPHA;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set_ALPHA(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ALPHA = value;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_Front() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Front;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_Front() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Front;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set_Front(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Front)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get__Head_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Head_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get__Head_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Head_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set__Head_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Head_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get__Tail_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Tail_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get__Tail_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Tail_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set__Tail_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Tail_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_Basin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Basin;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_Basin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Basin;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set_Basin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Basin)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_EdgeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EdgeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get_EdgeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EdgeEvent;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set_EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___EdgeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get__comparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__get__comparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparator;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::__set__comparator(::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Head() {

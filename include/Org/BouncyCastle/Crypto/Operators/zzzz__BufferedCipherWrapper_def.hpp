@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedCipherWrapper)
 namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
+class ICipher;
 }
 namespace Org::BouncyCastle::Crypto::IO {
 class CipherStream;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipher;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

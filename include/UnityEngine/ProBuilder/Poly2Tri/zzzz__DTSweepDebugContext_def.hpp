@@ -8,16 +8,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class AdvancingFrontNode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class AdvancingFrontNode;
+class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

@@ -17,99 +17,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint64_t& Oculus::Platform::Models::AssetDetails::__get_AssetId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetId;
 }
 constexpr uint64_t const& Oculus::Platform::Models::AssetDetails::__get_AssetId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetId;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_AssetId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AssetId = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::AssetDetails::__get_AssetType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetType;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AssetDetails::__get_AssetType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetType;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_AssetType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___AssetType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::AssetDetails::__get_DownloadStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DownloadStatus;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AssetDetails::__get_DownloadStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DownloadStatus;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_DownloadStatus(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DownloadStatus)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::AssetDetails::__get_Filepath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Filepath;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AssetDetails::__get_Filepath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Filepath;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_Filepath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Filepath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::AssetDetails::__get_IapStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IapStatus;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AssetDetails::__get_IapStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IapStatus;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_IapStatus(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___IapStatus)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::LanguagePackInfo*& Oculus::Platform::Models::AssetDetails::__get_LanguageOptional() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LanguageOptional;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& Oculus::Platform::Models::AssetDetails::__get_LanguageOptional() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LanguageOptional;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_LanguageOptional(::Oculus::Platform::Models::LanguagePackInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LanguageOptional)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::LanguagePackInfo*& Oculus::Platform::Models::AssetDetails::__get_Language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Language;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& Oculus::Platform::Models::AssetDetails::__get_Language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Language;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_Language(::Oculus::Platform::Models::LanguagePackInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Language)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::AssetDetails::__get_Metadata() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Metadata;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AssetDetails::__get_Metadata() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Metadata;
 }
 constexpr void Oculus::Platform::Models::AssetDetails::__set_Metadata(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Metadata)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::AssetDetails* Oculus::Platform::Models::AssetDetails::New_ctor(void* o) {

@@ -152,87 +152,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Audio::AudioMixer*& GlobalNamespace::AudioManagerSO::__get__audioMixer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioMixer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Audio::AudioMixer*> const& GlobalNamespace::AudioManagerSO::__get__audioMixer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioMixer;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__audioMixer(::UnityEngine::Audio::AudioMixer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioMixer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::AudioManagerSO::__get__spatializerPluginLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spatializerPluginLatency;
 }
 constexpr float_t const& GlobalNamespace::AudioManagerSO::__get__spatializerPluginLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spatializerPluginLatency;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__spatializerPluginLatency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spatializerPluginLatency = value;
 }
 constexpr float_t& GlobalNamespace::AudioManagerSO::__get__spatializerSfxVolumeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spatializerSfxVolumeOffset;
 }
 constexpr float_t const& GlobalNamespace::AudioManagerSO::__get__spatializerSfxVolumeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spatializerSfxVolumeOffset;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__spatializerSfxVolumeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spatializerSfxVolumeOffset = value;
 }
 constexpr float_t& GlobalNamespace::AudioManagerSO::__get__musicVolumeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____musicVolumeOffset;
 }
 constexpr float_t const& GlobalNamespace::AudioManagerSO::__get__musicVolumeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____musicVolumeOffset;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__musicVolumeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____musicVolumeOffset = value;
 }
 constexpr float_t& GlobalNamespace::AudioManagerSO::__get__sfxVolumeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxVolumeOffset;
 }
 constexpr float_t const& GlobalNamespace::AudioManagerSO::__get__sfxVolumeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxVolumeOffset;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__sfxVolumeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sfxVolumeOffset = value;
 }
 constexpr float_t& GlobalNamespace::AudioManagerSO::__get__sfxVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxVolume;
 }
 constexpr float_t const& GlobalNamespace::AudioManagerSO::__get__sfxVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxVolume;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__sfxVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sfxVolume = value;
 }
 constexpr bool& GlobalNamespace::AudioManagerSO::__get__sfxEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxEnabled;
 }
 constexpr bool const& GlobalNamespace::AudioManagerSO::__get__sfxEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxEnabled;
 }
 constexpr void GlobalNamespace::AudioManagerSO::__set__sfxEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sfxEnabled = value;
 }
 inline float_t GlobalNamespace::AudioManagerSO::get_sfxLatency() {

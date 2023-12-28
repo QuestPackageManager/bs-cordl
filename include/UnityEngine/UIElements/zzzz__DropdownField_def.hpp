@@ -11,37 +11,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownField)
 namespace UnityEngine::UIElements {
-class __DropdownField__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class __DropdownField____c__DisplayClass38_0;
 }
 namespace UnityEngine::UIElements {
-class __DropdownField__PopupTextElement;
+class __DropdownField__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __DropdownField__UxmlFactory;
+class TextElement;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+class __DropdownField__PopupTextElement;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
-class TextElement;
+class __DropdownField__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class IGenericMenu;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct __VisualElement__MeasureMode;
@@ -53,10 +53,10 @@ namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -384,8 +384,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Dropdow
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(7057)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7057)), TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
 class CORDL_TYPE __DropdownField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DropdownField*, ::UnityEngine::UIElements::__DropdownField__UxmlTraits*> {
 public:
   // Declarations

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FadeOutSongPreviewPlayerOnSceneTransitionStart)
 namespace GlobalNamespace {
-class GameScenesManager;
+class AudioPlayerBase;
 }
 namespace GlobalNamespace {
-class AudioPlayerBase;
+class GameScenesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

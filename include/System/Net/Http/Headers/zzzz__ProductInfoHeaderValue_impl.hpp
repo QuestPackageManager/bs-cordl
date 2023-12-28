@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__ProductInfoHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Net/Http/Headers/zzzz__ProductHeaderValue_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::ProductInfoHeaderValue._ctor
 template <>
 
@@ -193,27 +193,27 @@ constexpr System::Net::Http::Headers::ProductInfoHeaderValue::operator ::System:
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Net::Http::Headers::ProductInfoHeaderValue::__get__Comment_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Comment_k__BackingField;
 }
 constexpr ::StringW const& System::Net::Http::Headers::ProductInfoHeaderValue::__get__Comment_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Comment_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::ProductInfoHeaderValue::__set__Comment_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Comment_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Http::Headers::ProductHeaderValue*& System::Net::Http::Headers::ProductInfoHeaderValue::__get__Product_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Product_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::ProductHeaderValue*> const& System::Net::Http::Headers::ProductInfoHeaderValue::__get__Product_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Product_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::ProductInfoHeaderValue::__set__Product_k__BackingField(::System::Net::Http::Headers::ProductHeaderValue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Product_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::ProductInfoHeaderValue* System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor(::System::Net::Http::Headers::ProductHeaderValue* product) {

@@ -3,8 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IStandaloneMonobehavior)
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
-class Action;
+template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 class IStandaloneThreadRunner;
@@ -13,10 +16,7 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading::Tasks {
-class Task;
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

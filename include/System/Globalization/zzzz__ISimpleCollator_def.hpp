@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISimpleCollator)
 namespace System::Globalization {
-struct CompareOptions;
+class SortKey;
 }
 namespace System::Globalization {
-class SortKey;
+struct CompareOptions;
 }
 // Forward declare root types
 namespace System::Globalization {

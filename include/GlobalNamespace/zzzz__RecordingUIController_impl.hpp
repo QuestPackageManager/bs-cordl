@@ -20,15 +20,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__RecordingUIController__InitData::__get_recordingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingEnabled;
 }
 constexpr bool const& GlobalNamespace::__RecordingUIController__InitData::__get_recordingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingEnabled;
 }
 constexpr void GlobalNamespace::__RecordingUIController__InitData::__set_recordingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordingEnabled = value;
 }
 inline ::GlobalNamespace::__RecordingUIController__InitData* GlobalNamespace::__RecordingUIController__InitData::New_ctor(bool recordingEnabled) {
@@ -82,51 +82,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::RecordingUIController::__get__circle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____circle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::RecordingUIController::__get__circle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____circle;
 }
 constexpr void GlobalNamespace::RecordingUIController::__set__circle(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____circle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::RecordingUIController::__get__updateTimeSpan() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateTimeSpan;
 }
 constexpr float_t const& GlobalNamespace::RecordingUIController::__get__updateTimeSpan() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateTimeSpan;
 }
 constexpr void GlobalNamespace::RecordingUIController::__set__updateTimeSpan(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____updateTimeSpan = value;
 }
 constexpr ::GlobalNamespace::__RecordingUIController__InitData*& GlobalNamespace::RecordingUIController::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingUIController__InitData*> const& GlobalNamespace::RecordingUIController::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::RecordingUIController::__set__initData(::GlobalNamespace::__RecordingUIController__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::RecordingUIController::__get__lastUpdateTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUpdateTime;
 }
 constexpr float_t const& GlobalNamespace::RecordingUIController::__get__lastUpdateTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUpdateTime;
 }
 constexpr void GlobalNamespace::RecordingUIController::__set__lastUpdateTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastUpdateTime = value;
 }
 inline void GlobalNamespace::RecordingUIController::Init() {

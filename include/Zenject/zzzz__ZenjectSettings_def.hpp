@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenjectSettings)
 namespace Zenject {
-class __ZenjectSettings__SignalSettings;
-}
-namespace Zenject {
 struct ValidationErrorResponses;
 }
 namespace Zenject {
+class __ZenjectSettings__SignalSettings;
+}
+namespace Zenject {
 struct RootResolveMethods;
+}
+namespace Zenject {
+struct SignalDefaultSyncModes;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System {
 class Object;
-}
-namespace Zenject {
-struct SignalDefaultSyncModes;
 }
 namespace Zenject {
 struct SignalMissingHandlerResponses;
@@ -168,7 +168,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__ZenjectSettings__Sign
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11170)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11169))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11170)), TypeDefinitionIndex(TypeDefinitionIndex(11169)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11174))
 // CS Name: ::Zenject::ZenjectSettings*
 class CORDL_TYPE ZenjectSettings : public ::System::Object {

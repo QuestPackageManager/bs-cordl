@@ -11,70 +11,70 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Image)
 namespace UnityEngine {
-class Material;
+struct Vector3;
+}
+namespace UnityEngine::UI {
+struct __Image__OriginVertical;
 }
 namespace UnityEngine::UI {
 struct __Image__FillMethod;
 }
-namespace UnityEngine::UI {
-struct __Image__Origin180;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
 namespace UnityEngine::UI {
 struct __Image__Origin360;
 }
-namespace UnityEngine::UI {
-struct __Image__OriginHorizontal;
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine::UI {
 struct __Image__Type;
 }
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class ICanvasRaycastFilter;
-}
-namespace UnityEngine::UI {
-struct __Image__Origin90;
-}
-namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 namespace UnityEngine::U2D {
 class SpriteAtlas;
 }
 namespace UnityEngine {
-struct Vector3;
+class ICanvasRaycastFilter;
 }
 namespace UnityEngine::UI {
-struct __Image__OriginVertical;
+struct __Image__OriginHorizontal;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UI {
+struct __Image__Origin90;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+struct __Image__Origin180;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -494,7 +494,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Image__Origin
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(13049)), TypeDefinitionIndex(TypeDefinitionIndex(13048))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(13048)), TypeDefinitionIndex(TypeDefinitionIndex(13049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
 // CS Name: ::UnityEngine.UI::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UI::MaskableGraphic {

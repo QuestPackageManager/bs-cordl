@@ -2,12 +2,12 @@
 #include "OVR/OpenVR/zzzz__IVRTrackedCamera_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRTrackedCamera_def.hpp"
-#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRTrackedCameraError_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
 #include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRTrackedCameraError_def.hpp"
+#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera._ctor
 template <>
 
@@ -229,15 +229,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRTrackedCamera& OVR::OpenVR::CVRTrackedCamera::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRTrackedCamera const& OVR::OpenVR::CVRTrackedCamera::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRTrackedCamera::__set_FnTable(::OVR::OpenVR::IVRTrackedCamera value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRTrackedCamera* OVR::OpenVR::CVRTrackedCamera::New_ctor(void* pInterface) {

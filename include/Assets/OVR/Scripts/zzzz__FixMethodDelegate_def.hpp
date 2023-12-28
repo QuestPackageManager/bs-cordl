@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixMethodDelegate)
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-class IAsyncResult;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Assets::OVR::Scripts {

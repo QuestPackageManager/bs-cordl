@@ -83,15 +83,15 @@ constexpr System::Runtime::Remoting::Messaging::CallContextRemotingData::operato
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Runtime::Remoting::Messaging::CallContextRemotingData::__get__logicalCallID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logicalCallID;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Messaging::CallContextRemotingData::__get__logicalCallID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logicalCallID;
 }
 constexpr void System::Runtime::Remoting::Messaging::CallContextRemotingData::__set__logicalCallID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logicalCallID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID() {

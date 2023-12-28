@@ -57,39 +57,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Color& GlobalNamespace::DirectionalLight::__get_color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::DirectionalLight::__get_color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___color;
 }
 constexpr void GlobalNamespace::DirectionalLight::__set_color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___color = value;
 }
 constexpr float_t& GlobalNamespace::DirectionalLight::__get_intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intensity;
 }
 constexpr float_t const& GlobalNamespace::DirectionalLight::__get_intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intensity;
 }
 constexpr void GlobalNamespace::DirectionalLight::__set_intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___intensity = value;
 }
 constexpr float_t& GlobalNamespace::DirectionalLight::__get_radius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___radius;
 }
 constexpr float_t const& GlobalNamespace::DirectionalLight::__get_radius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___radius;
 }
 constexpr void GlobalNamespace::DirectionalLight::__set_radius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___radius = value;
 }
 inline void GlobalNamespace::DirectionalLight::setStaticF__lights(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* value) {

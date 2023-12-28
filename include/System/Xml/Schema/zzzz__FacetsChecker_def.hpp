@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FacetsChecker)
-namespace System {
-class Exception;
+namespace System::Collections {
+class ArrayList;
 }
-namespace System {
-struct Decimal;
+namespace System::Xml::Schema {
+class RestrictionFacets;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System {
 class Object;
 }
 namespace System {
-struct DateTime;
+class Exception;
 }
 namespace System {
 struct TimeSpan;
 }
-namespace System::Xml::Schema {
-class RestrictionFacets;
+namespace System {
+struct Decimal;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System {
+struct DateTime;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
-}
-namespace System::Xml {
-class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

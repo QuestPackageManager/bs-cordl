@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(4819))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4813))
 // CS Name: ::SliderHapticFeedbackInteractionEffect*
 class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {

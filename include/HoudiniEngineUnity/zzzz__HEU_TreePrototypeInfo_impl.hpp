@@ -35,27 +35,27 @@ constexpr HoudiniEngineUnity::HEU_TreePrototypeInfo::operator ::HoudiniEngineUni
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_TreePrototypeInfo::__get__prefabPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_TreePrototypeInfo::__get__prefabPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabPath;
 }
 constexpr void HoudiniEngineUnity::HEU_TreePrototypeInfo::__set__prefabPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefabPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HoudiniEngineUnity::HEU_TreePrototypeInfo::__get__bendfactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bendfactor;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_TreePrototypeInfo::__get__bendfactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bendfactor;
 }
 constexpr void HoudiniEngineUnity::HEU_TreePrototypeInfo::__set__bendfactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bendfactor = value;
 }
 inline bool HoudiniEngineUnity::HEU_TreePrototypeInfo::IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other) {

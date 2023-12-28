@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NullConsoleDriver)
 namespace System {
-class IConsoleDriver;
+struct ConsoleKeyInfo;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::NullConsoleDriver);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2520)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2520))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2612))
 // CS Name: ::System::NullConsoleDriver*
 class CORDL_TYPE NullConsoleDriver : public ::System::Object {

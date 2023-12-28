@@ -20,27 +20,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::FaceRebuildData*& UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__get_faceRebuildData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___faceRebuildData;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::FaceRebuildData*> const& UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__get_faceRebuildData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___faceRebuildData;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__set_faceRebuildData(::UnityEngine::ProBuilder::FaceRebuildData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___faceRebuildData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__get_newVertexIndexes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newVertexIndexes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__get_newVertexIndexes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newVertexIndexes;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newVertexIndexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*

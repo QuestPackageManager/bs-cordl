@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::InteropServices::ComInterfaceType& System::Runtime::InteropServices::InterfaceTypeAttribute::__get__val() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr ::System::Runtime::InteropServices::ComInterfaceType const& System::Runtime::InteropServices::InterfaceTypeAttribute::__get__val() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr void System::Runtime::InteropServices::InterfaceTypeAttribute::__set__val(::System::Runtime::InteropServices::ComInterfaceType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____val = value;
 }
 inline ::System::Runtime::InteropServices::InterfaceTypeAttribute*

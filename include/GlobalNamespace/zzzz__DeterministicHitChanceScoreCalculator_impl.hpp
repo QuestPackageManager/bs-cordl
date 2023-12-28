@@ -38,27 +38,27 @@ constexpr GlobalNamespace::DeterministicHitChanceScoreCalculator::operator ::Glo
   return static_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::DeterministicHitChanceScoreCalculator::__get__hitChance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitChance;
 }
 constexpr float_t const& GlobalNamespace::DeterministicHitChanceScoreCalculator::__get__hitChance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitChance;
 }
 constexpr void GlobalNamespace::DeterministicHitChanceScoreCalculator::__set__hitChance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hitChance = value;
 }
 constexpr float_t& GlobalNamespace::DeterministicHitChanceScoreCalculator::__get__chanceAggregated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chanceAggregated;
 }
 constexpr float_t const& GlobalNamespace::DeterministicHitChanceScoreCalculator::__get__chanceAggregated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chanceAggregated;
 }
 constexpr void GlobalNamespace::DeterministicHitChanceScoreCalculator::__set__chanceAggregated(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chanceAggregated = value;
 }
 inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* GlobalNamespace::DeterministicHitChanceScoreCalculator::New_ctor(float_t hitChance) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothCameraController_def.hpp"
-#include "GlobalNamespace/zzzz__SmoothCamera_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SmoothCamera_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SmoothCameraController.Start
 template <>
 
@@ -85,27 +85,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MainSettingsModelSO*& GlobalNamespace::SmoothCameraController::__get__mainSettingsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& GlobalNamespace::SmoothCameraController::__get__mainSettingsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
 constexpr void GlobalNamespace::SmoothCameraController::__set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SmoothCamera*& GlobalNamespace::SmoothCameraController::__get__smoothCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SmoothCamera*> const& GlobalNamespace::SmoothCameraController::__get__smoothCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCamera;
 }
 constexpr void GlobalNamespace::SmoothCameraController::__set__smoothCamera(::GlobalNamespace::SmoothCamera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SmoothCameraController::Start() {

@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__PKCS12_def.hpp"
-#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
-#include "Mono/Security/X509/zzzz__PKCS12_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 #include "Mono/Security/zzzz__PKCS7_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
-#include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
+#include "Mono/Security/X509/zzzz__PKCS12_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
+#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::__PKCS12__DeriveBytes._ctor
 template <>
 
@@ -166,51 +166,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Mono::Security::X509::__PKCS12__DeriveBytes::__get__hashName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashName;
 }
 constexpr ::StringW const& Mono::Security::X509::__PKCS12__DeriveBytes::__get__hashName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashName;
 }
 constexpr void Mono::Security::X509::__PKCS12__DeriveBytes::__set__hashName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hashName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Mono::Security::X509::__PKCS12__DeriveBytes::__get__iterations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iterations;
 }
 constexpr int32_t const& Mono::Security::X509::__PKCS12__DeriveBytes::__get__iterations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iterations;
 }
 constexpr void Mono::Security::X509::__PKCS12__DeriveBytes::__set__iterations(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iterations = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::X509::__PKCS12__DeriveBytes::__get__password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____password;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::X509::__PKCS12__DeriveBytes::__get__password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____password;
 }
 constexpr void Mono::Security::X509::__PKCS12__DeriveBytes::__set__password(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::X509::__PKCS12__DeriveBytes::__get__salt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____salt;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::X509::__PKCS12__DeriveBytes::__get__salt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____salt;
 }
 constexpr void Mono::Security::X509::__PKCS12__DeriveBytes::__set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____salt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Mono::Security::X509::__PKCS12__DeriveBytes::setStaticF_keyDiversifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
@@ -746,123 +746,123 @@ constexpr Mono::Security::X509::PKCS12::operator ::System::ICloneable*() noexcep
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::X509::PKCS12::__get__password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____password;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::X509::PKCS12::__get__password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____password;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__password(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& Mono::Security::X509::PKCS12::__get__keyBags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyBags;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& Mono::Security::X509::PKCS12::__get__keyBags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyBags;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__keyBags(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyBags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& Mono::Security::X509::PKCS12::__get__secretBags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secretBags;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& Mono::Security::X509::PKCS12::__get__secretBags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secretBags;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__secretBags(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____secretBags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::X509::PKCS12::__get__certs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certs;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& Mono::Security::X509::PKCS12::__get__certs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certs;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__certs(::Mono::Security::X509::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____certs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Security::X509::PKCS12::__get__keyBagsChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyBagsChanged;
 }
 constexpr bool const& Mono::Security::X509::PKCS12::__get__keyBagsChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyBagsChanged;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__keyBagsChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyBagsChanged = value;
 }
 constexpr bool& Mono::Security::X509::PKCS12::__get__secretBagsChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secretBagsChanged;
 }
 constexpr bool const& Mono::Security::X509::PKCS12::__get__secretBagsChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secretBagsChanged;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__secretBagsChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____secretBagsChanged = value;
 }
 constexpr bool& Mono::Security::X509::PKCS12::__get__certsChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certsChanged;
 }
 constexpr bool const& Mono::Security::X509::PKCS12::__get__certsChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certsChanged;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__certsChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____certsChanged = value;
 }
 constexpr int32_t& Mono::Security::X509::PKCS12::__get__iterations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iterations;
 }
 constexpr int32_t const& Mono::Security::X509::PKCS12::__get__iterations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iterations;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__iterations(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iterations = value;
 }
 constexpr ::System::Collections::ArrayList*& Mono::Security::X509::PKCS12::__get__safeBags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____safeBags;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& Mono::Security::X509::PKCS12::__get__safeBags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____safeBags;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__safeBags(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____safeBags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::RandomNumberGenerator*& Mono::Security::X509::PKCS12::__get__rng() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rng;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& Mono::Security::X509::PKCS12::__get__rng() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rng;
 }
 constexpr void Mono::Security::X509::PKCS12::__set__rng(::System::Security::Cryptography::RandomNumberGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rng)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Mono::Security::X509::PKCS12::setStaticF_password_max_length(int32_t value) {

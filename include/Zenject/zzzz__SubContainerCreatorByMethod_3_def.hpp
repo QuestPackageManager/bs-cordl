@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByMethod_3)
 namespace Zenject {
-class DiContainer;
+class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace Zenject {
-class SubContainerCreatorBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

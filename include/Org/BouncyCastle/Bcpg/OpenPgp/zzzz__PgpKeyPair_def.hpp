@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpKeyPair)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

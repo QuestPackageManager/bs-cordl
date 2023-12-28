@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMessageBase_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage.Create
 template <>
 
@@ -114,39 +114,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__get__returnValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____returnValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__get__returnValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____returnValue;
 }
 constexpr void System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__set__returnValue(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____returnValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__get__exception() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exception;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CADArgHolder*> const& System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__get__exception() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exception;
 }
 constexpr void System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__set__exception(::System::Runtime::Remoting::Messaging::CADArgHolder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exception)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__get__sig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sig;
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__get__sig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sig;
 }
 constexpr void System::Runtime::Remoting::Messaging::CADMethodReturnMessage::__set__sig(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* System::Runtime::Remoting::Messaging::CADMethodReturnMessage::Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg) {

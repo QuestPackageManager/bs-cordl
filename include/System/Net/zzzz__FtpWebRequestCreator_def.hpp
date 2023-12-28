@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FtpWebRequestCreator)
-namespace System {
-class Uri;
+namespace System::Net {
+class WebRequest;
 }
 namespace System::Net {
 class IWebRequestCreate;
 }
-namespace System::Net {
-class WebRequest;
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {

@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Serialization::FormerlySerializedAsAttribute::__get_m_oldName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_oldName;
 }
 constexpr ::StringW const& UnityEngine::Serialization::FormerlySerializedAsAttribute::__get_m_oldName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_oldName;
 }
 constexpr void UnityEngine::Serialization::FormerlySerializedAsAttribute::__set_m_oldName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_oldName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Serialization::FormerlySerializedAsAttribute* UnityEngine::Serialization::FormerlySerializedAsAttribute::New_ctor(::StringW oldName) {

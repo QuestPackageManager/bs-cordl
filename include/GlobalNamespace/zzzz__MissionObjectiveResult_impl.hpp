@@ -103,39 +103,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MissionObjective*& GlobalNamespace::MissionObjectiveResult::__get__missionObjective_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjective_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionObjectiveResult::__get__missionObjective_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjective_k__BackingField;
 }
 constexpr void GlobalNamespace::MissionObjectiveResult::__set__missionObjective_k__BackingField(::GlobalNamespace::MissionObjective* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionObjective_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MissionObjectiveResult::__get__cleared_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cleared_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::MissionObjectiveResult::__get__cleared_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cleared_k__BackingField;
 }
 constexpr void GlobalNamespace::MissionObjectiveResult::__set__cleared_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cleared_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::MissionObjectiveResult::__get__value_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::MissionObjectiveResult::__get__value_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_k__BackingField;
 }
 constexpr void GlobalNamespace::MissionObjectiveResult::__set__value_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____value_k__BackingField = value;
 }
 inline ::GlobalNamespace::MissionObjective* GlobalNamespace::MissionObjectiveResult::get_missionObjective() {

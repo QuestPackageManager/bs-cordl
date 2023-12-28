@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerLevelStatsData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerLevelStatsData.get_levelID
 template <>
@@ -196,111 +196,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::PlayerLevelStatsData::__get__highScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highScore;
 }
 constexpr int32_t const& GlobalNamespace::PlayerLevelStatsData::__get__highScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highScore;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__highScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highScore = value;
 }
 constexpr int32_t& GlobalNamespace::PlayerLevelStatsData::__get__maxCombo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCombo;
 }
 constexpr int32_t const& GlobalNamespace::PlayerLevelStatsData::__get__maxCombo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCombo;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__maxCombo(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxCombo = value;
 }
 constexpr bool& GlobalNamespace::PlayerLevelStatsData::__get__fullCombo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullCombo;
 }
 constexpr bool const& GlobalNamespace::PlayerLevelStatsData::__get__fullCombo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullCombo;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__fullCombo(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullCombo = value;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank& GlobalNamespace::PlayerLevelStatsData::__get__maxRank() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRank;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank const& GlobalNamespace::PlayerLevelStatsData::__get__maxRank() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRank;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__maxRank(::GlobalNamespace::__RankModel__Rank value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxRank = value;
 }
 constexpr bool& GlobalNamespace::PlayerLevelStatsData::__get__validScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validScore;
 }
 constexpr bool const& GlobalNamespace::PlayerLevelStatsData::__get__validScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validScore;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__validScore(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____validScore = value;
 }
 constexpr int32_t& GlobalNamespace::PlayerLevelStatsData::__get__playCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playCount;
 }
 constexpr int32_t const& GlobalNamespace::PlayerLevelStatsData::__get__playCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playCount;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__playCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playCount = value;
 }
 constexpr ::StringW& GlobalNamespace::PlayerLevelStatsData::__get__levelID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelID;
 }
 constexpr ::StringW const& GlobalNamespace::PlayerLevelStatsData::__get__levelID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelID;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__levelID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::PlayerLevelStatsData::__get__difficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty;
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::PlayerLevelStatsData::__get__difficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__difficulty(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____difficulty = value;
 }
 constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& GlobalNamespace::PlayerLevelStatsData::__get__beatmapCharacteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristic;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& GlobalNamespace::PlayerLevelStatsData::__get__beatmapCharacteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristic;
 }
 constexpr void GlobalNamespace::PlayerLevelStatsData::__set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::PlayerLevelStatsData::get_levelID() {

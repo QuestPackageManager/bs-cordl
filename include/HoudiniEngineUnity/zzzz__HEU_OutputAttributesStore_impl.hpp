@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttributesStore_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttributeDictionary_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_OutputAttributesStore.SetAttribute
 template <>
 
@@ -62,15 +62,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& HoudiniEngineUnity::HEU_OutputAttributesStore::__get__attributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributes;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_OutputAttributeDictionary*> const& HoudiniEngineUnity::HEU_OutputAttributesStore::__get__attributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributes;
 }
 constexpr void HoudiniEngineUnity::HEU_OutputAttributesStore::__set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HoudiniEngineUnity::HEU_OutputAttributesStore::SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute) {

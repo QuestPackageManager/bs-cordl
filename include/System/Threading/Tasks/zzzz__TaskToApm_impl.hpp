@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskToApm_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskToApm_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskToApm_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
@@ -88,39 +88,39 @@ constexpr System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::operato
   return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__get_Task() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Task;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__get_Task() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Task;
 }
 constexpr void System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__set_Task(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__set__state(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__get__completedSynchronously() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____completedSynchronously;
 }
 constexpr bool const& System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__get__completedSynchronously() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____completedSynchronously;
 }
 constexpr void System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::__set__completedSynchronously(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____completedSynchronously = value;
 }
 inline ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult* System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult::New_ctor(::System::Threading::Tasks::Task* task,
@@ -191,27 +191,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::AsyncCallback*& System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr void System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::__set_callback(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IAsyncResult*& System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::__get_asyncResult() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncResult;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IAsyncResult*> const& System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::__get_asyncResult() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncResult;
 }
 constexpr void System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::__set_asyncResult(::System::IAsyncResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___asyncResult)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0* System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0::New_ctor() {

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(HEU_InputObjectInfo)
-namespace UnityEngine::Tilemaps {
-class Tilemap;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Terrain;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System {
+class Type;
+}
+namespace UnityEngine::Tilemaps {
+class Tilemap;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
-}
-namespace System {
-class Type;
 }
 namespace GlobalNamespace {
 class HEU_BoundingVolume;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectInfo);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9646))
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectInfo*
 class CORDL_TYPE HEU_InputObjectInfo : public ::System::Object {

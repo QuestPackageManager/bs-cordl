@@ -12,10 +12,10 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(CommandBufferGrabPass)
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
+namespace UnityEngine {
+class Camera;
 }
 namespace GlobalNamespace {
 class CommandBufferOwners;
 }
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

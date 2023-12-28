@@ -126,39 +126,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& UnityEngine::TreePrototype::__get_m_Prefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Prefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::TreePrototype::__get_m_Prefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Prefab;
 }
 constexpr void UnityEngine::TreePrototype::__set_m_Prefab(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Prefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::TreePrototype::__get_m_BendFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BendFactor;
 }
 constexpr float_t const& UnityEngine::TreePrototype::__get_m_BendFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BendFactor;
 }
 constexpr void UnityEngine::TreePrototype::__set_m_BendFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BendFactor = value;
 }
 constexpr int32_t& UnityEngine::TreePrototype::__get_m_NavMeshLod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NavMeshLod;
 }
 constexpr int32_t const& UnityEngine::TreePrototype::__get_m_NavMeshLod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NavMeshLod;
 }
 constexpr void UnityEngine::TreePrototype::__set_m_NavMeshLod(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NavMeshLod = value;
 }
 inline ::UnityEngine::GameObject* UnityEngine::TreePrototype::get_prefab() {

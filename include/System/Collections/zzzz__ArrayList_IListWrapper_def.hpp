@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayList_IListWrapper)
-namespace System {
-class Array;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections {
-class IList;
-}
-namespace System {
-class Type;
+class ICollection;
 }
 namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
-class ICollection;
+class IList;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {

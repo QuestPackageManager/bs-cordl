@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 class RecordingToolSettingsViewController;
 }
 namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
 class RecordingToolConfigViewController;
 }
 namespace GlobalNamespace {
 class RecordingToolLoggingViewController;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;

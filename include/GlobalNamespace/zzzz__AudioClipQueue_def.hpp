@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioClipQueue)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class AudioSource;
 }
 namespace UnityEngine {
 class AudioClip;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

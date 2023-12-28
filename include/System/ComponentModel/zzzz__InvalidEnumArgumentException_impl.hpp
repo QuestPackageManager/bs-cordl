@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/ComponentModel/zzzz__InvalidEnumArgumentException_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::InvalidEnumArgumentException._ctor
 template <>

@@ -4,10 +4,10 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__VRIKCalibrator__Settings._ctor
 template <>
 
@@ -23,195 +23,195 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_scaleMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scaleMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_scaleMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scaleMlp;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_scaleMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scaleMlp = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_headTrackerForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTrackerForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_headTrackerForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTrackerForward;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_headTrackerForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headTrackerForward = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_headTrackerUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTrackerUp;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_headTrackerUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTrackerUp;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_headTrackerUp(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headTrackerUp = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_bodyTrackerForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyTrackerForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_bodyTrackerForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyTrackerForward;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_bodyTrackerForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyTrackerForward = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_bodyTrackerUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyTrackerUp;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_bodyTrackerUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyTrackerUp;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_bodyTrackerUp(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyTrackerUp = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_handTrackerForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handTrackerForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_handTrackerForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handTrackerForward;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_handTrackerForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handTrackerForward = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_handTrackerUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handTrackerUp;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_handTrackerUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handTrackerUp;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_handTrackerUp(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handTrackerUp = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footTrackerForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footTrackerForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footTrackerForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footTrackerForward;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_footTrackerForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footTrackerForward = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footTrackerUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footTrackerUp;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footTrackerUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footTrackerUp;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_footTrackerUp(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footTrackerUp = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_headOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_headOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headOffset;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_headOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_handOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_handOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handOffset;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_handOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footForwardOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footForwardOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footForwardOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footForwardOffset;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_footForwardOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footForwardOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footInwardOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footInwardOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footInwardOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footInwardOffset;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_footInwardOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footInwardOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footHeadingOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footHeadingOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_footHeadingOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footHeadingOffset;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_footHeadingOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footHeadingOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_pelvisPositionWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_pelvisPositionWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionWeight;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_pelvisPositionWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisPositionWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_pelvisRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__Settings::__get_pelvisRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationWeight;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__Settings::__set_pelvisRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisRotationWeight = value;
 }
 inline ::RootMotion::FinalIK::__VRIKCalibrator__Settings* RootMotion::FinalIK::__VRIKCalibrator__Settings::New_ctor() {
@@ -255,39 +255,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__get_used() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___used;
 }
 constexpr bool const& GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__get_used() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___used;
 }
 constexpr void GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__set_used(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___used = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__get_localPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__get_localPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localPosition;
 }
 constexpr void GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__set_localPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__get_localRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__get_localRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localRotation;
 }
 constexpr void GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::__set_localRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localRotation = value;
 }
 inline ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* GlobalNamespace::__VRIKCalibrator__CalibrationData__Target::New_ctor(::UnityEngine::Transform* t) {
@@ -322,147 +322,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scale;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scale;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_scale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scale = value;
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_head() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_head() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_head(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_leftHand() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHand;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_leftHand() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHand;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_leftHand(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHand)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_rightHand() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHand;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_rightHand() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHand;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_rightHand(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHand)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvis;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvis;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_pelvis(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pelvis)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_leftFoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftFoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_leftFoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftFoot;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_leftFoot(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftFoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_rightFoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightFoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_rightFoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightFoot;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_rightFoot(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightFoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_leftLegGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftLegGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_leftLegGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftLegGoal;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_leftLegGoal(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftLegGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_rightLegGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightLegGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_rightLegGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightLegGoal;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_rightLegGoal(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightLegGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvisTargetRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisTargetRight;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvisTargetRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisTargetRight;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_pelvisTargetRight(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisTargetRight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvisPositionWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvisPositionWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionWeight;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_pelvisPositionWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisPositionWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvisRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__get_pelvisRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationWeight;
 }
 constexpr void RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::__set_pelvisRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisRotationWeight = value;
 }
 inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* RootMotion::FinalIK::__VRIKCalibrator__CalibrationData::New_ctor() {

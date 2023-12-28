@@ -3,8 +3,8 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__MouseState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__MouseButton_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::MouseState.get_Format
 template <>
 

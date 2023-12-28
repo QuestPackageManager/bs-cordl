@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMECompositionEvent)
 namespace UnityEngine::InputSystem::LowLevel {
+struct IMECompositionString;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct IMECompositionString;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;

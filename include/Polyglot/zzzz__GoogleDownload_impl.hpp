@@ -2,15 +2,15 @@
 #include "Polyglot/zzzz__GoogleDriveDownloadFormat_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Polyglot/zzzz__GoogleDownload_def.hpp"
-#include "Polyglot/zzzz__GoogleDownload_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Polyglot/zzzz__GoogleDriveDownloadFormat_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "Polyglot/zzzz__GoogleDownload_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::Polyglot::__GoogleDownload___DownloadSheet_d__0._ctor
 template <>
 
@@ -110,111 +110,111 @@ constexpr Polyglot::__GoogleDownload___DownloadSheet_d__0::operator ::System::ID
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<float_t, bool>*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_progressbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressbar;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, bool>*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_progressbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressbar;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_progressbar(::System::Func_2<float_t, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___progressbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::StringW>*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_done() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___done;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_done() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___done;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_done(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___done)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_docsId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docsId;
 }
 constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_docsId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docsId;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_docsId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___docsId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_sheetId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sheetId;
 }
 constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_sheetId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sheetId;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_sheetId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sheetId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Polyglot::GoogleDriveDownloadFormat& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_format() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr ::Polyglot::GoogleDriveDownloadFormat const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_format() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_format(::Polyglot::GoogleDriveDownloadFormat value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___format = value;
 }
 constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__url_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____url_5__2;
 }
 constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__url_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____url_5__2;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set__url_5__2(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____url_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Networking::UnityWebRequest*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__www_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____www_5__3;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__www_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____www_5__3;
 }
 constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set__www_5__3(::UnityEngine::Networking::UnityWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____www_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Polyglot::__GoogleDownload___DownloadSheet_d__0* Polyglot::__GoogleDownload___DownloadSheet_d__0::New_ctor(int32_t __1__state) {

@@ -11,10 +11,10 @@ namespace UnityEngine {
 class ParticleSystem;
 }
 namespace UnityEngine {
-struct Color;
+struct __ParticleSystem__Particle;
 }
 namespace UnityEngine {
-struct __ParticleSystem__Particle;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

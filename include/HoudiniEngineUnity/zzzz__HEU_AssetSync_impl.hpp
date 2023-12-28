@@ -4,9 +4,9 @@
 #include "HoudiniEngineUnity/zzzz__HEU_AssetSync_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetSync_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -237,27 +237,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*& HoudiniEngineUnity::HEU_AssetSync::__get__onAssetLoaded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAssetLoaded;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*> const& HoudiniEngineUnity::HEU_AssetSync::__get__onAssetLoaded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAssetLoaded;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetSync::__set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onAssetLoaded)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_AssetSync::__get__assetPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_AssetSync::__get__assetPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetPath;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetSync::__set__assetPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HoudiniEngineUnity::HEU_AssetSync::OnEnable() {

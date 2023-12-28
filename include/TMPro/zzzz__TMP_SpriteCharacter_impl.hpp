@@ -103,27 +103,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& TMPro::TMP_SpriteCharacter::__get_m_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
 constexpr ::StringW const& TMPro::TMP_SpriteCharacter::__get_m_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
 constexpr void TMPro::TMP_SpriteCharacter::__set_m_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::TMP_SpriteCharacter::__get_m_HashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HashCode;
 }
 constexpr int32_t const& TMPro::TMP_SpriteCharacter::__get_m_HashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HashCode;
 }
 constexpr void TMPro::TMP_SpriteCharacter::__set_m_HashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HashCode = value;
 }
 inline ::StringW TMPro::TMP_SpriteCharacter::get_name() {

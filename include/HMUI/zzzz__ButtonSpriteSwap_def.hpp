@@ -11,11 +11,11 @@ class NoTransitionsButton;
 namespace UnityEngine {
 class Sprite;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace HMUI {

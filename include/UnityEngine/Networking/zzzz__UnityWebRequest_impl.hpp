@@ -2,14 +2,14 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "UnityEngine/Networking/zzzz__UploadHandler_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::__UnityWebRequest__UnityWebRequestMethod(int32_t value__) noexcept {
   this->value__ = value__;
@@ -903,99 +903,99 @@ constexpr UnityEngine::Networking::UnityWebRequest::operator ::System::IDisposab
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& UnityEngine::Networking::UnityWebRequest::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::Networking::UnityWebRequest::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 constexpr ::UnityEngine::Networking::DownloadHandler*& UnityEngine::Networking::UnityWebRequest::__get_m_DownloadHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandler*> const& UnityEngine::Networking::UnityWebRequest::__get_m_DownloadHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadHandler;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set_m_DownloadHandler(::UnityEngine::Networking::DownloadHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DownloadHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Networking::UploadHandler*& UnityEngine::Networking::UnityWebRequest::__get_m_UploadHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UploadHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UploadHandler*> const& UnityEngine::Networking::UnityWebRequest::__get_m_UploadHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UploadHandler;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set_m_UploadHandler(::UnityEngine::Networking::UploadHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UploadHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Networking::CertificateHandler*& UnityEngine::Networking::UnityWebRequest::__get_m_CertificateHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CertificateHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& UnityEngine::Networking::UnityWebRequest::__get_m_CertificateHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CertificateHandler;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set_m_CertificateHandler(::UnityEngine::Networking::CertificateHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CertificateHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& UnityEngine::Networking::UnityWebRequest::__get_m_Uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& UnityEngine::Networking::UnityWebRequest::__get_m_Uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Uri;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set_m_Uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Networking::UnityWebRequest::__get__disposeCertificateHandlerOnDispose_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposeCertificateHandlerOnDispose_k__BackingField;
 }
 constexpr bool const& UnityEngine::Networking::UnityWebRequest::__get__disposeCertificateHandlerOnDispose_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposeCertificateHandlerOnDispose_k__BackingField;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set__disposeCertificateHandlerOnDispose_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposeCertificateHandlerOnDispose_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Networking::UnityWebRequest::__get__disposeDownloadHandlerOnDispose_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposeDownloadHandlerOnDispose_k__BackingField;
 }
 constexpr bool const& UnityEngine::Networking::UnityWebRequest::__get__disposeDownloadHandlerOnDispose_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposeDownloadHandlerOnDispose_k__BackingField;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set__disposeDownloadHandlerOnDispose_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposeDownloadHandlerOnDispose_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Networking::UnityWebRequest::__get__disposeUploadHandlerOnDispose_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposeUploadHandlerOnDispose_k__BackingField;
 }
 constexpr bool const& UnityEngine::Networking::UnityWebRequest::__get__disposeUploadHandlerOnDispose_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposeUploadHandlerOnDispose_k__BackingField;
 }
 constexpr void UnityEngine::Networking::UnityWebRequest::__set__disposeUploadHandlerOnDispose_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposeUploadHandlerOnDispose_k__BackingField = value;
 }
 inline ::StringW UnityEngine::Networking::UnityWebRequest::GetWebErrorString(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError err) {

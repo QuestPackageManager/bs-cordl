@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerGenerator._ctor
 template <>
 
@@ -136,39 +136,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Org::BouncyCastle::Asn1::BerGenerator::__get__tagged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tagged;
 }
 constexpr bool const& Org::BouncyCastle::Asn1::BerGenerator::__get__tagged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tagged;
 }
 constexpr void Org::BouncyCastle::Asn1::BerGenerator::__set__tagged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tagged = value;
 }
 constexpr bool& Org::BouncyCastle::Asn1::BerGenerator::__get__isExplicit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isExplicit;
 }
 constexpr bool const& Org::BouncyCastle::Asn1::BerGenerator::__get__isExplicit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isExplicit;
 }
 constexpr void Org::BouncyCastle::Asn1::BerGenerator::__set__isExplicit(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isExplicit = value;
 }
 constexpr int32_t& Org::BouncyCastle::Asn1::BerGenerator::__get__tagNo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tagNo;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::BerGenerator::__get__tagNo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tagNo;
 }
 constexpr void Org::BouncyCastle::Asn1::BerGenerator::__set__tagNo(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tagNo = value;
 }
 inline ::Org::BouncyCastle::Asn1::BerGenerator* Org::BouncyCastle::Asn1::BerGenerator::New_ctor(::System::IO::Stream* outStream) {

@@ -10,10 +10,10 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-class Type;
+class ModifierSpec;
 }
 namespace System {
-class ModifierSpec;
+class Type;
 }
 // Forward declare root types
 namespace System {

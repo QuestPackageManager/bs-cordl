@@ -173,75 +173,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Threading::ReaderWriterLock::__get_seq_num() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seq_num;
 }
 constexpr int32_t const& System::Threading::ReaderWriterLock::__get_seq_num() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seq_num;
 }
 constexpr void System::Threading::ReaderWriterLock::__set_seq_num(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___seq_num = value;
 }
 constexpr int32_t& System::Threading::ReaderWriterLock::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr int32_t const& System::Threading::ReaderWriterLock::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void System::Threading::ReaderWriterLock::__set_state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___state = value;
 }
 constexpr int32_t& System::Threading::ReaderWriterLock::__get_readers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readers;
 }
 constexpr int32_t const& System::Threading::ReaderWriterLock::__get_readers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readers;
 }
 constexpr void System::Threading::ReaderWriterLock::__set_readers(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readers = value;
 }
 constexpr int32_t& System::Threading::ReaderWriterLock::__get_writer_lock_owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer_lock_owner;
 }
 constexpr int32_t const& System::Threading::ReaderWriterLock::__get_writer_lock_owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer_lock_owner;
 }
 constexpr void System::Threading::ReaderWriterLock::__set_writer_lock_owner(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writer_lock_owner = value;
 }
 constexpr ::System::Threading::LockQueue*& System::Threading::ReaderWriterLock::__get_writer_queue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer_queue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::LockQueue*> const& System::Threading::ReaderWriterLock::__get_writer_queue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer_queue;
 }
 constexpr void System::Threading::ReaderWriterLock::__set_writer_queue(::System::Threading::LockQueue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writer_queue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Threading::ReaderWriterLock::__get_reader_locks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader_locks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Threading::ReaderWriterLock::__get_reader_locks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader_locks;
 }
 constexpr void System::Threading::ReaderWriterLock::__set_reader_locks(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader_locks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::ReaderWriterLock* System::Threading::ReaderWriterLock::New_ctor() {

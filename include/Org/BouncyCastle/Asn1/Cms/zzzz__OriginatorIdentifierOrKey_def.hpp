@@ -7,18 +7,6 @@ CORDL_MODULE_EXPORT(OriginatorIdentifierOrKey)
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectKeyIdentifier;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorPublicKey;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
@@ -28,8 +16,20 @@ class IAsn1Choice;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorPublicKey;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

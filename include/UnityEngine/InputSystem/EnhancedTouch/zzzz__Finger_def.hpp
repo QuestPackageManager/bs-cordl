@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Finger)
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct Touch;
-}
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputStateHistory__Record;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
+class Touchscreen;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template <typename TValue> class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem {
-class Touchscreen;
-}
-namespace UnityEngine {
-struct Vector2;
+class InputControl;
 }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 struct TouchHistory;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct Touch;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputStateHistory__Record;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;

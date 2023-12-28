@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Diagnostics/zzzz__TraceListener_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Diagnostics/zzzz__TraceListener_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceListenerCollection._ctor
 template <>
 
@@ -297,15 +297,15 @@ constexpr System::Diagnostics::TraceListenerCollection::operator ::System::Colle
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::ArrayList*& System::Diagnostics::TraceListenerCollection::__get_list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Diagnostics::TraceListenerCollection::__get_list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr void System::Diagnostics::TraceListenerCollection::__set_list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Diagnostics::TraceListenerCollection* System::Diagnostics::TraceListenerCollection::New_ctor() {

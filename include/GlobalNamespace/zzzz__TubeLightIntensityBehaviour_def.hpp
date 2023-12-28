@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TubeLightIntensityBehaviour)
-namespace GlobalNamespace {
-class DirectionalLight;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace System {
+class Object;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {

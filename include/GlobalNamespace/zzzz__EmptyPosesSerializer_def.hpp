@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EmptyPosesSerializer)
 namespace GlobalNamespace {
-class IPosesSerializer;
+class PosesRecordingData;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class IPosesSerializer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

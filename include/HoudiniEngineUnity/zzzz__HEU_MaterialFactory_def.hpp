@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MaterialFactory)
-namespace HoudiniEngineUnity {
-struct HAPI_MaterialInfo;
-}
 namespace UnityEngine {
-class Texture2D;
+class Shader;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_MaterialData__Source;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace HoudiniEngineUnity {
-struct __HEU_MaterialData__Source;
+struct HAPI_MaterialInfo;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
 namespace UnityEngine {
-class Shader;
+class Texture2D;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

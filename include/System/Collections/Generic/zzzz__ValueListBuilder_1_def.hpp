@@ -25,7 +25,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 4906 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 4906 }), TypeDefinitionIndex(TypeDefinitionIndex(2470))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3844))
 // CS Name: ::System.Collections.Generic::ValueListBuilder`1<T>
 struct CORDL_TYPE ValueListBuilder_1 {

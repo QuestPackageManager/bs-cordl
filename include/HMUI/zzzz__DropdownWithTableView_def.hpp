@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownWithTableView)
-namespace HMUI {
-class TableView;
-}
-namespace HMUI {
-class __TableView__IDataSource;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace HMUI {
 class ModalView;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class __TableView__IDataSource;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace HMUI {
+class TableView;
 }
 // Forward declare root types
 namespace HMUI {

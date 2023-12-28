@@ -9,10 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectMap)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
+class BinaryAssemblyInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectReader;
 }
 namespace System {
 class Type;
@@ -21,13 +24,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SizedArray;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
+class SizedArray;
 }
 namespace System {
 class Object;

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ActivationControlPlayable)
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+struct PlayableGraph;
+}
+namespace UnityEngine::Timeline {
+struct __ActivationControlPlayable__PostPlaybackState;
 }
 namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
@@ -26,10 +26,10 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
-namespace UnityEngine::Timeline {
-struct __ActivationControlPlayable__PostPlaybackState;
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -153,7 +153,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Activat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13900)), TypeDefinitionIndex(TypeDefinitionIndex(13901)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13900)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13901))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13902))
 // CS Name: ::UnityEngine.Timeline::ActivationControlPlayable*
 class CORDL_TYPE ActivationControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {

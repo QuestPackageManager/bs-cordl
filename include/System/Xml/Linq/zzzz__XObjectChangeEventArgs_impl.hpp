@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Linq::XObjectChange& System::Xml::Linq::XObjectChangeEventArgs::__get__objectChange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectChange;
 }
 constexpr ::System::Xml::Linq::XObjectChange const& System::Xml::Linq::XObjectChangeEventArgs::__get__objectChange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectChange;
 }
 constexpr void System::Xml::Linq::XObjectChangeEventArgs::__set__objectChange(::System::Xml::Linq::XObjectChange value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____objectChange = value;
 }
 inline void System::Xml::Linq::XObjectChangeEventArgs::setStaticF_Add(::System::Xml::Linq::XObjectChangeEventArgs* value) {

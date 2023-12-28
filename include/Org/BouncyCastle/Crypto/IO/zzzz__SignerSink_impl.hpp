@@ -63,15 +63,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Crypto::ISigner*& Org::BouncyCastle::Crypto::IO::SignerSink::__get_mSigner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSigner;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& Org::BouncyCastle::Crypto::IO::SignerSink::__get_mSigner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSigner;
 }
 constexpr void Org::BouncyCastle::Crypto::IO::SignerSink::__set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mSigner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::IO::SignerSink* Org::BouncyCastle::Crypto::IO::SignerSink::New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer) {

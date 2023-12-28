@@ -85,99 +85,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::LookAtIK*& RootMotion::FinalIK::InteractionLookAt::__get_ik() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::LookAtIK*> const& RootMotion::FinalIK::InteractionLookAt::__get_ik() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_ik(::RootMotion::FinalIK::LookAtIK* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ik)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::InteractionLookAt::__get_lerpSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lerpSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionLookAt::__get_lerpSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lerpSpeed;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_lerpSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lerpSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::InteractionLookAt::__get_weightSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weightSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionLookAt::__get_weightSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weightSpeed;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_weightSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weightSpeed = value;
 }
 constexpr bool& RootMotion::FinalIK::InteractionLookAt::__get_isPaused() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isPaused;
 }
 constexpr bool const& RootMotion::FinalIK::InteractionLookAt::__get_isPaused() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isPaused;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_isPaused(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isPaused = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::InteractionLookAt::__get_lookAtTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookAtTarget;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::InteractionLookAt::__get_lookAtTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookAtTarget;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_lookAtTarget(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookAtTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::InteractionLookAt::__get_stopLookTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stopLookTime;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionLookAt::__get_stopLookTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stopLookTime;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_stopLookTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stopLookTime = value;
 }
 constexpr float_t& RootMotion::FinalIK::InteractionLookAt::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionLookAt::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr bool& RootMotion::FinalIK::InteractionLookAt::__get_firstFBBIKSolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstFBBIKSolve;
 }
 constexpr bool const& RootMotion::FinalIK::InteractionLookAt::__get_firstFBBIKSolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstFBBIKSolve;
 }
 constexpr void RootMotion::FinalIK::InteractionLookAt::__set_firstFBBIKSolve(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___firstFBBIKSolve = value;
 }
 inline void RootMotion::FinalIK::InteractionLookAt::Look(::UnityEngine::Transform* target, float_t time) {

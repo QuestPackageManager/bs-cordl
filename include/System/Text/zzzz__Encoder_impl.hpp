@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__EncoderFallback_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
+#include "System/Text/zzzz__EncoderFallback_def.hpp"
 //  Writing Method size for method: ::System::Text::Encoder._ctor
 template <>
 
@@ -162,27 +162,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::EncoderFallback*& System::Text::Encoder::__get__fallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallback*> const& System::Text::Encoder::__get__fallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallback;
 }
 constexpr void System::Text::Encoder::__set__fallback(::System::Text::EncoderFallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::EncoderFallbackBuffer*& System::Text::Encoder::__get__fallbackBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderFallbackBuffer*> const& System::Text::Encoder::__get__fallbackBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackBuffer;
 }
 constexpr void System::Text::Encoder::__set__fallbackBuffer(::System::Text::EncoderFallbackBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fallbackBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Text::Encoder* System::Text::Encoder::New_ctor() {

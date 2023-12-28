@@ -11,11 +11,11 @@ class BaseTransitionSO;
 namespace GlobalNamespace {
 class Vector3TransitionSO;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace Tweening {
 class Vector3Tween;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PositionRectTransformViewStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10282)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 926 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5453)) CS Name: ::PositionRectTransformViewStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 926 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10282))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5453)) CS Name: ::PositionRectTransformViewStateTransition*
 class CORDL_TYPE PositionRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::RectTransform*> {
 public:
   // Declarations

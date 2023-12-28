@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECPublicBcpgKey)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
 }
 namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(BeatAvatarAdapterInstallerSO)
 namespace BeatSaber::BeatAvatarSDK {
 class SkinColorSetSO;
 }
-namespace BeatSaber::BeatAvatarAdapter {
-class BeatAvatarSystemSettings;
-}
 namespace Zenject {
 class DiContainer;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class BeatAvatarEditorViewController;
 }
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class EditAvatarColorViewController;
+}
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModelSO;
 }
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class EditAvatarColorViewController;
+namespace BeatSaber::BeatAvatarAdapter {
+class BeatAvatarSystemSettings;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {

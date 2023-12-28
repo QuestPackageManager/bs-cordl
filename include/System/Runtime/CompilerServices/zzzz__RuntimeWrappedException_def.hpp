@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Exception_def.hpp"
 CORDL_MODULE_EXPORT(RuntimeWrappedException)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;

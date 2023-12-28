@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
-#include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 template <typename T> inline void GlobalNamespace::__ScoringElement__Pool_1<T>::Reinitialize(T scoringElement) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ScoringElement__Pool_1<T>*>::get(), "Reinitialize",
@@ -277,51 +277,51 @@ constexpr GlobalNamespace::ScoringElement::operator ::System::IComparable_1<::Gl
   return static_cast<::System::IComparable_1<::GlobalNamespace::ScoringElement*>*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::NoteData*& GlobalNamespace::ScoringElement::__get__noteData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteData_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteData*> const& GlobalNamespace::ScoringElement::__get__noteData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteData_k__BackingField;
 }
 constexpr void GlobalNamespace::ScoringElement::__set__noteData_k__BackingField(::GlobalNamespace::NoteData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteData_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::ScoringElement::__get__multiplier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplier_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::ScoringElement::__get__multiplier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplier_k__BackingField;
 }
 constexpr void GlobalNamespace::ScoringElement::__set__multiplier_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplier_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::ScoringElement::__get__maxMultiplier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxMultiplier_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::ScoringElement::__get__maxMultiplier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxMultiplier_k__BackingField;
 }
 constexpr void GlobalNamespace::ScoringElement::__set__maxMultiplier_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxMultiplier_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::ScoringElement::__get__isFinished_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFinished_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::ScoringElement::__get__isFinished_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFinished_k__BackingField;
 }
 constexpr void GlobalNamespace::ScoringElement::__set__isFinished_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isFinished_k__BackingField = value;
 }
 inline ::GlobalNamespace::NoteData* GlobalNamespace::ScoringElement::get_noteData() {

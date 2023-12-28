@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(QueryExpression)
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
 namespace Newtonsoft::Json::Linq::JsonPath {
 struct QueryOperator;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12021))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12021)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryExpression*
 class CORDL_TYPE QueryExpression : public ::System::Object {

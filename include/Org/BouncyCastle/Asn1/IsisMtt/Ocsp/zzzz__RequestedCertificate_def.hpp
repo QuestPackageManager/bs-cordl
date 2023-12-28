@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RequestedCertificate)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
 struct __RequestedCertificate__Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {

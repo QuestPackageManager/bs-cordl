@@ -8,22 +8,22 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Newtonsoft/Json/zzzz__Required_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__Required_def.hpp"
 #include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonProperty.get_PropertyContract
 template <>
 
@@ -954,401 +954,401 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& Newtonsoft::Json::Serialization::JsonProperty::__get__required() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____required;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& Newtonsoft::Json::Serialization::JsonProperty::__get__required() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____required;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__required(::System::Nullable_1<::Newtonsoft::Json::Required> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____required = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__hasExplicitDefaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasExplicitDefaultValue;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__hasExplicitDefaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasExplicitDefaultValue;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__hasExplicitDefaultValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasExplicitDefaultValue = value;
 }
 constexpr ::System::Object*& Newtonsoft::Json::Serialization::JsonProperty::__get__defaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__defaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultValue;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__defaultValue(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__hasGeneratedDefaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasGeneratedDefaultValue;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__hasGeneratedDefaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasGeneratedDefaultValue;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__hasGeneratedDefaultValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasGeneratedDefaultValue = value;
 }
 constexpr ::StringW& Newtonsoft::Json::Serialization::JsonProperty::__get__propertyName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyName;
 }
 constexpr ::StringW const& Newtonsoft::Json::Serialization::JsonProperty::__get__propertyName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyName;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__propertyName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__skipPropertyNameEscape() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skipPropertyNameEscape;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__skipPropertyNameEscape() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skipPropertyNameEscape;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__skipPropertyNameEscape(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____skipPropertyNameEscape = value;
 }
 constexpr ::System::Type*& Newtonsoft::Json::Serialization::JsonProperty::__get__propertyType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__propertyType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyType;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__propertyType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::JsonContract*& Newtonsoft::Json::Serialization::JsonProperty::__get__PropertyContract_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PropertyContract_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__PropertyContract_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PropertyContract_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__PropertyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PropertyContract_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Newtonsoft::Json::Serialization::JsonProperty::__get__DeclaringType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DeclaringType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__DeclaringType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DeclaringType_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__DeclaringType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____DeclaringType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<int32_t>& Newtonsoft::Json::Serialization::JsonProperty::__get__Order_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Order_k__BackingField;
 }
 constexpr ::System::Nullable_1<int32_t> const& Newtonsoft::Json::Serialization::JsonProperty::__get__Order_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Order_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__Order_k__BackingField(::System::Nullable_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Order_k__BackingField = value;
 }
 constexpr ::StringW& Newtonsoft::Json::Serialization::JsonProperty::__get__UnderlyingName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnderlyingName_k__BackingField;
 }
 constexpr ::StringW const& Newtonsoft::Json::Serialization::JsonProperty::__get__UnderlyingName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnderlyingName_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__UnderlyingName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnderlyingName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::IValueProvider*& Newtonsoft::Json::Serialization::JsonProperty::__get__ValueProvider_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ValueProvider_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IValueProvider*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ValueProvider_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ValueProvider_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ValueProvider_k__BackingField(::Newtonsoft::Json::Serialization::IValueProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ValueProvider_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::IAttributeProvider*& Newtonsoft::Json::Serialization::JsonProperty::__get__AttributeProvider_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttributeProvider_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IAttributeProvider*> const&
 Newtonsoft::Json::Serialization::JsonProperty::__get__AttributeProvider_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttributeProvider_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__AttributeProvider_k__BackingField(::Newtonsoft::Json::Serialization::IAttributeProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____AttributeProvider_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::JsonConverter*& Newtonsoft::Json::Serialization::JsonProperty::__get__Converter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Converter_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__Converter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Converter_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Converter_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::JsonConverter*& Newtonsoft::Json::Serialization::JsonProperty::__get__MemberConverter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemberConverter_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__MemberConverter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemberConverter_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__MemberConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MemberConverter_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__Ignored_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Ignored_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__Ignored_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Ignored_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__Ignored_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Ignored_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__Readable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Readable_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__Readable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Readable_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__Readable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Readable_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__Writable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Writable_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__Writable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Writable_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__Writable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Writable_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::JsonProperty::__get__HasMemberAttribute_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasMemberAttribute_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::JsonProperty::__get__HasMemberAttribute_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasMemberAttribute_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__HasMemberAttribute_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasMemberAttribute_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<bool>& Newtonsoft::Json::Serialization::JsonProperty::__get__IsReference_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsReference_k__BackingField;
 }
 constexpr ::System::Nullable_1<bool> const& Newtonsoft::Json::Serialization::JsonProperty::__get__IsReference_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsReference_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__IsReference_k__BackingField(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsReference_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__NullValueHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NullValueHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__NullValueHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NullValueHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__NullValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NullValueHandling_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__DefaultValueHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DefaultValueHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__DefaultValueHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DefaultValueHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__DefaultValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DefaultValueHandling_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__ReferenceLoopHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReferenceLoopHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ReferenceLoopHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReferenceLoopHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ReferenceLoopHandling_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__ObjectCreationHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ObjectCreationHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ObjectCreationHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ObjectCreationHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ObjectCreationHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ObjectCreationHandling_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__TypeNameHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypeNameHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__TypeNameHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypeNameHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__TypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____TypeNameHandling_k__BackingField = value;
 }
 constexpr ::System::Predicate_1<::System::Object*>*& Newtonsoft::Json::Serialization::JsonProperty::__get__ShouldSerialize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShouldSerialize_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ShouldSerialize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShouldSerialize_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ShouldSerialize_k__BackingField(::System::Predicate_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ShouldSerialize_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Predicate_1<::System::Object*>*& Newtonsoft::Json::Serialization::JsonProperty::__get__ShouldDeserialize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShouldDeserialize_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ShouldDeserialize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShouldDeserialize_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ShouldDeserialize_k__BackingField(::System::Predicate_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ShouldDeserialize_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Predicate_1<::System::Object*>*& Newtonsoft::Json::Serialization::JsonProperty::__get__GetIsSpecified_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetIsSpecified_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__GetIsSpecified_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GetIsSpecified_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__GetIsSpecified_k__BackingField(::System::Predicate_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____GetIsSpecified_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Serialization::JsonProperty::__get__SetIsSpecified_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SetIsSpecified_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Serialization::JsonProperty::__get__SetIsSpecified_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SetIsSpecified_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__SetIsSpecified_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SetIsSpecified_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::JsonConverter*& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemConverter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemConverter_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemConverter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemConverter_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ItemConverter_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<bool>& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemIsReference_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemIsReference_k__BackingField;
 }
 constexpr ::System::Nullable_1<bool> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemIsReference_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemIsReference_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ItemIsReference_k__BackingField(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ItemIsReference_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemTypeNameHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemTypeNameHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemTypeNameHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemTypeNameHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ItemTypeNameHandling_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemReferenceLoopHandling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemReferenceLoopHandling_k__BackingField;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& Newtonsoft::Json::Serialization::JsonProperty::__get__ItemReferenceLoopHandling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemReferenceLoopHandling_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonProperty::__set__ItemReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ItemReferenceLoopHandling_k__BackingField = value;
 }
 inline ::Newtonsoft::Json::Serialization::JsonContract* Newtonsoft::Json::Serialization::JsonProperty::get_PropertyContract() {

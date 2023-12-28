@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::RejoinDialogResult::__get_RejoinSelected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RejoinSelected;
 }
 constexpr bool const& Oculus::Platform::Models::RejoinDialogResult::__get_RejoinSelected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RejoinSelected;
 }
 constexpr void Oculus::Platform::Models::RejoinDialogResult::__set_RejoinSelected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RejoinSelected = value;
 }
 inline ::Oculus::Platform::Models::RejoinDialogResult* Oculus::Platform::Models::RejoinDialogResult::New_ctor(void* o) {

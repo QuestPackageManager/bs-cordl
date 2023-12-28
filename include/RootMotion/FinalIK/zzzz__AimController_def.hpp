@@ -14,11 +14,11 @@ class __AimController___TurnToTarget_d__33;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class AimIK;
@@ -27,10 +27,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -145,7 +145,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__AimContro
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12630))
 // CS Name: ::RootMotion.FinalIK::AimController*
 class CORDL_TYPE AimController : public ::UnityEngine::MonoBehaviour {

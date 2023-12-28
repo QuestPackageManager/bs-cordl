@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 //  Writing Method size for method: ::HMUI::__ToggleBinder____c__DisplayClass7_0._ctor
 template <>
 
@@ -37,27 +37,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& HMUI::__ToggleBinder____c__DisplayClass7_0::__get_enabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabled;
 }
 constexpr bool const& HMUI::__ToggleBinder____c__DisplayClass7_0::__get_enabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabled;
 }
 constexpr void HMUI::__ToggleBinder____c__DisplayClass7_0::__set_enabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enabled = value;
 }
 constexpr ::System::Action*& HMUI::__ToggleBinder____c__DisplayClass7_0::__get_action() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___action;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& HMUI::__ToggleBinder____c__DisplayClass7_0::__get_action() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___action;
 }
 constexpr void HMUI::__ToggleBinder____c__DisplayClass7_0::__set_action(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::__ToggleBinder____c__DisplayClass7_0* HMUI::__ToggleBinder____c__DisplayClass7_0::New_ctor() {
@@ -206,28 +206,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::UnityEngine::Events::UnityAction_1<bool>*>*>*& HMUI::ToggleBinder::__get__bindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::UnityEngine::Events::UnityAction_1<bool>*>*>*> const&
 HMUI::ToggleBinder::__get__bindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindings;
 }
 constexpr void HMUI::ToggleBinder::__set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::UnityEngine::Events::UnityAction_1<bool>*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HMUI::ToggleBinder::__get__enabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabled;
 }
 constexpr bool const& HMUI::ToggleBinder::__get__enabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabled;
 }
 constexpr void HMUI::ToggleBinder::__set__enabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enabled = value;
 }
 inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor() {

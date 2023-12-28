@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_LoadBufferVolume)
 namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeScatterTrees;
+class HEU_DetailProperties;
 }
 namespace HoudiniEngineUnity {
 class HEU_LoadBufferVolumeLayer;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeScatterTrees;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
+class HEU_DetailPrototype;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolume);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9804))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9804)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9806))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferVolume*
 class CORDL_TYPE HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase {

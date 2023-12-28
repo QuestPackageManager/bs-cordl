@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__ParamsArray_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__ParamsArray_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Text::StringBuilder._ctor
 template <>
 
@@ -1027,63 +1027,63 @@ constexpr System::Text::StringBuilder::operator ::System::Runtime::Serialization
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Text::StringBuilder::__get_m_ChunkChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkChars;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Text::StringBuilder::__get_m_ChunkChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkChars;
 }
 constexpr void System::Text::StringBuilder::__set_m_ChunkChars(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChunkChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& System::Text::StringBuilder::__get_m_ChunkPrevious() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkPrevious;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Text::StringBuilder::__get_m_ChunkPrevious() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkPrevious;
 }
 constexpr void System::Text::StringBuilder::__set_m_ChunkPrevious(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChunkPrevious)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::StringBuilder::__get_m_ChunkLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkLength;
 }
 constexpr int32_t const& System::Text::StringBuilder::__get_m_ChunkLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkLength;
 }
 constexpr void System::Text::StringBuilder::__set_m_ChunkLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChunkLength = value;
 }
 constexpr int32_t& System::Text::StringBuilder::__get_m_ChunkOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkOffset;
 }
 constexpr int32_t const& System::Text::StringBuilder::__get_m_ChunkOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkOffset;
 }
 constexpr void System::Text::StringBuilder::__set_m_ChunkOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChunkOffset = value;
 }
 constexpr int32_t& System::Text::StringBuilder::__get_m_MaxCapacity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxCapacity;
 }
 constexpr int32_t const& System::Text::StringBuilder::__get_m_MaxCapacity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxCapacity;
 }
 constexpr void System::Text::StringBuilder::__set_m_MaxCapacity(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxCapacity = value;
 }
 inline ::System::Text::StringBuilder* System::Text::StringBuilder::New_ctor() {

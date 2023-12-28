@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__AttributeCertificateHolder_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__Holder_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__Holder_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::AttributeCertificateHolder._ctor
 template <>
 
@@ -334,15 +334,15 @@ constexpr Org::BouncyCastle::X509::AttributeCertificateHolder::operator ::System
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::Holder*& Org::BouncyCastle::X509::AttributeCertificateHolder::__get_holder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___holder;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Holder*> const& Org::BouncyCastle::X509::AttributeCertificateHolder::__get_holder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___holder;
 }
 constexpr void Org::BouncyCastle::X509::AttributeCertificateHolder::__set_holder(::Org::BouncyCastle::Asn1::X509::Holder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___holder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* Org::BouncyCastle::X509::AttributeCertificateHolder::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {

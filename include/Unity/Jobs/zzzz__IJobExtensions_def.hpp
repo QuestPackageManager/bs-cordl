@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobExtensions)
-namespace Unity::Jobs::LowLevel::Unsafe {
-struct JobRanges;
-}
 namespace System {
 class Object;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct JobRanges;
 }
 namespace Unity::Jobs {
 template <typename T> struct __IJobExtensions__JobStruct_1;

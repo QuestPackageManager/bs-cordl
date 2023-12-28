@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataBasicInfo_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataBasicInfo.get_numberOfLines
 template <>
 
@@ -94,64 +94,64 @@ constexpr GlobalNamespace::BeatmapDataBasicInfo::operator ::GlobalNamespace::IBe
   return static_cast<::GlobalNamespace::IBeatmapDataBasicInfo*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::BeatmapDataBasicInfo::__get__numberOfLines_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfLines_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapDataBasicInfo::__get__numberOfLines_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfLines_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataBasicInfo::__set__numberOfLines_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfLines_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapDataBasicInfo::__get__cuttableNotesCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableNotesCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapDataBasicInfo::__get__cuttableNotesCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableNotesCount_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataBasicInfo::__set__cuttableNotesCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cuttableNotesCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapDataBasicInfo::__get__obstaclesCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapDataBasicInfo::__get__obstaclesCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesCount_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataBasicInfo::__set__obstaclesCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstaclesCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapDataBasicInfo::__get__bombsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapDataBasicInfo::__get__bombsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataBasicInfo::__set__bombsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bombsCount_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& GlobalNamespace::BeatmapDataBasicInfo::__get__specialBasicBeatmapEventKeywords_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialBasicBeatmapEventKeywords_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const&
 GlobalNamespace::BeatmapDataBasicInfo::__get__specialBasicBeatmapEventKeywords_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialBasicBeatmapEventKeywords_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataBasicInfo::__set__specialBasicBeatmapEventKeywords_k__BackingField(::System::Collections::Generic::IEnumerable_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____specialBasicBeatmapEventKeywords_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

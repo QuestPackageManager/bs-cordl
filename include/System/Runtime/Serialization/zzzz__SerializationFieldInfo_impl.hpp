@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationFieldInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__RuntimeFieldInfo_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__FieldAttributes_def.hpp"
 #include "System/zzzz__RuntimeFieldHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Reflection/zzzz__RuntimeFieldInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__FieldAttributes_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SerializationFieldInfo.get_Module
 template <>
 
@@ -285,27 +285,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::RuntimeFieldInfo*& System::Runtime::Serialization::SerializationFieldInfo::__get_m_field() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_field;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeFieldInfo*> const& System::Runtime::Serialization::SerializationFieldInfo::__get_m_field() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_field;
 }
 constexpr void System::Runtime::Serialization::SerializationFieldInfo::__set_m_field(::System::Reflection::RuntimeFieldInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_field)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Serialization::SerializationFieldInfo::__get_m_serializationName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serializationName;
 }
 constexpr ::StringW const& System::Runtime::Serialization::SerializationFieldInfo::__get_m_serializationName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serializationName;
 }
 constexpr void System::Runtime::Serialization::SerializationFieldInfo::__set_m_serializationName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_serializationName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Reflection::Module* System::Runtime::Serialization::SerializationFieldInfo::get_Module() {

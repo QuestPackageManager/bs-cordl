@@ -10,8 +10,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRTextUpdatePainter)
-namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__RectangleParams;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -23,19 +26,16 @@ namespace UnityEngine::UIElements {
 class ITextHandle;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+class IStylePainter;
 }
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace System {
-class Action;
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
 }
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::UIElements {
-class IStylePainter;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {
@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePain
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 756
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 752 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7451)) CS
-// Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7330)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 756 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7451)) CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
 class CORDL_TYPE UIRTextUpdatePainter : public ::System::Object {
 public:
   // Declarations

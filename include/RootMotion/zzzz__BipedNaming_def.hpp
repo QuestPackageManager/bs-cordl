@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BipedNaming)
-namespace UnityEngine {
-class Transform;
+namespace RootMotion {
+struct __BipedNaming__BoneType;
 }
 namespace RootMotion {
 struct __BipedNaming__BoneSide;
 }
-namespace RootMotion {
-struct __BipedNaming__BoneType;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion {

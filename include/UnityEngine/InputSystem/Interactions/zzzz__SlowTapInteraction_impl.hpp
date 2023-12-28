@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__SlowTapInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Interactions::SlowTapInteraction.get_durationOrDefault
 template <>
 
@@ -83,39 +83,39 @@ constexpr UnityEngine::InputSystem::Interactions::SlowTapInteraction::operator :
   return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::SlowTapInteraction::__get_duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::SlowTapInteraction::__get_duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr void UnityEngine::InputSystem::Interactions::SlowTapInteraction::__set_duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::SlowTapInteraction::__get_pressPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::SlowTapInteraction::__get_pressPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr void UnityEngine::InputSystem::Interactions::SlowTapInteraction::__set_pressPoint(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pressPoint = value;
 }
 constexpr double_t& UnityEngine::InputSystem::Interactions::SlowTapInteraction::__get_m_SlowTapStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SlowTapStartTime;
 }
 constexpr double_t const& UnityEngine::InputSystem::Interactions::SlowTapInteraction::__get_m_SlowTapStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SlowTapStartTime;
 }
 constexpr void UnityEngine::InputSystem::Interactions::SlowTapInteraction::__set_m_SlowTapStartTime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SlowTapStartTime = value;
 }
 inline float_t UnityEngine::InputSystem::Interactions::SlowTapInteraction::get_durationOrDefault() {

@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::GetXPlatformAccessTokenResponse::__get_accessToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accessToken;
 }
 constexpr ::StringW const& GlobalNamespace::GetXPlatformAccessTokenResponse::__get_accessToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accessToken;
 }
 constexpr void GlobalNamespace::GetXPlatformAccessTokenResponse::__set_accessToken(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___accessToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* GlobalNamespace::GetXPlatformAccessTokenResponse::New_ctor(::StringW accessToken) {

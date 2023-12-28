@@ -2,8 +2,8 @@
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
-#include "System/Xml/zzzz__XmlElement_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlElement_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlName_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
@@ -421,27 +421,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlName*& System::Xml::XmlAttribute::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlName*> const& System::Xml::XmlAttribute::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Xml::XmlAttribute::__set_name(::System::Xml::XmlName* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlLinkedNode*& System::Xml::XmlAttribute::__get_lastChild() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastChild;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& System::Xml::XmlAttribute::__get_lastChild() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastChild;
 }
 constexpr void System::Xml::XmlAttribute::__set_lastChild(::System::Xml::XmlLinkedNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastChild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlAttribute* System::Xml::XmlAttribute::New_ctor(::System::Xml::XmlName* name, ::System::Xml::XmlDocument* doc) {

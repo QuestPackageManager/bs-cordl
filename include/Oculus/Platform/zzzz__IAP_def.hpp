@@ -13,13 +13,13 @@ namespace Oculus::Platform::Models {
 class PurchaseList;
 }
 namespace Oculus::Platform::Models {
+class ProductList;
+}
+namespace Oculus::Platform::Models {
 class Purchase;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
-}
-namespace Oculus::Platform::Models {
-class ProductList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

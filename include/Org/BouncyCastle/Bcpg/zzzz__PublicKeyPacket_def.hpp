@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicKeyPacket)
-namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class IBcpgKey;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

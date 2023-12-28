@@ -72,39 +72,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::MissionObjectiveTypeSO::__get__objectiveName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectiveName;
 }
 constexpr ::StringW const& GlobalNamespace::MissionObjectiveTypeSO::__get__objectiveName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectiveName;
 }
 constexpr void GlobalNamespace::MissionObjectiveTypeSO::__set__objectiveName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectiveName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MissionObjectiveTypeSO::__get__noConditionValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noConditionValue;
 }
 constexpr bool const& GlobalNamespace::MissionObjectiveTypeSO::__get__noConditionValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noConditionValue;
 }
 constexpr void GlobalNamespace::MissionObjectiveTypeSO::__set__noConditionValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noConditionValue = value;
 }
 constexpr ::GlobalNamespace::ObjectiveValueFormatterSO*& GlobalNamespace::MissionObjectiveTypeSO::__get__objectiveValueFormater() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectiveValueFormater;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObjectiveValueFormatterSO*> const& GlobalNamespace::MissionObjectiveTypeSO::__get__objectiveValueFormater() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectiveValueFormater;
 }
 constexpr void GlobalNamespace::MissionObjectiveTypeSO::__set__objectiveValueFormater(::GlobalNamespace::ObjectiveValueFormatterSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectiveValueFormater)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName() {

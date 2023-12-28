@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Shadow)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Vector2;
+struct UIVertex;
 }
 namespace UnityEngine {
 struct Color32;
 }
-namespace UnityEngine::UI {
-class VertexHelper;
-}
 namespace UnityEngine {
-struct UIVertex;
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Shadow);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13143)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13143)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13148))
 // CS Name: ::UnityEngine.UI::Shadow*
 class CORDL_TYPE Shadow : public ::UnityEngine::UI::BaseMeshEffect {

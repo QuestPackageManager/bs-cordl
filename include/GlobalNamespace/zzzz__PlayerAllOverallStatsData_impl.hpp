@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData.get_goodCutsCount
 template <>
 
@@ -406,135 +406,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__goodCutsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__goodCutsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__goodCutsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goodCutsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__badCutsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__badCutsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__badCutsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____badCutsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__missedCutsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedCutsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__missedCutsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedCutsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__missedCutsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missedCutsCount_k__BackingField = value;
 }
 constexpr int64_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__totalScore_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalScore_k__BackingField;
 }
 constexpr int64_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__totalScore_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalScore_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__totalScore_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalScore_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__playedLevelsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playedLevelsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__playedLevelsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playedLevelsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__playedLevelsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playedLevelsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__clearedLevelsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearedLevelsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__clearedLevelsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearedLevelsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__clearedLevelsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clearedLevelsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__failedLevelsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failedLevelsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__failedLevelsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failedLevelsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__failedLevelsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____failedLevelsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__fullComboCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullComboCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__fullComboCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullComboCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__fullComboCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullComboCount_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__timePlayed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timePlayed_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__timePlayed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timePlayed_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__timePlayed_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timePlayed_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__handDistanceTravelled_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handDistanceTravelled_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__handDistanceTravelled_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handDistanceTravelled_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__handDistanceTravelled_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handDistanceTravelled_k__BackingField = value;
 }
 constexpr int64_t& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__totalCutScore_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalCutScore_k__BackingField;
 }
 constexpr int64_t const& GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__get__totalCutScore_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalCutScore_k__BackingField;
 }
 constexpr void GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::__set__totalCutScore_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalCutScore_k__BackingField = value;
 }
 inline int32_t GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData::get_goodCutsCount() {
@@ -1045,106 +1045,106 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& GlobalNamespace::PlayerAllOverallStatsData::__get__campaignOverallStatsData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____campaignOverallStatsData_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get__campaignOverallStatsData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____campaignOverallStatsData_k__BackingField;
 }
 constexpr void GlobalNamespace::PlayerAllOverallStatsData::__set__campaignOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____campaignOverallStatsData_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& GlobalNamespace::PlayerAllOverallStatsData::__get__soloFreePlayOverallStatsData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soloFreePlayOverallStatsData_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get__soloFreePlayOverallStatsData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soloFreePlayOverallStatsData_k__BackingField;
 }
 constexpr void GlobalNamespace::PlayerAllOverallStatsData::__set__soloFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____soloFreePlayOverallStatsData_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& GlobalNamespace::PlayerAllOverallStatsData::__get__partyFreePlayOverallStatsData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyFreePlayOverallStatsData_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get__partyFreePlayOverallStatsData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyFreePlayOverallStatsData_k__BackingField;
 }
 constexpr void GlobalNamespace::PlayerAllOverallStatsData::__set__partyFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partyFreePlayOverallStatsData_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& GlobalNamespace::PlayerAllOverallStatsData::__get__onlinePlayOverallStatsData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onlinePlayOverallStatsData_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get__onlinePlayOverallStatsData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onlinePlayOverallStatsData_k__BackingField;
 }
 constexpr void GlobalNamespace::PlayerAllOverallStatsData::__set__onlinePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onlinePlayOverallStatsData_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*&
 GlobalNamespace::PlayerAllOverallStatsData::__get_didUpdateSoloFreePlayOverallStatsDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateSoloFreePlayOverallStatsDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get_didUpdateSoloFreePlayOverallStatsDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateSoloFreePlayOverallStatsDataEvent;
 }
 constexpr void GlobalNamespace::PlayerAllOverallStatsData::__set_didUpdateSoloFreePlayOverallStatsDataEvent(
     ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didUpdateSoloFreePlayOverallStatsDataEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*&
 GlobalNamespace::PlayerAllOverallStatsData::__get_didUpdatePartyFreePlayOverallStatsDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdatePartyFreePlayOverallStatsDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get_didUpdatePartyFreePlayOverallStatsDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdatePartyFreePlayOverallStatsDataEvent;
 }
 constexpr void GlobalNamespace::PlayerAllOverallStatsData::__set_didUpdatePartyFreePlayOverallStatsDataEvent(
     ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didUpdatePartyFreePlayOverallStatsDataEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>*&
 GlobalNamespace::PlayerAllOverallStatsData::__get_didUpdateCampaignOverallStatsDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateCampaignOverallStatsDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>*> const&
 GlobalNamespace::PlayerAllOverallStatsData::__get_didUpdateCampaignOverallStatsDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateCampaignOverallStatsDataEvent;
 }
 constexpr void
 GlobalNamespace::PlayerAllOverallStatsData::__set_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didUpdateCampaignOverallStatsDataEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

@@ -2,18 +2,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_impl.hpp"
 #include "ModestTree/Util/zzzz__UnityUtil_def.hpp"
-#include "ModestTree/Util/zzzz__UnityUtil_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "ModestTree/Util/zzzz__UnityUtil_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::ModestTree::Util::__UnityUtil___get_AllScenes_d__1._ctor
 template <>
@@ -152,51 +152,51 @@ constexpr ModestTree::Util::__UnityUtil___get_AllScenes_d__1::operator ::System:
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::SceneManagement::Scene& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::UnityEngine::SceneManagement::Scene const& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__set___2__current(::UnityEngine::SceneManagement::Scene value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get__i_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__get__i_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 constexpr void ModestTree::Util::__UnityUtil___get_AllScenes_d__1::__set__i_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 inline ::ModestTree::Util::__UnityUtil___get_AllScenes_d__1* ModestTree::Util::__UnityUtil___get_AllScenes_d__1::New_ctor(int32_t __1__state) {
@@ -608,76 +608,76 @@ constexpr ModestTree::Util::__UnityUtil___GetParents_d__16::operator ::System::I
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParents_d__16::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::Transform*& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParents_d__16::__set___2__current(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParents_d__16::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::Transform*& ModestTree::Util::__UnityUtil___GetParents_d__16::__get_transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& ModestTree::Util::__UnityUtil___GetParents_d__16::__get_transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParents_d__16::__set_transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___3__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___3__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__transform;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParents_d__16::__set___3__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*& ModestTree::Util::__UnityUtil___GetParents_d__16::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*> const&
 ModestTree::Util::__UnityUtil___GetParents_d__16::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParents_d__16::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ModestTree::Util::__UnityUtil___GetParents_d__16* ModestTree::Util::__UnityUtil___GetParents_d__16::New_ctor(int32_t __1__state) {
@@ -891,76 +891,76 @@ constexpr ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::operator ::Sy
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::Transform*& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__set___2__current(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::Transform*& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get_transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get_transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__set_transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___3__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___3__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__transform;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__set___3__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*& ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*> const&
 ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17* ModestTree::Util::__UnityUtil___GetParentsAndSelf_d__17::New_ctor(int32_t __1__state) {
@@ -1174,75 +1174,75 @@ constexpr ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::operat
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::GameObject*& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__set___2__current(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::GameObject*& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get_obj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get_obj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__set_obj(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___3__obj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__obj;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___3__obj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__obj;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__set___3__obj(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__obj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerator*& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::__set___7__wrap1(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20* ModestTree::Util::__UnityUtil___GetDirectChildrenAndSelf_d__20::New_ctor(int32_t __1__state) {
@@ -1462,75 +1462,75 @@ constexpr ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::operator ::Sy
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::GameObject*& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__set___2__current(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::GameObject*& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get_obj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get_obj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__set_obj(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___3__obj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__obj;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___3__obj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__obj;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__set___3__obj(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__obj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerator*& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::__set___7__wrap1(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ModestTree::Util::__UnityUtil___GetDirectChildren_d__21* ModestTree::Util::__UnityUtil___GetDirectChildren_d__21::New_ctor(int32_t __1__state) {

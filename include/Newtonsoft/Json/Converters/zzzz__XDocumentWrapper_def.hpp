@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Converters/zzzz__XContainerWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XDocumentWrapper)
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+namespace System::Xml::Linq {
+class XDocument;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlDocument;
 }
-namespace System::Xml::Linq {
-class XDocument;
-}
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Newtonsoft::Json::Converters {
+class IXmlElement;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

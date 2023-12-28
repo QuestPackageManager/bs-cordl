@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultReferenceResolver)
-namespace Newtonsoft::Json::Serialization {
-class IReferenceResolver;
+namespace Newtonsoft::Json::Utilities {
+template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 }
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& System::Runtime::CompilerServices::NullableContextAttribute::__get_Flag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Flag;
 }
 constexpr uint8_t const& System::Runtime::CompilerServices::NullableContextAttribute::__get_Flag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Flag;
 }
 constexpr void System::Runtime::CompilerServices::NullableContextAttribute::__set_Flag(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Flag = value;
 }
 inline ::System::Runtime::CompilerServices::NullableContextAttribute* System::Runtime::CompilerServices::NullableContextAttribute::New_ctor(uint8_t _cordl_fixed_empty_name_whitespace) {

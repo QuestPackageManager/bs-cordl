@@ -103,51 +103,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Shader*& GlobalNamespace::NoPostProcessMainEffectSO::__get__fadeShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::NoPostProcessMainEffectSO::__get__fadeShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeShader;
 }
 constexpr void GlobalNamespace::NoPostProcessMainEffectSO::__set__fadeShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::NoPostProcessMainEffectSO::__get__baseColorBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoost;
 }
 constexpr float_t const& GlobalNamespace::NoPostProcessMainEffectSO::__get__baseColorBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoost;
 }
 constexpr void GlobalNamespace::NoPostProcessMainEffectSO::__set__baseColorBoost(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseColorBoost = value;
 }
 constexpr float_t& GlobalNamespace::NoPostProcessMainEffectSO::__get__baseColorBoostThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoostThreshold;
 }
 constexpr float_t const& GlobalNamespace::NoPostProcessMainEffectSO::__get__baseColorBoostThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoostThreshold;
 }
 constexpr void GlobalNamespace::NoPostProcessMainEffectSO::__set__baseColorBoostThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseColorBoostThreshold = value;
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::NoPostProcessMainEffectSO::__get__fadeMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::NoPostProcessMainEffectSO::__get__fadeMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeMaterial;
 }
 constexpr void GlobalNamespace::NoPostProcessMainEffectSO::__set__fadeMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::NoPostProcessMainEffectSO::get_hasPostProcessEffect() {

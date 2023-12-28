@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(V3Tools)
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion {

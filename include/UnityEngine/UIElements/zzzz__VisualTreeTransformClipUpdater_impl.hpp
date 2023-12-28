@@ -2,9 +2,9 @@
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeTransformClipUpdater_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeTransformClipUpdater.get_profilerMarker
 template <>
 
@@ -100,27 +100,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& UnityEngine::UIElements::VisualTreeTransformClipUpdater::__get_m_Version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
 constexpr uint32_t const& UnityEngine::UIElements::VisualTreeTransformClipUpdater::__get_m_Version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
 constexpr void UnityEngine::UIElements::VisualTreeTransformClipUpdater::__set_m_Version(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Version = value;
 }
 constexpr uint32_t& UnityEngine::UIElements::VisualTreeTransformClipUpdater::__get_m_LastVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastVersion;
 }
 constexpr uint32_t const& UnityEngine::UIElements::VisualTreeTransformClipUpdater::__get_m_LastVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastVersion;
 }
 constexpr void UnityEngine::UIElements::VisualTreeTransformClipUpdater::__set_m_LastVersion(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastVersion = value;
 }
 inline void UnityEngine::UIElements::VisualTreeTransformClipUpdater::setStaticF_s_Description(::StringW value) {

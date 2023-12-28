@@ -10,32 +10,32 @@ CORDL_MODULE_EXPORT(CachedOpenTypeProvider)
 namespace Zenject {
 class IProvider;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class __CachedOpenTypeProvider____c;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class Type;
-}
-namespace Zenject {
-class CachedProvider;
 }
 namespace System {
 class Action;
 }
 namespace Zenject {
+class CachedProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class __CachedOpenTypeProvider____c;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
 class InjectContext;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

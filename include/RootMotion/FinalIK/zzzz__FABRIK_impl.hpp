@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IK_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FABRIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::FABRIK.OpenUserManual
 template <>
 
@@ -85,15 +85,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::IKSolverFABRIK*& RootMotion::FinalIK::FABRIK::__get_solver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solver;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverFABRIK*> const& RootMotion::FinalIK::FABRIK::__get_solver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solver;
 }
 constexpr void RootMotion::FinalIK::FABRIK::__set_solver(::RootMotion::FinalIK::IKSolverFABRIK* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___solver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::FABRIK::OpenUserManual() {

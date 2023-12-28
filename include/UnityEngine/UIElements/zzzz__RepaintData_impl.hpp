@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RepaintData_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RepaintData.get_currentOffset
 template <>
 
@@ -78,51 +78,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Matrix4x4& UnityEngine::UIElements::RepaintData::__get__currentOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentOffset_k__BackingField;
 }
 constexpr ::UnityEngine::Matrix4x4 const& UnityEngine::UIElements::RepaintData::__get__currentOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentOffset_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::RepaintData::__set__currentOffset_k__BackingField(::UnityEngine::Matrix4x4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentOffset_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::RepaintData::__get__mousePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mousePosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::RepaintData::__get__mousePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mousePosition_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::RepaintData::__set__mousePosition_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mousePosition_k__BackingField = value;
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::RepaintData::__get__currentWorldClip_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentWorldClip_k__BackingField;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::RepaintData::__get__currentWorldClip_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentWorldClip_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::RepaintData::__set__currentWorldClip_k__BackingField(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentWorldClip_k__BackingField = value;
 }
 constexpr ::UnityEngine::Event*& UnityEngine::UIElements::RepaintData::__get__repaintEvent_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____repaintEvent_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& UnityEngine::UIElements::RepaintData::__get__repaintEvent_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____repaintEvent_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::RepaintData::__set__repaintEvent_k__BackingField(::UnityEngine::Event* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____repaintEvent_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Matrix4x4 UnityEngine::UIElements::RepaintData::get_currentOffset() {

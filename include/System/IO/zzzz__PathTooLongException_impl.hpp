@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__PathTooLongException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::IO::PathTooLongException._ctor
 template <>
 

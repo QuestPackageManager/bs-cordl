@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlinedArray_1)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct __InlinedArray_1__Enumerator;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -16,17 +25,8 @@ template <typename T, typename TResult> class Func_2;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __InlinedArray_1__Enumerator;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -176,7 +176,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3155 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3155 }), TypeDefinitionIndex(TypeDefinitionIndex(6669))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6668))
 // CS Name: ::InlinedArray`1::Enumerator<TValue>
 struct CORDL_TYPE __InlinedArray_1__Enumerator {

@@ -8,23 +8,23 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::__JsonReader__State::__JsonReader__State(int32_t value__) noexcept {
   this->value__ = value__;
@@ -967,183 +967,183 @@ constexpr Newtonsoft::Json::JsonReader::operator ::System::IDisposable*() noexce
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Newtonsoft::Json::JsonToken& Newtonsoft::Json::JsonReader::__get__tokenType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tokenType;
 }
 constexpr ::Newtonsoft::Json::JsonToken const& Newtonsoft::Json::JsonReader::__get__tokenType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tokenType;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__tokenType(::Newtonsoft::Json::JsonToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tokenType = value;
 }
 constexpr ::System::Object*& Newtonsoft::Json::JsonReader::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::JsonReader::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr char16_t& Newtonsoft::Json::JsonReader::__get__quoteChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quoteChar;
 }
 constexpr char16_t const& Newtonsoft::Json::JsonReader::__get__quoteChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quoteChar;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__quoteChar(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____quoteChar = value;
 }
 constexpr ::Newtonsoft::Json::__JsonReader__State& Newtonsoft::Json::JsonReader::__get__currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentState;
 }
 constexpr ::Newtonsoft::Json::__JsonReader__State const& Newtonsoft::Json::JsonReader::__get__currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentState;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__currentState(::Newtonsoft::Json::__JsonReader__State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentState = value;
 }
 constexpr ::Newtonsoft::Json::JsonPosition& Newtonsoft::Json::JsonReader::__get__currentPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPosition;
 }
 constexpr ::Newtonsoft::Json::JsonPosition const& Newtonsoft::Json::JsonReader::__get__currentPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPosition;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__currentPosition(::Newtonsoft::Json::JsonPosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentPosition = value;
 }
 constexpr ::System::Globalization::CultureInfo*& Newtonsoft::Json::JsonReader::__get__culture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& Newtonsoft::Json::JsonReader::__get__culture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__culture(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____culture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling& Newtonsoft::Json::JsonReader::__get__dateTimeZoneHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeZoneHandling;
 }
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& Newtonsoft::Json::JsonReader::__get__dateTimeZoneHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeZoneHandling;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateTimeZoneHandling = value;
 }
 constexpr ::System::Nullable_1<int32_t>& Newtonsoft::Json::JsonReader::__get__maxDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxDepth;
 }
 constexpr ::System::Nullable_1<int32_t> const& Newtonsoft::Json::JsonReader::__get__maxDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxDepth;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__maxDepth(::System::Nullable_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxDepth = value;
 }
 constexpr bool& Newtonsoft::Json::JsonReader::__get__hasExceededMaxDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasExceededMaxDepth;
 }
 constexpr bool const& Newtonsoft::Json::JsonReader::__get__hasExceededMaxDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasExceededMaxDepth;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__hasExceededMaxDepth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasExceededMaxDepth = value;
 }
 constexpr ::Newtonsoft::Json::DateParseHandling& Newtonsoft::Json::JsonReader::__get__dateParseHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateParseHandling;
 }
 constexpr ::Newtonsoft::Json::DateParseHandling const& Newtonsoft::Json::JsonReader::__get__dateParseHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateParseHandling;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__dateParseHandling(::Newtonsoft::Json::DateParseHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateParseHandling = value;
 }
 constexpr ::Newtonsoft::Json::FloatParseHandling& Newtonsoft::Json::JsonReader::__get__floatParseHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatParseHandling;
 }
 constexpr ::Newtonsoft::Json::FloatParseHandling const& Newtonsoft::Json::JsonReader::__get__floatParseHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatParseHandling;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__floatParseHandling(::Newtonsoft::Json::FloatParseHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatParseHandling = value;
 }
 constexpr ::StringW& Newtonsoft::Json::JsonReader::__get__dateFormatString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateFormatString;
 }
 constexpr ::StringW const& Newtonsoft::Json::JsonReader::__get__dateFormatString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateFormatString;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__dateFormatString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dateFormatString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& Newtonsoft::Json::JsonReader::__get__stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*> const& Newtonsoft::Json::JsonReader::__get__stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::JsonReader::__get__CloseInput_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CloseInput_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::JsonReader::__get__CloseInput_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CloseInput_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__CloseInput_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CloseInput_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::JsonReader::__get__SupportMultipleContent_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SupportMultipleContent_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::JsonReader::__get__SupportMultipleContent_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SupportMultipleContent_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonReader::__set__SupportMultipleContent_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SupportMultipleContent_k__BackingField = value;
 }
 inline ::Newtonsoft::Json::__JsonReader__State Newtonsoft::Json::JsonReader::get_CurrentState() {

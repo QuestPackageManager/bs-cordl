@@ -2,8 +2,8 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__RangeItemHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::RangeItemHeaderValue._ctor
 template <>
@@ -146,27 +146,27 @@ constexpr System::Net::Http::Headers::RangeItemHeaderValue::operator ::System::I
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Nullable_1<int64_t>& System::Net::Http::Headers::RangeItemHeaderValue::__get__From_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____From_k__BackingField;
 }
 constexpr ::System::Nullable_1<int64_t> const& System::Net::Http::Headers::RangeItemHeaderValue::__get__From_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____From_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::RangeItemHeaderValue::__set__From_k__BackingField(::System::Nullable_1<int64_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____From_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<int64_t>& System::Net::Http::Headers::RangeItemHeaderValue::__get__To_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____To_k__BackingField;
 }
 constexpr ::System::Nullable_1<int64_t> const& System::Net::Http::Headers::RangeItemHeaderValue::__get__To_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____To_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::RangeItemHeaderValue::__set__To_k__BackingField(::System::Nullable_1<int64_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____To_k__BackingField = value;
 }
 inline ::System::Net::Http::Headers::RangeItemHeaderValue* System::Net::Http::Headers::RangeItemHeaderValue::New_ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to) {

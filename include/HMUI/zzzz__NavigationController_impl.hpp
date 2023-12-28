@@ -3,12 +3,12 @@
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HMUI::__NavigationController__Orientation::__NavigationController__Orientation(int32_t value__) noexcept {
   this->value__ = value__;
@@ -57,51 +57,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass8_0::__get_startPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get_startPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::NavigationController*& HMUI::__NavigationController____c__DisplayClass8_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::NavigationController*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set___4__this(::HMUI::NavigationController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__NavigationController____c__DisplayClass8_0::__get_viewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___viewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get_viewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___viewController;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set_viewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___viewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass8_0::__get_endPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass8_0::__get_endPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass8_0::__set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::__NavigationController____c__DisplayClass8_0* HMUI::__NavigationController____c__DisplayClass8_0::New_ctor() {
@@ -156,51 +156,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass10_0::__get_startPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass10_0::__get_startPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPositions;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::NavigationController*& HMUI::__NavigationController____c__DisplayClass10_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::NavigationController*> const& HMUI::__NavigationController____c__DisplayClass10_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set___4__this(::HMUI::NavigationController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::__NavigationController____c__DisplayClass10_0::__get_endPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::__NavigationController____c__DisplayClass10_0::__get_endPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPositions;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__NavigationController____c__DisplayClass10_0::__get_moveOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
 constexpr float_t const& HMUI::__NavigationController____c__DisplayClass10_0::__get_moveOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
 constexpr void HMUI::__NavigationController____c__DisplayClass10_0::__set_moveOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffset = value;
 }
 inline ::HMUI::__NavigationController____c__DisplayClass10_0* HMUI::__NavigationController____c__DisplayClass10_0::New_ctor() {
@@ -345,63 +345,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::__NavigationController__Orientation& HMUI::NavigationController::__get__orientation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientation;
 }
 constexpr ::HMUI::__NavigationController__Orientation const& HMUI::NavigationController::__get__orientation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientation;
 }
 constexpr void HMUI::NavigationController::__set__orientation(::HMUI::__NavigationController__Orientation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____orientation = value;
 }
 constexpr bool& HMUI::NavigationController::__get__reversedStacking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reversedStacking;
 }
 constexpr bool const& HMUI::NavigationController::__get__reversedStacking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reversedStacking;
 }
 constexpr void HMUI::NavigationController::__set__reversedStacking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reversedStacking = value;
 }
 constexpr ::HMUI::__NavigationController__Alignment& HMUI::NavigationController::__get__alignment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alignment;
 }
 constexpr ::HMUI::__NavigationController__Alignment const& HMUI::NavigationController::__get__alignment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alignment;
 }
 constexpr void HMUI::NavigationController::__set__alignment(::HMUI::__NavigationController__Alignment value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alignment = value;
 }
 constexpr float_t& HMUI::NavigationController::__get__edgeSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeSize;
 }
 constexpr float_t const& HMUI::NavigationController::__get__edgeSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeSize;
 }
 constexpr void HMUI::NavigationController::__set__edgeSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____edgeSize = value;
 }
 constexpr float_t& HMUI::NavigationController::__get__viewControllersSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewControllersSeparator;
 }
 constexpr float_t const& HMUI::NavigationController::__get__viewControllersSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewControllersSeparator;
 }
 constexpr void HMUI::NavigationController::__set__viewControllersSeparator(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____viewControllersSeparator = value;
 }
 inline void HMUI::NavigationController::LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers) {

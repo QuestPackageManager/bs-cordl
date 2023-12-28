@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::WheelEvent.get_delta
 template <>
 
@@ -106,15 +106,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::WheelEvent::__get__delta_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::WheelEvent::__get__delta_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::WheelEvent::__set__delta_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____delta_k__BackingField = value;
 }
 inline ::UnityEngine::Vector3 UnityEngine::UIElements::WheelEvent::get_delta() {

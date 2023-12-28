@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Operators/zzzz__CmsContentEncryptorBuilder_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__EnvelopedDataHelper_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder.GetKeySize
 template <>
 
@@ -67,39 +67,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__get_encryptionOID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptionOID;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__get_encryptionOID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptionOID;
 }
 constexpr void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__set_encryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encryptionOID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__get_keySize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySize;
 }
 constexpr int32_t const& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__get_keySize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySize;
 }
 constexpr void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__set_keySize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keySize = value;
 }
 constexpr ::Org::BouncyCastle::Cms::EnvelopedDataHelper*& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__get_helper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___helper;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::EnvelopedDataHelper*> const& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__get_helper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___helper;
 }
 constexpr void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__set_helper(::Org::BouncyCastle::Cms::EnvelopedDataHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___helper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::setStaticF_KeySizes(::System::Collections::IDictionary* value) {

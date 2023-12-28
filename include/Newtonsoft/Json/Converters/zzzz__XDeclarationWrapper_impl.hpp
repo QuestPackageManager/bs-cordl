@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XDeclarationWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 #include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XDeclarationWrapper.get_Declaration
@@ -146,15 +146,15 @@ constexpr Newtonsoft::Json::Converters::XDeclarationWrapper::operator ::Newtonso
   return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::Linq::XDeclaration*& Newtonsoft::Json::Converters::XDeclarationWrapper::__get__Declaration_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Declaration_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDeclaration*> const& Newtonsoft::Json::Converters::XDeclarationWrapper::__get__Declaration_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Declaration_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::XDeclarationWrapper::__set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Declaration_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Linq::XDeclaration* Newtonsoft::Json::Converters::XDeclarationWrapper::get_Declaration() {

@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 CORDL_MODULE_EXPORT(X509ChainPolicy)
-namespace System::Security::Cryptography {
-class OidCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509VerificationFlags;
-}
-namespace System {
-struct DateTime;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
+struct X509RevocationFlag;
+}
+namespace System::Security::Cryptography {
+class OidCollection;
 }
 namespace System {
 struct TimeSpan;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationFlag;
+struct X509RevocationMode;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
+class X509Certificate2Collection;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509VerificationFlags;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainPoli
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(8986)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(8987))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8986)), TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(8987))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainPolicy*
 class CORDL_TYPE X509ChainPolicy : public ::System::Object {
 public:

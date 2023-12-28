@@ -7,16 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SrpTlsServer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSignerCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpIdentityManager;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
@@ -26,6 +17,15 @@ class TlsCipherFactory;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSrpIdentityManager;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSignerCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetSerializedMetaData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__CurveNodeData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSerializedMetaData.get_SoftDeleted
 template <>
@@ -83,30 +83,30 @@ constexpr HoudiniEngineUnity::HEU_AssetSerializedMetaData::operator ::HoudiniEng
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(static_cast<void*>(this));
 }
 constexpr bool& HoudiniEngineUnity::HEU_AssetSerializedMetaData::__get__softDeleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____softDeleted;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_AssetSerializedMetaData::__get__softDeleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____softDeleted;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetSerializedMetaData::__set__softDeleted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____softDeleted = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*&
 HoudiniEngineUnity::HEU_AssetSerializedMetaData::__get__savedCurveNodeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____savedCurveNodeData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*> const&
 HoudiniEngineUnity::HEU_AssetSerializedMetaData::__get__savedCurveNodeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____savedCurveNodeData;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetSerializedMetaData::__set__savedCurveNodeData(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____savedCurveNodeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SoftDeleted() {

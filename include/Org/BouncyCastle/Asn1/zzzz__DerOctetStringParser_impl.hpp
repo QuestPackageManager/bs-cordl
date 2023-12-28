@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetStringParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DefiniteLengthInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DerOctetStringParser._ctor
 template <>
@@ -58,15 +58,15 @@ constexpr Org::BouncyCastle::Asn1::DerOctetStringParser::operator ::Org::BouncyC
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*& Org::BouncyCastle::Asn1::DerOctetStringParser::__get_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*> const& Org::BouncyCastle::Asn1::DerOctetStringParser::__get_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr void Org::BouncyCastle::Asn1::DerOctetStringParser::__set_stream(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::DerOctetStringParser* Org::BouncyCastle::Asn1::DerOctetStringParser::New_ctor(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream) {

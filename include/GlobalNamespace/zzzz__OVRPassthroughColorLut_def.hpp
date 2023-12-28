@@ -14,44 +14,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPassthroughColorLut)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
 namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__WriteColorsAsBytesJob;
-}
-namespace UnityEngine {
-struct Color32;
+struct __OVRPassthroughColorLut__ColorChannels;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughColorLutData;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 class Object;
 }
 namespace GlobalNamespace {
-class __OVRPassthroughColorLut__ColorLutTextureConverter;
+struct __OVRPassthroughColorLut__WriteColorsAsBytesJob;
 }
 namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__ColorChannels;
+struct __OVRPlugin__PassthroughColorLutData;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughColorLut__ColorLutTextureConverter;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace GlobalNamespace {
 struct __OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings;
 }
 namespace GlobalNamespace {
 struct __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
@@ -257,7 +257,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(8192)),
 // TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob {
 public:
@@ -347,8 +347,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7830)), TypeDefinitionIndex(TypeDefinitionIndex(8189)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::OVRPassthroughColorLut*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7830)), TypeDefinitionIndex(TypeDefinitionIndex(8189)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3336))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::OVRPassthroughColorLut*
 class CORDL_TYPE OVRPassthroughColorLut : public ::System::Object {
 public:
   // Declarations

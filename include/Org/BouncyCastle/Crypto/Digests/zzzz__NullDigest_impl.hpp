@@ -125,15 +125,15 @@ constexpr Org::BouncyCastle::Crypto::Digests::NullDigest::operator ::Org::Bouncy
   return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::MemoryStream*& Org::BouncyCastle::Crypto::Digests::NullDigest::__get_bOut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bOut;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& Org::BouncyCastle::Crypto::Digests::NullDigest::__get_bOut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bOut;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::NullDigest::__set_bOut(::System::IO::MemoryStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bOut)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW Org::BouncyCastle::Crypto::Digests::NullDigest::get_AlgorithmName() {

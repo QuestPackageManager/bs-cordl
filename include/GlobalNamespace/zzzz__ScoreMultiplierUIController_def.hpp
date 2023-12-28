@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreMultiplierUIController)
+namespace UnityEngine {
+class Animator;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Image;
-}
-namespace UnityEngine {
-class Animator;
 }
 namespace GlobalNamespace {
 class IScoreController;

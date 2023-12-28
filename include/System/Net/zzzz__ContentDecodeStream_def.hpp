@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentDecodeStream)
-namespace System::Net {
-struct __ContentDecodeStream__Mode;
-}
 namespace System::IO {
 class Stream;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 namespace System::Net {
 class WebOperation;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Net {
+struct __ContentDecodeStream__Mode;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Net {

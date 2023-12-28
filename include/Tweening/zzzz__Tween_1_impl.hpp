@@ -1,42 +1,42 @@
 #pragma once
 #include "Tweening/zzzz__Tween_impl.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 template <typename T> constexpr T& Tweening::Tween_1<T>::__get_fromValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromValue;
 }
 template <typename T> constexpr T const& Tweening::Tween_1<T>::__get_fromValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromValue;
 }
 template <typename T> constexpr void Tweening::Tween_1<T>::__set_fromValue(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fromValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& Tweening::Tween_1<T>::__get_toValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValue;
 }
 template <typename T> constexpr T const& Tweening::Tween_1<T>::__get_toValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValue;
 }
 template <typename T> constexpr void Tweening::Tween_1<T>::__set_toValue(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& Tweening::Tween_1<T>::__get_onUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUpdate;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& Tweening::Tween_1<T>::__get_onUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onUpdate;
 }
 template <typename T> constexpr void Tweening::Tween_1<T>::__set_onUpdate(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ColorUtility_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__CIELabColor_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__XYZColor_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__HSVColor_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__XYZColor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorUtility.approx
 template <>
 

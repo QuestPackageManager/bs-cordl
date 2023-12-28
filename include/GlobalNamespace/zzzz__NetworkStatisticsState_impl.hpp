@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsState_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsState_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsDelta_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate._ctor

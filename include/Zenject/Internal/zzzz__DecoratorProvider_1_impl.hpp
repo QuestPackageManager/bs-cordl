@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__DecoratorProvider_1_def.hpp"
 #include "Zenject/Internal/zzzz__IDecoratorProvider_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__IFactory_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::Zenject::Internal::IDecoratorProvider"
 template <typename TContract> constexpr Zenject::Internal::DecoratorProvider_1<TContract>::operator ::Zenject::Internal::IDecoratorProvider*() noexcept {
   return static_cast<::Zenject::Internal::IDecoratorProvider*>(static_cast<void*>(this));
@@ -17,60 +17,60 @@ template <typename TContract> constexpr Zenject::Internal::DecoratorProvider_1<T
 template <typename TContract>
 constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*&
 Zenject::Internal::DecoratorProvider_1<TContract>::__get__cachedInstances() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedInstances;
 }
 template <typename TContract>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*> const&
 Zenject::Internal::DecoratorProvider_1<TContract>::__get__cachedInstances() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedInstances;
 }
 template <typename TContract>
 constexpr void Zenject::Internal::DecoratorProvider_1<TContract>::__set__cachedInstances(
     ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedInstances)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> constexpr ::Zenject::DiContainer*& Zenject::Internal::DecoratorProvider_1<TContract>::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::Internal::DecoratorProvider_1<TContract>::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 template <typename TContract> constexpr void Zenject::Internal::DecoratorProvider_1<TContract>::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> constexpr ::System::Collections::Generic::List_1<::System::Guid>*& Zenject::Internal::DecoratorProvider_1<TContract>::__get__factoryBindIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindIds;
 }
 template <typename TContract>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Guid>*> const& Zenject::Internal::DecoratorProvider_1<TContract>::__get__factoryBindIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindIds;
 }
 template <typename TContract> constexpr void Zenject::Internal::DecoratorProvider_1<TContract>::__set__factoryBindIds(::System::Collections::Generic::List_1<::System::Guid>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____factoryBindIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract>
 constexpr ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*& Zenject::Internal::DecoratorProvider_1<TContract>::__get__decoratorFactories() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decoratorFactories;
 }
 template <typename TContract>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*> const&
 Zenject::Internal::DecoratorProvider_1<TContract>::__get__decoratorFactories() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decoratorFactories;
 }
 template <typename TContract>
 constexpr void Zenject::Internal::DecoratorProvider_1<TContract>::__set__decoratorFactories(::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____decoratorFactories)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> inline ::Zenject::Internal::DecoratorProvider_1<TContract>* Zenject::Internal::DecoratorProvider_1<TContract>::New_ctor(::Zenject::DiContainer* container) {

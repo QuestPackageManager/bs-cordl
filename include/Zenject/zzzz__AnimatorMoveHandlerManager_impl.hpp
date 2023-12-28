@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__AnimatorMoveHandlerManager_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IAnimatorMoveHandler_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::AnimatorMoveHandlerManager.Construct
 template <>
 
@@ -76,15 +76,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*& Zenject::AnimatorMoveHandlerManager::__get__handlers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*> const& Zenject::AnimatorMoveHandlerManager::__get__handlers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlers;
 }
 constexpr void Zenject::AnimatorMoveHandlerManager::__set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handlers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Zenject::AnimatorMoveHandlerManager::Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* handlers) {

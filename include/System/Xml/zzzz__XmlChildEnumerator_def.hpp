@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlChildEnumerator)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Xml {
 class XmlNode;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Xml {

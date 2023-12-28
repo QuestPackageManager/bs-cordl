@@ -2,12 +2,12 @@
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapIdentifierNetSerializable.get_levelID
 template <>
 
@@ -227,40 +227,40 @@ constexpr GlobalNamespace::BeatmapIdentifierNetSerializable::operator ::System::
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::BeatmapIdentifierNetSerializable::__get__levelID_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelID_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapIdentifierNetSerializable::__get__levelID_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelID_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapIdentifierNetSerializable::__set__levelID_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelID_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::BeatmapIdentifierNetSerializable::__get__beatmapCharacteristicSerializedName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicSerializedName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapIdentifierNetSerializable::__get__beatmapCharacteristicSerializedName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicSerializedName_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapIdentifierNetSerializable::__set__beatmapCharacteristicSerializedName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristicSerializedName_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::BeatmapIdentifierNetSerializable::__get__difficulty_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty_k__BackingField;
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::BeatmapIdentifierNetSerializable::__get__difficulty_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapIdentifierNetSerializable::__set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____difficulty_k__BackingField = value;
 }
 inline ::StringW GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID() {

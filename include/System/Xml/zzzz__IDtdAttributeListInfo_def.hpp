@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IDtdAttributeListInfo)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Xml {
 class IDtdAttributeInfo;
 }
 namespace System::Xml {
 class IDtdDefaultAttributeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Xml {

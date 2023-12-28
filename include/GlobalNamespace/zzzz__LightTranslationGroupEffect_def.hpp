@@ -7,11 +7,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTranslationGroupEffect)
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+template <typename T> class BeatmapDataCallback_1;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
 namespace Tweening {
 class SongTimeTweeningManager;
 }
+namespace GlobalNamespace {
+class __LightTranslationGroupEffect____c__DisplayClass12_0;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+class __LightTranslationGroupEffect__InitData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace Tweening {
+class FloatTween;
 }
 namespace GlobalNamespace {
 class LightTranslationBeatmapEventData;
@@ -19,35 +43,11 @@ class LightTranslationBeatmapEventData;
 namespace GlobalNamespace {
 struct EaseType;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class __LightTranslationGroupEffect__InitData;
-}
-namespace Tweening {
-class FloatTween;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-template <typename T> class BeatmapDataCallback_1;
-}
-namespace GlobalNamespace {
-class __LightTranslationGroupEffect____c__DisplayClass12_0;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayCla
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4945))
 // CS Name: ::LightTranslationGroupEffect::InitData*
 class CORDL_TYPE __LightTranslationGroupEffect__InitData : public ::System::Object {

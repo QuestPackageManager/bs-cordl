@@ -2,11 +2,11 @@
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafMultiplier_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback._ctor
@@ -46,28 +46,28 @@ constexpr Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafC
   return static_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Math::EC::AbstractF2mPoint*& Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::__get_m_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_p;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*> const&
 Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::__get_m_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_p;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::__set_m_p(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_p)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int8_t& Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::__get_m_a() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_a;
 }
 constexpr int8_t const& Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::__get_m_a() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_a;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::__set_m_a(int8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_a = value;
 }
 inline ::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback*

@@ -30,51 +30,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::Diagnostics::ProcessThreadTimes::__get_create() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___create;
 }
 constexpr int64_t const& System::Diagnostics::ProcessThreadTimes::__get_create() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___create;
 }
 constexpr void System::Diagnostics::ProcessThreadTimes::__set_create(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___create = value;
 }
 constexpr int64_t& System::Diagnostics::ProcessThreadTimes::__get_exit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exit;
 }
 constexpr int64_t const& System::Diagnostics::ProcessThreadTimes::__get_exit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exit;
 }
 constexpr void System::Diagnostics::ProcessThreadTimes::__set_exit(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___exit = value;
 }
 constexpr int64_t& System::Diagnostics::ProcessThreadTimes::__get_kernel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kernel;
 }
 constexpr int64_t const& System::Diagnostics::ProcessThreadTimes::__get_kernel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kernel;
 }
 constexpr void System::Diagnostics::ProcessThreadTimes::__set_kernel(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kernel = value;
 }
 constexpr int64_t& System::Diagnostics::ProcessThreadTimes::__get_user() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___user;
 }
 constexpr int64_t const& System::Diagnostics::ProcessThreadTimes::__get_user() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___user;
 }
 constexpr void System::Diagnostics::ProcessThreadTimes::__set_user(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___user = value;
 }
 inline ::System::TimeSpan System::Diagnostics::ProcessThreadTimes::get_TotalProcessorTime() {

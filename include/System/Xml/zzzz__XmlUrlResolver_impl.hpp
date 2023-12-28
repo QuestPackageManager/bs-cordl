@@ -5,18 +5,18 @@
 #include "System/Xml/zzzz__XmlResolver_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlUrlResolver_def.hpp"
-#include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Xml/zzzz__XmlUrlResolver_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15.MoveNext
 template <>
@@ -151,39 +151,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::ICredentials*& System::Xml::XmlUrlResolver::__get__credentials() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____credentials;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& System::Xml::XmlUrlResolver::__get__credentials() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____credentials;
 }
 constexpr void System::Xml::XmlUrlResolver::__set__credentials(::System::Net::ICredentials* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____credentials)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IWebProxy*& System::Xml::XmlUrlResolver::__get__proxy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proxy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& System::Xml::XmlUrlResolver::__get__proxy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proxy;
 }
 constexpr void System::Xml::XmlUrlResolver::__set__proxy(::System::Net::IWebProxy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Cache::RequestCachePolicy*& System::Xml::XmlUrlResolver::__get__cachePolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachePolicy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Xml::XmlUrlResolver::__get__cachePolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachePolicy;
 }
 constexpr void System::Xml::XmlUrlResolver::__set__cachePolicy(::System::Net::Cache::RequestCachePolicy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachePolicy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::XmlUrlResolver::setStaticF_s_DownloadManager(::System::Object* value) {

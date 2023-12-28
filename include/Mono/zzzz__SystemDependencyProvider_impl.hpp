@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__SystemDependencyProvider_def.hpp"
-#include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
-#include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Mono/zzzz__SystemCertificateProvider_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
+#include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
 #include "Mono/zzzz__X509PalImpl_def.hpp"
 //  Writing Method size for method: ::Mono::SystemDependencyProvider.get_Instance
 template <>
@@ -92,15 +92,15 @@ constexpr Mono::SystemDependencyProvider::operator ::Mono::ISystemDependencyProv
   return static_cast<::Mono::ISystemDependencyProvider*>(static_cast<void*>(this));
 }
 constexpr ::Mono::SystemCertificateProvider*& Mono::SystemDependencyProvider::__get__CertificateProvider_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CertificateProvider_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::SystemCertificateProvider*> const& Mono::SystemDependencyProvider::__get__CertificateProvider_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CertificateProvider_k__BackingField;
 }
 constexpr void Mono::SystemDependencyProvider::__set__CertificateProvider_k__BackingField(::Mono::SystemCertificateProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CertificateProvider_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

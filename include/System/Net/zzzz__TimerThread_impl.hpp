@@ -4,15 +4,15 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__TimerThread_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-#include "System/Threading/zzzz__AutoResetEvent_def.hpp"
 #include "System/Net/zzzz__TimerThread_def.hpp"
-#include "System/zzzz__EventArgs_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Threading/zzzz__AutoResetEvent_def.hpp"
+#include "System/zzzz__EventArgs_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Net::__TimerThread__Queue._ctor
 template <>
@@ -57,15 +57,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::__TimerThread__Queue::__get_m_DurationMilliseconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DurationMilliseconds;
 }
 constexpr int32_t const& System::Net::__TimerThread__Queue::__get_m_DurationMilliseconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DurationMilliseconds;
 }
 constexpr void System::Net::__TimerThread__Queue::__set_m_DurationMilliseconds(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DurationMilliseconds = value;
 }
 inline ::System::Net::__TimerThread__Queue* System::Net::__TimerThread__Queue::New_ctor(int32_t durationMilliseconds) {
@@ -177,27 +177,27 @@ constexpr System::Net::__TimerThread__Timer::operator ::System::IDisposable*() n
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Net::__TimerThread__Timer::__get_m_StartTimeMilliseconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartTimeMilliseconds;
 }
 constexpr int32_t const& System::Net::__TimerThread__Timer::__get_m_StartTimeMilliseconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartTimeMilliseconds;
 }
 constexpr void System::Net::__TimerThread__Timer::__set_m_StartTimeMilliseconds(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StartTimeMilliseconds = value;
 }
 constexpr int32_t& System::Net::__TimerThread__Timer::__get_m_DurationMilliseconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DurationMilliseconds;
 }
 constexpr int32_t const& System::Net::__TimerThread__Timer::__get_m_DurationMilliseconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DurationMilliseconds;
 }
 constexpr void System::Net::__TimerThread__Timer::__set_m_DurationMilliseconds(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DurationMilliseconds = value;
 }
 inline ::System::Net::__TimerThread__Timer* System::Net::__TimerThread__Timer::New_ctor(int32_t durationMilliseconds) {
@@ -329,27 +329,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& System::Net::__TimerThread__TimerQueue::__get_m_ThisHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ThisHandle;
 }
 constexpr void* const& System::Net::__TimerThread__TimerQueue::__get_m_ThisHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ThisHandle;
 }
 constexpr void System::Net::__TimerThread__TimerQueue::__set_m_ThisHandle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ThisHandle = value;
 }
 constexpr ::System::Net::__TimerThread__TimerNode*& System::Net::__TimerThread__TimerQueue::__get_m_Timers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Timers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& System::Net::__TimerThread__TimerQueue::__get_m_Timers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Timers;
 }
 constexpr void System::Net::__TimerThread__TimerQueue::__set_m_Timers(::System::Net::__TimerThread__TimerNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Timers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::__TimerThread__TimerQueue* System::Net::__TimerThread__TimerQueue::New_ctor(int32_t durationMilliseconds) {
@@ -563,75 +563,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__TimerThread__TimerNode__TimerState& System::Net::__TimerThread__TimerNode::__get_m_TimerState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimerState;
 }
 constexpr ::GlobalNamespace::__TimerThread__TimerNode__TimerState const& System::Net::__TimerThread__TimerNode::__get_m_TimerState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimerState;
 }
 constexpr void System::Net::__TimerThread__TimerNode::__set_m_TimerState(::GlobalNamespace::__TimerThread__TimerNode__TimerState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TimerState = value;
 }
 constexpr ::System::Net::__TimerThread__Callback*& System::Net::__TimerThread__TimerNode::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Callback*> const& System::Net::__TimerThread__TimerNode::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr void System::Net::__TimerThread__TimerNode::__set_m_Callback(::System::Net::__TimerThread__Callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::__TimerThread__TimerNode::__get_m_Context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::__TimerThread__TimerNode::__get_m_Context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
 constexpr void System::Net::__TimerThread__TimerNode::__set_m_Context(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::__TimerThread__TimerNode::__get_m_QueueLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_QueueLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::__TimerThread__TimerNode::__get_m_QueueLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_QueueLock;
 }
 constexpr void System::Net::__TimerThread__TimerNode::__set_m_QueueLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_QueueLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__TimerThread__TimerNode*& System::Net::__TimerThread__TimerNode::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& System::Net::__TimerThread__TimerNode::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void System::Net::__TimerThread__TimerNode::__set_next(::System::Net::__TimerThread__TimerNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__TimerThread__TimerNode*& System::Net::__TimerThread__TimerNode::__get_prev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& System::Net::__TimerThread__TimerNode::__get_prev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
 constexpr void System::Net::__TimerThread__TimerNode::__set_prev(::System::Net::__TimerThread__TimerNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::__TimerThread__TimerNode* System::Net::__TimerThread__TimerNode::New_ctor(::System::Net::__TimerThread__Callback* callback, ::System::Object* context,
@@ -736,15 +736,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::__TimerThread__InfiniteTimer::__get_cancelled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancelled;
 }
 constexpr int32_t const& System::Net::__TimerThread__InfiniteTimer::__get_cancelled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancelled;
 }
 constexpr void System::Net::__TimerThread__InfiniteTimer::__set_cancelled(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cancelled = value;
 }
 inline ::System::Net::__TimerThread__InfiniteTimer* System::Net::__TimerThread__InfiniteTimer::New_ctor() {

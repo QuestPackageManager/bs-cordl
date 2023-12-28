@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__ListLogger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ListLogger_def.hpp"
-#include "GlobalNamespace/zzzz__ListLogger_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "GlobalNamespace/zzzz__ListLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -49,39 +49,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__ListLogger__LogType& GlobalNamespace::__ListLogger__LogMessage::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::GlobalNamespace::__ListLogger__LogType const& GlobalNamespace::__ListLogger__LogMessage::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void GlobalNamespace::__ListLogger__LogMessage::__set_type(::GlobalNamespace::__ListLogger__LogType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 constexpr ::StringW& GlobalNamespace::__ListLogger__LogMessage::__get_message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message;
 }
 constexpr ::StringW const& GlobalNamespace::__ListLogger__LogMessage::__get_message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message;
 }
 constexpr void GlobalNamespace::__ListLogger__LogMessage::__set_message(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& GlobalNamespace::__ListLogger__LogMessage::__get_context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__ListLogger__LogMessage::__get_context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
 constexpr void GlobalNamespace::__ListLogger__LogMessage::__set_context(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ListLogger__LogMessage* GlobalNamespace::__ListLogger__LogMessage::New_ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context) {
@@ -247,15 +247,15 @@ constexpr GlobalNamespace::ListLogger::operator ::GlobalNamespace::IBeatSaberLog
   return static_cast<::GlobalNamespace::IBeatSaberLogger*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*& GlobalNamespace::ListLogger::__get__messages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messages;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*> const& GlobalNamespace::ListLogger::__get__messages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messages;
 }
 constexpr void GlobalNamespace::ListLogger::__set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____messages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* GlobalNamespace::ListLogger::get_messages() {

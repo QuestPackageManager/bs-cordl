@@ -4,16 +4,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierToggle_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierToggle_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0._ctor
 template <>
 
@@ -45,29 +45,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GameplayModifierToggle*& GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__get_gameplayModifierToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifierToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierToggle*> const&
 GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__get_gameplayModifierToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifierToggle;
 }
 constexpr void GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__set_gameplayModifierToggle(::GlobalNamespace::GameplayModifierToggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameplayModifierToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiersPanelController*& GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersPanelController*> const&
 GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__set___4__this(::GlobalNamespace::GameplayModifiersPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0* GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::New_ctor() {
@@ -252,141 +252,141 @@ constexpr GlobalNamespace::GameplayModifiersPanelController::operator ::GlobalNa
   return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::GameplayModifiersModelSO*& GlobalNamespace::GameplayModifiersPanelController::__get__gameplayModifiersModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& GlobalNamespace::GameplayModifiersPanelController::__get__gameplayModifiersModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiersModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::GameplayModifiersPanelController::__get__totalMultiplierValueText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalMultiplierValueText;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::GameplayModifiersPanelController::__get__totalMultiplierValueText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalMultiplierValueText;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__totalMultiplierValueText(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____totalMultiplierValueText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::GameplayModifiersPanelController::__get__maxRankValueText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRankValueText;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::GameplayModifiersPanelController::__get__maxRankValueText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRankValueText;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__maxRankValueText(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maxRankValueText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::GameplayModifiersPanelController::__get__positiveColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positiveColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::GameplayModifiersPanelController::__get__positiveColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positiveColor;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__positiveColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positiveColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::GameplayModifiersPanelController::__get__negativeColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____negativeColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::GameplayModifiersPanelController::__get__negativeColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____negativeColor;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__negativeColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____negativeColor = value;
 }
 constexpr ::System::Action*& GlobalNamespace::GameplayModifiersPanelController::__get_didChangeGameplayModifiersEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeGameplayModifiersEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::GameplayModifiersPanelController::__get_didChangeGameplayModifiersEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeGameplayModifiersEvent;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set_didChangeGameplayModifiersEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeGameplayModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::GameplayModifiersPanelController::__get__gameplayModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::GameplayModifiersPanelController::__get__gameplayModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::GameplayModifiersPanelController::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::GameplayModifiersPanelController::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::GameplayModifierToggle*, ::Array<::GlobalNamespace::GameplayModifierToggle*>*>&
 GlobalNamespace::GameplayModifiersPanelController::__get__gameplayModifierToggles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierToggles;
 }
 constexpr ::ArrayW<::GlobalNamespace::GameplayModifierToggle*, ::Array<::GlobalNamespace::GameplayModifierToggle*>*> const&
 GlobalNamespace::GameplayModifiersPanelController::__get__gameplayModifierToggles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierToggles;
 }
 constexpr void
 GlobalNamespace::GameplayModifiersPanelController::__set__gameplayModifierToggles(::ArrayW<::GlobalNamespace::GameplayModifierToggle*, ::Array<::GlobalNamespace::GameplayModifierToggle*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifierToggles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::GameplayModifiersPanelController::__get__changingGameplayModifierToggles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____changingGameplayModifierToggles;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiersPanelController::__get__changingGameplayModifierToggles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____changingGameplayModifierToggles;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__changingGameplayModifierToggles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____changingGameplayModifierToggles = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*&
 GlobalNamespace::GameplayModifiersPanelController::__get__toggleForGameplayModifierParam() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleForGameplayModifierParam;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*> const&
 GlobalNamespace::GameplayModifiersPanelController::__get__toggleForGameplayModifierParam() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleForGameplayModifierParam;
 }
 constexpr void GlobalNamespace::GameplayModifiersPanelController::__set__toggleForGameplayModifierParam(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleForGameplayModifierParam)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::GameplayModifiersPanelController::add_didChangeGameplayModifiersEvent(::System::Action* value) {

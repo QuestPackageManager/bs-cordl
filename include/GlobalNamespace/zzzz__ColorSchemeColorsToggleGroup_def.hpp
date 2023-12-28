@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeColorsToggleGroup)
-namespace HMUI {
-class ToggleBinder;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class ColorSchemeColorToggleController;
+class ColorScheme;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class ColorSchemeColorToggleController;
+}
+namespace HMUI {
+class ToggleBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

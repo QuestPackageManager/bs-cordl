@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::XPlatformAuthFeatureFlag::__get__UseXPlatformAuth_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UseXPlatformAuth_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::XPlatformAuthFeatureFlag::__get__UseXPlatformAuth_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UseXPlatformAuth_k__BackingField;
 }
 constexpr void GlobalNamespace::XPlatformAuthFeatureFlag::__set__UseXPlatformAuth_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UseXPlatformAuth_k__BackingField = value;
 }
 inline bool GlobalNamespace::XPlatformAuthFeatureFlag::get_UseXPlatformAuth() {

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__QueryOutputWriter_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/zzzz__BitStack_def.hpp"
-#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
+#include "System/Xml/zzzz__BitStack_def.hpp"
 //  Writing Method size for method: ::System::Xml::QueryOutputWriter._ctor
 template <>
 
@@ -443,148 +443,148 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlRawWriter*& System::Xml::QueryOutputWriter::__get_wrapped() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapped;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& System::Xml::QueryOutputWriter::__get_wrapped() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapped;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_wrapped(::System::Xml::XmlRawWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wrapped)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::QueryOutputWriter::__get_inCDataSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inCDataSection;
 }
 constexpr bool const& System::Xml::QueryOutputWriter::__get_inCDataSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inCDataSection;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_inCDataSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inCDataSection = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>*& System::Xml::QueryOutputWriter::__get_lookupCDataElems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookupCDataElems;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>*> const&
 System::Xml::QueryOutputWriter::__get_lookupCDataElems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookupCDataElems;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_lookupCDataElems(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookupCDataElems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::BitStack*& System::Xml::QueryOutputWriter::__get_bitsCData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitsCData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::BitStack*> const& System::Xml::QueryOutputWriter::__get_bitsCData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitsCData;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_bitsCData(::System::Xml::BitStack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bitsCData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlQualifiedName*& System::Xml::QueryOutputWriter::__get_qnameCData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___qnameCData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::QueryOutputWriter::__get_qnameCData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___qnameCData;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_qnameCData(::System::Xml::XmlQualifiedName* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___qnameCData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::QueryOutputWriter::__get_outputDocType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outputDocType;
 }
 constexpr bool const& System::Xml::QueryOutputWriter::__get_outputDocType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outputDocType;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_outputDocType(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___outputDocType = value;
 }
 constexpr bool& System::Xml::QueryOutputWriter::__get_checkWellFormedDoc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkWellFormedDoc;
 }
 constexpr bool const& System::Xml::QueryOutputWriter::__get_checkWellFormedDoc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkWellFormedDoc;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_checkWellFormedDoc(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___checkWellFormedDoc = value;
 }
 constexpr bool& System::Xml::QueryOutputWriter::__get_hasDocElem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasDocElem;
 }
 constexpr bool const& System::Xml::QueryOutputWriter::__get_hasDocElem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasDocElem;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_hasDocElem(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasDocElem = value;
 }
 constexpr bool& System::Xml::QueryOutputWriter::__get_inAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inAttr;
 }
 constexpr bool const& System::Xml::QueryOutputWriter::__get_inAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inAttr;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_inAttr(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inAttr = value;
 }
 constexpr ::StringW& System::Xml::QueryOutputWriter::__get_systemId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___systemId;
 }
 constexpr ::StringW const& System::Xml::QueryOutputWriter::__get_systemId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___systemId;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_systemId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___systemId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::QueryOutputWriter::__get_publicId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicId;
 }
 constexpr ::StringW const& System::Xml::QueryOutputWriter::__get_publicId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicId;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_publicId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::QueryOutputWriter::__get_depth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr int32_t const& System::Xml::QueryOutputWriter::__get_depth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr void System::Xml::QueryOutputWriter::__set_depth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depth = value;
 }
 inline ::System::Xml::QueryOutputWriter* System::Xml::QueryOutputWriter::New_ctor(::System::Xml::XmlRawWriter* writer, ::System::Xml::XmlWriterSettings* settings) {

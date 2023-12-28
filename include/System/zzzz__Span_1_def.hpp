@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Span_1)
 namespace System {
-template <typename T> struct ByReference_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct ByReference_1;
 }
 // Forward declare root types
 namespace System {

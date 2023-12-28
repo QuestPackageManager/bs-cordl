@@ -13,40 +13,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentTracksDefinitionSO)
 namespace TrackDefinitions {
-class __EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct __EnvironmentTracksDefinitionSO__BasicEventTrackPage;
 }
 namespace TrackDefinitions {
 struct __EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis;
 }
 namespace TrackDefinitions {
-class __EnvironmentTracksDefinitionSO__BasicEventTrackInfo;
-}
-namespace TrackDefinitions {
-struct __EnvironmentTracksDefinitionSO__BasicEventTrackPage;
+class __EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo;
 }
 namespace TrackDefinitions {
 class __EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class EnvironmentInfoSO;
 }
-namespace TrackDefinitions::DataModels {
-struct TrackToolbarType;
+namespace TrackDefinitions {
+class __EnvironmentTracksDefinitionSO__BasicEventTrackInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
 }
 namespace TrackDefinitions {
 class EventTrackDefinitionSO;
 }
-namespace TrackDefinitions {
-class LightGroupDuplicationGroup;
+namespace TrackDefinitions::DataModels {
+struct TrackToolbarType;
 }
 namespace GlobalNamespace {
 class LightGroupSO;
+}
+namespace TrackDefinitions {
+class LightGroupDuplicationGroup;
 }
 // Forward declare root types
 namespace TrackDefinitions {
@@ -186,8 +186,8 @@ static_assert(::cordl_internals::size_check_v<::TrackDefinitions::__EnvironmentT
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16056)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14724)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16073))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16058)) CS Name: ::EnvironmentTracksDefinitionSO::BasicEventTrackInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16073)), TypeDefinitionIndex(TypeDefinitionIndex(16056)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14724))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16058)) CS Name: ::EnvironmentTracksDefinitionSO::BasicEventTrackInfo*
 class CORDL_TYPE __EnvironmentTracksDefinitionSO__BasicEventTrackInfo : public ::System::Object {
 public:
   // Declarations

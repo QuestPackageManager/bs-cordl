@@ -4,11 +4,11 @@
 #include "System/Reflection/zzzz__RuntimeModule_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Reflection::RuntimeModule.get_Assembly
 template <>
 
@@ -185,87 +185,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& System::Reflection::RuntimeModule::__get__impl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____impl;
 }
 constexpr void* const& System::Reflection::RuntimeModule::__get__impl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____impl;
 }
 constexpr void System::Reflection::RuntimeModule::__set__impl(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____impl = value;
 }
 constexpr ::System::Reflection::Assembly*& System::Reflection::RuntimeModule::__get_assembly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::Reflection::RuntimeModule::__get_assembly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly;
 }
 constexpr void System::Reflection::RuntimeModule::__set_assembly(::System::Reflection::Assembly* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Reflection::RuntimeModule::__get_fqname() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fqname;
 }
 constexpr ::StringW const& System::Reflection::RuntimeModule::__get_fqname() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fqname;
 }
 constexpr void System::Reflection::RuntimeModule::__set_fqname(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fqname)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Reflection::RuntimeModule::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& System::Reflection::RuntimeModule::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Reflection::RuntimeModule::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Reflection::RuntimeModule::__get_scopename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scopename;
 }
 constexpr ::StringW const& System::Reflection::RuntimeModule::__get_scopename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scopename;
 }
 constexpr void System::Reflection::RuntimeModule::__set_scopename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scopename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Reflection::RuntimeModule::__get_is_resource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_resource;
 }
 constexpr bool const& System::Reflection::RuntimeModule::__get_is_resource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_resource;
 }
 constexpr void System::Reflection::RuntimeModule::__set_is_resource(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_resource = value;
 }
 constexpr int32_t& System::Reflection::RuntimeModule::__get_token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___token;
 }
 constexpr int32_t const& System::Reflection::RuntimeModule::__get_token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___token;
 }
 constexpr void System::Reflection::RuntimeModule::__set_token(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___token = value;
 }
 inline ::System::Reflection::Assembly* System::Reflection::RuntimeModule::get_Assembly() {

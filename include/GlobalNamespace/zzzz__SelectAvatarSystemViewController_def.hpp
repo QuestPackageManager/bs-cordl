@@ -10,16 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectAvatarSystemViewController)
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class SelectAvatarSystemCell;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 struct __SelectAvatarSystemViewController___ReloadContinueButtonInteractability_d__31;
@@ -27,38 +21,44 @@ struct __SelectAvatarSystemViewController___ReloadContinueButtonInteractability_
 namespace Zenject {
 class DiContainer;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class TableCell;
 }
 namespace HMUI {
 class __TableView__IDataSource;
 }
 namespace HMUI {
-class TableView;
+class HoverHint;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class SelectAvatarSystemCell;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace HMUI {
-class TableCell;
-}
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
 }
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace HMUI {
-class HoverHint;
+class TableView;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,8 @@ MARK_VAL_T(::GlobalNamespace::__SelectAvatarSystemViewController___ReloadContinu
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5746)) CS Name: ::SelectAvatarSystemViewController::<ReloadContinueButtonInteractability>d__31
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5746)) CS Name: ::SelectAvatarSystemViewController::<ReloadContinueButtonInteractability>d__31
 struct CORDL_TYPE __SelectAvatarSystemViewController___ReloadContinueButtonInteractability_d__31 {
 public:
   // Declarations

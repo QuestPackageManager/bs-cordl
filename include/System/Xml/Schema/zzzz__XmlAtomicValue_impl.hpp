@@ -5,13 +5,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlAtomicValue_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlAtomicValue_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 constexpr bool& System::Xml::Schema::__XmlAtomicValue__Union::__get_boolVal() {
   return this->___boolVal;
 }
@@ -119,27 +119,27 @@ constexpr System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::operat
   return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::__get_prefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
 constexpr ::StringW const& System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::__get_prefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
 constexpr void System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::__set_prefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::__get_ns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr ::StringW const& System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::__get_ns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr void System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::__set_ns(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName::New_ctor(::StringW prefix, ::StringW ns) {
@@ -504,63 +504,63 @@ constexpr System::Xml::Schema::XmlAtomicValue::operator ::System::ICloneable*() 
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::Schema::XmlSchemaType*& System::Xml::Schema::XmlAtomicValue::__get_xmlType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& System::Xml::Schema::XmlAtomicValue::__get_xmlType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlType;
 }
 constexpr void System::Xml::Schema::XmlAtomicValue::__set_xmlType(::System::Xml::Schema::XmlSchemaType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Xml::Schema::XmlAtomicValue::__get_objVal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objVal;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::XmlAtomicValue::__get_objVal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objVal;
 }
 constexpr void System::Xml::Schema::XmlAtomicValue::__set_objVal(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objVal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::TypeCode& System::Xml::Schema::XmlAtomicValue::__get_clrType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clrType;
 }
 constexpr ::System::TypeCode const& System::Xml::Schema::XmlAtomicValue::__get_clrType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clrType;
 }
 constexpr void System::Xml::Schema::XmlAtomicValue::__set_clrType(::System::TypeCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clrType = value;
 }
 constexpr ::System::Xml::Schema::__XmlAtomicValue__Union& System::Xml::Schema::XmlAtomicValue::__get_unionVal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unionVal;
 }
 constexpr ::System::Xml::Schema::__XmlAtomicValue__Union const& System::Xml::Schema::XmlAtomicValue::__get_unionVal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unionVal;
 }
 constexpr void System::Xml::Schema::XmlAtomicValue::__set_unionVal(::System::Xml::Schema::__XmlAtomicValue__Union value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___unionVal = value;
 }
 constexpr ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName*& System::Xml::Schema::XmlAtomicValue::__get_nsPrefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsPrefix;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName*> const& System::Xml::Schema::XmlAtomicValue::__get_nsPrefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsPrefix;
 }
 constexpr void System::Xml::Schema::XmlAtomicValue::__set_nsPrefix(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nsPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Schema::XmlAtomicValue* System::Xml::Schema::XmlAtomicValue::New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value) {

@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VectorConverter)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace Newtonsoft::Json {
 class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class Type;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
 struct Vector4;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;

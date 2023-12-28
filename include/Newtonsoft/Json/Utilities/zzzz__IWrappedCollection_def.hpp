@@ -3,14 +3,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedCollection)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class ICollection;

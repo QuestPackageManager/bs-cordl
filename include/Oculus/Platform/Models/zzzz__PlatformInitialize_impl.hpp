@@ -18,15 +18,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::PlatformInitializeResult& Oculus::Platform::Models::PlatformInitialize::__get_Result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Result;
 }
 constexpr ::Oculus::Platform::PlatformInitializeResult const& Oculus::Platform::Models::PlatformInitialize::__get_Result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Result;
 }
 constexpr void Oculus::Platform::Models::PlatformInitialize::__set_Result(::Oculus::Platform::PlatformInitializeResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Result = value;
 }
 inline ::Oculus::Platform::Models::PlatformInitialize* Oculus::Platform::Models::PlatformInitialize::New_ctor(void* o) {

@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__CurveNodeData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::CurveNodeData._ctor
 template <>
 
@@ -114,39 +114,39 @@ constexpr HoudiniEngineUnity::CurveNodeData::operator ::HoudiniEngineUnity::IEqu
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::CurveNodeData::__get_position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::CurveNodeData::__get_position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr void HoudiniEngineUnity::CurveNodeData::__set_position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___position = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::CurveNodeData::__get_rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::CurveNodeData::__get_rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr void HoudiniEngineUnity::CurveNodeData::__set_rotation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotation = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::CurveNodeData::__get_scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scale;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::CurveNodeData::__get_scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scale;
 }
 constexpr void HoudiniEngineUnity::CurveNodeData::__set_scale(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scale = value;
 }
 inline ::HoudiniEngineUnity::CurveNodeData* HoudiniEngineUnity::CurveNodeData::New_ctor() {

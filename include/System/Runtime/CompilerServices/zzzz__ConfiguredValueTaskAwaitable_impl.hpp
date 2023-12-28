@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__ValueTask_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter._ctor
 template <>
 

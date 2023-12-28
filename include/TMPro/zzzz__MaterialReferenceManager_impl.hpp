@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__MaterialReferenceManager_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "TMPro/zzzz__TMP_ColorGradient_def.hpp"
 //  Writing Method size for method: ::TMPro::MaterialReferenceManager.get_instance
 template <>
@@ -338,55 +338,55 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>*& TMPro::MaterialReferenceManager::__get_m_FontMaterialReferenceLookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontMaterialReferenceLookup;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>*> const&
 TMPro::MaterialReferenceManager::__get_m_FontMaterialReferenceLookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontMaterialReferenceLookup;
 }
 constexpr void TMPro::MaterialReferenceManager::__set_m_FontMaterialReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Material*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FontMaterialReferenceLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>*& TMPro::MaterialReferenceManager::__get_m_FontAssetReferenceLookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontAssetReferenceLookup;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>*> const&
 TMPro::MaterialReferenceManager::__get_m_FontAssetReferenceLookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontAssetReferenceLookup;
 }
 constexpr void TMPro::MaterialReferenceManager::__set_m_FontAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FontAssetReferenceLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>*& TMPro::MaterialReferenceManager::__get_m_SpriteAssetReferenceLookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteAssetReferenceLookup;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>*> const&
 TMPro::MaterialReferenceManager::__get_m_SpriteAssetReferenceLookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteAssetReferenceLookup;
 }
 constexpr void TMPro::MaterialReferenceManager::__set_m_SpriteAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_SpriteAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteAssetReferenceLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>*& TMPro::MaterialReferenceManager::__get_m_ColorGradientReferenceLookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColorGradientReferenceLookup;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>*> const&
 TMPro::MaterialReferenceManager::__get_m_ColorGradientReferenceLookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColorGradientReferenceLookup;
 }
 constexpr void TMPro::MaterialReferenceManager::__set_m_ColorGradientReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ColorGradient*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ColorGradientReferenceLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void TMPro::MaterialReferenceManager::setStaticF_s_Instance(::TMPro::MaterialReferenceManager* value) {

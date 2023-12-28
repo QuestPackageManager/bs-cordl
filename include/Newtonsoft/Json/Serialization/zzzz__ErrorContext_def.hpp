@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ErrorContext)
 namespace System {
-class Exception;
+class Object;
 }
 namespace System {
-class Object;
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

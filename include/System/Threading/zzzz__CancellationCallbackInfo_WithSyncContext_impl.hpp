@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/zzzz__CancellationCallbackInfo_impl.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_WithSyncContext_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::System::Threading::__CancellationCallbackInfo__WithSyncContext._ctor
 template <>
 
@@ -27,15 +27,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::SynchronizationContext*& System::Threading::__CancellationCallbackInfo__WithSyncContext::__get_TargetSyncContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TargetSyncContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& System::Threading::__CancellationCallbackInfo__WithSyncContext::__get_TargetSyncContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TargetSyncContext;
 }
 constexpr void System::Threading::__CancellationCallbackInfo__WithSyncContext::__set_TargetSyncContext(::System::Threading::SynchronizationContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TargetSyncContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::__CancellationCallbackInfo__WithSyncContext* System::Threading::__CancellationCallbackInfo__WithSyncContext::New_ctor(

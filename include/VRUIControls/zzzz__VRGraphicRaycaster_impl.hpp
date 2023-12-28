@@ -5,13 +5,13 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "VRUIControls/zzzz__VRGraphicRaycaster_def.hpp"
-#include "VRUIControls/zzzz__VRGraphicRaycaster_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "VRUIControls/zzzz__VRGraphicRaycaster_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
@@ -199,64 +199,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::LayerMask& VRUIControls::VRGraphicRaycaster::__get__blockingMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blockingMask;
 }
 constexpr ::UnityEngine::LayerMask const& VRUIControls::VRGraphicRaycaster::__get__blockingMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blockingMask;
 }
 constexpr void VRUIControls::VRGraphicRaycaster::__set__blockingMask(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____blockingMask = value;
 }
 constexpr ::VRUIControls::PhysicsRaycasterWithCache*& VRUIControls::VRGraphicRaycaster::__get__physicsRaycaster() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physicsRaycaster;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::PhysicsRaycasterWithCache*> const& VRUIControls::VRGraphicRaycaster::__get__physicsRaycaster() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physicsRaycaster;
 }
 constexpr void VRUIControls::VRGraphicRaycaster::__set__physicsRaycaster(::VRUIControls::PhysicsRaycasterWithCache* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____physicsRaycaster)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Canvas*& VRUIControls::VRGraphicRaycaster::__get__canvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& VRUIControls::VRGraphicRaycaster::__get__canvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvas;
 }
 constexpr void VRUIControls::VRGraphicRaycaster::__set__canvas(::UnityEngine::Canvas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult>*& VRUIControls::VRGraphicRaycaster::__get__raycastResults() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____raycastResults;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult>*> const&
 VRUIControls::VRGraphicRaycaster::__get__raycastResults() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____raycastResults;
 }
 constexpr void VRUIControls::VRGraphicRaycaster::__set__raycastResults(::System::Collections::Generic::List_1<::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____raycastResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::CurvedCanvasSettingsHelper*& VRUIControls::VRGraphicRaycaster::__get__curvedCanvasSettingsHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettingsHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& VRUIControls::VRGraphicRaycaster::__get__curvedCanvasSettingsHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettingsHelper;
 }
 constexpr void VRUIControls::VRGraphicRaycaster::__set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curvedCanvasSettingsHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void VRUIControls::VRGraphicRaycaster::setStaticF__ray2DCircleIntersectionDistances(::ArrayW<float_t, ::Array<float_t>*> value) {

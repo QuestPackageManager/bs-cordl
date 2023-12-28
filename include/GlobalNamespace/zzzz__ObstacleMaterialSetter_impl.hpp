@@ -4,8 +4,8 @@
 #include "GlobalNamespace/zzzz__ObstaclesQualitySO_def.hpp"
 #include "GlobalNamespace/zzzz__ObstaclesQuality_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleMaterialSetter.Awake
 template <>
 
@@ -65,111 +65,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::ObstacleMaterialSetter::__get__screenDisplacement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screenDisplacement;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::ObstacleMaterialSetter::__get__screenDisplacement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screenDisplacement;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__screenDisplacement(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____screenDisplacement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ObstaclesQualitySO*& GlobalNamespace::ObstacleMaterialSetter::__get__obstaclesQuality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesQuality;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstaclesQualitySO*> const& GlobalNamespace::ObstacleMaterialSetter::__get__obstaclesQuality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesQuality;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__obstaclesQuality(::GlobalNamespace::ObstaclesQualitySO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstaclesQuality)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::ObstacleMaterialSetter::__get__lwCoreMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lwCoreMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ObstacleMaterialSetter::__get__lwCoreMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lwCoreMaterial;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__lwCoreMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lwCoreMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::ObstacleMaterialSetter::__get__hwCoreMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hwCoreMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ObstacleMaterialSetter::__get__hwCoreMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hwCoreMaterial;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__hwCoreMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hwCoreMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::ObstacleMaterialSetter::__get__texturedCoreMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____texturedCoreMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ObstacleMaterialSetter::__get__texturedCoreMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____texturedCoreMaterial;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__texturedCoreMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____texturedCoreMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::ObstacleMaterialSetter::__get__fakeGlowLWMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeGlowLWMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ObstacleMaterialSetter::__get__fakeGlowLWMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeGlowLWMaterial;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__fakeGlowLWMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fakeGlowLWMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::ObstacleMaterialSetter::__get__fakeGlowTexturedMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeGlowTexturedMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ObstacleMaterialSetter::__get__fakeGlowTexturedMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeGlowTexturedMaterial;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__fakeGlowTexturedMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fakeGlowTexturedMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Renderer*& GlobalNamespace::ObstacleMaterialSetter::__get__obstacleCoreRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleCoreRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& GlobalNamespace::ObstacleMaterialSetter::__get__obstacleCoreRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleCoreRenderer;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__obstacleCoreRenderer(::UnityEngine::Renderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleCoreRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Renderer*& GlobalNamespace::ObstacleMaterialSetter::__get__obstacleFakeGlowRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleFakeGlowRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& GlobalNamespace::ObstacleMaterialSetter::__get__obstacleFakeGlowRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleFakeGlowRenderer;
 }
 constexpr void GlobalNamespace::ObstacleMaterialSetter::__set__obstacleFakeGlowRenderer(::UnityEngine::Renderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleFakeGlowRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ObstacleMaterialSetter::Awake() {

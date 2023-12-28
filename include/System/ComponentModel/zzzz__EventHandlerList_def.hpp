@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EventHandlerList)
-namespace System::ComponentModel {
-class Component;
-}
-namespace System::ComponentModel {
-class __EventHandlerList__ListEntry;
-}
 namespace System {
 class Delegate;
 }
 namespace System {
 class Object;
+}
+namespace System::ComponentModel {
+class __EventHandlerList__ListEntry;
+}
+namespace System::ComponentModel {
+class Component;
 }
 // Forward declare root types
 namespace System::ComponentModel {

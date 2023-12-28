@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__AddingNewEventHandler_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/ComponentModel/zzzz__AddingNewEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/ComponentModel/zzzz__AddingNewEventArgs_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::AddingNewEventHandler._ctor
 template <>
 

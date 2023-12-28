@@ -66,75 +66,75 @@ constexpr HoudiniEngineUnity::HEU_ParameterModifier::operator ::HoudiniEngineUni
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*>(static_cast<void*>(this));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterModifier::__get__parameterIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameterIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterModifier::__get__parameterIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameterIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterModifier::__set__parameterIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____parameterIndex = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction& HoudiniEngineUnity::HEU_ParameterModifier::__get__action() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____action;
 }
 constexpr ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction const& HoudiniEngineUnity::HEU_ParameterModifier::__get__action() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____action;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterModifier::__set__action(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____action = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterModifier::__get__instanceIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instanceIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterModifier::__get__instanceIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instanceIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterModifier::__set__instanceIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____instanceIndex = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterModifier::__get__modifierValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifierValue;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterModifier::__get__modifierValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifierValue;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterModifier::__set__modifierValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifierValue = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_ParameterModifier::__get__floatValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_ParameterModifier::__get__floatValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterModifier::__set__floatValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatValue = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterModifier::__get__intValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intValue;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterModifier::__get__intValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intValue;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterModifier::__set__intValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intValue = value;
 }
 inline ::HoudiniEngineUnity::HEU_ParameterModifier* HoudiniEngineUnity::HEU_ParameterModifier::GetNewModifier(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction action,

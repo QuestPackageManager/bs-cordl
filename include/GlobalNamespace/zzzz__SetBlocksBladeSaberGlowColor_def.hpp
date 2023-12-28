@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SetBlocksBladeSaberGlowColor)
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
 class SaberTypeObject;
 }
 namespace GlobalNamespace {
 class BlocksBlade;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

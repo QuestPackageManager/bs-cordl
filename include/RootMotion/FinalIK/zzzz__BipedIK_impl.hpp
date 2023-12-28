@@ -1,12 +1,12 @@
 #pragma once
 #include "RootMotion/zzzz__SolverManager_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__BipedIK_def.hpp"
-#include "RootMotion/zzzz__BipedReferences_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__BipedIKSolvers_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/zzzz__BipedReferences_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::BipedIK.OpenUserManual
 template <>
 
@@ -369,27 +369,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::BipedReferences*& RootMotion::FinalIK::BipedIK::__get_references() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___references;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::BipedReferences*> const& RootMotion::FinalIK::BipedIK::__get_references() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___references;
 }
 constexpr void RootMotion::FinalIK::BipedIK::__set_references(::RootMotion::BipedReferences* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___references)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::BipedIKSolvers*& RootMotion::FinalIK::BipedIK::__get_solvers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvers;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::BipedIKSolvers*> const& RootMotion::FinalIK::BipedIK::__get_solvers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvers;
 }
 constexpr void RootMotion::FinalIK::BipedIK::__set_solvers(::RootMotion::FinalIK::BipedIKSolvers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___solvers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::BipedIK::OpenUserManual() {

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5572)) CS Name: ::GameServersFilter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997)), TypeDefinitionIndex(TypeDefinitionIndex(15047)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5572)) CS Name: ::GameServersFilter*
 class CORDL_TYPE GameServersFilter : public ::System::Object {
 public:
   // Declarations

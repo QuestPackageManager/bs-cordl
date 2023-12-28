@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Principal/zzzz__IdentityReference_impl.hpp"
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::SecurityIdentifier._ctor
 template <>
 
@@ -298,15 +298,15 @@ constexpr System::Security::Principal::SecurityIdentifier::operator ::System::IC
   return static_cast<::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Principal::SecurityIdentifier::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Principal::SecurityIdentifier::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void System::Security::Principal::SecurityIdentifier::__set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Principal::SecurityIdentifier::setStaticF_MaxBinaryLength(int32_t value) {

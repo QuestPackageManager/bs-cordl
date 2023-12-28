@@ -3,21 +3,21 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_ObjectNode.get_ObjectID
 template <>
 
@@ -560,63 +560,63 @@ constexpr HoudiniEngineUnity::HEU_ObjectNode::operator ::HoudiniEngineUnity::IEq
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_ObjectNode::__get__objName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_ObjectNode::__get__objName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objName;
 }
 constexpr void HoudiniEngineUnity::HEU_ObjectNode::__set__objName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& HoudiniEngineUnity::HEU_ObjectNode::__get__parentAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& HoudiniEngineUnity::HEU_ObjectNode::__get__parentAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentAsset;
 }
 constexpr void HoudiniEngineUnity::HEU_ObjectNode::__set__parentAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo& HoudiniEngineUnity::HEU_ObjectNode::__get__objectInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo const& HoudiniEngineUnity::HEU_ObjectNode::__get__objectInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_ObjectNode::__set__objectInfo(::HoudiniEngineUnity::HAPI_ObjectInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____objectInfo = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>*& HoudiniEngineUnity::HEU_ObjectNode::__get__geoNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____geoNodes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>*> const& HoudiniEngineUnity::HEU_ObjectNode::__get__geoNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____geoNodes;
 }
 constexpr void HoudiniEngineUnity::HEU_ObjectNode::__set__geoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____geoNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_Transform& HoudiniEngineUnity::HEU_ObjectNode::__get__objectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectTransform;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Transform const& HoudiniEngineUnity::HEU_ObjectNode::__get__objectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectTransform;
 }
 constexpr void HoudiniEngineUnity::HEU_ObjectNode::__set__objectTransform(::HoudiniEngineUnity::HAPI_Transform value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____objectTransform = value;
 }
 inline int32_t HoudiniEngineUnity::HEU_ObjectNode::get_ObjectID() {

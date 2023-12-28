@@ -3,14 +3,14 @@
 #include "GlobalNamespace/zzzz__SyncStateId_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateDeltaNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
-#include "GlobalNamespace/zzzz__ISyncStateDeltaSerializable_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISyncStateDeltaSerializable_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable.get_pool
 template <>
 
@@ -183,39 +183,39 @@ constexpr GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::operator ::Glo
   return static_cast<::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::NodePoseSyncState& GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__get__delta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta;
 }
 constexpr ::GlobalNamespace::NodePoseSyncState const& GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__get__delta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta;
 }
 constexpr void GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__set__delta(::GlobalNamespace::NodePoseSyncState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____delta = value;
 }
 constexpr ::GlobalNamespace::SyncStateId& GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__get__baseId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseId_k__BackingField;
 }
 constexpr ::GlobalNamespace::SyncStateId const& GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__get__baseId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseId_k__BackingField;
 }
 constexpr void GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__set__baseId_k__BackingField(::GlobalNamespace::SyncStateId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseId_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__get__timeOffsetMs_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeOffsetMs_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__get__timeOffsetMs_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeOffsetMs_k__BackingField;
 }
 constexpr void GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::__set__timeOffsetMs_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeOffsetMs_k__BackingField = value;
 }
 inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_pool() {

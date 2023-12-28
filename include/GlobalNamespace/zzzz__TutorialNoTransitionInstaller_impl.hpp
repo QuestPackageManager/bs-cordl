@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoTransitionInstaller_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialNoTransitionInstaller.InstallBindings
 template <>
 
@@ -35,27 +35,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& GlobalNamespace::TutorialNoTransitionInstaller::__get__scenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scenesTransitionSetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*> const& GlobalNamespace::TutorialNoTransitionInstaller::__get__scenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scenesTransitionSetupData;
 }
 constexpr void GlobalNamespace::TutorialNoTransitionInstaller::__set__scenesTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scenesTransitionSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::TutorialNoTransitionInstaller::__get__playerSpecificSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& GlobalNamespace::TutorialNoTransitionInstaller::__get__playerSpecificSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
 constexpr void GlobalNamespace::TutorialNoTransitionInstaller::__set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSpecificSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::TutorialNoTransitionInstaller::InstallBindings(::Zenject::DiContainer* container) {

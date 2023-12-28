@@ -80,15 +80,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::RC2Parameters::__get_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::RC2Parameters::__get_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::RC2Parameters::__set_bits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bits = value;
 }
 inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* Org::BouncyCastle::Crypto::Parameters::RC2Parameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key) {

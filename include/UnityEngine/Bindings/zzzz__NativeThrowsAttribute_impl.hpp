@@ -30,15 +30,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::Bindings::NativeThrowsAttribute::__get__ThrowsException_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ThrowsException_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeThrowsAttribute::__get__ThrowsException_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ThrowsException_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeThrowsAttribute::__set__ThrowsException_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ThrowsException_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::NativeThrowsAttribute::set_ThrowsException(bool value) {

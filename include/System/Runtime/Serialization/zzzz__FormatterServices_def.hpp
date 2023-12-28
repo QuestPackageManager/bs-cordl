@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormatterServices)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
-class Assembly;
-}
-namespace System {
-class RuntimeType;
+class MemberInfo;
 }
 namespace System::Reflection {
 class Binder;
 }
 namespace System::Runtime::Serialization {
-class MemberHolder;
+class __FormatterServices____c__DisplayClass9_0;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Runtime::Serialization {
+class MemberHolder;
+}
 namespace System::Reflection {
-class MemberInfo;
+class Assembly;
 }
 namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-class __FormatterServices____c__DisplayClass9_0;
-}
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

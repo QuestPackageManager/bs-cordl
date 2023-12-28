@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InspectorNameAttribute::__get_displayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr ::StringW const& UnityEngine::InspectorNameAttribute::__get_displayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr void UnityEngine::InspectorNameAttribute::__set_displayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InspectorNameAttribute* UnityEngine::InspectorNameAttribute::New_ctor(::StringW displayName) {

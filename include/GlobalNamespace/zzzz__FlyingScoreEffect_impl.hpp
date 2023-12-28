@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
-#include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.InitAndPresent
 template <>
 
@@ -125,87 +125,87 @@ constexpr GlobalNamespace::FlyingScoreEffect::operator ::GlobalNamespace::ICutSc
   return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FlyingScoreEffect::__get__fadeAnimationCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeAnimationCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::FlyingScoreEffect::__get__fadeAnimationCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeAnimationCurve;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeAnimationCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SpriteRenderer*& GlobalNamespace::FlyingScoreEffect::__get__maxCutDistanceScoreIndicator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCutDistanceScoreIndicator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& GlobalNamespace::FlyingScoreEffect::__get__maxCutDistanceScoreIndicator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCutDistanceScoreIndicator;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__maxCutDistanceScoreIndicator(::UnityEngine::SpriteRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maxCutDistanceScoreIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshPro*& GlobalNamespace::FlyingScoreEffect::__get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& GlobalNamespace::FlyingScoreEffect::__get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__text(::TMPro::TextMeshPro* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::FlyingScoreEffect::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::FlyingScoreEffect::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 constexpr float_t& GlobalNamespace::FlyingScoreEffect::__get__colorAMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAMultiplier;
 }
 constexpr float_t const& GlobalNamespace::FlyingScoreEffect::__get__colorAMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAMultiplier;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__colorAMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorAMultiplier = value;
 }
 constexpr bool& GlobalNamespace::FlyingScoreEffect::__get__registeredToCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredToCallbacks;
 }
 constexpr bool const& GlobalNamespace::FlyingScoreEffect::__get__registeredToCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredToCallbacks;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__registeredToCallbacks(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____registeredToCallbacks = value;
 }
 constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer*& GlobalNamespace::FlyingScoreEffect::__get__cutScoreBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutScoreBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyCutScoreBuffer*> const& GlobalNamespace::FlyingScoreEffect::__get__cutScoreBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutScoreBuffer;
 }
 constexpr void GlobalNamespace::FlyingScoreEffect::__set__cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutScoreBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FlyingScoreEffect::InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos,

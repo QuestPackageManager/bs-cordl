@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPEndPoint)
 namespace System::Net {
-class EndPoint;
+class SocketAddress;
 }
 namespace System::Net {
 class IPAddress;
+}
+namespace System::Net {
+class EndPoint;
 }
 namespace System::Net::Sockets {
 struct AddressFamily;
 }
 namespace System {
 class Object;
-}
-namespace System::Net {
-class SocketAddress;
 }
 // Forward declare root types
 namespace System::Net {

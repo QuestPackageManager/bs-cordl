@@ -7,39 +7,39 @@ template <typename T> constexpr BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::ope
   return static_cast<::BeatSaber::BeatAvatarSDK::IAvatarPart*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 template <typename T> constexpr ::StringW const& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__set__id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__localizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizationKey;
 }
 template <typename T> constexpr ::StringW const& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__localizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizationKey;
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__set__localizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__partAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partAsset;
 }
 template <typename T> constexpr T const& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__get__partAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partAsset;
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__set__partAsset(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::get_partAsset() {

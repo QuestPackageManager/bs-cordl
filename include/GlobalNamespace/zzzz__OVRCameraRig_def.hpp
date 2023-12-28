@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRCameraRig)
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+class Camera;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
-class Camera;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

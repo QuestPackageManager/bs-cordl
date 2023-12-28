@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioMixerProperties_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::AudioMixerProperties.PrepareFrame
 template <>
 
@@ -33,39 +33,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::Timeline::AudioMixerProperties::__get_volume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
 constexpr float_t const& UnityEngine::Timeline::AudioMixerProperties::__get_volume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
 constexpr void UnityEngine::Timeline::AudioMixerProperties::__set_volume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___volume = value;
 }
 constexpr float_t& UnityEngine::Timeline::AudioMixerProperties::__get_stereoPan() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stereoPan;
 }
 constexpr float_t const& UnityEngine::Timeline::AudioMixerProperties::__get_stereoPan() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stereoPan;
 }
 constexpr void UnityEngine::Timeline::AudioMixerProperties::__set_stereoPan(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stereoPan = value;
 }
 constexpr float_t& UnityEngine::Timeline::AudioMixerProperties::__get_spatialBlend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spatialBlend;
 }
 constexpr float_t const& UnityEngine::Timeline::AudioMixerProperties::__get_spatialBlend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spatialBlend;
 }
 constexpr void UnityEngine::Timeline::AudioMixerProperties::__set_spatialBlend(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spatialBlend = value;
 }
 inline void UnityEngine::Timeline::AudioMixerProperties::PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) {

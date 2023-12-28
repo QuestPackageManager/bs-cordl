@@ -6,16 +6,16 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaPrivateCrtKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaPrivateCrtKeyParameters_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509CertificateParser_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509CertificateParser_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__X509CertificateUtility__PasswordFinder._ctor
 template <>
 
@@ -66,15 +66,15 @@ constexpr GlobalNamespace::__X509CertificateUtility__PasswordFinder::operator ::
   return static_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& GlobalNamespace::__X509CertificateUtility__PasswordFinder::__get__password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____password;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& GlobalNamespace::__X509CertificateUtility__PasswordFinder::__get__password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____password;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility__PasswordFinder::__set__password(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__X509CertificateUtility__PasswordFinder* GlobalNamespace::__X509CertificateUtility__PasswordFinder::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password) {
@@ -159,15 +159,15 @@ constexpr GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionPro
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::ISigner*& GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider::__get__signer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider::__get__signer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signer;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider::__set__signer(::Org::BouncyCastle::Crypto::ISigner* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider*
@@ -358,113 +358,113 @@ constexpr GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::o
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const&
 GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set___2__current(::System::Security::Cryptography::X509Certificates::X509Certificate2* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::StringW& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get_certificatePem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificatePem;
 }
 constexpr ::StringW const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get_certificatePem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificatePem;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set_certificatePem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificatePem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___3__certificatePem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__certificatePem;
 }
 constexpr ::StringW const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___3__certificatePem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__certificatePem;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set___3__certificatePem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__certificatePem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get_certificateChainPem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateChainPem;
 }
 constexpr ::StringW const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get_certificateChainPem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateChainPem;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set_certificateChainPem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificateChainPem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___3__certificateChainPem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__certificateChainPem;
 }
 constexpr ::StringW const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___3__certificateChainPem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__certificateChainPem;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set___3__certificateChainPem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__certificateChainPem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::X509::X509CertificateParser*& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get__x509CertificateParser_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____x509CertificateParser_5__2;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificateParser*> const&
 GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get__x509CertificateParser_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____x509CertificateParser_5__2;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set__x509CertificateParser_5__2(::Org::BouncyCastle::X509::X509CertificateParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____x509CertificateParser_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerator*& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr void GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::__set___7__wrap2(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9* GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9::New_ctor(int32_t __1__state) {

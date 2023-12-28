@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(Datatype_yearMonthDuration)
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

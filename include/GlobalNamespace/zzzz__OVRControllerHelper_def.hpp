@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRControllerHelper)
-namespace GlobalNamespace {
-struct __OVRControllerHelper__ControllerType;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+struct __OVRControllerHelper__ControllerType;
 }
 namespace UnityEngine {
 class Animator;
@@ -91,8 +91,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(8079)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7604))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8080)) CS Name: ::OVRControllerHelper*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8079)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7604)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8080)) CS Name: ::OVRControllerHelper*
 class CORDL_TYPE OVRControllerHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

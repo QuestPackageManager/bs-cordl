@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__RemoteInputPlayerConnection_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__RemoteInputPlayerConnection_def.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__RemoteInputPlayerConnection_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "System/zzzz__IObservable_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber.Dispose
 template <>
@@ -46,29 +46,29 @@ constexpr UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::o
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::InputSystem::RemoteInputPlayerConnection*& UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::__get_owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::RemoteInputPlayerConnection*> const&
 UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::__get_owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr void UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::__set_owner(::UnityEngine::InputSystem::RemoteInputPlayerConnection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___owner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*& UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::__get_observer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___observer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*> const&
 UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::__get_observer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___observer;
 }
 constexpr void UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::__set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber::Dispose() {
@@ -342,43 +342,43 @@ constexpr UnityEngine::InputSystem::RemoteInputPlayerConnection::operator ::Syst
   return static_cast<::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*& UnityEngine::InputSystem::RemoteInputPlayerConnection::__get_m_Connection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Connection;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*> const&
 UnityEngine::InputSystem::RemoteInputPlayerConnection::__get_m_Connection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Connection;
 }
 constexpr void UnityEngine::InputSystem::RemoteInputPlayerConnection::__set_m_Connection(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Connection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*>&
 UnityEngine::InputSystem::RemoteInputPlayerConnection::__get_m_Subscribers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Subscribers;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> const&
 UnityEngine::InputSystem::RemoteInputPlayerConnection::__get_m_Subscribers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Subscribers;
 }
 constexpr void UnityEngine::InputSystem::RemoteInputPlayerConnection::__set_m_Subscribers(
     ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Subscribers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::InputSystem::RemoteInputPlayerConnection::__get_m_ConnectedIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ConnectedIds;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::InputSystem::RemoteInputPlayerConnection::__get_m_ConnectedIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ConnectedIds;
 }
 constexpr void UnityEngine::InputSystem::RemoteInputPlayerConnection::__set_m_ConnectedIds(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ConnectedIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::InputSystem::RemoteInputPlayerConnection::setStaticF_kNewDeviceMsg(::System::Guid value) {

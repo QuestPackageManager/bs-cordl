@@ -2,14 +2,14 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderSpawner_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate._ctor
 template <>
 

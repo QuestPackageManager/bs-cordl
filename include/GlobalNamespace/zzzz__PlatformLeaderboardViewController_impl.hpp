@@ -5,26 +5,26 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardViewController_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__LevelStatsView_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__LevelStatsView_def.hpp"
+#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardViewController_def.hpp"
-#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__30.MoveNext
 template <>
 
@@ -190,64 +190,64 @@ constexpr GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlatformLeaderboardViewController*& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardViewController*> const&
 GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__set___4__this(::GlobalNamespace::PlatformLeaderboardViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get_clear() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clear;
 }
 constexpr bool const& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get_clear() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clear;
 }
 constexpr void GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__set_clear(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clear = value;
 }
 constexpr bool& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get_showLoadingIndicator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showLoadingIndicator;
 }
 constexpr bool const& GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__get_showLoadingIndicator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showLoadingIndicator;
 }
 constexpr void GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::__set_showLoadingIndicator(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showLoadingIndicator = value;
 }
 inline ::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32* GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32::New_ctor(int32_t __1__state) {
@@ -554,199 +554,199 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LeaderboardTableView*& GlobalNamespace::PlatformLeaderboardViewController::__get__leaderboardTableView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardTableView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardTableView*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__leaderboardTableView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardTableView;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__leaderboardTableView(::GlobalNamespace::LeaderboardTableView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardTableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::IconSegmentedControl*& GlobalNamespace::PlatformLeaderboardViewController::__get__scopeSegmentedControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scopeSegmentedControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::IconSegmentedControl*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__scopeSegmentedControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scopeSegmentedControl;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__scopeSegmentedControl(::HMUI::IconSegmentedControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scopeSegmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LoadingControl*& GlobalNamespace::PlatformLeaderboardViewController::__get__loadingControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadingControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__loadingControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadingControl;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__loadingControl(::GlobalNamespace::LoadingControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadingControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::PlatformLeaderboardViewController::__get__globalLeaderboardIcon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____globalLeaderboardIcon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__globalLeaderboardIcon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____globalLeaderboardIcon;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__globalLeaderboardIcon(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____globalLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::PlatformLeaderboardViewController::__get__aroundPlayerLeaderboardIcon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aroundPlayerLeaderboardIcon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__aroundPlayerLeaderboardIcon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aroundPlayerLeaderboardIcon;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__aroundPlayerLeaderboardIcon(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____aroundPlayerLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::PlatformLeaderboardViewController::__get__friendsLeaderboardIcon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____friendsLeaderboardIcon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__friendsLeaderboardIcon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____friendsLeaderboardIcon;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__friendsLeaderboardIcon(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____friendsLeaderboardIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LevelStatsView*& GlobalNamespace::PlatformLeaderboardViewController::__get__levelStatsView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelStatsView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelStatsView*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__levelStatsView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelStatsView;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__levelStatsView(::GlobalNamespace::LevelStatsView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelStatsView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel*& GlobalNamespace::PlatformLeaderboardViewController::__get__leaderboardsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardsModel*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__leaderboardsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardsModel;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__leaderboardsModel(::GlobalNamespace::PlatformLeaderboardsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerDataModel*& GlobalNamespace::PlatformLeaderboardViewController::__get__playerDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__playerDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__playerDataModel(::GlobalNamespace::PlayerDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HMAsyncRequest*& GlobalNamespace::PlatformLeaderboardViewController::__get__getScoresAsyncRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getScoresAsyncRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMAsyncRequest*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__getScoresAsyncRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getScoresAsyncRequest;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__getScoresAsyncRequest(::GlobalNamespace::HMAsyncRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____getScoresAsyncRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::PlatformLeaderboardViewController::__get__playerScorePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerScorePos;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__playerScorePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerScorePos;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__playerScorePos(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerScorePos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*& GlobalNamespace::PlatformLeaderboardViewController::__get__scores() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scores;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*> const&
 GlobalNamespace::PlatformLeaderboardViewController::__get__scores() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scores;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scores)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IDifficultyBeatmap*& GlobalNamespace::PlatformLeaderboardViewController::__get__difficultyBeatmap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmap;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& GlobalNamespace::PlatformLeaderboardViewController::__get__difficultyBeatmap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmap;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PlatformLeaderboardViewController::__get__refreshIsNeeded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshIsNeeded;
 }
 constexpr bool const& GlobalNamespace::PlatformLeaderboardViewController::__get__refreshIsNeeded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshIsNeeded;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__refreshIsNeeded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____refreshIsNeeded = value;
 }
 constexpr bool& GlobalNamespace::PlatformLeaderboardViewController::__get__hasScoresData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasScoresData;
 }
 constexpr bool const& GlobalNamespace::PlatformLeaderboardViewController::__get__hasScoresData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasScoresData;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__hasScoresData(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasScoresData = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*>&
 GlobalNamespace::PlatformLeaderboardViewController::__get__scoreScopes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreScopes;
 }
 constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> const&
 GlobalNamespace::PlatformLeaderboardViewController::__get__scoreScopes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreScopes;
 }
 constexpr void GlobalNamespace::PlatformLeaderboardViewController::__set__scoreScopes(
     ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreScopes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::PlatformLeaderboardViewController::setStaticF__scoresScope(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope value) {

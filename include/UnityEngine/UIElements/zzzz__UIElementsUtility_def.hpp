@@ -11,55 +11,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIElementsUtility)
 namespace UnityEngine::UIElements {
-class Panel;
+class IMGUIContainer;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class IUIElementsUtility;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
+struct ContextType;
 }
 namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
-class __GUILayoutUtility__LayoutCache;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
+class Event;
 }
 namespace UnityEngine {
 struct Rect;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class IUIElementsUtility;
 }
 namespace UnityEngine {
 struct EventType;
 }
 namespace UnityEngine {
-class Event;
+class __GUILayoutUtility__LayoutCache;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class Panel;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
+class VisualElement;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -71,7 +71,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6902))
 // CS Name: ::UnityEngine.UIElements::UIElementsUtility*
 class CORDL_TYPE UIElementsUtility : public ::System::Object {

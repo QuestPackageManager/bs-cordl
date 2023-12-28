@@ -2,16 +2,16 @@
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__FileWebResponse_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Net/zzzz__FileWebRequest_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__CloseExState_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Net/zzzz__ICloseEx_def.hpp"
+#include "System/Net/zzzz__FileWebRequest_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Net/zzzz__CloseExState_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Net::FileWebResponse._ctor
 template <>
 
@@ -172,75 +172,75 @@ constexpr System::Net::FileWebResponse::operator ::System::Net::ICloseEx*() noex
   return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
 }
 constexpr bool& System::Net::FileWebResponse::__get_m_closed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_closed;
 }
 constexpr bool const& System::Net::FileWebResponse::__get_m_closed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_closed;
 }
 constexpr void System::Net::FileWebResponse::__set_m_closed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_closed = value;
 }
 constexpr int64_t& System::Net::FileWebResponse::__get_m_contentLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_contentLength;
 }
 constexpr int64_t const& System::Net::FileWebResponse::__get_m_contentLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_contentLength;
 }
 constexpr void System::Net::FileWebResponse::__set_m_contentLength(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_contentLength = value;
 }
 constexpr ::System::IO::FileAccess& System::Net::FileWebResponse::__get_m_fileAccess() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fileAccess;
 }
 constexpr ::System::IO::FileAccess const& System::Net::FileWebResponse::__get_m_fileAccess() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fileAccess;
 }
 constexpr void System::Net::FileWebResponse::__set_m_fileAccess(::System::IO::FileAccess value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fileAccess = value;
 }
 constexpr ::System::Net::WebHeaderCollection*& System::Net::FileWebResponse::__get_m_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::FileWebResponse::__get_m_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headers;
 }
 constexpr void System::Net::FileWebResponse::__set_m_headers(::System::Net::WebHeaderCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Stream*& System::Net::FileWebResponse::__get_m_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::FileWebResponse::__get_m_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stream;
 }
 constexpr void System::Net::FileWebResponse::__set_m_stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& System::Net::FileWebResponse::__get_m_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::FileWebResponse::__get_m_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_uri;
 }
 constexpr void System::Net::FileWebResponse::__set_m_uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::FileWebResponse* System::Net::FileWebResponse::New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint) {

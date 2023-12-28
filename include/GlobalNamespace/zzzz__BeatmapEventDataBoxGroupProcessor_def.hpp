@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupProcessor)
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

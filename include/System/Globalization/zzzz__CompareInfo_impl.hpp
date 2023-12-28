@@ -2,16 +2,16 @@
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Globalization/zzzz__SortKey_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Globalization/zzzz__SortKey_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 #include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Globalization/zzzz__SortVersion_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: ::System::Globalization::CompareInfo.InvariantIndexOf
 template <>
 
@@ -982,63 +982,63 @@ constexpr System::Globalization::CompareInfo::operator ::System::Runtime::Serial
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Globalization::CompareInfo::__get_m_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr ::StringW const& System::Globalization::CompareInfo::__get_m_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr void System::Globalization::CompareInfo::__set_m_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CompareInfo::__get__sortName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortName;
 }
 constexpr ::StringW const& System::Globalization::CompareInfo::__get__sortName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortName;
 }
 constexpr void System::Globalization::CompareInfo::__set__sortName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sortName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::SortVersion*& System::Globalization::CompareInfo::__get_m_SortVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SortVersion;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::SortVersion*> const& System::Globalization::CompareInfo::__get_m_SortVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SortVersion;
 }
 constexpr void System::Globalization::CompareInfo::__set_m_SortVersion(::System::Globalization::SortVersion* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SortVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Globalization::CompareInfo::__get_culture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___culture;
 }
 constexpr int32_t const& System::Globalization::CompareInfo::__get_culture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___culture;
 }
 constexpr void System::Globalization::CompareInfo::__set_culture(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___culture = value;
 }
 constexpr ::System::Globalization::ISimpleCollator*& System::Globalization::CompareInfo::__get_collator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collator;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::ISimpleCollator*> const& System::Globalization::CompareInfo::__get_collator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collator;
 }
 constexpr void System::Globalization::CompareInfo::__set_collator(::System::Globalization::ISimpleCollator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___collator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Globalization::CompareInfo::setStaticF_Invariant(::System::Globalization::CompareInfo* value) {

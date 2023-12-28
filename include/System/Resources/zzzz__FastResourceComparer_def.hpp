@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastResourceComparer)
 namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System {
 class Object;

@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::DefaultExecutionOrder::__get_m_Order() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Order;
 }
 constexpr int32_t const& UnityEngine::DefaultExecutionOrder::__get_m_Order() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Order;
 }
 constexpr void UnityEngine::DefaultExecutionOrder::__set_m_Order(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Order = value;
 }
 inline ::UnityEngine::DefaultExecutionOrder* UnityEngine::DefaultExecutionOrder::New_ctor(int32_t order) {

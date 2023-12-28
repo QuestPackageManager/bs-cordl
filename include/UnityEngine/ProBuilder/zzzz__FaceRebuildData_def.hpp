@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FaceRebuildData)
+namespace UnityEngine::ProBuilder {
+class Face;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -16,13 +22,7 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
 class Vertex;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

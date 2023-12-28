@@ -11,23 +11,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHandTest)
+namespace System::Text {
+class StringBuilder;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__Mesh;
+}
 namespace UnityEngine::UI {
 class Text;
 }
 namespace GlobalNamespace {
 class __OVRHandTest__BoolMonitor;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__Mesh;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace GlobalNamespace {
 class __OVRHandTest____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __OVRHandTest__BoolMonitor__BoolGenerator;

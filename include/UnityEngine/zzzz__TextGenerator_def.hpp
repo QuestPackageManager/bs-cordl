@@ -12,55 +12,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerator)
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine {
-struct TextGenerationSettings;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 class Font;
-}
-namespace UnityEngine {
-struct VerticalWrapMode;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine {
-struct UILineInfo;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct UICharInfo;
 }
 namespace UnityEngine {
 struct UIVertex;
 }
 namespace UnityEngine {
-struct Color;
+struct Rect;
+}
+namespace UnityEngine {
+struct TextGenerationSettings;
 }
 namespace UnityEngine {
 struct TextGenerationError;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct VerticalWrapMode;
+}
+namespace UnityEngine {
+struct HorizontalWrapMode;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
 struct TextAnchor;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+struct UICharInfo;
+}
+namespace UnityEngine {
+struct UILineInfo;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 namespace System {
 class Object;
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::UnityEngine::TextGenerator);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 163, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15897)), TypeDefinitionIndex(TypeDefinitionIndex(15898)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15899)) CS Name: ::UnityEngine::TextGenerator*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15897)), TypeDefinitionIndex(TypeDefinitionIndex(15898)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15899)) CS Name: ::UnityEngine::TextGenerator*
 class CORDL_TYPE TextGenerator : public ::System::Object {
 public:
   // Declarations

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryFacetsChecker)
-namespace System::Collections {
-class ArrayList;
+namespace System {
+class Object;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System {
 class Exception;

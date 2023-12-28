@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EaxBlockCipher)
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 struct __EaxBlockCipher__Tag;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class SicBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {

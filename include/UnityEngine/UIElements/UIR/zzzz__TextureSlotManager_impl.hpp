@@ -138,87 +138,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*>& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_Textures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Textures;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> const& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_Textures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Textures;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_m_Textures(::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Textures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_Tickets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tickets;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_Tickets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tickets;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_m_Tickets(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Tickets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_CurrentTicket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTicket;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_CurrentTicket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTicket;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_m_CurrentTicket(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTicket = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_FirstUsedTicket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstUsedTicket;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_FirstUsedTicket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstUsedTicket;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_m_FirstUsedTicket(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FirstUsedTicket = value;
 }
 constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_GpuTextures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GpuTextures;
 }
 constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& UnityEngine::UIElements::UIR::TextureSlotManager::__get_m_GpuTextures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GpuTextures;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_m_GpuTextures(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GpuTextures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::TextureSlotManager::__get__FreeSlots_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____FreeSlots_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::TextureSlotManager::__get__FreeSlots_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____FreeSlots_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set__FreeSlots_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____FreeSlots_k__BackingField = value;
 }
 constexpr ::UnityEngine::UIElements::TextureRegistry*& UnityEngine::UIElements::UIR::TextureSlotManager::__get_textureRegistry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureRegistry;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& UnityEngine::UIElements::UIR::TextureSlotManager::__get_textureRegistry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureRegistry;
 }
 constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textureRegistry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::UIR::TextureSlotManager::setStaticF_k_SlotCount(int32_t value) {

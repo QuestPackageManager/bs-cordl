@@ -133,39 +133,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::Diagnostics::Stopwatch::__get_elapsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elapsed;
 }
 constexpr int64_t const& System::Diagnostics::Stopwatch::__get_elapsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elapsed;
 }
 constexpr void System::Diagnostics::Stopwatch::__set_elapsed(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elapsed = value;
 }
 constexpr int64_t& System::Diagnostics::Stopwatch::__get_started() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___started;
 }
 constexpr int64_t const& System::Diagnostics::Stopwatch::__get_started() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___started;
 }
 constexpr void System::Diagnostics::Stopwatch::__set_started(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___started = value;
 }
 constexpr bool& System::Diagnostics::Stopwatch::__get_is_running() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_running;
 }
 constexpr bool const& System::Diagnostics::Stopwatch::__get_is_running() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_running;
 }
 constexpr void System::Diagnostics::Stopwatch::__set_is_running(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_running = value;
 }
 inline void System::Diagnostics::Stopwatch::setStaticF_Frequency(int64_t value) {

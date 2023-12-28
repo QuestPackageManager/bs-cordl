@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
 #include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
+#include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5ActivityIdsModelSO.get_progressActivities
 template <>
 
@@ -45,27 +45,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*>& GlobalNamespace::PS5ActivityIdsModelSO::__get__progressActivities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____progressActivities;
 }
 constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> const& GlobalNamespace::PS5ActivityIdsModelSO::__get__progressActivities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____progressActivities;
 }
 constexpr void GlobalNamespace::PS5ActivityIdsModelSO::__set__progressActivities(::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____progressActivities)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*>& GlobalNamespace::PS5ActivityIdsModelSO::__get__competetiveActivities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____competetiveActivities;
 }
 constexpr ::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> const& GlobalNamespace::PS5ActivityIdsModelSO::__get__competetiveActivities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____competetiveActivities;
 }
 constexpr void GlobalNamespace::PS5ActivityIdsModelSO::__set__competetiveActivities(::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____competetiveActivities)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> GlobalNamespace::PS5ActivityIdsModelSO::get_progressActivities() {

@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomizedPitch_def.hpp"
-#include "GlobalNamespace/zzzz__RandomizedPitch_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "GlobalNamespace/zzzz__RandomizedPitch_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9._ctor
 template <>
@@ -112,51 +112,51 @@ constexpr GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::operat
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get_delay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get_delay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__set_delay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
 constexpr ::GlobalNamespace::RandomizedPitch*& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomizedPitch*> const& GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::__set___4__this(::GlobalNamespace::RandomizedPitch* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9* GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9::New_ctor(int32_t __1__state) {
@@ -303,51 +303,51 @@ constexpr GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::oper
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get_delay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get_delay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__set_delay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
 constexpr ::GlobalNamespace::RandomizedPitch*& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomizedPitch*> const& GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::__set___4__this(::GlobalNamespace::RandomizedPitch* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10* GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10::New_ctor(int32_t __1__state) {
@@ -475,75 +475,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::RandomizedPitch::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::RandomizedPitch::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::RandomizedPitch::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::RandomizedPitch::__get__minPitchMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minPitchMultiplier;
 }
 constexpr float_t const& GlobalNamespace::RandomizedPitch::__get__minPitchMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minPitchMultiplier;
 }
 constexpr void GlobalNamespace::RandomizedPitch::__set__minPitchMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minPitchMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::RandomizedPitch::__get__maxPitchMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPitchMultiplier;
 }
 constexpr float_t const& GlobalNamespace::RandomizedPitch::__get__maxPitchMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPitchMultiplier;
 }
 constexpr void GlobalNamespace::RandomizedPitch::__set__maxPitchMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxPitchMultiplier = value;
 }
 constexpr bool& GlobalNamespace::RandomizedPitch::__get__playOnAwake() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playOnAwake;
 }
 constexpr bool const& GlobalNamespace::RandomizedPitch::__get__playOnAwake() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playOnAwake;
 }
 constexpr void GlobalNamespace::RandomizedPitch::__set__playOnAwake(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playOnAwake = value;
 }
 constexpr float_t& GlobalNamespace::RandomizedPitch::__get__originalPitch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalPitch;
 }
 constexpr float_t const& GlobalNamespace::RandomizedPitch::__get__originalPitch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalPitch;
 }
 constexpr void GlobalNamespace::RandomizedPitch::__set__originalPitch(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalPitch = value;
 }
 constexpr ::UnityEngine::Coroutine*& GlobalNamespace::RandomizedPitch::__get__restoringCoroutine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____restoringCoroutine;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::RandomizedPitch::__get__restoringCoroutine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____restoringCoroutine;
 }
 constexpr void GlobalNamespace::RandomizedPitch::__set__restoringCoroutine(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____restoringCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RandomizedPitch::OnEnable() {

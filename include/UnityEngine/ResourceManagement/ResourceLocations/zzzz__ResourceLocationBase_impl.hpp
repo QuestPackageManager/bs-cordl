@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationBase_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_InternalId
 template <>
 
@@ -228,114 +228,114 @@ constexpr UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBa
   return static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(static_cast<void*>(this));
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Id;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Id;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_Id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_ProviderId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProviderId;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_ProviderId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProviderId;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_ProviderId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ProviderId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_Data(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_DependencyHashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DependencyHashCode;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_DependencyHashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DependencyHashCode;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_DependencyHashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DependencyHashCode = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_HashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HashCode;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_HashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HashCode;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_HashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HashCode = value;
 }
 constexpr ::System::Type*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_Type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
 UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Dependencies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dependencies;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
 UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_Dependencies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dependencies;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_Dependencies(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Dependencies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_PrimaryKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrimaryKey;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__get_m_PrimaryKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrimaryKey;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__set_m_PrimaryKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrimaryKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId() {

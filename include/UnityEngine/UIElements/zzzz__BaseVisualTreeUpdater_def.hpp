@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BaseVisualTreeUpdater)
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class IVisualTreeUpdater;
 }
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
 }
 namespace System {
 class IDisposable;

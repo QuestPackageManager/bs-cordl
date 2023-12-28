@@ -11,7 +11,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
+class HEU_ThreadedTaskLoadGeo;
+}
+namespace HoudiniEngineUnity {
 class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace HoudiniEngineUnity {
 class __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
@@ -21,12 +27,6 @@ class __HEU_AssetSync__AssetSyncCallback;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_ThreadedTaskLoadGeo;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace System {
 class IAsyncResult;

@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -26,7 +26,7 @@ MARK_VAL_T(::TMPro::TMP_Vertex);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12329))
 // CS Name: ::TMPro::TMP_Vertex
 struct CORDL_TYPE TMP_Vertex {

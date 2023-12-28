@@ -151,64 +151,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::MultiplayerCenterResizeController::__get__platformWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformWidth;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerCenterResizeController::__get__platformWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformWidth;
 }
 constexpr void GlobalNamespace::MultiplayerCenterResizeController::__set__platformWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____platformWidth = value;
 }
 constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerCenterResizeController::__get__layoutProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerCenterResizeController::__get__layoutProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
 constexpr void GlobalNamespace::MultiplayerCenterResizeController::__set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layoutProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<float_t>*& GlobalNamespace::MultiplayerCenterResizeController::__get_edgeDistanceFromCenterWasCalculatedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___edgeDistanceFromCenterWasCalculatedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& GlobalNamespace::MultiplayerCenterResizeController::__get_edgeDistanceFromCenterWasCalculatedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___edgeDistanceFromCenterWasCalculatedEvent;
 }
 constexpr void GlobalNamespace::MultiplayerCenterResizeController::__set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___edgeDistanceFromCenterWasCalculatedEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MultiplayerCenterResizeController::__get__isEdgeDistanceFromCenterCalculated_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEdgeDistanceFromCenterCalculated_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::MultiplayerCenterResizeController::__get__isEdgeDistanceFromCenterCalculated_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEdgeDistanceFromCenterCalculated_k__BackingField;
 }
 constexpr void GlobalNamespace::MultiplayerCenterResizeController::__set__isEdgeDistanceFromCenterCalculated_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isEdgeDistanceFromCenterCalculated_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerCenterResizeController::__get__edgeDistanceFromCenter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeDistanceFromCenter_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerCenterResizeController::__get__edgeDistanceFromCenter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeDistanceFromCenter_k__BackingField;
 }
 constexpr void GlobalNamespace::MultiplayerCenterResizeController::__set__edgeDistanceFromCenter_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____edgeDistanceFromCenter_k__BackingField = value;
 }
 inline void GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value) {

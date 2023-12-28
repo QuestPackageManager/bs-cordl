@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueTuple_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IStructuralComparable_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_1<T1>>"
 template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::IEquatable_1<::System::ValueTuple_1<T1>>*() {
   return static_cast<::System::IEquatable_1<::System::ValueTuple_1<T1>>*>(static_cast<void*>(::cordl_internals::Box(this)));

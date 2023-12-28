@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Polyglot/zzzz__LanguageDropdown_def.hpp"
-#include "Polyglot/zzzz__ILocalize_def.hpp"
 #include "UnityEngine/UI/zzzz__Dropdown_def.hpp"
+#include "Polyglot/zzzz__ILocalize_def.hpp"
 //  Writing Method size for method: ::Polyglot::LanguageDropdown.Reset
 template <>
 
@@ -73,15 +73,15 @@ constexpr Polyglot::LanguageDropdown::operator ::Polyglot::ILocalize*() noexcept
   return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UI::Dropdown*& Polyglot::LanguageDropdown::__get_dropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Dropdown*> const& Polyglot::LanguageDropdown::__get_dropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dropdown;
 }
 constexpr void Polyglot::LanguageDropdown::__set_dropdown(::UnityEngine::UI::Dropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Polyglot::LanguageDropdown::Reset() {

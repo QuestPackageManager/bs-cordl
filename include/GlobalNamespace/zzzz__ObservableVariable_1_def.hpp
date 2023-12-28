@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObservableVariable_1)
 namespace GlobalNamespace {
-class IObservableChange;
+template <typename T> class IValue_1;
 }
 namespace GlobalNamespace {
-template <typename T> class IValue_1;
+class IObservableChange;
 }
 namespace System {
 class Action;

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RumbleHapticFeedbackPlayer)
 namespace GlobalNamespace {
-class __RumbleHapticFeedbackPlayer__RumbleData;
+class IHapticFeedbackPlayer;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
+class __RumbleHapticFeedbackPlayer__RumbleData;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

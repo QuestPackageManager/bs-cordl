@@ -60,27 +60,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::MockPlatformEntitlement::__get__id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr ::StringW const& GlobalNamespace::MockPlatformEntitlement::__get__id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr void GlobalNamespace::MockPlatformEntitlement::__set__id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EntitlementStatus& GlobalNamespace::MockPlatformEntitlement::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::GlobalNamespace::EntitlementStatus const& GlobalNamespace::MockPlatformEntitlement::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void GlobalNamespace::MockPlatformEntitlement::__set__status(::GlobalNamespace::EntitlementStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 inline ::StringW GlobalNamespace::MockPlatformEntitlement::get_id() {

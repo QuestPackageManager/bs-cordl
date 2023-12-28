@@ -9,10 +9,10 @@ namespace System::Xml {
 class XmlLinkedNode;
 }
 namespace System::Xml {
-class XmlElement;
+class XmlNode;
 }
 namespace System::Xml {
-class XmlNode;
+class XmlElement;
 }
 namespace System::Xml {
 class XmlDocument;

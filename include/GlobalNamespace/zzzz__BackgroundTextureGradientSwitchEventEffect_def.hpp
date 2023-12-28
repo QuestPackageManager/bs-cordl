@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BackgroundTextureGradientSwitchEventEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BloomPrePassBackgroundTextureGradient;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundTextureGradient;
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

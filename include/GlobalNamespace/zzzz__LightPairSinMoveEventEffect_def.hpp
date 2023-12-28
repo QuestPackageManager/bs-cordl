@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightPairSinMoveEventEffect)
 namespace GlobalNamespace {
-class __LightPairSinMoveEventEffect__MovementData;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class __LightPairSinMoveEventEffect__MovementData;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4951))
 // CS Name: ::LightPairSinMoveEventEffect::MovementData*
 class CORDL_TYPE __LightPairSinMoveEventEffect__MovementData : public ::System::Object {

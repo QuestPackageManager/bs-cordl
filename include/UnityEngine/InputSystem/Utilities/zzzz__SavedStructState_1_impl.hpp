@@ -2,12 +2,12 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T>
 inline ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::New_ctor(::System::Object* object,
                                                                                                                                                                           void* method) {
@@ -47,42 +47,42 @@ template <typename T> constexpr UnityEngine::InputSystem::Utilities::SavedStruct
   return static_cast<::UnityEngine::InputSystem::Utilities::ISavedState*>(static_cast<void*>(this));
 }
 template <typename T> constexpr T& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__get_m_State() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_State;
 }
 template <typename T> constexpr T const& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__get_m_State() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_State;
 }
 template <typename T> constexpr void UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__set_m_State(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_State)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__get_m_RestoreAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RestoreAction;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*> const&
 UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__get_m_RestoreAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RestoreAction;
 }
 template <typename T>
 constexpr void UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__set_m_RestoreAction(::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RestoreAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action*& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__get_m_StaticDisposeCurrentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StaticDisposeCurrentState;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__get_m_StaticDisposeCurrentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StaticDisposeCurrentState;
 }
 template <typename T> constexpr void UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__set_m_StaticDisposeCurrentState(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StaticDisposeCurrentState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param staticDisposeCurrentState: ::System::Action* (default: nullptr)

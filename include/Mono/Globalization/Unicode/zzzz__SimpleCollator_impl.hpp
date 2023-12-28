@@ -3,15 +3,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Globalization/zzzz__SortKey_def.hpp"
-#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
-#include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
-#include "System/Globalization/zzzz__TextInfo_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Level2Map_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Globalization/zzzz__SortKey_def.hpp"
+#include "System/Globalization/zzzz__TextInfo_def.hpp"
+#include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::__SimpleCollator__Context._ctor
 template <>
 
@@ -943,136 +943,136 @@ constexpr Mono::Globalization::Unicode::SimpleCollator::operator ::System::Globa
   return static_cast<::System::Globalization::ISimpleCollator*>(static_cast<void*>(this));
 }
 constexpr ::System::Globalization::TextInfo*& Mono::Globalization::Unicode::SimpleCollator::__get_textInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::TextInfo*> const& Mono::Globalization::Unicode::SimpleCollator::__get_textInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textInfo;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_textInfo(::System::Globalization::TextInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Globalization::Unicode::CodePointIndexer*& Mono::Globalization::Unicode::SimpleCollator::__get_cjkIndexer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkIndexer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Globalization::Unicode::CodePointIndexer*> const& Mono::Globalization::Unicode::SimpleCollator::__get_cjkIndexer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkIndexer;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_cjkIndexer(::Mono::Globalization::Unicode::CodePointIndexer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkIndexer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>& Mono::Globalization::Unicode::SimpleCollator::__get_contractions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contractions;
 }
 constexpr ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> const&
 Mono::Globalization::Unicode::SimpleCollator::__get_contractions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contractions;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_contractions(::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contractions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>& Mono::Globalization::Unicode::SimpleCollator::__get_level2Maps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level2Maps;
 }
 constexpr ::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> const& Mono::Globalization::Unicode::SimpleCollator::__get_level2Maps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level2Maps;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_level2Maps(::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___level2Maps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Globalization::Unicode::SimpleCollator::__get_unsafeFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsafeFlags;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Globalization::Unicode::SimpleCollator::__get_unsafeFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsafeFlags;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_unsafeFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unsafeFlags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<uint8_t>& Mono::Globalization::Unicode::SimpleCollator::__get_cjkCatTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkCatTable;
 }
 constexpr ::cordl_internals::Ptr<uint8_t> const& Mono::Globalization::Unicode::SimpleCollator::__get_cjkCatTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkCatTable;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_cjkCatTable(::cordl_internals::Ptr<uint8_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkCatTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<uint8_t>& Mono::Globalization::Unicode::SimpleCollator::__get_cjkLv1Table() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv1Table;
 }
 constexpr ::cordl_internals::Ptr<uint8_t> const& Mono::Globalization::Unicode::SimpleCollator::__get_cjkLv1Table() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv1Table;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_cjkLv1Table(::cordl_internals::Ptr<uint8_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkLv1Table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<uint8_t>& Mono::Globalization::Unicode::SimpleCollator::__get_cjkLv2Table() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv2Table;
 }
 constexpr ::cordl_internals::Ptr<uint8_t> const& Mono::Globalization::Unicode::SimpleCollator::__get_cjkLv2Table() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv2Table;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_cjkLv2Table(::cordl_internals::Ptr<uint8_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkLv2Table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Globalization::Unicode::CodePointIndexer*& Mono::Globalization::Unicode::SimpleCollator::__get_cjkLv2Indexer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv2Indexer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Globalization::Unicode::CodePointIndexer*> const& Mono::Globalization::Unicode::SimpleCollator::__get_cjkLv2Indexer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv2Indexer;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_cjkLv2Indexer(::Mono::Globalization::Unicode::CodePointIndexer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkLv2Indexer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Mono::Globalization::Unicode::SimpleCollator::__get_lcid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lcid;
 }
 constexpr int32_t const& Mono::Globalization::Unicode::SimpleCollator::__get_lcid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lcid;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_lcid(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lcid = value;
 }
 constexpr bool& Mono::Globalization::Unicode::SimpleCollator::__get_frenchSort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frenchSort;
 }
 constexpr bool const& Mono::Globalization::Unicode::SimpleCollator::__get_frenchSort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frenchSort;
 }
 constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_frenchSort(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___frenchSort = value;
 }
 inline void Mono::Globalization::Unicode::SimpleCollator::setStaticF_invariant(::Mono::Globalization::Unicode::SimpleCollator* value) {

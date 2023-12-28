@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ImageWithHint)
 namespace HMUI {
 class HoverHint;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace HMUI {

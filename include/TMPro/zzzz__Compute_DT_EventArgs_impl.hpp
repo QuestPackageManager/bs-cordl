@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__Compute_DistanceTransform_EventTypes_impl.hpp"
 #include "TMPro/zzzz__Compute_DT_EventArgs_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "TMPro/zzzz__Compute_DistanceTransform_EventTypes_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::TMPro::Compute_DT_EventArgs._ctor
 template <>
 
@@ -37,39 +37,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::Compute_DistanceTransform_EventTypes& TMPro::Compute_DT_EventArgs::__get_EventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EventType;
 }
 constexpr ::TMPro::Compute_DistanceTransform_EventTypes const& TMPro::Compute_DT_EventArgs::__get_EventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EventType;
 }
 constexpr void TMPro::Compute_DT_EventArgs::__set_EventType(::TMPro::Compute_DistanceTransform_EventTypes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EventType = value;
 }
 constexpr float_t& TMPro::Compute_DT_EventArgs::__get_ProgressPercentage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ProgressPercentage;
 }
 constexpr float_t const& TMPro::Compute_DT_EventArgs::__get_ProgressPercentage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ProgressPercentage;
 }
 constexpr void TMPro::Compute_DT_EventArgs::__set_ProgressPercentage(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ProgressPercentage = value;
 }
 constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& TMPro::Compute_DT_EventArgs::__get_Colors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Colors;
 }
 constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& TMPro::Compute_DT_EventArgs::__get_Colors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Colors;
 }
 constexpr void TMPro::Compute_DT_EventArgs::__set_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Colors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::Compute_DT_EventArgs* TMPro::Compute_DT_EventArgs::New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress) {

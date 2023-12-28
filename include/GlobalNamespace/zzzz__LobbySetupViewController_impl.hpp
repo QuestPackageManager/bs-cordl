@@ -1,19 +1,19 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbySetupViewController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
 #include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "GlobalNamespace/zzzz__EditableModifiersSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
+#include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
+#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_selectBeatmapEvent
 template <>
 
@@ -414,255 +414,255 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::LobbySetupViewController::__get__startGameReadyButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startGameReadyButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::LobbySetupViewController::__get__startGameReadyButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startGameReadyButton;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__startGameReadyButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startGameReadyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::LobbySetupViewController::__get__cancelGameUnreadyButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelGameUnreadyButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::LobbySetupViewController::__get__cancelGameUnreadyButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelGameUnreadyButton;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__cancelGameUnreadyButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelGameUnreadyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Polyglot::LocalizedTextMeshProUGUI*& GlobalNamespace::LobbySetupViewController::__get__startReadyText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startReadyText;
 }
 constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshProUGUI*> const& GlobalNamespace::LobbySetupViewController::__get__startReadyText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startReadyText;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__startReadyText(::Polyglot::LocalizedTextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startReadyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Polyglot::LocalizedTextMeshProUGUI*& GlobalNamespace::LobbySetupViewController::__get__cancelUnreadyText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelUnreadyText;
 }
 constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshProUGUI*> const& GlobalNamespace::LobbySetupViewController::__get__cancelUnreadyText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelUnreadyText;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__cancelUnreadyText(::Polyglot::LocalizedTextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelUnreadyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameServersFilterText*& GlobalNamespace::LobbySetupViewController::__get__serverSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServersFilterText*> const& GlobalNamespace::LobbySetupViewController::__get__serverSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverSettings;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__serverSettings(::GlobalNamespace::GameServersFilterText* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::LobbySetupViewController::__get__suggestionHeader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestionHeader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::LobbySetupViewController::__get__suggestionHeader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestionHeader;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__suggestionHeader(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestionHeader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EditableBeatmapSelectionView*& GlobalNamespace::LobbySetupViewController::__get__beatmapSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EditableBeatmapSelectionView*> const& GlobalNamespace::LobbySetupViewController::__get__beatmapSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__beatmapSelectionView(::GlobalNamespace::EditableBeatmapSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EditableModifiersSelectionView*& GlobalNamespace::LobbySetupViewController::__get__modifiersSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EditableModifiersSelectionView*> const& GlobalNamespace::LobbySetupViewController::__get__modifiersSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__modifiersSelectionView(::GlobalNamespace::EditableModifiersSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::HoverHint*& GlobalNamespace::LobbySetupViewController::__get__cantStartGameHoverHint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cantStartGameHoverHint;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& GlobalNamespace::LobbySetupViewController::__get__cantStartGameHoverHint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cantStartGameHoverHint;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__cantStartGameHoverHint(::HMUI::HoverHint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cantStartGameHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::LobbySetupViewController::__get__playerMissingLevelHoverHintWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerMissingLevelHoverHintWrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::LobbySetupViewController::__get__playerMissingLevelHoverHintWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerMissingLevelHoverHintWrapper;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__playerMissingLevelHoverHintWrapper(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerMissingLevelHoverHintWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::HoverHint*& GlobalNamespace::LobbySetupViewController::__get__playersMissingLevelHoverHint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersMissingLevelHoverHint;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& GlobalNamespace::LobbySetupViewController::__get__playersMissingLevelHoverHint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playersMissingLevelHoverHint;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__playersMissingLevelHoverHint(::HMUI::HoverHint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersMissingLevelHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::LobbySetupViewController::__get__spectatorWarningTextWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatorWarningTextWrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::LobbySetupViewController::__get__spectatorWarningTextWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatorWarningTextWrapper;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__spectatorWarningTextWrapper(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectatorWarningTextWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::LobbySetupViewController::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::LobbySetupViewController::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__get_selectBeatmapEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectBeatmapEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbySetupViewController::__get_selectBeatmapEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectBeatmapEvent;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set_selectBeatmapEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__get_selectModifiersEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectModifiersEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbySetupViewController::__get_selectModifiersEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectModifiersEvent;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set_selectModifiersEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__get_startGameOrReadyEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startGameOrReadyEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbySetupViewController::__get_startGameOrReadyEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startGameOrReadyEvent;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set_startGameOrReadyEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___startGameOrReadyEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__get_cancelGameOrUnreadyEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancelGameOrUnreadyEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbySetupViewController::__get_cancelGameOrUnreadyEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancelGameOrUnreadyEvent;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set_cancelGameOrUnreadyEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cancelGameOrUnreadyEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__get_clearSuggestedBeatmapEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearSuggestedBeatmapEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbySetupViewController::__get_clearSuggestedBeatmapEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearSuggestedBeatmapEvent;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set_clearSuggestedBeatmapEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clearSuggestedBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::LobbySetupViewController::__get_clearSuggestedModifiersEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearSuggestedModifiersEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbySetupViewController::__get_clearSuggestedModifiersEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearSuggestedModifiersEvent;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set_clearSuggestedModifiersEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clearSuggestedModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::LobbySetupViewController::__get__isPartyOwner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartyOwner;
 }
 constexpr bool const& GlobalNamespace::LobbySetupViewController::__get__isPartyOwner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartyOwner;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__isPartyOwner(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPartyOwner = value;
 }
 constexpr bool& GlobalNamespace::LobbySetupViewController::__get__isQuickStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isQuickStart;
 }
 constexpr bool const& GlobalNamespace::LobbySetupViewController::__get__isQuickStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isQuickStart;
 }
 constexpr void GlobalNamespace::LobbySetupViewController::__set__isQuickStart(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isQuickStart = value;
 }
 inline void GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent(::System::Action* value) {

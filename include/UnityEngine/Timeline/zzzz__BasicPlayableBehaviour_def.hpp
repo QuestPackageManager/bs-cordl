@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BasicPlayableBehaviour)
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Playables {
-class IPlayableBehaviour;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Playables {
-class IPlayableAsset;
+struct FrameData;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+class IPlayableAsset;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+class IPlayableBehaviour;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

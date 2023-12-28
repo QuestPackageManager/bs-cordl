@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadLocal_1)
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading {
-template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
-}
 namespace System::Threading {
 template <typename T> class __ThreadLocal_1__IdManager;
-}
-namespace System::Threading {
-template <typename T> class __ThreadLocal_1__FinalizationHelper;
 }
 namespace System::Threading {
 template <typename T> class __ThreadLocal_1__LinkedSlot;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Threading {
+template <typename T> class __ThreadLocal_1__FinalizationHelper;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System::Threading {
+template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataCallbackWrapper._ctor
 template <>
 
@@ -35,39 +35,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& GlobalNamespace::BeatmapDataCallbackWrapper::__get_BasicBeatmapEventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BasicBeatmapEventType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& GlobalNamespace::BeatmapDataCallbackWrapper::__get_BasicBeatmapEventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BasicBeatmapEventType;
 }
 constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__set_BasicBeatmapEventType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BasicBeatmapEventType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::BeatmapDataCallbackWrapper::__get_aheadTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aheadTime;
 }
 constexpr float_t const& GlobalNamespace::BeatmapDataCallbackWrapper::__get_aheadTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aheadTime;
 }
 constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__set_aheadTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___aheadTime = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::BeatmapDataCallbackWrapper::__get_subtypeIdentifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeIdentifiers;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::BeatmapDataCallbackWrapper::__get_subtypeIdentifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeIdentifiers;
 }
 constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__set_subtypeIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subtypeIdentifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BeatmapDataCallbackWrapper* GlobalNamespace::BeatmapDataCallbackWrapper::New_ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType,

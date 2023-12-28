@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Context)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class ZenjectBinding;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class MonoInstaller;
+}
+namespace Zenject {
+class __Context____c;
+}
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Zenject {
-class __Context____c;
+class InstallerBase;
 }
 namespace Zenject {
 class ScriptableObjectInstaller;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class MonoInstaller;
-}
-namespace Zenject {
-class ZenjectBinding;
-}
-namespace Zenject {
-class InstallerBase;
-}
 namespace System {
-class Type;
-}
-namespace Zenject {
-class DiContainer;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject {

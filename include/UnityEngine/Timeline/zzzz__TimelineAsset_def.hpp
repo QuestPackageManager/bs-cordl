@@ -14,76 +14,76 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineAsset)
 namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Timeline {
 class IPropertyCollector;
-}
-namespace UnityEngine::Timeline {
-struct __TimelineAsset__DurationMode;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Timeline {
-class MarkerTrack;
-}
-namespace UnityEngine::Timeline {
-struct __TimelineAsset__Versions;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::Timeline {
 struct DiscreteTime;
 }
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class TimelineClip;
 }
 namespace UnityEngine::Timeline {
 struct __TimelineAsset__MediaType;
 }
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineAsset__DurationMode;
+}
 namespace UnityEngine::Timeline {
 class __TimelineAsset__TimelineAssetUpgrade;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace UnityEngine::Timeline {
+class __TimelineAsset__EditorSettings;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineAsset__Versions;
 }
 namespace UnityEngine::Timeline {
 class __TimelineAsset___get_outputs_d__27;
 }
 namespace UnityEngine::Timeline {
-class __TimelineAsset__EditorSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
+class MarkerTrack;
 }
 namespace UnityEngine::Timeline {
 class IPropertyPreview;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::Playables {
+struct Playable;
 }
-namespace UnityEngine {
-class ScriptableObject;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 struct StandardFrameRates;
@@ -91,17 +91,17 @@ struct StandardFrameRates;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -588,7 +588,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Timelin
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13853))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13853)), TypeDefinitionIndex(TypeDefinitionIndex(10422))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13856))
 // CS Name: ::UnityEngine.Timeline::TimelineAsset*
 class CORDL_TYPE TimelineAsset : public ::UnityEngine::Playables::PlayableAsset {

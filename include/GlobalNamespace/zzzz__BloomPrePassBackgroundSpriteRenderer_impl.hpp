@@ -34,15 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::SpriteRenderer*& GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::__get__spriteRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::__get__spriteRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteRenderer;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::__set__spriteRenderer(::UnityEngine::SpriteRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spriteRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Renderer* GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::get_renderer() {

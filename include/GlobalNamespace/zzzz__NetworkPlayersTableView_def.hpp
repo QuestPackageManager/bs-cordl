@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayersTableView)
-namespace HMUI {
-class __TableView__IDataSource;
+namespace GlobalNamespace {
+class LevelPackHeaderTableCell;
 }
 namespace GlobalNamespace {
 class __NetworkPlayersTableView__CellInfo;
-}
-namespace GlobalNamespace {
-class NetworkPlayerOptionsTableCell;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace HMUI {
 class TableCell;
 }
 namespace GlobalNamespace {
-class INetworkPlayer;
+class NetworkPlayerOptionsTableCell;
 }
 namespace GlobalNamespace {
-class LevelPackHeaderTableCell;
-}
-namespace HMUI {
-class TableView;
+class INetworkPlayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -113,7 +113,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkPlayer
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5585))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5585)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
 // CS Name: ::NetworkPlayersTableView::CellInfo*
 class CORDL_TYPE __NetworkPlayersTableView__CellInfo : public ::System::Object {

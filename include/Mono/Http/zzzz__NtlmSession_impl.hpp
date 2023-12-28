@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Http/zzzz__NtlmSession_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: ::Mono::Http::NtlmSession._ctor
 template <>
 
@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::Mono::Security::Protocol::Ntlm::MessageBase*& Mono::Http::NtlmSession::__get_message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::MessageBase*> const& Mono::Http::NtlmSession::__get_message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message;
 }
 constexpr void Mono::Http::NtlmSession::__set_message(::Mono::Security::Protocol::Ntlm::MessageBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Http::NtlmSession* Mono::Http::NtlmSession::New_ctor() {

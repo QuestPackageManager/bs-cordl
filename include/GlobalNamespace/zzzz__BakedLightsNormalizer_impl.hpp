@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightsNormalizer_def.hpp"
-#include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__LightConstants_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BakedLightsNormalizer.get_lightmapLightDict
 template <>
 
@@ -101,90 +101,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::BakedLightsNormalizer::__get__maxTotalIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxTotalIntensity;
 }
 constexpr float_t const& GlobalNamespace::BakedLightsNormalizer::__get__maxTotalIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxTotalIntensity;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__maxTotalIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxTotalIntensity = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::GlobalNamespace::LightmapLightWithIds*>*&
 GlobalNamespace::BakedLightsNormalizer::__get__lightmapLightDict() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightDict;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::GlobalNamespace::LightmapLightWithIds*>*> const&
 GlobalNamespace::BakedLightsNormalizer::__get__lightmapLightDict() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightDict;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__lightmapLightDict(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::GlobalNamespace::LightmapLightWithIds*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightmapLightDict)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::BakedLightsNormalizer::__get__lightmapDictInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapDictInitialized;
 }
 constexpr bool const& GlobalNamespace::BakedLightsNormalizer::__get__lightmapDictInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapDictInitialized;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__lightmapDictInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightmapDictInitialized = value;
 }
 constexpr float_t& GlobalNamespace::BakedLightsNormalizer::__get__grayscaleTotal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____grayscaleTotal;
 }
 constexpr float_t const& GlobalNamespace::BakedLightsNormalizer::__get__grayscaleTotal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____grayscaleTotal;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__grayscaleTotal(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____grayscaleTotal = value;
 }
 constexpr int32_t& GlobalNamespace::BakedLightsNormalizer::__get__lastCalculatedOnFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastCalculatedOnFrame;
 }
 constexpr int32_t const& GlobalNamespace::BakedLightsNormalizer::__get__lastCalculatedOnFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastCalculatedOnFrame;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__lastCalculatedOnFrame(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastCalculatedOnFrame = value;
 }
 constexpr bool& GlobalNamespace::BakedLightsNormalizer::__get__grayscaleCalculatedOnce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____grayscaleCalculatedOnce;
 }
 constexpr bool const& GlobalNamespace::BakedLightsNormalizer::__get__grayscaleCalculatedOnce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____grayscaleCalculatedOnce;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__grayscaleCalculatedOnce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____grayscaleCalculatedOnce = value;
 }
 constexpr bool& GlobalNamespace::BakedLightsNormalizer::__get__newUpdates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newUpdates;
 }
 constexpr bool const& GlobalNamespace::BakedLightsNormalizer::__get__newUpdates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newUpdates;
 }
 constexpr void GlobalNamespace::BakedLightsNormalizer::__set__newUpdates(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____newUpdates = value;
 }
 inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::GlobalNamespace::LightmapLightWithIds*>*

@@ -10,10 +10,10 @@ namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 // Forward declare root types
 namespace GlobalNamespace {

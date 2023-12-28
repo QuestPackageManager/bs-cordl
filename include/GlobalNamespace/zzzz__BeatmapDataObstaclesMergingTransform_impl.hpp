@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataObstaclesMergingTransform_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataObstaclesMergingTransform_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataObstaclesMergingTransform_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0._ctor
@@ -38,17 +38,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 };
 constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>&
 GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0::__get_prevObstacleDataInLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevObstacleDataInLines;
 }
 constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> const&
 GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0::__get_prevObstacleDataInLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevObstacleDataInLines;
 }
 constexpr void GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0::__set_prevObstacleDataInLines(
     ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prevObstacleDataInLines)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0* GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0::New_ctor() {

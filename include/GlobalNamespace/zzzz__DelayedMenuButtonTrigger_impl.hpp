@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DelayedMenuButtonTrigger_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DelayedMenuButtonTrigger.add_menuButtonTriggeredEvent
 template <>
 
@@ -70,63 +70,63 @@ constexpr GlobalNamespace::DelayedMenuButtonTrigger::operator ::GlobalNamespace:
   return static_cast<::GlobalNamespace::IMenuButtonTrigger*>(static_cast<void*>(this));
 }
 constexpr ::System::Action*& GlobalNamespace::DelayedMenuButtonTrigger::__get_menuButtonTriggeredEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuButtonTriggeredEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::DelayedMenuButtonTrigger::__get_menuButtonTriggeredEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuButtonTriggeredEvent;
 }
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__set_menuButtonTriggeredEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___menuButtonTriggeredEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::DelayedMenuButtonTrigger::__get__pressDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressDuration;
 }
 constexpr float_t const& GlobalNamespace::DelayedMenuButtonTrigger::__get__pressDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressDuration;
 }
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__set__pressDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressDuration = value;
 }
 constexpr float_t& GlobalNamespace::DelayedMenuButtonTrigger::__get__timer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer;
 }
 constexpr float_t const& GlobalNamespace::DelayedMenuButtonTrigger::__get__timer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer;
 }
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__set__timer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timer = value;
 }
 constexpr bool& GlobalNamespace::DelayedMenuButtonTrigger::__get__waitingForButtonRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitingForButtonRelease;
 }
 constexpr bool const& GlobalNamespace::DelayedMenuButtonTrigger::__get__waitingForButtonRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitingForButtonRelease;
 }
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__set__waitingForButtonRelease(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____waitingForButtonRelease = value;
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DelayedMenuButtonTrigger::__get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::DelayedMenuButtonTrigger::__get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr void GlobalNamespace::DelayedMenuButtonTrigger::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::DelayedMenuButtonTrigger::add_menuButtonTriggeredEvent(::System::Action* value) {

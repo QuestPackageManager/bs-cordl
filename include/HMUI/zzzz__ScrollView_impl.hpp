@@ -3,18 +3,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "HMUI/zzzz__VerticalScrollIndicator_def.hpp"
-#include "HMUI/zzzz__ScrollView_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__ItemForFocussedScrolling_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "HMUI/zzzz__ScrollView_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "HMUI/zzzz__EventSystemListener_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "HMUI/zzzz__ItemForFocussedScrolling_def.hpp"
+#include "HMUI/zzzz__EventSystemListener_def.hpp"
+#include "HMUI/zzzz__VerticalScrollIndicator_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HMUI::__ScrollView__ScrollType::__ScrollView__ScrollType(int32_t value__) noexcept {
@@ -157,15 +157,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::__ScrollView____c__DisplayClass55_0::__get_threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr float_t const& HMUI::__ScrollView____c__DisplayClass55_0::__get_threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr void HMUI::__ScrollView____c__DisplayClass55_0::__set_threshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
 inline ::HMUI::__ScrollView____c__DisplayClass55_0* HMUI::__ScrollView____c__DisplayClass55_0::New_ctor() {
@@ -213,15 +213,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::__ScrollView____c__DisplayClass56_0::__get_threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr float_t const& HMUI::__ScrollView____c__DisplayClass56_0::__get_threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr void HMUI::__ScrollView____c__DisplayClass56_0::__set_threshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
 inline ::HMUI::__ScrollView____c__DisplayClass56_0* HMUI::__ScrollView____c__DisplayClass56_0::New_ctor() {
@@ -269,15 +269,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::__ScrollView____c__DisplayClass61_0::__get_threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr float_t const& HMUI::__ScrollView____c__DisplayClass61_0::__get_threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr void HMUI::__ScrollView____c__DisplayClass61_0::__set_threshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
 inline ::HMUI::__ScrollView____c__DisplayClass61_0* HMUI::__ScrollView____c__DisplayClass61_0::New_ctor() {
@@ -325,15 +325,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::__ScrollView____c__DisplayClass61_1::__get_threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr float_t const& HMUI::__ScrollView____c__DisplayClass61_1::__get_threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 constexpr void HMUI::__ScrollView____c__DisplayClass61_1::__set_threshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
 inline ::HMUI::__ScrollView____c__DisplayClass61_1* HMUI::__ScrollView____c__DisplayClass61_1::New_ctor() {
@@ -793,291 +793,291 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RectTransform*& HMUI::ScrollView::__get__viewport() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewport;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& HMUI::ScrollView::__get__viewport() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewport;
 }
 constexpr void HMUI::ScrollView::__set__viewport(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewport)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RectTransform*& HMUI::ScrollView::__get__contentRectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& HMUI::ScrollView::__get__contentRectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRectTransform;
 }
 constexpr void HMUI::ScrollView::__set__contentRectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contentRectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__ScrollView__ScrollViewDirection& HMUI::ScrollView::__get__scrollViewDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollViewDirection;
 }
 constexpr ::HMUI::__ScrollView__ScrollViewDirection const& HMUI::ScrollView::__get__scrollViewDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollViewDirection;
 }
 constexpr void HMUI::ScrollView::__set__scrollViewDirection(::HMUI::__ScrollView__ScrollViewDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollViewDirection = value;
 }
 constexpr ::UnityEngine::UI::Button*& HMUI::ScrollView::__get__pageUpButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageUpButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& HMUI::ScrollView::__get__pageUpButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageUpButton;
 }
 constexpr void HMUI::ScrollView::__set__pageUpButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageUpButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& HMUI::ScrollView::__get__pageDownButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageDownButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& HMUI::ScrollView::__get__pageDownButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageDownButton;
 }
 constexpr void HMUI::ScrollView::__set__pageDownButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageDownButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::VerticalScrollIndicator*& HMUI::ScrollView::__get__verticalScrollIndicator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalScrollIndicator;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::VerticalScrollIndicator*> const& HMUI::ScrollView::__get__verticalScrollIndicator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalScrollIndicator;
 }
 constexpr void HMUI::ScrollView::__set__verticalScrollIndicator(::HMUI::VerticalScrollIndicator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____verticalScrollIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::ScrollView::__get__smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 constexpr float_t const& HMUI::ScrollView::__get__smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 constexpr void HMUI::ScrollView::__set__smooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smooth = value;
 }
 constexpr float_t& HMUI::ScrollView::__get__joystickScrollSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickScrollSpeed;
 }
 constexpr float_t const& HMUI::ScrollView::__get__joystickScrollSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickScrollSpeed;
 }
 constexpr void HMUI::ScrollView::__set__joystickScrollSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____joystickScrollSpeed = value;
 }
 constexpr float_t& HMUI::ScrollView::__get__joystickQuickSnapMaxTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickQuickSnapMaxTime;
 }
 constexpr float_t const& HMUI::ScrollView::__get__joystickQuickSnapMaxTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickQuickSnapMaxTime;
 }
 constexpr void HMUI::ScrollView::__set__joystickQuickSnapMaxTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____joystickQuickSnapMaxTime = value;
 }
 constexpr ::HMUI::__ScrollView__ScrollType& HMUI::ScrollView::__get__scrollType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollType;
 }
 constexpr ::HMUI::__ScrollView__ScrollType const& HMUI::ScrollView::__get__scrollType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollType;
 }
 constexpr void HMUI::ScrollView::__set__scrollType(::HMUI::__ScrollView__ScrollType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollType = value;
 }
 constexpr float_t& HMUI::ScrollView::__get__fixedCellSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedCellSize;
 }
 constexpr float_t const& HMUI::ScrollView::__get__fixedCellSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedCellSize;
 }
 constexpr void HMUI::ScrollView::__set__fixedCellSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fixedCellSize = value;
 }
 constexpr float_t& HMUI::ScrollView::__get__scrollItemRelativeThresholdPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollItemRelativeThresholdPosition;
 }
 constexpr float_t const& HMUI::ScrollView::__get__scrollItemRelativeThresholdPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollItemRelativeThresholdPosition;
 }
 constexpr void HMUI::ScrollView::__set__scrollItemRelativeThresholdPosition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollItemRelativeThresholdPosition = value;
 }
 constexpr float_t& HMUI::ScrollView::__get__pageStepNormalizedSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageStepNormalizedSize;
 }
 constexpr float_t const& HMUI::ScrollView::__get__pageStepNormalizedSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageStepNormalizedSize;
 }
 constexpr void HMUI::ScrollView::__set__pageStepNormalizedSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pageStepNormalizedSize = value;
 }
 constexpr bool& HMUI::ScrollView::__get__scrollingLastFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollingLastFrame;
 }
 constexpr bool const& HMUI::ScrollView::__get__scrollingLastFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollingLastFrame;
 }
 constexpr void HMUI::ScrollView::__set__scrollingLastFrame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollingLastFrame = value;
 }
 constexpr bool& HMUI::ScrollView::__get__isHoveredByPointer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isHoveredByPointer;
 }
 constexpr bool const& HMUI::ScrollView::__get__isHoveredByPointer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isHoveredByPointer;
 }
 constexpr void HMUI::ScrollView::__set__isHoveredByPointer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isHoveredByPointer = value;
 }
 constexpr bool& HMUI::ScrollView::__get__shouldAnimate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldAnimate;
 }
 constexpr bool const& HMUI::ScrollView::__get__shouldAnimate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldAnimate;
 }
 constexpr void HMUI::ScrollView::__set__shouldAnimate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shouldAnimate = value;
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& HMUI::ScrollView::__get__platformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& HMUI::ScrollView::__get__platformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformHelper;
 }
 constexpr void HMUI::ScrollView::__set__platformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<float_t>*& HMUI::ScrollView::__get_scrollPositionChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollPositionChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& HMUI::ScrollView::__get_scrollPositionChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollPositionChangedEvent;
 }
 constexpr void HMUI::ScrollView::__set_scrollPositionChangedEvent(::System::Action_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scrollPositionChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ButtonBinder*& HMUI::ScrollView::__get__buttonBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& HMUI::ScrollView::__get__buttonBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void HMUI::ScrollView::__set__buttonBinder(::HMUI::ButtonBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::ScrollView::__get__destinationPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destinationPos;
 }
 constexpr float_t const& HMUI::ScrollView::__get__destinationPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destinationPos;
 }
 constexpr void HMUI::ScrollView::__set__destinationPos(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____destinationPos = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HMUI::ScrollView::__get__scrollFocusPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollFocusPositions;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HMUI::ScrollView::__get__scrollFocusPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollFocusPositions;
 }
 constexpr void HMUI::ScrollView::__set__scrollFocusPositions(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scrollFocusPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::EventSystemListener*& HMUI::ScrollView::__get__eventSystemListener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventSystemListener;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::EventSystemListener*> const& HMUI::ScrollView::__get__eventSystemListener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventSystemListener;
 }
 constexpr void HMUI::ScrollView::__set__eventSystemListener(::HMUI::EventSystemListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventSystemListener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__ScrollView__ScrollDirection& HMUI::ScrollView::__get__lastJoystickScrollDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastJoystickScrollDirection;
 }
 constexpr ::HMUI::__ScrollView__ScrollDirection const& HMUI::ScrollView::__get__lastJoystickScrollDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastJoystickScrollDirection;
 }
 constexpr void HMUI::ScrollView::__set__lastJoystickScrollDirection(::HMUI::__ScrollView__ScrollDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastJoystickScrollDirection = value;
 }
 constexpr float_t& HMUI::ScrollView::__get__joystickScrollStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickScrollStartTime;
 }
 constexpr float_t const& HMUI::ScrollView::__get__joystickScrollStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickScrollStartTime;
 }
 constexpr void HMUI::ScrollView::__set__joystickScrollStartTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____joystickScrollStartTime = value;
 }
 inline void HMUI::ScrollView::add_scrollPositionChangedEvent(::System::Action_1<float_t>* value) {

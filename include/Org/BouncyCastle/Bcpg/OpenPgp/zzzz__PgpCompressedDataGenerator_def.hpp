@@ -12,20 +12,20 @@ CORDL_MODULE_EXPORT(PgpCompressedDataGenerator)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
 }
+namespace Org::BouncyCastle::Bcpg {
+struct CompressionAlgorithmTag;
+}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpCompressedDataGenerator__SafeCBZip2OutputStream;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpCompressedDataGenerator__SafeZOutputStream;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct CompressionAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

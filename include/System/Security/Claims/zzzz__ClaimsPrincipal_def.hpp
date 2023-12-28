@@ -8,26 +8,26 @@ CORDL_MODULE_EXPORT(ClaimsPrincipal)
 namespace System::Security::Claims {
 class ClaimsIdentity;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Security::Principal {
-class IPrincipal;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System::Security::Principal {
+class IPrincipal;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Security::Claims {

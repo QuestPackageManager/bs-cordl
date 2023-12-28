@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewController)
+namespace System {
+class Action;
+}
 namespace UnityEngine::UIElements {
-class ListView;
+class ReusableCollectionItem;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class ListView;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

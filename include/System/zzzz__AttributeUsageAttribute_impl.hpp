@@ -72,39 +72,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::AttributeTargets& System::AttributeUsageAttribute::__get__attributeTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributeTarget;
 }
 constexpr ::System::AttributeTargets const& System::AttributeUsageAttribute::__get__attributeTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributeTarget;
 }
 constexpr void System::AttributeUsageAttribute::__set__attributeTarget(::System::AttributeTargets value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____attributeTarget = value;
 }
 constexpr bool& System::AttributeUsageAttribute::__get__allowMultiple() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowMultiple;
 }
 constexpr bool const& System::AttributeUsageAttribute::__get__allowMultiple() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowMultiple;
 }
 constexpr void System::AttributeUsageAttribute::__set__allowMultiple(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allowMultiple = value;
 }
 constexpr bool& System::AttributeUsageAttribute::__get__inherited() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inherited;
 }
 constexpr bool const& System::AttributeUsageAttribute::__get__inherited() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inherited;
 }
 constexpr void System::AttributeUsageAttribute::__set__inherited(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inherited = value;
 }
 inline void System::AttributeUsageAttribute::setStaticF_Default(::System::AttributeUsageAttribute* value) {

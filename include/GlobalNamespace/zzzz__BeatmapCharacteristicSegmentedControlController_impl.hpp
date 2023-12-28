@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c._ctor
 template <>
@@ -209,57 +209,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::IconSegmentedControl*& GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get__segmentedControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____segmentedControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::IconSegmentedControl*> const& GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get__segmentedControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____segmentedControl;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__set__segmentedControl(::HMUI::IconSegmentedControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____segmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get_didSelectBeatmapCharacteristicEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectBeatmapCharacteristicEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*> const&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get_didSelectBeatmapCharacteristicEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectBeatmapCharacteristicEvent;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__set_didSelectBeatmapCharacteristicEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectBeatmapCharacteristicEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get__selectedBeatmapCharacteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedBeatmapCharacteristic;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get__selectedBeatmapCharacteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedBeatmapCharacteristic;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__set__selectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedBeatmapCharacteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get__beatmapCharacteristics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristics;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*> const&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__get__beatmapCharacteristics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristics;
 }
 constexpr void
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__set__beatmapCharacteristics(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::add_didSelectBeatmapCharacteristicEvent(

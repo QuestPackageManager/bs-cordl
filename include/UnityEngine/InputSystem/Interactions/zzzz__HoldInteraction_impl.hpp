@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__HoldInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Interactions::HoldInteraction.get_durationOrDefault
 template <>
 
@@ -83,39 +83,39 @@ constexpr UnityEngine::InputSystem::Interactions::HoldInteraction::operator ::Un
   return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::HoldInteraction::__get_duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::HoldInteraction::__get_duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr void UnityEngine::InputSystem::Interactions::HoldInteraction::__set_duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::HoldInteraction::__get_pressPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::HoldInteraction::__get_pressPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr void UnityEngine::InputSystem::Interactions::HoldInteraction::__set_pressPoint(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pressPoint = value;
 }
 constexpr double_t& UnityEngine::InputSystem::Interactions::HoldInteraction::__get_m_TimePressed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimePressed;
 }
 constexpr double_t const& UnityEngine::InputSystem::Interactions::HoldInteraction::__get_m_TimePressed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimePressed;
 }
 constexpr void UnityEngine::InputSystem::Interactions::HoldInteraction::__set_m_TimePressed(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TimePressed = value;
 }
 inline float_t UnityEngine::InputSystem::Interactions::HoldInteraction::get_durationOrDefault() {

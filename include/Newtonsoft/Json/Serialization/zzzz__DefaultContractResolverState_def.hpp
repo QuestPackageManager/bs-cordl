@@ -10,11 +10,11 @@ class JsonContract;
 namespace Newtonsoft::Json::Serialization {
 struct ResolverContractKey;
 }
-namespace Newtonsoft::Json::Utilities {
-class PropertyNameTable;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace Newtonsoft::Json::Utilities {
+class PropertyNameTable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

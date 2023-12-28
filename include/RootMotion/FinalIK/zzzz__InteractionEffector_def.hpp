@@ -13,8 +13,17 @@ CORDL_MODULE_EXPORT(InteractionEffector)
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace RootMotion::FinalIK {
 class Poser;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace RootMotion::FinalIK {
+class InteractionSystem;
 }
 namespace RootMotion::FinalIK {
 class InteractionTarget;
@@ -23,16 +32,7 @@ namespace RootMotion::FinalIK {
 class InteractionObject;
 }
 namespace RootMotion::FinalIK {
-class InteractionSystem;
-}
-namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::InteractionEffector);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12595)) CS Name: ::RootMotion.FinalIK::InteractionEffector*
 class CORDL_TYPE InteractionEffector : public ::System::Object {
 public:

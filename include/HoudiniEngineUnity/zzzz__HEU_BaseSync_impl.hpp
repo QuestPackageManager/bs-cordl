@@ -2,18 +2,18 @@
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateOptions_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferInstancer_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_BaseSync.Awake
 template <>
@@ -568,196 +568,196 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::HEU_BaseSync::__get__cookNodeID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookNodeID;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_BaseSync::__get__cookNodeID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookNodeID;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__cookNodeID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cookNodeID = value;
 }
 constexpr int64_t& HoudiniEngineUnity::HEU_BaseSync::__get__sessionID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionID;
 }
 constexpr int64_t const& HoudiniEngineUnity::HEU_BaseSync::__get__sessionID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionID;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__sessionID(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sessionID = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_BaseSync::__get__nodeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_BaseSync::__get__nodeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeName;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__nodeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_BaseSync::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_BaseSync::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_BaseSync::__get__syncing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncing;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_BaseSync::__get__syncing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncing;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__syncing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____syncing = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_BaseSync::__get__deleteParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deleteParent;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_BaseSync::__get__deleteParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deleteParent;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__deleteParent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deleteParent = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*& HoudiniEngineUnity::HEU_BaseSync::__get__generatedOutputs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generatedOutputs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*> const&
 HoudiniEngineUnity::HEU_BaseSync::__get__generatedOutputs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generatedOutputs;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__generatedOutputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____generatedOutputs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_BaseSync::__get__outputCacheDirectory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputCacheDirectory;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_BaseSync::__get__outputCacheDirectory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputCacheDirectory;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__outputCacheDirectory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outputCacheDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& HoudiniEngineUnity::HEU_BaseSync::__get__outputCacheFilePaths() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputCacheFilePaths;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& HoudiniEngineUnity::HEU_BaseSync::__get__outputCacheFilePaths() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputCacheFilePaths;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__outputCacheFilePaths(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outputCacheFilePaths)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_GenerateOptions& HoudiniEngineUnity::HEU_BaseSync::__get__generateOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateOptions;
 }
 constexpr ::HoudiniEngineUnity::HEU_GenerateOptions const& HoudiniEngineUnity::HEU_BaseSync::__get__generateOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateOptions;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__generateOptions(::HoudiniEngineUnity::HEU_GenerateOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateOptions = value;
 }
 constexpr ::System::Text::StringBuilder*& HoudiniEngineUnity::HEU_BaseSync::__get__log() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____log;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& HoudiniEngineUnity::HEU_BaseSync::__get__log() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____log;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__log(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____log)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& HoudiniEngineUnity::HEU_BaseSync::__get__error() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____error;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& HoudiniEngineUnity::HEU_BaseSync::__get__error() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____error;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__error(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____error)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_BaseSync::__get__sessionSyncAutoCook() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionSyncAutoCook;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_BaseSync::__get__sessionSyncAutoCook() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionSyncAutoCook;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__sessionSyncAutoCook(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sessionSyncAutoCook = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*& HoudiniEngineUnity::HEU_BaseSync::__get__loadTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*> const& HoudiniEngineUnity::HEU_BaseSync::__get__loadTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadTask;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__loadTask(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_BaseSync::__get__totalCookCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalCookCount;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_BaseSync::__get__totalCookCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalCookCount;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__totalCookCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalCookCount = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_BaseSync::__get__firstSyncComplete() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstSyncComplete;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_BaseSync::__get__firstSyncComplete() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstSyncComplete;
 }
 constexpr void HoudiniEngineUnity::HEU_BaseSync::__set__firstSyncComplete(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstSyncComplete = value;
 }
 inline void HoudiniEngineUnity::HEU_BaseSync::Awake() {

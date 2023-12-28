@@ -6,25 +6,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509Extensions)
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extension;
@@ -32,14 +14,32 @@ class X509Extension;
 namespace System::Collections {
 class Hashtable;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;

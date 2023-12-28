@@ -6,17 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HelpFlowCoordinator)
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace GlobalNamespace {
+class PlayerStatisticsViewController;
 }
 namespace GlobalNamespace {
-class HelpNavigationController;
+class PrivacyPolicyDisplayViewController;
 }
 namespace GlobalNamespace {
-class HealthWarningDisplayViewController;
-}
-namespace GlobalNamespace {
-class MenuTransitionsHelper;
+class PlayerDataModel;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -24,32 +21,35 @@ template <typename T> class List_1;
 namespace GlobalNamespace {
 struct __HowToPlayViewController__HowToPlayOptions;
 }
-namespace GlobalNamespace {
-class EulaDisplayViewController;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class HowToPlayViewController;
+class EulaDisplayViewController;
 }
 namespace GlobalNamespace {
 class LicensesDisplayViewController;
 }
 namespace GlobalNamespace {
+class HelpNavigationController;
+}
+namespace GlobalNamespace {
 class HelpMenuViewController;
 }
-namespace GlobalNamespace {
-class PlayerStatisticsViewController;
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace GlobalNamespace {
-class PrivacyPolicyDisplayViewController;
+class HowToPlayViewController;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
 }
 namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class HealthWarningDisplayViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

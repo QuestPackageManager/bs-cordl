@@ -4,31 +4,31 @@
 #include "UnityEngine/Playables/zzzz__PlayableBinding_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Timeline/zzzz__MarkerTrack_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__DiscreteTime_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "UnityEngine/Timeline/zzzz__MarkerTrack_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Timeline/zzzz__StandardFrameRates_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Timeline::__TimelineAsset__Versions::__TimelineAsset__Versions(int32_t value__) noexcept {
   this->value__ = value__;
@@ -176,27 +176,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr double_t& UnityEngine::Timeline::__TimelineAsset__EditorSettings::__get_m_Framerate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Framerate;
 }
 constexpr double_t const& UnityEngine::Timeline::__TimelineAsset__EditorSettings::__get_m_Framerate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Framerate;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset__EditorSettings::__set_m_Framerate(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Framerate = value;
 }
 constexpr bool& UnityEngine::Timeline::__TimelineAsset__EditorSettings::__get_m_ScenePreview() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScenePreview;
 }
 constexpr bool const& UnityEngine::Timeline::__TimelineAsset__EditorSettings::__get_m_ScenePreview() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScenePreview;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset__EditorSettings::__set_m_ScenePreview(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScenePreview = value;
 }
 inline void UnityEngine::Timeline::__TimelineAsset__EditorSettings::setStaticF_kMinFrameRate(double_t value) {
@@ -441,77 +441,77 @@ constexpr UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::operator :
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::Playables::PlayableBinding& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::UnityEngine::Playables::PlayableBinding const& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__set___2__current(::UnityEngine::Playables::PlayableBinding value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::Timeline::TimelineAsset*& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TimelineAsset*> const& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__set___4__this(::UnityEngine::Timeline::TimelineAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Timeline::TrackAsset*>*& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Timeline::TrackAsset*>*> const&
 UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityEngine::Timeline::TrackAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*& UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*> const&
 UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr void UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27* UnityEngine::Timeline::__TimelineAsset___get_outputs_d__27::New_ctor(int32_t __1__state) {
@@ -1198,112 +1198,112 @@ constexpr UnityEngine::Timeline::TimelineAsset::operator ::UnityEngine::Timeline
   return static_cast<::UnityEngine::Timeline::IPropertyPreview*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::Timeline::TimelineAsset::__get_m_Version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
 constexpr int32_t const& UnityEngine::Timeline::TimelineAsset::__get_m_Version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Version;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_Version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Version = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*& UnityEngine::Timeline::TimelineAsset::__get_m_Tracks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tracks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*> const& UnityEngine::Timeline::TimelineAsset::__get_m_Tracks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tracks;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_Tracks(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Tracks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr double_t& UnityEngine::Timeline::TimelineAsset::__get_m_FixedDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FixedDuration;
 }
 constexpr double_t const& UnityEngine::Timeline::TimelineAsset::__get_m_FixedDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FixedDuration;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_FixedDuration(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FixedDuration = value;
 }
 constexpr ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*>& UnityEngine::Timeline::TimelineAsset::__get_m_CacheOutputTracks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheOutputTracks;
 }
 constexpr ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> const& UnityEngine::Timeline::TimelineAsset::__get_m_CacheOutputTracks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheOutputTracks;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_CacheOutputTracks(::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheOutputTracks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>*& UnityEngine::Timeline::TimelineAsset::__get_m_CacheRootTracks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheRootTracks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>*> const&
 UnityEngine::Timeline::TimelineAsset::__get_m_CacheRootTracks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheRootTracks;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_CacheRootTracks(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheRootTracks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*>& UnityEngine::Timeline::TimelineAsset::__get_m_CacheFlattenedTracks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheFlattenedTracks;
 }
 constexpr ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> const& UnityEngine::Timeline::TimelineAsset::__get_m_CacheFlattenedTracks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheFlattenedTracks;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_CacheFlattenedTracks(::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheFlattenedTracks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Timeline::__TimelineAsset__EditorSettings*& UnityEngine::Timeline::TimelineAsset::__get_m_EditorSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EditorSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::__TimelineAsset__EditorSettings*> const& UnityEngine::Timeline::TimelineAsset::__get_m_EditorSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EditorSettings;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_EditorSettings(::UnityEngine::Timeline::__TimelineAsset__EditorSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EditorSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Timeline::__TimelineAsset__DurationMode& UnityEngine::Timeline::TimelineAsset::__get_m_DurationMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DurationMode;
 }
 constexpr ::UnityEngine::Timeline::__TimelineAsset__DurationMode const& UnityEngine::Timeline::TimelineAsset::__get_m_DurationMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DurationMode;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_DurationMode(::UnityEngine::Timeline::__TimelineAsset__DurationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DurationMode = value;
 }
 constexpr ::UnityEngine::Timeline::MarkerTrack*& UnityEngine::Timeline::TimelineAsset::__get_m_MarkerTrack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarkerTrack;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::MarkerTrack*> const& UnityEngine::Timeline::TimelineAsset::__get_m_MarkerTrack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarkerTrack;
 }
 constexpr void UnityEngine::Timeline::TimelineAsset::__set_m_MarkerTrack(::UnityEngine::Timeline::MarkerTrack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MarkerTrack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::Timeline::TimelineAsset::UpgradeToLatestVersion() {

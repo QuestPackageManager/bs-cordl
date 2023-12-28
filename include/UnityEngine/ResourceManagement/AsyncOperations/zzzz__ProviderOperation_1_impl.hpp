@@ -5,24 +5,24 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ProviderOperation_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
+#include "System/zzzz__Action_4_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation"
 template <typename TObject>
 constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::operator ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*() noexcept {
@@ -34,221 +34,221 @@ constexpr UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<
   return static_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(static_cast<void*>(this));
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ReleaseDependenciesOnFailure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
 }
 template <typename TObject> constexpr bool const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ReleaseDependenciesOnFailure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_ReleaseDependenciesOnFailure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReleaseDependenciesOnFailure = value;
 }
 template <typename TObject>
 constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_CompletionCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CompletionCallback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_CompletionCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CompletionCallback;
 }
 template <typename TObject>
 constexpr void
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_CompletionCallback(::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CompletionCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>
 constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_GetDepCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetDepCallback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_GetDepCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetDepCallback;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_GetDepCallback(
     ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GetDepCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Func_1<float_t>*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_GetProgressCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetProgressCallback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<float_t>*> const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_GetProgressCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetProgressCallback;
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_GetProgressCallback(::System::Func_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GetProgressCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>
 constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_GetDownloadProgressCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetDownloadProgressCallback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_GetDownloadProgressCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetDownloadProgressCallback;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_GetDownloadProgressCallback(
     ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GetDownloadProgressCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Func_1<bool>*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_WaitForCompletionCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitForCompletionCallback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_WaitForCompletionCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitForCompletionCallback;
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_WaitForCompletionCallback(::System::Func_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_WaitForCompletionCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_DownloadStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadStatus;
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_DownloadStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadStatus;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_DownloadStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DownloadStatus = value;
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_Provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Provider;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_Provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Provider;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_DepOp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DepOp;
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_DepOp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DepOp;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_DepOp(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DepOp = value;
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_Location() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Location;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_Location() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Location;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Location)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr int32_t& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ProvideHandleVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProvideHandleVersion;
 }
 template <typename TObject> constexpr int32_t const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ProvideHandleVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProvideHandleVersion;
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_ProvideHandleVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProvideHandleVersion = value;
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_NeedsRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NeedsRelease;
 }
 template <typename TObject> constexpr bool const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_NeedsRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NeedsRelease;
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_NeedsRelease(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NeedsRelease = value;
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(
     ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::UnityEngine::ResourceManagement::ResourceManager*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ResourceManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const&
 UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__get_m_ResourceManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>

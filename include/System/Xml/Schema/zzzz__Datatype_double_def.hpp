@@ -8,22 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_double)
 namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -35,7 +20,22 @@ namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System {
+class Type;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Object;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System {
 class Exception;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverterCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1025 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11830))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11831)) CS Name: ::Newtonsoft.Json::JsonConverterCollection*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3814)), TypeDefinitionIndex(TypeDefinitionIndex(11830)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst:
+// 1025 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11831)) CS Name: ::Newtonsoft.Json::JsonConverterCollection*
 class CORDL_TYPE JsonConverterCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::JsonConverter*> {
 public:
   // Declarations

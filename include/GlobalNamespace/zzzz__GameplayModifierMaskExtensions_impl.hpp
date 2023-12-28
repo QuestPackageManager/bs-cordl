@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMaskExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifierMaskExtensions.Contains
 template <>
 

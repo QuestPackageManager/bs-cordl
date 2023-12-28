@@ -2,27 +2,27 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>*& UnityEngine::UIElements::UIR::BasicNode_1<T>::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> const& UnityEngine::UIElements::UIR::BasicNode_1<T>::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::BasicNode_1<T>::__set_next(::UnityEngine::UIElements::UIR::BasicNode_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& UnityEngine::UIElements::UIR::BasicNode_1<T>::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 template <typename T> constexpr T const& UnityEngine::UIElements::UIR::BasicNode_1<T>::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::BasicNode_1<T>::__set_data(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::AppendTo(ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first) {

@@ -2,8 +2,8 @@
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Globalization/zzzz__HijriCalendar_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::System::Globalization::HijriCalendar.get_MinSupportedDateTime
 template <>
 
@@ -402,15 +402,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Globalization::HijriCalendar::__get_m_HijriAdvance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HijriAdvance;
 }
 constexpr int32_t const& System::Globalization::HijriCalendar::__get_m_HijriAdvance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HijriAdvance;
 }
 constexpr void System::Globalization::HijriCalendar::__set_m_HijriAdvance(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HijriAdvance = value;
 }
 inline void System::Globalization::HijriCalendar::setStaticF_HijriEra(int32_t value) {

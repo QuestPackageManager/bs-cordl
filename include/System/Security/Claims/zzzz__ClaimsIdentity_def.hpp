@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClaimsIdentity)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Security::Claims {
-class __ClaimsIdentity___get_Claims_d__51;
+class Claim;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
 }
 namespace System::Security::Claims {
-class Claim;
+class __ClaimsIdentity___get_Claims_d__51;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct StreamingContext;
 }
 namespace System::Security::Principal {
 class IIdentity;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System {
 class IDisposable;

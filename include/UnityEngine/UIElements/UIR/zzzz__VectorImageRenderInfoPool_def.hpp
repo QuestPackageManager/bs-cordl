@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(VectorImageRenderInfoPool)
 namespace UnityEngine::UIElements::UIR {
 class __VectorImageRenderInfoPool____c;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace UnityEngine::UIElements::UIR {
 class VectorImageRenderInfo;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 413 }), TypeDefinitionIndex(TypeDefinitionIndex(7400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7419))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7418)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 413 }), TypeDefinitionIndex(TypeDefinitionIndex(7419)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7418)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
 class CORDL_TYPE VectorImageRenderInfoPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations

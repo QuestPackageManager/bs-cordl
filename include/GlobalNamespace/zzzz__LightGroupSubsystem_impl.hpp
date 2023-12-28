@@ -56,15 +56,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LightGroup*& GlobalNamespace::LightGroupSubsystem::__get__lightGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroup*> const& GlobalNamespace::LightGroupSubsystem::__get__lightGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroup;
 }
 constexpr void GlobalNamespace::LightGroupSubsystem::__set__lightGroup(::GlobalNamespace::LightGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::LightGroupSubsystem::get_groupId() {

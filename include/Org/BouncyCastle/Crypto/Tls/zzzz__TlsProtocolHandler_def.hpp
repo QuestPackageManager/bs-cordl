@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientProtocol_def.hpp"
 CORDL_MODULE_EXPORT(TlsProtocolHandler)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

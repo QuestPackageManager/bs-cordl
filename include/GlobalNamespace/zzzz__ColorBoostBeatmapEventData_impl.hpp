@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorBoostBeatmapEventData._ctor
 template <>
 
@@ -49,15 +49,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::ColorBoostBeatmapEventData::__get_boostColorsAreOn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boostColorsAreOn;
 }
 constexpr bool const& GlobalNamespace::ColorBoostBeatmapEventData::__get_boostColorsAreOn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boostColorsAreOn;
 }
 constexpr void GlobalNamespace::ColorBoostBeatmapEventData::__set_boostColorsAreOn(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___boostColorsAreOn = value;
 }
 inline void GlobalNamespace::ColorBoostBeatmapEventData::setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value) {

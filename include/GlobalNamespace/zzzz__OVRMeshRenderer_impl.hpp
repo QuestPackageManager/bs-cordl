@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider.GetMeshRendererData
 template <>
 
@@ -364,147 +364,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*& GlobalNamespace::OVRMeshRenderer::__get__dataProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*> const& GlobalNamespace::OVRMeshRenderer::__get__dataProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__dataProvider(::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRMesh*& GlobalNamespace::OVRMeshRenderer::__get__ovrMesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ovrMesh;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMesh*> const& GlobalNamespace::OVRMeshRenderer::__get__ovrMesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ovrMesh;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__ovrMesh(::GlobalNamespace::OVRMesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ovrMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSkeleton*& GlobalNamespace::OVRMeshRenderer::__get__ovrSkeleton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ovrSkeleton;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& GlobalNamespace::OVRMeshRenderer::__get__ovrSkeleton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ovrSkeleton;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__ovrSkeleton(::GlobalNamespace::OVRSkeleton* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ovrSkeleton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior& GlobalNamespace::OVRMeshRenderer::__get__confidenceBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____confidenceBehavior;
 }
 constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior const& GlobalNamespace::OVRMeshRenderer::__get__confidenceBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____confidenceBehavior;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__confidenceBehavior(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____confidenceBehavior = value;
 }
 constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior& GlobalNamespace::OVRMeshRenderer::__get__systemGestureBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureBehavior;
 }
 constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior const& GlobalNamespace::OVRMeshRenderer::__get__systemGestureBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureBehavior;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__systemGestureBehavior(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____systemGestureBehavior = value;
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::OVRMeshRenderer::__get__systemGestureMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::OVRMeshRenderer::__get__systemGestureMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureMaterial;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__systemGestureMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____systemGestureMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::OVRMeshRenderer::__get__originalMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::OVRMeshRenderer::__get__originalMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalMaterial;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__originalMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SkinnedMeshRenderer*& GlobalNamespace::OVRMeshRenderer::__get__skinnedMeshRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinnedMeshRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& GlobalNamespace::OVRMeshRenderer::__get__skinnedMeshRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinnedMeshRenderer;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skinnedMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRMeshRenderer::__get__IsInitialized_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRMeshRenderer::__get__IsInitialized_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__IsInitialized_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsInitialized_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRMeshRenderer::__get__IsDataValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRMeshRenderer::__get__IsDataValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataValid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__IsDataValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDataValid_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRMeshRenderer::__get__IsDataHighConfidence_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataHighConfidence_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRMeshRenderer::__get__IsDataHighConfidence_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataHighConfidence_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__IsDataHighConfidence_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDataHighConfidence_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRMeshRenderer::__get__ShouldUseSystemGestureMaterial_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShouldUseSystemGestureMaterial_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRMeshRenderer::__get__ShouldUseSystemGestureMaterial_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShouldUseSystemGestureMaterial_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRMeshRenderer::__set__ShouldUseSystemGestureMaterial_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ShouldUseSystemGestureMaterial_k__BackingField = value;
 }
 inline bool GlobalNamespace::OVRMeshRenderer::get_IsInitialized() {

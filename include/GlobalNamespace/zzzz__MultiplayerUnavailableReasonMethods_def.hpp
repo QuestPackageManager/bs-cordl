@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerUnavailableReasonMethods)
 namespace GlobalNamespace {
-struct MultiplayerUnavailableReason;
+class MultiplayerStatusData;
 }
 namespace GlobalNamespace {
-class MultiplayerStatusData;
+struct MultiplayerUnavailableReason;
 }
 namespace Polyglot {
 struct Language;

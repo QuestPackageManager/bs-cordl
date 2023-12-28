@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& Oculus::Platform::Models::AppDownloadResult::__get_Timestamp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timestamp;
 }
 constexpr int64_t const& Oculus::Platform::Models::AppDownloadResult::__get_Timestamp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timestamp;
 }
 constexpr void Oculus::Platform::Models::AppDownloadResult::__set_Timestamp(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Timestamp = value;
 }
 inline ::Oculus::Platform::Models::AppDownloadResult* Oculus::Platform::Models::AppDownloadResult::New_ctor(void* o) {

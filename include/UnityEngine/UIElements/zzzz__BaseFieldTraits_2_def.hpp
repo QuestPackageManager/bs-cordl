@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 CORDL_MODULE_EXPORT(BaseFieldTraits_2)
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

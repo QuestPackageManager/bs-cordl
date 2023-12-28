@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CallbackHelpers)
-namespace Mono::Net::Security::Private {
-class __CallbackHelpers____c__DisplayClass6_0;
-}
 namespace Mono::Security::Interface {
-class MonoLocalCertificateSelectionCallback;
-}
-namespace Mono::Net::Security::Private {
-class __CallbackHelpers____c__DisplayClass0_0;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
+class MonoRemoteCertificateValidationCallback;
 }
 namespace System::Net::Security {
 class LocalCertSelectionCallback;
 }
+namespace Mono::Net::Security::Private {
+class __CallbackHelpers____c__DisplayClass6_0;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace Mono::Net::Security::Private {
+class __CallbackHelpers____c__DisplayClass0_0;
+}
 namespace Mono::Security::Interface {
-class MonoRemoteCertificateValidationCallback;
+class MonoLocalCertificateSelectionCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;

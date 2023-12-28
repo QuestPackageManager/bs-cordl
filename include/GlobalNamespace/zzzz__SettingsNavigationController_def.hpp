@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SettingsNavigationController)
+namespace GlobalNamespace {
+struct __SettingsNavigationController__FinishAction;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace GlobalNamespace {
-struct __SettingsNavigationController__FinishAction;
 }
 // Forward declare root types
 namespace GlobalNamespace {

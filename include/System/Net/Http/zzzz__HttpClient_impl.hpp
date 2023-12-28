@@ -8,20 +8,20 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
-#include "System/Net/Http/zzzz__HttpClient_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
+#include "System/Net/Http/zzzz__HttpClient_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/Net/Http/zzzz__HttpCompletionOption_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::__HttpClient___SendAsyncWorker_d__47.MoveNext
 template <>
@@ -358,75 +358,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Uri*& System::Net::Http::HttpClient::__get_base_address() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base_address;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::Http::HttpClient::__get_base_address() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base_address;
 }
 constexpr void System::Net::Http::HttpClient::__set_base_address(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___base_address)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::CancellationTokenSource*& System::Net::Http::HttpClient::__get_cts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cts;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& System::Net::Http::HttpClient::__get_cts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cts;
 }
 constexpr void System::Net::Http::HttpClient::__set_cts(::System::Threading::CancellationTokenSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Http::HttpClient::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& System::Net::Http::HttpClient::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void System::Net::Http::HttpClient::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& System::Net::Http::HttpClient::__get_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& System::Net::Http::HttpClient::__get_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr void System::Net::Http::HttpClient::__set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Net::Http::HttpClient::__get_buffer_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer_size;
 }
 constexpr int64_t const& System::Net::Http::HttpClient::__get_buffer_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer_size;
 }
 constexpr void System::Net::Http::HttpClient::__set_buffer_size(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buffer_size = value;
 }
 constexpr ::System::TimeSpan& System::Net::Http::HttpClient::__get_timeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
 constexpr ::System::TimeSpan const& System::Net::Http::HttpClient::__get_timeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
 constexpr void System::Net::Http::HttpClient::__set_timeout(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeout = value;
 }
 inline void System::Net::Http::HttpClient::setStaticF_TimeoutDefault(::System::TimeSpan value) {

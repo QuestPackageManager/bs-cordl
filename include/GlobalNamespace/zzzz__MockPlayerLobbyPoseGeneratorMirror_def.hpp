@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGeneratorMirror)
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateManager;
 }
 namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataPacket;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

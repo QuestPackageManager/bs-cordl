@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__ResourceSet_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Resources/zzzz__IResourceReader_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Resources::ResourceSet._ctor
 template <>
 
@@ -214,39 +214,39 @@ constexpr System::Resources::ResourceSet::operator ::System::Collections::IEnume
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Resources::IResourceReader*& System::Resources::ResourceSet::__get_Reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceReader*> const& System::Resources::ResourceSet::__get_Reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Reader;
 }
 constexpr void System::Resources::ResourceSet::__set_Reader(::System::Resources::IResourceReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Resources::ResourceSet::__get_Table() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Table;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Resources::ResourceSet::__get_Table() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Table;
 }
 constexpr void System::Resources::ResourceSet::__set_Table(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Resources::ResourceSet::__get__caseInsensitiveTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____caseInsensitiveTable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Resources::ResourceSet::__get__caseInsensitiveTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____caseInsensitiveTable;
 }
 constexpr void System::Resources::ResourceSet::__set__caseInsensitiveTable(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____caseInsensitiveTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Resources::ResourceSet* System::Resources::ResourceSet::New_ctor() {

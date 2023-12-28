@@ -10,14 +10,14 @@ class MainEffectContainerSO;
 namespace GlobalNamespace {
 class FloatSO;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class ImageEffectController;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

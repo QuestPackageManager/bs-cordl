@@ -13,41 +13,41 @@ CORDL_MODULE_EXPORT(LIV)
 namespace UnityEngine {
 class Transform;
 }
+namespace UnityEngine {
+struct LayerMask;
+}
 namespace System {
 class Action;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace LIV::SDK::Unity {
-class SDKRender;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace UnityEngine {
-struct LayerMask;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections {
-class IEnumerator;
+struct Matrix4x4;
 }
 namespace LIV::SDK::Unity {
 class __LIV___WaitForUnityEndOfFrame_d__68;
 }
+namespace LIV::SDK::Unity {
+class SDKRender;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine {
 class Camera;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -162,7 +162,7 @@ static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::__LIV___WaitFor
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15092))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15092)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15094))
 // CS Name: ::LIV.SDK.Unity::LIV*
 class CORDL_TYPE LIV : public ::UnityEngine::MonoBehaviour {

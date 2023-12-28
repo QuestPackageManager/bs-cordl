@@ -12,14 +12,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderSpawnInfoNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
-struct NoteCutDirection;
+struct SliderMidAnchorMode;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
@@ -27,11 +21,17 @@ struct NoteLineLayer;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace GlobalNamespace {
-struct SliderMidAnchorMode;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct __SliderData__Type;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct ColorType;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14766))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15046))
 // CS Name: ::SliderSpawnInfoNetSerializable*
 class CORDL_TYPE SliderSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {

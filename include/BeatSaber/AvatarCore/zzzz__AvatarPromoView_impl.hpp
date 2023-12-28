@@ -30,15 +30,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RectTransform*& BeatSaber::AvatarCore::AvatarPromoView::__get__rectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& BeatSaber::AvatarCore::AvatarPromoView::__get__rectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectTransform;
 }
 constexpr void BeatSaber::AvatarCore::AvatarPromoView::__set__rectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::RectTransform* BeatSaber::AvatarCore::AvatarPromoView::get_rectTransform() {

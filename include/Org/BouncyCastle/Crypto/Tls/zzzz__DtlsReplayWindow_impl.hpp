@@ -60,27 +60,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::__get_mLatestConfirmedSeq() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mLatestConfirmedSeq;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::__get_mLatestConfirmedSeq() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mLatestConfirmedSeq;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::__set_mLatestConfirmedSeq(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mLatestConfirmedSeq = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::__get_mBitmap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mBitmap;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::__get_mBitmap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mBitmap;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::__set_mBitmap(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mBitmap = value;
 }
 inline bool Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::ShouldDiscard(int64_t seq) {

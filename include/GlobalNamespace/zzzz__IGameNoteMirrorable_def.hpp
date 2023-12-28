@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IGameNoteMirrorable)
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+struct NoteVisualModifierType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

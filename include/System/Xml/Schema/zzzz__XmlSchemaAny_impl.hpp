@@ -61,39 +61,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Xml::Schema::XmlSchemaAny::__get_ns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr ::StringW const& System::Xml::Schema::XmlSchemaAny::__get_ns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr void System::Xml::Schema::XmlSchemaAny::__set_ns(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::XmlSchemaContentProcessing& System::Xml::Schema::XmlSchemaAny::__get_processContents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processContents;
 }
 constexpr ::System::Xml::Schema::XmlSchemaContentProcessing const& System::Xml::Schema::XmlSchemaAny::__get_processContents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processContents;
 }
 constexpr void System::Xml::Schema::XmlSchemaAny::__set_processContents(::System::Xml::Schema::XmlSchemaContentProcessing value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___processContents = value;
 }
 constexpr ::System::Xml::Schema::NamespaceList*& System::Xml::Schema::XmlSchemaAny::__get_namespaceList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& System::Xml::Schema::XmlSchemaAny::__get_namespaceList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceList;
 }
 constexpr void System::Xml::Schema::XmlSchemaAny::__set_namespaceList(::System::Xml::Schema::NamespaceList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaceList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::Schema::XmlSchemaAny::set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value) {

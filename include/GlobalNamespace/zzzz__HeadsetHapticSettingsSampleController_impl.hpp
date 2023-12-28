@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadsetHapticSettingsSampleController_def.hpp"
-#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HeadsetHapticSettingsSampleController.Start
 template <>
 
@@ -77,89 +77,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__formattedFloatListSettingsController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____formattedFloatListSettingsController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const&
 GlobalNamespace::HeadsetHapticSettingsSampleController::__get__formattedFloatListSettingsController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____formattedFloatListSettingsController;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__formattedFloatListSettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____formattedFloatListSettingsController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__hapticSamplePlayDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticSamplePlayDelay;
 }
 constexpr float_t const& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__hapticSamplePlayDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticSamplePlayDelay;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__hapticSamplePlayDelay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticSamplePlayDelay = value;
 }
 constexpr float_t& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__hapticSampleDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticSampleDuration;
 }
 constexpr float_t const& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__hapticSampleDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticSampleDuration;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__hapticSampleDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hapticSampleDuration = value;
 }
 constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__headHapticPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headHapticPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__headHapticPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headHapticPreset;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__headHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headHapticPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HapticFeedbackManager*& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__hapticFeedbackManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__hapticFeedbackManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__nextHapticSamplePlayTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextHapticSamplePlayTime;
 }
 constexpr float_t const& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__nextHapticSamplePlayTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextHapticSamplePlayTime;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__nextHapticSamplePlayTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nextHapticSamplePlayTime = value;
 }
 constexpr float_t& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__nextHapticSamplePlayTimeEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextHapticSamplePlayTimeEnd;
 }
 constexpr float_t const& GlobalNamespace::HeadsetHapticSettingsSampleController::__get__nextHapticSamplePlayTimeEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextHapticSamplePlayTimeEnd;
 }
 constexpr void GlobalNamespace::HeadsetHapticSettingsSampleController::__set__nextHapticSamplePlayTimeEnd(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nextHapticSamplePlayTimeEnd = value;
 }
 inline void GlobalNamespace::HeadsetHapticSettingsSampleController::Start() {

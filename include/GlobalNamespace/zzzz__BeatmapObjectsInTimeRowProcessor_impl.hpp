@@ -2,106 +2,106 @@
 #include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename T> constexpr float_t& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__time_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__time_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 template <typename T> constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set__time_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time_k__BackingField = value;
 }
 template <typename T> constexpr float_t& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__previousTimeSliceTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousTimeSliceTime_k__BackingField;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__previousTimeSliceTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousTimeSliceTime_k__BackingField;
 }
 template <typename T> constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set__previousTimeSliceTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previousTimeSliceTime_k__BackingField = value;
 }
 template <typename T>
 constexpr ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>*&
 GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didFinishTimeSliceEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishTimeSliceEvent;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>*> const&
 GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didFinishTimeSliceEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishTimeSliceEvent;
 }
 template <typename T>
 constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set_didFinishTimeSliceEvent(
     ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishTimeSliceEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>*&
 GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didStartNewTimeSliceEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartNewTimeSliceEvent;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>*> const&
 GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didStartNewTimeSliceEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartNewTimeSliceEvent;
 }
 template <typename T>
 constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set_didStartNewTimeSliceEvent(
     ::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didStartNewTimeSliceEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>*&
 GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didAddItemEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didAddItemEvent;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>*> const&
 GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didAddItemEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didAddItemEvent;
 }
 template <typename T>
 constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set_didAddItemEvent(
     ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didAddItemEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename T> constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set__items(::System::Collections::Generic::List_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline float_t GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::get_time() {
@@ -262,15 +262,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SliderData*& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData::__get_slider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___slider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderData*> const& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData::__get_slider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___slider;
 }
 constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData::__set_slider(::GlobalNamespace::SliderData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___slider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData* GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData::New_ctor(::GlobalNamespace::SliderData* slider) {
@@ -322,15 +322,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::__get_currentTimeSliceTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentTimeSliceTime;
 }
 constexpr float_t const& GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::__get_currentTimeSliceTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentTimeSliceTime;
 }
 constexpr void GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::__set_currentTimeSliceTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentTimeSliceTime = value;
 }
 inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0* GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::New_ctor() {
@@ -617,89 +617,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__currentTimeSliceColorNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTimeSliceColorNotes;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*> const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__currentTimeSliceColorNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTimeSliceColorNotes;
 }
 constexpr void
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__currentTimeSliceColorNotes(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentTimeSliceColorNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__currentTimeSliceAllNotesAndSliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTimeSliceAllNotesAndSliders;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*> const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__currentTimeSliceAllNotesAndSliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTimeSliceAllNotesAndSliders;
 }
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__currentTimeSliceAllNotesAndSliders(
     ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentTimeSliceAllNotesAndSliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>*&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__currentTimeSliceNotesByColorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTimeSliceNotesByColorType;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>*> const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__currentTimeSliceNotesByColorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTimeSliceNotesByColorType;
 }
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__currentTimeSliceNotesByColorType(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentTimeSliceNotesByColorType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*& GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__unprocessedSliderTails() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unprocessedSliderTails;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*> const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__unprocessedSliderTails() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unprocessedSliderTails;
 }
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__unprocessedSliderTails(::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unprocessedSliderTails)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*>&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__notesInColumnsReusableProcessingListOfLists() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notesInColumnsReusableProcessingListOfLists;
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*> const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__notesInColumnsReusableProcessingListOfLists() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notesInColumnsReusableProcessingListOfLists;
 }
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__notesInColumnsReusableProcessingListOfLists(
     ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____notesInColumnsReusableProcessingListOfLists)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__numberOfLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfLines;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__numberOfLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfLines;
 }
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__numberOfLines(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfLines = value;
 }
 inline ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* GlobalNamespace::BeatmapObjectsInTimeRowProcessor::New_ctor(int32_t numberOfLines) {

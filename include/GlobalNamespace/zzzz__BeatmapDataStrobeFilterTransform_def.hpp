@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataStrobeFilterTransform)
 namespace GlobalNamespace {
+class __BeatmapDataStrobeFilterTransform__StrobeStreakData;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 struct EnvironmentColorType;
-}
-namespace GlobalNamespace {
-class __BeatmapDataStrobeFilterTransform__StrobeStreakData;
 }
 namespace GlobalNamespace {
 class EnvironmentIntensityReductionOptions;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStre
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14754)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4131))
 // CS Name: ::BeatmapDataStrobeFilterTransform::StrobeStreakData*
 class CORDL_TYPE __BeatmapDataStrobeFilterTransform__StrobeStreakData : public ::System::Object {

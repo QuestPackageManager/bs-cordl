@@ -66,39 +66,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__entitlementLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entitlementLabel;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__entitlementLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entitlementLabel;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__set__entitlementLabel(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entitlementLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__productLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__productLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__set__productLabel(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____productLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__levelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__get__levelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::__set__levelId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelProductData::get_entitlementLabel() {
@@ -249,66 +249,66 @@ constexpr GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::oper
   return static_cast<::System::IComparable_1<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__productLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__productLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____productLabel;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__productLabel(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____productLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packId;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packId;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__packId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packLevelPriceDiscountMul() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packLevelPriceDiscountMul;
 }
 constexpr float_t const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packLevelPriceDiscountMul() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packLevelPriceDiscountMul;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__packLevelPriceDiscountMul(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packLevelPriceDiscountMul = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*>&
 GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__levelProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> const&
 GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__levelProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__levelProductsData(
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packIndex;
 }
 constexpr int32_t const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__get__packIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packIndex;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::__set__packIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packIndex = value;
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData::get_productLabel() {
@@ -445,51 +445,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__targetLevelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLevelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__targetLevelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLevelPackId;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__targetLevelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__shouldOwnLevelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldOwnLevelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__shouldOwnLevelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldOwnLevelPackId;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__shouldOwnLevelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shouldOwnLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__redirectedProductLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redirectedProductLabel;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__redirectedProductLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redirectedProductLabel;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__redirectedProductLabel(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redirectedProductLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__validUntilDate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validUntilDate;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__get__validUntilDate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validUntilDate;
 }
 constexpr void GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::__set__validUntilDate(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validUntilDate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData::get_targetLevelPackId() {
@@ -572,32 +572,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>&
 GlobalNamespace::SonyLevelProductModelSO::__get__levelPackProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*> const&
 GlobalNamespace::SonyLevelProductModelSO::__get__levelPackProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr void GlobalNamespace::SonyLevelProductModelSO::__set__levelPackProductsData(
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*>&
 GlobalNamespace::SonyLevelProductModelSO::__get__levelPackRedirectionData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*> const&
 GlobalNamespace::SonyLevelProductModelSO::__get__levelPackRedirectionData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 constexpr void GlobalNamespace::SonyLevelProductModelSO::__set__levelPackRedirectionData(
     ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*>

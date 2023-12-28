@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__SystemException_def.hpp"
 CORDL_MODULE_EXPORT(ThreadAbortException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Threading {

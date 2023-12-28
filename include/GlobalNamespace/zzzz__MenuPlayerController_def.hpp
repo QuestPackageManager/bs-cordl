@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MenuPlayerController)
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class VRController;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

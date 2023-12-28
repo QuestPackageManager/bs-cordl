@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEvent)
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
@@ -15,9 +18,6 @@ struct InputEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

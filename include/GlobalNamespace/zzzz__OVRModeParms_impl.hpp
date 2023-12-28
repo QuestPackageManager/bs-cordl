@@ -55,15 +55,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRModeParms::__get_resetButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetButton;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRModeParms::__get_resetButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetButton;
 }
 constexpr void GlobalNamespace::OVRModeParms::__set_resetButton(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetButton = value;
 }
 inline void GlobalNamespace::OVRModeParms::Start() {

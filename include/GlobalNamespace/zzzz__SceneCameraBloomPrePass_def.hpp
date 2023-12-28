@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SceneCameraBloomPrePass)
 namespace GlobalNamespace {
-class BloomPrePassRendererSO;
+class BloomPrePassEffectContainerSO;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-class BloomPrePassEffectContainerSO;
+class BloomPrePassRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

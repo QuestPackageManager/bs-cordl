@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(EncryptedData)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class EncryptedContentInfo;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Cms {
+class EncryptedContentInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

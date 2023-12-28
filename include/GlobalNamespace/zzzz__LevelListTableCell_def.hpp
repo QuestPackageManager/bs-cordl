@@ -14,20 +14,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelListTableCell)
+namespace UnityEngine {
+class GameObject;
+}
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-struct __LevelListTableCell___SetDataFromLevelAsync_d__19;
+struct __LevelListTableCell___RefreshAvailabilityAsync_d__24;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
@@ -35,26 +38,23 @@ struct __SelectableCell__TransitionType;
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-struct __LevelListTableCell___RefreshAvailabilityAsync_d__24;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
+struct __LevelListTableCell___SetDataFromLevelAsync_d__19;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace GlobalNamespace {
 struct EntitlementStatus;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -80,9 +80,9 @@ MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5428)) CS Name:
-// ::LevelListTableCell::<SetDataFromLevelAsync>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5428))
+// CS Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__19
 struct CORDL_TYPE __LevelListTableCell___SetDataFromLevelAsync_d__19 {
 public:
   // Declarations
@@ -150,7 +150,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTabl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5429)) CS
 // Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__24
 struct CORDL_TYPE __LevelListTableCell___RefreshAvailabilityAsync_d__24 {
@@ -213,7 +213,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTabl
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5430))
 // CS Name: ::LevelListTableCell*
 class CORDL_TYPE LevelListTableCell : public ::HMUI::TableCell {

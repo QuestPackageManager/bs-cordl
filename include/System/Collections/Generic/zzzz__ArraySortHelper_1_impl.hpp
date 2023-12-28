@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__ArraySortHelper_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 template <typename T> inline void System::Collections::Generic::ArraySortHelper_1<T>::setStaticF_s_defaultArraySortHelper(::System::Collections::Generic::ArraySortHelper_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Collections::Generic::ArraySortHelper_1<T>*, "s_defaultArraySortHelper",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ArraySortHelper_1<T>*>::get>(

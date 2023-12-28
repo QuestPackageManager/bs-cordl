@@ -5,23 +5,23 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferInstancer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferInstancer_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType::__HEU_ThreadedTaskLoadGeo__LoadType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -57,80 +57,80 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__cookNodeID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookNodeID;
 }
 constexpr int32_t const& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__cookNodeID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookNodeID;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__set__cookNodeID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cookNodeID = value;
 }
 constexpr ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__loadStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadStatus;
 }
 constexpr ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus const& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__loadStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadStatus;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__set__loadStatus(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loadStatus = value;
 }
 constexpr ::System::Text::StringBuilder*& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__logStr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logStr;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__logStr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logStr;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__set__logStr(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_SessionBase*& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__session() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____session;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionBase*> const& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__session() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____session;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__set__session(::HoudiniEngineUnity::HEU_SessionBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____session)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>*&
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__loadedObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadedObjects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>*> const&
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__loadedObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadedObjects;
 }
 constexpr void
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__set__loadedObjects(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadedObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__idBuffersMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idBuffersMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*> const&
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__idBuffersMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idBuffersMap;
 }
 constexpr void
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__set__idBuffersMap(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____idBuffersMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData::New_ctor() {
@@ -160,66 +160,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__objectNodeID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectNodeID;
 }
 constexpr int32_t const& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__objectNodeID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectNodeID;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__set__objectNodeID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____objectNodeID = value;
 }
 constexpr int32_t& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__displayNodeID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayNodeID;
 }
 constexpr int32_t const& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__displayNodeID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayNodeID;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__set__displayNodeID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____displayNodeID = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__terrainBuffers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____terrainBuffers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*> const&
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__terrainBuffers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____terrainBuffers;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__set__terrainBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____terrainBuffers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__meshBuffers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshBuffers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*> const&
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__meshBuffers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshBuffers;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__set__meshBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshBuffers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__instancerBuffers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancerBuffers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*> const&
 HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__instancerBuffers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancerBuffers;
 }
 constexpr void HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__set__instancerBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instancerBuffers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject* HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::New_ctor() {
@@ -935,87 +935,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::HEU_BaseSync*& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__ownerSync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownerSync;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_BaseSync*> const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__ownerSync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownerSync;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__ownerSync(::HoudiniEngineUnity::HEU_BaseSync* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ownerSync)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_SessionBase*& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__session() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____session;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionBase*> const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__session() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____session;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__session(::HoudiniEngineUnity::HEU_SessionBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____session)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_GenerateOptions& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__generateOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateOptions;
 }
 constexpr ::HoudiniEngineUnity::HEU_GenerateOptions const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__generateOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateOptions;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__generateOptions(::HoudiniEngineUnity::HEU_GenerateOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateOptions = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__loadType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadType;
 }
 constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__loadType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadType;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__loadType(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loadType = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__filePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filePath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__filePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filePath;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__filePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__loadData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadData;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*> const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__loadData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadData;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__loadData(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__loadCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*> const& HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__get__loadCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadCallback;
 }
 constexpr void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::__set__loadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoad(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync,

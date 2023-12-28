@@ -11,9 +11,6 @@ namespace UnityEngine::PlayerLoop {
 struct __Initialization__AsyncUploadTimeSlicedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__XREarlyUpdate;
-}
-namespace UnityEngine::PlayerLoop {
 struct __Initialization__ProfilerStartFrame;
 }
 namespace UnityEngine::PlayerLoop {
@@ -21,6 +18,9 @@ struct __Initialization__SynchronizeState;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Initialization__UpdateCameraMotionVectors;
+}
+namespace UnityEngine::PlayerLoop {
+struct __Initialization__XREarlyUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Initialization__DirectorSampleTime;

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCenterTextAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "Tweening/zzzz__Tween_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "Tweening/zzzz__Tween_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerCenterTextAnimator.Awake
 template <>
 
@@ -219,99 +219,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TextMeshPro*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__text(::TMPro::TextMeshPro* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__scalingTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scalingTarget;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__scalingTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scalingTarget;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__scalingTarget(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scalingTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__tweeningManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__tweeningManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__tweeningManager(::Tweening::TimeTweeningManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__fadeInTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeInTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__fadeInTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeInTween;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__fadeInTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeInTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__fadeOutTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__fadeOutTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutTween;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__fadeOutTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeOutTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__fontSizeTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSizeTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__fontSizeTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSizeTween;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__fontSizeTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fontSizeTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__colorTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__colorTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTween;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__colorTween(::Tweening::Tween_1<::UnityEngine::Color>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& GlobalNamespace::MultiplayerCenterTextAnimator::__get__offsetTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__get__offsetTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetTween;
 }
 constexpr void GlobalNamespace::MultiplayerCenterTextAnimator::__set__offsetTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offsetTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerCenterTextAnimator::Awake() {

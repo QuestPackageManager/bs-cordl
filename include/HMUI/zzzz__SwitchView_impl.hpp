@@ -108,124 +108,124 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::__SwitchView__AnimationType& HMUI::SwitchView::__get__animationType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationType;
 }
 constexpr ::HMUI::__SwitchView__AnimationType const& HMUI::SwitchView::__get__animationType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationType;
 }
 constexpr void HMUI::SwitchView::__set__animationType(::HMUI::__SwitchView__AnimationType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____animationType = value;
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__normalAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__normalAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__normalAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__highlightedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__highlightedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__highlightedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlightedAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__pressedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__pressedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__pressedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pressedAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__disabledAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__disabledAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__disabledAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disabledAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__onAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__onAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__onAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__offAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__offAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__offAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__selectedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__selectedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__selectedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SwitchView::__get__selectedAndHighlightedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SwitchView::__get__selectedAndHighlightedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAnimationClip;
 }
 constexpr void HMUI::SwitchView::__set__selectedAndHighlightedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedAndHighlightedAnimationClip)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleWithCallbacks*& HMUI::SwitchView::__get__toggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleWithCallbacks*> const& HMUI::SwitchView::__get__toggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
 constexpr void HMUI::SwitchView::__set__toggle(::HMUI::ToggleWithCallbacks* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::SwitchView::Awake() {

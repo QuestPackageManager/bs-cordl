@@ -6,12 +6,12 @@
 #include "GlobalNamespace/zzzz__SliderData_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__SliderData__Type::__SliderData__Type(int32_t value__) noexcept {
   this->value__ = value__;
@@ -796,243 +796,243 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorType& GlobalNamespace::SliderData::__get__colorType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::SliderData::__get__colorType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__colorType_k__BackingField(::GlobalNamespace::ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorType_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__SliderData__Type& GlobalNamespace::SliderData::__get__sliderType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderType_k__BackingField;
 }
 constexpr ::GlobalNamespace::__SliderData__Type const& GlobalNamespace::SliderData::__get__sliderType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderType_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__sliderType_k__BackingField(::GlobalNamespace::__SliderData__Type value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sliderType_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::SliderData::__get__hasHeadNote_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasHeadNote_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::SliderData::__get__hasHeadNote_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasHeadNote_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__hasHeadNote_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasHeadNote_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::SliderData::__get__headControlPointLengthMultiplier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headControlPointLengthMultiplier_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SliderData::__get__headControlPointLengthMultiplier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headControlPointLengthMultiplier_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__headControlPointLengthMultiplier_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headControlPointLengthMultiplier_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::SliderData::__get__headLineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::SliderData::__get__headLineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__headLineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headLineIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderData::__get__headLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderData::__get__headLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__headLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headLineLayer_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderData::__get__headBeforeJumpLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headBeforeJumpLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderData::__get__headBeforeJumpLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headBeforeJumpLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__headBeforeJumpLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headBeforeJumpLineLayer_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::SliderData::__get__headCutDirection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headCutDirection_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::SliderData::__get__headCutDirection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headCutDirection_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__headCutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headCutDirection_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::SliderData::__get__headCutDirectionAngleOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headCutDirectionAngleOffset_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SliderData::__get__headCutDirectionAngleOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headCutDirectionAngleOffset_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__headCutDirectionAngleOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headCutDirectionAngleOffset_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::SliderData::__get__hasTailNote_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasTailNote_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::SliderData::__get__hasTailNote_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasTailNote_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__hasTailNote_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasTailNote_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::SliderData::__get__tailTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SliderData::__get__tailTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailTime_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailTime_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::SliderData::__get__tailLineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::SliderData::__get__tailLineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailLineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailLineIndex_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::SliderData::__get__tailControlPointLengthMultiplier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailControlPointLengthMultiplier_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SliderData::__get__tailControlPointLengthMultiplier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailControlPointLengthMultiplier_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailControlPointLengthMultiplier_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailControlPointLengthMultiplier_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderData::__get__tailLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderData::__get__tailLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailLineLayer_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderData::__get__tailBeforeJumpLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailBeforeJumpLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderData::__get__tailBeforeJumpLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailBeforeJumpLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailBeforeJumpLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailBeforeJumpLineLayer_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::SliderData::__get__tailCutDirection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailCutDirection_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::SliderData::__get__tailCutDirection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailCutDirection_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailCutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailCutDirection_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::SliderData::__get__tailCutDirectionAngleOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailCutDirectionAngleOffset_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SliderData::__get__tailCutDirectionAngleOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailCutDirectionAngleOffset_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__tailCutDirectionAngleOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailCutDirectionAngleOffset_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode& GlobalNamespace::SliderData::__get__midAnchorMode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____midAnchorMode_k__BackingField;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode const& GlobalNamespace::SliderData::__get__midAnchorMode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____midAnchorMode_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__midAnchorMode_k__BackingField(::GlobalNamespace::SliderMidAnchorMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____midAnchorMode_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::SliderData::__get__sliceCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliceCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::SliderData::__get__sliceCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliceCount_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__sliceCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sliceCount_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::SliderData::__get__squishAmount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____squishAmount_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SliderData::__get__squishAmount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____squishAmount_k__BackingField;
 }
 constexpr void GlobalNamespace::SliderData::__set__squishAmount_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____squishAmount_k__BackingField = value;
 }
 inline int32_t GlobalNamespace::SliderData::get_subtypeGroupIdentifier() {

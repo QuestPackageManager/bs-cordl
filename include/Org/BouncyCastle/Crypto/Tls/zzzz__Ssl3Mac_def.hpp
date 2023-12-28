@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ssl3Mac)
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

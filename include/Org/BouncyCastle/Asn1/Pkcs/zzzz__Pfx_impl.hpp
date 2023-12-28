@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__Pfx_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__ContentInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__MacData_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Pkcs::Pfx.GetInstance
 template <>
@@ -95,27 +95,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*& Org::BouncyCastle::Asn1::Pkcs::Pfx::__get_contentInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> const& Org::BouncyCastle::Asn1::Pkcs::Pfx::__get_contentInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentInfo;
 }
 constexpr void Org::BouncyCastle::Asn1::Pkcs::Pfx::__set_contentInfo(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::MacData*& Org::BouncyCastle::Asn1::Pkcs::Pfx::__get_macData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___macData;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::MacData*> const& Org::BouncyCastle::Asn1::Pkcs::Pfx::__get_macData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___macData;
 }
 constexpr void Org::BouncyCastle::Asn1::Pkcs::Pfx::__set_macData(::Org::BouncyCastle::Asn1::Pkcs::MacData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___macData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Pkcs::Pfx* Org::BouncyCastle::Asn1::Pkcs::Pfx::GetInstance(::System::Object* obj) {

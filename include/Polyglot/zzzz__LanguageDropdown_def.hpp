@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(LanguageDropdown)
-namespace Polyglot {
-class ILocalize;
-}
 namespace UnityEngine::UI {
 class Dropdown;
+}
+namespace Polyglot {
+class ILocalize;
 }
 // Forward declare root types
 namespace Polyglot {

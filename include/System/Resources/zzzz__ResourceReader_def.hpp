@@ -8,26 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceReader)
-namespace System::Resources {
-class IResourceReader;
-}
-namespace System::Resources {
-struct ResourceLocator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::IO {
+class BinaryReader;
 }
 namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System {
-class Object;
+class RuntimeType;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -35,23 +20,38 @@ class IEnumerable;
 namespace System::Resources {
 class __ResourceReader__ResourceEnumerator;
 }
+namespace System::Resources {
+struct ResourceLocator;
+}
 namespace System {
-class RuntimeType;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryFormatter;
+class Object;
 }
 namespace System::Resources {
 struct ResourceTypeCode;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
 namespace System::IO {
-class BinaryReader;
+class Stream;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Resources {
+class IResourceReader;
 }
 namespace System::IO {
 class UnmanagedMemoryStream;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryFormatter;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections {
 struct DictionaryEntry;

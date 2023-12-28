@@ -17,99 +17,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& BGNet::Core::GameLift::PlayerSessionInfo::__get_playerSessionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSessionId;
 }
 constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__get_playerSessionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSessionId;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_playerSessionId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerSessionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& BGNet::Core::GameLift::PlayerSessionInfo::__get_gameSessionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameSessionId;
 }
 constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__get_gameSessionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameSessionId;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_gameSessionId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameSessionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& BGNet::Core::GameLift::PlayerSessionInfo::__get_dnsName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dnsName;
 }
 constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__get_dnsName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dnsName;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_dnsName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dnsName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& BGNet::Core::GameLift::PlayerSessionInfo::__get_port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr int32_t const& BGNet::Core::GameLift::PlayerSessionInfo::__get_port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
 constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& BGNet::Core::GameLift::PlayerSessionInfo::__get_beatmapLevelSelectionMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelSelectionMask;
 }
 constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& BGNet::Core::GameLift::PlayerSessionInfo::__get_beatmapLevelSelectionMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelSelectionMask;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_beatmapLevelSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapLevelSelectionMask = value;
 }
 constexpr ::GlobalNamespace::GameplayServerConfiguration& BGNet::Core::GameLift::PlayerSessionInfo::__get_gameplayServerConfiguration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayServerConfiguration;
 }
 constexpr ::GlobalNamespace::GameplayServerConfiguration const& BGNet::Core::GameLift::PlayerSessionInfo::__get_gameplayServerConfiguration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayServerConfiguration;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_gameplayServerConfiguration(::GlobalNamespace::GameplayServerConfiguration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gameplayServerConfiguration = value;
 }
 constexpr ::StringW& BGNet::Core::GameLift::PlayerSessionInfo::__get_privateGameSecret() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateGameSecret;
 }
 constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__get_privateGameSecret() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateGameSecret;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_privateGameSecret(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateGameSecret)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& BGNet::Core::GameLift::PlayerSessionInfo::__get_privateGameCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateGameCode;
 }
 constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__get_privateGameCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateGameCode;
 }
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_privateGameCode(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateGameCode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BGNet::Core::GameLift::PlayerSessionInfo* BGNet::Core::GameLift::PlayerSessionInfo::New_ctor() {

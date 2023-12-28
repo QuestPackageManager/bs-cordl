@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICustomStyle)
 namespace UnityEngine::UIElements {
+class VectorImage;
+}
+namespace UnityEngine::UIElements {
 template <typename T> struct CustomStyleProperty_1;
 }
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::UIElements {
-class VectorImage;
+class Texture2D;
 }
 namespace UnityEngine {
-class Texture2D;
+class Sprite;
 }
 namespace UnityEngine {
 struct Color;

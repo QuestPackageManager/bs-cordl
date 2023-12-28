@@ -56,15 +56,15 @@ constexpr HoudiniEngineUnity::Test_AnimationCurve::operator ::HoudiniEngineUnity
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::AnimationCurve*& HoudiniEngineUnity::Test_AnimationCurve::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& HoudiniEngineUnity::Test_AnimationCurve::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_AnimationCurve::__set_self(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_AnimationCurve* HoudiniEngineUnity::Test_AnimationCurve::New_ctor(::UnityEngine::AnimationCurve* self) {

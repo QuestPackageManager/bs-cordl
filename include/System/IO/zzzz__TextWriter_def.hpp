@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextWriter)
-namespace System {
-class IFormatProvider;
+namespace System::Text {
+class Encoding;
 }
-namespace System::IO {
-class __TextWriter__NullTextWriter;
-}
-namespace System::IO {
-class __TextWriter__SyncTextWriter;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 class IAsyncDisposable;
@@ -24,19 +21,22 @@ namespace System {
 class IDisposable;
 }
 namespace System::IO {
+class __TextWriter__SyncTextWriter;
+}
+namespace System::IO {
 class __TextWriter____c;
 }
-namespace System {
-class Object;
+namespace System::IO {
+class __TextWriter__NullTextWriter;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class IFormatProvider;
 }
-namespace System::Text {
-class Encoding;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class Action_1;

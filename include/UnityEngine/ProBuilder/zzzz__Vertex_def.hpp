@@ -14,35 +14,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vertex)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine::ProBuilder {
 struct MeshArrays;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Vertex);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12166)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12166)), TypeDefinitionIndex(TypeDefinitionIndex(10246))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12218)) CS Name: ::UnityEngine.ProBuilder::Vertex*
 class CORDL_TYPE Vertex : public ::System::Object {
 public:

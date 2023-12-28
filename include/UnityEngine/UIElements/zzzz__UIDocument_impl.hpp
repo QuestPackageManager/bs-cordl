@@ -378,124 +378,124 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::UIDocument::__get_m_UIDocumentCreationIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UIDocumentCreationIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIDocument::__get_m_UIDocumentCreationIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UIDocumentCreationIndex;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_UIDocumentCreationIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UIDocumentCreationIndex = value;
 }
 constexpr ::UnityEngine::UIElements::PanelSettings*& UnityEngine::UIElements::UIDocument::__get_m_PanelSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PanelSettings*> const& UnityEngine::UIElements::UIDocument::__get_m_PanelSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelSettings;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_PanelSettings(::UnityEngine::UIElements::PanelSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PanelSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::PanelSettings*& UnityEngine::UIElements::UIDocument::__get_m_PreviousPanelSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreviousPanelSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PanelSettings*> const& UnityEngine::UIElements::UIDocument::__get_m_PreviousPanelSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreviousPanelSettings;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_PreviousPanelSettings(::UnityEngine::UIElements::PanelSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreviousPanelSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIDocument*& UnityEngine::UIElements::UIDocument::__get_m_ParentUI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentUI;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIDocument*> const& UnityEngine::UIElements::UIDocument::__get_m_ParentUI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentUI;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_ParentUI(::UnityEngine::UIElements::UIDocument* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ParentUI)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIDocumentList*& UnityEngine::UIElements::UIDocument::__get_m_ChildrenContent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildrenContent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIDocumentList*> const& UnityEngine::UIElements::UIDocument::__get_m_ChildrenContent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildrenContent;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_ChildrenContent(::UnityEngine::UIElements::UIDocumentList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChildrenContent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>*& UnityEngine::UIElements::UIDocument::__get_m_ChildrenContentCopy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildrenContentCopy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>*> const&
 UnityEngine::UIElements::UIDocument::__get_m_ChildrenContentCopy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildrenContentCopy;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChildrenContentCopy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::VisualTreeAsset*& UnityEngine::UIElements::UIDocument::__get_sourceAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sourceAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& UnityEngine::UIElements::UIDocument::__get_sourceAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sourceAsset;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_sourceAsset(::UnityEngine::UIElements::VisualTreeAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sourceAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::UIDocument::__get_m_RootVisualElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootVisualElement;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::UIDocument::__get_m_RootVisualElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootVisualElement;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_RootVisualElement(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RootVisualElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::UIDocument::__get_m_FirstChildInsertIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstChildInsertIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIDocument::__get_m_FirstChildInsertIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstChildInsertIndex;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_FirstChildInsertIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FirstChildInsertIndex = value;
 }
 constexpr float_t& UnityEngine::UIElements::UIDocument::__get_m_SortingOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SortingOrder;
 }
 constexpr float_t const& UnityEngine::UIElements::UIDocument::__get_m_SortingOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SortingOrder;
 }
 constexpr void UnityEngine::UIElements::UIDocument::__set_m_SortingOrder(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SortingOrder = value;
 }
 inline void UnityEngine::UIElements::UIDocument::setStaticF_s_CurrentUIDocumentCounter(int32_t value) {

@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Reflection::AssemblyCopyrightAttribute::__get__Copyright_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Copyright_k__BackingField;
 }
 constexpr ::StringW const& System::Reflection::AssemblyCopyrightAttribute::__get__Copyright_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Copyright_k__BackingField;
 }
 constexpr void System::Reflection::AssemblyCopyrightAttribute::__set__Copyright_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Copyright_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Reflection::AssemblyCopyrightAttribute* System::Reflection::AssemblyCopyrightAttribute::New_ctor(::StringW copyright) {

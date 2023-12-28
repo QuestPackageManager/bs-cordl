@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spline)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::ProBuilder {
 struct BezierPoint;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

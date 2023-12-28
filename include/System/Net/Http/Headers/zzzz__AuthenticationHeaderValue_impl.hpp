@@ -212,27 +212,27 @@ constexpr System::Net::Http::Headers::AuthenticationHeaderValue::operator ::Syst
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Net::Http::Headers::AuthenticationHeaderValue::__get__Parameter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Parameter_k__BackingField;
 }
 constexpr ::StringW const& System::Net::Http::Headers::AuthenticationHeaderValue::__get__Parameter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Parameter_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::AuthenticationHeaderValue::__set__Parameter_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Parameter_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::Http::Headers::AuthenticationHeaderValue::__get__Scheme_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Scheme_k__BackingField;
 }
 constexpr ::StringW const& System::Net::Http::Headers::AuthenticationHeaderValue::__get__Scheme_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Scheme_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::AuthenticationHeaderValue::__set__Scheme_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Scheme_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::AuthenticationHeaderValue* System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor(::StringW scheme, ::StringW parameter) {

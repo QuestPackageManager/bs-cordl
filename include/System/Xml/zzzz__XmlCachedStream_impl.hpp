@@ -20,15 +20,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Uri*& System::Xml::XmlCachedStream::__get_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Xml::XmlCachedStream::__get_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr void System::Xml::XmlCachedStream::__set_uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlCachedStream* System::Xml::XmlCachedStream::New_ctor(::System::Uri* uri, ::System::IO::Stream* stream) {

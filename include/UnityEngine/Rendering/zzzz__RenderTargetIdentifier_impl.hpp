@@ -3,10 +3,10 @@
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__CubemapFace_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
 template <>

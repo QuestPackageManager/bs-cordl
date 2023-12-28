@@ -7,23 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntroTutorialController)
-namespace System {
-class Action;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class BloomFogParamsAnimator;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace UnityEngine {
 class CanvasGroup;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class IntroTutorialRing;
@@ -31,17 +28,20 @@ class IntroTutorialRing;
 namespace GlobalNamespace {
 class IGamePause;
 }
-namespace GlobalNamespace {
-class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace GlobalNamespace {
 class BloomFogEnvironmentParams;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;

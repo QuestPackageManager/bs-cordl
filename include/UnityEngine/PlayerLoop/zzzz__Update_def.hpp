@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Update)
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunBehaviourUpdate;
+struct __Update__ScriptRunDelayedTasks;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunDelayedTasks;
+struct __Update__ScriptRunBehaviourUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Update__ScriptRunDelayedDynamicFrameRate;

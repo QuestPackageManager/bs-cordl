@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData._ctor
 template <>
 
@@ -25,63 +25,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_active() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___active;
 }
 constexpr bool const& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_active() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___active;
 }
 constexpr void GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__set_active(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___active = value;
 }
 constexpr bool& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_continuous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuous;
 }
 constexpr bool const& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_continuous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuous;
 }
 constexpr void GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__set_continuous(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___continuous = value;
 }
 constexpr float_t& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_strength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strength;
 }
 constexpr float_t const& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_strength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strength;
 }
 constexpr void GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__set_strength(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strength = value;
 }
 constexpr float_t& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_endTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endTime;
 }
 constexpr float_t const& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_endTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endTime;
 }
 constexpr void GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__set_endTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endTime = value;
 }
 constexpr float_t& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_frequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frequency;
 }
 constexpr float_t const& GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__get_frequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frequency;
 }
 constexpr void GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::__set_frequency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___frequency = value;
 }
 inline ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData* GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData::New_ctor() {
@@ -201,33 +201,33 @@ constexpr GlobalNamespace::RumbleHapticFeedbackPlayer::operator ::GlobalNamespac
   return static_cast<::GlobalNamespace::IHapticFeedbackPlayer*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::RumbleHapticFeedbackPlayer::__get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::RumbleHapticFeedbackPlayer::__get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr void GlobalNamespace::RumbleHapticFeedbackPlayer::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
                                                        ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>*&
 GlobalNamespace::RumbleHapticFeedbackPlayer::__get__rumblesByNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumblesByNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
     ::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>*> const&
 GlobalNamespace::RumbleHapticFeedbackPlayer::__get__rumblesByNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumblesByNode;
 }
 constexpr void GlobalNamespace::RumbleHapticFeedbackPlayer::__set__rumblesByNode(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
                                                  ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rumblesByNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RumbleHapticFeedbackPlayer::Awake() {

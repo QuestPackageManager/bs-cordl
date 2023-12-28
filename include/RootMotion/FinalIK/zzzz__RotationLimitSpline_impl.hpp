@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__RotationLimit_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimitSpline_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::RotationLimitSpline.OpenUserManual
 template <>
@@ -117,27 +117,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::RotationLimitSpline::__get_twistLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistLimit;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitSpline::__get_twistLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistLimit;
 }
 constexpr void RootMotion::FinalIK::RotationLimitSpline::__set_twistLimit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twistLimit = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::RotationLimitSpline::__get_spline() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spline;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::RotationLimitSpline::__get_spline() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spline;
 }
 constexpr void RootMotion::FinalIK::RotationLimitSpline::__set_spline(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spline)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::RotationLimitSpline::OpenUserManual() {

@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EditColorSchemeController_def.hpp"
-#include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
 #include "GlobalNamespace/zzzz__RGBPanelController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EditColorSchemeController.add_didFinishEvent
 template <>
 
@@ -203,99 +203,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorSchemeColorsToggleGroup*& GlobalNamespace::EditColorSchemeController::__get__colorSchemeColorsToggleGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemeColorsToggleGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorsToggleGroup*> const& GlobalNamespace::EditColorSchemeController::__get__colorSchemeColorsToggleGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemeColorsToggleGroup;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set__colorSchemeColorsToggleGroup(::GlobalNamespace::ColorSchemeColorsToggleGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSchemeColorsToggleGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RGBPanelController*& GlobalNamespace::EditColorSchemeController::__get__rgbPanelController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rgbPanelController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RGBPanelController*> const& GlobalNamespace::EditColorSchemeController::__get__rgbPanelController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rgbPanelController;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set__rgbPanelController(::GlobalNamespace::RGBPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rgbPanelController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HSVPanelController*& GlobalNamespace::EditColorSchemeController::__get__hsvPanelController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hsvPanelController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HSVPanelController*> const& GlobalNamespace::EditColorSchemeController::__get__hsvPanelController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hsvPanelController;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set__hsvPanelController(::GlobalNamespace::HSVPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hsvPanelController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PreviousColorPanelController*& GlobalNamespace::EditColorSchemeController::__get__previousColorPanelController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousColorPanelController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviousColorPanelController*> const& GlobalNamespace::EditColorSchemeController::__get__previousColorPanelController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousColorPanelController;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set__previousColorPanelController(::GlobalNamespace::PreviousColorPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previousColorPanelController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::EditColorSchemeController::__get__closeButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closeButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::EditColorSchemeController::__get__closeButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closeButton;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set__closeButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____closeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::EditColorSchemeController::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::EditColorSchemeController::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set_didFinishEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ColorScheme*>*& GlobalNamespace::EditColorSchemeController::__get_didChangeColorSchemeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeColorSchemeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ColorScheme*>*> const& GlobalNamespace::EditColorSchemeController::__get_didChangeColorSchemeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeColorSchemeEvent;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeColorSchemeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ButtonBinder*& GlobalNamespace::EditColorSchemeController::__get__buttonBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::EditColorSchemeController::__get__buttonBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void GlobalNamespace::EditColorSchemeController::__set__buttonBinder(::HMUI::ButtonBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::EditColorSchemeController::add_didFinishEvent(::System::Action* value) {

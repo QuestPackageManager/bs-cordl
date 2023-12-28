@@ -4,14 +4,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EventsTestGameplayManager_def.hpp"
 #include "GlobalNamespace/zzzz__EventsTestGameplayManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor._ctor
@@ -49,15 +49,15 @@ constexpr GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor:
   return static_cast<::GlobalNamespace::IBeatToTimeConvertor*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor::__get__bpm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bpm;
 }
 constexpr float_t const& GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor::__get__bpm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bpm;
 }
 constexpr void GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor::__set__bpm(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bpm = value;
 }
 inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor* GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConvertor::New_ctor(float_t bpm) {
@@ -108,15 +108,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0::__get_lightGroupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroupId;
 }
 constexpr int32_t const& GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0::__get_lightGroupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroupId;
 }
 constexpr void GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0::__set_lightGroupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lightGroupId = value;
 }
 inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0* GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0::New_ctor() {
@@ -167,15 +167,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0::__get_lightGroupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroupId;
 }
 constexpr int32_t const& GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0::__get_lightGroupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroupId;
 }
 constexpr void GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0::__set_lightGroupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lightGroupId = value;
 }
 inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0* GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0::New_ctor() {
@@ -226,15 +226,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0::__get_lightGroupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroupId;
 }
 constexpr int32_t const& GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0::__get_lightGroupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroupId;
 }
 constexpr void GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0::__set_lightGroupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lightGroupId = value;
 }
 inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0* GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0::New_ctor() {
@@ -354,180 +354,180 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::EventsTestGameplayManager::__get__moveTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveTime;
 }
 constexpr bool const& GlobalNamespace::EventsTestGameplayManager::__get__moveTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveTime;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__moveTime(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveTime = value;
 }
 constexpr bool& GlobalNamespace::EventsTestGameplayManager::__get__spawnTestBox() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnTestBox;
 }
 constexpr bool const& GlobalNamespace::EventsTestGameplayManager::__get__spawnTestBox() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnTestBox;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__spawnTestBox(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnTestBox = value;
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::EventsTestGameplayManager::__get__beatmapCallbacksController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& GlobalNamespace::EventsTestGameplayManager::__get__beatmapCallbacksController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapData*& GlobalNamespace::EventsTestGameplayManager::__get__beatmapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& GlobalNamespace::EventsTestGameplayManager::__get__beatmapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__beatmapData(::GlobalNamespace::BeatmapData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::EventsTestGameplayManager::__get__audioTimeSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::EventsTestGameplayManager::__get__audioTimeSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::EventsTestGameplayManager::__get__basicBeatmapEventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____basicBeatmapEventType;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::EventsTestGameplayManager::__get__basicBeatmapEventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____basicBeatmapEventType;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__basicBeatmapEventType(::GlobalNamespace::BasicBeatmapEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____basicBeatmapEventType = value;
 }
 constexpr float_t& GlobalNamespace::EventsTestGameplayManager::__get__floatValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr float_t const& GlobalNamespace::EventsTestGameplayManager::__get__floatValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__floatValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatValue = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*>&
 GlobalNamespace::EventsTestGameplayManager::__get__beatmapEventDataBoxGroupLists() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEventDataBoxGroupLists;
 }
 constexpr ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> const&
 GlobalNamespace::EventsTestGameplayManager::__get__beatmapEventDataBoxGroupLists() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEventDataBoxGroupLists;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__beatmapEventDataBoxGroupLists(
     ::ArrayW<::GlobalNamespace::BeatmapEventDataBoxGroupList*, ::Array<::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapEventDataBoxGroupLists)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& GlobalNamespace::EventsTestGameplayManager::__get_groupState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupState;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& GlobalNamespace::EventsTestGameplayManager::__get_groupState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupState;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set_groupState(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groupState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*&
 GlobalNamespace::EventsTestGameplayManager::__get__beatmapEventTypeBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEventTypeBindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>*> const&
 GlobalNamespace::EventsTestGameplayManager::__get__beatmapEventTypeBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEventTypeBindings;
 }
 constexpr void
 GlobalNamespace::EventsTestGameplayManager::__set__beatmapEventTypeBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::GlobalNamespace::BasicBeatmapEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapEventTypeBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*& GlobalNamespace::EventsTestGameplayManager::__get__intBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intBindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*> const&
 GlobalNamespace::EventsTestGameplayManager::__get__intBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intBindings;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__intBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____intBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*& GlobalNamespace::EventsTestGameplayManager::__get__beatmapValuesBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapValuesBindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>*> const&
 GlobalNamespace::EventsTestGameplayManager::__get__beatmapValuesBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapValuesBindings;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__beatmapValuesBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapValuesBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>*& GlobalNamespace::EventsTestGameplayManager::__get__floatValuesBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValuesBindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>*> const&
 GlobalNamespace::EventsTestGameplayManager::__get__floatValuesBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValuesBindings;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__floatValuesBindings(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatValuesBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::EventsTestGameplayManager::__get__rotatingLasers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotatingLasers;
 }
 constexpr bool const& GlobalNamespace::EventsTestGameplayManager::__get__rotatingLasers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotatingLasers;
 }
 constexpr void GlobalNamespace::EventsTestGameplayManager::__set__rotatingLasers(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotatingLasers = value;
 }
 inline void GlobalNamespace::EventsTestGameplayManager::Start() {

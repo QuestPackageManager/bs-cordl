@@ -37,75 +37,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint16_t& System::Security::Cryptography::RC2Transform::__get_R0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R0;
 }
 constexpr uint16_t const& System::Security::Cryptography::RC2Transform::__get_R0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R0;
 }
 constexpr void System::Security::Cryptography::RC2Transform::__set_R0(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___R0 = value;
 }
 constexpr uint16_t& System::Security::Cryptography::RC2Transform::__get_R1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R1;
 }
 constexpr uint16_t const& System::Security::Cryptography::RC2Transform::__get_R1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R1;
 }
 constexpr void System::Security::Cryptography::RC2Transform::__set_R1(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___R1 = value;
 }
 constexpr uint16_t& System::Security::Cryptography::RC2Transform::__get_R2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R2;
 }
 constexpr uint16_t const& System::Security::Cryptography::RC2Transform::__get_R2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R2;
 }
 constexpr void System::Security::Cryptography::RC2Transform::__set_R2(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___R2 = value;
 }
 constexpr uint16_t& System::Security::Cryptography::RC2Transform::__get_R3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R3;
 }
 constexpr uint16_t const& System::Security::Cryptography::RC2Transform::__get_R3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___R3;
 }
 constexpr void System::Security::Cryptography::RC2Transform::__set_R3(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___R3 = value;
 }
 constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& System::Security::Cryptography::RC2Transform::__get_K() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___K;
 }
 constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& System::Security::Cryptography::RC2Transform::__get_K() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___K;
 }
 constexpr void System::Security::Cryptography::RC2Transform::__set_K(::ArrayW<uint16_t, ::Array<uint16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___K)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Cryptography::RC2Transform::__get_j() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___j;
 }
 constexpr int32_t const& System::Security::Cryptography::RC2Transform::__get_j() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___j;
 }
 constexpr void System::Security::Cryptography::RC2Transform::__set_j(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___j = value;
 }
 inline void System::Security::Cryptography::RC2Transform::setStaticF_pitable(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

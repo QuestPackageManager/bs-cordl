@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LRUCacheAllocationStrategy_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy._ctor
 template <>
 
@@ -87,68 +87,68 @@ constexpr UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ope
   return static_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolMaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolMaxSize;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolMaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolMaxSize;
 }
 constexpr void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__set_m_poolMaxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_poolMaxSize = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolInitialCapacity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolInitialCapacity;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolInitialCapacity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolInitialCapacity;
 }
 constexpr void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__set_m_poolInitialCapacity(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_poolInitialCapacity = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolCacheMaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolCacheMaxSize;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolCacheMaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolCacheMaxSize;
 }
 constexpr void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__set_m_poolCacheMaxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_poolCacheMaxSize = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*& UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*> const&
 UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_poolCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_poolCache;
 }
 constexpr void
 UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__set_m_poolCache(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_poolCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*&
 UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_cache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*> const&
 UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_cache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cache;
 }
 constexpr void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__set_m_cache(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*

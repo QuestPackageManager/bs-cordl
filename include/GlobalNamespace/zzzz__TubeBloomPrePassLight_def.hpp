@@ -9,23 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TubeBloomPrePassLight)
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class Parametric3SliceSpriteController;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class ParametricBoxController;
 }
 namespace UnityEngine {
-struct Vector3;
+class AnimationCurve;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct __BloomPrePassLight__QuadData;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -33,14 +36,11 @@ struct Vector4;
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace GlobalNamespace {
-struct __BloomPrePassLight__QuadData;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class Parametric3SliceSpriteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

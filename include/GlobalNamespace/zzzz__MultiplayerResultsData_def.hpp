@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerResultsData)
 namespace GlobalNamespace {
-class MultiplayerBadgesProvider;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
@@ -17,11 +17,11 @@ class MultiplayerPlayerResultsData;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class MultiplayerBadgesProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

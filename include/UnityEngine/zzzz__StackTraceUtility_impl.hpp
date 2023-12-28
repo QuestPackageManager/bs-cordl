@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__StackTraceUtility_def.hpp"
-#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 //  Writing Method size for method: ::UnityEngine::StackTraceUtility.SetProjectFolder
 template <>
 

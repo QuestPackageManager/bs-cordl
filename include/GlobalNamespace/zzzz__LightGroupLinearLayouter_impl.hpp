@@ -21,39 +21,39 @@ constexpr GlobalNamespace::LightGroupLinearLayouter::operator ::GlobalNamespace:
   return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::LightGroupLinearLayouter::__get__movementStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementStep;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightGroupLinearLayouter::__get__movementStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementStep;
 }
 constexpr void GlobalNamespace::LightGroupLinearLayouter::__set__movementStep(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____movementStep = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::LightGroupLinearLayouter::__get__defaultRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultRotation;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightGroupLinearLayouter::__get__defaultRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultRotation;
 }
 constexpr void GlobalNamespace::LightGroupLinearLayouter::__set__defaultRotation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultRotation = value;
 }
 constexpr bool& GlobalNamespace::LightGroupLinearLayouter::__get__startFromCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startFromCenter;
 }
 constexpr bool const& GlobalNamespace::LightGroupLinearLayouter::__get__startFromCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startFromCenter;
 }
 constexpr void GlobalNamespace::LightGroupLinearLayouter::__set__startFromCenter(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startFromCenter = value;
 }
 inline ::GlobalNamespace::LightGroupLinearLayouter* GlobalNamespace::LightGroupLinearLayouter::New_ctor() {

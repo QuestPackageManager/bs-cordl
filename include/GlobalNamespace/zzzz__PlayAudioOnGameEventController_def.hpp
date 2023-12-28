@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayAudioOnGameEventController)
 namespace GlobalNamespace {
-class AudioClipQueue;
+class __PlayAudioOnGameEventController__EventAudioBinding;
 }
 namespace GlobalNamespace {
-class __PlayAudioOnGameEventController__EventAudioBinding;
+class AudioClipQueue;
 }
 namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+class LocalizedAudioClipSO;
 }
 namespace GlobalNamespace {
-class LocalizedAudioClipSO;
+template <typename T> class RandomObjectPicker_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

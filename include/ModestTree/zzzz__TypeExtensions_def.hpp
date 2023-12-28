@@ -6,32 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeExtensions)
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System {
-class Attribute;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace ModestTree {
 class __TypeExtensions___GetParentTypes_d__28;
-}
-namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_0;
-}
-namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_1;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System {
-class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -40,34 +16,58 @@ namespace System::Reflection {
 class MemberInfo;
 }
 namespace ModestTree {
+class __TypeExtensions____c__DisplayClass39_0;
+}
+namespace System {
+class Object;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+class Attribute;
+}
+namespace ModestTree {
+class __TypeExtensions____c__DisplayClass39_1;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace ModestTree {
+class __TypeExtensions____c__DisplayClass35_0;
+}
+namespace ModestTree {
 class __TypeExtensions____c__DisplayClass35_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Reflection {
-class FieldInfo;
-}
-namespace ModestTree {
-class __TypeExtensions____c__DisplayClass35_0;
-}
-namespace System::Reflection {
 class PropertyInfo;
 }
 namespace System {
-class Delegate;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IDisposable;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 // Forward declare root types
 namespace ModestTree {

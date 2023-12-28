@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshTransform)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder {
 struct PivotLocation;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;

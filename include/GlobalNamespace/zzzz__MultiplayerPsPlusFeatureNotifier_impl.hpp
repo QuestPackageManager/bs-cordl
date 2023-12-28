@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::MultiplayerPsPlusFeatureNotifier::__get__isSpectator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSpectator;
 }
 constexpr bool const& GlobalNamespace::MultiplayerPsPlusFeatureNotifier::__get__isSpectator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSpectator;
 }
 constexpr void GlobalNamespace::MultiplayerPsPlusFeatureNotifier::__set__isSpectator(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isSpectator = value;
 }
 inline ::GlobalNamespace::MultiplayerPsPlusFeatureNotifier* GlobalNamespace::MultiplayerPsPlusFeatureNotifier::New_ctor() {

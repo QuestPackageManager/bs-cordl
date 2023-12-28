@@ -2,20 +2,20 @@
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509V2AttributeCertificate_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__AttributeCertificateIssuer_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Attribute_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__AttributeCertificateIssuer_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__AttributeCertificateHolder_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Attribute_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::X509V2AttributeCertificate.GetObject
 template <>
@@ -438,39 +438,39 @@ constexpr Org::BouncyCastle::X509::X509V2AttributeCertificate::operator ::Org::B
   return static_cast<::Org::BouncyCastle::X509::IX509Extension*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& Org::BouncyCastle::X509::X509V2AttributeCertificate::__get_cert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& Org::BouncyCastle::X509::X509V2AttributeCertificate::__get_cert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
 constexpr void Org::BouncyCastle::X509::X509V2AttributeCertificate::__set_cert(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& Org::BouncyCastle::X509::X509V2AttributeCertificate::__get_notBefore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notBefore;
 }
 constexpr ::System::DateTime const& Org::BouncyCastle::X509::X509V2AttributeCertificate::__get_notBefore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notBefore;
 }
 constexpr void Org::BouncyCastle::X509::X509V2AttributeCertificate::__set_notBefore(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___notBefore = value;
 }
 constexpr ::System::DateTime& Org::BouncyCastle::X509::X509V2AttributeCertificate::__get_notAfter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notAfter;
 }
 constexpr ::System::DateTime const& Org::BouncyCastle::X509::X509V2AttributeCertificate::__get_notAfter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notAfter;
 }
 constexpr void Org::BouncyCastle::X509::X509V2AttributeCertificate::__set_notAfter(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___notAfter = value;
 }
 inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* Org::BouncyCastle::X509::X509V2AttributeCertificate::GetObject(::System::IO::Stream* input) {

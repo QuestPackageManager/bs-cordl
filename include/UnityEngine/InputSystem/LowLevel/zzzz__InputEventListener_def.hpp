@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(InputEventListener)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 template <typename T> class IObserver_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class __InputEventListener__DisposableObserver;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventListener__ObserverState;
-}
 namespace System {
 template <typename T> class IObservable_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputEventListener__ObserverState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -50,8 +50,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventListener);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(2420)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3864
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2420), inst: 330 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2420), inst: 330
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2420)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3864 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(6533)) CS Name: ::InputEventListener::ObserverState*
 class CORDL_TYPE __InputEventListener__ObserverState : public ::System::Object {
 public:

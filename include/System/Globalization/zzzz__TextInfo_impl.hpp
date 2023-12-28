@@ -2,14 +2,14 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__TextInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Globalization/zzzz__CultureData_def.hpp"
-#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: ::System::Globalization::TextInfo.get_Invariant
 template <>
@@ -494,123 +494,123 @@ constexpr System::Globalization::TextInfo::operator ::System::Runtime::Serializa
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Globalization::TextInfo::__get_m_listSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_listSeparator;
 }
 constexpr ::StringW const& System::Globalization::TextInfo::__get_m_listSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_listSeparator;
 }
 constexpr void System::Globalization::TextInfo::__set_m_listSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_listSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Globalization::TextInfo::__get_m_isReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isReadOnly;
 }
 constexpr bool const& System::Globalization::TextInfo::__get_m_isReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isReadOnly;
 }
 constexpr void System::Globalization::TextInfo::__set_m_isReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isReadOnly = value;
 }
 constexpr ::StringW& System::Globalization::TextInfo::__get_m_cultureName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cultureName;
 }
 constexpr ::StringW const& System::Globalization::TextInfo::__get_m_cultureName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cultureName;
 }
 constexpr void System::Globalization::TextInfo::__set_m_cultureName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cultureName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureData*& System::Globalization::TextInfo::__get_m_cultureData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cultureData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& System::Globalization::TextInfo::__get_m_cultureData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cultureData;
 }
 constexpr void System::Globalization::TextInfo::__set_m_cultureData(::System::Globalization::CultureData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cultureData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::TextInfo::__get_m_textInfoName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_textInfoName;
 }
 constexpr ::StringW const& System::Globalization::TextInfo::__get_m_textInfoName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_textInfoName;
 }
 constexpr void System::Globalization::TextInfo::__set_m_textInfoName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_textInfoName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<bool>& System::Globalization::TextInfo::__get_m_IsAsciiCasingSameAsInvariant() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsAsciiCasingSameAsInvariant;
 }
 constexpr ::System::Nullable_1<bool> const& System::Globalization::TextInfo::__get_m_IsAsciiCasingSameAsInvariant() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsAsciiCasingSameAsInvariant;
 }
 constexpr void System::Globalization::TextInfo::__set_m_IsAsciiCasingSameAsInvariant(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsAsciiCasingSameAsInvariant = value;
 }
 constexpr ::StringW& System::Globalization::TextInfo::__get_customCultureName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customCultureName;
 }
 constexpr ::StringW const& System::Globalization::TextInfo::__get_customCultureName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customCultureName;
 }
 constexpr void System::Globalization::TextInfo::__set_customCultureName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___customCultureName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Globalization::TextInfo::__get_m_nDataItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nDataItem;
 }
 constexpr int32_t const& System::Globalization::TextInfo::__get_m_nDataItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nDataItem;
 }
 constexpr void System::Globalization::TextInfo::__set_m_nDataItem(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_nDataItem = value;
 }
 constexpr bool& System::Globalization::TextInfo::__get_m_useUserOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useUserOverride;
 }
 constexpr bool const& System::Globalization::TextInfo::__get_m_useUserOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useUserOverride;
 }
 constexpr void System::Globalization::TextInfo::__set_m_useUserOverride(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_useUserOverride = value;
 }
 constexpr int32_t& System::Globalization::TextInfo::__get_m_win32LangID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_win32LangID;
 }
 constexpr int32_t const& System::Globalization::TextInfo::__get_m_win32LangID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_win32LangID;
 }
 constexpr void System::Globalization::TextInfo::__set_m_win32LangID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_win32LangID = value;
 }
 inline void System::Globalization::TextInfo::setStaticF_s_Invariant(::System::Globalization::TextInfo* value) {

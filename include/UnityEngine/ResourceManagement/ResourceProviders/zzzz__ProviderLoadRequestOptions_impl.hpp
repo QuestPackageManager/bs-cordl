@@ -92,27 +92,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__get_m_IgnoreFailures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IgnoreFailures;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__get_m_IgnoreFailures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IgnoreFailures;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__set_m_IgnoreFailures(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IgnoreFailures = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__get_m_WebRequestTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequestTimeout;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__get_m_WebRequestTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequestTimeout;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__set_m_WebRequestTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WebRequestTimeout = value;
 }
 inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy() {

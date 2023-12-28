@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::JetBrains::Annotations::CollectionAccessType& JetBrains::Annotations::CollectionAccessAttribute::__get__CollectionAccessType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CollectionAccessType_k__BackingField;
 }
 constexpr ::JetBrains::Annotations::CollectionAccessType const& JetBrains::Annotations::CollectionAccessAttribute::__get__CollectionAccessType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CollectionAccessType_k__BackingField;
 }
 constexpr void JetBrains::Annotations::CollectionAccessAttribute::__set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CollectionAccessType_k__BackingField = value;
 }
 inline ::JetBrains::Annotations::CollectionAccessAttribute* JetBrains::Annotations::CollectionAccessAttribute::New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType) {

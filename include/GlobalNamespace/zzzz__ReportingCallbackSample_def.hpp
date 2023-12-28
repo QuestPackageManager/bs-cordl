@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ReportingCallbackSample)
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
-namespace UnityEngine::UI {
-class Text;
-}
 namespace Oculus::Platform {
 template <typename T> class Message_1;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {

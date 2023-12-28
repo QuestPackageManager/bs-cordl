@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cube)
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

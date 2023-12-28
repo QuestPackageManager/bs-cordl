@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(15687)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15687), inst:
-// 777 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15692)) CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSpritePartSO*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15687), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(15687)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15692)) CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSpritePartSO*
 class CORDL_TYPE AvatarSpritePartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityEngine::Sprite*> {
 public:
   // Declarations

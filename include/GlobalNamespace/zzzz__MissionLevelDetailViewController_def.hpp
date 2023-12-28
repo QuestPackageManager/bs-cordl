@@ -7,18 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelDetailViewController)
-namespace GlobalNamespace {
-class MissionNode;
-}
-namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class LevelBar;
-}
 namespace UnityEngine::UI {
 class Button;
 }
@@ -28,26 +16,38 @@ class __MissionLevelDetailViewController____c__DisplayClass14_0;
 namespace GlobalNamespace {
 class ObjectiveListItemsList;
 }
+namespace GlobalNamespace {
+class GameplayModifierInfoListItemsList;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+class LevelBar;
 }
 namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
+class GameplayModifierParamsSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class ObjectiveListItem;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

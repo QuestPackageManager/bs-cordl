@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(StylePropertyValue)
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct StyleValueHandle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

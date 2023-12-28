@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataObstaclesMergingTransform)
 namespace GlobalNamespace {
-class __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
+class ObstacleData;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+class __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;

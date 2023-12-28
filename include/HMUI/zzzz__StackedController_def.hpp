@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StackedController)
-namespace System {
-class Action;
-}
 namespace HMUI {
 class __StackedController____c__DisplayClass5_0;
 }
 namespace HMUI {
 class ViewController;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

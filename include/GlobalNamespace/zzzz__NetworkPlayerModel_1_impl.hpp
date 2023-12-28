@@ -10,30 +10,30 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -43,29 +43,29 @@ template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1__Network
   return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__get__playerModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerModel;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__get__playerModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerModel;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__set__playerModel(::GlobalNamespace::NetworkPlayerModel_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__get__connectedPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__get__connectedPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>::__set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
@@ -252,27 +252,27 @@ constexpr GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>
   return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::StringW& GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__get_secret() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secret;
 }
 template <typename T> constexpr ::StringW const& GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__get_secret() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secret;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__set_secret(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___secret)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::StringW& GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__get_code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___code;
 }
 template <typename T> constexpr ::StringW const& GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__get_code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___code;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::__set_code(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___code)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>* GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>::New_ctor() {
@@ -307,76 +307,76 @@ template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1__Network
   return static_cast<::GlobalNamespace::INetworkPlayer*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__playerModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerModel;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__playerModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerModel;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__set__playerModel(::GlobalNamespace::NetworkPlayerModel_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::StringW& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____code;
 }
 template <typename T> constexpr ::StringW const& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____code;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__set__code(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____code)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__selectionMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionMask;
 }
 template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__selectionMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionMask;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectionMask = value;
 }
 template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__configuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configuration;
 }
 template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration const& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__configuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configuration;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__set__configuration(::GlobalNamespace::GameplayServerConfiguration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____configuration = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__currentPlayerCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPlayerCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__currentPlayerCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPlayerCount;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__set__currentPlayerCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentPlayerCount = value;
 }
 template <typename T> constexpr float_t& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__lastUpdateTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUpdateTime;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__get__lastUpdateTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUpdateTime;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>::__set__lastUpdateTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastUpdateTime = value;
 }
 template <typename T>
@@ -633,65 +633,65 @@ template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetPar
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T> constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__set___2__current(::GlobalNamespace::INetworkPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__set___4__this(::GlobalNamespace::NetworkPlayerModel_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get__i_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__get__i_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::__set__i_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 template <typename T> inline ::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>* GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>::New_ctor(int32_t __1__state) {
@@ -773,71 +773,71 @@ template <typename T> constexpr GlobalNamespace::__NetworkPlayerModel_1___GetOth
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T> constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__set___2__current(::GlobalNamespace::INetworkPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__set___4__this(::GlobalNamespace::NetworkPlayerModel_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>&
 GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T>
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> const&
 GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T>
 constexpr void GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__set___7__wrap1(
     ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
 template <typename T> inline ::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>* GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::New_ctor(int32_t __1__state) {
@@ -903,52 +903,52 @@ template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>::__NetworkPlayerModel_1___GetOtherPlayers_d__58() {}
 template <typename T> constexpr bool& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get_clearCurrentList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearCurrentList;
 }
 template <typename T> constexpr bool const& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get_clearCurrentList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearCurrentList;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__set_clearCurrentList(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clearCurrentList = value;
 }
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__set___4__this(::GlobalNamespace::NetworkPlayerModel_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get_localSelectionMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localSelectionMask;
 }
 template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get_localSelectionMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localSelectionMask;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__set_localSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localSelectionMask = value;
 }
 template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get_localConfiguration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localConfiguration;
 }
 template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration const& GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__get_localConfiguration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localConfiguration;
 }
 template <typename T> constexpr void GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::__set_localConfiguration(::GlobalNamespace::GameplayServerConfiguration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localConfiguration = value;
 }
 template <typename T> inline ::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>* GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>::New_ctor() {
@@ -1017,210 +1017,210 @@ template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1<T>::operat
   return static_cast<::GlobalNamespace::INetworkPlayerModel*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::GlobalNamespace::IPlatformUserModel*& GlobalNamespace::NetworkPlayerModel_1<T>::__get__platformUserModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformUserModel;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__platformUserModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformUserModel;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformUserModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get__authenticationTokenProviderTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____authenticationTokenProviderTask;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const&
 GlobalNamespace::NetworkPlayerModel_1<T>::__get__authenticationTokenProviderTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____authenticationTokenProviderTask;
 }
 template <typename T>
 constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____authenticationTokenProviderTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get__localPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayer;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__localPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayer;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__localPlayer(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& GlobalNamespace::NetworkPlayerModel_1<T>::__get__networkingFailed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkingFailed;
 }
 template <typename T> constexpr bool const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__networkingFailed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkingFailed;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__networkingFailed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____networkingFailed = value;
 }
 template <typename T> constexpr bool& GlobalNamespace::NetworkPlayerModel_1<T>::__get__masterServerUnreachable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerUnreachable;
 }
 template <typename T> constexpr bool const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__masterServerUnreachable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerUnreachable;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__masterServerUnreachable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____masterServerUnreachable = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1<T>::__get__currentPlayerCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPlayerCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__currentPlayerCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPlayerCount;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__currentPlayerCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentPlayerCount = value;
 }
 template <typename T> constexpr ::System::Action_1<int32_t>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get_partySizeChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partySizeChangedEvent;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get_partySizeChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partySizeChangedEvent;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set_partySizeChangedEvent(::System::Action_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___partySizeChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action*& GlobalNamespace::NetworkPlayerModel_1<T>::__get_partyRefreshingEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partyRefreshingEvent;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get_partyRefreshingEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partyRefreshingEvent;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set_partyRefreshingEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___partyRefreshingEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get_partyChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partyChangedEvent;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get_partyChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partyChangedEvent;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___partyChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get_joinRequestedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___joinRequestedEvent;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get_joinRequestedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___joinRequestedEvent;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___joinRequestedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get_inviteRequestedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inviteRequestedEvent;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& GlobalNamespace::NetworkPlayerModel_1<T>::__get_inviteRequestedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inviteRequestedEvent;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inviteRequestedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get__partyPlayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyPlayers;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*> const&
 GlobalNamespace::NetworkPlayerModel_1<T>::__get__partyPlayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyPlayers;
 }
 template <typename T>
 constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__partyPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partyPlayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__get__publicServers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicServers;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*> const&
 GlobalNamespace::NetworkPlayerModel_1<T>::__get__publicServers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicServers;
 }
 template <typename T>
 constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__publicServers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____publicServers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr float_t& GlobalNamespace::NetworkPlayerModel_1<T>::__get__lastServerRefresh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastServerRefresh;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__lastServerRefresh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastServerRefresh;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__lastServerRefresh(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastServerRefresh = value;
 }
 template <typename T> constexpr bool& GlobalNamespace::NetworkPlayerModel_1<T>::__get__isRefreshing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRefreshing;
 }
 template <typename T> constexpr bool const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__isRefreshing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRefreshing;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__isRefreshing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isRefreshing = value;
 }
 template <typename T> constexpr bool& GlobalNamespace::NetworkPlayerModel_1<T>::__get__filterChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterChanged;
 }
 template <typename T> constexpr bool const& GlobalNamespace::NetworkPlayerModel_1<T>::__get__filterChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterChanged;
 }
 template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__set__filterChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____filterChanged = value;
 }
 template <typename T> inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* GlobalNamespace::NetworkPlayerModel_1<T>::get_authenticationTokenProviderTask() {

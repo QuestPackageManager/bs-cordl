@@ -106,39 +106,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::IntListSettingsController::__get__customNumberOfElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customNumberOfElements;
 }
 constexpr int32_t const& GlobalNamespace::IntListSettingsController::__get__customNumberOfElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customNumberOfElements;
 }
 constexpr void GlobalNamespace::IntListSettingsController::__set__customNumberOfElements(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____customNumberOfElements = value;
 }
 constexpr int32_t& GlobalNamespace::IntListSettingsController::__get__customIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customIndex;
 }
 constexpr int32_t const& GlobalNamespace::IntListSettingsController::__get__customIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customIndex;
 }
 constexpr void GlobalNamespace::IntListSettingsController::__set__customIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____customIndex = value;
 }
 constexpr ::System::Action_1<int32_t>*& GlobalNamespace::IntListSettingsController::__get_valueChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::IntListSettingsController::__get_valueChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueChangedEvent;
 }
 constexpr void GlobalNamespace::IntListSettingsController::__set_valueChangedEvent(::System::Action_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::IntListSettingsController::add_valueChangedEvent(::System::Action_1<int32_t>* value) {

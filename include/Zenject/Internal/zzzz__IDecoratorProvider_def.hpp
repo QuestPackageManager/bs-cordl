@@ -3,17 +3,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDecoratorProvider)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject::Internal {

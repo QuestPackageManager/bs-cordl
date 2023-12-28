@@ -16,27 +16,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::MonoTypeInfo::__get_full_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___full_name;
 }
 constexpr ::StringW const& System::MonoTypeInfo::__get_full_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___full_name;
 }
 constexpr void System::MonoTypeInfo::__set_full_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___full_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::RuntimeConstructorInfo*& System::MonoTypeInfo::__get_default_ctor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___default_ctor;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& System::MonoTypeInfo::__get_default_ctor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___default_ctor;
 }
 constexpr void System::MonoTypeInfo::__set_default_ctor(::System::Reflection::RuntimeConstructorInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___default_ctor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::MonoTypeInfo* System::MonoTypeInfo::New_ctor() {

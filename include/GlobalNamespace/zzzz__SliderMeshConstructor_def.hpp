@@ -10,16 +10,16 @@ namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
+class Mesh;
 }
 namespace GlobalNamespace {
 class VertexPath;
 }
 namespace UnityEngine {
-class Mesh;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

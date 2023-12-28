@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SceneProviderExtensions)
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
+struct SceneInstance;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
+class ISceneProvider;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

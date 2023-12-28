@@ -2,8 +2,8 @@
 #include "UnityEngine/UI/zzzz__Navigation_impl.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "UnityEngine/UI/zzzz__Navigation_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Navigation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UI::__Navigation__Mode::__Navigation__Mode(int32_t value__) noexcept {
   this->value__ = value__;

@@ -49,15 +49,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngineInternal::TypeInferenceRuleAttribute::__get__rule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rule;
 }
 constexpr ::StringW const& UnityEngineInternal::TypeInferenceRuleAttribute::__get__rule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rule;
 }
 constexpr void UnityEngineInternal::TypeInferenceRuleAttribute::__set__rule(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rule)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngineInternal::TypeInferenceRuleAttribute* UnityEngineInternal::TypeInferenceRuleAttribute::New_ctor(::UnityEngineInternal::TypeInferenceRules rule) {

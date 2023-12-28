@@ -48,27 +48,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__get_assemId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemId;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__get_assemId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemId;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__set_assemId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___assemId = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__get_assemblyIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyIndex;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__get_assemblyIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyIndex;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__set_assemblyIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___assemblyIndex = value;
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly* System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::New_ctor() {

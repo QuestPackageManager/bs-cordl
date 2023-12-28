@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext._ctor
 template <>
@@ -37,15 +37,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::SubContainerCreatorByNewGameObjectDynamicContext::__get__gameObjectBindInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& Zenject::SubContainerCreatorByNewGameObjectDynamicContext::__get__gameObjectBindInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr void Zenject::SubContainerCreatorByNewGameObjectDynamicContext::__set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObjectBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* Zenject::SubContainerCreatorByNewGameObjectDynamicContext::New_ctor(::Zenject::DiContainer* container,

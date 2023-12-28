@@ -11,49 +11,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDragger)
 namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-struct __ListViewDragger__DragPosition;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
 class ICollectionDragAndDropController;
 }
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
-}
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
+struct ListDragAndDropArgs;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
-struct ListDragAndDropArgs;
+class StartDragArgs;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
+}
+namespace UnityEngine::UIElements {
+struct __ListViewDragger__DragPosition;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct DragAndDropPosition;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -118,7 +118,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ListV
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6958)), TypeDefinitionIndex(TypeDefinitionIndex(6969))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6969)), TypeDefinitionIndex(TypeDefinitionIndex(6958))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6959))
 // CS Name: ::UnityEngine.UIElements::ListViewDragger*
 class CORDL_TYPE ListViewDragger : public ::UnityEngine::UIElements::DragEventsProcessor {

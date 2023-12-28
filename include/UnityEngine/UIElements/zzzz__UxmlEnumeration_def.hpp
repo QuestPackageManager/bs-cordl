@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlEnumeration)
-namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::UIElements {
+class UxmlTypeRestriction;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

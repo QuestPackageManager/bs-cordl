@@ -2,17 +2,17 @@
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__XsdDateTimeFlags_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "System/Xml/Schema/zzzz__XsdDateTimeFlags_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_dateTimeBase.CreateValueConverter
 template <>
 
@@ -150,15 +150,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::System::Xml::Schema::XsdDateTimeFlags& System::Xml::Schema::Datatype_dateTimeBase::__get_dateTimeFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTimeFlags;
 }
 constexpr ::System::Xml::Schema::XsdDateTimeFlags const& System::Xml::Schema::Datatype_dateTimeBase::__get_dateTimeFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTimeFlags;
 }
 constexpr void System::Xml::Schema::Datatype_dateTimeBase::__set_dateTimeFlags(::System::Xml::Schema::XsdDateTimeFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dateTimeFlags = value;
 }
 inline void System::Xml::Schema::Datatype_dateTimeBase::setStaticF_atomicValueType(::System::Type* value) {

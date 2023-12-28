@@ -2,9 +2,9 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
-#include "System/Globalization/zzzz__EraInfo_def.hpp"
-#include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/Globalization/zzzz__EraInfo_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::System::Globalization::GregorianCalendarHelper.get_MaxYear
 template <>
@@ -342,75 +342,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Globalization::GregorianCalendarHelper::__get_m_maxYear() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxYear;
 }
 constexpr int32_t const& System::Globalization::GregorianCalendarHelper::__get_m_maxYear() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxYear;
 }
 constexpr void System::Globalization::GregorianCalendarHelper::__set_m_maxYear(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxYear = value;
 }
 constexpr int32_t& System::Globalization::GregorianCalendarHelper::__get_m_minYear() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_minYear;
 }
 constexpr int32_t const& System::Globalization::GregorianCalendarHelper::__get_m_minYear() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_minYear;
 }
 constexpr void System::Globalization::GregorianCalendarHelper::__set_m_minYear(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_minYear = value;
 }
 constexpr ::System::Globalization::Calendar*& System::Globalization::GregorianCalendarHelper::__get_m_Cal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Cal;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& System::Globalization::GregorianCalendarHelper::__get_m_Cal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Cal;
 }
 constexpr void System::Globalization::GregorianCalendarHelper::__set_m_Cal(::System::Globalization::Calendar* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Cal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*>& System::Globalization::GregorianCalendarHelper::__get_m_EraInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EraInfo;
 }
 constexpr ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> const& System::Globalization::GregorianCalendarHelper::__get_m_EraInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EraInfo;
 }
 constexpr void System::Globalization::GregorianCalendarHelper::__set_m_EraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EraInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Globalization::GregorianCalendarHelper::__get_m_eras() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eras;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Globalization::GregorianCalendarHelper::__get_m_eras() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eras;
 }
 constexpr void System::Globalization::GregorianCalendarHelper::__set_m_eras(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_eras)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& System::Globalization::GregorianCalendarHelper::__get_m_minDate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_minDate;
 }
 constexpr ::System::DateTime const& System::Globalization::GregorianCalendarHelper::__get_m_minDate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_minDate;
 }
 constexpr void System::Globalization::GregorianCalendarHelper::__set_m_minDate(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_minDate = value;
 }
 inline void System::Globalization::GregorianCalendarHelper::setStaticF_DaysToMonth365(::ArrayW<int32_t, ::Array<int32_t>*> value) {

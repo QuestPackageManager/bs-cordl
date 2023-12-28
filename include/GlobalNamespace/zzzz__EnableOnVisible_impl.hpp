@@ -86,27 +86,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<bool>*& GlobalNamespace::EnableOnVisible::__get_VisibilityChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VisibilityChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& GlobalNamespace::EnableOnVisible::__get_VisibilityChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VisibilityChangedEvent;
 }
 constexpr void GlobalNamespace::EnableOnVisible::__set_VisibilityChangedEvent(::System::Action_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VisibilityChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*>& GlobalNamespace::EnableOnVisible::__get__components() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____components;
 }
 constexpr ::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*> const& GlobalNamespace::EnableOnVisible::__get__components() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____components;
 }
 constexpr void GlobalNamespace::EnableOnVisible::__set__components(::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____components)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent(::System::Action_1<bool>* value) {

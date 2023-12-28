@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncReadOrWriteRequest)
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+class BufferOffsetSize;
 }
 namespace Mono::Net::Security {
-class BufferOffsetSize;
+class MobileAuthenticatedStream;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

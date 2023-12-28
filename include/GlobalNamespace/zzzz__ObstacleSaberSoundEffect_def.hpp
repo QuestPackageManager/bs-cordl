@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleSaberSoundEffect)
-namespace GlobalNamespace {
-struct SaberType;
+namespace UnityEngine {
+class AudioSource;
 }
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffectManager;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace GlobalNamespace {
+struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSoundEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4073))
 // CS Name: ::ObstacleSaberSoundEffect*
 class CORDL_TYPE ObstacleSaberSoundEffect : public ::UnityEngine::MonoBehaviour {

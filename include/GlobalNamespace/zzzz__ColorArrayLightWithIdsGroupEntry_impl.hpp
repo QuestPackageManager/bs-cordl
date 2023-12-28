@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIdsGroupEntry_def.hpp"
-#include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
+#include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIdsGroupEntry.get_lightGroups
 template <>
 
@@ -32,39 +32,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorArrayLightWithIds*& GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__get__colorArrayLightWithIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorArrayLightWithIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorArrayLightWithIds*> const& GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__get__colorArrayLightWithIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorArrayLightWithIds;
 }
 constexpr void GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__set__colorArrayLightWithIds(::GlobalNamespace::ColorArrayLightWithIds* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorArrayLightWithIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*>& GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__get__lightGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroups;
 }
 constexpr ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> const& GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__get__lightGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroups;
 }
 constexpr void GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__set__lightGroups(::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__get__excludedLightIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludedLightIds;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__get__excludedLightIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludedLightIds;
 }
 constexpr void GlobalNamespace::ColorArrayLightWithIdsGroupEntry::__set__excludedLightIds(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____excludedLightIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> GlobalNamespace::ColorArrayLightWithIdsGroupEntry::get_lightGroups() {

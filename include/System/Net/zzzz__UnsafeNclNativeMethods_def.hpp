@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnsafeNclNativeMethods)
 namespace System::Net {
-class __UnsafeNclNativeMethods__HttpApi;
+class __UnsafeNclNativeMethods__SecureStringHelper;
 }
 namespace System::Net {
-class __UnsafeNclNativeMethods__SecureStringHelper;
+class __UnsafeNclNativeMethods__HttpApi;
 }
 namespace GlobalNamespace {
 class __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;

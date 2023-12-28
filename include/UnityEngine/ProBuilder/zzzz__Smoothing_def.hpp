@@ -8,7 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Smoothing)
 namespace UnityEngine::ProBuilder {
-class WingedEdge;
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -20,16 +23,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class WingedEdge;
 }
 namespace UnityEngine::ProBuilder {
 struct EdgeLookup;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

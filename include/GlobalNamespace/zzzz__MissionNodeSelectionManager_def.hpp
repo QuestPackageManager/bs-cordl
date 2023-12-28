@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionNodeSelectionManager)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class MissionNodesManager;
 }
@@ -16,6 +13,9 @@ class MissionNodeVisualController;
 }
 namespace GlobalNamespace {
 class MissionNode;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

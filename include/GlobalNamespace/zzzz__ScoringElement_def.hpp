@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoringElement)
 namespace GlobalNamespace {
-template <typename T> class __ScoringElement__Pool_1;
+class NoteData;
 }
 namespace GlobalNamespace {
 struct __ScoreMultiplierCounter__MultiplierEventType;
@@ -17,7 +17,7 @@ namespace System {
 template <typename T> class IComparable_1;
 }
 namespace GlobalNamespace {
-class NoteData;
+template <typename T> class __ScoringElement__Pool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2757 }), TypeDefinitionIndex(TypeDefinitionIndex(11038))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2757 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5322))
 // CS Name: ::ScoringElement::Pool`1<T>*
 class CORDL_TYPE __ScoringElement__Pool_1 : public ::Zenject::MemoryPool_1<T> {

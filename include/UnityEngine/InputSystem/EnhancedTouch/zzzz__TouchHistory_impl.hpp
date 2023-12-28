@@ -2,19 +2,19 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory._ctor
 template <>
 
@@ -278,27 +278,27 @@ constexpr UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::o
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory& UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__get_m_Owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Owner;
 }
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory const& UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__get_m_Owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Owner;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__set_m_Owner(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Owner = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__get_m_Index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
 }
 constexpr int32_t const& UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__get_m_Index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__set_m_Index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Index = value;
 }
 inline ::UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator*

@@ -10,23 +10,23 @@
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "System/zzzz__Version_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRPlugin__GUID._ctor
@@ -43,135 +43,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__OVRPlugin__GUID::__get_a() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr int32_t const& GlobalNamespace::__OVRPlugin__GUID::__get_a() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_a(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___a = value;
 }
 constexpr int16_t& GlobalNamespace::__OVRPlugin__GUID::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr int16_t const& GlobalNamespace::__OVRPlugin__GUID::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_b(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr int16_t& GlobalNamespace::__OVRPlugin__GUID::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr int16_t const& GlobalNamespace::__OVRPlugin__GUID::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_c(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d0;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d0;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d0(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d0 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d1;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d1;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d1(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d1 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d2;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d2;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d2(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d2 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d3;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d3;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d3(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d3 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d4;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d4;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d4(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d4 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d5;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d5;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d5(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d5 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d6;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d6;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d6(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d6 = value;
 }
 constexpr uint8_t& GlobalNamespace::__OVRPlugin__GUID::__get_d7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d7;
 }
 constexpr uint8_t const& GlobalNamespace::__OVRPlugin__GUID::__get_d7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d7;
 }
 constexpr void GlobalNamespace::__OVRPlugin__GUID::__set_d7(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d7 = value;
 }
 inline ::GlobalNamespace::__OVRPlugin__GUID* GlobalNamespace::__OVRPlugin__GUID::New_ctor() {
@@ -2403,111 +2403,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRPlugin__MeshType& GlobalNamespace::__OVRPlugin__Mesh::__get_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__MeshType const& GlobalNamespace::__OVRPlugin__Mesh::__get_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_Type(::GlobalNamespace::__OVRPlugin__MeshType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Type = value;
 }
 constexpr uint32_t& GlobalNamespace::__OVRPlugin__Mesh::__get_NumVertices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NumVertices;
 }
 constexpr uint32_t const& GlobalNamespace::__OVRPlugin__Mesh::__get_NumVertices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NumVertices;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_NumVertices(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___NumVertices = value;
 }
 constexpr uint32_t& GlobalNamespace::__OVRPlugin__Mesh::__get_NumIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NumIndices;
 }
 constexpr uint32_t const& GlobalNamespace::__OVRPlugin__Mesh::__get_NumIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NumIndices;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_NumIndices(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___NumIndices = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& GlobalNamespace::__OVRPlugin__Mesh::__get_VertexPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VertexPositions;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& GlobalNamespace::__OVRPlugin__Mesh::__get_VertexPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VertexPositions;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_VertexPositions(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VertexPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& GlobalNamespace::__OVRPlugin__Mesh::__get_Indices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Indices;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& GlobalNamespace::__OVRPlugin__Mesh::__get_Indices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Indices;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_Indices(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Indices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& GlobalNamespace::__OVRPlugin__Mesh::__get_VertexNormals() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VertexNormals;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& GlobalNamespace::__OVRPlugin__Mesh::__get_VertexNormals() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VertexNormals;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_VertexNormals(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VertexNormals)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*>& GlobalNamespace::__OVRPlugin__Mesh::__get_VertexUV0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VertexUV0;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> const& GlobalNamespace::__OVRPlugin__Mesh::__get_VertexUV0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___VertexUV0;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_VertexUV0(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VertexUV0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*>& GlobalNamespace::__OVRPlugin__Mesh::__get_BlendIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BlendIndices;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> const& GlobalNamespace::__OVRPlugin__Mesh::__get_BlendIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BlendIndices;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_BlendIndices(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4s, ::Array<::GlobalNamespace::__OVRPlugin__Vector4s>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BlendIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*>& GlobalNamespace::__OVRPlugin__Mesh::__get_BlendWeights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BlendWeights;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> const& GlobalNamespace::__OVRPlugin__Mesh::__get_BlendWeights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BlendWeights;
 }
 constexpr void GlobalNamespace::__OVRPlugin__Mesh::__set_BlendWeights(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector4f, ::Array<::GlobalNamespace::__OVRPlugin__Vector4f>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BlendWeights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRPlugin__Mesh* GlobalNamespace::__OVRPlugin__Mesh::New_ctor() {

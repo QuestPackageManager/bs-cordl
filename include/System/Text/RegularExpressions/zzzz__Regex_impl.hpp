@@ -6,21 +6,21 @@
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/zzzz__WeakReference_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexRunnerFactory_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
+#include "System/zzzz__WeakReference_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexRunnerFactory_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey._ctor
 template <>
 
@@ -173,124 +173,124 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Next(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Previous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Previous;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Previous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Previous;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Previous(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Key;
 }
 constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Key;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Key(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Key = value;
 }
 constexpr ::System::Text::RegularExpressions::RegexCode*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Code;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Code;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Code(::System::Text::RegularExpressions::RegexCode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Code)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Caps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Caps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Caps(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Caps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Capnames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capnames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Capnames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capnames;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Capnames(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Capnames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Capslist() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capslist;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Capslist() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capslist;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Capslist(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Capslist)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Capsize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capsize;
 }
 constexpr int32_t const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Capsize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Capsize;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Capsize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Capsize = value;
 }
 constexpr ::System::Text::RegularExpressions::ExclusiveReference*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Runnerref() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Runnerref;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_Runnerref() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Runnerref;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_Runnerref(::System::Text::RegularExpressions::ExclusiveReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Runnerref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_ReplRef() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReplRef;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const&
 System::Text::RegularExpressions::__Regex__CachedCodeEntry::__get_ReplRef() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReplRef;
 }
 constexpr void System::Text::RegularExpressions::__Regex__CachedCodeEntry::__set_ReplRef(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReplRef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*
@@ -907,148 +907,148 @@ constexpr System::Text::RegularExpressions::Regex::operator ::System::Runtime::S
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::TimeSpan& System::Text::RegularExpressions::Regex::__get_internalMatchTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internalMatchTimeout;
 }
 constexpr ::System::TimeSpan const& System::Text::RegularExpressions::Regex::__get_internalMatchTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internalMatchTimeout;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_internalMatchTimeout(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___internalMatchTimeout = value;
 }
 constexpr ::StringW& System::Text::RegularExpressions::Regex::__get_pattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pattern;
 }
 constexpr ::StringW const& System::Text::RegularExpressions::Regex::__get_pattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pattern;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_pattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::RegularExpressions::RegexOptions& System::Text::RegularExpressions::Regex::__get_roptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roptions;
 }
 constexpr ::System::Text::RegularExpressions::RegexOptions const& System::Text::RegularExpressions::Regex::__get_roptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roptions;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_roptions(::System::Text::RegularExpressions::RegexOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___roptions = value;
 }
 constexpr ::System::Text::RegularExpressions::RegexRunnerFactory*& System::Text::RegularExpressions::Regex::__get_factory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factory;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunnerFactory*> const& System::Text::RegularExpressions::Regex::__get_factory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factory;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_factory(::System::Text::RegularExpressions::RegexRunnerFactory* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___factory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::Regex::__get_caps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___caps;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::Regex::__get_caps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___caps;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_caps(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___caps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::Regex::__get_capnames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capnames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::Regex::__get_capnames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capnames;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_capnames(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___capnames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Text::RegularExpressions::Regex::__get_capslist() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capslist;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Text::RegularExpressions::Regex::__get_capslist() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capslist;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_capslist(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___capslist)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::RegularExpressions::Regex::__get_capsize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capsize;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Regex::__get_capsize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capsize;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set_capsize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___capsize = value;
 }
 constexpr ::System::Text::RegularExpressions::ExclusiveReference*& System::Text::RegularExpressions::Regex::__get__runnerref() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runnerref;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& System::Text::RegularExpressions::Regex::__get__runnerref() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runnerref;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set__runnerref(::System::Text::RegularExpressions::ExclusiveReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____runnerref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& System::Text::RegularExpressions::Regex::__get__replref() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____replref;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const&
 System::Text::RegularExpressions::Regex::__get__replref() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____replref;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set__replref(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____replref)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::RegularExpressions::RegexCode*& System::Text::RegularExpressions::Regex::__get__code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____code;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& System::Text::RegularExpressions::Regex::__get__code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____code;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set__code(::System::Text::RegularExpressions::RegexCode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____code)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::RegularExpressions::Regex::__get__refsInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refsInitialized;
 }
 constexpr bool const& System::Text::RegularExpressions::Regex::__get__refsInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refsInitialized;
 }
 constexpr void System::Text::RegularExpressions::Regex::__set__refsInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____refsInitialized = value;
 }
 inline void System::Text::RegularExpressions::Regex::setStaticF_s_cacheSize(int32_t value) {

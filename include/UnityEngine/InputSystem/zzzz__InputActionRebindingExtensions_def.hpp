@@ -23,6 +23,45 @@ namespace UnityEngine::InputSystem {
 struct InputControlScheme;
 }
 namespace UnityEngine::InputSystem {
+class __InputActionRebindingExtensions____c__DisplayClass25_0;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct PrimitiveValue;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionRebindingExtensions__ParameterEnumerator;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideJson;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionRebindingExtensions__Parameter;
+}
+namespace UnityEngine::InputSystem {
 class __InputActionRebindingExtensions__DeferBindingResolutionWrapper;
 }
 namespace UnityEngine::InputSystem {
@@ -34,80 +73,23 @@ class IInputActionCollection2;
 namespace UnityEngine::InputSystem {
 class __InputActionRebindingExtensions__RebindingOperation;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterEnumerator;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionRebindingExtensions____c__DisplayClass25_0;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterEnumerable;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
 namespace System::Linq::Expressions {
 template <typename TDelegate> class Expression_1;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct PrimitiveValue;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__DisplayStringOptions;
+struct __InputActionRebindingExtensions__ParameterOverride;
 }
 namespace UnityEngine::InputSystem {
 class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideJson;
+struct __InputBinding__DisplayStringOptions;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__Parameter;
+struct __InputActionRebindingExtensions__ParameterEnumerable;
 }
 namespace System {
 class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace GlobalNamespace {
-struct __InputActionRebindingExtensions__RebindingOperation__Flags;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -122,28 +104,46 @@ namespace System {
 class Type;
 }
 namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct __InputActionRebindingExtensions__RebindingOperation__Flags;
+}
+namespace System {
 class Action;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace System::Reflection {
 class FieldInfo;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -608,10 +608,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputActionRe
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6157)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6612)), TypeDefinitionIndex(TypeDefinitionIndex(6226))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6159)) CS Name: ::InputActionRebindingExtensions::RebindingOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6612)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6226)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }), TypeDefinitionIndex(TypeDefinitionIndex(6157)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6159)) CS Name: ::InputActionRebindingExtensions::RebindingOperation*
 class CORDL_TYPE __InputActionRebindingExtensions__RebindingOperation : public ::System::Object {
 public:
   // Declarations
@@ -1278,9 +1278,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6187)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6161)) CS Name:
-// ::InputActionRebindingExtensions::<>c__DisplayClass25_0*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6701)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6187))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6161)) CS Name: ::InputActionRebindingExtensions::<>c__DisplayClass25_0*
 class CORDL_TYPE __InputActionRebindingExtensions____c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations

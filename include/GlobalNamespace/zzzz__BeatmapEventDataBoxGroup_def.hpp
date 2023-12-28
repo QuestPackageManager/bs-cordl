@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroup)
-namespace System {
-template <typename T> class IComparable_1;
-}
 namespace GlobalNamespace {
-class __BeatmapEventDataBoxGroup__ElementData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class BeatmapEventDataBox;
 }
 namespace System {
 class Type;
 }
 namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+class BeatmapEventData;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBox;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
+class __BeatmapEventDataBoxGroup__ElementData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

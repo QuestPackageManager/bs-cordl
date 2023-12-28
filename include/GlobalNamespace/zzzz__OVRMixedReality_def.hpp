@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRMixedReality)
 namespace GlobalNamespace {
-class OVRComposition;
-}
-namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
-namespace UnityEngine {
-class Camera;
+namespace GlobalNamespace {
+struct __OVRManager__TrackingOrigin;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-struct __OVRManager__TrackingOrigin;
+class OVRComposition;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {

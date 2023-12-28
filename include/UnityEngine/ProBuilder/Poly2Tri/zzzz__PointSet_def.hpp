@@ -5,16 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PointSet)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
 class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -24,6 +18,12 @@ template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class Triangulatable;

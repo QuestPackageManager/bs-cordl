@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshHandles)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
 class __MeshHandles____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;

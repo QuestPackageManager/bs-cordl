@@ -3,10 +3,10 @@
 #include "Zenject/zzzz__TransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder._ctor
 template <>
 
@@ -100,16 +100,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::__get__GameObjectInfo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GameObjectInfo_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const&
 Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::__get__GameObjectInfo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GameObjectInfo_k__BackingField;
 }
 constexpr void Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::__set__GameObjectInfo_k__BackingField(::Zenject::GameObjectCreationParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____GameObjectInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*

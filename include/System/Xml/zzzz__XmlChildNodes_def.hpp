@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Xml/zzzz__XmlNodeList_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlChildNodes)
-namespace System::Xml {
-class XmlNode;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Xml {
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {

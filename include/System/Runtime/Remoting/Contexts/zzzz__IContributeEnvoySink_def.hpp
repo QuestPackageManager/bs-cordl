@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContributeEnvoySink)
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System {
 class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {

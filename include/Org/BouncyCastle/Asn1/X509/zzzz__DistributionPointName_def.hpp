@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DistributionPointName)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
-namespace System::Text {
-class StringBuilder;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

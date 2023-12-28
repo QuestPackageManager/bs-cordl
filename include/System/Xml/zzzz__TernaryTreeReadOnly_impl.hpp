@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Xml::TernaryTreeReadOnly::__get_nodeBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Xml::TernaryTreeReadOnly::__get_nodeBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeBuffer;
 }
 constexpr void System::Xml::TernaryTreeReadOnly::__set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nodeBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::TernaryTreeReadOnly* System::Xml::TernaryTreeReadOnly::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer) {

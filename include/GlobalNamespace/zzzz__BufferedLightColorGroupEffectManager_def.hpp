@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BufferedLightColorGroupEffectManager)
 namespace GlobalNamespace {
-class BufferedLightColorGroupEffect;
+class LightGroup;
 }
 namespace GlobalNamespace {
-class LightGroup;
+class BufferedLightColorGroupEffect;
 }
 namespace Zenject {
 class DiContainer;

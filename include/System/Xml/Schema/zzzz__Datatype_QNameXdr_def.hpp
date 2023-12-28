@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_QNameXdr)
+namespace System::Xml {
+struct XmlTokenizedType;
+}
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace System::Xml {
-struct XmlTokenizedType;
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

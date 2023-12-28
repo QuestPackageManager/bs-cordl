@@ -3,15 +3,15 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatEffectSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatEffectSpawner__InitData._ctor
 template <>
@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__BeatEffectSpawner__InitData::__get_hideNoteSpawnEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideNoteSpawnEffect;
 }
 constexpr bool const& GlobalNamespace::__BeatEffectSpawner__InitData::__get_hideNoteSpawnEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideNoteSpawnEffect;
 }
 constexpr void GlobalNamespace::__BeatEffectSpawner__InitData::__set_hideNoteSpawnEffect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hideNoteSpawnEffect = value;
 }
 inline ::GlobalNamespace::__BeatEffectSpawner__InitData* GlobalNamespace::__BeatEffectSpawner__InitData::New_ctor(bool hideNoteSpawnEffect) {
@@ -153,112 +153,112 @@ constexpr GlobalNamespace::BeatEffectSpawner::operator ::GlobalNamespace::IBeatE
   return static_cast<::GlobalNamespace::IBeatEffectDidFinishEvent*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::BeatEffectSpawner::__get__effectDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____effectDuration;
 }
 constexpr float_t const& GlobalNamespace::BeatEffectSpawner::__get__effectDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____effectDuration;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__effectDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____effectDuration = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::BeatEffectSpawner::__get__bombColorEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombColorEffect;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::BeatEffectSpawner::__get__bombColorEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombColorEffect;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__bombColorEffect(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bombColorEffect = value;
 }
 constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::BeatEffectSpawner::__get__colorManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::BeatEffectSpawner::__get__colorManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__colorManager(::GlobalNamespace::ColorManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::BeatEffectSpawner::__get__beatmapObjectManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::BeatEffectSpawner::__get__beatmapObjectManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AudioTimeSyncController*& GlobalNamespace::BeatEffectSpawner::__get__audioTimeSyncController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& GlobalNamespace::BeatEffectSpawner::__get__audioTimeSyncController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__BeatEffectSpawner__InitData*& GlobalNamespace::BeatEffectSpawner::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatEffectSpawner__InitData*> const& GlobalNamespace::BeatEffectSpawner::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__initData(::GlobalNamespace::__BeatEffectSpawner__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomFogSO*& GlobalNamespace::BeatEffectSpawner::__get__bloomFog() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFog;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogSO*> const& GlobalNamespace::BeatEffectSpawner::__get__bloomFog() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFog;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__bloomFog(::GlobalNamespace::BloomFogSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFog)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SongController*& GlobalNamespace::BeatEffectSpawner::__get__songController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongController*> const& GlobalNamespace::BeatEffectSpawner::__get__songController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songController;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__songController(::GlobalNamespace::SongController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BeatEffect*>*& GlobalNamespace::BeatEffectSpawner::__get__beatEffectPoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatEffectPoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BeatEffect*>*> const&
 GlobalNamespace::BeatEffectSpawner::__get__beatEffectPoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatEffectPoolContainer;
 }
 constexpr void GlobalNamespace::BeatEffectSpawner::__set__beatEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BeatEffect*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatEffectPoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BeatEffectSpawner::Init(::GlobalNamespace::__BeatEffect__Pool* beatEffectPool) {

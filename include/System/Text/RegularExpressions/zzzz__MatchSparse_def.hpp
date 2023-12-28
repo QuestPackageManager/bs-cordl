@@ -10,10 +10,10 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Text::RegularExpressions {
-class Regex;
+class GroupCollection;
 }
 namespace System::Text::RegularExpressions {
-class GroupCollection;
+class Regex;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

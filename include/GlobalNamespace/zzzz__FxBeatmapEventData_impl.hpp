@@ -32,39 +32,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::FxBeatmapEventData::__get_groupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
 constexpr int32_t const& GlobalNamespace::FxBeatmapEventData::__get_groupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
 constexpr void GlobalNamespace::FxBeatmapEventData::__set_groupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___groupId = value;
 }
 constexpr int32_t& GlobalNamespace::FxBeatmapEventData::__get_elementId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
 constexpr int32_t const& GlobalNamespace::FxBeatmapEventData::__get_elementId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
 constexpr void GlobalNamespace::FxBeatmapEventData::__set_elementId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementId = value;
 }
 constexpr bool& GlobalNamespace::FxBeatmapEventData::__get_usePreviousEventValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventValue;
 }
 constexpr bool const& GlobalNamespace::FxBeatmapEventData::__get_usePreviousEventValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventValue;
 }
 constexpr void GlobalNamespace::FxBeatmapEventData::__set_usePreviousEventValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventValue = value;
 }
 inline ::GlobalNamespace::FxBeatmapEventData* GlobalNamespace::FxBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue) {

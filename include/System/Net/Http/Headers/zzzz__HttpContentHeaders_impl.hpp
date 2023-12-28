@@ -63,15 +63,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Http::HttpContent*& System::Net::Http::Headers::HttpContentHeaders::__get_content() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& System::Net::Http::Headers::HttpContentHeaders::__get_content() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
 constexpr void System::Net::Http::Headers::HttpContentHeaders::__set_content(::System::Net::Http::HttpContent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::HttpContentHeaders* System::Net::Http::Headers::HttpContentHeaders::New_ctor(::System::Net::Http::HttpContent* content) {

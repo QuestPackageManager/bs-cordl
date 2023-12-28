@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ExternalCamerasManager_def.hpp"
 #include "GlobalNamespace/zzzz__OculusMRCManager_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ExternalCamerasManager.OnEnable
 template <>
 
@@ -61,39 +61,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OculusMRCManager*& GlobalNamespace::ExternalCamerasManager::__get__oculusMRCManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusMRCManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusMRCManager*> const& GlobalNamespace::ExternalCamerasManager::__get__oculusMRCManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusMRCManager;
 }
 constexpr void GlobalNamespace::ExternalCamerasManager::__set__oculusMRCManager(::GlobalNamespace::OculusMRCManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusMRCManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::ExternalCamerasManager::__get__mrcBackgroundCameraPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcBackgroundCameraPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::ExternalCamerasManager::__get__mrcBackgroundCameraPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcBackgroundCameraPrefab;
 }
 constexpr void GlobalNamespace::ExternalCamerasManager::__set__mrcBackgroundCameraPrefab(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mrcBackgroundCameraPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::ExternalCamerasManager::__get__mrcForegroundCameraPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcForegroundCameraPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::ExternalCamerasManager::__get__mrcForegroundCameraPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcForegroundCameraPrefab;
 }
 constexpr void GlobalNamespace::ExternalCamerasManager::__set__mrcForegroundCameraPrefab(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mrcForegroundCameraPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ExternalCamerasManager::OnEnable() {

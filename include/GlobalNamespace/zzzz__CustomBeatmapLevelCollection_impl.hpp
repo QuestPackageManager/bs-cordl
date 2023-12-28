@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__CustomBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomBeatmapLevelCollection.get_beatmapLevels
 template <>
 
@@ -40,16 +40,16 @@ constexpr GlobalNamespace::CustomBeatmapLevelCollection::operator ::GlobalNamesp
   return static_cast<::GlobalNamespace::IBeatmapLevelCollection*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*& GlobalNamespace::CustomBeatmapLevelCollection::__get__customPreviewBeatmapLevels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customPreviewBeatmapLevels;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*> const&
 GlobalNamespace::CustomBeatmapLevelCollection::__get__customPreviewBeatmapLevels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customPreviewBeatmapLevels;
 }
 constexpr void GlobalNamespace::CustomBeatmapLevelCollection::__set__customPreviewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customPreviewBeatmapLevels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* GlobalNamespace::CustomBeatmapLevelCollection::get_beatmapLevels() {

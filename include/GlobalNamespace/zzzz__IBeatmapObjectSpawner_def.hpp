@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IBeatmapObjectSpawner)
 namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+class ObstacleData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleData;
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
 class NoteData;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -10,11 +10,11 @@ class IX509Store;
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
 }
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

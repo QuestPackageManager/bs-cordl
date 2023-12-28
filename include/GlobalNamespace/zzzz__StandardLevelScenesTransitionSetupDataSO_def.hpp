@@ -9,46 +9,46 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct __RecordingToolManager__SetupData;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -12,8 +12,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpHeaders)
+namespace System::Net::Http::Headers {
+class __HttpHeaders___GetEnumerator_d__19;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
@@ -21,38 +24,35 @@ class Object;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Net::Http::Headers {
-class HeaderInfo;
-}
-namespace System::Net::Http::Headers {
-template <typename T> class HttpHeaderValueCollection_1;
-}
-namespace System::Net::Http::Headers {
-class __HttpHeaders___GetEnumerator_d__19;
-}
-namespace System::Net::Http::Headers {
-struct HttpHeaderKind;
-}
-namespace System::Net::Http::Headers {
-class __HttpHeaders__HeaderBucket;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Net::Http::Headers {
+class HeaderInfo;
+}
+namespace System::Net::Http::Headers {
+struct HttpHeaderKind;
+}
+namespace System::Net::Http::Headers {
+template <typename T> class HttpHeaderValueCollection_1;
+}
+namespace System::Net::Http::Headers {
+class __HttpHeaders__HeaderBucket;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -162,10 +162,10 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Ht
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3832), inst: 397 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3819), inst: 1455 }), TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(3832)), TypeDefinitionIndex(TypeDefinitionIndex(3819)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3942 }), TypeDefinitionIndex(TypeDefinitionIndex(14675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14676)) CS
-// Name: ::HttpHeaders::<GetEnumerator>d__19*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3942 }), TypeDefinitionIndex(TypeDefinitionIndex(14675)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1455 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3832)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3832), inst: 397 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14676)) CS Name: ::HttpHeaders::<GetEnumerator>d__19*
 class CORDL_TYPE __HttpHeaders___GetEnumerator_d__19 : public ::System::Object {
 public:
   // Declarations
@@ -284,8 +284,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Ht
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14673)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14677)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14673)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14677)) CS Name:
 // ::System.Net.Http.Headers::HttpHeaders*
 class CORDL_TYPE HttpHeaders : public ::System::Object {
 public:

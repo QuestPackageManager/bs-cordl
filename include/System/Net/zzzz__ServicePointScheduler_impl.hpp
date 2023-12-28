@@ -8,23 +8,23 @@
 #include "System/Net/zzzz__ServicePointScheduler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Net/zzzz__ServicePointScheduler_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Net/zzzz__ServicePoint_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/Net/zzzz__WebConnection_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
-#include "System/Net/zzzz__ServicePoint_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::System::Net::__ServicePointScheduler__ConnectionGroup.get_Scheduler
 template <>
 
@@ -173,65 +173,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::ServicePointScheduler*& System::Net::__ServicePointScheduler__ConnectionGroup::__get__Scheduler_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Scheduler_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePointScheduler*> const& System::Net::__ServicePointScheduler__ConnectionGroup::__get__Scheduler_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Scheduler_k__BackingField;
 }
 constexpr void System::Net::__ServicePointScheduler__ConnectionGroup::__set__Scheduler_k__BackingField(::System::Net::ServicePointScheduler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Scheduler_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::__ServicePointScheduler__ConnectionGroup::__get__Name_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr ::StringW const& System::Net::__ServicePointScheduler__ConnectionGroup::__get__Name_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr void System::Net::__ServicePointScheduler__ConnectionGroup::__set__Name_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::__ServicePointScheduler__ConnectionGroup::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr int32_t const& System::Net::__ServicePointScheduler__ConnectionGroup::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void System::Net::__ServicePointScheduler__ConnectionGroup::__set__cordl_ID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 constexpr ::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>*& System::Net::__ServicePointScheduler__ConnectionGroup::__get_connections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>*> const&
 System::Net::__ServicePointScheduler__ConnectionGroup::__get_connections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connections;
 }
 constexpr void System::Net::__ServicePointScheduler__ConnectionGroup::__set_connections(::System::Collections::Generic::LinkedList_1<::System::Net::WebConnection*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>*& System::Net::__ServicePointScheduler__ConnectionGroup::__get_queue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>*> const&
 System::Net::__ServicePointScheduler__ConnectionGroup::__get_queue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queue;
 }
 constexpr void System::Net::__ServicePointScheduler__ConnectionGroup::__set_queue(::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___queue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::__ServicePointScheduler__ConnectionGroup::setStaticF_nextId(int32_t value) {
@@ -429,15 +429,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& System::Net::__ServicePointScheduler__AsyncManualResetEvent::__get_m_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tcs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& System::Net::__ServicePointScheduler__AsyncManualResetEvent::__get_m_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tcs;
 }
 constexpr void System::Net::__ServicePointScheduler__AsyncManualResetEvent::__set_m_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::Task_1<bool>* System::Net::__ServicePointScheduler__AsyncManualResetEvent::WaitAsync(int32_t millisecondTimeout) {
@@ -918,158 +918,158 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::ServicePoint*& System::Net::ServicePointScheduler::__get__ServicePoint_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ServicePoint_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& System::Net::ServicePointScheduler::__get__ServicePoint_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ServicePoint_k__BackingField;
 }
 constexpr void System::Net::ServicePointScheduler::__set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ServicePoint_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::ServicePointScheduler::__get_running() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___running;
 }
 constexpr int32_t const& System::Net::ServicePointScheduler::__get_running() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___running;
 }
 constexpr void System::Net::ServicePointScheduler::__set_running(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___running = value;
 }
 constexpr int32_t& System::Net::ServicePointScheduler::__get_maxIdleTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxIdleTime;
 }
 constexpr int32_t const& System::Net::ServicePointScheduler::__get_maxIdleTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxIdleTime;
 }
 constexpr void System::Net::ServicePointScheduler::__set_maxIdleTime(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxIdleTime = value;
 }
 constexpr ::System::Net::__ServicePointScheduler__AsyncManualResetEvent*& System::Net::ServicePointScheduler::__get_schedulerEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schedulerEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointScheduler__AsyncManualResetEvent*> const& System::Net::ServicePointScheduler::__get_schedulerEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schedulerEvent;
 }
 constexpr void System::Net::ServicePointScheduler::__set_schedulerEvent(::System::Net::__ServicePointScheduler__AsyncManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schedulerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__ServicePointScheduler__ConnectionGroup*& System::Net::ServicePointScheduler::__get_defaultGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointScheduler__ConnectionGroup*> const& System::Net::ServicePointScheduler::__get_defaultGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultGroup;
 }
 constexpr void System::Net::ServicePointScheduler::__set_defaultGroup(::System::Net::__ServicePointScheduler__ConnectionGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>*& System::Net::ServicePointScheduler::__get_groups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>*> const&
 System::Net::ServicePointScheduler::__get_groups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groups;
 }
 constexpr void System::Net::ServicePointScheduler::__set_groups(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::__ServicePointScheduler__ConnectionGroup*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>*&
 System::Net::ServicePointScheduler::__get_operations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___operations;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>*> const&
 System::Net::ServicePointScheduler::__get_operations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___operations;
 }
 constexpr void System::Net::ServicePointScheduler::__set_operations(
     ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_2<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___operations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::LinkedList_1<
     ::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>*&
 System::Net::ServicePointScheduler::__get_idleConnections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idleConnections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<
     ::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>*> const&
 System::Net::ServicePointScheduler::__get_idleConnections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idleConnections;
 }
 constexpr void System::Net::ServicePointScheduler::__set_idleConnections(
     ::System::Collections::Generic::LinkedList_1<::System::ValueTuple_3<::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*, ::System::Threading::Tasks::Task*>>*
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___idleConnections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::ServicePointScheduler::__get_currentConnections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentConnections;
 }
 constexpr int32_t const& System::Net::ServicePointScheduler::__get_currentConnections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentConnections;
 }
 constexpr void System::Net::ServicePointScheduler::__set_currentConnections(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentConnections = value;
 }
 constexpr int32_t& System::Net::ServicePointScheduler::__get_connectionLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionLimit;
 }
 constexpr int32_t const& System::Net::ServicePointScheduler::__get_connectionLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionLimit;
 }
 constexpr void System::Net::ServicePointScheduler::__set_connectionLimit(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionLimit = value;
 }
 constexpr ::System::DateTime& System::Net::ServicePointScheduler::__get_idleSince() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idleSince;
 }
 constexpr ::System::DateTime const& System::Net::ServicePointScheduler::__get_idleSince() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idleSince;
 }
 constexpr void System::Net::ServicePointScheduler::__set_idleSince(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___idleSince = value;
 }
 constexpr int32_t& System::Net::ServicePointScheduler::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr int32_t const& System::Net::ServicePointScheduler::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void System::Net::ServicePointScheduler::__set__cordl_ID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 inline void System::Net::ServicePointScheduler::setStaticF_nextId(int32_t value) {

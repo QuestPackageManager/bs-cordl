@@ -13,38 +13,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerResultsPyramidViewAvatar)
-namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class CanvasGroup;
+namespace Tweening {
+class ColorTween;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace Tweening {
-class ColorTween;
+namespace GlobalNamespace {
+class __MultiplayerResultsPyramidViewAvatar__Factory;
 }
 namespace GlobalNamespace {
 class GhostDuplicationEffect;
 }
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class ImageView;
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class MultiplayerPlayerResultsData;
 }
 namespace Tweening {
 class FloatTween;
@@ -56,10 +41,25 @@ namespace Tweening {
 class Vector3Tween;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class PlayerDataModel;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace HMUI {
+class ImageView;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5245)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4859))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5245)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -545,8 +545,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResu
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(12778)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
-// 3489 }), TypeDefinitionIndex(TypeDefinitionIndex(5245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5244)) CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
+// 3489 }), TypeDefinitionIndex(TypeDefinitionIndex(12778))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5244)) CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
 class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
 public:

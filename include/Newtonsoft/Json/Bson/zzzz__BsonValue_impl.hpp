@@ -49,27 +49,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& Newtonsoft::Json::Bson::BsonValue::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Bson::BsonValue::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr void Newtonsoft::Json::Bson::BsonValue::__set__value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Bson::BsonType& Newtonsoft::Json::Bson::BsonValue::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::Newtonsoft::Json::Bson::BsonType const& Newtonsoft::Json::Bson::BsonValue::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void Newtonsoft::Json::Bson::BsonValue::__set__type(::Newtonsoft::Json::Bson::BsonType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
 inline ::Newtonsoft::Json::Bson::BsonValue* Newtonsoft::Json::Bson::BsonValue::New_ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type) {

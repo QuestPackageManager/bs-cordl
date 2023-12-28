@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Packet)
-namespace ENet {
-struct PacketFlags;
-}
 namespace System {
 class IDisposable;
+}
+namespace ENet {
+struct PacketFlags;
 }
 namespace ENet {
 class PacketFreeCallback;

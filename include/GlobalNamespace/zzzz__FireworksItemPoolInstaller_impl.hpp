@@ -32,27 +32,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::FireworksController*& GlobalNamespace::FireworksItemPoolInstaller::__get__fireworksController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworksController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& GlobalNamespace::FireworksItemPoolInstaller::__get__fireworksController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworksController;
 }
 constexpr void GlobalNamespace::FireworksItemPoolInstaller::__set__fireworksController(::GlobalNamespace::FireworksController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fireworksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FireworkItemController*& GlobalNamespace::FireworksItemPoolInstaller::__get__fireworkItemControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworkItemControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworkItemController*> const& GlobalNamespace::FireworksItemPoolInstaller::__get__fireworkItemControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworkItemControllerPrefab;
 }
 constexpr void GlobalNamespace::FireworksItemPoolInstaller::__set__fireworkItemControllerPrefab(::GlobalNamespace::FireworkItemController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fireworkItemControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FireworksItemPoolInstaller::InstallBindings() {

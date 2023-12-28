@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(FixedPointPreCompInfo)
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {

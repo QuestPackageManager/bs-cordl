@@ -13,56 +13,59 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugConsoleController)
-namespace GlobalNamespace {
-class ConsoleCommandBase;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___ExecuteCommands_d__6;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Type;
 }
 namespace GlobalNamespace {
-struct __DebugConsoleController___ReadInputLoopAsync_d__21;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___TryExecuteCommand_d__8;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class IInitializable;
+class ConsoleCommandBase;
 }
 namespace GlobalNamespace {
 struct __DebugConsoleController__ConsoleMessage;
 }
 namespace GlobalNamespace {
+struct __DebugConsoleController___ExecuteCommandsAsync_d__7;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___TryExecuteCommand_d__8;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___ExecuteCommands_d__6;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class ITickable;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController___ReadInputLoopAsync_d__21;
+}
+namespace GlobalNamespace {
 struct __DebugConsoleController___StartConsoleReadTask_d__20;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class ITickable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController___ExecuteCommandsAsync_d__7;
+class IInitializable;
 }
 namespace UnityEngine {
 struct LogType;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -71,25 +74,22 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace System::IO {
-class Stream;
+namespace System {
+class Object;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::IO {
-class StreamReader;
-}
 namespace System::Runtime::CompilerServices {
 struct ValueTaskAwaiter;
 }
-namespace System {
-class Object;
+namespace System::IO {
+class Stream;
+}
+namespace System::IO {
+class StreamReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -269,7 +269,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DebugConsoleC
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5995))
 // CS Name: ::DebugConsoleController::<TryExecuteCommand>d__8
 struct CORDL_TYPE __DebugConsoleController___TryExecuteCommand_d__8 {
@@ -329,7 +329,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DebugConsoleC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5996))
 // CS Name: ::DebugConsoleController::<StartConsoleReadTask>d__20
 struct CORDL_TYPE __DebugConsoleController___StartConsoleReadTask_d__20 {
@@ -376,7 +376,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DebugConsoleC
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397
 // }), TypeDefinitionIndex(TypeDefinitionIndex(3390))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5997)) CS Name: ::DebugConsoleController::<ReadInputLoopAsync>d__21
 struct CORDL_TYPE __DebugConsoleController___ReadInputLoopAsync_d__21 {
 public:

@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerEnvironmentResizeController)
 namespace GlobalNamespace {
-struct __MultiplayerEnvironmentResizeController__ResizeType;
-}
-namespace GlobalNamespace {
-class MultiplayerCenterResizeController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
 class __MultiplayerEnvironmentResizeController__ResizeData;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+struct __MultiplayerEnvironmentResizeController__ResizeType;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnCenter;
+}
+namespace GlobalNamespace {
+class MultiplayerCenterResizeController;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
@@ -101,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerEn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5204)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5205))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeData*
 class CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeData : public ::System::Object {

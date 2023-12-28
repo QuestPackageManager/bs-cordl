@@ -61,51 +61,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Canvas*& HMUI::CurvedCanvasSettingsHelper::__get__cachedCanvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedCanvas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& HMUI::CurvedCanvasSettingsHelper::__get__cachedCanvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedCanvas;
 }
 constexpr void HMUI::CurvedCanvasSettingsHelper::__set__cachedCanvas(::UnityEngine::Canvas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedCanvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HMUI::CurvedCanvasSettingsHelper::__get__cachedCanvasIsRootCanvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedCanvasIsRootCanvas;
 }
 constexpr bool const& HMUI::CurvedCanvasSettingsHelper::__get__cachedCanvasIsRootCanvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedCanvasIsRootCanvas;
 }
 constexpr void HMUI::CurvedCanvasSettingsHelper::__set__cachedCanvasIsRootCanvas(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cachedCanvasIsRootCanvas = value;
 }
 constexpr ::HMUI::CurvedCanvasSettings*& HMUI::CurvedCanvasSettingsHelper::__get__curvedCanvasSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettings*> const& HMUI::CurvedCanvasSettingsHelper::__get__curvedCanvasSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettings;
 }
 constexpr void HMUI::CurvedCanvasSettingsHelper::__set__curvedCanvasSettings(::HMUI::CurvedCanvasSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curvedCanvasSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HMUI::CurvedCanvasSettingsHelper::__get__hasCachedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasCachedData;
 }
 constexpr bool const& HMUI::CurvedCanvasSettingsHelper::__get__hasCachedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasCachedData;
 }
 constexpr void HMUI::CurvedCanvasSettingsHelper::__set__hasCachedData(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasCachedData = value;
 }
 inline void HMUI::CurvedCanvasSettingsHelper::setStaticF__curvedCanvasCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* value) {

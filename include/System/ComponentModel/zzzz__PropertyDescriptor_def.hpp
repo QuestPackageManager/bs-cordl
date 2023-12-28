@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyDescriptor)
 namespace System {
-class Object;
+class Type;
 }
 namespace System::ComponentModel {
 class MemberDescriptor;
 }
 namespace System {
-class EventArgs;
+class Object;
+}
+namespace System {
+class Attribute;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class TypeConverter;
+class EventArgs;
 }
 // Forward declare root types
 namespace System::ComponentModel {

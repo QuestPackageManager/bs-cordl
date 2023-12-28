@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__ControlFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericSecurityDescriptor_def.hpp"
 CORDL_MODULE_EXPORT(CommonSecurityDescriptor)
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
 namespace System::Security::AccessControl {
 class CommonAcl;
 }
 namespace System::Security::AccessControl {
-struct ControlFlags;
+class DiscretionaryAcl;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
-class DiscretionaryAcl;
+struct ControlFlags;
 }
 namespace System::Security::AccessControl {
 class SystemAcl;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::CommonSecurityDescriptor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3037)), TypeDefinitionIndex(TypeDefinitionIndex(3028))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3028)), TypeDefinitionIndex(TypeDefinitionIndex(3037))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3027))
 // CS Name: ::System.Security.AccessControl::CommonSecurityDescriptor*
 class CORDL_TYPE CommonSecurityDescriptor : public ::System::Security::AccessControl::GenericSecurityDescriptor {

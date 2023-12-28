@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__DefaultUnityXRHapticsHandler_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DefaultUnityXRHapticsHandler._ctor
 template <>
 
@@ -86,15 +86,15 @@ constexpr GlobalNamespace::DefaultUnityXRHapticsHandler::operator ::System::IDis
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::DefaultUnityXRHapticsHandler::__get__node() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____node;
 }
 constexpr ::UnityEngine::XR::XRNode const& GlobalNamespace::DefaultUnityXRHapticsHandler::__get__node() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____node;
 }
 constexpr void GlobalNamespace::DefaultUnityXRHapticsHandler::__set__node(::UnityEngine::XR::XRNode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____node = value;
 }
 inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* GlobalNamespace::DefaultUnityXRHapticsHandler::New_ctor(::UnityEngine::XR::XRNode node) {

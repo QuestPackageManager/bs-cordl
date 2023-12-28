@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuSceneSetup)
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace HMUI {
-class HierarchyManager;
-}
-namespace GlobalNamespace {
 class __MenuSceneSetup___Start_d__3;
 }
 namespace HMUI {
 class FlowCoordinator;
 }
+namespace HMUI {
+class HierarchyManager;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;

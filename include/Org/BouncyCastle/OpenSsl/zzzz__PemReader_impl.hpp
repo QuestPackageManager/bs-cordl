@@ -1,17 +1,17 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemReader_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
-#include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
-#include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::OpenSsl::PemReader._ctor
 template <>
 
@@ -193,15 +193,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder*& Org::BouncyCastle::OpenSsl::PemReader::__get_pFinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pFinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::OpenSsl::IPasswordFinder*> const& Org::BouncyCastle::OpenSsl::PemReader::__get_pFinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pFinder;
 }
 constexpr void Org::BouncyCastle::OpenSsl::PemReader::__set_pFinder(::Org::BouncyCastle::OpenSsl::IPasswordFinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pFinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::OpenSsl::PemReader* Org::BouncyCastle::OpenSsl::PemReader::New_ctor(::System::IO::TextReader* reader) {

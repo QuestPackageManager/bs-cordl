@@ -2,16 +2,16 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Delegate_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__MulticastDelegate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/zzzz__DelegateData_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 //  Writing Method size for method: ::System::Delegate.get_Method
 template <>
 
@@ -534,159 +534,159 @@ constexpr System::Delegate::operator ::System::Runtime::Serialization::ISerializ
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr void*& System::Delegate::__get_method_ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_ptr;
 }
 constexpr void* const& System::Delegate::__get_method_ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_ptr;
 }
 constexpr void System::Delegate::__set_method_ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___method_ptr = value;
 }
 constexpr void*& System::Delegate::__get_invoke_impl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invoke_impl;
 }
 constexpr void* const& System::Delegate::__get_invoke_impl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invoke_impl;
 }
 constexpr void System::Delegate::__set_invoke_impl(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invoke_impl = value;
 }
 constexpr ::System::Object*& System::Delegate::__get_m_target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_target;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Delegate::__get_m_target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_target;
 }
 constexpr void System::Delegate::__set_m_target(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr void*& System::Delegate::__get_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void* const& System::Delegate::__get_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void System::Delegate::__set_method(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___method = value;
 }
 constexpr void*& System::Delegate::__get_delegate_trampoline() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegate_trampoline;
 }
 constexpr void* const& System::Delegate::__get_delegate_trampoline() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegate_trampoline;
 }
 constexpr void System::Delegate::__set_delegate_trampoline(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delegate_trampoline = value;
 }
 constexpr void*& System::Delegate::__get_extra_arg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_arg;
 }
 constexpr void* const& System::Delegate::__get_extra_arg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_arg;
 }
 constexpr void System::Delegate::__set_extra_arg(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extra_arg = value;
 }
 constexpr void*& System::Delegate::__get_method_code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_code;
 }
 constexpr void* const& System::Delegate::__get_method_code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_code;
 }
 constexpr void System::Delegate::__set_method_code(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___method_code = value;
 }
 constexpr void*& System::Delegate::__get_interp_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interp_method;
 }
 constexpr void* const& System::Delegate::__get_interp_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interp_method;
 }
 constexpr void System::Delegate::__set_interp_method(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___interp_method = value;
 }
 constexpr void*& System::Delegate::__get_interp_invoke_impl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interp_invoke_impl;
 }
 constexpr void* const& System::Delegate::__get_interp_invoke_impl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interp_invoke_impl;
 }
 constexpr void System::Delegate::__set_interp_invoke_impl(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___interp_invoke_impl = value;
 }
 constexpr ::System::Reflection::MethodInfo*& System::Delegate::__get_method_info() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_info;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::Delegate::__get_method_info() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_info;
 }
 constexpr void System::Delegate::__set_method_info(::System::Reflection::MethodInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method_info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::MethodInfo*& System::Delegate::__get_original_method_info() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___original_method_info;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::Delegate::__get_original_method_info() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___original_method_info;
 }
 constexpr void System::Delegate::__set_original_method_info(::System::Reflection::MethodInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___original_method_info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DelegateData*& System::Delegate::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::DelegateData*> const& System::Delegate::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void System::Delegate::__set_data(::System::DelegateData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Delegate::__get_method_is_virtual() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_is_virtual;
 }
 constexpr bool const& System::Delegate::__get_method_is_virtual() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method_is_virtual;
 }
 constexpr void System::Delegate::__set_method_is_virtual(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___method_is_virtual = value;
 }
 inline ::System::Reflection::MethodInfo* System::Delegate::get_Method() {

@@ -10,64 +10,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Decimal)
 namespace System {
-class ISpanFormattable;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct MidpointRounding;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace System {
-struct __Decimal__DecCalc;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-class IComparable;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
 namespace System {
+class IConvertible;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+struct NumberStyles;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+struct MidpointRounding;
+}
+namespace System {
 class IFormattable;
+}
+namespace System {
+struct TypeCode;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+struct __Decimal__DecCalc;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace GlobalNamespace {
+struct __Decimal__DecCalc__Buf24;
 }
 namespace GlobalNamespace {
 struct __Decimal__DecCalc__RoundingMode;
 }
 namespace GlobalNamespace {
 struct __Decimal__DecCalc__PowerOvfl;
-}
-namespace GlobalNamespace {
-struct __Decimal__DecCalc__Buf24;
 }
 // Forward declare root types
 namespace GlobalNamespace {

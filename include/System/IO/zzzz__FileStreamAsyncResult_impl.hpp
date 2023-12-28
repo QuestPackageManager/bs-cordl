@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__FileStreamAsyncResult_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::IO::FileStreamAsyncResult._ctor
 template <>
 
@@ -94,111 +94,111 @@ constexpr System::IO::FileStreamAsyncResult::operator ::System::IAsyncResult*() 
   return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 constexpr ::System::Object*& System::IO::FileStreamAsyncResult::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::IO::FileStreamAsyncResult::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_state(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IO::FileStreamAsyncResult::__get_completed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 constexpr bool const& System::IO::FileStreamAsyncResult::__get_completed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_completed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completed = value;
 }
 constexpr ::System::Threading::ManualResetEvent*& System::IO::FileStreamAsyncResult::__get_wh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wh;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::IO::FileStreamAsyncResult::__get_wh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wh;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_wh(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::AsyncCallback*& System::IO::FileStreamAsyncResult::__get_cb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::IO::FileStreamAsyncResult::__get_cb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_cb(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IO::FileStreamAsyncResult::__get_completedSynch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completedSynch;
 }
 constexpr bool const& System::IO::FileStreamAsyncResult::__get_completedSynch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completedSynch;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_completedSynch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completedSynch = value;
 }
 constexpr int32_t& System::IO::FileStreamAsyncResult::__get_Count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Count;
 }
 constexpr int32_t const& System::IO::FileStreamAsyncResult::__get_Count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Count;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_Count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Count = value;
 }
 constexpr int32_t& System::IO::FileStreamAsyncResult::__get_OriginalCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OriginalCount;
 }
 constexpr int32_t const& System::IO::FileStreamAsyncResult::__get_OriginalCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OriginalCount;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_OriginalCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OriginalCount = value;
 }
 constexpr int32_t& System::IO::FileStreamAsyncResult::__get_BytesRead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BytesRead;
 }
 constexpr int32_t const& System::IO::FileStreamAsyncResult::__get_BytesRead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BytesRead;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_BytesRead(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BytesRead = value;
 }
 constexpr ::System::AsyncCallback*& System::IO::FileStreamAsyncResult::__get_realcb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___realcb;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::IO::FileStreamAsyncResult::__get_realcb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___realcb;
 }
 constexpr void System::IO::FileStreamAsyncResult::__set_realcb(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___realcb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::FileStreamAsyncResult* System::IO::FileStreamAsyncResult::New_ctor(::System::AsyncCallback* cb, ::System::Object* state) {

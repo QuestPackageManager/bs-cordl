@@ -252,75 +252,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::RotationLimit::__get_axis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::RotationLimit::__get_axis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis;
 }
 constexpr void RootMotion::FinalIK::RotationLimit::__set_axis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___axis = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::RotationLimit::__get_defaultLocalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::RotationLimit::__get_defaultLocalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr void RootMotion::FinalIK::RotationLimit::__set_defaultLocalRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalRotation = value;
 }
 constexpr bool& RootMotion::FinalIK::RotationLimit::__get__defaultLocalRotationOverride_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLocalRotationOverride_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::RotationLimit::__get__defaultLocalRotationOverride_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLocalRotationOverride_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::RotationLimit::__set__defaultLocalRotationOverride_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultLocalRotationOverride_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::RotationLimit::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::RotationLimit::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::RotationLimit::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 constexpr bool& RootMotion::FinalIK::RotationLimit::__get_applicationQuit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___applicationQuit;
 }
 constexpr bool const& RootMotion::FinalIK::RotationLimit::__get_applicationQuit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___applicationQuit;
 }
 constexpr void RootMotion::FinalIK::RotationLimit::__set_applicationQuit(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___applicationQuit = value;
 }
 constexpr bool& RootMotion::FinalIK::RotationLimit::__get_defaultLocalRotationSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotationSet;
 }
 constexpr bool const& RootMotion::FinalIK::RotationLimit::__get_defaultLocalRotationSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotationSet;
 }
 constexpr void RootMotion::FinalIK::RotationLimit::__set_defaultLocalRotationSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalRotationSet = value;
 }
 inline void RootMotion::FinalIK::RotationLimit::SetDefaultLocalRotation() {

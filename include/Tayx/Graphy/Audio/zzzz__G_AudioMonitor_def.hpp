@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_AudioMonitor)
 namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 namespace UnityEngine {
 class AudioListener;
 }
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioMonitor);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15066)), TypeDefinitionIndex(TypeDefinitionIndex(15588))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15588)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15066))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15088))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioMonitor*
 class CORDL_TYPE G_AudioMonitor : public ::UnityEngine::MonoBehaviour {

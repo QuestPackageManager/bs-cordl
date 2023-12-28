@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Chain)
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainImpl;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
+class X509ChainImpl;
 }
 namespace System {
 class IDisposable;
@@ -19,10 +19,10 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+struct X509ChainStatus;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

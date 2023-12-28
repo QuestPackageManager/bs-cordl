@@ -2,10 +2,10 @@
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
 /// @brief Convert operator to "::Zenject::IMemoryPool_2<TParam1,TValue>"
 template <typename TParam1, typename TValue> constexpr Zenject::StaticMemoryPool_2<TParam1, TValue>::operator ::Zenject::IMemoryPool_2<TParam1, TValue>*() noexcept {
   return static_cast<::Zenject::IMemoryPool_2<TParam1, TValue>*>(static_cast<void*>(this));
@@ -19,16 +19,16 @@ template <typename TParam1, typename TValue> constexpr Zenject::StaticMemoryPool
   return static_cast<::Zenject::IMemoryPool*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TValue> constexpr ::System::Action_2<TParam1, TValue>*& Zenject::StaticMemoryPool_2<TParam1, TValue>::__get__onSpawnMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onSpawnMethod;
 }
 template <typename TParam1, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TParam1, TValue>*> const& Zenject::StaticMemoryPool_2<TParam1, TValue>::__get__onSpawnMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onSpawnMethod;
 }
 template <typename TParam1, typename TValue> constexpr void Zenject::StaticMemoryPool_2<TParam1, TValue>::__set__onSpawnMethod(::System::Action_2<TParam1, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onSpawnMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param onDespawnedMethod: ::System::Action_1<TValue>* (default: nullptr)

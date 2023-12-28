@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolWrapperFactory_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IFactory_2_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_2_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__IFactory_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_2<TParam1,TValue>"
 template <typename TParam1, typename TValue> constexpr Zenject::PoolWrapperFactory_2<TParam1, TValue>::operator ::Zenject::IFactory_2<TParam1, TValue>*() noexcept {
   return static_cast<::Zenject::IFactory_2<TParam1, TValue>*>(static_cast<void*>(this));
@@ -15,16 +15,16 @@ template <typename TParam1, typename TValue> constexpr Zenject::PoolWrapperFacto
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename TParam1, typename TValue> constexpr ::Zenject::IMemoryPool_2<TParam1, TValue>*& Zenject::PoolWrapperFactory_2<TParam1, TValue>::__get__pool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename TParam1, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_2<TParam1, TValue>*> const& Zenject::PoolWrapperFactory_2<TParam1, TValue>::__get__pool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename TParam1, typename TValue> constexpr void Zenject::PoolWrapperFactory_2<TParam1, TValue>::__set__pool(::Zenject::IMemoryPool_2<TParam1, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TParam1, typename TValue>

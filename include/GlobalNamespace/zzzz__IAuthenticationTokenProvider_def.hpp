@@ -14,13 +14,13 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct PlatformEnvironment;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct PlatformEnvironment;
+class XPlatformAccessTokenData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -11,53 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mesh)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct BoneWeight1;
+}
+namespace System {
+class Array;
+}
 namespace UnityEngine::Rendering {
-struct SubMeshDescriptor;
-}
-namespace UnityEngine {
-struct CombineInstance;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttribute;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct __Mesh__MeshDataArray;
+struct IndexFormat;
 }
 namespace UnityEngine {
 struct BoneWeight;
 }
 namespace UnityEngine {
-struct __Mesh__MeshData;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct __GraphicsBuffer__Target;
 }
 namespace UnityEngine {
-struct BoneWeight1;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::Rendering {
-struct IndexFormat;
+struct MeshTopology;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttributeDescriptor;
@@ -66,22 +39,49 @@ namespace UnityEngine::Rendering {
 struct MeshUpdateFlags;
 }
 namespace UnityEngine {
-struct MeshTopology;
-}
-namespace System {
-class Array;
+struct __Mesh__MeshDataArray;
 }
 namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
+struct VertexAttribute;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
-struct __GraphicsBuffer__Target;
+struct Vector3;
 }
 namespace UnityEngine {
 class GraphicsBuffer;
 }
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct __Mesh__MeshData;
+}
+namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine::Rendering {
+struct SubMeshDescriptor;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeFormat;
+}
+namespace UnityEngine {
+struct CombineInstance;
 }
 namespace System {
 class IDisposable;

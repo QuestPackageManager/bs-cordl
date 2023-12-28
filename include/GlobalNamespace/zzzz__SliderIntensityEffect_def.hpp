@@ -10,23 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderIntensityEffect)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class __SliderIntensityEffect__FadeElement;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
 class __SliderIntensityEffect__InitData;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
 class __SliderIntensityEffect___ProcessEffectCoroutine_d__32;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Action;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -35,19 +29,25 @@ namespace GlobalNamespace {
 class __SliderIntensityEffect__IntensityCalculationDelegate;
 }
 namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class __SliderIntensityEffect__FadeElement;
+}
+namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
 struct ArcVisibilityType;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -140,7 +140,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderIntensi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4815))
 // CS Name: ::SliderIntensityEffect::FadeElement*
 class CORDL_TYPE __SliderIntensityEffect__FadeElement : public ::System::Object {

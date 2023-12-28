@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RangeValuesTextSlider)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace HMUI {
+class TextSlider;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -15,8 +15,8 @@ class ButtonBinder;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace HMUI {
-class TextSlider;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace HMUI {

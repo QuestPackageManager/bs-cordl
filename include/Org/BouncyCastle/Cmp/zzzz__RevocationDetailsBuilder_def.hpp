@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(RevocationDetailsBuilder)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Cmp {
-class RevocationDetails;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplateBuilder;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+class X509Name;
+}
+namespace Org::BouncyCastle::Cmp {
+class RevocationDetails;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

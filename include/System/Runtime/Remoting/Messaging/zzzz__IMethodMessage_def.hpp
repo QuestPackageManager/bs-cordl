@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMethodMessage)
-namespace System::Reflection {
-class MethodBase;
-}
 namespace System {
 class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
+class IMessage;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class LogicalCallContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

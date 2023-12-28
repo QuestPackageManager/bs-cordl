@@ -2,11 +2,11 @@
 #include "System/Security/Cryptography/zzzz__RSA_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__RSAManaged_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__RSAManaged_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSAParameters_def.hpp"
-#include "Mono/Security/Cryptography/zzzz__RSAManaged_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler._ctor
 template <>
 
@@ -248,159 +248,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_isCRTpossible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isCRTpossible;
 }
 constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_isCRTpossible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isCRTpossible;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_isCRTpossible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isCRTpossible = value;
 }
 constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_keyBlinding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyBlinding;
 }
 constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_keyBlinding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyBlinding;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_keyBlinding(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyBlinding = value;
 }
 constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_keypairGenerated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypairGenerated;
 }
 constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_keypairGenerated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypairGenerated;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_keypairGenerated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keypairGenerated = value;
 }
 constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_m_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
 constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_m_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_m_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_disposed = value;
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_d(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___d)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_p(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___p)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_q() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_q() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_q(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___q)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_dp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dp;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_dp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dp;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_dp(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_dq() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dq;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_dq() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dq;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_dq(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dq)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_qInv() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___qInv;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_qInv() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___qInv;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_qInv(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___qInv)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_n() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_n() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_n(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___n)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_e(::Mono::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*& Mono::Security::Cryptography::RSAManaged::__get_KeyGenerated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyGenerated;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*> const& Mono::Security::Cryptography::RSAManaged::__get_KeyGenerated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyGenerated;
 }
 constexpr void Mono::Security::Cryptography::RSAManaged::__set_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___KeyGenerated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Cryptography::RSAManaged* Mono::Security::Cryptography::RSAManaged::New_ctor(int32_t keySize) {

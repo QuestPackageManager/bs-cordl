@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
-#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
-#include "System/Xml/Linq/zzzz__XName_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Linq/zzzz__XName_def.hpp"
+#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XAttribute._ctor
 template <>
 
@@ -148,39 +148,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Linq::XAttribute*& System::Xml::Linq::XAttribute::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& System::Xml::Linq::XAttribute::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void System::Xml::Linq::XAttribute::__set_next(::System::Xml::Linq::XAttribute* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Linq::XName*& System::Xml::Linq::XAttribute::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& System::Xml::Linq::XAttribute::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Xml::Linq::XAttribute::__set_name(::System::Xml::Linq::XName* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::Linq::XAttribute::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr ::StringW const& System::Xml::Linq::XAttribute::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void System::Xml::Linq::XAttribute::__set_value(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Linq::XAttribute* System::Xml::Linq::XAttribute::New_ctor(::System::Xml::Linq::XName* name, ::System::Object* value) {

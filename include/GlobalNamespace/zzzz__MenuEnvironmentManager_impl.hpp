@@ -60,27 +60,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType& GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::__get__menuEnvironmentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuEnvironmentType;
 }
 constexpr ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType const& GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::__get__menuEnvironmentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuEnvironmentType;
 }
 constexpr void GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::__set__menuEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____menuEnvironmentType = value;
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::__get__wrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::__get__wrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrapper;
 }
 constexpr void GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::__set__wrapper(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____wrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects::get_menuEnvironmentType() {
@@ -149,29 +149,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*>&
 GlobalNamespace::MenuEnvironmentManager::__get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*> const&
 GlobalNamespace::MenuEnvironmentManager::__get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr void GlobalNamespace::MenuEnvironmentManager::__set__data(
     ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType& GlobalNamespace::MenuEnvironmentManager::__get__prevMenuEnvironmentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevMenuEnvironmentType;
 }
 constexpr ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType const& GlobalNamespace::MenuEnvironmentManager::__get__prevMenuEnvironmentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevMenuEnvironmentType;
 }
 constexpr void GlobalNamespace::MenuEnvironmentManager::__set__prevMenuEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevMenuEnvironmentType = value;
 }
 inline void GlobalNamespace::MenuEnvironmentManager::Start() {

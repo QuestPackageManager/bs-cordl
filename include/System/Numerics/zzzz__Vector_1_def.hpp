@@ -15,17 +15,17 @@ class Object;
 namespace System {
 class IFormatProvider;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IFormattable;
+namespace System::Numerics {
+struct Register;
 }
 namespace System::Numerics {
 template <typename T> struct __Vector_1__VectorSizeHelper;
 }
-namespace System::Numerics {
-struct Register;
+namespace System {
+class IFormattable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System::Numerics {
@@ -43,8 +43,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3553)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3551))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3551)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3553))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
 struct CORDL_TYPE Vector_1 {
 public:
   // Declarations

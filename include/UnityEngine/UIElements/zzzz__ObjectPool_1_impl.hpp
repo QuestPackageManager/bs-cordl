@@ -3,27 +3,27 @@
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::Stack_1<T>*& UnityEngine::UIElements::ObjectPool_1<T>::__get_m_Stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& UnityEngine::UIElements::ObjectPool_1<T>::__get_m_Stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
 template <typename T> constexpr void UnityEngine::UIElements::ObjectPool_1<T>::__set_m_Stack(::System::Collections::Generic::Stack_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::ObjectPool_1<T>::__get_m_MaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::ObjectPool_1<T>::__get_m_MaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 template <typename T> constexpr void UnityEngine::UIElements::ObjectPool_1<T>::__set_m_MaxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxSize = value;
 }
 template <typename T> inline int32_t UnityEngine::UIElements::ObjectPool_1<T>::get_maxSize() {

@@ -4,13 +4,13 @@
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHand_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__OVRHand_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRHand_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRHand__Hand::__OVRHand__Hand(int32_t value__) noexcept {
@@ -517,171 +517,171 @@ constexpr GlobalNamespace::OVRHand::operator ::GlobalNamespace::__OVRMeshRendere
   return static_cast<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__OVRHand__Hand& GlobalNamespace::OVRHand::__get_HandType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HandType;
 }
 constexpr ::GlobalNamespace::__OVRHand__Hand const& GlobalNamespace::OVRHand::__get_HandType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HandType;
 }
 constexpr void GlobalNamespace::OVRHand::__set_HandType(::GlobalNamespace::__OVRHand__Hand value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HandType = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRHand::__get__pointerPoseRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPoseRoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRHand::__get__pointerPoseRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPoseRoot;
 }
 constexpr void GlobalNamespace::OVRHand::__set__pointerPoseRoot(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerPoseRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& GlobalNamespace::OVRHand::__get_m_showState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_showState;
 }
 constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& GlobalNamespace::OVRHand::__get_m_showState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_showState;
 }
 constexpr void GlobalNamespace::OVRHand::__set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_showState = value;
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRHand::__get__pointerPoseGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPoseGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRHand::__get__pointerPoseGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPoseGO;
 }
 constexpr void GlobalNamespace::OVRHand::__set__pointerPoseGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerPoseGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__HandState& GlobalNamespace::OVRHand::__get__handState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handState;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__HandState const& GlobalNamespace::OVRHand::__get__handState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handState;
 }
 constexpr void GlobalNamespace::OVRHand::__set__handState(::GlobalNamespace::__OVRPlugin__HandState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handState = value;
 }
 constexpr bool& GlobalNamespace::OVRHand::__get__IsDataValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRHand::__get__IsDataValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataValid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__IsDataValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDataValid_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRHand::__get__IsDataHighConfidence_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataHighConfidence_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRHand::__get__IsDataHighConfidence_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataHighConfidence_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__IsDataHighConfidence_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDataHighConfidence_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRHand::__get__IsTracked_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsTracked_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRHand::__get__IsTracked_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsTracked_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__IsTracked_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsTracked_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRHand::__get__IsSystemGestureInProgress_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsSystemGestureInProgress_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRHand::__get__IsSystemGestureInProgress_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsSystemGestureInProgress_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__IsSystemGestureInProgress_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsSystemGestureInProgress_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRHand::__get__IsPointerPoseValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsPointerPoseValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRHand::__get__IsPointerPoseValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsPointerPoseValid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__IsPointerPoseValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsPointerPoseValid_k__BackingField = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRHand::__get__PointerPose_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PointerPose_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRHand::__get__PointerPose_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PointerPose_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__PointerPose_k__BackingField(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PointerPose_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRHand::__get__HandScale_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HandScale_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OVRHand::__get__HandScale_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HandScale_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__HandScale_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HandScale_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRHand__TrackingConfidence& GlobalNamespace::OVRHand::__get__HandConfidence_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HandConfidence_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRHand__TrackingConfidence const& GlobalNamespace::OVRHand::__get__HandConfidence_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HandConfidence_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__HandConfidence_k__BackingField(::GlobalNamespace::__OVRHand__TrackingConfidence value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HandConfidence_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRHand::__get__IsDominantHand_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDominantHand_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRHand::__get__IsDominantHand_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDominantHand_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHand::__set__IsDominantHand_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDominantHand_k__BackingField = value;
 }
 inline void GlobalNamespace::OVRHand::SetHandType(::GlobalNamespace::__OVRHand__Hand type) {

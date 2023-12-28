@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__KerningTable_def.hpp"
 #include "TMPro/zzzz__KerningTable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__KerningPair_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass3_0._ctor
@@ -35,27 +35,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass3_0::__get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass3_0::__get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 constexpr void TMPro::__KerningTable____c__DisplayClass3_0::__set_first(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___first = value;
 }
 constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass3_0::__get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass3_0::__get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 constexpr void TMPro::__KerningTable____c__DisplayClass3_0::__set_second(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___second = value;
 }
 inline ::TMPro::__KerningTable____c__DisplayClass3_0* TMPro::__KerningTable____c__DisplayClass3_0::New_ctor() {
@@ -103,27 +103,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass4_0::__get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass4_0::__get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 constexpr void TMPro::__KerningTable____c__DisplayClass4_0::__set_first(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___first = value;
 }
 constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass4_0::__get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass4_0::__get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 constexpr void TMPro::__KerningTable____c__DisplayClass4_0::__set_second(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___second = value;
 }
 inline ::TMPro::__KerningTable____c__DisplayClass4_0* TMPro::__KerningTable____c__DisplayClass4_0::New_ctor() {
@@ -171,27 +171,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& TMPro::__KerningTable____c__DisplayClass5_0::__get_left() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___left;
 }
 constexpr int32_t const& TMPro::__KerningTable____c__DisplayClass5_0::__get_left() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___left;
 }
 constexpr void TMPro::__KerningTable____c__DisplayClass5_0::__set_left(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___left = value;
 }
 constexpr int32_t& TMPro::__KerningTable____c__DisplayClass5_0::__get_right() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___right;
 }
 constexpr int32_t const& TMPro::__KerningTable____c__DisplayClass5_0::__get_right() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___right;
 }
 constexpr void TMPro::__KerningTable____c__DisplayClass5_0::__set_right(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___right = value;
 }
 inline ::TMPro::__KerningTable____c__DisplayClass5_0* TMPro::__KerningTable____c__DisplayClass5_0::New_ctor() {
@@ -399,15 +399,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& TMPro::KerningTable::__get_kerningPairs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kerningPairs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::KerningPair*>*> const& TMPro::KerningTable::__get_kerningPairs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kerningPairs;
 }
 constexpr void TMPro::KerningTable::__set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___kerningPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::KerningTable* TMPro::KerningTable::New_ctor() {

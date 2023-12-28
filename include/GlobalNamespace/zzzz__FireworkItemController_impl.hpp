@@ -4,20 +4,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
-#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem._ctor
 template <>
 
@@ -34,75 +34,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__particleSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__particleSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystem;
 }
 constexpr void GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__set__particleSystem(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__isSubemitter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSubemitter;
 }
 constexpr bool const& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__isSubemitter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSubemitter;
 }
 constexpr void GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__set__isSubemitter(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isSubemitter = value;
 }
 constexpr bool& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__useMainColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useMainColor;
 }
 constexpr bool const& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__useMainColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useMainColor;
 }
 constexpr void GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__set__useMainColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useMainColor = value;
 }
 constexpr bool& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__useOwnGradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useOwnGradient;
 }
 constexpr bool const& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__useOwnGradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useOwnGradient;
 }
 constexpr void GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__set__useOwnGradient(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useOwnGradient = value;
 }
 constexpr ::UnityEngine::Gradient*& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__particleColorGradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleColorGradient;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__particleColorGradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleColorGradient;
 }
 constexpr void GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__set__particleColorGradient(::UnityEngine::Gradient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleColorGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__randomizeSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeSpeed;
 }
 constexpr bool const& GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__get__randomizeSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeSpeed;
 }
 constexpr void GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::__set__randomizeSpeed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomizeSpeed = value;
 }
 inline ::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem* GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem::New_ctor() {
@@ -287,221 +287,221 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*, ::Array<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*>*>&
 GlobalNamespace::FireworkItemController::__get__particleSystems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystems;
 }
 constexpr ::ArrayW<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*, ::Array<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*>*> const&
 GlobalNamespace::FireworkItemController::__get__particleSystems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystems;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__particleSystems(
     ::ArrayW<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*, ::Array<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*>& GlobalNamespace::FireworkItemController::__get__lights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lights;
 }
 constexpr ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*> const& GlobalNamespace::FireworkItemController::__get__lights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lights;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__lights(::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::FireworkItemController::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::FireworkItemController::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FireworkItemController::__get__lightFlashDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightFlashDuration;
 }
 constexpr float_t const& GlobalNamespace::FireworkItemController::__get__lightFlashDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightFlashDuration;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__lightFlashDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightFlashDuration = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FireworkItemController::__get__lightIntensityCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::FireworkItemController::__get__lightIntensityCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityCurve;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__lightIntensityCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightIntensityCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FireworkItemController::__get__lightIntensityMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityMultiplier;
 }
 constexpr float_t const& GlobalNamespace::FireworkItemController::__get__lightIntensityMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityMultiplier;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__lightIntensityMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightIntensityMultiplier = value;
 }
 constexpr bool& GlobalNamespace::FireworkItemController::__get__randomizeColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeColor;
 }
 constexpr bool const& GlobalNamespace::FireworkItemController::__get__randomizeColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeColor;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__randomizeColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomizeColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::FireworkItemController::__get__lightsColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightsColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::FireworkItemController::__get__lightsColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightsColor;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__lightsColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightsColor = value;
 }
 constexpr ::UnityEngine::Gradient*& GlobalNamespace::FireworkItemController::__get__lightsColorGradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightsColorGradient;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& GlobalNamespace::FireworkItemController::__get__lightsColorGradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightsColorGradient;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__lightsColorGradient(::UnityEngine::Gradient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightsColorGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::FireworkItemController::__get__randomizeSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeSpeed;
 }
 constexpr bool const& GlobalNamespace::FireworkItemController::__get__randomizeSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizeSpeed;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__randomizeSpeed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomizeSpeed = value;
 }
 constexpr float_t& GlobalNamespace::FireworkItemController::__get__minSpeedMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minSpeedMultiplier;
 }
 constexpr float_t const& GlobalNamespace::FireworkItemController::__get__minSpeedMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minSpeedMultiplier;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__minSpeedMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minSpeedMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::FireworkItemController::__get__maxSpeedMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxSpeedMultiplier;
 }
 constexpr float_t const& GlobalNamespace::FireworkItemController::__get__maxSpeedMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxSpeedMultiplier;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__maxSpeedMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxSpeedMultiplier = value;
 }
 constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& GlobalNamespace::FireworkItemController::__get__explosionClips() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionClips;
 }
 constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& GlobalNamespace::FireworkItemController::__get__explosionClips() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionClips;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__explosionClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionClips)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& GlobalNamespace::FireworkItemController::__get__randomAudioPicker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomAudioPicker;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*> const& GlobalNamespace::FireworkItemController::__get__randomAudioPicker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomAudioPicker;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__randomAudioPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomAudioPicker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::DirectionalLight*& GlobalNamespace::FireworkItemController::__get__directionalLight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLight;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLight*> const& GlobalNamespace::FireworkItemController::__get__directionalLight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLight;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__directionalLight(::GlobalNamespace::DirectionalLight* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directionalLight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FireworkItemController::__get__directionalLightIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLightIntensity;
 }
 constexpr float_t const& GlobalNamespace::FireworkItemController::__get__directionalLightIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLightIntensity;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__directionalLightIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____directionalLightIntensity = value;
 }
 constexpr bool& GlobalNamespace::FireworkItemController::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& GlobalNamespace::FireworkItemController::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 constexpr ::System::Action_1<::GlobalNamespace::FireworkItemController*>*& GlobalNamespace::FireworkItemController::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::FireworkItemController*>*> const& GlobalNamespace::FireworkItemController::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::FireworkItemController::__set_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FireworkItemController::set_directionalLight(::GlobalNamespace::DirectionalLight* value) {
@@ -701,75 +701,75 @@ constexpr GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::opera
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FireworkItemController*& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworkItemController*> const& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__set___4__this(::GlobalNamespace::FireworkItemController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get__soundTimeToCenter_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soundTimeToCenter_5__2;
 }
 constexpr float_t const& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get__soundTimeToCenter_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soundTimeToCenter_5__2;
 }
 constexpr void GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__set__soundTimeToCenter_5__2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____soundTimeToCenter_5__2 = value;
 }
 constexpr float_t& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get__elapsedTime_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__3;
 }
 constexpr float_t const& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get__elapsedTime_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__3;
 }
 constexpr void GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__set__elapsedTime_5__3(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__3 = value;
 }
 constexpr bool& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get__explosionSoundFired_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionSoundFired_5__4;
 }
 constexpr bool const& GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__get__explosionSoundFired_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionSoundFired_5__4;
 }
 constexpr void GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__set__explosionSoundFired_5__4(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionSoundFired_5__4 = value;
 }
 inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::New_ctor(int32_t __1__state) {

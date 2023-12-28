@@ -37,27 +37,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::__get_task() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::__get_task() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
 constexpr void System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::__set_task(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::__get_continuation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuation;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::__get_continuation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuation;
 }
 constexpr void System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::__set_continuation(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___continuation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0* System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0::New_ctor() {

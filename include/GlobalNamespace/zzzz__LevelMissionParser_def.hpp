@@ -16,13 +16,13 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace GlobalNamespace {

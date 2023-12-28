@@ -6,10 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDateTimeConverter)
 namespace System {
-class Type;
+struct DateTimeOffset;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System {
-struct DateTimeOffset;
+class Type;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 namespace System {
 class Object;
@@ -17,14 +23,8 @@ class Object;
 namespace System {
 struct DateTime;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
 namespace System::Xml {
 class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -2,12 +2,12 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
+#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PreviewBeatmapLevelPackSO.get_packID
 template <>
 
@@ -142,87 +142,87 @@ constexpr GlobalNamespace::PreviewBeatmapLevelPackSO::operator ::GlobalNamespace
   return static_cast<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__packID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packID;
 }
 constexpr ::StringW const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__packID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packID;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__packID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__packName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packName;
 }
 constexpr ::StringW const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__packName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packName;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__packName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__shortPackName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shortPackName;
 }
 constexpr ::StringW const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__shortPackName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shortPackName;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__shortPackName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shortPackName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__coverImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__coverImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverImage;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__coverImage(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__smallCoverImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smallCoverImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__smallCoverImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smallCoverImage;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__smallCoverImage(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smallCoverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__contentRating() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRating;
 }
 constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__contentRating() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRating;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentRating = value;
 }
 constexpr ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__previewBeatmapLevelCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewBeatmapLevelCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelCollectionSO*> const& GlobalNamespace::PreviewBeatmapLevelPackSO::__get__previewBeatmapLevelCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewBeatmapLevelCollection;
 }
 constexpr void GlobalNamespace::PreviewBeatmapLevelPackSO::__set__previewBeatmapLevelCollection(::GlobalNamespace::PreviewBeatmapLevelCollectionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewBeatmapLevelCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::PreviewBeatmapLevelPackSO::get_packID() {

@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__ArrayList_IListWrapper_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ArrayList_IListWrapper_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__ArrayList_ReadOnlyArrayList_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__ArrayList_ReadOnlyArrayList_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: ::System::Collections::__ArrayList__ArrayListEnumeratorSimple._ctor
 template <>
 
@@ -97,63 +97,63 @@ constexpr System::Collections::__ArrayList__ArrayListEnumeratorSimple::operator 
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::ArrayList*& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__set__list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 constexpr int32_t& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr int32_t const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 constexpr ::System::Object*& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__currentElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElement;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__currentElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElement;
 }
 constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__set__currentElement(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__isArrayList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isArrayList;
 }
 constexpr bool const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__get__isArrayList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isArrayList;
 }
 constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__set__isArrayList(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isArrayList = value;
 }
 inline void System::Collections::__ArrayList__ArrayListEnumeratorSimple::setStaticF_s_dummyObject(::System::Object* value) {
@@ -718,51 +718,51 @@ constexpr System::Collections::ArrayList::operator ::System::ICloneable*() noexc
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Collections::ArrayList::__get__items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System::Collections::ArrayList::__get__items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 constexpr void System::Collections::ArrayList::__set__items(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Collections::ArrayList::__get__size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____size;
 }
 constexpr int32_t const& System::Collections::ArrayList::__get__size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____size;
 }
 constexpr void System::Collections::ArrayList::__set__size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____size = value;
 }
 constexpr int32_t& System::Collections::ArrayList::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr int32_t const& System::Collections::ArrayList::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void System::Collections::ArrayList::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 constexpr ::System::Object*& System::Collections::ArrayList::__get__syncRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::ArrayList::__get__syncRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 constexpr void System::Collections::ArrayList::__set__syncRoot(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor() {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReusableCollectionItem)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements::Experimental {
+template <typename T> class ValueAnimation_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements::Experimental {
-template <typename T> class ValueAnimation_1;
+struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelCompletionResults)
 namespace GlobalNamespace {
-struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+class LevelCompletionResults;
 }
 namespace System {
 class IComparable;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
 namespace System {
 class Object;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -173,7 +173,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLe
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12878))
 // CS Name: ::MultiplayerLevelCompletionResults*
 class CORDL_TYPE MultiplayerLevelCompletionResults : public ::System::Object {

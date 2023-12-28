@@ -2,14 +2,14 @@
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source::__HEU_MaterialData__Source(int32_t value__) noexcept {
   this->value__ = value__;
@@ -172,39 +172,39 @@ constexpr HoudiniEngineUnity::HEU_MaterialData::operator ::HoudiniEngineUnity::I
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Material*& HoudiniEngineUnity::HEU_MaterialData::__get__material() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& HoudiniEngineUnity::HEU_MaterialData::__get__material() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
 constexpr void HoudiniEngineUnity::HEU_MaterialData::__set__material(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source& HoudiniEngineUnity::HEU_MaterialData::__get__materialSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialSource;
 }
 constexpr ::HoudiniEngineUnity::__HEU_MaterialData__Source const& HoudiniEngineUnity::HEU_MaterialData::__get__materialSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialSource;
 }
 constexpr void HoudiniEngineUnity::HEU_MaterialData::__set__materialSource(::HoudiniEngineUnity::__HEU_MaterialData__Source value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____materialSource = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_MaterialData::__get__materialKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialKey;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_MaterialData::__get__materialKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialKey;
 }
 constexpr void HoudiniEngineUnity::HEU_MaterialData::__set__materialKey(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____materialKey = value;
 }
 inline bool HoudiniEngineUnity::HEU_MaterialData::IsExistingMaterial() {

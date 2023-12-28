@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: ::Zenject::Internal::SingletonMarkRegistry.MarkNonSingleton
 template <>
 
@@ -62,27 +62,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& Zenject::Internal::SingletonMarkRegistry::__get__boundSingletons() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundSingletons;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& Zenject::Internal::SingletonMarkRegistry::__get__boundSingletons() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundSingletons;
 }
 constexpr void Zenject::Internal::SingletonMarkRegistry::__set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boundSingletons)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& Zenject::Internal::SingletonMarkRegistry::__get__boundNonSingletons() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundNonSingletons;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& Zenject::Internal::SingletonMarkRegistry::__get__boundNonSingletons() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundNonSingletons;
 }
 constexpr void Zenject::Internal::SingletonMarkRegistry::__set__boundNonSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boundNonSingletons)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton(::System::Type* type) {

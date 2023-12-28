@@ -9,19 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CutScoreBuffer)
 namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidFinishReceiver;
-}
-namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class __ScoreModel__NoteScoreDefinition;
-}
-namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidChangeReceiver;
 }
 namespace GlobalNamespace {
 class SaberSwingRatingCounter;
@@ -30,13 +21,22 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class ISaberSwingRatingCounterDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounter;
+}
+namespace GlobalNamespace {
+class ICutScoreBufferDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounterDidChangeReceiver;
 }
 namespace GlobalNamespace {
 class ICutScoreBufferDidChangeReceiver;
 }
 namespace GlobalNamespace {
-class ISaberSwingRatingCounter;
+class IReadonlyCutScoreBuffer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

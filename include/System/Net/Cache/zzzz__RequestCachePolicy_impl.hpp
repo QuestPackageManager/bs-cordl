@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Cache::RequestCacheLevel& System::Net::Cache::RequestCachePolicy::__get_m_Level() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Level;
 }
 constexpr ::System::Net::Cache::RequestCacheLevel const& System::Net::Cache::RequestCachePolicy::__get_m_Level() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Level;
 }
 constexpr void System::Net::Cache::RequestCachePolicy::__set_m_Level(::System::Net::Cache::RequestCacheLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Level = value;
 }
 inline ::System::Net::Cache::RequestCachePolicy* System::Net::Cache::RequestCachePolicy::New_ctor(::System::Net::Cache::RequestCacheLevel level) {

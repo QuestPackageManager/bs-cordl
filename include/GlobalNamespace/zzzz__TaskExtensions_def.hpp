@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaskExtensions)
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+template <typename T> struct __TaskExtensions___WaitForTask_d__1_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 template <typename T> class __TaskExtensions____c__DisplayClass0_0_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
-template <typename T> struct __TaskExtensions___WaitForTask_d__1_1;
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -34,15 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::__get__tcx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcx;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*> const& UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::__get__tcx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcx;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::__set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tcx)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*

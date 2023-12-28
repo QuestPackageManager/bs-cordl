@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Achievements)
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
+class AchievementDefinitionList;
 }
 namespace Oculus::Platform::Models {
 class AchievementUpdate;
 }
+namespace Oculus::Platform::Models {
+class AchievementProgressList;
+}
 namespace Oculus::Platform {
 template <typename T> class Request_1;
-}
-namespace Oculus::Platform::Models {
-class AchievementDefinitionList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

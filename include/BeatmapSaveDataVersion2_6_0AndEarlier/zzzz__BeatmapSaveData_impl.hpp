@@ -7,11 +7,11 @@
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_def.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -131,51 +131,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__set__time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time = value;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__set__value(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____value = value;
 }
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__floatValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__get__floatValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::__set__floatValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatValue = value;
 }
 inline float_t BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData::get_time() {
@@ -353,63 +353,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__set__time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__lineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__lineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__set__lineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__lineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__lineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineLayer;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__set__lineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineLayer = value;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__cutDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirection;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__get__cutDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirection;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::__set__cutDirection(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutDirection = value;
 }
 inline float_t BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData::get_time() {
@@ -540,51 +540,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__set__time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__lineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__lineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__set__lineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__lineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__lineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineLayer;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__set__lineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineLayer = value;
 }
 constexpr ::GlobalNamespace::OffsetDirection& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__offsetDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetDirection;
 }
 constexpr ::GlobalNamespace::OffsetDirection const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__get__offsetDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetDirection;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::__set__offsetDirection(::GlobalNamespace::OffsetDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetDirection = value;
 }
 inline float_t BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData::get_time() {
@@ -833,147 +833,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__colorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__colorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__colorType(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorType = value;
 }
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTime;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTime;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__headTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headTime = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headLineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineIndex;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headLineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineIndex;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__headLineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headLineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headLineLayer;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__headLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headLineLayer = value;
 }
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headControlPointLengthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headControlPointLengthMultiplier;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headControlPointLengthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headControlPointLengthMultiplier;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__headControlPointLengthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headControlPointLengthMultiplier = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headCutDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headCutDirection;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__headCutDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headCutDirection;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__headCutDirection(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headCutDirection = value;
 }
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailTime;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailTime;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__tailTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailTime = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailLineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineIndex;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailLineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineIndex;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__tailLineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailLineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailLineLayer;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__tailLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailLineLayer = value;
 }
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailControlPointLengthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailControlPointLengthMultiplier;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailControlPointLengthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailControlPointLengthMultiplier;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__tailControlPointLengthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailControlPointLengthMultiplier = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailCutDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailCutDirection;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__tailCutDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tailCutDirection;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__tailCutDirection(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tailCutDirection = value;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__sliderMidAnchorMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderMidAnchorMode;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__get__sliderMidAnchorMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderMidAnchorMode;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::__set__sliderMidAnchorMode(::GlobalNamespace::SliderMidAnchorMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sliderMidAnchorMode = value;
 }
 inline float_t BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData::get_time() {
@@ -1180,63 +1180,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__set__time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__lineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__lineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__set__lineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex = value;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
 constexpr float_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr float_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__set__duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__width() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width;
 }
 constexpr int32_t const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__get__width() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::__set__width(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____width = value;
 }
 inline float_t BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData::get_time() {
@@ -1322,17 +1322,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>*&
 BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData::__get__keywords() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keywords;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData::__get__keywords() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keywords;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData::__set__keywords(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keywords)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>*
@@ -1407,30 +1407,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::__get__keyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyword;
 }
 constexpr ::StringW const& BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::__get__keyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyword;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::__set__keyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*&
 BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::__get__specialEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::__get__specialEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEvents;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::__set__specialEvents(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____specialEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword::get_keyword() {
@@ -1645,101 +1645,101 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr ::StringW const& BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>*& BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__events() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__events() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
 constexpr void
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__events(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____events)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>*& BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__notes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__notes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notes;
 }
 constexpr void
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__notes(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____notes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>*& BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__sliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__sliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliders;
 }
 constexpr void
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__sliders(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>*&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__waypoints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waypoints;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__waypoints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waypoints;
 }
 constexpr void
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waypoints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>*&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__obstacles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacles;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__obstacles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacles;
 }
 constexpr void
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__obstacles(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*& BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__specialEventsKeywordFilters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEventsKeywordFilters;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*> const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__get__specialEventsKeywordFilters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEventsKeywordFilters;
 }
 constexpr void
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__set__specialEventsKeywordFilters(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____specialEventsKeywordFilters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_version() {

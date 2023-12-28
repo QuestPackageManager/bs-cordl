@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverTrigonometric)
-namespace RootMotion::FinalIK {
-class __IKSolverTrigonometric__TrigonometricBone;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Point;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class __IKSolver__Point;
+class __IKSolverTrigonometric__TrigonometricBone;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
 // CS Name: ::IKSolverTrigonometric::TrigonometricBone*
 class CORDL_TYPE __IKSolverTrigonometric__TrigonometricBone : public ::RootMotion::FinalIK::__IKSolver__Bone {

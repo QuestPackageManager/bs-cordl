@@ -82,15 +82,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::__get_restriction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___restriction;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::__get_restriction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___restriction;
 }
 constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::__set_restriction(::Org::BouncyCastle::Asn1::X500::DirectoryString* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___restriction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::GetInstance(::System::Object* obj) {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(DisconnectInfo)
 namespace LiteNetLib {
-class NetPacketReader;
+struct DisconnectReason;
 }
 namespace System::Net::Sockets {
 struct SocketError;
 }
 namespace LiteNetLib {
-struct DisconnectReason;
+class NetPacketReader;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -25,7 +25,7 @@ MARK_VAL_T(::LiteNetLib::DisconnectInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14131)), TypeDefinitionIndex(TypeDefinitionIndex(9347))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14131))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14132))
 // CS Name: ::LiteNetLib::DisconnectInfo
 struct CORDL_TYPE DisconnectInfo {

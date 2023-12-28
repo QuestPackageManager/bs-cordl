@@ -7,17 +7,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlWellFormedWriter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlException_def.hpp"
 #include "System/Xml/zzzz__XmlWellFormedWriter_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__WriteState_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/zzzz__SecureStringHasher_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__XmlException_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Xml/zzzz__XmlSpace_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -130,15 +130,15 @@ constexpr System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy::operator :
   return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlWellFormedWriter*& System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy::__get_wfWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wfWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWellFormedWriter*> const& System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy::__get_wfWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wfWriter;
 }
 constexpr void System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy::__set_wfWriter(::System::Xml::XmlWellFormedWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wfWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy* System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy::New_ctor(::System::Xml::XmlWellFormedWriter* wfWriter) {
@@ -426,27 +426,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType const& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::__set_type(::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::__set_data(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item* GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item::New_ctor() {
@@ -484,39 +484,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__set_buffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__get_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 constexpr int32_t const& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__get_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 constexpr void GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__set_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
 constexpr int32_t& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr int32_t const& GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr void GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 inline ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk*
@@ -776,66 +776,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::StringBuilder*& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_stringValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stringValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_stringValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stringValue;
 }
 constexpr void System::Xml::__XmlWellFormedWriter__AttributeValueCache::__set_stringValue(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stringValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_singleStringValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___singleStringValue;
 }
 constexpr ::StringW const& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_singleStringValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___singleStringValue;
 }
 constexpr void System::Xml::__XmlWellFormedWriter__AttributeValueCache::__set_singleStringValue(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___singleStringValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*>&
 System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 constexpr ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> const&
 System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 constexpr void System::Xml::__XmlWellFormedWriter__AttributeValueCache::__set_items(
     ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_firstItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstItem;
 }
 constexpr int32_t const& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_firstItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstItem;
 }
 constexpr void System::Xml::__XmlWellFormedWriter__AttributeValueCache::__set_firstItem(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___firstItem = value;
 }
 constexpr int32_t& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_lastItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastItem;
 }
 constexpr int32_t const& System::Xml::__XmlWellFormedWriter__AttributeValueCache::__get_lastItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastItem;
 }
 constexpr void System::Xml::__XmlWellFormedWriter__AttributeValueCache::__set_lastItem(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastItem = value;
 }
 inline ::StringW System::Xml::__XmlWellFormedWriter__AttributeValueCache::get_StringValue() {
@@ -1700,305 +1700,305 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlWriter*& System::Xml::XmlWellFormedWriter::__get_writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& System::Xml::XmlWellFormedWriter::__get_writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_writer(::System::Xml::XmlWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlRawWriter*& System::Xml::XmlWellFormedWriter::__get_rawWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& System::Xml::XmlWellFormedWriter::__get_rawWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawWriter;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_rawWriter(::System::Xml::XmlRawWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rawWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::IXmlNamespaceResolver*& System::Xml::XmlWellFormedWriter::__get_predefinedNamespaces() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predefinedNamespaces;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& System::Xml::XmlWellFormedWriter::__get_predefinedNamespaces() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predefinedNamespaces;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_predefinedNamespaces(::System::Xml::IXmlNamespaceResolver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predefinedNamespaces)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*>& System::Xml::XmlWellFormedWriter::__get_nsStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsStack;
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> const& System::Xml::XmlWellFormedWriter::__get_nsStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsStack;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_nsStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nsStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::XmlWellFormedWriter::__get_nsTop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsTop;
 }
 constexpr int32_t const& System::Xml::XmlWellFormedWriter::__get_nsTop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsTop;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_nsTop(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nsTop = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& System::Xml::XmlWellFormedWriter::__get_nsHashtable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsHashtable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& System::Xml::XmlWellFormedWriter::__get_nsHashtable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsHashtable;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_nsHashtable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nsHashtable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlWellFormedWriter::__get_useNsHashtable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useNsHashtable;
 }
 constexpr bool const& System::Xml::XmlWellFormedWriter::__get_useNsHashtable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useNsHashtable;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_useNsHashtable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useNsHashtable = value;
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*>& System::Xml::XmlWellFormedWriter::__get_elemScopeStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemScopeStack;
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> const&
 System::Xml::XmlWellFormedWriter::__get_elemScopeStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemScopeStack;
 }
 constexpr void
 System::Xml::XmlWellFormedWriter::__set_elemScopeStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elemScopeStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::XmlWellFormedWriter::__get_elemTop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemTop;
 }
 constexpr int32_t const& System::Xml::XmlWellFormedWriter::__get_elemTop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemTop;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_elemTop(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elemTop = value;
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*>& System::Xml::XmlWellFormedWriter::__get_attrStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrStack;
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> const& System::Xml::XmlWellFormedWriter::__get_attrStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrStack;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_attrStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attrStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::XmlWellFormedWriter::__get_attrCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrCount;
 }
 constexpr int32_t const& System::Xml::XmlWellFormedWriter::__get_attrCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrCount;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_attrCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attrCount = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& System::Xml::XmlWellFormedWriter::__get_attrHashTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrHashTable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& System::Xml::XmlWellFormedWriter::__get_attrHashTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrHashTable;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_attrHashTable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attrHashTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlWellFormedWriter__SpecialAttribute& System::Xml::XmlWellFormedWriter::__get_specAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___specAttr;
 }
 constexpr ::System::Xml::__XmlWellFormedWriter__SpecialAttribute const& System::Xml::XmlWellFormedWriter::__get_specAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___specAttr;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_specAttr(::System::Xml::__XmlWellFormedWriter__SpecialAttribute value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___specAttr = value;
 }
 constexpr ::System::Xml::__XmlWellFormedWriter__AttributeValueCache*& System::Xml::XmlWellFormedWriter::__get_attrValueCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrValueCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlWellFormedWriter__AttributeValueCache*> const& System::Xml::XmlWellFormedWriter::__get_attrValueCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrValueCache;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_attrValueCache(::System::Xml::__XmlWellFormedWriter__AttributeValueCache* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attrValueCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlWellFormedWriter::__get_curDeclPrefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curDeclPrefix;
 }
 constexpr ::StringW const& System::Xml::XmlWellFormedWriter::__get_curDeclPrefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curDeclPrefix;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_curDeclPrefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___curDeclPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*>& System::Xml::XmlWellFormedWriter::__get_stateTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateTable;
 }
 constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> const& System::Xml::XmlWellFormedWriter::__get_stateTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateTable;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_stateTable(::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stateTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlWellFormedWriter__State& System::Xml::XmlWellFormedWriter::__get_currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentState;
 }
 constexpr ::System::Xml::__XmlWellFormedWriter__State const& System::Xml::XmlWellFormedWriter::__get_currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentState;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_currentState(::System::Xml::__XmlWellFormedWriter__State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentState = value;
 }
 constexpr bool& System::Xml::XmlWellFormedWriter::__get_checkCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr bool const& System::Xml::XmlWellFormedWriter::__get_checkCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_checkCharacters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___checkCharacters = value;
 }
 constexpr bool& System::Xml::XmlWellFormedWriter::__get_omitDuplNamespaces() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___omitDuplNamespaces;
 }
 constexpr bool const& System::Xml::XmlWellFormedWriter::__get_omitDuplNamespaces() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___omitDuplNamespaces;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_omitDuplNamespaces(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___omitDuplNamespaces = value;
 }
 constexpr bool& System::Xml::XmlWellFormedWriter::__get_writeEndDocumentOnClose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeEndDocumentOnClose;
 }
 constexpr bool const& System::Xml::XmlWellFormedWriter::__get_writeEndDocumentOnClose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeEndDocumentOnClose;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_writeEndDocumentOnClose(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writeEndDocumentOnClose = value;
 }
 constexpr ::System::Xml::ConformanceLevel& System::Xml::XmlWellFormedWriter::__get_conformanceLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___conformanceLevel;
 }
 constexpr ::System::Xml::ConformanceLevel const& System::Xml::XmlWellFormedWriter::__get_conformanceLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___conformanceLevel;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_conformanceLevel(::System::Xml::ConformanceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___conformanceLevel = value;
 }
 constexpr bool& System::Xml::XmlWellFormedWriter::__get_dtdWritten() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtdWritten;
 }
 constexpr bool const& System::Xml::XmlWellFormedWriter::__get_dtdWritten() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtdWritten;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_dtdWritten(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dtdWritten = value;
 }
 constexpr bool& System::Xml::XmlWellFormedWriter::__get_xmlDeclFollows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlDeclFollows;
 }
 constexpr bool const& System::Xml::XmlWellFormedWriter::__get_xmlDeclFollows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlDeclFollows;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_xmlDeclFollows(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlDeclFollows = value;
 }
 constexpr ::System::Xml::XmlCharType& System::Xml::XmlWellFormedWriter::__get_xmlCharType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlCharType;
 }
 constexpr ::System::Xml::XmlCharType const& System::Xml::XmlWellFormedWriter::__get_xmlCharType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlCharType;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_xmlCharType(::System::Xml::XmlCharType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlCharType = value;
 }
 constexpr ::System::Xml::SecureStringHasher*& System::Xml::XmlWellFormedWriter::__get_hasher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasher;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::SecureStringHasher*> const& System::Xml::XmlWellFormedWriter::__get_hasher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasher;
 }
 constexpr void System::Xml::XmlWellFormedWriter::__set_hasher(::System::Xml::SecureStringHasher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hasher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::XmlWellFormedWriter::setStaticF_stateName(::ArrayW<::StringW, ::Array<::StringW>*> value) {

@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlIntAttributeDescription)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class __UxmlIntAttributeDescription____c;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;

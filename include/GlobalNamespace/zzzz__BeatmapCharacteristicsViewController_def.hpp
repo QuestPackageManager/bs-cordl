@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCharacteristicsViewController)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicsTableView;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class BeatmapCharacteristicSO;
 }
 namespace System {
 template <typename T> class Action_1;

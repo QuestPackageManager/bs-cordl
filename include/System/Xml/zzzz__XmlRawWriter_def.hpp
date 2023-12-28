@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlRawWriter)
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlRawWriterBase64Encoder;
 }
 namespace System::Xml {
-class XmlRawWriterBase64Encoder;
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 struct XmlStandalone;
 }
 namespace System::Xml {
-struct WriteState;
+struct ConformanceLevel;
 }
 namespace System::Xml {
-struct ConformanceLevel;
+struct WriteState;
 }
 // Forward declare root types
 namespace System::Xml {

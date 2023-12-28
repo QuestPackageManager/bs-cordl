@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XRDevice)
-namespace UnityEngine::XR {
-struct TrackingSpaceType;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::XR {
+struct TrackingSpaceType;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

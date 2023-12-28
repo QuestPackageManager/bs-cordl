@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_boolean)
 namespace System {
+class Object;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
+namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
-}
 namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
+class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml {
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

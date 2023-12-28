@@ -1,30 +1,30 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MethodProviderWithContainer_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 /// @brief Convert operator to "::Zenject::IProvider"
 template <typename TValue> constexpr Zenject::MethodProviderWithContainer_1<TValue>::operator ::Zenject::IProvider*() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::Func_2<::Zenject::DiContainer*, TValue>*& Zenject::MethodProviderWithContainer_1<TValue>::__get__method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____method;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, TValue>*> const& Zenject::MethodProviderWithContainer_1<TValue>::__get__method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____method;
 }
 template <typename TValue> constexpr void Zenject::MethodProviderWithContainer_1<TValue>::__set__method(::System::Func_2<::Zenject::DiContainer*, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue>

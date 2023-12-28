@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(Gost3410KeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

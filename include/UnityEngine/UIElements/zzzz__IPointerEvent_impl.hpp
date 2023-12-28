@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IPointerEvent.get_pointerId
 template <>

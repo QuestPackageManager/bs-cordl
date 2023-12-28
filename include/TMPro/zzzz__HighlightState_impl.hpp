@@ -2,8 +2,8 @@
 #include "TMPro/zzzz__TMP_Offset_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "TMPro/zzzz__HighlightState_def.hpp"
-#include "TMPro/zzzz__TMP_Offset_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "TMPro/zzzz__TMP_Offset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::TMPro::HighlightState._ctor
 template <>

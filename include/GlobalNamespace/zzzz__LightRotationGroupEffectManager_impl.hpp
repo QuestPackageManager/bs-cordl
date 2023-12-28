@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__LightRotationGroupEffectManager_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationGroup_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightRotationGroupEffectManager.Start
 template <>
 
@@ -48,41 +48,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*>& GlobalNamespace::LightRotationGroupEffectManager::__get__lightRotationGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationGroups;
 }
 constexpr ::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*> const&
 GlobalNamespace::LightRotationGroupEffectManager::__get__lightRotationGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationGroups;
 }
 constexpr void GlobalNamespace::LightRotationGroupEffectManager::__set__lightRotationGroups(::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightRotationGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& GlobalNamespace::LightRotationGroupEffectManager::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::LightRotationGroupEffectManager::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void GlobalNamespace::LightRotationGroupEffectManager::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*& GlobalNamespace::LightRotationGroupEffectManager::__get__lightRotationGroupEffects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationGroupEffects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*> const&
 GlobalNamespace::LightRotationGroupEffectManager::__get__lightRotationGroupEffects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationGroupEffects;
 }
 constexpr void GlobalNamespace::LightRotationGroupEffectManager::__set__lightRotationGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightRotationGroupEffects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LightRotationGroupEffectManager::Start() {

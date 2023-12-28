@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKMapping_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -183,135 +183,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingLimb::__get_parentBone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentBone;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingLimb::__get_parentBone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentBone;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_parentBone(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parentBone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingLimb::__get_bone1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingLimb::__get_bone1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_bone1(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingLimb::__get_bone2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingLimb::__get_bone2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_bone2(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingLimb::__get_bone3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingLimb::__get_bone3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_bone3(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::IKMappingLimb::__get_maintainRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKMappingLimb::__get_maintainRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationWeight;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_maintainRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainRotationWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKMappingLimb::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKMappingLimb::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr bool& RootMotion::FinalIK::IKMappingLimb::__get_updatePlaneRotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___updatePlaneRotations;
 }
 constexpr bool const& RootMotion::FinalIK::IKMappingLimb::__get_updatePlaneRotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___updatePlaneRotations;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_updatePlaneRotations(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___updatePlaneRotations = value;
 }
 constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingLimb::__get_boneMapParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMapParent;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingLimb::__get_boneMapParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMapParent;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_boneMapParent(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boneMapParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingLimb::__get_boneMap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingLimb::__get_boneMap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap1;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_boneMap1(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boneMap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingLimb::__get_boneMap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap2;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingLimb::__get_boneMap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap2;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_boneMap2(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boneMap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingLimb::__get_boneMap3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap3;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingLimb::__get_boneMap3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap3;
 }
 constexpr void RootMotion::FinalIK::IKMappingLimb::__set_boneMap3(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boneMap3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool RootMotion::FinalIK::IKMappingLimb::IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message) {

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MulticastDelegate)
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class Delegate;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Delegate;
 }
 namespace System {
 class Object;

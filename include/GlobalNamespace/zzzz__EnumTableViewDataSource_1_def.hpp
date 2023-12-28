@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumTableViewDataSource_1)
-namespace HMUI {
-class TableCell;
-}
 namespace GlobalNamespace {
 class TextOnlyTableCell;
 }
 namespace HMUI {
 class __TableView__IDataSource;
+}
+namespace HMUI {
+class TableCell;
 }
 namespace HMUI {
 class TableView;

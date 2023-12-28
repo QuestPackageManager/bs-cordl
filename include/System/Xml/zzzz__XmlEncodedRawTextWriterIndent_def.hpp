@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlEncodedRawTextWriterIndent)
 namespace System::IO {
+class TextWriter;
+}
+namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
 struct ConformanceLevel;
 }
 namespace System::Xml {
-class BitStack;
-}
-namespace System::IO {
-class TextWriter;
+class XmlWriterSettings;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+class BitStack;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Xml::XmlEncodedRawTextWriterIndent);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 220, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11449)), TypeDefinitionIndex(TypeDefinitionIndex(11413))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11449))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11450))
 // CS Name: ::System.Xml::XmlEncodedRawTextWriterIndent*
 class CORDL_TYPE XmlEncodedRawTextWriterIndent : public ::System::Xml::XmlEncodedRawTextWriter {

@@ -4,11 +4,11 @@
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__AttributeTypeAndValue_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__Controls_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertTemplate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertReqMsg_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertTemplate_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::CertificateRequestMessage.ParseBytes
 template <>
 
@@ -229,27 +229,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*& Org::BouncyCastle::Crmf::CertificateRequestMessage::__get_certReqMsg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certReqMsg;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*> const& Org::BouncyCastle::Crmf::CertificateRequestMessage::__get_certReqMsg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certReqMsg;
 }
 constexpr void Org::BouncyCastle::Crmf::CertificateRequestMessage::__set_certReqMsg(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certReqMsg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls*& Org::BouncyCastle::Crmf::CertificateRequestMessage::__get_controls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controls;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::Controls*> const& Org::BouncyCastle::Crmf::CertificateRequestMessage::__get_controls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controls;
 }
 constexpr void Org::BouncyCastle::Crmf::CertificateRequestMessage::__set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___controls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crmf::CertificateRequestMessage::setStaticF_popRaVerified(int32_t value) {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerObjectInstaller)
 namespace GlobalNamespace {
-class MultiplayerScoreRingItem;
+class MultiplayerResultsPyramidViewAvatar;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsPyramidViewAvatar;
+class MultiplayerScoreRingItem;
 }
 namespace GlobalNamespace {
 class FireworkItemController;

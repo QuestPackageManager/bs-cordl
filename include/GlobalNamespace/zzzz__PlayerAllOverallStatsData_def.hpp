@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerAllOverallStatsData)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class MissionCompletionResults;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class __PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

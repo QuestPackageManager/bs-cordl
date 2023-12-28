@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestClient)
-namespace System::Collections {
-class Hashtable;
+namespace System::Net {
+class IAuthenticationModule;
 }
 namespace System::Net {
 class Authorization;
@@ -16,10 +16,10 @@ namespace System::Net {
 class ICredentials;
 }
 namespace System::Net {
-class IAuthenticationModule;
-}
-namespace System::Net {
 class WebRequest;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Net {

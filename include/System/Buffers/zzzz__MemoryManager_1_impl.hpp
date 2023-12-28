@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/zzzz__MemoryManager_1_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
 template <typename T> inline ::System::Span_1<T> System::Buffers::MemoryManager_1<T>::GetSpan() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::MemoryManager_1<T>*>::get(), "GetSpan",
                                                                              std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

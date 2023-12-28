@@ -76,39 +76,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__Name_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__Name_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr void UnityEngine::Scripting::RequiredByNativeCodeAttribute::__set__Name_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__Optional_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Optional_k__BackingField;
 }
 constexpr bool const& UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__Optional_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Optional_k__BackingField;
 }
 constexpr void UnityEngine::Scripting::RequiredByNativeCodeAttribute::__set__Optional_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Optional_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__GenerateProxy_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GenerateProxy_k__BackingField;
 }
 constexpr bool const& UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__GenerateProxy_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____GenerateProxy_k__BackingField;
 }
 constexpr void UnityEngine::Scripting::RequiredByNativeCodeAttribute::__set__GenerateProxy_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____GenerateProxy_k__BackingField = value;
 }
 inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* UnityEngine::Scripting::RequiredByNativeCodeAttribute::New_ctor() {

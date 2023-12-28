@@ -275,27 +275,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::Oid*& System::Security::Cryptography::AsnEncodedData::__get__oid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& System::Security::Cryptography::AsnEncodedData::__get__oid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
 constexpr void System::Security::Cryptography::AsnEncodedData::__set__oid(::System::Security::Cryptography::Oid* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::AsnEncodedData::__get__raw() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____raw;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::AsnEncodedData::__get__raw() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____raw;
 }
 constexpr void System::Security::Cryptography::AsnEncodedData::__set__raw(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____raw)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::AsnEncodedData* System::Security::Cryptography::AsnEncodedData::New_ctor() {

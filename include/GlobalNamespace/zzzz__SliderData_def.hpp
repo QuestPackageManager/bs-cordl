@@ -13,22 +13,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderData)
 namespace GlobalNamespace {
-struct ColorType;
-}
-namespace GlobalNamespace {
-struct __SliderData__Type;
-}
-namespace GlobalNamespace {
 struct SliderMidAnchorMode;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
+struct __SliderData__Type;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +92,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderData__T
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(14760))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14751)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14766))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14765)) CS Name: ::SliderData*
 class CORDL_TYPE SliderData : public ::GlobalNamespace::BeatmapObjectData {
 public:

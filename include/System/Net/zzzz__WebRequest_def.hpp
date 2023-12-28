@@ -9,71 +9,71 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebRequest)
+namespace System {
+class IAsyncResult;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Net {
+class __WebRequest____c__DisplayClass78_0;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Net::Cache {
+class RequestCacheBinding;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class __WebRequest__DesignerWebRequestCreate;
+}
+namespace System::Net {
+class __TimerThread__Queue;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
+namespace System::Net::Cache {
+class RequestCacheProtocol;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::Security::Principal {
+class WindowsIdentity;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System {
 class Uri;
 }
 namespace System::Net {
 class __WebRequest____c__DisplayClass79_0;
-}
-namespace System::Net {
-class __WebRequest____c__DisplayClass78_0;
-}
-namespace System {
-class Object;
-}
-namespace System::Net::Cache {
-class RequestCacheProtocol;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Security::Principal {
-class WindowsIdentity;
-}
-namespace System::Net::Cache {
-class RequestCacheBinding;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Net {
-class __WebRequest__DesignerWebRequestCreate;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System::Net {
-class WebResponse;
-}
-namespace System::Net {
-class __TimerThread__Queue;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System::Net {
 class IWebRequestCreate;

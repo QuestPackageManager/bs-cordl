@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CmsContentInfoParser)
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfoParser;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfoParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

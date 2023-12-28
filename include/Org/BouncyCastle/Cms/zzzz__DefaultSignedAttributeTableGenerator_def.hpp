@@ -10,11 +10,11 @@ class IDictionary;
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
 }
-namespace System::Collections {
-class Hashtable;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

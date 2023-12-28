@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerIntroCountdown)
 namespace GlobalNamespace {
-class __MultiplayerIntroCountdown____c__DisplayClass25_0;
-}
-namespace GlobalNamespace {
 class __MultiplayerIntroCountdown___PlayDelayed_d__24;
-}
-namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___CountdownRoutine_d__23;
-}
-namespace UnityEngine {
-class AudioSource;
-}
-namespace GlobalNamespace {
-class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace GlobalNamespace {
+class MultiplayerOffsetPositionByLocalPlayerPosition;
+}
 namespace GlobalNamespace {
 class __MultiplayerIntroCountdown___PhaseRoutine_d__25;
+}
+namespace GlobalNamespace {
+class __MultiplayerIntroCountdown____c__DisplayClass25_0;
+}
+namespace GlobalNamespace {
+class __MultiplayerIntroCountdown___CountdownRoutine_d__23;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -36,17 +36,17 @@ class AudioClip;
 namespace GlobalNamespace {
 class MultiplayerIntroCountdownTextController;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace UnityEngine {
+class AudioSource;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
 struct Vector3;

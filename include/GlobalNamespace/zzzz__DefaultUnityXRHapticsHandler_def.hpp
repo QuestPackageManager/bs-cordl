@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DefaultUnityXRHapticsHandler)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
 class IUnityXRHapticsHandler;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

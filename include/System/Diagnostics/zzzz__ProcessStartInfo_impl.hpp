@@ -3,14 +3,14 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__ProcessStartInfo_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/Collections/Specialized/zzzz__StringDictionary_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Diagnostics/zzzz__ProcessWindowStyle_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Diagnostics/zzzz__Process_def.hpp"
-#include "System/Security/zzzz__SecureString_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::ProcessStartInfo._ctor
 template <>
 
@@ -376,291 +376,291 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_fileName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_fileName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_fileName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_arguments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arguments;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_arguments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arguments;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_arguments(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arguments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_directory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___directory;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_directory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___directory;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_directory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___directory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_verb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verb;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_verb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verb;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_verb(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___verb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Diagnostics::ProcessWindowStyle& System::Diagnostics::ProcessStartInfo::__get_windowStyle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowStyle;
 }
 constexpr ::System::Diagnostics::ProcessWindowStyle const& System::Diagnostics::ProcessStartInfo::__get_windowStyle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowStyle;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_windowStyle(::System::Diagnostics::ProcessWindowStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowStyle = value;
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_errorDialog() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___errorDialog;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_errorDialog() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___errorDialog;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_errorDialog(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___errorDialog = value;
 }
 constexpr void*& System::Diagnostics::ProcessStartInfo::__get_errorDialogParentHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___errorDialogParentHandle;
 }
 constexpr void* const& System::Diagnostics::ProcessStartInfo::__get_errorDialogParentHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___errorDialogParentHandle;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_errorDialogParentHandle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___errorDialogParentHandle = value;
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_useShellExecute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useShellExecute;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_useShellExecute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useShellExecute;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_useShellExecute(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useShellExecute = value;
 }
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_domain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___domain;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_domain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___domain;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_domain(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___domain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::SecureString*& System::Diagnostics::ProcessStartInfo::__get_password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::SecureString*> const& System::Diagnostics::ProcessStartInfo::__get_password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___password;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_password(::System::Security::SecureString* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Diagnostics::ProcessStartInfo::__get_passwordInClearText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passwordInClearText;
 }
 constexpr ::StringW const& System::Diagnostics::ProcessStartInfo::__get_passwordInClearText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passwordInClearText;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_passwordInClearText(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___passwordInClearText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_loadUserProfile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadUserProfile;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_loadUserProfile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadUserProfile;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_loadUserProfile(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loadUserProfile = value;
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_redirectStandardInput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redirectStandardInput;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_redirectStandardInput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redirectStandardInput;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_redirectStandardInput(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___redirectStandardInput = value;
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_redirectStandardOutput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redirectStandardOutput;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_redirectStandardOutput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redirectStandardOutput;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_redirectStandardOutput(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___redirectStandardOutput = value;
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_redirectStandardError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redirectStandardError;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_redirectStandardError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redirectStandardError;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_redirectStandardError(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___redirectStandardError = value;
 }
 constexpr ::System::Text::Encoding*& System::Diagnostics::ProcessStartInfo::__get_standardOutputEncoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standardOutputEncoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Diagnostics::ProcessStartInfo::__get_standardOutputEncoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standardOutputEncoding;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_standardOutputEncoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___standardOutputEncoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoding*& System::Diagnostics::ProcessStartInfo::__get_standardErrorEncoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standardErrorEncoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Diagnostics::ProcessStartInfo::__get_standardErrorEncoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standardErrorEncoding;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_standardErrorEncoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___standardErrorEncoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Diagnostics::ProcessStartInfo::__get_createNoWindow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createNoWindow;
 }
 constexpr bool const& System::Diagnostics::ProcessStartInfo::__get_createNoWindow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createNoWindow;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_createNoWindow(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___createNoWindow = value;
 }
 constexpr ::System::WeakReference*& System::Diagnostics::ProcessStartInfo::__get_weakParentProcess() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weakParentProcess;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& System::Diagnostics::ProcessStartInfo::__get_weakParentProcess() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weakParentProcess;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_weakParentProcess(::System::WeakReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___weakParentProcess)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Specialized::StringDictionary*& System::Diagnostics::ProcessStartInfo::__get_environmentVariables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentVariables;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::StringDictionary*> const& System::Diagnostics::ProcessStartInfo::__get_environmentVariables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentVariables;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_environmentVariables(::System::Collections::Specialized::StringDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentVariables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>*& System::Diagnostics::ProcessStartInfo::__get__argumentList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____argumentList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::Collection_1<::StringW>*> const& System::Diagnostics::ProcessStartInfo::__get__argumentList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____argumentList;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set__argumentList(::System::Collections::ObjectModel::Collection_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____argumentList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& System::Diagnostics::ProcessStartInfo::__get_environment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environment;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*> const& System::Diagnostics::ProcessStartInfo::__get_environment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environment;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set_environment(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoding*& System::Diagnostics::ProcessStartInfo::__get__StandardInputEncoding_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StandardInputEncoding_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Diagnostics::ProcessStartInfo::__get__StandardInputEncoding_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StandardInputEncoding_k__BackingField;
 }
 constexpr void System::Diagnostics::ProcessStartInfo::__set__StandardInputEncoding_k__BackingField(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____StandardInputEncoding_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

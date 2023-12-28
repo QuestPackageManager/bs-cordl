@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StretchableObstacle)
-namespace GlobalNamespace {
-class ParametricBoxFakeGlowController;
-}
 namespace UnityEngine {
 struct Bounds;
 }
-namespace GlobalNamespace {
-class ParametricBoxFrameController;
-}
 namespace UnityEngine {
-class Transform;
+struct Color;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
+namespace GlobalNamespace {
+class ParametricBoxFrameController;
+}
+namespace GlobalNamespace {
+class ParametricBoxFakeGlowController;
+}
 namespace UnityEngine {
-struct Color;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableObstacle);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10164))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4798))
 // CS Name: ::StretchableObstacle*
 class CORDL_TYPE StretchableObstacle : public ::UnityEngine::MonoBehaviour {

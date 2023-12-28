@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__FactoryFromBinder_3_impl.hpp"
 #include "Zenject/zzzz__FactoryToChoiceBinder_3_def.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_3_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 template <typename TParam1, typename TParam2, typename TContract>
 inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>*

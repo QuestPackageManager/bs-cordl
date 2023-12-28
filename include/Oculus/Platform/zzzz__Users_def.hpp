@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Users)
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
 namespace Oculus::Platform::Models {
-class UserProof;
-}
-namespace Oculus::Platform::Models {
-class LaunchUnblockFlowResult;
-}
-namespace Oculus::Platform::Models {
-class User;
-}
-namespace Oculus::Platform::Models {
-class UserCapabilityList;
+class LaunchFriendRequestFlowResult;
 }
 namespace Oculus::Platform::Models {
 class SdkAccountList;
 }
 namespace Oculus::Platform::Models {
-class LaunchFriendRequestFlowResult;
+class UserProof;
 }
 namespace Oculus::Platform::Models {
-class LaunchBlockFlowResult;
+class UserList;
 }
-namespace Oculus::Platform::Models {
-class OrgScopedID;
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform::Models {
 class BlockedUserList;
 }
 namespace Oculus::Platform::Models {
-class UserList;
+class OrgScopedID;
+}
+namespace Oculus::Platform::Models {
+class LaunchUnblockFlowResult;
+}
+namespace Oculus::Platform::Models {
+class UserCapabilityList;
+}
+namespace Oculus::Platform::Models {
+class User;
+}
+namespace Oculus::Platform::Models {
+class LaunchBlockFlowResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {

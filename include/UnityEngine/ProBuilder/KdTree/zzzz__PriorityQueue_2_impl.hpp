@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
 /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
 template <typename TItem, typename TPriority>
 constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept {
@@ -11,60 +11,60 @@ constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::op
 }
 template <typename TItem, typename TPriority>
 constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_priorityMath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priorityMath;
 }
 template <typename TItem, typename TPriority>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*> const&
 UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_priorityMath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priorityMath;
 }
 template <typename TItem, typename TPriority>
 constexpr void UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__set_priorityMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___priorityMath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority>
 constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*>&
 UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_queue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queue;
 }
 template <typename TItem, typename TPriority>
 constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> const&
 UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_queue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queue;
 }
 template <typename TItem, typename TPriority>
 constexpr void UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__set_queue(
     ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___queue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority> constexpr int32_t& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_capacity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capacity;
 }
 template <typename TItem, typename TPriority> constexpr int32_t const& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_capacity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capacity;
 }
 template <typename TItem, typename TPriority> constexpr void UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__set_capacity(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___capacity = value;
 }
 template <typename TItem, typename TPriority> constexpr int32_t& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TItem, typename TPriority> constexpr int32_t const& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TItem, typename TPriority> constexpr void UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 template <typename TItem, typename TPriority>

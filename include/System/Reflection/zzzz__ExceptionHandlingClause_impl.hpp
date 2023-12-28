@@ -32,87 +32,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Reflection::ExceptionHandlingClause::__get_catch_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catch_type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Reflection::ExceptionHandlingClause::__get_catch_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catch_type;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_catch_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___catch_type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Reflection::ExceptionHandlingClause::__get_filter_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filter_offset;
 }
 constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__get_filter_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filter_offset;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_filter_offset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filter_offset = value;
 }
 constexpr ::System::Reflection::ExceptionHandlingClauseOptions& System::Reflection::ExceptionHandlingClause::__get_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr ::System::Reflection::ExceptionHandlingClauseOptions const& System::Reflection::ExceptionHandlingClause::__get_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_flags(::System::Reflection::ExceptionHandlingClauseOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
 constexpr int32_t& System::Reflection::ExceptionHandlingClause::__get_try_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___try_offset;
 }
 constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__get_try_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___try_offset;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_try_offset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___try_offset = value;
 }
 constexpr int32_t& System::Reflection::ExceptionHandlingClause::__get_try_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___try_length;
 }
 constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__get_try_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___try_length;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_try_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___try_length = value;
 }
 constexpr int32_t& System::Reflection::ExceptionHandlingClause::__get_handler_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler_offset;
 }
 constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__get_handler_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler_offset;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_handler_offset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handler_offset = value;
 }
 constexpr int32_t& System::Reflection::ExceptionHandlingClause::__get_handler_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler_length;
 }
 constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__get_handler_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler_length;
 }
 constexpr void System::Reflection::ExceptionHandlingClause::__set_handler_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handler_length = value;
 }
 inline ::System::Reflection::ExceptionHandlingClause* System::Reflection::ExceptionHandlingClause::New_ctor() {

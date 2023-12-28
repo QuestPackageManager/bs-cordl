@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMapping)
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion {
 class __Warning__Logger;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
-class IKSolver;
-}
-namespace UnityEngine {
-struct Vector3;
+class IKSolverFullBody;
 }
 namespace RootMotion::FinalIK {
 class __IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+class IKSolver;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Node;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKMapping__BoneMap);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12553))
 // CS Name: ::IKMapping::BoneMap*
 class CORDL_TYPE __IKMapping__BoneMap : public ::System::Object {

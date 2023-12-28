@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__RangeHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__RangeItemHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Net/Http/Headers/zzzz__RangeItemHeaderValue_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::RangeHeaderValue._ctor
 template <>
 
@@ -145,28 +145,28 @@ constexpr System::Net::Http::Headers::RangeHeaderValue::operator ::System::IClon
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*& System::Net::Http::Headers::RangeHeaderValue::__get_ranges() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ranges;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>*> const&
 System::Net::Http::Headers::RangeHeaderValue::__get_ranges() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ranges;
 }
 constexpr void System::Net::Http::Headers::RangeHeaderValue::__set_ranges(::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ranges)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::Http::Headers::RangeHeaderValue::__get_unit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unit;
 }
 constexpr ::StringW const& System::Net::Http::Headers::RangeHeaderValue::__get_unit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unit;
 }
 constexpr void System::Net::Http::Headers::RangeHeaderValue::__set_unit(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::RangeHeaderValue* System::Net::Http::Headers::RangeHeaderValue::New_ctor() {

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ContinuationTaskFromTask_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::ContinuationTaskFromTask._ctor
 template <>
 
@@ -43,15 +43,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::ContinuationTaskFromTask::__get_m_antecedent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_antecedent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::ContinuationTaskFromTask::__get_m_antecedent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_antecedent;
 }
 constexpr void System::Threading::Tasks::ContinuationTaskFromTask::__set_m_antecedent(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_antecedent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::ContinuationTaskFromTask* System::Threading::Tasks::ContinuationTaskFromTask::New_ctor(::System::Threading::Tasks::Task* antecedent, ::System::Delegate* action,

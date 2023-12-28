@@ -4,9 +4,9 @@
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__LegacyResourcesProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__LegacyResourcesProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp.Start
@@ -86,30 +86,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ResourceRequest*& UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::__get_m_RequestOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestOperation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceRequest*> const&
 UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::__get_m_RequestOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestOperation;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::__set_m_RequestOperation(::UnityEngine::ResourceRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::__get_m_ProvideHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProvideHandle;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const&
 UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::__get_m_ProvideHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProvideHandle;
 }
 constexpr void
 UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::__set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProvideHandle = value;
 }
 inline void UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp::Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle) {

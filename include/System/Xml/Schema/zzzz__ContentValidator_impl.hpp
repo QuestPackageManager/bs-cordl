@@ -62,39 +62,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Schema::XmlSchemaContentType& System::Xml::Schema::ContentValidator::__get_contentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr ::System::Xml::Schema::XmlSchemaContentType const& System::Xml::Schema::ContentValidator::__get_contentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr void System::Xml::Schema::ContentValidator::__set_contentType(::System::Xml::Schema::XmlSchemaContentType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentType = value;
 }
 constexpr bool& System::Xml::Schema::ContentValidator::__get_isOpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isOpen;
 }
 constexpr bool const& System::Xml::Schema::ContentValidator::__get_isOpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isOpen;
 }
 constexpr void System::Xml::Schema::ContentValidator::__set_isOpen(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isOpen = value;
 }
 constexpr bool& System::Xml::Schema::ContentValidator::__get_isEmptiable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isEmptiable;
 }
 constexpr bool const& System::Xml::Schema::ContentValidator::__get_isEmptiable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isEmptiable;
 }
 constexpr void System::Xml::Schema::ContentValidator::__set_isEmptiable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isEmptiable = value;
 }
 inline void System::Xml::Schema::ContentValidator::setStaticF_Empty(::System::Xml::Schema::ContentValidator* value) {

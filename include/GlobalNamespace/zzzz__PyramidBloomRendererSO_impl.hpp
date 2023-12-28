@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass::__PyramidBloomRendererSO__Pass(int32_t value__) noexcept {
   this->value__ = value__;
@@ -121,77 +121,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Shader*& GlobalNamespace::PyramidBloomRendererSO::__get__shader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::PyramidBloomRendererSO::__get__shader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shader;
 }
 constexpr void GlobalNamespace::PyramidBloomRendererSO::__set__shader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::PyramidBloomRendererSO::__get__material() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::PyramidBloomRendererSO::__get__material() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
 constexpr void GlobalNamespace::PyramidBloomRendererSO::__set__material(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*>& GlobalNamespace::PyramidBloomRendererSO::__get__pyramid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pyramid;
 }
 constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> const&
 GlobalNamespace::PyramidBloomRendererSO::__get__pyramid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pyramid;
 }
 constexpr void
 GlobalNamespace::PyramidBloomRendererSO::__set__pyramid(::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pyramid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PyramidBloomRendererSO::__get_kIsScreenspaceEffectKeyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kIsScreenspaceEffectKeyword;
 }
 constexpr ::StringW const& GlobalNamespace::PyramidBloomRendererSO::__get_kIsScreenspaceEffectKeyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kIsScreenspaceEffectKeyword;
 }
 constexpr void GlobalNamespace::PyramidBloomRendererSO::__set_kIsScreenspaceEffectKeyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___kIsScreenspaceEffectKeyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PyramidBloomRendererSO::__get_kLegacyAutoExposureKeyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kLegacyAutoExposureKeyword;
 }
 constexpr ::StringW const& GlobalNamespace::PyramidBloomRendererSO::__get_kLegacyAutoExposureKeyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kLegacyAutoExposureKeyword;
 }
 constexpr void GlobalNamespace::PyramidBloomRendererSO::__set_kLegacyAutoExposureKeyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___kLegacyAutoExposureKeyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PyramidBloomRendererSO::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& GlobalNamespace::PyramidBloomRendererSO::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void GlobalNamespace::PyramidBloomRendererSO::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 inline void GlobalNamespace::PyramidBloomRendererSO::setStaticF__bloomTexID(int32_t value) {

@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKConstraintBend)
-namespace RootMotion {
-class __Warning__Logger;
-}
 namespace UnityEngine {
 class Transform;
 }
-namespace RootMotion::FinalIK {
-class IKSolverFullBody;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion {
+class __Warning__Logger;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKConstraintBend);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12551))
 // CS Name: ::RootMotion.FinalIK::IKConstraintBend*
 class CORDL_TYPE IKConstraintBend : public ::System::Object {

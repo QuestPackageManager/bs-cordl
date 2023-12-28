@@ -8,29 +8,29 @@
 #include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__DrawBufferRange_def.hpp"
-#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Transform3x4_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
+#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__DrawParams_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__DrawParams_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Transform3x4_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__DrawBufferRange_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__State_def.hpp"
 // Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "meshHandle", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "permAllocVerts", ty: "::UnityEngine::UIElements::UIR::Alloc",
@@ -841,250 +841,250 @@ constexpr UnityEngine::UIElements::UIR::UIRenderDevice::operator ::System::IDisp
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_MockDevice() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MockDevice;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_MockDevice() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MockDevice;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_MockDevice(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MockDevice = value;
 }
 constexpr void*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DefaultStencilState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultStencilState;
 }
 constexpr void* const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DefaultStencilState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultStencilState;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_DefaultStencilState(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DefaultStencilState = value;
 }
 constexpr void*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_VertexDecl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertexDecl;
 }
 constexpr void* const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_VertexDecl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertexDecl;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_VertexDecl(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VertexDecl = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::Page*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_FirstPage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstPage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_FirstPage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstPage;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_FirstPage(::UnityEngine::UIElements::UIR::Page* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FirstPage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_NextPageVertexCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextPageVertexCount;
 }
 constexpr uint32_t const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_NextPageVertexCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextPageVertexCount;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_NextPageVertexCount(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NextPageVertexCount = value;
 }
 constexpr uint32_t& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_LargeMeshVertexCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LargeMeshVertexCount;
 }
 constexpr uint32_t const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_LargeMeshVertexCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LargeMeshVertexCount;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_LargeMeshVertexCount(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LargeMeshVertexCount = value;
 }
 constexpr float_t& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_IndexToVertexCountRatio() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndexToVertexCountRatio;
 }
 constexpr float_t const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_IndexToVertexCountRatio() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndexToVertexCountRatio;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_IndexToVertexCountRatio(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IndexToVertexCountRatio = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>*&
 UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DeferredFrees() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeferredFrees;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>*> const&
 UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DeferredFrees() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeferredFrees;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_DeferredFrees(
     ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeferredFrees)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>*&
 UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_Updates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Updates;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>*> const&
 UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_Updates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Updates;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_Updates(
     ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Updates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_Fences() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Fences;
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_Fences() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Fences;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_Fences(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Fences)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::MaterialPropertyBlock*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_StandardMatProps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StandardMatProps;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_StandardMatProps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StandardMatProps;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_StandardMatProps(::UnityEngine::MaterialPropertyBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StandardMatProps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_FrameIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FrameIndex;
 }
 constexpr uint32_t const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_FrameIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FrameIndex;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_FrameIndex(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FrameIndex = value;
 }
 constexpr uint32_t& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_NextUpdateID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextUpdateID;
 }
 constexpr uint32_t const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_NextUpdateID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextUpdateID;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_NextUpdateID(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NextUpdateID = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DrawStats() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DrawStats;
 }
 constexpr ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DrawStats() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DrawStats;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_DrawStats(::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DrawStats = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_MeshHandles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshHandles;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*> const&
 UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_MeshHandles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshHandles;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_MeshHandles(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MeshHandles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::DrawParams*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DrawParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DrawParams;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::DrawParams*> const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_DrawParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DrawParams;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_DrawParams(::UnityEngine::UIElements::UIR::DrawParams* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DrawParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::TextureSlotManager*& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_TextureSlotManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextureSlotManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TextureSlotManager*> const& UnityEngine::UIElements::UIR::UIRenderDevice::__get_m_TextureSlotManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextureSlotManager;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set_m_TextureSlotManager(::UnityEngine::UIElements::UIR::TextureSlotManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextureSlotManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& UnityEngine::UIElements::UIR::UIRenderDevice::__get__maxVerticesPerPage_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxVerticesPerPage_k__BackingField;
 }
 constexpr uint32_t const& UnityEngine::UIElements::UIR::UIRenderDevice::__get__maxVerticesPerPage_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxVerticesPerPage_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set__maxVerticesPerPage_k__BackingField(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxVerticesPerPage_k__BackingField = value;
 }
 constexpr bool& UnityEngine::UIElements::UIR::UIRenderDevice::__get__breakBatches_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____breakBatches_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::UIRenderDevice::__get__breakBatches_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____breakBatches_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set__breakBatches_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____breakBatches_k__BackingField = value;
 }
 constexpr bool& UnityEngine::UIElements::UIR::UIRenderDevice::__get__disposed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::UIRenderDevice::__get__disposed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::UIRenderDevice::__set__disposed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
 inline void

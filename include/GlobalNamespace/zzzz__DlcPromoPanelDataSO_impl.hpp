@@ -5,10 +5,10 @@
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo.get_previewBeatmapLevel
 template <>
 
@@ -115,75 +115,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::PreviewBeatmapLevelPackSO*& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__beatmapLevelPack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelPack;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelPackSO*> const& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__beatmapLevelPack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelPack;
 }
 constexpr void GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__set__beatmapLevelPack(::GlobalNamespace::PreviewBeatmapLevelPackSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelPack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapLevelSO*& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__beatmapLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__beatmapLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
 constexpr void GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__bannerImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__bannerImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerImage;
 }
 constexpr void GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__set__bannerImage(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bannerImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__bannerPromoText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerPromoText;
 }
 constexpr ::StringW const& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__bannerPromoText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerPromoText;
 }
 constexpr void GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__set__bannerPromoText(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bannerPromoText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__bannerPromoTextPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerPromoTextPosition;
 }
 constexpr float_t const& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__bannerPromoTextPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerPromoTextPosition;
 }
 constexpr void GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__set__bannerPromoTextPosition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bannerPromoTextPosition = value;
 }
 constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__contentRating() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRating;
 }
 constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__get__contentRating() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRating;
 }
 constexpr void GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::__set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentRating = value;
 }
 inline ::GlobalNamespace::IPreviewBeatmapLevel* GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo::get_previewBeatmapLevel() {
@@ -303,54 +303,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::DlcPromoPanelDataSO::__get__defaultMusicPackPromoIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMusicPackPromoIndex;
 }
 constexpr int32_t const& GlobalNamespace::DlcPromoPanelDataSO::__get__defaultMusicPackPromoIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMusicPackPromoIndex;
 }
 constexpr void GlobalNamespace::DlcPromoPanelDataSO::__set__defaultMusicPackPromoIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultMusicPackPromoIndex = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>&
 GlobalNamespace::DlcPromoPanelDataSO::__get__musicPackPromoInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____musicPackPromoInfos;
 }
 constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> const&
 GlobalNamespace::DlcPromoPanelDataSO::__get__musicPackPromoInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____musicPackPromoInfos;
 }
 constexpr void GlobalNamespace::DlcPromoPanelDataSO::__set__musicPackPromoInfos(
     ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____musicPackPromoInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::DlcPromoPanelDataSO::__get__cutOffTest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutOffTest;
 }
 constexpr int32_t const& GlobalNamespace::DlcPromoPanelDataSO::__get__cutOffTest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutOffTest;
 }
 constexpr void GlobalNamespace::DlcPromoPanelDataSO::__set__cutOffTest(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutOffTest = value;
 }
 constexpr int32_t& GlobalNamespace::DlcPromoPanelDataSO::__get__minNumberOfNotOwnedPacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minNumberOfNotOwnedPacks;
 }
 constexpr int32_t const& GlobalNamespace::DlcPromoPanelDataSO::__get__minNumberOfNotOwnedPacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minNumberOfNotOwnedPacks;
 }
 constexpr void GlobalNamespace::DlcPromoPanelDataSO::__set__minNumberOfNotOwnedPacks(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minNumberOfNotOwnedPacks = value;
 }
 inline ::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo* GlobalNamespace::DlcPromoPanelDataSO::get_defaultMusicPackPromo() {

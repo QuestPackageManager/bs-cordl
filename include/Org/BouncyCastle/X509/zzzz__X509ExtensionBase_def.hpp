@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509ExtensionBase)
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
@@ -14,11 +14,11 @@ class ISet;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::X509 {
 class IX509Extension;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

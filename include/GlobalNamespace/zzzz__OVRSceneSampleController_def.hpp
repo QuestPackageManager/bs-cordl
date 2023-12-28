@@ -11,10 +11,10 @@ namespace UnityEngine {
 class Texture;
 }
 namespace GlobalNamespace {
-class OVRPlayerController;
+class OVRGridCube;
 }
 namespace GlobalNamespace {
-class OVRGridCube;
+class OVRPlayerController;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;

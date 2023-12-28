@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SteamLevelProductsModelSO)
 namespace GlobalNamespace {
-class __SteamLevelProductsModelSO__LevelPackProductData;
-}
-namespace GlobalNamespace {
 class __SteamLevelProductsModelSO__LevelPackRedirectionData;
 }
 namespace GlobalNamespace {
 class __SteamLevelProductsModelSO__LevelProductData;
+}
+namespace GlobalNamespace {
+class __SteamLevelProductsModelSO__LevelPackProductData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,14 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscHelpers)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -22,9 +25,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class IDisposable;

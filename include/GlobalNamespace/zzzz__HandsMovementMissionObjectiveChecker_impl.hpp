@@ -62,15 +62,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SaberActivityCounter*& GlobalNamespace::HandsMovementMissionObjectiveChecker::__get__saberActivityCounter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberActivityCounter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberActivityCounter*> const& GlobalNamespace::HandsMovementMissionObjectiveChecker::__get__saberActivityCounter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberActivityCounter;
 }
 constexpr void GlobalNamespace::HandsMovementMissionObjectiveChecker::__set__saberActivityCounter(::GlobalNamespace::SaberActivityCounter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberActivityCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::HandsMovementMissionObjectiveChecker::OnDestroy() {

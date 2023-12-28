@@ -49,27 +49,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__get_assemblyString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyString;
 }
 constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__get_assemblyString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyString;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__set_assemblyString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assemblyString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::Assembly*& System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__get_assembly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__get_assembly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__set_assembly(::System::Reflection::Assembly* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::New_ctor(::StringW assemblyString) {

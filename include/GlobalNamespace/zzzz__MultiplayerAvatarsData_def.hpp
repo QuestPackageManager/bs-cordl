@@ -6,15 +6,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerAvatarsData)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
@@ -22,16 +13,25 @@ namespace GlobalNamespace {
 struct BitMask128;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(InfBlocks)
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfTree;
 }
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfCodes;
-}
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {

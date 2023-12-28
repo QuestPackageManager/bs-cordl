@@ -7,32 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebRequest)
-namespace System {
-class Object;
-}
 namespace System::Net {
-class LazyAsyncResult;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class Uri;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading {
-class ManualResetEvent;
+class WebHeaderCollection;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -40,17 +16,41 @@ struct StreamingContext;
 namespace System::Net {
 class IWebProxy;
 }
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
 namespace System::Net {
-class WebHeaderCollection;
+class ICredentials;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class LazyAsyncResult;
 }
 namespace System::Threading {
 class WaitCallback;
 }
 namespace System::Net {
 class WebResponse;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Net {
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::System::Net::FileWebRequest);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(9096))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9134))
 // CS Name: ::System.Net::FileWebRequest*
 class CORDL_TYPE FileWebRequest : public ::System::Net::WebRequest {

@@ -2,9 +2,9 @@
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_impl.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_impl.hpp"
 #include "System/Security/Permissions/zzzz__ReflectionPermission_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
 //  Writing Method size for method: ::System::Security::Permissions::ReflectionPermission._ctor
 template <>
 
@@ -111,15 +111,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Permissions::ReflectionPermissionFlag& System::Security::Permissions::ReflectionPermission::__get_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr ::System::Security::Permissions::ReflectionPermissionFlag const& System::Security::Permissions::ReflectionPermission::__get_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr void System::Security::Permissions::ReflectionPermission::__set_flags(::System::Security::Permissions::ReflectionPermissionFlag value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
 inline ::System::Security::Permissions::ReflectionPermission* System::Security::Permissions::ReflectionPermission::New_ctor(::System::Security::Permissions::ReflectionPermissionFlag flag) {

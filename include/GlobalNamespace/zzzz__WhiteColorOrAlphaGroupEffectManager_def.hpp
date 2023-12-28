@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(WhiteColorOrAlphaGroupEffectManager)
-namespace GlobalNamespace {
-class LightGroup;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class WhiteColorOrAlphaGroupEffect;
+}
+namespace GlobalNamespace {
+class LightGroup;
 }
 namespace Zenject {
 class DiContainer;

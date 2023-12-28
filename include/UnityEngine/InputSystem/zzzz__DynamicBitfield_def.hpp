@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::DynamicBitfield);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 407 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 407 }), TypeDefinitionIndex(TypeDefinitionIndex(6669))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6321))
 // CS Name: ::UnityEngine.InputSystem::DynamicBitfield
 struct CORDL_TYPE DynamicBitfield {

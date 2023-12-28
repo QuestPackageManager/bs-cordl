@@ -7,22 +7,22 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
+#include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleController.add_finishedMovementEvent
 template <>
@@ -428,375 +428,375 @@ constexpr GlobalNamespace::ObstacleController::operator ::GlobalNamespace::IBeat
   return static_cast<::GlobalNamespace::IBeatmapObjectController*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::StretchableObstacle*& GlobalNamespace::ObstacleController::__get__stretchableObstacle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stretchableObstacle;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StretchableObstacle*> const& GlobalNamespace::ObstacleController::__get__stretchableObstacle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stretchableObstacle;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__stretchableObstacle(::GlobalNamespace::StretchableObstacle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stretchableObstacle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__endDistanceOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDistanceOffset;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__endDistanceOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDistanceOffset;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__endDistanceOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endDistanceOffset = value;
 }
 constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>& GlobalNamespace::ObstacleController::__get__visualWrappers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visualWrappers;
 }
 constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> const& GlobalNamespace::ObstacleController::__get__visualWrappers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visualWrappers;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__visualWrappers(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____visualWrappers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerTransforms*& GlobalNamespace::ObstacleController::__get__playerTransforms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTransforms;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& GlobalNamespace::ObstacleController::__get__playerTransforms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTransforms;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__playerTransforms(::GlobalNamespace::PlayerTransforms* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::ObstacleController::__get__audioTimeSyncController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::ObstacleController::__get__audioTimeSyncController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::ObstacleController::__get__colorManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::ObstacleController::__get__colorManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__colorManager(::GlobalNamespace::ColorManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& GlobalNamespace::ObstacleController::__get_finishedMovementEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedMovementEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& GlobalNamespace::ObstacleController::__get_finishedMovementEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedMovementEvent;
 }
 constexpr void GlobalNamespace::ObstacleController::__set_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___finishedMovementEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& GlobalNamespace::ObstacleController::__get_passedThreeQuartersOfMove2Event() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passedThreeQuartersOfMove2Event;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& GlobalNamespace::ObstacleController::__get_passedThreeQuartersOfMove2Event() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passedThreeQuartersOfMove2Event;
 }
 constexpr void GlobalNamespace::ObstacleController::__set_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___passedThreeQuartersOfMove2Event)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& GlobalNamespace::ObstacleController::__get_passedAvoidedMarkEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passedAvoidedMarkEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& GlobalNamespace::ObstacleController::__get_passedAvoidedMarkEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passedAvoidedMarkEvent;
 }
 constexpr void GlobalNamespace::ObstacleController::__set_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___passedAvoidedMarkEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& GlobalNamespace::ObstacleController::__get_didDissolveEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didDissolveEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& GlobalNamespace::ObstacleController::__get_didDissolveEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didDissolveEvent;
 }
 constexpr void GlobalNamespace::ObstacleController::__set_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didDissolveEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>*& GlobalNamespace::ObstacleController::__get_didUpdateProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateProgress;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>*> const& GlobalNamespace::ObstacleController::__get_didUpdateProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdateProgress;
 }
 constexpr void GlobalNamespace::ObstacleController::__set_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didUpdateProgress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__width() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__width() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__width(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____width = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__height() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____height;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__height() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____height;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__height(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____height = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::ObstacleController::__get__startPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ObstacleController::__get__startPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPos;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__startPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::ObstacleController::__get__midPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____midPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ObstacleController::__get__midPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____midPos;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__midPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____midPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::ObstacleController::__get__endPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ObstacleController::__get__endPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__endPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endPos = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__move1Duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____move1Duration;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__move1Duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____move1Duration;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__move1Duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____move1Duration = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__move2Duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____move2Duration;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__move2Duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____move2Duration;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__move2Duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____move2Duration = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__startTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__startTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTimeOffset;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__startTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__obstacleDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleDuration;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__obstacleDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleDuration;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__obstacleDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstacleDuration = value;
 }
 constexpr bool& GlobalNamespace::ObstacleController::__get__passedThreeQuartersOfMove2Reported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passedThreeQuartersOfMove2Reported;
 }
 constexpr bool const& GlobalNamespace::ObstacleController::__get__passedThreeQuartersOfMove2Reported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passedThreeQuartersOfMove2Reported;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__passedThreeQuartersOfMove2Reported(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____passedThreeQuartersOfMove2Reported = value;
 }
 constexpr bool& GlobalNamespace::ObstacleController::__get__passedAvoidedMarkReported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passedAvoidedMarkReported;
 }
 constexpr bool const& GlobalNamespace::ObstacleController::__get__passedAvoidedMarkReported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passedAvoidedMarkReported;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__passedAvoidedMarkReported(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____passedAvoidedMarkReported = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__passedAvoidedMarkTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passedAvoidedMarkTime;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__passedAvoidedMarkTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passedAvoidedMarkTime;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__passedAvoidedMarkTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____passedAvoidedMarkTime = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleController::__get__finishMovementTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishMovementTime;
 }
 constexpr float_t const& GlobalNamespace::ObstacleController::__get__finishMovementTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishMovementTime;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__finishMovementTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finishMovementTime = value;
 }
 constexpr ::UnityEngine::Bounds& GlobalNamespace::ObstacleController::__get__bounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bounds;
 }
 constexpr ::UnityEngine::Bounds const& GlobalNamespace::ObstacleController::__get__bounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bounds;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__bounds(::UnityEngine::Bounds value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bounds = value;
 }
 constexpr bool& GlobalNamespace::ObstacleController::__get__dissolving() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dissolving;
 }
 constexpr bool const& GlobalNamespace::ObstacleController::__get__dissolving() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dissolving;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__dissolving(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dissolving = value;
 }
 constexpr ::GlobalNamespace::ObstacleData*& GlobalNamespace::ObstacleController::__get__obstacleData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleData*> const& GlobalNamespace::ObstacleController::__get__obstacleData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleData;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__obstacleData(::GlobalNamespace::ObstacleData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ObstacleController::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ObstacleController::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::ObstacleController::__get__worldRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::ObstacleController::__get__worldRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldRotation;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__worldRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____worldRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::ObstacleController::__get__inverseWorldRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseWorldRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::ObstacleController::__get__inverseWorldRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseWorldRotation;
 }
 constexpr void GlobalNamespace::ObstacleController::__set__inverseWorldRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inverseWorldRotation = value;
 }
 inline void GlobalNamespace::ObstacleController::add_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value) {
@@ -1092,51 +1092,51 @@ constexpr GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::opera
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ObstacleController*& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleController*> const& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__set___4__this(::GlobalNamespace::ObstacleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get_duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr float_t const& GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__get_duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr void GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__set_duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
 inline ::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65* GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::New_ctor(int32_t __1__state) {

@@ -82,51 +82,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRManager__ColorSpace& GlobalNamespace::OVRRuntimeSettings::__get_colorSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSpace;
 }
 constexpr ::GlobalNamespace::__OVRManager__ColorSpace const& GlobalNamespace::OVRRuntimeSettings::__get_colorSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSpace;
 }
 constexpr void GlobalNamespace::OVRRuntimeSettings::__set_colorSpace(::GlobalNamespace::__OVRManager__ColorSpace value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorSpace = value;
 }
 constexpr bool& GlobalNamespace::OVRRuntimeSettings::__get_hasSentConsentEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasSentConsentEvent;
 }
 constexpr bool const& GlobalNamespace::OVRRuntimeSettings::__get_hasSentConsentEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasSentConsentEvent;
 }
 constexpr void GlobalNamespace::OVRRuntimeSettings::__set_hasSentConsentEvent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasSentConsentEvent = value;
 }
 constexpr bool& GlobalNamespace::OVRRuntimeSettings::__get_hasSetTelemetryEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasSetTelemetryEnabled;
 }
 constexpr bool const& GlobalNamespace::OVRRuntimeSettings::__get_hasSetTelemetryEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasSetTelemetryEnabled;
 }
 constexpr void GlobalNamespace::OVRRuntimeSettings::__set_hasSetTelemetryEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasSetTelemetryEnabled = value;
 }
 constexpr bool& GlobalNamespace::OVRRuntimeSettings::__get_telemetryEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___telemetryEnabled;
 }
 constexpr bool const& GlobalNamespace::OVRRuntimeSettings::__get_telemetryEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___telemetryEnabled;
 }
 constexpr void GlobalNamespace::OVRRuntimeSettings::__set_telemetryEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___telemetryEnabled = value;
 }
 inline void GlobalNamespace::OVRRuntimeSettings::setStaticF__instance(::GlobalNamespace::OVRRuntimeSettings* value) {

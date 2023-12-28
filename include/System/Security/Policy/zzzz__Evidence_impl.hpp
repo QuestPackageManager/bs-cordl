@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Security/Policy/zzzz__Evidence_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: ::System::Security::Policy::__Evidence__EvidenceEnumerator._ctor
 template <>
 
@@ -74,39 +74,39 @@ constexpr System::Security::Policy::__Evidence__EvidenceEnumerator::operator ::S
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IEnumerator*& System::Security::Policy::__Evidence__EvidenceEnumerator::__get_currentEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEnum;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Security::Policy::__Evidence__EvidenceEnumerator::__get_currentEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEnum;
 }
 constexpr void System::Security::Policy::__Evidence__EvidenceEnumerator::__set_currentEnum(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerator*& System::Security::Policy::__Evidence__EvidenceEnumerator::__get_hostEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEnum;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Security::Policy::__Evidence__EvidenceEnumerator::__get_hostEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEnum;
 }
 constexpr void System::Security::Policy::__Evidence__EvidenceEnumerator::__set_hostEnum(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerator*& System::Security::Policy::__Evidence__EvidenceEnumerator::__get_assemblyEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEnum;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Security::Policy::__Evidence__EvidenceEnumerator::__get_assemblyEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEnum;
 }
 constexpr void System::Security::Policy::__Evidence__EvidenceEnumerator::__set_assemblyEnum(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assemblyEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Policy::__Evidence__EvidenceEnumerator* System::Security::Policy::__Evidence__EvidenceEnumerator::New_ctor(::System::Collections::IEnumerator* hostenum,
@@ -227,39 +227,39 @@ constexpr System::Security::Policy::Evidence::operator ::System::Collections::IE
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr bool& System::Security::Policy::Evidence::__get__locked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locked;
 }
 constexpr bool const& System::Security::Policy::Evidence::__get__locked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locked;
 }
 constexpr void System::Security::Policy::Evidence::__set__locked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____locked = value;
 }
 constexpr ::System::Collections::ArrayList*& System::Security::Policy::Evidence::__get_hostEvidenceList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEvidenceList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::Policy::Evidence::__get_hostEvidenceList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostEvidenceList;
 }
 constexpr void System::Security::Policy::Evidence::__set_hostEvidenceList(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostEvidenceList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& System::Security::Policy::Evidence::__get_assemblyEvidenceList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEvidenceList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::Policy::Evidence::__get_assemblyEvidenceList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyEvidenceList;
 }
 constexpr void System::Security::Policy::Evidence::__set_assemblyEvidenceList(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assemblyEvidenceList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Policy::Evidence* System::Security::Policy::Evidence::New_ctor() {

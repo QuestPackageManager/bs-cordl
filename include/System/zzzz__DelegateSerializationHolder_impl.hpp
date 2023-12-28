@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__DelegateSerializationHolder_def.hpp"
+#include "System/zzzz__DelegateSerializationHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__DelegateSerializationHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 //  Writing Method size for method: ::System::__DelegateSerializationHolder__DelegateEntry._ctor
 template <>
 
@@ -42,87 +42,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& System::__DelegateSerializationHolder__DelegateEntry::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::StringW const& System::__DelegateSerializationHolder__DelegateEntry::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_type(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__DelegateSerializationHolder__DelegateEntry::__get_assembly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly;
 }
 constexpr ::StringW const& System::__DelegateSerializationHolder__DelegateEntry::__get_assembly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_assembly(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::__DelegateSerializationHolder__DelegateEntry::__get_target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::__DelegateSerializationHolder__DelegateEntry::__get_target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_target(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__DelegateSerializationHolder__DelegateEntry::__get_targetTypeAssembly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetTypeAssembly;
 }
 constexpr ::StringW const& System::__DelegateSerializationHolder__DelegateEntry::__get_targetTypeAssembly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetTypeAssembly;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_targetTypeAssembly(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetTypeAssembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__DelegateSerializationHolder__DelegateEntry::__get_targetTypeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetTypeName;
 }
 constexpr ::StringW const& System::__DelegateSerializationHolder__DelegateEntry::__get_targetTypeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetTypeName;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_targetTypeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetTypeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__DelegateSerializationHolder__DelegateEntry::__get_methodName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodName;
 }
 constexpr ::StringW const& System::__DelegateSerializationHolder__DelegateEntry::__get_methodName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodName;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_methodName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___methodName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::__DelegateSerializationHolder__DelegateEntry*& System::__DelegateSerializationHolder__DelegateEntry::__get_delegateEntry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegateEntry;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::__DelegateSerializationHolder__DelegateEntry*> const& System::__DelegateSerializationHolder__DelegateEntry::__get_delegateEntry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegateEntry;
 }
 constexpr void System::__DelegateSerializationHolder__DelegateEntry::__set_delegateEntry(::System::__DelegateSerializationHolder__DelegateEntry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___delegateEntry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::__DelegateSerializationHolder__DelegateEntry* System::__DelegateSerializationHolder__DelegateEntry::New_ctor(::System::Delegate* del, ::StringW targetLabel) {
@@ -216,15 +216,15 @@ constexpr System::DelegateSerializationHolder::operator ::System::Runtime::Seria
   return static_cast<::System::Runtime::Serialization::IObjectReference*>(static_cast<void*>(this));
 }
 constexpr ::System::Delegate*& System::DelegateSerializationHolder::__get__delegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& System::DelegateSerializationHolder::__get__delegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delegate;
 }
 constexpr void System::DelegateSerializationHolder::__set__delegate(::System::Delegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____delegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::DelegateSerializationHolder* System::DelegateSerializationHolder::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,

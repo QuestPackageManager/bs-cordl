@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509ChainImpl)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainPolicy;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;

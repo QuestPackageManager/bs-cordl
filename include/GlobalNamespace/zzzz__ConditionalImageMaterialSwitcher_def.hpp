@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ConditionalImageMaterialSwitcher)
+namespace UnityEngine::UI {
+class Image;
+}
 namespace UnityEngine {
 class Material;
 }
 namespace GlobalNamespace {
 class BoolSO;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {

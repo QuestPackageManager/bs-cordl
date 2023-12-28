@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkPlayerTableCell)
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HMUI {
+struct __SelectableCell__TransitionType;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {

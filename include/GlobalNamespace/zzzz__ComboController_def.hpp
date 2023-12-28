@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComboController)
 namespace GlobalNamespace {
-class IComboController;
+class NoteController;
 }
 namespace GlobalNamespace {
-class NoteController;
+class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class IComboController;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

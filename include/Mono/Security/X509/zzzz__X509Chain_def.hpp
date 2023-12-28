@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509Chain)
 namespace Mono::Security::X509 {
-class X509Certificate;
+class X509CertificateCollection;
 }
 namespace Mono::Security::X509 {
-class X509CertificateCollection;
+class X509Certificate;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Chain);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13755))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13755)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13754))
 // CS Name: ::Mono.Security.X509::X509Chain*
 class CORDL_TYPE X509Chain : public ::System::Object {

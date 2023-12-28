@@ -134,15 +134,15 @@ constexpr System::Net::Http::HttpMethod::operator ::System::IEquatable_1<::Syste
   return static_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Net::Http::HttpMethod::__get_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr ::StringW const& System::Net::Http::HttpMethod::__get_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void System::Net::Http::HttpMethod::__set_method(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::Http::HttpMethod::setStaticF_delete_method(::System::Net::Http::HttpMethod* value) {

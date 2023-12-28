@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TreeInstance)
 namespace UnityEngine {
-struct Color32;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::TreeInstance);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15470))
 // CS Name: ::UnityEngine::TreeInstance
 struct CORDL_TYPE TreeInstance {

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRStorable)
 namespace GlobalNamespace {
-struct OVRAnchor;
+template <typename T> class IOVRAnchorComponent_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+struct OVRAnchor;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

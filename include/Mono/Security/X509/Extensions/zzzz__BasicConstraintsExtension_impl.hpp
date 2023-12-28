@@ -81,27 +81,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_cA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cA;
 }
 constexpr bool const& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_cA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cA;
 }
 constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__set_cA(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cA = value;
 }
 constexpr int32_t& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_pathLenConstraint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pathLenConstraint;
 }
 constexpr int32_t const& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_pathLenConstraint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pathLenConstraint;
 }
 constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__set_pathLenConstraint(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pathLenConstraint = value;
 }
 inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* Mono::Security::X509::Extensions::BasicConstraintsExtension::New_ctor(::Mono::Security::X509::X509Extension* extension) {

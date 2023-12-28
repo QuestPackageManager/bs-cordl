@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpKeyRingGenerator)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpKeyPair;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignatureSubpacketVector;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKeyRing;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpKeyPair;
+}
 namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSecretKeyRing;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKeyRing;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSecretKeyRing;
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(572))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1648))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRingGenerator*
 class CORDL_TYPE PgpKeyRingGenerator : public ::System::Object {

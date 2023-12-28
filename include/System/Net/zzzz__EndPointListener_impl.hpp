@@ -1,20 +1,20 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__EndPointListener_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__ListenerPrefix_def.hpp"
-#include "System/Net/zzzz__HttpConnection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Net/zzzz__HttpListener_def.hpp"
+#include "System/Net/zzzz__ListenerPrefix_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/zzzz__HttpConnection_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::EndPointListener._ctor
 template <>
 
@@ -262,112 +262,112 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::HttpListener*& System::Net::EndPointListener::__get_listener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___listener;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& System::Net::EndPointListener::__get_listener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___listener;
 }
 constexpr void System::Net::EndPointListener::__set_listener(::System::Net::HttpListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IPEndPoint*& System::Net::EndPointListener::__get_endpoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endpoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& System::Net::EndPointListener::__get_endpoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endpoint;
 }
 constexpr void System::Net::EndPointListener::__set_endpoint(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endpoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::Socket*& System::Net::EndPointListener::__get_sock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& System::Net::EndPointListener::__get_sock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sock;
 }
 constexpr void System::Net::EndPointListener::__set_sock(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Net::EndPointListener::__get_prefixes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefixes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Net::EndPointListener::__get_prefixes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefixes;
 }
 constexpr void System::Net::EndPointListener::__set_prefixes(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefixes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& System::Net::EndPointListener::__get_unhandled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unhandled;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Net::EndPointListener::__get_unhandled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unhandled;
 }
 constexpr void System::Net::EndPointListener::__set_unhandled(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unhandled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& System::Net::EndPointListener::__get_all() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___all;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Net::EndPointListener::__get_all() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___all;
 }
 constexpr void System::Net::EndPointListener::__set_all(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___all)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& System::Net::EndPointListener::__get_cert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& System::Net::EndPointListener::__get_cert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
 constexpr void System::Net::EndPointListener::__set_cert(::System::Security::Cryptography::X509Certificates::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::EndPointListener::__get_secure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secure;
 }
 constexpr bool const& System::Net::EndPointListener::__get_secure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secure;
 }
 constexpr void System::Net::EndPointListener::__set_secure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___secure = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*& System::Net::EndPointListener::__get_unregistered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unregistered;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*> const&
 System::Net::EndPointListener::__get_unregistered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unregistered;
 }
 constexpr void System::Net::EndPointListener::__set_unregistered(::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unregistered)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::EndPointListener* System::Net::EndPointListener::New_ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int32_t port, bool secure) {

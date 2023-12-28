@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpace)
+namespace GlobalNamespace {
+struct __OVRSpace__StorageLocation;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 struct Guid;
-}
-namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
 }
 namespace System {
 class Object;

@@ -12,16 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultControls)
 namespace UnityEngine::UI {
-class __DefaultControls__IFactoryControls;
+class Text;
 }
 namespace UnityEngine::UI {
-class Selectable;
+class __DefaultControls__IFactoryControls;
 }
 namespace UnityEngine::UI {
 class __DefaultControls__DefaultRuntimeFactory;
 }
-namespace UnityEngine::UI {
-class Text;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class GameObject;
@@ -30,10 +30,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UI {
-struct __DefaultControls__Resources;
+class Selectable;
 }
-namespace System {
-class Type;
+namespace UnityEngine::UI {
+struct __DefaultControls__Resources;
 }
 namespace UnityEngine {
 class Sprite;
@@ -184,7 +184,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__DefaultContro
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13032))
 // CS Name: ::UnityEngine.UI::DefaultControls*
 class CORDL_TYPE DefaultControls : public ::System::Object {

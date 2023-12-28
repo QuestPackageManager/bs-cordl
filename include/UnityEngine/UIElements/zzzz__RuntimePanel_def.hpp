@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(RuntimePanel)
 namespace UnityEngine::UIElements {
 class PanelSettings;
 }
-namespace UnityEngine {
-class ScriptableObject;
-}
 namespace UnityEngine::UIElements {
 class EventDispatcher;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

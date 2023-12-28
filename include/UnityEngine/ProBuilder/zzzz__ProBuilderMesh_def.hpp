@@ -11,98 +11,98 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderMesh)
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder {
+class __ProBuilderMesh____c__DisplayClass170_0;
+}
+namespace UnityEngine::ProBuilder {
+struct MeshSyncState;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::ProBuilder {
+struct AutoUnwrapSettings;
+}
+namespace UnityEngine::ProBuilder {
+struct __ProBuilderMesh__NonVersionedEditScope;
 }
 namespace UnityEngine::ProBuilder {
 class __ProBuilderMesh____c;
 }
-namespace UnityEngine::ProBuilder {
-struct MeshArrays;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::ProBuilder {
 class SharedVertex;
 }
 namespace UnityEngine {
-class MeshRenderer;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+class Mesh;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-class __ProBuilderMesh____c__DisplayClass168_0;
-}
-namespace UnityEngine::ProBuilder {
-struct RefreshMask;
-}
 namespace UnityEngine::ProBuilder {
 struct Edge;
-}
-namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
-namespace UnityEngine::ProBuilder {
-struct __ProBuilderMesh__CacheValidState;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder {
-struct __ProBuilderMesh__NonVersionedEditScope;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine::ProBuilder {
+struct MeshArrays;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine::ProBuilder {
-struct MeshSyncState;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine {
 struct MeshTopology;
 }
-namespace UnityEngine {
-class Mesh;
-}
 namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine::ProBuilder {
-class __ProBuilderMesh____c__DisplayClass170_0;
+class UnwrapParameters;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace UnityEngine::ProBuilder {
+struct __ProBuilderMesh__CacheValidState;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::ProBuilder {
-class UnwrapParameters;
+class __ProBuilderMesh____c__DisplayClass168_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine::ProBuilder {
+struct RefreshMask;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -422,7 +422,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__ProBu
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12170)), TypeDefinitionIndex(TypeDefinitionIndex(10199)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10199)), TypeDefinitionIndex(TypeDefinitionIndex(12170)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12175))
 // CS Name: ::UnityEngine.ProBuilder::ProBuilderMesh*
 class CORDL_TYPE ProBuilderMesh : public ::UnityEngine::MonoBehaviour {

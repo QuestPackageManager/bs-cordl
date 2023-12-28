@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(X509CertPairStoreSelector)
 namespace System {
 class ICloneable;
 }
-namespace Org::BouncyCastle::X509 {
-class X509CertificatePair;
-}
 namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
+class X509CertStoreSelector;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::X509::Store {
-class X509CertStoreSelector;
+class IX509Selector;
+}
+namespace Org::BouncyCastle::X509 {
+class X509CertificatePair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

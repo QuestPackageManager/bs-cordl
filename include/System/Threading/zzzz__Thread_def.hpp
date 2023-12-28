@@ -8,25 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Thread)
 namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System {
-class LocalDataStoreHolder;
-}
-namespace System::Globalization {
-class CultureInfo;
+class ParameterizedThreadStart;
 }
 namespace System::Threading {
-class ThreadStart;
+class ExecutionContext;
 }
 namespace System::Threading {
-struct __ExecutionContext__Reader;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+template <typename T> class AsyncLocal_1;
 }
 namespace System::Threading {
-struct ThreadState;
+class InternalThread;
+}
+namespace System::Threading {
+template <typename T> struct AsyncLocalValueChangedArgs_1;
 }
 namespace System {
 class Object;
@@ -37,29 +31,35 @@ class LocalDataStoreMgr;
 namespace System::Security::Principal {
 class IPrincipal;
 }
-namespace System {
-class Delegate;
+namespace System::Threading {
+class ThreadStart;
 }
 namespace System::Threading {
-class ExecutionContext;
+struct ThreadState;
+}
+namespace System::Threading {
+struct __ExecutionContext__Reader;
 }
 namespace System {
 class MulticastDelegate;
 }
 namespace System::Threading {
-template <typename T> class AsyncLocal_1;
-}
-namespace System::Threading {
-class ParameterizedThreadStart;
-}
-namespace System::Threading {
-class InternalThread;
-}
-namespace System::Threading {
 struct ThreadPriority;
 }
+namespace System {
+class Delegate;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class LocalDataStoreHolder;
+}
 namespace System::Threading {
-template <typename T> struct AsyncLocalValueChangedArgs_1;
+struct StackCrawlMark;
 }
 // Forward declare root types
 namespace System::Threading {

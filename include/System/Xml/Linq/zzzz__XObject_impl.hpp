@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
+#include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
+#include "System/Xml/Linq/zzzz__XElement_def.hpp"
+#include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
+#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/Linq/zzzz__XElement_def.hpp"
-#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
-#include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XObject._ctor
 template <>
 
@@ -123,27 +123,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Linq::XContainer*& System::Xml::Linq::XObject::__get_parent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XContainer*> const& System::Xml::Linq::XObject::__get_parent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
 constexpr void System::Xml::Linq::XObject::__set_parent(::System::Xml::Linq::XContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Xml::Linq::XObject::__get_annotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___annotations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Linq::XObject::__get_annotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___annotations;
 }
 constexpr void System::Xml::Linq::XObject::__set_annotations(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___annotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Linq::XObject* System::Xml::Linq::XObject::New_ctor() {

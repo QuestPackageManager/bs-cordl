@@ -11,6 +11,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
@@ -18,9 +21,6 @@ struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

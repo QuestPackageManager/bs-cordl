@@ -2,8 +2,8 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__OperationCanceledException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::System::OperationCanceledException.get_CancellationToken
 template <>
@@ -94,15 +94,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::CancellationToken& System::OperationCanceledException::__get__cancellationToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancellationToken;
 }
 constexpr ::System::Threading::CancellationToken const& System::OperationCanceledException::__get__cancellationToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancellationToken;
 }
 constexpr void System::OperationCanceledException::__set__cancellationToken(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cancellationToken = value;
 }
 inline ::System::Threading::CancellationToken System::OperationCanceledException::get_CancellationToken() {

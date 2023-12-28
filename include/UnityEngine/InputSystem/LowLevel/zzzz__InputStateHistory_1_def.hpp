@@ -8,17 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateHistory_1)
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> struct __InputStateHistory_1__Enumerator;
+}
 namespace UnityEngine::InputSystem {
 template <typename TValue> class InputControl_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Enumerator;
+template <typename TValue> struct __InputStateHistory_1__Record;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -26,29 +38,17 @@ template <typename T> struct Nullable_1;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> struct __InputStateHistory_1__Record;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateHistory__RecordHeader;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

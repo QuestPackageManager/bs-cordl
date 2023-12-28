@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__InstancedMaterialLightWithId_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InstancedMaterialLightWithId.ColorWasSet
 template <>
 
@@ -49,88 +49,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& GlobalNamespace::InstancedMaterialLightWithId::__get__materialPropertyBlockColorSetter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockColorSetter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const&
 GlobalNamespace::InstancedMaterialLightWithId::__get__materialPropertyBlockColorSetter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockColorSetter;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__materialPropertyBlockColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockColorSetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__get__setColorOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
 constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__get__setColorOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__setColorOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setColorOnly = value;
 }
 constexpr float_t& GlobalNamespace::InstancedMaterialLightWithId::__get__intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__get__intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
 constexpr float_t& GlobalNamespace::InstancedMaterialLightWithId::__get__minAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__get__minAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__minAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
 constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__get__hdr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hdr;
 }
 constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__get__hdr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hdr;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__hdr(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hdr = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::InstancedMaterialLightWithId::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::InstancedMaterialLightWithId::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__get__startColorWasSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColorWasSet;
 }
 constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__get__startColorWasSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColorWasSet;
 }
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__startColorWasSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startColorWasSet = value;
 }
 inline void GlobalNamespace::InstancedMaterialLightWithId::ColorWasSet(::UnityEngine::Color newColor) {

@@ -11,53 +11,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingResolver)
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct NameAndParameters;
+}
 namespace UnityEngine::InputSystem {
-class InputBindingComposite;
+struct __InputActionState__UnmanagedMemory;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct NamedValue;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+class InputProcessor;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-class InputProcessor;
-}
-namespace System {
-class Object;
+class InputBindingComposite;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace UnityEngine::InputSystem {
-struct __InputActionState__UnmanagedMemory;
-}
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
+struct TypeTable;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct NamedValue;
+namespace System {
+class Object;
 }
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct NameAndParameters;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct TypeTable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -69,8 +69,9 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputBindingResolver);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6187))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6195)) CS Name: ::UnityEngine.InputSystem::InputBindingResolver
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6195)) CS Name:
+// ::UnityEngine.InputSystem::InputBindingResolver
 struct CORDL_TYPE InputBindingResolver {
 public:
   // Declarations

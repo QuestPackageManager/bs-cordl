@@ -95,63 +95,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__fieldOfVision() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fieldOfVision;
 }
 constexpr float_t const& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__fieldOfVision() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fieldOfVision;
 }
 constexpr void GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__set__fieldOfVision(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fieldOfVision = value;
 }
 constexpr float_t& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__nearClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nearClip;
 }
 constexpr float_t const& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__nearClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nearClip;
 }
 constexpr void GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__set__nearClip(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nearClip = value;
 }
 constexpr float_t& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__farClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____farClip;
 }
 constexpr float_t const& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__farClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____farClip;
 }
 constexpr void GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__set__farClip(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____farClip = value;
 }
 constexpr float_t& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__hmdOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hmdOffset;
 }
 constexpr float_t const& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__hmdOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hmdOffset;
 }
 constexpr void GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__set__hmdOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hmdOffset = value;
 }
 constexpr float_t& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__nearOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nearOffset;
 }
 constexpr float_t const& GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__get__nearOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nearOffset;
 }
 constexpr void GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::__set__nearOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nearOffset = value;
 }
 inline float_t GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData::get_fieldOfVision() {
@@ -272,52 +272,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::PosesRecordingInfoSaveData::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr ::StringW const& GlobalNamespace::PosesRecordingInfoSaveData::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void GlobalNamespace::PosesRecordingInfoSaveData::__set__version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::PosesRecordingInfoSaveData::__get__objectIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectIds;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::PosesRecordingInfoSaveData::__get__objectIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectIds;
 }
 constexpr void GlobalNamespace::PosesRecordingInfoSaveData::__set__objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData*& GlobalNamespace::PosesRecordingInfoSaveData::__get__externalCameraCalibration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCameraCalibration;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData*> const&
 GlobalNamespace::PosesRecordingInfoSaveData::__get__externalCameraCalibration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCameraCalibration;
 }
 constexpr void GlobalNamespace::PosesRecordingInfoSaveData::__set__externalCameraCalibration(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____externalCameraCalibration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PosesRecordingInfoSaveData::__get__dataFileName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataFileName;
 }
 constexpr ::StringW const& GlobalNamespace::PosesRecordingInfoSaveData::__get__dataFileName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataFileName;
 }
 constexpr void GlobalNamespace::PosesRecordingInfoSaveData::__set__dataFileName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataFileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::PosesRecordingInfoSaveData::get_version() {

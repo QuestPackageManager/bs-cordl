@@ -2,13 +2,13 @@
 #include "UnityEngine/UIElements/zzzz__ListViewDragger_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewDraggerAnimated_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.get_isDragging
 template <>
 
@@ -165,87 +165,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_DragStartIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragStartIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_DragStartIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragStartIndex;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_DragStartIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DragStartIndex = value;
 }
 constexpr int32_t& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_CurrentIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_CurrentIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentIndex;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_CurrentIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentIndex = value;
 }
 constexpr float_t& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_SelectionHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectionHeight;
 }
 constexpr float_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_SelectionHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectionHeight;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_SelectionHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SelectionHeight = value;
 }
 constexpr float_t& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_LocalOffsetOnStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocalOffsetOnStart;
 }
 constexpr float_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_LocalOffsetOnStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocalOffsetOnStart;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_LocalOffsetOnStart(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LocalOffsetOnStart = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_CurrentPointerPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerPosition;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_CurrentPointerPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerPosition;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_CurrentPointerPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentPointerPosition = value;
 }
 constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_Item() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ReusableCollectionItem*> const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_Item() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_Item(::UnityEngine::UIElements::ReusableCollectionItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_OffsetItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OffsetItem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ReusableCollectionItem*> const& UnityEngine::UIElements::ListViewDraggerAnimated::__get_m_OffsetItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OffsetItem;
 }
 constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__set_m_OffsetItem(::UnityEngine::UIElements::ReusableCollectionItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OffsetItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::UIElements::ListViewDraggerAnimated::get_isDragging() {

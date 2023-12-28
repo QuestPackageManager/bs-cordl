@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Sprite*& UnityEngine::TextCore::Text::SpriteGlyph::__get_sprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sprite;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& UnityEngine::TextCore::Text::SpriteGlyph::__get_sprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sprite;
 }
 constexpr void UnityEngine::TextCore::Text::SpriteGlyph::__set_sprite(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::TextCore::Text::SpriteGlyph* UnityEngine::TextCore::Text::SpriteGlyph::New_ctor() {

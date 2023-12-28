@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(CmsAuthenticatedDataGenerator)
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
 }
+namespace Org::BouncyCastle::Cms {
+class CmsAuthenticatedData;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsAuthenticatedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

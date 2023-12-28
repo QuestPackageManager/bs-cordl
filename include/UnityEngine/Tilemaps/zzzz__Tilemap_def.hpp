@@ -11,22 +11,22 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-class Object;
+struct BoundsInt;
 }
 namespace UnityEngine {
-struct BoundsInt;
+class Grid;
+}
+namespace UnityEngine::Tilemaps {
+class TileBase;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Vector3Int;
-}
-namespace UnityEngine::Tilemaps {
-class TileBase;
-}
-namespace UnityEngine {
-class Grid;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {

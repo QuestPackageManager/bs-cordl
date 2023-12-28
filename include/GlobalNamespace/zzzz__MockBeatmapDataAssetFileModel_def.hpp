@@ -11,23 +11,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapDataAssetFileModel)
+namespace GlobalNamespace {
+struct LevelDataAssetDownloadUpdate;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
 struct __MockBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__4;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -35,11 +26,20 @@ struct CancellationToken;
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -58,8 +58,8 @@ MARK_VAL_T(::GlobalNamespace::__MockBeatmapDataAssetFileModel___GetAssetBundleFi
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4416)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4416)) CS
 // Name: ::MockBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__4
 struct CORDL_TYPE __MockBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__4 {
 public:

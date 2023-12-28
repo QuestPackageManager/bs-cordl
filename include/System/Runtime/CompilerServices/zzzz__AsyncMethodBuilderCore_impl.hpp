@@ -7,11 +7,11 @@
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner._ctor
 template <>
 
@@ -59,28 +59,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::ExecutionContext*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__get_m_context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__get_m_context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__set_m_context(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__get_m_stateMachine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateMachine;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::IAsyncStateMachine*> const&
 System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__get_m_stateMachine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateMachine;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_stateMachine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::setStaticF_s_invokeMoveNext(::System::Threading::ContextCallback* value) {
@@ -152,39 +152,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__get_m_continuation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_continuation;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__get_m_continuation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_continuation;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__set_m_continuation(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_continuation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__get_m_invokeAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_invokeAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__get_m_invokeAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_invokeAction;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__set_m_invokeAction(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_invokeAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__get_m_innerTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_innerTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__get_m_innerTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_innerTask;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__set_m_innerTask(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_innerTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*
@@ -240,27 +240,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__get_innerTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__get_innerTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerTask;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__set_innerTask(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___innerTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__get_continuation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuation;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__get_continuation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuation;
 }
 constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__set_continuation(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___continuation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0* System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::New_ctor() {

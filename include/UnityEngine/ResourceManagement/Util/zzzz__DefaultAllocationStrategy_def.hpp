@@ -9,10 +9,10 @@ namespace UnityEngine::ResourceManagement::Util {
 class IAllocationStrategy;
 }
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

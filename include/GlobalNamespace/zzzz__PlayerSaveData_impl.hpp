@@ -6,8 +6,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType::__PlayerSaveData__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept {
@@ -51,183 +51,183 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_energyType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___energyType;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_energyType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___energyType;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_energyType(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___energyType = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_instaFail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instaFail;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_instaFail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instaFail;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_instaFail(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___instaFail = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_failOnSaberClash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failOnSaberClash;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_failOnSaberClash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failOnSaberClash;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_failOnSaberClash(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___failOnSaberClash = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_enabledObstacleType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabledObstacleType;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_enabledObstacleType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabledObstacleType;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_enabledObstacleType(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enabledObstacleType = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_fastNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fastNotes;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_fastNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fastNotes;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_fastNotes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fastNotes = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_strictAngles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strictAngles;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_strictAngles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strictAngles;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_strictAngles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strictAngles = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_disappearingArrows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disappearingArrows;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_disappearingArrows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disappearingArrows;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_disappearingArrows(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disappearingArrows = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_ghostNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ghostNotes;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_ghostNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ghostNotes;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_ghostNotes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ghostNotes = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_noBombs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noBombs;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_noBombs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noBombs;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_noBombs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noBombs = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_songSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songSpeed;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_songSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songSpeed;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_songSpeed(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songSpeed = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_noArrows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noArrows;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_noArrows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noArrows;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_noArrows(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noArrows = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_noFailOn0Energy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noFailOn0Energy;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_noFailOn0Energy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noFailOn0Energy;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_noFailOn0Energy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noFailOn0Energy = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_proMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proMode;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_proMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proMode;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_proMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___proMode = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_zenMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zenMode;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_zenMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zenMode;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_zenMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zenMode = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_smallCubes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smallCubes;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__GameplayModifiers::__get_smallCubes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smallCubes;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GameplayModifiers::__set_smallCubes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smallCubes = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* GlobalNamespace::__PlayerSaveData__GameplayModifiers::New_ctor() {
@@ -298,264 +298,264 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_staticLights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___staticLights;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_staticLights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___staticLights;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_staticLights(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___staticLights = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_leftHanded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHanded;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_leftHanded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHanded;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_leftHanded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftHanded = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_playerHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerHeight;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_playerHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerHeight;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_playerHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerHeight = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_automaticPlayerHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticPlayerHeight;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_automaticPlayerHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticPlayerHeight;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_automaticPlayerHeight(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___automaticPlayerHeight = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_sfxVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sfxVolume;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_sfxVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sfxVolume;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_sfxVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sfxVolume = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_reduceDebris() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reduceDebris;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_reduceDebris() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reduceDebris;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_reduceDebris(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reduceDebris = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noTextsAndHuds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noTextsAndHuds;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noTextsAndHuds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noTextsAndHuds;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_noTextsAndHuds(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noTextsAndHuds = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_advancedHud() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___advancedHud;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_advancedHud() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___advancedHud;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_advancedHud(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___advancedHud = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_saberTrailIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saberTrailIntensity;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_saberTrailIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saberTrailIntensity;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_saberTrailIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___saberTrailIntensity = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData&
 GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get__noteJumpDurationTypeSettingsSaveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpDurationTypeSettingsSaveData;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const&
 GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get__noteJumpDurationTypeSettingsSaveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpDurationTypeSettingsSaveData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set__noteJumpDurationTypeSettingsSaveData(
     ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpDurationTypeSettingsSaveData = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noteJumpFixedDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpFixedDuration;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noteJumpFixedDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpFixedDuration;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_noteJumpFixedDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noteJumpFixedDuration = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_autoRestart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoRestart;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_autoRestart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoRestart;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_autoRestart(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoRestart = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noFailEffects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noFailEffects;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noFailEffects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noFailEffects;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_noFailEffects(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noFailEffects = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noteJumpBeatOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpBeatOffset;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_noteJumpBeatOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpBeatOffset;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_noteJumpBeatOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noteJumpBeatOffset = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_hideNoteSpawnEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideNoteSpawnEffect;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_hideNoteSpawnEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideNoteSpawnEffect;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_hideNoteSpawnEffect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hideNoteSpawnEffect = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_adaptiveSfx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___adaptiveSfx;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_adaptiveSfx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___adaptiveSfx;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_adaptiveSfx(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___adaptiveSfx = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_arcsHapticFeedback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arcsHapticFeedback;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_arcsHapticFeedback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arcsHapticFeedback;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_arcsHapticFeedback(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___arcsHapticFeedback = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_arcsVisibleSaveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arcsVisibleSaveData;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_arcsVisibleSaveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arcsVisibleSaveData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_arcsVisibleSaveData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___arcsVisibleSaveData = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData&
 GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_environmentEffectsFilterDefaultPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentEffectsFilterDefaultPreset;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const&
 GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_environmentEffectsFilterDefaultPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentEffectsFilterDefaultPreset;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_environmentEffectsFilterDefaultPreset(
     ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentEffectsFilterDefaultPreset = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData&
 GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_environmentEffectsFilterExpertPlusPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentEffectsFilterExpertPlusPreset;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const&
 GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_environmentEffectsFilterExpertPlusPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentEffectsFilterExpertPlusPreset;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_environmentEffectsFilterExpertPlusPreset(
     ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentEffectsFilterExpertPlusPreset = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_headsetHapticIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headsetHapticIntensity;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__get_headsetHapticIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headsetHapticIntensity;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::__set_headsetHapticIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headsetHapticIntensity = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings::New_ctor() {
@@ -604,55 +604,55 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_campaignOverallStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___campaignOverallStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const&
 GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_campaignOverallStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___campaignOverallStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__set_campaignOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___campaignOverallStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_soloFreePlayOverallStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___soloFreePlayOverallStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const&
 GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_soloFreePlayOverallStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___soloFreePlayOverallStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__set_soloFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___soloFreePlayOverallStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_partyFreePlayOverallStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partyFreePlayOverallStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const&
 GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_partyFreePlayOverallStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partyFreePlayOverallStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__set_partyFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___partyFreePlayOverallStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_onlinePlayOverallStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onlinePlayOverallStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const&
 GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__get_onlinePlayOverallStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onlinePlayOverallStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::__set_onlinePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onlinePlayOverallStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData::New_ctor() {
@@ -720,135 +720,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_goodCutsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goodCutsCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_goodCutsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goodCutsCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_goodCutsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___goodCutsCount = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_badCutsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badCutsCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_badCutsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badCutsCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_badCutsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___badCutsCount = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_missedCutsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missedCutsCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_missedCutsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missedCutsCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_missedCutsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___missedCutsCount = value;
 }
 constexpr int64_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_totalScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalScore;
 }
 constexpr int64_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_totalScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalScore;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_totalScore(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___totalScore = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_playedLevelsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playedLevelsCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_playedLevelsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playedLevelsCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_playedLevelsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playedLevelsCount = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_cleardLevelsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cleardLevelsCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_cleardLevelsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cleardLevelsCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_cleardLevelsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cleardLevelsCount = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_failedLevelsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failedLevelsCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_failedLevelsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failedLevelsCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_failedLevelsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___failedLevelsCount = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_fullComboCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullComboCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_fullComboCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullComboCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_fullComboCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fullComboCount = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_timePlayed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timePlayed;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_timePlayed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timePlayed;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_timePlayed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timePlayed = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_handDistanceTravelled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handDistanceTravelled;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_handDistanceTravelled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handDistanceTravelled;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_handDistanceTravelled(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handDistanceTravelled = value;
 }
 constexpr int64_t& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_cummulativeCutScoreWithoutMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cummulativeCutScoreWithoutMultiplier;
 }
 constexpr int64_t const& GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__get_cummulativeCutScoreWithoutMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cummulativeCutScoreWithoutMultiplier;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::__set_cummulativeCutScoreWithoutMultiplier(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cummulativeCutScoreWithoutMultiplier = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData::New_ctor() {
@@ -900,111 +900,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_levelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_levelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_levelId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_difficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficulty;
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_difficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficulty;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_difficulty(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___difficulty = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_beatmapCharacteristicName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapCharacteristicName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_beatmapCharacteristicName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapCharacteristicName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_beatmapCharacteristicName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapCharacteristicName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_highScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___highScore;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_highScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___highScore;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_highScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___highScore = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_maxCombo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCombo;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_maxCombo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCombo;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_maxCombo(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCombo = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_fullCombo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullCombo;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_fullCombo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullCombo;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_fullCombo(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fullCombo = value;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_maxRank() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRank;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_maxRank() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRank;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_maxRank(::GlobalNamespace::__RankModel__Rank value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxRank = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_validScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validScore;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_validScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validScore;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_validScore(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validScore = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_playCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__get_playCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::__set_playCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playCount = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData* GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData::New_ctor() {
@@ -1033,27 +1033,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::__get_missionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::__get_missionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::__set_missionId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___missionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::__get_cleared() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cleared;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::__get_cleared() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cleared;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::__set_cleared(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cleared = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData* GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData::New_ctor() {
@@ -1082,27 +1082,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PracticeSettings::__get_startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PracticeSettings::__get_startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PracticeSettings::__set_startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::__PlayerSaveData__PracticeSettings::__get_songSpeedMul() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songSpeedMul;
 }
 constexpr float_t const& GlobalNamespace::__PlayerSaveData__PracticeSettings::__get_songSpeedMul() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songSpeedMul;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PracticeSettings::__set_songSpeedMul(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songSpeedMul = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__PracticeSettings* GlobalNamespace::__PlayerSaveData__PracticeSettings::New_ctor() {
@@ -1136,99 +1136,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_colorSchemeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemeId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_colorSchemeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemeId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_colorSchemeId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSchemeId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_saberAColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saberAColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_saberAColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saberAColor;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_saberAColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___saberAColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_saberBColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saberBColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_saberBColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saberBColor;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_saberBColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___saberBColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor0;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor0;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_environmentColor0(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentColor0 = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor1;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor1;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_environmentColor1(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentColor1 = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_obstaclesColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstaclesColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_obstaclesColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstaclesColor;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_obstaclesColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___obstaclesColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor0Boost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor0Boost;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor0Boost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor0Boost;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_environmentColor0Boost(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentColor0Boost = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor1Boost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor1Boost;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__PlayerSaveData__ColorScheme::__get_environmentColor1Boost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentColor1Boost;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorScheme::__set_environmentColor1Boost(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentColor1Boost = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__ColorScheme* GlobalNamespace::__PlayerSaveData__ColorScheme::New_ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor,
@@ -1271,40 +1271,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__get_overrideDefaultColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideDefaultColors;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__get_overrideDefaultColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideDefaultColors;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__set_overrideDefaultColors(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideDefaultColors = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__get_selectedColorSchemeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedColorSchemeId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__get_selectedColorSchemeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedColorSchemeId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__set_selectedColorSchemeId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectedColorSchemeId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>*& GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__get_colorSchemes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>*> const&
 GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__get_colorSchemes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemes;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__ColorSchemesSettings::__set_colorSchemes(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSchemes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*
@@ -1338,39 +1338,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__get_overrideEnvironments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideEnvironments;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__get_overrideEnvironments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideEnvironments;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__set_overrideEnvironments(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideEnvironments = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__get_overrideNormalEnvironmentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideNormalEnvironmentName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__get_overrideNormalEnvironmentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideNormalEnvironmentName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__set_overrideNormalEnvironmentName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___overrideNormalEnvironmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__get_override360EnvironmentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___override360EnvironmentName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__get_override360EnvironmentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___override360EnvironmentName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::__set_override360EnvironmentName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___override360EnvironmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings::New_ctor() {
@@ -1399,15 +1399,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__GuestPlayer::__get_playerName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__GuestPlayer::__get_playerName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__GuestPlayer::__set_playerName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__PlayerSaveData__GuestPlayer* GlobalNamespace::__PlayerSaveData__GuestPlayer::New_ctor() {
@@ -1436,63 +1436,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_createServerNumberOfPlayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createServerNumberOfPlayers;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_createServerNumberOfPlayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createServerNumberOfPlayers;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__set_createServerNumberOfPlayers(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___createServerNumberOfPlayers = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlayDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayDifficulty;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlayDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayDifficulty;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__set_quickPlayDifficulty(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___quickPlayDifficulty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlaySongPackMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlaySongPackMask;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlaySongPackMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlaySongPackMask;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__set_quickPlaySongPackMask(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___quickPlaySongPackMask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlaySongPackMaskSerializedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlaySongPackMaskSerializedName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlaySongPackMaskSerializedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlaySongPackMaskSerializedName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__set_quickPlaySongPackMaskSerializedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___quickPlaySongPackMaskSerializedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlayEnableLevelSelection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayEnableLevelSelection;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__get_quickPlayEnableLevelSelection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayEnableLevelSelection;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::__set_quickPlayEnableLevelSelection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___quickPlayEnableLevelSelection = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings::New_ctor() {
@@ -1522,51 +1522,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_eulaVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eulaVersion;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_eulaVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eulaVersion;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__set_eulaVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___eulaVersion = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_privacyPolicyVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privacyPolicyVersion;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_privacyPolicyVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privacyPolicyVersion;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__set_privacyPolicyVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___privacyPolicyVersion = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_healthAndSafetyVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___healthAndSafetyVersion;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_healthAndSafetyVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___healthAndSafetyVersion;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__set_healthAndSafetyVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___healthAndSafetyVersion = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_playerSensitivityFlagVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSensitivityFlagVersion;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__get_playerSensitivityFlagVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSensitivityFlagVersion;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::__set_playerSensitivityFlagVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerSensitivityFlagVersion = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* GlobalNamespace::__PlayerSaveData__PlayerAgreementsData::New_ctor() {
@@ -1613,334 +1613,334 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_playerId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_playerName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_shouldShowTutorialPrompt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldShowTutorialPrompt;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_shouldShowTutorialPrompt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldShowTutorialPrompt;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_shouldShowTutorialPrompt(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shouldShowTutorialPrompt = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_shouldShow360Warning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldShow360Warning;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_shouldShow360Warning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldShow360Warning;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_shouldShow360Warning(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shouldShow360Warning = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_agreedToEula() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___agreedToEula;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_agreedToEula() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___agreedToEula;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_agreedToEula(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___agreedToEula = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_didSelectLanguage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLanguage;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_didSelectLanguage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLanguage;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_didSelectLanguage(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didSelectLanguage = value;
 }
 constexpr bool& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_agreedToMultiplayerDisclaimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___agreedToMultiplayerDisclaimer;
 }
 constexpr bool const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_agreedToMultiplayerDisclaimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___agreedToMultiplayerDisclaimer;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_agreedToMultiplayerDisclaimer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___agreedToMultiplayerDisclaimer = value;
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_didSelectRegionVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRegionVersion;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_didSelectRegionVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRegionVersion;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_didSelectRegionVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didSelectRegionVersion = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_selectedAvatarSystemTypeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedAvatarSystemTypeId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_selectedAvatarSystemTypeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedAvatarSystemTypeId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_selectedAvatarSystemTypeId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectedAvatarSystemTypeId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerAgreements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAgreements;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*> const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerAgreements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAgreements;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_playerAgreements(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerAgreements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_lastSelectedBeatmapDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSelectedBeatmapDifficulty;
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_lastSelectedBeatmapDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSelectedBeatmapDifficulty;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastSelectedBeatmapDifficulty = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_lastSelectedBeatmapCharacteristicName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSelectedBeatmapCharacteristicName;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_lastSelectedBeatmapCharacteristicName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSelectedBeatmapCharacteristicName;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_lastSelectedBeatmapCharacteristicName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastSelectedBeatmapCharacteristicName)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_gameplayModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__GameplayModifiers*> const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_gameplayModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_gameplayModifiers(::GlobalNamespace::__PlayerSaveData__GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerSpecificSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSpecificSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings*> const&
 GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerSpecificSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSpecificSettings;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_playerSpecificSettings(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerSpecificSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PracticeSettings*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_practiceSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___practiceSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PracticeSettings*> const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_practiceSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___practiceSettings;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_practiceSettings(::GlobalNamespace::__PlayerSaveData__PracticeSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___practiceSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerAllOverallStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAllOverallStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*> const&
 GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_playerAllOverallStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAllOverallStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_playerAllOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerAllOverallStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_levelsStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelsStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>*> const&
 GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_levelsStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelsStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_levelsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelsStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_missionsStatsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionsStatsData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>*> const&
 GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_missionsStatsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___missionsStatsData;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___missionsStatsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_showedMissionHelpIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showedMissionHelpIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_showedMissionHelpIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showedMissionHelpIds;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___showedMissionHelpIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_colorSchemesSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemesSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*> const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_colorSchemesSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSchemesSettings;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_colorSchemesSettings(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSchemesSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_overrideEnvironmentSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideEnvironmentSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings*> const&
 GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_overrideEnvironmentSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideEnvironmentSettings;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_overrideEnvironmentSettings(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___overrideEnvironmentSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_favoritesLevelIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___favoritesLevelIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_favoritesLevelIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___favoritesLevelIds;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_favoritesLevelIds(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___favoritesLevelIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings*& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_multiplayerModeSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerModeSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings*> const&
 GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_multiplayerModeSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerModeSettings;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_multiplayerModeSettings(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multiplayerModeSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_currentDlcPromoDisplayCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentDlcPromoDisplayCount;
 }
 constexpr int32_t const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_currentDlcPromoDisplayCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentDlcPromoDisplayCount;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_currentDlcPromoDisplayCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentDlcPromoDisplayCount = value;
 }
 constexpr ::StringW& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_currentDlcPromoId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentDlcPromoId;
 }
 constexpr ::StringW const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_currentDlcPromoId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentDlcPromoId;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_currentDlcPromoId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentDlcPromoId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_userAgeCategory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userAgeCategory;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_userAgeCategory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userAgeCategory;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___userAgeCategory = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_desiredSensitivityFlag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___desiredSensitivityFlag;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const& GlobalNamespace::__PlayerSaveData__LocalPlayer::__get_desiredSensitivityFlag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___desiredSensitivityFlag;
 }
 constexpr void GlobalNamespace::__PlayerSaveData__LocalPlayer::__set_desiredSensitivityFlag(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___desiredSensitivityFlag = value;
 }
 inline ::GlobalNamespace::__PlayerSaveData__LocalPlayer* GlobalNamespace::__PlayerSaveData__LocalPlayer::New_ctor() {
@@ -1967,29 +1967,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>*& GlobalNamespace::PlayerSaveData::__get_localPlayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localPlayers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>*> const&
 GlobalNamespace::PlayerSaveData::__get_localPlayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localPlayers;
 }
 constexpr void GlobalNamespace::PlayerSaveData::__set_localPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localPlayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>*& GlobalNamespace::PlayerSaveData::__get_guestPlayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___guestPlayers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>*> const&
 GlobalNamespace::PlayerSaveData::__get_guestPlayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___guestPlayers;
 }
 constexpr void GlobalNamespace::PlayerSaveData::__set_guestPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___guestPlayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::PlayerSaveData* GlobalNamespace::PlayerSaveData::New_ctor() {

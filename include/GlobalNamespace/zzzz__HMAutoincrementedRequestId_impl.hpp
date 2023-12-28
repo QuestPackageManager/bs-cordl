@@ -80,15 +80,15 @@ constexpr GlobalNamespace::HMAutoincrementedRequestId::operator ::System::IEquat
   return static_cast<::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>*>(static_cast<void*>(this));
 }
 constexpr uint64_t& GlobalNamespace::HMAutoincrementedRequestId::__get__requestId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestId;
 }
 constexpr uint64_t const& GlobalNamespace::HMAutoincrementedRequestId::__get__requestId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestId;
 }
 constexpr void GlobalNamespace::HMAutoincrementedRequestId::__set__requestId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requestId = value;
 }
 inline void GlobalNamespace::HMAutoincrementedRequestId::setStaticF__nextRequestId(uint64_t value) {

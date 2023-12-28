@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(GradientSettings)
-namespace UnityEngine::UIElements {
-struct AddressMode;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UIElements {
-struct GradientType;
-}
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine::UIElements {
+struct AddressMode;
+}
+namespace UnityEngine::UIElements {
+struct GradientType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(BufferedIesCipher)
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto::Engines {
-class IesEngine;
-}
 namespace System::IO {
 class MemoryStream;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class IesEngine;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

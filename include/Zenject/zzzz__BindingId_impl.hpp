@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__BindingId_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::Zenject::BindingId._ctor
 template <>

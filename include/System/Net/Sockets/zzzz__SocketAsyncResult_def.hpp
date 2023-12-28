@@ -10,38 +10,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SocketAsyncResult)
-namespace System::Net {
-class IPAddress;
-}
 namespace System {
 class Exception;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System::Net {
 class EndPoint;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;
 }
 namespace System::Net::Sockets {
-struct SocketOperation;
+struct SocketError;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System::Net::Sockets {
 class __SocketAsyncResult____c;
 }
 namespace System::Net::Sockets {
-class Socket;
+struct SocketOperation;
 }
 namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class AsyncCallback;
+class Socket;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -112,9 +112,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__SocketAs
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8895)), TypeDefinitionIndex(TypeDefinitionIndex(9360)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(2437))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9359)) CS Name:
-// ::System.Net.Sockets::SocketAsyncResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9360)), TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(9348)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(8895))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9359)) CS
+// Name: ::System.Net.Sockets::SocketAsyncResult*
 class CORDL_TYPE SocketAsyncResult : public ::System::IOAsyncResult {
 public:
   // Declarations

@@ -4,27 +4,27 @@
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename T> constexpr int32_t& GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__get_hashCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__get_hashCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
 template <typename T> constexpr void GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__set_hashCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCount = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__get_hashBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__get_hashBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
 template <typename T> constexpr void GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__set_hashBits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashBits = value;
 }
 template <typename T> inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>* GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::New_ctor() {
@@ -45,27 +45,27 @@ template <typename T> inline T GlobalNamespace::__BloomFilterUtil____c__DisplayC
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__BloomFilterUtil____c__DisplayClass1_0_1() {}
 template <typename T> constexpr int32_t& GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::__get_hashCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::__get_hashCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
 template <typename T> constexpr void GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::__set_hashCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCount = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::__get_hashBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::__get_hashBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
 template <typename T> constexpr void GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::__set_hashBits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashBits = value;
 }
 template <typename T> inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>* GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>::New_ctor() {

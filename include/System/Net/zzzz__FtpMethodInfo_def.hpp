@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FtpMethodInfo)
 namespace System::Net {
-struct FtpMethodFlags;
+struct FtpOperation;
 }
 namespace System::Net {
-struct FtpOperation;
+struct FtpMethodFlags;
 }
 // Forward declare root types
 namespace System::Net {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::FtpMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9045))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(9045))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9046))
 // CS Name: ::System.Net::FtpMethodInfo*
 class CORDL_TYPE FtpMethodInfo : public ::System::Object {

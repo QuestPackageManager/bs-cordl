@@ -14,50 +14,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFAnimatinonNode)
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__ThumbstickDirection;
-}
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__OVRGLTFTransformType;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
-}
 namespace OVRSimpleJSON {
 class JSONNode;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__OVRInterpolationType;
-}
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__InputNodeState;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
 namespace GlobalNamespace {
-struct OVRGLTFInputNode;
+struct __OVRGLTFAnimatinonNode__ThumbstickDirection;
 }
 namespace UnityEngine {
-struct Quaternion;
+class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
+}
+namespace GlobalNamespace {
+class OVRGLTFAnimationNodeMorphTargetHandler;
+}
+namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__OVRInterpolationType;
+}
+namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__OVRGLTFTransformType;
 }
 namespace GlobalNamespace {
 struct OVRBinaryChunk;
 }
 namespace UnityEngine {
-class GameObject;
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__InputNodeState;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -313,8 +313,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRGLTFAnimat
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7564)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7558)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7554))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7559)) CS Name: ::OVRGLTFAnimatinonNode*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7554)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7564)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7558))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7559)) CS Name: ::OVRGLTFAnimatinonNode*
 class CORDL_TYPE OVRGLTFAnimatinonNode : public ::System::Object {
 public:
   // Declarations

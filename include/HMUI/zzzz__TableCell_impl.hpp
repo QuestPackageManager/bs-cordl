@@ -152,39 +152,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HMUI::TableCell::__get__idx_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx_k__BackingField;
 }
 constexpr int32_t const& HMUI::TableCell::__get__idx_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx_k__BackingField;
 }
 constexpr void HMUI::TableCell::__set__idx_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idx_k__BackingField = value;
 }
 constexpr ::StringW& HMUI::TableCell::__get__reuseIdentifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reuseIdentifier;
 }
 constexpr ::StringW const& HMUI::TableCell::__get__reuseIdentifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reuseIdentifier;
 }
 constexpr void HMUI::TableCell::__set__reuseIdentifier(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reuseIdentifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ITableCellOwner*& HMUI::TableCell::__get__tableCellOwner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableCellOwner;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ITableCellOwner*> const& HMUI::TableCell::__get__tableCellOwner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableCellOwner;
 }
 constexpr void HMUI::TableCell::__set__tableCellOwner(::HMUI::ITableCellOwner* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tableCellOwner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW HMUI::TableCell::get_reuseIdentifier() {

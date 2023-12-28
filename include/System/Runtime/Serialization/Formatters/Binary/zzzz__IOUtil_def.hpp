@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IOUtil)
 namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 struct MessageEnum;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
 }
 namespace System {
 class Type;

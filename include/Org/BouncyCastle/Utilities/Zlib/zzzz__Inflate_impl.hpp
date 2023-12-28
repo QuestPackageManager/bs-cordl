@@ -126,99 +126,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_mode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_method(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___method = value;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_was() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___was;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_was() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___was;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_was(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___was)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_need() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___need;
 }
 constexpr int64_t const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_need() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___need;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_need(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___need = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_marker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___marker;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_marker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___marker;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_marker(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___marker = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_nowrap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nowrap;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_nowrap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nowrap;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_nowrap(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nowrap = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_wbits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wbits;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_wbits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wbits;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_wbits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wbits = value;
 }
 constexpr ::Org::BouncyCastle::Utilities::Zlib::InfBlocks*& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_blocks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blocks;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*> const& Org::BouncyCastle::Utilities::Zlib::Inflate::__get_blocks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blocks;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Inflate::__set_blocks(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___blocks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Utilities::Zlib::Inflate::setStaticF_mark(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

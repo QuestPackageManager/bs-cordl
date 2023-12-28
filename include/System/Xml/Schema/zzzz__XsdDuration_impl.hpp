@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XsdDuration_def.hpp"
 #include "System/Xml/Schema/zzzz__XsdDuration_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::Schema::__XsdDuration__Parts::__XsdDuration__Parts(int32_t value__) noexcept {
   this->value__ = value__;

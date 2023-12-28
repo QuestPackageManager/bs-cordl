@@ -18,27 +18,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& UnityEngine::Timeline::SupportsChildTracksAttribute::__get_childType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___childType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::Timeline::SupportsChildTracksAttribute::__get_childType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___childType;
 }
 constexpr void UnityEngine::Timeline::SupportsChildTracksAttribute::__set_childType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___childType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::Timeline::SupportsChildTracksAttribute::__get_levels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levels;
 }
 constexpr int32_t const& UnityEngine::Timeline::SupportsChildTracksAttribute::__get_levels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levels;
 }
 constexpr void UnityEngine::Timeline::SupportsChildTracksAttribute::__set_levels(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levels = value;
 }
 /// @param childType: ::System::Type* (default: nullptr)

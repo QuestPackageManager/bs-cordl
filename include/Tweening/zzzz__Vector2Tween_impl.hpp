@@ -2,10 +2,10 @@
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "Tweening/zzzz__Vector2Tween_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::Tweening::Vector2Tween._ctor
 template <>
 

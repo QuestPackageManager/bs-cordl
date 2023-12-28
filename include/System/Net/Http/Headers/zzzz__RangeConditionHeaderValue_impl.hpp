@@ -3,11 +3,11 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__RangeConditionHeaderValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Net/Http/Headers/zzzz__EntityTagHeaderValue_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::RangeConditionHeaderValue._ctor
 template <>
 
@@ -179,28 +179,28 @@ constexpr System::Net::Http::Headers::RangeConditionHeaderValue::operator ::Syst
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Nullable_1<::System::DateTimeOffset>& System::Net::Http::Headers::RangeConditionHeaderValue::__get__Date_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Date_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::DateTimeOffset> const& System::Net::Http::Headers::RangeConditionHeaderValue::__get__Date_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Date_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::RangeConditionHeaderValue::__set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Date_k__BackingField = value;
 }
 constexpr ::System::Net::Http::Headers::EntityTagHeaderValue*& System::Net::Http::Headers::RangeConditionHeaderValue::__get__EntityTag_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EntityTag_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::EntityTagHeaderValue*> const&
 System::Net::Http::Headers::RangeConditionHeaderValue::__get__EntityTag_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EntityTag_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::RangeConditionHeaderValue::__set__EntityTag_k__BackingField(::System::Net::Http::Headers::EntityTagHeaderValue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____EntityTag_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::RangeConditionHeaderValue* System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor(::System::DateTimeOffset date) {

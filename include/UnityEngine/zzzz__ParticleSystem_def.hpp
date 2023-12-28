@@ -16,19 +16,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleSystem)
 namespace UnityEngine {
+struct __ParticleSystem__EmissionModule;
+}
+namespace UnityEngine {
 struct __ParticleSystem__MinMaxGradient;
 }
 namespace UnityEngine {
-struct __ParticleSystem__SubEmittersModule;
+struct Vector3;
 }
 namespace UnityEngine {
 struct ParticleSystemStopBehavior;
-}
-namespace UnityEngine {
-struct __ParticleSystem__Particle;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine {
 struct __ParticleSystem__MainModule;
@@ -37,31 +34,34 @@ namespace UnityEngine {
 struct __ParticleSystem__ShapeModule;
 }
 namespace UnityEngine {
-struct __ParticleSystem__EmitParams;
-}
-namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
+struct __ParticleSystem__SubEmittersModule;
 }
 namespace UnityEngine {
 struct __ParticleSystem__MinMaxCurve;
 }
 namespace UnityEngine {
-struct Vector3;
+struct __ParticleSystem__Particle;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct __ParticleSystem__EmitParams;
+}
+namespace UnityEngine {
+struct ParticleSystemCurveMode;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
-struct ParticleSystemCurveMode;
+struct ParticleSystemGradientMode;
 }
 namespace UnityEngine {
 class Gradient;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct ParticleSystemGradientMode;
 }
 namespace UnityEngine {
 class MeshRenderer;

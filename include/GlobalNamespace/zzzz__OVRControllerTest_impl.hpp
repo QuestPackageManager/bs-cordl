@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerTest_def.hpp"
-#include "GlobalNamespace/zzzz__OVRControllerTest_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRControllerTest_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator._ctor
 template <>
 
@@ -151,87 +151,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr ::StringW const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_generator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_generator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*> const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_generator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_generator;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_generator(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_generator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_prevValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevValue;
 }
 constexpr bool const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_prevValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevValue;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_prevValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevValue = value;
 }
 constexpr bool& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_currentValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValue;
 }
 constexpr bool const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_currentValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValue;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_currentValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentValue = value;
 }
 constexpr bool& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_currentValueRecentlyChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValueRecentlyChanged;
 }
 constexpr bool const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_currentValueRecentlyChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValueRecentlyChanged;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_currentValueRecentlyChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentValueRecentlyChanged = value;
 }
 constexpr float_t& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_displayTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimeout;
 }
 constexpr float_t const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_displayTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimeout;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_displayTimeout(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_displayTimeout = value;
 }
 constexpr float_t& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_displayTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimer;
 }
 constexpr float_t const& GlobalNamespace::__OVRControllerTest__BoolMonitor::__get_m_displayTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimer;
 }
 constexpr void GlobalNamespace::__OVRControllerTest__BoolMonitor::__set_m_displayTimer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_displayTimer = value;
 }
 /// @param displayTimeout: float_t (default: 0.5)
@@ -1219,40 +1219,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Text*& GlobalNamespace::OVRControllerTest::__get_uiText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uiText;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& GlobalNamespace::OVRControllerTest::__get_uiText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uiText;
 }
 constexpr void GlobalNamespace::OVRControllerTest::__set_uiText(::UnityEngine::UI::Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uiText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*& GlobalNamespace::OVRControllerTest::__get_monitors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monitors;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*> const&
 GlobalNamespace::OVRControllerTest::__get_monitors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monitors;
 }
 constexpr void GlobalNamespace::OVRControllerTest::__set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___monitors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& GlobalNamespace::OVRControllerTest::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& GlobalNamespace::OVRControllerTest::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void GlobalNamespace::OVRControllerTest::__set_data(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRControllerTest::setStaticF_prevConnected(::StringW value) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TermInfoReader_def.hpp"
-#include "System/zzzz__TermInfoStrings_def.hpp"
 #include "System/zzzz__TermInfoNumbers_def.hpp"
+#include "System/zzzz__TermInfoStrings_def.hpp"
 //  Writing Method size for method: ::System::TermInfoReader._ctor
 template <>
 
@@ -171,75 +171,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::TermInfoReader::__get_boolSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boolSize;
 }
 constexpr int32_t const& System::TermInfoReader::__get_boolSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boolSize;
 }
 constexpr void System::TermInfoReader::__set_boolSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___boolSize = value;
 }
 constexpr int32_t& System::TermInfoReader::__get_numSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numSize;
 }
 constexpr int32_t const& System::TermInfoReader::__get_numSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numSize;
 }
 constexpr void System::TermInfoReader::__set_numSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___numSize = value;
 }
 constexpr int32_t& System::TermInfoReader::__get_strOffsets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strOffsets;
 }
 constexpr int32_t const& System::TermInfoReader::__get_strOffsets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strOffsets;
 }
 constexpr void System::TermInfoReader::__set_strOffsets(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strOffsets = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::TermInfoReader::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::TermInfoReader::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void System::TermInfoReader::__set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoReader::__get_booleansOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___booleansOffset;
 }
 constexpr int32_t const& System::TermInfoReader::__get_booleansOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___booleansOffset;
 }
 constexpr void System::TermInfoReader::__set_booleansOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___booleansOffset = value;
 }
 constexpr int32_t& System::TermInfoReader::__get_intOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intOffset;
 }
 constexpr int32_t const& System::TermInfoReader::__get_intOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intOffset;
 }
 constexpr void System::TermInfoReader::__set_intOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___intOffset = value;
 }
 inline ::System::TermInfoReader* System::TermInfoReader::New_ctor(::StringW term, ::StringW filename) {

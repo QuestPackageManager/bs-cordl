@@ -11,46 +11,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tessellation)
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::UIElements {
-class MeshWriteData;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace UnityEngine::UIElements {
-struct ColorPage;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __Tessellation__Edges;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
+struct __MeshGenerationContextUtils__RectangleParams;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __Tessellation__Edges;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__BorderParams;
+}
+namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __MeshBuilder__AllocMeshData;
 }
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
 namespace UnityEngine {
-struct Color32;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

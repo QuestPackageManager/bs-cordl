@@ -15,7 +15,10 @@ namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
-class __Button___OnFinishSubmit_d__9;
+class __Button__ButtonClickedEvent;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -23,23 +26,20 @@ class IEnumerator;
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
 }
-namespace UnityEngine::UI {
-class __Button__ButtonClickedEvent;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::UI {
+class __Button___OnFinishSubmit_d__9;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

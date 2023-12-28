@@ -66,39 +66,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__get__signal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__get__signal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signal;
 }
 constexpr void GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__set__signal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr ::StringW const& GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr void GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__set__text(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::TextFadeTransitions*& GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__get__textFadeTransitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textFadeTransitions;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TextFadeTransitions*> const& GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__get__textFadeTransitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textFadeTransitions;
 }
 constexpr void GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::__set__textFadeTransitions(::GlobalNamespace::TextFadeTransitions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textFadeTransitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions) {
@@ -173,30 +173,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::TextFadeTransitions*& GlobalNamespace::ShowTextOnGameEventController::__get__textFadeTransitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textFadeTransitions;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TextFadeTransitions*> const& GlobalNamespace::ShowTextOnGameEventController::__get__textFadeTransitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textFadeTransitions;
 }
 constexpr void GlobalNamespace::ShowTextOnGameEventController::__set__textFadeTransitions(::GlobalNamespace::TextFadeTransitions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textFadeTransitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*, ::Array<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*>*>&
 GlobalNamespace::ShowTextOnGameEventController::__get__eventTextBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventTextBindings;
 }
 constexpr ::ArrayW<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*, ::Array<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*>*> const&
 GlobalNamespace::ShowTextOnGameEventController::__get__eventTextBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventTextBindings;
 }
 constexpr void GlobalNamespace::ShowTextOnGameEventController::__set__eventTextBindings(
     ::ArrayW<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*, ::Array<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventTextBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ShowTextOnGameEventController::Awake() {

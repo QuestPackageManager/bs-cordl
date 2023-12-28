@@ -109,39 +109,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::TextWriter*& Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__set_writer(::System::IO::TextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_nlLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nlLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_nlLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nlLength;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__set_nlLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nlLength = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__set_buf(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* Org::BouncyCastle::Utilities::IO::Pem::PemWriter::New_ctor(::System::IO::TextWriter* writer) {

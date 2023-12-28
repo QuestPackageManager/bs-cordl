@@ -5,16 +5,16 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ISponsor_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_def.hpp"
 #include "System/Collections/zzzz__Queue_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__ISponsor_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate._ctor
 template <>
 
@@ -257,99 +257,99 @@ constexpr System::Runtime::Remoting::Lifetime::Lease::operator ::System::Runtime
   return static_cast<::System::Runtime::Remoting::Lifetime::ILease*>(static_cast<void*>(this));
 }
 constexpr ::System::DateTime& System::Runtime::Remoting::Lifetime::Lease::__get__leaseExpireTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaseExpireTime;
 }
 constexpr ::System::DateTime const& System::Runtime::Remoting::Lifetime::Lease::__get__leaseExpireTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaseExpireTime;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__leaseExpireTime(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leaseExpireTime = value;
 }
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseState& System::Runtime::Remoting::Lifetime::Lease::__get__currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentState;
 }
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseState const& System::Runtime::Remoting::Lifetime::Lease::__get__currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentState;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__currentState(::System::Runtime::Remoting::Lifetime::LeaseState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentState = value;
 }
 constexpr ::System::TimeSpan& System::Runtime::Remoting::Lifetime::Lease::__get__initialLeaseTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialLeaseTime;
 }
 constexpr ::System::TimeSpan const& System::Runtime::Remoting::Lifetime::Lease::__get__initialLeaseTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialLeaseTime;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__initialLeaseTime(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialLeaseTime = value;
 }
 constexpr ::System::TimeSpan& System::Runtime::Remoting::Lifetime::Lease::__get__renewOnCallTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renewOnCallTime;
 }
 constexpr ::System::TimeSpan const& System::Runtime::Remoting::Lifetime::Lease::__get__renewOnCallTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renewOnCallTime;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__renewOnCallTime(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____renewOnCallTime = value;
 }
 constexpr ::System::TimeSpan& System::Runtime::Remoting::Lifetime::Lease::__get__sponsorshipTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sponsorshipTimeout;
 }
 constexpr ::System::TimeSpan const& System::Runtime::Remoting::Lifetime::Lease::__get__sponsorshipTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sponsorshipTimeout;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__sponsorshipTimeout(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sponsorshipTimeout = value;
 }
 constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::Lifetime::Lease::__get__sponsors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sponsors;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::Lifetime::Lease::__get__sponsors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sponsors;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__sponsors(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sponsors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Queue*& System::Runtime::Remoting::Lifetime::Lease::__get__renewingSponsors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renewingSponsors;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Queue*> const& System::Runtime::Remoting::Lifetime::Lease::__get__renewingSponsors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renewingSponsors;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__renewingSponsors(::System::Collections::Queue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renewingSponsors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate*& System::Runtime::Remoting::Lifetime::Lease::__get__renewalDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renewalDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate*> const& System::Runtime::Remoting::Lifetime::Lease::__get__renewalDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renewalDelegate;
 }
 constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__renewalDelegate(::System::Runtime::Remoting::Lifetime::__Lease__RenewalDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renewalDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Lifetime::Lease* System::Runtime::Remoting::Lifetime::Lease::New_ctor() {

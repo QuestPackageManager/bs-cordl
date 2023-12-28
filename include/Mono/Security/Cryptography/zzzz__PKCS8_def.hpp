@@ -17,16 +17,16 @@ namespace System::Collections {
 class ArrayList;
 }
 namespace System::Security::Cryptography {
-struct DSAParameters;
+class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
 namespace System::Security::Cryptography {
-class RSA;
+struct DSAParameters;
 }
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+class RSA;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {

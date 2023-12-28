@@ -6,16 +6,16 @@
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 // Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::GlobalNamespace::__InputDeviceMatcher__MatcherJson__Capability::__InputDeviceMatcher__MatcherJson__Capability(::StringW path, ::StringW value) noexcept {
   this->path = path;
@@ -705,87 +705,87 @@ constexpr UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set___4__this(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___3____4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3____4__this;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get___3____4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3____4__this;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set___3____4__this(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3____4__this = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get__count_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count_5__2;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get__count_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count_5__2;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set__count_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count_5__2 = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get__i_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__get__i_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::__set__i_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
 inline ::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4* UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4::New_ctor(int32_t __1__state) {

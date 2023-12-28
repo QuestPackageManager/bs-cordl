@@ -7,10 +7,10 @@ namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IExtensionField;
+class IPolynomial;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IPolynomial;
+class IExtensionField;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {

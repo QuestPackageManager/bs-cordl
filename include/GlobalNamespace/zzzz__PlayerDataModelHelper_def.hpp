@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayerDataModelHelper)
 namespace GlobalNamespace {
+class PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
 class __PlayerSaveDataV1_0_1__PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveDataV1_0_1__PlayerOverallStatsData;
+class __PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
-class PlayerAllOverallStatsData;
+class __PlayerSaveDataV1_0_1__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

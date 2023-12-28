@@ -39,15 +39,15 @@ constexpr HoudiniEngineUnity::Test_TreeInstance::operator ::HoudiniEngineUnity::
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::TreeInstance& HoudiniEngineUnity::Test_TreeInstance::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::UnityEngine::TreeInstance const& HoudiniEngineUnity::Test_TreeInstance::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_TreeInstance::__set_self(::UnityEngine::TreeInstance value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self = value;
 }
 inline ::HoudiniEngineUnity::Test_TreeInstance* HoudiniEngineUnity::Test_TreeInstance::New_ctor(::UnityEngine::TreeInstance self) {

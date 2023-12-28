@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDeflateCompression)
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __TlsDeflateCompression__DeflateOutputStream;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class __TlsDeflateCompression__DeflateOutputStream;
-}
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

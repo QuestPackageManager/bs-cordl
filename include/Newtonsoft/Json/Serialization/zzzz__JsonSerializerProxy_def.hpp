@@ -7,7 +7,70 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerProxy)
 namespace Newtonsoft::Json::Serialization {
-class IReferenceResolver;
+class JsonSerializerInternalWriter;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+namespace Newtonsoft::Json {
+struct MissingMemberHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class IContractResolver;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace Newtonsoft::Json::Serialization {
+class ErrorEventArgs;
+}
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
+}
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalReader;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
+}
+namespace Newtonsoft::Json {
+struct FloatParseHandling;
+}
+namespace Newtonsoft::Json {
+struct NullValueHandling;
+}
+namespace Newtonsoft::Json {
+struct FloatFormatHandling;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
+}
+namespace Newtonsoft::Json {
+struct MetadataPropertyHandling;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
 }
 namespace Newtonsoft::Json {
 struct Formatting;
@@ -16,103 +79,40 @@ namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
-struct MissingMemberHandling;
+class JsonConverterCollection;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
+}
+namespace Newtonsoft::Json {
+struct ObjectCreationHandling;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace Newtonsoft::Json {
-struct ConstructorHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalReader;
-}
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerInternalBase;
 }
 namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
+class JsonWriter;
 }
 namespace Newtonsoft::Json {
-struct ObjectCreationHandling;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
-}
-namespace Newtonsoft::Json {
-struct PreserveReferencesHandling;
+struct ConstructorHandling;
 }
 namespace Newtonsoft::Json {
 struct DateParseHandling;
 }
-namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace Newtonsoft::Json {
-class JsonConverterCollection;
-}
-namespace Newtonsoft::Json::Serialization {
-class IContractResolver;
-}
-namespace Newtonsoft::Json {
-struct NullValueHandling;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorEventArgs;
-}
-namespace Newtonsoft::Json {
-struct MetadataPropertyHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalWriter;
-}
 namespace System {
 template <typename TEventArgs> class EventHandler_1;
 }
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json {
-struct FloatFormatHandling;
+struct DateTimeZoneHandling;
 }
-namespace Newtonsoft::Json {
-struct StringEscapeHandling;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
-struct FloatParseHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
-}
-namespace Newtonsoft::Json {
-struct DefaultValueHandling;
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

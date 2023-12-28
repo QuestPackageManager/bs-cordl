@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OidEnumerator)
-namespace System::Security::Cryptography {
-class OidCollection;
-}
-namespace System::Security::Cryptography {
-class Oid;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Security::Cryptography {
+class OidCollection;
+}
+namespace System::Security::Cryptography {
+class Oid;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

@@ -87,15 +87,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::OrdinalComparer::__get__ignoreCase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreCase;
 }
 constexpr bool const& System::OrdinalComparer::__get__ignoreCase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreCase;
 }
 constexpr void System::OrdinalComparer::__set__ignoreCase(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreCase = value;
 }
 inline ::System::OrdinalComparer* System::OrdinalComparer::New_ctor(bool ignoreCase) {

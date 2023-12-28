@@ -32,63 +32,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::DateConditionalSpriteSwitcher::__get__day() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____day;
 }
 constexpr int32_t const& GlobalNamespace::DateConditionalSpriteSwitcher::__get__day() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____day;
 }
 constexpr void GlobalNamespace::DateConditionalSpriteSwitcher::__set__day(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____day = value;
 }
 constexpr int32_t& GlobalNamespace::DateConditionalSpriteSwitcher::__get__month() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____month;
 }
 constexpr int32_t const& GlobalNamespace::DateConditionalSpriteSwitcher::__get__month() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____month;
 }
 constexpr void GlobalNamespace::DateConditionalSpriteSwitcher::__set__month(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____month = value;
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::DateConditionalSpriteSwitcher::__get__falseSprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____falseSprite;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::DateConditionalSpriteSwitcher::__get__falseSprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____falseSprite;
 }
 constexpr void GlobalNamespace::DateConditionalSpriteSwitcher::__set__falseSprite(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____falseSprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::DateConditionalSpriteSwitcher::__get__trueSprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trueSprite;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::DateConditionalSpriteSwitcher::__get__trueSprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trueSprite;
 }
 constexpr void GlobalNamespace::DateConditionalSpriteSwitcher::__set__trueSprite(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trueSprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ConditionalSpriteSwitcher*& GlobalNamespace::DateConditionalSpriteSwitcher::__get__conditionalSpriteSwitcher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____conditionalSpriteSwitcher;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConditionalSpriteSwitcher*> const& GlobalNamespace::DateConditionalSpriteSwitcher::__get__conditionalSpriteSwitcher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____conditionalSpriteSwitcher;
 }
 constexpr void GlobalNamespace::DateConditionalSpriteSwitcher::__set__conditionalSpriteSwitcher(::GlobalNamespace::ConditionalSpriteSwitcher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____conditionalSpriteSwitcher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::DateConditionalSpriteSwitcher::Awake() {

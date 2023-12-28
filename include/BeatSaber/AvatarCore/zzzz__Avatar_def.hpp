@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Avatar)
-namespace BeatSaber::AvatarCore {
-class IAvatarVisualDataProvider;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace BeatSaber::AvatarCore {
 struct AvatarPoseData;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarPoseDataProvider;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarVisualDataProvider;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

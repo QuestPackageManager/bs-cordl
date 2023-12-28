@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData._ctor
 template <>
 
@@ -518,279 +518,279 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__centerPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__centerPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerPos;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__centerPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____centerPos = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__maxHalfJumpDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxHalfJumpDistance;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__maxHalfJumpDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxHalfJumpDistance;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__maxHalfJumpDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxHalfJumpDistance = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__startHalfJumpDurationInBeats() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startHalfJumpDurationInBeats;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__startHalfJumpDurationInBeats() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startHalfJumpDurationInBeats;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__startHalfJumpDurationInBeats(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startHalfJumpDurationInBeats = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__baseLinesHighestJumpPosY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseLinesHighestJumpPosY;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__baseLinesHighestJumpPosY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseLinesHighestJumpPosY;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__baseLinesHighestJumpPosY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseLinesHighestJumpPosY = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__upperLinesHighestJumpPosY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upperLinesHighestJumpPosY;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__upperLinesHighestJumpPosY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upperLinesHighestJumpPosY;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__upperLinesHighestJumpPosY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____upperLinesHighestJumpPosY = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__topLinesHighestJumpPosY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topLinesHighestJumpPosY;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__topLinesHighestJumpPosY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topLinesHighestJumpPosY;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__topLinesHighestJumpPosY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____topLinesHighestJumpPosY = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveSpeed;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveSpeed;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__moveSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveSpeed = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDuration;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDuration;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__moveDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveDuration = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__verticalObstaclePosY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalObstaclePosY;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__verticalObstaclePosY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalObstaclePosY;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__verticalObstaclePosY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____verticalObstaclePosY = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__obstacleTopPosY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleTopPosY;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__obstacleTopPosY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleTopPosY;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__obstacleTopPosY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstacleTopPosY = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__spawnAheadTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnAheadTime;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__spawnAheadTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnAheadTime;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__spawnAheadTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnAheadTime = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDuration;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDuration;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__jumpDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpDuration = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__noteJumpStartBeatOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffset;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__noteJumpStartBeatOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffset;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__noteJumpStartBeatOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpStartBeatOffset = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__noteJumpMovementSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpMovementSpeed;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__noteJumpMovementSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpMovementSpeed;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__noteJumpMovementSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpMovementSpeed = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDistance;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDistance;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__jumpDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpDistance = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDistance;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDistance;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__moveDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveDistance = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveStartPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveStartPos;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__moveStartPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveStartPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveEndPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__moveEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveEndPos;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__moveEndPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveEndPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpEndPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpEndPos;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__jumpEndPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpEndPos = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__noteLinesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLinesCount;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__noteLinesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLinesCount;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__noteLinesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteLinesCount = value;
 }
 constexpr ::GlobalNamespace::IJumpOffsetYProvider*& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpOffsetYProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpOffsetYProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IJumpOffsetYProvider*> const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__jumpOffsetYProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpOffsetYProvider;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__jumpOffsetYProvider(::GlobalNamespace::IJumpOffsetYProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jumpOffsetYProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__rightVec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightVec;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__rightVec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightVec;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__rightVec(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rightVec = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__forwardVec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forwardVec;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BeatmapObjectSpawnMovementData::__get__forwardVec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forwardVec;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnMovementData::__set__forwardVec(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forwardVec = value;
 }
 inline float_t GlobalNamespace::BeatmapObjectSpawnMovementData::get_spawnAheadTime() {

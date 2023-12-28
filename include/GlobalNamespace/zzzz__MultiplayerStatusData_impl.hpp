@@ -28,27 +28,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::__get_language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr ::StringW const& GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::__get_language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr void GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::__set_language(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___language)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::__get_message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message;
 }
 constexpr ::StringW const& GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::__get_message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message;
 }
 constexpr void GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::__set_message(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage* GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::New_ctor() {
@@ -78,17 +78,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*>&
 GlobalNamespace::__MultiplayerStatusData__UserMessage::__get_localizations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizations;
 }
 constexpr ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> const&
 GlobalNamespace::__MultiplayerStatusData__UserMessage::__get_localizations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizations;
 }
 constexpr void GlobalNamespace::__MultiplayerStatusData__UserMessage::__set_localizations(
     ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* GlobalNamespace::__MultiplayerStatusData__UserMessage::New_ctor() {
@@ -288,87 +288,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::MultiplayerStatusData::__get_minimum_app_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minimum_app_version;
 }
 constexpr ::StringW const& GlobalNamespace::MultiplayerStatusData::__get_minimum_app_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minimum_app_version;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_minimum_app_version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___minimum_app_version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus& GlobalNamespace::MultiplayerStatusData::__get_status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus const& GlobalNamespace::MultiplayerStatusData::__get_status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_status(::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___status = value;
 }
 constexpr int64_t& GlobalNamespace::MultiplayerStatusData::__get_maintenance_start_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintenance_start_time;
 }
 constexpr int64_t const& GlobalNamespace::MultiplayerStatusData::__get_maintenance_start_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintenance_start_time;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_maintenance_start_time(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintenance_start_time = value;
 }
 constexpr int64_t& GlobalNamespace::MultiplayerStatusData::__get_maintenance_end_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintenance_end_time;
 }
 constexpr int64_t const& GlobalNamespace::MultiplayerStatusData::__get_maintenance_end_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintenance_end_time;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_maintenance_end_time(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintenance_end_time = value;
 }
 constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& GlobalNamespace::MultiplayerStatusData::__get_user_message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___user_message;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& GlobalNamespace::MultiplayerStatusData::__get_user_message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___user_message;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_user_message(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___user_message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MultiplayerStatusData::__get_use_gamelift() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_gamelift;
 }
 constexpr bool const& GlobalNamespace::MultiplayerStatusData::__get_use_gamelift() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_gamelift;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_use_gamelift(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___use_gamelift = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerStatusData::__get_use_xplatform_auth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_xplatform_auth;
 }
 constexpr bool const& GlobalNamespace::MultiplayerStatusData::__get_use_xplatform_auth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_xplatform_auth;
 }
 constexpr void GlobalNamespace::MultiplayerStatusData::__set_use_xplatform_auth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___use_xplatform_auth = value;
 }
 inline ::StringW GlobalNamespace::MultiplayerStatusData::get_minimumAppVersion() {

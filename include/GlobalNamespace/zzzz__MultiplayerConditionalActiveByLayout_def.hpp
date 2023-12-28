@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConditionalActiveByLayout)
 namespace GlobalNamespace {
-struct __MultiplayerConditionalActiveByLayout__Condition;
-}
-namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
+}
+namespace GlobalNamespace {
+struct __MultiplayerConditionalActiveByLayout__Condition;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerCo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5233)), TypeDefinitionIndex(TypeDefinitionIndex(5195))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5195)), TypeDefinitionIndex(TypeDefinitionIndex(5233))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5196))
 // CS Name: ::MultiplayerConditionalActiveByLayout*
 class CORDL_TYPE MultiplayerConditionalActiveByLayout : public ::UnityEngine::MonoBehaviour {

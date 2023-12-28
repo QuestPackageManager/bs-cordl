@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TerrainUtils/zzzz__TerrainUtility_def.hpp"
-#include "UnityEngine/TerrainUtils/zzzz__TerrainMap_def.hpp"
 #include "UnityEngine/TerrainUtils/zzzz__TerrainUtility_def.hpp"
+#include "UnityEngine/TerrainUtils/zzzz__TerrainMap_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0._ctor
@@ -21,15 +21,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0::__get_onlyAutoConnectedTerrains() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onlyAutoConnectedTerrains;
 }
 constexpr bool const& UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0::__get_onlyAutoConnectedTerrains() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onlyAutoConnectedTerrains;
 }
 constexpr void UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0::__set_onlyAutoConnectedTerrains(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onlyAutoConnectedTerrains = value;
 }
 inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0::New_ctor() {
@@ -74,28 +74,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Terrain*& UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Terrain*> const& UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::__set_t(::UnityEngine::Terrain* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___t)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::__get_CS$__8__locals1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*> const&
 UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::__get_CS$__8__locals1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr void UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::__set_CS$__8__locals1(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1::New_ctor() {

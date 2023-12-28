@@ -18,87 +18,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Oculus::Platform::Models::ChallengeEntry::__get_DisplayScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisplayScore;
 }
 constexpr ::StringW const& Oculus::Platform::Models::ChallengeEntry::__get_DisplayScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisplayScore;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set_DisplayScore(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DisplayScore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Oculus::Platform::Models::ChallengeEntry::__get_ExtraData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExtraData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Oculus::Platform::Models::ChallengeEntry::__get_ExtraData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExtraData;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set_ExtraData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ExtraData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint64_t& Oculus::Platform::Models::ChallengeEntry::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr uint64_t const& Oculus::Platform::Models::ChallengeEntry::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set__cordl_ID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 constexpr int32_t& Oculus::Platform::Models::ChallengeEntry::__get_Rank() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Rank;
 }
 constexpr int32_t const& Oculus::Platform::Models::ChallengeEntry::__get_Rank() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Rank;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set_Rank(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Rank = value;
 }
 constexpr int64_t& Oculus::Platform::Models::ChallengeEntry::__get_Score() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Score;
 }
 constexpr int64_t const& Oculus::Platform::Models::ChallengeEntry::__get_Score() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Score;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set_Score(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Score = value;
 }
 constexpr ::System::DateTime& Oculus::Platform::Models::ChallengeEntry::__get_Timestamp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timestamp;
 }
 constexpr ::System::DateTime const& Oculus::Platform::Models::ChallengeEntry::__get_Timestamp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timestamp;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set_Timestamp(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Timestamp = value;
 }
 constexpr ::Oculus::Platform::Models::User*& Oculus::Platform::Models::ChallengeEntry::__get_User() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___User;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& Oculus::Platform::Models::ChallengeEntry::__get_User() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___User;
 }
 constexpr void Oculus::Platform::Models::ChallengeEntry::__set_User(::Oculus::Platform::Models::User* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___User)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::ChallengeEntry* Oculus::Platform::Models::ChallengeEntry::New_ctor(void* o) {

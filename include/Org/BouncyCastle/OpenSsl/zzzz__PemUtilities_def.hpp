@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PemUtilities)
 namespace Org::BouncyCastle::OpenSsl {
-struct __PemUtilities__PemMode;
-}
-namespace Org::BouncyCastle::OpenSsl {
 struct __PemUtilities__PemBaseAlg;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::OpenSsl {
+struct __PemUtilities__PemMode;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {

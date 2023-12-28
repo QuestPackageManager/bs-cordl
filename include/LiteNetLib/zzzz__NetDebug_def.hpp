@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetDebug)
 namespace LiteNetLib {
+struct NetLogLevel;
+}
+namespace LiteNetLib {
 class INetLogger;
 }
 namespace System {
 class Object;
-}
-namespace LiteNetLib {
-struct NetLogLevel;
 }
 // Forward declare root types
 namespace LiteNetLib {

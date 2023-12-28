@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XContainer)
+namespace System::Xml::Linq {
+class __XContainer___Nodes_d__18;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -16,26 +19,23 @@ class XAttribute;
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Xml::Linq {
-class __XContainer___Nodes_d__18;
-}
 namespace System::Xml {
 class XmlWriter;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml::Linq {
 class XNode;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;

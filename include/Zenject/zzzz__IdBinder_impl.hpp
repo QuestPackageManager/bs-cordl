@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__IdBinder_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::IdBinder._ctor
 template <>
 
@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::BindInfo*& Zenject::IdBinder::__get__bindInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& Zenject::IdBinder::__get__bindInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfo;
 }
 constexpr void Zenject::IdBinder::__set__bindInfo(::Zenject::BindInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::IdBinder* Zenject::IdBinder::New_ctor(::Zenject::BindInfo* bindInfo) {

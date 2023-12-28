@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& HoudiniEngineUnity::HEU_GeoSync::__get__filePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filePath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_GeoSync::__get__filePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filePath;
 }
 constexpr void HoudiniEngineUnity::HEU_GeoSync::__set__filePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HoudiniEngineUnity::HEU_GeoSync::SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session) {

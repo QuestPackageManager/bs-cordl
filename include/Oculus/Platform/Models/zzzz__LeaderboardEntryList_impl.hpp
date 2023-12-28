@@ -18,15 +18,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint64_t& Oculus::Platform::Models::LeaderboardEntryList::__get_TotalCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TotalCount;
 }
 constexpr uint64_t const& Oculus::Platform::Models::LeaderboardEntryList::__get_TotalCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TotalCount;
 }
 constexpr void Oculus::Platform::Models::LeaderboardEntryList::__set_TotalCount(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TotalCount = value;
 }
 inline ::Oculus::Platform::Models::LeaderboardEntryList* Oculus::Platform::Models::LeaderboardEntryList::New_ctor(void* a) {

@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Runtime::InteropServices::ComVisibleAttribute::__get__val() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr bool const& System::Runtime::InteropServices::ComVisibleAttribute::__get__val() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr void System::Runtime::InteropServices::ComVisibleAttribute::__set__val(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____val = value;
 }
 inline ::System::Runtime::InteropServices::ComVisibleAttribute* System::Runtime::InteropServices::ComVisibleAttribute::New_ctor(bool visibility) {

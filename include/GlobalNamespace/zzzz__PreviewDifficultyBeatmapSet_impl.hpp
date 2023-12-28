@@ -50,27 +50,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& GlobalNamespace::PreviewDifficultyBeatmapSet::__get__beatmapCharacteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristic;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& GlobalNamespace::PreviewDifficultyBeatmapSet::__get__beatmapCharacteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristic;
 }
 constexpr void GlobalNamespace::PreviewDifficultyBeatmapSet::__set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*>& GlobalNamespace::PreviewDifficultyBeatmapSet::__get__beatmapDifficulties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficulties;
 }
 constexpr ::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*> const& GlobalNamespace::PreviewDifficultyBeatmapSet::__get__beatmapDifficulties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficulties;
 }
 constexpr void GlobalNamespace::PreviewDifficultyBeatmapSet::__set__beatmapDifficulties(::ArrayW<::GlobalNamespace::BeatmapDifficulty, ::Array<::GlobalNamespace::BeatmapDifficulty>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDifficulties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BeatmapCharacteristicSO* GlobalNamespace::PreviewDifficultyBeatmapSet::get_beatmapCharacteristic() {

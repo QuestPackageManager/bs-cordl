@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerPrefixCollection)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net {
+class HttpListener;
+}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -16,17 +25,8 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Net {
-class HttpListener;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Net {

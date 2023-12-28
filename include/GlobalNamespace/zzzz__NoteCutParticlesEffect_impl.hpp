@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutParticlesEffect_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteCutParticlesEffect.Awake
 template <>
 
@@ -53,159 +53,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPS;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__sparklesPS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sparklesPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPS;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionPS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePS;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionCorePS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionCorePS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPrePassBloomPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPrePassBloomPS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPrePassBloomPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPrePassBloomPS;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionPrePassBloomPS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPrePassBloomPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPSEmitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPSEmitParams;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__sparklesPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparklesPSEmitParams = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__MainModule& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPSMainModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPSMainModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__MainModule const& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPSMainModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPSMainModule;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__sparklesPSMainModule(::UnityEngine::__ParticleSystem__MainModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparklesPSMainModule = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPSShapeModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPSShapeModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesPSShapeModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPSShapeModule;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__sparklesPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparklesPSShapeModule = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__MinMaxCurve& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesLifetimeMinMaxCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesLifetimeMinMaxCurve;
 }
 constexpr ::UnityEngine::__ParticleSystem__MinMaxCurve const& GlobalNamespace::NoteCutParticlesEffect::__get__sparklesLifetimeMinMaxCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesLifetimeMinMaxCurve;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__sparklesLifetimeMinMaxCurve(::UnityEngine::__ParticleSystem__MinMaxCurve value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparklesLifetimeMinMaxCurve = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPSEmitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPSEmitParams;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionPSEmitParams = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePSEmitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePSEmitParams;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionCorePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionCorePSEmitParams = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__MainModule& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePSMainModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePSMainModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__MainModule const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePSMainModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePSMainModule;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionCorePSMainModule(::UnityEngine::__ParticleSystem__MainModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionCorePSMainModule = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePSShapeModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePSShapeModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionCorePSShapeModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionCorePSShapeModule;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionCorePSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionCorePSShapeModule = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPrePassBloomPSShapeModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPrePassBloomPSShapeModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& GlobalNamespace::NoteCutParticlesEffect::__get__explosionPrePassBloomPSShapeModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPrePassBloomPSShapeModule;
 }
 constexpr void GlobalNamespace::NoteCutParticlesEffect::__set__explosionPrePassBloomPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionPrePassBloomPSShapeModule = value;
 }
 inline void GlobalNamespace::NoteCutParticlesEffect::Awake() {

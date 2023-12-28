@@ -6,50 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSrpKeyExchange)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Agreement::Srp {
-class Srp6Client;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSignerCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpGroupVerifier;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
-}
-namespace Org::BouncyCastle::Crypto::Agreement::Srp {
-class Srp6Server;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
-namespace System::Collections {
-class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
@@ -57,8 +15,50 @@ class SignatureAndHashAlgorithm;
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
+namespace Org::BouncyCastle::Crypto::Agreement::Srp {
+class Srp6Client;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSignerCredentials;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSrpGroupVerifier;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Agreement::Srp {
+class Srp6Server;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class SecurityParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

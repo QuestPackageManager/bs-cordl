@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionCollection_def.hpp"
-#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionEnumerator_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionEnumerator_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection._ctor
 template <>
 
@@ -155,15 +155,15 @@ constexpr System::Security::Cryptography::X509Certificates::X509ExtensionCollect
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::ArrayList*& System::Security::Cryptography::X509Certificates::X509ExtensionCollection::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::Cryptography::X509Certificates::X509ExtensionCollection::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509ExtensionCollection::__set__list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Cryptography::X509Certificates::X509ExtensionCollection::setStaticF_Empty(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

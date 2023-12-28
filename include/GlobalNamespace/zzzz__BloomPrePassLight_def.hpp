@@ -13,11 +13,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassLight)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class BloomPrePassLightTypeSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+struct __BloomPrePassLight__QuadData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -29,19 +32,16 @@ namespace GlobalNamespace {
 class __BloomPrePassLight__LightsDataItem;
 }
 namespace GlobalNamespace {
-struct __BloomPrePassLight__QuadData;
-}
-namespace GlobalNamespace {
 struct __BloomPrePassLight__VertexData;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-struct Color;
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

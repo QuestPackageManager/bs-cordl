@@ -1,12 +1,12 @@
 #pragma once
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__TextWriter_SyncTextWriter_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter._ctor
 template <>
 
@@ -262,15 +262,15 @@ constexpr System::IO::__TextWriter__SyncTextWriter::operator ::System::IDisposab
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::TextWriter*& System::IO::__TextWriter__SyncTextWriter::__get__out() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____out;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& System::IO::__TextWriter__SyncTextWriter::__get__out() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____out;
 }
 constexpr void System::IO::__TextWriter__SyncTextWriter::__set__out(::System::IO::TextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____out)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::__TextWriter__SyncTextWriter* System::IO::__TextWriter__SyncTextWriter::New_ctor(::System::IO::TextWriter* t) {

@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMacDerivationFunction)
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

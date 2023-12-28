@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KCcmBlockCipher)
 namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+class IAeadCipher;
+}
+namespace System::IO {
+class MemoryStream;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
-}
-namespace System::IO {
-class MemoryStream;
+class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

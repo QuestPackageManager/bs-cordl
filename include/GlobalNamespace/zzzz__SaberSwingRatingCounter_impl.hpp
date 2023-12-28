@@ -3,15 +3,15 @@
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberSwingRatingCounter_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
-#include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberMovementData_def.hpp"
+#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberSwingRatingCounter.get_beforeCutRating
 template <>
 
@@ -183,257 +183,257 @@ constexpr GlobalNamespace::SaberSwingRatingCounter::operator ::GlobalNamespace::
   return static_cast<::GlobalNamespace::ISaberMovementDataProcessor*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::ISaberMovementData*& GlobalNamespace::SaberSwingRatingCounter::__get__saberMovementData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberMovementData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaberMovementData*> const& GlobalNamespace::SaberSwingRatingCounter::__get__saberMovementData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberMovementData;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__saberMovementData(::GlobalNamespace::ISaberMovementData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberMovementData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__cutPlaneNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutPlaneNormal;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__cutPlaneNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutPlaneNormal;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutPlaneNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutPlaneNormal = value;
 }
 constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__get__cutTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTime;
 }
 constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__get__cutTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTime;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutTime = value;
 }
 constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutRating() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutRating;
 }
 constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutRating() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutRating;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__afterCutRating(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterCutRating = value;
 }
 constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutRating() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutRating;
 }
 constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutRating() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutRating;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__beforeCutRating(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutRating = value;
 }
 constexpr ::UnityEngine::Plane& GlobalNamespace::SaberSwingRatingCounter::__get__notePlane() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlane;
 }
 constexpr ::UnityEngine::Plane const& GlobalNamespace::SaberSwingRatingCounter::__get__notePlane() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlane;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__notePlane(::UnityEngine::Plane value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notePlane = value;
 }
 constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneWasCut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneWasCut;
 }
 constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneWasCut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneWasCut;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__notePlaneWasCut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notePlaneWasCut = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__noteForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteForward;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__noteForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteForward;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__noteForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteForward = value;
 }
 constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__rateBeforeCut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateBeforeCut;
 }
 constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__rateBeforeCut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateBeforeCut;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__rateBeforeCut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rateBeforeCut = value;
 }
 constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__rateAfterCut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateAfterCut;
 }
 constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__rateAfterCut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateAfterCut;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__rateAfterCut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rateAfterCut = value;
 }
 constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& GlobalNamespace::SaberSwingRatingCounter::__get__didChangeReceivers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didChangeReceivers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*> const&
 GlobalNamespace::SaberSwingRatingCounter::__get__didChangeReceivers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didChangeReceivers;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__didChangeReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didChangeReceivers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& GlobalNamespace::SaberSwingRatingCounter::__get__didFinishReceivers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishReceivers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*> const&
 GlobalNamespace::SaberSwingRatingCounter::__get__didFinishReceivers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishReceivers;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__didFinishReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishReceivers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneCenter;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneCenter;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__notePlaneCenter(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notePlaneCenter = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutTopPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutTopPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutTopPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutTopPos;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__beforeCutTopPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutTopPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutBottomPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutBottomPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutBottomPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutBottomPos;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__beforeCutBottomPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutBottomPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutTopPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutTopPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutTopPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutTopPos;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__afterCutTopPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterCutTopPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutBottomPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutBottomPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutBottomPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutBottomPos;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__afterCutBottomPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterCutBottomPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__newPlaneNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newPlaneNormal;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__newPlaneNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newPlaneNormal;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__newPlaneNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____newPlaneNormal = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__cutTopPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTopPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__cutTopPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTopPos;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutTopPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutTopPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__cutBottomPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutBottomPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__cutBottomPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutBottomPos;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutBottomPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutBottomPos = value;
 }
 constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__finished() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finished;
 }
 constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__finished() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finished;
 }
 constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__finished(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finished = value;
 }
 inline float_t GlobalNamespace::SaberSwingRatingCounter::get_beforeCutRating() {

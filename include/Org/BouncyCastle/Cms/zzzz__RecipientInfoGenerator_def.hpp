@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(RecipientInfoGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

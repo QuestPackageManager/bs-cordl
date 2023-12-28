@@ -15,10 +15,10 @@ namespace GlobalNamespace {
 struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectSpawnController;
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

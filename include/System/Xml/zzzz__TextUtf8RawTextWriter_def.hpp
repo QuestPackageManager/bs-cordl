@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextUtf8RawTextWriter)
-namespace System::Xml {
-struct XmlStandalone;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Xml {
+struct XmlStandalone;
 }
 namespace System::Xml {
 class XmlWriterSettings;

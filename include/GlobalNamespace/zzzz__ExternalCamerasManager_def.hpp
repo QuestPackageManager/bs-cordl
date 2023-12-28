@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class OculusMRCManager;
 }
 namespace UnityEngine {
-class GameObject;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

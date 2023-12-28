@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__KeccakDigest_def.hpp"
-#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::KeccakDigest._ctor
 template <>
 
@@ -381,75 +381,75 @@ constexpr Org::BouncyCastle::Crypto::Digests::KeccakDigest::operator ::Org::Boun
   return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_state(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_dataQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataQueue;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_dataQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataQueue;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_dataQueue(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dataQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_rate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rate;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_rate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rate;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_rate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rate = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_bitsInQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitsInQueue;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_bitsInQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitsInQueue;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_bitsInQueue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bitsInQueue = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_fixedOutputLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedOutputLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_fixedOutputLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedOutputLength;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_fixedOutputLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fixedOutputLength = value;
 }
 constexpr bool& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_squeezing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___squeezing;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_squeezing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___squeezing;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_squeezing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___squeezing = value;
 }
 inline void Org::BouncyCastle::Crypto::Digests::KeccakDigest::setStaticF_KeccakRoundConstants(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {

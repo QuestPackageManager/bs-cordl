@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorBehaviour_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomControlPlayableAsset.get_clipCaps
 template <>
 
@@ -36,15 +36,15 @@ constexpr GlobalNamespace::CustomControlPlayableAsset::operator ::UnityEngine::T
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::AvatarColorBehaviour*& GlobalNamespace::CustomControlPlayableAsset::__get__template() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarColorBehaviour*> const& GlobalNamespace::CustomControlPlayableAsset::__get__template() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
 constexpr void GlobalNamespace::CustomControlPlayableAsset::__set__template(::GlobalNamespace::AvatarColorBehaviour* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::CustomControlPlayableAsset::get_clipCaps() {

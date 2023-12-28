@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableSetProxy)
 namespace System {
-class Object;
-}
-namespace System {
 class Array;
 }
 namespace System::Collections {
@@ -16,6 +13,9 @@ class IEnumerator;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

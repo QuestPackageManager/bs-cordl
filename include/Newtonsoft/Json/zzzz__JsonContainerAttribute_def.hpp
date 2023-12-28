@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JsonContainerAttribute)
 namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json {
 struct TypeNameHandling;
 }
 namespace System {
@@ -17,9 +20,6 @@ class Type;
 }
 namespace System {
 class Object;
-}
-namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -31,10 +31,10 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonContainerAttribute);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11815)) CS
-// Name: ::Newtonsoft.Json::JsonContainerAttribute*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2448), inst: 4762 }), TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11839))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11815)) CS Name:
+// ::Newtonsoft.Json::JsonContainerAttribute*
 class CORDL_TYPE JsonContainerAttribute : public ::System::Attribute {
 public:
   // Declarations

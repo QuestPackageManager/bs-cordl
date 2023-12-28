@@ -10,13 +10,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsMac;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

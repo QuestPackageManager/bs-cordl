@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRWaitCursor::__get_rotateSpeeds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateSpeeds;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRWaitCursor::__get_rotateSpeeds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateSpeeds;
 }
 constexpr void GlobalNamespace::OVRWaitCursor::__set_rotateSpeeds(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotateSpeeds = value;
 }
 inline void GlobalNamespace::OVRWaitCursor::Update() {

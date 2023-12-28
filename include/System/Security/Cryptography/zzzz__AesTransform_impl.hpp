@@ -86,39 +86,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& System::Security::Cryptography::AesTransform::__get_expandedKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandedKey;
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& System::Security::Cryptography::AesTransform::__get_expandedKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandedKey;
 }
 constexpr void System::Security::Cryptography::AesTransform::__set_expandedKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___expandedKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Cryptography::AesTransform::__get_Nk() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Nk;
 }
 constexpr int32_t const& System::Security::Cryptography::AesTransform::__get_Nk() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Nk;
 }
 constexpr void System::Security::Cryptography::AesTransform::__set_Nk(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Nk = value;
 }
 constexpr int32_t& System::Security::Cryptography::AesTransform::__get_Nr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Nr;
 }
 constexpr int32_t const& System::Security::Cryptography::AesTransform::__get_Nr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Nr;
 }
 constexpr void System::Security::Cryptography::AesTransform::__set_Nr(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Nr = value;
 }
 inline void System::Security::Cryptography::AesTransform::setStaticF_Rcon(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {

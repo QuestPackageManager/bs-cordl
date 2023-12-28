@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleScaleUp_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleScaleUp.Awake
 template <>
 
@@ -89,39 +89,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::ObstacleScaleUp::__get__fullScalePart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullScalePart;
 }
 constexpr float_t const& GlobalNamespace::ObstacleScaleUp::__get__fullScalePart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullScalePart;
 }
 constexpr void GlobalNamespace::ObstacleScaleUp::__set__fullScalePart(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullScalePart = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::ObstacleScaleUp::__get__targetTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::ObstacleScaleUp::__get__targetTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTransform;
 }
 constexpr void GlobalNamespace::ObstacleScaleUp::__set__targetTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ObstacleController*& GlobalNamespace::ObstacleScaleUp::__get__obstacleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleController*> const& GlobalNamespace::ObstacleScaleUp::__get__obstacleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleController;
 }
 constexpr void GlobalNamespace::ObstacleScaleUp::__set__obstacleController(::GlobalNamespace::ObstacleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ObstacleScaleUp::Awake() {

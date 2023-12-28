@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNamespaceManager)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Xml {
-class XmlNameTable;
+struct __XmlNamespaceManager__NamespaceDeclaration;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Xml {
-struct __XmlNamespaceManager__NamespaceDeclaration;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Xml {

@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
-#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
-#include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceVisualizer_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
@@ -79,27 +79,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__Assets& GlobalNamespace::PerformanceToolLauncher::__get__assets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assets;
 }
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__Assets const& GlobalNamespace::PerformanceToolLauncher::__get__assets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assets;
 }
 constexpr void GlobalNamespace::PerformanceToolLauncher::__set__assets(::GlobalNamespace::__PerformanceToolLauncher__Assets value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____assets = value;
 }
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__Config& GlobalNamespace::PerformanceToolLauncher::__get__config() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____config;
 }
 constexpr ::GlobalNamespace::__PerformanceToolLauncher__Config const& GlobalNamespace::PerformanceToolLauncher::__get__config() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____config;
 }
 constexpr void GlobalNamespace::PerformanceToolLauncher::__set__config(::GlobalNamespace::__PerformanceToolLauncher__Config value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____config = value;
 }
 /// @param gamePause: ::GlobalNamespace::IGamePause* (default: nullptr)

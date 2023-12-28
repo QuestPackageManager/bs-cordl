@@ -8,38 +8,38 @@ CORDL_MODULE_EXPORT(BeatAvatarEditorFlowCoordinator)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__EditMode;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class BeatAvatarVisualController;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
 class GameObject;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class BeatAvatarVisualController;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class AvatarTweenController;
 }
-namespace UnityEngine {
-struct Color;
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class EditAvatarColorViewController;
+}
+namespace System {
+class Action;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class BeatAvatarEditorViewController;
 }
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class EditAvatarColorViewController;
+namespace BeatSaber::BeatAvatarSDK {
+struct AvatarPart;
 }
 // Forward declare root types
 namespace GlobalNamespace {

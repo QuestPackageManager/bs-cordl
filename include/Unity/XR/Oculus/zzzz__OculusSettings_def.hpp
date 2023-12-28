@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusSettings)
-namespace UnityEngine {
-class Texture2D;
-}
 namespace Unity::XR::Oculus {
 struct __OculusSettings__StereoRenderingModeAndroid;
 }
@@ -18,6 +15,9 @@ struct __OculusSettings__FoveationMethod;
 }
 namespace Unity::XR::Oculus {
 struct __OculusSettings__StereoRenderingModeDesktop;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {
@@ -185,8 +185,8 @@ static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::__OculusSetti
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15147)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(15148)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15149))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15150)) CS Name: ::Unity.XR.Oculus::OculusSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15149)), TypeDefinitionIndex(TypeDefinitionIndex(15147)), TypeDefinitionIndex(TypeDefinitionIndex(15148)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15150)) CS Name: ::Unity.XR.Oculus::OculusSettings*
 class CORDL_TYPE OculusSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations

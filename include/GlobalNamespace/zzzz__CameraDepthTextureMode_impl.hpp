@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::DepthTextureMode& GlobalNamespace::CameraDepthTextureMode::__get__depthTextureMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depthTextureMode;
 }
 constexpr ::UnityEngine::DepthTextureMode const& GlobalNamespace::CameraDepthTextureMode::__get__depthTextureMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depthTextureMode;
 }
 constexpr void GlobalNamespace::CameraDepthTextureMode::__set__depthTextureMode(::UnityEngine::DepthTextureMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____depthTextureMode = value;
 }
 inline void GlobalNamespace::CameraDepthTextureMode::Awake() {

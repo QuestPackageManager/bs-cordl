@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionLevelAnalytics)
 namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
 class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

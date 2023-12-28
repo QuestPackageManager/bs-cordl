@@ -11,23 +11,23 @@ CORDL_MODULE_EXPORT(Localization)
 namespace UnityEngine::Events {
 class UnityEvent;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 class Object;
 }
 namespace Polyglot {
-class ILocalize;
-}
-namespace Polyglot {
 class LocalizationAsset;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace Polyglot {
 struct Language;
+}
+namespace Polyglot {
+class ILocalize;
+}
+namespace Polyglot {
+class LocalizationDocument;
 }
 namespace Polyglot {
 struct LanguageDirection;
@@ -35,8 +35,8 @@ struct LanguageDirection;
 namespace UnityEngine {
 struct SystemLanguage;
 }
-namespace Polyglot {
-class LocalizationDocument;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Polyglot::Localization);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15558))
 // CS Name: ::Polyglot::Localization*
 class CORDL_TYPE Localization : public ::UnityEngine::ScriptableObject {

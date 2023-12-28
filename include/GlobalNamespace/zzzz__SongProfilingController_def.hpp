@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(SongProfilingController)
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
-namespace GlobalNamespace {
-class __SongProfilingController___ProfileCoroutine_d__8;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __SongProfilingController___ProfileCoroutine_d__8;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

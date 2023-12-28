@@ -2,13 +2,13 @@
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__EventInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "Mono/zzzz__RuntimeEventHandle_def.hpp"
-#include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 //  Writing Method size for method: ::System::Reflection::__EventInfo__AddEventAdapter._ctor
 template <>
@@ -265,15 +265,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::__EventInfo__AddEventAdapter*& System::Reflection::EventInfo::__get_cached_add_event() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cached_add_event;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__EventInfo__AddEventAdapter*> const& System::Reflection::EventInfo::__get_cached_add_event() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cached_add_event;
 }
 constexpr void System::Reflection::EventInfo::__set_cached_add_event(::System::Reflection::__EventInfo__AddEventAdapter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cached_add_event)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Reflection::EventInfo* System::Reflection::EventInfo::New_ctor() {

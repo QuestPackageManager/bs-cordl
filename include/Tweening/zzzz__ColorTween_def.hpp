@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorTween)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 struct EaseType;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::ColorTween);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 293 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16096)) CS Name: ::Tweening::ColorTween*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16099))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16096)) CS Name: ::Tweening::ColorTween*
 class CORDL_TYPE ColorTween : public ::Tweening::Tween_1<::UnityEngine::Color> {
 public:
   // Declarations

@@ -112,39 +112,39 @@ constexpr Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::operator
   return static_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(static_cast<void*>(this));
 }
 constexpr bool& Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__get_failed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failed;
 }
 constexpr bool const& Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__get_failed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failed;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__set_failed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___failed = value;
 }
 constexpr bool& Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__get_curveEquationPassed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curveEquationPassed;
 }
 constexpr bool const& Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__get_curveEquationPassed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curveEquationPassed;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__set_curveEquationPassed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curveEquationPassed = value;
 }
 constexpr bool& Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__get_orderPassed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orderPassed;
 }
 constexpr bool const& Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__get_orderPassed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orderPassed;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::__set_orderPassed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___orderPassed = value;
 }
 inline void Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::setStaticF_PRECOMP_NAME(::StringW value) {

@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigationModel)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::EventSystems {
 struct MoveDirection;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {

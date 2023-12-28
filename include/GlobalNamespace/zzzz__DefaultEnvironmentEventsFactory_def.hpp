@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
-namespace GlobalNamespace {
 class IEnvironmentLightGroups;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupLists;
+}
+namespace GlobalNamespace {
+class DefaultEnvironmentEvents;
 }
 // Forward declare root types
 namespace GlobalNamespace {

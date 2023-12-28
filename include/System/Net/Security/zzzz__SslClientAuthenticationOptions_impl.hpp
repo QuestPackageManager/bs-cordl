@@ -4,10 +4,10 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
 //  Writing Method size for method: ::System::Net::Security::SslClientAuthenticationOptions.set_LocalCertificateSelectionCallback
 template <>
@@ -156,90 +156,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Security::EncryptionPolicy& System::Net::Security::SslClientAuthenticationOptions::__get__encryptionPolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionPolicy;
 }
 constexpr ::System::Net::Security::EncryptionPolicy const& System::Net::Security::SslClientAuthenticationOptions::__get__encryptionPolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionPolicy;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____encryptionPolicy = value;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode& System::Net::Security::SslClientAuthenticationOptions::__get__checkCertificateRevocation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkCertificateRevocation;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode const& System::Net::Security::SslClientAuthenticationOptions::__get__checkCertificateRevocation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkCertificateRevocation;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__checkCertificateRevocation(::System::Security::Cryptography::X509Certificates::X509RevocationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____checkCertificateRevocation = value;
 }
 constexpr ::System::Security::Authentication::SslProtocols& System::Net::Security::SslClientAuthenticationOptions::__get__enabledSslProtocols() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabledSslProtocols;
 }
 constexpr ::System::Security::Authentication::SslProtocols const& System::Net::Security::SslClientAuthenticationOptions::__get__enabledSslProtocols() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabledSslProtocols;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__enabledSslProtocols(::System::Security::Authentication::SslProtocols value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enabledSslProtocols = value;
 }
 constexpr bool& System::Net::Security::SslClientAuthenticationOptions::__get__allowRenegotiation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowRenegotiation;
 }
 constexpr bool const& System::Net::Security::SslClientAuthenticationOptions::__get__allowRenegotiation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowRenegotiation;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__allowRenegotiation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allowRenegotiation = value;
 }
 constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& System::Net::Security::SslClientAuthenticationOptions::__get__LocalCertificateSelectionCallback_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalCertificateSelectionCallback_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const&
 System::Net::Security::SslClientAuthenticationOptions::__get__LocalCertificateSelectionCallback_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalCertificateSelectionCallback_k__BackingField;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__LocalCertificateSelectionCallback_k__BackingField(::System::Net::Security::LocalCertificateSelectionCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____LocalCertificateSelectionCallback_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::Security::SslClientAuthenticationOptions::__get__TargetHost_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TargetHost_k__BackingField;
 }
 constexpr ::StringW const& System::Net::Security::SslClientAuthenticationOptions::__get__TargetHost_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TargetHost_k__BackingField;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__TargetHost_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TargetHost_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& System::Net::Security::SslClientAuthenticationOptions::__get__ClientCertificates_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ClientCertificates_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const&
 System::Net::Security::SslClientAuthenticationOptions::__get__ClientCertificates_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ClientCertificates_k__BackingField;
 }
 constexpr void System::Net::Security::SslClientAuthenticationOptions::__set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ClientCertificates_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::Security::SslClientAuthenticationOptions::set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value) {

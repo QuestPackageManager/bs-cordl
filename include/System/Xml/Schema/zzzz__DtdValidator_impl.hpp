@@ -2,9 +2,9 @@
 #include "System/Xml/Schema/zzzz__BaseValidator_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_impl.hpp"
 #include "System/Xml/Schema/zzzz__DtdValidator_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
 #include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
 #include "System/Xml/Schema/zzzz__DtdValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::__DtdValidator__NamespaceManager.LookupNamespace
 template <>
 

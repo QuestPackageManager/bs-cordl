@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampRequest)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
-}
-namespace Org::BouncyCastle::Asn1::Tsp {
-class TimeStampReq;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class TimeStampReq;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extension;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

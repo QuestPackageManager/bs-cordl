@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SP800SecureRandom)
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class IDrbgProvider;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;

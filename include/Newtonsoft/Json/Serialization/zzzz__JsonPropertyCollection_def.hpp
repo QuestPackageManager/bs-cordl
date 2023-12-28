@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(JsonPropertyCollection)
 namespace System {
 class Type;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
-}
 namespace System {
 struct StringComparison;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonProperty;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonPropertyCollection);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3816)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3816), inst: 3945 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11945))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11946)) CS Name: ::Newtonsoft.Json.Serialization::JsonPropertyCollection*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3816), inst: 3945 }), TypeDefinitionIndex(TypeDefinitionIndex(11945)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3816))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11946)) CS Name: ::Newtonsoft.Json.Serialization::JsonPropertyCollection*
 class CORDL_TYPE JsonPropertyCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW, ::Newtonsoft::Json::Serialization::JsonProperty*> {
 public:
   // Declarations

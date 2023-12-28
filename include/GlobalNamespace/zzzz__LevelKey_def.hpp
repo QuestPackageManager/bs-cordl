@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(LevelKey)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;

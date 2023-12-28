@@ -4,8 +4,8 @@
 #include "Newtonsoft/Json/Serialization/zzzz__DiagnosticsTraceWriter_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
-#include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter.get_LevelFilter
 template <>
 
@@ -88,15 +88,15 @@ constexpr Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::operator ::Ne
   return static_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(static_cast<void*>(this));
 }
 constexpr ::System::Diagnostics::TraceLevel& Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::__get__LevelFilter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LevelFilter_k__BackingField;
 }
 constexpr ::System::Diagnostics::TraceLevel const& Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::__get__LevelFilter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LevelFilter_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::__set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LevelFilter_k__BackingField = value;
 }
 inline ::System::Diagnostics::TraceLevel Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::get_LevelFilter() {

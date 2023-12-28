@@ -18,49 +18,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WordWrapState)
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
-struct FontStyles;
+class TMP_TextInfo;
 }
 namespace TMPro {
 struct Extents;
 }
 namespace TMPro {
-class TMP_ColorGradient;
+struct FontWeight;
 }
 namespace TMPro {
-class TMP_TextInfo;
-}
-namespace TMPro {
-template <typename T> struct TMP_TextProcessingStack_1;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace TMPro {
-struct HighlightState;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
+struct HorizontalAlignmentOptions;
 }
 namespace TMPro {
 struct MaterialReference;
 }
 namespace TMPro {
-struct FontWeight;
+class TMP_ColorGradient;
+}
+namespace TMPro {
+template <typename T> struct TMP_TextProcessingStack_1;
+}
+namespace TMPro {
+struct TMP_FontStyleStack;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+struct FontStyles;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace TMPro {
 struct TMP_LineInfo;
 }
 namespace TMPro {
-struct TMP_FontStyleStack;
+struct HighlightState;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
 }
 // Forward declare root types
 namespace TMPro {
@@ -72,14 +72,14 @@ MARK_VAL_T(::TMPro::WordWrapState);
 // SizeInfo { instance_size: 888, native_size: -1, calculated_instance_size: 888, calculated_native_size: 902, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5052 }), TypeDefinitionIndex(TypeDefinitionIndex(12453)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12334)), TypeDefinitionIndex(TypeDefinitionIndex(12430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 742 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(12453), inst: 5051 }), TypeDefinitionIndex(TypeDefinitionIndex(12394)), TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(12304)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12452)), TypeDefinitionIndex(TypeDefinitionIndex(12331)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5053 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(12453), inst: 5054 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(12322))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12324)) CS Name: ::TMPro::WordWrapState
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12334)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(12453), inst: 5052 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), TypeDefinitionIndex(TypeDefinitionIndex(12453)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 }), TypeDefinitionIndex(TypeDefinitionIndex(12430)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(12438)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(12322)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(12453), inst: 742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12324)) CS Name:
+// ::TMPro::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations

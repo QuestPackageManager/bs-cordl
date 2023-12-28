@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__X25519Agreement_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IRawAgreement_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__X25519PrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__X25519PrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IRawAgreement_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Agreement::X25519Agreement.Init
 template <>
 
@@ -69,16 +69,16 @@ constexpr Org::BouncyCastle::Crypto::Agreement::X25519Agreement::operator ::Org:
   return static_cast<::Org::BouncyCastle::Crypto::IRawAgreement*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters*& Org::BouncyCastle::Crypto::Agreement::X25519Agreement::__get_privateKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters*> const&
 Org::BouncyCastle::Crypto::Agreement::X25519Agreement::__get_privateKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
 constexpr void Org::BouncyCastle::Crypto::Agreement::X25519Agreement::__set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crypto::Agreement::X25519Agreement::Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters) {

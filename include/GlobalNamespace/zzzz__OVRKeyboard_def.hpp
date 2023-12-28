@@ -102,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRKeyboard__
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7790)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7791))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7791)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7790))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8026))
 // CS Name: ::OVRKeyboard::TrackedKeyboardInfo
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardInfo {

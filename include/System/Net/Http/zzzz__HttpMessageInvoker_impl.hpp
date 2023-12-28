@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageInvoker_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpMessageInvoker._ctor
 template <>
 
@@ -70,27 +70,27 @@ constexpr System::Net::Http::HttpMessageInvoker::operator ::System::IDisposable*
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::Http::HttpMessageHandler*& System::Net::Http::HttpMessageInvoker::__get_handler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpMessageHandler*> const& System::Net::Http::HttpMessageInvoker::__get_handler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler;
 }
 constexpr void System::Net::Http::HttpMessageInvoker::__set_handler(::System::Net::Http::HttpMessageHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Http::HttpMessageInvoker::__get_disposeHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposeHandler;
 }
 constexpr bool const& System::Net::Http::HttpMessageInvoker::__get_disposeHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposeHandler;
 }
 constexpr void System::Net::Http::HttpMessageInvoker::__set_disposeHandler(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposeHandler = value;
 }
 inline ::System::Net::Http::HttpMessageInvoker* System::Net::Http::HttpMessageInvoker::New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {

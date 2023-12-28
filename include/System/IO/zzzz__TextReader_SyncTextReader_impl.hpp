@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__TextReader_impl.hpp"
 #include "System/IO/zzzz__TextReader_SyncTextReader_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
 //  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader._ctor
 template <>
 
@@ -134,15 +134,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::TextReader*& System::IO::__TextReader__SyncTextReader::__get__in() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____in;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& System::IO::__TextReader__SyncTextReader::__get__in() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____in;
 }
 constexpr void System::IO::__TextReader__SyncTextReader::__set__in(::System::IO::TextReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____in)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::__TextReader__SyncTextReader* System::IO::__TextReader__SyncTextReader::New_ctor(::System::IO::TextReader* t) {

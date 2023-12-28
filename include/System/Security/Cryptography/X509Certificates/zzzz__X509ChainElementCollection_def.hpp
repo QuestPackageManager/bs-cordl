@@ -5,17 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElementCollection)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class ArrayList;
+class IEnumerator;
 }
-namespace System {
-class Array;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementEnumerator;
@@ -23,11 +26,8 @@ class X509ChainElementEnumerator;
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Array;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;

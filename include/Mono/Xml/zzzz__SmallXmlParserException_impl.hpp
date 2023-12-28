@@ -18,27 +18,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Mono::Xml::SmallXmlParserException::__get_line() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___line;
 }
 constexpr int32_t const& Mono::Xml::SmallXmlParserException::__get_line() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___line;
 }
 constexpr void Mono::Xml::SmallXmlParserException::__set_line(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___line = value;
 }
 constexpr int32_t& Mono::Xml::SmallXmlParserException::__get_column() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
 constexpr int32_t const& Mono::Xml::SmallXmlParserException::__get_column() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
 constexpr void Mono::Xml::SmallXmlParserException::__set_column(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___column = value;
 }
 inline ::Mono::Xml::SmallXmlParserException* Mono::Xml::SmallXmlParserException::New_ctor(::StringW msg, int32_t line, int32_t column) {

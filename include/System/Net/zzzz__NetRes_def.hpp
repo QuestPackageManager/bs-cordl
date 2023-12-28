@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetRes)
 namespace System::Net {
-struct WebExceptionStatus;
+struct FtpStatusCode;
 }
 namespace System::Net {
-struct FtpStatusCode;
+struct WebExceptionStatus;
 }
 // Forward declare root types
 namespace System::Net {

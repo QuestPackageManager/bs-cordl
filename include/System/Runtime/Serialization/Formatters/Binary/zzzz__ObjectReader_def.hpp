@@ -9,74 +9,74 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectReader)
-namespace System::Runtime::Serialization {
-class ObjectManager;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoInit;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class NameCache;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class IntSizedArray;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __ObjectReader__TopLevelAssemblyTypeResolver;
-}
-namespace System::Runtime::Serialization {
-class SerializationBinder;
+class ParseRecord;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class InternalFE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __ObjectReader__TypeNAssembly;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
 namespace System::Runtime::Remoting::Messaging {
 class HeaderHandler;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
 }
 namespace System::Reflection {
 class AssemblyName;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssemblyInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __ObjectReader__TopLevelAssemblyTypeResolver;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __ObjectReader__TypeNAssembly;
+}
+namespace System::Runtime::Serialization {
+class ObjectManager;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class IntSizedArray;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoInit;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class InternalFE;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3288))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectReader*
 class CORDL_TYPE ObjectReader : public ::System::Object {

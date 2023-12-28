@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlResolver.GetEntity
 template <>

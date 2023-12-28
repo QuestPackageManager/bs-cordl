@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Character)
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
 namespace UnityEngine::TextCore {
 class Glyph;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

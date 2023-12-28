@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(HoverHintPanel)
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct Rect;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::HMUI::HoverHintPanel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13536))
 // CS Name: ::HMUI::HoverHintPanel*
 class CORDL_TYPE HoverHintPanel : public ::UnityEngine::MonoBehaviour {

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IRemoteProcedureCall)
-namespace GlobalNamespace {
-class IPoolablePacket;
-}
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 // Forward declare root types
 namespace GlobalNamespace {

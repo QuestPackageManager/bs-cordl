@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__Bone_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(BoneControl)
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
 namespace UnityEngine::InputSystem::XR {
 struct Bone;
 }
@@ -16,6 +13,9 @@ class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {

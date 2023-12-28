@@ -15,11 +15,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerInputManager)
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::InputSystem {
+struct PlayerNotifications;
+}
+namespace UnityEngine::InputSystem {
+class __PlayerInputManager__PlayerJoinedEvent;
 }
 namespace UnityEngine::InputSystem {
 class __PlayerInputManager__PlayerLeftEvent;
@@ -27,35 +36,26 @@ class __PlayerInputManager__PlayerLeftEvent;
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::InputSystem {
+struct InputActionProperty;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;
 }
 namespace UnityEngine::InputSystem {
-class PlayerInput;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionProperty;
-}
-namespace UnityEngine::InputSystem {
-class __PlayerInputManager__PlayerJoinedEvent;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine {
-struct Rect;
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 struct PlayerJoinBehavior;
 }
-namespace UnityEngine::InputSystem {
-struct PlayerNotifications;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::InputSystem {
+class PlayerInput;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6315)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
 class CORDL_TYPE __PlayerInputManager__PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
   // Declarations
@@ -109,8 +109,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6315)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
 class CORDL_TYPE __PlayerInputManager__PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
   // Declarations
@@ -143,9 +143,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 378
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6164)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 988 }), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(6320))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 988
+// }), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2323), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6320))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(6318)) CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
 class CORDL_TYPE PlayerInputManager : public ::UnityEngine::MonoBehaviour {
 public:

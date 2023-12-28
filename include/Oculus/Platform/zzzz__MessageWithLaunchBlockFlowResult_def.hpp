@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchBlockFlowResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4588 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13441))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13293)) CS Name: ::Oculus.Platform::MessageWithLaunchBlockFlowResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13441)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4588 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13293)) CS Name: ::Oculus.Platform::MessageWithLaunchBlockFlowResult*
 class CORDL_TYPE MessageWithLaunchBlockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchBlockFlowResult*> {
 public:
   // Declarations

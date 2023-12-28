@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::ICriticalNotifyCompletion.UnsafeOnCompleted
 template <>
 

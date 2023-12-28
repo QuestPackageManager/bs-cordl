@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RangeItemHeaderValue)
 namespace System {
-class ICloneable;
+class Object;
 }
 namespace System {
-class Object;
+class ICloneable;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeItemHeaderValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14705)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14705)) CS Name: ::System.Net.Http.Headers::RangeItemHeaderValue*
 class CORDL_TYPE RangeItemHeaderValue : public ::System::Object {
 public:
   // Declarations

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimeGeneratorBase)
 namespace Mono::Math::Prime {
-struct ConfidenceFactor;
-}
-namespace Mono::Math::Prime {
 class PrimalityTest;
 }
 namespace Mono::Math {
 class BigInteger;
+}
+namespace Mono::Math::Prime {
+struct ConfidenceFactor;
 }
 // Forward declare root types
 namespace Mono::Math::Prime::Generator {

@@ -4,8 +4,17 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILobbyPlayersDataModel)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
@@ -14,22 +23,13 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {

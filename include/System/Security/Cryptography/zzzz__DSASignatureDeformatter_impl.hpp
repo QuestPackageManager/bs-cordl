@@ -82,27 +82,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::DSA*& System::Security::Cryptography::DSASignatureDeformatter::__get__dsaKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dsaKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DSA*> const& System::Security::Cryptography::DSASignatureDeformatter::__get__dsaKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dsaKey;
 }
 constexpr void System::Security::Cryptography::DSASignatureDeformatter::__set__dsaKey(::System::Security::Cryptography::DSA* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dsaKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::Cryptography::DSASignatureDeformatter::__get__oid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
 constexpr ::StringW const& System::Security::Cryptography::DSASignatureDeformatter::__get__oid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
 constexpr void System::Security::Cryptography::DSASignatureDeformatter::__set__oid(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::DSASignatureDeformatter* System::Security::Cryptography::DSASignatureDeformatter::New_ctor() {

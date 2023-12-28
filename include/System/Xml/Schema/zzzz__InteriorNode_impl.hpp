@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.get_LeftChild
 template <>
 
@@ -108,27 +108,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::InteriorNode::__get_leftChild() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftChild;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& System::Xml::Schema::InteriorNode::__get_leftChild() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftChild;
 }
 constexpr void System::Xml::Schema::InteriorNode::__set_leftChild(::System::Xml::Schema::SyntaxTreeNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftChild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::InteriorNode::__get_rightChild() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightChild;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& System::Xml::Schema::InteriorNode::__get_rightChild() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightChild;
 }
 constexpr void System::Xml::Schema::InteriorNode::__set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightChild)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Schema::SyntaxTreeNode* System::Xml::Schema::InteriorNode::get_LeftChild() {

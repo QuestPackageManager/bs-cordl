@@ -14,38 +14,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncSceneContext)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace BGLib::AppFlow::Initialization {
-struct __AsyncSceneContext___LoadInstallersAsync_d__6;
-}
-namespace BGLib::AppFlow::Initialization {
-class AsyncInstaller;
-}
-namespace BGLib::AppFlow::Initialization {
-class AsyncInstallerRegistry;
+struct __AsyncSceneContext___Run_d__4;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace BGLib::AppFlow::Initialization {
-struct __AsyncSceneContext__State;
-}
-namespace BGLib::AppFlow::Initialization {
-struct __AsyncSceneContext___Run_d__4;
-}
-namespace System::Threading::Tasks {
-class Task;
+class AsyncInstallerRegistry;
 }
 namespace BGLib::AppFlow::Initialization {
 class __AsyncSceneContext____c__DisplayClass6_0;
 }
 namespace BGLib::AppFlow::Initialization {
+struct __AsyncSceneContext___LoadInstallersAsync_d__6;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace BGLib::AppFlow::Initialization {
 struct __AsyncSceneContext___RunAsync_d__5;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace BGLib::AppFlow::Initialization {
+class AsyncInstaller;
+}
+namespace BGLib::AppFlow::Initialization {
+struct __AsyncSceneContext__State;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -54,10 +51,13 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -144,7 +144,7 @@ static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15425))
 // CS Name: ::AsyncSceneContext::<Run>d__4
 struct CORDL_TYPE __AsyncSceneContext___Run_d__4 {
@@ -194,8 +194,8 @@ static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(15423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 874
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15426)) CS Name: ::AsyncSceneContext::<RunAsync>d__5
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15423)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 874 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15426)) CS Name: ::AsyncSceneContext::<RunAsync>d__5
 struct CORDL_TYPE __AsyncSceneContext___RunAsync_d__5 {
 public:
   // Declarations
@@ -295,7 +295,7 @@ static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15423)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15423)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 874 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15428)) CS Name:
 // ::AsyncSceneContext::<LoadInstallersAsync>d__6
 struct CORDL_TYPE __AsyncSceneContext___LoadInstallersAsync_d__6 {

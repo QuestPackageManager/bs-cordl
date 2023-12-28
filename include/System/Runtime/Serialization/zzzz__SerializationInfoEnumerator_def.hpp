@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationInfoEnumerator)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 struct SerializationEntry;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

@@ -12,9 +12,6 @@ CORDL_MODULE_EXPORT(CVRApplications)
 namespace OVR::OpenVR {
 struct AppOverrideKeys_t;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace OVR::OpenVR {
 struct EVRApplicationError;
 }
@@ -23,6 +20,9 @@ struct EVRApplicationProperty;
 }
 namespace OVR::OpenVR {
 struct EVRApplicationTransitionState;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

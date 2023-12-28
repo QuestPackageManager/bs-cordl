@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnhandledExceptionEventHandler)
 namespace System {
-class Object;
+class UnhandledExceptionEventArgs;
 }
 namespace System {
-class UnhandledExceptionEventArgs;
+class Object;
 }
 // Forward declare root types
 namespace System {

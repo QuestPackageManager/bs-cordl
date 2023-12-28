@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoseSerializable)
-namespace GlobalNamespace {
-struct Vector3Serializable;
-}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
+}
+namespace UnityEngine {
+struct Pose;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 struct QuaternionSerializable;
 }
-namespace UnityEngine {
-struct Pose;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct Vector3Serializable;
 }
 namespace System {
 class Object;
@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::PoseSerializable);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15041)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15041))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15042))
 // CS Name: ::PoseSerializable
 struct CORDL_TYPE PoseSerializable {

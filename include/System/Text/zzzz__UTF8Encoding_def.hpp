@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UTF8Encoding)
 namespace System::Text {
-class DecoderFallbackBuffer;
+class Decoder;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::Text {
+class DecoderFallbackBuffer;
 }
 namespace System::Text {
 class __UTF8Encoding__UTF8EncodingSealed;
 }
-namespace System::Text {
-class __UTF8Encoding__UTF8Encoder;
-}
-namespace System::Text {
-class __UTF8Encoding__UTF8Decoder;
-}
-namespace System::Text {
-class Decoder;
-}
-namespace System::Text {
-class EncoderNLS;
-}
-namespace System::Text {
-class Encoder;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 class Object;
 }
 namespace System::Text {
+class EncoderNLS;
+}
+namespace System::Text {
 class DecoderNLS;
+}
+namespace System::Text {
+class __UTF8Encoding__UTF8Encoder;
+}
+namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
+class __UTF8Encoding__UTF8Decoder;
 }
 // Forward declare root types
 namespace System::Text {

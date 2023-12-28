@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(XmlNumeric2Converter)
 namespace System {
+class Object;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
@@ -14,12 +20,6 @@ class XmlValueConverter;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
-}
-namespace System {
-class Object;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

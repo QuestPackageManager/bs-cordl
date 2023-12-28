@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateMachineBehaviour)
 namespace UnityEngine {
+struct AnimatorStateInfo;
+}
+namespace UnityEngine {
 class Animator;
 }
 namespace UnityEngine::Animations {
 struct AnimatorControllerPlayable;
-}
-namespace UnityEngine {
-struct AnimatorStateInfo;
 }
 // Forward declare root types
 namespace UnityEngine {

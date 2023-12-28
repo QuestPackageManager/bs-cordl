@@ -4,35 +4,35 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAvatarSystem)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace BeatSaber::AvatarCore {
 struct AvatarDisplayContext;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace BeatSaber::AvatarCore {
-class AvatarSelectionView;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class IOptionalAvatarDataProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
 struct MultiplayerAvatarData;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarSelectionView;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
 class Avatar;
-}
-namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

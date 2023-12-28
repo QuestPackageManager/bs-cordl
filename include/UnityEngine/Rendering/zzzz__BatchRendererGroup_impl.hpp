@@ -3,11 +3,11 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererCullingOutput_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling._ctor
 template <>
@@ -78,27 +78,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr void*& UnityEngine::Rendering::BatchRendererGroup::__get_m_GroupHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupHandle;
 }
 constexpr void* const& UnityEngine::Rendering::BatchRendererGroup::__get_m_GroupHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupHandle;
 }
 constexpr void UnityEngine::Rendering::BatchRendererGroup::__set_m_GroupHandle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_GroupHandle = value;
 }
 constexpr ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*& UnityEngine::Rendering::BatchRendererGroup::__get_m_PerformCulling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PerformCulling;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*> const& UnityEngine::Rendering::BatchRendererGroup::__get_m_PerformCulling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PerformCulling;
 }
 constexpr void UnityEngine::Rendering::BatchRendererGroup::__set_m_PerformCulling(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PerformCulling)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,

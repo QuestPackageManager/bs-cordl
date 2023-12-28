@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INotificationReceiver)
 namespace UnityEngine::Playables {
-class INotification;
+struct Playable;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+class INotification;
 }
 namespace System {
 class Object;

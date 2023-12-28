@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Xml::Schema::XmlSchemaCompilationSettings::__get_enableUpaCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableUpaCheck;
 }
 constexpr bool const& System::Xml::Schema::XmlSchemaCompilationSettings::__get_enableUpaCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableUpaCheck;
 }
 constexpr void System::Xml::Schema::XmlSchemaCompilationSettings::__set_enableUpaCheck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableUpaCheck = value;
 }
 inline ::System::Xml::Schema::XmlSchemaCompilationSettings* System::Xml::Schema::XmlSchemaCompilationSettings::New_ctor() {

@@ -72,27 +72,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::VRController*& GlobalNamespace::PlayerVRControllersManager::__get__leftHandVRController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandVRController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& GlobalNamespace::PlayerVRControllersManager::__get__leftHandVRController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandVRController;
 }
 constexpr void GlobalNamespace::PlayerVRControllersManager::__set__leftHandVRController(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftHandVRController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VRController*& GlobalNamespace::PlayerVRControllersManager::__get__rightHandVRController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandVRController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& GlobalNamespace::PlayerVRControllersManager::__get__rightHandVRController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandVRController;
 }
 constexpr void GlobalNamespace::PlayerVRControllersManager::__set__rightHandVRController(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightHandVRController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::VRController* GlobalNamespace::PlayerVRControllersManager::get_leftHandVRController() {

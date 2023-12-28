@@ -11,7 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateManager)
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+struct PoseSerializable;
+}
+namespace GlobalNamespace {
+struct __NodePoseSyncState__NodePose;
+}
+namespace GlobalNamespace {
+struct NodePoseSyncState;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
 }
 namespace GlobalNamespace {
 class INodePoseSyncStateManager;
@@ -20,22 +29,13 @@ namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
-}
-namespace GlobalNamespace {
-struct NodePoseSyncState;
-}
-namespace GlobalNamespace {
-struct PoseSerializable;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateDeltaNetSerializable;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
-struct __NodePoseSyncState__NodePose;
+class NodePoseSyncStateDeltaNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,9 +47,9 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14951)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3651 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12972)), TypeDefinitionIndex(TypeDefinitionIndex(12974)), TypeDefinitionIndex(TypeDefinitionIndex(15042)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12975))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14966)) CS Name: ::NodePoseSyncStateManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12974)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3651 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15042)), TypeDefinitionIndex(TypeDefinitionIndex(14951)), TypeDefinitionIndex(TypeDefinitionIndex(12975)), TypeDefinitionIndex(TypeDefinitionIndex(12973)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12972))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14966)) CS Name: ::NodePoseSyncStateManager*
 class CORDL_TYPE NodePoseSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::__NodePoseSyncState__NodePose, ::GlobalNamespace::PoseSerializable,
                                                               ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*> {

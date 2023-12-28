@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XsdDateTime)
 namespace System {
-struct DateTimeOffset;
-}
-namespace System::Xml::Schema {
-struct XsdDateTimeFlags;
-}
-namespace System {
 struct DateTime;
 }
 namespace System::Xml::Schema {
 struct __XsdDateTime__XsdDateTimeKind;
 }
+namespace System {
+struct DateTimeOffset;
+}
+namespace System::Xml::Schema {
+struct __XsdDateTime__DateTimeTypeCode;
+}
 namespace System::Xml::Schema {
 struct __XsdDateTime__Parser;
 }
 namespace System::Xml::Schema {
-struct __XsdDateTime__DateTimeTypeCode;
+struct XsdDateTimeFlags;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;
@@ -188,7 +188,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XsdDateTi
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11761)), TypeDefinitionIndex(TypeDefinitionIndex(11760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11760)), TypeDefinitionIndex(TypeDefinitionIndex(11761))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11762))
 // CS Name: ::XsdDateTime::Parser
 struct CORDL_TYPE __XsdDateTime__Parser {

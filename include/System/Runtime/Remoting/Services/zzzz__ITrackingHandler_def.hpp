@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ITrackingHandler)
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Services {

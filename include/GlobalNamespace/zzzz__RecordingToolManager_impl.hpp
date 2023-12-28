@@ -3,23 +3,23 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
-#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingSettings_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 // Ctor Parameters [CppParam { name: "profileSong", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "runAutopilot", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__RecordingToolManager__SetupData::__RecordingToolManager__SetupData(bool profileSong, bool runAutopilot) noexcept {
   this->profileSong = profileSong;
@@ -336,135 +336,135 @@ constexpr GlobalNamespace::RecordingToolManager::operator ::System::IDisposable*
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& GlobalNamespace::RecordingToolManager::__get__gameplayLevelSceneTransitionEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayLevelSceneTransitionEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& GlobalNamespace::RecordingToolManager::__get__gameplayLevelSceneTransitionEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayLevelSceneTransitionEvents;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayLevelSceneTransitionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameScenesManager*& GlobalNamespace::RecordingToolManager::__get__gameScenesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameScenesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& GlobalNamespace::RecordingToolManager::__get__gameScenesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameScenesManager;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__gameScenesManager(::GlobalNamespace::GameScenesManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::RecordingToolManager::__get__recordingToolEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolEnabled;
 }
 constexpr bool const& GlobalNamespace::RecordingToolManager::__get__recordingToolEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolEnabled;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__recordingToolEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____recordingToolEnabled = value;
 }
 constexpr bool& GlobalNamespace::RecordingToolManager::__get__performanceRecordingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____performanceRecordingEnabled;
 }
 constexpr bool const& GlobalNamespace::RecordingToolManager::__get__performanceRecordingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____performanceRecordingEnabled;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__performanceRecordingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____performanceRecordingEnabled = value;
 }
 constexpr ::StringW& GlobalNamespace::RecordingToolManager::__get__configJsonData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configJsonData;
 }
 constexpr ::StringW const& GlobalNamespace::RecordingToolManager::__get__configJsonData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configJsonData;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__configJsonData(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____configJsonData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingToolSettings*& GlobalNamespace::RecordingToolManager::__get__recordingToolSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSettings*> const& GlobalNamespace::RecordingToolManager::__get__recordingToolSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSettings;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor*& GlobalNamespace::RecordingToolManager::__get__configurationProcessor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configurationProcessor;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolConfigurationProcessor*> const& GlobalNamespace::RecordingToolManager::__get__configurationProcessor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configurationProcessor;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__configurationProcessor(::GlobalNamespace::RecordingToolConfigurationProcessor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____configurationProcessor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& GlobalNamespace::RecordingToolManager::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::RecordingToolManager::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::RecordingToolManager::__get__logger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::RecordingToolManager::__get__logger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__logger(::GlobalNamespace::IBeatSaberLogger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IPosesSerializer*& GlobalNamespace::RecordingToolManager::__get__posesSerializer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posesSerializer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& GlobalNamespace::RecordingToolManager::__get__posesSerializer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posesSerializer;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__posesSerializer(::GlobalNamespace::IPosesSerializer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____posesSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::RecordingToolManager::__get__currentRecordingIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentRecordingIndex;
 }
 constexpr int32_t const& GlobalNamespace::RecordingToolManager::__get__currentRecordingIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentRecordingIndex;
 }
 constexpr void GlobalNamespace::RecordingToolManager::__set__currentRecordingIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentRecordingIndex = value;
 }
 inline bool GlobalNamespace::RecordingToolManager::get_recordingToolEnabled() {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueCollection_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueCollection_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Experimental::StyleValues.set_top
 template <>
 

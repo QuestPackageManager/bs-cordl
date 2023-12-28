@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Xml::Serialization::XmlAttributeAttribute::__get_attributeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeName;
 }
 constexpr ::StringW const& System::Xml::Serialization::XmlAttributeAttribute::__get_attributeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeName;
 }
 constexpr void System::Xml::Serialization::XmlAttributeAttribute::__set_attributeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Serialization::XmlAttributeAttribute* System::Xml::Serialization::XmlAttributeAttribute::New_ctor(::StringW attributeName) {

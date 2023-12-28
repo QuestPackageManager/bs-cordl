@@ -9,43 +9,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NatPunchModule)
 namespace LiteNetLib {
-class __NatPunchModule__NatPunchPacket;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+class INatPunchListener;
 }
 namespace LiteNetLib {
-struct __NatPunchModule__RequestEventData;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceRequestPacket;
+class __NatPunchModule__NatIntroduceResponsePacket;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceResponsePacket;
+struct __NatPunchModule__RequestEventData;
+}
+namespace LiteNetLib {
+class NetSocket;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatPunchPacket;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatIntroduceRequestPacket;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib {
 struct __NatPunchModule__SuccessEventData;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+namespace System::Net {
+class IPEndPoint;
 }
 namespace LiteNetLib::Utils {
 class NetPacketProcessor;
 }
 namespace LiteNetLib {
-class INatPunchListener;
-}
-namespace LiteNetLib {
 class NetPacket;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-class NetSocket;
 }
 namespace LiteNetLib {
 struct NatAddressType;

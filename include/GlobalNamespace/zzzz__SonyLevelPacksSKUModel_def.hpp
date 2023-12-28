@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLevelPacksSKUModel)
 namespace GlobalNamespace {
-class __SonyLevelPacksSKUModel__LevelProductData;
+class __SonyLevelPacksSKUModel__PricePerBundlePair;
 }
 namespace GlobalNamespace {
-class __SonyLevelPacksSKUModel__PricePerBundlePair;
+class __SonyLevelPacksSKUModel__LevelProductData;
 }
 namespace GlobalNamespace {
 class __SonyLevelPacksSKUModel__LevelPackProductData;

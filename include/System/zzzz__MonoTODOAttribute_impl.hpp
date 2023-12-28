@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::MonoTODOAttribute::__get_comment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comment;
 }
 constexpr ::StringW const& System::MonoTODOAttribute::__get_comment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comment;
 }
 constexpr void System::MonoTODOAttribute::__set_comment(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::MonoTODOAttribute* System::MonoTODOAttribute::New_ctor() {

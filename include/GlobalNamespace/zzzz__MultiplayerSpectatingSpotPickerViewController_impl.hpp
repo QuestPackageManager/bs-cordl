@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotPickerViewController_def.hpp"
-#include "GlobalNamespace/zzzz__StepValuePicker_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
+#include "GlobalNamespace/zzzz__StepValuePicker_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController.Start
 template <>
@@ -110,28 +110,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::StepValuePicker*& GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::__get__stepValuePicker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepValuePicker;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::__get__stepValuePicker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepValuePicker;
 }
 constexpr void GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::__set__stepValuePicker(::GlobalNamespace::StepValuePicker* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stepValuePicker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerSpectatorController*& GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::__get__spectatorController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatorController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatorController*> const&
 GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::__get__spectatorController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatorController;
 }
 constexpr void GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::__set__spectatorController(::GlobalNamespace::MultiplayerSpectatorController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectatorController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::Start() {

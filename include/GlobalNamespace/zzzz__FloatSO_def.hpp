@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(15869))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 391 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15864))
 // CS Name: ::FloatSO*
 class CORDL_TYPE FloatSO : public ::GlobalNamespace::ObservableVariableSO_1<float_t> {

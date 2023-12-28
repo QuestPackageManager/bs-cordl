@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
+#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
-#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_maxPartySize
 template <>
 
@@ -181,147 +181,147 @@ constexpr GlobalNamespace::NetworkConfigSO::operator ::GlobalNamespace::INetwork
   return static_cast<::GlobalNamespace::INetworkConfig*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::NetworkConfigSO::__get__maxPartySize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPartySize;
 }
 constexpr int32_t const& GlobalNamespace::NetworkConfigSO::__get__maxPartySize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPartySize;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__maxPartySize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxPartySize = value;
 }
 constexpr int32_t& GlobalNamespace::NetworkConfigSO::__get__discoveryPort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____discoveryPort;
 }
 constexpr int32_t const& GlobalNamespace::NetworkConfigSO::__get__discoveryPort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____discoveryPort;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__discoveryPort(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____discoveryPort = value;
 }
 constexpr int32_t& GlobalNamespace::NetworkConfigSO::__get__partyPort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyPort;
 }
 constexpr int32_t const& GlobalNamespace::NetworkConfigSO::__get__partyPort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyPort;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__partyPort(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____partyPort = value;
 }
 constexpr int32_t& GlobalNamespace::NetworkConfigSO::__get__multiplayerPort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPort;
 }
 constexpr int32_t const& GlobalNamespace::NetworkConfigSO::__get__multiplayerPort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPort;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__multiplayerPort(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplayerPort = value;
 }
 constexpr int32_t& GlobalNamespace::NetworkConfigSO::__get__masterServerPort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerPort;
 }
 constexpr int32_t const& GlobalNamespace::NetworkConfigSO::__get__masterServerPort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerPort;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__masterServerPort(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____masterServerPort = value;
 }
 constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__get__masterServerHostName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerHostName;
 }
 constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__get__masterServerHostName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerHostName;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__masterServerHostName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterServerHostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__get__multiplayerStatusUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusUrl;
 }
 constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__get__multiplayerStatusUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusUrl;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__multiplayerStatusUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerStatusUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__get__quickPlaySetupUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupUrl;
 }
 constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__get__quickPlaySetupUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupUrl;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__quickPlaySetupUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickPlaySetupUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__get__graphUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphUrl;
 }
 constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__get__graphUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphUrl;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__graphUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__get__graphAppId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAppId;
 }
 constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__get__graphAppId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAppId;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__graphAppId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAppId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::NetworkConfigSO::__get__forceGameLift() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceGameLift;
 }
 constexpr bool const& GlobalNamespace::NetworkConfigSO::__get__forceGameLift() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceGameLift;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__forceGameLift(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceGameLift = value;
 }
 constexpr ::GlobalNamespace::ServiceEnvironment& GlobalNamespace::NetworkConfigSO::__get__serviceEnvironment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceEnvironment;
 }
 constexpr ::GlobalNamespace::ServiceEnvironment const& GlobalNamespace::NetworkConfigSO::__get__serviceEnvironment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceEnvironment;
 }
 constexpr void GlobalNamespace::NetworkConfigSO::__set__serviceEnvironment(::GlobalNamespace::ServiceEnvironment value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____serviceEnvironment = value;
 }
 inline int32_t GlobalNamespace::NetworkConfigSO::get_maxPartySize() {

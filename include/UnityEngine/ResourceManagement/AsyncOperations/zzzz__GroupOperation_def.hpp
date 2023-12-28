@@ -12,25 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupOperation)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct __GroupOperation__GroupOperationSettings;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class ICachable;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -38,8 +35,11 @@ template <typename T> class Action_1;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -107,9 +107,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 792 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14038)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14037)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14032), inst: 792 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14038)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
 class CORDL_TYPE GroupOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> {
 public:

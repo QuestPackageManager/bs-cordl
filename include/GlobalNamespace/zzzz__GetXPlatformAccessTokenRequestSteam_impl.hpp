@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__get_platformToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformToken;
 }
 constexpr ::StringW const& GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__get_platformToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformToken;
 }
 constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__set_platformToken(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___platformToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__get_platformUserId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformUserId;
 }
 constexpr int64_t const& GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__get_platformUserId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformUserId;
 }
 constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__set_platformUserId(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___platformUserId = value;
 }
 inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam* GlobalNamespace::GetXPlatformAccessTokenRequestSteam::New_ctor(::StringW platformToken, int64_t platformUserId) {

@@ -18,15 +18,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::LaunchInvitePanelFlowResult::__get_InvitedUsers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvitedUsers;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::LaunchInvitePanelFlowResult::__get_InvitedUsers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvitedUsers;
 }
 constexpr void Oculus::Platform::Models::LaunchInvitePanelFlowResult::__set_InvitedUsers(::Oculus::Platform::Models::UserList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InvitedUsers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* Oculus::Platform::Models::LaunchInvitePanelFlowResult::New_ctor(void* o) {

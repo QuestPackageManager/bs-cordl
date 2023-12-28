@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IGameLiftPlayerSessionProvider)
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
 class IPollable;
 }
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
-}
 namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+struct GameplayServerConfiguration;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {

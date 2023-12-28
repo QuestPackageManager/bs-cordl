@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlBoolAttributeDescription)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class __UxmlBoolAttributeDescription____c;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -95,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlB
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 105 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(6982))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6992))
 // CS Name: ::UnityEngine.UIElements::UxmlBoolAttributeDescription*
 class CORDL_TYPE UxmlBoolAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<bool> {

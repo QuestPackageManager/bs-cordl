@@ -85,27 +85,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Zenject::ValidationMarker::__get__InstantiateFailed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InstantiateFailed_k__BackingField;
 }
 constexpr bool const& Zenject::ValidationMarker::__get__InstantiateFailed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InstantiateFailed_k__BackingField;
 }
 constexpr void Zenject::ValidationMarker::__set__InstantiateFailed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____InstantiateFailed_k__BackingField = value;
 }
 constexpr ::System::Type*& Zenject::ValidationMarker::__get__MarkedType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MarkedType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::ValidationMarker::__get__MarkedType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MarkedType_k__BackingField;
 }
 constexpr void Zenject::ValidationMarker::__set__MarkedType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MarkedType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::ValidationMarker* Zenject::ValidationMarker::New_ctor(::System::Type* markedType, bool instantiateFailed) {

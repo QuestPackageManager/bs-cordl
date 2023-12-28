@@ -7,18 +7,18 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
+#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16.MoveNext
 template <>
@@ -330,100 +330,100 @@ constexpr GlobalNamespace::PlatformAuthenticationTokenProvider::operator ::Globa
   return static_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IPlatformUserModel*& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__platformUserModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformUserModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__platformUserModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformUserModel;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformUserModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr ::StringW const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName;
 }
 constexpr ::StringW const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__hashedUserId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashedUserId;
 }
 constexpr ::StringW const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__hashedUserId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashedUserId;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__hashedUserId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hashedUserId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__AuthenticationToken__Platform& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__platform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platform;
 }
 constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__platform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platform;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__platform(::GlobalNamespace::__AuthenticationToken__Platform value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____platform = value;
 }
 constexpr ::GlobalNamespace::XPlatformAccessTokenData*& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__cachedXPlatformAccessToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedXPlatformAccessToken;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAccessTokenData*> const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__cachedXPlatformAccessToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedXPlatformAccessToken;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__cachedXPlatformAccessToken(::GlobalNamespace::XPlatformAccessTokenData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedXPlatformAccessToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>*& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__xPlatformAccessTokenTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPlatformAccessTokenTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>*> const&
 GlobalNamespace::PlatformAuthenticationTokenProvider::__get__xPlatformAccessTokenTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPlatformAccessTokenTask;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__xPlatformAccessTokenTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xPlatformAccessTokenTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__xPlatformTokenRetryDelayExpiration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPlatformTokenRetryDelayExpiration;
 }
 constexpr float_t const& GlobalNamespace::PlatformAuthenticationTokenProvider::__get__xPlatformTokenRetryDelayExpiration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPlatformTokenRetryDelayExpiration;
 }
 constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__set__xPlatformTokenRetryDelayExpiration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xPlatformTokenRetryDelayExpiration = value;
 }
 inline ::StringW GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId() {

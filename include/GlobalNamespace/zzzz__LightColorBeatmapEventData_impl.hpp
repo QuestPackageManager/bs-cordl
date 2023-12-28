@@ -3,11 +3,11 @@
 #include "GlobalNamespace/zzzz__BeatmapEventTransitionType_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorBeatmapEventData.get_colorType
 template <>
 
@@ -248,99 +248,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::LightColorBeatmapEventData::__get_groupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
 constexpr int32_t const& GlobalNamespace::LightColorBeatmapEventData::__get_groupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set_groupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___groupId = value;
 }
 constexpr int32_t& GlobalNamespace::LightColorBeatmapEventData::__get_elementId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
 constexpr int32_t const& GlobalNamespace::LightColorBeatmapEventData::__get_elementId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set_elementId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementId = value;
 }
 constexpr ::GlobalNamespace::BeatmapEventTransitionType& GlobalNamespace::LightColorBeatmapEventData::__get_transitionType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transitionType;
 }
 constexpr ::GlobalNamespace::BeatmapEventTransitionType const& GlobalNamespace::LightColorBeatmapEventData::__get_transitionType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transitionType;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set_transitionType(::GlobalNamespace::BeatmapEventTransitionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___transitionType = value;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::LightColorBeatmapEventData::__get__colorType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::LightColorBeatmapEventData::__get__colorType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set__colorType_k__BackingField(::GlobalNamespace::EnvironmentColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorType_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::LightColorBeatmapEventData::__get__brightness_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightness_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::LightColorBeatmapEventData::__get__brightness_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightness_k__BackingField;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set__brightness_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____brightness_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::LightColorBeatmapEventData::__get__strobeBeatFrequency_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strobeBeatFrequency_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::LightColorBeatmapEventData::__get__strobeBeatFrequency_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strobeBeatFrequency_k__BackingField;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set__strobeBeatFrequency_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____strobeBeatFrequency_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::LightColorBeatmapEventData::__get__strobeBrightness_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strobeBrightness_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::LightColorBeatmapEventData::__get__strobeBrightness_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strobeBrightness_k__BackingField;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set__strobeBrightness_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____strobeBrightness_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LightColorBeatmapEventData::__get__strobeFade_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strobeFade_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LightColorBeatmapEventData::__get__strobeFade_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strobeFade_k__BackingField;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventData::__set__strobeFade_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____strobeFade_k__BackingField = value;
 }
 inline void GlobalNamespace::LightColorBeatmapEventData::setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightColorBeatmapEventData*>* value) {

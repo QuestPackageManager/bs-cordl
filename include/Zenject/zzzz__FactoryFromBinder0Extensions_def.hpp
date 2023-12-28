@@ -10,7 +10,16 @@ namespace Zenject {
 template <typename TContract> class __FactoryFromBinder0Extensions____c__1_1;
 }
 namespace Zenject {
+template <typename TContract> class __FactoryFromBinder0Extensions____c__DisplayClass6_0_1;
+}
+namespace Zenject {
+class ArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
 template <typename TContract> class FactoryFromBinder_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace Zenject {
 template <typename TContract, typename TMemoryPool> class __FactoryFromBinder0Extensions____c__5_2;
@@ -19,22 +28,13 @@ namespace Zenject {
 template <typename TContract, typename TMemoryPool> class __FactoryFromBinder0Extensions____c__DisplayClass0_0_2;
 }
 namespace Zenject {
-template <typename TContract> class __FactoryFromBinder0Extensions____c__3_1;
-}
-namespace Zenject {
-template <typename TContract> class __FactoryFromBinder0Extensions____c__DisplayClass6_0_1;
-}
-namespace Zenject {
 template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class ArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+template <typename TContract> class __FactoryFromBinder0Extensions____c__3_1;
 }
 namespace Zenject {
 template <typename TValue> class IFactory_1;
@@ -46,10 +46,10 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class DiContainer;
+class IProvider;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -83,7 +83,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10717))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__DisplayClass0_0`2<TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__DisplayClass0_0_2 : public ::System::Object {
@@ -313,7 +313,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10721))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__DisplayClass6_0`1<TContract>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__DisplayClass6_0_1 : public ::System::Object {

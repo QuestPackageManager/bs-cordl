@@ -11,28 +11,28 @@ namespace System {
 class Object;
 }
 namespace System::IO {
+class TextReader;
+}
+namespace System::IO {
+class TextWriter;
+}
+namespace System {
+class ConsoleCancelEventHandler;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::IO {
 struct FileAccess;
 }
 namespace System {
 struct ConsoleKeyInfo;
 }
-namespace System::IO {
-class TextWriter;
-}
-namespace System::IO {
-class TextReader;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System {
 class __Console__WindowsConsole;
-}
-namespace System {
-class ConsoleCancelEventHandler;
 }
 namespace GlobalNamespace {
 class __Console__WindowsConsole__WindowsCancelHandler;

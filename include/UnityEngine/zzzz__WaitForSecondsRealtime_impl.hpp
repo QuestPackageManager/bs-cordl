@@ -71,27 +71,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::WaitForSecondsRealtime::__get__waitTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitTime_k__BackingField;
 }
 constexpr float_t const& UnityEngine::WaitForSecondsRealtime::__get__waitTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitTime_k__BackingField;
 }
 constexpr void UnityEngine::WaitForSecondsRealtime::__set__waitTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____waitTime_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::WaitForSecondsRealtime::__get_m_WaitUntilTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitUntilTime;
 }
 constexpr float_t const& UnityEngine::WaitForSecondsRealtime::__get_m_WaitUntilTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitUntilTime;
 }
 constexpr void UnityEngine::WaitForSecondsRealtime::__set_m_WaitUntilTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WaitUntilTime = value;
 }
 inline float_t UnityEngine::WaitForSecondsRealtime::get_waitTime() {

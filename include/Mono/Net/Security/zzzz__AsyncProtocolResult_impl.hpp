@@ -60,27 +60,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Mono::Net::Security::AsyncProtocolResult::__get__UserResult_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UserResult_k__BackingField;
 }
 constexpr int32_t const& Mono::Net::Security::AsyncProtocolResult::__get__UserResult_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UserResult_k__BackingField;
 }
 constexpr void Mono::Net::Security::AsyncProtocolResult::__set__UserResult_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UserResult_k__BackingField = value;
 }
 constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& Mono::Net::Security::AsyncProtocolResult::__get__Error_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Error_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& Mono::Net::Security::AsyncProtocolResult::__get__Error_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Error_k__BackingField;
 }
 constexpr void Mono::Net::Security::AsyncProtocolResult::__set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Error_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t Mono::Net::Security::AsyncProtocolResult::get_UserResult() {

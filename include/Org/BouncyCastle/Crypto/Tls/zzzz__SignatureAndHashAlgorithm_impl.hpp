@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm._ctor
 template <>
 
@@ -114,27 +114,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__get_mHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mHash;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__get_mHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mHash;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__set_mHash(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mHash = value;
 }
 constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__get_mSignature() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSignature;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__get_mSignature() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSignature;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__set_mSignature(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mSignature = value;
 }
 inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::New_ctor(uint8_t hash, uint8_t signature) {

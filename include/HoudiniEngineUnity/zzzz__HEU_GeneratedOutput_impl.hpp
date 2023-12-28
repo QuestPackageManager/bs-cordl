@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GeneratedOutput.get_IsInstancer
 template <>
 
@@ -302,40 +302,40 @@ constexpr HoudiniEngineUnity::HEU_GeneratedOutput::operator ::HoudiniEngineUnity
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::HEU_GeneratedOutputData*& HoudiniEngineUnity::HEU_GeneratedOutput::__get__outputData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputData;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutputData*> const& HoudiniEngineUnity::HEU_GeneratedOutput::__get__outputData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputData;
 }
 constexpr void HoudiniEngineUnity::HEU_GeneratedOutput::__set__outputData(::HoudiniEngineUnity::HEU_GeneratedOutputData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outputData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*& HoudiniEngineUnity::HEU_GeneratedOutput::__get__childOutputs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childOutputs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*> const&
 HoudiniEngineUnity::HEU_GeneratedOutput::__get__childOutputs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childOutputs;
 }
 constexpr void HoudiniEngineUnity::HEU_GeneratedOutput::__set__childOutputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____childOutputs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_GeneratedOutput::__get_isInstancer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInstancer;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_GeneratedOutput::__get_isInstancer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInstancer;
 }
 constexpr void HoudiniEngineUnity::HEU_GeneratedOutput::__set_isInstancer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isInstancer = value;
 }
 inline bool HoudiniEngineUnity::HEU_GeneratedOutput::get_IsInstancer() {

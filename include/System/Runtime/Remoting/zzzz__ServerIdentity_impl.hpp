@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__Identity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ServerIdentity._ctor
 template <>
 
@@ -191,63 +191,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Runtime::Remoting::ServerIdentity::__get__objectType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Remoting::ServerIdentity::__get__objectType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectType;
 }
 constexpr void System::Runtime::Remoting::ServerIdentity::__set__objectType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::MarshalByRefObject*& System::Runtime::Remoting::ServerIdentity::__get__serverObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& System::Runtime::Remoting::ServerIdentity::__get__serverObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverObject;
 }
 constexpr void System::Runtime::Remoting::ServerIdentity::__set__serverObject(::System::MarshalByRefObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::ServerIdentity::__get__serverSink() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverSink;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& System::Runtime::Remoting::ServerIdentity::__get__serverSink() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverSink;
 }
 constexpr void System::Runtime::Remoting::ServerIdentity::__set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverSink)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Contexts::Context*& System::Runtime::Remoting::ServerIdentity::__get__context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& System::Runtime::Remoting::ServerIdentity::__get__context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr void System::Runtime::Remoting::ServerIdentity::__set__context(::System::Runtime::Remoting::Contexts::Context* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Lifetime::Lease*& System::Runtime::Remoting::ServerIdentity::__get__lease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lease;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Lifetime::Lease*> const& System::Runtime::Remoting::ServerIdentity::__get__lease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lease;
 }
 constexpr void System::Runtime::Remoting::ServerIdentity::__set__lease(::System::Runtime::Remoting::Lifetime::Lease* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lease)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::ServerIdentity* System::Runtime::Remoting::ServerIdentity::New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context,

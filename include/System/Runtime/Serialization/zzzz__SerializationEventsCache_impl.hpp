@@ -3,8 +3,8 @@
 #include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEvents_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::__SerializationEventsCache____c._ctor
 template <>

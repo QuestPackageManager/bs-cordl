@@ -11,13 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleCollator)
 namespace Mono::Globalization::Unicode {
-struct __SimpleCollator__Context;
+struct __SimpleCollator__Escape;
 }
 namespace Mono::Globalization::Unicode {
-struct __SimpleCollator__Escape;
+class Level2Map;
 }
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace Mono::Globalization::Unicode {
+class SortKeyBuffer;
+}
+namespace Mono::Globalization::Unicode {
+struct __SimpleCollator__PreviousInfo;
+}
+namespace Mono::Globalization::Unicode {
+class CodePointIndexer;
+}
+namespace Mono::Globalization::Unicode {
+class Contraction;
+}
+namespace System::Globalization {
+struct CompareOptions;
 }
 namespace System::Globalization {
 class SortKey;
@@ -25,29 +40,14 @@ class SortKey;
 namespace Mono::Globalization::Unicode {
 struct __SimpleCollator__ExtenderType;
 }
-namespace Mono::Globalization::Unicode {
-class Contraction;
+namespace System::Globalization {
+class TextInfo;
 }
 namespace System::Globalization {
 class ISimpleCollator;
 }
 namespace Mono::Globalization::Unicode {
-struct __SimpleCollator__PreviousInfo;
-}
-namespace System::Globalization {
-class TextInfo;
-}
-namespace Mono::Globalization::Unicode {
-class Level2Map;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace Mono::Globalization::Unicode {
-class SortKeyBuffer;
-}
-namespace Mono::Globalization::Unicode {
-class CodePointIndexer;
+struct __SimpleCollator__Context;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {

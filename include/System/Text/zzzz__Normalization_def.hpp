@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Normalization)
-namespace System::Text {
-struct NormalizationForm;
+namespace System {
+class Object;
 }
 namespace System::Text {
 struct NormalizationCheck;
 }
 namespace System::Text {
-class StringBuilder;
+struct NormalizationForm;
 }
-namespace System {
-class Object;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System::Text {

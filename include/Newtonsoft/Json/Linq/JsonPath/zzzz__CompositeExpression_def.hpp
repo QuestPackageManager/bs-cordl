@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(CompositeExpression)
 namespace Newtonsoft::Json::Linq::JsonPath {
 class QueryExpression;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

@@ -4,8 +4,8 @@
 #include "Newtonsoft/Json/zzzz__Required_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonObjectAttribute_def.hpp"
-#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
 #include "Newtonsoft/Json/zzzz__Required_def.hpp"
+#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonObjectAttribute.get_MemberSerialization
 template <>
 
@@ -107,27 +107,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::MemberSerialization& Newtonsoft::Json::JsonObjectAttribute::__get__memberSerialization() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memberSerialization;
 }
 constexpr ::Newtonsoft::Json::MemberSerialization const& Newtonsoft::Json::JsonObjectAttribute::__get__memberSerialization() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memberSerialization;
 }
 constexpr void Newtonsoft::Json::JsonObjectAttribute::__set__memberSerialization(::Newtonsoft::Json::MemberSerialization value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____memberSerialization = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& Newtonsoft::Json::JsonObjectAttribute::__get__itemRequired() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemRequired;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& Newtonsoft::Json::JsonObjectAttribute::__get__itemRequired() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemRequired;
 }
 constexpr void Newtonsoft::Json::JsonObjectAttribute::__set__itemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____itemRequired = value;
 }
 inline ::Newtonsoft::Json::MemberSerialization Newtonsoft::Json::JsonObjectAttribute::get_MemberSerialization() {

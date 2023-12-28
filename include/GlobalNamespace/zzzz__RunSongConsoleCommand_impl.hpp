@@ -5,21 +5,21 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RunSongConsoleCommand_def.hpp"
-#include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
-#include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
-#include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
 #include "GlobalNamespace/zzzz__RunSongConsoleCommand_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__SongRunningHelper_def.hpp"
-#include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__SongRunningHelper_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
+#include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
+#include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0._ctor
 template <>
 
@@ -51,15 +51,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0::__get_characteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
 constexpr ::StringW const& GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0::__get_characteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
 constexpr void GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0::__set_characteristic(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___characteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0* GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0::New_ctor() {
@@ -356,87 +356,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SongRunningHelper*& GlobalNamespace::RunSongConsoleCommand::__get__songRunningHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songRunningHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongRunningHelper*> const& GlobalNamespace::RunSongConsoleCommand::__get__songRunningHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songRunningHelper;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__songRunningHelper(::GlobalNamespace::SongRunningHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songRunningHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::RunSongConsoleCommand::__get__beatmapLevels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevels;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& GlobalNamespace::RunSongConsoleCommand::__get__beatmapLevels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevels;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__beatmapLevels(::GlobalNamespace::BeatmapLevelsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RequiredArgument_1<::StringW>*& GlobalNamespace::RunSongConsoleCommand::__get__levelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RequiredArgument_1<::StringW>*> const& GlobalNamespace::RunSongConsoleCommand::__get__levelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__levelId(::GlobalNamespace::RequiredArgument_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OptionalArgument_1<bool>*& GlobalNamespace::RunSongConsoleCommand::__get__runAutopilot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runAutopilot;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<bool>*> const& GlobalNamespace::RunSongConsoleCommand::__get__runAutopilot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runAutopilot;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__runAutopilot(::GlobalNamespace::OptionalArgument_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____runAutopilot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OptionalArgument_1<bool>*& GlobalNamespace::RunSongConsoleCommand::__get__runUnityProfiler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runUnityProfiler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<bool>*> const& GlobalNamespace::RunSongConsoleCommand::__get__runUnityProfiler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runUnityProfiler;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__runUnityProfiler(::GlobalNamespace::OptionalArgument_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____runUnityProfiler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OptionalArgument_1<int32_t>*& GlobalNamespace::RunSongConsoleCommand::__get__difficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<int32_t>*> const& GlobalNamespace::RunSongConsoleCommand::__get__difficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__difficulty(::GlobalNamespace::OptionalArgument_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficulty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>*& GlobalNamespace::RunSongConsoleCommand::__get__characteristic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characteristic;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<::StringW>*> const& GlobalNamespace::RunSongConsoleCommand::__get__characteristic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characteristic;
 }
 constexpr void GlobalNamespace::RunSongConsoleCommand::__set__characteristic(::GlobalNamespace::OptionalArgument_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____characteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::RunSongConsoleCommand::get_isAsyncCommand() {

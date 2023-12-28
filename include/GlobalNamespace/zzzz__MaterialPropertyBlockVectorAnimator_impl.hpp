@@ -33,15 +33,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector4& GlobalNamespace::MaterialPropertyBlockVectorAnimator::__get__vector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vector;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::MaterialPropertyBlockVectorAnimator::__get__vector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vector;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockVectorAnimator::__set__vector(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vector = value;
 }
 inline void GlobalNamespace::MaterialPropertyBlockVectorAnimator::SetProperty() {

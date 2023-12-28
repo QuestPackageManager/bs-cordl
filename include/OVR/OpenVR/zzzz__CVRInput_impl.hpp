@@ -2,18 +2,18 @@
 #include "OVR/OpenVR/zzzz__IVRInput_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRInput_def.hpp"
-#include "OVR/OpenVR/zzzz__InputAnalogActionData_t_def.hpp"
-#include "OVR/OpenVR/zzzz__InputDigitalActionData_t_def.hpp"
-#include "OVR/OpenVR/zzzz__InputPoseActionData_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRSkeletalTransformSpace_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRInputError_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__VRBoneTransform_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRSkeletalMotionRange_def.hpp"
-#include "OVR/OpenVR/zzzz__VRActiveActionSet_t_def.hpp"
 #include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
 #include "OVR/OpenVR/zzzz__InputSkeletalActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputDigitalActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputAnalogActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputPoseActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRSkeletalMotionRange_def.hpp"
+#include "OVR/OpenVR/zzzz__VRActiveActionSet_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRBoneTransform_t_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRSkeletalTransformSpace_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRInputError_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRInput._ctor
 template <>
 
@@ -330,15 +330,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRInput& OVR::OpenVR::CVRInput::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRInput const& OVR::OpenVR::CVRInput::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRInput::__set_FnTable(::OVR::OpenVR::IVRInput value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRInput* OVR::OpenVR::CVRInput::New_ctor(void* pInterface) {

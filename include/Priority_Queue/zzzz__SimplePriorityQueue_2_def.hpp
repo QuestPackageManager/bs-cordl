@@ -8,7 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -16,32 +25,23 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -59,7 +59,7 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 }), TypeDefinitionIndex(TypeDefinitionIndex(6096))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6099))
 // CS Name: ::SimplePriorityQueue`2::SimpleNode<TItem,TPriority>*
 class CORDL_TYPE __SimplePriorityQueue_2__SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {

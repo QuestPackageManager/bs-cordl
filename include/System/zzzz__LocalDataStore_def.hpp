@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalDataStore)
 namespace System {
-class LocalDataStoreSlot;
+class LocalDataStoreElement;
 }
 namespace System {
-class Object;
+class LocalDataStoreSlot;
 }
 namespace System {
 class LocalDataStoreMgr;
 }
 namespace System {
-class LocalDataStoreElement;
+class Object;
 }
 // Forward declare root types
 namespace System {

@@ -12,26 +12,26 @@ CORDL_MODULE_EXPORT(ArrayUtility)
 namespace UnityEngine::ProBuilder {
 template <typename T> class __ArrayUtility____c__23_1;
 }
-namespace UnityEngine::ProBuilder {
-template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
-}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace UnityEngine::ProBuilder {
+struct __ArrayUtility__SearchRange;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::ProBuilder {
+template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::ProBuilder {
-struct __ArrayUtility__SearchRange;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;

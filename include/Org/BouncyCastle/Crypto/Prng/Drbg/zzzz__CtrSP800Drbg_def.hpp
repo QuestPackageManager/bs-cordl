@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(CtrSP800Drbg)
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
-}
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
+}
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {

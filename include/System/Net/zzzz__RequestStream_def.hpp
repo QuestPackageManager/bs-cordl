@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RequestStream)
+namespace System::IO {
+struct SeekOrigin;
+}
 namespace System {
 class IAsyncResult;
 }
@@ -15,9 +18,6 @@ class AsyncCallback;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::IO {
-struct SeekOrigin;
 }
 namespace System {
 class Object;

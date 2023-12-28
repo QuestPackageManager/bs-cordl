@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNodeStateProperties_def.hpp"
-#include "GlobalNamespace/zzzz__NodeStatePropertyType_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNodeState_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__NodeStatePropertyType_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNodeState_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRNodeStateProperties.IsHmdPresent
 template <>
 

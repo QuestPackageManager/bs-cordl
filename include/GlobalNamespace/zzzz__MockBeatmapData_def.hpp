@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapData)
 namespace GlobalNamespace {
-class MockNoteData;
+class MockObstacleData;
 }
 namespace GlobalNamespace {
-class MockObstacleData;
+class MockNoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

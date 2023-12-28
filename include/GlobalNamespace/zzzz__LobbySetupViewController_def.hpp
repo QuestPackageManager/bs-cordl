@@ -5,20 +5,32 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LobbySetupViewController)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
 namespace GlobalNamespace {
 class GameServersFilterText;
 }
-namespace GlobalNamespace {
-struct MultiplayerLobbyState;
-}
 namespace Polyglot {
 class LocalizedTextMeshProUGUI;
+}
+namespace HMUI {
+class HoverHint;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class EditableModifiersSelectionView;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
+class EditableBeatmapSelectionView;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 class GameObject;
@@ -27,22 +39,10 @@ namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-class EditableBeatmapSelectionView;
-}
-namespace HMUI {
-class HoverHint;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ToggleBinder;
+struct CannotStartGameReason;
 }
 namespace GlobalNamespace {
-class EditableModifiersSelectionView;
-}
-namespace GlobalNamespace {
-class ILobbyPlayerData;
+struct MultiplayerLobbyState;
 }
 // Forward declare root types
 namespace GlobalNamespace {

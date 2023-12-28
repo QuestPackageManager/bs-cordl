@@ -133,100 +133,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__useTestColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useTestColor;
 }
 constexpr bool const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__useTestColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useTestColor;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__useTestColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useTestColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__testColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____testColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__testColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____testColor;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__testColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____testColor = value;
 }
 constexpr ::StringW& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____property;
 }
 constexpr ::StringW const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____property;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__property(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MaterialPropertyBlockController*& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__materialPropertyBlockController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const&
 GlobalNamespace::MaterialPropertyBlockColorSetter::__get__materialPropertyBlockController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockController;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__inverseAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseAlpha;
 }
 constexpr bool const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__inverseAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseAlpha;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__inverseAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inverseAlpha = value;
 }
 constexpr bool& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__multiplyWithAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplyWithAlpha;
 }
 constexpr bool const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__multiplyWithAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplyWithAlpha;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__multiplyWithAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplyWithAlpha = value;
 }
 constexpr int32_t& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__propertyId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyId;
 }
 constexpr int32_t const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__propertyId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyId;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__propertyId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____propertyId = value;
 }
 constexpr bool& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__isInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInitialized;
 }
 constexpr bool const& GlobalNamespace::MaterialPropertyBlockColorSetter::__get__isInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInitialized;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__set__isInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isInitialized = value;
 }
 inline ::UnityEngine::Color GlobalNamespace::MaterialPropertyBlockColorSetter::get_color() {

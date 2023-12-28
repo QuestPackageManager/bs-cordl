@@ -2,13 +2,13 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ViewControllerTransitionHelpers_def.hpp"
-#include "HMUI/zzzz__ViewControllerTransitionHelpers_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "HMUI/zzzz__ViewControllerTransitionHelpers_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3._ctor
 template <>
 
@@ -112,75 +112,75 @@ constexpr HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::op
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__ViewController__AnimationDirection& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_animationDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationDirection;
 }
 constexpr ::HMUI::__ViewController__AnimationDirection const& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_animationDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationDirection;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__set_animationDirection(::HMUI::__ViewController__AnimationDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animationDirection = value;
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_toPresentViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_toPresentViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__set_toPresentViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toPresentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_toDismissViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_toDismissViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__set_toDismissViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toDismissViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_moveOffsetMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_moveOffsetMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__set_moveOffsetMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffsetMultiplier = value;
 }
 inline ::HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3* HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3::New_ctor(int32_t __1__state) {
@@ -327,75 +327,75 @@ constexpr HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::op
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__ViewController__AnimationDirection& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_animationDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationDirection;
 }
 constexpr ::HMUI::__ViewController__AnimationDirection const& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_animationDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationDirection;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__set_animationDirection(::HMUI::__ViewController__AnimationDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animationDirection = value;
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_toPresentViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_toPresentViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__set_toPresentViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toPresentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_toDismissViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_toDismissViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__set_toDismissViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toDismissViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_moveOffsetMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_moveOffsetMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__set_moveOffsetMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffsetMultiplier = value;
 }
 inline ::HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4* HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4::New_ctor(int32_t __1__state) {
@@ -470,51 +470,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_toPresentViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_toPresentViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__set_toPresentViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toPresentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_moveOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_moveOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__set_moveOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffset = value;
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_toDismissViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_toDismissViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__set_toDismissViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toDismissViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_baseCanvasGroupAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseCanvasGroupAlpha;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_baseCanvasGroupAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseCanvasGroupAlpha;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::__set_baseCanvasGroupAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___baseCanvasGroupAlpha = value;
 }
 inline ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0::New_ctor() {
@@ -637,76 +637,76 @@ constexpr HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5:
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get_toPresentViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get_toPresentViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__set_toPresentViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toPresentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get_toDismissViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get_toDismissViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__set_toDismissViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toDismissViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get_moveOffsetMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get_moveOffsetMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__set_moveOffsetMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffsetMultiplier = value;
 }
 constexpr ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0*& HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___8__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0*> const&
 HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___8__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__set___8__1(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____8__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5* HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::New_ctor(int32_t __1__state) {
@@ -781,51 +781,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_toPresentViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_toPresentViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__set_toPresentViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toPresentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_moveOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_moveOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffset;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__set_moveOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffset = value;
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_baseCanvasGroupAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseCanvasGroupAlpha;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_baseCanvasGroupAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseCanvasGroupAlpha;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__set_baseCanvasGroupAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___baseCanvasGroupAlpha = value;
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_toDismissViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_toDismissViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::__set_toDismissViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toDismissViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0::New_ctor() {
@@ -948,76 +948,76 @@ constexpr HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::o
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get_toPresentViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get_toPresentViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toPresentViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__set_toPresentViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toPresentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get_toDismissViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get_toDismissViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toDismissViewController;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__set_toDismissViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toDismissViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get_moveOffsetMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get_moveOffsetMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveOffsetMultiplier;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__set_moveOffsetMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveOffsetMultiplier = value;
 }
 constexpr ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0*& HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___8__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0*> const&
 HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___8__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__set___8__1(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____8__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6* HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::New_ctor(int32_t __1__state) {
@@ -1164,51 +1164,51 @@ constexpr HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::ope
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<float_t>*& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get_transitionAnimation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transitionAnimation;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get_transitionAnimation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transitionAnimation;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__set_transitionAnimation(::System::Action_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___transitionAnimation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get__elapsedTime_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
 constexpr float_t const& HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get__elapsedTime_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
 constexpr void HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__set__elapsedTime_5__2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__2 = value;
 }
 inline ::HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8* HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::New_ctor(int32_t __1__state) {

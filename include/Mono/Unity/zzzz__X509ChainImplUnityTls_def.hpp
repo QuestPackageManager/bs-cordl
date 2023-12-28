@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509ChainImplUnityTls)
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list_ref;
-}
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
+struct X509ChainStatus;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509list_ref;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Mono::Unity::X509ChainImplUnityTls);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8764)), TypeDefinitionIndex(TypeDefinitionIndex(9006))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9006)), TypeDefinitionIndex(TypeDefinitionIndex(8764))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8814))
 // CS Name: ::Mono.Unity::X509ChainImplUnityTls*
 class CORDL_TYPE X509ChainImplUnityTls : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(AvatarHeadOffset)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace BeatSaber::AvatarCore {
 class MultiplayerAvatarPoseController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

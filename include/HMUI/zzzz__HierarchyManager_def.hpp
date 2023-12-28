@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HierarchyManager)
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace HMUI {
 class ScreenSystem;
@@ -16,8 +16,8 @@ class ScreenSystem;
 namespace HMUI {
 class FlowCoordinator;
 }
-namespace GlobalNamespace {
-class GameScenesManager;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {

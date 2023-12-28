@@ -3,11 +3,11 @@
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__Numeric10FacetsChecker_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Numeric10FacetsChecker._ctor
 template <>
 
@@ -150,27 +150,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Decimal& System::Xml::Schema::Numeric10FacetsChecker::__get_maxValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
 constexpr ::System::Decimal const& System::Xml::Schema::Numeric10FacetsChecker::__get_maxValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
 constexpr void System::Xml::Schema::Numeric10FacetsChecker::__set_maxValue(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxValue = value;
 }
 constexpr ::System::Decimal& System::Xml::Schema::Numeric10FacetsChecker::__get_minValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
 constexpr ::System::Decimal const& System::Xml::Schema::Numeric10FacetsChecker::__get_minValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
 constexpr void System::Xml::Schema::Numeric10FacetsChecker::__set_minValue(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minValue = value;
 }
 inline void System::Xml::Schema::Numeric10FacetsChecker::setStaticF_signs(::ArrayW<char16_t, ::Array<char16_t>*> value) {

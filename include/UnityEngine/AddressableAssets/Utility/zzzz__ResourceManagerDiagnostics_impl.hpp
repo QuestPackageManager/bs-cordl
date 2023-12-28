@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__ResourceManagerDiagnostics_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__DiagnosticInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics._ctor
 template <>
 
@@ -120,31 +120,31 @@ constexpr UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::o
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceManager*& UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__get_m_ResourceManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const&
 UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__get_m_ResourceManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
 constexpr void UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*&
 UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__get_m_cachedDiagnosticInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cachedDiagnosticInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*> const&
 UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__get_m_cachedDiagnosticInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cachedDiagnosticInfo;
 }
 constexpr void UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__set_m_cachedDiagnosticInfo(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cachedDiagnosticInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*

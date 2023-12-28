@@ -2,8 +2,8 @@
 #include "OVR/OpenVR/zzzz__IVRChaperone_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRChaperone_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
 #include "OVR/OpenVR/zzzz__ChaperoneCalibrationState_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRChaperone._ctor
 template <>
@@ -136,15 +136,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRChaperone& OVR::OpenVR::CVRChaperone::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRChaperone const& OVR::OpenVR::CVRChaperone::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRChaperone::__set_FnTable(::OVR::OpenVR::IVRChaperone value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRChaperone* OVR::OpenVR::CVRChaperone::New_ctor(void* pInterface) {

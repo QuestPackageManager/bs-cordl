@@ -50,39 +50,39 @@ constexpr HoudiniEngineUnity::HEU_InstanceInputUIState::operator ::HoudiniEngine
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(static_cast<void*>(this));
 }
 constexpr bool& HoudiniEngineUnity::HEU_InstanceInputUIState::__get__showInstanceInputs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showInstanceInputs;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InstanceInputUIState::__get__showInstanceInputs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showInstanceInputs;
 }
 constexpr void HoudiniEngineUnity::HEU_InstanceInputUIState::__set__showInstanceInputs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showInstanceInputs = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_InstanceInputUIState::__get__numInputsToShowUI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numInputsToShowUI;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_InstanceInputUIState::__get__numInputsToShowUI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numInputsToShowUI;
 }
 constexpr void HoudiniEngineUnity::HEU_InstanceInputUIState::__set__numInputsToShowUI(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numInputsToShowUI = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_InstanceInputUIState::__get__inputsPageIndexUI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputsPageIndexUI;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_InstanceInputUIState::__get__inputsPageIndexUI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputsPageIndexUI;
 }
 constexpr void HoudiniEngineUnity::HEU_InstanceInputUIState::__set__inputsPageIndexUI(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inputsPageIndexUI = value;
 }
 inline void HoudiniEngineUnity::HEU_InstanceInputUIState::CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest) {

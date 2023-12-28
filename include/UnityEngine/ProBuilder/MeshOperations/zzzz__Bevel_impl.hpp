@@ -3,16 +3,16 @@
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__Bevel_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
-#include "UnityEngine/ProBuilder/MeshOperations/zzzz__Bevel_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__Bevel_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SharedVertex_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._ctor
@@ -62,56 +62,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*&
 UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get_ignore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignore;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*> const&
 UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get_ignore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignore;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__set_ignore(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ignore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>&
 UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get_sharedIndexes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedIndexes;
 }
 constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const&
 UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get_sharedIndexes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sharedIndexes;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__set_sharedIndexes(
     ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sharedIndexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get___9__7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__7;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get___9__7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__7;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__set___9__7(::System::Func_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__7)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get___9__8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__8;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__get___9__8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__8;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__set___9__8(::System::Func_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__8)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::New_ctor() {
@@ -168,15 +168,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::EdgeLookup& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__get_lup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lup;
 }
 constexpr ::UnityEngine::ProBuilder::EdgeLookup const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__get_lup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lup;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__set_lup(::UnityEngine::ProBuilder::EdgeLookup value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lup = value;
 }
 inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::New_ctor() {
@@ -227,28 +227,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__set_c(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__get_CS$__8__locals1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const&
 UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__get_CS$__8__locals1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::New_ctor() {

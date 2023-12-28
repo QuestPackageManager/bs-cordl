@@ -3,10 +3,10 @@
 #include "System/Xml/zzzz__ElementProperties_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriter_def.hpp"
-#include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__ByteStack_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Xml::HtmlUtf8RawTextWriter._ctor
 template <>
@@ -350,87 +350,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::ByteStack*& System::Xml::HtmlUtf8RawTextWriter::__get_elementScope() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementScope;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::ByteStack*> const& System::Xml::HtmlUtf8RawTextWriter::__get_elementScope() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementScope;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_elementScope(::System::Xml::ByteStack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elementScope)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::ElementProperties& System::Xml::HtmlUtf8RawTextWriter::__get_currentElementProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentElementProperties;
 }
 constexpr ::System::Xml::ElementProperties const& System::Xml::HtmlUtf8RawTextWriter::__get_currentElementProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentElementProperties;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_currentElementProperties(::System::Xml::ElementProperties value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentElementProperties = value;
 }
 constexpr ::System::Xml::AttributeProperties& System::Xml::HtmlUtf8RawTextWriter::__get_currentAttributeProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentAttributeProperties;
 }
 constexpr ::System::Xml::AttributeProperties const& System::Xml::HtmlUtf8RawTextWriter::__get_currentAttributeProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentAttributeProperties;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_currentAttributeProperties(::System::Xml::AttributeProperties value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentAttributeProperties = value;
 }
 constexpr bool& System::Xml::HtmlUtf8RawTextWriter::__get_endsWithAmpersand() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endsWithAmpersand;
 }
 constexpr bool const& System::Xml::HtmlUtf8RawTextWriter::__get_endsWithAmpersand() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endsWithAmpersand;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_endsWithAmpersand(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endsWithAmpersand = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Xml::HtmlUtf8RawTextWriter::__get_uriEscapingBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uriEscapingBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Xml::HtmlUtf8RawTextWriter::__get_uriEscapingBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uriEscapingBuffer;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_uriEscapingBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uriEscapingBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::HtmlUtf8RawTextWriter::__get_mediaType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mediaType;
 }
 constexpr ::StringW const& System::Xml::HtmlUtf8RawTextWriter::__get_mediaType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mediaType;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_mediaType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mediaType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::HtmlUtf8RawTextWriter::__get_doNotEscapeUriAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doNotEscapeUriAttributes;
 }
 constexpr bool const& System::Xml::HtmlUtf8RawTextWriter::__get_doNotEscapeUriAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doNotEscapeUriAttributes;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriter::__set_doNotEscapeUriAttributes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___doNotEscapeUriAttributes = value;
 }
 inline void System::Xml::HtmlUtf8RawTextWriter::setStaticF_elementPropertySearch(::System::Xml::TernaryTreeReadOnly* value) {

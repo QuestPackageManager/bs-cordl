@@ -7,6 +7,15 @@ CORDL_MODULE_EXPORT(INetEventListener)
 namespace System::Net::Sockets {
 struct SocketError;
 }
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
+class ConnectionRequest;
+}
+namespace LiteNetLib {
+struct DisconnectInfo;
+}
 namespace System::Net {
 class IPEndPoint;
 }
@@ -17,16 +26,7 @@ namespace LiteNetLib {
 class NetPacketReader;
 }
 namespace LiteNetLib {
-struct DisconnectInfo;
-}
-namespace LiteNetLib {
 struct UnconnectedMessageType;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
-class ConnectionRequest;
 }
 // Forward declare root types
 namespace LiteNetLib {

@@ -3,9 +3,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimitPolygonal_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimitPolygonal_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone.get_o
 template <>
 
@@ -114,51 +114,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_tetrahedron() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tetrahedron;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_tetrahedron() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tetrahedron;
 }
 constexpr void RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__set_tetrahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tetrahedron)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_volume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
 constexpr float_t const& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_volume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
 constexpr void RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__set_volume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___volume = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_S() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___S;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_S() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___S;
 }
 constexpr void RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__set_S(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___S = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_B() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___B;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__get_B() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___B;
 }
 constexpr void RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::__set_B(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___B = value;
 }
 inline ::UnityEngine::Vector3 RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::get_o() {
@@ -221,27 +221,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::__get_point() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___point;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::__get_point() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___point;
 }
 constexpr void RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::__set_point(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___point = value;
 }
 constexpr float_t& RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::__get_tangentWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tangentWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::__get_tangentWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tangentWeight;
 }
 constexpr void RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::__set_tangentWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tangentWeight = value;
 }
 inline ::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint* RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::New_ctor() {
@@ -489,69 +489,69 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::RotationLimitPolygonal::__get_twistLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistLimit;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitPolygonal::__get_twistLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistLimit;
 }
 constexpr void RootMotion::FinalIK::RotationLimitPolygonal::__set_twistLimit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twistLimit = value;
 }
 constexpr int32_t& RootMotion::FinalIK::RotationLimitPolygonal::__get_smoothIterations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothIterations;
 }
 constexpr int32_t const& RootMotion::FinalIK::RotationLimitPolygonal::__get_smoothIterations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothIterations;
 }
 constexpr void RootMotion::FinalIK::RotationLimitPolygonal::__set_smoothIterations(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothIterations = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*>&
 RootMotion::FinalIK::RotationLimitPolygonal::__get_points() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___points;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> const&
 RootMotion::FinalIK::RotationLimitPolygonal::__get_points() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___points;
 }
 constexpr void RootMotion::FinalIK::RotationLimitPolygonal::__set_points(
     ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___points)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& RootMotion::FinalIK::RotationLimitPolygonal::__get_P() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___P;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& RootMotion::FinalIK::RotationLimitPolygonal::__get_P() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___P;
 }
 constexpr void RootMotion::FinalIK::RotationLimitPolygonal::__set_P(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___P)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*>&
 RootMotion::FinalIK::RotationLimitPolygonal::__get_reachCones() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reachCones;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> const&
 RootMotion::FinalIK::RotationLimitPolygonal::__get_reachCones() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reachCones;
 }
 constexpr void RootMotion::FinalIK::RotationLimitPolygonal::__set_reachCones(
     ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reachCones)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::RotationLimitPolygonal::OpenUserManual() {

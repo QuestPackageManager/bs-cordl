@@ -18,41 +18,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVROverlay)
-namespace UnityEngine {
-class Texture;
-}
-namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerDesc;
-}
-namespace UnityEngine {
-struct Rect;
-}
 namespace GlobalNamespace {
 struct __OVROverlay__OverlayType;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__LayerLayout;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __OVROverlay__ExternalSurfaceObjectCreated;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Renderer;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__OverlayShape;
+struct __OVRPlugin__Sizei;
 }
 namespace GlobalNamespace {
 struct __OVROverlay__OverlayShape;
@@ -60,26 +30,56 @@ struct __OVROverlay__OverlayShape;
 namespace GlobalNamespace {
 struct __OVROverlay__LayerTexture;
 }
+namespace GlobalNamespace {
+struct OVRPose;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace GlobalNamespace {
+class __OVROverlay__ExternalSurfaceObjectCreated;
+}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerLayout;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__EyeTextureFormat;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Sizei;
+struct __OVRPlugin__LayerDesc;
 }
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__OverlayShape;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -324,10 +324,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVROverlay__L
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 453, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(7761)), TypeDefinitionIndex(TypeDefinitionIndex(7655)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7702)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7727))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7658)) CS Name: ::OVROverlay*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7727)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7655)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(7761)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7658)) CS Name: ::OVROverlay*
 class CORDL_TYPE OVROverlay : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

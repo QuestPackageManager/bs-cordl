@@ -3,15 +3,15 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Polyglot/zzzz__Localization_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Polyglot/zzzz__ILocalize_def.hpp"
-#include "Polyglot/zzzz__LocalizationAsset_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Polyglot/zzzz__LocalizationAsset_def.hpp"
 #include "Polyglot/zzzz__Language_def.hpp"
+#include "Polyglot/zzzz__ILocalize_def.hpp"
+#include "Polyglot/zzzz__LocalizationDocument_def.hpp"
 #include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
-#include "Polyglot/zzzz__LocalizationDocument_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::Polyglot::Localization.get_CustomDocument
 template <>
 
@@ -442,87 +442,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Polyglot::LocalizationDocument*& Polyglot::Localization::__get_customDocument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customDocument;
 }
 constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizationDocument*> const& Polyglot::Localization::__get_customDocument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___customDocument;
 }
 constexpr void Polyglot::Localization::__set_customDocument(::Polyglot::LocalizationDocument* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___customDocument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*& Polyglot::Localization::__get_inputFiles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputFiles;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*> const& Polyglot::Localization::__get_inputFiles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputFiles;
 }
 constexpr void Polyglot::Localization::__set_inputFiles(::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputFiles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Polyglot::Language>*& Polyglot::Localization::__get_supportedLanguages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportedLanguages;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Polyglot::Language>*> const& Polyglot::Localization::__get_supportedLanguages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportedLanguages;
 }
 constexpr void Polyglot::Localization::__set_supportedLanguages(::System::Collections::Generic::List_1<::Polyglot::Language>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___supportedLanguages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Polyglot::Language& Polyglot::Localization::__get_selectedLanguage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedLanguage;
 }
 constexpr ::Polyglot::Language const& Polyglot::Localization::__get_selectedLanguage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedLanguage;
 }
 constexpr void Polyglot::Localization::__set_selectedLanguage(::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___selectedLanguage = value;
 }
 constexpr ::Polyglot::Language& Polyglot::Localization::__get_fallbackLanguage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackLanguage;
 }
 constexpr ::Polyglot::Language const& Polyglot::Localization::__get_fallbackLanguage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackLanguage;
 }
 constexpr void Polyglot::Localization::__set_fallbackLanguage(::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fallbackLanguage = value;
 }
 constexpr ::UnityEngine::Events::UnityEvent*& Polyglot::Localization::__get_Localize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Localize;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& Polyglot::Localization::__get_Localize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Localize;
 }
 constexpr void Polyglot::Localization::__set_Localize(::UnityEngine::Events::UnityEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Localize)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureInfo*& Polyglot::Localization::__get_selectedCultureInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedCultureInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& Polyglot::Localization::__get_selectedCultureInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedCultureInfo;
 }
 constexpr void Polyglot::Localization::__set_selectedCultureInfo(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectedCultureInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Polyglot::Localization::setStaticF_instance(::Polyglot::Localization* value) {

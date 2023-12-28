@@ -2,12 +2,12 @@
 #include "RootMotion/FinalIK/zzzz__FBIKChain_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__FBIKChain__ChildConstraint.get_nominalDistance
 template <>
 
@@ -129,123 +129,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_pushElasticity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pushElasticity;
 }
 constexpr float_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_pushElasticity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pushElasticity;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_pushElasticity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pushElasticity = value;
 }
 constexpr float_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_pullElasticity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullElasticity;
 }
 constexpr float_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_pullElasticity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullElasticity;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_pullElasticity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pullElasticity = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_bone1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_bone1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_bone1(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_bone2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_bone2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_bone2(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get__nominalDistance_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nominalDistance_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get__nominalDistance_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nominalDistance_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set__nominalDistance_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nominalDistance_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get__isRigid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRigid_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get__isRigid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRigid_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set__isRigid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isRigid_k__BackingField = value;
 }
 constexpr float_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_crossFade() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFade;
 }
 constexpr float_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_crossFade() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFade;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_crossFade(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crossFade = value;
 }
 constexpr float_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_inverseCrossFade() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inverseCrossFade;
 }
 constexpr float_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_inverseCrossFade() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inverseCrossFade;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_inverseCrossFade(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inverseCrossFade = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_chain1Index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chain1Index;
 }
 constexpr int32_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_chain1Index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chain1Index;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_chain1Index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chain1Index = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_chain2Index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chain2Index;
 }
 constexpr int32_t const& RootMotion::FinalIK::__FBIKChain__ChildConstraint::__get_chain2Index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chain2Index;
 }
 constexpr void RootMotion::FinalIK::__FBIKChain__ChildConstraint::__set_chain2Index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chain2Index = value;
 }
 inline float_t RootMotion::FinalIK::__FBIKChain__ChildConstraint::get_nominalDistance() {
@@ -623,269 +623,269 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_pin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pin;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_pin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pin;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_pin(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pin = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_pull() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pull;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_pull() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pull;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_pull(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pull = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_push() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___push;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_push() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___push;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_push(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___push = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_pushParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pushParent;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_pushParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pushParent;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_pushParent(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pushParent = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_reach() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reach;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_reach() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reach;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_reach(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reach = value;
 }
 constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing& RootMotion::FinalIK::FBIKChain::__get_reachSmoothing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reachSmoothing;
 }
 constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing const& RootMotion::FinalIK::FBIKChain::__get_reachSmoothing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reachSmoothing;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_reachSmoothing(::RootMotion::FinalIK::__FBIKChain__Smoothing value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reachSmoothing = value;
 }
 constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing& RootMotion::FinalIK::FBIKChain::__get_pushSmoothing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pushSmoothing;
 }
 constexpr ::RootMotion::FinalIK::__FBIKChain__Smoothing const& RootMotion::FinalIK::FBIKChain::__get_pushSmoothing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pushSmoothing;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_pushSmoothing(::RootMotion::FinalIK::__FBIKChain__Smoothing value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pushSmoothing = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*>& RootMotion::FinalIK::FBIKChain::__get_nodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodes;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> const& RootMotion::FinalIK::FBIKChain::__get_nodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodes;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_nodes(::ArrayW<::RootMotion::FinalIK::__IKSolver__Node*, ::Array<::RootMotion::FinalIK::__IKSolver__Node*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& RootMotion::FinalIK::FBIKChain::__get_children() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& RootMotion::FinalIK::FBIKChain::__get_children() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_children(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___children)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*>& RootMotion::FinalIK::FBIKChain::__get_childConstraints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___childConstraints;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> const&
 RootMotion::FinalIK::FBIKChain::__get_childConstraints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___childConstraints;
 }
 constexpr void
 RootMotion::FinalIK::FBIKChain::__set_childConstraints(::ArrayW<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*, ::Array<::RootMotion::FinalIK::__FBIKChain__ChildConstraint*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___childConstraints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::IKConstraintBend*& RootMotion::FinalIK::FBIKChain::__get_bendConstraint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendConstraint;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKConstraintBend*> const& RootMotion::FinalIK::FBIKChain::__get_bendConstraint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendConstraint;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_bendConstraint(::RootMotion::FinalIK::IKConstraintBend* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bendConstraint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_rootLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootLength;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_rootLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootLength;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_rootLength(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootLength = value;
 }
 constexpr bool& RootMotion::FinalIK::FBIKChain::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::FBIKChain::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___length = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distance = value;
 }
 constexpr ::RootMotion::FinalIK::__IKSolver__Point*& RootMotion::FinalIK::FBIKChain::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& RootMotion::FinalIK::FBIKChain::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_p(::RootMotion::FinalIK::__IKSolver__Point* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___p)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_reachForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reachForce;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_reachForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reachForce;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_reachForce(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reachForce = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_pullParentSum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullParentSum;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_pullParentSum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullParentSum;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_pullParentSum(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pullParentSum = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& RootMotion::FinalIK::FBIKChain::__get_crossFades() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFades;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& RootMotion::FinalIK::FBIKChain::__get_crossFades() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFades;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_crossFades(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___crossFades)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_sqrMag1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMag1;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_sqrMag1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMag1;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_sqrMag1(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sqrMag1 = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_sqrMag2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMag2;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_sqrMag2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMag2;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_sqrMag2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sqrMag2 = value;
 }
 constexpr float_t& RootMotion::FinalIK::FBIKChain::__get_sqrMagDif() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMagDif;
 }
 constexpr float_t const& RootMotion::FinalIK::FBIKChain::__get_sqrMagDif() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMagDif;
 }
 constexpr void RootMotion::FinalIK::FBIKChain::__set_sqrMagDif(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sqrMagDif = value;
 }
 inline ::RootMotion::FinalIK::FBIKChain* RootMotion::FinalIK::FBIKChain::New_ctor() {

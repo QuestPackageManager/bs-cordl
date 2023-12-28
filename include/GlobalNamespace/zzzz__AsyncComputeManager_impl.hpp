@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeManager_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
 #include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AsyncComputeManager._ctor
 template <>
 
@@ -71,40 +71,40 @@ constexpr GlobalNamespace::AsyncComputeManager::operator ::System::IDisposable*(
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& GlobalNamespace::AsyncComputeManager::__get__asyncComputeRequests() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncComputeRequests;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*> const&
 GlobalNamespace::AsyncComputeManager::__get__asyncComputeRequests() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncComputeRequests;
 }
 constexpr void GlobalNamespace::AsyncComputeManager::__set__asyncComputeRequests(::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____asyncComputeRequests)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Thread*& GlobalNamespace::AsyncComputeManager::__get__computeThread() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____computeThread;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& GlobalNamespace::AsyncComputeManager::__get__computeThread() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____computeThread;
 }
 constexpr void GlobalNamespace::AsyncComputeManager::__set__computeThread(::System::Threading::Thread* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____computeThread)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::AsyncComputeManager::__get__disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr bool const& GlobalNamespace::AsyncComputeManager::__get__disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr void GlobalNamespace::AsyncComputeManager::__set__disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed = value;
 }
 inline ::GlobalNamespace::AsyncComputeManager* GlobalNamespace::AsyncComputeManager::New_ctor() {

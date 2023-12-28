@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixNetworkInterfaceAPI_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__AixAddressFamily_def.hpp"
-#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
-#include "System/Net/NetworkInformation/AixStructs/zzzz__ifconf_def.hpp"
-#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixIoctlRequest_def.hpp"
+#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
+#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
+#include "System/Net/NetworkInformation/AixStructs/zzzz__ifconf_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__AixAddressFamily_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::AixNetworkInterfaceAPI.socket
 template <>
 

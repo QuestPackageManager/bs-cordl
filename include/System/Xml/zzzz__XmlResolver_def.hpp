@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlResolver)
 namespace System {
-class Type;
-}
-namespace System {
 class Uri;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;

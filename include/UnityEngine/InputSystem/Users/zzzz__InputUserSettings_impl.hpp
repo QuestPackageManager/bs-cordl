@@ -383,159 +383,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::Users::InputUserSettings::__get__customBindings_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customBindings_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Users::InputUserSettings::__get__customBindings_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customBindings_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__customBindings_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customBindings_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertMouseX_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertMouseX_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertMouseX_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertMouseX_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__invertMouseX_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____invertMouseX_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertMouseY_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertMouseY_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertMouseY_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertMouseY_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__invertMouseY_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____invertMouseY_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<float_t>& UnityEngine::InputSystem::Users::InputUserSettings::__get__mouseSmoothing_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseSmoothing_k__BackingField;
 }
 constexpr ::System::Nullable_1<float_t> const& UnityEngine::InputSystem::Users::InputUserSettings::__get__mouseSmoothing_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseSmoothing_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__mouseSmoothing_k__BackingField(::System::Nullable_1<float_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mouseSmoothing_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<float_t>& UnityEngine::InputSystem::Users::InputUserSettings::__get__mouseSensitivity_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseSensitivity_k__BackingField;
 }
 constexpr ::System::Nullable_1<float_t> const& UnityEngine::InputSystem::Users::InputUserSettings::__get__mouseSensitivity_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseSensitivity_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__mouseSensitivity_k__BackingField(::System::Nullable_1<float_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mouseSensitivity_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertStickX_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertStickX_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertStickX_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertStickX_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__invertStickX_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____invertStickX_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertStickY_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertStickY_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__invertStickY_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invertStickY_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__invertStickY_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____invertStickY_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapSticks_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapSticks_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapSticks_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapSticks_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__swapSticks_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____swapSticks_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapBumpers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapBumpers_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapBumpers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapBumpers_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__swapBumpers_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____swapBumpers_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapTriggers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapTriggers_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapTriggers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapTriggers_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__swapTriggers_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____swapTriggers_k__BackingField = value;
 }
 constexpr bool& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapDpadAndLeftStick_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapDpadAndLeftStick_k__BackingField;
 }
 constexpr bool const& UnityEngine::InputSystem::Users::InputUserSettings::__get__swapDpadAndLeftStick_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____swapDpadAndLeftStick_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__swapDpadAndLeftStick_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____swapDpadAndLeftStick_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Users::InputUserSettings::__get__vibrationStrength_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vibrationStrength_k__BackingField;
 }
 constexpr float_t const& UnityEngine::InputSystem::Users::InputUserSettings::__get__vibrationStrength_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vibrationStrength_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set__vibrationStrength_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vibrationStrength_k__BackingField = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Users::InputUserSettings::__get_m_CustomBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CustomBindings;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Users::InputUserSettings::__get_m_CustomBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CustomBindings;
 }
 constexpr void UnityEngine::InputSystem::Users::InputUserSettings::__set_m_CustomBindings(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CustomBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::InputSystem::Users::InputUserSettings::get_customBindings() {

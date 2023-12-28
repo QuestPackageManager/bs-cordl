@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleCursor)
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
-namespace UnityEngine::UIElements {
 struct Cursor;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;

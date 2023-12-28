@@ -142,75 +142,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::AbTestExperimentDefinitionSO::__get__experimentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____experimentName;
 }
 constexpr ::StringW const& GlobalNamespace::AbTestExperimentDefinitionSO::__get__experimentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____experimentName;
 }
 constexpr void GlobalNamespace::AbTestExperimentDefinitionSO::__set__experimentName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____experimentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::AbTestExperimentDefinitionSO::__get__test1GroupSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____test1GroupSize;
 }
 constexpr float_t const& GlobalNamespace::AbTestExperimentDefinitionSO::__get__test1GroupSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____test1GroupSize;
 }
 constexpr void GlobalNamespace::AbTestExperimentDefinitionSO::__set__test1GroupSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____test1GroupSize = value;
 }
 constexpr float_t& GlobalNamespace::AbTestExperimentDefinitionSO::__get__test2GroupSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____test2GroupSize;
 }
 constexpr float_t const& GlobalNamespace::AbTestExperimentDefinitionSO::__get__test2GroupSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____test2GroupSize;
 }
 constexpr void GlobalNamespace::AbTestExperimentDefinitionSO::__set__test2GroupSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____test2GroupSize = value;
 }
 constexpr float_t& GlobalNamespace::AbTestExperimentDefinitionSO::__get__controlGroupSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controlGroupSize;
 }
 constexpr float_t const& GlobalNamespace::AbTestExperimentDefinitionSO::__get__controlGroupSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controlGroupSize;
 }
 constexpr void GlobalNamespace::AbTestExperimentDefinitionSO::__set__controlGroupSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____controlGroupSize = value;
 }
 constexpr ::StringW& GlobalNamespace::AbTestExperimentDefinitionSO::__get__salt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____salt;
 }
 constexpr ::StringW const& GlobalNamespace::AbTestExperimentDefinitionSO::__get__salt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____salt;
 }
 constexpr void GlobalNamespace::AbTestExperimentDefinitionSO::__set__salt(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____salt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group& GlobalNamespace::AbTestExperimentDefinitionSO::__get__currentUserTreatmentGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentUserTreatmentGroup;
 }
 constexpr ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group const& GlobalNamespace::AbTestExperimentDefinitionSO::__get__currentUserTreatmentGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentUserTreatmentGroup;
 }
 constexpr void GlobalNamespace::AbTestExperimentDefinitionSO::__set__currentUserTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentUserTreatmentGroup = value;
 }
 inline float_t GlobalNamespace::AbTestExperimentDefinitionSO::get_test1GroupSize() {

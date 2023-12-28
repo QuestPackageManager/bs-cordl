@@ -157,7 +157,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuEnvironme
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4690)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4690))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4692))
 // CS Name: ::MenuEnvironmentManager*
 class CORDL_TYPE MenuEnvironmentManager : public ::UnityEngine::MonoBehaviour {

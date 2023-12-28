@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ParameterData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_ParameterData.get_ParmID
 template <>
 
@@ -395,279 +395,279 @@ constexpr HoudiniEngineUnity::HEU_ParameterData::operator ::HoudiniEngineUnity::
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*>(static_cast<void*>(this));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterData::__get__unityIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterData::__get__unityIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__unityIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____unityIndex = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_ParameterData::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_ParameterData::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_ParameterData::__get__labelName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____labelName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_ParameterData::__get__labelName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____labelName;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__labelName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____labelName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_ParameterData::__get__help() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____help;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_ParameterData::__get__help() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____help;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__help(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____help)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>*& HoudiniEngineUnity::HEU_ParameterData::__get__childParameterIDs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childParameterIDs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__childParameterIDs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childParameterIDs;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__childParameterIDs(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____childParameterIDs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterData::__get__choiceValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceValue;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterData::__get__choiceValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceValue;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__choiceValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____choiceValue = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_ParameterData::__get__intValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intValues;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__intValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intValues;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____intValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_ParameterData::__get__floatValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValues;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__floatValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValues;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& HoudiniEngineUnity::HEU_ParameterData::__get__stringValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringValues;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__stringValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringValues;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stringValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_ParameterData::__get__toggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_ParameterData::__get__toggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__toggle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____toggle = value;
 }
 constexpr ::UnityEngine::Color& HoudiniEngineUnity::HEU_ParameterData::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& HoudiniEngineUnity::HEU_ParameterData::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 constexpr ::UnityEngine::Gradient*& HoudiniEngineUnity::HEU_ParameterData::__get__gradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gradient;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& HoudiniEngineUnity::HEU_ParameterData::__get__gradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gradient;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__gradient(::UnityEngine::Gradient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationCurve*& HoudiniEngineUnity::HEU_ParameterData::__get__animCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& HoudiniEngineUnity::HEU_ParameterData::__get__animCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animCurve;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__animCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*>& HoudiniEngineUnity::HEU_ParameterData::__get__choiceLabels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceLabels;
 }
 constexpr ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__choiceLabels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceLabels;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__choiceLabels(::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____choiceLabels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& HoudiniEngineUnity::HEU_ParameterData::__get__choiceStringValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceStringValues;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__choiceStringValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceStringValues;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__choiceStringValues(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____choiceStringValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_ParameterData::__get__choiceIntValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceIntValues;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_ParameterData::__get__choiceIntValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____choiceIntValues;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__choiceIntValues(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____choiceIntValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_ParmInfo& HoudiniEngineUnity::HEU_ParameterData::__get__parmInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parmInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_ParmInfo const& HoudiniEngineUnity::HEU_ParameterData::__get__parmInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parmInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__parmInfo(::HoudiniEngineUnity::HAPI_ParmInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____parmInfo = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_ParameterData::__get__showChildren() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showChildren;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_ParameterData::__get__showChildren() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showChildren;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__showChildren(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showChildren = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_ParameterData::__get__fileTypeInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fileTypeInfo;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_ParameterData::__get__fileTypeInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fileTypeInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__fileTypeInfo(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fileTypeInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterData::__get__folderListChildrenProcessed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____folderListChildrenProcessed;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterData::__get__folderListChildrenProcessed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____folderListChildrenProcessed;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__folderListChildrenProcessed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____folderListChildrenProcessed = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_ParameterData::__get__tabSelectedIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabSelectedIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_ParameterData::__get__tabSelectedIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabSelectedIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__tabSelectedIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tabSelectedIndex = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_InputNode*& HoudiniEngineUnity::HEU_ParameterData::__get__paramInputNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramInputNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputNode*> const& HoudiniEngineUnity::HEU_ParameterData::__get__paramInputNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramInputNode;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__paramInputNode(::HoudiniEngineUnity::HEU_InputNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____paramInputNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_ParameterData::__get__hasAssetPathTag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasAssetPathTag;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_ParameterData::__get__hasAssetPathTag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasAssetPathTag;
 }
 constexpr void HoudiniEngineUnity::HEU_ParameterData::__set__hasAssetPathTag(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasAssetPathTag = value;
 }
 inline int32_t HoudiniEngineUnity::HEU_ParameterData::get_ParmID() {

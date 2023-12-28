@@ -7,9 +7,9 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ValueTask__ValueTaskSourceAsTask____c._ctor
 template <>
@@ -83,27 +83,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::Sources::IValueTaskSource*& System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::__get__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____source;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource*> const& System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::__get__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____source;
 }
 constexpr void System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::__set__source(::System::Threading::Tasks::Sources::IValueTaskSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int16_t& System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::__get__token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr int16_t const& System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::__get__token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr void System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::__set__token(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____token = value;
 }
 inline void System::Threading::Tasks::__ValueTask__ValueTaskSourceAsTask::setStaticF_s_completionAction(::System::Action_1<::System::Object*>* value) {

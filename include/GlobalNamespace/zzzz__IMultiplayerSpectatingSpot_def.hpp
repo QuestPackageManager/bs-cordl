@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IMultiplayerSpectatingSpot)
-namespace GlobalNamespace {
-class IMultiplayerObservable;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

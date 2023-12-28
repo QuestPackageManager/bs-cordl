@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(QuaternionConverter)
-namespace Newtonsoft::Json::Converters {
-class __QuaternionConverter____c;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonSerializer;
+}
+namespace Newtonsoft::Json::Converters {
+class __QuaternionConverter____c;
 }
 namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace Newtonsoft::Json::Linq {
 class JProperty;

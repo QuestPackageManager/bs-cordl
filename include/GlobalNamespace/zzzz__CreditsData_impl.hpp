@@ -53,39 +53,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__CreditsData__Text::__get_text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr ::StringW const& GlobalNamespace::__CreditsData__Text::__get_text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr void GlobalNamespace::__CreditsData__Text::__set_text(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__CreditsData__Text::__get_localized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localized;
 }
 constexpr bool const& GlobalNamespace::__CreditsData__Text::__get_localized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localized;
 }
 constexpr void GlobalNamespace::__CreditsData__Text::__set_localized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localized = value;
 }
 constexpr ::GlobalNamespace::__CreditsData__TextStyle& GlobalNamespace::__CreditsData__Text::__get_style() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___style;
 }
 constexpr ::GlobalNamespace::__CreditsData__TextStyle const& GlobalNamespace::__CreditsData__Text::__get_style() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___style;
 }
 constexpr void GlobalNamespace::__CreditsData__Text::__set_style(::GlobalNamespace::__CreditsData__TextStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___style = value;
 }
 inline bool GlobalNamespace::__CreditsData__Text::IsEmpty() {
@@ -165,54 +165,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__CreditsData__Text*& GlobalNamespace::__CreditsData__RootCreditsItem::__get_title() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___title;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& GlobalNamespace::__CreditsData__RootCreditsItem::__get_title() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___title;
 }
 constexpr void GlobalNamespace::__CreditsData__RootCreditsItem::__set_title(::GlobalNamespace::__CreditsData__Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___title)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__CreditsData__Text*& GlobalNamespace::__CreditsData__RootCreditsItem::__get_text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& GlobalNamespace::__CreditsData__RootCreditsItem::__get_text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr void GlobalNamespace::__CreditsData__RootCreditsItem::__set_text(::GlobalNamespace::__CreditsData__Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__CreditsData__RootCreditsItem::__get_rowCountOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rowCountOverride;
 }
 constexpr int32_t const& GlobalNamespace::__CreditsData__RootCreditsItem::__get_rowCountOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rowCountOverride;
 }
 constexpr void GlobalNamespace::__CreditsData__RootCreditsItem::__set_rowCountOverride(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rowCountOverride = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*>&
 GlobalNamespace::__CreditsData__RootCreditsItem::__get_creditsItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creditsItems;
 }
 constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> const&
 GlobalNamespace::__CreditsData__RootCreditsItem::__get_creditsItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creditsItems;
 }
 constexpr void GlobalNamespace::__CreditsData__RootCreditsItem::__set_creditsItems(
     ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creditsItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::__CreditsData__RootCreditsItem::HasTitle() {
@@ -283,27 +283,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__CreditsData__Text*& GlobalNamespace::__CreditsData__ChildCreditsItem::__get_title() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___title;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& GlobalNamespace::__CreditsData__ChildCreditsItem::__get_title() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___title;
 }
 constexpr void GlobalNamespace::__CreditsData__ChildCreditsItem::__set_title(::GlobalNamespace::__CreditsData__Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___title)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__CreditsData__Text*& GlobalNamespace::__CreditsData__ChildCreditsItem::__get_text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& GlobalNamespace::__CreditsData__ChildCreditsItem::__get_text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr void GlobalNamespace::__CreditsData__ChildCreditsItem::__set_text(::GlobalNamespace::__CreditsData__Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::__CreditsData__ChildCreditsItem::HasTitle() {
@@ -354,15 +354,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*>& GlobalNamespace::CreditsData::__get_creditsItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creditsItems;
 }
 constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> const& GlobalNamespace::CreditsData::__get_creditsItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creditsItems;
 }
 constexpr void GlobalNamespace::CreditsData::__set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creditsItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::CreditsData* GlobalNamespace::CreditsData::Deserialize(::StringW text) {

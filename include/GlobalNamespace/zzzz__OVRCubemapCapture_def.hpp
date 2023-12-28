@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCubemapCapture)
 namespace UnityEngine {
-class Cubemap;
+class Camera;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Camera;
+class Cubemap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCubemapCapture);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8085))
 // CS Name: ::OVRCubemapCapture*
 class CORDL_TYPE OVRCubemapCapture : public ::UnityEngine::MonoBehaviour {

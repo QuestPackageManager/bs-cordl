@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(StyleValues)
-namespace UnityEngine::UIElements {
-class StyleValueCollection;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+class StyleValueCollection;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {

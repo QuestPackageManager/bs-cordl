@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 CORDL_MODULE_EXPORT(WMRSpatialController)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::XR::WindowsMR::Input {

@@ -2,26 +2,26 @@
 #include "LiteNetLib/zzzz__ConnectionState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionState_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
-#include "LiteNetLib/zzzz__NetConnectAcceptPacket_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectResult_def.hpp"
-#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
-#include "LiteNetLib/zzzz__ConnectRequestResult_def.hpp"
-#include "LiteNetLib/zzzz__BaseChannel_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__NetConnectAcceptPacket_def.hpp"
+#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectResult_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "LiteNetLib/zzzz__ConnectRequestResult_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/zzzz__ShutdownResult_def.hpp"
-#include "LiteNetLib/zzzz__NetStatistics_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
 #include "LiteNetLib/zzzz__NetPacketPool_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "LiteNetLib/zzzz__BaseChannel_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/zzzz__NetStatistics_def.hpp"
+#include "LiteNetLib/zzzz__ShutdownResult_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionState_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::__NetPeer__IncomingFragments._ctor
 template <>
 
@@ -36,51 +36,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& LiteNetLib::__NetPeer__IncomingFragments::__get_Fragments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Fragments;
 }
 constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& LiteNetLib::__NetPeer__IncomingFragments::__get_Fragments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Fragments;
 }
 constexpr void LiteNetLib::__NetPeer__IncomingFragments::__set_Fragments(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Fragments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::__NetPeer__IncomingFragments::__get_ReceivedCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReceivedCount;
 }
 constexpr int32_t const& LiteNetLib::__NetPeer__IncomingFragments::__get_ReceivedCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReceivedCount;
 }
 constexpr void LiteNetLib::__NetPeer__IncomingFragments::__set_ReceivedCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ReceivedCount = value;
 }
 constexpr int32_t& LiteNetLib::__NetPeer__IncomingFragments::__get_TotalSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TotalSize;
 }
 constexpr int32_t const& LiteNetLib::__NetPeer__IncomingFragments::__get_TotalSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TotalSize;
 }
 constexpr void LiteNetLib::__NetPeer__IncomingFragments::__set_TotalSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TotalSize = value;
 }
 constexpr uint8_t& LiteNetLib::__NetPeer__IncomingFragments::__get_ChannelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ChannelId;
 }
 constexpr uint8_t const& LiteNetLib::__NetPeer__IncomingFragments::__get_ChannelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ChannelId;
 }
 constexpr void LiteNetLib::__NetPeer__IncomingFragments::__set_ChannelId(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ChannelId = value;
 }
 inline ::LiteNetLib::__NetPeer__IncomingFragments* LiteNetLib::__NetPeer__IncomingFragments::New_ctor() {
@@ -785,556 +785,556 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& LiteNetLib::NetPeer::__get__rtt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rtt;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__rtt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rtt;
 }
 constexpr void LiteNetLib::NetPeer::__set__rtt(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rtt = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__avgRtt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avgRtt;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__avgRtt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avgRtt;
 }
 constexpr void LiteNetLib::NetPeer::__set__avgRtt(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____avgRtt = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__rttCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rttCount;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__rttCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rttCount;
 }
 constexpr void LiteNetLib::NetPeer::__set__rttCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rttCount = value;
 }
 constexpr double_t& LiteNetLib::NetPeer::__get__resendDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resendDelay;
 }
 constexpr double_t const& LiteNetLib::NetPeer::__get__resendDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resendDelay;
 }
 constexpr void LiteNetLib::NetPeer::__set__resendDelay(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resendDelay = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__pingSendTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingSendTimer;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__pingSendTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingSendTimer;
 }
 constexpr void LiteNetLib::NetPeer::__set__pingSendTimer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pingSendTimer = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__rttResetTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rttResetTimer;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__rttResetTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rttResetTimer;
 }
 constexpr void LiteNetLib::NetPeer::__set__rttResetTimer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rttResetTimer = value;
 }
 constexpr ::System::Diagnostics::Stopwatch*& LiteNetLib::NetPeer::__get__pingTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingTimer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& LiteNetLib::NetPeer::__get__pingTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingTimer;
 }
 constexpr void LiteNetLib::NetPeer::__set__pingTimer(::System::Diagnostics::Stopwatch* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pingTimer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__timeSinceLastPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeSinceLastPacket;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__timeSinceLastPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeSinceLastPacket;
 }
 constexpr void LiteNetLib::NetPeer::__set__timeSinceLastPacket(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeSinceLastPacket = value;
 }
 constexpr int64_t& LiteNetLib::NetPeer::__get__remoteDelta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteDelta;
 }
 constexpr int64_t const& LiteNetLib::NetPeer::__get__remoteDelta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteDelta;
 }
 constexpr void LiteNetLib::NetPeer::__set__remoteDelta(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteDelta = value;
 }
 constexpr ::LiteNetLib::NetPacketPool*& LiteNetLib::NetPeer::__get__packetPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketPool*> const& LiteNetLib::NetPeer::__get__packetPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetPool;
 }
 constexpr void LiteNetLib::NetPeer::__set__packetPool(::LiteNetLib::NetPacketPool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packetPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& LiteNetLib::NetPeer::__get__flushLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flushLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetPeer::__get__flushLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flushLock;
 }
 constexpr void LiteNetLib::NetPeer::__set__flushLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____flushLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& LiteNetLib::NetPeer::__get__sendLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sendLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetPeer::__get__sendLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sendLock;
 }
 constexpr void LiteNetLib::NetPeer::__set__sendLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sendLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& LiteNetLib::NetPeer::__get__shutdownLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shutdownLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetPeer::__get__shutdownLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shutdownLock;
 }
 constexpr void LiteNetLib::NetPeer::__set__shutdownLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shutdownLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPeer*& LiteNetLib::NetPeer::__get_NextPeer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NextPeer;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& LiteNetLib::NetPeer::__get_NextPeer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NextPeer;
 }
 constexpr void LiteNetLib::NetPeer::__set_NextPeer(::LiteNetLib::NetPeer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NextPeer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPeer*& LiteNetLib::NetPeer::__get_PrevPeer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrevPeer;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& LiteNetLib::NetPeer::__get_PrevPeer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrevPeer;
 }
 constexpr void LiteNetLib::NetPeer::__set_PrevPeer(::LiteNetLib::NetPeer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PrevPeer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& LiteNetLib::NetPeer::__get__unreliableChannel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unreliableChannel;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& LiteNetLib::NetPeer::__get__unreliableChannel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unreliableChannel;
 }
 constexpr void LiteNetLib::NetPeer::__set__unreliableChannel(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unreliableChannel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*>& LiteNetLib::NetPeer::__get__channels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channels;
 }
 constexpr ::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*> const& LiteNetLib::NetPeer::__get__channels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channels;
 }
 constexpr void LiteNetLib::NetPeer::__set__channels(::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____channels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::BaseChannel*& LiteNetLib::NetPeer::__get__headChannel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headChannel;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::BaseChannel*> const& LiteNetLib::NetPeer::__get__headChannel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headChannel;
 }
 constexpr void LiteNetLib::NetPeer::__set__headChannel(::LiteNetLib::BaseChannel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headChannel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__mtu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtu;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__mtu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtu;
 }
 constexpr void LiteNetLib::NetPeer::__set__mtu(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mtu = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__mtuIdx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuIdx;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__mtuIdx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuIdx;
 }
 constexpr void LiteNetLib::NetPeer::__set__mtuIdx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mtuIdx = value;
 }
 constexpr bool& LiteNetLib::NetPeer::__get__finishMtu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishMtu;
 }
 constexpr bool const& LiteNetLib::NetPeer::__get__finishMtu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishMtu;
 }
 constexpr void LiteNetLib::NetPeer::__set__finishMtu(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finishMtu = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__mtuCheckTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuCheckTimer;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__mtuCheckTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuCheckTimer;
 }
 constexpr void LiteNetLib::NetPeer::__set__mtuCheckTimer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mtuCheckTimer = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__mtuCheckAttempts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuCheckAttempts;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__mtuCheckAttempts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuCheckAttempts;
 }
 constexpr void LiteNetLib::NetPeer::__set__mtuCheckAttempts(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mtuCheckAttempts = value;
 }
 constexpr ::System::Object*& LiteNetLib::NetPeer::__get__mtuMutex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuMutex;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetPeer::__get__mtuMutex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtuMutex;
 }
 constexpr void LiteNetLib::NetPeer::__set__mtuMutex(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mtuMutex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint16_t& LiteNetLib::NetPeer::__get__fragmentId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fragmentId;
 }
 constexpr uint16_t const& LiteNetLib::NetPeer::__get__fragmentId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fragmentId;
 }
 constexpr void LiteNetLib::NetPeer::__set__fragmentId(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fragmentId = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>*& LiteNetLib::NetPeer::__get__holdedFragments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____holdedFragments;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>*> const&
 LiteNetLib::NetPeer::__get__holdedFragments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____holdedFragments;
 }
 constexpr void LiteNetLib::NetPeer::__set__holdedFragments(::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____holdedFragments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& LiteNetLib::NetPeer::__get__deliveredFramgnets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deliveredFramgnets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*> const& LiteNetLib::NetPeer::__get__deliveredFramgnets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deliveredFramgnets;
 }
 constexpr void LiteNetLib::NetPeer::__set__deliveredFramgnets(::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____deliveredFramgnets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPeer::__get__mergeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeData;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPeer::__get__mergeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeData;
 }
 constexpr void LiteNetLib::NetPeer::__set__mergeData(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mergeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__mergePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergePos;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__mergePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergePos;
 }
 constexpr void LiteNetLib::NetPeer::__set__mergePos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mergePos = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__mergeCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeCount;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__mergeCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeCount;
 }
 constexpr void LiteNetLib::NetPeer::__set__mergeCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mergeCount = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__connectAttempts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectAttempts;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__connectAttempts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectAttempts;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectAttempts(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectAttempts = value;
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__connectTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectTimer;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__connectTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectTimer;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectTimer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectTimer = value;
 }
 constexpr int64_t& LiteNetLib::NetPeer::__get__connectTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectTime;
 }
 constexpr int64_t const& LiteNetLib::NetPeer::__get__connectTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectTime;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectTime = value;
 }
 constexpr uint8_t& LiteNetLib::NetPeer::__get__connectNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectNum;
 }
 constexpr uint8_t const& LiteNetLib::NetPeer::__get__connectNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectNum;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectNum(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectNum = value;
 }
 constexpr ::LiteNetLib::ConnectionState& LiteNetLib::NetPeer::__get__connectionState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionState;
 }
 constexpr ::LiteNetLib::ConnectionState const& LiteNetLib::NetPeer::__get__connectionState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionState;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectionState(::LiteNetLib::ConnectionState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectionState = value;
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPeer::__get__shutdownPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shutdownPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPeer::__get__shutdownPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shutdownPacket;
 }
 constexpr void LiteNetLib::NetPeer::__set__shutdownPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shutdownPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get__shutdownTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shutdownTimer;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get__shutdownTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shutdownTimer;
 }
 constexpr void LiteNetLib::NetPeer::__set__shutdownTimer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shutdownTimer = value;
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPeer::__get__pingPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPeer::__get__pingPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingPacket;
 }
 constexpr void LiteNetLib::NetPeer::__set__pingPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pingPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPeer::__get__pongPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pongPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPeer::__get__pongPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pongPacket;
 }
 constexpr void LiteNetLib::NetPeer::__set__pongPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pongPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPeer::__get__connectRequestPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectRequestPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPeer::__get__connectRequestPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectRequestPacket;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectRequestPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectRequestPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPeer::__get__connectAcceptPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectAcceptPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPeer::__get__connectAcceptPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectAcceptPacket;
 }
 constexpr void LiteNetLib::NetPeer::__set__connectAcceptPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectAcceptPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IPEndPoint*& LiteNetLib::NetPeer::__get_EndPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EndPoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::NetPeer::__get_EndPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EndPoint;
 }
 constexpr void LiteNetLib::NetPeer::__set_EndPoint(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___EndPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetManager*& LiteNetLib::NetPeer::__get_NetManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& LiteNetLib::NetPeer::__get_NetManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetManager;
 }
 constexpr void LiteNetLib::NetPeer::__set_NetManager(::LiteNetLib::NetManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NetManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetPeer::__get_Id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Id;
 }
 constexpr int32_t const& LiteNetLib::NetPeer::__get_Id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Id;
 }
 constexpr void LiteNetLib::NetPeer::__set_Id(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Id = value;
 }
 constexpr ::System::Object*& LiteNetLib::NetPeer::__get_Tag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Tag;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetPeer::__get_Tag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Tag;
 }
 constexpr void LiteNetLib::NetPeer::__set_Tag(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Tag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetStatistics*& LiteNetLib::NetPeer::__get_Statistics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Statistics;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetStatistics*> const& LiteNetLib::NetPeer::__get_Statistics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Statistics;
 }
 constexpr void LiteNetLib::NetPeer::__set_Statistics(::LiteNetLib::NetStatistics* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Statistics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline uint8_t LiteNetLib::NetPeer::get_ConnectionNum() {

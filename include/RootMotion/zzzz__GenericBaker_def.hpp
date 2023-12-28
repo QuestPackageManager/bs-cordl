@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(GenericBaker)
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace RootMotion {
 class BakerTransform;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace RootMotion {

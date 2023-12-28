@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_LoadBufferMesh)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace HoudiniEngineUnity {
 class HEU_GenerateGeoCache;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeoGroup;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

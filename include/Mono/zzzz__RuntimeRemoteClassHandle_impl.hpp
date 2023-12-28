@@ -1,7 +1,7 @@
 #pragma once
 #include "Mono/zzzz__RuntimeRemoteClassHandle_def.hpp"
-#include "Mono/zzzz__RuntimeStructs_def.hpp"
 #include "Mono/zzzz__RuntimeClassHandle_def.hpp"
+#include "Mono/zzzz__RuntimeStructs_def.hpp"
 //  Writing Method size for method: ::Mono::RuntimeRemoteClassHandle.get_ProxyClass
 template <>
 

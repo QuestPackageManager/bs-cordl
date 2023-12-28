@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(ValueTaskAwaiter)
 namespace System {
 class Object;
 }
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+class __ValueTaskAwaiter____c;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
-class __ValueTaskAwaiter____c;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

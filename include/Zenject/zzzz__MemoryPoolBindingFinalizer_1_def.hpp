@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolBindingFinalizer_1)
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class MemoryPoolBindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class BindInfo;
 }
 namespace Zenject {
 class FactoryBindInfo;

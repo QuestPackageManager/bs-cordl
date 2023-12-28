@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/Text/zzzz__EncoderFallbackException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Text::EncoderFallbackException._ctor
 template <>
 
@@ -65,51 +65,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr char16_t& System::Text::EncoderFallbackException::__get__charUnknown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charUnknown;
 }
 constexpr char16_t const& System::Text::EncoderFallbackException::__get__charUnknown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charUnknown;
 }
 constexpr void System::Text::EncoderFallbackException::__set__charUnknown(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charUnknown = value;
 }
 constexpr char16_t& System::Text::EncoderFallbackException::__get__charUnknownHigh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charUnknownHigh;
 }
 constexpr char16_t const& System::Text::EncoderFallbackException::__get__charUnknownHigh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charUnknownHigh;
 }
 constexpr void System::Text::EncoderFallbackException::__set__charUnknownHigh(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charUnknownHigh = value;
 }
 constexpr char16_t& System::Text::EncoderFallbackException::__get__charUnknownLow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charUnknownLow;
 }
 constexpr char16_t const& System::Text::EncoderFallbackException::__get__charUnknownLow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charUnknownLow;
 }
 constexpr void System::Text::EncoderFallbackException::__set__charUnknownLow(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charUnknownLow = value;
 }
 constexpr int32_t& System::Text::EncoderFallbackException::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& System::Text::EncoderFallbackException::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void System::Text::EncoderFallbackException::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 inline ::System::Text::EncoderFallbackException* System::Text::EncoderFallbackException::New_ctor() {

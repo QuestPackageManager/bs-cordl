@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffect_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSaberSparkleEffect.set_color
 template <>
 
@@ -92,51 +92,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystem;
 }
 constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__sparkleParticleSystem(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sparkleParticleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystem;
 }
 constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__burnParticleSystem(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burnParticleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystemEmissionModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystemEmissionModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystemEmissionModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystemEmissionModule;
 }
 constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__sparkleParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparkleParticleSystemEmissionModule = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystemEmissionModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystemEmissionModule;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystemEmissionModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystemEmissionModule;
 }
 constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__burnParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____burnParticleSystemEmissionModule = value;
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::set_color(::UnityEngine::Color value) {

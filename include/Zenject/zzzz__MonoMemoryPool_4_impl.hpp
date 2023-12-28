@@ -6,17 +6,17 @@
 #include "System/zzzz__Object_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 constexpr ::UnityEngine::Transform*& Zenject::MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>::__get__originalParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalParent;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& Zenject::MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>::__get__originalParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalParent;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 constexpr void Zenject::MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>::__set__originalParent(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>

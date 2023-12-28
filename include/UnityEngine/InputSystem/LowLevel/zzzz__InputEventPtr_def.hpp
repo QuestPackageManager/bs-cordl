@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(InputEventPtr)
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace System {
 class Object;

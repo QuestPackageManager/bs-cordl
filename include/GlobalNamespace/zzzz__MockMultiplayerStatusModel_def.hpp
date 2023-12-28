@@ -8,13 +8,13 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class IMultiplayerStatusModel;
+class MultiplayerStatusData;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class MultiplayerStatusData;
+class IMultiplayerStatusModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

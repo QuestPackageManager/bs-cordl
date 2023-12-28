@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightBakingOutput)
 namespace UnityEngine {
-struct LightmapBakeType;
+struct MixedLightingMode;
 }
 namespace UnityEngine {
-struct MixedLightingMode;
+struct LightmapBakeType;
 }
 // Forward declare root types
 namespace UnityEngine {

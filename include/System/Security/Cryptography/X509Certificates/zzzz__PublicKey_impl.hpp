@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
 #include "System/Security/Cryptography/zzzz__Oid_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::PublicKey._ctor
 template <>
 
@@ -132,39 +132,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::AsnEncodedData*& System::Security::Cryptography::X509Certificates::PublicKey::__get__keyValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsnEncodedData*> const& System::Security::Cryptography::X509Certificates::PublicKey::__get__keyValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyValue;
 }
 constexpr void System::Security::Cryptography::X509Certificates::PublicKey::__set__keyValue(::System::Security::Cryptography::AsnEncodedData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::AsnEncodedData*& System::Security::Cryptography::X509Certificates::PublicKey::__get__params() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____params;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsnEncodedData*> const& System::Security::Cryptography::X509Certificates::PublicKey::__get__params() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____params;
 }
 constexpr void System::Security::Cryptography::X509Certificates::PublicKey::__set__params(::System::Security::Cryptography::AsnEncodedData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____params)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::Oid*& System::Security::Cryptography::X509Certificates::PublicKey::__get__oid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& System::Security::Cryptography::X509Certificates::PublicKey::__get__oid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
 constexpr void System::Security::Cryptography::X509Certificates::PublicKey::__set__oid(::System::Security::Cryptography::Oid* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Cryptography::X509Certificates::PublicKey::setStaticF_Empty(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

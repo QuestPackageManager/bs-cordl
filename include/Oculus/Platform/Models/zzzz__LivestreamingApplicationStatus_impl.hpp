@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::LivestreamingApplicationStatus::__get_StreamingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StreamingEnabled;
 }
 constexpr bool const& Oculus::Platform::Models::LivestreamingApplicationStatus::__get_StreamingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StreamingEnabled;
 }
 constexpr void Oculus::Platform::Models::LivestreamingApplicationStatus::__set_StreamingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___StreamingEnabled = value;
 }
 inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* Oculus::Platform::Models::LivestreamingApplicationStatus::New_ctor(void* o) {

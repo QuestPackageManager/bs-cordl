@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags::__MeshGenerationContext__MeshFlags(int32_t value__) noexcept {
   this->value__ = value__;
@@ -28,15 +28,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::IStylePainter*& UnityEngine::UIElements::MeshGenerationContext::__get_painter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___painter;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IStylePainter*> const& UnityEngine::UIElements::MeshGenerationContext::__get_painter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___painter;
 }
 constexpr void UnityEngine::UIElements::MeshGenerationContext::__set_painter(::UnityEngine::UIElements::IStylePainter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___painter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::MeshGenerationContext* UnityEngine::UIElements::MeshGenerationContext::New_ctor(::UnityEngine::UIElements::IStylePainter* painter) {

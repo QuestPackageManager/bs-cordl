@@ -24,11 +24,11 @@ class GameplayModifiers;
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class GameplayModifierInfoListItem;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

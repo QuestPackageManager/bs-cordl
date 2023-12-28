@@ -8,14 +8,14 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_def.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackedDeviceProperty_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackedDeviceProperty_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Version_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRInput__Button::__OVRInput__Button(int32_t value__) noexcept {
@@ -369,63 +369,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__OVRInput__HapticInfo::__get_playingHaptics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playingHaptics;
 }
 constexpr bool const& GlobalNamespace::__OVRInput__HapticInfo::__get_playingHaptics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playingHaptics;
 }
 constexpr void GlobalNamespace::__OVRInput__HapticInfo::__set_playingHaptics(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playingHaptics = value;
 }
 constexpr float_t& GlobalNamespace::__OVRInput__HapticInfo::__get_hapticsDurationPlayed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hapticsDurationPlayed;
 }
 constexpr float_t const& GlobalNamespace::__OVRInput__HapticInfo::__get_hapticsDurationPlayed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hapticsDurationPlayed;
 }
 constexpr void GlobalNamespace::__OVRInput__HapticInfo::__set_hapticsDurationPlayed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hapticsDurationPlayed = value;
 }
 constexpr float_t& GlobalNamespace::__OVRInput__HapticInfo::__get_hapticsDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hapticsDuration;
 }
 constexpr float_t const& GlobalNamespace::__OVRInput__HapticInfo::__get_hapticsDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hapticsDuration;
 }
 constexpr void GlobalNamespace::__OVRInput__HapticInfo::__set_hapticsDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hapticsDuration = value;
 }
 constexpr float_t& GlobalNamespace::__OVRInput__HapticInfo::__get_hapticAmplitude() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hapticAmplitude;
 }
 constexpr float_t const& GlobalNamespace::__OVRInput__HapticInfo::__get_hapticAmplitude() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hapticAmplitude;
 }
 constexpr void GlobalNamespace::__OVRInput__HapticInfo::__set_hapticAmplitude(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hapticAmplitude = value;
 }
 constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::__OVRInput__HapticInfo::__get_node() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
 constexpr ::UnityEngine::XR::XRNode const& GlobalNamespace::__OVRInput__HapticInfo::__get_node() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
 constexpr void GlobalNamespace::__OVRInput__HapticInfo::__set_node(::UnityEngine::XR::XRNode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___node = value;
 }
 inline ::GlobalNamespace::__OVRInput__HapticInfo* GlobalNamespace::__OVRInput__HapticInfo::New_ctor() {
@@ -469,399 +469,399 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_None() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_None() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_None(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___None = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_One() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___One;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_One() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___One;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_One(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___One = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Two() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Two;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Two() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Two;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Two(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Two = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Three() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Three;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Three() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Three;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Three(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Three = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Four() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Four;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Four() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Four;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Four(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Four = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Start;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Start;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Start(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Start = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Back() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Back;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Back() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Back;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Back(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Back = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryShoulder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryShoulder;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryShoulder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryShoulder;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryShoulder(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryShoulder = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryIndexTrigger(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryHandTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryHandTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryHandTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryHandTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryHandTrigger(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryHandTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstick;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstick;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryThumbstick(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstick = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickUp;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickUp;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryThumbstickUp(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstickUp = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickDown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickDown;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickDown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickDown;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryThumbstickDown(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstickDown = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickLeft;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickLeft;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryThumbstickLeft(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstickLeft = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickRight;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryThumbstickRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstickRight;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryThumbstickRight(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstickRight = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryTouchpad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryTouchpad;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_PrimaryTouchpad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryTouchpad;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_PrimaryTouchpad(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryTouchpad = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryShoulder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryShoulder;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryShoulder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryShoulder;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryShoulder(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryShoulder = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryIndexTrigger(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryHandTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryHandTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryHandTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryHandTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryHandTrigger(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryHandTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstick;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstick;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryThumbstick(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstick = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickUp;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickUp;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryThumbstickUp(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstickUp = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickDown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickDown;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickDown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickDown;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryThumbstickDown(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstickDown = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickLeft;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickLeft;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryThumbstickLeft(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstickLeft = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickRight;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryThumbstickRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstickRight;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryThumbstickRight(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstickRight = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryTouchpad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryTouchpad;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_SecondaryTouchpad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryTouchpad;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_SecondaryTouchpad(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryTouchpad = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadUp;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadUp;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_DpadUp(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DpadUp = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadDown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadDown;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadDown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadDown;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_DpadDown(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DpadDown = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadLeft;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadLeft;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_DpadLeft(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DpadLeft = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadRight;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_DpadRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DpadRight;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_DpadRight(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DpadRight = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Up() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Up;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Up() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Up;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Up(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Up = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Down() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Down;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Down() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Down;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Down(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Down = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Left() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Left;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Left() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Left;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Left(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Left = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Right() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Right;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__get_Right() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Right;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::__set_Right(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Right = value;
 }
 inline ::GlobalNamespace::__OVRInput__RawButton GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::ToRawMask(::GlobalNamespace::__OVRInput__Button virtualMask) {
@@ -912,159 +912,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_None() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_None() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_None(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___None = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_One() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___One;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_One() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___One;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_One(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___One = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_Two() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Two;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_Two() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Two;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_Two(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Two = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_Three() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Three;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_Three() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Three;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_Three(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Three = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_Four() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Four;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_Four() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Four;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_Four(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Four = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_PrimaryIndexTrigger(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryThumbstick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstick;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryThumbstick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstick;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_PrimaryThumbstick(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstick = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryThumbRest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbRest;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryThumbRest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbRest;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_PrimaryThumbRest(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbRest = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryTouchpad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryTouchpad;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_PrimaryTouchpad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryTouchpad;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_PrimaryTouchpad(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryTouchpad = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_SecondaryIndexTrigger(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryThumbstick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstick;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryThumbstick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstick;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_SecondaryThumbstick(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstick = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryThumbRest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbRest;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryThumbRest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbRest;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_SecondaryThumbRest(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbRest = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryTouchpad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryTouchpad;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__get_SecondaryTouchpad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryTouchpad;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::__set_SecondaryTouchpad(::GlobalNamespace::__OVRInput__RawTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryTouchpad = value;
 }
 inline ::GlobalNamespace::__OVRInput__RawTouch GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::ToRawMask(::GlobalNamespace::__OVRInput__Touch virtualMask) {
@@ -1116,63 +1116,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_None() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_None() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__set_None(::GlobalNamespace::__OVRInput__RawNearTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___None = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_PrimaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_PrimaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__set_PrimaryIndexTrigger(::GlobalNamespace::__OVRInput__RawNearTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_PrimaryThumbButtons() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbButtons;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_PrimaryThumbButtons() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbButtons;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__set_PrimaryThumbButtons(::GlobalNamespace::__OVRInput__RawNearTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbButtons = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_SecondaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_SecondaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__set_SecondaryIndexTrigger(::GlobalNamespace::__OVRInput__RawNearTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_SecondaryThumbButtons() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbButtons;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawNearTouch const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__get_SecondaryThumbButtons() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbButtons;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::__set_SecondaryThumbButtons(::GlobalNamespace::__OVRInput__RawNearTouch value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbButtons = value;
 }
 inline ::GlobalNamespace::__OVRInput__RawNearTouch GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::ToRawMask(::GlobalNamespace::__OVRInput__NearTouch virtualMask) {
@@ -1223,183 +1223,183 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_None() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_None() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_None(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___None = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryIndexTrigger(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryHandTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryHandTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryHandTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryHandTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryHandTrigger(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryHandTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryIndexTrigger(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryHandTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryHandTrigger;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryHandTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryHandTrigger;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryHandTrigger(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryHandTrigger = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTriggerCurl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTriggerCurl;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTriggerCurl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTriggerCurl;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryIndexTriggerCurl(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTriggerCurl = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTriggerSlide() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTriggerSlide;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTriggerSlide() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTriggerSlide;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryIndexTriggerSlide(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTriggerSlide = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryThumbRestForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbRestForce;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryThumbRestForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbRestForce;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryThumbRestForce(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbRestForce = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryStylusForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryStylusForce;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryStylusForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryStylusForce;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryStylusForce(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryStylusForce = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTriggerCurl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTriggerCurl;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTriggerCurl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTriggerCurl;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryIndexTriggerCurl(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTriggerCurl = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTriggerSlide() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTriggerSlide;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTriggerSlide() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTriggerSlide;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryIndexTriggerSlide(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTriggerSlide = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryThumbRestForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbRestForce;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryThumbRestForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbRestForce;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryThumbRestForce(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbRestForce = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryStylusForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryStylusForce;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryStylusForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryStylusForce;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryStylusForce(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryStylusForce = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTriggerForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTriggerForce;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_PrimaryIndexTriggerForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryIndexTriggerForce;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_PrimaryIndexTriggerForce(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryIndexTriggerForce = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTriggerForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTriggerForce;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis1D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__get_SecondaryIndexTriggerForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryIndexTriggerForce;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::__set_SecondaryIndexTriggerForce(::GlobalNamespace::__OVRInput__RawAxis1D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryIndexTriggerForce = value;
 }
 inline ::GlobalNamespace::__OVRInput__RawAxis1D GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::ToRawMask(::GlobalNamespace::__OVRInput__Axis1D virtualMask) {
@@ -1450,63 +1450,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_None() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_None() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___None;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__set_None(::GlobalNamespace::__OVRInput__RawAxis2D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___None = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_PrimaryThumbstick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstick;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_PrimaryThumbstick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryThumbstick;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__set_PrimaryThumbstick(::GlobalNamespace::__OVRInput__RawAxis2D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryThumbstick = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_PrimaryTouchpad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryTouchpad;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_PrimaryTouchpad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrimaryTouchpad;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__set_PrimaryTouchpad(::GlobalNamespace::__OVRInput__RawAxis2D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrimaryTouchpad = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_SecondaryThumbstick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstick;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_SecondaryThumbstick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryThumbstick;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__set_SecondaryThumbstick(::GlobalNamespace::__OVRInput__RawAxis2D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryThumbstick = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_SecondaryTouchpad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryTouchpad;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawAxis2D const& GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__get_SecondaryTouchpad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SecondaryTouchpad;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::__set_SecondaryTouchpad(::GlobalNamespace::__OVRInput__RawAxis2D value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SecondaryTouchpad = value;
 }
 inline ::GlobalNamespace::__OVRInput__RawAxis2D GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::ToRawMask(::GlobalNamespace::__OVRInput__Axis2D virtualMask) {
@@ -1823,124 +1823,124 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__Controller& GlobalNamespace::__OVRInput__OVRControllerBase::__get_controllerType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerType;
 }
 constexpr ::GlobalNamespace::__OVRInput__Controller const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_controllerType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerType;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_controllerType(::GlobalNamespace::__OVRInput__Controller value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerType = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap*& GlobalNamespace::__OVRInput__OVRControllerBase::__get_buttonMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap*> const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_buttonMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonMap;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_buttonMap(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buttonMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap*& GlobalNamespace::__OVRInput__OVRControllerBase::__get_touchMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___touchMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap*> const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_touchMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___touchMap;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_touchMap(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___touchMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap*& GlobalNamespace::__OVRInput__OVRControllerBase::__get_nearTouchMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nearTouchMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap*> const&
 GlobalNamespace::__OVRInput__OVRControllerBase::__get_nearTouchMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nearTouchMap;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_nearTouchMap(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nearTouchMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap*& GlobalNamespace::__OVRInput__OVRControllerBase::__get_axis1DMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis1DMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap*> const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_axis1DMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis1DMap;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_axis1DMap(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___axis1DMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap*& GlobalNamespace::__OVRInput__OVRControllerBase::__get_axis2DMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis2DMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap*> const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_axis2DMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis2DMap;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_axis2DMap(::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___axis2DMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6& GlobalNamespace::__OVRInput__OVRControllerBase::__get_previousState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousState;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6 const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_previousState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousState;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_previousState(::GlobalNamespace::__OVRPlugin__ControllerState6 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___previousState = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6& GlobalNamespace::__OVRInput__OVRControllerBase::__get_currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentState;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__ControllerState6 const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentState;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_currentState(::GlobalNamespace::__OVRPlugin__ControllerState6 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentState = value;
 }
 constexpr bool& GlobalNamespace::__OVRInput__OVRControllerBase::__get_shouldApplyDeadzone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldApplyDeadzone;
 }
 constexpr bool const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_shouldApplyDeadzone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldApplyDeadzone;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_shouldApplyDeadzone(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shouldApplyDeadzone = value;
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& GlobalNamespace::__OVRInput__OVRControllerBase::__get_HapticsPcmSamplesConsumedCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HapticsPcmSamplesConsumedCache;
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& GlobalNamespace::__OVRInput__OVRControllerBase::__get_HapticsPcmSamplesConsumedCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HapticsPcmSamplesConsumedCache;
 }
 constexpr void GlobalNamespace::__OVRInput__OVRControllerBase::__set_HapticsPcmSamplesConsumedCache(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___HapticsPcmSamplesConsumedCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRInput__OVRControllerBase* GlobalNamespace::__OVRInput__OVRControllerBase::New_ctor() {

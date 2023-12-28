@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TrackLaneRingsManager.get_ringPositionStep
 template <>
 
@@ -98,75 +98,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::TrackLaneRing*& GlobalNamespace::TrackLaneRingsManager::__get__trackLaneRingPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneRingPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrackLaneRing*> const& GlobalNamespace::TrackLaneRingsManager::__get__trackLaneRingPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneRingPrefab;
 }
 constexpr void GlobalNamespace::TrackLaneRingsManager::__set__trackLaneRingPrefab(::GlobalNamespace::TrackLaneRing* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackLaneRingPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::TrackLaneRingsManager::__get__ringCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringCount;
 }
 constexpr int32_t const& GlobalNamespace::TrackLaneRingsManager::__get__ringCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringCount;
 }
 constexpr void GlobalNamespace::TrackLaneRingsManager::__set__ringCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ringCount = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRingsManager::__get__ringPositionStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringPositionStep;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRingsManager::__get__ringPositionStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringPositionStep;
 }
 constexpr void GlobalNamespace::TrackLaneRingsManager::__set__ringPositionStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ringPositionStep = value;
 }
 constexpr bool& GlobalNamespace::TrackLaneRingsManager::__get__spawnAsChildren() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnAsChildren;
 }
 constexpr bool const& GlobalNamespace::TrackLaneRingsManager::__get__spawnAsChildren() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnAsChildren;
 }
 constexpr void GlobalNamespace::TrackLaneRingsManager::__set__spawnAsChildren(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnAsChildren = value;
 }
 constexpr ::Zenject::DiContainer*& GlobalNamespace::TrackLaneRingsManager::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::TrackLaneRingsManager::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void GlobalNamespace::TrackLaneRingsManager::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*>& GlobalNamespace::TrackLaneRingsManager::__get__rings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rings;
 }
 constexpr ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> const& GlobalNamespace::TrackLaneRingsManager::__get__rings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rings;
 }
 constexpr void GlobalNamespace::TrackLaneRingsManager::__set__rings(::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep() {

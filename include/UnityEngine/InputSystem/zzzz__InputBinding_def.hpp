@@ -14,31 +14,31 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem {
+struct __InputBinding__MatchOptions;
+}
+namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class __InputBinding____c;
 }
 namespace UnityEngine::InputSystem {
 struct __InputBinding__DisplayStringOptions;
 }
 namespace UnityEngine::InputSystem {
-struct __InputBinding__MatchOptions;
+struct __InputBinding__Flags;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
-namespace UnityEngine::InputSystem {
-class __InputBinding____c;
-}
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
 struct Guid;
 }
-namespace UnityEngine::InputSystem {
-struct __InputBinding__Flags;
-}
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

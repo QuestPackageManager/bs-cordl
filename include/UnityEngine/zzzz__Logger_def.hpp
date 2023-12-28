@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Logger)
+namespace UnityEngine {
+class Object;
+}
 namespace System {
 class Exception;
 }
 namespace UnityEngine {
-class ILogger;
+struct LogType;
 }
 namespace UnityEngine {
 class ILogHandler;
 }
 namespace UnityEngine {
-struct LogType;
+class ILogger;
 }
 namespace System {
-class Object;
-}
-namespace UnityEngine {
 class Object;
 }
 // Forward declare root types
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::Logger);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10036))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10056))
 // CS Name: ::UnityEngine::Logger*
 class CORDL_TYPE Logger : public ::System::Object {

@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRTrackedCamera)
 namespace OVR::OpenVR {
-struct VRTextureBounds_t;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix44_t;
+struct CameraVideoStreamFrameHeader_t;
 }
 namespace OVR::OpenVR {
 struct EVRTrackedCameraFrameType;
 }
 namespace OVR::OpenVR {
-struct EVRTrackedCameraError;
+struct HmdMatrix44_t;
 }
 namespace OVR::OpenVR {
 struct HmdVector2_t;
 }
 namespace OVR::OpenVR {
-struct CameraVideoStreamFrameHeader_t;
+struct EVRTrackedCameraError;
+}
+namespace OVR::OpenVR {
+struct VRTextureBounds_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRTrackedCamera);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8281))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8281)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8560))
 // CS Name: ::OVR.OpenVR::CVRTrackedCamera*
 class CORDL_TYPE CVRTrackedCamera : public ::System::Object {

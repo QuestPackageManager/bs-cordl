@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBeatSaberLogger.Log
 template <>
 

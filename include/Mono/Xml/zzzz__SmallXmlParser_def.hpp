@@ -8,7 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SmallXmlParser)
 namespace Mono::Xml {
-class __SmallXmlParser__IContentHandler;
+class __SmallXmlParser__AttrListImpl;
+}
+namespace System::Collections {
+class Stack;
 }
 namespace System {
 class Exception;
@@ -16,17 +19,14 @@ class Exception;
 namespace Mono::Xml {
 class __SmallXmlParser__IAttrList;
 }
-namespace Mono::Xml {
-class __SmallXmlParser__AttrListImpl;
-}
 namespace System::Text {
 class StringBuilder;
 }
+namespace Mono::Xml {
+class __SmallXmlParser__IContentHandler;
+}
 namespace System::IO {
 class TextReader;
-}
-namespace System::Collections {
-class Stack;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

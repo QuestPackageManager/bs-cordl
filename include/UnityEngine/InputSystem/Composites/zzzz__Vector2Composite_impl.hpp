@@ -62,75 +62,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::InputSystem::Composites::Vector2Composite::__get_up() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___up;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::Vector2Composite::__get_up() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___up;
 }
 constexpr void UnityEngine::InputSystem::Composites::Vector2Composite::__set_up(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___up = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::Vector2Composite::__get_down() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___down;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::Vector2Composite::__get_down() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___down;
 }
 constexpr void UnityEngine::InputSystem::Composites::Vector2Composite::__set_down(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___down = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::Vector2Composite::__get_left() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___left;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::Vector2Composite::__get_left() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___left;
 }
 constexpr void UnityEngine::InputSystem::Composites::Vector2Composite::__set_left(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___left = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::Vector2Composite::__get_right() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___right;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::Vector2Composite::__get_right() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___right;
 }
 constexpr void UnityEngine::InputSystem::Composites::Vector2Composite::__set_right(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___right = value;
 }
 constexpr bool& UnityEngine::InputSystem::Composites::Vector2Composite::__get_normalize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalize;
 }
 constexpr bool const& UnityEngine::InputSystem::Composites::Vector2Composite::__get_normalize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalize;
 }
 constexpr void UnityEngine::InputSystem::Composites::Vector2Composite::__set_normalize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___normalize = value;
 }
 constexpr ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode& UnityEngine::InputSystem::Composites::Vector2Composite::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const& UnityEngine::InputSystem::Composites::Vector2Composite::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr void UnityEngine::InputSystem::Composites::Vector2Composite::__set_mode(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 inline ::UnityEngine::Vector2 UnityEngine::InputSystem::Composites::Vector2Composite::ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {

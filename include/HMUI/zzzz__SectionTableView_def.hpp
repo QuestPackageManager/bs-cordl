@@ -18,6 +18,9 @@ class __SectionTableView__IDataSource;
 namespace HMUI {
 class __TableView__IDataSource;
 }
+namespace HMUI {
+class TableView;
+}
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
@@ -25,13 +28,10 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace HMUI {
-class TableCell;
-}
-namespace HMUI {
-class TableView;
-}
-namespace HMUI {
 struct __TableView__ScrollPositionType;
+}
+namespace HMUI {
+class TableCell;
 }
 // Forward declare root types
 namespace HMUI {

@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(IVRSpatialAnchors)
 namespace System {
 class IAsyncResult;
 }
+namespace OVR::OpenVR {
+struct EVRSpatialAnchorError;
+}
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class Object;
-}
-namespace OVR::OpenVR {
-struct EVRSpatialAnchorError;
 }
 namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
@@ -30,13 +30,13 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
+class __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
+}
+namespace OVR::OpenVR {
 class __IVRSpatialAnchors___CreateSpatialAnchorFromPose;
 }
 namespace OVR::OpenVR {
 class __IVRSpatialAnchors___GetSpatialAnchorPose;
-}
-namespace OVR::OpenVR {
-class __IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
 }
 namespace OVR::OpenVR {
 class __IVRSpatialAnchors___GetSpatialAnchorDescriptor;

@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 CORDL_MODULE_EXPORT(AnimationPreviewUpdateCallback)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::Timeline {
 class ITimelineEvaluateCallback;
 }
@@ -17,6 +14,9 @@ struct AnimationPlayableOutput;
 }
 namespace UnityEngine::Animations {
 class IAnimationWindowPreview;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::AnimationPreviewUpdateCallback);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14901)), TypeDefinitionIndex(TypeDefinitionIndex(10435))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14901)), TypeDefinitionIndex(TypeDefinitionIndex(10435)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13836))
 // CS Name: ::UnityEngine.Timeline::AnimationPreviewUpdateCallback*
 class CORDL_TYPE AnimationPreviewUpdateCallback : public ::System::Object {

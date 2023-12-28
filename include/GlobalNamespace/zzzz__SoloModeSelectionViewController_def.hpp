@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SoloModeSelectionViewController)
-namespace GlobalNamespace {
-struct __SoloModeSelectionViewController__MenuType;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+struct __SoloModeSelectionViewController__MenuType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

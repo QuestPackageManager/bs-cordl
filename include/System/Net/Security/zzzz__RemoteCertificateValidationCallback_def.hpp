@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteCertificateValidationCallback)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
+namespace System {
+class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
 namespace System::Net::Security {
 struct SslPolicyErrors;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Net::Security {

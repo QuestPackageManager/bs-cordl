@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(HoldInteraction)
 namespace UnityEngine::InputSystem {
-struct InputInteractionContext;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+struct InputInteractionContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {

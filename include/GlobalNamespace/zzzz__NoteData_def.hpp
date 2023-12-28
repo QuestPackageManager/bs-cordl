@@ -12,25 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteData)
 namespace GlobalNamespace {
+struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+struct __NoteData__ScoringType;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+struct ColorType;
 }
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct ColorType;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -178,8 +178,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteData__Sco
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14757))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14758)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14752))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14759)) CS Name: ::NoteData*
 class CORDL_TYPE NoteData : public ::GlobalNamespace::BeatmapObjectData {
 public:

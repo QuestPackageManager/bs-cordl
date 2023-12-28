@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorTMPTextStateTransition_def.hpp"
-#include "Tweening/zzzz__ColorTween_def.hpp"
-#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorTransitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "Tweening/zzzz__ColorTween_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorTMPTextStateTransition.get_transition
 template <>
@@ -272,27 +272,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorTransitionSO*& GlobalNamespace::ColorTMPTextStateTransition::__get__transition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorTransitionSO*> const& GlobalNamespace::ColorTMPTextStateTransition::__get__transition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr void GlobalNamespace::ColorTMPTextStateTransition::__set__transition(::GlobalNamespace::ColorTransitionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::ColorTween*& GlobalNamespace::ColorTMPTextStateTransition::__get__colorTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& GlobalNamespace::ColorTMPTextStateTransition::__get__colorTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTween;
 }
 constexpr void GlobalNamespace::ColorTMPTextStateTransition::__set__colorTween(::Tweening::ColorTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BaseTransitionSO* GlobalNamespace::ColorTMPTextStateTransition::get_transition() {

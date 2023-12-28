@@ -122,51 +122,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::StringBuilder*& HoudiniEngineUnity::HEU_CookLogs::__get__cookLogs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookLogs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& HoudiniEngineUnity::HEU_CookLogs::__get__cookLogs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookLogs;
 }
 constexpr void HoudiniEngineUnity::HEU_CookLogs::__set__cookLogs(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cookLogs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_CookLogs::__get__currentCookLogCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentCookLogCount;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_CookLogs::__get__currentCookLogCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentCookLogCount;
 }
 constexpr void HoudiniEngineUnity::HEU_CookLogs::__set__currentCookLogCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentCookLogCount = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_CookLogs::__get__lastLogStr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastLogStr;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_CookLogs::__get__lastLogStr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastLogStr;
 }
 constexpr void HoudiniEngineUnity::HEU_CookLogs::__set__lastLogStr(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastLogStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_CookLogs::__get__uniqueStrOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uniqueStrOnly;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_CookLogs::__get__uniqueStrOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uniqueStrOnly;
 }
 constexpr void HoudiniEngineUnity::HEU_CookLogs::__set__uniqueStrOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____uniqueStrOnly = value;
 }
 inline void HoudiniEngineUnity::HEU_CookLogs::setStaticF__instance(::HoudiniEngineUnity::HEU_CookLogs* value) {

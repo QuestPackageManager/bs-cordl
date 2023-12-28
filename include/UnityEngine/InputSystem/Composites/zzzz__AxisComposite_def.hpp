@@ -81,8 +81,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Compos
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6713))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6714)) CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6713)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6190))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6714)) CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
 class CORDL_TYPE AxisComposite : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
   // Declarations

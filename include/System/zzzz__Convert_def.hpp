@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Convert)
 namespace System {
-template <typename T> struct Span_1;
+class IConvertible;
 }
 namespace System {
-class IFormatProvider;
+struct DateTime;
 }
 namespace System {
 struct Base64FormattingOptions;
@@ -22,13 +22,10 @@ namespace System {
 class Type;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
 struct TypeCode;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 class Object;
@@ -37,7 +34,10 @@ namespace System {
 struct Decimal;
 }
 namespace System {
-struct DateTime;
+class IFormatProvider;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System {

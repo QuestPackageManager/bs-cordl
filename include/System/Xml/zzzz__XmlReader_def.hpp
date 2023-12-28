@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlReader)
 namespace System::Xml {
+class XmlReaderSettings;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Xml {
 struct ReadState;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IDtdInfo;
+namespace System::IO {
+class Stream;
 }
 namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
-class XmlReaderSettings;
+class IDtdInfo;
 }
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {

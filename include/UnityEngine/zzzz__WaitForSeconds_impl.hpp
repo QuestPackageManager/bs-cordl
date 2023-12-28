@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::WaitForSeconds::__get_m_Seconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Seconds;
 }
 constexpr float_t const& UnityEngine::WaitForSeconds::__get_m_Seconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Seconds;
 }
 constexpr void UnityEngine::WaitForSeconds::__set_m_Seconds(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Seconds = value;
 }
 inline ::UnityEngine::WaitForSeconds* UnityEngine::WaitForSeconds::New_ctor(float_t seconds) {

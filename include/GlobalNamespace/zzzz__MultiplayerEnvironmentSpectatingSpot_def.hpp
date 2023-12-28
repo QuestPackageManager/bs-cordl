@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MultiplayerEnvironmentSpectatingSpot)
 namespace GlobalNamespace {
 class MultiplayerSpectatingSpotManager;
 }
-namespace GlobalNamespace {
-class MultiplayerActivePlayersTimeOffsetAverage;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
@@ -21,8 +21,8 @@ class IMultiplayerObservable;
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class MultiplayerActivePlayersTimeOffsetAverage;
 }
 // Forward declare root types
 namespace GlobalNamespace {

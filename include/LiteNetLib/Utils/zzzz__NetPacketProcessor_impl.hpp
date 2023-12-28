@@ -2,21 +2,21 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 template <typename T> inline void LiteNetLib::Utils::__NetPacketProcessor__HashCache_1<T>::setStaticF_Initialized(bool value) {
   ::cordl_internals::setStaticField<bool, "Initialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::__NetPacketProcessor__HashCache_1<T>*>::get>(
       std::forward<bool>(value));
@@ -131,40 +131,40 @@ inline void LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::EndInvok
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::__NetPacketProcessor__SubscribeDelegate() {}
 template <typename T> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get_packetConstructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get_packetConstructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__set_packetConstructor(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__set_onReceive(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::New_ctor() {
@@ -186,43 +186,43 @@ template <typename T> inline void LiteNetLib::Utils::__NetPacketProcessor____c__
 // Ctor Parameters []
 template <typename T> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__NetPacketProcessor____c__DisplayClass25_0_1() {}
 template <typename T, typename TUserData> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__get_packetConstructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__get_packetConstructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__set_packetConstructor(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__set_onReceive(::System::Action_2<T, TUserData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData>
@@ -246,40 +246,40 @@ inline void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, 
 // Ctor Parameters []
 template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__NetPacketProcessor____c__DisplayClass26_0_2() {}
 template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get_reference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T> constexpr T const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get_reference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__set_reference(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__set_onReceive(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::New_ctor() {
@@ -301,42 +301,42 @@ template <typename T> inline void LiteNetLib::Utils::__NetPacketProcessor____c__
 // Ctor Parameters []
 template <typename T> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__NetPacketProcessor____c__DisplayClass27_0_1() {}
 template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData> constexpr T& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__get_reference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T, typename TUserData> constexpr T const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__get_reference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__set_reference(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__set_onReceive(::System::Action_2<T, TUserData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData>
@@ -361,29 +361,29 @@ inline void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, 
 // Ctor Parameters []
 template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__NetPacketProcessor____c__DisplayClass28_0_2() {}
 template <typename T, typename TUserData> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__get_packetConstructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__get_packetConstructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__set_packetConstructor(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__set_onReceive(::System::Action_2<T, TUserData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData>
@@ -408,27 +408,27 @@ inline void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, 
 // Ctor Parameters []
 template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__NetPacketProcessor____c__DisplayClass29_0_2() {}
 template <typename T> constexpr ::System::Func_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__get_packetConstructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__get_packetConstructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetConstructor;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__set_packetConstructor(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__set_onReceive(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::New_ctor() {
@@ -452,28 +452,28 @@ inline void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>:
 // Ctor Parameters []
 template <typename T> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__NetPacketProcessor____c__DisplayClass30_0_1() {}
 template <typename T, typename TUserData> constexpr T& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__get_reference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T, typename TUserData> constexpr T const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__get_reference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__set_reference(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData> constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__set_onReceive(::System::Action_2<T, TUserData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TUserData>
@@ -498,27 +498,27 @@ inline void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, 
 // Ctor Parameters []
 template <typename T, typename TUserData> constexpr ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__NetPacketProcessor____c__DisplayClass31_0_2() {}
 template <typename T> constexpr T& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__get_reference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T> constexpr T const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__get_reference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reference;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__set_reference(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__get_onReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__get_onReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceive;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__set_onReceive(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::New_ctor() {
@@ -646,40 +646,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::LiteNetLib::Utils::NetSerializer*& LiteNetLib::Utils::NetPacketProcessor::__get__netSerializer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netSerializer;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetSerializer*> const& LiteNetLib::Utils::NetPacketProcessor::__get__netSerializer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netSerializer;
 }
 constexpr void LiteNetLib::Utils::NetPacketProcessor::__set__netSerializer(::LiteNetLib::Utils::NetSerializer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____netSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*& LiteNetLib::Utils::NetPacketProcessor::__get__callbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbacks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*> const&
 LiteNetLib::Utils::NetPacketProcessor::__get__callbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbacks;
 }
 constexpr void LiteNetLib::Utils::NetPacketProcessor::__set__callbacks(::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callbacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& LiteNetLib::Utils::NetPacketProcessor::__get__netDataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netDataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& LiteNetLib::Utils::NetPacketProcessor::__get__netDataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netDataWriter;
 }
 constexpr void LiteNetLib::Utils::NetPacketProcessor::__set__netDataWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____netDataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::LiteNetLib::Utils::NetPacketProcessor* LiteNetLib::Utils::NetPacketProcessor::New_ctor() {

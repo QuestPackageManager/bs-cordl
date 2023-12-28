@@ -64,15 +64,15 @@ constexpr GlobalNamespace::BrowsingMenusRichPresenceData::operator ::GlobalNames
   return static_cast<::GlobalNamespace::IRichPresenceData*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::BrowsingMenusRichPresenceData::__get__localizedDescription_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedDescription_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::BrowsingMenusRichPresenceData::__get__localizedDescription_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedDescription_k__BackingField;
 }
 constexpr void GlobalNamespace::BrowsingMenusRichPresenceData::__set__localizedDescription_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizedDescription_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

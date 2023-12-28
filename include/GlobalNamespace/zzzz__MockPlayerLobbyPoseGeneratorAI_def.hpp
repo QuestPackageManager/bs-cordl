@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGeneratorAI)
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
 namespace System {
 class Random;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15522)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(15522))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15523))
 // CS Name: ::MockPlayerLobbyPoseGeneratorAI*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorAI : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {

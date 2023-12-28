@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(DHDomainParameters)
-namespace Org::BouncyCastle::Asn1::X9 {
-class DHValidationParms;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Asn1::X9 {
+class DHValidationParms;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {

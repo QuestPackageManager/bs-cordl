@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IHealthCheckService)
-namespace GlobalNamespace {
-class IPollable;
-}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

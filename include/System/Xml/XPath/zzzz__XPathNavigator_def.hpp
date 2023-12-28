@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNavigator)
 namespace System::Xml::XPath {
-struct XPathNamespaceScope;
+struct XPathNodeType;
 }
 namespace System::Xml::XPath {
-struct XPathNodeType;
+struct XPathNamespaceScope;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
 }
 namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml::Schema {
 class XmlSchemaType;
-}
-namespace System::Xml::XPath {
-class XPathNavigatorKeyComparer;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-struct DateTime;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
+namespace System {
+class ICloneable;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Xml::XPath {
+class XPathNavigatorKeyComparer;
 }
 // Forward declare root types
 namespace System::Xml::XPath {

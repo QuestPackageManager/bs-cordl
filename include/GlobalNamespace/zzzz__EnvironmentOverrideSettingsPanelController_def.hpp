@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentOverrideSettingsPanelController)
-namespace GlobalNamespace {
-class EnvironmentsListSO;
+namespace HMUI {
+class DropdownWithTableView;
 }
 namespace GlobalNamespace {
 class __EnvironmentOverrideSettingsPanelController____c;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HMUI {
+class PanelAnimationSO;
 }
 namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController__Elements;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
+class OverrideEnvironmentSettings;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
+class EnvironmentsListSO;
+}
+namespace GlobalNamespace {
+class __EnvironmentOverrideSettingsPanelController__Elements;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
 class IRefreshable;
 }
-namespace HMUI {
-class PanelAnimationSO;
-}
-namespace HMUI {
-class DropdownWithTableView;
-}
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
+class IAnalyticsModel;
 }
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace HMUI {
 class SimpleTextDropdown;
@@ -47,11 +47,11 @@ class SimpleTextDropdown;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

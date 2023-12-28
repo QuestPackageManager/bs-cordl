@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ENetCallbacks)
 namespace ENet {
-class AllocCallback;
+class NoMemoryCallback;
 }
 namespace ENet {
 class FreeCallback;
 }
 namespace ENet {
-class NoMemoryCallback;
+class AllocCallback;
 }
 // Forward declare root types
 namespace ENet {

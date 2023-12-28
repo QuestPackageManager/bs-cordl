@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3268))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObjectWithMap*
 class CORDL_TYPE BinaryObjectWithMap : public ::System::Object {

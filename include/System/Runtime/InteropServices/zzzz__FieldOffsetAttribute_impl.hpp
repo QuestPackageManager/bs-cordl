@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::InteropServices::FieldOffsetAttribute::__get__val() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr int32_t const& System::Runtime::InteropServices::FieldOffsetAttribute::__get__val() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr void System::Runtime::InteropServices::FieldOffsetAttribute::__set__val(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____val = value;
 }
 inline ::System::Runtime::InteropServices::FieldOffsetAttribute* System::Runtime::InteropServices::FieldOffsetAttribute::New_ctor(int32_t offset) {

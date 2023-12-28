@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelMask_def.hpp"
-#include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelMask._ctor
 template <>
 
@@ -174,15 +174,15 @@ constexpr GlobalNamespace::BeatmapLevelMask::operator ::System::IEquatable_1<::G
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::BitMaskSparse*& GlobalNamespace::BeatmapLevelMask::__get__bloomFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFilter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BitMaskSparse*> const& GlobalNamespace::BeatmapLevelMask::__get__bloomFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFilter;
 }
 constexpr void GlobalNamespace::BeatmapLevelMask::__set__bloomFilter(::GlobalNamespace::BitMaskSparse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor() {

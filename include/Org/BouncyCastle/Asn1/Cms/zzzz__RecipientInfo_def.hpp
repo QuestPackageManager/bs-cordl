@@ -5,37 +5,37 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(RecipientInfo)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class KekRecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class OtherRecipientInfo;
+class KeyTransRecipientInfo;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Cms {
+class OtherRecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class KeyAgreeRecipientInfo;
 }
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class PasswordRecipientInfo;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class KeyTransRecipientInfo;
-}
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

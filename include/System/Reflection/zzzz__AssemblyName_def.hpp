@@ -13,29 +13,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssemblyName)
-namespace System::Reflection {
-struct AssemblyNameFlags;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Reflection {
-class Assembly;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace Mono {
-struct MonoAssemblyName;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::InteropServices {
-class _AssemblyName;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System {
 class Version;
@@ -43,14 +22,35 @@ class Version;
 namespace System {
 class Object;
 }
+namespace System {
+class ICloneable;
+}
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Reflection {
+class Assembly;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Reflection {
 class StrongNameKeyPair;
 }
-namespace System {
-class ICloneable;
+namespace System::Runtime::InteropServices {
+class _AssemblyName;
+}
+namespace Mono {
+struct MonoAssemblyName;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
+struct AssemblyNameFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyName);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3446)), TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3454)), TypeDefinitionIndex(TypeDefinitionIndex(3751)), TypeDefinitionIndex(TypeDefinitionIndex(3750))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3454)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3750)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3751)), TypeDefinitionIndex(TypeDefinitionIndex(3446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
 // CS Name: ::System.Reflection::AssemblyName*
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:

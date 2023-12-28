@@ -17,26 +17,26 @@ CORDL_MODULE_EXPORT(BsonReader)
 namespace System::IO {
 class Stream;
 }
-namespace System::IO {
-class BinaryReader;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Newtonsoft::Json::Bson {
-struct BsonBinaryType;
+class __BsonReader__ContainerContext;
 }
 namespace Newtonsoft::Json::Bson {
 struct BsonType;
 }
 namespace Newtonsoft::Json::Bson {
-struct __BsonReader__BsonReaderState;
+struct BsonBinaryType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 struct DateTimeKind;
 }
+namespace System::IO {
+class BinaryReader;
+}
 namespace Newtonsoft::Json::Bson {
-class __BsonReader__ContainerContext;
+struct __BsonReader__BsonReaderState;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -203,8 +203,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::__BsonRe
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(2369)), TypeDefinitionIndex(TypeDefinitionIndex(12071)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11833))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(12071)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2369))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
 class CORDL_TYPE BsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations

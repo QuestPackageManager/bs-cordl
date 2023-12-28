@@ -65,51 +65,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider*& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RNGCryptoServiceProvider*> const& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr void GlobalNamespace::__SecureRandomProvider__SecureRandomState::__set__random(::System::Security::Cryptography::RNGCryptoServiceProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__randomBuffer0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomBuffer0;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__randomBuffer0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomBuffer0;
 }
 constexpr void GlobalNamespace::__SecureRandomProvider__SecureRandomState::__set__randomBuffer0(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomBuffer0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__randomBuffer1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomBuffer1;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__randomBuffer1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomBuffer1;
 }
 constexpr void GlobalNamespace::__SecureRandomProvider__SecureRandomState::__set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomBuffer1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& GlobalNamespace::__SecureRandomProvider__SecureRandomState::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void GlobalNamespace::__SecureRandomProvider__SecureRandomState::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 inline void GlobalNamespace::__SecureRandomProvider__SecureRandomState::GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length) {

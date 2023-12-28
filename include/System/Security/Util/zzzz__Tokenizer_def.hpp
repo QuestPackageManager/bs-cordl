@@ -13,16 +13,16 @@ namespace System::Text {
 class Encoding;
 }
 namespace System::Security::Util {
-class __Tokenizer__ITokenReader;
-}
-namespace System::Security::Util {
-class __Tokenizer__StringMaker;
-}
-namespace System::Security::Util {
 class TokenizerStream;
 }
 namespace System::Security::Util {
+class __Tokenizer__ITokenReader;
+}
+namespace System::Security::Util {
 struct __Tokenizer__TokenSource;
+}
+namespace System::Security::Util {
+class __Tokenizer__StringMaker;
 }
 namespace System::Security::Util {
 class __Tokenizer__StreamTokenReader;

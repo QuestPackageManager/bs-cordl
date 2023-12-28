@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GameCoreSceneSetup)
 namespace GlobalNamespace {
-class ScreenCaptureAfterDelay;
+class BloomFogSO;
 }
 namespace GlobalNamespace {
-class BloomFogSO;
+class ScreenCaptureAfterDelay;
 }
 namespace GlobalNamespace {
 class MainSettingsModelSO;

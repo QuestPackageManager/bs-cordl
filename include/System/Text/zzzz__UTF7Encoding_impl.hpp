@@ -7,9 +7,9 @@
 #include "System/Text/zzzz__UTF7Encoding_def.hpp"
 #include "System/Text/zzzz__UTF7Encoding_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::__UTF7Encoding__Decoder._ctor
@@ -56,39 +56,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::__UTF7Encoding__Decoder::__get_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr int32_t const& System::Text::__UTF7Encoding__Decoder::__get_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr void System::Text::__UTF7Encoding__Decoder::__set_bits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bits = value;
 }
 constexpr int32_t& System::Text::__UTF7Encoding__Decoder::__get_bitCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitCount;
 }
 constexpr int32_t const& System::Text::__UTF7Encoding__Decoder::__get_bitCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitCount;
 }
 constexpr void System::Text::__UTF7Encoding__Decoder::__set_bitCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bitCount = value;
 }
 constexpr bool& System::Text::__UTF7Encoding__Decoder::__get_firstByte() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstByte;
 }
 constexpr bool const& System::Text::__UTF7Encoding__Decoder::__get_firstByte() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstByte;
 }
 constexpr void System::Text::__UTF7Encoding__Decoder::__set_firstByte(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___firstByte = value;
 }
 inline ::System::Text::__UTF7Encoding__Decoder* System::Text::__UTF7Encoding__Decoder::New_ctor(::System::Text::UTF7Encoding* encoding) {
@@ -156,27 +156,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::__UTF7Encoding__Encoder::__get_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr int32_t const& System::Text::__UTF7Encoding__Encoder::__get_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr void System::Text::__UTF7Encoding__Encoder::__set_bits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bits = value;
 }
 constexpr int32_t& System::Text::__UTF7Encoding__Encoder::__get_bitCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitCount;
 }
 constexpr int32_t const& System::Text::__UTF7Encoding__Encoder::__get_bitCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitCount;
 }
 constexpr void System::Text::__UTF7Encoding__Encoder::__set_bitCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bitCount = value;
 }
 inline ::System::Text::__UTF7Encoding__Encoder* System::Text::__UTF7Encoding__Encoder::New_ctor(::System::Text::UTF7Encoding* encoding) {
@@ -405,39 +405,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr char16_t& System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_cFallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cFallback;
 }
 constexpr char16_t const& System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_cFallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cFallback;
 }
 constexpr void System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__set_cFallback(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cFallback = value;
 }
 constexpr int32_t& System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_iCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iCount;
 }
 constexpr int32_t const& System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_iCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iCount;
 }
 constexpr void System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__set_iCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iCount = value;
 }
 constexpr int32_t& System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_iSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iSize;
 }
 constexpr int32_t const& System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_iSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iSize;
 }
 constexpr void System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::__set_iSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iSize = value;
 }
 inline ::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer* System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::New_ctor(::System::Text::__UTF7Encoding__DecoderUTF7Fallback* fallback) {
@@ -843,51 +843,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Text::UTF7Encoding::__get__base64Bytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____base64Bytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Text::UTF7Encoding::__get__base64Bytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____base64Bytes;
 }
 constexpr void System::Text::UTF7Encoding::__set__base64Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____base64Bytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int8_t, ::Array<int8_t>*>& System::Text::UTF7Encoding::__get__base64Values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____base64Values;
 }
 constexpr ::ArrayW<int8_t, ::Array<int8_t>*> const& System::Text::UTF7Encoding::__get__base64Values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____base64Values;
 }
 constexpr void System::Text::UTF7Encoding::__set__base64Values(::ArrayW<int8_t, ::Array<int8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____base64Values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& System::Text::UTF7Encoding::__get__directEncode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directEncode;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& System::Text::UTF7Encoding::__get__directEncode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directEncode;
 }
 constexpr void System::Text::UTF7Encoding::__set__directEncode(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directEncode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::UTF7Encoding::__get__allowOptionals() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowOptionals;
 }
 constexpr bool const& System::Text::UTF7Encoding::__get__allowOptionals() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowOptionals;
 }
 constexpr void System::Text::UTF7Encoding::__set__allowOptionals(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allowOptionals = value;
 }
 inline void System::Text::UTF7Encoding::setStaticF_s_default(::System::Text::UTF7Encoding* value) {

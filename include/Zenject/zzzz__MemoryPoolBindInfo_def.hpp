@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Zenject::MemoryPoolBindInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10950)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10951))
 // CS Name: ::Zenject::MemoryPoolBindInfo*
 class CORDL_TYPE MemoryPoolBindInfo : public ::System::Object {

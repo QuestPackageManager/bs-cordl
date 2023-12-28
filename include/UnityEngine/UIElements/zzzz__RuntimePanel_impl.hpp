@@ -2,8 +2,8 @@
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
-#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RuntimePanel.get_panelSettings
 template <>
 
@@ -63,15 +63,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::PanelSettings*& UnityEngine::UIElements::RuntimePanel::__get_m_PanelSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PanelSettings*> const& UnityEngine::UIElements::RuntimePanel::__get_m_PanelSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelSettings;
 }
 constexpr void UnityEngine::UIElements::RuntimePanel::__set_m_PanelSettings(::UnityEngine::UIElements::PanelSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PanelSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::RuntimePanel::setStaticF_s_EventDispatcher(::UnityEngine::UIElements::EventDispatcher* value) {

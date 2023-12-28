@@ -685,39 +685,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& LiteNetLib::Utils::NetDataWriter::__get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& LiteNetLib::Utils::NetDataWriter::__get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr void LiteNetLib::Utils::NetDataWriter::__set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::Utils::NetDataWriter::__get__position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position;
 }
 constexpr int32_t const& LiteNetLib::Utils::NetDataWriter::__get__position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position;
 }
 constexpr void LiteNetLib::Utils::NetDataWriter::__set__position(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position = value;
 }
 constexpr bool& LiteNetLib::Utils::NetDataWriter::__get__autoResize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoResize;
 }
 constexpr bool const& LiteNetLib::Utils::NetDataWriter::__get__autoResize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoResize;
 }
 constexpr void LiteNetLib::Utils::NetDataWriter::__set__autoResize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoResize = value;
 }
 inline int32_t LiteNetLib::Utils::NetDataWriter::get_Capacity() {

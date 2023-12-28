@@ -5,31 +5,31 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PreUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __PreUpdate__NewInputUpdate;
+struct __PreUpdate__AIUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__PhysicsUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreUpdate__AIUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreUpdate__SendMouseEvents;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__IMGUISendQueuedEvents;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreUpdate__WindUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreUpdate__Physics2DUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__UpdateVideo;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__CheckTexFieldInput;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreUpdate__NewInputUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreUpdate__Physics2DUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreUpdate__SendMouseEvents;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreUpdate__WindUpdate;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {

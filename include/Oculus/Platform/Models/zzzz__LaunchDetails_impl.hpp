@@ -18,87 +18,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Oculus::Platform::Models::LaunchDetails::__get_DeeplinkMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeeplinkMessage;
 }
 constexpr ::StringW const& Oculus::Platform::Models::LaunchDetails::__get_DeeplinkMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeeplinkMessage;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_DeeplinkMessage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DeeplinkMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::LaunchDetails::__get_DestinationApiName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationApiName;
 }
 constexpr ::StringW const& Oculus::Platform::Models::LaunchDetails::__get_DestinationApiName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationApiName;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_DestinationApiName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DestinationApiName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::LaunchDetails::__get_LaunchSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LaunchSource;
 }
 constexpr ::StringW const& Oculus::Platform::Models::LaunchDetails::__get_LaunchSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LaunchSource;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_LaunchSource(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LaunchSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::LaunchType& Oculus::Platform::Models::LaunchDetails::__get_LaunchType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LaunchType;
 }
 constexpr ::Oculus::Platform::LaunchType const& Oculus::Platform::Models::LaunchDetails::__get_LaunchType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LaunchType;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_LaunchType(::Oculus::Platform::LaunchType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LaunchType = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::LaunchDetails::__get_TrackingID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TrackingID;
 }
 constexpr ::StringW const& Oculus::Platform::Models::LaunchDetails::__get_TrackingID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TrackingID;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_TrackingID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TrackingID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::LaunchDetails::__get_UsersOptional() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UsersOptional;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::LaunchDetails::__get_UsersOptional() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UsersOptional;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_UsersOptional(::Oculus::Platform::Models::UserList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UsersOptional)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::LaunchDetails::__get_Users() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Users;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::LaunchDetails::__get_Users() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Users;
 }
 constexpr void Oculus::Platform::Models::LaunchDetails::__set_Users(::Oculus::Platform::Models::UserList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Users)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::LaunchDetails* Oculus::Platform::Models::LaunchDetails::New_ctor(void* o) {

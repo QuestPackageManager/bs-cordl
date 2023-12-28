@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class __HMAsyncRequest__CancelHander;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
 class AsyncCallback;

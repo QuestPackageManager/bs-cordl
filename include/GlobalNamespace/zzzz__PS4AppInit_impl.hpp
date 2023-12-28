@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__PS4AppInit_def.hpp"
+#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
+#include "GlobalNamespace/zzzz__PS4ActivePublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
-#include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4ActivePublisherSKUSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS4AppInit.InitializeModules
 template <>
 
@@ -91,65 +91,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MainSystemInit*& GlobalNamespace::PS4AppInit::__get__mainSystemInit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSystemInit;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSystemInit*> const& GlobalNamespace::PS4AppInit::__get__mainSystemInit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSystemInit;
 }
 constexpr void GlobalNamespace::PS4AppInit::__set__mainSystemInit(::GlobalNamespace::MainSystemInit* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSystemInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit*& GlobalNamespace::PS4AppInit::__get__defaultScenesTransitionsFromInit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultScenesTransitionsFromInit*> const& GlobalNamespace::PS4AppInit::__get__defaultScenesTransitionsFromInit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
 }
 constexpr void GlobalNamespace::PS4AppInit::__set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultScenesTransitionsFromInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& GlobalNamespace::PS4AppInit::__get__appInitScenesTransitionSetupDataContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitScenesTransitionSetupDataContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*> const&
 GlobalNamespace::PS4AppInit::__get__appInitScenesTransitionSetupDataContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitScenesTransitionSetupDataContainer;
 }
 constexpr void GlobalNamespace::PS4AppInit::__set__appInitScenesTransitionSetupDataContainer(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appInitScenesTransitionSetupDataContainer)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO*& GlobalNamespace::PS4AppInit::__get__activePublisherSKUSettingsSO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePublisherSKUSettingsSO;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO*> const& GlobalNamespace::PS4AppInit::__get__activePublisherSKUSettingsSO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePublisherSKUSettingsSO;
 }
 constexpr void GlobalNamespace::PS4AppInit::__set__activePublisherSKUSettingsSO(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activePublisherSKUSettingsSO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*& GlobalNamespace::PS4AppInit::__get__sonyOnGoingToBackgroundSaveHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyOnGoingToBackgroundSaveHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*> const& GlobalNamespace::PS4AppInit::__get__sonyOnGoingToBackgroundSaveHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyOnGoingToBackgroundSaveHandler;
 }
 constexpr void GlobalNamespace::PS4AppInit::__set__sonyOnGoingToBackgroundSaveHandler(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sonyOnGoingToBackgroundSaveHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::PS4AppInit::InitializeModules() {

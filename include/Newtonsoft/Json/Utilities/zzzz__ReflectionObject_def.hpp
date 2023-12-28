@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(ReflectionObject)
 namespace Newtonsoft::Json::Serialization {
 template <typename T> class ObjectConstructor_1;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System {
+class Object;
+}
+namespace Newtonsoft::Json::Utilities {
+class __ReflectionObject____c__DisplayClass13_0;
+}
+namespace Newtonsoft::Json::Utilities {
+class __ReflectionObject____c__DisplayClass13_1;
+}
 namespace Newtonsoft::Json::Utilities {
 class __ReflectionObject____c__DisplayClass13_2;
 }
 namespace System {
 class Type;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionObject____c__DisplayClass13_0;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionObject____c__DisplayClass13_1;
-}
-namespace System {
-class Object;
 }
 namespace Newtonsoft::Json::Utilities {
 class ReflectionMember;

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__DiscreteTime_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::DiscreteTime.get_tickValue
 template <>
 

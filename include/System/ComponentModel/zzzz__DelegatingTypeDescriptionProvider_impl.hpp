@@ -2,11 +2,11 @@
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__DelegatingTypeDescriptionProvider_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 #include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider._ctor
 template <>
 
@@ -118,15 +118,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::ComponentModel::DelegatingTypeDescriptionProvider::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::DelegatingTypeDescriptionProvider::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void System::ComponentModel::DelegatingTypeDescriptionProvider::__set__type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::ComponentModel::DelegatingTypeDescriptionProvider* System::ComponentModel::DelegatingTypeDescriptionProvider::New_ctor(::System::Type* type) {

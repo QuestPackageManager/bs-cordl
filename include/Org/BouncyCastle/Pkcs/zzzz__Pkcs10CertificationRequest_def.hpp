@@ -7,26 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs10CertificationRequest)
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
@@ -34,23 +19,38 @@ class Asn1Set;
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsassaPssParameters;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsassaPssParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

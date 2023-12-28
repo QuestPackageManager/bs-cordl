@@ -45,27 +45,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRMRAudioFilter::__get_running() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___running;
 }
 constexpr bool const& GlobalNamespace::OVRMRAudioFilter::__get_running() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___running;
 }
 constexpr void GlobalNamespace::OVRMRAudioFilter::__set_running(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___running = value;
 }
 constexpr ::GlobalNamespace::OVRExternalComposition*& GlobalNamespace::OVRMRAudioFilter::__get_composition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___composition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRExternalComposition*> const& GlobalNamespace::OVRMRAudioFilter::__get_composition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___composition;
 }
 constexpr void GlobalNamespace::OVRMRAudioFilter::__set_composition(::GlobalNamespace::OVRExternalComposition* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___composition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRMRAudioFilter::Start() {

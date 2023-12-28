@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::SdkAccountType& Oculus::Platform::Models::SdkAccount::__get_AccountType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AccountType;
 }
 constexpr ::Oculus::Platform::SdkAccountType const& Oculus::Platform::Models::SdkAccount::__get_AccountType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AccountType;
 }
 constexpr void Oculus::Platform::Models::SdkAccount::__set_AccountType(::Oculus::Platform::SdkAccountType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AccountType = value;
 }
 constexpr uint64_t& Oculus::Platform::Models::SdkAccount::__get_UserId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserId;
 }
 constexpr uint64_t const& Oculus::Platform::Models::SdkAccount::__get_UserId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserId;
 }
 constexpr void Oculus::Platform::Models::SdkAccount::__set_UserId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___UserId = value;
 }
 inline ::Oculus::Platform::Models::SdkAccount* Oculus::Platform::Models::SdkAccount::New_ctor(void* o) {

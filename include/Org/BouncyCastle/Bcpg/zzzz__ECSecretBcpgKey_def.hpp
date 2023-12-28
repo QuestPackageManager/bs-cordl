@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECSecretBcpgKey)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;

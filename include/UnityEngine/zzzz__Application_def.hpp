@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Application)
 namespace UnityEngine {
+class __Application__LogCallback;
+}
+namespace UnityEngine {
 struct SystemLanguage;
+}
+namespace UnityEngine {
+struct ThreadPriority;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 struct NetworkReachability;
 }
+namespace System {
+template <typename TResult> class Func_1;
+}
 namespace UnityEngine {
-struct ThreadPriority;
+struct LogType;
+}
+namespace UnityEngine {
+class __Application__LowMemoryCallback;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::Events {
 class UnityAction;
 }
 namespace UnityEngine {
 struct RuntimePlatform;
-}
-namespace UnityEngine {
-class __Application__LogCallback;
-}
-namespace UnityEngine {
-struct LogType;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class __Application__LowMemoryCallback;
 }
 namespace System {
 class Object;

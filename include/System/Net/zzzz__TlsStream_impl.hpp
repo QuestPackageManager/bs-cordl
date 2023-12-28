@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Net/Sockets/zzzz__NetworkStream_impl.hpp"
 #include "System/Net/zzzz__TlsStream_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 //  Writing Method size for method: ::System::Net::TlsStream._ctor
 template <>
 
@@ -173,39 +173,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Security::SslStream*& System::Net::TlsStream::__get__sslStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sslStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& System::Net::TlsStream::__get__sslStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sslStream;
 }
 constexpr void System::Net::TlsStream::__set__sslStream(::System::Net::Security::SslStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sslStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::TlsStream::__get__host() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____host;
 }
 constexpr ::StringW const& System::Net::TlsStream::__get__host() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____host;
 }
 constexpr void System::Net::TlsStream::__set__host(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____host)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& System::Net::TlsStream::__get__clientCertificates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientCertificates;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& System::Net::TlsStream::__get__clientCertificates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientCertificates;
 }
 constexpr void System::Net::TlsStream::__set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clientCertificates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::TlsStream* System::Net::TlsStream::New_ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,

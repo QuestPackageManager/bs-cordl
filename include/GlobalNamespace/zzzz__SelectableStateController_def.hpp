@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectableStateController)
-namespace GlobalNamespace {
-struct __SelectableStateController__ViewState;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct __SelectableStateController__ViewState;
 }
 namespace Tweening {
 class TimeTweeningManager;

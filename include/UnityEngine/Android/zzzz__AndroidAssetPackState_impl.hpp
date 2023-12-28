@@ -3,8 +3,8 @@
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackState_def.hpp"
-#include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
+#include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidAssetPackState._ctor
 template <>
 
@@ -23,39 +23,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Android::AndroidAssetPackState::__get__name_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Android::AndroidAssetPackState::__get__name_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name_k__BackingField;
 }
 constexpr void UnityEngine::Android::AndroidAssetPackState::__set__name_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Android::AndroidAssetPackStatus& UnityEngine::Android::AndroidAssetPackState::__get__status_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidAssetPackStatus const& UnityEngine::Android::AndroidAssetPackState::__get__status_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status_k__BackingField;
 }
 constexpr void UnityEngine::Android::AndroidAssetPackState::__set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status_k__BackingField = value;
 }
 constexpr ::UnityEngine::Android::AndroidAssetPackError& UnityEngine::Android::AndroidAssetPackState::__get__error_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____error_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidAssetPackError const& UnityEngine::Android::AndroidAssetPackState::__get__error_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____error_k__BackingField;
 }
 constexpr void UnityEngine::Android::AndroidAssetPackState::__set__error_k__BackingField(::UnityEngine::Android::AndroidAssetPackError value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____error_k__BackingField = value;
 }
 inline ::UnityEngine::Android::AndroidAssetPackState* UnityEngine::Android::AndroidAssetPackState::New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status,

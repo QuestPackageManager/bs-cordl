@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__XRDeviceDescriptor_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__XRDeviceDescriptor_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0._ctor
 template <>
 
@@ -40,15 +40,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::XR::XRLayoutBuilder*& UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0::__get_layout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::XR::XRLayoutBuilder*> const& UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0::__get_layout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr void UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0::__set_layout(::UnityEngine::InputSystem::XR::XRLayoutBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___layout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0* UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0::New_ctor() {
@@ -206,39 +206,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::XR::XRLayoutBuilder::__get_parentLayout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentLayout;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::XR::XRLayoutBuilder::__get_parentLayout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentLayout;
 }
 constexpr void UnityEngine::InputSystem::XR::XRLayoutBuilder::__set_parentLayout(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parentLayout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::XR::XRLayoutBuilder::__get_interfaceName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interfaceName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::XR::XRLayoutBuilder::__get_interfaceName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interfaceName;
 }
 constexpr void UnityEngine::InputSystem::XR::XRLayoutBuilder::__set_interfaceName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___interfaceName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::XR::XRDeviceDescriptor*& UnityEngine::InputSystem::XR::XRLayoutBuilder::__get_descriptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___descriptor;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::XR::XRDeviceDescriptor*> const& UnityEngine::InputSystem::XR::XRLayoutBuilder::__get_descriptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___descriptor;
 }
 constexpr void UnityEngine::InputSystem::XR::XRLayoutBuilder::__set_descriptor(::UnityEngine::InputSystem::XR::XRDeviceDescriptor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___descriptor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::InputSystem::XR::XRLayoutBuilder::setStaticF_poseSubControlNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {

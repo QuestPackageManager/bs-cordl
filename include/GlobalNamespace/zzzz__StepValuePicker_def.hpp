@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(StepValuePicker)
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-class Action;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

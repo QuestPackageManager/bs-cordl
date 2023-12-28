@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::PressInteraction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6650))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6650)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6649))
 // CS Name: ::UnityEngine.InputSystem.Interactions::PressInteraction*
 class CORDL_TYPE PressInteraction : public ::System::Object {

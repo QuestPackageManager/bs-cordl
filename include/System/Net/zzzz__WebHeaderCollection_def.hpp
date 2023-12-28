@@ -9,23 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebHeaderCollection)
-namespace System::Collections::Specialized {
-class NameValueCollection;
-}
-namespace System::Net {
-struct HttpRequestHeader;
-}
 namespace System::Net {
 struct WebHeaderCollectionType;
 }
 namespace System {
 class Object;
 }
+namespace System::Net {
+class HeaderInfoTable;
+}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -33,11 +27,17 @@ struct StreamingContext;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Net {
-class HeaderInfoTable;
+namespace System::Collections::Specialized {
+class NameValueCollection;
 }
 namespace System::Net {
 struct __WebHeaderCollection__RfcChar;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Net {
+struct HttpRequestHeader;
 }
 // Forward declare root types
 namespace System::Net {

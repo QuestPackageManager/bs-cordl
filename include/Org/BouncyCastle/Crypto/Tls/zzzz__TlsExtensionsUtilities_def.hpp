@@ -10,10 +10,10 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ServerNameList;
+class HeartbeatExtension;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class HeartbeatExtension;
+class ServerNameList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatusRequest;

@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextCoreSettings)
-namespace UnityEngine {
-struct Color;
-}
-namespace System {
-class Object;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

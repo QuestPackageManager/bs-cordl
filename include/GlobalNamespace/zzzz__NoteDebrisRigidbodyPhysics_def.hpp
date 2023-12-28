@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_def.hpp"
 CORDL_MODULE_EXPORT(NoteDebrisRigidbodyPhysics)
 namespace UnityEngine {
-class Rigidbody;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Rigidbody;
 }
 namespace GlobalNamespace {
 class NoteDebrisSimplePhysics;

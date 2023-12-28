@@ -3,14 +3,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerConnection_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerConnection_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerEditorConnectionEvents_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerEditorConnectionEvents_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
 #include "UnityEngine/zzzz__IPlayerEditorConnectionNative_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerConnection_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0._ctor
 template <>
 
@@ -45,15 +45,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Guid& UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0::__get_messageId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageId;
 }
 constexpr ::System::Guid const& UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0::__get_messageId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageId;
 }
 constexpr void UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0::__set_messageId(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___messageId = value;
 }
 inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0* UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0::New_ctor() {
@@ -110,15 +110,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Guid& UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0::__get_messageId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageId;
 }
 constexpr ::System::Guid const& UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0::__get_messageId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageId;
 }
 constexpr void UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0::__set_messageId(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___messageId = value;
 }
 inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0* UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0::New_ctor() {
@@ -173,15 +173,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0::__get_msgReceived() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___msgReceived;
 }
 constexpr bool const& UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0::__get_msgReceived() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___msgReceived;
 }
 constexpr void UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0::__set_msgReceived(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___msgReceived = value;
 }
 inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0* UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0::New_ctor() {
@@ -497,40 +497,40 @@ constexpr UnityEngine::Networking::PlayerConnection::PlayerConnection::operator 
   return static_cast<::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*& UnityEngine::Networking::PlayerConnection::PlayerConnection::__get_m_PlayerEditorConnectionEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PlayerEditorConnectionEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*> const&
 UnityEngine::Networking::PlayerConnection::PlayerConnection::__get_m_PlayerEditorConnectionEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PlayerEditorConnectionEvents;
 }
 constexpr void UnityEngine::Networking::PlayerConnection::PlayerConnection::__set_m_PlayerEditorConnectionEvents(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PlayerEditorConnectionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::Networking::PlayerConnection::PlayerConnection::__get_m_connectedPlayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_connectedPlayers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::Networking::PlayerConnection::PlayerConnection::__get_m_connectedPlayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_connectedPlayers;
 }
 constexpr void UnityEngine::Networking::PlayerConnection::PlayerConnection::__set_m_connectedPlayers(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_connectedPlayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Networking::PlayerConnection::PlayerConnection::__get_m_IsInitilized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsInitilized;
 }
 constexpr bool const& UnityEngine::Networking::PlayerConnection::PlayerConnection::__get_m_IsInitilized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsInitilized;
 }
 constexpr void UnityEngine::Networking::PlayerConnection::PlayerConnection::__set_m_IsInitilized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsInitilized = value;
 }
 inline void UnityEngine::Networking::PlayerConnection::PlayerConnection::setStaticF_connectionNative(::UnityEngine::IPlayerEditorConnectionNative* value) {

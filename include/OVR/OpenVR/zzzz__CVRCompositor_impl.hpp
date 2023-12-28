@@ -2,18 +2,18 @@
 #include "OVR/OpenVR/zzzz__IVRCompositor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRCompositor_def.hpp"
+#include "OVR/OpenVR/zzzz__Compositor_CumulativeStats_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRCompositorError_def.hpp"
 #include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRCompositorTimingMode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRSubmitFlags_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRCompositorError_def.hpp"
+#include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
 #include "OVR/OpenVR/zzzz__Compositor_FrameTiming_def.hpp"
-#include "OVR/OpenVR/zzzz__Compositor_CumulativeStats_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRSubmitFlags_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRCompositor._ctor
 template <>
 
@@ -648,15 +648,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRCompositor& OVR::OpenVR::CVRCompositor::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRCompositor const& OVR::OpenVR::CVRCompositor::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRCompositor::__set_FnTable(::OVR::OpenVR::IVRCompositor value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRCompositor* OVR::OpenVR::CVRCompositor::New_ctor(void* pInterface) {

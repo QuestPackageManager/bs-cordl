@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteJumpStartScaleUp)
 namespace GlobalNamespace {
-class NoteController;
+class NoteControllerBase;
 }
-namespace GlobalNamespace {
-class NoteJump;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class NoteJump;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

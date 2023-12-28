@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredTaskAwaitable)
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;

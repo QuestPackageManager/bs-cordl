@@ -12,14 +12,14 @@ class DSAManaged;
 namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
 }
-namespace System {
-class EventArgs;
+namespace System::Security::Cryptography {
+struct DSAParameters;
 }
 namespace System {
 class Object;
 }
-namespace System::Security::Cryptography {
-struct DSAParameters;
+namespace System {
+class EventArgs;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

@@ -3,17 +3,17 @@
 #include "System/Net/Http/zzzz__HttpMessageHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpClientHandler_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Net/Http/zzzz__HttpClientHandler_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
-#include "System/Net/Http/zzzz__ClientCertificateOption_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Net/Http/zzzz__ClientCertificateOption_def.hpp"
 #include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
+#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Net/Http/zzzz__HttpClientHandler_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::__HttpClientHandler____c._ctor
 template <>
@@ -250,27 +250,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Http::IMonoHttpClientHandler*& System::Net::Http::HttpClientHandler::__get__delegatingHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delegatingHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::IMonoHttpClientHandler*> const& System::Net::Http::HttpClientHandler::__get__delegatingHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delegatingHandler;
 }
 constexpr void System::Net::Http::HttpClientHandler::__set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____delegatingHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Http::ClientCertificateOption& System::Net::Http::HttpClientHandler::__get__clientCertificateOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientCertificateOptions;
 }
 constexpr ::System::Net::Http::ClientCertificateOption const& System::Net::Http::HttpClientHandler::__get__clientCertificateOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientCertificateOptions;
 }
 constexpr void System::Net::Http::HttpClientHandler::__set__clientCertificateOptions(::System::Net::Http::ClientCertificateOption value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clientCertificateOptions = value;
 }
 inline ::System::Net::Http::IMonoHttpClientHandler* System::Net::Http::HttpClientHandler::CreateDefaultHandler() {

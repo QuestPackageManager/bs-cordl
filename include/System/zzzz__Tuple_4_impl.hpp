@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_4_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/zzzz__ITupleInternal_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/zzzz__ITupleInternal_def.hpp"
 /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::Tuple_4<T1, T2, T3, T4>::operator ::System::Collections::IStructuralEquatable*() noexcept {
   return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(this));
@@ -31,51 +31,51 @@ template <typename T1, typename T2, typename T3, typename T4> constexpr System::
   return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(this));
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T1& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item1;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T1 const& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item1;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr void System::Tuple_4<T1, T2, T3, T4>::__set_m_Item1(T1 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T2& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item2;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T2 const& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item2;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr void System::Tuple_4<T1, T2, T3, T4>::__set_m_Item2(T2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T3& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item3;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T3 const& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item3;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr void System::Tuple_4<T1, T2, T3, T4>::__set_m_Item3(T3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T4& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item4;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr T4 const& System::Tuple_4<T1, T2, T3, T4>::__get_m_Item4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Item4;
 }
 template <typename T1, typename T2, typename T3, typename T4> constexpr void System::Tuple_4<T1, T2, T3, T4>::__set_m_Item4(T4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T1, typename T2, typename T3, typename T4> inline T1 System::Tuple_4<T1, T2, T3, T4>::get_Item1() {

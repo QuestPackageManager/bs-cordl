@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundle)
 namespace UnityEngine {
-class Object;
+class AssetBundleCreateRequest;
 }
 namespace System {
 class Type;
@@ -17,7 +17,7 @@ namespace UnityEngine {
 class AssetBundleRequest;
 }
 namespace UnityEngine {
-class AssetBundleCreateRequest;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInviteList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1168 }), TypeDefinitionIndex(TypeDefinitionIndex(13430)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13414))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13415)) CS Name: ::Oculus.Platform.Models::ApplicationInviteList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1168 }), TypeDefinitionIndex(TypeDefinitionIndex(13414)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13430))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13415)) CS Name: ::Oculus.Platform.Models::ApplicationInviteList*
 class CORDL_TYPE ApplicationInviteList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ApplicationInvite*> {
 public:
   // Declarations

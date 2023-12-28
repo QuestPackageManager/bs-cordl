@@ -7,10 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(InstantiateCallbackConditionCopyNonLazyBinder)
 namespace Zenject {
-class BindInfo;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class InjectContext;
 }
 namespace Zenject {
 class ConditionCopyNonLazyBinder;
@@ -18,11 +15,14 @@ class ConditionCopyNonLazyBinder;
 namespace Zenject {
 template <typename T> class __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1;
 }
+namespace Zenject {
+class BindInfo;
+}
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectContext;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class InjectTypeInfo;

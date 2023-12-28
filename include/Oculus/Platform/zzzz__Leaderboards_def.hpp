@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(Leaderboards)
 namespace Oculus::Platform {
 template <typename T> class Request_1;
 }
-namespace Oculus::Platform {
-struct LeaderboardFilterType;
+namespace Oculus::Platform::Models {
+class LeaderboardEntryList;
 }
 namespace Oculus::Platform::Models {
 class LeaderboardList;
 }
 namespace Oculus::Platform {
-struct LeaderboardStartAt;
+struct LeaderboardFilterType;
 }
-namespace Oculus::Platform::Models {
-class LeaderboardEntryList;
+namespace Oculus::Platform {
+struct LeaderboardStartAt;
 }
 // Forward declare root types
 namespace Oculus::Platform {

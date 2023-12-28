@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XObjectWrapper._ctor
 template <>
 
@@ -184,15 +184,15 @@ constexpr Newtonsoft::Json::Converters::XObjectWrapper::operator ::Newtonsoft::J
   return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::Linq::XObject*& Newtonsoft::Json::Converters::XObjectWrapper::__get__xmlObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XObject*> const& Newtonsoft::Json::Converters::XObjectWrapper::__get__xmlObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlObject;
 }
 constexpr void Newtonsoft::Json::Converters::XObjectWrapper::__set__xmlObject(::System::Xml::Linq::XObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Newtonsoft::Json::Converters::XObjectWrapper::setStaticF_EmptyChildNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value) {

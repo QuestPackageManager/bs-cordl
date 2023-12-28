@@ -10,10 +10,7 @@ namespace GlobalNamespace {
 class __ScoreModel__NoteScoreDefinition;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class __ScoreModel__MaxScoreCounterElement;
 }
 namespace GlobalNamespace {
 struct __NoteData__ScoringType;
@@ -21,11 +18,14 @@ struct __NoteData__ScoringType;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace GlobalNamespace {
-class ScoreMultiplierCounter;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __ScoreModel__MaxScoreCounterElement;
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class ScoreMultiplierCounter;
 }
 namespace System {
 template <typename T> class IComparable_1;

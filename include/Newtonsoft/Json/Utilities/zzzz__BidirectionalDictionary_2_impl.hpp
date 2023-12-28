@@ -5,58 +5,58 @@
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 template <typename TFirst, typename TSecond>
 constexpr ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__firstToSecond() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstToSecond;
 }
 template <typename TFirst, typename TSecond>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*> const&
 Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__firstToSecond() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstToSecond;
 }
 template <typename TFirst, typename TSecond>
 constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__set__firstToSecond(::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____firstToSecond)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TFirst, typename TSecond>
 constexpr ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__secondToFirst() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secondToFirst;
 }
 template <typename TFirst, typename TSecond>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*> const&
 Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__secondToFirst() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secondToFirst;
 }
 template <typename TFirst, typename TSecond>
 constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__set__secondToFirst(::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____secondToFirst)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TFirst, typename TSecond> constexpr ::StringW& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__duplicateFirstErrorMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duplicateFirstErrorMessage;
 }
 template <typename TFirst, typename TSecond> constexpr ::StringW const& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__duplicateFirstErrorMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duplicateFirstErrorMessage;
 }
 template <typename TFirst, typename TSecond> constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__set__duplicateFirstErrorMessage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____duplicateFirstErrorMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TFirst, typename TSecond> constexpr ::StringW& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__duplicateSecondErrorMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duplicateSecondErrorMessage;
 }
 template <typename TFirst, typename TSecond> constexpr ::StringW const& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__get__duplicateSecondErrorMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duplicateSecondErrorMessage;
 }
 template <typename TFirst, typename TSecond> constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__set__duplicateSecondErrorMessage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____duplicateSecondErrorMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TFirst, typename TSecond>

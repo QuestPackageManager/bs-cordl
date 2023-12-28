@@ -12,7 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MaterialData)
 namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmInfo;
+}
+namespace HoudiniEngineUnity {
 struct __HEU_MaterialData__Source;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
@@ -24,16 +33,7 @@ namespace UnityEngine {
 class Material;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_ImageInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

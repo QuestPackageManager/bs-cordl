@@ -153,27 +153,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& HMUI::StackLayoutGroup::__get_m_ChildForceExpandWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildForceExpandWidth;
 }
 constexpr bool const& HMUI::StackLayoutGroup::__get_m_ChildForceExpandWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildForceExpandWidth;
 }
 constexpr void HMUI::StackLayoutGroup::__set_m_ChildForceExpandWidth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChildForceExpandWidth = value;
 }
 constexpr bool& HMUI::StackLayoutGroup::__get_m_ChildForceExpandHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildForceExpandHeight;
 }
 constexpr bool const& HMUI::StackLayoutGroup::__get_m_ChildForceExpandHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildForceExpandHeight;
 }
 constexpr void HMUI::StackLayoutGroup::__set_m_ChildForceExpandHeight(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChildForceExpandHeight = value;
 }
 inline bool HMUI::StackLayoutGroup::get_childForceExpandWidth() {

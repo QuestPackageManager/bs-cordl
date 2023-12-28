@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsNoTransitionInstaller_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller.InstallBindings
 template <>
 
@@ -36,29 +36,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__get__recordingToolSceneSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSceneSetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSceneSetupData*> const&
 GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__get__recordingToolSceneSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSceneSetupData;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__set__recordingToolSceneSetupData(::GlobalNamespace::RecordingToolSceneSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolSceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*& GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__get__scenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scenesTransitionSetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*> const&
 GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__get__scenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scenesTransitionSetupData;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__set__scenesTransitionSetupData(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scenesTransitionSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::InstallBindings(::Zenject::DiContainer* container) {

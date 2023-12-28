@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceListener)
 namespace System::Diagnostics {
-struct TraceOptions;
-}
-namespace System {
-class IDisposable;
+struct TraceEventType;
 }
 namespace System::Diagnostics {
-struct TraceEventType;
+struct TraceOptions;
 }
 namespace System::Diagnostics {
 class TraceEventCache;
 }
 namespace System::Diagnostics {
 class TraceFilter;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Diagnostics {

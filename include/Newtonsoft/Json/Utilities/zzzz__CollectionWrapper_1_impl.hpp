@@ -3,14 +3,14 @@
 #include "Newtonsoft/Json/Utilities/zzzz__CollectionWrapper_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
 template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
@@ -36,40 +36,40 @@ template <typename T> constexpr Newtonsoft::Json::Utilities::CollectionWrapper_1
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::IList*& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__set__list(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>*& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__genericCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericCollection;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::ICollection_1<T>*> const& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__genericCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericCollection;
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__set__genericCollection(::System::Collections::Generic::ICollection_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____genericCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Object*& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__syncRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__get__syncRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__set__syncRoot(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::Newtonsoft::Json::Utilities::CollectionWrapper_1<T>* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::New_ctor(::System::Collections::IList* list) {

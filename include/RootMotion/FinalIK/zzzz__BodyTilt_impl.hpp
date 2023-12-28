@@ -45,75 +45,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::BodyTilt::__get_tiltSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::BodyTilt::__get_tiltSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSpeed;
 }
 constexpr void RootMotion::FinalIK::BodyTilt::__set_tiltSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tiltSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::BodyTilt::__get_tiltSensitivity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSensitivity;
 }
 constexpr float_t const& RootMotion::FinalIK::BodyTilt::__get_tiltSensitivity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltSensitivity;
 }
 constexpr void RootMotion::FinalIK::BodyTilt::__set_tiltSensitivity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tiltSensitivity = value;
 }
 constexpr ::RootMotion::FinalIK::OffsetPose*& RootMotion::FinalIK::BodyTilt::__get_poseLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseLeft;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetPose*> const& RootMotion::FinalIK::BodyTilt::__get_poseLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseLeft;
 }
 constexpr void RootMotion::FinalIK::BodyTilt::__set_poseLeft(::RootMotion::FinalIK::OffsetPose* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poseLeft)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::OffsetPose*& RootMotion::FinalIK::BodyTilt::__get_poseRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseRight;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetPose*> const& RootMotion::FinalIK::BodyTilt::__get_poseRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseRight;
 }
 constexpr void RootMotion::FinalIK::BodyTilt::__set_poseRight(::RootMotion::FinalIK::OffsetPose* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poseRight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::BodyTilt::__get_tiltAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltAngle;
 }
 constexpr float_t const& RootMotion::FinalIK::BodyTilt::__get_tiltAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tiltAngle;
 }
 constexpr void RootMotion::FinalIK::BodyTilt::__set_tiltAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tiltAngle = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::BodyTilt::__get_lastForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::BodyTilt::__get_lastForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastForward;
 }
 constexpr void RootMotion::FinalIK::BodyTilt::__set_lastForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastForward = value;
 }
 inline void RootMotion::FinalIK::BodyTilt::Start() {

@@ -52,147 +52,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___code;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___code;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_code(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___code = value;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_booleanA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___booleanA;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_booleanA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___booleanA;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_booleanA(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___booleanA)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_charA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charA;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_charA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charA;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_charA(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charA)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<double_t, ::Array<double_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_doubleA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doubleA;
 }
 constexpr ::ArrayW<double_t, ::Array<double_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_doubleA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doubleA;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_doubleA(::ArrayW<double_t, ::Array<double_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___doubleA)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_int16A() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___int16A;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_int16A() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___int16A;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_int16A(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___int16A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_int32A() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___int32A;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_int32A() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___int32A;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_int32A(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___int32A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_int64A() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___int64A;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_int64A() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___int64A;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_int64A(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___int64A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int8_t, ::Array<int8_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_sbyteA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sbyteA;
 }
 constexpr ::ArrayW<int8_t, ::Array<int8_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_sbyteA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sbyteA;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_sbyteA(::ArrayW<int8_t, ::Array<int8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sbyteA)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_singleA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___singleA;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_singleA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___singleA;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_singleA(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___singleA)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint16A() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uint16A;
 }
 constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint16A() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uint16A;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_uint16A(::ArrayW<uint16_t, ::Array<uint16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uint16A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint32A() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uint32A;
 }
 constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint32A() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uint32A;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_uint32A(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uint32A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint64A() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uint64A;
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint64A() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uint64A;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__set_uint64A(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uint64A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*

@@ -22,28 +22,28 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem {
-class __InputControlPath___Parse_d__33;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlPath__HumanReadableStringOptions;
+struct __InputControlLayout__ControlItem;
 }
 namespace UnityEngine::InputSystem {
 struct __InputControlPath__PathComponentType;
 }
 namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
 struct __InputControlPath__PathParser;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlPath__HumanReadableStringOptions;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlPath__ParsedPathComponent;
 }
 namespace UnityEngine::InputSystem {
 class __InputControlPath____c;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__ControlItem;
+class InputControlLayout;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
@@ -52,10 +52,13 @@ namespace UnityEngine::InputSystem {
 template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
-struct __InputControlPath__ParsedPathComponent;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
+class __InputControlPath___Parse_d__33;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -63,14 +66,11 @@ class IEnumerator;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Object;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace GlobalNamespace {
 class __InputControlPath__ParsedPathComponent____c;
@@ -473,7 +473,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6231)), TypeDefinitionIndex(TypeDefinitionIndex(6230))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6230)), TypeDefinitionIndex(TypeDefinitionIndex(6231)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6233))
 // CS Name: ::InputControlPath::<Parse>d__33*
 class CORDL_TYPE __InputControlPath___Parse_d__33 : public ::System::Object {

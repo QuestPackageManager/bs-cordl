@@ -13,13 +13,13 @@ namespace UnityEngine::Playables {
 struct PlayableTraversalMode;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
 struct PlayState;
 }
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

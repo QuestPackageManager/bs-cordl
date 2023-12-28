@@ -11,28 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemEnumerator_1)
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace GlobalNamespace {
-struct __Interop__ErrorInfo;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::IO::Enumeration {
-struct FileSystemEntry;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace System::IO::Enumeration {
+struct FileSystemEntry;
+}
+namespace GlobalNamespace {
+struct __Interop__ErrorInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::IO {
 class EnumerationOptions;
@@ -49,7 +49,7 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(3354))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerator`1<TResult>*
 class CORDL_TYPE FileSystemEnumerator_1 : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {

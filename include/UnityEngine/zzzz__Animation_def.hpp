@@ -10,19 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Animation)
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class __Animation__Enumerator;
-}
-namespace UnityEngine {
-struct QueueMode;
+class AnimationState;
 }
 namespace UnityEngine {
 struct AnimationPlayMode;
-}
-namespace UnityEngine {
-class AnimationClip;
 }
 namespace UnityEngine {
 struct WrapMode;
@@ -34,13 +25,22 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class AnimationState;
+struct PlayMode;
 }
 namespace UnityEngine {
 struct AnimationCullingType;
 }
 namespace UnityEngine {
-struct PlayMode;
+struct QueueMode;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+class __Animation__Enumerator;
 }
 namespace System {
 class Object;

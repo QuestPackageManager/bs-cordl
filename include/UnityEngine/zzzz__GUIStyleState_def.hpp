@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIStyleState)
 namespace UnityEngine {
-class GUIStyle;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class GUIStyle;
 }
 // Forward declare root types
 namespace UnityEngine {

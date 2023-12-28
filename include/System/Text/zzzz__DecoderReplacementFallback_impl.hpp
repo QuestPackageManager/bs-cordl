@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__DecoderReplacementFallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Text::DecoderReplacementFallback._ctor
 template <>
 
@@ -147,15 +147,15 @@ constexpr System::Text::DecoderReplacementFallback::operator ::System::Runtime::
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Text::DecoderReplacementFallback::__get__strDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strDefault;
 }
 constexpr ::StringW const& System::Text::DecoderReplacementFallback::__get__strDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strDefault;
 }
 constexpr void System::Text::DecoderReplacementFallback::__set__strDefault(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____strDefault)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Text::DecoderReplacementFallback* System::Text::DecoderReplacementFallback::New_ctor() {

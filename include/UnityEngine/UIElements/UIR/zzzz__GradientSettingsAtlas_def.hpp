@@ -14,22 +14,22 @@ namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine::UIElements::UIR {
-class BestFitAllocator;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
 struct __GradientSettingsAtlas__RawTexture;
 }
 namespace UnityEngine::UIElements::UIR {
-class GradientRemap;
+struct Alloc;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements {
 struct GradientSettings;
 }
 namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+class BestFitAllocator;
+}
+namespace UnityEngine::UIElements::UIR {
+class GradientRemap;
 }
 namespace UnityEngine {
 struct Color32;
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7378)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7378)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7379))
 // CS Name: ::UnityEngine.UIElements.UIR::GradientSettingsAtlas*
 class CORDL_TYPE GradientSettingsAtlas : public ::System::Object {

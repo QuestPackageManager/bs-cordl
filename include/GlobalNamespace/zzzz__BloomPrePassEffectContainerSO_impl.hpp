@@ -46,15 +46,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BloomPrePassEffectSO*& GlobalNamespace::BloomPrePassEffectContainerSO::__get__bloomPrePassEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffect;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectSO*> const& GlobalNamespace::BloomPrePassEffectContainerSO::__get__bloomPrePassEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffect;
 }
 constexpr void GlobalNamespace::BloomPrePassEffectContainerSO::__set__bloomPrePassEffect(::GlobalNamespace::BloomPrePassEffectSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BloomPrePassEffectSO* GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect() {

@@ -70,27 +70,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& Priority_Queue::FastPriorityQueueNode::__get__Priority_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Priority_k__BackingField;
 }
 constexpr float_t const& Priority_Queue::FastPriorityQueueNode::__get__Priority_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Priority_k__BackingField;
 }
 constexpr void Priority_Queue::FastPriorityQueueNode::__set__Priority_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Priority_k__BackingField = value;
 }
 constexpr int32_t& Priority_Queue::FastPriorityQueueNode::__get__QueueIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____QueueIndex_k__BackingField;
 }
 constexpr int32_t const& Priority_Queue::FastPriorityQueueNode::__get__QueueIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____QueueIndex_k__BackingField;
 }
 constexpr void Priority_Queue::FastPriorityQueueNode::__set__QueueIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____QueueIndex_k__BackingField = value;
 }
 inline float_t Priority_Queue::FastPriorityQueueNode::get_Priority() {

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerTaggedObjectParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerTaggedObjectParser._ctor
 template <>
 
@@ -104,39 +104,39 @@ constexpr Org::BouncyCastle::Asn1::BerTaggedObjectParser::operator ::Org::Bouncy
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(static_cast<void*>(this));
 }
 constexpr bool& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__constructed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructed;
 }
 constexpr bool const& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__constructed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructed;
 }
 constexpr void Org::BouncyCastle::Asn1::BerTaggedObjectParser::__set__constructed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____constructed = value;
 }
 constexpr int32_t& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__tagNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tagNumber;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__tagNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tagNumber;
 }
 constexpr void Org::BouncyCastle::Asn1::BerTaggedObjectParser::__set__tagNumber(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tagNumber = value;
 }
 constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__parser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parser;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__parser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parser;
 }
 constexpr void Org::BouncyCastle::Asn1::BerTaggedObjectParser::__set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream) {

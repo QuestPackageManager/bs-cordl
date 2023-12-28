@@ -3,10 +3,10 @@
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorageRGBA32_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorageRGBA32_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c._ctor
 template <>
 

@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(NaccacheSternKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class NaccacheSternKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class NaccacheSternKeyGenerationParameters;
-}
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

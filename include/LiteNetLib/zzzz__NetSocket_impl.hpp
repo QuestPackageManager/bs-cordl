@@ -3,12 +3,12 @@
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
 #include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Threading/zzzz__ThreadPriority_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Threading/zzzz__ThreadPriority_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetSocket.get_LocalPort
 template <>
 
@@ -190,87 +190,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::Socket*& LiteNetLib::NetSocket::__get__udpSocketv4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv4;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& LiteNetLib::NetSocket::__get__udpSocketv4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv4;
 }
 constexpr void LiteNetLib::NetSocket::__set__udpSocketv4(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____udpSocketv4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::Socket*& LiteNetLib::NetSocket::__get__udpSocketv6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv6;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& LiteNetLib::NetSocket::__get__udpSocketv6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv6;
 }
 constexpr void LiteNetLib::NetSocket::__set__udpSocketv6(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____udpSocketv6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Thread*& LiteNetLib::NetSocket::__get__threadv4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv4;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& LiteNetLib::NetSocket::__get__threadv4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv4;
 }
 constexpr void LiteNetLib::NetSocket::__set__threadv4(::System::Threading::Thread* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____threadv4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Thread*& LiteNetLib::NetSocket::__get__threadv6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv6;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& LiteNetLib::NetSocket::__get__threadv6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv6;
 }
 constexpr void LiteNetLib::NetSocket::__set__threadv6(::System::Threading::Thread* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____threadv6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::INetSocketListener*& LiteNetLib::NetSocket::__get__listener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetSocketListener*> const& LiteNetLib::NetSocket::__get__listener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr void LiteNetLib::NetSocket::__set__listener(::LiteNetLib::INetSocketListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetSocket::__get__LocalPort_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalPort_k__BackingField;
 }
 constexpr int32_t const& LiteNetLib::NetSocket::__get__LocalPort_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalPort_k__BackingField;
 }
 constexpr void LiteNetLib::NetSocket::__set__LocalPort_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LocalPort_k__BackingField = value;
 }
 constexpr bool& LiteNetLib::NetSocket::__get_IsRunning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsRunning;
 }
 constexpr bool const& LiteNetLib::NetSocket::__get_IsRunning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsRunning;
 }
 constexpr void LiteNetLib::NetSocket::__set_IsRunning(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsRunning = value;
 }
 inline void LiteNetLib::NetSocket::setStaticF_MulticastAddressV6(::System::Net::IPAddress* value) {

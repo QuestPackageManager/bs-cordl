@@ -9,52 +9,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardScoreUploader)
 namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoresToUploadData;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__UploadScoreCallback;
-}
-namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader____c__DisplayClass16_0;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class __LeaderboardScoreUploader__UploadScoreCallback;
+}
+namespace GlobalNamespace {
+class ISaveData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader__ScoresToUploadData;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
-namespace GlobalNamespace {
-class HMAsyncRequest;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

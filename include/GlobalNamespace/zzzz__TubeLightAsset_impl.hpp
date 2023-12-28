@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TubeLightAsset.get_clipCaps
 template <>
 
@@ -54,15 +54,15 @@ constexpr GlobalNamespace::TubeLightAsset::operator ::UnityEngine::Timeline::ITi
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::TubeLightBehaviour*& GlobalNamespace::TubeLightAsset::__get__template() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeLightBehaviour*> const& GlobalNamespace::TubeLightAsset::__get__template() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
 constexpr void GlobalNamespace::TubeLightAsset::__set__template(::GlobalNamespace::TubeLightBehaviour* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::TubeLightAsset::get_clipCaps() {

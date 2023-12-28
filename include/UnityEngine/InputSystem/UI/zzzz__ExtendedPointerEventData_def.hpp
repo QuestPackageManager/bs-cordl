@@ -13,25 +13,25 @@ namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace UnityEngine::InputSystem {
+class Pen;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::EventSystems {
-class EventSystem;
-}
-namespace UnityEngine::InputSystem::Controls {
-class TouchControl;
+struct Vector3;
 }
 namespace UnityEngine::InputSystem::UI {
 struct UIPointerType;
 }
-namespace UnityEngine::InputSystem {
-class Pen;
+namespace UnityEngine::InputSystem::Controls {
+class TouchControl;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::ExtendedPointerEventData);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13168)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6372))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6371)) CS Name: ::UnityEngine.InputSystem.UI::ExtendedPointerEventData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6372)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13168))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6371)) CS Name: ::UnityEngine.InputSystem.UI::ExtendedPointerEventData*
 class CORDL_TYPE ExtendedPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
 public:
   // Declarations

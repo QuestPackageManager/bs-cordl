@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeOutSongPreviewPlayerOnSceneTransitionStart_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart.Start
 template <>
 
@@ -64,27 +64,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AudioPlayerBase*& GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::__get__songPreviewPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPreviewPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPlayerBase*> const& GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::__get__songPreviewPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPreviewPlayer;
 }
 constexpr void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::__set__songPreviewPlayer(::GlobalNamespace::AudioPlayerBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songPreviewPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameScenesManager*& GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::__get__gameScenesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameScenesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::__get__gameScenesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameScenesManager;
 }
 constexpr void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::__set__gameScenesManager(::GlobalNamespace::GameScenesManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::Start() {

@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocationWrapper)
 namespace System {
-class Type;
+class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {

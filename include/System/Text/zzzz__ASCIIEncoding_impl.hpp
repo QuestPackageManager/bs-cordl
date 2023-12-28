@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__ASCIIEncoding_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Text/zzzz__ASCIIEncoding_ASCIIEncodingSealed_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
 //  Writing Method size for method: ::System::Text::ASCIIEncoding._ctor
 template <>
 

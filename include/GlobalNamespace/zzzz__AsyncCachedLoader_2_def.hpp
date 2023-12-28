@@ -11,26 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCachedLoader_2)
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+namespace GlobalNamespace {
+template <typename K, typename V> class HMCache_2;
+}
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAsync_d__7;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAsync_d__7;
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAllAsync_d__8;
@@ -39,13 +39,13 @@ namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -115,8 +115,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 864
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 864 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS
 // Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAsync_d__7 {
 public:
@@ -173,9 +173,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5906), inst: 84 }), TypeDefinitionIndex(TypeDefinitionIndex(5906)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5908)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(5906)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5906), inst: 84 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5908)) CS
+// Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAllAsync_d__8 {
 public:
   // Declarations

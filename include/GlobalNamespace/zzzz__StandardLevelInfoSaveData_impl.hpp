@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelColorSchemeSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet.get_beatmapCharacteristicName
 template <>
 
@@ -54,30 +54,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::__get__beatmapCharacteristicName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicName;
 }
 constexpr ::StringW const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::__get__beatmapCharacteristicName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicName;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::__set__beatmapCharacteristicName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristicName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*>&
 GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::__get__difficultyBeatmaps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmaps;
 }
 constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> const&
 GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::__get__difficultyBeatmaps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmaps;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::__set__difficultyBeatmaps(
     ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmaps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet::get_beatmapCharacteristicName() {
@@ -236,87 +236,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__difficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty;
 }
 constexpr ::StringW const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__difficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__difficulty(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficulty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__difficultyRank() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyRank;
 }
 constexpr int32_t const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__difficultyRank() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyRank;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__difficultyRank(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____difficultyRank = value;
 }
 constexpr ::StringW& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__beatmapFilename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapFilename;
 }
 constexpr ::StringW const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__beatmapFilename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapFilename;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__beatmapFilename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__noteJumpMovementSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpMovementSpeed;
 }
 constexpr float_t const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__noteJumpMovementSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpMovementSpeed;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__noteJumpMovementSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpMovementSpeed = value;
 }
 constexpr float_t& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__noteJumpStartBeatOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffset;
 }
 constexpr float_t const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__noteJumpStartBeatOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffset;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__noteJumpStartBeatOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpStartBeatOffset = value;
 }
 constexpr int32_t& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__beatmapColorSchemeIdx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapColorSchemeIdx;
 }
 constexpr int32_t const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__beatmapColorSchemeIdx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapColorSchemeIdx;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__beatmapColorSchemeIdx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapColorSchemeIdx = value;
 }
 constexpr int32_t& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__environmentNameIdx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentNameIdx;
 }
 constexpr int32_t const& GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__get__environmentNameIdx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentNameIdx;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::__set__environmentNameIdx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentNameIdx = value;
 }
 inline ::StringW GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap::get_difficulty() {
@@ -411,15 +411,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__StandardLevelInfoSaveData__VersionCheck::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr ::StringW const& GlobalNamespace::__StandardLevelInfoSaveData__VersionCheck::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void GlobalNamespace::__StandardLevelInfoSaveData__VersionCheck::__set__version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__StandardLevelInfoSaveData__VersionCheck::get_version() {
@@ -781,225 +781,225 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__songName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__songName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songName;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__songName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__songSubName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSubName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__songSubName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSubName;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__songSubName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songSubName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__songAuthorName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songAuthorName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__songAuthorName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songAuthorName;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__songAuthorName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songAuthorName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__levelAuthorName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelAuthorName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__levelAuthorName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelAuthorName;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__levelAuthorName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelAuthorName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__get__beatsPerMinute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatsPerMinute;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__get__beatsPerMinute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatsPerMinute;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__beatsPerMinute(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatsPerMinute = value;
 }
 constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__get__songTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__get__songTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__songTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__get__shuffle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shuffle;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__get__shuffle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shuffle;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__shuffle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shuffle = value;
 }
 constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__get__shufflePeriod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shufflePeriod;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__get__shufflePeriod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shufflePeriod;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__shufflePeriod(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shufflePeriod = value;
 }
 constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__get__previewStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewStartTime;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__get__previewStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewStartTime;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__previewStartTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previewStartTime = value;
 }
 constexpr float_t& GlobalNamespace::StandardLevelInfoSaveData::__get__previewDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewDuration;
 }
 constexpr float_t const& GlobalNamespace::StandardLevelInfoSaveData::__get__previewDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewDuration;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__previewDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previewDuration = value;
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__songFilename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songFilename;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__songFilename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songFilename;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__songFilename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__coverImageFilename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverImageFilename;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__coverImageFilename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverImageFilename;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__coverImageFilename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coverImageFilename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__environmentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__environmentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentName;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__environmentName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::StandardLevelInfoSaveData::__get__allDirectionsEnvironmentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allDirectionsEnvironmentName;
 }
 constexpr ::StringW const& GlobalNamespace::StandardLevelInfoSaveData::__get__allDirectionsEnvironmentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allDirectionsEnvironmentName;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__allDirectionsEnvironmentName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allDirectionsEnvironmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::StandardLevelInfoSaveData::__get__environmentNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::StandardLevelInfoSaveData::__get__environmentNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentNames;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__environmentNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*>&
 GlobalNamespace::StandardLevelInfoSaveData::__get__colorSchemes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemes;
 }
 constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> const&
 GlobalNamespace::StandardLevelInfoSaveData::__get__colorSchemes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemes;
 }
 constexpr void
 GlobalNamespace::StandardLevelInfoSaveData::__set__colorSchemes(::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSchemes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*>&
 GlobalNamespace::StandardLevelInfoSaveData::__get__difficultyBeatmapSets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmapSets;
 }
 constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> const&
 GlobalNamespace::StandardLevelInfoSaveData::__get__difficultyBeatmapSets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmapSets;
 }
 constexpr void GlobalNamespace::StandardLevelInfoSaveData::__set__difficultyBeatmapSets(
     ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmapSets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::StandardLevelInfoSaveData::get_version() {

@@ -20,15 +20,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::DateTime& System::Runtime::CompilerServices::DateTimeConstantAttribute::__get__date() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____date;
 }
 constexpr ::System::DateTime const& System::Runtime::CompilerServices::DateTimeConstantAttribute::__get__date() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____date;
 }
 constexpr void System::Runtime::CompilerServices::DateTimeConstantAttribute::__set__date(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____date = value;
 }
 inline ::System::Object* System::Runtime::CompilerServices::DateTimeConstantAttribute::get_Value() {

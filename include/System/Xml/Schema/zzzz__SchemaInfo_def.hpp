@@ -6,17 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SchemaInfo)
-namespace System::Xml {
-class XmlQualifiedName;
+namespace System::Xml::Schema {
+class SchemaNotation;
 }
 namespace System::Xml::Schema {
 class SchemaElementDecl;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Xml::Schema {
-class SchemaEntity;
 }
 namespace System::Xml {
 class IDtdInfo;
@@ -24,17 +18,23 @@ class IDtdInfo;
 namespace System::Xml::Schema {
 struct SchemaType;
 }
-namespace System::Xml::Schema {
-class SchemaNotation;
-}
-namespace System::Xml {
-class IDtdAttributeListInfo;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Xml {
 class IDtdEntityInfo;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Xml::Schema {
+class SchemaEntity;
+}
+namespace System::Xml {
+class IDtdAttributeListInfo;
+}
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

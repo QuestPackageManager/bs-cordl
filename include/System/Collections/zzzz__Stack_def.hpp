@@ -7,10 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stack)
 namespace System::Collections {
-class __Stack__StackEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Collections {
 class ICollection;
@@ -18,17 +21,14 @@ class ICollection;
 namespace System {
 class Array;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class __Stack__StackDebugView;
 }
-namespace System {
-class ICloneable;
+namespace System::Collections {
+class __Stack__StackEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {

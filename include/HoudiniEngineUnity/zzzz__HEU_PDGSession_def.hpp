@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PDGSession)
-namespace HoudiniEngineUnity {
-class HEU_PDGAssetLink;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNetworkData;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_PDGSession__EventMessageColor;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_TOPNodeData;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class HEU_PDGAssetLink;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_TOPNodeData__PDGState;
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_PDGSession__EventMessageColor;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_PDG_EventInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPNetworkData;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_TOPNodeData__PDGState;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -103,7 +103,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_PDGSes
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9722))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9722)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9776))
 // CS Name: ::HoudiniEngineUnity::HEU_PDGSession*
 class CORDL_TYPE HEU_PDGSession : public ::System::Object {

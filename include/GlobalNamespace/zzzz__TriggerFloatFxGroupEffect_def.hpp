@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TriggerFloatFxGroupEffect)
 namespace GlobalNamespace {
-class FloatFxBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
 class __TriggerFloatFxGroupEffect__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class FloatFxBeatmapEventData;
 }
 namespace GlobalNamespace {
 class FloatFxGroupEffectTarget;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CountdownController)
-namespace GlobalNamespace {
-class CountdownElementController;
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace GlobalNamespace {
 class ITimeProvider;
 }
+namespace GlobalNamespace {
+class CountdownElementController;
+}
 namespace UnityEngine {
 class AudioSource;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

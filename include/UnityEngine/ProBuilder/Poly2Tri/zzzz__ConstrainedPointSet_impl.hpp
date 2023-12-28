@@ -2,9 +2,9 @@
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointSet_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__ConstrainedPointSet_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationMode_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet.get_EdgeIndex
 template <>
 
@@ -85,15 +85,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::__get__EdgeIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EdgeIndex_k__BackingField;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::__get__EdgeIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EdgeIndex_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::__set__EdgeIndex_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____EdgeIndex_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<int32_t, ::Array<int32_t>*> UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::get_EdgeIndex() {

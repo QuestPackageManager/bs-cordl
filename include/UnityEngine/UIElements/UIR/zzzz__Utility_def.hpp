@@ -11,16 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utility)
 namespace UnityEngine {
+struct RectInt;
+}
+namespace UnityEngine::Rendering {
+struct StencilState;
+}
+namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Utility__GPUBuffer_1;
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeDescriptor;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace UnityEngine::Rendering {
-struct VertexAttributeDescriptor;
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class __Utility__GPUBuffer_1;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __Utility__GPUBufferType;
 }
 namespace UnityEngine {
 class Material;
@@ -29,31 +47,13 @@ namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-struct RectInt;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __Utility__GPUBufferType;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::Rendering {
-struct StencilState;
+class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
 struct GfxUpdateBufferRange;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -123,7 +123,7 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15382))
 // CS Name: ::Utility::GPUBuffer`1<T>*
 class CORDL_TYPE __Utility__GPUBuffer_1 : public ::System::Object {

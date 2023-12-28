@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__TextFadeTransitions__State::__TextFadeTransitions__State(int32_t value__) noexcept {
   this->value__ = value__;
@@ -94,75 +94,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::TextFadeTransitions::__get__textLabel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textLabel;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::TextFadeTransitions::__get__textLabel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textLabel;
 }
 constexpr void GlobalNamespace::TextFadeTransitions::__set__textLabel(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::TextFadeTransitions::__get__canvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::TextFadeTransitions::__get__canvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvasGroup;
 }
 constexpr void GlobalNamespace::TextFadeTransitions::__set__canvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::TextFadeTransitions::__get__fadeDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeDuration;
 }
 constexpr float_t const& GlobalNamespace::TextFadeTransitions::__get__fadeDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeDuration;
 }
 constexpr void GlobalNamespace::TextFadeTransitions::__set__fadeDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeDuration = value;
 }
 constexpr ::GlobalNamespace::__TextFadeTransitions__State& GlobalNamespace::TextFadeTransitions::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::GlobalNamespace::__TextFadeTransitions__State const& GlobalNamespace::TextFadeTransitions::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void GlobalNamespace::TextFadeTransitions::__set__state(::GlobalNamespace::__TextFadeTransitions__State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
 constexpr ::StringW& GlobalNamespace::TextFadeTransitions::__get__nextText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextText;
 }
 constexpr ::StringW const& GlobalNamespace::TextFadeTransitions::__get__nextText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextText;
 }
 constexpr void GlobalNamespace::TextFadeTransitions::__set__nextText(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nextText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::TextFadeTransitions::__get__fade() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fade;
 }
 constexpr float_t const& GlobalNamespace::TextFadeTransitions::__get__fade() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fade;
 }
 constexpr void GlobalNamespace::TextFadeTransitions::__set__fade(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fade = value;
 }
 inline void GlobalNamespace::TextFadeTransitions::Awake() {

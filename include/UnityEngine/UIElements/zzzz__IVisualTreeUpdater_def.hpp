@@ -3,20 +3,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVisualTreeUpdater)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

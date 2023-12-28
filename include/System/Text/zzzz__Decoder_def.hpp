@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Decoder)
-namespace System::Text {
-class DecoderFallback;
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Text {
+class DecoderFallback;
 }
 namespace System::Text {
 class DecoderFallbackBuffer;

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILayerable)
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::Playables {
 struct Playable;

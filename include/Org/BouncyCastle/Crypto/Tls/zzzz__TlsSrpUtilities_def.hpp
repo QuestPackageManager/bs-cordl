@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(TlsSrpUtilities)
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

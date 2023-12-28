@@ -174,51 +174,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::ProBuilder::UnwrapParameters::__get_m_HardAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HardAngle;
 }
 constexpr float_t const& UnityEngine::ProBuilder::UnwrapParameters::__get_m_HardAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HardAngle;
 }
 constexpr void UnityEngine::ProBuilder::UnwrapParameters::__set_m_HardAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HardAngle = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::UnwrapParameters::__get_m_PackMargin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PackMargin;
 }
 constexpr float_t const& UnityEngine::ProBuilder::UnwrapParameters::__get_m_PackMargin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PackMargin;
 }
 constexpr void UnityEngine::ProBuilder::UnwrapParameters::__set_m_PackMargin(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PackMargin = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::UnwrapParameters::__get_m_AngleError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AngleError;
 }
 constexpr float_t const& UnityEngine::ProBuilder::UnwrapParameters::__get_m_AngleError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AngleError;
 }
 constexpr void UnityEngine::ProBuilder::UnwrapParameters::__set_m_AngleError(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AngleError = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::UnwrapParameters::__get_m_AreaError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AreaError;
 }
 constexpr float_t const& UnityEngine::ProBuilder::UnwrapParameters::__get_m_AreaError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AreaError;
 }
 constexpr void UnityEngine::ProBuilder::UnwrapParameters::__set_m_AreaError(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AreaError = value;
 }
 inline float_t UnityEngine::ProBuilder::UnwrapParameters::get_hardAngle() {

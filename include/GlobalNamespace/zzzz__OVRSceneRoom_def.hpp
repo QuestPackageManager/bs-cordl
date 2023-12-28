@@ -7,26 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneRoom)
+namespace GlobalNamespace {
+class IOVRSceneComponent;
+}
+namespace GlobalNamespace {
+class OVRScenePlane;
+}
 namespace System {
-template <typename T1, typename T2> class Action_2;
+struct Guid;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IOVRSceneComponent;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace GlobalNamespace {
-struct OVRAnchor;
-}
-namespace System {
-struct Guid;
-}
-namespace GlobalNamespace {
-class OVRScenePlane;
+class OVRSceneAnchor;
 }
 namespace GlobalNamespace {
 class OVRSceneManager;
@@ -35,13 +29,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class OVRSceneAnchor;
+struct OVRAnchor;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -10,6 +10,21 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BlocksBlade)
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 class Mesh;
 }
 namespace System::Collections::Generic {
@@ -18,23 +33,8 @@ template <typename T> class List_1;
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 class __BlocksBlade__Element;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeZone_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Globalization/zzzz__DaylightTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::System::TimeZone.get_InternalSyncObject
 template <>
 

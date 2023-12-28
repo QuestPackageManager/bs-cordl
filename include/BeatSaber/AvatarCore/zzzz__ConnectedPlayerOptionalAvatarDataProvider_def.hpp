@@ -10,7 +10,13 @@ namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
 namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataSyncHandler;
+}
+namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace System {
 class IDisposable;
@@ -18,20 +24,14 @@ class IDisposable;
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+namespace BeatSaber::AvatarCore {
+struct AvatarDisplayContext;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
-}
-namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSyncHandler;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

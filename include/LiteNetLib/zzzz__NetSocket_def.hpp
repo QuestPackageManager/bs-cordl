@@ -13,23 +13,23 @@ class INetSocketListener;
 namespace System::Net {
 class IPAddress;
 }
-namespace System::Threading {
-struct ThreadPriority;
-}
 namespace System::Net {
 class IPEndPoint;
 }
-namespace System::Threading {
-class Thread;
-}
-namespace System::Net::Sockets {
-struct SocketError;
+namespace System {
+class Object;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
-namespace System {
-class Object;
+namespace System::Threading {
+struct ThreadPriority;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace System::Threading {
+class Thread;
 }
 // Forward declare root types
 namespace LiteNetLib {

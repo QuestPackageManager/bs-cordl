@@ -47,39 +47,39 @@ constexpr GlobalNamespace::MonotonicTimeProvider::operator ::BGNet::Core::ITimeP
   return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
 }
 constexpr double_t& GlobalNamespace::MonotonicTimeProvider::__get__timeSpanTicksPerStopwatchTick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeSpanTicksPerStopwatchTick;
 }
 constexpr double_t const& GlobalNamespace::MonotonicTimeProvider::__get__timeSpanTicksPerStopwatchTick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeSpanTicksPerStopwatchTick;
 }
 constexpr void GlobalNamespace::MonotonicTimeProvider::__set__timeSpanTicksPerStopwatchTick(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeSpanTicksPerStopwatchTick = value;
 }
 constexpr int64_t& GlobalNamespace::MonotonicTimeProvider::__get__startTicks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTicks;
 }
 constexpr int64_t const& GlobalNamespace::MonotonicTimeProvider::__get__startTicks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTicks;
 }
 constexpr void GlobalNamespace::MonotonicTimeProvider::__set__startTicks(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startTicks = value;
 }
 constexpr ::System::Diagnostics::Stopwatch*& GlobalNamespace::MonotonicTimeProvider::__get__stopwatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopwatch;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& GlobalNamespace::MonotonicTimeProvider::__get__stopwatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopwatch;
 }
 constexpr void GlobalNamespace::MonotonicTimeProvider::__set__stopwatch(::System::Diagnostics::Stopwatch* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stopwatch)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MonotonicTimeProvider::setStaticF_instance(::GlobalNamespace::MonotonicTimeProvider* value) {

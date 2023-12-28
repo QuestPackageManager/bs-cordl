@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DfaContentValidator)
 namespace System::Xml::Schema {
-struct XmlSchemaContentType;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+struct XmlSchemaContentType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

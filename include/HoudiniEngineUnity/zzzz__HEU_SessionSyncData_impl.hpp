@@ -58,123 +58,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::HEU_SessionSyncData::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_SessionSyncData::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__status(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_SessionSyncData::__get__timeLastUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeLastUpdate;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_SessionSyncData::__get__timeLastUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeLastUpdate;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__timeLastUpdate(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeLastUpdate = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_SessionSyncData::__get__timeStartConnection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeStartConnection;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_SessionSyncData::__get__timeStartConnection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeStartConnection;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__timeStartConnection(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeStartConnection = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_SessionSyncData::__get__newNodeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newNodeName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_SessionSyncData::__get__newNodeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newNodeName;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__newNodeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____newNodeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_SessionSyncData::__get__nodeTypeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeTypeIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_SessionSyncData::__get__nodeTypeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeTypeIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__nodeTypeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nodeTypeIndex = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionSyncData::__get__validForConnection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validForConnection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionSyncData::__get__validForConnection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validForConnection;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__validForConnection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____validForConnection = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Viewport& HoudiniEngineUnity::HEU_SessionSyncData::__get__viewportHAPI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewportHAPI;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Viewport const& HoudiniEngineUnity::HEU_SessionSyncData::__get__viewportHAPI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewportHAPI;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__viewportHAPI(::HoudiniEngineUnity::HAPI_Viewport value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____viewportHAPI = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Viewport& HoudiniEngineUnity::HEU_SessionSyncData::__get__viewportLocal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewportLocal;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Viewport const& HoudiniEngineUnity::HEU_SessionSyncData::__get__viewportLocal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewportLocal;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____viewportLocal = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionSyncData::__get__viewportJustUpdated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewportJustUpdated;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionSyncData::__get__viewportJustUpdated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewportJustUpdated;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__viewportJustUpdated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____viewportJustUpdated = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo& HoudiniEngineUnity::HEU_SessionSyncData::__get__syncInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo const& HoudiniEngineUnity::HEU_SessionSyncData::__get__syncInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionSyncData::__set__syncInfo(::HoudiniEngineUnity::HAPI_SessionSyncInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____syncInfo = value;
 }
 inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus() {

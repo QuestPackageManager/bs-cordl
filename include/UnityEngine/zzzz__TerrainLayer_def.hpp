@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TerrainLayer)
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UserAgeCategory)
-namespace Oculus::Platform::Models {
-class UserAccountAgeCategory;
-}
 namespace Oculus::Platform {
 struct AppAgeCategory;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+class Request;
 }
 namespace Oculus::Platform {
-class Request;
+template <typename T> class Request_1;
+}
+namespace Oculus::Platform::Models {
+class UserAccountAgeCategory;
 }
 // Forward declare root types
 namespace Oculus::Platform {

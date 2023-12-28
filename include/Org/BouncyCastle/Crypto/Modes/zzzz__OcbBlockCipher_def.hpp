@@ -11,13 +11,13 @@ namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;

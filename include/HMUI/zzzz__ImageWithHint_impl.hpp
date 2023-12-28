@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ImageWithHint_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::HMUI::ImageWithHint.set_sprite
 template <>
 
@@ -59,27 +59,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Image*& HMUI::ImageWithHint::__get__image() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____image;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& HMUI::ImageWithHint::__get__image() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____image;
 }
 constexpr void HMUI::ImageWithHint::__set__image(::UnityEngine::UI::Image* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____image)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::HoverHint*& HMUI::ImageWithHint::__get__hoverHint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoverHint;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& HMUI::ImageWithHint::__get__hoverHint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoverHint;
 }
 constexpr void HMUI::ImageWithHint::__set__hoverHint(::HMUI::HoverHint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::ImageWithHint::set_sprite(::UnityEngine::Sprite* value) {

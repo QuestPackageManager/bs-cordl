@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Timeline::CustomStyleAttribute::__get_ussStyle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ussStyle;
 }
 constexpr ::StringW const& UnityEngine::Timeline::CustomStyleAttribute::__get_ussStyle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ussStyle;
 }
 constexpr void UnityEngine::Timeline::CustomStyleAttribute::__set_ussStyle(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ussStyle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::CustomStyleAttribute* UnityEngine::Timeline::CustomStyleAttribute::New_ctor(::StringW ussStyle) {

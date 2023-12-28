@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(NetworkPlayerOptionsTableCell)
 namespace UnityEngine::UI {
 class Button;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace HMUI {
 class ButtonBinder;

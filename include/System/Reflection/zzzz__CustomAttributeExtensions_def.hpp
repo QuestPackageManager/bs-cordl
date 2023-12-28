@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CustomAttributeExtensions)
 namespace System::Reflection {
-class MemberInfo;
+class Assembly;
+}
+namespace System {
+class Attribute;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Reflection {
-class Assembly;
-}
-namespace System {
-class Attribute;
+class MemberInfo;
 }
 namespace System {
 class Type;

@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OffsetModifier)
 namespace RootMotion::FinalIK {
+class FullBodyBipedIK;
+}
+namespace RootMotion::FinalIK {
+class __OffsetModifier___Initiate_d__8;
+}
+namespace RootMotion::FinalIK {
 class __OffsetModifier__OffsetLimits;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
-}
-namespace RootMotion::FinalIK {
-class __OffsetModifier___Initiate_d__8;
+class IKEffector;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace RootMotion::FinalIK {
-class IKEffector;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StencilState)
 namespace UnityEngine::Rendering {
-struct CompareFunction;
+struct StencilOp;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Rendering {
-struct StencilOp;
+struct CompareFunction;
 }
 namespace System {
 class Object;

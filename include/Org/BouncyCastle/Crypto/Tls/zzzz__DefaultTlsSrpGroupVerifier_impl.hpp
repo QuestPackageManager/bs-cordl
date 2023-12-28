@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsSrpGroupVerifier_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpGroupVerifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier._ctor
 template <>
 
@@ -89,15 +89,15 @@ constexpr Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::operator :
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::__get_mGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::__get_mGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mGroups;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::__set_mGroups(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::setStaticF_DefaultGroups(::System::Collections::IList* value) {

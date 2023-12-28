@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IdBinder)
-namespace System {
-class Object;
-}
 namespace Zenject {
 class BindInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

@@ -13,34 +13,34 @@ namespace UnityEngine::InputSystem::Utilities {
 class __StringHelpers___Split_d__9;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Tokenize_d__8;
-}
-namespace System {
 struct StringComparison;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct Substring;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace UnityEngine::InputSystem::Utilities {
+class __StringHelpers___Tokenize_d__8;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6709))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6709)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6706))
 // CS Name: ::StringHelpers::<Tokenize>d__8*
 class CORDL_TYPE __StringHelpers___Tokenize_d__8 : public ::System::Object {

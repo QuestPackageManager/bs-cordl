@@ -7,59 +7,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsUtilities)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSignerCredentials;
-}
-namespace System::Net::Sockets {
-class SocketException;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Crypto::Tls {
+class SessionParameters;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
+class TlsSigner;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSignerCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
+}
+namespace System::Net::Sockets {
+class SocketException;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
+class Certificate;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -2,8 +2,8 @@
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Gen2GcCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Gen2GcCallback._ctor
 template <>
 
@@ -63,27 +63,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_2<::System::Object*, bool>*& System::Gen2GcCallback::__get__callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, bool>*> const& System::Gen2GcCallback::__get__callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 constexpr void System::Gen2GcCallback::__set__callback(::System::Func_2<::System::Object*, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& System::Gen2GcCallback::__get__weakTargetObj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____weakTargetObj;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& System::Gen2GcCallback::__get__weakTargetObj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____weakTargetObj;
 }
 constexpr void System::Gen2GcCallback::__set__weakTargetObj(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____weakTargetObj = value;
 }
 inline ::System::Gen2GcCallback* System::Gen2GcCallback::New_ctor() {

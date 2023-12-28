@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Vector2Mask_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Vector2Mask.get_x
 template <>
 

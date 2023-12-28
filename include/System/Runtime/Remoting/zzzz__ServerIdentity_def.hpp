@@ -5,20 +5,23 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerIdentity)
-namespace System::Runtime::Remoting::Lifetime {
-class ILease;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
-namespace System {
-class MarshalByRefObject;
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 namespace System {
 class Type;
 }
-namespace System::Runtime::Remoting {
-class ObjRef;
+namespace System::Runtime::Remoting::Lifetime {
+class ILease;
+}
+namespace System {
+class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting::Lifetime {
 class Lease;
@@ -28,9 +31,6 @@ class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

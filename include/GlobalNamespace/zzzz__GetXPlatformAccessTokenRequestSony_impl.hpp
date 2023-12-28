@@ -20,27 +20,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::GetXPlatformAccessTokenRequestSony::__get_platformToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformToken;
 }
 constexpr ::StringW const& GlobalNamespace::GetXPlatformAccessTokenRequestSony::__get_platformToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformToken;
 }
 constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSony::__set_platformToken(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___platformToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlatformEnvironment& GlobalNamespace::GetXPlatformAccessTokenRequestSony::__get_platformEnvironment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformEnvironment;
 }
 constexpr ::GlobalNamespace::PlatformEnvironment const& GlobalNamespace::GetXPlatformAccessTokenRequestSony::__get_platformEnvironment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformEnvironment;
 }
 constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSony::__set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___platformEnvironment = value;
 }
 inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSony* GlobalNamespace::GetXPlatformAccessTokenRequestSony::New_ctor(::StringW platformToken,

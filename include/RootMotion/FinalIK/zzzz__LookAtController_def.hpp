@@ -10,10 +10,10 @@ namespace RootMotion::FinalIK {
 class LookAtIK;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::LookAtController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 149, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12653))
 // CS Name: ::RootMotion.FinalIK::LookAtController*
 class CORDL_TYPE LookAtController : public ::UnityEngine::MonoBehaviour {

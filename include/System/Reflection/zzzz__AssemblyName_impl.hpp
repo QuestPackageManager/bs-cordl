@@ -6,19 +6,19 @@
 #include "System/Reflection/zzzz__ProcessorArchitecture_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
-#include "System/Reflection/zzzz__AssemblyNameFlags_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "Mono/zzzz__MonoAssemblyName_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/InteropServices/zzzz___AssemblyName_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__StrongNameKeyPair_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Reflection/zzzz__StrongNameKeyPair_def.hpp"
+#include "System/Runtime/InteropServices/zzzz___AssemblyName_def.hpp"
+#include "Mono/zzzz__MonoAssemblyName_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__AssemblyNameFlags_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyName._ctor
 template <>
 
@@ -355,195 +355,195 @@ constexpr System::Reflection::AssemblyName::operator ::System::Runtime::InteropS
   return static_cast<::System::Runtime::InteropServices::_AssemblyName*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Reflection::AssemblyName::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& System::Reflection::AssemblyName::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Reflection::AssemblyName::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Reflection::AssemblyName::__get_codebase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___codebase;
 }
 constexpr ::StringW const& System::Reflection::AssemblyName::__get_codebase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___codebase;
 }
 constexpr void System::Reflection::AssemblyName::__set_codebase(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___codebase)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Reflection::AssemblyName::__get_major() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___major;
 }
 constexpr int32_t const& System::Reflection::AssemblyName::__get_major() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___major;
 }
 constexpr void System::Reflection::AssemblyName::__set_major(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___major = value;
 }
 constexpr int32_t& System::Reflection::AssemblyName::__get_minor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minor;
 }
 constexpr int32_t const& System::Reflection::AssemblyName::__get_minor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minor;
 }
 constexpr void System::Reflection::AssemblyName::__set_minor(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minor = value;
 }
 constexpr int32_t& System::Reflection::AssemblyName::__get_build() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___build;
 }
 constexpr int32_t const& System::Reflection::AssemblyName::__get_build() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___build;
 }
 constexpr void System::Reflection::AssemblyName::__set_build(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___build = value;
 }
 constexpr int32_t& System::Reflection::AssemblyName::__get_revision() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revision;
 }
 constexpr int32_t const& System::Reflection::AssemblyName::__get_revision() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revision;
 }
 constexpr void System::Reflection::AssemblyName::__set_revision(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___revision = value;
 }
 constexpr ::System::Globalization::CultureInfo*& System::Reflection::AssemblyName::__get_cultureinfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cultureinfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& System::Reflection::AssemblyName::__get_cultureinfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cultureinfo;
 }
 constexpr void System::Reflection::AssemblyName::__set_cultureinfo(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cultureinfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::AssemblyNameFlags& System::Reflection::AssemblyName::__get_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr ::System::Reflection::AssemblyNameFlags const& System::Reflection::AssemblyName::__get_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr void System::Reflection::AssemblyName::__set_flags(::System::Reflection::AssemblyNameFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
 constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm& System::Reflection::AssemblyName::__get_hashalg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashalg;
 }
 constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm const& System::Reflection::AssemblyName::__get_hashalg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashalg;
 }
 constexpr void System::Reflection::AssemblyName::__set_hashalg(::System::Configuration::Assemblies::AssemblyHashAlgorithm value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashalg = value;
 }
 constexpr ::System::Reflection::StrongNameKeyPair*& System::Reflection::AssemblyName::__get_keypair() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypair;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::StrongNameKeyPair*> const& System::Reflection::AssemblyName::__get_keypair() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypair;
 }
 constexpr void System::Reflection::AssemblyName::__set_keypair(::System::Reflection::StrongNameKeyPair* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keypair)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Reflection::AssemblyName::__get_publicKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Reflection::AssemblyName::__get_publicKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicKey;
 }
 constexpr void System::Reflection::AssemblyName::__set_publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Reflection::AssemblyName::__get_keyToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyToken;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Reflection::AssemblyName::__get_keyToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyToken;
 }
 constexpr void System::Reflection::AssemblyName::__set_keyToken(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility& System::Reflection::AssemblyName::__get_versioncompat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___versioncompat;
 }
 constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility const& System::Reflection::AssemblyName::__get_versioncompat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___versioncompat;
 }
 constexpr void System::Reflection::AssemblyName::__set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___versioncompat = value;
 }
 constexpr ::System::Version*& System::Reflection::AssemblyName::__get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Reflection::AssemblyName::__get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr void System::Reflection::AssemblyName::__set_version(::System::Version* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::ProcessorArchitecture& System::Reflection::AssemblyName::__get_processor_architecture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processor_architecture;
 }
 constexpr ::System::Reflection::ProcessorArchitecture const& System::Reflection::AssemblyName::__get_processor_architecture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processor_architecture;
 }
 constexpr void System::Reflection::AssemblyName::__set_processor_architecture(::System::Reflection::ProcessorArchitecture value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___processor_architecture = value;
 }
 constexpr ::System::Reflection::AssemblyContentType& System::Reflection::AssemblyName::__get_contentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr ::System::Reflection::AssemblyContentType const& System::Reflection::AssemblyName::__get_contentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr void System::Reflection::AssemblyName::__set_contentType(::System::Reflection::AssemblyContentType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentType = value;
 }
 inline ::System::Reflection::AssemblyName* System::Reflection::AssemblyName::New_ctor() {

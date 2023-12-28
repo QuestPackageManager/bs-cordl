@@ -6,19 +6,19 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket._ctor
 template <>
@@ -97,39 +97,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__get_Parsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parsed;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__get_Parsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parsed;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__set_Parsed(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Parsed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__get_values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___values;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__get_values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___values;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__set_values(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<::System::Object*, ::StringW>*& System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__get_CustomToString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CustomToString;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__get_CustomToString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CustomToString;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders__HeaderBucket::__set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CustomToString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket* System::Net::Http::Headers::__HttpHeaders__HeaderBucket::New_ctor(::System::Object* parsed,
@@ -290,57 +290,57 @@ constexpr System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::opera
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>&
 System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> const&
 System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__set___2__current(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr ::System::Net::Http::Headers::HttpHeaders*& System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpHeaders*> const& System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__set___4__this(::System::Net::Http::Headers::HttpHeaders* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>&
 System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> const&
 System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::__set___7__wrap1(
     ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
 inline ::System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19* System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19::New_ctor(int32_t __1__state) {
@@ -601,52 +601,52 @@ constexpr System::Net::Http::Headers::HttpHeaders::operator ::System::Collection
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*& System::Net::Http::Headers::HttpHeaders::__get_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*> const&
 System::Net::Http::Headers::HttpHeaders::__get_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr void System::Net::Http::Headers::HttpHeaders::__set_headers(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Http::Headers::HttpHeaderKind& System::Net::Http::Headers::HttpHeaders::__get_HeaderKind() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HeaderKind;
 }
 constexpr ::System::Net::Http::Headers::HttpHeaderKind const& System::Net::Http::Headers::HttpHeaders::__get_HeaderKind() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HeaderKind;
 }
 constexpr void System::Net::Http::Headers::HttpHeaders::__set_HeaderKind(::System::Net::Http::Headers::HttpHeaderKind value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HeaderKind = value;
 }
 constexpr ::System::Nullable_1<bool>& System::Net::Http::Headers::HttpHeaders::__get_connectionclose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionclose;
 }
 constexpr ::System::Nullable_1<bool> const& System::Net::Http::Headers::HttpHeaders::__get_connectionclose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionclose;
 }
 constexpr void System::Net::Http::Headers::HttpHeaders::__set_connectionclose(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionclose = value;
 }
 constexpr ::System::Nullable_1<bool>& System::Net::Http::Headers::HttpHeaders::__get_transferEncodingChunked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transferEncodingChunked;
 }
 constexpr ::System::Nullable_1<bool> const& System::Net::Http::Headers::HttpHeaders::__get_transferEncodingChunked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transferEncodingChunked;
 }
 constexpr void System::Net::Http::Headers::HttpHeaders::__set_transferEncodingChunked(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___transferEncodingChunked = value;
 }
 inline void System::Net::Http::Headers::HttpHeaders::setStaticF_known_headers(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HeaderInfo*>* value) {

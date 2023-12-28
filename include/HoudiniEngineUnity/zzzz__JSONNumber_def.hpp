@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNumber)
-namespace System {
-class Object;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace HoudiniEngineUnity {
-struct JSONTextMode;
+struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
 struct __JSONNode__Enumerator;
 }
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class Object;
+}
 namespace HoudiniEngineUnity {
-struct JSONNodeType;
+struct JSONTextMode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

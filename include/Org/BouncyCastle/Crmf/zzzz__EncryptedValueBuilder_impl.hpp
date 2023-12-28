@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__EncryptedValueBuilder_def.hpp"
-#include "Org/BouncyCastle/Crmf/zzzz__IEncryptedValuePadder_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Crmf/zzzz__IEncryptedValuePadder_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::EncryptedValueBuilder._ctor
 template <>
 
@@ -117,39 +117,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_wrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_wrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapper;
 }
 constexpr void Org::BouncyCastle::Crmf::EncryptedValueBuilder::__set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_encryptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*> const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_encryptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptor;
 }
 constexpr void Org::BouncyCastle::Crmf::EncryptedValueBuilder::__set_encryptor(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encryptor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Crmf::IEncryptedValuePadder*& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_padder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___padder;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IEncryptedValuePadder*> const& Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_padder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___padder;
 }
 constexpr void Org::BouncyCastle::Crmf::EncryptedValueBuilder::__set_padder(::Org::BouncyCastle::Crmf::IEncryptedValuePadder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___padder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper,

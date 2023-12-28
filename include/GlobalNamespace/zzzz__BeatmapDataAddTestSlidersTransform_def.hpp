@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataAddTestSlidersTransform)
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class NoteData;
+class BeatmapDataItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-struct ColorType;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class NoteData;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

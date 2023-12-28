@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithPartyUpdateNotification);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 981 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13468))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13315)) CS Name: ::Oculus.Platform::MessageWithPartyUpdateNotification*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 981 }), TypeDefinitionIndex(TypeDefinitionIndex(13468)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13315)) CS Name: ::Oculus.Platform::MessageWithPartyUpdateNotification*
 class CORDL_TYPE MessageWithPartyUpdateNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification*> {
 public:
   // Declarations

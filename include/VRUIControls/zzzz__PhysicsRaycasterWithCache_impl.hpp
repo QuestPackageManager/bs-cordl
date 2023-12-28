@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__RaycastHit_impl.hpp"
 #include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit_def.hpp"
-#include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
+#include "UnityEngine/zzzz__RaycastHit_def.hpp"
 //  Writing Method size for method: ::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast._ctor
 template <>
 
@@ -76,28 +76,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& VRUIControls::PhysicsRaycasterWithCache::__get__cachedRaycasts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedRaycasts;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*> const&
 VRUIControls::PhysicsRaycasterWithCache::__get__cachedRaycasts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedRaycasts;
 }
 constexpr void VRUIControls::PhysicsRaycasterWithCache::__set__cachedRaycasts(::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedRaycasts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& VRUIControls::PhysicsRaycasterWithCache::__get__lastFrameCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameCount;
 }
 constexpr int32_t const& VRUIControls::PhysicsRaycasterWithCache::__get__lastFrameCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameCount;
 }
 constexpr void VRUIControls::PhysicsRaycasterWithCache::__set__lastFrameCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameCount = value;
 }
 inline bool VRUIControls::PhysicsRaycasterWithCache::Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask) {

@@ -2,18 +2,18 @@
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystem_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystem._ctor
 template <>
 
@@ -243,64 +243,64 @@ constexpr BeatSaber::AvatarCore::AvatarSystem::operator ::BeatSaber::AvatarCore:
   return static_cast<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>(static_cast<void*>(this));
 }
 constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier& BeatSaber::AvatarCore::AvatarSystem::__get__typeIdentifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeIdentifier;
 }
 constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier const& BeatSaber::AvatarCore::AvatarSystem::__get__typeIdentifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeIdentifier;
 }
 constexpr void BeatSaber::AvatarCore::AvatarSystem::__set__typeIdentifier(::BeatSaber::AvatarCore::AvatarSystemIdentifier value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____typeIdentifier = value;
 }
 constexpr ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*& BeatSaber::AvatarCore::AvatarSystem::__get__supportedOptionalAvatarDataTypes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____supportedOptionalAvatarDataTypes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*> const&
 BeatSaber::AvatarCore::AvatarSystem::__get__supportedOptionalAvatarDataTypes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____supportedOptionalAvatarDataTypes;
 }
 constexpr void BeatSaber::AvatarCore::AvatarSystem::__set__supportedOptionalAvatarDataTypes(::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____supportedOptionalAvatarDataTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& BeatSaber::AvatarCore::AvatarSystem::__get__isFallbackSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFallbackSystem;
 }
 constexpr bool const& BeatSaber::AvatarCore::AvatarSystem::__get__isFallbackSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFallbackSystem;
 }
 constexpr void BeatSaber::AvatarCore::AvatarSystem::__set__isFallbackSystem(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isFallbackSystem = value;
 }
 constexpr int32_t& BeatSaber::AvatarCore::AvatarSystem::__get__selectionSortOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionSortOrder;
 }
 constexpr int32_t const& BeatSaber::AvatarCore::AvatarSystem::__get__selectionSortOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionSortOrder;
 }
 constexpr void BeatSaber::AvatarCore::AvatarSystem::__set__selectionSortOrder(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectionSortOrder = value;
 }
 constexpr bool& BeatSaber::AvatarCore::AvatarSystem::__get__selectableByUser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectableByUser;
 }
 constexpr bool const& BeatSaber::AvatarCore::AvatarSystem::__get__selectableByUser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectableByUser;
 }
 constexpr void BeatSaber::AvatarCore::AvatarSystem::__set__selectableByUser(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectableByUser = value;
 }
 inline ::BeatSaber::AvatarCore::AvatarSystem* BeatSaber::AvatarCore::AvatarSystem::New_ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser,

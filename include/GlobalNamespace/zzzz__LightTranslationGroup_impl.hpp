@@ -122,75 +122,75 @@ constexpr GlobalNamespace::LightTranslationGroup::operator ::GlobalNamespace::IE
   return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__xTranslationLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationLimits;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__xTranslationLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationLimits;
 }
 constexpr void GlobalNamespace::LightTranslationGroup::__set__xTranslationLimits(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xTranslationLimits = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__yTranslationLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTranslationLimits;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__yTranslationLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTranslationLimits;
 }
 constexpr void GlobalNamespace::LightTranslationGroup::__set__yTranslationLimits(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yTranslationLimits = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__zTranslationLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTranslationLimits;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__zTranslationLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTranslationLimits;
 }
 constexpr void GlobalNamespace::LightTranslationGroup::__set__zTranslationLimits(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zTranslationLimits = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__xDistributionLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xDistributionLimits;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__xDistributionLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xDistributionLimits;
 }
 constexpr void GlobalNamespace::LightTranslationGroup::__set__xDistributionLimits(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xDistributionLimits = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__yDistributionLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yDistributionLimits;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__yDistributionLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yDistributionLimits;
 }
 constexpr void GlobalNamespace::LightTranslationGroup::__set__yDistributionLimits(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yDistributionLimits = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__zDistributionLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zDistributionLimits;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__zDistributionLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zDistributionLimits;
 }
 constexpr void GlobalNamespace::LightTranslationGroup::__set__zDistributionLimits(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zDistributionLimits = value;
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_xTranslationLimits() {

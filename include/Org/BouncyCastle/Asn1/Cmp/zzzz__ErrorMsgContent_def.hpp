@@ -8,19 +8,19 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System {
-class Object;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

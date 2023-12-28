@@ -46,15 +46,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& JetBrains::Annotations::AspTypePropertyAttribute::__get__CreateConstructorReferences_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CreateConstructorReferences_k__BackingField;
 }
 constexpr bool const& JetBrains::Annotations::AspTypePropertyAttribute::__get__CreateConstructorReferences_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CreateConstructorReferences_k__BackingField;
 }
 constexpr void JetBrains::Annotations::AspTypePropertyAttribute::__set__CreateConstructorReferences_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CreateConstructorReferences_k__BackingField = value;
 }
 inline bool JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences() {

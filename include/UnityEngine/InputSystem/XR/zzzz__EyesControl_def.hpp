@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(EyesControl)
+namespace UnityEngine::InputSystem::Controls {
+class Vector3Control;
+}
 namespace UnityEngine::InputSystem::XR {
 struct Eyes;
 }
 namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;

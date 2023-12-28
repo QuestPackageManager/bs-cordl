@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerApplicationSpecificParser)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1ApplicationSpecificParser;
+class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
+class IAsn1ApplicationSpecificParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

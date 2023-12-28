@@ -11,25 +11,25 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class SetSaberFakeGlowColor;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
 class SetSaberGlowColor;
 }
 namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
 class Saber;
+}
+namespace GlobalNamespace {
+class SetSaberFakeGlowColor;
 }
 namespace GlobalNamespace {
 class SaberTrail;
 }
 namespace GlobalNamespace {
 class __SaberModelController__InitData;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Color;
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberModelController__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5298))
 // CS Name: ::SaberModelController::InitData*
 class CORDL_TYPE __SaberModelController__InitData : public ::System::Object {

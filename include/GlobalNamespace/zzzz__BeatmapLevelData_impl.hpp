@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelData.get_audioClip
 template <>
 
@@ -55,28 +55,28 @@ constexpr GlobalNamespace::BeatmapLevelData::operator ::GlobalNamespace::IBeatma
   return static_cast<::GlobalNamespace::IBeatmapLevelData*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::BeatmapLevelData::__get__audioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::BeatmapLevelData::__get__audioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClip;
 }
 constexpr void GlobalNamespace::BeatmapLevelData::__set__audioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& GlobalNamespace::BeatmapLevelData::__get__difficultyBeatmapSets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmapSets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*> const&
 GlobalNamespace::BeatmapLevelData::__get__difficultyBeatmapSets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmapSets;
 }
 constexpr void GlobalNamespace::BeatmapLevelData::__set__difficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmapSets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AudioClip* GlobalNamespace::BeatmapLevelData::get_audioClip() {

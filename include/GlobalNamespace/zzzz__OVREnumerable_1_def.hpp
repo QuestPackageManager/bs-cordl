@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVREnumerable_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -23,23 +23,23 @@ class IEnumerable;
 namespace GlobalNamespace {
 template <typename T> struct __OVREnumerable_1__Enumerator;
 }
-namespace GlobalNamespace {
-template <typename T> struct __OVREnumerable_1__Enumerator__CollectionType;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace System::Collections::Generic {
 template <typename T> struct __HashSet_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __Queue_1__Enumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __Queue_1__Enumerator;
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+template <typename T> struct __OVREnumerable_1__Enumerator__CollectionType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8104)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1019 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1019 }), TypeDefinitionIndex(TypeDefinitionIndex(8104))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8104))
 // CS Name: ::OVREnumerable`1::Enumerator::CollectionType<T>
 struct CORDL_TYPE __OVREnumerable_1__Enumerator__CollectionType {
@@ -121,9 +121,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3852), inst: 1018 }), TypeDefinitionIndex(TypeDefinitionIndex(14314)), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(14314), inst: 1018 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1018 }), TypeDefinitionIndex(TypeDefinitionIndex(3852)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8104))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8105)) CS Name: ::OVREnumerable`1::Enumerator<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8104)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8104), inst: 1018 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(14314), inst: 1018 }), TypeDefinitionIndex(TypeDefinitionIndex(14314)), TypeDefinitionIndex(TypeDefinitionIndex(3852)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3852), inst: 1018 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8105)) CS Name: ::OVREnumerable`1::Enumerator<T>
 struct CORDL_TYPE __OVREnumerable_1__Enumerator {
 public:
   // Declarations

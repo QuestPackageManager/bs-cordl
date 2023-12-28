@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultVerifierResult)
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IVerifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class IVerifier;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

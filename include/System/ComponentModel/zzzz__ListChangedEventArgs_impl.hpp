@@ -36,39 +36,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::System::ComponentModel::ListChangedType& System::ComponentModel::ListChangedEventArgs::__get__ListChangedType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ListChangedType_k__BackingField;
 }
 constexpr ::System::ComponentModel::ListChangedType const& System::ComponentModel::ListChangedEventArgs::__get__ListChangedType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ListChangedType_k__BackingField;
 }
 constexpr void System::ComponentModel::ListChangedEventArgs::__set__ListChangedType_k__BackingField(::System::ComponentModel::ListChangedType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ListChangedType_k__BackingField = value;
 }
 constexpr int32_t& System::ComponentModel::ListChangedEventArgs::__get__NewIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewIndex_k__BackingField;
 }
 constexpr int32_t const& System::ComponentModel::ListChangedEventArgs::__get__NewIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewIndex_k__BackingField;
 }
 constexpr void System::ComponentModel::ListChangedEventArgs::__set__NewIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NewIndex_k__BackingField = value;
 }
 constexpr int32_t& System::ComponentModel::ListChangedEventArgs::__get__OldIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OldIndex_k__BackingField;
 }
 constexpr int32_t const& System::ComponentModel::ListChangedEventArgs::__get__OldIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OldIndex_k__BackingField;
 }
 constexpr void System::ComponentModel::ListChangedEventArgs::__set__OldIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OldIndex_k__BackingField = value;
 }
 inline ::System::ComponentModel::ListChangedEventArgs* System::ComponentModel::ListChangedEventArgs::New_ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex) {

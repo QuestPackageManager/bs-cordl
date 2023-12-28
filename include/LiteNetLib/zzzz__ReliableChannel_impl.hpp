@@ -158,159 +158,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::ReliableChannel::__get__outgoingAcks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outgoingAcks;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::ReliableChannel::__get__outgoingAcks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outgoingAcks;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__outgoingAcks(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outgoingAcks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>& LiteNetLib::ReliableChannel::__get__pendingPackets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingPackets;
 }
 constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> const& LiteNetLib::ReliableChannel::__get__pendingPackets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingPackets;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__pendingPackets(::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingPackets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& LiteNetLib::ReliableChannel::__get__receivedPackets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedPackets;
 }
 constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& LiteNetLib::ReliableChannel::__get__receivedPackets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedPackets;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__receivedPackets(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedPackets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& LiteNetLib::ReliableChannel::__get__earlyReceived() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____earlyReceived;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& LiteNetLib::ReliableChannel::__get__earlyReceived() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____earlyReceived;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__earlyReceived(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____earlyReceived)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::ReliableChannel::__get__localSeqence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localSeqence;
 }
 constexpr int32_t const& LiteNetLib::ReliableChannel::__get__localSeqence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localSeqence;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__localSeqence(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localSeqence = value;
 }
 constexpr int32_t& LiteNetLib::ReliableChannel::__get__remoteSequence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteSequence;
 }
 constexpr int32_t const& LiteNetLib::ReliableChannel::__get__remoteSequence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteSequence;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__remoteSequence(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteSequence = value;
 }
 constexpr int32_t& LiteNetLib::ReliableChannel::__get__localWindowStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localWindowStart;
 }
 constexpr int32_t const& LiteNetLib::ReliableChannel::__get__localWindowStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localWindowStart;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__localWindowStart(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localWindowStart = value;
 }
 constexpr int32_t& LiteNetLib::ReliableChannel::__get__remoteWindowStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteWindowStart;
 }
 constexpr int32_t const& LiteNetLib::ReliableChannel::__get__remoteWindowStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteWindowStart;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__remoteWindowStart(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteWindowStart = value;
 }
 constexpr bool& LiteNetLib::ReliableChannel::__get__mustSendAcks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mustSendAcks;
 }
 constexpr bool const& LiteNetLib::ReliableChannel::__get__mustSendAcks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mustSendAcks;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__mustSendAcks(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mustSendAcks = value;
 }
 constexpr ::LiteNetLib::DeliveryMethod& LiteNetLib::ReliableChannel::__get__deliveryMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deliveryMethod;
 }
 constexpr ::LiteNetLib::DeliveryMethod const& LiteNetLib::ReliableChannel::__get__deliveryMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deliveryMethod;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__deliveryMethod(::LiteNetLib::DeliveryMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deliveryMethod = value;
 }
 constexpr bool& LiteNetLib::ReliableChannel::__get__ordered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ordered;
 }
 constexpr bool const& LiteNetLib::ReliableChannel::__get__ordered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ordered;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__ordered(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ordered = value;
 }
 constexpr int32_t& LiteNetLib::ReliableChannel::__get__windowSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowSize;
 }
 constexpr int32_t const& LiteNetLib::ReliableChannel::__get__windowSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowSize;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__windowSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____windowSize = value;
 }
 constexpr uint8_t& LiteNetLib::ReliableChannel::__get__id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr uint8_t const& LiteNetLib::ReliableChannel::__get__id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr void LiteNetLib::ReliableChannel::__set__id(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____id = value;
 }
 inline ::LiteNetLib::ReliableChannel* LiteNetLib::ReliableChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {

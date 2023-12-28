@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Background)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 class VectorImage;
@@ -21,8 +21,8 @@ class Sprite;
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

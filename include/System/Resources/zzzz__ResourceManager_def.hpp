@@ -7,14 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManager)
+namespace System::Resources {
+class ResourceSet;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Collections {
+class Hashtable;
+}
 namespace System::Reflection {
 class RuntimeAssembly;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class Type;
+}
+namespace System::Resources {
+class __ResourceManager__CultureNameResourceSetPair;
+}
+namespace System::Reflection {
+class AssemblyName;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Resources {
 class __ResourceManager__ResourceManagerMediator;
@@ -22,26 +37,11 @@ class __ResourceManager__ResourceManagerMediator;
 namespace System::Resources {
 class IResourceGroveler;
 }
-namespace System::Resources {
-class ResourceSet;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Reflection {
 class Assembly;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Resources {
-class __ResourceManager__CultureNameResourceSetPair;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-class AssemblyName;
 }
 // Forward declare root types
 namespace System::Resources {

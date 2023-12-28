@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BindableElement)
 namespace UnityEngine::UIElements {
-class __BindableElement__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class IBinding;
-}
-namespace UnityEngine::UIElements {
 class IBindable;
 }
 namespace UnityEngine::UIElements {
 class __BindableElement__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
+class __BindableElement__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class IBinding;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -174,8 +174,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Bindabl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5256
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6800))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6799)) CS Name: ::BindableElement::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5256 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6799)) CS Name: ::BindableElement::UxmlFactory*
 class CORDL_TYPE __BindableElement__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*, ::UnityEngine::UIElements::__BindableElement__UxmlTraits*> {
 public:

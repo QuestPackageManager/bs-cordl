@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceSet)
 namespace System::Collections {
-class Hashtable;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Resources {
 class IResourceReader;
 }
 namespace System::Collections {
+class Hashtable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
 class IDictionaryEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Resources {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PanelAnimationSO)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace System {
 class Action;
 }
 namespace UnityEngine {
 class CanvasGroup;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HMUI {

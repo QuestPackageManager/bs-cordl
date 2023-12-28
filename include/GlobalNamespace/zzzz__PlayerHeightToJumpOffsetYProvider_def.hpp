@@ -11,11 +11,11 @@ class IJumpOffsetYProvider;
 namespace System {
 class IDisposable;
 }
-namespace Zenject {
-class IInitializable;
-}
 namespace GlobalNamespace {
 class PlayerHeightDetector;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

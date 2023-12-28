@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ITransitionAnimations)
 namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
+template <typename T> class ValueAnimation_1;
 }
 namespace UnityEngine::UIElements::Experimental {
-template <typename T> class ValueAnimation_1;
+struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {

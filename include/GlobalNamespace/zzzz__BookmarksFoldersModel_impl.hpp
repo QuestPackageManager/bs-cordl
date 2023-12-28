@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BookmarksFoldersModel_def.hpp"
-#include "GlobalNamespace/zzzz__BookmarksFoldersModel_def.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserItem_def.hpp"
+#include "GlobalNamespace/zzzz__BookmarksFoldersModel_def.hpp"
 #include "System/zzzz__Environment_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BookmarksFoldersModel____c._ctor
@@ -97,27 +97,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::BookmarksFoldersModel::__get_myFolders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___myFolders;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::BookmarksFoldersModel::__get_myFolders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___myFolders;
 }
 constexpr void GlobalNamespace::BookmarksFoldersModel::__set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___myFolders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& GlobalNamespace::BookmarksFoldersModel::__get__bookmarksFolders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bookmarksFolders;
 }
 constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& GlobalNamespace::BookmarksFoldersModel::__get__bookmarksFolders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bookmarksFolders;
 }
 constexpr void GlobalNamespace::BookmarksFoldersModel::__set__bookmarksFolders(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bookmarksFolders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders() {

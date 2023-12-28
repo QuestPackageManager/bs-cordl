@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AveragingValueRecorder)
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
 namespace GlobalNamespace {
 struct __AveragingValueRecorder__AverageValueData;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

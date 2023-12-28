@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RelativeScoreAndImmediateRankCounter_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RelativeScoreAndImmediateRankCounter.add_relativeScoreOrImmediateRankDidChangeEvent
 template <>
 
@@ -169,76 +169,76 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GameplayModifiersModelSO*& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__gameplayModifiersModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__gameplayModifiersModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
 }
 constexpr void GlobalNamespace::RelativeScoreAndImmediateRankCounter::__set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiersModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IScoreController*& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__scoreController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__scoreController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
 constexpr void GlobalNamespace::RelativeScoreAndImmediateRankCounter::__set__scoreController(::GlobalNamespace::IScoreController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__gameplayModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__gameplayModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
 constexpr void GlobalNamespace::RelativeScoreAndImmediateRankCounter::__set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get_relativeScoreOrImmediateRankDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___relativeScoreOrImmediateRankDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get_relativeScoreOrImmediateRankDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___relativeScoreOrImmediateRankDidChangeEvent;
 }
 constexpr void GlobalNamespace::RelativeScoreAndImmediateRankCounter::__set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___relativeScoreOrImmediateRankDidChangeEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__relativeScore_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeScore_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__relativeScore_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeScore_k__BackingField;
 }
 constexpr void GlobalNamespace::RelativeScoreAndImmediateRankCounter::__set__relativeScore_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____relativeScore_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__immediateRank_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____immediateRank_k__BackingField;
 }
 constexpr ::GlobalNamespace::__RankModel__Rank const& GlobalNamespace::RelativeScoreAndImmediateRankCounter::__get__immediateRank_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____immediateRank_k__BackingField;
 }
 constexpr void GlobalNamespace::RelativeScoreAndImmediateRankCounter::__set__immediateRank_k__BackingField(::GlobalNamespace::__RankModel__Rank value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____immediateRank_k__BackingField = value;
 }
 inline void GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value) {

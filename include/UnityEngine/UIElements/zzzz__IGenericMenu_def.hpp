@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IGenericMenu)
 namespace UnityEngine {
 struct Rect;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeScatterTrees)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace HoudiniEngineUnity {
-class HEU_TreePrototypeInfo;
-}
 namespace UnityEngine {
 struct Color32;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_TreePrototypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

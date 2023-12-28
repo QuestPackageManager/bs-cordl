@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncInstallerRegistry)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class ScriptableObjectInstaller;
-}
 namespace BGLib::AppFlow::Initialization {
 class __AsyncInstaller__IInstallerRegistry;
 }
 namespace Zenject {
 class MonoInstaller;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class ScriptableObjectInstaller;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {

@@ -2,11 +2,11 @@
 #include "System/Diagnostics/zzzz__TraceOptions_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_def.hpp"
-#include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
+#include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
 #include "System/Diagnostics/zzzz__TraceFilter_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceListener._ctor
 template <>
 
@@ -268,75 +268,75 @@ constexpr System::Diagnostics::TraceListener::operator ::System::IDisposable*() 
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Diagnostics::TraceListener::__get_indentLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentLevel;
 }
 constexpr int32_t const& System::Diagnostics::TraceListener::__get_indentLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentLevel;
 }
 constexpr void System::Diagnostics::TraceListener::__set_indentLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indentLevel = value;
 }
 constexpr int32_t& System::Diagnostics::TraceListener::__get_indentSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentSize;
 }
 constexpr int32_t const& System::Diagnostics::TraceListener::__get_indentSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentSize;
 }
 constexpr void System::Diagnostics::TraceListener::__set_indentSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indentSize = value;
 }
 constexpr ::System::Diagnostics::TraceOptions& System::Diagnostics::TraceListener::__get_traceOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___traceOptions;
 }
 constexpr ::System::Diagnostics::TraceOptions const& System::Diagnostics::TraceListener::__get_traceOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___traceOptions;
 }
 constexpr void System::Diagnostics::TraceListener::__set_traceOptions(::System::Diagnostics::TraceOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___traceOptions = value;
 }
 constexpr bool& System::Diagnostics::TraceListener::__get_needIndent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needIndent;
 }
 constexpr bool const& System::Diagnostics::TraceListener::__get_needIndent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needIndent;
 }
 constexpr void System::Diagnostics::TraceListener::__set_needIndent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___needIndent = value;
 }
 constexpr ::StringW& System::Diagnostics::TraceListener::__get_listenerName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___listenerName;
 }
 constexpr ::StringW const& System::Diagnostics::TraceListener::__get_listenerName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___listenerName;
 }
 constexpr void System::Diagnostics::TraceListener::__set_listenerName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___listenerName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Diagnostics::TraceFilter*& System::Diagnostics::TraceListener::__get_filter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::TraceFilter*> const& System::Diagnostics::TraceListener::__get_filter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filter;
 }
 constexpr void System::Diagnostics::TraceListener::__set_filter(::System::Diagnostics::TraceFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___filter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Diagnostics::TraceListener* System::Diagnostics::TraceListener::New_ctor(::StringW name) {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LoadResourceFunction)
+namespace UnityEngine {
+class Object;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

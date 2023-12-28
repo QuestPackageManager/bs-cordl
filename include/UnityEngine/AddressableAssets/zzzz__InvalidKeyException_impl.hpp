@@ -3,18 +3,18 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__InvalidKeyException_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::InvalidKeyException.get_Key
 template <>
 
@@ -328,51 +328,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& UnityEngine::AddressableAssets::InvalidKeyException::__get__Key_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::InvalidKeyException::__get__Key_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
 constexpr void UnityEngine::AddressableAssets::InvalidKeyException::__set__Key_k__BackingField(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Key_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::AddressableAssets::InvalidKeyException::__get__Type_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::AddressableAssets::InvalidKeyException::__get__Type_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
 constexpr void UnityEngine::AddressableAssets::InvalidKeyException::__set__Type_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Type_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode>& UnityEngine::AddressableAssets::InvalidKeyException::__get__MergeMode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MergeMode_k__BackingField;
 }
 constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> const& UnityEngine::AddressableAssets::InvalidKeyException::__get__MergeMode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MergeMode_k__BackingField;
 }
 constexpr void UnityEngine::AddressableAssets::InvalidKeyException::__set__MergeMode_k__BackingField(::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MergeMode_k__BackingField = value;
 }
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::InvalidKeyException::__get_m_Addressables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& UnityEngine::AddressableAssets::InvalidKeyException::__get_m_Addressables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
 constexpr void UnityEngine::AddressableAssets::InvalidKeyException::__set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Addressables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Object* UnityEngine::AddressableAssets::InvalidKeyException::get_Key() {

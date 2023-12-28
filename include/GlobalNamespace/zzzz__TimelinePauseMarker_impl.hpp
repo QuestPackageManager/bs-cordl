@@ -36,15 +36,15 @@ constexpr GlobalNamespace::TimelinePauseMarker::operator ::UnityEngine::Playable
   return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::PropertyName& GlobalNamespace::TimelinePauseMarker::__get__id_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id_k__BackingField;
 }
 constexpr ::UnityEngine::PropertyName const& GlobalNamespace::TimelinePauseMarker::__get__id_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id_k__BackingField;
 }
 constexpr void GlobalNamespace::TimelinePauseMarker::__set__id_k__BackingField(::UnityEngine::PropertyName value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____id_k__BackingField = value;
 }
 inline ::UnityEngine::PropertyName GlobalNamespace::TimelinePauseMarker::get_id() {

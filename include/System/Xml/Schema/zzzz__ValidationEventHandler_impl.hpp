@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
-#include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::ValidationEventHandler._ctor
 template <>
 

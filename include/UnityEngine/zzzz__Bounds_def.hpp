@@ -9,12 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Bounds)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-class Object;
-}
 namespace System {
 class IFormattable;
 }
@@ -22,7 +16,13 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Ray;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IFormatProvider;

@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuLightsManager)
-namespace GlobalNamespace {
-class LightWithIdManager;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class __MenuLightsManager___Start_d__4;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class LightWithIdManager;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

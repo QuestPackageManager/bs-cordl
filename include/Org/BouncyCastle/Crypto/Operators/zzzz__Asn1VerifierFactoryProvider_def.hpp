@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(Asn1VerifierFactoryProvider)
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class IVerifierFactory;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

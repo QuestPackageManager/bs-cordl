@@ -76,27 +76,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& JetBrains::Annotations::AspChildControlTypeAttribute::__get__TagName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TagName_k__BackingField;
 }
 constexpr ::StringW const& JetBrains::Annotations::AspChildControlTypeAttribute::__get__TagName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TagName_k__BackingField;
 }
 constexpr void JetBrains::Annotations::AspChildControlTypeAttribute::__set__TagName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TagName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& JetBrains::Annotations::AspChildControlTypeAttribute::__get__ControlType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ControlType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& JetBrains::Annotations::AspChildControlTypeAttribute::__get__ControlType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ControlType_k__BackingField;
 }
 constexpr void JetBrains::Annotations::AspChildControlTypeAttribute::__set__ControlType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ControlType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::JetBrains::Annotations::AspChildControlTypeAttribute* JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor(::StringW tagName, ::System::Type* controlType) {

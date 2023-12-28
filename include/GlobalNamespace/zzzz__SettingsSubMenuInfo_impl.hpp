@@ -44,27 +44,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::ViewController*& GlobalNamespace::SettingsSubMenuInfo::__get__viewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::SettingsSubMenuInfo::__get__viewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewController;
 }
 constexpr void GlobalNamespace::SettingsSubMenuInfo::__set__viewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::SettingsSubMenuInfo::__get__menuName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuName;
 }
 constexpr ::StringW const& GlobalNamespace::SettingsSubMenuInfo::__get__menuName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuName;
 }
 constexpr void GlobalNamespace::SettingsSubMenuInfo::__set__menuName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HMUI::ViewController* GlobalNamespace::SettingsSubMenuInfo::get_viewController() {

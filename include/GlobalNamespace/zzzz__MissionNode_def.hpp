@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionNode)
-namespace GlobalNamespace {
-class MissionNodeVisualController;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace GlobalNamespace {
 class MissionDataSO;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace GlobalNamespace {
+class MissionNodeVisualController;
 }
 namespace UnityEngine {
 struct Vector2;

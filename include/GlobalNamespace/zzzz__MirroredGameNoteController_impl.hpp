@@ -3,16 +3,16 @@
 #include "GlobalNamespace/zzzz__MirroredNoteController_1_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
-#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
+#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
+#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
 #include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MirroredGameNoteController.add_cubeNoteControllerDidInitEvent
 template <>
 
@@ -113,40 +113,40 @@ constexpr GlobalNamespace::MirroredGameNoteController::operator ::GlobalNamespac
   return static_cast<::GlobalNamespace::INoteMovementProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::MaterialPropertyBlockController*& GlobalNamespace::MirroredGameNoteController::__get__materialPropertyBlockController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& GlobalNamespace::MirroredGameNoteController::__get__materialPropertyBlockController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockController;
 }
 constexpr void GlobalNamespace::MirroredGameNoteController::__set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::MirroredGameNoteController::__get__colorManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::MirroredGameNoteController::__get__colorManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
 constexpr void GlobalNamespace::MirroredGameNoteController::__set__colorManager(::GlobalNamespace::ColorManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*& GlobalNamespace::MirroredGameNoteController::__get_cubeNoteControllerDidInitEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*> const&
 GlobalNamespace::MirroredGameNoteController::__get_cubeNoteControllerDidInitEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
 constexpr void GlobalNamespace::MirroredGameNoteController::__set_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cubeNoteControllerDidInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MirroredGameNoteController::setStaticF__colorId(int32_t value) {

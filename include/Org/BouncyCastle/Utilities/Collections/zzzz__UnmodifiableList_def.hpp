@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(UnmodifiableList)
 namespace System {
 class Object;
 }
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -22,6 +19,9 @@ class IList;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

@@ -13,19 +13,19 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-class Version;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class Object;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System {
 struct PlatformID;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace System {

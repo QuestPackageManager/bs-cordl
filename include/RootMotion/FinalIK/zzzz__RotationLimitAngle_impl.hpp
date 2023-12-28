@@ -99,27 +99,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::RotationLimitAngle::__get_limit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___limit;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitAngle::__get_limit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___limit;
 }
 constexpr void RootMotion::FinalIK::RotationLimitAngle::__set_limit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___limit = value;
 }
 constexpr float_t& RootMotion::FinalIK::RotationLimitAngle::__get_twistLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistLimit;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitAngle::__get_twistLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistLimit;
 }
 constexpr void RootMotion::FinalIK::RotationLimitAngle::__set_twistLimit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twistLimit = value;
 }
 inline void RootMotion::FinalIK::RotationLimitAngle::OpenUserManual() {

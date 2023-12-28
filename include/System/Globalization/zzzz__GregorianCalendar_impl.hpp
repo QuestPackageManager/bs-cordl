@@ -2,10 +2,10 @@
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__GregorianCalendarTypes_impl.hpp"
 #include "System/Globalization/zzzz__GregorianCalendar_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
+#include "System/Globalization/zzzz__GregorianCalendarTypes_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/Globalization/zzzz__GregorianCalendarTypes_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Globalization::GregorianCalendar.OnDeserialized
 template <>
@@ -363,15 +363,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Globalization::GregorianCalendarTypes& System::Globalization::GregorianCalendar::__get_m_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_type;
 }
 constexpr ::System::Globalization::GregorianCalendarTypes const& System::Globalization::GregorianCalendar::__get_m_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_type;
 }
 constexpr void System::Globalization::GregorianCalendar::__set_m_type(::System::Globalization::GregorianCalendarTypes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_type = value;
 }
 inline void System::Globalization::GregorianCalendar::setStaticF_DaysToMonth365(::ArrayW<int32_t, ::Array<int32_t>*> value) {

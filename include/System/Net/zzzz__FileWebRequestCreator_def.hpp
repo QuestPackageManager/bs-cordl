@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FileWebRequestCreator)
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class WebRequest;
+}
+namespace System {
+class Uri;
 }
 namespace System::Net {
 class IWebRequestCreate;

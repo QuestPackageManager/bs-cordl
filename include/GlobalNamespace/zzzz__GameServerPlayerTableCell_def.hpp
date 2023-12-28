@@ -11,83 +11,83 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServerPlayerTableCell)
-namespace HMUI {
-class ButtonBinder;
-}
-namespace HMUI {
-class HoverHint;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __GameServerPlayerTableCell____c__DisplayClass29_0;
-}
-namespace HMUI {
-class ImageView;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class ButtonSpriteSwapToggle;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace UnityEngine::UI {
 class Image;
 }
+namespace HMUI {
+class ButtonSpriteSwapToggle;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItemsList;
+}
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace UnityEngine {
 class Sprite;
 }
+namespace System {
+template <typename T> class Action_1;
+}
+namespace HMUI {
+class ImageView;
+}
 namespace GlobalNamespace {
-struct EntitlementStatus;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+class __GameServerPlayerTableCell____c__DisplayClass29_0;
 }
 namespace GlobalNamespace {
 struct __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
 }
 namespace HMUI {
-class CurvedTextMeshPro;
+class HoverHint;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
-namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
+namespace System::Threading {
+class CancellationTokenSource;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -157,9 +157,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameServerPla
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5424)) CS
-// Name: ::GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__35
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5424)) CS Name:
+// ::GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__35
 struct CORDL_TYPE __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35 {
 public:
   // Declarations

@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarAnalytics_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
 #include "GlobalNamespace/zzzz__BeatAvatarEditorFlowCoordinator_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics.Awake
 template <>
 
@@ -119,52 +119,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BeatAvatarEditorFlowCoordinator*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__avatarEditorFlowCoordinator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarEditorFlowCoordinator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__avatarEditorFlowCoordinator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarEditorFlowCoordinator;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__set__avatarEditorFlowCoordinator(::GlobalNamespace::BeatAvatarEditorFlowCoordinator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarEditorFlowCoordinator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAnalyticsModel*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__analyticsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__analyticsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__avatarDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__avatarDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarDataModel;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__lastEditMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastEditMode;
 }
 constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__get__lastEditMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastEditMode;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::__set__lastEditMode(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastEditMode = value;
 }
 inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::Awake() {

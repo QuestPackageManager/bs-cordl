@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AttitudeState)
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

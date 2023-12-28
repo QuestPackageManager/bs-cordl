@@ -72,27 +72,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Newtonsoft::Json::Bson::BsonString::__get__ByteCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ByteCount_k__BackingField;
 }
 constexpr int32_t const& Newtonsoft::Json::Bson::BsonString::__get__ByteCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ByteCount_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Bson::BsonString::__set__ByteCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ByteCount_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Bson::BsonString::__get__IncludeLength_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IncludeLength_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Bson::BsonString::__get__IncludeLength_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IncludeLength_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Bson::BsonString::__set__IncludeLength_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IncludeLength_k__BackingField = value;
 }
 inline int32_t Newtonsoft::Json::Bson::BsonString::get_ByteCount() {

@@ -29,51 +29,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& TMPro::TMP_Asset::__get_m_InstanceID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InstanceID;
 }
 constexpr int32_t const& TMPro::TMP_Asset::__get_m_InstanceID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InstanceID;
 }
 constexpr void TMPro::TMP_Asset::__set_m_InstanceID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InstanceID = value;
 }
 constexpr int32_t& TMPro::TMP_Asset::__get_hashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCode;
 }
 constexpr int32_t const& TMPro::TMP_Asset::__get_hashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCode;
 }
 constexpr void TMPro::TMP_Asset::__set_hashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCode = value;
 }
 constexpr ::UnityEngine::Material*& TMPro::TMP_Asset::__get_material() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___material;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::TMP_Asset::__get_material() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___material;
 }
 constexpr void TMPro::TMP_Asset::__set_material(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::TMP_Asset::__get_materialHashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___materialHashCode;
 }
 constexpr int32_t const& TMPro::TMP_Asset::__get_materialHashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___materialHashCode;
 }
 constexpr void TMPro::TMP_Asset::__set_materialHashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___materialHashCode = value;
 }
 inline int32_t TMPro::TMP_Asset::get_instanceID() {

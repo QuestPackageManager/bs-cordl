@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockComboController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IComboController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockComboController.add_comboDidChangeEvent
 template <>
@@ -82,27 +82,27 @@ constexpr GlobalNamespace::MockComboController::operator ::GlobalNamespace::ICom
   return static_cast<::GlobalNamespace::IComboController*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<int32_t>*& GlobalNamespace::MockComboController::__get_comboDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::MockComboController::__get_comboDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboDidChangeEvent;
 }
 constexpr void GlobalNamespace::MockComboController::__set_comboDidChangeEvent(::System::Action_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comboDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::MockComboController::__get_comboBreakingEventHappenedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboBreakingEventHappenedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MockComboController::__get_comboBreakingEventHappenedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comboBreakingEventHappenedEvent;
 }
 constexpr void GlobalNamespace::MockComboController::__set_comboBreakingEventHappenedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comboBreakingEventHappenedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MockComboController::add_comboDidChangeEvent(::System::Action_1<int32_t>* value) {

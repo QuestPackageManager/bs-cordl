@@ -30,40 +30,43 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(VREvent_Data_t)
 namespace OVR::OpenVR {
-struct VREvent_Scroll_t;
+struct VREvent_MessageOverlay_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Process_t;
+struct VREvent_Screenshot_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Status_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_ApplicationLaunch_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_EditingCameraSurface_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Notification_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_TouchPadMove_t;
+struct VREvent_DualAnalog_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_PerformanceTest_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_ScreenshotProgress_t;
+struct VREvent_Mouse_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_MessageOverlay_t;
+struct VREvent_Status_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Property_t;
+struct VREvent_TouchPadMove_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_DualAnalog_t;
+struct VREvent_Overlay_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Reserved_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Scroll_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Ipd_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Notification_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Chaperone_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_HapticVibration_t;
@@ -72,37 +75,34 @@ namespace OVR::OpenVR {
 struct VREvent_InputBindingLoad_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Controller_t;
+struct VREvent_Property_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_WebConsole_t;
 }
 namespace OVR::OpenVR {
+struct VREvent_Controller_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_EditingCameraSurface_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_ScreenshotProgress_t;
+}
+namespace OVR::OpenVR {
 struct VREvent_SpatialAnchor_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Mouse_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Reserved_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Overlay_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Ipd_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_SeatedZeroPoseReset_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Chaperone_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Screenshot_t;
-}
-namespace OVR::OpenVR {
 struct VREvent_Keyboard_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Process_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_ApplicationLaunch_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -114,13 +114,13 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Data_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8677)), TypeDefinitionIndex(TypeDefinitionIndex(8682)), TypeDefinitionIndex(TypeDefinitionIndex(8687)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8689)), TypeDefinitionIndex(TypeDefinitionIndex(8678)), TypeDefinitionIndex(TypeDefinitionIndex(8680)), TypeDefinitionIndex(TypeDefinitionIndex(8683)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8667)), TypeDefinitionIndex(TypeDefinitionIndex(8669)), TypeDefinitionIndex(TypeDefinitionIndex(8672)), TypeDefinitionIndex(TypeDefinitionIndex(8688)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8681)), TypeDefinitionIndex(TypeDefinitionIndex(8685)), TypeDefinitionIndex(TypeDefinitionIndex(8671)), TypeDefinitionIndex(TypeDefinitionIndex(8673)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8686)), TypeDefinitionIndex(TypeDefinitionIndex(8691)), TypeDefinitionIndex(TypeDefinitionIndex(8679)), TypeDefinitionIndex(TypeDefinitionIndex(8676)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8666)), TypeDefinitionIndex(TypeDefinitionIndex(8668)), TypeDefinitionIndex(TypeDefinitionIndex(8675)), TypeDefinitionIndex(TypeDefinitionIndex(8670)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8684)), TypeDefinitionIndex(TypeDefinitionIndex(8674))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8642)) CS Name: ::OVR.OpenVR::VREvent_Data_t
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8676)), TypeDefinitionIndex(TypeDefinitionIndex(8681)), TypeDefinitionIndex(TypeDefinitionIndex(8685)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8688)), TypeDefinitionIndex(TypeDefinitionIndex(8674)), TypeDefinitionIndex(TypeDefinitionIndex(8677)), TypeDefinitionIndex(TypeDefinitionIndex(8671)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8678)), TypeDefinitionIndex(TypeDefinitionIndex(8672)), TypeDefinitionIndex(TypeDefinitionIndex(8669)), TypeDefinitionIndex(TypeDefinitionIndex(8675)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8668)), TypeDefinitionIndex(TypeDefinitionIndex(8670)), TypeDefinitionIndex(TypeDefinitionIndex(8680)), TypeDefinitionIndex(TypeDefinitionIndex(8667)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8683)), TypeDefinitionIndex(TypeDefinitionIndex(8684)), TypeDefinitionIndex(TypeDefinitionIndex(8687)), TypeDefinitionIndex(TypeDefinitionIndex(8691)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8666)), TypeDefinitionIndex(TypeDefinitionIndex(8682)), TypeDefinitionIndex(TypeDefinitionIndex(8686)), TypeDefinitionIndex(TypeDefinitionIndex(8689)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8673)), TypeDefinitionIndex(TypeDefinitionIndex(8679))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8642)) CS Name: ::OVR.OpenVR::VREvent_Data_t
 struct CORDL_TYPE VREvent_Data_t {
 public:
   // Declarations

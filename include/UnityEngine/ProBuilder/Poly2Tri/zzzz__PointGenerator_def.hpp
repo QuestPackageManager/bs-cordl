@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointGenerator)
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 class Random;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

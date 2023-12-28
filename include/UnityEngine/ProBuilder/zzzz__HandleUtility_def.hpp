@@ -9,16 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HandleUtility)
 namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct HandleOrientation;
@@ -26,35 +17,44 @@ struct HandleOrientation;
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::ProBuilder {
+struct CullingMode;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Ray;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine::ProBuilder {
 class RaycastHit;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+struct Edge;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-struct CullingMode;
-}
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Ray;
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

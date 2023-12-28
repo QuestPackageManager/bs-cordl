@@ -8,47 +8,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIUtility)
+namespace UnityEngine {
+struct FocusType;
+}
+namespace System {
+class Exception;
+}
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
-struct Rect;
+struct IMECompositionMode;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
-class ScriptableObject;
+class GUISkin;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 class ObjectGUIState;
 }
 namespace UnityEngine {
-struct IMECompositionMode;
+class ScriptableObject;
 }
 namespace System {
-class Action;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine {
-class GUISkin;
-}
-namespace UnityEngine {
-struct FocusType;
-}
-namespace UnityEngine {
-struct Vector2;
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -13,41 +13,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamWriter)
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Text {
-class Encoder;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct __StreamWriter___DisposeAsyncCore_d__33;
 }
 namespace System::IO {
 struct __StreamWriter___FlushAsyncInternal_d__74;
 }
+namespace System::Text {
+class Encoder;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
 namespace System::IO {
 class Stream;
 }
+namespace System::Text {
+class Encoding;
+}
+namespace System::IO {
+struct __StreamWriter___DisposeAsyncCore_d__33;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncValueTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
@@ -123,8 +123,8 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__StreamWriter___Dis
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3577)) CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3577)) CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
 struct CORDL_TYPE __StreamWriter___FlushAsyncInternal_d__74 {
 public:
   // Declarations

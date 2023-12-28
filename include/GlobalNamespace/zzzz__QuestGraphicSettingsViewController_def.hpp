@@ -13,17 +13,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuestGraphicSettingsViewController)
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4;
-}
 namespace GlobalNamespace {
 struct __QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5;
 }
 namespace UnityEngine::UI {
 class Toggle;
+}
+namespace GlobalNamespace {
+struct __QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class PerformancePreset;
@@ -34,11 +34,11 @@ struct AsyncVoidMethodBuilder;
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,8 +58,8 @@ MARK_VAL_T(::GlobalNamespace::__QuestGraphicSettingsViewController___Initialize1
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5757)) CS Name: ::QuestGraphicSettingsViewController::<Initialize120HzToggleAsync>d__4
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5757)) CS Name: ::QuestGraphicSettingsViewController::<Initialize120HzToggleAsync>d__4
 struct CORDL_TYPE __QuestGraphicSettingsViewController___Initialize120HzToggleAsync_d__4 {
 public:
   // Declarations
@@ -112,9 +112,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__QuestGraphicS
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 870 }), TypeDefinitionIndex(TypeDefinitionIndex(2507)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5758)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(4443)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 870 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5758)) CS Name:
 // ::QuestGraphicSettingsViewController::<Handle120HzToggleValueChangedAsync>d__5
 struct CORDL_TYPE __QuestGraphicSettingsViewController___Handle120HzToggleValueChangedAsync_d__5 {
 public:

@@ -9,22 +9,22 @@ namespace UnityEngine {
 class Transform;
 }
 namespace HMUI {
-class InputFieldView;
+class ModalView;
 }
 namespace HMUI {
 class UIKeyboard;
 }
 namespace UnityEngine {
-class RectTransform;
+class GameObject;
+}
+namespace HMUI {
+class InputFieldView;
 }
 namespace UnityEngine {
-class GameObject;
+class RectTransform;
 }
 namespace VRUIControls {
 class VRInputModule;
-}
-namespace HMUI {
-class ModalView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HologramRays)
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class MaterialPropertyBlock;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __HologramRays___FadingCoroutine_d__28;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
 class Mesh;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace Tweening {
 class FloatTween;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class __HologramRays___FadingCoroutine_d__28;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace System {
 class Object;
@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5114))
 // CS Name: ::HologramRays::<FadingCoroutine>d__28*
 class CORDL_TYPE __HologramRays___FadingCoroutine_d__28 : public ::System::Object {
@@ -198,7 +198,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HologramRays_
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5115))
 // CS Name: ::HologramRays*
 class CORDL_TYPE HologramRays : public ::UnityEngine::MonoBehaviour {

@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebConnectionStream)
-namespace System {
-class Exception;
+namespace System::Net {
+class ServicePoint;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
+class IAsyncResult;
+}
+namespace System::Net {
+class WebOperation;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
+namespace System {
+class Object;
+}
 namespace System::Net {
 class HttpWebRequest;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+class Exception;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Net {
-class WebOperation;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Net {
 class WebConnection;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Net {
-class ServicePoint;
 }
 // Forward declare root types
 namespace System::Net {

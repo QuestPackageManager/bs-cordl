@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ICustomFormatter)
 namespace System {
-class IFormatProvider;
+class Object;
 }
 namespace System {
-class Object;
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {

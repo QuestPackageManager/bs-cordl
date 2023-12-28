@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JPropertyKeyedCollection)
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JPropertyKeyedCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12002)), TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst:
-// 1024 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11969)) CS Name: ::Newtonsoft.Json.Linq::JPropertyKeyedCollection*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1024 }), TypeDefinitionIndex(TypeDefinitionIndex(12002)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3814))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11969)) CS Name: ::Newtonsoft.Json.Linq::JPropertyKeyedCollection*
 class CORDL_TYPE JPropertyKeyedCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::Linq::JToken*> {
 public:
   // Declarations

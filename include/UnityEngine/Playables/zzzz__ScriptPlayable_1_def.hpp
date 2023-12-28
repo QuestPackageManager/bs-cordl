@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptPlayable_1)
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
@@ -16,22 +13,25 @@ namespace UnityEngine::Playables {
 class IPlayableBehaviour;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class ICloneable;
+}
 namespace UnityEngine::Playables {
-struct Playable;
+class IPlayable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace System {
-class ICloneable;
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

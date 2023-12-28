@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TemplateAsset)
 namespace UnityEngine::UIElements {
-struct __TemplateAsset__AttributeOverride;
+struct __VisualTreeAsset__SlotUsageEntry;
 }
 namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotUsageEntry;
+struct __TemplateAsset__AttributeOverride;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

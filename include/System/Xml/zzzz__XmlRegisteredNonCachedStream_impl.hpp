@@ -1,12 +1,12 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Xml/zzzz__XmlRegisteredNonCachedStream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlRegisteredNonCachedStream._ctor
 template <>
 
@@ -306,39 +306,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& System::Xml::XmlRegisteredNonCachedStream::__get_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Xml::XmlRegisteredNonCachedStream::__get_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr void System::Xml::XmlRegisteredNonCachedStream::__set_stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlDownloadManager*& System::Xml::XmlRegisteredNonCachedStream::__get_downloadManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___downloadManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDownloadManager*> const& System::Xml::XmlRegisteredNonCachedStream::__get_downloadManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___downloadManager;
 }
 constexpr void System::Xml::XmlRegisteredNonCachedStream::__set_downloadManager(::System::Xml::XmlDownloadManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___downloadManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlRegisteredNonCachedStream::__get_host() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___host;
 }
 constexpr ::StringW const& System::Xml::XmlRegisteredNonCachedStream::__get_host() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___host;
 }
 constexpr void System::Xml::XmlRegisteredNonCachedStream::__set_host(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___host)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlRegisteredNonCachedStream* System::Xml::XmlRegisteredNonCachedStream::New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager,

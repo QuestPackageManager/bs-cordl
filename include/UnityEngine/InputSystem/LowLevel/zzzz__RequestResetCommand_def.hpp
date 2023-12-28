@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RequestResetCommand)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;

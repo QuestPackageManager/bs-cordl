@@ -1,11 +1,11 @@
 #pragma once
 #include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__BeatAvatarSelectionView_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.Init
 template <>
 
@@ -126,53 +126,53 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__avatarContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__avatarContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarContainer;
 }
 constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__set__avatarContainer(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*& BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__beatAvatarVisualController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatAvatarVisualController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*> const&
 BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__beatAvatarVisualController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatAvatarVisualController;
 }
 constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__set__beatAvatarVisualController(::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatAvatarVisualController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*& BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__avatarTweenController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarTweenController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*> const&
 BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__avatarTweenController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarTweenController;
 }
 constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__set__avatarTweenController(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarTweenController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__avatarDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& BeatSaber::AvatarCore::BeatAvatarSelectionView::__get__avatarDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarDataModel;
 }
 constexpr void BeatSaber::AvatarCore::BeatAvatarSelectionView::__set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::Init() {

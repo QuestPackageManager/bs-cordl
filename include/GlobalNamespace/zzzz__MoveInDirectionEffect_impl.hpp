@@ -73,63 +73,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::MoveInDirectionEffect::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::MoveInDirectionEffect::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::MoveInDirectionEffect::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MoveInDirectionEffect::__get__moveOrigin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveOrigin;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MoveInDirectionEffect::__get__moveOrigin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveOrigin;
 }
 constexpr void GlobalNamespace::MoveInDirectionEffect::__set__moveOrigin(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveOrigin = value;
 }
 constexpr float_t& GlobalNamespace::MoveInDirectionEffect::__get__moveScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveScale;
 }
 constexpr float_t const& GlobalNamespace::MoveInDirectionEffect::__get__moveScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveScale;
 }
 constexpr void GlobalNamespace::MoveInDirectionEffect::__set__moveScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveScale = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MoveInDirectionEffect::__get__startPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MoveInDirectionEffect::__get__startPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPosition;
 }
 constexpr void GlobalNamespace::MoveInDirectionEffect::__set__startPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPosition = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MoveInDirectionEffect::__get__moveDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDirection;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MoveInDirectionEffect::__get__moveDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDirection;
 }
 constexpr void GlobalNamespace::MoveInDirectionEffect::__set__moveDirection(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveDirection = value;
 }
 inline void GlobalNamespace::MoveInDirectionEffect::Awake() {

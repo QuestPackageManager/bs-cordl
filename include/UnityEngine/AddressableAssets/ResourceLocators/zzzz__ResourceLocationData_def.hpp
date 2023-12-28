@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocat
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13983))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13983)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14114))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationData*
 class CORDL_TYPE ResourceLocationData : public ::System::Object {

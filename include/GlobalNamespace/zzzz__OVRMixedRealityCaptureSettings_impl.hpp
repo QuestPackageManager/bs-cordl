@@ -5,9 +5,9 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureSettings_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRMixedRealityCaptureSettings.OVRMixedRealityCaptureConfiguration_get_enableMixedReality
 template <>
 
@@ -871,342 +871,342 @@ constexpr GlobalNamespace::OVRMixedRealityCaptureSettings::operator ::GlobalName
   return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_enableMixedReality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMixedReality;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_enableMixedReality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMixedReality;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_enableMixedReality(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableMixedReality = value;
 }
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_extraHiddenLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraHiddenLayers;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_extraHiddenLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraHiddenLayers;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_extraHiddenLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extraHiddenLayers = value;
 }
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_extraVisibleLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraVisibleLayers;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_extraVisibleLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraVisibleLayers;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_extraVisibleLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extraVisibleLayers = value;
 }
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_dynamicCullingMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicCullingMask;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_dynamicCullingMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicCullingMask;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_dynamicCullingMask(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dynamicCullingMask = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_compositionMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionMethod;
 }
 constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_compositionMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionMethod;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___compositionMethod = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_externalCompositionBackdropColorRift() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorRift;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_externalCompositionBackdropColorRift() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorRift;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_externalCompositionBackdropColorRift(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalCompositionBackdropColorRift = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_externalCompositionBackdropColorQuest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorQuest;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_externalCompositionBackdropColorQuest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorQuest;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_externalCompositionBackdropColorQuest(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalCompositionBackdropColorQuest = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__CameraDevice& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_capturingCameraDevice() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capturingCameraDevice;
 }
 constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_capturingCameraDevice() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capturingCameraDevice;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___capturingCameraDevice = value;
 }
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_flipCameraFrameHorizontally() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameHorizontally;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_flipCameraFrameHorizontally() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameHorizontally;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_flipCameraFrameHorizontally(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flipCameraFrameHorizontally = value;
 }
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_flipCameraFrameVertically() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameVertically;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_flipCameraFrameVertically() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameVertically;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_flipCameraFrameVertically(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flipCameraFrameVertically = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_handPoseStateLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPoseStateLatency;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_handPoseStateLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPoseStateLatency;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_handPoseStateLatency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handPoseStateLatency = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_sandwichCompositionRenderLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionRenderLatency;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_sandwichCompositionRenderLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionRenderLatency;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_sandwichCompositionRenderLatency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sandwichCompositionRenderLatency = value;
 }
 constexpr int32_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_sandwichCompositionBufferedFrames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionBufferedFrames;
 }
 constexpr int32_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_sandwichCompositionBufferedFrames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionBufferedFrames;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_sandwichCompositionBufferedFrames(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sandwichCompositionBufferedFrames = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeyColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeyColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeyColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeyColor;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_chromaKeyColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeyColor = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeySimilarity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySimilarity;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeySimilarity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySimilarity;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_chromaKeySimilarity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeySimilarity = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeySmoothRange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySmoothRange;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeySmoothRange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySmoothRange;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_chromaKeySmoothRange(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeySmoothRange = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeySpillRange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySpillRange;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_chromaKeySpillRange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySpillRange;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_chromaKeySpillRange(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeySpillRange = value;
 }
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_useDynamicLighting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useDynamicLighting;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_useDynamicLighting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useDynamicLighting;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_useDynamicLighting(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useDynamicLighting = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__DepthQuality& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_depthQuality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthQuality;
 }
 constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_depthQuality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthQuality;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depthQuality = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_dynamicLightingSmoothFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingSmoothFactor;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_dynamicLightingSmoothFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingSmoothFactor;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_dynamicLightingSmoothFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dynamicLightingSmoothFactor = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_dynamicLightingDepthVariationClampingValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingDepthVariationClampingValue;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_dynamicLightingDepthVariationClampingValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingDepthVariationClampingValue;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_dynamicLightingDepthVariationClampingValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dynamicLightingDepthVariationClampingValue = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenType;
 }
 constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenType;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenType = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenTopY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenTopY;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenTopY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenTopY;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_virtualGreenScreenTopY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenTopY = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenBottomY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenBottomY;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenBottomY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenBottomY;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_virtualGreenScreenBottomY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenBottomY = value;
 }
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenApplyDepthCulling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenApplyDepthCulling;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenApplyDepthCulling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenApplyDepthCulling;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_virtualGreenScreenApplyDepthCulling(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenApplyDepthCulling = value;
 }
 constexpr float_t& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenDepthTolerance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenDepthTolerance;
 }
 constexpr float_t const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_virtualGreenScreenDepthTolerance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenDepthTolerance;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_virtualGreenScreenDepthTolerance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenDepthTolerance = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_mrcActivationMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mrcActivationMode;
 }
 constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& GlobalNamespace::OVRMixedRealityCaptureSettings::__get_mrcActivationMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mrcActivationMode;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mrcActivationMode = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*&
 GlobalNamespace::OVRMixedRealityCaptureSettings::__get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const&
 GlobalNamespace::OVRMixedRealityCaptureSettings::__get__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureSettings::__set__OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField(
     ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

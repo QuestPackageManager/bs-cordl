@@ -33,63 +33,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::KnownHttpVerb::__get_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr ::StringW const& System::Net::KnownHttpVerb::__get_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr void System::Net::KnownHttpVerb::__set_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::KnownHttpVerb::__get_RequireContentBody() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RequireContentBody;
 }
 constexpr bool const& System::Net::KnownHttpVerb::__get_RequireContentBody() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RequireContentBody;
 }
 constexpr void System::Net::KnownHttpVerb::__set_RequireContentBody(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RequireContentBody = value;
 }
 constexpr bool& System::Net::KnownHttpVerb::__get_ContentBodyNotAllowed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ContentBodyNotAllowed;
 }
 constexpr bool const& System::Net::KnownHttpVerb::__get_ContentBodyNotAllowed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ContentBodyNotAllowed;
 }
 constexpr void System::Net::KnownHttpVerb::__set_ContentBodyNotAllowed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ContentBodyNotAllowed = value;
 }
 constexpr bool& System::Net::KnownHttpVerb::__get_ConnectRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectRequest;
 }
 constexpr bool const& System::Net::KnownHttpVerb::__get_ConnectRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectRequest;
 }
 constexpr void System::Net::KnownHttpVerb::__set_ConnectRequest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConnectRequest = value;
 }
 constexpr bool& System::Net::KnownHttpVerb::__get_ExpectNoContentResponse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExpectNoContentResponse;
 }
 constexpr bool const& System::Net::KnownHttpVerb::__get_ExpectNoContentResponse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExpectNoContentResponse;
 }
 constexpr void System::Net::KnownHttpVerb::__set_ExpectNoContentResponse(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ExpectNoContentResponse = value;
 }
 inline void System::Net::KnownHttpVerb::setStaticF_NamedHeaders(::System::Collections::Specialized::ListDictionary* value) {

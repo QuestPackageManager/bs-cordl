@@ -8,6 +8,9 @@ CORDL_MODULE_EXPORT(FriendsViewController)
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
+namespace UnityEngine::UI {
+class Toggle;
+}
 namespace GlobalNamespace {
 class PlatformNetworkPlayerModel;
 }
@@ -16,9 +19,6 @@ class INetworkConfig;
 }
 namespace HMUI {
 class ToggleBinder;
-}
-namespace UnityEngine::UI {
-class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

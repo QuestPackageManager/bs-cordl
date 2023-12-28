@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RemotingSurrogate)
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
-}
 namespace System {
 class Object;
 }
@@ -18,6 +15,9 @@ class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializationSurrogate;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

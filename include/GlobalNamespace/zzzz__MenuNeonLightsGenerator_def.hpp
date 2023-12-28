@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuNeonLightsGenerator)
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuNeonLightsGenerator);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4693))
 // CS Name: ::MenuNeonLightsGenerator*
 class CORDL_TYPE MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {

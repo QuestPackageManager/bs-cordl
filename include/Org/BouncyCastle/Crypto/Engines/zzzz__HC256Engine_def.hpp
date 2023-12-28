@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HC256Engine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

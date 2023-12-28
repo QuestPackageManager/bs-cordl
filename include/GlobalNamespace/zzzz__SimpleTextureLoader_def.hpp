@@ -7,7 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTextureLoader)
 namespace GlobalNamespace {
+class ICoroutineStarter;
+}
+namespace GlobalNamespace {
 template <typename K, typename V> class HMCache_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -15,26 +24,17 @@ template <typename T> class Action_1;
 namespace GlobalNamespace {
 class __SimpleTextureLoader___LoadTextureCoroutine_d__3;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

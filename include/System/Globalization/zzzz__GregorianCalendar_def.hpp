@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GregorianCalendar)
-namespace System {
-struct DateTime;
+namespace System::Globalization {
+struct GregorianCalendarTypes;
 }
 namespace System {
 struct DayOfWeek;
@@ -17,8 +17,8 @@ struct DayOfWeek;
 namespace System::Globalization {
 class Calendar;
 }
-namespace System::Globalization {
-struct GregorianCalendarTypes;
+namespace System {
+struct DateTime;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Globalization::GregorianCalendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(3701))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3701)), TypeDefinitionIndex(TypeDefinitionIndex(3696))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3698))
 // CS Name: ::System.Globalization::GregorianCalendar*
 class CORDL_TYPE GregorianCalendar : public ::System::Globalization::Calendar {

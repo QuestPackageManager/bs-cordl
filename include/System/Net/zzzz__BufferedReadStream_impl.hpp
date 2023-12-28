@@ -4,15 +4,15 @@
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Net/zzzz__BufferedReadStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__BufferedReadStream_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__BufferedReadStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::System::Net::__BufferedReadStream___ProcessReadAsync_d__2.MoveNext
 template <>
 
@@ -129,15 +129,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::BufferOffsetSize*& System::Net::BufferedReadStream::__get_readBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::BufferOffsetSize*> const& System::Net::BufferedReadStream::__get_readBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readBuffer;
 }
 constexpr void System::Net::BufferedReadStream::__set_readBuffer(::System::Net::BufferOffsetSize* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::BufferedReadStream* System::Net::BufferedReadStream::New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream,

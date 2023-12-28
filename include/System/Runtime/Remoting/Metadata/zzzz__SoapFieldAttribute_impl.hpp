@@ -64,27 +64,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__elementName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementName;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__elementName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementName;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapFieldAttribute::__set__elementName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__isElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isElement;
 }
 constexpr bool const& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__isElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isElement;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapFieldAttribute::__set__isElement(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isElement = value;
 }
 inline ::System::Runtime::Remoting::Metadata::SoapFieldAttribute* System::Runtime::Remoting::Metadata::SoapFieldAttribute::New_ctor() {

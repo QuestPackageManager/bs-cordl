@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(NoAvatarPoseRestriction)
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseRestriction;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseRestriction;
 }
 namespace UnityEngine {
 struct Quaternion;

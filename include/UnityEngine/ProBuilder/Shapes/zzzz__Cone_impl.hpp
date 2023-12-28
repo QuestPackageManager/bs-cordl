@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Cone_def.hpp"
-#include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Cone.CopyShape
 template <>
@@ -65,39 +65,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cone::__get_m_NumberOfSides() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumberOfSides;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cone::__get_m_NumberOfSides() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumberOfSides;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Cone::__set_m_NumberOfSides(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NumberOfSides = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Radius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Radius;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Radius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Radius;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Cone::__set_m_Radius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Radius = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Cone::__get_m_Smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Cone::__set_m_Smooth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
 inline void UnityEngine::ProBuilder::Shapes::Cone::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {

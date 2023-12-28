@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PS5SharedPackageSKUsSO)
 namespace GlobalNamespace {
-class PS5PublisherSKUSettingsSO;
-}
-namespace GlobalNamespace {
 class __PS5SharedPackageSKUsSO__PS5BuildVersion;
 }
 namespace GlobalNamespace {
 struct __PS5SharedPackageSKUsSO__BuildType;
+}
+namespace GlobalNamespace {
+class PS5PublisherSKUSettingsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

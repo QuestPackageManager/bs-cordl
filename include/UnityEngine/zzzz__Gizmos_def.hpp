@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Gizmos)
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace UnityEngine {
 struct Matrix4x4;

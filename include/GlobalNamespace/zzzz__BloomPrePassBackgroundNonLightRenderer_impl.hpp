@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRenderer_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer.get_renderer
 template <>
@@ -145,51 +145,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Renderer*& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__renderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__renderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderer;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__set__renderer(::UnityEngine::Renderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::MeshFilter*& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__meshFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshFilter;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__meshFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshFilter;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__set__meshFilter(::UnityEngine::MeshFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__isPartOfInstancedRendering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartOfInstancedRendering;
 }
 constexpr bool const& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__isPartOfInstancedRendering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartOfInstancedRendering;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__set__isPartOfInstancedRendering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPartOfInstancedRendering = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__cachedTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__get__cachedTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedTransform;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::__set__cachedTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Renderer* GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::get_renderer() {

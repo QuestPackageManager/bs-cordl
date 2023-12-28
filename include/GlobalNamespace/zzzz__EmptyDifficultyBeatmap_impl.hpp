@@ -8,18 +8,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EmptyDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__EmptyDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23.MoveNext
 template <>
@@ -302,100 +302,100 @@ constexpr GlobalNamespace::EmptyDifficultyBeatmap::operator ::GlobalNamespace::I
   return static_cast<::GlobalNamespace::IDifficultyBeatmap*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IBeatmapLevel*& GlobalNamespace::EmptyDifficultyBeatmap::__get__level_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____level_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevel*> const& GlobalNamespace::EmptyDifficultyBeatmap::__get__level_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____level_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__level_k__BackingField(::GlobalNamespace::IBeatmapLevel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____level_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IDifficultyBeatmapSet*& GlobalNamespace::EmptyDifficultyBeatmap::__get__parentDifficultyBeatmapSet_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentDifficultyBeatmapSet_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmapSet*> const& GlobalNamespace::EmptyDifficultyBeatmap::__get__parentDifficultyBeatmapSet_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentDifficultyBeatmapSet_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__parentDifficultyBeatmapSet_k__BackingField(::GlobalNamespace::IDifficultyBeatmapSet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentDifficultyBeatmapSet_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::EmptyDifficultyBeatmap::__get__difficulty_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty_k__BackingField;
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::EmptyDifficultyBeatmap::__get__difficulty_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficulty_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____difficulty_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::EmptyDifficultyBeatmap::__get__difficultyRank_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyRank_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::EmptyDifficultyBeatmap::__get__difficultyRank_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyRank_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__difficultyRank_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____difficultyRank_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::EmptyDifficultyBeatmap::__get__noteJumpMovementSpeed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpMovementSpeed_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::EmptyDifficultyBeatmap::__get__noteJumpMovementSpeed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpMovementSpeed_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__noteJumpMovementSpeed_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpMovementSpeed_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::EmptyDifficultyBeatmap::__get__noteJumpStartBeatOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffset_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::EmptyDifficultyBeatmap::__get__noteJumpStartBeatOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffset_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__noteJumpStartBeatOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteJumpStartBeatOffset_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::EmptyDifficultyBeatmap::__get__environmentNameIdx_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentNameIdx_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::EmptyDifficultyBeatmap::__get__environmentNameIdx_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentNameIdx_k__BackingField;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__environmentNameIdx_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentNameIdx_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::BeatmapData*& GlobalNamespace::EmptyDifficultyBeatmap::__get__beatmapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& GlobalNamespace::EmptyDifficultyBeatmap::__get__beatmapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
 constexpr void GlobalNamespace::EmptyDifficultyBeatmap::__set__beatmapData(::GlobalNamespace::BeatmapData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::IBeatmapLevel* GlobalNamespace::EmptyDifficultyBeatmap::get_level() {

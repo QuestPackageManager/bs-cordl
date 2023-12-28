@@ -3,9 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IConnectedPlayerBeatmapObjectEventManager)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
 }
@@ -14,6 +11,9 @@ class NoteSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;

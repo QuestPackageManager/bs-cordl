@@ -81,39 +81,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::ScoreMultiplierCounter::__get__multiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplier;
 }
 constexpr int32_t const& GlobalNamespace::ScoreMultiplierCounter::__get__multiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplier;
 }
 constexpr void GlobalNamespace::ScoreMultiplierCounter::__set__multiplier(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplier = value;
 }
 constexpr int32_t& GlobalNamespace::ScoreMultiplierCounter::__get__multiplierIncreaseProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierIncreaseProgress;
 }
 constexpr int32_t const& GlobalNamespace::ScoreMultiplierCounter::__get__multiplierIncreaseProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierIncreaseProgress;
 }
 constexpr void GlobalNamespace::ScoreMultiplierCounter::__set__multiplierIncreaseProgress(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplierIncreaseProgress = value;
 }
 constexpr int32_t& GlobalNamespace::ScoreMultiplierCounter::__get__multiplierIncreaseMaxProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierIncreaseMaxProgress;
 }
 constexpr int32_t const& GlobalNamespace::ScoreMultiplierCounter::__get__multiplierIncreaseMaxProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierIncreaseMaxProgress;
 }
 constexpr void GlobalNamespace::ScoreMultiplierCounter::__set__multiplierIncreaseMaxProgress(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplierIncreaseMaxProgress = value;
 }
 inline int32_t GlobalNamespace::ScoreMultiplierCounter::get_multiplier() {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMaterialData)
+namespace GlobalNamespace {
+struct OVRTextureData;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace GlobalNamespace {
-struct OVRTextureData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

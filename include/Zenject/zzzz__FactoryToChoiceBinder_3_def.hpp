@@ -8,10 +8,10 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract> class FactoryFromBinder_3;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class FactoryBindInfo;
 }
 namespace Zenject {
 class BindInfo;

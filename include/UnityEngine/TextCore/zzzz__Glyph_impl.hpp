@@ -4,9 +4,9 @@
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphMarshallingStruct_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Glyph.get_index
 template <>
 
@@ -193,75 +193,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& UnityEngine::TextCore::Glyph::__get_m_Index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
 }
 constexpr uint32_t const& UnityEngine::TextCore::Glyph::__get_m_Index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
 }
 constexpr void UnityEngine::TextCore::Glyph::__set_m_Index(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Index = value;
 }
 constexpr ::UnityEngine::TextCore::GlyphMetrics& UnityEngine::TextCore::Glyph::__get_m_Metrics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Metrics;
 }
 constexpr ::UnityEngine::TextCore::GlyphMetrics const& UnityEngine::TextCore::Glyph::__get_m_Metrics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Metrics;
 }
 constexpr void UnityEngine::TextCore::Glyph::__set_m_Metrics(::UnityEngine::TextCore::GlyphMetrics value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Metrics = value;
 }
 constexpr ::UnityEngine::TextCore::GlyphRect& UnityEngine::TextCore::Glyph::__get_m_GlyphRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphRect;
 }
 constexpr ::UnityEngine::TextCore::GlyphRect const& UnityEngine::TextCore::Glyph::__get_m_GlyphRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphRect;
 }
 constexpr void UnityEngine::TextCore::Glyph::__set_m_GlyphRect(::UnityEngine::TextCore::GlyphRect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_GlyphRect = value;
 }
 constexpr float_t& UnityEngine::TextCore::Glyph::__get_m_Scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr float_t const& UnityEngine::TextCore::Glyph::__get_m_Scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr void UnityEngine::TextCore::Glyph::__set_m_Scale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Scale = value;
 }
 constexpr int32_t& UnityEngine::TextCore::Glyph::__get_m_AtlasIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AtlasIndex;
 }
 constexpr int32_t const& UnityEngine::TextCore::Glyph::__get_m_AtlasIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AtlasIndex;
 }
 constexpr void UnityEngine::TextCore::Glyph::__set_m_AtlasIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AtlasIndex = value;
 }
 constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType& UnityEngine::TextCore::Glyph::__get_m_ClassDefinitionType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClassDefinitionType;
 }
 constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType const& UnityEngine::TextCore::Glyph::__get_m_ClassDefinitionType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClassDefinitionType;
 }
 constexpr void UnityEngine::TextCore::Glyph::__set_m_ClassDefinitionType(::UnityEngine::TextCore::GlyphClassDefinitionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClassDefinitionType = value;
 }
 inline uint32_t UnityEngine::TextCore::Glyph::get_index() {

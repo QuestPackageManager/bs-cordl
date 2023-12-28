@@ -8,10 +8,10 @@ namespace ModestTree::Util {
 template <typename T1, typename T2> class ValuePair_2;
 }
 namespace ModestTree::Util {
-template <typename T1, typename T2, typename T3, typename T4> class ValuePair_4;
+template <typename T1, typename T2, typename T3> class ValuePair_3;
 }
 namespace ModestTree::Util {
-template <typename T1, typename T2, typename T3> class ValuePair_3;
+template <typename T1, typename T2, typename T3, typename T4> class ValuePair_4;
 }
 // Forward declare root types
 namespace ModestTree::Util {

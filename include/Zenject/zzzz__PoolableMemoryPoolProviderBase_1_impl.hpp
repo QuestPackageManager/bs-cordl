@@ -2,43 +2,43 @@
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::Zenject::IProvider"
 template <typename TContract> constexpr Zenject::PoolableMemoryPoolProviderBase_1<TContract>::operator ::Zenject::IProvider*() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 template <typename TContract> constexpr ::System::Guid& Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__get__PoolId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PoolId_k__BackingField;
 }
 template <typename TContract> constexpr ::System::Guid const& Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__get__PoolId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PoolId_k__BackingField;
 }
 template <typename TContract> constexpr void Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__set__PoolId_k__BackingField(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____PoolId_k__BackingField = value;
 }
 template <typename TContract> constexpr ::Zenject::DiContainer*& Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__get__Container_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Container_k__BackingField;
 }
 template <typename TContract>
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__get__Container_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Container_k__BackingField;
 }
 template <typename TContract> constexpr void Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__set__Container_k__BackingField(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Container_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract>

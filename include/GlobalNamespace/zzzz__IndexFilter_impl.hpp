@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_3_impl.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -146,100 +146,100 @@ constexpr GlobalNamespace::__IndexFilter___GetEnumerator_d__23::operator ::Syste
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::ValueTuple_3<int32_t, int32_t, int32_t>& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::System::ValueTuple_3<int32_t, int32_t, int32_t> const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___2__current(::System::ValueTuple_3<int32_t, int32_t, int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr ::GlobalNamespace::IndexFilter*& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___4__this(::GlobalNamespace::IndexFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__limitedOrderIndex_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limitedOrderIndex_5__2;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__limitedOrderIndex_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limitedOrderIndex_5__2;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__limitedOrderIndex_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____limitedOrderIndex_5__2 = value;
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*> const&
 GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__elementId_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementId_5__4;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__elementId_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementId_5__4;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__elementId_5__4(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elementId_5__4 = value;
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__index_5__5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index_5__5;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__index_5__5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index_5__5;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__index_5__5(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index_5__5 = value;
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__localChunkIndex_5__6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localChunkIndex_5__6;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__get__localChunkIndex_5__6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localChunkIndex_5__6;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetEnumerator_d__23::__set__localChunkIndex_5__6(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localChunkIndex_5__6 = value;
 }
 inline ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23* GlobalNamespace::__IndexFilter___GetEnumerator_d__23::New_ctor(int32_t __1__state) {
@@ -422,75 +422,75 @@ constexpr GlobalNamespace::__IndexFilter___GetValues_d__24::operator ::System::I
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___2__current(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::GlobalNamespace::IndexFilter*& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set___4__this(::GlobalNamespace::IndexFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__value_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_5__2;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__value_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_5__2;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set__value_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____value_5__2 = value;
 }
 constexpr int32_t& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__i_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
 constexpr int32_t const& GlobalNamespace::__IndexFilter___GetValues_d__24::__get__i_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
 constexpr void GlobalNamespace::__IndexFilter___GetValues_d__24::__set__i_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
 inline ::GlobalNamespace::__IndexFilter___GetValues_d__24* GlobalNamespace::__IndexFilter___GetValues_d__24::New_ctor(int32_t __1__state) {
@@ -704,111 +704,111 @@ constexpr GlobalNamespace::IndexFilter::operator ::System::Collections::IEnumera
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType& GlobalNamespace::IndexFilter::__get__random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType const& GlobalNamespace::IndexFilter::__get__random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__random(::GlobalNamespace::__IndexFilter__IndexFilterRandomType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____random = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__seed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____seed;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__seed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____seed;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__seed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____seed = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__groupSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSize;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__groupSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSize;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__groupSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____groupSize = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__chunkSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chunkSize;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__chunkSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chunkSize;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__chunkSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chunkSize = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__visibleCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visibleCount;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__visibleCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visibleCount;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__visibleCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____visibleCount = value;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType& GlobalNamespace::IndexFilter::__get__limitAlsoAffectType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limitAlsoAffectType;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType const& GlobalNamespace::IndexFilter::__get__limitAlsoAffectType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limitAlsoAffectType;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__limitAlsoAffectType(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____limitAlsoAffectType = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____start = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__step() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____step;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__step() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____step;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__step(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____step = value;
 }
 constexpr int32_t& GlobalNamespace::IndexFilter::__get__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 constexpr int32_t const& GlobalNamespace::IndexFilter::__get__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 constexpr void GlobalNamespace::IndexFilter::__set__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count = value;
 }
 inline int32_t GlobalNamespace::IndexFilter::get_Count() {

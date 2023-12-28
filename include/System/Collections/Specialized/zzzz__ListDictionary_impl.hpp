@@ -3,13 +3,13 @@
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::__ListDictionary__NodeEnumerator._ctor
 template <>
@@ -125,52 +125,52 @@ constexpr System::Collections::Specialized::__ListDictionary__NodeEnumerator::op
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__set__list(::System::Collections::Specialized::ListDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
 System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr int32_t const& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 constexpr bool& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr bool const& System::Collections::Specialized::__ListDictionary__NodeEnumerator::__get__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__NodeEnumerator::__set__start(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____start = value;
 }
 inline ::System::Collections::Specialized::__ListDictionary__NodeEnumerator*
@@ -287,65 +287,65 @@ constexpr GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValu
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Specialized::ListDictionary*& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const&
 GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__set__list(::System::Collections::Specialized::ListDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
 GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__set__current(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr int32_t const& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 constexpr bool& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__isKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
 constexpr bool const& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__isKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
 constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__set__isKeys(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isKeys = value;
 }
 constexpr bool& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr bool const& GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr void GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__set__start(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____start = value;
 }
 inline ::GlobalNamespace::__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator*
@@ -481,28 +481,28 @@ constexpr System::Collections::Specialized::__ListDictionary__NodeKeyValueCollec
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Specialized::ListDictionary*& System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::ListDictionary*> const&
 System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__set__list(::System::Collections::Specialized::ListDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__get__isKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
 constexpr bool const& System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__get__isKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKeys;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection::__set__isKeys(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isKeys = value;
 }
 inline ::System::Collections::Specialized::__ListDictionary__NodeKeyValueCollection*
@@ -565,40 +565,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Collections::Specialized::__ListDictionary__DictionaryNode::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Specialized::__ListDictionary__DictionaryNode::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__DictionaryNode::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Collections::Specialized::__ListDictionary__DictionaryNode::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Specialized::__ListDictionary__DictionaryNode::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__DictionaryNode::__set_value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& System::Collections::Specialized::__ListDictionary__DictionaryNode::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const&
 System::Collections::Specialized::__ListDictionary__DictionaryNode::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void System::Collections::Specialized::__ListDictionary__DictionaryNode::__set_next(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Specialized::__ListDictionary__DictionaryNode* System::Collections::Specialized::__ListDictionary__DictionaryNode::New_ctor() {
@@ -886,63 +886,63 @@ constexpr System::Collections::Specialized::ListDictionary::operator ::System::C
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Specialized::__ListDictionary__DictionaryNode*& System::Collections::Specialized::ListDictionary::__get_head() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__ListDictionary__DictionaryNode*> const& System::Collections::Specialized::ListDictionary::__get_head() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
 constexpr void System::Collections::Specialized::ListDictionary::__set_head(::System::Collections::Specialized::__ListDictionary__DictionaryNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Collections::Specialized::ListDictionary::__get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr int32_t const& System::Collections::Specialized::ListDictionary::__get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr void System::Collections::Specialized::ListDictionary::__set_version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___version = value;
 }
 constexpr int32_t& System::Collections::Specialized::ListDictionary::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr int32_t const& System::Collections::Specialized::ListDictionary::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr void System::Collections::Specialized::ListDictionary::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 constexpr ::System::Collections::IComparer*& System::Collections::Specialized::ListDictionary::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& System::Collections::Specialized::ListDictionary::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 constexpr void System::Collections::Specialized::ListDictionary::__set_comparer(::System::Collections::IComparer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Collections::Specialized::ListDictionary::__get__syncRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::Specialized::ListDictionary::__get__syncRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
 constexpr void System::Collections::Specialized::ListDictionary::__set__syncRoot(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Specialized::ListDictionary* System::Collections::Specialized::ListDictionary::New_ctor() {

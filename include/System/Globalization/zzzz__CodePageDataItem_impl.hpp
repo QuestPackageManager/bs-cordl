@@ -44,51 +44,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Globalization::CodePageDataItem::__get_m_dataIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dataIndex;
 }
 constexpr int32_t const& System::Globalization::CodePageDataItem::__get_m_dataIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dataIndex;
 }
 constexpr void System::Globalization::CodePageDataItem::__set_m_dataIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_dataIndex = value;
 }
 constexpr int32_t& System::Globalization::CodePageDataItem::__get_m_uiFamilyCodePage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_uiFamilyCodePage;
 }
 constexpr int32_t const& System::Globalization::CodePageDataItem::__get_m_uiFamilyCodePage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_uiFamilyCodePage;
 }
 constexpr void System::Globalization::CodePageDataItem::__set_m_uiFamilyCodePage(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_uiFamilyCodePage = value;
 }
 constexpr ::StringW& System::Globalization::CodePageDataItem::__get_m_webName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_webName;
 }
 constexpr ::StringW const& System::Globalization::CodePageDataItem::__get_m_webName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_webName;
 }
 constexpr void System::Globalization::CodePageDataItem::__set_m_webName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_webName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& System::Globalization::CodePageDataItem::__get_m_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_flags;
 }
 constexpr uint32_t const& System::Globalization::CodePageDataItem::__get_m_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_flags;
 }
 constexpr void System::Globalization::CodePageDataItem::__set_m_flags(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_flags = value;
 }
 inline void System::Globalization::CodePageDataItem::setStaticF_sep(::ArrayW<char16_t, ::Array<char16_t>*> value) {

@@ -11,25 +11,25 @@ namespace GlobalNamespace {
 class BTSCharacterSpawnAnimationController;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnEventEffect;
-}
-namespace GlobalNamespace {
 class __BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
 }
 namespace GlobalNamespace {
 class IGamePause;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
+}
+namespace GlobalNamespace {
+class BTSCharacterSpawnEventEffect;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace UnityEngine {
-class Coroutine;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

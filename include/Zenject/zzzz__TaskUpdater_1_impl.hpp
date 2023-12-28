@@ -9,39 +9,39 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TTask> constexpr TTask& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_Task() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Task;
 }
 template <typename TTask> constexpr TTask const& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_Task() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Task;
 }
 template <typename TTask> constexpr void Zenject::__TaskUpdater_1__TaskInfo<TTask>::__set_Task(TTask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TTask> constexpr int32_t& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_Priority() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
 template <typename TTask> constexpr int32_t const& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_Priority() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
 template <typename TTask> constexpr void Zenject::__TaskUpdater_1__TaskInfo<TTask>::__set_Priority(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Priority = value;
 }
 template <typename TTask> constexpr bool& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_IsRemoved() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsRemoved;
 }
 template <typename TTask> constexpr bool const& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_IsRemoved() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsRemoved;
 }
 template <typename TTask> constexpr void Zenject::__TaskUpdater_1__TaskInfo<TTask>::__set_IsRemoved(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsRemoved = value;
 }
 template <typename TTask> inline ::Zenject::__TaskUpdater_1__TaskInfo<TTask>* Zenject::__TaskUpdater_1__TaskInfo<TTask>::New_ctor(TTask task, int32_t priority) {
@@ -110,15 +110,15 @@ template <typename TTask> inline ::Zenject::InjectTypeInfo* Zenject::__TaskUpdat
 // Ctor Parameters []
 template <typename TTask> constexpr ::Zenject::__TaskUpdater_1____c<TTask>::__TaskUpdater_1____c() {}
 template <typename TTask> constexpr TTask& Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>::__get_task() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
 template <typename TTask> constexpr TTask const& Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>::__get_task() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___task;
 }
 template <typename TTask> constexpr void Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>::__set_task(TTask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TTask> inline ::Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>* Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>::New_ctor() {
@@ -149,29 +149,29 @@ template <typename TTask> inline ::Zenject::InjectTypeInfo* Zenject::__TaskUpdat
 // Ctor Parameters []
 template <typename TTask> constexpr ::Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>::__TaskUpdater_1____c__DisplayClass8_0() {}
 template <typename TTask> constexpr ::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*& Zenject::TaskUpdater_1<TTask>::__get__tasks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tasks;
 }
 template <typename TTask>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*> const& Zenject::TaskUpdater_1<TTask>::__get__tasks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tasks;
 }
 template <typename TTask> constexpr void Zenject::TaskUpdater_1<TTask>::__set__tasks(::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TTask> constexpr ::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*& Zenject::TaskUpdater_1<TTask>::__get__queuedTasks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____queuedTasks;
 }
 template <typename TTask>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*> const& Zenject::TaskUpdater_1<TTask>::__get__queuedTasks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____queuedTasks;
 }
 template <typename TTask> constexpr void Zenject::TaskUpdater_1<TTask>::__set__queuedTasks(::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____queuedTasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TTask> inline ::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* Zenject::TaskUpdater_1<TTask>::get_AllTasks() {

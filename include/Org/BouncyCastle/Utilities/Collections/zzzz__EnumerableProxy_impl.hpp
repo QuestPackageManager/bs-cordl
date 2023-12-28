@@ -38,15 +38,15 @@ constexpr Org::BouncyCastle::Utilities::Collections::EnumerableProxy::operator :
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IEnumerable*& Org::BouncyCastle::Utilities::Collections::EnumerableProxy::__get_inner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inner;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& Org::BouncyCastle::Utilities::Collections::EnumerableProxy::__get_inner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inner;
 }
 constexpr void Org::BouncyCastle::Utilities::Collections::EnumerableProxy::__set_inner(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy* Org::BouncyCastle::Utilities::Collections::EnumerableProxy::New_ctor(::System::Collections::IEnumerable* inner) {

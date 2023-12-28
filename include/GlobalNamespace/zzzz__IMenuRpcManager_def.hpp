@@ -6,43 +6,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMenuRpcManager)
 namespace System {
-template <typename T> class Action_1;
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace GlobalNamespace {
-struct SongPackMask;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class PlayersLobbyPermissionConfigurationNetSerializable;
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 struct CannotStartGameReason;
 }
 namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+struct MultiplayerGameState;
 }
 namespace GlobalNamespace {
 struct EntitlementsStatus;
 }
 namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class PlayersLobbyPermissionConfigurationNetSerializable;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

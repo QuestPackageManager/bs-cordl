@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputHDAInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputHDAInfo.CopyTo
 template <>
 
@@ -51,39 +51,39 @@ constexpr HoudiniEngineUnity::HEU_InputHDAInfo::operator ::HoudiniEngineUnity::I
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::GameObject*& HoudiniEngineUnity::HEU_InputHDAInfo::__get__pendingGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HoudiniEngineUnity::HEU_InputHDAInfo::__get__pendingGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingGO;
 }
 constexpr void HoudiniEngineUnity::HEU_InputHDAInfo::__set__pendingGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& HoudiniEngineUnity::HEU_InputHDAInfo::__get__connectedGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HoudiniEngineUnity::HEU_InputHDAInfo::__get__connectedGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedGO;
 }
 constexpr void HoudiniEngineUnity::HEU_InputHDAInfo::__set__connectedGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_InputHDAInfo::__get__connectedInputNodeID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedInputNodeID;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_InputHDAInfo::__get__connectedInputNodeID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedInputNodeID;
 }
 constexpr void HoudiniEngineUnity::HEU_InputHDAInfo::__set__connectedInputNodeID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectedInputNodeID = value;
 }
 inline void HoudiniEngineUnity::HEU_InputHDAInfo::CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo) {

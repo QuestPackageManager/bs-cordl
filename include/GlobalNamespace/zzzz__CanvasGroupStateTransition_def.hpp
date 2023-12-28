@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CanvasGroupStateTransition)
 namespace GlobalNamespace {
-class BaseTransitionSO;
+class CanvasGroupTransitionSO;
 }
 namespace GlobalNamespace {
-class CanvasGroupTransitionSO;
+class BaseTransitionSO;
 }
 namespace Tweening {
 class FloatTween;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CanvasGroupStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 922 }), TypeDefinitionIndex(TypeDefinitionIndex(5442)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15666))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5444)) CS Name: ::CanvasGroupStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(15666)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 922
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5444)) CS Name: ::CanvasGroupStateTransition*
 class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::CanvasGroup*> {
 public:
   // Declarations

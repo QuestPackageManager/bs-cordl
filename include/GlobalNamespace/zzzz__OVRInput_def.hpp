@@ -17,85 +17,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRInput)
 namespace GlobalNamespace {
-struct __OVRInput__Handedness;
+struct __OVRInput__Button;
 }
 namespace GlobalNamespace {
-struct __OVRInput__RawAxis2D;
+class __OVRInput__OVRControllerGamepadPC;
 }
 namespace GlobalNamespace {
-struct __OVRInput__HapticsAmplitudeEnvelopeVibration;
-}
-namespace GlobalNamespace {
-struct __OVRInput__OpenVRControllerDetails;
+class __OVRInput__OVRControllerTouch;
 }
 namespace GlobalNamespace {
 struct __OVRInput__RawTouch;
 }
 namespace GlobalNamespace {
-struct __OVRInput__RawButton;
-}
-namespace GlobalNamespace {
 class __OVRInput__OVRControllerRemote;
 }
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerRTouch;
+namespace OVR::OpenVR {
+struct ETrackedDeviceProperty;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerGamepadAndroid;
+struct __OVRInput__InputDeviceShowState;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __OVRInput__HapticInfo;
-}
-namespace GlobalNamespace {
-struct __OVRInput__RawNearTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__OpenVRButton;
-}
-namespace GlobalNamespace {
-struct __OVRInput__HapticsPcmVibration;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct __OVRInput__ControllerInHandState;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Axis2D;
 }
 namespace GlobalNamespace {
 struct __OVRInput__HapticsLocation;
 }
 namespace GlobalNamespace {
+struct __OVRInput__Touch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Handedness;
+}
+namespace System {
+class Version;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawAxis1D;
+}
+namespace GlobalNamespace {
 struct __OVRInput__OpenVRController;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerHands;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Button;
-}
-namespace GlobalNamespace {
-struct __OVRInput__InteractionProfile;
-}
-namespace GlobalNamespace {
-class __OVRInput__OVRControllerLTouch;
+class __OVRInput__HapticInfo;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerLHand;
 }
 namespace GlobalNamespace {
-struct __OVRInput__NearTouch;
-}
-namespace GlobalNamespace {
-struct __OVRInput__Hand;
+struct __OVRInput__Axis1D;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerRHand;
@@ -104,43 +74,76 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerGamepadPC;
+struct __OVRInput__InteractionProfile;
 }
 namespace GlobalNamespace {
-struct __OVRInput__Controller;
+struct __OVRInput__HapticsPcmVibration;
 }
 namespace GlobalNamespace {
-struct __OVRInput__RawAxis1D;
+struct __OVRInput__RawButton;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Hand;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerRTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__ControllerInHandState;
+}
+namespace GlobalNamespace {
+struct __OVRInput__HapticsAmplitudeEnvelopeVibration;
+}
+namespace GlobalNamespace {
+class __OVRInput__OVRControllerGamepadAndroid;
+}
+namespace GlobalNamespace {
+struct __OVRInput__Axis2D;
+}
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRControllerDetails;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawNearTouch;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Step;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
-struct __OVRInput__Axis1D;
+struct __OVRInput__Controller;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
+namespace GlobalNamespace {
+struct __OVRInput__OpenVRButton;
 }
 namespace GlobalNamespace {
-class __OVRInput__OVRControllerTouch;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Version;
+class __OVRInput__OVRControllerHands;
 }
 namespace GlobalNamespace {
-struct __OVRInput__Touch;
+struct __OVRInput__NearTouch;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
-struct __OVRInput__InputDeviceShowState;
+class __OVRInput__OVRControllerLTouch;
+}
+namespace GlobalNamespace {
+struct __OVRInput__RawAxis2D;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualAxis2DMap;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ControllerState6;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualButtonMap;
@@ -150,9 +153,6 @@ class __OVRInput__OVRControllerBase__VirtualNearTouchMap;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualAxis1DMap;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState6;
 }
 namespace GlobalNamespace {
 class __OVRInput__OVRControllerBase__VirtualTouchMap;
@@ -1913,8 +1913,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Ope
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7607)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(8696)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7608)) CS Name: ::OVRInput::OpenVRControllerDetails
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8696)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7607))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7608)) CS Name: ::OVRInput::OpenVRControllerDetails
 struct CORDL_TYPE __OVRInput__OpenVRControllerDetails {
 public:
   // Declarations
@@ -1956,7 +1956,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Ope
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7609))
 // CS Name: ::OVRInput::HapticInfo*
 class CORDL_TYPE __OVRInput__HapticInfo : public ::System::Object {
@@ -2051,7 +2051,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__Hap
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7610))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualButtonMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualButtonMap : public ::System::Object {
@@ -2679,7 +2679,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVR
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7592)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7592))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7612))
 // CS Name: ::OVRInput::OVRControllerBase::VirtualNearTouchMap*
 class CORDL_TYPE __OVRInput__OVRControllerBase__VirtualNearTouchMap : public ::System::Object {
@@ -3093,7 +3093,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVR
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7730)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7730))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7615))
 // CS Name: ::OVRInput::OVRControllerBase*
 class CORDL_TYPE __OVRInput__OVRControllerBase : public ::System::Object {
@@ -3780,7 +3780,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRInput__OVR
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7709)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7709)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7598))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7625))
 // CS Name: ::OVRInput*
 class CORDL_TYPE OVRInput : public ::System::Object {

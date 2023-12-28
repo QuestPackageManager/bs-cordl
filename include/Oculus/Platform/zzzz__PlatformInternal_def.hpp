@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformInternal)
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace Oculus::Platform {
-struct __Message__MessageType;
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform {
 class __PlatformInternal__HTTP;
 }
 namespace Oculus::Platform {
-class __PlatformInternal__Users;
-}
-namespace Oculus::Platform {
 struct __PlatformInternal__MessageTypeInternal;
 }
 namespace Oculus::Platform {
+class __PlatformInternal__Users;
+}
+namespace Oculus::Platform {
+struct __Message__MessageType;
+}
+namespace Oculus::Platform {
 class Message;
-}
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
-namespace Oculus::Platform::Models {
-class HttpTransferUpdate;
 }
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
-class LinkedAccountList;
+class HttpTransferUpdate;
 }
 namespace Oculus::Platform {
 struct ServiceProvider;
+}
+namespace Oculus::Platform::Models {
+class LinkedAccountList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

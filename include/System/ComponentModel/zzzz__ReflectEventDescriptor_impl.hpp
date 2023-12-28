@@ -84,75 +84,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void System::ComponentModel::ReflectEventDescriptor::__set__type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__get__componentClass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentClass;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__get__componentClass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentClass;
 }
 constexpr void System::ComponentModel::ReflectEventDescriptor::__set__componentClass(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____componentClass)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEventDescriptor::__get__addMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addMethod;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__get__addMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addMethod;
 }
 constexpr void System::ComponentModel::ReflectEventDescriptor::__set__addMethod(::System::Reflection::MethodInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____addMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEventDescriptor::__get__removeMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeMethod;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__get__removeMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeMethod;
 }
 constexpr void System::ComponentModel::ReflectEventDescriptor::__set__removeMethod(::System::Reflection::MethodInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____removeMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::EventInfo*& System::ComponentModel::ReflectEventDescriptor::__get__realEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____realEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::EventInfo*> const& System::ComponentModel::ReflectEventDescriptor::__get__realEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____realEvent;
 }
 constexpr void System::ComponentModel::ReflectEventDescriptor::__set__realEvent(::System::Reflection::EventInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____realEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::ComponentModel::ReflectEventDescriptor::__get__filledMethods() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filledMethods;
 }
 constexpr bool const& System::ComponentModel::ReflectEventDescriptor::__get__filledMethods() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filledMethods;
 }
 constexpr void System::ComponentModel::ReflectEventDescriptor::__set__filledMethods(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____filledMethods = value;
 }
 inline ::System::ComponentModel::ReflectEventDescriptor* System::ComponentModel::ReflectEventDescriptor::New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo) {

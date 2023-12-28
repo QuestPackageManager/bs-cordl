@@ -39,15 +39,15 @@ constexpr HoudiniEngineUnity::Test_HAPI_NodeInfo::operator ::HoudiniEngineUnity:
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::HAPI_NodeInfo& HoudiniEngineUnity::Test_HAPI_NodeInfo::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::HoudiniEngineUnity::HAPI_NodeInfo const& HoudiniEngineUnity::Test_HAPI_NodeInfo::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_HAPI_NodeInfo::__set_self(::HoudiniEngineUnity::HAPI_NodeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self = value;
 }
 inline ::HoudiniEngineUnity::Test_HAPI_NodeInfo* HoudiniEngineUnity::Test_HAPI_NodeInfo::New_ctor(::HoudiniEngineUnity::HAPI_NodeInfo self) {

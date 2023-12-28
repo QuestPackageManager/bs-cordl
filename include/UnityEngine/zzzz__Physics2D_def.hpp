@@ -12,10 +12,7 @@ namespace UnityEngine {
 class Rigidbody2D;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct PhysicsScene2D;
+struct ContactFilter2D;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -24,7 +21,10 @@ namespace UnityEngine {
 struct RaycastHit2D;
 }
 namespace UnityEngine {
-struct ContactFilter2D;
+struct PhysicsScene2D;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Ray;

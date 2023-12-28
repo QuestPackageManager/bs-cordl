@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RotationLimitSpline)
 namespace UnityEngine {
-struct Quaternion;
+struct Keyframe;
 }
 namespace UnityEngine {
-struct Keyframe;
+struct Quaternion;
 }
 namespace UnityEngine {
 class AnimationCurve;

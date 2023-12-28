@@ -5,18 +5,18 @@
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
-#include "System/Net/Http/zzzz__HttpContent_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Net/zzzz__TransportContext_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpContentHeaders_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__TransportContext_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::__HttpContent__FixedMemoryStream._ctor
 template <>
@@ -81,15 +81,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::Net::Http::__HttpContent__FixedMemoryStream::__get_maxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxSize;
 }
 constexpr int64_t const& System::Net::Http::__HttpContent__FixedMemoryStream::__get_maxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxSize;
 }
 constexpr void System::Net::Http::__HttpContent__FixedMemoryStream::__set_maxSize(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxSize = value;
 }
 inline ::System::Net::Http::__HttpContent__FixedMemoryStream* System::Net::Http::__HttpContent__FixedMemoryStream::New_ctor(int64_t maxSize) {
@@ -466,39 +466,39 @@ constexpr System::Net::Http::HttpContent::operator ::System::IDisposable*() noex
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::Http::__HttpContent__FixedMemoryStream*& System::Net::Http::HttpContent::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::__HttpContent__FixedMemoryStream*> const& System::Net::Http::HttpContent::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void System::Net::Http::HttpContent::__set_buffer(::System::Net::Http::__HttpContent__FixedMemoryStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Http::HttpContent::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& System::Net::Http::HttpContent::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void System::Net::Http::HttpContent::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 constexpr ::System::Net::Http::Headers::HttpContentHeaders*& System::Net::Http::HttpContent::__get_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpContentHeaders*> const& System::Net::Http::HttpContent::__get_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr void System::Net::Http::HttpContent::__set_headers(::System::Net::Http::Headers::HttpContentHeaders* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::HttpContentHeaders* System::Net::Http::HttpContent::get_Headers() {

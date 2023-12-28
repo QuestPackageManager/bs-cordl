@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerCenterTextAnimator)
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace Tweening {
-class TimeTweeningManager;
+class Transform;
 }
 namespace TMPro {
 class TextMeshPro;
 }
-namespace UnityEngine {
-struct Color;
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace UnityEngine {
-class Transform;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

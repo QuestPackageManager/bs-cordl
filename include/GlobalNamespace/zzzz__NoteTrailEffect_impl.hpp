@@ -82,51 +82,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::NoteTrailEffect::__get__particlesPerFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particlesPerFrame;
 }
 constexpr int32_t const& GlobalNamespace::NoteTrailEffect::__get__particlesPerFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particlesPerFrame;
 }
 constexpr void GlobalNamespace::NoteTrailEffect::__set__particlesPerFrame(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____particlesPerFrame = value;
 }
 constexpr float_t& GlobalNamespace::NoteTrailEffect::__get__maxSpawnDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxSpawnDistance;
 }
 constexpr float_t const& GlobalNamespace::NoteTrailEffect::__get__maxSpawnDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxSpawnDistance;
 }
 constexpr void GlobalNamespace::NoteTrailEffect::__set__maxSpawnDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxSpawnDistance = value;
 }
 constexpr ::GlobalNamespace::NoteMovement*& GlobalNamespace::NoteTrailEffect::__get__noteMovement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteMovement;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteMovement*> const& GlobalNamespace::NoteTrailEffect::__get__noteMovement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteMovement;
 }
 constexpr void GlobalNamespace::NoteTrailEffect::__set__noteMovement(::GlobalNamespace::NoteMovement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteMovement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteTrailParticleSystem*& GlobalNamespace::NoteTrailEffect::__get__noteTrailParticleSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteTrailParticleSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteTrailParticleSystem*> const& GlobalNamespace::NoteTrailEffect::__get__noteTrailParticleSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteTrailParticleSystem;
 }
 constexpr void GlobalNamespace::NoteTrailEffect::__set__noteTrailParticleSystem(::GlobalNamespace::NoteTrailParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteTrailParticleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::NoteTrailEffect::Awake() {

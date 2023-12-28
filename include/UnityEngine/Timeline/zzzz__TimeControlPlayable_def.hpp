@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(TimeControlPlayable)
 namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
-namespace UnityEngine::Timeline {
-class ITimeControl;
-}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Timeline {
+class ITimeControl;
 }
 namespace UnityEngine::Playables {
 struct FrameData;

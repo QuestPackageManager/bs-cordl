@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IStylePainter)
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
+class ITextHandle;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
 }
 namespace UnityEngine::UIElements {
-class ITextHandle;
-}
-namespace System {
-class Action;
+struct __MeshGenerationContextUtils__RectangleParams;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

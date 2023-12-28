@@ -56,15 +56,15 @@ constexpr System::Security::AccessControl::PrivilegeNotHeldException::operator :
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Security::AccessControl::PrivilegeNotHeldException::__get__privilegeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privilegeName;
 }
 constexpr ::StringW const& System::Security::AccessControl::PrivilegeNotHeldException::__get__privilegeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privilegeName;
 }
 constexpr void System::Security::AccessControl::PrivilegeNotHeldException::__set__privilegeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____privilegeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::AccessControl::PrivilegeNotHeldException* System::Security::AccessControl::PrivilegeNotHeldException::New_ctor() {

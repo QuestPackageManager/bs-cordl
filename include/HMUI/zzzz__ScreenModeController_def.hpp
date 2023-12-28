@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScreenModeController)
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace HMUI {
-class CurvedCanvasSettings;
+class ScreenModeData;
 }
 namespace HMUI {
-class ScreenModeData;
+class CurvedCanvasSettings;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace HMUI {

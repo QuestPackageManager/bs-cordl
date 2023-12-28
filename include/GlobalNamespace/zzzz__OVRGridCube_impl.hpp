@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGridCube_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRGridCube.Update
 template <>
 
@@ -86,135 +86,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::KeyCode& GlobalNamespace::OVRGridCube::__get_GridKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___GridKey;
 }
 constexpr ::UnityEngine::KeyCode const& GlobalNamespace::OVRGridCube::__get_GridKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___GridKey;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_GridKey(::UnityEngine::KeyCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___GridKey = value;
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRGridCube::__get_CubeGrid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeGrid;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRGridCube::__get_CubeGrid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeGrid;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_CubeGrid(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CubeGrid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRGridCube::__get_CubeGridOn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeGridOn;
 }
 constexpr bool const& GlobalNamespace::OVRGridCube::__get_CubeGridOn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeGridOn;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_CubeGridOn(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CubeGridOn = value;
 }
 constexpr bool& GlobalNamespace::OVRGridCube::__get_CubeSwitchColorOld() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeSwitchColorOld;
 }
 constexpr bool const& GlobalNamespace::OVRGridCube::__get_CubeSwitchColorOld() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeSwitchColorOld;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_CubeSwitchColorOld(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CubeSwitchColorOld = value;
 }
 constexpr bool& GlobalNamespace::OVRGridCube::__get_CubeSwitchColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeSwitchColor;
 }
 constexpr bool const& GlobalNamespace::OVRGridCube::__get_CubeSwitchColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CubeSwitchColor;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_CubeSwitchColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CubeSwitchColor = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGridCube::__get_gridSizeX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridSizeX;
 }
 constexpr int32_t const& GlobalNamespace::OVRGridCube::__get_gridSizeX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridSizeX;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_gridSizeX(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gridSizeX = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGridCube::__get_gridSizeY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridSizeY;
 }
 constexpr int32_t const& GlobalNamespace::OVRGridCube::__get_gridSizeY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridSizeY;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_gridSizeY(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gridSizeY = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGridCube::__get_gridSizeZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridSizeZ;
 }
 constexpr int32_t const& GlobalNamespace::OVRGridCube::__get_gridSizeZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridSizeZ;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_gridSizeZ(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gridSizeZ = value;
 }
 constexpr float_t& GlobalNamespace::OVRGridCube::__get_gridScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridScale;
 }
 constexpr float_t const& GlobalNamespace::OVRGridCube::__get_gridScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gridScale;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_gridScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gridScale = value;
 }
 constexpr float_t& GlobalNamespace::OVRGridCube::__get_cubeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeScale;
 }
 constexpr float_t const& GlobalNamespace::OVRGridCube::__get_cubeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeScale;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_cubeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cubeScale = value;
 }
 constexpr ::GlobalNamespace::OVRCameraRig*& GlobalNamespace::OVRGridCube::__get_CameraController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& GlobalNamespace::OVRGridCube::__get_CameraController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CameraController;
 }
 constexpr void GlobalNamespace::OVRGridCube::__set_CameraController(::GlobalNamespace::OVRCameraRig* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CameraController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRGridCube::Update() {

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RemotingProxy_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
-#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ConstructionCall_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Proxies::RemotingProxy._ctor
 template <>
 
@@ -140,39 +140,39 @@ constexpr System::Runtime::Remoting::Proxies::RemotingProxy::operator ::System::
   return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::Proxies::RemotingProxy::__get__sink() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sink;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& System::Runtime::Remoting::Proxies::RemotingProxy::__get__sink() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sink;
 }
 constexpr void System::Runtime::Remoting::Proxies::RemotingProxy::__set__sink(::System::Runtime::Remoting::Messaging::IMessageSink* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sink)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Remoting::Proxies::RemotingProxy::__get__hasEnvoySink() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasEnvoySink;
 }
 constexpr bool const& System::Runtime::Remoting::Proxies::RemotingProxy::__get__hasEnvoySink() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasEnvoySink;
 }
 constexpr void System::Runtime::Remoting::Proxies::RemotingProxy::__set__hasEnvoySink(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasEnvoySink = value;
 }
 constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall*& System::Runtime::Remoting::Proxies::RemotingProxy::__get__ctorCall() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ctorCall;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::ConstructionCall*> const& System::Runtime::Remoting::Proxies::RemotingProxy::__get__ctorCall() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ctorCall;
 }
 constexpr void System::Runtime::Remoting::Proxies::RemotingProxy::__set__ctorCall(::System::Runtime::Remoting::Messaging::ConstructionCall* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ctorCall)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::Remoting::Proxies::RemotingProxy::setStaticF__cache_GetTypeMethod(::System::Reflection::MethodInfo* value) {

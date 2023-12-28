@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::PlayerSessionInfo);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13013))
 // CS Name: ::BGNet.Core.GameLift::PlayerSessionInfo*
 class CORDL_TYPE PlayerSessionInfo : public ::System::Object {

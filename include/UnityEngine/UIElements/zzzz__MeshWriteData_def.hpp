@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshWriteData)
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
 }
 namespace UnityEngine {
 struct Rect;
@@ -28,9 +28,9 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshWriteData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
 class CORDL_TYPE MeshWriteData : public ::System::Object {
 public:
   // Declarations

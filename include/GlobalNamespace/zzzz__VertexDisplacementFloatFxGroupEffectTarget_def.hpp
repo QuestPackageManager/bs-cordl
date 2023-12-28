@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(VertexDisplacementFloatFxGroupEffectTarget)
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
 namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
 struct Vector4;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 CORDL_MODULE_EXPORT(UnixIPInterfaceProperties)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Net::NetworkInformation {
 class UnixNetworkInterface;
 }
 namespace System::Net {
 class IPAddress;
 }
-namespace System::Net::NetworkInformation {
-class UnicastIPAddressInformationCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace System::Net::NetworkInformation {
+class UnicastIPAddressInformationCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

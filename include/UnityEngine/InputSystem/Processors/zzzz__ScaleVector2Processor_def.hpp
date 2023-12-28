@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ScaleVector2Processor)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {

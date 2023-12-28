@@ -2,20 +2,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
-#include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
+#include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements.get_environmentInfos
 template <>
@@ -63,54 +63,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get_label() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___label;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get_label() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___label;
 }
 constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__set_label(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___label)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::SimpleTextDropdown*& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get_simpleTextDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTextDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get_simpleTextDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTextDropdown;
 }
 constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__set_simpleTextDropdown(::HMUI::SimpleTextDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___simpleTextDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentTypeSO*& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get_environmentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentType;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentTypeSO*> const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get_environmentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentType;
 }
 constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__set_environmentType(::GlobalNamespace::EnvironmentTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*&
 GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get__environmentInfos_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfos_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*> const&
 GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__get__environmentInfos_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfos_k__BackingField;
 }
 constexpr void
 GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__set__environmentInfos_k__BackingField(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentInfos_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::get_environmentInfos() {
@@ -328,115 +328,115 @@ constexpr GlobalNamespace::EnvironmentOverrideSettingsPanelController::operator 
   return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__overrideEnvironmentsToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentsToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__overrideEnvironmentsToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentsToggle;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__overrideEnvironmentsToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideEnvironmentsToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__elementsGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementsGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__elementsGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementsGO;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__elementsGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementsGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*>&
 GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__elements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 constexpr ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*> const&
 GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__elements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__elements(
     ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::PanelAnimationSO*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__presentPanelAnimation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____presentPanelAnimation;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__presentPanelAnimation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____presentPanelAnimation;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__presentPanelAnimation(::HMUI::PanelAnimationSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____presentPanelAnimation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::PanelAnimationSO*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__dismissPanelAnimation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dismissPanelAnimation;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__dismissPanelAnimation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dismissPanelAnimation;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__dismissPanelAnimation(::HMUI::PanelAnimationSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dismissPanelAnimation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentsListSO*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__allEnvironments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allEnvironments;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListSO*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__allEnvironments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allEnvironments;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__allEnvironments(::GlobalNamespace::EnvironmentsListSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allEnvironments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAnalyticsModel*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__analyticsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__analyticsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OverrideEnvironmentSettings*& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__overrideEnvironmentSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OverrideEnvironmentSettings*> const&
 GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__overrideEnvironmentSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentSettings;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__overrideEnvironmentSettings(::GlobalNamespace::OverrideEnvironmentSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideEnvironmentSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 inline ::GlobalNamespace::OverrideEnvironmentSettings* GlobalNamespace::EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings() {

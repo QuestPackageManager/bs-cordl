@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(TransitionData)
 namespace UnityEngine::UIElements {
 struct TimeValue;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::UIElements {
 struct StylePropertyName;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
-namespace UnityEngine::UIElements {
 struct EasingFunction;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

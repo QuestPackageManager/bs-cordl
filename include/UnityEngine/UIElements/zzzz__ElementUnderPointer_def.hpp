@@ -11,19 +11,19 @@ namespace UnityEngine::UIElements {
 class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventDispatcher;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventDispatcher;
+class IPointerEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;

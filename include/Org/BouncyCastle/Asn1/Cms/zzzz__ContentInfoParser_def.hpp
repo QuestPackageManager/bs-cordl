@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentInfoParser)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObjectParser;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1TaggedObjectParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

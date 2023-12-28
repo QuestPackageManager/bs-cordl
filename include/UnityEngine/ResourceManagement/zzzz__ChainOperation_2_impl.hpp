@@ -4,128 +4,128 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_impl.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ChainOperation_2_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_DepOp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DepOp;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> const&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_DepOp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DepOp;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr void
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_DepOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DepOp = value;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_WrappedOp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WrappedOp;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> const&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_WrappedOp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WrappedOp;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr void
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_WrappedOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WrappedOp = value;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_depStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_depStatus;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_depStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_depStatus;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_depStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_depStatus = value;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_wrapStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_wrapStatus;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_wrapStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_wrapStatus;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_wrapStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_wrapStatus = value;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                            ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                                                                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_Callback(
     ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_CachedOnWrappedCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedOnWrappedCompleted;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_CachedOnWrappedCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedOnWrappedCompleted;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_CachedOnWrappedCompleted(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedOnWrappedCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject, typename TObjectDependency> constexpr bool& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_ReleaseDependenciesOnFailure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
 }
 template <typename TObject, typename TObjectDependency>
 constexpr bool const& UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__get_m_ReleaseDependenciesOnFailure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseDependenciesOnFailure;
 }
 template <typename TObject, typename TObjectDependency> constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__set_m_ReleaseDependenciesOnFailure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReleaseDependenciesOnFailure = value;
 }
 template <typename TObject, typename TObjectDependency>

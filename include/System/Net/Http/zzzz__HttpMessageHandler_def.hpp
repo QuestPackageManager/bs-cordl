@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(HttpMessageHandler)
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
+namespace System::Net::Http {
+class HttpResponseMessage;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Net::Http {
-class HttpResponseMessage;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Http {

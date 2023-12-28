@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandBufferOwners)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
-namespace UnityEngine {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

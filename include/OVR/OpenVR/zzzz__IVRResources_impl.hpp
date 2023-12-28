@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__IVRResources___LoadSharedResource._ctor
 template <>

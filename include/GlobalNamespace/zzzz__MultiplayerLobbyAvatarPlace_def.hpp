@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarPlace)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarPlace__Pool;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,8 +68,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobb
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2821 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5224)) CS Name: ::MultiplayerLobbyAvatarPlace::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(5225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2821 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5224)) CS Name: ::MultiplayerLobbyAvatarPlace::Pool*
 class CORDL_TYPE __MultiplayerLobbyAvatarPlace__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*> {
 public:
   // Declarations

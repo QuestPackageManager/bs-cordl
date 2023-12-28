@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateID)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertID;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;

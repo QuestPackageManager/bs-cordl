@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TriggerFloatFxGroupEffectManager)
 namespace GlobalNamespace {
-class TriggerFloatFxGroupEffect;
+class __TriggerFloatFxGroupEffectManager____c;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace GlobalNamespace {
+class FloatFxGroup;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __TriggerFloatFxGroupEffectManager____c;
-}
-namespace GlobalNamespace {
-class FloatFxGroup;
+class TriggerFloatFxGroupEffect;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

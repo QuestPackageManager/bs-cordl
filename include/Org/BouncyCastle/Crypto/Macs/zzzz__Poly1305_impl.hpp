@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__Poly1305_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Macs::Poly1305._ctor
 template <>
 
@@ -184,267 +184,267 @@ constexpr Org::BouncyCastle::Crypto::Macs::Poly1305::operator ::Org::BouncyCastl
   return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_cipher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_cipher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cipher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_singleByte() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___singleByte;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_singleByte() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___singleByte;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_singleByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___singleByte)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r0;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r0;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_r0(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r0 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r1;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r1;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_r1(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r1 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r2;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r2;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_r2(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r2 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r3;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r3;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_r3(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r3 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r4;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_r4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r4;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_r4(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r4 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s1;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s1;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_s1(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s1 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s2;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s2;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_s2(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s2 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s3;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s3;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_s3(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s3 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s4;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_s4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s4;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_s4(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s4 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k0;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k0;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_k0(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k0 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k1;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k1;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_k1(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k1 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k2;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k2;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_k2(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k2 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k3;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_k3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k3;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_k3(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k3 = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_currentBlock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentBlock;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_currentBlock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentBlock;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_currentBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentBlock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_currentBlockOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentBlockOffset;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_currentBlockOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentBlockOffset;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_currentBlockOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentBlockOffset = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h0;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h0;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_h0(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h0 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h1;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h1;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_h1(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h1 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h2;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h2;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_h2(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h2 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h3;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h3;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_h3(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h3 = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h4;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h4;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_h4(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h4 = value;
 }
 inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* Org::BouncyCastle::Crypto::Macs::Poly1305::New_ctor() {

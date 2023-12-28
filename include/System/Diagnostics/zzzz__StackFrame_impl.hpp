@@ -186,111 +186,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Diagnostics::StackFrame::__get_ilOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ilOffset;
 }
 constexpr int32_t const& System::Diagnostics::StackFrame::__get_ilOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ilOffset;
 }
 constexpr void System::Diagnostics::StackFrame::__set_ilOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ilOffset = value;
 }
 constexpr int32_t& System::Diagnostics::StackFrame::__get_nativeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeOffset;
 }
 constexpr int32_t const& System::Diagnostics::StackFrame::__get_nativeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeOffset;
 }
 constexpr void System::Diagnostics::StackFrame::__set_nativeOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nativeOffset = value;
 }
 constexpr int64_t& System::Diagnostics::StackFrame::__get_methodAddress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodAddress;
 }
 constexpr int64_t const& System::Diagnostics::StackFrame::__get_methodAddress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodAddress;
 }
 constexpr void System::Diagnostics::StackFrame::__set_methodAddress(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___methodAddress = value;
 }
 constexpr uint32_t& System::Diagnostics::StackFrame::__get_methodIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodIndex;
 }
 constexpr uint32_t const& System::Diagnostics::StackFrame::__get_methodIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodIndex;
 }
 constexpr void System::Diagnostics::StackFrame::__set_methodIndex(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___methodIndex = value;
 }
 constexpr ::System::Reflection::MethodBase*& System::Diagnostics::StackFrame::__get_methodBase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodBase;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& System::Diagnostics::StackFrame::__get_methodBase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodBase;
 }
 constexpr void System::Diagnostics::StackFrame::__set_methodBase(::System::Reflection::MethodBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___methodBase)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Diagnostics::StackFrame::__get_fileName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
 constexpr ::StringW const& System::Diagnostics::StackFrame::__get_fileName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fileName;
 }
 constexpr void System::Diagnostics::StackFrame::__set_fileName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Diagnostics::StackFrame::__get_lineNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineNumber;
 }
 constexpr int32_t const& System::Diagnostics::StackFrame::__get_lineNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineNumber;
 }
 constexpr void System::Diagnostics::StackFrame::__set_lineNumber(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineNumber = value;
 }
 constexpr int32_t& System::Diagnostics::StackFrame::__get_columnNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___columnNumber;
 }
 constexpr int32_t const& System::Diagnostics::StackFrame::__get_columnNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___columnNumber;
 }
 constexpr void System::Diagnostics::StackFrame::__set_columnNumber(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___columnNumber = value;
 }
 constexpr ::StringW& System::Diagnostics::StackFrame::__get_internalMethodName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internalMethodName;
 }
 constexpr ::StringW const& System::Diagnostics::StackFrame::__get_internalMethodName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internalMethodName;
 }
 constexpr void System::Diagnostics::StackFrame::__set_internalMethodName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___internalMethodName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool System::Diagnostics::StackFrame::get_frame_info(int32_t skip, bool needFileInfo, ByRef<::System::Reflection::MethodBase*> method, ByRef<int32_t> iloffset, ByRef<int32_t> native_offset,

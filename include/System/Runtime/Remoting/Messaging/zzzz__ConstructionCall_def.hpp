@@ -7,7 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConstructionCall)
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class IMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -15,32 +21,26 @@ class SerializationInfo;
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
 namespace System::Collections {
 class IList;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
+class IMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RemotingProxy;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

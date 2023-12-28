@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__MaskUtilities_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UI/zzzz__IClippable_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::MaskUtilities.Notify2DMaskStateChanged
 template <>
 

@@ -8,20 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeflateStream)
-namespace System::IO::Compression {
-class __DeflateStream__ReadMethod;
-}
-namespace System::IO::Compression {
-class DeflateStreamNative;
-}
-namespace System::IO {
-struct SeekOrigin;
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
 }
 namespace System {
 template <typename T> struct Memory_1;
@@ -29,35 +20,44 @@ template <typename T> struct Memory_1;
 namespace System::IO {
 class Stream;
 }
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
-}
-namespace System::IO::Compression {
-struct CompressionLevel;
-}
-namespace System::IO::Compression {
-struct CompressionMode;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::IO::Compression {
-class __DeflateStream__WriteMethod;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class Object;
+namespace System::Threading::Tasks {
+struct ValueTask;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System::IO::Compression {
+class __DeflateStream__ReadMethod;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::IO::Compression {
+class __DeflateStream__WriteMethod;
+}
+namespace System::IO::Compression {
+struct CompressionMode;
+}
+namespace System::IO::Compression {
+struct CompressionLevel;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System::IO::Compression {
+class DeflateStreamNative;
 }
 // Forward declare root types
 namespace System::IO::Compression {
@@ -165,7 +165,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Compression::__Defla
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(9546))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9546)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9550))
 // CS Name: ::System.IO.Compression::DeflateStream*
 class CORDL_TYPE DeflateStream : public ::System::IO::Stream {

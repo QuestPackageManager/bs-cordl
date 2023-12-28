@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelMask)
-namespace GlobalNamespace {
-class BitMaskSparse;
-}
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+class Object;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class BitMaskSparse;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

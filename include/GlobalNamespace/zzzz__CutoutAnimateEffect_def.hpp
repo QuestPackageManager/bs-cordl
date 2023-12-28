@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CutoutAnimateEffect)
-namespace GlobalNamespace {
-class CutoutEffect;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class __CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7;
+class CutoutEffect;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace GlobalNamespace {
+class __CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

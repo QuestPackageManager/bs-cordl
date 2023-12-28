@@ -14,47 +14,59 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelFilteringNavigationController)
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct __SelectLevelCategoryViewController__LevelCategory;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class __LevelFilteringNavigationController____c__DisplayClass53_0;
-}
 namespace GlobalNamespace {
 struct __LevelFilteringNavigationController___UpdateCustomSongs_d__54;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class __LevelFilteringNavigationController____c;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class SelectLevelCategoryViewController;
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class __LevelFilteringNavigationController____c__DisplayClass53_0;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class __LevelFilteringNavigationController____c;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __SelectLevelCategoryViewController__LevelCategory;
 }
 namespace HMUI {
 class ViewController;
+}
+namespace GlobalNamespace {
+class LevelSearchViewController;
+}
+namespace GlobalNamespace {
+class AnnotatedBeatmapLevelCollectionsViewController;
+}
+namespace GlobalNamespace {
+class SelectLevelCategoryViewController;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -62,35 +74,23 @@ class CancellationTokenSource;
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class AnnotatedBeatmapLevelCollectionsViewController;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class LevelSearchViewController;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPackCollection;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -216,9 +216,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFilterin
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 889
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4352)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5663)) CS Name:
-// ::LevelFilteringNavigationController::<UpdateCustomSongs>d__54
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 889 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4352))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5663))
+// CS Name: ::LevelFilteringNavigationController::<UpdateCustomSongs>d__54
 struct CORDL_TYPE __LevelFilteringNavigationController___UpdateCustomSongs_d__54 {
 public:
   // Declarations

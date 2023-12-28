@@ -102,15 +102,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Pkix::ReasonsMask::__get__reasons() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reasons;
 }
 constexpr int32_t const& Org::BouncyCastle::Pkix::ReasonsMask::__get__reasons() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reasons;
 }
 constexpr void Org::BouncyCastle::Pkix::ReasonsMask::__set__reasons(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reasons = value;
 }
 inline void Org::BouncyCastle::Pkix::ReasonsMask::setStaticF_AllReasons(::Org::BouncyCastle::Pkix::ReasonsMask* value) {

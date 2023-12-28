@@ -2,9 +2,9 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidReflection_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidReflection.IsPrimitive
 template <>
 

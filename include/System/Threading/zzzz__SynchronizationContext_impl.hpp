@@ -209,15 +209,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::SynchronizationContextProperties& System::Threading::SynchronizationContext::__get__props() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____props;
 }
 constexpr ::System::Threading::SynchronizationContextProperties const& System::Threading::SynchronizationContext::__get__props() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____props;
 }
 constexpr void System::Threading::SynchronizationContext::__set__props(::System::Threading::SynchronizationContextProperties value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____props = value;
 }
 inline void System::Threading::SynchronizationContext::setStaticF_s_cachedPreparedType1(::System::Type* value) {

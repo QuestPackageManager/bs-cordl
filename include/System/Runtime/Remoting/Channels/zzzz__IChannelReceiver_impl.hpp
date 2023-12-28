@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Channels/zzzz__IChannelReceiver_def.hpp"
-#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Channels::IChannelReceiver.get_ChannelData
 template <>
 

@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchSimulation)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::InputSystem {
-struct TouchPhase;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
 }
 namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
 class Pointer;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class Touchscreen;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
 namespace UnityEngine::InputSystem {
-class Touchscreen;
+struct TouchPhase;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {

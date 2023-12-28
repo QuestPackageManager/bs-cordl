@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint64_t& Oculus::Platform::Models::PartyID::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr uint64_t const& Oculus::Platform::Models::PartyID::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void Oculus::Platform::Models::PartyID::__set__cordl_ID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 inline ::Oculus::Platform::Models::PartyID* Oculus::Platform::Models::PartyID::New_ctor(void* o) {

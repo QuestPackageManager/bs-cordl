@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
-#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAsset_def.hpp"
+#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextElement.get_elementType
 template <>
 
@@ -177,75 +177,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::TextCore::Text::TextElementType& UnityEngine::TextCore::Text::TextElement::__get_m_ElementType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ElementType;
 }
 constexpr ::UnityEngine::TextCore::Text::TextElementType const& UnityEngine::TextCore::Text::TextElement::__get_m_ElementType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ElementType;
 }
 constexpr void UnityEngine::TextCore::Text::TextElement::__set_m_ElementType(::UnityEngine::TextCore::Text::TextElementType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ElementType = value;
 }
 constexpr uint32_t& UnityEngine::TextCore::Text::TextElement::__get_m_Unicode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Unicode;
 }
 constexpr uint32_t const& UnityEngine::TextCore::Text::TextElement::__get_m_Unicode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Unicode;
 }
 constexpr void UnityEngine::TextCore::Text::TextElement::__set_m_Unicode(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Unicode = value;
 }
 constexpr ::UnityEngine::TextCore::Text::TextAsset*& UnityEngine::TextCore::Text::TextElement::__get_m_TextAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::TextAsset*> const& UnityEngine::TextCore::Text::TextElement::__get_m_TextAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextAsset;
 }
 constexpr void UnityEngine::TextCore::Text::TextElement::__set_m_TextAsset(::UnityEngine::TextCore::Text::TextAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::TextCore::Glyph*& UnityEngine::TextCore::Text::TextElement::__get_m_Glyph() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Glyph;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Glyph*> const& UnityEngine::TextCore::Text::TextElement::__get_m_Glyph() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Glyph;
 }
 constexpr void UnityEngine::TextCore::Text::TextElement::__set_m_Glyph(::UnityEngine::TextCore::Glyph* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Glyph)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& UnityEngine::TextCore::Text::TextElement::__get_m_GlyphIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphIndex;
 }
 constexpr uint32_t const& UnityEngine::TextCore::Text::TextElement::__get_m_GlyphIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GlyphIndex;
 }
 constexpr void UnityEngine::TextCore::Text::TextElement::__set_m_GlyphIndex(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_GlyphIndex = value;
 }
 constexpr float_t& UnityEngine::TextCore::Text::TextElement::__get_m_Scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr float_t const& UnityEngine::TextCore::Text::TextElement::__get_m_Scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr void UnityEngine::TextCore::Text::TextElement::__set_m_Scale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Scale = value;
 }
 inline ::UnityEngine::TextCore::Text::TextElementType UnityEngine::TextCore::Text::TextElement::get_elementType() {

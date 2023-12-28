@@ -4,15 +4,15 @@
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
 template <typename T> constexpr ::Oculus::Platform::__Message_1__Callback<T>*& Oculus::Platform::Request_1<T>::__get_callback_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback_;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& Oculus::Platform::Request_1<T>::__get_callback_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback_;
 }
 template <typename T> constexpr void Oculus::Platform::Request_1<T>::__set_callback_(::Oculus::Platform::__Message_1__Callback<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::Oculus::Platform::Request_1<T>* Oculus::Platform::Request_1<T>::New_ctor(uint64_t requestID) {

@@ -3,15 +3,15 @@
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::GenericSignal_1<T>::__get__floatEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatEvent;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& GlobalNamespace::GenericSignal_1<T>::__get__floatEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatEvent;
 }
 template <typename T> constexpr void GlobalNamespace::GenericSignal_1<T>::__set__floatEvent(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline void GlobalNamespace::GenericSignal_1<T>::Raise() {

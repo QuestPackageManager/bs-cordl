@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLevelAnalytics)
 namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
+class IAnalyticsModel;
 }
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsData;

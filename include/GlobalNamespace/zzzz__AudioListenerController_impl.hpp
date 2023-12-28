@@ -80,15 +80,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::AudioListenerController::__get__startAudioListenerPauseState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startAudioListenerPauseState;
 }
 constexpr bool const& GlobalNamespace::AudioListenerController::__get__startAudioListenerPauseState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startAudioListenerPauseState;
 }
 constexpr void GlobalNamespace::AudioListenerController::__set__startAudioListenerPauseState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startAudioListenerPauseState = value;
 }
 inline bool GlobalNamespace::AudioListenerController::get_isPaused() {

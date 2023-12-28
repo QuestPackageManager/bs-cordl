@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LocalizationImporter)
-namespace Polyglot {
-struct GoogleDriveDownloadFormat;
-}
-namespace Polyglot {
-class __LocalizationImporter____c__DisplayClass5_0;
-}
-namespace Polyglot {
-class __LocalizationImporter____c__DisplayClass8_0;
-}
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Polyglot {
 class LocalizationAsset;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace Polyglot {
 class Localization;
 }
 namespace Polyglot {
-struct Language;
+class LocalizationDocument;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace Polyglot {
-class LocalizationDocument;
+struct Language;
+}
+namespace Polyglot {
+class __LocalizationImporter____c__DisplayClass5_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Polyglot {
+class __LocalizationImporter____c__DisplayClass8_0;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace Polyglot {
+struct GoogleDriveDownloadFormat;
 }
 // Forward declare root types
 namespace Polyglot {

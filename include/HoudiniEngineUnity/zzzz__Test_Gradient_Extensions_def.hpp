@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Test_Gradient_Extensions)
 namespace HoudiniEngineUnity {
 class __Test_Gradient_Extensions____c;
 }
-namespace HoudiniEngineUnity {
-class Test_Gradient;
+namespace UnityEngine {
+class Gradient;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class Gradient;
+namespace HoudiniEngineUnity {
+class Test_Gradient;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;

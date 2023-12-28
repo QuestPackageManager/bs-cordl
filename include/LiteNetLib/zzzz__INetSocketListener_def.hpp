@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetSocketListener)
-namespace System::Net::Sockets {
-struct SocketError;
-}
 namespace System::Net {
 class IPEndPoint;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 // Forward declare root types
 namespace LiteNetLib {

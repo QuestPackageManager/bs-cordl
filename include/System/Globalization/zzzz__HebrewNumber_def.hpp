@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HebrewNumber)
 namespace System::Globalization {
+struct HebrewNumberParsingContext;
+}
+namespace System::Globalization {
 struct __HebrewNumber__HebrewValue;
 }
 namespace System::Globalization {
 struct __HebrewNumber__HS;
 }
 namespace System::Globalization {
-struct __HebrewNumber__HebrewToken;
-}
-namespace System::Globalization {
 struct HebrewNumberParsingState;
 }
 namespace System::Globalization {
-struct HebrewNumberParsingContext;
+struct __HebrewNumber__HebrewToken;
 }
 // Forward declare root types
 namespace System::Globalization {

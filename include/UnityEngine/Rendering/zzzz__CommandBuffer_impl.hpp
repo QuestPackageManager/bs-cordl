@@ -3,22 +3,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBufferExecutionFlags_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__FilterMode_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBufferExecutionFlags_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::CommandBuffer.InitBuffer
 template <>
 
@@ -758,15 +758,15 @@ constexpr UnityEngine::Rendering::CommandBuffer::operator ::System::IDisposable*
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& UnityEngine::Rendering::CommandBuffer::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::Rendering::CommandBuffer::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::Rendering::CommandBuffer::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 inline void* UnityEngine::Rendering::CommandBuffer::InitBuffer() {

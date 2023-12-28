@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509Name)
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509NameEntryConverter;
+namespace System::Collections {
+class IDictionary;
 }
-namespace System::Text {
-class StringBuilder;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System::Collections {
 class IList;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509NameEntryConverter;
+}
 namespace System::Collections {
 class Hashtable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

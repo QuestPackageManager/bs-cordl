@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InstancedInput);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9653))
 // CS Name: ::HoudiniEngineUnity::HEU_InstancedInput*
 class CORDL_TYPE HEU_InstancedInput : public ::System::Object {

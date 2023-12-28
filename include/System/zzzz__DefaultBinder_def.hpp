@@ -11,43 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultBinder)
 namespace System {
-struct __DefaultBinder__Primitives;
-}
-namespace System {
-class __DefaultBinder__BinderState;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System {
-class __DefaultBinder____c;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class ParameterInfo;
+class Type;
 }
 namespace System {
 class RuntimeType;
 }
 namespace System {
-class Object;
+class __DefaultBinder__BinderState;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 struct ParameterModifier;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System {
+class __DefaultBinder____c;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System {
+struct __DefaultBinder__Primitives;
+}
+namespace System {
+class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+class FieldInfo;
 }
 namespace System {
 template <typename T> class Predicate_1;

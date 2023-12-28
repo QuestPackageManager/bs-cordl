@@ -19,27 +19,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Principal::IIdentity*& System::Security::Principal::GenericPrincipal::__get_m_identity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_identity;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IIdentity*> const& System::Security::Principal::GenericPrincipal::__get_m_identity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_identity;
 }
 constexpr void System::Security::Principal::GenericPrincipal::__set_m_identity(::System::Security::Principal::IIdentity* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_identity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Security::Principal::GenericPrincipal::__get_m_roles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_roles;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Security::Principal::GenericPrincipal::__get_m_roles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_roles;
 }
 constexpr void System::Security::Principal::GenericPrincipal::__set_m_roles(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_roles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Principal::GenericPrincipal* System::Security::Principal::GenericPrincipal::New_ctor(::System::Security::Principal::IIdentity* identity,

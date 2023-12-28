@@ -1,7 +1,7 @@
 #pragma once
 #include "System/zzzz__TypeIdentifier_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::System::TypeIdentifier.get_InternalName
 template <>
 

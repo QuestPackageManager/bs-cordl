@@ -149,15 +149,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::SecurityDocument::__get_m_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_data;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::SecurityDocument::__get_m_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_data;
 }
 constexpr void System::Security::SecurityDocument::__set_m_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::SecurityDocument* System::Security::SecurityDocument::New_ctor(int32_t numData) {

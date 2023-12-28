@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ProofOfPossessionSigningKeyBuilder)
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoSigningKey;
-}
-namespace Org::BouncyCastle::Crmf {
-class PKMacBuilder;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class CertRequest;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+class PopoSigningKey;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PKMacValue;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Crmf {
+class PKMacBuilder;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

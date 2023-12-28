@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerOtherPlayersScoreDiffTextManager)
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
+struct __MultiplayerController__State;
 }
 namespace GlobalNamespace {
-class __MultiplayerOtherPlayersScoreDiffTextManager____c;
-}
-namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class __CoreGameHUDController__InitData;
+}
+namespace GlobalNamespace {
+class __MultiplayerOtherPlayersScoreDiffTextManager____c;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;

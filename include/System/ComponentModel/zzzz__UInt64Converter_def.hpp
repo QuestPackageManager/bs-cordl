@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(UInt64Converter)
 namespace System {
 class Type;
 }
-namespace System::Globalization {
-class NumberFormatInfo;
-}
 namespace System {
 class Object;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -2,15 +2,15 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "BeatmapSaveDataVersion3/zzzz__BeatmapLightshowSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentSizeData_def.hpp"
+#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentSizeData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__BeatmapLightshowSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentInfoSO.get_sceneInfo
 template <>
 
@@ -191,148 +191,148 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::EnvironmentInfoSO::__get__environmentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentName;
 }
 constexpr ::StringW const& GlobalNamespace::EnvironmentInfoSO::__get__environmentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentName;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__environmentName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeSO*& GlobalNamespace::EnvironmentInfoSO::__get__colorScheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& GlobalNamespace::EnvironmentInfoSO::__get__colorScheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__colorScheme(::GlobalNamespace::ColorSchemeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SceneInfo*& GlobalNamespace::EnvironmentInfoSO::__get__sceneInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& GlobalNamespace::EnvironmentInfoSO::__get__sceneInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneInfo;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__sceneInfo(::GlobalNamespace::SceneInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::EnvironmentInfoSO::__get__serializedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializedName;
 }
 constexpr ::StringW const& GlobalNamespace::EnvironmentInfoSO::__get__serializedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializedName;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__serializedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::EnvironmentInfoSO::__get__environmentAssetDirectory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentAssetDirectory;
 }
 constexpr ::StringW const& GlobalNamespace::EnvironmentInfoSO::__get__environmentAssetDirectory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentAssetDirectory;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__environmentAssetDirectory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentAssetDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentTypeSO*& GlobalNamespace::EnvironmentInfoSO::__get__environmentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentType;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentTypeSO*> const& GlobalNamespace::EnvironmentInfoSO::__get__environmentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentType;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__environmentType(::GlobalNamespace::EnvironmentTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentSizeData*& GlobalNamespace::EnvironmentInfoSO::__get__environmentSizeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentSizeData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSizeData*> const& GlobalNamespace::EnvironmentInfoSO::__get__environmentSizeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentSizeData;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__environmentSizeData(::GlobalNamespace::EnvironmentSizeData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentSizeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions*& GlobalNamespace::EnvironmentInfoSO::__get__environmentIntensityReductionOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentIntensityReductionOptions;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentIntensityReductionOptions*> const& GlobalNamespace::EnvironmentInfoSO::__get__environmentIntensityReductionOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentIntensityReductionOptions;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__environmentIntensityReductionOptions(::GlobalNamespace::EnvironmentIntensityReductionOptions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentIntensityReductionOptions)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::EnvironmentInfoSO::__get__environmentKeywords() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentKeywords;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::EnvironmentInfoSO::__get__environmentKeywords() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentKeywords;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__environmentKeywords(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentKeywords)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentLightGroups*& GlobalNamespace::EnvironmentInfoSO::__get__lightGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentLightGroups*> const& GlobalNamespace::EnvironmentInfoSO::__get__lightGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroups;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__lightGroups(::GlobalNamespace::EnvironmentLightGroups* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::DefaultEnvironmentEvents*& GlobalNamespace::EnvironmentInfoSO::__get__defaultEnvironmentEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultEnvironmentEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultEnvironmentEvents*> const& GlobalNamespace::EnvironmentInfoSO::__get__defaultEnvironmentEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultEnvironmentEvents;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__defaultEnvironmentEvents(::GlobalNamespace::DefaultEnvironmentEvents* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultEnvironmentEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*& GlobalNamespace::EnvironmentInfoSO::__get__defaultLightshowSaveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLightshowSaveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*> const& GlobalNamespace::EnvironmentInfoSO::__get__defaultLightshowSaveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLightshowSaveData;
 }
 constexpr void GlobalNamespace::EnvironmentInfoSO::__set__defaultLightshowSaveData(::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultLightshowSaveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::SceneInfo* GlobalNamespace::EnvironmentInfoSO::get_sceneInfo() {

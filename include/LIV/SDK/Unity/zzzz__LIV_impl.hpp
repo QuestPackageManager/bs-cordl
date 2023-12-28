@@ -5,18 +5,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKRender_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKRender_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68._ctor
 template <>
 
@@ -116,39 +116,39 @@ constexpr LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::operator ::Syst
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LIV::SDK::Unity::LIV*& LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::LIV::SDK::Unity::LIV*> const& LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::__set___4__this(::LIV::SDK::Unity::LIV* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68* LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68::New_ctor(int32_t __1__state) {
@@ -721,315 +721,315 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& LIV::SDK::Unity::LIV::__get_onActivate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onActivate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& LIV::SDK::Unity::LIV::__get_onActivate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onActivate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onActivate(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onActivate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& LIV::SDK::Unity::LIV::__get_onPreRender() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPreRender;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LIV::SDK::Unity::SDKRender*>*> const& LIV::SDK::Unity::LIV::__get_onPreRender() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPreRender;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onPreRender(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onPreRender)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& LIV::SDK::Unity::LIV::__get_onPreRenderBackground() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPreRenderBackground;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LIV::SDK::Unity::SDKRender*>*> const& LIV::SDK::Unity::LIV::__get_onPreRenderBackground() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPreRenderBackground;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onPreRenderBackground(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onPreRenderBackground)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& LIV::SDK::Unity::LIV::__get_onPostRenderBackground() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPostRenderBackground;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LIV::SDK::Unity::SDKRender*>*> const& LIV::SDK::Unity::LIV::__get_onPostRenderBackground() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPostRenderBackground;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onPostRenderBackground(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onPostRenderBackground)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& LIV::SDK::Unity::LIV::__get_onPreRenderForeground() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPreRenderForeground;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LIV::SDK::Unity::SDKRender*>*> const& LIV::SDK::Unity::LIV::__get_onPreRenderForeground() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPreRenderForeground;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onPreRenderForeground(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onPreRenderForeground)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& LIV::SDK::Unity::LIV::__get_onPostRenderForeground() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPostRenderForeground;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LIV::SDK::Unity::SDKRender*>*> const& LIV::SDK::Unity::LIV::__get_onPostRenderForeground() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPostRenderForeground;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onPostRenderForeground(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onPostRenderForeground)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& LIV::SDK::Unity::LIV::__get_onPostRender() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPostRender;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LIV::SDK::Unity::SDKRender*>*> const& LIV::SDK::Unity::LIV::__get_onPostRender() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onPostRender;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onPostRender(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onPostRender)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& LIV::SDK::Unity::LIV::__get_onDeactivate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDeactivate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& LIV::SDK::Unity::LIV::__get_onDeactivate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDeactivate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set_onDeactivate(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onDeactivate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& LIV::SDK::Unity::LIV::__get__stage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& LIV::SDK::Unity::LIV::__get__stage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stage;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__stage(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& LIV::SDK::Unity::LIV::__get__stageTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stageTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& LIV::SDK::Unity::LIV::__get__stageTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stageTransform;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__stageTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stageTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& LIV::SDK::Unity::LIV::__get__HMDCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HMDCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& LIV::SDK::Unity::LIV::__get__HMDCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HMDCamera;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__HMDCamera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____HMDCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& LIV::SDK::Unity::LIV::__get__MRCameraPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MRCameraPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& LIV::SDK::Unity::LIV::__get__MRCameraPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MRCameraPrefab;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__MRCameraPrefab(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MRCameraPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& LIV::SDK::Unity::LIV::__get__disableStandardAssets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableStandardAssets;
 }
 constexpr bool const& LIV::SDK::Unity::LIV::__get__disableStandardAssets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableStandardAssets;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__disableStandardAssets(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disableStandardAssets = value;
 }
 constexpr ::UnityEngine::LayerMask& LIV::SDK::Unity::LIV::__get__spectatorLayerMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatorLayerMask;
 }
 constexpr ::UnityEngine::LayerMask const& LIV::SDK::Unity::LIV::__get__spectatorLayerMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatorLayerMask;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__spectatorLayerMask(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spectatorLayerMask = value;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& LIV::SDK::Unity::LIV::__get__excludeBehaviours() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludeBehaviours;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& LIV::SDK::Unity::LIV::__get__excludeBehaviours() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludeBehaviours;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__excludeBehaviours(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____excludeBehaviours)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& LIV::SDK::Unity::LIV::__get__fixPostEffectsAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixPostEffectsAlpha;
 }
 constexpr bool const& LIV::SDK::Unity::LIV::__get__fixPostEffectsAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixPostEffectsAlpha;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__fixPostEffectsAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fixPostEffectsAlpha = value;
 }
 constexpr bool& LIV::SDK::Unity::LIV::__get__isActive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActive;
 }
 constexpr bool const& LIV::SDK::Unity::LIV::__get__isActive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActive;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__isActive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isActive = value;
 }
 constexpr ::LIV::SDK::Unity::SDKRender*& LIV::SDK::Unity::LIV::__get__render() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____render;
 }
 constexpr ::cordl_internals::to_const_pointer<::LIV::SDK::Unity::SDKRender*> const& LIV::SDK::Unity::LIV::__get__render() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____render;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__render(::LIV::SDK::Unity::SDKRender* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____render)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& LIV::SDK::Unity::LIV::__get__wasReady() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wasReady;
 }
 constexpr bool const& LIV::SDK::Unity::LIV::__get__wasReady() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wasReady;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__wasReady(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wasReady = value;
 }
 constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS& LIV::SDK::Unity::LIV::__get__invalidate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invalidate;
 }
 constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS const& LIV::SDK::Unity::LIV::__get__invalidate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invalidate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__invalidate(::LIV::SDK::Unity::INVALIDATION_FLAGS value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____invalidate = value;
 }
 constexpr ::UnityEngine::Transform*& LIV::SDK::Unity::LIV::__get__stageCandidate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stageCandidate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& LIV::SDK::Unity::LIV::__get__stageCandidate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stageCandidate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__stageCandidate(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stageCandidate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& LIV::SDK::Unity::LIV::__get__HMDCameraCandidate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HMDCameraCandidate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& LIV::SDK::Unity::LIV::__get__HMDCameraCandidate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HMDCameraCandidate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__HMDCameraCandidate(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____HMDCameraCandidate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& LIV::SDK::Unity::LIV::__get__MRCameraPrefabCandidate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MRCameraPrefabCandidate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& LIV::SDK::Unity::LIV::__get__MRCameraPrefabCandidate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MRCameraPrefabCandidate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__MRCameraPrefabCandidate(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MRCameraPrefabCandidate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& LIV::SDK::Unity::LIV::__get__excludeBehavioursCandidate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludeBehavioursCandidate;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& LIV::SDK::Unity::LIV::__get__excludeBehavioursCandidate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludeBehavioursCandidate;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__excludeBehavioursCandidate(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____excludeBehavioursCandidate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& LIV::SDK::Unity::LIV::__get__enabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabled;
 }
 constexpr bool const& LIV::SDK::Unity::LIV::__get__enabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabled;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__enabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enabled = value;
 }
 constexpr ::UnityEngine::Coroutine*& LIV::SDK::Unity::LIV::__get__waitForEndOfFrameCoroutine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitForEndOfFrameCoroutine;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& LIV::SDK::Unity::LIV::__get__waitForEndOfFrameCoroutine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitForEndOfFrameCoroutine;
 }
 constexpr void LIV::SDK::Unity::LIV::__set__waitForEndOfFrameCoroutine(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waitForEndOfFrameCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Transform* LIV::SDK::Unity::LIV::get_stage() {

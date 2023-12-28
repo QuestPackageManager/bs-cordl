@@ -7,8 +7,8 @@ CORDL_MODULE_EXPORT(ForDeviceEventObservable)
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T> class IObservable_1;
@@ -16,11 +16,11 @@ template <typename T> class IObservable_1;
 namespace System {
 class Type;
 }
-namespace System {
-template <typename T> class IObserver_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 class __ForDeviceEventObservable__ForDevice;

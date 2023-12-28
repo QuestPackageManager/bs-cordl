@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TransitionTimingSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5463))
 // CS Name: ::TransitionTimingSO*
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {

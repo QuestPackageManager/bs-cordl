@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__CompatibleComparer_def.hpp"
-#include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::CompatibleComparer._ctor
 template <>
 
@@ -113,27 +113,27 @@ constexpr System::Collections::Specialized::CompatibleComparer::operator ::Syste
   return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IComparer*& System::Collections::Specialized::CompatibleComparer::__get__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& System::Collections::Specialized::CompatibleComparer::__get__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 constexpr void System::Collections::Specialized::CompatibleComparer::__set__comparer(::System::Collections::IComparer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IHashCodeProvider*& System::Collections::Specialized::CompatibleComparer::__get__hcp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hcp;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IHashCodeProvider*> const& System::Collections::Specialized::CompatibleComparer::__get__hcp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hcp;
 }
 constexpr void System::Collections::Specialized::CompatibleComparer::__set__hcp(::System::Collections::IHashCodeProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hcp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Collections::Specialized::CompatibleComparer::setStaticF_defaultComparer(::System::Collections::IComparer* value) {

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ShorthandApplicator)
 namespace UnityEngine::UIElements {
-struct TimeValue;
+struct ComputedStyle;
 }
 namespace UnityEngine::UIElements {
-struct EasingFunction;
+struct Length;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 class StylePropertyReader;
 }
 namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-struct Length;
+struct TimeValue;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UIElements {
-struct ComputedStyle;
+struct EasingFunction;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

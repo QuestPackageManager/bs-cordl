@@ -9,16 +9,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class IAsyncResult;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System {
-class AsyncCallback;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

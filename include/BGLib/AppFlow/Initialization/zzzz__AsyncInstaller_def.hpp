@@ -11,10 +11,10 @@ namespace BGLib::AppFlow::Initialization {
 class __AsyncInstaller__IInstallerRegistry;
 }
 namespace Zenject {
-class ScriptableObjectInstaller;
+class MonoInstaller;
 }
 namespace Zenject {
-class MonoInstaller;
+class ScriptableObjectInstaller;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {

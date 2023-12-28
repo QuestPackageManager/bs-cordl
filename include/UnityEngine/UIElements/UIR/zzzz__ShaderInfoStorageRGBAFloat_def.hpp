@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorageRGBAFloat)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace UnityEngine::UIElements::UIR {
 class __ShaderInfoStorageRGBAFloat____c;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

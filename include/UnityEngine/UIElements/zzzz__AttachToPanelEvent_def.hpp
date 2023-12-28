@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::AttachToPanelEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7243), inst: 4819 }), TypeDefinitionIndex(TypeDefinitionIndex(7243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7243), inst: 4819 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7244))
 // CS Name: ::UnityEngine.UIElements::AttachToPanelEvent*
 class CORDL_TYPE AttachToPanelEvent : public ::UnityEngine::UIElements::PanelChangedEventBase_1<::UnityEngine::UIElements::AttachToPanelEvent*> {

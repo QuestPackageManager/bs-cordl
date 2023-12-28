@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Installer_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ActionInstaller)
+namespace Zenject {
+class DiContainer;
+}
 namespace System {
 class Object;
 }
@@ -13,9 +16,6 @@ class InjectTypeInfo;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

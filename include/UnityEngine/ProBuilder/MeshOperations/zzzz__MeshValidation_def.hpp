@@ -9,47 +9,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshValidation)
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __MeshValidation____c__DisplayClass10_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-struct __MeshValidation__AttributeValidationStrategy;
-}
-namespace UnityEngine::ProBuilder {
-struct Triangle;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::ProBuilder {
 class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __MeshValidation____c;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshValidation____c__DisplayClass5_0;
 }
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+struct __MeshValidation__AttributeValidationStrategy;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Triangle;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MeshValidation____c__DisplayClass10_0;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MeshValidation____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

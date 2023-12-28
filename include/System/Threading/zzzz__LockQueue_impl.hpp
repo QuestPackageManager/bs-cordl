@@ -58,27 +58,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::ReaderWriterLock*& System::Threading::LockQueue::__get_rwlock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rwlock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& System::Threading::LockQueue::__get_rwlock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rwlock;
 }
 constexpr void System::Threading::LockQueue::__set_rwlock(::System::Threading::ReaderWriterLock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rwlock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::LockQueue::__get_lockCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lockCount;
 }
 constexpr int32_t const& System::Threading::LockQueue::__get_lockCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lockCount;
 }
 constexpr void System::Threading::LockQueue::__set_lockCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lockCount = value;
 }
 inline ::System::Threading::LockQueue* System::Threading::LockQueue::New_ctor(::System::Threading::ReaderWriterLock* rwlock) {

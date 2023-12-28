@@ -5,11 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extensions)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__2_1;
+class JToken;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T> class __Extensions____c__1_1;
@@ -18,46 +15,49 @@ namespace System {
 class Object;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__0_1;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__3_1;
+template <typename T> class __Extensions____c__2_1;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T, typename U> class __Extensions____c__13_2;
 }
 namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace Newtonsoft::Json::Linq {
 template <typename T, typename U> class __Extensions___Values_d__11_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class IJEnumerable_1;
+template <typename T> class __Extensions____c__0_1;
 }
 namespace Newtonsoft::Json::Linq {
-class JProperty;
+template <typename T, typename U> class __Extensions___Convert_d__14_2;
+}
+namespace Newtonsoft::Json::Linq {
+class JObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class __Extensions____c;
 }
 namespace Newtonsoft::Json::Linq {
-class JObject;
+class JProperty;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Convert_d__14_2;
+template <typename T> class __Extensions____c__3_1;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class IJEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

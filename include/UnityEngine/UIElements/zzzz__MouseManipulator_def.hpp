@@ -9,10 +9,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct ManipulatorActivationFilter;
+class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
-class IMouseEvent;
+struct ManipulatorActivationFilter;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

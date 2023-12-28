@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoseState)
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+struct Vector3;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine::XR {
-struct InputTrackingState;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace UnityEngine::XR {
+struct InputTrackingState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::PoseState);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15618)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15618)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6322))
 // CS Name: ::UnityEngine.InputSystem.XR::PoseState
 #pragma pack(push, 0)

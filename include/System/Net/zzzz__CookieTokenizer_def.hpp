@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieTokenizer)
 namespace System::Net {
-struct CookieToken;
+struct __CookieTokenizer__RecognizedAttribute;
 }
 namespace System::Net {
-struct __CookieTokenizer__RecognizedAttribute;
+struct CookieToken;
 }
 // Forward declare root types
 namespace System::Net {

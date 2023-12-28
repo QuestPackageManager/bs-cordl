@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InMultiplayerRichPresenceData.get_apiName
 template <>
 
@@ -187,64 +187,64 @@ constexpr GlobalNamespace::InMultiplayerRichPresenceData::operator ::GlobalNames
   return static_cast<::GlobalNamespace::IRichPresenceData*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::InMultiplayerRichPresenceData::__get__apiName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____apiName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::InMultiplayerRichPresenceData::__get__apiName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____apiName_k__BackingField;
 }
 constexpr void GlobalNamespace::InMultiplayerRichPresenceData::__set__apiName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____apiName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::InMultiplayerRichPresenceData::__get__localizedDescription_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedDescription_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::InMultiplayerRichPresenceData::__get__localizedDescription_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedDescription_k__BackingField;
 }
 constexpr void GlobalNamespace::InMultiplayerRichPresenceData::__set__localizedDescription_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizedDescription_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::InMultiplayerRichPresenceData::__get__multiplayerSecret_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSecret_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::InMultiplayerRichPresenceData::__get__multiplayerSecret_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSecret_k__BackingField;
 }
 constexpr void GlobalNamespace::InMultiplayerRichPresenceData::__set__multiplayerSecret_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSecret_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::InMultiplayerRichPresenceData::__get__atMaxPartySize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____atMaxPartySize_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::InMultiplayerRichPresenceData::__get__atMaxPartySize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____atMaxPartySize_k__BackingField;
 }
 constexpr void GlobalNamespace::InMultiplayerRichPresenceData::__set__atMaxPartySize_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____atMaxPartySize_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::InMultiplayerRichPresenceData::__get__canInvite_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canInvite_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::InMultiplayerRichPresenceData::__get__canInvite_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canInvite_k__BackingField;
 }
 constexpr void GlobalNamespace::InMultiplayerRichPresenceData::__set__canInvite_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____canInvite_k__BackingField = value;
 }
 inline ::StringW GlobalNamespace::InMultiplayerRichPresenceData::get_apiName() {

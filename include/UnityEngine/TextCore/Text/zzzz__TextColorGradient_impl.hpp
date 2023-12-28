@@ -52,63 +52,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode& UnityEngine::TextCore::Text::TextColorGradient::__get_colorMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMode;
 }
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode const& UnityEngine::TextCore::Text::TextColorGradient::__get_colorMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMode;
 }
 constexpr void UnityEngine::TextCore::Text::TextColorGradient::__set_colorMode(::UnityEngine::TextCore::Text::ColorGradientMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMode = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::TextCore::Text::TextColorGradient::__get_topLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topLeft;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::TextCore::Text::TextColorGradient::__get_topLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topLeft;
 }
 constexpr void UnityEngine::TextCore::Text::TextColorGradient::__set_topLeft(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___topLeft = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::TextCore::Text::TextColorGradient::__get_topRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topRight;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::TextCore::Text::TextColorGradient::__get_topRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topRight;
 }
 constexpr void UnityEngine::TextCore::Text::TextColorGradient::__set_topRight(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___topRight = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::TextCore::Text::TextColorGradient::__get_bottomLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomLeft;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::TextCore::Text::TextColorGradient::__get_bottomLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomLeft;
 }
 constexpr void UnityEngine::TextCore::Text::TextColorGradient::__set_bottomLeft(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bottomLeft = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::TextCore::Text::TextColorGradient::__get_bottomRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomRight;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::TextCore::Text::TextColorGradient::__get_bottomRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomRight;
 }
 constexpr void UnityEngine::TextCore::Text::TextColorGradient::__set_bottomRight(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bottomRight = value;
 }
 inline void UnityEngine::TextCore::Text::TextColorGradient::setStaticF_k_DefaultColor(::UnityEngine::Color value) {

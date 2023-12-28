@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PS5ActivityIdsModelSO)
 namespace GlobalNamespace {
-class ProgressActivitySO;
+class CompetetiveActivitySO;
 }
 namespace GlobalNamespace {
-class CompetetiveActivitySO;
+class ProgressActivitySO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

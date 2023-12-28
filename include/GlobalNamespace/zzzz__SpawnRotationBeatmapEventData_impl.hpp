@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType::__SpawnRotationBeatmapEventData__SpawnRotationEventType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -151,39 +151,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::SpawnRotationBeatmapEventData::__get__rotation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotation_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::SpawnRotationBeatmapEventData::__get__rotation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotation_k__BackingField;
 }
 constexpr void GlobalNamespace::SpawnRotationBeatmapEventData::__set__rotation_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotation_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType& GlobalNamespace::SpawnRotationBeatmapEventData::__get_spawnRotationEventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnRotationEventType;
 }
 constexpr ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType const& GlobalNamespace::SpawnRotationBeatmapEventData::__get_spawnRotationEventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnRotationEventType;
 }
 constexpr void GlobalNamespace::SpawnRotationBeatmapEventData::__set_spawnRotationEventType(::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spawnRotationEventType = value;
 }
 constexpr float_t& GlobalNamespace::SpawnRotationBeatmapEventData::__get__deltaRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaRotation;
 }
 constexpr float_t const& GlobalNamespace::SpawnRotationBeatmapEventData::__get__deltaRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaRotation;
 }
 constexpr void GlobalNamespace::SpawnRotationBeatmapEventData::__set__deltaRotation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaRotation = value;
 }
 inline void GlobalNamespace::SpawnRotationBeatmapEventData::setStaticF__defaultCopy(::GlobalNamespace::BeatmapEventData* value) {

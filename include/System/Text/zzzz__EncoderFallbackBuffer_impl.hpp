@@ -176,87 +176,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::cordl_internals::Ptr<char16_t>& System::Text::EncoderFallbackBuffer::__get_charStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charStart;
 }
 constexpr ::cordl_internals::Ptr<char16_t> const& System::Text::EncoderFallbackBuffer::__get_charStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charStart;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_charStart(::cordl_internals::Ptr<char16_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charStart)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<char16_t>& System::Text::EncoderFallbackBuffer::__get_charEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEnd;
 }
 constexpr ::cordl_internals::Ptr<char16_t> const& System::Text::EncoderFallbackBuffer::__get_charEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEnd;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_charEnd(::cordl_internals::Ptr<char16_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charEnd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::EncoderNLS*& System::Text::EncoderFallbackBuffer::__get_encoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::EncoderNLS*> const& System::Text::EncoderFallbackBuffer::__get_encoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoder;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_encoder(::System::Text::EncoderNLS* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::EncoderFallbackBuffer::__get_setEncoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setEncoder;
 }
 constexpr bool const& System::Text::EncoderFallbackBuffer::__get_setEncoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setEncoder;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_setEncoder(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___setEncoder = value;
 }
 constexpr bool& System::Text::EncoderFallbackBuffer::__get_bUsedEncoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bUsedEncoder;
 }
 constexpr bool const& System::Text::EncoderFallbackBuffer::__get_bUsedEncoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bUsedEncoder;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_bUsedEncoder(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bUsedEncoder = value;
 }
 constexpr bool& System::Text::EncoderFallbackBuffer::__get_bFallingBack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bFallingBack;
 }
 constexpr bool const& System::Text::EncoderFallbackBuffer::__get_bFallingBack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bFallingBack;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_bFallingBack(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bFallingBack = value;
 }
 constexpr int32_t& System::Text::EncoderFallbackBuffer::__get_iRecursionCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iRecursionCount;
 }
 constexpr int32_t const& System::Text::EncoderFallbackBuffer::__get_iRecursionCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iRecursionCount;
 }
 constexpr void System::Text::EncoderFallbackBuffer::__set_iRecursionCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iRecursionCount = value;
 }
 inline bool System::Text::EncoderFallbackBuffer::Fallback(char16_t charUnknown, int32_t index) {

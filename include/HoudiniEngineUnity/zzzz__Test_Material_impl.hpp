@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_Material_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_Material._ctor
 template <>
@@ -56,15 +56,15 @@ constexpr HoudiniEngineUnity::Test_Material::operator ::HoudiniEngineUnity::IEqu
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Material*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Material*& HoudiniEngineUnity::Test_Material::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& HoudiniEngineUnity::Test_Material::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_Material::__set_self(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_Material* HoudiniEngineUnity::Test_Material::New_ctor(::UnityEngine::Material* self) {

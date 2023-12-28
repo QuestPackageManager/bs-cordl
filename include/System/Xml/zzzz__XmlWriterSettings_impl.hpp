@@ -7,18 +7,18 @@
 #include "System/Xml/zzzz__XmlStandalone_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 #include "System/Xml/zzzz__NewLineHandling_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Xml/zzzz__NamespaceHandling_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__TriState_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__NamespaceHandling_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlWriterSettings._ctor
 template <>
 
@@ -510,279 +510,279 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Xml::XmlWriterSettings::__get_useAsync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAsync;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_useAsync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAsync;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_useAsync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useAsync = value;
 }
 constexpr ::System::Text::Encoding*& System::Xml::XmlWriterSettings::__get_encoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Xml::XmlWriterSettings::__get_encoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoding;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_encoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_omitXmlDecl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___omitXmlDecl;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_omitXmlDecl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___omitXmlDecl;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_omitXmlDecl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___omitXmlDecl = value;
 }
 constexpr ::System::Xml::NewLineHandling& System::Xml::XmlWriterSettings::__get_newLineHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineHandling;
 }
 constexpr ::System::Xml::NewLineHandling const& System::Xml::XmlWriterSettings::__get_newLineHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineHandling;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_newLineHandling(::System::Xml::NewLineHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newLineHandling = value;
 }
 constexpr ::StringW& System::Xml::XmlWriterSettings::__get_newLineChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineChars;
 }
 constexpr ::StringW const& System::Xml::XmlWriterSettings::__get_newLineChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineChars;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_newLineChars(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newLineChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::TriState& System::Xml::XmlWriterSettings::__get_indent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indent;
 }
 constexpr ::System::Xml::TriState const& System::Xml::XmlWriterSettings::__get_indent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indent;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_indent(::System::Xml::TriState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indent = value;
 }
 constexpr ::StringW& System::Xml::XmlWriterSettings::__get_indentChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentChars;
 }
 constexpr ::StringW const& System::Xml::XmlWriterSettings::__get_indentChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentChars;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_indentChars(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indentChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_newLineOnAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineOnAttributes;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_newLineOnAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineOnAttributes;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_newLineOnAttributes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newLineOnAttributes = value;
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_closeOutput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closeOutput;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_closeOutput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closeOutput;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_closeOutput(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___closeOutput = value;
 }
 constexpr ::System::Xml::NamespaceHandling& System::Xml::XmlWriterSettings::__get_namespaceHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceHandling;
 }
 constexpr ::System::Xml::NamespaceHandling const& System::Xml::XmlWriterSettings::__get_namespaceHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceHandling;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_namespaceHandling(::System::Xml::NamespaceHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___namespaceHandling = value;
 }
 constexpr ::System::Xml::ConformanceLevel& System::Xml::XmlWriterSettings::__get_conformanceLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___conformanceLevel;
 }
 constexpr ::System::Xml::ConformanceLevel const& System::Xml::XmlWriterSettings::__get_conformanceLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___conformanceLevel;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_conformanceLevel(::System::Xml::ConformanceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___conformanceLevel = value;
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_checkCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_checkCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_checkCharacters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___checkCharacters = value;
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_writeEndDocumentOnClose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeEndDocumentOnClose;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_writeEndDocumentOnClose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeEndDocumentOnClose;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_writeEndDocumentOnClose(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writeEndDocumentOnClose = value;
 }
 constexpr ::System::Xml::XmlOutputMethod& System::Xml::XmlWriterSettings::__get_outputMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outputMethod;
 }
 constexpr ::System::Xml::XmlOutputMethod const& System::Xml::XmlWriterSettings::__get_outputMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outputMethod;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_outputMethod(::System::Xml::XmlOutputMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___outputMethod = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*& System::Xml::XmlWriterSettings::__get_cdataSections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cdataSections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>*> const& System::Xml::XmlWriterSettings::__get_cdataSections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cdataSections;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_cdataSections(::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cdataSections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_doNotEscapeUriAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doNotEscapeUriAttributes;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_doNotEscapeUriAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doNotEscapeUriAttributes;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_doNotEscapeUriAttributes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___doNotEscapeUriAttributes = value;
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_mergeCDataSections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mergeCDataSections;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_mergeCDataSections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mergeCDataSections;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_mergeCDataSections(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mergeCDataSections = value;
 }
 constexpr ::StringW& System::Xml::XmlWriterSettings::__get_mediaType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mediaType;
 }
 constexpr ::StringW const& System::Xml::XmlWriterSettings::__get_mediaType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mediaType;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_mediaType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mediaType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlWriterSettings::__get_docTypeSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docTypeSystem;
 }
 constexpr ::StringW const& System::Xml::XmlWriterSettings::__get_docTypeSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docTypeSystem;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_docTypeSystem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___docTypeSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlWriterSettings::__get_docTypePublic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docTypePublic;
 }
 constexpr ::StringW const& System::Xml::XmlWriterSettings::__get_docTypePublic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docTypePublic;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_docTypePublic(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___docTypePublic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlStandalone& System::Xml::XmlWriterSettings::__get_standalone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standalone;
 }
 constexpr ::System::Xml::XmlStandalone const& System::Xml::XmlWriterSettings::__get_standalone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standalone;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_standalone(::System::Xml::XmlStandalone value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___standalone = value;
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_autoXmlDecl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoXmlDecl;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_autoXmlDecl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoXmlDecl;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_autoXmlDecl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoXmlDecl = value;
 }
 constexpr bool& System::Xml::XmlWriterSettings::__get_isReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isReadOnly;
 }
 constexpr bool const& System::Xml::XmlWriterSettings::__get_isReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isReadOnly;
 }
 constexpr void System::Xml::XmlWriterSettings::__set_isReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isReadOnly = value;
 }
 inline ::System::Xml::XmlWriterSettings* System::Xml::XmlWriterSettings::New_ctor() {

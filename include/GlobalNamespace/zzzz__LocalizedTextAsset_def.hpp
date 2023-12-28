@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextAsset)
 namespace GlobalNamespace {
-class __LocalizedTextAsset____c__DisplayClass6_0;
+class __LocalizedTextAsset____c;
 }
 namespace GlobalNamespace {
 class __LocalizedTextAsset__TextInfo;
 }
 namespace GlobalNamespace {
-class __LocalizedTextAsset____c;
+class __LocalizedTextAsset____c__DisplayClass6_0;
 }
 namespace UnityEngine {
 class TextAsset;
@@ -104,7 +104,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalizedText
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5873))
 // CS Name: ::LocalizedTextAsset::<>c__DisplayClass6_0*
 class CORDL_TYPE __LocalizedTextAsset____c__DisplayClass6_0 : public ::System::Object {

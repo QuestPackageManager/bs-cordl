@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerCoreInstaller)
 namespace GlobalNamespace {
-class ScoreSyncStateManager;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
@@ -14,7 +14,7 @@ namespace GlobalNamespace {
 class MultiplayerBadgesModelSO;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class ScoreSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

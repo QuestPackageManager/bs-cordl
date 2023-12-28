@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerGameplayAnimator)
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
-class MultiplayerPositionHUDController;
-}
-namespace GlobalNamespace {
 struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class CoreGameHUDController;
 }
 namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
+class MultiplayerPositionHUDController;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
 }
 namespace Tweening {
 class FloatTween;

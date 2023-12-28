@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::GUITargetAttribute::__get_displayMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayMask;
 }
 constexpr int32_t const& UnityEngine::GUITargetAttribute::__get_displayMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayMask;
 }
 constexpr void UnityEngine::GUITargetAttribute::__set_displayMask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___displayMask = value;
 }
 inline int32_t UnityEngine::GUITargetAttribute::GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName) {

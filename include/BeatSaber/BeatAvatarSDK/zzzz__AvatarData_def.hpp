@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(AvatarData)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarData);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15680))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarData*
 class CORDL_TYPE AvatarData : public ::System::Object {

@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ActionEvent)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 struct __ActionEvent___m_ValueData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -71,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 37, calculated_native_size: 53, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6518)), TypeDefinitionIndex(TypeDefinitionIndex(6530))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6519))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ActionEvent
 #pragma pack(push, 0)

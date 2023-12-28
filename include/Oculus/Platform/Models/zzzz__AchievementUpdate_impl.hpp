@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::AchievementUpdate::__get_JustUnlocked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___JustUnlocked;
 }
 constexpr bool const& Oculus::Platform::Models::AchievementUpdate::__get_JustUnlocked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___JustUnlocked;
 }
 constexpr void Oculus::Platform::Models::AchievementUpdate::__set_JustUnlocked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___JustUnlocked = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::AchievementUpdate::__get_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AchievementUpdate::__get_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr void Oculus::Platform::Models::AchievementUpdate::__set_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::AchievementUpdate* Oculus::Platform::Models::AchievementUpdate::New_ctor(void* o) {

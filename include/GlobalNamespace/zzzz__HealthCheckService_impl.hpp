@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthCheckService_def.hpp"
 #include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
 #include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HealthCheckService._ctor
 template <>
 
@@ -73,63 +73,63 @@ constexpr GlobalNamespace::HealthCheckService::operator ::System::IDisposable*()
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::HealthCheckService::__get__port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
 }
 constexpr int32_t const& GlobalNamespace::HealthCheckService::__get__port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
 }
 constexpr void GlobalNamespace::HealthCheckService::__set__port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____port = value;
 }
 constexpr ::System::Threading::Thread*& GlobalNamespace::HealthCheckService::__get__runThread() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runThread;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& GlobalNamespace::HealthCheckService::__get__runThread() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runThread;
 }
 constexpr void GlobalNamespace::HealthCheckService::__set__runThread(::System::Threading::Thread* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____runThread)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::HealthCheckService::__get__disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr bool const& GlobalNamespace::HealthCheckService::__get__disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr void GlobalNamespace::HealthCheckService::__set__disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed = value;
 }
 constexpr ::System::Threading::ManualResetEvent*& GlobalNamespace::HealthCheckService::__get__manualResetEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manualResetEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& GlobalNamespace::HealthCheckService::__get__manualResetEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manualResetEvent;
 }
 constexpr void GlobalNamespace::HealthCheckService::__set__manualResetEvent(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____manualResetEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpListener*& GlobalNamespace::HealthCheckService::__get__listener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& GlobalNamespace::HealthCheckService::__get__listener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr void GlobalNamespace::HealthCheckService::__set__listener(::System::Net::HttpListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::HealthCheckService* GlobalNamespace::HealthCheckService::New_ctor(int32_t port) {

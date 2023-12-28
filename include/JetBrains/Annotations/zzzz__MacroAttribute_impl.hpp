@@ -100,39 +100,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& JetBrains::Annotations::MacroAttribute::__get__Expression_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Expression_k__BackingField;
 }
 constexpr ::StringW const& JetBrains::Annotations::MacroAttribute::__get__Expression_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Expression_k__BackingField;
 }
 constexpr void JetBrains::Annotations::MacroAttribute::__set__Expression_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Expression_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& JetBrains::Annotations::MacroAttribute::__get__Editable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Editable_k__BackingField;
 }
 constexpr int32_t const& JetBrains::Annotations::MacroAttribute::__get__Editable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Editable_k__BackingField;
 }
 constexpr void JetBrains::Annotations::MacroAttribute::__set__Editable_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Editable_k__BackingField = value;
 }
 constexpr ::StringW& JetBrains::Annotations::MacroAttribute::__get__Target_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Target_k__BackingField;
 }
 constexpr ::StringW const& JetBrains::Annotations::MacroAttribute::__get__Target_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Target_k__BackingField;
 }
 constexpr void JetBrains::Annotations::MacroAttribute::__set__Target_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Target_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW JetBrains::Annotations::MacroAttribute::get_Expression() {

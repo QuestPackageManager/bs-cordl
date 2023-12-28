@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScopableBindingFinalizer)
 namespace Zenject {
-class __ScopableBindingFinalizer____c__DisplayClass3_0;
+class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace Zenject {
-class __ScopableBindingFinalizer____c__DisplayClass4_0;
-}
-namespace Zenject {
-class IProvider;
+class __ScopableBindingFinalizer____c__DisplayClass3_0;
 }
 namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class BindInfo;
+class IProvider;
+}
+namespace Zenject {
+class __ScopableBindingFinalizer____c__DisplayClass4_0;
 }
 namespace System {
 class Object;

@@ -167,63 +167,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_CompressionEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CompressionEnabled;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_CompressionEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CompressionEnabled;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__set_m_CompressionEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CompressionEnabled = value;
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_CacheDirectoryOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheDirectoryOverride;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_CacheDirectoryOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheDirectoryOverride;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__set_m_CacheDirectoryOverride(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheDirectoryOverride)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_ExpirationDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExpirationDelay;
 }
 constexpr int32_t const& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_ExpirationDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExpirationDelay;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__set_m_ExpirationDelay(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ExpirationDelay = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_LimitCacheSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LimitCacheSize;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_LimitCacheSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LimitCacheSize;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__set_m_LimitCacheSize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LimitCacheSize = value;
 }
 constexpr int64_t& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_MaximumCacheSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaximumCacheSize;
 }
 constexpr int64_t const& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__get_m_MaximumCacheSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaximumCacheSize;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__set_m_MaximumCacheSize(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaximumCacheSize = value;
 }
 inline bool UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled() {

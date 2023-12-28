@@ -2,17 +2,17 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/Net/zzzz__ServicePointManager_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Net/zzzz__IPHostEntry_def.hpp"
-#include "System/Net/zzzz__ServicePointScheduler_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Net/zzzz__BindIPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Net/zzzz__ServicePointScheduler_def.hpp"
+#include "System/Net/zzzz__ServicePointManager_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 //  Writing Method size for method: ::System::Net::ServicePoint._ctor
 template <>
 
@@ -410,267 +410,267 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Uri*& System::Net::ServicePoint::__get_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::ServicePoint::__get_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr void System::Net::ServicePoint::__set_uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& System::Net::ServicePoint::__get_lastDnsResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastDnsResolve;
 }
 constexpr ::System::DateTime const& System::Net::ServicePoint::__get_lastDnsResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastDnsResolve;
 }
 constexpr void System::Net::ServicePoint::__set_lastDnsResolve(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastDnsResolve = value;
 }
 constexpr ::System::Version*& System::Net::ServicePoint::__get_protocolVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___protocolVersion;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Net::ServicePoint::__get_protocolVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___protocolVersion;
 }
 constexpr void System::Net::ServicePoint::__set_protocolVersion(::System::Version* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___protocolVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IPHostEntry*& System::Net::ServicePoint::__get_host() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___host;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPHostEntry*> const& System::Net::ServicePoint::__get_host() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___host;
 }
 constexpr void System::Net::ServicePoint::__set_host(::System::Net::IPHostEntry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___host)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::ServicePoint::__get_usesProxy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usesProxy;
 }
 constexpr bool const& System::Net::ServicePoint::__get_usesProxy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usesProxy;
 }
 constexpr void System::Net::ServicePoint::__set_usesProxy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usesProxy = value;
 }
 constexpr bool& System::Net::ServicePoint::__get_sendContinue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sendContinue;
 }
 constexpr bool const& System::Net::ServicePoint::__get_sendContinue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sendContinue;
 }
 constexpr void System::Net::ServicePoint::__set_sendContinue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sendContinue = value;
 }
 constexpr bool& System::Net::ServicePoint::__get_useConnect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useConnect;
 }
 constexpr bool const& System::Net::ServicePoint::__get_useConnect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useConnect;
 }
 constexpr void System::Net::ServicePoint::__set_useConnect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useConnect = value;
 }
 constexpr ::System::Object*& System::Net::ServicePoint::__get_hostE() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostE;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ServicePoint::__get_hostE() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostE;
 }
 constexpr void System::Net::ServicePoint::__set_hostE(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostE)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::ServicePoint::__get_useNagle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useNagle;
 }
 constexpr bool const& System::Net::ServicePoint::__get_useNagle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useNagle;
 }
 constexpr void System::Net::ServicePoint::__set_useNagle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useNagle = value;
 }
 constexpr ::System::Net::BindIPEndPoint*& System::Net::ServicePoint::__get_endPointCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPointCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::BindIPEndPoint*> const& System::Net::ServicePoint::__get_endPointCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endPointCallback;
 }
 constexpr void System::Net::ServicePoint::__set_endPointCallback(::System::Net::BindIPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endPointCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::ServicePoint::__get_tcp_keepalive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcp_keepalive;
 }
 constexpr bool const& System::Net::ServicePoint::__get_tcp_keepalive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcp_keepalive;
 }
 constexpr void System::Net::ServicePoint::__set_tcp_keepalive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tcp_keepalive = value;
 }
 constexpr int32_t& System::Net::ServicePoint::__get_tcp_keepalive_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcp_keepalive_time;
 }
 constexpr int32_t const& System::Net::ServicePoint::__get_tcp_keepalive_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcp_keepalive_time;
 }
 constexpr void System::Net::ServicePoint::__set_tcp_keepalive_time(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tcp_keepalive_time = value;
 }
 constexpr int32_t& System::Net::ServicePoint::__get_tcp_keepalive_interval() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcp_keepalive_interval;
 }
 constexpr int32_t const& System::Net::ServicePoint::__get_tcp_keepalive_interval() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcp_keepalive_interval;
 }
 constexpr void System::Net::ServicePoint::__set_tcp_keepalive_interval(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tcp_keepalive_interval = value;
 }
 constexpr bool& System::Net::ServicePoint::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& System::Net::ServicePoint::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void System::Net::ServicePoint::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 constexpr int32_t& System::Net::ServicePoint::__get_connectionLeaseTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionLeaseTimeout;
 }
 constexpr int32_t const& System::Net::ServicePoint::__get_connectionLeaseTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionLeaseTimeout;
 }
 constexpr void System::Net::ServicePoint::__set_connectionLeaseTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionLeaseTimeout = value;
 }
 constexpr int32_t& System::Net::ServicePoint::__get_receiveBufferSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receiveBufferSize;
 }
 constexpr int32_t const& System::Net::ServicePoint::__get_receiveBufferSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receiveBufferSize;
 }
 constexpr void System::Net::ServicePoint::__set_receiveBufferSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___receiveBufferSize = value;
 }
 constexpr ::System::Net::__ServicePointManager__SPKey*& System::Net::ServicePoint::__get__Key_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__ServicePointManager__SPKey*> const& System::Net::ServicePoint::__get__Key_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Key_k__BackingField;
 }
 constexpr void System::Net::ServicePoint::__set__Key_k__BackingField(::System::Net::__ServicePointManager__SPKey* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Key_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::ServicePointScheduler*& System::Net::ServicePoint::__get__Scheduler_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Scheduler_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePointScheduler*> const& System::Net::ServicePoint::__get__Scheduler_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Scheduler_k__BackingField;
 }
 constexpr void System::Net::ServicePoint::__set__Scheduler_k__BackingField(::System::Net::ServicePointScheduler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Scheduler_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::ServicePoint::__get_connectionLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionLimit;
 }
 constexpr int32_t const& System::Net::ServicePoint::__get_connectionLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionLimit;
 }
 constexpr void System::Net::ServicePoint::__set_connectionLimit(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionLimit = value;
 }
 constexpr int32_t& System::Net::ServicePoint::__get_maxIdleTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxIdleTime;
 }
 constexpr int32_t const& System::Net::ServicePoint::__get_maxIdleTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxIdleTime;
 }
 constexpr void System::Net::ServicePoint::__set_maxIdleTime(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxIdleTime = value;
 }
 constexpr ::System::Object*& System::Net::ServicePoint::__get_m_ServerCertificateOrBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ServerCertificateOrBytes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ServicePoint::__get_m_ServerCertificateOrBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ServerCertificateOrBytes;
 }
 constexpr void System::Net::ServicePoint::__set_m_ServerCertificateOrBytes(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ServerCertificateOrBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::ServicePoint::__get_m_ClientCertificateOrBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClientCertificateOrBytes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ServicePoint::__get_m_ClientCertificateOrBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClientCertificateOrBytes;
 }
 constexpr void System::Net::ServicePoint::__set_m_ClientCertificateOrBytes(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClientCertificateOrBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::ServicePoint* System::Net::ServicePoint::New_ctor(::System::Net::__ServicePointManager__SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime) {

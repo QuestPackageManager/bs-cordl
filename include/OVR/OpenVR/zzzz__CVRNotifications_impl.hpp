@@ -2,9 +2,9 @@
 #include "OVR/OpenVR/zzzz__IVRNotifications_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRNotifications_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
 #include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRNotifications._ctor
 template <>
@@ -57,15 +57,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRNotifications& OVR::OpenVR::CVRNotifications::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRNotifications const& OVR::OpenVR::CVRNotifications::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRNotifications::__set_FnTable(::OVR::OpenVR::IVRNotifications value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRNotifications* OVR::OpenVR::CVRNotifications::New_ctor(void* pInterface) {

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SequenceNode)
 namespace System::Xml::Schema {
+class BitSet;
+}
+namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
@@ -14,9 +17,6 @@ class Positions;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
-}
-namespace System::Xml::Schema {
-class BitSet;
 }
 namespace System::Xml::Schema {
 struct __SequenceNode__SequenceConstructPosContext;

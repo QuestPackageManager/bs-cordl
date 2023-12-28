@@ -2,8 +2,8 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__ContentRangeHeaderValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentRangeHeaderValue._ctor
 template <>
@@ -203,51 +203,51 @@ constexpr System::Net::Http::Headers::ContentRangeHeaderValue::operator ::System
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Net::Http::Headers::ContentRangeHeaderValue::__get_unit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unit;
 }
 constexpr ::StringW const& System::Net::Http::Headers::ContentRangeHeaderValue::__get_unit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unit;
 }
 constexpr void System::Net::Http::Headers::ContentRangeHeaderValue::__set_unit(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<int64_t>& System::Net::Http::Headers::ContentRangeHeaderValue::__get__From_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____From_k__BackingField;
 }
 constexpr ::System::Nullable_1<int64_t> const& System::Net::Http::Headers::ContentRangeHeaderValue::__get__From_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____From_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::ContentRangeHeaderValue::__set__From_k__BackingField(::System::Nullable_1<int64_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____From_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<int64_t>& System::Net::Http::Headers::ContentRangeHeaderValue::__get__Length_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Length_k__BackingField;
 }
 constexpr ::System::Nullable_1<int64_t> const& System::Net::Http::Headers::ContentRangeHeaderValue::__get__Length_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Length_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::ContentRangeHeaderValue::__set__Length_k__BackingField(::System::Nullable_1<int64_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Length_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<int64_t>& System::Net::Http::Headers::ContentRangeHeaderValue::__get__To_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____To_k__BackingField;
 }
 constexpr ::System::Nullable_1<int64_t> const& System::Net::Http::Headers::ContentRangeHeaderValue::__get__To_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____To_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::ContentRangeHeaderValue::__set__To_k__BackingField(::System::Nullable_1<int64_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____To_k__BackingField = value;
 }
 inline ::System::Net::Http::Headers::ContentRangeHeaderValue* System::Net::Http::Headers::ContentRangeHeaderValue::New_ctor() {

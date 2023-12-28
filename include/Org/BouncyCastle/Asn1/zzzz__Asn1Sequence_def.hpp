@@ -9,16 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Sequence)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __Asn1Sequence__Asn1SequenceParserImpl;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1EncodableVector;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -26,14 +17,23 @@ class IEnumerable;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Asn1 {
+class __Asn1Sequence__Asn1SequenceParserImpl;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;

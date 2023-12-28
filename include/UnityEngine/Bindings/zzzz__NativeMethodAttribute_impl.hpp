@@ -136,63 +136,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Bindings::NativeMethodAttribute::__get__Name_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Bindings::NativeMethodAttribute::__get__Name_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeMethodAttribute::__set__Name_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Bindings::NativeMethodAttribute::__get__IsThreadSafe_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsThreadSafe_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeMethodAttribute::__get__IsThreadSafe_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsThreadSafe_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeMethodAttribute::__set__IsThreadSafe_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsThreadSafe_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Bindings::NativeMethodAttribute::__get__IsFreeFunction_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsFreeFunction_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeMethodAttribute::__get__IsFreeFunction_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsFreeFunction_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeMethodAttribute::__set__IsFreeFunction_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsFreeFunction_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Bindings::NativeMethodAttribute::__get__ThrowsException_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ThrowsException_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeMethodAttribute::__get__ThrowsException_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ThrowsException_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeMethodAttribute::__set__ThrowsException_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ThrowsException_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Bindings::NativeMethodAttribute::__get__HasExplicitThis_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasExplicitThis_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeMethodAttribute::__get__HasExplicitThis_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HasExplicitThis_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeMethodAttribute::__set__HasExplicitThis_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HasExplicitThis_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::NativeMethodAttribute::set_Name(::StringW value) {

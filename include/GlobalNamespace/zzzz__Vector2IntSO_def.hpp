@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector2IntSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 3377 }), TypeDefinitionIndex(TypeDefinitionIndex(15869)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 3377 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(10244))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15873)) CS Name: ::Vector2IntSO*
 class CORDL_TYPE Vector2IntSO : public ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int> {
 public:

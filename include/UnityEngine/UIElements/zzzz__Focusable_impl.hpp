@@ -2,8 +2,8 @@
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Focusable._ctor
 template <>
 
@@ -271,63 +271,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::UIElements::Focusable::__get__focusable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____focusable_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::Focusable::__get__focusable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____focusable_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::Focusable::__set__focusable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____focusable_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::Focusable::__get__tabIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabIndex_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::Focusable::__get__tabIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabIndex_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::Focusable::__set__tabIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tabIndex_k__BackingField = value;
 }
 constexpr bool& UnityEngine::UIElements::Focusable::__get_m_DelegatesFocus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelegatesFocus;
 }
 constexpr bool const& UnityEngine::UIElements::Focusable::__get_m_DelegatesFocus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DelegatesFocus;
 }
 constexpr void UnityEngine::UIElements::Focusable::__set_m_DelegatesFocus(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DelegatesFocus = value;
 }
 constexpr bool& UnityEngine::UIElements::Focusable::__get_m_ExcludeFromFocusRing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExcludeFromFocusRing;
 }
 constexpr bool const& UnityEngine::UIElements::Focusable::__get_m_ExcludeFromFocusRing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExcludeFromFocusRing;
 }
 constexpr void UnityEngine::UIElements::Focusable::__set_m_ExcludeFromFocusRing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ExcludeFromFocusRing = value;
 }
 constexpr bool& UnityEngine::UIElements::Focusable::__get_isIMGUIContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isIMGUIContainer;
 }
 constexpr bool const& UnityEngine::UIElements::Focusable::__get_isIMGUIContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isIMGUIContainer;
 }
 constexpr void UnityEngine::UIElements::Focusable::__set_isIMGUIContainer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isIMGUIContainer = value;
 }
 inline ::UnityEngine::UIElements::Focusable* UnityEngine::UIElements::Focusable::New_ctor() {

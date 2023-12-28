@@ -8,26 +8,26 @@ CORDL_MODULE_EXPORT(InstantiateOnPrefabComponentProvider)
 namespace Zenject {
 class IProvider;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class IPrefabInstantiator;
-}
 namespace System {
 class Type;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class IPrefabInstantiator;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CompletionActionInvoker)
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -15,6 +12,9 @@ class ITaskCompletionAction;
 }
 namespace System::Threading {
 class ThreadAbortException;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

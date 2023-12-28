@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DisplayText_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::DisplayText._ctor
 template <>
 
@@ -99,27 +99,27 @@ constexpr Org::BouncyCastle::Asn1::X509::DisplayText::operator ::Org::BouncyCast
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 constexpr int32_t& Org::BouncyCastle::Asn1::X509::DisplayText::__get_contentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::X509::DisplayText::__get_contentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentType;
 }
 constexpr void Org::BouncyCastle::Asn1::X509::DisplayText::__set_contentType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentType = value;
 }
 constexpr ::Org::BouncyCastle::Asn1::IAsn1String*& Org::BouncyCastle::Asn1::X509::DisplayText::__get_contents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contents;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IAsn1String*> const& Org::BouncyCastle::Asn1::X509::DisplayText::__get_contents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contents;
 }
 constexpr void Org::BouncyCastle::Asn1::X509::DisplayText::__set_contents(::Org::BouncyCastle::Asn1::IAsn1String* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::X509::DisplayText* Org::BouncyCastle::Asn1::X509::DisplayText::New_ctor(int32_t type, ::StringW text) {

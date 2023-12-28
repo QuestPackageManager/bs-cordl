@@ -61,39 +61,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AchievementsModelSO*& GlobalNamespace::FinishTutorialAchievementHandler::__get__achievementsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementsModelSO*> const& GlobalNamespace::FinishTutorialAchievementHandler::__get__achievementsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementsModel;
 }
 constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__set__achievementsModel(::GlobalNamespace::AchievementsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::FinishTutorialAchievementHandler::__get__tutorialFinishedSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tutorialFinishedSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::FinishTutorialAchievementHandler::__get__tutorialFinishedSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tutorialFinishedSignal;
 }
 constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__set__tutorialFinishedSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tutorialFinishedSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AchievementSO*& GlobalNamespace::FinishTutorialAchievementHandler::__get__finishTutorialAchievement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishTutorialAchievement;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& GlobalNamespace::FinishTutorialAchievementHandler::__get__finishTutorialAchievement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finishTutorialAchievement;
 }
 constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__set__finishTutorialAchievement(::GlobalNamespace::AchievementSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____finishTutorialAchievement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FinishTutorialAchievementHandler::Start() {

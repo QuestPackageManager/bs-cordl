@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInformation)
 namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerID;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class DigestInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedHelper;
+}
+namespace Org::BouncyCastle::Cms {
 class IDigestCalculator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerID;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class Time;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class DigestInfo;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerInfo;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class Time;
+}
 namespace Org::BouncyCastle::Cms {
-class CmsSignedHelper;
+class SignerInformationStore;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

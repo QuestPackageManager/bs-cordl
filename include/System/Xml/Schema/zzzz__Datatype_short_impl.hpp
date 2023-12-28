@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_int_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_short_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_short.get_FacetsChecker
 template <>

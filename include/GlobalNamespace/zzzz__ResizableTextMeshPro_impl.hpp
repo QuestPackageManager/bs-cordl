@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResizableTextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ResizableTextMeshPro.Start
 template <>
 
@@ -72,39 +72,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TMP_Text*& GlobalNamespace::ResizableTextMeshPro::__get__textMeshPro() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textMeshPro;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& GlobalNamespace::ResizableTextMeshPro::__get__textMeshPro() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textMeshPro;
 }
 constexpr void GlobalNamespace::ResizableTextMeshPro::__set__textMeshPro(::TMPro::TMP_Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textMeshPro)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RectTransform*& GlobalNamespace::ResizableTextMeshPro::__get__rectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& GlobalNamespace::ResizableTextMeshPro::__get__rectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectTransform;
 }
 constexpr void GlobalNamespace::ResizableTextMeshPro::__set__rectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::ResizableTextMeshPro::__get__textExtraSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textExtraSpace;
 }
 constexpr float_t const& GlobalNamespace::ResizableTextMeshPro::__get__textExtraSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textExtraSpace;
 }
 constexpr void GlobalNamespace::ResizableTextMeshPro::__set__textExtraSpace(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textExtraSpace = value;
 }
 inline void GlobalNamespace::ResizableTextMeshPro::Start() {

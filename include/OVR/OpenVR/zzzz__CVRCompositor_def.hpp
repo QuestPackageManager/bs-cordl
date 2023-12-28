@@ -10,6 +10,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRCompositor)
 namespace OVR::OpenVR {
+struct Compositor_CumulativeStats;
+}
+namespace OVR::OpenVR {
+struct HmdColor_t;
+}
+namespace OVR::OpenVR {
+struct EVRCompositorError;
+}
+namespace OVR::OpenVR {
 struct Texture_t;
 }
 namespace OVR::OpenVR {
@@ -19,31 +28,22 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
-}
-namespace OVR::OpenVR {
 struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
-struct EVRSubmitFlags;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct EVREye;
-}
-namespace OVR::OpenVR {
-struct EVRCompositorError;
+struct TrackedDevicePose_t;
 }
 namespace OVR::OpenVR {
 struct Compositor_FrameTiming;
 }
 namespace OVR::OpenVR {
-struct Compositor_CumulativeStats;
+struct EVREye;
 }
 namespace OVR::OpenVR {
-struct HmdColor_t;
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct EVRSubmitFlags;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

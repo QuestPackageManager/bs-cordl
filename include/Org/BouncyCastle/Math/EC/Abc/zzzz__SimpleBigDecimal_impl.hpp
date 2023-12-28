@@ -378,27 +378,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::__get_bigInt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigInt;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::__get_bigInt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigInt;
 }
 constexpr void Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::__set_bigInt(::Org::BouncyCastle::Math::BigInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bigInt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::__get_scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scale;
 }
 constexpr int32_t const& Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::__get_scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scale;
 }
 constexpr void Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::__set_scale(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scale = value;
 }
 inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::GetInstance(::Org::BouncyCastle::Math::BigInteger* val, int32_t scale) {

@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::BeatmapObjectExecutionRating::__get__time_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectExecutionRating::__get__time_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapObjectExecutionRating::__set__time_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time_k__BackingField = value;
 }
 inline float_t GlobalNamespace::BeatmapObjectExecutionRating::get_time() {

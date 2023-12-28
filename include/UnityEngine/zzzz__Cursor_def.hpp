@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(Cursor)
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct CursorMode;
+struct Vector2;
 }
 namespace UnityEngine {
 struct CursorLockMode;
 }
 namespace UnityEngine {
-struct Vector2;
+struct CursorMode;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine {

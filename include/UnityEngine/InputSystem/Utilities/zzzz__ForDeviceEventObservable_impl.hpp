@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IObservable_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice._ctor
@@ -77,40 +77,40 @@ constexpr UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDe
   return static_cast<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>(static_cast<void*>(this));
 }
 constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__get_m_Observer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const&
 UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__get_m_Observer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observer;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__set_m_Observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputDevice*& UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__get_m_Device() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Device;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__get_m_Device() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Device;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__set_m_Device(::UnityEngine::InputSystem::InputDevice* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Device)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__get_m_DeviceType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__get_m_DeviceType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceType;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice::__set_m_DeviceType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice*
@@ -186,40 +186,40 @@ constexpr UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::operato
   return static_cast<::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>(static_cast<void*>(this));
 }
 constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_Source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Source;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const&
 UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_Source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Source;
 }
 constexpr void UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__set_m_Source(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputDevice*& UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_Device() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Device;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_Device() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Device;
 }
 constexpr void UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__set_m_Device(::UnityEngine::InputSystem::InputDevice* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Device)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_DeviceType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_DeviceType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceType;
 }
 constexpr void UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__set_m_DeviceType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable*

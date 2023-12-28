@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/zzzz__PermissionSet_impl.hpp"
 #include "System/Security/zzzz__NamedPermissionSet_def.hpp"
+#include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 //  Writing Method size for method: ::System::Security::NamedPermissionSet._ctor
 template <>
 
@@ -119,27 +119,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Security::NamedPermissionSet::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& System::Security::NamedPermissionSet::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Security::NamedPermissionSet::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::NamedPermissionSet::__get_description() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___description;
 }
 constexpr ::StringW const& System::Security::NamedPermissionSet::__get_description() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___description;
 }
 constexpr void System::Security::NamedPermissionSet::__set_description(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___description)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor() {

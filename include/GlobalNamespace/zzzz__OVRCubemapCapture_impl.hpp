@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCubemapCapture_def.hpp"
-#include "UnityEngine/zzzz__Cubemap_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Cubemap_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRCubemapCapture.Update
 template <>
 
@@ -78,75 +78,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRCubemapCapture::__get_autoTriggerAfterLaunch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoTriggerAfterLaunch;
 }
 constexpr bool const& GlobalNamespace::OVRCubemapCapture::__get_autoTriggerAfterLaunch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoTriggerAfterLaunch;
 }
 constexpr void GlobalNamespace::OVRCubemapCapture::__set_autoTriggerAfterLaunch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoTriggerAfterLaunch = value;
 }
 constexpr float_t& GlobalNamespace::OVRCubemapCapture::__get_autoTriggerDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoTriggerDelay;
 }
 constexpr float_t const& GlobalNamespace::OVRCubemapCapture::__get_autoTriggerDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoTriggerDelay;
 }
 constexpr void GlobalNamespace::OVRCubemapCapture::__set_autoTriggerDelay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoTriggerDelay = value;
 }
 constexpr float_t& GlobalNamespace::OVRCubemapCapture::__get_autoTriggerElapse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoTriggerElapse;
 }
 constexpr float_t const& GlobalNamespace::OVRCubemapCapture::__get_autoTriggerElapse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoTriggerElapse;
 }
 constexpr void GlobalNamespace::OVRCubemapCapture::__set_autoTriggerElapse(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoTriggerElapse = value;
 }
 constexpr ::UnityEngine::KeyCode& GlobalNamespace::OVRCubemapCapture::__get_triggeredByKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___triggeredByKey;
 }
 constexpr ::UnityEngine::KeyCode const& GlobalNamespace::OVRCubemapCapture::__get_triggeredByKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___triggeredByKey;
 }
 constexpr void GlobalNamespace::OVRCubemapCapture::__set_triggeredByKey(::UnityEngine::KeyCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___triggeredByKey = value;
 }
 constexpr ::StringW& GlobalNamespace::OVRCubemapCapture::__get_pathName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pathName;
 }
 constexpr ::StringW const& GlobalNamespace::OVRCubemapCapture::__get_pathName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pathName;
 }
 constexpr void GlobalNamespace::OVRCubemapCapture::__set_pathName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pathName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::OVRCubemapCapture::__get_cubemapSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubemapSize;
 }
 constexpr int32_t const& GlobalNamespace::OVRCubemapCapture::__get_cubemapSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubemapSize;
 }
 constexpr void GlobalNamespace::OVRCubemapCapture::__set_cubemapSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cubemapSize = value;
 }
 inline void GlobalNamespace::OVRCubemapCapture::Update() {

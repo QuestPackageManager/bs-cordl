@@ -43,15 +43,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::EmptyBoxGraphic::__get__depth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depth;
 }
 constexpr float_t const& HMUI::EmptyBoxGraphic::__get__depth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depth;
 }
 constexpr void HMUI::EmptyBoxGraphic::__set__depth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____depth = value;
 }
 inline void HMUI::EmptyBoxGraphic::OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh) {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDsaSigner)
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Crypto {
 class IDsa;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

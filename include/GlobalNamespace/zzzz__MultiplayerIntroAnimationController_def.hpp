@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerIntroAnimationController)
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreRingManager;
+}
+namespace System {
+class Random;
+}
+namespace UnityEngine {
+struct PropertyName;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace UnityEngine {
-struct PropertyName;
-}
-namespace System {
-class Random;
-}
-namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
+class MultiplayerLayoutProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -43,7 +43,7 @@ namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroAnimationController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10159))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5208))
 // CS Name: ::MultiplayerIntroAnimationController*
 class CORDL_TYPE MultiplayerIntroAnimationController : public ::UnityEngine::MonoBehaviour {

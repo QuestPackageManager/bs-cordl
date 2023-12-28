@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(SurrogateForCyclicalReference)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
-}
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializationSurrogate;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

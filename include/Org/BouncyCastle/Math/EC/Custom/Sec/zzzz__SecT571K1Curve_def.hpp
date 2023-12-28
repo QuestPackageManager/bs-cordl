@@ -11,10 +11,7 @@ namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -22,14 +19,17 @@ class BigInteger;
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecT571K1Point;
 }
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class __SecT571K1Curve__SecT571K1LookupTable;
+}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECCurve;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class __SecT571K1Curve__SecT571K1LookupTable;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

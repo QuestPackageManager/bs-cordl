@@ -25,15 +25,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__AppInitSetupData__RunMode& GlobalNamespace::AppInitSetupData::__get_runMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runMode;
 }
 constexpr ::GlobalNamespace::__AppInitSetupData__RunMode const& GlobalNamespace::AppInitSetupData::__get_runMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runMode;
 }
 constexpr void GlobalNamespace::AppInitSetupData::__set_runMode(::GlobalNamespace::__AppInitSetupData__RunMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___runMode = value;
 }
 inline ::GlobalNamespace::AppInitSetupData* GlobalNamespace::AppInitSetupData::New_ctor() {

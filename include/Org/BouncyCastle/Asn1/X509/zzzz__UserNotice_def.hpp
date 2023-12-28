@@ -8,8 +8,8 @@ CORDL_MODULE_EXPORT(UserNotice)
 namespace Org::BouncyCastle::Asn1::X509 {
 class NoticeReference;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DisplayText;
@@ -17,8 +17,8 @@ class DisplayText;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

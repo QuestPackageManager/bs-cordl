@@ -32,27 +32,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::CompilerServices::InternalsVisibleToAttribute::__get__assemblyName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assemblyName;
 }
 constexpr ::StringW const& System::Runtime::CompilerServices::InternalsVisibleToAttribute::__get__assemblyName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assemblyName;
 }
 constexpr void System::Runtime::CompilerServices::InternalsVisibleToAttribute::__set__assemblyName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assemblyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::CompilerServices::InternalsVisibleToAttribute::__get__allInternalsVisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allInternalsVisible;
 }
 constexpr bool const& System::Runtime::CompilerServices::InternalsVisibleToAttribute::__get__allInternalsVisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allInternalsVisible;
 }
 constexpr void System::Runtime::CompilerServices::InternalsVisibleToAttribute::__set__allInternalsVisible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allInternalsVisible = value;
 }
 inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor(::StringW assemblyName) {

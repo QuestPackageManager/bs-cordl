@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Voip)
-namespace Oculus::Platform {
-class VoipOptions;
+namespace Oculus::Platform::Models {
+class SystemVoipState;
 }
 namespace Oculus::Platform::Models {
 class MicrophoneAvailabilityState;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+class VoipOptions;
 }
 namespace Oculus::Platform {
 class __CAPI__FilterCallback;
 }
 namespace Oculus::Platform {
-struct VoipMuteState;
-}
-namespace Oculus::Platform {
 struct SystemVoipStatus;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
-namespace Oculus::Platform::Models {
-class SystemVoipState;
+struct VoipMuteState;
 }
 namespace Oculus::Platform {
 struct VoipDtxState;
 }
 namespace Oculus::Platform {
 struct VoipBitrate;
+}
+namespace Oculus::Platform {
+template <typename T> class __Message_1__Callback;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {

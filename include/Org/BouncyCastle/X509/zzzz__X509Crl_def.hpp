@@ -14,37 +14,37 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
-}
-namespace Org::BouncyCastle::X509 {
-class X509CrlEntry;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class CertificateList;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class IVerifierFactory;
 }
 namespace System {
 struct DateTime;
 }
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::X509 {
+class X509CrlEntry;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CertificateList;
+}
 namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
+class IVerifierFactoryProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

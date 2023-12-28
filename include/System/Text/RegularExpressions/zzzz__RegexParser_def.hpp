@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexParser)
-namespace System::Text::RegularExpressions {
-class RegexNode;
+namespace System::Collections {
+class Hashtable;
 }
-namespace System {
-class ArgumentException;
+namespace System::Text::RegularExpressions {
+class RegexCharClass;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -21,19 +21,19 @@ namespace System::Text::RegularExpressions {
 class RegexReplacement;
 }
 namespace System::Text::RegularExpressions {
-class RegexTree;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Text::RegularExpressions {
 struct RegexOptions;
 }
 namespace System::Text::RegularExpressions {
-class RegexCharClass;
+class RegexNode;
+}
+namespace System::Text::RegularExpressions {
+class RegexTree;
+}
+namespace System {
+class ArgumentException;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexParser);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8925))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8925)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8926))
 // CS Name: ::System.Text.RegularExpressions::RegexParser*
 class CORDL_TYPE RegexParser : public ::System::Object {

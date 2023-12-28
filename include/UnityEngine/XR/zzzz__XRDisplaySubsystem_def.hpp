@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRDisplaySubsystem)
-namespace UnityEngine {
-struct RenderTextureDescriptor;
-}
 namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
+}
+namespace UnityEngine {
+struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::__XRDisplaySubs
 // SizeInfo { instance_size: 216, native_size: 216, calculated_instance_size: 216, calculated_native_size: 228, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10346)), TypeDefinitionIndex(TypeDefinitionIndex(10089))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10346)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15642))
 // CS Name: ::XRDisplaySubsystem::XRRenderPass
 struct CORDL_TYPE __XRDisplaySubsystem__XRRenderPass {

@@ -8,22 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupCollection)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Text::RegularExpressions {
 class __GroupCollection__Enumerator;
@@ -31,29 +16,44 @@ class __GroupCollection__Enumerator;
 namespace System {
 class Object;
 }
-namespace System::Text::RegularExpressions {
-class Match;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace System::Collections {
+class IList;
 }
 namespace System::Text::RegularExpressions {
-class Group;
-}
-namespace System {
-class Array;
+class Match;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class ICollection_1;
+}
+namespace System::Text::RegularExpressions {
+class Group;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System {
 class IDisposable;

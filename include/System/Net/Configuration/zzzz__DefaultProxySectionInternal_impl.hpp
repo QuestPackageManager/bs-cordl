@@ -92,15 +92,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::IWebProxy*& System::Net::Configuration::DefaultProxySectionInternal::__get_webProxy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___webProxy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& System::Net::Configuration::DefaultProxySectionInternal::__get_webProxy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___webProxy;
 }
 constexpr void System::Net::Configuration::DefaultProxySectionInternal::__set_webProxy(::System::Net::IWebProxy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___webProxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::Configuration::DefaultProxySectionInternal::setStaticF_classSyncObject(::System::Object* value) {

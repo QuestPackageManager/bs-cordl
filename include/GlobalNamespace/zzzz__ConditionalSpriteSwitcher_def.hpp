@@ -10,11 +10,11 @@ class Material;
 namespace UnityEngine {
 class Sprite;
 }
-namespace UnityEngine {
-class SpriteRenderer;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

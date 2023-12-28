@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__get_ConstrainedEdge() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConstrainedEdge;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__get_ConstrainedEdge() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConstrainedEdge;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__set_ConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ConstrainedEdge)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__get_Right() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Right;
 }
 constexpr bool const& UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__get_Right() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Right;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__set_Right(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Right = value;
 }
 inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::New_ctor() {

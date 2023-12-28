@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::TooltipAttribute::__get_tooltip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tooltip;
 }
 constexpr ::StringW const& UnityEngine::TooltipAttribute::__get_tooltip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tooltip;
 }
 constexpr void UnityEngine::TooltipAttribute::__set_tooltip(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tooltip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::TooltipAttribute* UnityEngine::TooltipAttribute::New_ctor(::StringW tooltip) {

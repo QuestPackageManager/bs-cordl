@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HMUI::__ToggleWithCallbacks__SelectionState::__ToggleWithCallbacks__SelectionState(int32_t value__) noexcept {
@@ -88,15 +88,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*& HMUI::ToggleWithCallbacks::__get_stateDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*> const& HMUI::ToggleWithCallbacks::__get_stateDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateDidChangeEvent;
 }
 constexpr void HMUI::ToggleWithCallbacks::__set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stateDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::ToggleWithCallbacks::add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value) {

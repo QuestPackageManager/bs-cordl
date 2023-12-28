@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DsaParametersGenerator)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -15,11 +15,11 @@ class SecureRandom;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaParameterGenerationParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

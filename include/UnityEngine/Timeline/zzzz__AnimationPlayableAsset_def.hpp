@@ -14,35 +14,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationPlayableAsset)
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
+}
+namespace UnityEngine::Timeline {
+class __AnimationPlayableAsset__AnimationPlayableAssetUpgrade;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::Timeline {
-class __AnimationPlayableAsset___get_outputs_d__45;
-}
-namespace UnityEngine::Timeline {
-class IPropertyPreview;
-}
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
+struct MatchTargetFields;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::Timeline {
+class __AnimationPlayableAsset___get_outputs_d__45;
 }
 namespace UnityEngine {
 class AnimationClip;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Timeline {
-struct __AnimationPlayableAsset__LoopMode;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -53,41 +50,44 @@ struct AppliedOffsetMode;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
 namespace UnityEngine::Timeline {
-class __AnimationPlayableAsset__AnimationPlayableAssetUpgrade;
+class IPropertyPreview;
 }
 namespace UnityEngine::Timeline {
 struct __AnimationPlayableAsset__Versions;
 }
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Timeline {
-struct MatchTargetFields;
-}
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
+}
+namespace UnityEngine::Timeline {
+struct __AnimationPlayableAsset__LoopMode;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -248,7 +248,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Animati
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10431)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13834))
 // CS Name: ::AnimationPlayableAsset::<get_outputs>d__45*
 class CORDL_TYPE __AnimationPlayableAsset___get_outputs_d__45 : public ::System::Object {
@@ -372,8 +372,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Animati
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13837)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13839)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13831))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13839)), TypeDefinitionIndex(TypeDefinitionIndex(13837)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13831)), TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13835)) CS Name: ::UnityEngine.Timeline::AnimationPlayableAsset*
 class CORDL_TYPE AnimationPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:

@@ -2,15 +2,15 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
-#include "System/Net/zzzz__Cookie_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Net/zzzz__CookieCollection_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Net/zzzz__Cookie_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__CookieCollection__Stamp::__CookieCollection__Stamp(int32_t value__) noexcept {
   this->value__ = value__;
@@ -86,51 +86,51 @@ constexpr System::Net::__CookieCollection__CookieCollectionEnumerator::operator 
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::CookieCollection*& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_cookies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cookies;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_cookies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cookies;
 }
 constexpr void System::Net::__CookieCollection__CookieCollectionEnumerator::__set_m_cookies(::System::Net::CookieCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cookies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_count;
 }
 constexpr int32_t const& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_count;
 }
 constexpr void System::Net::__CookieCollection__CookieCollectionEnumerator::__set_m_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_count = value;
 }
 constexpr int32_t& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_index;
 }
 constexpr int32_t const& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_index;
 }
 constexpr void System::Net::__CookieCollection__CookieCollectionEnumerator::__set_m_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_index = value;
 }
 constexpr int32_t& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_version;
 }
 constexpr int32_t const& System::Net::__CookieCollection__CookieCollectionEnumerator::__get_m_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_version;
 }
 constexpr void System::Net::__CookieCollection__CookieCollectionEnumerator::__set_m_version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_version = value;
 }
 inline ::System::Net::__CookieCollection__CookieCollectionEnumerator* System::Net::__CookieCollection__CookieCollectionEnumerator::New_ctor(::System::Net::CookieCollection* cookies) {
@@ -364,63 +364,63 @@ constexpr System::Net::CookieCollection::operator ::System::Collections::IEnumer
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Net::CookieCollection::__get_m_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_version;
 }
 constexpr int32_t const& System::Net::CookieCollection::__get_m_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_version;
 }
 constexpr void System::Net::CookieCollection::__set_m_version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_version = value;
 }
 constexpr ::System::Collections::ArrayList*& System::Net::CookieCollection::__get_m_list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Net::CookieCollection::__get_m_list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
 constexpr void System::Net::CookieCollection::__set_m_list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& System::Net::CookieCollection::__get_m_TimeStamp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimeStamp;
 }
 constexpr ::System::DateTime const& System::Net::CookieCollection::__get_m_TimeStamp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimeStamp;
 }
 constexpr void System::Net::CookieCollection::__set_m_TimeStamp(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TimeStamp = value;
 }
 constexpr bool& System::Net::CookieCollection::__get_m_has_other_versions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_has_other_versions;
 }
 constexpr bool const& System::Net::CookieCollection::__get_m_has_other_versions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_has_other_versions;
 }
 constexpr void System::Net::CookieCollection::__set_m_has_other_versions(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_has_other_versions = value;
 }
 constexpr bool& System::Net::CookieCollection::__get_m_IsReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
 }
 constexpr bool const& System::Net::CookieCollection::__get_m_IsReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
 }
 constexpr void System::Net::CookieCollection::__set_m_IsReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsReadOnly = value;
 }
 inline ::System::Net::CookieCollection* System::Net::CookieCollection::New_ctor() {

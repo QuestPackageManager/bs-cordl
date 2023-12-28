@@ -42,15 +42,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__BombExecutionRating__Rating& GlobalNamespace::BombExecutionRating::__get__rating_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rating_k__BackingField;
 }
 constexpr ::GlobalNamespace::__BombExecutionRating__Rating const& GlobalNamespace::BombExecutionRating::__get__rating_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rating_k__BackingField;
 }
 constexpr void GlobalNamespace::BombExecutionRating::__set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rating_k__BackingField = value;
 }
 inline ::GlobalNamespace::__BombExecutionRating__Rating GlobalNamespace::BombExecutionRating::get_rating() {

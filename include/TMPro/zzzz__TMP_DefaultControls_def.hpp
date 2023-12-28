@@ -16,14 +16,14 @@ struct __TMP_DefaultControls__Resources;
 namespace TMPro {
 class TMP_Text;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine::UI {
 class Selectable;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine {
 class Sprite;
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_DefaultControls__Re
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12346))
 // CS Name: ::TMPro::TMP_DefaultControls*
 class CORDL_TYPE TMP_DefaultControls : public ::System::Object {

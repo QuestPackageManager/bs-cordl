@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/Samples/SimplePlatformSample/zzzz__DataEntry_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Samples::SimplePlatformSample::DataEntry.Start
 template <>
 
@@ -446,15 +446,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Text*& Oculus::Platform::Samples::SimplePlatformSample::DataEntry::__get_dataOutput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataOutput;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& Oculus::Platform::Samples::SimplePlatformSample::DataEntry::__get_dataOutput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataOutput;
 }
 constexpr void Oculus::Platform::Samples::SimplePlatformSample::DataEntry::__set_dataOutput(::UnityEngine::UI::Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dataOutput)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Oculus::Platform::Samples::SimplePlatformSample::DataEntry::Start() {

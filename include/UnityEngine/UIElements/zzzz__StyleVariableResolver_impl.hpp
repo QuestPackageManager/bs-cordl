@@ -2,16 +2,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableResolver_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValueMatcher_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleProperty_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxParser_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValueMatcher_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleProperty_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__StyleVariableResolver__Result::__StyleVariableResolver__Result(int32_t value__) noexcept {
   this->value__ = value__;
@@ -277,90 +277,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher*& UnityEngine::UIElements::StyleVariableResolver::__get_m_Matcher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Matcher;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher*> const& UnityEngine::UIElements::StyleVariableResolver::__get_m_Matcher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Matcher;
 }
 constexpr void UnityEngine::UIElements::StyleVariableResolver::__set_m_Matcher(::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Matcher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*& UnityEngine::UIElements::StyleVariableResolver::__get_m_ResolvedValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResolvedValues;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*> const&
 UnityEngine::UIElements::StyleVariableResolver::__get_m_ResolvedValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResolvedValues;
 }
 constexpr void UnityEngine::UIElements::StyleVariableResolver::__set_m_ResolvedValues(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResolvedValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Stack_1<::StringW>*& UnityEngine::UIElements::StyleVariableResolver::__get_m_ResolvedVarStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResolvedVarStack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::StringW>*> const& UnityEngine::UIElements::StyleVariableResolver::__get_m_ResolvedVarStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResolvedVarStack;
 }
 constexpr void UnityEngine::UIElements::StyleVariableResolver::__set_m_ResolvedVarStack(::System::Collections::Generic::Stack_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResolvedVarStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::StyleProperty*& UnityEngine::UIElements::StyleVariableResolver::__get_m_Property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Property;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleProperty*> const& UnityEngine::UIElements::StyleVariableResolver::__get_m_Property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Property;
 }
 constexpr void UnityEngine::UIElements::StyleVariableResolver::__set_m_Property(::UnityEngine::UIElements::StyleProperty* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__StyleVariableResolver__ResolveContext>*& UnityEngine::UIElements::StyleVariableResolver::__get_m_ContextStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContextStack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__StyleVariableResolver__ResolveContext>*> const&
 UnityEngine::UIElements::StyleVariableResolver::__get_m_ContextStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContextStack;
 }
 constexpr void
 UnityEngine::UIElements::StyleVariableResolver::__set_m_ContextStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__StyleVariableResolver__ResolveContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ContextStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StyleVariableResolver__ResolveContext& UnityEngine::UIElements::StyleVariableResolver::__get_m_CurrentContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentContext;
 }
 constexpr ::UnityEngine::UIElements::__StyleVariableResolver__ResolveContext const& UnityEngine::UIElements::StyleVariableResolver::__get_m_CurrentContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentContext;
 }
 constexpr void UnityEngine::UIElements::StyleVariableResolver::__set_m_CurrentContext(::UnityEngine::UIElements::__StyleVariableResolver__ResolveContext value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentContext = value;
 }
 constexpr ::UnityEngine::UIElements::StyleVariableContext*& UnityEngine::UIElements::StyleVariableResolver::__get__variableContext_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____variableContext_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& UnityEngine::UIElements::StyleVariableResolver::__get__variableContext_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____variableContext_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::StyleVariableResolver::__set__variableContext_k__BackingField(::UnityEngine::UIElements::StyleVariableContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableContext_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::StyleVariableResolver::setStaticF_s_SyntaxParser(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* value) {

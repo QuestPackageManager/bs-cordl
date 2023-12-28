@@ -18,15 +18,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Runtime::InteropServices::ComDefaultInterfaceAttribute::__get__val() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::ComDefaultInterfaceAttribute::__get__val() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr void System::Runtime::InteropServices::ComDefaultInterfaceAttribute::__set__val(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____val)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::InteropServices::ComDefaultInterfaceAttribute* System::Runtime::InteropServices::ComDefaultInterfaceAttribute::New_ctor(::System::Type* defaultInterface) {

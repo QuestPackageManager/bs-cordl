@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultSignatureCalculator)
-namespace Org::BouncyCastle::Crypto::IO {
-class SignerSink;
-}
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+namespace Org::BouncyCastle::Crypto::IO {
+class SignerSink;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;

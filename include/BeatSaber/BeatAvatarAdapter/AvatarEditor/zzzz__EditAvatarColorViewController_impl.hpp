@@ -2,12 +2,12 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarColorViewController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController.add_didChangeColorEvent
 template <>
@@ -224,127 +224,127 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::HSVPanelController*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__hsvPanelController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hsvPanelController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HSVPanelController*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__hsvPanelController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hsvPanelController;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__hsvPanelController(::GlobalNamespace::HSVPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hsvPanelController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PreviousColorPanelController*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__previousColorPanelController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousColorPanelController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviousColorPanelController*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__previousColorPanelController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousColorPanelController;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__previousColorPanelController(::GlobalNamespace::PreviousColorPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previousColorPanelController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__cancelButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__cancelButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelButton;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__cancelButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__applyButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__applyButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyButton;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__applyButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____applyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::Color>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get_didChangeColorEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeColorEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get_didChangeColorEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeColorEvent;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeColorEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<bool>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set_didFinishEvent(::System::Action_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::Color>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__colorCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__colorCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorCallback;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__colorCallback(::System::Action_1<::UnityEngine::Color>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__initialColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialColor;
 }
 constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__initialColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialColor;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__initialColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialColor = value;
 }
 constexpr bool& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__colorChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorChanged;
 }
 constexpr bool const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__colorChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorChanged;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__colorChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorChanged = value;
 }
 constexpr ::HMUI::ButtonBinder*& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__buttonBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__get__buttonBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::__set__buttonBinder(::HMUI::ButtonBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value) {

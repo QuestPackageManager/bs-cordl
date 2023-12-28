@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "Value", ty: "::System::Threading::__ThreadLocal_1__LinkedSlot<T>*", modifiers: "", def_value: Some("nullptr") }]
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>::__ThreadLocal_1__LinkedSlotVolatile(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Value) noexcept {
@@ -12,58 +12,58 @@ template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>::__ThreadLocal_1__LinkedSlotVolatile() {}
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_Next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_Next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__set_Next(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_Previous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Previous;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_Previous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Previous;
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__set_Previous(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>&
 System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_SlotArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SlotArray;
 }
 template <typename T>
 constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> const&
 System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_SlotArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SlotArray;
 }
 template <typename T>
 constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__set_SlotArray(
     ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SlotArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_Value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
 template <typename T> constexpr T const& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__get_Value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__set_Value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
@@ -83,27 +83,27 @@ inline void System::Threading::__ThreadLocal_1__LinkedSlot<T>::_ctor(
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>::__ThreadLocal_1__LinkedSlot() {}
 template <typename T> constexpr int32_t& System::Threading::__ThreadLocal_1__IdManager<T>::__get_m_nextIdToTry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nextIdToTry;
 }
 template <typename T> constexpr int32_t const& System::Threading::__ThreadLocal_1__IdManager<T>::__get_m_nextIdToTry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nextIdToTry;
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__IdManager<T>::__set_m_nextIdToTry(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_nextIdToTry = value;
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<bool>*& System::Threading::__ThreadLocal_1__IdManager<T>::__get_m_freeIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_freeIds;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& System::Threading::__ThreadLocal_1__IdManager<T>::__get_m_freeIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_freeIds;
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__IdManager<T>::__set_m_freeIds(::System::Collections::Generic::List_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_freeIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline int32_t System::Threading::__ThreadLocal_1__IdManager<T>::GetId() {
@@ -130,31 +130,31 @@ template <typename T> constexpr ::System::Threading::__ThreadLocal_1__IdManager<
 template <typename T>
 constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>&
 System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__get_SlotArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SlotArray;
 }
 template <typename T>
 constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> const&
 System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__get_SlotArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SlotArray;
 }
 template <typename T>
 constexpr void System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__set_SlotArray(
     ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SlotArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__get_m_trackAllValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_trackAllValues;
 }
 template <typename T> constexpr bool const& System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__get_m_trackAllValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_trackAllValues;
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__set_m_trackAllValues(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_trackAllValues = value;
 }
 template <typename T>
@@ -185,63 +185,63 @@ template <typename T> constexpr System::Threading::ThreadLocal_1<T>::operator ::
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Func_1<T>*& System::Threading::ThreadLocal_1<T>::__get_m_valueFactory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_valueFactory;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& System::Threading::ThreadLocal_1<T>::__get_m_valueFactory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_valueFactory;
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__set_m_valueFactory(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_valueFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Threading::ThreadLocal_1<T>::__get_m_idComplement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_idComplement;
 }
 template <typename T> constexpr int32_t const& System::Threading::ThreadLocal_1<T>::__get_m_idComplement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_idComplement;
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__set_m_idComplement(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_idComplement = value;
 }
 template <typename T> constexpr bool& System::Threading::ThreadLocal_1<T>::__get_m_initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_initialized;
 }
 template <typename T> constexpr bool const& System::Threading::ThreadLocal_1<T>::__get_m_initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_initialized;
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__set_m_initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_initialized = value;
 }
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& System::Threading::ThreadLocal_1<T>::__get_m_linkedSlot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_linkedSlot;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal_1__LinkedSlot<T>*> const& System::Threading::ThreadLocal_1<T>::__get_m_linkedSlot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_linkedSlot;
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__set_m_linkedSlot(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_linkedSlot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& System::Threading::ThreadLocal_1<T>::__get_m_trackAllValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_trackAllValues;
 }
 template <typename T> constexpr bool const& System::Threading::ThreadLocal_1<T>::__get_m_trackAllValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_trackAllValues;
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__set_m_trackAllValues(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_trackAllValues = value;
 }
 template <typename T>

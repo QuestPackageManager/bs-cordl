@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(EnableEmmisionOnVisible)
 namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
+class ParticleSystem;
 }
 namespace UnityEngine {
-class ParticleSystem;
+struct __ParticleSystem__EmissionModule;
 }
 // Forward declare root types
 namespace GlobalNamespace {

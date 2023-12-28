@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderWarmupSceneStart)
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
 class __ShaderWarmupSceneStart___Start_d__2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
 class ShaderWarmupSceneSetupData;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

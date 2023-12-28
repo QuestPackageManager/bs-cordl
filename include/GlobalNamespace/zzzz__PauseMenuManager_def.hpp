@@ -8,26 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PauseMenuManager)
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace GlobalNamespace {
-class __PauseMenuManager__InitData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class PauseAnimationController;
 }
 namespace GlobalNamespace {
-class EnvironmentSpawnRotation;
+class IVRPlatformHelper;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -35,17 +26,26 @@ class Button;
 namespace TMPro {
 class TextMeshProUGUI;
 }
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace GlobalNamespace {
+class EnvironmentSpawnRotation;
+}
 namespace HMUI {
 class ButtonBinder;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class __PauseMenuManager__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

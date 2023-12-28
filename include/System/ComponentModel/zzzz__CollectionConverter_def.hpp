@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(CollectionConverter)
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
-}
-namespace System {
-class Attribute;
 }
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class Attribute;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {

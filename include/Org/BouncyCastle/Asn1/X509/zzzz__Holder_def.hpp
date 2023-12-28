@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Holder)
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
 }
 namespace System {
 class Object;
@@ -17,14 +17,14 @@ class Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class ObjectDigestInfo;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+class IssuerSerial;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class ObjectDigestInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

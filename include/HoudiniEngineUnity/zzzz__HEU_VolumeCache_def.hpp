@@ -9,52 +9,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeCache)
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_PartData;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class TerrainData;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeScatterTrees;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeLayer;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
-}
-namespace UnityEngine {
 class TerrainLayer;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
-}
-namespace UnityEngine {
-class Texture2D;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class HEU_VolumeCachePreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailPrototype;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailProperties;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class TerrainData;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeScatterTrees;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeLayer;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

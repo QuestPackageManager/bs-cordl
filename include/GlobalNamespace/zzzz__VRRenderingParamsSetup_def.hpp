@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRRenderingParamsSetup)
 namespace GlobalNamespace {
+struct __VRRenderingParamsSetup__SceneType;
+}
+namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class BoolSO;
-}
-namespace GlobalNamespace {
-struct __VRRenderingParamsSetup__SceneType;
+class FloatSO;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

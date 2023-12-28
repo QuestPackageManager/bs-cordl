@@ -18,10 +18,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7131)), TypeDefinitionIndex(TypeDefinitionIndex(6992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7092)) CS Name: ::Toggle::UxmlTraits*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914 }), TypeDefinitionIndex(TypeDefinitionIndex(7131)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6992))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7092)) CS Name: ::Toggle::UxmlTraits*
 class CORDL_TYPE __Toggle__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
@@ -182,8 +182,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7093)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5281
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7092))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7091)) CS Name: ::Toggle::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7093)), TypeDefinitionIndex(TypeDefinitionIndex(7092)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5281
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7091)) CS Name: ::Toggle::UxmlFactory*
 class CORDL_TYPE __Toggle__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::__Toggle__UxmlTraits*> {
 public:
   // Declarations

@@ -9,31 +9,31 @@ namespace Zenject {
 class IPlaceholderFactory;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
 class IValidatable;
 }
+namespace System {
+class Type;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

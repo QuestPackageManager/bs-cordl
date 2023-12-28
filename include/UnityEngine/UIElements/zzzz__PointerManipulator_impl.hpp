@@ -46,15 +46,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::PointerManipulator::__get_m_CurrentPointerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerId;
 }
 constexpr int32_t const& UnityEngine::UIElements::PointerManipulator::__get_m_CurrentPointerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerId;
 }
 constexpr void UnityEngine::UIElements::PointerManipulator::__set_m_CurrentPointerId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentPointerId = value;
 }
 inline bool UnityEngine::UIElements::PointerManipulator::CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e) {

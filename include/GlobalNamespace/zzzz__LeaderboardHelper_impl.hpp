@@ -4,16 +4,16 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardHelper_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardHelper_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardHelper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelCollectionSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
+#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2.MoveNext
 template <>
 
@@ -127,15 +127,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::LeaderboardHelper::__get__leaderboardIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::LeaderboardHelper::__get__leaderboardIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIds;
 }
 constexpr void GlobalNamespace::LeaderboardHelper::__set__leaderboardIds(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LeaderboardHelper::CreateOculusLeaderboards(::GlobalNamespace::LeaderboardIdsModelSO* leaderboardIdsModel, ::GlobalNamespace::BeatmapLevelCollectionSO* _levelCollection,

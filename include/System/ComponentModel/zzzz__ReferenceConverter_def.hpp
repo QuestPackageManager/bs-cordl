@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReferenceConverter)
 namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+class Type;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
-class Type;
+class Object;
 }
 namespace System::ComponentModel {
 class __ReferenceConverter__ReferenceComparer;
+}
+namespace System::ComponentModel {
+class __TypeConverter__StandardValuesCollection;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Collections {
 class IComparer;

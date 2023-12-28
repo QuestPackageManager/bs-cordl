@@ -9,36 +9,36 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationTrack_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AppliedOffsetMode_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TrackOffset_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "UnityEngine/zzzz__AvatarMask_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ILayerable_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TrackOffset_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationPlayableAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__AnimationTrack_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationLayerMixerPlayable_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
-#include "UnityEngine/Timeline/zzzz__AnimationTrack_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__AvatarMask_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ILayerable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__MatchTargetFields_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::__AnimationTrack__AnimationTrackUpgrade.ConvertRotationsToEuler
 template <>
 
@@ -246,51 +246,51 @@ constexpr UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::operator 
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::Playables::PlayableBinding& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::UnityEngine::Playables::PlayableBinding const& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__set___2__current(::UnityEngine::Playables::PlayableBinding value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::Timeline::AnimationTrack*& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AnimationTrack*> const& UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::__set___4__this(::UnityEngine::Timeline::AnimationTrack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49* UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49::New_ctor(int32_t __1__state) {
@@ -1559,219 +1559,219 @@ constexpr UnityEngine::Timeline::AnimationTrack::operator ::UnityEngine::Timelin
   return static_cast<::UnityEngine::Timeline::ILayerable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipPreExtrapolation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipPreExtrapolation;
 }
 constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipPreExtrapolation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipPreExtrapolation;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipPreExtrapolation(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipPreExtrapolation = value;
 }
 constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipPostExtrapolation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipPostExtrapolation;
 }
 constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipPostExtrapolation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipPostExtrapolation;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipPostExtrapolation(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipPostExtrapolation = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipOffsetPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipOffsetPosition;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipOffsetPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipOffsetPosition;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipOffsetPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipOffsetPosition = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipOffsetEulerAngles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipOffsetEulerAngles;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipOffsetEulerAngles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipOffsetEulerAngles;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipOffsetEulerAngles(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipOffsetEulerAngles = value;
 }
 constexpr double_t& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipTimeOffset;
 }
 constexpr double_t const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipTimeOffset;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipTimeOffset(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipTimeOffset = value;
 }
 constexpr bool& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipRemoveOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipRemoveOffset;
 }
 constexpr bool const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipRemoveOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipRemoveOffset;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipRemoveOffset(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipRemoveOffset = value;
 }
 constexpr bool& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipApplyFootIK() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipApplyFootIK;
 }
 constexpr bool const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClipApplyFootIK() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClipApplyFootIK;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClipApplyFootIK(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InfiniteClipApplyFootIK = value;
 }
 constexpr ::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode& UnityEngine::Timeline::AnimationTrack::__get_mInfiniteClipLoop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mInfiniteClipLoop;
 }
 constexpr ::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode const& UnityEngine::Timeline::AnimationTrack::__get_mInfiniteClipLoop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mInfiniteClipLoop;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_mInfiniteClipLoop(::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mInfiniteClipLoop = value;
 }
 constexpr ::UnityEngine::Timeline::MatchTargetFields& UnityEngine::Timeline::AnimationTrack::__get_m_MatchTargetFields() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MatchTargetFields;
 }
 constexpr ::UnityEngine::Timeline::MatchTargetFields const& UnityEngine::Timeline::AnimationTrack::__get_m_MatchTargetFields() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MatchTargetFields;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_MatchTargetFields(::UnityEngine::Timeline::MatchTargetFields value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MatchTargetFields = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::Timeline::AnimationTrack::__get_m_Position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Position;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::Timeline::AnimationTrack::__get_m_Position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Position;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_Position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Position = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::Timeline::AnimationTrack::__get_m_EulerAngles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EulerAngles;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::Timeline::AnimationTrack::__get_m_EulerAngles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EulerAngles;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_EulerAngles(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EulerAngles = value;
 }
 constexpr ::UnityEngine::AvatarMask*& UnityEngine::Timeline::AnimationTrack::__get_m_AvatarMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AvatarMask;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AvatarMask*> const& UnityEngine::Timeline::AnimationTrack::__get_m_AvatarMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AvatarMask;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_AvatarMask(::UnityEngine::AvatarMask* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AvatarMask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Timeline::AnimationTrack::__get_m_ApplyAvatarMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ApplyAvatarMask;
 }
 constexpr bool const& UnityEngine::Timeline::AnimationTrack::__get_m_ApplyAvatarMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ApplyAvatarMask;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_ApplyAvatarMask(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ApplyAvatarMask = value;
 }
 constexpr ::UnityEngine::Timeline::TrackOffset& UnityEngine::Timeline::AnimationTrack::__get_m_TrackOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackOffset;
 }
 constexpr ::UnityEngine::Timeline::TrackOffset const& UnityEngine::Timeline::AnimationTrack::__get_m_TrackOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackOffset;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_TrackOffset(::UnityEngine::Timeline::TrackOffset value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TrackOffset = value;
 }
 constexpr ::UnityEngine::AnimationClip*& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& UnityEngine::Timeline::AnimationTrack::__get_m_InfiniteClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InfiniteClip;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_InfiniteClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InfiniteClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Quaternion& UnityEngine::Timeline::AnimationTrack::__get_m_OpenClipOffsetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpenClipOffsetRotation;
 }
 constexpr ::UnityEngine::Quaternion const& UnityEngine::Timeline::AnimationTrack::__get_m_OpenClipOffsetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpenClipOffsetRotation;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_OpenClipOffsetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OpenClipOffsetRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& UnityEngine::Timeline::AnimationTrack::__get_m_Rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rotation;
 }
 constexpr ::UnityEngine::Quaternion const& UnityEngine::Timeline::AnimationTrack::__get_m_Rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rotation;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_Rotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Rotation = value;
 }
 constexpr bool& UnityEngine::Timeline::AnimationTrack::__get_m_ApplyOffsets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ApplyOffsets;
 }
 constexpr bool const& UnityEngine::Timeline::AnimationTrack::__get_m_ApplyOffsets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ApplyOffsets;
 }
 constexpr void UnityEngine::Timeline::AnimationTrack::__set_m_ApplyOffsets(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ApplyOffsets = value;
 }
 inline void UnityEngine::Timeline::AnimationTrack::setStaticF_s_CachedQueue(::System::Collections::Generic::Queue_1<::UnityEngine::Transform*>* value) {

@@ -8,14 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SaberBurnMarkSparkles)
-namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
-}
 namespace GlobalNamespace {
-class Saber;
-}
-namespace UnityEngine {
-class ParticleSystem;
+class SaberManager;
 }
 namespace UnityEngine {
 class BoxCollider;
@@ -23,11 +17,17 @@ class BoxCollider;
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace GlobalNamespace {
-class SaberManager;
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct __ParticleSystem__EmissionModule;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkSparkles);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4875))
 // CS Name: ::SaberBurnMarkSparkles*
 class CORDL_TYPE SaberBurnMarkSparkles : public ::UnityEngine::MonoBehaviour {

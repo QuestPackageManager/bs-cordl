@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncTaskMethodBuilder)
-namespace System::Threading::Tasks {
-struct VoidTaskResult;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Threading::Tasks {
-class Task;
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -19,11 +19,11 @@ class IAsyncStateMachine;
 namespace System {
 class Exception;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+struct VoidTaskResult;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class Task;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -35,8 +35,8 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 900 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3401)) CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2794)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 900
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3401)) CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder
 struct CORDL_TYPE AsyncTaskMethodBuilder {
 public:
   // Declarations

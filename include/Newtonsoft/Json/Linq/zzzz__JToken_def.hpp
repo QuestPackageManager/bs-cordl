@@ -8,35 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JToken)
-namespace Newtonsoft::Json {
-struct Formatting;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace Newtonsoft::Json::Linq {
-class __JToken__LineInfoAnnotation;
-}
 namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Uri;
+class ICloneable;
 }
 namespace Newtonsoft::Json::Linq {
-class __JToken___BeforeSelf_d__43;
-}
-namespace Newtonsoft::Json::Linq {
-class __JToken___Annotations_d__172;
+template <typename T> class IJEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JTokenEqualityComparer;
-}
-namespace Newtonsoft::Json::Linq {
-class JContainer;
-}
-namespace System {
-class ICloneable;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T> struct JEnumerable_1;
@@ -45,43 +24,46 @@ namespace System {
 struct Decimal;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> class IJEnumerable_1;
-}
-namespace Newtonsoft::Json::Linq {
-class __JToken___AfterSelf_d__42;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __JToken___Annotations_d__171_1;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct Guid;
+class JContainer;
 }
 namespace Newtonsoft::Json::Linq {
 class __JToken___GetAncestors_d__41;
 }
 namespace System {
-struct DateTimeOffset;
+template <typename T> struct Nullable_1;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace System::Collections {
-class IEnumerable;
+class JsonWriter;
 }
 namespace Newtonsoft::Json::Linq {
 class JValue;
 }
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+struct Formatting;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json::Linq {
+class __JToken__LineInfoAnnotation;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json::Linq {
+class __JToken___AfterSelf_d__42;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
@@ -89,23 +71,41 @@ class IJsonLineInfo;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Uri;
 }
 namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
+class __JToken___Annotations_d__172;
+}
+namespace System {
+struct Guid;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class __JToken___Annotations_d__171_1;
+}
+namespace System {
+struct DateTimeOffset;
 }
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
 }
+namespace Newtonsoft::Json::Linq {
+class __JToken___BeforeSelf_d__43;
+}
 namespace System {
-template <typename T> struct Nullable_1;
+struct DateTime;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonSerializer;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;

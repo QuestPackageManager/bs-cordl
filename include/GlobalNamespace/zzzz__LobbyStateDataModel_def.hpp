@@ -10,22 +10,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
+struct GameplayServerConfiguration;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -34,7 +22,19 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

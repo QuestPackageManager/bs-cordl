@@ -21,27 +21,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::TQ::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::TQ::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void RootMotion::TQ::__set_t(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::TQ::__get_q() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::TQ::__get_q() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
 constexpr void RootMotion::TQ::__set_q(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___q = value;
 }
 inline ::RootMotion::TQ* RootMotion::TQ::New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation) {

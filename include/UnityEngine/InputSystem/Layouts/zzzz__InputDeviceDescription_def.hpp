@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceDescription)
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceDescription__DeviceDescriptionJson;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputDeviceDescription__DeviceDescriptionJson;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {

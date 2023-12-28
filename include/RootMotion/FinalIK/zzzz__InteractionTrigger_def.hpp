@@ -18,26 +18,26 @@ struct FullBodyBipedEffector;
 namespace RootMotion::FinalIK {
 class InteractionObject;
 }
+namespace UnityEngine {
+struct RaycastHit;
+}
+namespace UnityEngine {
+class Transform;
+}
 namespace RootMotion::FinalIK {
 class __InteractionTrigger__Range;
 }
 namespace RootMotion::FinalIK {
 class __InteractionTrigger__CharacterPosition;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct RaycastHit;
-}
 namespace RootMotion::FinalIK {
 class __InteractionTrigger__CameraPosition;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Collider;
 }
 namespace UnityEngine {
-class Collider;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -71,7 +71,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionTrigger__Range);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12609))
 // CS Name: ::InteractionTrigger::CharacterPosition*
 class CORDL_TYPE __InteractionTrigger__CharacterPosition : public ::System::Object {
@@ -203,7 +203,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Interacti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12610))
 // CS Name: ::InteractionTrigger::CameraPosition*
 class CORDL_TYPE __InteractionTrigger__CameraPosition : public ::System::Object {

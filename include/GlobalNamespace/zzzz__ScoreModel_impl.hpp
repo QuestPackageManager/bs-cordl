@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ScoreModel__NoteScoreDefinition.get_maxCutScore
@@ -54,75 +54,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxCenterDistanceCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCenterDistanceCutScore;
 }
 constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxCenterDistanceCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCenterDistanceCutScore;
 }
 constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_maxCenterDistanceCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCenterDistanceCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minBeforeCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minBeforeCutScore;
 }
 constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minBeforeCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minBeforeCutScore;
 }
 constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_minBeforeCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minBeforeCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxBeforeCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxBeforeCutScore;
 }
 constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxBeforeCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxBeforeCutScore;
 }
 constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_maxBeforeCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxBeforeCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minAfterCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minAfterCutScore;
 }
 constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_minAfterCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minAfterCutScore;
 }
 constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_minAfterCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minAfterCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxAfterCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAfterCutScore;
 }
 constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_maxAfterCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAfterCutScore;
 }
 constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_maxAfterCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxAfterCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_fixedCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedCutScore;
 }
 constexpr int32_t const& GlobalNamespace::__ScoreModel__NoteScoreDefinition::__get_fixedCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixedCutScore;
 }
 constexpr void GlobalNamespace::__ScoreModel__NoteScoreDefinition::__set_fixedCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fixedCutScore = value;
 }
 inline int32_t GlobalNamespace::__ScoreModel__NoteScoreDefinition::get_maxCutScore() {
@@ -188,27 +188,27 @@ constexpr GlobalNamespace::__ScoreModel__MaxScoreCounterElement::operator ::Syst
   return static_cast<::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_noteScoreDefinition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteScoreDefinition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_noteScoreDefinition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteScoreDefinition;
 }
 constexpr void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__set_noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteScoreDefinition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr float_t const& GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__get_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr void GlobalNamespace::__ScoreModel__MaxScoreCounterElement::__set_time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
 }
 inline ::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* GlobalNamespace::__ScoreModel__MaxScoreCounterElement::New_ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time) {

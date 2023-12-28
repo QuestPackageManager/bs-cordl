@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element._ctor
 template <>
 
@@ -23,39 +23,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Color& GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__get_color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__get_color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___color;
 }
 constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__set_color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___color = value;
 }
 constexpr float_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__get_startT() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startT;
 }
 constexpr float_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__get_startT() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startT;
 }
 constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__set_startT(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startT = value;
 }
 constexpr float_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__get_exp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exp;
 }
 constexpr float_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__get_exp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exp;
 }
 constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::__set_exp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___exp = value;
 }
 inline ::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element* GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element::New_ctor() {
@@ -131,17 +131,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*>&
 GlobalNamespace::BloomPrePassBackgroundColorsGradient::__get__elements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> const&
 GlobalNamespace::BloomPrePassBackgroundColorsGradient::__get__elements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradient::__set__elements(
     ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element*>*>

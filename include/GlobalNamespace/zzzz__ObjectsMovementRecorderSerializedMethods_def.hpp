@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__Mode;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
+struct __PlaybackRenderer__PlaybackScreenshot__Type;
 }
 namespace GlobalNamespace {
-struct __PlaybackRenderer__PlaybackScreenshot__Type;
+struct __ObjectsMovementRecorder__CameraView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

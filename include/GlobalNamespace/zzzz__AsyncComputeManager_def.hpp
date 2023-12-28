@@ -8,13 +8,13 @@ namespace System::Threading {
 class Thread;
 }
 namespace GlobalNamespace {
-class AsyncComputeOperation;
-}
-namespace GlobalNamespace {
 class IAsyncComputeManager;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class AsyncComputeOperation;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class BlockingCollection_1;
@@ -22,8 +22,8 @@ template <typename T> class BlockingCollection_1;
 namespace GlobalNamespace {
 template <typename T> class AsyncComputeOperation_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

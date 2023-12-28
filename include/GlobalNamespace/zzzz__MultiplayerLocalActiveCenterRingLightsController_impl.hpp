@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActiveCenterRingLightsController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController.Start
 template <>
 
@@ -111,89 +111,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__verticalLinePositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalLinePositions;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__verticalLinePositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalLinePositions;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__verticalLinePositions(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____verticalLinePositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__horizontalLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____horizontalLines;
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__horizontalLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____horizontalLines;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__horizontalLines(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____horizontalLines)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerCenterResizeController*& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__centerResizeController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerResizeController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerCenterResizeController*> const&
 GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__centerResizeController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerResizeController;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__centerResizeController(::GlobalNamespace::MultiplayerCenterResizeController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerResizeController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__layoutProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__layoutProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layoutProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter*& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__beatmapObjectSpawnCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectSpawnCenter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectSpawnCenter*> const&
 GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__beatmapObjectSpawnCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectSpawnCenter;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__beatmapObjectSpawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectSpawnCenter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__edgeDistanceFromCenterCalculated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeDistanceFromCenterCalculated;
 }
 constexpr bool const& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__edgeDistanceFromCenterCalculated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeDistanceFromCenterCalculated;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__edgeDistanceFromCenterCalculated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____edgeDistanceFromCenterCalculated = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__spawnCenterDistanceFound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistanceFound;
 }
 constexpr bool const& GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__get__spawnCenterDistanceFound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistanceFound;
 }
 constexpr void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::__set__spawnCenterDistanceFound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnCenterDistanceFound = value;
 }
 inline void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Start() {

@@ -16,100 +16,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionMap)
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadActionJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideJson;
-}
-namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionRebindingExtensions__ParameterOverride;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadMapJson;
-}
-namespace UnityEngine::InputSystem {
 struct __InputActionMap__WriteMapJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__ReadFileJson;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__Flags;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__DeviceArray;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionMap__WriteActionJson;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionMap__BindingOverrideListJson;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
 struct __InputActionMap__WriteFileJson;
 }
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+namespace System {
+struct Guid;
 }
 namespace UnityEngine::InputSystem {
-class InputActionAsset;
+struct __InputActionMap__WriteActionJson;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadFileJson;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__Flags;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection2;
@@ -117,8 +75,50 @@ class IInputActionCollection2;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadMapJson;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingJson;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__DeviceArray;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__ReadActionJson;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System {
-template <typename T> struct Nullable_1;
+class Object;
+}
+namespace System {
+class ICloneable;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionMap__BindingOverrideListJson;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -700,11 +700,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6141)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(6133)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 }), TypeDefinitionIndex(TypeDefinitionIndex(6142))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6152)) CS
-// Name: ::UnityEngine.InputSystem::InputActionMap*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6142)), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6133)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6141))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6152)) CS Name: ::UnityEngine.InputSystem::InputActionMap*
 class CORDL_TYPE InputActionMap : public ::System::Object {
 public:
   // Declarations

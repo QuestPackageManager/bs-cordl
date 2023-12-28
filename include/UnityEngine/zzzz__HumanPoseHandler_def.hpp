@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HumanPoseHandler)
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Transform;
+struct HumanPose;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
 class Avatar;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct HumanPose;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::HumanPoseHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14885))
 // CS Name: ::UnityEngine::HumanPoseHandler*
 class CORDL_TYPE HumanPoseHandler : public ::System::Object {

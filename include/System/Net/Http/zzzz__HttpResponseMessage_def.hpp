@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpResponseMessage)
+namespace System::Net::Http {
+class HttpContent;
+}
+namespace System::Net {
+struct HttpStatusCode;
+}
 namespace System {
 class Version;
 }
@@ -17,12 +23,6 @@ class HttpResponseHeaders;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
-}
-namespace System::Net::Http {
-class HttpContent;
-}
-namespace System::Net {
-struct HttpStatusCode;
 }
 // Forward declare root types
 namespace System::Net::Http {

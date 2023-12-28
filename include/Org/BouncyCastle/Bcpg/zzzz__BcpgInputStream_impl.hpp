@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream._ctor
 template <>
 
@@ -69,39 +69,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__get_m_in() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_in;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgInputStream*> const& Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__get_m_in() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_in;
 }
 constexpr void Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__set_m_in(::Org::BouncyCastle::Bcpg::BcpgInputStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_in)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__get_partial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partial;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__get_partial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partial;
 }
 constexpr void Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__set_partial(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___partial = value;
 }
 constexpr int32_t& Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__get_dataLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__get_dataLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataLength;
 }
 constexpr void Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::__set_dataLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dataLength = value;
 }
 inline ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream* Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn,
@@ -283,39 +283,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::BcpgInputStream::__get_m_in() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_in;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::BcpgInputStream::__get_m_in() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_in;
 }
 constexpr void Org::BouncyCastle::Bcpg::BcpgInputStream::__set_m_in(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_in)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Bcpg::BcpgInputStream::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::BcpgInputStream::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void Org::BouncyCastle::Bcpg::BcpgInputStream::__set_next(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___next = value;
 }
 constexpr int32_t& Org::BouncyCastle::Bcpg::BcpgInputStream::__get_nextB() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextB;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::BcpgInputStream::__get_nextB() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextB;
 }
 constexpr void Org::BouncyCastle::Bcpg::BcpgInputStream::__set_nextB(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextB = value;
 }
 inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Org::BouncyCastle::Bcpg::BcpgInputStream::Wrap(::System::IO::Stream* inStr) {

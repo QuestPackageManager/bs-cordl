@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(BeatLine)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
-class __BeatLine__Pool;
+struct __BeatLine__HighlightData;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct Color;
 }
 namespace GlobalNamespace {
-struct __BeatLine__HighlightData;
+class __BeatLine__Pool;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
@@ -47,7 +47,7 @@ MARK_VAL_T(::GlobalNamespace::__BeatLine__HighlightData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4700))
 // CS Name: ::BeatLine*
 class CORDL_TYPE BeatLine : public ::GlobalNamespace::LightWithIdMonoBehaviour {
@@ -204,7 +204,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatLine, 0x70>
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4700)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4700)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
 // 2809 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4698)) CS Name: ::BeatLine::Pool*
 class CORDL_TYPE __BeatLine__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine*> {
 public:

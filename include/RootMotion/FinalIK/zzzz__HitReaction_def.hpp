@@ -26,14 +26,14 @@ struct Vector3;
 namespace RootMotion::FinalIK {
 class __HitReaction__HitPoint;
 }
+namespace UnityEngine {
+class Collider;
+}
 namespace RootMotion::FinalIK {
 class __HitReaction__HitPointBone;
 }
 namespace RootMotion::FinalIK {
 class __HitReaction__HitPointEffector;
-}
-namespace UnityEngine {
-class Collider;
 }
 namespace GlobalNamespace {
 class __HitReaction__HitPointBone__BoneLink;
@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__HitReaction__HitPointEffector);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12638))
 // CS Name: ::HitReaction::HitPoint*
 class CORDL_TYPE __HitReaction__HitPoint : public ::System::Object {
@@ -284,7 +284,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReacti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12639))
 // CS Name: ::HitReaction::HitPointEffector::EffectorLink*
 class CORDL_TYPE __HitReaction__HitPointEffector__EffectorLink : public ::System::Object {
@@ -457,7 +457,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__HitReacti
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12641))
 // CS Name: ::HitReaction::HitPointBone::BoneLink*
 class CORDL_TYPE __HitReaction__HitPointBone__BoneLink : public ::System::Object {

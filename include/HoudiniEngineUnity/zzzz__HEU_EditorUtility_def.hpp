@@ -9,8 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_EditorUtility)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace UnityEngine {
-struct Matrix4x4;
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_EditorUtility__HEU_ReplacePrefabOptions;
@@ -18,17 +21,14 @@ struct __HEU_EditorUtility__HEU_ReplacePrefabOptions;
 namespace UnityEngine {
 class Component;
 }
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAssetRoot;
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAssetRoot;
 }
 namespace UnityEngine {
 class Transform;
@@ -36,8 +36,8 @@ class Transform;
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

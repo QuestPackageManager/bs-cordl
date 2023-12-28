@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(FakeMirrorObjectsInstaller)
 namespace GlobalNamespace {
+class MirroredGameNoteController;
+}
+namespace GlobalNamespace {
+class MirroredSliderController;
+}
+namespace GlobalNamespace {
+class MirrorRendererGraphicsSettingsPresets;
+}
+namespace GlobalNamespace {
+class IntSO;
+}
+namespace GlobalNamespace {
 class MirroredBombNoteController;
 }
 namespace GlobalNamespace {
 class __FakeMirrorObjectsInstaller____c;
 }
 namespace GlobalNamespace {
-class MirroredSliderController;
-}
-namespace GlobalNamespace {
 class MirroredObstacleController;
-}
-namespace GlobalNamespace {
-class MirroredGameNoteController;
-}
-namespace GlobalNamespace {
-class IntSO;
-}
-namespace GlobalNamespace {
-class MirrorRendererGraphicsSettingsPresets;
 }
 namespace Zenject {
 struct BindingId;

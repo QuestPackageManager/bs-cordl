@@ -9,41 +9,41 @@ CORDL_MODULE_EXPORT(SubContainerPrefabBindingFinalizer)
 namespace System {
 class Type;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class ISubContainerCreator;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_0;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_0;
+}
+namespace Zenject {
+class ISubContainerCreator;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass5_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class __SubContainerPrefabBindingFinalizer____c__DisplayClass6_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class SubContainerCreatorCached;

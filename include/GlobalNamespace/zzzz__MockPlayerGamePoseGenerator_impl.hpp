@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__MockScoreSyncStateSender_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MockNodePoseSyncStateSender_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MockScoreSyncStateSender_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerGamePoseGenerator._ctor
 template <>
 
@@ -124,63 +124,63 @@ constexpr GlobalNamespace::MockPlayerGamePoseGenerator::operator ::System::IDisp
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MockPlayerGamePoseGenerator::__get_multiplayerSessionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerSessionManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& GlobalNamespace::MockPlayerGamePoseGenerator::__get_multiplayerSessionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerSessionManager;
 }
 constexpr void GlobalNamespace::MockPlayerGamePoseGenerator::__set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IGameplayRpcManager*& GlobalNamespace::MockPlayerGamePoseGenerator::__get_gameplayRpcManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayRpcManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& GlobalNamespace::MockPlayerGamePoseGenerator::__get_gameplayRpcManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayRpcManager;
 }
 constexpr void GlobalNamespace::MockPlayerGamePoseGenerator::__set_gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameplayRpcManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MockPlayerGamePoseGenerator::__get_leftHanded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHanded;
 }
 constexpr bool const& GlobalNamespace::MockPlayerGamePoseGenerator::__get_leftHanded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHanded;
 }
 constexpr void GlobalNamespace::MockPlayerGamePoseGenerator::__set_leftHanded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftHanded = value;
 }
 constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& GlobalNamespace::MockPlayerGamePoseGenerator::__get_mockNodePoseSyncStateSender() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mockNodePoseSyncStateSender;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockNodePoseSyncStateSender*> const& GlobalNamespace::MockPlayerGamePoseGenerator::__get_mockNodePoseSyncStateSender() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mockNodePoseSyncStateSender;
 }
 constexpr void GlobalNamespace::MockPlayerGamePoseGenerator::__set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mockNodePoseSyncStateSender)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MockScoreSyncStateSender*& GlobalNamespace::MockPlayerGamePoseGenerator::__get_mockScoreSyncStateSender() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mockScoreSyncStateSender;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockScoreSyncStateSender*> const& GlobalNamespace::MockPlayerGamePoseGenerator::__get_mockScoreSyncStateSender() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mockScoreSyncStateSender;
 }
 constexpr void GlobalNamespace::MockPlayerGamePoseGenerator::__set_mockScoreSyncStateSender(::GlobalNamespace::MockScoreSyncStateSender* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mockScoreSyncStateSender)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MockPlayerGamePoseGenerator* GlobalNamespace::MockPlayerGamePoseGenerator::New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,

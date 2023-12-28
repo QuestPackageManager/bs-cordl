@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISubContainerCreator)
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

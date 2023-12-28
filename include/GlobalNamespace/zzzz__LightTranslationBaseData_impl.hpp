@@ -21,51 +21,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::LightTranslationBaseData::__get_beat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
 constexpr float_t const& GlobalNamespace::LightTranslationBaseData::__get_beat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
 constexpr void GlobalNamespace::LightTranslationBaseData::__set_beat(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beat = value;
 }
 constexpr bool& GlobalNamespace::LightTranslationBaseData::__get_usePreviousEventTranslationValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventTranslationValue;
 }
 constexpr bool const& GlobalNamespace::LightTranslationBaseData::__get_usePreviousEventTranslationValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventTranslationValue;
 }
 constexpr void GlobalNamespace::LightTranslationBaseData::__set_usePreviousEventTranslationValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventTranslationValue = value;
 }
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::LightTranslationBaseData::__get_easeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::LightTranslationBaseData::__get_easeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
 constexpr void GlobalNamespace::LightTranslationBaseData::__set_easeType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___easeType = value;
 }
 constexpr float_t& GlobalNamespace::LightTranslationBaseData::__get_translation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translation;
 }
 constexpr float_t const& GlobalNamespace::LightTranslationBaseData::__get_translation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translation;
 }
 constexpr void GlobalNamespace::LightTranslationBaseData::__set_translation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___translation = value;
 }
 inline ::GlobalNamespace::LightTranslationBaseData* GlobalNamespace::LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType,

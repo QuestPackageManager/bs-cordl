@@ -2,15 +2,15 @@
 #include "System/zzzz__ConsoleColor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TermInfoDriver_def.hpp"
-#include "System/zzzz__TermInfoStrings_def.hpp"
-#include "System/zzzz__TermInfoReader_def.hpp"
 #include "System/zzzz__ByteMatcher_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/zzzz__IConsoleDriver_def.hpp"
-#include "System/IO/zzzz__CStreamWriter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__StreamReader_def.hpp"
+#include "System/IO/zzzz__CStreamWriter_def.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__TermInfoStrings_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__TermInfoReader_def.hpp"
 //  Writing Method size for method: ::System::TermInfoDriver.TryTermInfoDir
 template <>
 
@@ -467,483 +467,483 @@ constexpr System::TermInfoDriver::operator ::System::IConsoleDriver*() noexcept 
   return static_cast<::System::IConsoleDriver*>(static_cast<void*>(this));
 }
 constexpr ::System::TermInfoReader*& System::TermInfoDriver::__get_reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::TermInfoReader*> const& System::TermInfoDriver::__get_reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr void System::TermInfoDriver::__set_reader(::System::TermInfoReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoDriver::__get_cursorLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorLeft;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_cursorLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorLeft;
 }
 constexpr void System::TermInfoDriver::__set_cursorLeft(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cursorLeft = value;
 }
 constexpr int32_t& System::TermInfoDriver::__get_cursorTop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorTop;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_cursorTop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorTop;
 }
 constexpr void System::TermInfoDriver::__set_cursorTop(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cursorTop = value;
 }
 constexpr ::StringW& System::TermInfoDriver::__get_title() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___title;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_title() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___title;
 }
 constexpr void System::TermInfoDriver::__set_title(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___title)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_titleFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___titleFormat;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_titleFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___titleFormat;
 }
 constexpr void System::TermInfoDriver::__set_titleFormat(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___titleFormat)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::TermInfoDriver::__get_cursorVisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorVisible;
 }
 constexpr bool const& System::TermInfoDriver::__get_cursorVisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorVisible;
 }
 constexpr void System::TermInfoDriver::__set_cursorVisible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cursorVisible = value;
 }
 constexpr ::StringW& System::TermInfoDriver::__get_csrVisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___csrVisible;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_csrVisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___csrVisible;
 }
 constexpr void System::TermInfoDriver::__set_csrVisible(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___csrVisible)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_csrInvisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___csrInvisible;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_csrInvisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___csrInvisible;
 }
 constexpr void System::TermInfoDriver::__set_csrInvisible(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___csrInvisible)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_clear() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clear;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_clear() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clear;
 }
 constexpr void System::TermInfoDriver::__set_clear(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clear)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_bell() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bell;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_bell() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bell;
 }
 constexpr void System::TermInfoDriver::__set_bell(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bell)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_term() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___term;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_term() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___term;
 }
 constexpr void System::TermInfoDriver::__set_term(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___term)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::StreamReader*& System::TermInfoDriver::__get_stdin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stdin;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& System::TermInfoDriver::__get_stdin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stdin;
 }
 constexpr void System::TermInfoDriver::__set_stdin(::System::IO::StreamReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stdin)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::CStreamWriter*& System::TermInfoDriver::__get_stdout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stdout;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::CStreamWriter*> const& System::TermInfoDriver::__get_stdout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stdout;
 }
 constexpr void System::TermInfoDriver::__set_stdout(::System::IO::CStreamWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stdout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoDriver::__get_windowWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowWidth;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_windowWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowWidth;
 }
 constexpr void System::TermInfoDriver::__set_windowWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowWidth = value;
 }
 constexpr int32_t& System::TermInfoDriver::__get_windowHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowHeight;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_windowHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowHeight;
 }
 constexpr void System::TermInfoDriver::__set_windowHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowHeight = value;
 }
 constexpr int32_t& System::TermInfoDriver::__get_bufferHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferHeight;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_bufferHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferHeight;
 }
 constexpr void System::TermInfoDriver::__set_bufferHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufferHeight = value;
 }
 constexpr int32_t& System::TermInfoDriver::__get_bufferWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferWidth;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_bufferWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferWidth;
 }
 constexpr void System::TermInfoDriver::__set_bufferWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufferWidth = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::TermInfoDriver::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::TermInfoDriver::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void System::TermInfoDriver::__set_buffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoDriver::__get_readpos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readpos;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_readpos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readpos;
 }
 constexpr void System::TermInfoDriver::__set_readpos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readpos = value;
 }
 constexpr int32_t& System::TermInfoDriver::__get_writepos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writepos;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_writepos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writepos;
 }
 constexpr void System::TermInfoDriver::__set_writepos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writepos = value;
 }
 constexpr ::StringW& System::TermInfoDriver::__get_keypadXmit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypadXmit;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_keypadXmit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypadXmit;
 }
 constexpr void System::TermInfoDriver::__set_keypadXmit(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keypadXmit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_keypadLocal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypadLocal;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_keypadLocal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypadLocal;
 }
 constexpr void System::TermInfoDriver::__set_keypadLocal(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keypadLocal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::TermInfoDriver::__get_inited() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
 constexpr bool const& System::TermInfoDriver::__get_inited() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
 constexpr void System::TermInfoDriver::__set_inited(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inited = value;
 }
 constexpr ::System::Object*& System::TermInfoDriver::__get_initLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initLock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::TermInfoDriver::__get_initLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initLock;
 }
 constexpr void System::TermInfoDriver::__set_initLock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___initLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::TermInfoDriver::__get_initKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initKeys;
 }
 constexpr bool const& System::TermInfoDriver::__get_initKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initKeys;
 }
 constexpr void System::TermInfoDriver::__set_initKeys(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initKeys = value;
 }
 constexpr ::StringW& System::TermInfoDriver::__get_origPair() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origPair;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_origPair() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origPair;
 }
 constexpr void System::TermInfoDriver::__set_origPair(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___origPair)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_origColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origColors;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_origColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origColors;
 }
 constexpr void System::TermInfoDriver::__set_origColors(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___origColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_cursorAddress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorAddress;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_cursorAddress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cursorAddress;
 }
 constexpr void System::TermInfoDriver::__set_cursorAddress(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cursorAddress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ConsoleColor& System::TermInfoDriver::__get_fgcolor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fgcolor;
 }
 constexpr ::System::ConsoleColor const& System::TermInfoDriver::__get_fgcolor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fgcolor;
 }
 constexpr void System::TermInfoDriver::__set_fgcolor(::System::ConsoleColor value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fgcolor = value;
 }
 constexpr ::StringW& System::TermInfoDriver::__get_setfgcolor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setfgcolor;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_setfgcolor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setfgcolor;
 }
 constexpr void System::TermInfoDriver::__set_setfgcolor(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___setfgcolor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TermInfoDriver::__get_setbgcolor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setbgcolor;
 }
 constexpr ::StringW const& System::TermInfoDriver::__get_setbgcolor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setbgcolor;
 }
 constexpr void System::TermInfoDriver::__set_setbgcolor(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___setbgcolor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoDriver::__get_maxColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxColors;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_maxColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxColors;
 }
 constexpr void System::TermInfoDriver::__set_maxColors(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxColors = value;
 }
 constexpr bool& System::TermInfoDriver::__get_noGetPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noGetPosition;
 }
 constexpr bool const& System::TermInfoDriver::__get_noGetPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noGetPosition;
 }
 constexpr void System::TermInfoDriver::__set_noGetPosition(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noGetPosition = value;
 }
 constexpr ::System::Collections::Hashtable*& System::TermInfoDriver::__get_keymap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keymap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::TermInfoDriver::__get_keymap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keymap;
 }
 constexpr void System::TermInfoDriver::__set_keymap(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keymap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ByteMatcher*& System::TermInfoDriver::__get_rootmap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootmap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ByteMatcher*> const& System::TermInfoDriver::__get_rootmap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootmap;
 }
 constexpr void System::TermInfoDriver::__set_rootmap(::System::ByteMatcher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootmap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoDriver::__get_rl_startx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rl_startx;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_rl_startx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rl_startx;
 }
 constexpr void System::TermInfoDriver::__set_rl_startx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rl_startx = value;
 }
 constexpr int32_t& System::TermInfoDriver::__get_rl_starty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rl_starty;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_rl_starty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rl_starty;
 }
 constexpr void System::TermInfoDriver::__set_rl_starty(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rl_starty = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::TermInfoDriver::__get_control_characters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___control_characters;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::TermInfoDriver::__get_control_characters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___control_characters;
 }
 constexpr void System::TermInfoDriver::__set_control_characters(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___control_characters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::TermInfoDriver::__get_echobuf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___echobuf;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::TermInfoDriver::__get_echobuf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___echobuf;
 }
 constexpr void System::TermInfoDriver::__set_echobuf(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___echobuf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::TermInfoDriver::__get_echon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___echon;
 }
 constexpr int32_t const& System::TermInfoDriver::__get_echon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___echon;
 }
 constexpr void System::TermInfoDriver::__set_echon(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___echon = value;
 }
 inline void System::TermInfoDriver::setStaticF_native_terminal_size(::cordl_internals::Ptr<int32_t> value) {

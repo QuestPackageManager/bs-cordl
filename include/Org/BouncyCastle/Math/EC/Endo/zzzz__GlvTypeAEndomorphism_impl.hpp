@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeAEndomorphism_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeAParameters_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeAParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism._ctor
 template <>
 
@@ -80,27 +80,27 @@ constexpr Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::operator ::Or
   return static_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*& Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::__get_m_parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_parameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*> const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::__get_m_parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_parameters;
 }
 constexpr void Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::__set_m_parameters(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::__get_m_pointMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pointMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::__get_m_pointMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pointMap;
 }
 constexpr void Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::__set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pointMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism*

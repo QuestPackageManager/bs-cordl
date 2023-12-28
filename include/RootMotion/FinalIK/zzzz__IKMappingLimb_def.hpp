@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMappingLimb)
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-struct __IKMappingLimb__BoneMapType;
-}
 namespace RootMotion::FinalIK {
 class __IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace RootMotion::FinalIK {
+struct __IKMappingLimb__BoneMapType;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;

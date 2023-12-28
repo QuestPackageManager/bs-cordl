@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(Mask)
-namespace UnityEngine::UI {
-class IMaterialModifier;
-}
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class Graphic;
+class Camera;
 }
 namespace UnityEngine {
 class ICanvasRaycastFilter;
 }
 namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::UI {
+class IMaterialModifier;
+}
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine {
-class RectTransform;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

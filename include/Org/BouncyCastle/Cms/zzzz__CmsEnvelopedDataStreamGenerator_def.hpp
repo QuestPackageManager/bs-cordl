@@ -8,17 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedDataStreamGenerator)
-namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -26,23 +17,32 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
+namespace Org::BouncyCastle::Cms {
+class __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Crypto::IO {
-class CipherStream;
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedGenerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class BerSequenceGenerator;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class CipherStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

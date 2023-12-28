@@ -16,10 +16,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-template <typename TTask> class __TaskUpdater_1____c;
+template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
 }
 namespace Zenject {
-template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
+template <typename TTask> class __TaskUpdater_1____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
-#include "Zenject/zzzz__DisposableManager_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DisposableManager_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::Zenject::__DisposableManager__DisposableInfo._ctor
 template <>
 
@@ -87,27 +87,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::ILateDisposable*& Zenject::__DisposableManager__LateDisposableInfo::__get_LateDisposable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateDisposable;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& Zenject::__DisposableManager__LateDisposableInfo::__get_LateDisposable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateDisposable;
 }
 constexpr void Zenject::__DisposableManager__LateDisposableInfo::__set_LateDisposable(::Zenject::ILateDisposable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LateDisposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Zenject::__DisposableManager__LateDisposableInfo::__get_Priority() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
 constexpr int32_t const& Zenject::__DisposableManager__LateDisposableInfo::__get_Priority() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
 constexpr void Zenject::__DisposableManager__LateDisposableInfo::__set_Priority(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Priority = value;
 }
 inline ::Zenject::__DisposableManager__LateDisposableInfo* Zenject::__DisposableManager__LateDisposableInfo::New_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority) {
@@ -191,15 +191,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IDisposable*& Zenject::__DisposableManager____c__DisplayClass4_0::__get_disposable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& Zenject::__DisposableManager____c__DisplayClass4_0::__get_disposable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
 constexpr void Zenject::__DisposableManager____c__DisplayClass4_0::__set_disposable(::System::IDisposable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___disposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DisposableManager____c__DisplayClass4_0* Zenject::__DisposableManager____c__DisplayClass4_0::New_ctor() {
@@ -287,15 +287,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::ILateDisposable*& Zenject::__DisposableManager____c__DisplayClass4_1::__get_lateDisposable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lateDisposable;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& Zenject::__DisposableManager____c__DisplayClass4_1::__get_lateDisposable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lateDisposable;
 }
 constexpr void Zenject::__DisposableManager____c__DisplayClass4_1::__set_lateDisposable(::Zenject::ILateDisposable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lateDisposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DisposableManager____c__DisplayClass4_1* Zenject::__DisposableManager____c__DisplayClass4_1::New_ctor() {
@@ -572,15 +572,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IDisposable*& Zenject::__DisposableManager____c__DisplayClass9_0::__get_disposable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& Zenject::__DisposableManager____c__DisplayClass9_0::__get_disposable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
 constexpr void Zenject::__DisposableManager____c__DisplayClass9_0::__set_disposable(::System::IDisposable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___disposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DisposableManager____c__DisplayClass9_0* Zenject::__DisposableManager____c__DisplayClass9_0::New_ctor() {
@@ -763,52 +763,52 @@ constexpr Zenject::DisposableManager::operator ::System::IDisposable*() noexcept
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*& Zenject::DisposableManager::__get__disposables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*> const& Zenject::DisposableManager::__get__disposables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
 constexpr void Zenject::DisposableManager::__set__disposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*& Zenject::DisposableManager::__get__lateDisposables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateDisposables;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*> const&
 Zenject::DisposableManager::__get__lateDisposables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateDisposables;
 }
 constexpr void Zenject::DisposableManager::__set__lateDisposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lateDisposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::DisposableManager::__get__disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr bool const& Zenject::DisposableManager::__get__disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr void Zenject::DisposableManager::__set__disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed = value;
 }
 constexpr bool& Zenject::DisposableManager::__get__lateDisposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateDisposed;
 }
 constexpr bool const& Zenject::DisposableManager::__get__lateDisposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateDisposed;
 }
 constexpr void Zenject::DisposableManager::__set__lateDisposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lateDisposed = value;
 }
 inline ::Zenject::DisposableManager* Zenject::DisposableManager::New_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,

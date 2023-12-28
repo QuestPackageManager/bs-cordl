@@ -10,25 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteAsset)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::TextCore {
 struct FaceInfo;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace TMPro {
-class __TMP_SpriteAsset____c;
-}
-namespace TMPro {
-class TMP_SpriteCharacter;
+class Texture;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
-class Texture;
+class Material;
 }
 namespace TMPro {
 class TMP_SpriteGlyph;
@@ -36,8 +30,14 @@ class TMP_SpriteGlyph;
 namespace TMPro {
 class TMP_Sprite;
 }
+namespace TMPro {
+class TMP_SpriteCharacter;
+}
+namespace TMPro {
+class __TMP_SpriteAsset____c;
+}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -118,7 +118,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_SpriteAsset____c, 0
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(12327))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12327)), TypeDefinitionIndex(TypeDefinitionIndex(15526))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12421))
 // CS Name: ::TMPro::TMP_SpriteAsset*
 class CORDL_TYPE TMP_SpriteAsset : public ::TMPro::TMP_Asset {

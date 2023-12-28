@@ -8,32 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteDebris)
-namespace GlobalNamespace {
-struct ColorType;
+namespace UnityEngine {
+class Mesh;
 }
 namespace GlobalNamespace {
 class NoteDebrisPhysics;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
 class INoteDebrisDidFinishEvent;
-}
-namespace GlobalNamespace {
-class __NoteDebris__Pool;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Mesh;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -42,10 +24,28 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
+class __NoteDebris__Pool;
+}
+namespace GlobalNamespace {
 class ColorManager;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+struct ColorType;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

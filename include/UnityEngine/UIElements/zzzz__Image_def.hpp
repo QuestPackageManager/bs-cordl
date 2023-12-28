@@ -15,22 +15,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Image)
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::UIElements {
-class VectorImage;
-}
-namespace UnityEngine::UIElements {
-class __Image__UxmlTraits;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine {
-struct Color;
+struct Rect;
 }
 namespace UnityEngine::UIElements {
 struct __VisualElement__MeasureMode;
@@ -38,17 +23,32 @@ struct __VisualElement__MeasureMode;
 namespace UnityEngine::UIElements {
 class MeshGenerationContext;
 }
+namespace UnityEngine::UIElements {
+class __Image__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct ScaleMode;
+class Sprite;
 }
 namespace UnityEngine::UIElements {
 class __Image__UxmlFactory;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct ScaleMode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -103,11 +103,12 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Image
 // SizeInfo { instance_size: 1016, native_size: -1, calculated_instance_size: 1016, calculated_native_size: 1011, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 403 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10073)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(6806)), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7306)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(14596)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 1146 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7081)) CS Name: ::UnityEngine.UIElements::Image*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(10073)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14596)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(7306), inst: 403 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 1146 }), TypeDefinitionIndex(TypeDefinitionIndex(6806)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(6744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7081)) CS
+// Name: ::UnityEngine.UIElements::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
@@ -352,8 +353,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Image, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5264 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7081)), TypeDefinitionIndex(TypeDefinitionIndex(7080))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7079)) CS Name: ::Image::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7080)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5264 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7081)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7079)) CS Name: ::Image::UxmlFactory*
 class CORDL_TYPE __Image__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Image*, ::UnityEngine::UIElements::__Image__UxmlTraits*> {
 public:
   // Declarations

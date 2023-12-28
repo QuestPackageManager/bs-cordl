@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InputExtensions)
 namespace UnityEngine::InputSystem {
+struct Key;
+}
+namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
 struct TouchPhase;
-}
-namespace UnityEngine::InputSystem {
-struct Key;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

@@ -11,13 +11,13 @@ namespace GlobalNamespace {
 struct __MultiplierValuesRecorder__MultiplierValue;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class AudioTimeSyncController;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class IScoreController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

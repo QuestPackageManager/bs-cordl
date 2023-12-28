@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsEccUtilities)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

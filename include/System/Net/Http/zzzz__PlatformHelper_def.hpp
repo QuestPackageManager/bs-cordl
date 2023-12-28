@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlatformHelper)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::IO {
+class Stream;
 }
 namespace System::Net::Http {
 class StreamContent;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Net::Http {

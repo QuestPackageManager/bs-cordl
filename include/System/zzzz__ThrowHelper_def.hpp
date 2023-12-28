@@ -10,19 +10,10 @@ namespace System {
 class Type;
 }
 namespace System {
-class ArgumentException;
-}
-namespace System::Collections::Generic {
-class KeyNotFoundException;
+class Array;
 }
 namespace System {
 class ArgumentNullException;
-}
-namespace System {
-class InvalidOperationException;
-}
-namespace System {
-struct ExceptionArgument;
 }
 namespace System {
 class Object;
@@ -31,10 +22,19 @@ namespace System {
 struct ExceptionResource;
 }
 namespace System {
-class Array;
+class Exception;
 }
 namespace System {
-class Exception;
+struct ExceptionArgument;
+}
+namespace System {
+class InvalidOperationException;
+}
+namespace System {
+class ArgumentException;
+}
+namespace System::Collections::Generic {
+class KeyNotFoundException;
 }
 namespace System {
 class ArgumentOutOfRangeException;

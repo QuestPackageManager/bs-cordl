@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationAlgorithm_def.hpp"
 CORDL_MODULE_EXPORT(P2T)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Polygon;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class ConstrainedPointSet;
+class PolygonSet;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationAlgorithm;
+class ConstrainedPointSet;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Triangulatable;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class PointSet;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class PolygonSet;
+class Polygon;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+struct TriangulationAlgorithm;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

@@ -11,40 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTriangleMesh)
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-struct __OVRTriangleMesh__Triangle;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct __OVRTriangleMesh__GetMeshJob;
 }
 namespace Unity::Jobs {
 struct JobHandle;
-}
-namespace GlobalNamespace {
-struct __OVRTriangleMesh__GetMeshJob;
-}
-namespace GlobalNamespace {
-struct __OVRTriangleMesh__FlipTriangleWindingJob;
-}
-namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace GlobalNamespace {
-struct OVRAnchor;
+template <typename T> class IOVRAnchorComponent_1;
+}
+namespace GlobalNamespace {
+struct __OVRTriangleMesh__Triangle;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
 }
 namespace System {
 class Object;
 }
+namespace GlobalNamespace {
+struct __OVRTriangleMesh__FlipTriangleWindingJob;
+}
+namespace GlobalNamespace {
+struct OVRAnchor;
+}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace GlobalNamespace {
 struct __OVRTriangleMesh__NegateXJob;
@@ -81,9 +81,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRTriangleMesh__Triangle);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7521)) CS
-// Name: ::OVRTriangleMesh::GetMeshJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(9999), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7521)) CS Name: ::OVRTriangleMesh::GetMeshJob
 struct CORDL_TYPE __OVRTriangleMesh__GetMeshJob {
 public:
   // Declarations
@@ -159,8 +158,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTriangleMe
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7522)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 763 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7523)) CS Name: ::OVRTriangleMesh::FlipTriangleWindingJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7522)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 763
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7523)) CS Name: ::OVRTriangleMesh::FlipTriangleWindingJob
 struct CORDL_TYPE __OVRTriangleMesh__FlipTriangleWindingJob {
 public:
   // Declarations
@@ -193,8 +192,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTriangleMe
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::OVRTriangleMesh::NegateXJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7524)) CS Name: ::OVRTriangleMesh::NegateXJob
 struct CORDL_TYPE __OVRTriangleMesh__NegateXJob {
 public:
   // Declarations

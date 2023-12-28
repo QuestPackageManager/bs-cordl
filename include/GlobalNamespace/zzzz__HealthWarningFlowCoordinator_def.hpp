@@ -8,61 +8,61 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HealthWarningFlowCoordinator)
 namespace GlobalNamespace {
-class PrivacyPolicyViewController;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class __HealthWarningFlowCoordinator__InitData;
-}
-namespace GlobalNamespace {
-class EulaViewController;
-}
-namespace GlobalNamespace {
-class SelectLanguageViewController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-struct __PrivacyPolicyViewController__ButtonType;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
 class SelectRegionViewController;
 }
 namespace GlobalNamespace {
 class HealthWarningViewController;
 }
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-struct __SelectRegionViewController__Region;
-}
-namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace HMUI {
-class ViewController;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+struct __EulaViewController__ButtonType;
+}
+namespace GlobalNamespace {
+class SelectLanguageViewController;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct __SelectRegionViewController__Region;
+}
+namespace GlobalNamespace {
+class PrivacyPolicyViewController;
+}
+namespace GlobalNamespace {
+struct __PrivacyPolicyViewController__ButtonType;
 }
 namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataContainerSO;
 }
 namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
 class ExplicitContentWarningViewController;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+class EulaViewController;
+}
+namespace GlobalNamespace {
+class __HealthWarningFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -128,7 +128,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarning
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582)), TypeDefinitionIndex(TypeDefinitionIndex(5749))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5749)), TypeDefinitionIndex(TypeDefinitionIndex(13582))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5498))
 // CS Name: ::HealthWarningFlowCoordinator*
 class CORDL_TYPE HealthWarningFlowCoordinator : public ::HMUI::FlowCoordinator {

@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Security/Cryptography/zzzz__RC4_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__ARC4Managed_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::ARC4Managed._ctor
 template <>
 
@@ -266,63 +266,63 @@ constexpr Mono::Security::Cryptography::ARC4Managed::operator ::System::IDisposa
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Cryptography::ARC4Managed::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Cryptography::ARC4Managed::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void Mono::Security::Cryptography::ARC4Managed::__set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Cryptography::ARC4Managed::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Cryptography::ARC4Managed::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void Mono::Security::Cryptography::ARC4Managed::__set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint8_t& Mono::Security::Cryptography::ARC4Managed::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr uint8_t const& Mono::Security::Cryptography::ARC4Managed::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void Mono::Security::Cryptography::ARC4Managed::__set_x(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr uint8_t& Mono::Security::Cryptography::ARC4Managed::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr uint8_t const& Mono::Security::Cryptography::ARC4Managed::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void Mono::Security::Cryptography::ARC4Managed::__set_y(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 constexpr bool& Mono::Security::Cryptography::ARC4Managed::__get_m_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
 constexpr bool const& Mono::Security::Cryptography::ARC4Managed::__get_m_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
 constexpr void Mono::Security::Cryptography::ARC4Managed::__set_m_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_disposed = value;
 }
 inline ::Mono::Security::Cryptography::ARC4Managed* Mono::Security::Cryptography::ARC4Managed::New_ctor() {

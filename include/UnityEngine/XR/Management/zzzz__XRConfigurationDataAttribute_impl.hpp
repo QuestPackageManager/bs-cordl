@@ -92,27 +92,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::XR::Management::XRConfigurationDataAttribute::__get__displayName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayName_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::XR::Management::XRConfigurationDataAttribute::__get__displayName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayName_k__BackingField;
 }
 constexpr void UnityEngine::XR::Management::XRConfigurationDataAttribute::__set__displayName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____displayName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::XR::Management::XRConfigurationDataAttribute::__get__buildSettingsKey_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildSettingsKey_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::XR::Management::XRConfigurationDataAttribute::__get__buildSettingsKey_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildSettingsKey_k__BackingField;
 }
 constexpr void UnityEngine::XR::Management::XRConfigurationDataAttribute::__set__buildSettingsKey_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buildSettingsKey_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::XR::Management::XRConfigurationDataAttribute::get_displayName() {

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(SmimeEncryptionKeyPreferenceAttribute)
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientKeyIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientKeyIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {

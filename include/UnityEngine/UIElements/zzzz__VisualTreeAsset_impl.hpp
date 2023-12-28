@@ -6,23 +6,23 @@
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElementAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TemplateContainer_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElementAsset_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TemplateContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry._ctor
 template <>
 
@@ -291,105 +291,105 @@ constexpr UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::UIElements::VisualTreeAsset*& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const&
 UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set___2__current(::UnityEngine::UIElements::VisualTreeAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::UIElements::VisualTreeAsset*& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set___4__this(::UnityEngine::UIElements::VisualTreeAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>*& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get__sent_5__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sent_5__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>*> const&
 UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get__sent_5__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sent_5__1;
 }
 constexpr void
 UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set__sent_5__1(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sent_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>&
 UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___s__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__2;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> const&
 UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get___s__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__2;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set___s__2(
     ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____s__2 = value;
 }
 constexpr ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get__entry_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entry_5__3;
 }
 constexpr ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry const& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get__entry_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entry_5__3;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set__entry_5__3(::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____entry_5__3 = value;
 }
 constexpr ::UnityEngine::UIElements::VisualTreeAsset*& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get__vta_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vta_5__4;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__get__vta_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vta_5__4;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::__set__vta_5__4(::UnityEngine::UIElements::VisualTreeAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vta_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17* UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17::New_ctor(int32_t __1__state) {
@@ -640,150 +640,150 @@ constexpr UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::op
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::UIElements::StyleSheet*& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___2__current(::UnityEngine::UIElements::StyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::UnityEngine::UIElements::VisualTreeAsset*& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___4__this(::UnityEngine::UIElements::VisualTreeAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>*& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__sent_5__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sent_5__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>*> const&
 UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__sent_5__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sent_5__1;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set__sent_5__1(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sent_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*>& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___s__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__2;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> const&
 UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___s__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__2;
 }
 constexpr void
 UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___s__2(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____s__2 = value;
 }
 constexpr ::UnityEngine::UIElements::VisualElementAsset*& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__vea_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vea_5__3;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementAsset*> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__vea_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vea_5__3;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set__vea_5__3(::UnityEngine::UIElements::VisualElementAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vea_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*>& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___s__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__4;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___s__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__4;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___s__4(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____s__4 = value;
 }
 constexpr ::UnityEngine::UIElements::StyleSheet*& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheet_5__5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesheet_5__5;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheet_5__5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesheet_5__5;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set__stylesheet_5__5(::UnityEngine::UIElements::StyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stylesheet_5__5)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW>& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___s__6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__6;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get___s__6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____s__6;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set___s__6(::System::Collections::Generic::__List_1__Enumerator<::StringW> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____s__6 = value;
 }
 constexpr ::StringW& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheetPath_5__7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesheetPath_5__7;
 }
 constexpr ::StringW const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheetPath_5__7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesheetPath_5__7;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set__stylesheetPath_5__7(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stylesheetPath_5__7)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::StyleSheet*& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheet_5__8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesheet_5__8;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheet_5__8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylesheet_5__8;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::__set__stylesheet_5__8(::UnityEngine::UIElements::StyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stylesheet_5__8)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21* UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21::New_ctor(int32_t __1__state) {
@@ -890,15 +890,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::VisualElementAsset*& UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass45_0::__get_childVea() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___childVea;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementAsset*> const& UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass45_0::__get_childVea() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___childVea;
 }
 constexpr void UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass45_0::__set_childVea(::UnityEngine::UIElements::VisualElementAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___childVea)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass45_0* UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass45_0::New_ctor() {
@@ -1423,115 +1423,115 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr bool& UnityEngine::UIElements::VisualTreeAsset::__get_m_ImportedWithErrors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImportedWithErrors;
 }
 constexpr bool const& UnityEngine::UIElements::VisualTreeAsset::__get_m_ImportedWithErrors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImportedWithErrors;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_ImportedWithErrors(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ImportedWithErrors = value;
 }
 constexpr bool& UnityEngine::UIElements::VisualTreeAsset::__get_m_ImportedWithWarnings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImportedWithWarnings;
 }
 constexpr bool const& UnityEngine::UIElements::VisualTreeAsset::__get_m_ImportedWithWarnings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImportedWithWarnings;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_ImportedWithWarnings(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ImportedWithWarnings = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*& UnityEngine::UIElements::VisualTreeAsset::__get_m_Usings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Usings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*> const&
 UnityEngine::UIElements::VisualTreeAsset::__get_m_Usings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Usings;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_Usings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Usings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::StyleSheet*& UnityEngine::UIElements::VisualTreeAsset::__get_inlineSheet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inlineSheet;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& UnityEngine::UIElements::VisualTreeAsset::__get_inlineSheet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inlineSheet;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_inlineSheet(::UnityEngine::UIElements::StyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inlineSheet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*& UnityEngine::UIElements::VisualTreeAsset::__get_m_VisualElementAssets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisualElementAssets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*> const&
 UnityEngine::UIElements::VisualTreeAsset::__get_m_VisualElementAssets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisualElementAssets;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_VisualElementAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VisualElementAssets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*& UnityEngine::UIElements::VisualTreeAsset::__get_m_TemplateAssets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TemplateAssets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*> const&
 UnityEngine::UIElements::VisualTreeAsset::__get_m_TemplateAssets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TemplateAssets;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_TemplateAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TemplateAssets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>*& UnityEngine::UIElements::VisualTreeAsset::__get_m_Slots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Slots;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>*> const&
 UnityEngine::UIElements::VisualTreeAsset::__get_m_Slots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Slots;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_Slots(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Slots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::VisualTreeAsset::__get_m_ContentContainerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentContainerId;
 }
 constexpr int32_t const& UnityEngine::UIElements::VisualTreeAsset::__get_m_ContentContainerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentContainerId;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_ContentContainerId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ContentContainerId = value;
 }
 constexpr int32_t& UnityEngine::UIElements::VisualTreeAsset::__get_m_ContentHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentHash;
 }
 constexpr int32_t const& UnityEngine::UIElements::VisualTreeAsset::__get_m_ContentHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentHash;
 }
 constexpr void UnityEngine::UIElements::VisualTreeAsset::__set_m_ContentHash(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ContentHash = value;
 }
 inline void UnityEngine::UIElements::VisualTreeAsset::setStaticF_LinkedVEAInTemplatePropertyName(::StringW value) {

@@ -13,49 +13,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRSystem)
 namespace OVR::OpenVR {
-struct HmdMatrix44_t;
-}
-namespace OVR::OpenVR {
-struct __CVRSystem__GetControllerStateWithPoseUnion;
-}
-namespace OVR::OpenVR {
-struct EVRControllerAxisType;
-}
-namespace OVR::OpenVR {
-struct EDeviceActivityLevel;
-}
-namespace OVR::OpenVR {
-struct HiddenAreaMesh_t;
-}
-namespace OVR::OpenVR {
-struct EVREye;
-}
-namespace OVR::OpenVR {
-class __CVRSystem___PollNextEventPacked;
-}
-namespace OVR::OpenVR {
-struct VRControllerState_t;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
 struct ETextureType;
-}
-namespace OVR::OpenVR {
-struct ETrackedDeviceClass;
-}
-namespace OVR::OpenVR {
-struct ETrackedPropertyError;
-}
-namespace OVR::OpenVR {
-struct __CVRSystem__PollNextEventUnion;
 }
 namespace OVR::OpenVR {
 struct __CVRSystem__GetControllerStateUnion;
 }
 namespace OVR::OpenVR {
+struct ETrackedDeviceClass;
+}
+namespace OVR::OpenVR {
+struct EVRFirmwareError;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
+namespace OVR::OpenVR {
+struct EVREye;
+}
+namespace OVR::OpenVR {
+struct __CVRSystem__PollNextEventUnion;
+}
+namespace OVR::OpenVR {
+struct EHiddenAreaMeshType;
+}
+namespace OVR::OpenVR {
+struct HiddenAreaMesh_t;
+}
+namespace OVR::OpenVR {
+struct DistortionCoordinates_t;
+}
+namespace OVR::OpenVR {
+struct EDeviceActivityLevel;
+}
+namespace OVR::OpenVR {
 struct TrackedDevicePose_t;
+}
+namespace OVR::OpenVR {
+class __CVRSystem___PollNextEventPacked;
+}
+namespace OVR::OpenVR {
+struct __CVRSystem__GetControllerStateWithPoseUnion;
 }
 namespace OVR::OpenVR {
 struct ETrackedControllerRole;
@@ -64,46 +61,49 @@ namespace OVR::OpenVR {
 class __CVRSystem___GetControllerStatePacked;
 }
 namespace OVR::OpenVR {
-struct VREvent_t;
+struct ETrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
+struct HmdMatrix44_t;
+}
+namespace OVR::OpenVR {
+struct ETrackedPropertyError;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-class __CVRSystem___GetControllerStateWithPosePacked;
+struct VREvent_t;
 }
 namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
-namespace OVR::OpenVR {
-struct EHiddenAreaMeshType;
-}
-namespace OVR::OpenVR {
-struct DistortionCoordinates_t;
-}
-namespace OVR::OpenVR {
-struct EVREventType;
+struct VRControllerState_t;
 }
 namespace OVR::OpenVR {
 struct EVRButtonId;
 }
 namespace OVR::OpenVR {
-struct EVRFirmwareError;
+struct EVRControllerAxisType;
 }
-namespace System {
-class AsyncCallback;
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
 }
-namespace System {
-class IAsyncResult;
+namespace OVR::OpenVR {
+class __CVRSystem___GetControllerStateWithPosePacked;
+}
+namespace OVR::OpenVR {
+struct EVREventType;
 }
 namespace System {
 class Object;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t_Packed;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct VREvent_t_Packed;
@@ -526,7 +526,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__GetCon
 // SizeInfo { instance_size: 392, native_size: -1, calculated_instance_size: 392, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8264))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8264)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8558))
 // CS Name: ::OVR.OpenVR::CVRSystem*
 class CORDL_TYPE CVRSystem : public ::System::Object {

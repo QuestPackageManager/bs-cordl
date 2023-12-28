@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_GeoInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_GeoType;
+struct HAPI_GroupType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
+struct HAPI_GeoType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

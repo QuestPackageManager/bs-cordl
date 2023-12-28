@@ -3,32 +3,32 @@
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_impl.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Reflection/zzzz__MemberTypes_def.hpp"
-#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
-#include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/Reflection/zzzz__MemberFilter_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__AssemblyName_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__ParameterModifier_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Reflection/zzzz__CallingConventions_def.hpp"
+#include "System/Reflection/zzzz__AssemblyName_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
+#include "System/Reflection/zzzz__MemberFilter_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterModifier_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 //  Writing Method size for method: ::System::Type.IsEnumDefined
 template <>
 
@@ -2198,15 +2198,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::RuntimeTypeHandle& System::Type::__get__impl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____impl;
 }
 constexpr ::System::RuntimeTypeHandle const& System::Type::__get__impl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____impl;
 }
 constexpr void System::Type::__set__impl(::System::RuntimeTypeHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____impl = value;
 }
 inline void System::Type::setStaticF_s_defaultBinder(::System::Reflection::Binder* value) {

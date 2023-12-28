@@ -35,15 +35,15 @@ constexpr Zenject::PrefabProviderResource::operator ::Zenject::IPrefabProvider*(
   return static_cast<::Zenject::IPrefabProvider*>(static_cast<void*>(this));
 }
 constexpr ::StringW& Zenject::PrefabProviderResource::__get__resourcePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resourcePath;
 }
 constexpr ::StringW const& Zenject::PrefabProviderResource::__get__resourcePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resourcePath;
 }
 constexpr void Zenject::PrefabProviderResource::__set__resourcePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resourcePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::PrefabProviderResource* Zenject::PrefabProviderResource::New_ctor(::StringW resourcePath) {

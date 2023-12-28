@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalDeclarationAsyncInitializer)
 namespace Zenject {
-class SignalDeclaration;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class TickableManager;
 }
 namespace Zenject {
 template <typename T> class LazyInject_1;
 }
 namespace Zenject {
+class SignalDeclaration;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 class IInitializable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

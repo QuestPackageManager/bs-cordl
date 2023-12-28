@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_1<bool>*& UnityEngine::WaitUntil::__get_m_Predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Predicate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& UnityEngine::WaitUntil::__get_m_Predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Predicate;
 }
 constexpr void UnityEngine::WaitUntil::__set_m_Predicate(::System::Func_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::WaitUntil::get_keepWaiting() {

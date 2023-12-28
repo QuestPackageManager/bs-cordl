@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteArrayNetSerializable)
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

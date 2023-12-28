@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRSemanticClassification)
-namespace GlobalNamespace {
-class IOVRSceneComponent;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class IOVRSceneComponent;
 }
 // Forward declare root types
 namespace GlobalNamespace {

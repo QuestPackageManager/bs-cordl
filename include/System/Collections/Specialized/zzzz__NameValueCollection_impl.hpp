@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Collections/Specialized/zzzz__NameObjectCollectionBase_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__DBNull_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::NameValueCollection._ctor
 template <>
 
@@ -285,27 +285,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Collections::Specialized::NameValueCollection::__get__all() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____all;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Collections::Specialized::NameValueCollection::__get__all() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____all;
 }
 constexpr void System::Collections::Specialized::NameValueCollection::__set__all(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____all)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Collections::Specialized::NameValueCollection::__get__allKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allKeys;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Collections::Specialized::NameValueCollection::__get__allKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allKeys;
 }
 constexpr void System::Collections::Specialized::NameValueCollection::__set__allKeys(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Specialized::NameValueCollection* System::Collections::Specialized::NameValueCollection::New_ctor() {

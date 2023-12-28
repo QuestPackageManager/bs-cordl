@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContainerViewController)
+namespace HMUI {
+class ViewController;
+}
+namespace System {
+class Action;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HMUI {
+class __ContainerViewController___RemoveViewControllersCoroutine_d__17;
+}
+namespace HMUI {
 class Screen;
+}
+namespace HMUI {
+class __ContainerViewController___AddViewControllerCoroutine_d__15;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace HMUI {
-class __ContainerViewController___RemoveViewControllersCoroutine_d__17;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-class __ContainerViewController___AddViewControllerCoroutine_d__15;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 namespace System {
 class IDisposable;

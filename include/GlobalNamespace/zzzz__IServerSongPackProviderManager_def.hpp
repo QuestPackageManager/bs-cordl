@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServerSongPackProviderManager)
-namespace GlobalNamespace {
-class IServerSongPackProvider;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IServerSongPackProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

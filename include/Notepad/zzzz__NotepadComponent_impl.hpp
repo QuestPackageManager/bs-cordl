@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Notepad::NoteSO*& Notepad::NotepadComponent::__get_note() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___note;
 }
 constexpr ::cordl_internals::to_const_pointer<::Notepad::NoteSO*> const& Notepad::NotepadComponent::__get_note() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___note;
 }
 constexpr void Notepad::NotepadComponent::__set_note(::Notepad::NoteSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___note)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Notepad::NotepadComponent* Notepad::NotepadComponent::New_ctor() {

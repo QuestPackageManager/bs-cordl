@@ -18,15 +18,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IBeatmapLevelPack*& GlobalNamespace::SelectLevelPackDestination::__get_beatmapLevelPack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelPack;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& GlobalNamespace::SelectLevelPackDestination::__get_beatmapLevelPack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelPack;
 }
 constexpr void GlobalNamespace::SelectLevelPackDestination::__set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapLevelPack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::SelectLevelPackDestination* GlobalNamespace::SelectLevelPackDestination::New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack) {

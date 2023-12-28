@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EventSystemListener)
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
@@ -18,6 +15,9 @@ class IPointerEnterHandler;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
 }
 // Forward declare root types
 namespace HMUI {

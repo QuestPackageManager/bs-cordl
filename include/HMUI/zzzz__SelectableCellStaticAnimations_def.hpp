@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SelectableCellStaticAnimations)
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace HMUI {
 class SelectableCell;
@@ -13,8 +13,8 @@ class SelectableCell;
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class AnimationClip;
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace HMUI {

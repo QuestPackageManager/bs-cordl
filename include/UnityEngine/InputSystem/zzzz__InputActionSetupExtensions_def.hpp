@@ -10,40 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionSetupExtensions)
 namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionType;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionSetupExtensions____c__DisplayClass5_0;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
 struct __InputActionSetupExtensions__CompositeSyntax;
 }
 namespace UnityEngine::InputSystem {
 struct __InputActionSetupExtensions__ControlSchemeSyntax;
 }
 namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+class __InputActionSetupExtensions____c__DisplayClass5_0;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionType;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionSetupExtensions__BindingSyntax;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
 namespace System {
 struct Guid;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionSetupExtensions__BindingSyntax;
 }
 namespace GlobalNamespace {
 struct __InputControlScheme__DeviceRequirement__Flags;
@@ -325,7 +325,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6169))
 // CS Name: ::InputActionSetupExtensions::<>c__DisplayClass5_0*
 class CORDL_TYPE __InputActionSetupExtensions____c__DisplayClass5_0 : public ::System::Object {

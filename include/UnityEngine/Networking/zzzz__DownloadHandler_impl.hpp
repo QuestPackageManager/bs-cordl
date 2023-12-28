@@ -2,10 +2,10 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::DownloadHandler.Release
 template <>
 
@@ -287,15 +287,15 @@ constexpr UnityEngine::Networking::DownloadHandler::operator ::System::IDisposab
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& UnityEngine::Networking::DownloadHandler::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::Networking::DownloadHandler::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::Networking::DownloadHandler::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 inline void UnityEngine::Networking::DownloadHandler::Release() {

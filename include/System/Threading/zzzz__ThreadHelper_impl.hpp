@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadHelper_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 //  Writing Method size for method: ::System::Threading::ThreadHelper._ctor
@@ -76,39 +76,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Delegate*& System::Threading::ThreadHelper::__get__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& System::Threading::ThreadHelper::__get__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr void System::Threading::ThreadHelper::__set__start(::System::Delegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____start)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Threading::ThreadHelper::__get__startArg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startArg;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::ThreadHelper::__get__startArg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startArg;
 }
 constexpr void System::Threading::ThreadHelper::__set__startArg(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startArg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ExecutionContext*& System::Threading::ThreadHelper::__get__executionContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Threading::ThreadHelper::__get__executionContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionContext;
 }
 constexpr void System::Threading::ThreadHelper::__set__executionContext(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____executionContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::ThreadHelper::setStaticF__ccb(::System::Threading::ContextCallback* value) {

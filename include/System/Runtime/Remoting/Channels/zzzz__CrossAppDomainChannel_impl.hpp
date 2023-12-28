@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainChannel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
-#include "System/Runtime/Remoting/Channels/zzzz__IChannelReceiver_def.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannelSender_def.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__IChannelReceiver_def.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Channels::CrossAppDomainChannel.RegisterCrossAppDomainChannel
 template <>
 

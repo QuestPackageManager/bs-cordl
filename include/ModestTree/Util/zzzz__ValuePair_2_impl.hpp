@@ -3,27 +3,27 @@
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T1, typename T2> constexpr T1& ModestTree::Util::ValuePair_2<T1, T2>::__get_First() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___First;
 }
 template <typename T1, typename T2> constexpr T1 const& ModestTree::Util::ValuePair_2<T1, T2>::__get_First() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___First;
 }
 template <typename T1, typename T2> constexpr void ModestTree::Util::ValuePair_2<T1, T2>::__set_First(T1 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___First)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T1, typename T2> constexpr T2& ModestTree::Util::ValuePair_2<T1, T2>::__get_Second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Second;
 }
 template <typename T1, typename T2> constexpr T2 const& ModestTree::Util::ValuePair_2<T1, T2>::__get_Second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Second;
 }
 template <typename T1, typename T2> constexpr void ModestTree::Util::ValuePair_2<T1, T2>::__set_Second(T2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T1, typename T2> inline ::ModestTree::Util::ValuePair_2<T1, T2>* ModestTree::Util::ValuePair_2<T1, T2>::New_ctor() {

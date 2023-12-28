@@ -196,135 +196,135 @@ constexpr Org::BouncyCastle::Crypto::Macs::SipHash::operator ::Org::BouncyCastle
   return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_c(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_d(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k0;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k0;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_k0(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k0 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k1;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k1;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_k1(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k1 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v0;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v0;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v0(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v0 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v1;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v1;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v1(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v1 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v2;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v2;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v2(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v2 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v3;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v3;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v3(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v3 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_m() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_m() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_m(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordPos;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordPos;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_wordPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wordPos = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordCount;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordCount;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_wordCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wordCount = value;
 }
 inline ::Org::BouncyCastle::Crypto::Macs::SipHash* Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor() {

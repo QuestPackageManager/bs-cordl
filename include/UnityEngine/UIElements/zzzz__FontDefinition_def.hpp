@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontDefinition)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine {
 class Font;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;

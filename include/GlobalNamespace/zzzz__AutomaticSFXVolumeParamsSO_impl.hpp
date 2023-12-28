@@ -127,99 +127,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__musicVolumeMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____musicVolumeMultiplier;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__musicVolumeMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____musicVolumeMultiplier;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__musicVolumeMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____musicVolumeMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threshold;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threshold;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__threshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____threshold = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__impact() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____impact;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__impact() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____impact;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__impact(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____impact = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__attackTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attackTime;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__attackTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attackTime;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__attackTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____attackTime = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__releaseTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____releaseTime;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__releaseTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____releaseTime;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__releaseTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____releaseTime = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__minVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minVolume;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__minVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minVolume;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__minVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minVolume = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__maxVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxVolume;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__maxVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxVolume;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__maxVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxVolume = value;
 }
 constexpr float_t& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__volumeSmooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeSmooth;
 }
 constexpr float_t const& GlobalNamespace::AutomaticSFXVolumeParamsSO::__get__volumeSmooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeSmooth;
 }
 constexpr void GlobalNamespace::AutomaticSFXVolumeParamsSO::__set__volumeSmooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____volumeSmooth = value;
 }
 inline float_t GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier() {

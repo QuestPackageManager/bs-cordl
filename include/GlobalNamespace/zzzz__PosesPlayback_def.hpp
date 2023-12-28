@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(PosesPlayback)
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class IBeatSaberLogger;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class PosesRecordingData;

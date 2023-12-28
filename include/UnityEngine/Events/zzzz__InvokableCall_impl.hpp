@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_impl.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCall_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Events::InvokableCall.add_Delegate
 template <>
@@ -109,15 +109,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Events::UnityAction*& UnityEngine::Events::InvokableCall::__get_Delegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Delegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& UnityEngine::Events::InvokableCall::__get_Delegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Delegate;
 }
 constexpr void UnityEngine::Events::InvokableCall::__set_Delegate(::UnityEngine::Events::UnityAction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Delegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::Events::InvokableCall::add_Delegate(::UnityEngine::Events::UnityAction* value) {

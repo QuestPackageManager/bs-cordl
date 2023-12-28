@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Quaternion)
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-class IFormattable;
+class Object;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

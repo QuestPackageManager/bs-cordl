@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRResources)
 namespace GlobalNamespace {
+class __OVRResources____c__DisplayClass2_0;
+}
+namespace GlobalNamespace {
 template <typename T> class __OVRResources____c__DisplayClass3_0_1;
+}
+namespace UnityEngine {
+class AssetBundle;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class __OVRResources____c__DisplayClass2_0;
-}
 namespace UnityEngine {
 class Object;
-}
-namespace UnityEngine {
-class AssetBundle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -36,27 +36,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Ray& UnityEngine::EventSystems::OVRPointerEventData::__get_worldSpaceRay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___worldSpaceRay;
 }
 constexpr ::UnityEngine::Ray const& UnityEngine::EventSystems::OVRPointerEventData::__get_worldSpaceRay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___worldSpaceRay;
 }
 constexpr void UnityEngine::EventSystems::OVRPointerEventData::__set_worldSpaceRay(::UnityEngine::Ray value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___worldSpaceRay = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::OVRPointerEventData::__get_swipeStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeStart;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::OVRPointerEventData::__get_swipeStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeStart;
 }
 constexpr void UnityEngine::EventSystems::OVRPointerEventData::__set_swipeStart(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swipeStart = value;
 }
 inline ::UnityEngine::EventSystems::OVRPointerEventData* UnityEngine::EventSystems::OVRPointerEventData::New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {

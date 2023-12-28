@@ -5,17 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DisconnectPromptView)
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class __DisconnectPromptView____c__DisplayClass12_0;
 }
+namespace HMUI {
+class PanelAnimationSO;
+}
 namespace UnityEngine::UI {
 class Button;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -23,8 +20,11 @@ class ButtonBinder;
 namespace System {
 class Action;
 }
-namespace HMUI {
-class PanelAnimationSO;
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

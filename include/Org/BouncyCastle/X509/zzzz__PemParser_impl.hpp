@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__PemParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::PemParser._ctor
 template <>
 
@@ -48,51 +48,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Org::BouncyCastle::X509::PemParser::__get__header1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____header1;
 }
 constexpr ::StringW const& Org::BouncyCastle::X509::PemParser::__get__header1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____header1;
 }
 constexpr void Org::BouncyCastle::X509::PemParser::__set__header1(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____header1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::X509::PemParser::__get__header2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____header2;
 }
 constexpr ::StringW const& Org::BouncyCastle::X509::PemParser::__get__header2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____header2;
 }
 constexpr void Org::BouncyCastle::X509::PemParser::__set__header2(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____header2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::X509::PemParser::__get__footer1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____footer1;
 }
 constexpr ::StringW const& Org::BouncyCastle::X509::PemParser::__get__footer1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____footer1;
 }
 constexpr void Org::BouncyCastle::X509::PemParser::__set__footer1(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____footer1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::X509::PemParser::__get__footer2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____footer2;
 }
 constexpr ::StringW const& Org::BouncyCastle::X509::PemParser::__get__footer2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____footer2;
 }
 constexpr void Org::BouncyCastle::X509::PemParser::__set__footer2(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____footer2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::X509::PemParser* Org::BouncyCastle::X509::PemParser::New_ctor(::StringW type) {

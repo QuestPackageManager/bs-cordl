@@ -12,20 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Allocator2D)
-namespace UnityEngine::UIElements::UIR {
-class __Allocator2D__Area;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class __Allocator2D__Row;
-}
 namespace UnityEngine {
 struct Vector2Int;
 }
 namespace UnityEngine::UIElements::UIR {
+class __Allocator2D__Area;
+}
+namespace UnityEngine::UIElements::UIR {
+class __Allocator2D__Row;
+}
+namespace UnityEngine::UIElements::UIR {
 struct __Allocator2D__Alloc2D;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class BestFitAllocator;
@@ -61,7 +61,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7411))
 // CS Name: ::Allocator2D::Area*
 class CORDL_TYPE __Allocator2D__Area : public ::System::Object {
@@ -120,8 +120,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3979 }), TypeDefinitionIndex(TypeDefinitionIndex(7433)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(10162))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7412)) CS Name: ::Allocator2D::Row*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3979 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7412)) CS Name: ::Allocator2D::Row*
 class CORDL_TYPE __Allocator2D__Row : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*> {
 public:
   // Declarations
@@ -227,7 +227,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(7433))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7433)), TypeDefinitionIndex(TypeDefinitionIndex(10162))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7413))
 // CS Name: ::Allocator2D::Alloc2D
 struct CORDL_TYPE __Allocator2D__Alloc2D {
@@ -266,7 +266,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10244))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7414))
 // CS Name: ::UnityEngine.UIElements.UIR::Allocator2D*
 class CORDL_TYPE Allocator2D : public ::System::Object {

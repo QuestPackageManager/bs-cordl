@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__InvariantComparer_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
 //  Writing Method size for method: ::System::InvariantComparer._ctor
 template <>
 
@@ -38,15 +38,15 @@ constexpr System::InvariantComparer::operator ::System::Collections::IComparer*(
   return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
 }
 constexpr ::System::Globalization::CompareInfo*& System::InvariantComparer::__get_m_compareInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_compareInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& System::InvariantComparer::__get_m_compareInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_compareInfo;
 }
 constexpr void System::InvariantComparer::__set_m_compareInfo(::System::Globalization::CompareInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_compareInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::InvariantComparer::setStaticF_Default(::System::InvariantComparer* value) {

@@ -44,27 +44,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::TransitionTimingSO::__get__easeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::TransitionTimingSO::__get__easeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType;
 }
 constexpr void GlobalNamespace::TransitionTimingSO::__set__easeType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____easeType = value;
 }
 constexpr float_t& GlobalNamespace::TransitionTimingSO::__get__easeDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeDuration;
 }
 constexpr float_t const& GlobalNamespace::TransitionTimingSO::__get__easeDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeDuration;
 }
 constexpr void GlobalNamespace::TransitionTimingSO::__set__easeDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____easeDuration = value;
 }
 inline ::GlobalNamespace::EaseType GlobalNamespace::TransitionTimingSO::get_easeType() {

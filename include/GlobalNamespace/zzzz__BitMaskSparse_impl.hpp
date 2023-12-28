@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BitMaskSparse____c._ctor
 template <>
@@ -195,27 +195,27 @@ constexpr GlobalNamespace::BitMaskSparse::operator ::LiteNetLib::Utils::INetSeri
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::BitMaskSparse::__get__bitCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bitCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BitMaskSparse::__get__bitCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bitCount_k__BackingField;
 }
 constexpr void GlobalNamespace::BitMaskSparse::__set__bitCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bitCount_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::SortedSet_1<uint32_t>*& GlobalNamespace::BitMaskSparse::__get__sparseSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparseSet;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::SortedSet_1<uint32_t>*> const& GlobalNamespace::BitMaskSparse::__get__sparseSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparseSet;
 }
 constexpr void GlobalNamespace::BitMaskSparse::__set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sparseSet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::BitMaskSparse::get_bitCount() {

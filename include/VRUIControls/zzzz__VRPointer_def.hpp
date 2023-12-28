@@ -7,10 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(VRPointer)
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class EventSystem;
 }
-namespace VRUIControls {
-class VRLaserPointer;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -18,11 +21,8 @@ struct Vector3;
 namespace GlobalNamespace {
 class VRController;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace VRUIControls {
+class VRLaserPointer;
 }
 // Forward declare root types
 namespace VRUIControls {

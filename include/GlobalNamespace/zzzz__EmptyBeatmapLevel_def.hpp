@@ -8,10 +8,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EmptyBeatmapLevel)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
@@ -19,26 +34,11 @@ struct PlayerSensitivityFlag;
 namespace UnityEngine {
 class AudioClip;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

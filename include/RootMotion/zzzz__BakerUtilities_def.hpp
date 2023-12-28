@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BakerUtilities)
 namespace UnityEngine {
-struct Keyframe;
+class AnimationCurve;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct Keyframe;
 }
 namespace UnityEngine {
 struct Quaternion;

@@ -21,27 +21,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Polyglot::Language& GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::__get_language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr ::Polyglot::Language const& GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::__get_language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr void GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::__set_language(::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::__get_localizedAudioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedAudioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::__get_localizedAudioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedAudioClip;
 }
 constexpr void GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::__set_localizedAudioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizedAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo::New_ctor() {
@@ -86,15 +86,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Polyglot::Language& GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0::__get_language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr ::Polyglot::Language const& GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0::__get_language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr void GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0::__set_language(::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
 inline ::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0* GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0::New_ctor() {
@@ -143,30 +143,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*>&
 GlobalNamespace::LocalizedAudioClipSO::__get__localizedAudioClipInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedAudioClipInfo;
 }
 constexpr ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> const&
 GlobalNamespace::LocalizedAudioClipSO::__get__localizedAudioClipInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedAudioClipInfo;
 }
 constexpr void GlobalNamespace::LocalizedAudioClipSO::__set__localizedAudioClipInfo(
     ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizedAudioClipInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*& GlobalNamespace::LocalizedAudioClipSO::__get__lastLocalizedAudioClipInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastLocalizedAudioClipInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*> const&
 GlobalNamespace::LocalizedAudioClipSO::__get__lastLocalizedAudioClipInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastLocalizedAudioClipInfo;
 }
 constexpr void GlobalNamespace::LocalizedAudioClipSO::__set__lastLocalizedAudioClipInfo(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastLocalizedAudioClipInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AudioClip* GlobalNamespace::LocalizedAudioClipSO::get_localizedAudioClip() {

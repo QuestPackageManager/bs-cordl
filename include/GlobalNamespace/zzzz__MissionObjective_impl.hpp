@@ -130,39 +130,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MissionObjectiveTypeSO*& GlobalNamespace::MissionObjective::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjectiveTypeSO*> const& GlobalNamespace::MissionObjective::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void GlobalNamespace::MissionObjective::__set__type(::GlobalNamespace::MissionObjectiveTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType& GlobalNamespace::MissionObjective::__get__referenceValueComparisonType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceValueComparisonType;
 }
 constexpr ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType const& GlobalNamespace::MissionObjective::__get__referenceValueComparisonType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceValueComparisonType;
 }
 constexpr void GlobalNamespace::MissionObjective::__set__referenceValueComparisonType(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceValueComparisonType = value;
 }
 constexpr int32_t& GlobalNamespace::MissionObjective::__get__referenceValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceValue;
 }
 constexpr int32_t const& GlobalNamespace::MissionObjective::__get__referenceValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceValue;
 }
 constexpr void GlobalNamespace::MissionObjective::__set__referenceValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceValue = value;
 }
 inline ::GlobalNamespace::MissionObjectiveTypeSO* GlobalNamespace::MissionObjective::get_type() {

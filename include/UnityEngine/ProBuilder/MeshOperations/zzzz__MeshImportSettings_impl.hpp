@@ -123,39 +123,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__get_m_Quads() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Quads;
 }
 constexpr bool const& UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__get_m_Quads() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Quads;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__set_m_Quads(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Quads = value;
 }
 constexpr bool& UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__get_m_Smoothing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smoothing;
 }
 constexpr bool const& UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__get_m_Smoothing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smoothing;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__set_m_Smoothing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smoothing = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__get_m_SmoothingThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SmoothingThreshold;
 }
 constexpr float_t const& UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__get_m_SmoothingThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SmoothingThreshold;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::__set_m_SmoothingThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SmoothingThreshold = value;
 }
 inline bool UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_quads() {

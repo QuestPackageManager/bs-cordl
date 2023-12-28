@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14751))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14761))
 // CS Name: ::ObstacleData*
 class CORDL_TYPE ObstacleData : public ::GlobalNamespace::BeatmapObjectData {

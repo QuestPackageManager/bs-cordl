@@ -50,63 +50,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::TMPro::ColorMode& TMPro::TMP_ColorGradient::__get_colorMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMode;
 }
 constexpr ::TMPro::ColorMode const& TMPro::TMP_ColorGradient::__get_colorMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorMode;
 }
 constexpr void TMPro::TMP_ColorGradient::__set_colorMode(::TMPro::ColorMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorMode = value;
 }
 constexpr ::UnityEngine::Color& TMPro::TMP_ColorGradient::__get_topLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topLeft;
 }
 constexpr ::UnityEngine::Color const& TMPro::TMP_ColorGradient::__get_topLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topLeft;
 }
 constexpr void TMPro::TMP_ColorGradient::__set_topLeft(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___topLeft = value;
 }
 constexpr ::UnityEngine::Color& TMPro::TMP_ColorGradient::__get_topRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topRight;
 }
 constexpr ::UnityEngine::Color const& TMPro::TMP_ColorGradient::__get_topRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topRight;
 }
 constexpr void TMPro::TMP_ColorGradient::__set_topRight(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___topRight = value;
 }
 constexpr ::UnityEngine::Color& TMPro::TMP_ColorGradient::__get_bottomLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomLeft;
 }
 constexpr ::UnityEngine::Color const& TMPro::TMP_ColorGradient::__get_bottomLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomLeft;
 }
 constexpr void TMPro::TMP_ColorGradient::__set_bottomLeft(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bottomLeft = value;
 }
 constexpr ::UnityEngine::Color& TMPro::TMP_ColorGradient::__get_bottomRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomRight;
 }
 constexpr ::UnityEngine::Color const& TMPro::TMP_ColorGradient::__get_bottomRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomRight;
 }
 constexpr void TMPro::TMP_ColorGradient::__set_bottomRight(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bottomRight = value;
 }
 inline void TMPro::TMP_ColorGradient::setStaticF_k_DefaultColor(::UnityEngine::Color value) {

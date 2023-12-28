@@ -45,39 +45,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& MS::Internal::Xml::Cache::XPathNodePageInfo::__get__pageNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageNum;
 }
 constexpr int32_t const& MS::Internal::Xml::Cache::XPathNodePageInfo::__get__pageNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageNum;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodePageInfo::__set__pageNum(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pageNum = value;
 }
 constexpr int32_t& MS::Internal::Xml::Cache::XPathNodePageInfo::__get__nodeCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeCount;
 }
 constexpr int32_t const& MS::Internal::Xml::Cache::XPathNodePageInfo::__get__nodeCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeCount;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodePageInfo::__set__nodeCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nodeCount = value;
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& MS::Internal::Xml::Cache::XPathNodePageInfo::__get__pageNext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageNext;
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& MS::Internal::Xml::Cache::XPathNodePageInfo::__get__pageNext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageNext;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodePageInfo::__set__pageNext(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t MS::Internal::Xml::Cache::XPathNodePageInfo::get_PageNumber() {

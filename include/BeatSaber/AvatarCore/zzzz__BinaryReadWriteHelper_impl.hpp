@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__BinaryReadWriteHelper_def.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BinaryReadWriteHelper.Write
 template <>
 

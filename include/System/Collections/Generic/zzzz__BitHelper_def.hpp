@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Collections::Generic::BitHelper);
 namespace System::Collections::Generic {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9531))
 // CS Name: ::System.Collections.Generic::BitHelper*
 class CORDL_TYPE BitHelper : public ::System::Object {
 public:
@@ -60,21 +60,21 @@ public:
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
-  /// @brief Method .ctor addr 0x2813e0c size 0x38 virtual false final false
+  /// @brief Method .ctor addr 0x2941b28 size 0x38 virtual false final false
   inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor addr 0x2813e44 size 0x30 virtual false final false
+  /// @brief Method .ctor addr 0x2941b60 size 0x30 virtual false final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method MarkBit addr 0x2813e74 size 0x7c virtual false final false
+  /// @brief Method MarkBit addr 0x2941b90 size 0x7c virtual false final false
   inline void MarkBit(int32_t bitPosition);
 
-  /// @brief Method IsMarked addr 0x2813ef0 size 0x84 virtual false final false
+  /// @brief Method IsMarked addr 0x2941c0c size 0x84 virtual false final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method ToIntArrayLength addr 0x2813f74 size 0x28 virtual false final false
+  /// @brief Method ToIntArrayLength addr 0x2941c90 size 0x28 virtual false final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitHelper", modifiers: "&&", def_value: None }]

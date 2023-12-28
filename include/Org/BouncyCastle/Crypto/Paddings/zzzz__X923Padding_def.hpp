@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X923Padding)
-namespace Org::BouncyCastle::Crypto::Paddings {
-class IBlockCipherPadding;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Paddings {
+class IBlockCipherPadding;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {

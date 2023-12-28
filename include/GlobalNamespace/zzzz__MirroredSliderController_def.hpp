@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredSliderController)
 namespace GlobalNamespace {
-class SliderController;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
 class __MirroredSliderController__Pool;
-}
-namespace GlobalNamespace {
-class ISliderDidStartDissolvingEvent;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace GlobalNamespace {
+class ISliderDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -167,7 +167,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredSliderC
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4758)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4758)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
 // 2817 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4757)) CS Name: ::MirroredSliderController::Pool*
 class CORDL_TYPE __MirroredSliderController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredSliderController*> {
 public:

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspResp_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponse_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponse_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Ocsp::OcspResp._ctor
 template <>
@@ -134,15 +134,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse*& Org::BouncyCastle::Ocsp::OcspResp::__get_resp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resp;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::OcspResponse*> const& Org::BouncyCastle::Ocsp::OcspResp::__get_resp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resp;
 }
 constexpr void Org::BouncyCastle::Ocsp::OcspResp::__set_resp(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Ocsp::OcspResp* Org::BouncyCastle::Ocsp::OcspResp::New_ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp) {

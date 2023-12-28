@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbarInfoBeatmapLevelHelper)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+class __AlphabetScrollInfo__Data;
 }
 namespace GlobalNamespace {
 class __AlphabetScrollbarInfoBeatmapLevelHelper____c;
 }
 namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
+class IPreviewBeatmapLevel;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

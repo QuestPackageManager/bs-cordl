@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IInitializableObject_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-#include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
+#include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IInitializableObject_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp.Init
 template <>
 
@@ -90,27 +90,27 @@ constexpr UnityEngine::AddressableAssets::Initialization::__CacheInitialization_
   return static_cast<::UnityEngine::ResourceManagement::IUpdateReceiver*>(static_cast<void*>(this));
 }
 constexpr ::System::Func_1<bool>*& UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::__set_m_Callback(::System::Func_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::__get_m_UpdateRequired() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRequired;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::__get_m_UpdateRequired() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateRequired;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::__set_m_UpdateRequired(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRequired = value;
 }
 inline void UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp::Init(::System::Func_1<bool>* callback) {
@@ -179,41 +179,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::Initialization::CacheInitialization*& UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Initialization::CacheInitialization*> const&
 UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
 UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__set___4__this(::UnityEngine::AddressableAssets::Initialization::CacheInitialization* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__get_id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___id;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__get_id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___id;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__set_id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0::__set_data(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0*

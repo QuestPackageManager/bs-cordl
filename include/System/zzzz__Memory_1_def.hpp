@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(Memory_1)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System::Buffers {
-struct MemoryHandle;
-}
 namespace System {
-class Object;
+template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+class Object;
+}
+namespace System::Buffers {
+struct MemoryHandle;
 }
 // Forward declare root types
 namespace System {

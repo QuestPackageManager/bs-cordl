@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNull)
-namespace OVRSimpleJSON {
-struct __JSONNode__Enumerator;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVRSimpleJSON {
 struct JSONNodeType;
 }
-namespace System {
-class Object;
+namespace OVRSimpleJSON {
+struct __JSONNode__Enumerator;
 }
 namespace OVRSimpleJSON {
 struct JSONTextMode;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {

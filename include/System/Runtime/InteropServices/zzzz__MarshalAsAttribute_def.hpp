@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MarshalAsAttribute)
-namespace System::Runtime::InteropServices {
-struct UnmanagedType;
-}
 namespace System {
 class Type;
+}
+namespace System::Runtime::InteropServices {
+struct UnmanagedType;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {

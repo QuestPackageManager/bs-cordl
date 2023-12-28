@@ -12,92 +12,92 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNode)
-namespace System {
-class Object;
-}
 namespace HoudiniEngineUnity {
-class __JSONNode___get_DeepChildren_d__42;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Text {
-class StringBuilder;
+class JSONObject;
 }
 namespace HoudiniEngineUnity {
 class __JSONNode__LinqEnumerator;
 }
 namespace HoudiniEngineUnity {
-struct JSONContainerType;
+struct JSONTextMode;
+}
+namespace UnityEngine {
+class RectOffset;
+}
+namespace System {
+class Object;
 }
 namespace HoudiniEngineUnity {
-class JSONObject;
+struct JSONNodeType;
+}
+namespace HoudiniEngineUnity {
+class JSONArray;
+}
+namespace HoudiniEngineUnity {
+class __JSONNode___get_DeepChildren_d__42;
+}
+namespace HoudiniEngineUnity {
+struct __JSONNode__KeyEnumerator;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace HoudiniEngineUnity {
-struct __JSONNode__ValueEnumerator;
+class __JSONNode___get_Children_d__40;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class RectOffset;
-}
-namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
-}
-namespace HoudiniEngineUnity {
-class JSONArray;
-}
-namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace HoudiniEngineUnity {
+struct JSONContainerType;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace HoudiniEngineUnity {
-struct JSONTextMode;
+struct __JSONNode__ValueEnumerator;
 }
 namespace HoudiniEngineUnity {
-struct __JSONNode__KeyEnumerator;
+struct __JSONNode__Enumerator;
 }
-namespace HoudiniEngineUnity {
-class __JSONNode___get_Children_d__40;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace HoudiniEngineUnity {
-struct JSONNodeType;
+namespace System::Text {
+class StringBuilder;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine {
+struct Rect;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-struct __JSONNode__Enumerator__Type;
+namespace System::Collections::Generic {
+template <typename T> struct __List_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> struct __List_1__Enumerator;
+namespace GlobalNamespace {
+struct __JSONNode__Enumerator__Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -189,7 +189,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__JSONNode__Enu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9881)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9869))
 // CS Name: ::HoudiniEngineUnity::JSONNode*
 class CORDL_TYPE JSONNode : public ::System::Object {
@@ -620,9 +620,9 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::JSONNode, 0x
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9862)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428
-// }), TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1690 }), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9862)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3842), inst: 1690 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
 struct CORDL_TYPE __JSONNode__Enumerator {
 public:
   // Declarations
@@ -778,7 +778,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__JSONNode__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9863)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9863))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9866))
 // CS Name: ::JSONNode::LinqEnumerator*
 class CORDL_TYPE __JSONNode__LinqEnumerator : public ::System::Object {

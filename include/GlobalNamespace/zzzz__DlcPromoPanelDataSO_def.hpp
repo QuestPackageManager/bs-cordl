@@ -16,17 +16,17 @@ class __DlcPromoPanelDataSO__MusicPackPromoInfo;
 namespace GlobalNamespace {
 class PreviewBeatmapLevelPackSO;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+struct PlayerSensitivityFlag;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5831))
 // CS Name: ::DlcPromoPanelDataSO::MusicPackPromoInfo*
 class CORDL_TYPE __DlcPromoPanelDataSO__MusicPackPromoInfo : public ::System::Object {

@@ -8,49 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsClientProtocol)
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsClientProtocol__ClientHandshakeState;
+class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class __DtlsClientProtocol__ClientHandshakeState;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DigitallySigned;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsTransport;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClient;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+class DtlsTransport;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DigitallySigned;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class __SessionParameters__Builder;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContextImpl;
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAuthentication;
@@ -59,7 +53,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class TlsClientContextImpl;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __SessionParameters__Builder;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;

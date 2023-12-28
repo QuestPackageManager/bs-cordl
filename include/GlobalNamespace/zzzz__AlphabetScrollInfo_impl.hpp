@@ -18,27 +18,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr char16_t& GlobalNamespace::__AlphabetScrollInfo__Data::__get_character() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___character;
 }
 constexpr char16_t const& GlobalNamespace::__AlphabetScrollInfo__Data::__get_character() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___character;
 }
 constexpr void GlobalNamespace::__AlphabetScrollInfo__Data::__set_character(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___character = value;
 }
 constexpr int32_t& GlobalNamespace::__AlphabetScrollInfo__Data::__get_cellIdx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cellIdx;
 }
 constexpr int32_t const& GlobalNamespace::__AlphabetScrollInfo__Data::__get_cellIdx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cellIdx;
 }
 constexpr void GlobalNamespace::__AlphabetScrollInfo__Data::__set_cellIdx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cellIdx = value;
 }
 inline ::GlobalNamespace::__AlphabetScrollInfo__Data* GlobalNamespace::__AlphabetScrollInfo__Data::New_ctor(char16_t character, int32_t cellIdx) {

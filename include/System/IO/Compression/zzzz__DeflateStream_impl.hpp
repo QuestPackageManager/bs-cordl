@@ -3,22 +3,22 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
-#include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
-#include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionLevel_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionLevel_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
 //  Writing Method size for method: ::System::IO::Compression::__DeflateStream__ReadMethod._ctor
 template <>
 
@@ -642,63 +642,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& System::IO::Compression::DeflateStream::__get_base_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base_stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::IO::Compression::DeflateStream::__get_base_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base_stream;
 }
 constexpr void System::IO::Compression::DeflateStream::__set_base_stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___base_stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Compression::CompressionMode& System::IO::Compression::DeflateStream::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr ::System::IO::Compression::CompressionMode const& System::IO::Compression::DeflateStream::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr void System::IO::Compression::DeflateStream::__set_mode(::System::IO::Compression::CompressionMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 constexpr bool& System::IO::Compression::DeflateStream::__get_leaveOpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leaveOpen;
 }
 constexpr bool const& System::IO::Compression::DeflateStream::__get_leaveOpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leaveOpen;
 }
 constexpr void System::IO::Compression::DeflateStream::__set_leaveOpen(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leaveOpen = value;
 }
 constexpr bool& System::IO::Compression::DeflateStream::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& System::IO::Compression::DeflateStream::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void System::IO::Compression::DeflateStream::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 constexpr ::System::IO::Compression::DeflateStreamNative*& System::IO::Compression::DeflateStream::__get_native() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___native;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStreamNative*> const& System::IO::Compression::DeflateStream::__get_native() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___native;
 }
 constexpr void System::IO::Compression::DeflateStream::__set_native(::System::IO::Compression::DeflateStreamNative* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___native)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::Compression::DeflateStream* System::IO::Compression::DeflateStream::New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode) {

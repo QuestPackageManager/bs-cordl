@@ -9,28 +9,28 @@
 #include "UnityEngine/UIElements/zzzz__Vertex_impl.hpp"
 #include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
-#include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 // Ctor Parameters [CppParam { name: "vertices", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "indices", ty:
 // "::Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityEngine::Material*", modifiers: "", def_value: Some("nullptr") },
@@ -767,282 +767,282 @@ constexpr UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::operato
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UIElements::UIR::RenderChain*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_Owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Owner;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChain*> const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_Owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Owner;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_Owner(::UnityEngine::UIElements::UIR::RenderChain* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Owner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry>*&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_Entries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Entries;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry>*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_Entries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Entries;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_Entries(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::AtlasBase*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_Atlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Atlas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AtlasBase*> const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_Atlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Atlas;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_Atlas(::UnityEngine::UIElements::AtlasBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Atlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::VectorImageManager*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_VectorImageManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VectorImageManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::VectorImageManager*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_VectorImageManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VectorImageManager;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_VectorImageManager(::UnityEngine::UIElements::UIR::VectorImageManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VectorImageManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_CurrentEntry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentEntry;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_CurrentEntry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentEntry;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_CurrentEntry(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__Entry value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentEntry = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_ClosingInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClosingInfo;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_ClosingInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClosingInfo;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_ClosingInfo(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClosingInfo = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_MaskDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskDepth;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_MaskDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskDepth;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_MaskDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaskDepth = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_StencilRef() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StencilRef;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_StencilRef() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StencilRef;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_StencilRef(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StencilRef = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::BMPAlloc& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_ClipRectID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClipRectID;
 }
 constexpr ::UnityEngine::UIElements::UIR::BMPAlloc const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_ClipRectID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClipRectID;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_ClipRectID(::UnityEngine::UIElements::UIR::BMPAlloc value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClipRectID = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_SVGBackgroundEntryIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SVGBackgroundEntryIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_SVGBackgroundEntryIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SVGBackgroundEntryIndex;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_SVGBackgroundEntryIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SVGBackgroundEntryIndex = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex>&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_VertsPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertsPool;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_VertsPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertsPool;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_VertsPool(
     ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__TempDataAlloc_1<::UnityEngine::UIElements::Vertex> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VertsPool = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__TempDataAlloc_1<uint16_t>& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_IndicesPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndicesPool;
 }
 constexpr ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__TempDataAlloc_1<uint16_t> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_IndicesPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndicesPool;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_IndicesPool(::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__TempDataAlloc_1<uint16_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IndicesPool = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_MeshWriteDataPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshWriteDataPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_MeshWriteDataPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshWriteDataPool;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_MeshWriteDataPool(::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MeshWriteDataPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_NextMeshWriteDataPoolItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextMeshWriteDataPoolItem;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_NextMeshWriteDataPoolItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextMeshWriteDataPoolItem;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_NextMeshWriteDataPoolItem(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NextMeshWriteDataPoolItem = value;
 }
 constexpr ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_AllocRawVertsIndicesDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllocRawVertsIndicesDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_AllocRawVertsIndicesDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllocRawVertsIndicesDelegate;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_AllocRawVertsIndicesDelegate(::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AllocRawVertsIndicesDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_AllocThroughDrawMeshDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllocThroughDrawMeshDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_AllocThroughDrawMeshDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllocThroughDrawMeshDelegate;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_AllocThroughDrawMeshDelegate(::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AllocThroughDrawMeshDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_AllocThroughDrawGradientsDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllocThroughDrawGradientsDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get_m_AllocThroughDrawGradientsDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllocThroughDrawGradientsDelegate;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set_m_AllocThroughDrawGradientsDelegate(::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AllocThroughDrawGradientsDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::MeshGenerationContext*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__meshGenerationContext_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshGenerationContext_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::MeshGenerationContext*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__meshGenerationContext_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshGenerationContext_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshGenerationContext_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__currentElement_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElement_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
 UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__currentElement_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElement_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set__currentElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentElement_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__totalVertices_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalVertices_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__totalVertices_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalVertices_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set__totalVertices_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalVertices_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__totalIndices_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalIndices_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__totalIndices_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalIndices_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set__totalIndices_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalIndices_k__BackingField = value;
 }
 constexpr bool& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__disposed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__get__disposed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::__set__disposed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
 inline ::UnityEngine::UIElements::MeshWriteData* UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::GetPooledMeshWriteData() {

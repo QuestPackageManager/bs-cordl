@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__Vector2MagnitudeComparer_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer.Compare
 template <>
 

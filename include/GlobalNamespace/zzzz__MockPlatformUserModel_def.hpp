@@ -5,11 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MockPlatformUserModel)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
-class PlatformUserAuthTokenData;
+class UserInfo;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -17,17 +26,8 @@ template <typename T> class Action_1;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
-class UserInfo;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
+class PlatformUserAuthTokenData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

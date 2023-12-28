@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultReferenceResolver_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DefaultReferenceResolver.GetMappings
 template <>
 
@@ -102,15 +102,15 @@ constexpr Newtonsoft::Json::Serialization::DefaultReferenceResolver::operator ::
   return static_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(static_cast<void*>(this));
 }
 constexpr int32_t& Newtonsoft::Json::Serialization::DefaultReferenceResolver::__get__referenceCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceCount;
 }
 constexpr int32_t const& Newtonsoft::Json::Serialization::DefaultReferenceResolver::__get__referenceCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceCount;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultReferenceResolver::__set__referenceCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceCount = value;
 }
 inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings(::System::Object* context) {

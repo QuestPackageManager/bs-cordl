@@ -45,27 +45,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::__get__headNeckOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headNeckOffset;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::__get__headNeckOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headNeckOffset;
 }
 constexpr void BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::__set__headNeckOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headNeckOffset = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::__get__verticalOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalOffset;
 }
 constexpr float_t const& BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::__get__verticalOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalOffset;
 }
 constexpr void BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::__set__verticalOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____verticalOffset = value;
 }
 inline ::UnityEngine::Vector3 BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::get_headNeckOffset() {

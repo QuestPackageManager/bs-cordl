@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Reflection/zzzz__SignatureType_impl.hpp"
 #include "System/Reflection/zzzz__SignatureConstructedGenericType_def.hpp"
-#include "System/Reflection/zzzz__SignatureType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__SignatureType_def.hpp"
 //  Writing Method size for method: ::System::Reflection::SignatureConstructedGenericType._ctor
 template <>
 
@@ -300,27 +300,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Reflection::SignatureConstructedGenericType::__get__genericTypeDefinition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericTypeDefinition;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Reflection::SignatureConstructedGenericType::__get__genericTypeDefinition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericTypeDefinition;
 }
 constexpr void System::Reflection::SignatureConstructedGenericType::__set__genericTypeDefinition(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____genericTypeDefinition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& System::Reflection::SignatureConstructedGenericType::__get__genericTypeArguments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericTypeArguments;
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& System::Reflection::SignatureConstructedGenericType::__get__genericTypeArguments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericTypeArguments;
 }
 constexpr void System::Reflection::SignatureConstructedGenericType::__set__genericTypeArguments(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____genericTypeArguments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Reflection::SignatureConstructedGenericType* System::Reflection::SignatureConstructedGenericType::New_ctor(::System::Type* genericTypeDefinition,

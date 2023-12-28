@@ -9,65 +9,65 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKUtils)
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace LIV::SDK::Unity {
-struct SDKInputFrame;
+class SDKRender;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace LIV::SDK::Unity {
 struct SDKTrackedSpace;
 }
 namespace LIV::SDK::Unity {
-class SDKRender;
-}
-namespace UnityEngine {
-struct RenderingPath;
+struct TEXTURE_DEVICE;
 }
 namespace LIV::SDK::Unity {
-struct SDKPose;
+struct SDKInputFrame;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Vector3;
+struct RenderTextureFormat;
 }
-namespace UnityEngine {
-class Camera;
+namespace LIV::SDK::Unity {
+struct SDKPose;
 }
 namespace LIV::SDK::Unity {
 struct FEATURES;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace LIV::SDK::Unity {
-struct RENDERING_PIPELINE;
 }
 namespace LIV::SDK::Unity {
 struct TEXTURE_COLOR_SPACE;
 }
 namespace UnityEngine {
-struct RenderTextureReadWrite;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_DEVICE;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
-class Mesh;
+class Material;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
+struct RenderingPath;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct RenderTextureReadWrite;
+}
+namespace LIV::SDK::Unity {
+struct RENDERING_PIPELINE;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

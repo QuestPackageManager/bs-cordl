@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(XmlWriter)
 namespace System {
 class IDisposable;
 }
-namespace System::Xml {
-class XmlWriterSettings;
+namespace System::IO {
+class TextWriter;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::IO {
-class TextWriter;
-}
 namespace System::Xml {
 struct WriteState;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {

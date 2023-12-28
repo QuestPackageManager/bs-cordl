@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__SXprUtilities_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__SXprUtilities_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k._ctor
@@ -40,15 +40,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k::__get_mIterationCount64() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mIterationCount64;
 }
 constexpr int64_t const& Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k::__get_mIterationCount64() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mIterationCount64;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k::__set_mIterationCount64(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mIterationCount64 = value;
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k*

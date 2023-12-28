@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HelpBox)
 namespace UnityEngine::UIElements {
-struct HelpBoxMessageType;
-}
-namespace UnityEngine::UIElements {
-class __HelpBox__UxmlFactory;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class __HelpBox__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class Label;
 }
 namespace UnityEngine::UIElements {
-class Label;
+struct HelpBoxMessageType;
+}
+namespace UnityEngine::UIElements {
+class __HelpBox__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -264,8 +264,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HelpBox
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5262 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7111)), TypeDefinitionIndex(TypeDefinitionIndex(7112))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7110)) CS Name: ::HelpBox::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7112)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5262
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7111))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7110)) CS Name: ::HelpBox::UxmlFactory*
 class CORDL_TYPE __HelpBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::HelpBox*, ::UnityEngine::UIElements::__HelpBox__UxmlTraits*> {
 public:
   // Declarations

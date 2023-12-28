@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NaccacheSternPrivateKeyParameters)
 namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

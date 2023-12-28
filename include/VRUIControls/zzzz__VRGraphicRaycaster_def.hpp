@@ -12,11 +12,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRGraphicRaycaster)
-namespace VRUIControls {
-struct __VRGraphicRaycaster__VRGraphicRaycastResult;
+namespace UnityEngine {
+class Canvas;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace VRUIControls {
 class PhysicsRaycasterWithCache;
@@ -24,14 +24,14 @@ class PhysicsRaycasterWithCache;
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace HMUI {
 class CurvedCanvasSettingsHelper;
 }
-namespace UnityEngine {
-class Canvas;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace VRUIControls {
+struct __VRGraphicRaycaster__VRGraphicRaycastResult;
 }
 namespace VRUIControls {
 class __VRGraphicRaycaster____c;

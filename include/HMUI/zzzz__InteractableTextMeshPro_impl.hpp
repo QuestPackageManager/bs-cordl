@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "HMUI/zzzz__InteractableTextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 //  Writing Method size for method: ::HMUI::InteractableTextMeshPro.OnCanvasGroupChanged
 template <>
 
@@ -32,51 +32,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::InteractableTextMeshPro::__get__interactionAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interactionAlpha;
 }
 constexpr float_t const& HMUI::InteractableTextMeshPro::__get__interactionAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interactionAlpha;
 }
 constexpr void HMUI::InteractableTextMeshPro::__set__interactionAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____interactionAlpha = value;
 }
 constexpr float_t& HMUI::InteractableTextMeshPro::__get__noInteractionAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noInteractionAlpha;
 }
 constexpr float_t const& HMUI::InteractableTextMeshPro::__get__noInteractionAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noInteractionAlpha;
 }
 constexpr void HMUI::InteractableTextMeshPro::__set__noInteractionAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noInteractionAlpha = value;
 }
 constexpr ::TMPro::TextMeshProUGUI*& HMUI::InteractableTextMeshPro::__get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& HMUI::InteractableTextMeshPro::__get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr void HMUI::InteractableTextMeshPro::__set__text(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>*& HMUI::InteractableTextMeshPro::__get__canvasGroupCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvasGroupCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>*> const& HMUI::InteractableTextMeshPro::__get__canvasGroupCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvasGroupCache;
 }
 constexpr void HMUI::InteractableTextMeshPro::__set__canvasGroupCache(::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvasGroupCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::InteractableTextMeshPro::OnCanvasGroupChanged() {

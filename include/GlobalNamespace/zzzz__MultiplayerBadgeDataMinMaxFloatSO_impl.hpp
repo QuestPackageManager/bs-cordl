@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeMinMax_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataMinMaxFloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO.CalculateBadgeData
 template <>
 
@@ -91,27 +91,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MultiplayerBadgeMinMax& GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::__get__minMax() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minMax;
 }
 constexpr ::GlobalNamespace::MultiplayerBadgeMinMax const& GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::__get__minMax() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minMax;
 }
 constexpr void GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::__set__minMax(::GlobalNamespace::MultiplayerBadgeMinMax value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minMax = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::__get__weightMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____weightMultiplier;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::__get__weightMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____weightMultiplier;
 }
 constexpr void GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::__set__weightMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____weightMultiplier = value;
 }
 inline ::GlobalNamespace::MultiplayerBadgeAwardData*

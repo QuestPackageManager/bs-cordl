@@ -1091,15 +1091,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Math::EC::LongArray::__get_m_ints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ints;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Math::EC::LongArray::__get_m_ints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ints;
 }
 constexpr void Org::BouncyCastle::Math::EC::LongArray::__set_m_ints(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Math::EC::LongArray::setStaticF_INTERLEAVE2_TABLE(::ArrayW<uint16_t, ::Array<uint16_t>*> value) {

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeHelpers)
 namespace System {
-struct RuntimeFieldHandle;
-}
-namespace System {
-struct RuntimeTypeHandle;
+class Array;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Array;
+struct RuntimeFieldHandle;
+}
+namespace System {
+struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

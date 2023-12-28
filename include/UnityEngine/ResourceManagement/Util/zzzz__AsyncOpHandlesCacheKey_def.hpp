@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOpHandlesCacheKey)
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PerformanceRecorder)
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class IGamePause;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

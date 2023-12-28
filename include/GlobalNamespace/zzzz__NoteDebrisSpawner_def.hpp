@@ -9,11 +9,17 @@ CORDL_MODULE_EXPORT(NoteDebrisSpawner)
 namespace GlobalNamespace {
 class __NoteDebris__Pool;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
 struct ColorType;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace GlobalNamespace {
-class NoteDebris;
+class INoteDebrisDidFinishEvent;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
@@ -22,13 +28,7 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class INoteDebrisDidFinishEvent;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class NoteDebris;
 }
 // Forward declare root types
 namespace GlobalNamespace {

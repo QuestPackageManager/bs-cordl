@@ -1,14 +1,14 @@
 #pragma once
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 // Ctor Parameters [CppParam { name: "uvs3", ty: "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::HMUI::__CurvedTextMeshPro__CurvedMeshInfo::__CurvedTextMeshPro__CurvedMeshInfo(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs3) noexcept {
   this->uvs3 = uvs3;
@@ -178,51 +178,51 @@ constexpr HMUI::CurvedTextMeshPro::operator ::GlobalNamespace::IComponentRefresh
   return static_cast<::GlobalNamespace::IComponentRefresher*>(static_cast<void*>(this));
 }
 constexpr bool& HMUI::CurvedTextMeshPro::__get__useScriptableObjectColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useScriptableObjectColors;
 }
 constexpr bool const& HMUI::CurvedTextMeshPro::__get__useScriptableObjectColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useScriptableObjectColors;
 }
 constexpr void HMUI::CurvedTextMeshPro::__set__useScriptableObjectColors(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useScriptableObjectColors = value;
 }
 constexpr ::GlobalNamespace::ColorSO*& HMUI::CurvedTextMeshPro::__get__colorSo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& HMUI::CurvedTextMeshPro::__get__colorSo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSo;
 }
 constexpr void HMUI::CurvedTextMeshPro::__set__colorSo(::GlobalNamespace::ColorSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*>& HMUI::CurvedTextMeshPro::__get__curvedMeshInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedMeshInfos;
 }
 constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> const& HMUI::CurvedTextMeshPro::__get__curvedMeshInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedMeshInfos;
 }
 constexpr void HMUI::CurvedTextMeshPro::__set__curvedMeshInfos(::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curvedMeshInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::CurvedCanvasSettingsHelper*& HMUI::CurvedTextMeshPro::__get__curvedCanvasSettingsHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettingsHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& HMUI::CurvedTextMeshPro::__get__curvedCanvasSettingsHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettingsHelper;
 }
 constexpr void HMUI::CurvedTextMeshPro::__set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curvedCanvasSettingsHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool HMUI::CurvedTextMeshPro::get_useScriptableObjectColors() {

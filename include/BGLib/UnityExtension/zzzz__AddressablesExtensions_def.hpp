@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(AddressablesExtensions)
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace BGLib::UnityExtension {

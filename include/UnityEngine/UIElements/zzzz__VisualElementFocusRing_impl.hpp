@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder::__VisualElementFocusRing__DefaultFocusOrder(int32_t value__) noexcept {
   this->value__ = value__;
@@ -35,54 +35,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_AutoIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutoIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_AutoIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutoIndex;
 }
 constexpr void UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__set_m_AutoIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AutoIndex = value;
 }
 constexpr ::UnityEngine::UIElements::Focusable*& UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_Focusable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Focusable;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_Focusable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Focusable;
 }
 constexpr void UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__set_m_Focusable(::UnityEngine::UIElements::Focusable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Focusable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_IsSlot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsSlot;
 }
 constexpr bool const& UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_IsSlot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsSlot;
 }
 constexpr void UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__set_m_IsSlot(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsSlot = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*&
 UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_ScopeNavigationOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScopeNavigationOrder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*> const&
 UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__get_m_ScopeNavigationOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScopeNavigationOrder;
 }
 constexpr void UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::__set_m_ScopeNavigationOrder(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScopeNavigationOrder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord::New_ctor() {
@@ -336,41 +336,41 @@ constexpr UnityEngine::UIElements::VisualElementFocusRing::operator ::UnityEngin
   return static_cast<::UnityEngine::UIElements::IFocusRing*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::VisualElementFocusRing::__get_root() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::VisualElementFocusRing::__get_root() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
 constexpr void UnityEngine::UIElements::VisualElementFocusRing::__set_root(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder& UnityEngine::UIElements::VisualElementFocusRing::__get__defaultFocusOrder_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultFocusOrder_k__BackingField;
 }
 constexpr ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder const& UnityEngine::UIElements::VisualElementFocusRing::__get__defaultFocusOrder_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultFocusOrder_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::VisualElementFocusRing::__set__defaultFocusOrder_k__BackingField(::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultFocusOrder_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*& UnityEngine::UIElements::VisualElementFocusRing::__get_m_FocusRing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FocusRing;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*> const&
 UnityEngine::UIElements::VisualElementFocusRing::__get_m_FocusRing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FocusRing;
 }
 constexpr void
 UnityEngine::UIElements::VisualElementFocusRing::__set_m_FocusRing(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FocusRing)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param dfo: ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder (default: static_cast<int32_t>(0x0))

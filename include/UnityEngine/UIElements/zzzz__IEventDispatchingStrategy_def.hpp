@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class EventBase;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

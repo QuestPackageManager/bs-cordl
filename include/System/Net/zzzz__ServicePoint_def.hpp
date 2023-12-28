@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePoint)
+namespace System::Net {
+class IPHostEntry;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System {
+class Version;
+}
+namespace System::Net {
+class BindIPEndPoint;
+}
 namespace System {
 class Uri;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System {
+class Object;
 }
 namespace System::Net {
 class WebOperation;
 }
 namespace System::Net {
-class __ServicePointManager__SPKey;
-}
-namespace System {
-class Version;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Net {
-class IPHostEntry;
-}
-namespace System::Net {
 class ServicePointScheduler;
 }
 namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net {
-class BindIPEndPoint;
+class __ServicePointManager__SPKey;
 }
 namespace System::Net::Sockets {
 class Socket;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Net {

@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TMP_ScrollbarEventHandler)
 namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IDeselectHandler;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
 }
 // Forward declare root types
 namespace TMPro {

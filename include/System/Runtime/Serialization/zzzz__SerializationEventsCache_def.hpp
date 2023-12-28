@@ -10,11 +10,11 @@ class __SerializationEventsCache____c;
 namespace System::Runtime::Serialization {
 class SerializationEvents;
 }
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
-}
 namespace System {
 class Type;
+}
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

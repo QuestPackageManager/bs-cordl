@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimatorOverrideController)
 namespace UnityEngine {
-class RuntimeAnimatorController;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+class AnimationClip;
 }
 namespace UnityEngine {
-class AnimationClip;
+class RuntimeAnimatorController;
 }
 namespace UnityEngine {
 class __AnimatorOverrideController__OnOverrideControllerDirtyCallback;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 class Object;

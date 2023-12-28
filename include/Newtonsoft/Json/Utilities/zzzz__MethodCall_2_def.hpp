@@ -10,10 +10,10 @@ namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

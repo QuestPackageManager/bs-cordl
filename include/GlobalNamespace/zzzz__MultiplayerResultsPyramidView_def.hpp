@@ -10,29 +10,29 @@ CORDL_MODULE_EXPORT(MultiplayerResultsPyramidView)
 namespace GlobalNamespace {
 class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
-class MultiplayerResultsPyramidViewAvatar;
+class __MultiplayerResultsPyramidViewAvatar__Factory;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+class Transform;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
+class MultiplayerResultsPyramidViewAvatar;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

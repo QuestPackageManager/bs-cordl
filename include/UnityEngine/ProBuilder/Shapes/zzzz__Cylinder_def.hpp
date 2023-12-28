@@ -9,7 +9,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -18,7 +18,7 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

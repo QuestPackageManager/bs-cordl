@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlWhitespace)
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {

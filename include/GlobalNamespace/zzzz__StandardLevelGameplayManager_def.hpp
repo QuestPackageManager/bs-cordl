@@ -8,29 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelGameplayManager)
-namespace GlobalNamespace {
-class __StandardLevelGameplayManager__InitData;
-}
-namespace GlobalNamespace {
-class PauseController;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
-}
-namespace GlobalNamespace {
-class __StandardLevelGameplayManager___Start_d__22;
-}
-namespace GlobalNamespace {
-struct __StandardLevelGameplayManager__GameState;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class GameEnergyCounter;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class __StandardLevelGameplayManager__InitData;
 }
 namespace GlobalNamespace {
 class ILevelStartController;
@@ -38,20 +23,35 @@ class ILevelStartController;
 namespace GlobalNamespace {
 class GameSongController;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class PauseController;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class __StandardLevelGameplayManager___Start_d__22;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __StandardLevelGameplayManager__GameState;
+}
+namespace GlobalNamespace {
+class ILevelEndActions;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

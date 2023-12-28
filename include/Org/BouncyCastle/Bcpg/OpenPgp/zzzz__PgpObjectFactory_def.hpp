@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpObjectFactory)
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpObject;
+}
 namespace System::Collections {
 class IList;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpObject;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
 }
 namespace System {
 class Type;

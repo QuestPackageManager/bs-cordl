@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__ElementTryParser_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T> inline ::System::Net::Http::Headers::ElementTryParser_1<T>* System::Net::Http::Headers::ElementTryParser_1<T>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::System::Net::Http::Headers::ElementTryParser_1<T>*>(object, method));
 }

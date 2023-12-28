@@ -9,13 +9,13 @@ namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

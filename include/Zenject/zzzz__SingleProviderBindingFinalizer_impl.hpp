@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__SingleProviderBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Zenject::SingleProviderBindingFinalizer._ctor
 template <>
 
@@ -38,16 +38,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*& Zenject::SingleProviderBindingFinalizer::__get__providerFactory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providerFactory;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*> const&
 Zenject::SingleProviderBindingFinalizer::__get__providerFactory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providerFactory;
 }
 constexpr void Zenject::SingleProviderBindingFinalizer::__set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____providerFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SingleProviderBindingFinalizer*

@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerCertValidationCallback)
-namespace System {
-class Object;
+namespace System::Net {
+class __ServerCertValidationCallback__CallbackContext;
 }
 namespace System::Net::Security {
-struct SslPolicyErrors;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
+class RemoteCertificateValidationCallback;
 }
 namespace System::Threading {
 class ExecutionContext;
 }
-namespace System::Net {
-class __ServerCertValidationCallback__CallbackContext;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
+namespace System {
+class Object;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
 namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
+struct SslPolicyErrors;
 }
 // Forward declare root types
 namespace System::Net {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Net::__ServerCertValidationCallback__CallbackContext);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9369)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9369))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9146))
 // CS Name: ::ServerCertValidationCallback::CallbackContext*
 class CORDL_TYPE __ServerCertValidationCallback__CallbackContext : public ::System::Object {

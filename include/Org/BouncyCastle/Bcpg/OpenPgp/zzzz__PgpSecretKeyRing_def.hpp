@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSecretKeyRing)
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSecretKey;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKeyRing;
+class IList;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKeyRing;
+}
 namespace System::Collections {
-class IList;
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSecretKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

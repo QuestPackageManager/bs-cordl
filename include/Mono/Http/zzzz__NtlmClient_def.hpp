@@ -5,17 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmClient)
-namespace System::Net {
-class Authorization;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Net {
-class HttpWebRequest;
 }
 namespace System::Net {
 class WebRequest;
@@ -23,11 +14,20 @@ class WebRequest;
 namespace System::Net {
 class IAuthenticationModule;
 }
-namespace Mono::Http {
-class __NtlmClient____c;
+namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net {
+class ICredentials;
 }
 namespace Mono::Http {
 class NtlmSession;
+}
+namespace System::Net {
+class Authorization;
+}
+namespace Mono::Http {
+class __NtlmClient____c;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;

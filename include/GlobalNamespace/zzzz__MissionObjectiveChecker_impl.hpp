@@ -235,88 +235,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MissionObjectiveTypeSO*& GlobalNamespace::MissionObjectiveChecker::__get__missionObjectiveType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjectiveType;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjectiveTypeSO*> const& GlobalNamespace::MissionObjectiveChecker::__get__missionObjectiveType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjectiveType;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set__missionObjectiveType(::GlobalNamespace::MissionObjectiveTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionObjectiveType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& GlobalNamespace::MissionObjectiveChecker::__get_statusDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*> const& GlobalNamespace::MissionObjectiveChecker::__get_statusDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusDidChangeEvent;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___statusDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& GlobalNamespace::MissionObjectiveChecker::__get_checkedValueDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkedValueDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*> const&
 GlobalNamespace::MissionObjectiveChecker::__get_checkedValueDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkedValueDidChangeEvent;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___checkedValueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status& GlobalNamespace::MissionObjectiveChecker::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status const& GlobalNamespace::MissionObjectiveChecker::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set__status(::GlobalNamespace::__MissionObjectiveChecker__Status value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 constexpr int32_t& GlobalNamespace::MissionObjectiveChecker::__get__checkedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkedValue;
 }
 constexpr int32_t const& GlobalNamespace::MissionObjectiveChecker::__get__checkedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkedValue;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set__checkedValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____checkedValue = value;
 }
 constexpr ::GlobalNamespace::MissionObjective*& GlobalNamespace::MissionObjectiveChecker::__get__missionObjective() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjective;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionObjectiveChecker::__get__missionObjective() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjective;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set__missionObjective(::GlobalNamespace::MissionObjective* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionObjective)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MissionObjectiveChecker::__get__disableChecking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableChecking;
 }
 constexpr bool const& GlobalNamespace::MissionObjectiveChecker::__get__disableChecking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableChecking;
 }
 constexpr void GlobalNamespace::MissionObjectiveChecker::__set__disableChecking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disableChecking = value;
 }
 inline void GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {

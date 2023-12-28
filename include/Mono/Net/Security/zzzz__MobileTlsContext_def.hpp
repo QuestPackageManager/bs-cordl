@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MobileTlsContext)
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace Mono::Net::Security {
-class ChainValidationHelper;
+class MonoSslAuthenticationOptions;
 }
 namespace System {
 class IDisposable;
@@ -23,20 +20,23 @@ class IDisposable;
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace Mono::Net::Security {
+class ChainValidationHelper;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace Mono::Net::Security {
-class MonoSslAuthenticationOptions;
+class X509Certificate;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509Chain;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

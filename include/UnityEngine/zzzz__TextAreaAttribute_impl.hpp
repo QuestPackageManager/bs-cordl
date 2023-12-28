@@ -29,27 +29,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::TextAreaAttribute::__get_minLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minLines;
 }
 constexpr int32_t const& UnityEngine::TextAreaAttribute::__get_minLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minLines;
 }
 constexpr void UnityEngine::TextAreaAttribute::__set_minLines(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minLines = value;
 }
 constexpr int32_t& UnityEngine::TextAreaAttribute::__get_maxLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxLines;
 }
 constexpr int32_t const& UnityEngine::TextAreaAttribute::__get_maxLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxLines;
 }
 constexpr void UnityEngine::TextAreaAttribute::__set_maxLines(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxLines = value;
 }
 inline ::UnityEngine::TextAreaAttribute* UnityEngine::TextAreaAttribute::New_ctor() {

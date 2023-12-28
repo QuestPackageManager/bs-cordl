@@ -11,13 +11,13 @@ namespace System::Text {
 class Encoding;
 }
 namespace System::Text {
-class DecoderFallback;
+class EncoderFallback;
 }
 namespace System {
 class Object;
 }
 namespace System::Text {
-class EncoderFallback;
+class DecoderFallback;
 }
 // Forward declare root types
 namespace System::Text {

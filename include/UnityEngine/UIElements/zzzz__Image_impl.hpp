@@ -9,16 +9,16 @@
 #include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Image_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Image_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Image_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__ScaleMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__Image__UxmlTraits._ctor
 template <>
@@ -252,111 +252,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ScaleMode& UnityEngine::UIElements::Image::__get_m_ScaleMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleMode;
 }
 constexpr ::UnityEngine::ScaleMode const& UnityEngine::UIElements::Image::__get_m_ScaleMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleMode;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_ScaleMode(::UnityEngine::ScaleMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScaleMode = value;
 }
 constexpr ::UnityEngine::Texture*& UnityEngine::UIElements::Image::__get_m_Image() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Image;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture*> const& UnityEngine::UIElements::Image::__get_m_Image() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Image;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_Image(::UnityEngine::Texture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Image)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& UnityEngine::UIElements::Image::__get_m_Sprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Sprite;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& UnityEngine::UIElements::Image::__get_m_Sprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Sprite;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_Sprite(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Sprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::VectorImage*& UnityEngine::UIElements::Image::__get_m_VectorImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VectorImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VectorImage*> const& UnityEngine::UIElements::Image::__get_m_VectorImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VectorImage;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_VectorImage(::UnityEngine::UIElements::VectorImage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VectorImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::Image::__get_m_UV() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UV;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::Image::__get_m_UV() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UV;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_UV(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UV = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::UIElements::Image::__get_m_TintColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TintColor;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::UIElements::Image::__get_m_TintColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TintColor;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_TintColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TintColor = value;
 }
 constexpr bool& UnityEngine::UIElements::Image::__get_m_ImageIsInline() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImageIsInline;
 }
 constexpr bool const& UnityEngine::UIElements::Image::__get_m_ImageIsInline() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImageIsInline;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_ImageIsInline(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ImageIsInline = value;
 }
 constexpr bool& UnityEngine::UIElements::Image::__get_m_ScaleModeIsInline() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleModeIsInline;
 }
 constexpr bool const& UnityEngine::UIElements::Image::__get_m_ScaleModeIsInline() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleModeIsInline;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_ScaleModeIsInline(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScaleModeIsInline = value;
 }
 constexpr bool& UnityEngine::UIElements::Image::__get_m_TintColorIsInline() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TintColorIsInline;
 }
 constexpr bool const& UnityEngine::UIElements::Image::__get_m_TintColorIsInline() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TintColorIsInline;
 }
 constexpr void UnityEngine::UIElements::Image::__set_m_TintColorIsInline(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TintColorIsInline = value;
 }
 inline void UnityEngine::UIElements::Image::setStaticF_ussClassName(::StringW value) {

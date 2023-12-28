@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MarshalByRefObject)
-namespace System::Runtime::Remoting {
-class ObjRef;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 namespace System {
 class Object;

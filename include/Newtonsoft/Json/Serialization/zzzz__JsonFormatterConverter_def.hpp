@@ -7,23 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonFormatterConverter)
+namespace System {
+class Type;
+}
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerInternalReader;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTime;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonISerializableContract;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
 }
 namespace System {
 struct Decimal;
@@ -32,7 +20,19 @@ namespace Newtonsoft::Json::Serialization {
 class JsonProperty;
 }
 namespace System {
-class Type;
+class Object;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct TypeCode;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonISerializableContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class DHKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class IAsymmetricCipherKeyPairGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

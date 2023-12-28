@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRsenalScoreLogger)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __VRsenalScoreLogger___Start_d__3;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class __VRsenalScoreLogger___Start_d__3;
+class IScoreController;
 }
-namespace UnityEngine {
-class YieldInstruction;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine {
+class YieldInstruction;
 }
 namespace System {
 class IDisposable;

@@ -9,26 +9,26 @@ CORDL_MODULE_EXPORT(EditAvatarAnalytics)
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class BeatAvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__FinishAction;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarEditorFlowCoordinator;
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
 }
-namespace GlobalNamespace {
-class BeatAvatarEditorFlowCoordinator;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
-}
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__EditMode;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarEditorFlowCoordinator;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {

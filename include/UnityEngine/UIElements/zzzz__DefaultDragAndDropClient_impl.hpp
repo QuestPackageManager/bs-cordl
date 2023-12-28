@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultDragAndDropClient_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IDragAndDrop_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IDragAndDropData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IDragAndDropData_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IDragAndDrop_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultDragAndDropClient.get_userData
 template <>
 
@@ -71,15 +71,15 @@ constexpr UnityEngine::UIElements::DefaultDragAndDropClient::operator ::UnityEng
   return static_cast<::UnityEngine::UIElements::IDragAndDropData*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UIElements::StartDragArgs*& UnityEngine::UIElements::DefaultDragAndDropClient::__get_m_StartDragArgs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartDragArgs;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StartDragArgs*> const& UnityEngine::UIElements::DefaultDragAndDropClient::__get_m_StartDragArgs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartDragArgs;
 }
 constexpr void UnityEngine::UIElements::DefaultDragAndDropClient::__set_m_StartDragArgs(::UnityEngine::UIElements::StartDragArgs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StartDragArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Object* UnityEngine::UIElements::DefaultDragAndDropClient::get_userData() {

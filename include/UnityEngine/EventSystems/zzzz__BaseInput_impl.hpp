@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
-#include "UnityEngine/zzzz__Touch_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__IMECompositionMode_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Touch_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.get_compositionString
 template <>
 

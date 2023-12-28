@@ -12,7 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderQuadruped)
 namespace RootMotion::FinalIK {
-class IK;
+class Grounding;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class Rigidbody;
@@ -20,20 +23,17 @@ class Rigidbody;
 namespace RootMotion::FinalIK {
 struct __GrounderQuadruped__Foot;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
-class Grounding;
+class IK;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
-namespace RootMotion::FinalIK {
-class __Grounding__Leg;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class __Grounding__Leg;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__GrounderQ
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12524))
 // CS Name: ::RootMotion.FinalIK::GrounderQuadruped*
 class CORDL_TYPE GrounderQuadruped : public ::RootMotion::FinalIK::Grounder {

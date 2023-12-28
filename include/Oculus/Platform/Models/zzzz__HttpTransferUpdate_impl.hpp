@@ -17,39 +17,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint64_t& Oculus::Platform::Models::HttpTransferUpdate::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr uint64_t const& Oculus::Platform::Models::HttpTransferUpdate::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void Oculus::Platform::Models::HttpTransferUpdate::__set__cordl_ID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Oculus::Platform::Models::HttpTransferUpdate::__get_Payload() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Payload;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Oculus::Platform::Models::HttpTransferUpdate::__get_Payload() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Payload;
 }
 constexpr void Oculus::Platform::Models::HttpTransferUpdate::__set_Payload(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Payload)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Oculus::Platform::Models::HttpTransferUpdate::__get_IsCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsCompleted;
 }
 constexpr bool const& Oculus::Platform::Models::HttpTransferUpdate::__get_IsCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsCompleted;
 }
 constexpr void Oculus::Platform::Models::HttpTransferUpdate::__set_IsCompleted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsCompleted = value;
 }
 inline ::Oculus::Platform::Models::HttpTransferUpdate* Oculus::Platform::Models::HttpTransferUpdate::New_ctor(void* o) {

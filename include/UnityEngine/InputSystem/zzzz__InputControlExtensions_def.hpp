@@ -13,22 +13,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlExtensions)
 namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__ControlBuilder;
+class __InputControlExtensions___GetAllButtonPresses_d__43;
 }
-namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__DeviceBuilder;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem {
 struct __InputControlExtensions__Enumerate;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlExtensions__InputEventControlCollection;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlExtensions__ControlBuilder;
+}
+namespace UnityEngine::InputSystem {
 struct __InputControlExtensions__InputEventControlEnumerator;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -36,53 +57,32 @@ template <typename T> class IList_1;
 namespace System::Text {
 class StringBuilder;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlExtensions__InputEventControlCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+struct __InputControlExtensions__DeviceBuilder;
 }
 namespace UnityEngine::InputSystem {
 template <typename TValue> class InputControl_1;
 }
-namespace UnityEngine::InputSystem {
-class __InputControlExtensions___GetAllButtonPresses_d__43;
-}
 namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputStateBlock;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputStateBlock;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -530,7 +530,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6219))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6219)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6222))
 // CS Name: ::InputControlExtensions::<GetAllButtonPresses>d__43*
 class CORDL_TYPE __InputControlExtensions___GetAllButtonPresses_d__43 : public ::System::Object {

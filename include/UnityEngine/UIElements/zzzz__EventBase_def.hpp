@@ -10,16 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBase)
 namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine {
-struct Vector2;
+struct __EventBase__EventPropagation;
 }
 namespace UnityEngine::UIElements {
-class PropagationPaths;
-}
-namespace UnityEngine {
-class Event;
+struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
 struct __EventBase__LifeCycleStatus;
@@ -27,17 +21,23 @@ struct __EventBase__LifeCycleStatus;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
-}
-namespace UnityEngine::UIElements {
-struct __EventBase__EventPropagation;
+class PropagationPaths;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
+}
+namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -209,8 +209,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Event
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7178)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7256)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7177))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7179)) CS Name: ::UnityEngine.UIElements::EventBase*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7256)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7178)), TypeDefinitionIndex(TypeDefinitionIndex(7177))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7179)) CS Name: ::UnityEngine.UIElements::EventBase*
 class CORDL_TYPE EventBase : public ::System::Object {
 public:
   // Declarations

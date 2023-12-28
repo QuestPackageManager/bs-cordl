@@ -78,39 +78,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::ProBuilder::HSVColor::__get_h() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h;
 }
 constexpr float_t const& UnityEngine::ProBuilder::HSVColor::__get_h() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h;
 }
 constexpr void UnityEngine::ProBuilder::HSVColor::__set_h(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::HSVColor::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr float_t const& UnityEngine::ProBuilder::HSVColor::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void UnityEngine::ProBuilder::HSVColor::__set_s(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::HSVColor::__get_v() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr float_t const& UnityEngine::ProBuilder::HSVColor::__get_v() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr void UnityEngine::ProBuilder::HSVColor::__set_v(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v = value;
 }
 inline ::UnityEngine::ProBuilder::HSVColor* UnityEngine::ProBuilder::HSVColor::New_ctor(float_t h, float_t s, float_t v) {

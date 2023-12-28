@@ -2,18 +2,18 @@
 #include "System/Xml/Schema/zzzz__XmlTypeCode_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlBaseConverter._ctor
 template <>
 
@@ -1821,39 +1821,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Schema::XmlSchemaType*& System::Xml::Schema::XmlBaseConverter::__get_schemaType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& System::Xml::Schema::XmlBaseConverter::__get_schemaType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
 constexpr void System::Xml::Schema::XmlBaseConverter::__set_schemaType(::System::Xml::Schema::XmlSchemaType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::XmlTypeCode& System::Xml::Schema::XmlBaseConverter::__get_typeCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeCode;
 }
 constexpr ::System::Xml::Schema::XmlTypeCode const& System::Xml::Schema::XmlBaseConverter::__get_typeCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeCode;
 }
 constexpr void System::Xml::Schema::XmlBaseConverter::__set_typeCode(::System::Xml::Schema::XmlTypeCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___typeCode = value;
 }
 constexpr ::System::Type*& System::Xml::Schema::XmlBaseConverter::__get_clrTypeDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clrTypeDefault;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Xml::Schema::XmlBaseConverter::__get_clrTypeDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clrTypeDefault;
 }
 constexpr void System::Xml::Schema::XmlBaseConverter::__set_clrTypeDefault(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clrTypeDefault)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::Schema::XmlBaseConverter::setStaticF_ICollectionType(::System::Type* value) {

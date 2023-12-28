@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ListenerAsyncResult_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::ListenerAsyncResult._ctor
 template <>
 
@@ -156,135 +156,135 @@ constexpr System::Net::ListenerAsyncResult::operator ::System::IAsyncResult*() n
   return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 constexpr ::System::Threading::ManualResetEvent*& System::Net::ListenerAsyncResult::__get_handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Net::ListenerAsyncResult::__get_handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_handle(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::ListenerAsyncResult::__get_synch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___synch;
 }
 constexpr bool const& System::Net::ListenerAsyncResult::__get_synch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___synch;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_synch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___synch = value;
 }
 constexpr bool& System::Net::ListenerAsyncResult::__get_completed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 constexpr bool const& System::Net::ListenerAsyncResult::__get_completed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_completed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completed = value;
 }
 constexpr ::System::AsyncCallback*& System::Net::ListenerAsyncResult::__get_cb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::Net::ListenerAsyncResult::__get_cb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_cb(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::ListenerAsyncResult::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ListenerAsyncResult::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_state(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Exception*& System::Net::ListenerAsyncResult::__get_exception() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exception;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& System::Net::ListenerAsyncResult::__get_exception() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exception;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_exception(::System::Exception* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___exception)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpListenerContext*& System::Net::ListenerAsyncResult::__get_context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& System::Net::ListenerAsyncResult::__get_context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_context(::System::Net::HttpListenerContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::ListenerAsyncResult::__get_locker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ListenerAsyncResult::__get_locker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_locker(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___locker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::ListenerAsyncResult*& System::Net::ListenerAsyncResult::__get_forward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forward;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerAsyncResult*> const& System::Net::ListenerAsyncResult::__get_forward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forward;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_forward(::System::Net::ListenerAsyncResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___forward)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::ListenerAsyncResult::__get_EndCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EndCalled;
 }
 constexpr bool const& System::Net::ListenerAsyncResult::__get_EndCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EndCalled;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_EndCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EndCalled = value;
 }
 constexpr bool& System::Net::ListenerAsyncResult::__get_InGet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InGet;
 }
 constexpr bool const& System::Net::ListenerAsyncResult::__get_InGet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InGet;
 }
 constexpr void System::Net::ListenerAsyncResult::__set_InGet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InGet = value;
 }
 inline void System::Net::ListenerAsyncResult::setStaticF_InvokeCB(::System::Threading::WaitCallback* value) {

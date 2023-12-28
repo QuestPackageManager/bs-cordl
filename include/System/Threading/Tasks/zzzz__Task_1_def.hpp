@@ -9,28 +9,28 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+struct TaskContinuationOptions;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __Task_1__TaskWhenAnyCast;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class Delegate;
+struct TaskCreationOptions;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Object;
 }
 namespace System::Threading::Tasks {
 struct InternalTaskOptions;
 }
 namespace System::Threading::Tasks {
-class TaskScheduler;
+template <typename TResult> class TaskFactory_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -39,16 +39,16 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ConfiguredTaskAwaitable_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1;
+template <typename TResult> class Func_1;
 }
 namespace System {
-class Object;
+class Delegate;
+}
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class __Task_1__TaskWhenAnyCast;
 }
 namespace GlobalNamespace {
 template <typename TResult> class __Task_1__TaskWhenAnyCast____c;

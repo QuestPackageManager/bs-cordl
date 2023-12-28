@@ -10,40 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WriteObjectInfo)
 namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System {
 class Type;
 }
-namespace System::Reflection {
-class MemberInfo;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoInit;
+}
 namespace System::Runtime::Serialization {
-class IFormatterConverter;
+class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectWriter;
-}
-namespace System {
-class Object;
+class IFormatterConverter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoCache;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoInit;
+class ObjectWriter;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::WriteObject
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3281))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::WriteObjectInfo*
 class CORDL_TYPE WriteObjectInfo : public ::System::Object {

@@ -5,10 +5,10 @@
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockNoteData.get_time
 template <>
 
@@ -234,87 +234,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::MockNoteData::__get__time_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MockNoteData::__get__time_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__time_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::MockNoteData::__get__lineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::MockNoteData::__get__lineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__lineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__NoteData__GameplayType& GlobalNamespace::MockNoteData::__get__gameplayType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayType_k__BackingField;
 }
 constexpr ::GlobalNamespace::__NoteData__GameplayType const& GlobalNamespace::MockNoteData::__get__gameplayType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayType_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayType_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::ColorType& GlobalNamespace::MockNoteData::__get__colorType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::MockNoteData::__get__colorType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__colorType_k__BackingField(::GlobalNamespace::ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorType_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::MockNoteData::__get__cutDirection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirection_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::MockNoteData::__get__cutDirection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirection_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutDirection_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::MockNoteData::__get__noteLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::MockNoteData::__get__noteLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteLineLayer_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::MockNoteData::__get__duration_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MockNoteData::__get__duration_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration_k__BackingField;
 }
 constexpr void GlobalNamespace::MockNoteData::__set__duration_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration_k__BackingField = value;
 }
 inline float_t GlobalNamespace::MockNoteData::get_time() {

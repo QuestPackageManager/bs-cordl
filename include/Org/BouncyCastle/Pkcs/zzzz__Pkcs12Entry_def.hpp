@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(Pkcs12Entry)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace System::Collections {
-class IDictionary;
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

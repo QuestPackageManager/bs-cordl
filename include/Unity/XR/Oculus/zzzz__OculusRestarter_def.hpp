@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(OculusRestarter)
 namespace System {
 class Action;
 }
-namespace Unity::XR::Oculus {
-class __OculusRestarter___PauseAndRestartCoroutine_d__22;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Unity::XR::Oculus {
 class __OculusRestarter___RestartCoroutine_d__23;
 }
+namespace Unity::XR::Oculus {
+class __OculusRestarter___PauseAndRestartCoroutine_d__22;
+}
 namespace UnityEngine {
 class Coroutine;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

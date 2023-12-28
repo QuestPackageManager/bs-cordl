@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRSettings)
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace OVR::OpenVR {
 struct EVRSettingsError;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
@@ -25,13 +25,10 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetString;
+class __IVRSettings___GetString;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetInt32;
-}
-namespace OVR::OpenVR {
-class __IVRSettings___GetSettingsErrorNameFromEnum;
+class __IVRSettings___RemoveSection;
 }
 namespace OVR::OpenVR {
 class __IVRSettings___GetInt32;
@@ -40,25 +37,28 @@ namespace OVR::OpenVR {
 class __IVRSettings___SetBool;
 }
 namespace OVR::OpenVR {
+class __IVRSettings___RemoveKeyInSection;
+}
+namespace OVR::OpenVR {
 class __IVRSettings___GetFloat;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___RemoveSection;
+class __IVRSettings___SetInt32;
+}
+namespace OVR::OpenVR {
+class __IVRSettings___SetString;
+}
+namespace OVR::OpenVR {
+class __IVRSettings___GetSettingsErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
 class __IVRSettings___SetFloat;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetString;
+class __IVRSettings___GetBool;
 }
 namespace OVR::OpenVR {
 class __IVRSettings___Sync;
-}
-namespace OVR::OpenVR {
-class __IVRSettings___RemoveKeyInSection;
-}
-namespace OVR::OpenVR {
-class __IVRSettings___GetBool;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

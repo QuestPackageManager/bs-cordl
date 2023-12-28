@@ -19,12 +19,15 @@ MARK_REF_PTR_T(::GlobalNamespace::SR);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14247))
 // CS Name: ::SR*
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format addr 0x285a978 size 0x70 virtual false final false
+  /// @brief Method GetString addr 0x280cce4 size 0x4 virtual false final false
+  static inline ::StringW GetString(::StringW name);
+
+  /// @brief Method Format addr 0x280cce8 size 0x70 virtual false final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
 
   // Ctor Parameters [CppParam { name: "", ty: "SR", modifiers: "&&", def_value: None }]

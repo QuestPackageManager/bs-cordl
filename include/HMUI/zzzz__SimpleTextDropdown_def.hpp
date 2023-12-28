@@ -8,13 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTextDropdown)
 namespace HMUI {
-class TableView;
+class __TableView__IDataSource;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace HMUI {
-class TableCell;
+class TableView;
 }
 namespace HMUI {
 class DropdownWithTableView;
@@ -23,10 +26,7 @@ namespace GlobalNamespace {
 class SimpleTextTableCell;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+class TableCell;
 }
 // Forward declare root types
 namespace HMUI {

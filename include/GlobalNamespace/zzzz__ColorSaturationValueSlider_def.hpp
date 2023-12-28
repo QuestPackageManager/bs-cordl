@@ -8,21 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorSaturationValueSlider)
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
@@ -30,6 +15,21 @@ class PointerEventData;
 }
 namespace HMUI {
 class Slider2D;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSaturationValueSlider);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13559)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16175))
 // CS Name: ::ColorSaturationValueSlider*
 class CORDL_TYPE ColorSaturationValueSlider : public ::HMUI::Slider2D {

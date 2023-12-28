@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
+#include "GlobalNamespace/zzzz__IntSO_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__IntSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__FakeMirrorObjectsInstaller____c._ctor
@@ -117,118 +117,118 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MirroredGameNoteController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredGameNoteControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredGameNoteControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredGameNoteControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredGameNoteControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredGameNoteControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredGameNoteControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirroredGameNoteController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBurstSliderHeadGameNoteControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderHeadGameNoteControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const&
 GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBurstSliderHeadGameNoteControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderHeadGameNoteControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredBurstSliderHeadGameNoteControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderHeadGameNoteControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirroredGameNoteController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBurstSliderGameNoteControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderGameNoteControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const&
 GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBurstSliderGameNoteControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderGameNoteControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredBurstSliderGameNoteControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderGameNoteControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirroredGameNoteController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBurstSliderFillControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderFillControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const&
 GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBurstSliderFillControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderFillControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredBurstSliderFillControllerPrefab(::GlobalNamespace::MirroredGameNoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderFillControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirroredBombNoteController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBombNoteControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBombNoteControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredBombNoteController*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredBombNoteControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBombNoteControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredBombNoteControllerPrefab(::GlobalNamespace::MirroredBombNoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBombNoteControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirroredObstacleController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredObstacleControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredObstacleControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredObstacleController*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredObstacleControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredObstacleControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredObstacleControllerPrefab(::GlobalNamespace::MirroredObstacleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredObstacleControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirroredSliderController*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredSliderControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredSliderControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredSliderController*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirroredSliderControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredSliderControllerPrefab;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirroredSliderControllerPrefab(::GlobalNamespace::MirroredSliderController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredSliderControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IntSO*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirrorGraphicsSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorGraphicsSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirrorGraphicsSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorGraphicsSettings;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirrorGraphicsSettings(::GlobalNamespace::IntSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorGraphicsSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirrorRendererGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*> const&
 GlobalNamespace::FakeMirrorObjectsInstaller::__get__mirrorRendererGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
 }
 constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__set__mirrorRendererGraphicsSettingsPresets(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRendererGraphicsSettingsPresets)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

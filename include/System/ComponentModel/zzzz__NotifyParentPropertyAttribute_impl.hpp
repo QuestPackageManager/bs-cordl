@@ -80,15 +80,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::ComponentModel::NotifyParentPropertyAttribute::__get_notifyParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notifyParent;
 }
 constexpr bool const& System::ComponentModel::NotifyParentPropertyAttribute::__get_notifyParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notifyParent;
 }
 constexpr void System::ComponentModel::NotifyParentPropertyAttribute::__set_notifyParent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___notifyParent = value;
 }
 inline void System::ComponentModel::NotifyParentPropertyAttribute::setStaticF_Yes(::System::ComponentModel::NotifyParentPropertyAttribute* value) {

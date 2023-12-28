@@ -9,19 +9,19 @@ namespace UnityEngine::UIElements {
 class NavigationSubmitEvent;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class Clickable;
 }
 namespace UnityEngine::UIElements {
-class Label;
+class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class KeyDownEvent;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

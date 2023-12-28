@@ -85,29 +85,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& UnityEngine::Experimental::Audio::AudioSampleProvider::__get_sampleFramesAvailable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sampleFramesAvailable;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*> const&
 UnityEngine::Experimental::Audio::AudioSampleProvider::__get_sampleFramesAvailable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sampleFramesAvailable;
 }
 constexpr void UnityEngine::Experimental::Audio::AudioSampleProvider::__set_sampleFramesAvailable(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sampleFramesAvailable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& UnityEngine::Experimental::Audio::AudioSampleProvider::__get_sampleFramesOverflow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sampleFramesOverflow;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*> const&
 UnityEngine::Experimental::Audio::AudioSampleProvider::__get_sampleFramesOverflow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sampleFramesOverflow;
 }
 constexpr void UnityEngine::Experimental::Audio::AudioSampleProvider::__set_sampleFramesOverflow(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sampleFramesOverflow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable(int32_t sampleFrameCount) {

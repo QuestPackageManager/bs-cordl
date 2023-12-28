@@ -13,37 +13,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRVignette)
 namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
-}
-namespace GlobalNamespace {
-struct __OVRVignette__FalloffType;
+class Camera;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
-namespace GlobalNamespace {
-struct __OVRVignette__MeshComplexityLevel;
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Camera;
+struct __Camera__StereoscopicEye;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-struct __Camera__StereoscopicEye;
+class Shader;
+}
+namespace GlobalNamespace {
+struct __OVRVignette__FalloffType;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
+}
+namespace GlobalNamespace {
+struct __OVRVignette__MeshComplexityLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -171,8 +171,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRVignette__
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 186, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8186)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(8185)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8187)) CS Name: ::OVRVignette*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(8186)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8185))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8187)) CS Name: ::OVRVignette*
 class CORDL_TYPE OVRVignette : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

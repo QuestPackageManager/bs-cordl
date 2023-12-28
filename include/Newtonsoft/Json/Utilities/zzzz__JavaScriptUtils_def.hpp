@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JavaScriptUtils)
-namespace Newtonsoft::Json {
-struct StringEscapeHandling;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
 }
 namespace Newtonsoft::Json {
 template <typename T> class IArrayPool_1;

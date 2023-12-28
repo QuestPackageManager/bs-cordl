@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ListChangedEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9441)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(9441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9439))
 // CS Name: ::System.ComponentModel::ListChangedEventArgs*
 class CORDL_TYPE ListChangedEventArgs : public ::System::EventArgs {

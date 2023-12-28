@@ -15,16 +15,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
 }
 namespace System {
-class Array;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System {
 class Object;
 }
 namespace System {
 struct TypeCode;
+}
+namespace System {
+class Array;
+}
+namespace System::Reflection {
+class Assembly;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

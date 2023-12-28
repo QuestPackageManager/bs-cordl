@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__PenState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PenButton_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PenButton_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::PenState.get_Format
 template <>
 

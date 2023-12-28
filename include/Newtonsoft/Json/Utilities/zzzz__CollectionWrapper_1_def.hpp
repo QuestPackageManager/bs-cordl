@@ -12,14 +12,11 @@ template <typename T> class IEnumerator_1;
 namespace System {
 class Array;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace Newtonsoft::Json::Utilities {
-class IWrappedCollection;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -27,14 +24,17 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System::Collections {
-class IList;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IList;
+}
+namespace Newtonsoft::Json::Utilities {
+class IWrappedCollection;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

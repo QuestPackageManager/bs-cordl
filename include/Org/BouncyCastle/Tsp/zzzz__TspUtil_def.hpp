@@ -12,23 +12,23 @@ class ICollection;
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

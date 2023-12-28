@@ -4,15 +4,15 @@
 #include "GlobalNamespace/zzzz__NoteVisualModifierType_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
+#include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
+#include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController.add_cubeNoteControllerDidInitEvent
 template <>
 
@@ -140,41 +140,41 @@ constexpr GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::operato
   return static_cast<::GlobalNamespace::INoteMovementProvider*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__get_cubeNoteControllerDidInitEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*> const&
 GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__get_cubeNoteControllerDidInitEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
 constexpr void
 GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__set_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cubeNoteControllerDidInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteVisualModifierType& GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__get__noteVisualModifierType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteVisualModifierType;
 }
 constexpr ::GlobalNamespace::NoteVisualModifierType const& GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__get__noteVisualModifierType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteVisualModifierType;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__set__noteVisualModifierType(::GlobalNamespace::NoteVisualModifierType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteVisualModifierType = value;
 }
 constexpr ::GlobalNamespace::__NoteData__GameplayType& GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__get__gameplayType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayType;
 }
 constexpr ::GlobalNamespace::__NoteData__GameplayType const& GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__get__gameplayType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayType;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__set__gameplayType(::GlobalNamespace::__NoteData__GameplayType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayType = value;
 }
 inline void

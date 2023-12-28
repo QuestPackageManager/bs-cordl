@@ -3,8 +3,8 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Net/Http/zzzz__StreamContent_def.hpp"
 #include "System/Net/zzzz__TransportContext_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::StreamContent._ctor
 template <>
@@ -97,63 +97,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& System::Net::Http::StreamContent::__get_content() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::Http::StreamContent::__get_content() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___content;
 }
 constexpr void System::Net::Http::StreamContent::__set_content(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::Http::StreamContent::__get_bufferSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferSize;
 }
 constexpr int32_t const& System::Net::Http::StreamContent::__get_bufferSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferSize;
 }
 constexpr void System::Net::Http::StreamContent::__set_bufferSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufferSize = value;
 }
 constexpr ::System::Threading::CancellationToken& System::Net::Http::StreamContent::__get_cancellationToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
 constexpr ::System::Threading::CancellationToken const& System::Net::Http::StreamContent::__get_cancellationToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
 constexpr void System::Net::Http::StreamContent::__set_cancellationToken(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cancellationToken = value;
 }
 constexpr int64_t& System::Net::Http::StreamContent::__get_startPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPosition;
 }
 constexpr int64_t const& System::Net::Http::StreamContent::__get_startPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startPosition;
 }
 constexpr void System::Net::Http::StreamContent::__set_startPosition(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startPosition = value;
 }
 constexpr bool& System::Net::Http::StreamContent::__get_contentCopied() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentCopied;
 }
 constexpr bool const& System::Net::Http::StreamContent::__get_contentCopied() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentCopied;
 }
 constexpr void System::Net::Http::StreamContent::__set_contentCopied(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentCopied = value;
 }
 inline ::System::Net::Http::StreamContent* System::Net::Http::StreamContent::New_ctor(::System::IO::Stream* content) {

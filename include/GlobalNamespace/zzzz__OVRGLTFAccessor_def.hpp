@@ -15,28 +15,28 @@ namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace GlobalNamespace {
-struct OVRGLTFComponentType;
-}
-namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-struct OVRGLTFType;
-}
-namespace GlobalNamespace {
-struct OVRBinaryChunk;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct OVRBinaryChunk;
+}
+namespace GlobalNamespace {
+struct OVRGLTFType;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+struct OVRGLTFComponentType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAccessor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7551)), TypeDefinitionIndex(TypeDefinitionIndex(7552))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
 // CS Name: ::OVRGLTFAccessor*
 class CORDL_TYPE OVRGLTFAccessor : public ::System::Object {

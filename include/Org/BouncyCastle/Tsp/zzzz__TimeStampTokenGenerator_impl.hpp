@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenGenerator_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator._ctor
 template <>
 
@@ -171,159 +171,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_accuracySeconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accuracySeconds;
 }
 constexpr int32_t const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_accuracySeconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accuracySeconds;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_accuracySeconds(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___accuracySeconds = value;
 }
 constexpr int32_t& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_accuracyMillis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accuracyMillis;
 }
 constexpr int32_t const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_accuracyMillis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accuracyMillis;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_accuracyMillis(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___accuracyMillis = value;
 }
 constexpr int32_t& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_accuracyMicros() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accuracyMicros;
 }
 constexpr int32_t const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_accuracyMicros() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accuracyMicros;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_accuracyMicros(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___accuracyMicros = value;
 }
 constexpr bool& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_ordering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ordering;
 }
 constexpr bool const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_ordering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ordering;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_ordering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ordering = value;
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_tsa() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsa;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_tsa() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsa;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_tsa(::Org::BouncyCastle::Asn1::X509::GeneralName* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tsa)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_tsaPolicyOID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsaPolicyOID;
 }
 constexpr ::StringW const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_tsaPolicyOID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsaPolicyOID;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_tsaPolicyOID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tsaPolicyOID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::X509::X509Certificate*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_cert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_cert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_cert(::Org::BouncyCastle::X509::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_digestOID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digestOID;
 }
 constexpr ::StringW const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_digestOID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digestOID;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_digestOID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___digestOID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_signedAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedAttr;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_signedAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedAttr;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_signedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signedAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_unsignedAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedAttr;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_unsignedAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedAttr;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_unsignedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unsignedAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_x509Certs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Certs;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_x509Certs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Certs;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_x509Certs(::Org::BouncyCastle::X509::Store::IX509Store* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x509Certs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_x509Crls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Crls;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_x509Crls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x509Crls;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x509Crls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,

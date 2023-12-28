@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsAgreementCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class TlsAgreementCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAgreementCredentials;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;

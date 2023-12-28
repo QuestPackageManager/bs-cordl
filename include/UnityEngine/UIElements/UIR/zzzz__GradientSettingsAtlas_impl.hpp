@@ -4,12 +4,12 @@
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture.WriteRawInt2Packed
 template <>
@@ -281,87 +281,87 @@ constexpr UnityEngine::UIElements::UIR::GradientSettingsAtlas::operator ::System
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_Length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Length;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_Length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Length;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set_m_Length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Length = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_ElemWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ElemWidth;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_ElemWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ElemWidth;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set_m_ElemWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ElemWidth = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_Allocator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Allocator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_Allocator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Allocator;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set_m_Allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Texture2D*& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_Atlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Atlas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_Atlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Atlas;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set_m_Atlas(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Atlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_RawAtlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RawAtlas;
 }
 constexpr ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get_m_RawAtlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RawAtlas;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set_m_RawAtlas(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RawAtlas = value;
 }
 constexpr bool& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get__disposed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get__disposed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set__disposed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
 constexpr bool& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get__MustCommit_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MustCommit_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::GradientSettingsAtlas::__get__MustCommit_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MustCommit_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientSettingsAtlas::__set__MustCommit_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MustCommit_k__BackingField = value;
 }
 inline void UnityEngine::UIElements::UIR::GradientSettingsAtlas::setStaticF_s_MarkerWrite(::Unity::Profiling::ProfilerMarker value) {

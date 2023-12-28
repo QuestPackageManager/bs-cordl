@@ -5,38 +5,38 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 CORDL_MODULE_EXPORT(PS5AdvancedHapticsPlayerController)
-namespace GlobalNamespace {
-class __PS5AdvancedHapticsPlayerController____c__DisplayClass6_0;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
-}
 namespace Zenject {
 class IInitializable;
 }
 namespace GlobalNamespace {
-class __PS5AdvancedHapticsPlayerController____c__DisplayClass7_0;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace GlobalNamespace {
-class HapticsAudioClipPlayer;
-}
-namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
+class __PS5AdvancedHapticsPlayerController____c__DisplayClass6_0;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __HapticsAudioClipPlayer__Pool;
+class ICoroutineStarter;
+}
+namespace GlobalNamespace {
+class __PS5AdvancedHapticsPlayerController____c__DisplayClass7_0;
+}
+namespace GlobalNamespace {
+class IHapticFeedbackPlayer;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
+namespace GlobalNamespace {
+class HapticsAudioClipPlayer;
+}
+namespace GlobalNamespace {
+class __HapticsAudioClipPlayer__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {

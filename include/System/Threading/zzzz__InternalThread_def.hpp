@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Threading::InternalThread);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2672)), TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2638))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2747)) CS Name: ::System.Threading::InternalThread*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2672))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2747)) CS Name: ::System.Threading::InternalThread*
 class CORDL_TYPE InternalThread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetDebug_def.hpp"
+#include "LiteNetLib/zzzz__NetLogLevel_def.hpp"
 #include "LiteNetLib/zzzz__INetLogger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "LiteNetLib/zzzz__NetLogLevel_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetDebug.WriteLogic
 template <>
 

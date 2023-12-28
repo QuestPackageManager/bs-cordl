@@ -7,91 +7,91 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExecuteEvents)
 namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-template <typename T1> class __ExecuteEvents__EventFunction_1;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IMoveHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDropHandler;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerMoveHandler;
-}
-namespace UnityEngine::EventSystems {
 class ISelectHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IUpdateSelectedHandler;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
+}
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine::EventSystems {
+class IDropHandler;
+}
+namespace UnityEngine::EventSystems {
+template <typename T1> class __ExecuteEvents__EventFunction_1;
 }
 namespace UnityEngine::EventSystems {
 class IScrollHandler;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

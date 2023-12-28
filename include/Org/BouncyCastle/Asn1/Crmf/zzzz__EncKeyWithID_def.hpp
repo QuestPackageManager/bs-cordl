@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(EncKeyWithID)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
+class DerUtf8String;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerUtf8String;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

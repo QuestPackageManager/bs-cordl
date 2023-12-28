@@ -7,106 +7,40 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDocument)
 namespace System::Xml {
-class XmlElement;
-}
-namespace System::Xml {
-class XmlNodeChangedEventArgs;
-}
-namespace System::Xml {
-class XmlNamedNodeMap;
-}
-namespace System {
-class WeakReference;
-}
-namespace System::Xml {
-class EmptyEnumerator;
-}
-namespace System::Xml {
-class XmlText;
-}
-namespace System::Xml {
-class XmlDeclaration;
-}
-namespace System::Xml {
-class XmlComment;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSet;
-}
-namespace System::Xml {
-class XmlResolver;
-}
-namespace System::Xml::Schema {
-class SchemaElementDecl;
-}
-namespace System {
-class Object;
+class DomNameTable;
 }
 namespace System::Xml {
 struct XmlNodeChangedAction;
 }
 namespace System::Xml {
-class XmlSignificantWhitespace;
+class XmlNamedNodeMap;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class XmlCDataSection;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSet;
 }
 namespace System::Xml {
-class XmlWhitespace;
+class XmlNodeChangedEventArgs;
+}
+namespace System::Xml::Schema {
+class SchemaElementDecl;
 }
 namespace System::Xml {
-class XmlAttribute;
-}
-namespace System::Xml {
-class XmlProcessingInstruction;
+class XmlSignificantWhitespace;
 }
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
-class XmlDocumentType;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
-class XmlEntityReference;
-}
-namespace System::Xml {
-class XmlEntity;
-}
-namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Xml {
-class XmlImplementation;
-}
-namespace System::Xml {
-class XmlReader;
-}
-namespace System::Xml {
-class DomNameTable;
-}
-namespace System::Xml {
 class XmlLinkedNode;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Xml {
-class XmlNodeChangedEventHandler;
 }
 namespace System::Xml {
 class XmlDocumentFragment;
@@ -115,7 +49,73 @@ namespace System::Xml {
 class XmlName;
 }
 namespace System::Xml {
+class XmlWhitespace;
+}
+namespace System::Xml {
+class XmlReader;
+}
+namespace System::Xml {
+class XmlEntity;
+}
+namespace System::Xml {
+class XmlComment;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
+}
+namespace System::Xml {
+class XmlAttribute;
+}
+namespace System::Xml {
+class XmlProcessingInstruction;
+}
+namespace System::Xml {
+class XmlNodeChangedEventHandler;
+}
+namespace System::Xml {
+class XmlImplementation;
+}
+namespace System::Xml {
+class XmlText;
+}
+namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+class XmlResolver;
+}
+namespace System::Xml {
+class XmlElement;
+}
+namespace System {
+class WeakReference;
+}
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml {
 class XmlTextReader;
+}
+namespace System::Xml {
+class XmlDocumentType;
+}
+namespace System::Xml {
+class XmlDeclaration;
+}
+namespace System::Xml {
+class EmptyEnumerator;
+}
+namespace System::Xml {
+class XmlEntityReference;
 }
 // Forward declare root types
 namespace System::Xml {

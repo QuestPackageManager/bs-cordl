@@ -8,13 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(YogaNode)
 namespace UnityEngine::Yoga {
-class YogaConfig;
+struct YogaAlign;
 }
 namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
+class MeasureFunction;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::Yoga {
+struct YogaWrap;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::Yoga {
+class YogaConfig;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Yoga {
+struct YogaJustify;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Yoga {
 struct YogaEdge;
+}
+namespace UnityEngine::Yoga {
+struct YogaSize;
+}
+namespace System {
+class WeakReference;
 }
 namespace UnityEngine::Yoga {
 class BaselineFunction;
@@ -23,52 +53,22 @@ namespace UnityEngine::Yoga {
 struct YogaFlexDirection;
 }
 namespace UnityEngine::Yoga {
-struct YogaPositionType;
-}
-namespace UnityEngine::Yoga {
 struct YogaDisplay;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class WeakReference;
-}
-namespace UnityEngine::Yoga {
-struct YogaAlign;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaValue;
-}
-namespace UnityEngine::Yoga {
-struct YogaWrap;
 }
 namespace UnityEngine::Yoga {
 struct YogaOverflow;
 }
 namespace UnityEngine::Yoga {
-struct YogaJustify;
+struct YogaPositionType;
+}
+namespace UnityEngine::Yoga {
+struct YogaMeasureMode;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::Yoga {
-class MeasureFunction;
-}
-namespace UnityEngine::Yoga {
-struct YogaSize;
+class IEnumerator;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

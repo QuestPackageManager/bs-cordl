@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryWriter)
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System {
-class IDisposable;
-}
 namespace System {
 class IAsyncDisposable;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System::Text {
 class Encoder;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::IO {

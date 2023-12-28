@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimeField)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {

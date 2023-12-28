@@ -10,10 +10,10 @@ namespace System::Threading::Tasks {
 struct CausalityTraceLevel;
 }
 namespace System::Threading::Tasks {
-struct AsyncCausalityStatus;
+struct CausalitySynchronousWork;
 }
 namespace System::Threading::Tasks {
-struct CausalitySynchronousWork;
+struct AsyncCausalityStatus;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

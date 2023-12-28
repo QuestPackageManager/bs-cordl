@@ -2,13 +2,13 @@
 #include "System/Xml/Schema/zzzz__SchemaAttDef_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
-#include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
-#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
+#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
+#include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve::__SchemaAttDef__Reserve(int32_t value__) noexcept {
   this->value__ = value__;
@@ -426,75 +426,75 @@ constexpr System::Xml::Schema::SchemaAttDef::operator ::System::Xml::IDtdAttribu
   return static_cast<::System::Xml::IDtdAttributeInfo*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Xml::Schema::SchemaAttDef::__get_defExpanded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defExpanded;
 }
 constexpr ::StringW const& System::Xml::Schema::SchemaAttDef::__get_defExpanded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defExpanded;
 }
 constexpr void System::Xml::Schema::SchemaAttDef::__set_defExpanded(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defExpanded)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::Schema::SchemaAttDef::__get_lineNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineNum;
 }
 constexpr int32_t const& System::Xml::Schema::SchemaAttDef::__get_lineNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineNum;
 }
 constexpr void System::Xml::Schema::SchemaAttDef::__set_lineNum(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineNum = value;
 }
 constexpr int32_t& System::Xml::Schema::SchemaAttDef::__get_linePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linePos;
 }
 constexpr int32_t const& System::Xml::Schema::SchemaAttDef::__get_linePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linePos;
 }
 constexpr void System::Xml::Schema::SchemaAttDef::__set_linePos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___linePos = value;
 }
 constexpr int32_t& System::Xml::Schema::SchemaAttDef::__get_valueLineNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueLineNum;
 }
 constexpr int32_t const& System::Xml::Schema::SchemaAttDef::__get_valueLineNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueLineNum;
 }
 constexpr void System::Xml::Schema::SchemaAttDef::__set_valueLineNum(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueLineNum = value;
 }
 constexpr int32_t& System::Xml::Schema::SchemaAttDef::__get_valueLinePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueLinePos;
 }
 constexpr int32_t const& System::Xml::Schema::SchemaAttDef::__get_valueLinePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueLinePos;
 }
 constexpr void System::Xml::Schema::SchemaAttDef::__set_valueLinePos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueLinePos = value;
 }
 constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve& System::Xml::Schema::SchemaAttDef::__get_reserved() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reserved;
 }
 constexpr ::System::Xml::Schema::__SchemaAttDef__Reserve const& System::Xml::Schema::SchemaAttDef::__get_reserved() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reserved;
 }
 constexpr void System::Xml::Schema::SchemaAttDef::__set_reserved(::System::Xml::Schema::__SchemaAttDef__Reserve value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reserved = value;
 }
 inline void System::Xml::Schema::SchemaAttDef::setStaticF_Empty(::System::Xml::Schema::SchemaAttDef* value) {

@@ -10,59 +10,59 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelDetailView)
-namespace HMUI {
-class ToggleBinder;
-}
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace GlobalNamespace {
-class LevelParamsPanel;
-}
-namespace GlobalNamespace {
-class BeatmapDifficultySegmentedControlController;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSegmentedControlController;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
+class LevelParamsPanel;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapDifficultySegmentedControlController;
+}
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class PlayerData;
 }
 namespace GlobalNamespace {
-struct __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
+struct BeatmapDifficulty;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSegmentedControlController;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;

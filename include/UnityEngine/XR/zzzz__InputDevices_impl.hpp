@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputDevices_def.hpp"
+#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/XR/zzzz__ConnectionChangeType_def.hpp"
-#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::InputDevices.GetDeviceAtXRNode
 template <>
 

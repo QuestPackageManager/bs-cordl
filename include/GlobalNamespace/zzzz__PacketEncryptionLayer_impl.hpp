@@ -6,23 +6,23 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
-#include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics.get_packetsReceivedPlaintext
 template <>
@@ -280,99 +280,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsReceivedPlaintext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceivedPlaintext;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsReceivedPlaintext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceivedPlaintext;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__packetsReceivedPlaintext(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsReceivedPlaintext = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsReceivedEncrypted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceivedEncrypted;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsReceivedEncrypted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceivedEncrypted;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__packetsReceivedEncrypted(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsReceivedEncrypted = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsReceivedRejected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceivedRejected;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsReceivedRejected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceivedRejected;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__packetsReceivedRejected(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsReceivedRejected = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsSentPlaintext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSentPlaintext;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsSentPlaintext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSentPlaintext;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__packetsSentPlaintext(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsSentPlaintext = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsSentEncrypted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSentEncrypted;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsSentEncrypted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSentEncrypted;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__packetsSentEncrypted(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsSentEncrypted = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsSentRejected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSentRejected;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__packetsSentRejected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSentRejected;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__packetsSentRejected(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsSentRejected = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__encryptionProcessingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionProcessingTime;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__encryptionProcessingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionProcessingTime;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__encryptionProcessingTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____encryptionProcessingTime = value;
 }
 constexpr int64_t& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__decryptionProcessingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decryptionProcessingTime;
 }
 constexpr int64_t const& GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__get__decryptionProcessingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decryptionProcessingTime;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::__set__decryptionProcessingTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____decryptionProcessingTime = value;
 }
 inline int64_t GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics::get_packetsReceivedPlaintext() {
@@ -516,15 +516,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::__get_port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr int32_t const& GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::__get_port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::__set_port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
 inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0*
@@ -660,16 +660,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__EncryptionUtility__IEncryptionState*& GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::__get_encryptionState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptionState;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> const&
 GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::__get_encryptionState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptionState;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::__set_encryptionState(::GlobalNamespace::__EncryptionUtility__IEncryptionState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encryptionState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0*
@@ -823,17 +823,17 @@ constexpr GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList::
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*&
 GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList::__get__pendingStatesByPort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingStatesByPort;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*> const&
 GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList::__get__pendingStatesByPort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingStatesByPort;
 }
 constexpr void GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList::__set__pendingStatesByPort(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingStatesByPort)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList::get_isEmpty() {
@@ -1404,93 +1404,93 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics*& GlobalNamespace::PacketEncryptionLayer::__get_statistics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statistics;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics*> const& GlobalNamespace::PacketEncryptionLayer::__get_statistics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statistics;
 }
 constexpr void GlobalNamespace::PacketEncryptionLayer::__set_statistics(::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___statistics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGNet::Core::ITaskUtility*& GlobalNamespace::PacketEncryptionLayer::__get__taskUtility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& GlobalNamespace::PacketEncryptionLayer::__get__taskUtility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
 constexpr void GlobalNamespace::PacketEncryptionLayer::__set__taskUtility(::BGNet::Core::ITaskUtility* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskUtility)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*&
 GlobalNamespace::PacketEncryptionLayer::__get__encryptionStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionStates;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*> const&
 GlobalNamespace::PacketEncryptionLayer::__get__encryptionStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionStates;
 }
 constexpr void
 GlobalNamespace::PacketEncryptionLayer::__set__encryptionStates(::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encryptionStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>*&
 GlobalNamespace::PacketEncryptionLayer::__get__pendingEncryptionStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingEncryptionStates;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>*> const&
 GlobalNamespace::PacketEncryptionLayer::__get__pendingEncryptionStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingEncryptionStates;
 }
 constexpr void GlobalNamespace::PacketEncryptionLayer::__set__pendingEncryptionStates(
     ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingEncryptionStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::PacketEncryptionLayer::__get__unencryptedTrafficFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unencryptedTrafficFilter;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::PacketEncryptionLayer::__get__unencryptedTrafficFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unencryptedTrafficFilter;
 }
 constexpr void GlobalNamespace::PacketEncryptionLayer::__set__unencryptedTrafficFilter(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unencryptedTrafficFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PacketEncryptionLayer::__get__filterUnencryptedTraffic_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterUnencryptedTraffic_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::PacketEncryptionLayer::__get__filterUnencryptedTraffic_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterUnencryptedTraffic_k__BackingField;
 }
 constexpr void GlobalNamespace::PacketEncryptionLayer::__set__filterUnencryptedTraffic_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____filterUnencryptedTraffic_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::PacketEncryptionLayer::__get__enableStatistics_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableStatistics_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::PacketEncryptionLayer::__get__enableStatistics_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableStatistics_k__BackingField;
 }
 constexpr void GlobalNamespace::PacketEncryptionLayer::__set__enableStatistics_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enableStatistics_k__BackingField = value;
 }
 inline void GlobalNamespace::PacketEncryptionLayer::setStaticF__stopwatch(::System::Diagnostics::Stopwatch* value) {

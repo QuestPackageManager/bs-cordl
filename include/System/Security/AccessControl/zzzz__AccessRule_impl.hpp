@@ -2,10 +2,10 @@
 #include "System/Security/AccessControl/zzzz__AccessControlType_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::AccessRule._ctor
 template <>
 
@@ -41,15 +41,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::AccessControl::AccessControlType& System::Security::AccessControl::AccessRule::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::System::Security::AccessControl::AccessControlType const& System::Security::AccessControl::AccessRule::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void System::Security::AccessControl::AccessRule::__set_type(::System::Security::AccessControl::AccessControlType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 inline ::System::Security::AccessControl::AccessRule* System::Security::AccessControl::AccessRule::New_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask,

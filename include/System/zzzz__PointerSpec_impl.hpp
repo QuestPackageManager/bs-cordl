@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PointerSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ModifierSpec_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::PointerSpec._ctor
 template <>
 
@@ -66,15 +66,15 @@ constexpr System::PointerSpec::operator ::System::ModifierSpec*() noexcept {
   return static_cast<::System::ModifierSpec*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::PointerSpec::__get_pointer_level() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pointer_level;
 }
 constexpr int32_t const& System::PointerSpec::__get_pointer_level() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pointer_level;
 }
 constexpr void System::PointerSpec::__set_pointer_level(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pointer_level = value;
 }
 inline ::System::PointerSpec* System::PointerSpec::New_ctor(int32_t pointer_level) {

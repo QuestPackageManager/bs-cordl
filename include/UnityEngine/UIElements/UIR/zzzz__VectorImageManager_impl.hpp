@@ -2,18 +2,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfoPool_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfoPool_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.get_atlas
 template <>
 
@@ -155,90 +155,90 @@ constexpr UnityEngine::UIElements::UIR::VectorImageManager::operator ::System::I
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UIElements::AtlasBase*& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_Atlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Atlas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AtlasBase*> const& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_Atlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Atlas;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set_m_Atlas(::UnityEngine::UIElements::AtlasBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Atlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>*&
 UnityEngine::UIElements::UIR::VectorImageManager::__get_m_Registered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Registered;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>*> const&
 UnityEngine::UIElements::UIR::VectorImageManager::__get_m_Registered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Registered;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set_m_Registered(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Registered)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool*& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_RenderInfoPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RenderInfoPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool*> const& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_RenderInfoPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RenderInfoPool;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set_m_RenderInfoPool(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RenderInfoPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool*& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_GradientRemapPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GradientRemapPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemapPool*> const& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_GradientRemapPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GradientRemapPool;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set_m_GradientRemapPool(::UnityEngine::UIElements::UIR::GradientRemapPool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GradientRemapPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::GradientSettingsAtlas*& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_GradientSettingsAtlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GradientSettingsAtlas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*> const& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_GradientSettingsAtlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GradientSettingsAtlas;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set_m_GradientSettingsAtlas(::UnityEngine::UIElements::UIR::GradientSettingsAtlas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GradientSettingsAtlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_LoggedExhaustedSettingsAtlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LoggedExhaustedSettingsAtlas;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::VectorImageManager::__get_m_LoggedExhaustedSettingsAtlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LoggedExhaustedSettingsAtlas;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set_m_LoggedExhaustedSettingsAtlas(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LoggedExhaustedSettingsAtlas = value;
 }
 constexpr bool& UnityEngine::UIElements::UIR::VectorImageManager::__get__disposed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::VectorImageManager::__get__disposed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__set__disposed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
 inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_instances(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* value) {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarRandomizer_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModel_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__RandomizeAvatarColorMap_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModel_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::AvatarRandomizer.RandomizeAll
 template <>
 

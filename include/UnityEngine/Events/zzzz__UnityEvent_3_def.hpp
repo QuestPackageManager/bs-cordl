@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent_3)
-namespace System {
-class Object;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace UnityEngine::Events {
 template <typename T0, typename T1, typename T2> class UnityAction_3;
@@ -15,8 +15,8 @@ template <typename T0, typename T1, typename T2> class UnityAction_3;
 namespace System {
 class Type;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Events {
 class BaseInvokableCall;

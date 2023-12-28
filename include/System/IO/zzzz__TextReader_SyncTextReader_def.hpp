@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextReader_SyncTextReader)
-namespace System::IO {
-class TextReader;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System::IO {
+class TextReader;
 }
 // Forward declare root types
 namespace System::IO {

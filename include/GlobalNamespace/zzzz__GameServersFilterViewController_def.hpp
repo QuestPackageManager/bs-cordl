@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(GameServersFilterViewController)
-namespace GlobalNamespace {
-class GameplayModifiersDropdown;
-}
-namespace GlobalNamespace {
-class BeatmapDifficultyDropdown;
-}
-namespace GlobalNamespace {
-class GameServersFilter;
-}
-namespace HMUI {
-class ToggleBinder;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class SongPacksDropdown;
+class BeatmapDifficultyDropdown;
 }
 namespace UnityEngine::UI {
 class Toggle;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace GlobalNamespace {
+class GameplayModifiersDropdown;
+}
+namespace GlobalNamespace {
+class GameServersFilter;
+}
+namespace GlobalNamespace {
+class SongPacksDropdown;
 }
 // Forward declare root types
 namespace GlobalNamespace {

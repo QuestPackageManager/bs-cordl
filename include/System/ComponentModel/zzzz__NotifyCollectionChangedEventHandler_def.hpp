@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NotifyCollectionChangedEventHandler)
-namespace System::ComponentModel {
-class NotifyCollectionChangedEventArgs;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class IAsyncResult;
+}
+namespace System::ComponentModel {
+class NotifyCollectionChangedEventArgs;
 }
 // Forward declare root types
 namespace System::ComponentModel {

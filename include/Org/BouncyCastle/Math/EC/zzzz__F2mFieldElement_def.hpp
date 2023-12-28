@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(F2mFieldElement)
 namespace Org::BouncyCastle::Math::EC {
 class LongArray;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

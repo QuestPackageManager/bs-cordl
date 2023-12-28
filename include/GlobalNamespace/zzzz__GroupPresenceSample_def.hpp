@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupPresenceSample)
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 namespace UnityEngine::UI {
 class Text;
 }
 namespace Oculus::Platform::Models {
-class InvitePanelResultInfo;
-}
-namespace Oculus::Platform::Models {
-class GroupPresenceJoinIntent;
+class DestinationList;
 }
 namespace Oculus::Platform::Models {
 class User;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
+}
+namespace Oculus::Platform::Models {
+class LaunchInvitePanelFlowResult;
+}
+namespace Oculus::Platform::Models {
+class InvitePanelResultInfo;
 }
 namespace Oculus::Platform::Models {
 class GroupPresenceLeaveIntent;
 }
+namespace Oculus::Platform::Models {
+class GroupPresenceJoinIntent;
+}
 namespace Oculus::Platform {
 class Message;
-}
-namespace Oculus::Platform::Models {
-class DestinationList;
-}
-namespace Oculus::Platform {
-template <typename T> class Message_1;
-}
-namespace Oculus::Platform::Models {
-class LaunchInvitePanelFlowResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {

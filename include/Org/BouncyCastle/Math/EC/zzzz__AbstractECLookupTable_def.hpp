@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractECLookupTable)
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

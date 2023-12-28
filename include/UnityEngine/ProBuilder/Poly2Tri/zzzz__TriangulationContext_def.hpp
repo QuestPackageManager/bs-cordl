@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TriangulationContext)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationDebugContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class Triangulatable;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationAlgorithm;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
+class TriangulationDebugContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+struct TriangulationMode;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepDebugContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationConstraint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

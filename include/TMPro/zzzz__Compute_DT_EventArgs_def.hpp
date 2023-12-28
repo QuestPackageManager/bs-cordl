@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Compute_DT_EventArgs)
-namespace UnityEngine {
-struct Color;
-}
 namespace TMPro {
 struct Compute_DistanceTransform_EventTypes;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace TMPro {

@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType::__BeatmapEventDataBox__DistributionParamType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -179,99 +179,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IndexFilter*& GlobalNamespace::BeatmapEventDataBox::__get__indexFilter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexFilter_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IndexFilter*> const& GlobalNamespace::BeatmapEventDataBox::__get__indexFilter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexFilter_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__indexFilter_k__BackingField(::GlobalNamespace::IndexFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____indexFilter_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::BeatmapEventDataBox::__get__beatDistributionParam() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatDistributionParam;
 }
 constexpr float_t const& GlobalNamespace::BeatmapEventDataBox::__get__beatDistributionParam() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatDistributionParam;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__beatDistributionParam(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatDistributionParam = value;
 }
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& GlobalNamespace::BeatmapEventDataBox::__get__beatDistributionParamType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatDistributionParamType;
 }
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& GlobalNamespace::BeatmapEventDataBox::__get__beatDistributionParamType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatDistributionParamType;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__beatDistributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatDistributionParamType = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionCount;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionCount;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__eventDistributionCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventDistributionCount = value;
 }
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionParamType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionParamType;
 }
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionParamType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionParamType;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__eventDistributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventDistributionParamType = value;
 }
 constexpr float_t& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionParam() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionParam;
 }
 constexpr float_t const& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionParam() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionParam;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__eventDistributionParam(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventDistributionParam = value;
 }
 constexpr bool& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionShouldAffectFirstBaseEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionShouldAffectFirstBaseEvent;
 }
 constexpr bool const& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionShouldAffectFirstBaseEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionShouldAffectFirstBaseEvent;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__eventDistributionShouldAffectFirstBaseEvent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventDistributionShouldAffectFirstBaseEvent = value;
 }
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionEaseType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionEaseType;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::BeatmapEventDataBox::__get__eventDistributionEaseType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventDistributionEaseType;
 }
 constexpr void GlobalNamespace::BeatmapEventDataBox::__set__eventDistributionEaseType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventDistributionEaseType = value;
 }
 inline int32_t GlobalNamespace::BeatmapEventDataBox::get_subtypeIdentifier() {

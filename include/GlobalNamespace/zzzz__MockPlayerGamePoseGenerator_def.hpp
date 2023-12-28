@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGenerator)
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MockScoreSyncStateSender;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
 class MockBeatmapData;
 }
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MockNodePoseSyncStateSender;
+}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class MockNodePoseSyncStateSender;
+struct __LevelCompletionResults__LevelEndStateType;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MockScoreSyncStateSender;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -176,15 +176,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::TimeHelper::__get__accumulator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accumulator;
 }
 constexpr float_t const& GlobalNamespace::TimeHelper::__get__accumulator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accumulator;
 }
 constexpr void GlobalNamespace::TimeHelper::__set__accumulator(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____accumulator = value;
 }
 inline void GlobalNamespace::TimeHelper::setStaticF__time_k__BackingField(float_t value) {

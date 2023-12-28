@@ -11,50 +11,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimerThread)
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace System::Threading {
-class AutoResetEvent;
+namespace System::Net {
+class __TimerThread__TimerNode;
 }
 namespace System::Net {
 class __TimerThread__TimerQueue;
 }
-namespace System {
-class EventArgs;
-}
 namespace System::Net {
 class __TimerThread__Timer;
 }
-namespace System::Net {
-class __TimerThread__Callback;
+namespace System {
+class Object;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System::Net {
 class __TimerThread__InfiniteTimer;
 }
 namespace System::Net {
-class __TimerThread__TimerNode;
-}
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Net {
-class __TimerThread__Queue;
+class __TimerThread__Callback;
 }
 namespace System::Net {
 class __TimerThread__InfiniteTimerQueue;
 }
-namespace System {
-class WeakReference;
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections {
 class Hashtable;
 }
+namespace System::Net {
+class __TimerThread__Queue;
+}
 namespace System {
-class Object;
+class WeakReference;
+}
+namespace System::Threading {
+class AutoResetEvent;
+}
+namespace System {
+class EventArgs;
 }
 namespace System {
 class IDisposable;

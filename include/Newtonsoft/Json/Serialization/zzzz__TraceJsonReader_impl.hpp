@@ -1,16 +1,16 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__TraceJsonReader_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextWriter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__StringWriter_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::TraceJsonReader._ctor
 template <>
@@ -360,39 +360,39 @@ constexpr Newtonsoft::Json::Serialization::TraceJsonReader::operator ::Newtonsof
   return static_cast<::Newtonsoft::Json::IJsonLineInfo*>(static_cast<void*>(this));
 }
 constexpr ::Newtonsoft::Json::JsonReader*& Newtonsoft::Json::Serialization::TraceJsonReader::__get__innerReader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerReader;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonReader*> const& Newtonsoft::Json::Serialization::TraceJsonReader::__get__innerReader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerReader;
 }
 constexpr void Newtonsoft::Json::Serialization::TraceJsonReader::__set__innerReader(::Newtonsoft::Json::JsonReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____innerReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::JsonTextWriter*& Newtonsoft::Json::Serialization::TraceJsonReader::__get__textWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonTextWriter*> const& Newtonsoft::Json::Serialization::TraceJsonReader::__get__textWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textWriter;
 }
 constexpr void Newtonsoft::Json::Serialization::TraceJsonReader::__set__textWriter(::Newtonsoft::Json::JsonTextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::StringWriter*& Newtonsoft::Json::Serialization::TraceJsonReader::__get__sw() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sw;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::StringWriter*> const& Newtonsoft::Json::Serialization::TraceJsonReader::__get__sw() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sw;
 }
 constexpr void Newtonsoft::Json::Serialization::TraceJsonReader::__set__sw(::System::IO::StringWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sw)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::TraceJsonReader* Newtonsoft::Json::Serialization::TraceJsonReader::New_ctor(::Newtonsoft::Json::JsonReader* innerReader) {

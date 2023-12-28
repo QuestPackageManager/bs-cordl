@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultSerializationBinder)
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
 }
 namespace Newtonsoft::Json::Serialization {
 struct __DefaultSerializationBinder__TypeNameKey;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;

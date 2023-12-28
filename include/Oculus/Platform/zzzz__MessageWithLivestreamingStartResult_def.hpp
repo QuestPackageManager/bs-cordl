@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLivestreamingStartResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4595 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13454))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13302)) CS Name: ::Oculus.Platform::MessageWithLivestreamingStartResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13454)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4595 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13302)) CS Name: ::Oculus.Platform::MessageWithLivestreamingStartResult*
 class CORDL_TYPE MessageWithLivestreamingStartResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStartResult*> {
 public:
   // Declarations

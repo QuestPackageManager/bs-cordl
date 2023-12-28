@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Polyglot/zzzz__GoogleDriveDownloadFormat_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LocalizationAsset)
-namespace Polyglot {
-struct GoogleDriveDownloadFormat;
-}
 namespace UnityEngine {
 class TextAsset;
+}
+namespace Polyglot {
+struct GoogleDriveDownloadFormat;
 }
 // Forward declare root types
 namespace Polyglot {

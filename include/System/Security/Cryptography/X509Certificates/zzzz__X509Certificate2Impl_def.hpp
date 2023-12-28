@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2Impl)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+namespace System::Text {
+class StringBuilder;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImplCollection;
+class X509Certificate2;
 }
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Security::Cryptography {
 class RSA;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImplCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

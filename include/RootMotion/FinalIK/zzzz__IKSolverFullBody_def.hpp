@@ -8,26 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverFullBody)
-namespace RootMotion::FinalIK {
-class IKMappingLimb;
-}
-namespace RootMotion::FinalIK {
-class __IKSolver__Node;
-}
-namespace RootMotion::FinalIK {
-class IKMappingSpine;
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
-class IKEffector;
-}
-namespace UnityEngine {
-class Transform;
+class __IKSolver__IterationDelegate;
 }
 namespace RootMotion::FinalIK {
 class IKMappingBone;
+}
+namespace RootMotion::FinalIK {
+class IKMappingLimb;
+}
+namespace RootMotion::FinalIK {
+class IKMappingSpine;
 }
 namespace RootMotion::FinalIK {
 class FBIKChain;
@@ -36,7 +33,10 @@ namespace RootMotion::FinalIK {
 class __IKSolver__UpdateDelegate;
 }
 namespace RootMotion::FinalIK {
-class __IKSolver__IterationDelegate;
+class IKEffector;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Node;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

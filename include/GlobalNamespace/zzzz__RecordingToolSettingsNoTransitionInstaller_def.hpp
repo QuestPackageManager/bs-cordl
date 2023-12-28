@@ -8,10 +8,10 @@ namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class RecordingToolSceneSetupData;
+class RecordingToolScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class RecordingToolScenesTransitionSetupDataSO;
+class RecordingToolSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

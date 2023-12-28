@@ -9,64 +9,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetPeer)
 namespace LiteNetLib {
-class NetManager;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace LiteNetLib {
-struct ConnectionState;
-}
-namespace System::Diagnostics {
-class Stopwatch;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace LiteNetLib {
-class NetPacket;
+class __NetPeer__IncomingFragments;
 }
 namespace LiteNetLib {
 class NetConnectAcceptPacket;
-}
-namespace System {
-class Object;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib {
-struct DisconnectResult;
 }
 namespace LiteNetLib {
 class NetConnectRequestPacket;
 }
 namespace LiteNetLib {
+struct DisconnectResult;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace LiteNetLib {
 struct ConnectRequestResult;
-}
-namespace LiteNetLib {
-class BaseChannel;
-}
-namespace LiteNetLib {
-class __NetPeer__IncomingFragments;
 }
 namespace System::Net {
 class IPEndPoint;
-}
-namespace LiteNetLib {
-struct ShutdownResult;
-}
-namespace LiteNetLib {
-class NetStatistics;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
 }
 namespace System {
 struct DateTime;
 }
 namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
 class NetPacketPool;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace System::Diagnostics {
+class Stopwatch;
+}
+namespace System {
+class Object;
+}
+namespace LiteNetLib {
+class NetManager;
+}
+namespace LiteNetLib {
+class BaseChannel;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib {
+class NetStatistics;
+}
+namespace LiteNetLib {
+struct ShutdownResult;
+}
+namespace LiteNetLib {
+struct ConnectionState;
 }
 // Forward declare root types
 namespace LiteNetLib {

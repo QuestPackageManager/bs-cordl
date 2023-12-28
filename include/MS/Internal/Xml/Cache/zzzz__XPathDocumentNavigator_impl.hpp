@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/XPath/zzzz__XPathNavigator_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathDocumentNavigator_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathDocumentNavigator._ctor
 template <>
 
@@ -234,51 +234,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__pageCurrent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageCurrent;
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__pageCurrent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageCurrent;
 }
 constexpr void MS::Internal::Xml::Cache::XPathDocumentNavigator::__set__pageCurrent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageCurrent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__pageParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageParent;
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__pageParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageParent;
 }
 constexpr void MS::Internal::Xml::Cache::XPathDocumentNavigator::__set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__idxCurrent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idxCurrent;
 }
 constexpr int32_t const& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__idxCurrent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idxCurrent;
 }
 constexpr void MS::Internal::Xml::Cache::XPathDocumentNavigator::__set__idxCurrent(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idxCurrent = value;
 }
 constexpr int32_t& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__idxParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idxParent;
 }
 constexpr int32_t const& MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__idxParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idxParent;
 }
 constexpr void MS::Internal::Xml::Cache::XPathDocumentNavigator::__set__idxParent(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idxParent = value;
 }
 inline ::MS::Internal::Xml::Cache::XPathDocumentNavigator*

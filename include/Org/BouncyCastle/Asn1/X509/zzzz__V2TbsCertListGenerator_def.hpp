@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(V2TbsCertListGenerator)
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerUtcTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class TbsCertificateList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace System::Collections {
-class IList;
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateList;
+class Time;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

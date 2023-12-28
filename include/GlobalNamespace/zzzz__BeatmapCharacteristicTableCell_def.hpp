@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapCharacteristicTableCell)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicTableCell);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5416))
 // CS Name: ::BeatmapCharacteristicTableCell*
 class CORDL_TYPE BeatmapCharacteristicTableCell : public ::HMUI::TableCell {

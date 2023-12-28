@@ -67,8 +67,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6998), inst: 5254 }), TypeDefinitionIndex(TypeDefinitionIndex(6998)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7066))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7065)) CS Name: ::Box::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7066)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6998), inst: 5254 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6998))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7065)) CS Name: ::Box::UxmlFactory*
 class CORDL_TYPE __Box__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box*> {
 public:
   // Declarations

@@ -4,51 +4,51 @@
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::Stack_1<T>*& TMPro::TMP_ObjectPool_1<T>::__get_m_Stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& TMPro::TMP_ObjectPool_1<T>::__get_m_Stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__set_m_Stack(::System::Collections::Generic::Stack_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>*& TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnGet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnGet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__set_m_ActionOnGet(::UnityEngine::Events::UnityAction_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnGet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>*& TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& TMPro::TMP_ObjectPool_1<T>::__get_m_ActionOnRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__set_m_ActionOnRelease(::UnityEngine::Events::UnityAction_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnRelease)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& TMPro::TMP_ObjectPool_1<T>::__get__countAll_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countAll_k__BackingField;
 }
 template <typename T> constexpr int32_t const& TMPro::TMP_ObjectPool_1<T>::__get__countAll_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countAll_k__BackingField;
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__set__countAll_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____countAll_k__BackingField = value;
 }
 template <typename T> inline int32_t TMPro::TMP_ObjectPool_1<T>::get_countAll() {

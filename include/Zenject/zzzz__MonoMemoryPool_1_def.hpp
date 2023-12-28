@@ -26,7 +26,7 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2753 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2753 }), TypeDefinitionIndex(TypeDefinitionIndex(11038))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11050))
 // CS Name: ::Zenject::MonoMemoryPool`1<TValue>*
 class CORDL_TYPE MonoMemoryPool_1 : public ::Zenject::MemoryPool_1<TValue> {

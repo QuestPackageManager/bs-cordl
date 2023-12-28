@@ -80,27 +80,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::__get_min() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
 constexpr float_t const& UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::__get_min() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
 constexpr void UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::__set_min(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___min = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::__get_max() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
 constexpr float_t const& UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::__get_max() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
 constexpr void UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::__set_max(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max = value;
 }
 inline float_t UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::get_minOrDefault() {

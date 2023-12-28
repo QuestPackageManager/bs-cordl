@@ -5,38 +5,38 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BindSignalFromBinder_2)
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class BindStatement;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
 template <typename TObject, typename TSignal> class __BindSignalFromBinder_2____c;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
-class SignalCopyBinder;
-}
-namespace Zenject {
-class SignalBindingBindInfo;
-}
-namespace System {
-class Object;
 }
 namespace Zenject {
 template <typename TObject, typename TSignal> class __BindSignalFromBinder_2____c__DisplayClass8_0;
 }
+namespace Zenject {
+class SignalBindingBindInfo;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class SignalCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {

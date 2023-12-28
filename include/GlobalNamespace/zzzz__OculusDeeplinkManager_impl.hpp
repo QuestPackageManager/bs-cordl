@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusDeeplinkManager_def.hpp"
-#include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
-#include "GlobalNamespace/zzzz__Deeplink_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
 #include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "GlobalNamespace/zzzz__Deeplink_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusDeeplinkManager.add_didReceiveDeeplinkEvent
 template <>
 
@@ -156,39 +156,39 @@ constexpr GlobalNamespace::OculusDeeplinkManager::operator ::GlobalNamespace::ID
   return static_cast<::GlobalNamespace::IDeeplinkManager*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::GlobalNamespace::Deeplink*>*& GlobalNamespace::OculusDeeplinkManager::__get_didReceiveDeeplinkEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didReceiveDeeplinkEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::Deeplink*>*> const& GlobalNamespace::OculusDeeplinkManager::__get_didReceiveDeeplinkEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didReceiveDeeplinkEvent;
 }
 constexpr void GlobalNamespace::OculusDeeplinkManager::__set_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didReceiveDeeplinkEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Deeplink*& GlobalNamespace::OculusDeeplinkManager::__get__currentDeeplink() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentDeeplink;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Deeplink*> const& GlobalNamespace::OculusDeeplinkManager::__get__currentDeeplink() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentDeeplink;
 }
 constexpr void GlobalNamespace::OculusDeeplinkManager::__set__currentDeeplink(::GlobalNamespace::Deeplink* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentDeeplink)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OculusDeeplinkManager::__get__oculusPlatformWasInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusPlatformWasInitialized;
 }
 constexpr bool const& GlobalNamespace::OculusDeeplinkManager::__get__oculusPlatformWasInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusPlatformWasInitialized;
 }
 constexpr void GlobalNamespace::OculusDeeplinkManager::__set__oculusPlatformWasInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____oculusPlatformWasInitialized = value;
 }
 inline void GlobalNamespace::OculusDeeplinkManager::add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value) {

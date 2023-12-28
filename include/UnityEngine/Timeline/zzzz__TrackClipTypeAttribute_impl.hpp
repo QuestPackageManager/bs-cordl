@@ -33,27 +33,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& UnityEngine::Timeline::TrackClipTypeAttribute::__get_inspectedType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inspectedType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::Timeline::TrackClipTypeAttribute::__get_inspectedType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inspectedType;
 }
 constexpr void UnityEngine::Timeline::TrackClipTypeAttribute::__set_inspectedType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inspectedType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Timeline::TrackClipTypeAttribute::__get_allowAutoCreate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowAutoCreate;
 }
 constexpr bool const& UnityEngine::Timeline::TrackClipTypeAttribute::__get_allowAutoCreate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowAutoCreate;
 }
 constexpr void UnityEngine::Timeline::TrackClipTypeAttribute::__set_allowAutoCreate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowAutoCreate = value;
 }
 inline ::UnityEngine::Timeline::TrackClipTypeAttribute* UnityEngine::Timeline::TrackClipTypeAttribute::New_ctor(::System::Type* clipClass) {

@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::CompilerServices::LoadHint& System::Runtime::CompilerServices::DefaultDependencyAttribute::__get_loadHint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadHint;
 }
 constexpr ::System::Runtime::CompilerServices::LoadHint const& System::Runtime::CompilerServices::DefaultDependencyAttribute::__get_loadHint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadHint;
 }
 constexpr void System::Runtime::CompilerServices::DefaultDependencyAttribute::__set_loadHint(::System::Runtime::CompilerServices::LoadHint value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loadHint = value;
 }
 inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute*

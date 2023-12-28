@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BaseStateTransition.get_tweeningManager
 template <>
 
@@ -292,15 +292,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SelectableStateController*& GlobalNamespace::BaseStateTransition::__get__selectableStateController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectableStateController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SelectableStateController*> const& GlobalNamespace::BaseStateTransition::__get__selectableStateController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectableStateController;
 }
 constexpr void GlobalNamespace::BaseStateTransition::__set__selectableStateController(::GlobalNamespace::SelectableStateController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectableStateController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Tweening::TimeTweeningManager* GlobalNamespace::BaseStateTransition::get_tweeningManager() {

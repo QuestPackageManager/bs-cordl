@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractFpCurve)
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
@@ -14,8 +14,8 @@ class ECFieldElement;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(JsonTypeReflector)
 namespace System {
-class Object;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Runtime::Serialization {
-class DataContractAttribute;
-}
-namespace Newtonsoft::Json::Utilities {
-class ReflectionDelegateFactory;
+template <typename T, typename TResult> class Func_2;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Serialization {
-class __JsonTypeReflector____c__DisplayClass18_0;
-}
-namespace Newtonsoft::Json::Utilities {
-class ReflectionObject;
-}
-namespace System::Runtime::Serialization {
-class DataMemberAttribute;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace Newtonsoft::Json::Serialization {
-class __JsonTypeReflector____c;
-}
-namespace Newtonsoft::Json {
-struct MemberSerialization;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Type;
+}
+namespace Newtonsoft::Json {
+struct MemberSerialization;
+}
+namespace System::Runtime::Serialization {
+class DataContractAttribute;
+}
+namespace Newtonsoft::Json::Serialization {
+class __JsonTypeReflector____c__DisplayClass18_0;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Runtime::Serialization {
+class DataMemberAttribute;
+}
+namespace System {
+class Object;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionDelegateFactory;
+}
+namespace Newtonsoft::Json::Serialization {
+class __JsonTypeReflector____c;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionObject;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -183,8 +183,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11961)) CS Name: ::Newtonsoft.Json.Serialization::JsonTypeReflector*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11961)) CS Name: ::Newtonsoft.Json.Serialization::JsonTypeReflector*
 class CORDL_TYPE JsonTypeReflector : public ::System::Object {
 public:
   // Declarations

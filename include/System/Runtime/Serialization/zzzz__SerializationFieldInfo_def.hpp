@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationFieldInfo)
 namespace System {
-struct RuntimeFieldHandle;
-}
-namespace System {
-class Object;
+class Type;
 }
 namespace System::Reflection {
-class Binder;
+class RuntimeFieldInfo;
+}
+namespace System::Reflection {
+class Module;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Reflection {
-class Module;
+class Binder;
 }
 namespace System::Reflection {
-class RuntimeFieldInfo;
-}
-namespace System {
-class Type;
+struct BindingFlags;
 }
 namespace System::Reflection {
 struct FieldAttributes;
 }
-namespace System::Reflection {
-struct BindingFlags;
+namespace System {
+struct RuntimeFieldHandle;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

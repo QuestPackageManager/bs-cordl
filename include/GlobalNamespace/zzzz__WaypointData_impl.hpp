@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WaypointData.get_offsetDirection
 template <>
 
@@ -151,39 +151,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OffsetDirection& GlobalNamespace::WaypointData::__get__offsetDirection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetDirection_k__BackingField;
 }
 constexpr ::GlobalNamespace::OffsetDirection const& GlobalNamespace::WaypointData::__get__offsetDirection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetDirection_k__BackingField;
 }
 constexpr void GlobalNamespace::WaypointData::__set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetDirection_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::WaypointData::__get__lineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::WaypointData::__get__lineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::WaypointData::__set__lineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::WaypointData::__get__lineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::WaypointData::__get__lineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::WaypointData::__set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineLayer_k__BackingField = value;
 }
 inline ::GlobalNamespace::OffsetDirection GlobalNamespace::WaypointData::get_offsetDirection() {

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackRegistry)
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
-}
-namespace UnityEngine::UIElements {
 class EventCallbackList;
 }
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct TrickleDown;
 }
 namespace System {
 class Delegate;
 }
 namespace UnityEngine::UIElements {
-struct TrickleDown;
+template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackListPool;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 namespace UnityEngine::UIElements {
 struct InvokePolicy;

@@ -1,36 +1,36 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observer_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::Observer_1<TValue>::operator ::System::IObserver_1<TValue>*() noexcept {
   return static_cast<::System::IObserver_1<TValue>*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::Action_1<TValue>*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnNext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnNext;
 }
 template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnNext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnNext;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__set_m_OnNext(::System::Action_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr ::System::Action*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnCompleted;
 }
 template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnCompleted;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__set_m_OnCompleted(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param onCompleted: ::System::Action* (default: nullptr)

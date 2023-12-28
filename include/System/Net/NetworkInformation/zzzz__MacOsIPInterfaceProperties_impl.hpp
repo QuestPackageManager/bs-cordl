@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsIPInterfaceProperties_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterface_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::MacOsIPInterfaceProperties._ctor
 template <>
 

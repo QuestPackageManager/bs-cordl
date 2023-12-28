@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__OVRPlatformMenu_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlatformMenu_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlatformMenu_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler::__OVRPlatformMenu__eHandler(int32_t value__) noexcept {
@@ -102,39 +102,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRPlatformMenu::__get_inputCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputCode;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRPlatformMenu::__get_inputCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputCode;
 }
 constexpr void GlobalNamespace::OVRPlatformMenu::__set_inputCode(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inputCode = value;
 }
 constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler& GlobalNamespace::OVRPlatformMenu::__get_shortPressHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortPressHandler;
 }
 constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler const& GlobalNamespace::OVRPlatformMenu::__get_shortPressHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortPressHandler;
 }
 constexpr void GlobalNamespace::OVRPlatformMenu::__set_shortPressHandler(::GlobalNamespace::__OVRPlatformMenu__eHandler value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shortPressHandler = value;
 }
 constexpr ::System::Func_1<bool>*& GlobalNamespace::OVRPlatformMenu::__get_OnShortPress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnShortPress;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& GlobalNamespace::OVRPlatformMenu::__get_OnShortPress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnShortPress;
 }
 constexpr void GlobalNamespace::OVRPlatformMenu::__set_OnShortPress(::System::Func_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnShortPress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRPlatformMenu::setStaticF_sceneStack(::System::Collections::Generic::Stack_1<::StringW>* value) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AudioPlayerBase_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleAudioPlayer_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SimpleAudioPlayer.get_activeAudioClip
 template <>
 
@@ -114,75 +114,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::SimpleAudioPlayer::__get__audioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::SimpleAudioPlayer::__get__audioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioClip;
 }
 constexpr void GlobalNamespace::SimpleAudioPlayer::__set__audioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::SimpleAudioPlayer::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::SimpleAudioPlayer::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::SimpleAudioPlayer::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::SimpleAudioPlayer::__get__targetVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetVolume;
 }
 constexpr float_t const& GlobalNamespace::SimpleAudioPlayer::__get__targetVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetVolume;
 }
 constexpr void GlobalNamespace::SimpleAudioPlayer::__set__targetVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetVolume = value;
 }
 constexpr bool& GlobalNamespace::SimpleAudioPlayer::__get__loop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loop;
 }
 constexpr bool const& GlobalNamespace::SimpleAudioPlayer::__get__loop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loop;
 }
 constexpr void GlobalNamespace::SimpleAudioPlayer::__set__loop(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loop = value;
 }
 constexpr float_t& GlobalNamespace::SimpleAudioPlayer::__get__fadeSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeSpeed;
 }
 constexpr float_t const& GlobalNamespace::SimpleAudioPlayer::__get__fadeSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeSpeed;
 }
 constexpr void GlobalNamespace::SimpleAudioPlayer::__set__fadeSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeSpeed = value;
 }
 constexpr bool& GlobalNamespace::SimpleAudioPlayer::__get__fadingIn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadingIn;
 }
 constexpr bool const& GlobalNamespace::SimpleAudioPlayer::__get__fadingIn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadingIn;
 }
 constexpr void GlobalNamespace::SimpleAudioPlayer::__set__fadingIn(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadingIn = value;
 }
 inline ::UnityEngine::AudioClip* GlobalNamespace::SimpleAudioPlayer::get_activeAudioClip() {

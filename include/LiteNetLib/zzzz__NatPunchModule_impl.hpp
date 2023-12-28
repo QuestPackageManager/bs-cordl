@@ -2,15 +2,15 @@
 #include "LiteNetLib/zzzz__NatAddressType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
-#include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
 #include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 // Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "RemoteEndPoint", ty:
 // "::System::Net::IPEndPoint*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
@@ -107,27 +107,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::IPEndPoint*& LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::__get__Internal_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Internal_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::__get__Internal_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Internal_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::__set__Internal_k__BackingField(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Internal_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::__get__Token_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Token_k__BackingField;
 }
 constexpr ::StringW const& LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::__get__Token_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Token_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::__set__Token_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Token_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::IPEndPoint* LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket::get_Internal() {
@@ -268,39 +268,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::IPEndPoint*& LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__get__Internal_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Internal_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__get__Internal_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Internal_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__set__Internal_k__BackingField(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Internal_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IPEndPoint*& LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__get__External_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____External_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__get__External_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____External_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__set__External_k__BackingField(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____External_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__get__Token_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Token_k__BackingField;
 }
 constexpr ::StringW const& LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__get__Token_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Token_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::__set__Token_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Token_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::IPEndPoint* LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket::get_Internal() {
@@ -418,27 +418,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& LiteNetLib::__NatPunchModule__NatPunchPacket::__get__Token_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Token_k__BackingField;
 }
 constexpr ::StringW const& LiteNetLib::__NatPunchModule__NatPunchPacket::__get__Token_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Token_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatPunchPacket::__set__Token_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Token_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& LiteNetLib::__NatPunchModule__NatPunchPacket::__get__IsExternal_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsExternal_k__BackingField;
 }
 constexpr bool const& LiteNetLib::__NatPunchModule__NatPunchPacket::__get__IsExternal_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsExternal_k__BackingField;
 }
 constexpr void LiteNetLib::__NatPunchModule__NatPunchPacket::__set__IsExternal_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsExternal_k__BackingField = value;
 }
 inline ::StringW LiteNetLib::__NatPunchModule__NatPunchPacket::get_Token() {
@@ -629,89 +629,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::LiteNetLib::NetSocket*& LiteNetLib::NatPunchModule::__get__socket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____socket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& LiteNetLib::NatPunchModule::__get__socket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____socket;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__socket(::LiteNetLib::NetSocket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____socket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*& LiteNetLib::NatPunchModule::__get__requestEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*> const&
 LiteNetLib::NatPunchModule::__get__requestEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestEvents;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__requestEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____requestEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*& LiteNetLib::NatPunchModule::__get__successEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*> const&
 LiteNetLib::NatPunchModule::__get__successEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____successEvents;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__successEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____successEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataReader*& LiteNetLib::NatPunchModule::__get__cacheReader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheReader;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& LiteNetLib::NatPunchModule::__get__cacheReader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheReader;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__cacheReader(::LiteNetLib::Utils::NetDataReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cacheReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& LiteNetLib::NatPunchModule::__get__cacheWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& LiteNetLib::NatPunchModule::__get__cacheWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheWriter;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__cacheWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cacheWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::NatPunchModule::__get__netPacketProcessor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netPacketProcessor;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& LiteNetLib::NatPunchModule::__get__netPacketProcessor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netPacketProcessor;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__netPacketProcessor(::LiteNetLib::Utils::NetPacketProcessor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____netPacketProcessor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::INatPunchListener*& LiteNetLib::NatPunchModule::__get__natPunchListener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____natPunchListener;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INatPunchListener*> const& LiteNetLib::NatPunchModule::__get__natPunchListener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____natPunchListener;
 }
 constexpr void LiteNetLib::NatPunchModule::__set__natPunchListener(::LiteNetLib::INatPunchListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____natPunchListener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::LiteNetLib::NatPunchModule* LiteNetLib::NatPunchModule::New_ctor(::LiteNetLib::NetSocket* socket) {

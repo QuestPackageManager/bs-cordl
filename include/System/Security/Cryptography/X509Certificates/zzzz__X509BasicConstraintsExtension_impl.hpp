@@ -160,51 +160,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__certificateAuthority() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certificateAuthority;
 }
 constexpr bool const& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__certificateAuthority() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certificateAuthority;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__set__certificateAuthority(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____certificateAuthority = value;
 }
 constexpr bool& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__hasPathLengthConstraint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasPathLengthConstraint;
 }
 constexpr bool const& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__hasPathLengthConstraint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasPathLengthConstraint;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__set__hasPathLengthConstraint(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasPathLengthConstraint = value;
 }
 constexpr int32_t& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__pathLengthConstraint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathLengthConstraint;
 }
 constexpr int32_t const& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__pathLengthConstraint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathLengthConstraint;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__set__pathLengthConstraint(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pathLengthConstraint = value;
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus const& System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__set__status(::System::Security::Cryptography::AsnDecodeStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::New_ctor() {

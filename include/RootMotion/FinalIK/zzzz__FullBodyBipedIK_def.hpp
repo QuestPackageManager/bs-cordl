@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FullBodyBipedIK)
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
+namespace RootMotion {
+class BipedReferences;
 }
 namespace UnityEngine {
 class Transform;
@@ -15,8 +15,8 @@ class Transform;
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
-namespace RootMotion {
-class BipedReferences;
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

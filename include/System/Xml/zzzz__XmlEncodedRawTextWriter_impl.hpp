@@ -6,12 +6,12 @@
 #include "System/Xml/zzzz__XmlStandalone_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlEncodedRawTextWriter._ctor
 template <>
 
@@ -854,387 +854,387 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_useAsync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAsync;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_useAsync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAsync;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_useAsync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useAsync = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Xml::XmlEncodedRawTextWriter::__get_bufBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufBytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Xml::XmlEncodedRawTextWriter::__get_bufBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufBytes;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_bufBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bufBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Stream*& System::Xml::XmlEncodedRawTextWriter::__get_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Xml::XmlEncodedRawTextWriter::__get_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoding*& System::Xml::XmlEncodedRawTextWriter::__get_encoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Xml::XmlEncodedRawTextWriter::__get_encoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoding;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_encoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlCharType& System::Xml::XmlEncodedRawTextWriter::__get_xmlCharType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlCharType;
 }
 constexpr ::System::Xml::XmlCharType const& System::Xml::XmlEncodedRawTextWriter::__get_xmlCharType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlCharType;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_xmlCharType(::System::Xml::XmlCharType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlCharType = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_bufPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufPos;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_bufPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufPos;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_bufPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufPos = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_textPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textPos;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_textPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textPos;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_textPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___textPos = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_contentPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentPos;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_contentPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentPos;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_contentPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contentPos = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_cdataPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cdataPos;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_cdataPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cdataPos;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_cdataPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cdataPos = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_attrEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrEndPos;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_attrEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrEndPos;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_attrEndPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attrEndPos = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_bufLen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufLen;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_bufLen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufLen;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_bufLen(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufLen = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_writeToNull() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeToNull;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_writeToNull() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeToNull;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_writeToNull(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writeToNull = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_hadDoubleBracket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hadDoubleBracket;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_hadDoubleBracket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hadDoubleBracket;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_hadDoubleBracket(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hadDoubleBracket = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_inAttributeValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inAttributeValue;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_inAttributeValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inAttributeValue;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_inAttributeValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inAttributeValue = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_bufBytesUsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufBytesUsed;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_bufBytesUsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufBytesUsed;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_bufBytesUsed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufBytesUsed = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Xml::XmlEncodedRawTextWriter::__get_bufChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufChars;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Xml::XmlEncodedRawTextWriter::__get_bufChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufChars;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_bufChars(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bufChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoder*& System::Xml::XmlEncodedRawTextWriter::__get_encoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& System::Xml::XmlEncodedRawTextWriter::__get_encoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoder;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_encoder(::System::Text::Encoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::TextWriter*& System::Xml::XmlEncodedRawTextWriter::__get_writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& System::Xml::XmlEncodedRawTextWriter::__get_writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writer;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_writer(::System::IO::TextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_trackTextContent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackTextContent;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_trackTextContent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackTextContent;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_trackTextContent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___trackTextContent = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_inTextContent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inTextContent;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_inTextContent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inTextContent;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_inTextContent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inTextContent = value;
 }
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriter::__get_lastMarkPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastMarkPos;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriter::__get_lastMarkPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastMarkPos;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_lastMarkPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastMarkPos = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Xml::XmlEncodedRawTextWriter::__get_textContentMarks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textContentMarks;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Xml::XmlEncodedRawTextWriter::__get_textContentMarks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textContentMarks;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textContentMarks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::CharEntityEncoderFallback*& System::Xml::XmlEncodedRawTextWriter::__get_charEntityFallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEntityFallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallback*> const& System::Xml::XmlEncodedRawTextWriter::__get_charEntityFallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEntityFallback;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_charEntityFallback(::System::Xml::CharEntityEncoderFallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charEntityFallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::NewLineHandling& System::Xml::XmlEncodedRawTextWriter::__get_newLineHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineHandling;
 }
 constexpr ::System::Xml::NewLineHandling const& System::Xml::XmlEncodedRawTextWriter::__get_newLineHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineHandling;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_newLineHandling(::System::Xml::NewLineHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newLineHandling = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_closeOutput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closeOutput;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_closeOutput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closeOutput;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_closeOutput(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___closeOutput = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_omitXmlDeclaration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___omitXmlDeclaration;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_omitXmlDeclaration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___omitXmlDeclaration;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_omitXmlDeclaration(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___omitXmlDeclaration = value;
 }
 constexpr ::StringW& System::Xml::XmlEncodedRawTextWriter::__get_newLineChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineChars;
 }
 constexpr ::StringW const& System::Xml::XmlEncodedRawTextWriter::__get_newLineChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineChars;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_newLineChars(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newLineChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_checkCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_checkCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_checkCharacters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___checkCharacters = value;
 }
 constexpr ::System::Xml::XmlStandalone& System::Xml::XmlEncodedRawTextWriter::__get_standalone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standalone;
 }
 constexpr ::System::Xml::XmlStandalone const& System::Xml::XmlEncodedRawTextWriter::__get_standalone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standalone;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_standalone(::System::Xml::XmlStandalone value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___standalone = value;
 }
 constexpr ::System::Xml::XmlOutputMethod& System::Xml::XmlEncodedRawTextWriter::__get_outputMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outputMethod;
 }
 constexpr ::System::Xml::XmlOutputMethod const& System::Xml::XmlEncodedRawTextWriter::__get_outputMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outputMethod;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_outputMethod(::System::Xml::XmlOutputMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___outputMethod = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_autoXmlDeclaration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoXmlDeclaration;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_autoXmlDeclaration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoXmlDeclaration;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_autoXmlDeclaration(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoXmlDeclaration = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriter::__get_mergeCDataSections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mergeCDataSections;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriter::__get_mergeCDataSections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mergeCDataSections;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriter::__set_mergeCDataSections(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mergeCDataSections = value;
 }
 inline ::System::Xml::XmlEncodedRawTextWriter* System::Xml::XmlEncodedRawTextWriter::New_ctor(::System::Xml::XmlWriterSettings* settings) {

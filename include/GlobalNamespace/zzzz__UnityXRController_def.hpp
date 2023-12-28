@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(UnityXRController)
 namespace GlobalNamespace {
 struct __UnityXRHelper__VRControllerManufacturerName;
 }
+namespace GlobalNamespace {
+class __UnityXRController__Configuration;
+}
 namespace UnityEngine::InputSystem {
 class InputAction;
+}
+namespace UnityEngine::XR {
+struct InputDevice;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
-class __UnityXRController__Configuration;
+class IUnityXRHapticsHandler;
 }
 namespace UnityEngine {
 class MonoBehaviour;
-}
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
-}
-namespace UnityEngine::XR {
-struct InputDevice;
 }
 namespace UnityEngine::InputSystem {
 class InputActionReference;
@@ -145,7 +145,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityXRContro
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(14435))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14435)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14434))
 // CS Name: ::UnityXRController*
 class CORDL_TYPE UnityXRController : public ::System::Object {

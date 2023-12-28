@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CuttableBySaber)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class Saber;
 }
@@ -17,13 +14,16 @@ namespace GlobalNamespace {
 class __CuttableBySaber__WasCutBySaberDelegate;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
 class AsyncCallback;

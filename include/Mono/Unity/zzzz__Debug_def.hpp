@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(Debug)
 namespace Mono::Unity {
 struct __UnityTls__unitytls_errorstate;
 }
-namespace Mono::Security::Interface {
-struct AlertDescription;
-}
 namespace Mono::Unity {
 struct __UnityTls__unitytls_x509verify_result;
+}
+namespace Mono::Security::Interface {
+struct AlertDescription;
 }
 // Forward declare root types
 namespace Mono::Unity {

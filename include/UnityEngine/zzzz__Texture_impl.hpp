@@ -2,14 +2,14 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__ColorSpace_def.hpp"
-#include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__UnityException_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__FormatUsage_def.hpp"
+#include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "UnityEngine/zzzz__FilterMode_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__UnityException_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Texture._ctor
 template <>
 

@@ -8,29 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelGameplayManager)
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-class GameSongController;
+class MissionObjectiveCheckersManager;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class __MissionLevelGameplayManager__InitData;
-}
-namespace GlobalNamespace {
-struct __MissionLevelGameplayManager__GameState;
-}
-namespace GlobalNamespace {
-class PauseController;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace System {
-class Action;
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class ILevelStartController;
@@ -39,19 +30,28 @@ namespace GlobalNamespace {
 class __MissionLevelGameplayManager___Start_d__23;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
-}
-namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
-}
-namespace GlobalNamespace {
 class GameEnergyCounter;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __MissionLevelGameplayManager__InitData;
+}
+namespace GlobalNamespace {
+struct __MissionLevelGameplayManager__GameState;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class GameSongController;
+}
+namespace GlobalNamespace {
+class PauseController;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
@@ -284,7 +284,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionLevelG
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5019)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5019))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
 // CS Name: ::MissionLevelGameplayManager*
 class CORDL_TYPE MissionLevelGameplayManager : public ::UnityEngine::MonoBehaviour {

@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode::__OVRMixedRealityCaptureTest__CameraMode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -82,51 +82,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRMixedRealityCaptureTest::__get_inited() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
 constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_inited() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_inited(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inited = value;
 }
 constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode& GlobalNamespace::OVRMixedRealityCaptureTest::__get_currentMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentMode;
 }
 constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_currentMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentMode;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_currentMode(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentMode = value;
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultExternalCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultExternalCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultExternalCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultExternalCamera;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_defaultExternalCamera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultExternalCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Fovf& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultFov() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultFov;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultFov() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultFov;
 }
 constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultFov = value;
 }
 inline void GlobalNamespace::OVRMixedRealityCaptureTest::Start() {

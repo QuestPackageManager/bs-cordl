@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__SphereCuttableBySaber_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__SphereCollider_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SphereCuttableBySaber.get_radius
 template <>
 
@@ -89,27 +89,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::SphereCollider*& GlobalNamespace::SphereCuttableBySaber::__get__collider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collider;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SphereCollider*> const& GlobalNamespace::SphereCuttableBySaber::__get__collider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collider;
 }
 constexpr void GlobalNamespace::SphereCuttableBySaber::__set__collider(::UnityEngine::SphereCollider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::SphereCuttableBySaber::__get__canBeCut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canBeCut;
 }
 constexpr bool const& GlobalNamespace::SphereCuttableBySaber::__get__canBeCut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canBeCut;
 }
 constexpr void GlobalNamespace::SphereCuttableBySaber::__set__canBeCut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____canBeCut = value;
 }
 inline float_t GlobalNamespace::SphereCuttableBySaber::get_radius() {

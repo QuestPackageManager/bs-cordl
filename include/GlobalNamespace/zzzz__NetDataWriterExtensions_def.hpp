@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetDataWriterExtensions)
-namespace GlobalNamespace {
-struct PacketOption;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct PacketOption;
 }
 // Forward declare root types
 namespace GlobalNamespace {

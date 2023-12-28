@@ -6,31 +6,31 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollerVisibility_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ScrollViewMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollViewMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__ScrollView__UxmlTraits.Init
 template <>
 
@@ -62,149 +62,149 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ScrollViewMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollViewMode;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>*> const&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ScrollViewMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollViewMode;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_ScrollViewMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollViewMode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>*&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_NestedInteractionKind() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NestedInteractionKind;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>*> const&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_NestedInteractionKind() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NestedInteractionKind;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_NestedInteractionKind(
     ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NestedInteractionKind)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ShowHorizontal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowHorizontal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ShowHorizontal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowHorizontal;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_ShowHorizontal(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ShowHorizontal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ShowVertical() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowVertical;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ShowVertical() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowVertical;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_ShowVertical(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ShowVertical)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_HorizontalScrollerVisibility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalScrollerVisibility;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*> const&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_HorizontalScrollerVisibility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalScrollerVisibility;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_HorizontalScrollerVisibility(
     ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HorizontalScrollerVisibility)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_VerticalScrollerVisibility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalScrollerVisibility;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*> const&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_VerticalScrollerVisibility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalScrollerVisibility;
 }
 constexpr void
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VerticalScrollerVisibility)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_HorizontalPageSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalPageSize;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_HorizontalPageSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalPageSize;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_HorizontalPageSize(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HorizontalPageSize)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_VerticalPageSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalPageSize;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_VerticalPageSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalPageSize;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_VerticalPageSize(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VerticalPageSize)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>*&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_TouchScrollBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchScrollBehavior;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>*> const&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_TouchScrollBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchScrollBehavior;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_TouchScrollBehavior(
     ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TouchScrollBehavior)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ScrollDecelerationRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollDecelerationRate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const&
 UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_ScrollDecelerationRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollDecelerationRate;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_ScrollDecelerationRate(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollDecelerationRate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_Elasticity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Elasticity;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& UnityEngine::UIElements::__ScrollView__UxmlTraits::__get_m_Elasticity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Elasticity;
 }
 constexpr void UnityEngine::UIElements::__ScrollView__UxmlTraits::__set_m_Elasticity(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Elasticity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::__ScrollView__UxmlTraits::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
@@ -1284,365 +1284,365 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::ScrollerVisibility& UnityEngine::UIElements::ScrollView::__get_m_HorizontalScrollerVisibility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalScrollerVisibility;
 }
 constexpr ::UnityEngine::UIElements::ScrollerVisibility const& UnityEngine::UIElements::ScrollView::__get_m_HorizontalScrollerVisibility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalScrollerVisibility;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_HorizontalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HorizontalScrollerVisibility = value;
 }
 constexpr ::UnityEngine::UIElements::ScrollerVisibility& UnityEngine::UIElements::ScrollView::__get_m_VerticalScrollerVisibility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalScrollerVisibility;
 }
 constexpr ::UnityEngine::UIElements::ScrollerVisibility const& UnityEngine::UIElements::ScrollView::__get_m_VerticalScrollerVisibility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalScrollerVisibility;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VerticalScrollerVisibility = value;
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ScrollView::__get_m_AttachedRootVisualContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AttachedRootVisualContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::ScrollView::__get_m_AttachedRootVisualContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AttachedRootVisualContainer;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_AttachedRootVisualContainer(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AttachedRootVisualContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::UIElements::ScrollView::__get_m_SingleLineHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SingleLineHeight;
 }
 constexpr float_t const& UnityEngine::UIElements::ScrollView::__get_m_SingleLineHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SingleLineHeight;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_SingleLineHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SingleLineHeight = value;
 }
 constexpr float_t& UnityEngine::UIElements::ScrollView::__get_m_HorizontalPageSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalPageSize;
 }
 constexpr float_t const& UnityEngine::UIElements::ScrollView::__get_m_HorizontalPageSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalPageSize;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_HorizontalPageSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HorizontalPageSize = value;
 }
 constexpr float_t& UnityEngine::UIElements::ScrollView::__get_m_VerticalPageSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalPageSize;
 }
 constexpr float_t const& UnityEngine::UIElements::ScrollView::__get_m_VerticalPageSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalPageSize;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_VerticalPageSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VerticalPageSize = value;
 }
 constexpr float_t& UnityEngine::UIElements::ScrollView::__get_m_ScrollDecelerationRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollDecelerationRate;
 }
 constexpr float_t const& UnityEngine::UIElements::ScrollView::__get_m_ScrollDecelerationRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollDecelerationRate;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_ScrollDecelerationRate(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrollDecelerationRate = value;
 }
 constexpr float_t& UnityEngine::UIElements::ScrollView::__get_m_Elasticity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Elasticity;
 }
 constexpr float_t const& UnityEngine::UIElements::ScrollView::__get_m_Elasticity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Elasticity;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_Elasticity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Elasticity = value;
 }
 constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior& UnityEngine::UIElements::ScrollView::__get_m_TouchScrollBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchScrollBehavior;
 }
 constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior const& UnityEngine::UIElements::ScrollView::__get_m_TouchScrollBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchScrollBehavior;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_TouchScrollBehavior(::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TouchScrollBehavior = value;
 }
 constexpr ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind& UnityEngine::UIElements::ScrollView::__get_m_NestedInteractionKind() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NestedInteractionKind;
 }
 constexpr ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind const& UnityEngine::UIElements::ScrollView::__get_m_NestedInteractionKind() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NestedInteractionKind;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_NestedInteractionKind(::UnityEngine::UIElements::__ScrollView__NestedInteractionKind value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NestedInteractionKind = value;
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ScrollView::__get__contentViewport_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentViewport_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::ScrollView::__get__contentViewport_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentViewport_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set__contentViewport_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contentViewport_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::Scroller*& UnityEngine::UIElements::ScrollView::__get__horizontalScroller_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____horizontalScroller_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Scroller*> const& UnityEngine::UIElements::ScrollView::__get__horizontalScroller_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____horizontalScroller_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set__horizontalScroller_k__BackingField(::UnityEngine::UIElements::Scroller* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____horizontalScroller_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::Scroller*& UnityEngine::UIElements::ScrollView::__get__verticalScroller_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalScroller_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Scroller*> const& UnityEngine::UIElements::ScrollView::__get__verticalScroller_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalScroller_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set__verticalScroller_k__BackingField(::UnityEngine::UIElements::Scroller* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____verticalScroller_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ScrollView::__get_m_ContentContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::ScrollView::__get_m_ContentContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentContainer;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ContentContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ScrollView::__get_m_ContentAndVerticalScrollContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentAndVerticalScrollContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::ScrollView::__get_m_ContentAndVerticalScrollContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContentAndVerticalScrollContainer;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_ContentAndVerticalScrollContainer(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ContentAndVerticalScrollContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::ScrollViewMode& UnityEngine::UIElements::ScrollView::__get_m_Mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Mode;
 }
 constexpr ::UnityEngine::UIElements::ScrollViewMode const& UnityEngine::UIElements::ScrollView::__get_m_Mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Mode;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_Mode(::UnityEngine::UIElements::ScrollViewMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Mode = value;
 }
 constexpr int32_t& UnityEngine::UIElements::ScrollView::__get_m_ScrollingPointerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollingPointerId;
 }
 constexpr int32_t const& UnityEngine::UIElements::ScrollView::__get_m_ScrollingPointerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollingPointerId;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_ScrollingPointerId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrollingPointerId = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ScrollView::__get_m_StartPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartPosition;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::ScrollView::__get_m_StartPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartPosition;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_StartPosition(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StartPosition = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ScrollView::__get_m_PointerStartPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerStartPosition;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::ScrollView::__get_m_PointerStartPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerStartPosition;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_PointerStartPosition(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointerStartPosition = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ScrollView::__get_m_Velocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Velocity;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::ScrollView::__get_m_Velocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Velocity;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_Velocity(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Velocity = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ScrollView::__get_m_SpringBackVelocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpringBackVelocity;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::ScrollView::__get_m_SpringBackVelocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpringBackVelocity;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_SpringBackVelocity(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SpringBackVelocity = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ScrollView::__get_m_LowBounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LowBounds;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::ScrollView::__get_m_LowBounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LowBounds;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_LowBounds(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LowBounds = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ScrollView::__get_m_HighBounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighBounds;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::ScrollView::__get_m_HighBounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighBounds;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_HighBounds(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HighBounds = value;
 }
 constexpr float_t& UnityEngine::UIElements::ScrollView::__get_m_LastVelocityLerpTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastVelocityLerpTime;
 }
 constexpr float_t const& UnityEngine::UIElements::ScrollView::__get_m_LastVelocityLerpTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastVelocityLerpTime;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_LastVelocityLerpTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastVelocityLerpTime = value;
 }
 constexpr bool& UnityEngine::UIElements::ScrollView::__get_m_StartedMoving() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartedMoving;
 }
 constexpr bool const& UnityEngine::UIElements::ScrollView::__get_m_StartedMoving() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StartedMoving;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_StartedMoving(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StartedMoving = value;
 }
 constexpr bool& UnityEngine::UIElements::ScrollView::__get_m_TouchStoppedVelocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchStoppedVelocity;
 }
 constexpr bool const& UnityEngine::UIElements::ScrollView::__get_m_TouchStoppedVelocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchStoppedVelocity;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_TouchStoppedVelocity(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TouchStoppedVelocity = value;
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ScrollView::__get_m_CapturedTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CapturedTarget;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::ScrollView::__get_m_CapturedTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CapturedTarget;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_CapturedTarget(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CapturedTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*& UnityEngine::UIElements::ScrollView::__get_m_CapturedTargetPointerMoveCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CapturedTargetPointerMoveCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*> const&
 UnityEngine::UIElements::ScrollView::__get_m_CapturedTargetPointerMoveCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CapturedTargetPointerMoveCallback;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_CapturedTargetPointerMoveCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CapturedTargetPointerMoveCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& UnityEngine::UIElements::ScrollView::__get_m_CapturedTargetPointerUpCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CapturedTargetPointerUpCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*> const&
 UnityEngine::UIElements::ScrollView::__get_m_CapturedTargetPointerUpCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CapturedTargetPointerUpCallback;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_CapturedTargetPointerUpCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CapturedTargetPointerUpCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::ScrollView::__get_m_PostPointerUpAnimation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PostPointerUpAnimation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& UnityEngine::UIElements::ScrollView::__get_m_PostPointerUpAnimation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PostPointerUpAnimation;
 }
 constexpr void UnityEngine::UIElements::ScrollView::__set_m_PostPointerUpAnimation(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PostPointerUpAnimation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::ScrollView::setStaticF_k_DefaultScrollDecelerationRate(float_t value) {

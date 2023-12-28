@@ -9,53 +9,53 @@ CORDL_MODULE_EXPORT(GZipStream)
 namespace System {
 template <typename T> struct ReadOnlyMemory_1;
 }
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO::Compression {
-class DeflateStream;
-}
-namespace System::IO {
-struct SeekOrigin;
+namespace System::Threading::Tasks {
+struct ValueTask;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+class IAsyncResult;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> struct ValueTask_1;
 }
 namespace System::IO::Compression {
 struct CompressionLevel;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> struct Span_1;
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 template <typename T> struct Memory_1;
-}
-namespace System::IO::Compression {
-struct CompressionMode;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::IO::Compression {
+struct CompressionMode;
+}
+namespace System::IO::Compression {
+class DeflateStream;
 }
 // Forward declare root types
 namespace System::IO::Compression {

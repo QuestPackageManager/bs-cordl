@@ -5,25 +5,19 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_def.hpp"
 CORDL_MODULE_EXPORT(ConstructionResponse)
 namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionReturnMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 class Exception;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
@@ -31,11 +25,17 @@ class IMethodReturnMessage;
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Collections {
-class IDictionary;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

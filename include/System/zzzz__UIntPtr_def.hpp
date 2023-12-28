@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIntPtr)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System {
 class Object;
@@ -15,11 +18,8 @@ class Object;
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {

@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(Time)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace System {
 struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

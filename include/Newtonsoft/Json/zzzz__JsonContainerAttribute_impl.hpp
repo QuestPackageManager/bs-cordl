@@ -4,10 +4,10 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonContainerAttribute.get_Id
 template <>
 
@@ -297,112 +297,112 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Newtonsoft::Json::JsonContainerAttribute::__get__Id_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Id_k__BackingField;
 }
 constexpr ::StringW const& Newtonsoft::Json::JsonContainerAttribute::__get__Id_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Id_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__Id_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Id_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Newtonsoft::Json::JsonContainerAttribute::__get__Title_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Title_k__BackingField;
 }
 constexpr ::StringW const& Newtonsoft::Json::JsonContainerAttribute::__get__Title_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Title_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__Title_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Title_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Newtonsoft::Json::JsonContainerAttribute::__get__Description_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Description_k__BackingField;
 }
 constexpr ::StringW const& Newtonsoft::Json::JsonContainerAttribute::__get__Description_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Description_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__Description_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Description_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Newtonsoft::Json::JsonContainerAttribute::__get__ItemConverterType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemConverterType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::JsonContainerAttribute::__get__ItemConverterType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemConverterType_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__ItemConverterType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ItemConverterType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& Newtonsoft::Json::JsonContainerAttribute::__get__ItemConverterParameters_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemConverterParameters_k__BackingField;
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& Newtonsoft::Json::JsonContainerAttribute::__get__ItemConverterParameters_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ItemConverterParameters_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__ItemConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ItemConverterParameters_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<bool>& Newtonsoft::Json::JsonContainerAttribute::__get__isReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReference;
 }
 constexpr ::System::Nullable_1<bool> const& Newtonsoft::Json::JsonContainerAttribute::__get__isReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReference;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__isReference(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isReference = value;
 }
 constexpr ::System::Nullable_1<bool>& Newtonsoft::Json::JsonContainerAttribute::__get__itemIsReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemIsReference;
 }
 constexpr ::System::Nullable_1<bool> const& Newtonsoft::Json::JsonContainerAttribute::__get__itemIsReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemIsReference;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__itemIsReference(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____itemIsReference = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& Newtonsoft::Json::JsonContainerAttribute::__get__itemReferenceLoopHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemReferenceLoopHandling;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& Newtonsoft::Json::JsonContainerAttribute::__get__itemReferenceLoopHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemReferenceLoopHandling;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__itemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____itemReferenceLoopHandling = value;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& Newtonsoft::Json::JsonContainerAttribute::__get__itemTypeNameHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemTypeNameHandling;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& Newtonsoft::Json::JsonContainerAttribute::__get__itemTypeNameHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemTypeNameHandling;
 }
 constexpr void Newtonsoft::Json::JsonContainerAttribute::__set__itemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____itemTypeNameHandling = value;
 }
 inline ::StringW Newtonsoft::Json::JsonContainerAttribute::get_Id() {

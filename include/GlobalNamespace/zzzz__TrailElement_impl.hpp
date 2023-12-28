@@ -78,63 +78,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::TrailElement::__get_position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::TrailElement::__get_position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr void GlobalNamespace::TrailElement::__set_position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___position = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::TrailElement::__get_normal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normal;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::TrailElement::__get_normal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normal;
 }
 constexpr void GlobalNamespace::TrailElement::__set_normal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___normal = value;
 }
 constexpr float_t& GlobalNamespace::TrailElement::__get_distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr float_t const& GlobalNamespace::TrailElement::__get_distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr void GlobalNamespace::TrailElement::__set_distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distance = value;
 }
 constexpr float_t& GlobalNamespace::TrailElement::__get_localDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localDistance;
 }
 constexpr float_t const& GlobalNamespace::TrailElement::__get_localDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localDistance;
 }
 constexpr void GlobalNamespace::TrailElement::__set_localDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localDistance = value;
 }
 constexpr float_t& GlobalNamespace::TrailElement::__get_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr float_t const& GlobalNamespace::TrailElement::__get_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr void GlobalNamespace::TrailElement::__set_time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
 }
 inline void GlobalNamespace::TrailElement::SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time) {

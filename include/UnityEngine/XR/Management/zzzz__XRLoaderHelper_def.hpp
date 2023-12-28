@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(XRLoaderHelper)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class ISubsystem;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {

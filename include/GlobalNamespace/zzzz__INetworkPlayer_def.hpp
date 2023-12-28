@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkPlayer)
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

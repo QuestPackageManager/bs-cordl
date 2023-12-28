@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_2)
-namespace Zenject {
-class IFactory;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class IFactory;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
+template <typename TParam1, typename TValue> class IMemoryPool_2;
+}
+namespace Zenject {
 class IMemoryPool;
 }
 namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

@@ -3,12 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 template <typename TResult>
 inline void GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>::setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value) {
@@ -38,30 +38,30 @@ template <typename TResult> inline void GlobalNamespace::__ValueTask_1__ValueTas
 // Ctor Parameters []
 template <typename TResult> constexpr ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>::__ValueTask_1__ValueTaskSourceAsTask____c() {}
 template <typename TResult> constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*& System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__get__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____source;
 }
 template <typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*> const&
 System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__get__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____source;
 }
 template <typename TResult>
 constexpr void System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__set__source(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr int16_t& System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__get__token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 template <typename TResult> constexpr int16_t const& System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__get__token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 template <typename TResult> constexpr void System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__set__token(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____token = value;
 }
 template <typename TResult> inline void System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::setStaticF_s_completionAction(::System::Action_1<::System::Object*>* value) {

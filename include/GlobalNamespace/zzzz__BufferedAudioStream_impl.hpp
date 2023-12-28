@@ -59,63 +59,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::BufferedAudioStream::__get_audio() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audio;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::BufferedAudioStream::__get_audio() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audio;
 }
 constexpr void GlobalNamespace::BufferedAudioStream::__set_audio(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audio)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::BufferedAudioStream::__get_audioBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioBuffer;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::BufferedAudioStream::__get_audioBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioBuffer;
 }
 constexpr void GlobalNamespace::BufferedAudioStream::__set_audioBuffer(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::BufferedAudioStream::__get_writePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writePos;
 }
 constexpr int32_t const& GlobalNamespace::BufferedAudioStream::__get_writePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writePos;
 }
 constexpr void GlobalNamespace::BufferedAudioStream::__set_writePos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___writePos = value;
 }
 constexpr float_t& GlobalNamespace::BufferedAudioStream::__get_playbackDelayRemaining() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackDelayRemaining;
 }
 constexpr float_t const& GlobalNamespace::BufferedAudioStream::__get_playbackDelayRemaining() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackDelayRemaining;
 }
 constexpr void GlobalNamespace::BufferedAudioStream::__set_playbackDelayRemaining(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playbackDelayRemaining = value;
 }
 constexpr float_t& GlobalNamespace::BufferedAudioStream::__get_remainingBufferTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remainingBufferTime;
 }
 constexpr float_t const& GlobalNamespace::BufferedAudioStream::__get_remainingBufferTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remainingBufferTime;
 }
 constexpr void GlobalNamespace::BufferedAudioStream::__set_remainingBufferTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___remainingBufferTime = value;
 }
 inline ::GlobalNamespace::BufferedAudioStream* GlobalNamespace::BufferedAudioStream::New_ctor(::UnityEngine::AudioSource* audio) {

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneModelLoader)
-namespace GlobalNamespace {
-class __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace GlobalNamespace {
+class __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
 }
 namespace GlobalNamespace {
 class OVRSceneManager;

@@ -1,14 +1,14 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioLatencyViewController_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
+#include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
-#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioLatencyViewController.DidActivate
 template <>
 
@@ -114,111 +114,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::AudioLatencyViewController::__get__audioLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::AudioLatencyViewController::__get__audioLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__audioLatency(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::AudioLatencyViewController::__get__overrideAudioLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideAudioLatency;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::AudioLatencyViewController::__get__overrideAudioLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideAudioLatency;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__overrideAudioLatency(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideAudioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::AudioLatencyViewController::__get__setupCanvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setupCanvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::AudioLatencyViewController::__get__setupCanvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setupCanvasGroup;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__setupCanvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____setupCanvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::AudioLatencyViewController::__get__overrideAudioLatencyToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideAudioLatencyToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::AudioLatencyViewController::__get__overrideAudioLatencyToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideAudioLatencyToggle;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__overrideAudioLatencyToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideAudioLatencyToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::RangeValuesTextSlider*& GlobalNamespace::AudioLatencyViewController::__get__slider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____slider;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& GlobalNamespace::AudioLatencyViewController::__get__slider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____slider;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__slider(::HMUI::RangeValuesTextSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VisualMetronome*& GlobalNamespace::AudioLatencyViewController::__get__visualMetronome() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visualMetronome;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VisualMetronome*> const& GlobalNamespace::AudioLatencyViewController::__get__visualMetronome() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visualMetronome;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__visualMetronome(::GlobalNamespace::VisualMetronome* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____visualMetronome)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::AudioLatencyViewController::__get__disabledAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAlpha;
 }
 constexpr float_t const& GlobalNamespace::AudioLatencyViewController::__get__disabledAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAlpha;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__disabledAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledAlpha = value;
 }
 constexpr ::GlobalNamespace::SongPreviewPlayer*& GlobalNamespace::AudioLatencyViewController::__get__songPreviewPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPreviewPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& GlobalNamespace::AudioLatencyViewController::__get__songPreviewPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPreviewPlayer;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songPreviewPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::AudioLatencyViewController::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::AudioLatencyViewController::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::AudioLatencyViewController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::AudioLatencyViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {

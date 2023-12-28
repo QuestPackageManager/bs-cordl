@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdateRegistry_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::CanvasUpdateRegistry._ctor
 template <>
 
@@ -309,65 +309,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::UI::CanvasUpdateRegistry::__get_m_PerformingLayoutUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PerformingLayoutUpdate;
 }
 constexpr bool const& UnityEngine::UI::CanvasUpdateRegistry::__get_m_PerformingLayoutUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PerformingLayoutUpdate;
 }
 constexpr void UnityEngine::UI::CanvasUpdateRegistry::__set_m_PerformingLayoutUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PerformingLayoutUpdate = value;
 }
 constexpr bool& UnityEngine::UI::CanvasUpdateRegistry::__get_m_PerformingGraphicUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PerformingGraphicUpdate;
 }
 constexpr bool const& UnityEngine::UI::CanvasUpdateRegistry::__get_m_PerformingGraphicUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PerformingGraphicUpdate;
 }
 constexpr void UnityEngine::UI::CanvasUpdateRegistry::__set_m_PerformingGraphicUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PerformingGraphicUpdate = value;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& UnityEngine::UI::CanvasUpdateRegistry::__get_m_CanvasUpdateProfilerStrings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CanvasUpdateProfilerStrings;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& UnityEngine::UI::CanvasUpdateRegistry::__get_m_CanvasUpdateProfilerStrings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CanvasUpdateProfilerStrings;
 }
 constexpr void UnityEngine::UI::CanvasUpdateRegistry::__set_m_CanvasUpdateProfilerStrings(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CanvasUpdateProfilerStrings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*& UnityEngine::UI::CanvasUpdateRegistry::__get_m_LayoutRebuildQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LayoutRebuildQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*> const&
 UnityEngine::UI::CanvasUpdateRegistry::__get_m_LayoutRebuildQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LayoutRebuildQueue;
 }
 constexpr void UnityEngine::UI::CanvasUpdateRegistry::__set_m_LayoutRebuildQueue(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LayoutRebuildQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*& UnityEngine::UI::CanvasUpdateRegistry::__get_m_GraphicRebuildQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GraphicRebuildQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*> const&
 UnityEngine::UI::CanvasUpdateRegistry::__get_m_GraphicRebuildQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GraphicRebuildQueue;
 }
 constexpr void UnityEngine::UI::CanvasUpdateRegistry::__set_m_GraphicRebuildQueue(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GraphicRebuildQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UI::CanvasUpdateRegistry::setStaticF_s_Instance(::UnityEngine::UI::CanvasUpdateRegistry* value) {

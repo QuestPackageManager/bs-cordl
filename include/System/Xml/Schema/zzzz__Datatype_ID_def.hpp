@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_NCName_def.hpp"
 CORDL_MODULE_EXPORT(Datatype_ID)
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System::Xml {
 struct XmlTokenizedType;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

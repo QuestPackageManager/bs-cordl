@@ -17,39 +17,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Oculus::Platform::Models::GroupPresenceLeaveIntent::__get_DestinationApiName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationApiName;
 }
 constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceLeaveIntent::__get_DestinationApiName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationApiName;
 }
 constexpr void Oculus::Platform::Models::GroupPresenceLeaveIntent::__set_DestinationApiName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DestinationApiName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::GroupPresenceLeaveIntent::__get_LobbySessionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LobbySessionId;
 }
 constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceLeaveIntent::__get_LobbySessionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LobbySessionId;
 }
 constexpr void Oculus::Platform::Models::GroupPresenceLeaveIntent::__set_LobbySessionId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LobbySessionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::GroupPresenceLeaveIntent::__get_MatchSessionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MatchSessionId;
 }
 constexpr ::StringW const& Oculus::Platform::Models::GroupPresenceLeaveIntent::__get_MatchSessionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MatchSessionId;
 }
 constexpr void Oculus::Platform::Models::GroupPresenceLeaveIntent::__set_MatchSessionId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MatchSessionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* Oculus::Platform::Models::GroupPresenceLeaveIntent::New_ctor(void* o) {

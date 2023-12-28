@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Display)
 namespace UnityEngine {
-struct Vector3;
+class __Display__DisplaysUpdatedDelegate;
 }
 namespace UnityEngine {
-class __Display__DisplaysUpdatedDelegate;
+struct Vector3;
 }
 namespace System {
 class Object;

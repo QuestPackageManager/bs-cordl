@@ -60,39 +60,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Decimal& System::Xml::Schema::LeafRangeNode::__get_min() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
 constexpr ::System::Decimal const& System::Xml::Schema::LeafRangeNode::__get_min() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
 constexpr void System::Xml::Schema::LeafRangeNode::__set_min(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___min = value;
 }
 constexpr ::System::Decimal& System::Xml::Schema::LeafRangeNode::__get_max() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
 constexpr ::System::Decimal const& System::Xml::Schema::LeafRangeNode::__get_max() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
 constexpr void System::Xml::Schema::LeafRangeNode::__set_max(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max = value;
 }
 constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::LeafRangeNode::__get_nextIteration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextIteration;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::LeafRangeNode::__get_nextIteration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextIteration;
 }
 constexpr void System::Xml::Schema::LeafRangeNode::__set_nextIteration(::System::Xml::Schema::BitSet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextIteration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Decimal System::Xml::Schema::LeafRangeNode::get_Max() {

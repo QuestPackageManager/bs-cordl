@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(GameServerBrowserViewController)
 namespace GlobalNamespace {
+class GameServersListTableView;
+}
+namespace GlobalNamespace {
 class GameServersFilterText;
 }
 namespace GlobalNamespace {
@@ -12,9 +15,6 @@ class LoadingControl;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace GlobalNamespace {
-class GameServersListTableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

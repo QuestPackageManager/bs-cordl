@@ -16,6 +16,9 @@ namespace RootMotion::FinalIK {
 class IKSolverLimb;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
@@ -23,9 +26,6 @@ struct __Finger__DOF;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

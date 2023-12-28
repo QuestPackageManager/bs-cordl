@@ -85,15 +85,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::IKSolverArm*& RootMotion::FinalIK::ArmIK::__get_solver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solver;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverArm*> const& RootMotion::FinalIK::ArmIK::__get_solver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solver;
 }
 constexpr void RootMotion::FinalIK::ArmIK::__set_solver(::RootMotion::FinalIK::IKSolverArm* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___solver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::ArmIK::OpenUserManual() {

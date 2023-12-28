@@ -58,51 +58,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::Serialization::DataMemberAttribute::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& System::Runtime::Serialization::DataMemberAttribute::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::Runtime::Serialization::DataMemberAttribute::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Runtime::Serialization::DataMemberAttribute::__get_order() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___order;
 }
 constexpr int32_t const& System::Runtime::Serialization::DataMemberAttribute::__get_order() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___order;
 }
 constexpr void System::Runtime::Serialization::DataMemberAttribute::__set_order(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___order = value;
 }
 constexpr bool& System::Runtime::Serialization::DataMemberAttribute::__get_isRequired() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRequired;
 }
 constexpr bool const& System::Runtime::Serialization::DataMemberAttribute::__get_isRequired() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRequired;
 }
 constexpr void System::Runtime::Serialization::DataMemberAttribute::__set_isRequired(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isRequired = value;
 }
 constexpr bool& System::Runtime::Serialization::DataMemberAttribute::__get_emitDefaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___emitDefaultValue;
 }
 constexpr bool const& System::Runtime::Serialization::DataMemberAttribute::__get_emitDefaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___emitDefaultValue;
 }
 constexpr void System::Runtime::Serialization::DataMemberAttribute::__set_emitDefaultValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___emitDefaultValue = value;
 }
 inline ::StringW System::Runtime::Serialization::DataMemberAttribute::get_Name() {

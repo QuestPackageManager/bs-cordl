@@ -3,29 +3,29 @@
 #include "UnityEngine/UIElements/zzzz__PanelChangedEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 template <typename T> constexpr ::UnityEngine::UIElements::IPanel*& UnityEngine::UIElements::PanelChangedEventBase_1<T>::__get__originPanel_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originPanel_k__BackingField;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& UnityEngine::UIElements::PanelChangedEventBase_1<T>::__get__originPanel_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originPanel_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PanelChangedEventBase_1<T>::__set__originPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originPanel_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::UIElements::IPanel*& UnityEngine::UIElements::PanelChangedEventBase_1<T>::__get__destinationPanel_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destinationPanel_k__BackingField;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& UnityEngine::UIElements::PanelChangedEventBase_1<T>::__get__destinationPanel_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destinationPanel_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PanelChangedEventBase_1<T>::__set__destinationPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____destinationPanel_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::PanelChangedEventBase_1<T>::get_originPanel() {

@@ -13,23 +13,23 @@ namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
 struct TypeValuePair;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class IPrefabProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
 class __SubContainerCreatorByNewPrefabMethod_10____c__DisplayClass2_0;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 namespace System {
 class Object;

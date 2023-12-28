@@ -10,18 +10,6 @@ CORDL_MODULE_EXPORT(MobileTlsProvider)
 namespace System::IO {
 class Stream;
 }
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace Mono::Net::Security {
-class ChainValidationHelper;
-}
 namespace System::Net::Security {
 struct SslPolicyErrors;
 }
@@ -30,6 +18,18 @@ class X509Chain;
 }
 namespace System::Net::Security {
 class SslStream;
+}
+namespace Mono::Net::Security {
+class ChainValidationHelper;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

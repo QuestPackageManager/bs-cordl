@@ -140,63 +140,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::VertexPath::__get_vertexCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vertexCount;
 }
 constexpr int32_t const& GlobalNamespace::VertexPath::__get_vertexCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vertexCount;
 }
 constexpr void GlobalNamespace::VertexPath::__set_vertexCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___vertexCount = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*>& GlobalNamespace::VertexPath::__get__localVertices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localVertices;
 }
 constexpr ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> const& GlobalNamespace::VertexPath::__get__localVertices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localVertices;
 }
 constexpr void GlobalNamespace::VertexPath::__set__localVertices(::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localVertices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::VertexPath::__get__length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr float_t const& GlobalNamespace::VertexPath::__get__length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr void GlobalNamespace::VertexPath::__set__length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::VertexPath::__get__cumulativeLengthAtEachVertex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cumulativeLengthAtEachVertex;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::VertexPath::__get__cumulativeLengthAtEachVertex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cumulativeLengthAtEachVertex;
 }
 constexpr void GlobalNamespace::VertexPath::__set__cumulativeLengthAtEachVertex(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cumulativeLengthAtEachVertex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::VertexPath::__get__anchorVertexMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anchorVertexMap;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::VertexPath::__get__anchorVertexMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anchorVertexMap;
 }
 constexpr void GlobalNamespace::VertexPath::__set__anchorVertexMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____anchorVertexMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::VertexPath::setStaticF__back(::UnityEngine::Vector3 value) {

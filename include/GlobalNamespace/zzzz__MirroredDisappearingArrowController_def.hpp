@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4755)), TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 348
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::MirroredDisappearingArrowController*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 348 }), TypeDefinitionIndex(TypeDefinitionIndex(4742)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::MirroredDisappearingArrowController*
 class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController*> {
 public:
   // Declarations

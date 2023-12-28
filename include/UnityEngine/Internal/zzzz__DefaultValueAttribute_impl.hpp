@@ -64,15 +64,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& UnityEngine::Internal::DefaultValueAttribute::__get_DefaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DefaultValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::Internal::DefaultValueAttribute::__get_DefaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DefaultValue;
 }
 constexpr void UnityEngine::Internal::DefaultValueAttribute::__set_DefaultValue(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DefaultValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Internal::DefaultValueAttribute* UnityEngine::Internal::DefaultValueAttribute::New_ctor(::StringW value) {

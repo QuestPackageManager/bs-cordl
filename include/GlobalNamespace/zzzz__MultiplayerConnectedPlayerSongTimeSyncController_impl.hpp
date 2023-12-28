@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData._ctor
 template <>
 
@@ -23,39 +23,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr void GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__set_startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_songTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_songTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
 constexpr void GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__set_songTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_timeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_timeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
 constexpr void GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__set_timeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeScale = value;
 }
 inline ::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData*
@@ -271,160 +271,160 @@ constexpr GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::ope
   return static_cast<::GlobalNamespace::IAudioTimeSource*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__audioSyncLerpSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSyncLerpSpeed;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__audioSyncLerpSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSyncLerpSpeed;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__audioSyncLerpSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioSyncLerpSpeed = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__forcedSyncDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forcedSyncDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__forcedSyncDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forcedSyncDeltaTime;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__forcedSyncDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forcedSyncDeltaTime = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__startSyncDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSyncDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__startSyncDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSyncDeltaTime;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__startSyncDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startSyncDeltaTime = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__stopSyncDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopSyncDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__stopSyncDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopSyncDeltaTime;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__stopSyncDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stopSyncDeltaTime = value;
 }
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__audioLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__audioLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__audioLatency(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData*& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData*> const&
 GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__initData(::GlobalNamespace::__MultiplayerConnectedPlayerSongTimeSyncController__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__connectedPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__connectedPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__songTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__songTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime_k__BackingField;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__songTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTime_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__lastFrameDeltaSongTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameDeltaSongTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__lastFrameDeltaSongTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameDeltaSongTime_k__BackingField;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__lastFrameDeltaSongTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameDeltaSongTime_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__timeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeScale;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__timeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeScale;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__timeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeScale = value;
 }
 constexpr int64_t& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__startSongSyncTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongSyncTime;
 }
 constexpr int64_t const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__startSongSyncTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongSyncTime;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__startSongSyncTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startSongSyncTime = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__fixingAudioSyncError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixingAudioSyncError;
 }
 constexpr bool const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__fixingAudioSyncError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixingAudioSyncError;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__fixingAudioSyncError(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fixingAudioSyncError = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__isReady() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReady;
 }
 constexpr bool const& GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__get__isReady() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReady;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::__set__isReady(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isReady = value;
 }
 inline float_t GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::get_songTime() {

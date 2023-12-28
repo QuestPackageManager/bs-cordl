@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(ElementWriter)
 namespace System::Xml::Linq {
 class XElement;
 }
-namespace System::Xml::Linq {
-struct NamespaceResolver;
+namespace System::Xml {
+class XmlWriter;
 }
 namespace System::Xml::Linq {
 class XNamespace;
 }
-namespace System::Xml {
-class XmlWriter;
+namespace System::Xml::Linq {
+struct NamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

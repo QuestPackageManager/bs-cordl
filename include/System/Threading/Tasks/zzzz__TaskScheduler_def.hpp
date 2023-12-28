@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaskScheduler)
 namespace System::Threading::Tasks {
-class UnobservedTaskExceptionEventArgs;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Threading::Tasks {
 class __TaskScheduler__SystemThreadingTasks_TaskSchedulerDebugView;
 }
 namespace System::Threading::Tasks {
-class Task;
+class UnobservedTaskExceptionEventArgs;
 }
 namespace System::Threading {
 class Lock;
 }
 namespace System {
+class Object;
+}
+namespace System {
 template <typename TEventArgs> class EventHandler_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

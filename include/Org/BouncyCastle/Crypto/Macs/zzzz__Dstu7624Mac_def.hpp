@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dstu7624Mac)
-namespace Org::BouncyCastle::Crypto::Engines {
-class Dstu7624Engine;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Dstu7624Engine;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

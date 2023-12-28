@@ -8,23 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Physics)
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-struct QueryTriggerInteraction;
-}
 namespace UnityEngine {
 struct PhysicsScene;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 struct ModifiableContactPair;
@@ -32,11 +20,23 @@ struct ModifiableContactPair;
 namespace UnityEngine {
 class Collider;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+struct QueryTriggerInteraction;
+}
 namespace UnityEngine {
 struct RaycastHit;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Ice/zzzz__FloorLightStreakTileEffect_def.hpp"
-#include "Ice/zzzz__FloorLightTilesGrid_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "Ice/zzzz__FloorLightStreakTileEffect_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleMemoryPool_1_def.hpp"
+#include "Ice/zzzz__FloorLightTilesGrid_def.hpp"
+#include "Ice/zzzz__FloorLightStreakTileEffect_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::Ice::__FloorLightStreakTileEffect__Element.get_lineIndex
 template <>
@@ -96,75 +96,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>*& Ice::__FloorLightStreakTileEffect__Element::__get_didMoveToNextTile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didMoveToNextTile;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>*> const& Ice::__FloorLightStreakTileEffect__Element::__get_didMoveToNextTile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didMoveToNextTile;
 }
 constexpr void Ice::__FloorLightStreakTileEffect__Element::__set_didMoveToNextTile(::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didMoveToNextTile)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Ice::__FloorLightStreakTileEffect__Element::__get__currentTileY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTileY;
 }
 constexpr int32_t const& Ice::__FloorLightStreakTileEffect__Element::__get__currentTileY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTileY;
 }
 constexpr void Ice::__FloorLightStreakTileEffect__Element::__set__currentTileY(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentTileY = value;
 }
 constexpr int32_t& Ice::__FloorLightStreakTileEffect__Element::__get__lineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr int32_t const& Ice::__FloorLightStreakTileEffect__Element::__get__lineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex;
 }
 constexpr void Ice::__FloorLightStreakTileEffect__Element::__set__lineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex = value;
 }
 constexpr float_t& Ice::__FloorLightStreakTileEffect__Element::__get__nextTileRemainingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextTileRemainingTime;
 }
 constexpr float_t const& Ice::__FloorLightStreakTileEffect__Element::__get__nextTileRemainingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextTileRemainingTime;
 }
 constexpr void Ice::__FloorLightStreakTileEffect__Element::__set__nextTileRemainingTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nextTileRemainingTime = value;
 }
 constexpr float_t& Ice::__FloorLightStreakTileEffect__Element::__get__stayOnTileDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stayOnTileDuration;
 }
 constexpr float_t const& Ice::__FloorLightStreakTileEffect__Element::__get__stayOnTileDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stayOnTileDuration;
 }
 constexpr void Ice::__FloorLightStreakTileEffect__Element::__set__stayOnTileDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stayOnTileDuration = value;
 }
 constexpr ::UnityEngine::Color& Ice::__FloorLightStreakTileEffect__Element::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& Ice::__FloorLightStreakTileEffect__Element::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void Ice::__FloorLightStreakTileEffect__Element::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 inline int32_t Ice::__FloorLightStreakTileEffect__Element::get_lineIndex() {
@@ -303,52 +303,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& Ice::FloorLightStreakTileEffect::__get__stayOnTileDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stayOnTileDuration;
 }
 constexpr float_t const& Ice::FloorLightStreakTileEffect::__get__stayOnTileDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stayOnTileDuration;
 }
 constexpr void Ice::FloorLightStreakTileEffect::__set__stayOnTileDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stayOnTileDuration = value;
 }
 constexpr ::Ice::FloorLightTilesGrid*& Ice::FloorLightStreakTileEffect::__get__floorLightTilesGrid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floorLightTilesGrid;
 }
 constexpr ::cordl_internals::to_const_pointer<::Ice::FloorLightTilesGrid*> const& Ice::FloorLightStreakTileEffect::__get__floorLightTilesGrid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floorLightTilesGrid;
 }
 constexpr void Ice::FloorLightStreakTileEffect::__set__floorLightTilesGrid(::Ice::FloorLightTilesGrid* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floorLightTilesGrid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAudioTimeSource*& Ice::FloorLightStreakTileEffect::__get__audioTimeSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& Ice::FloorLightStreakTileEffect::__get__audioTimeSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr void Ice::FloorLightStreakTileEffect::__set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>*& Ice::FloorLightStreakTileEffect::__get__elementsPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementsPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>*> const&
 Ice::FloorLightStreakTileEffect::__get__elementsPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementsPool;
 }
 constexpr void Ice::FloorLightStreakTileEffect::__set__elementsPool(::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementsPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Ice::FloorLightStreakTileEffect::Start() {

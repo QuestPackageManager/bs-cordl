@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBody)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __OVRSkeleton__IOVRSkeletonDataProvider;
 }
 namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonType;
+struct __OVRPlugin__Step;
+}
+namespace GlobalNamespace {
+struct __OVRSkeletonRenderer__SkeletonRendererData;
 }
 namespace GlobalNamespace {
 class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
@@ -25,22 +25,22 @@ namespace GlobalNamespace {
 struct __OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
-struct __OVRSkeletonRenderer__SkeletonRendererData;
+struct __OVRPlugin__BodyState;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Quatf;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BodyState;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Step;
+struct __OVRSkeleton__SkeletonType;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonPoseData;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBody);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7786)), TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7786))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
 // CS Name: ::OVRBody*
 class CORDL_TYPE OVRBody : public ::UnityEngine::MonoBehaviour {

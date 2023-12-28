@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_def.hpp"
 CORDL_MODULE_EXPORT(SubjectKeyIdentifierStructure)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {

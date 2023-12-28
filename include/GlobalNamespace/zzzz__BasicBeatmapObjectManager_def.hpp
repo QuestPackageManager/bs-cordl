@@ -9,70 +9,70 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BasicBeatmapObjectManager)
 namespace GlobalNamespace {
-class __BasicBeatmapObjectManager__InitData;
-}
-namespace GlobalNamespace {
-class __BurstSliderGameNoteController__Pool;
-}
-namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
-class NoteController;
+class BombNoteController;
 }
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-struct __SliderController__LengthType;
-}
-namespace GlobalNamespace {
-class __GameNoteController__Pool;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class __SliderController__Pool;
 }
 namespace GlobalNamespace {
-class SliderController;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+class __BurstSliderGameNoteController__Pool;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class BombNoteController;
-}
-namespace GlobalNamespace {
-class __BombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class BurstSliderGameNoteController;
+class __GameNoteController__Pool;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class GameNoteController;
+class __BasicBeatmapObjectManager__InitData;
 }
 namespace GlobalNamespace {
 class __ObstacleController__Pool;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class __BombNoteController__Pool;
+}
+namespace GlobalNamespace {
+struct __SliderController__LengthType;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class GameNoteController;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class BurstSliderGameNoteController;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+template <typename T> class MemoryPoolContainer_1;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(TimeZone)
 namespace System {
 struct TimeSpan;
 }
+namespace System {
+struct DateTime;
+}
 namespace System::Globalization {
 class DaylightTime;
 }
 namespace System {
 class Object;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System {

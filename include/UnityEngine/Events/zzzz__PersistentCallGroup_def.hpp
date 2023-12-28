@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PersistentCallGroup)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Events {
-class UnityEventBase;
-}
 namespace UnityEngine::Events {
 class PersistentCall;
 }
 namespace UnityEngine::Events {
 class InvokableCallList;
+}
+namespace UnityEngine::Events {
+class UnityEventBase;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

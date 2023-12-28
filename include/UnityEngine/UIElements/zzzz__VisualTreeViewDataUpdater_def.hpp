@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeViewDataUpdater)
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeViewDataUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6903))
 // CS Name: ::UnityEngine.UIElements::VisualTreeViewDataUpdater*
 class CORDL_TYPE VisualTreeViewDataUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {

@@ -2,8 +2,8 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_AttributeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo._ctor
 template <>
 
@@ -39,15 +39,15 @@ constexpr HoudiniEngineUnity::Test_HAPI_AttributeInfo::operator ::HoudiniEngineU
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::Test_HAPI_AttributeInfo::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::Test_HAPI_AttributeInfo::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_HAPI_AttributeInfo::__set_self(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self = value;
 }
 inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* HoudiniEngineUnity::Test_HAPI_AttributeInfo::New_ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self) {

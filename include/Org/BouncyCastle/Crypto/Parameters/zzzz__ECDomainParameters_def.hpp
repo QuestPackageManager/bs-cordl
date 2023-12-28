@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(ECDomainParameters)
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

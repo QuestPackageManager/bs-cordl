@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileInfo)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::IO {
 class StreamWriter;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::IO {
 class FileStream;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::IO {

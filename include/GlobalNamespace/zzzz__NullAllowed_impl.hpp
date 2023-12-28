@@ -42,15 +42,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__NullAllowed__Context& GlobalNamespace::NullAllowed::__get__context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr ::GlobalNamespace::__NullAllowed__Context const& GlobalNamespace::NullAllowed::__get__context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr void GlobalNamespace::NullAllowed::__set__context(::GlobalNamespace::__NullAllowed__Context value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____context = value;
 }
 /// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))

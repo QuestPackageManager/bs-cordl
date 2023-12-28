@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidCompensateRotationProcessor_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor.Process
 template <>
 

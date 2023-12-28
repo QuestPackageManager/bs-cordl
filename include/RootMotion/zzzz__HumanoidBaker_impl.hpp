@@ -4,11 +4,11 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/zzzz__HumanoidBaker_def.hpp"
-#include "RootMotion/zzzz__BakerMuscle_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
+#include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
+#include "RootMotion/zzzz__BakerMuscle_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::HumanoidBaker.Awake
 template <>
 
@@ -120,195 +120,195 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& RootMotion::HumanoidBaker::__get_bakeHandIK() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bakeHandIK;
 }
 constexpr bool const& RootMotion::HumanoidBaker::__get_bakeHandIK() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bakeHandIK;
 }
 constexpr void RootMotion::HumanoidBaker::__set_bakeHandIK(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bakeHandIK = value;
 }
 constexpr float_t& RootMotion::HumanoidBaker::__get_IKKeyReductionError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKKeyReductionError;
 }
 constexpr float_t const& RootMotion::HumanoidBaker::__get_IKKeyReductionError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKKeyReductionError;
 }
 constexpr void RootMotion::HumanoidBaker::__set_IKKeyReductionError(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKKeyReductionError = value;
 }
 constexpr int32_t& RootMotion::HumanoidBaker::__get_muscleFrameRateDiv() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___muscleFrameRateDiv;
 }
 constexpr int32_t const& RootMotion::HumanoidBaker::__get_muscleFrameRateDiv() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___muscleFrameRateDiv;
 }
 constexpr void RootMotion::HumanoidBaker::__set_muscleFrameRateDiv(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___muscleFrameRateDiv = value;
 }
 constexpr ::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*>& RootMotion::HumanoidBaker::__get_bakerMuscles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bakerMuscles;
 }
 constexpr ::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*> const& RootMotion::HumanoidBaker::__get_bakerMuscles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bakerMuscles;
 }
 constexpr void RootMotion::HumanoidBaker::__set_bakerMuscles(::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bakerMuscles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::BakerHumanoidQT*& RootMotion::HumanoidBaker::__get_rootQT() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootQT;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& RootMotion::HumanoidBaker::__get_rootQT() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootQT;
 }
 constexpr void RootMotion::HumanoidBaker::__set_rootQT(::RootMotion::BakerHumanoidQT* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootQT)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::BakerHumanoidQT*& RootMotion::HumanoidBaker::__get_leftFootQT() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftFootQT;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& RootMotion::HumanoidBaker::__get_leftFootQT() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftFootQT;
 }
 constexpr void RootMotion::HumanoidBaker::__set_leftFootQT(::RootMotion::BakerHumanoidQT* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftFootQT)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::BakerHumanoidQT*& RootMotion::HumanoidBaker::__get_rightFootQT() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightFootQT;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& RootMotion::HumanoidBaker::__get_rightFootQT() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightFootQT;
 }
 constexpr void RootMotion::HumanoidBaker::__set_rightFootQT(::RootMotion::BakerHumanoidQT* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightFootQT)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::BakerHumanoidQT*& RootMotion::HumanoidBaker::__get_leftHandQT() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandQT;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& RootMotion::HumanoidBaker::__get_leftHandQT() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandQT;
 }
 constexpr void RootMotion::HumanoidBaker::__set_leftHandQT(::RootMotion::BakerHumanoidQT* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandQT)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::BakerHumanoidQT*& RootMotion::HumanoidBaker::__get_rightHandQT() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandQT;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& RootMotion::HumanoidBaker::__get_rightHandQT() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandQT;
 }
 constexpr void RootMotion::HumanoidBaker::__set_rightHandQT(::RootMotion::BakerHumanoidQT* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandQT)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& RootMotion::HumanoidBaker::__get_muscles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___muscles;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& RootMotion::HumanoidBaker::__get_muscles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___muscles;
 }
 constexpr void RootMotion::HumanoidBaker::__set_muscles(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___muscles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::HumanPose& RootMotion::HumanoidBaker::__get_pose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pose;
 }
 constexpr ::UnityEngine::HumanPose const& RootMotion::HumanoidBaker::__get_pose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pose;
 }
 constexpr void RootMotion::HumanoidBaker::__set_pose(::UnityEngine::HumanPose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pose = value;
 }
 constexpr ::UnityEngine::HumanPoseHandler*& RootMotion::HumanoidBaker::__get_handler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::HumanPoseHandler*> const& RootMotion::HumanoidBaker::__get_handler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler;
 }
 constexpr void RootMotion::HumanoidBaker::__set_handler(::UnityEngine::HumanPoseHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::HumanoidBaker::__get_bodyPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::HumanoidBaker::__get_bodyPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyPosition;
 }
 constexpr void RootMotion::HumanoidBaker::__set_bodyPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::HumanoidBaker::__get_bodyRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::HumanoidBaker::__get_bodyRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyRotation;
 }
 constexpr void RootMotion::HumanoidBaker::__set_bodyRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyRotation = value;
 }
 constexpr int32_t& RootMotion::HumanoidBaker::__get_mN() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mN;
 }
 constexpr int32_t const& RootMotion::HumanoidBaker::__get_mN() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mN;
 }
 constexpr void RootMotion::HumanoidBaker::__set_mN(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mN = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::HumanoidBaker::__get_lastBodyRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastBodyRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::HumanoidBaker::__get_lastBodyRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastBodyRotation;
 }
 constexpr void RootMotion::HumanoidBaker::__set_lastBodyRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastBodyRotation = value;
 }
 inline void RootMotion::HumanoidBaker::Awake() {

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorDynamicContext)
 namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class InjectContext;
+namespace UnityEngine {
+class GameObject;
 }
 namespace Zenject {
 class ISubContainerCreator;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class GameObjectContext;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

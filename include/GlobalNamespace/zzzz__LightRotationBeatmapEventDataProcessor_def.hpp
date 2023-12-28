@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
 CORDL_MODULE_EXPORT(LightRotationBeatmapEventDataProcessor)
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 952 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14735))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14746)) CS Name: ::LightRotationBeatmapEventDataProcessor*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 952 }), TypeDefinitionIndex(TypeDefinitionIndex(14735)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14746)) CS Name: ::LightRotationBeatmapEventDataProcessor*
 class CORDL_TYPE LightRotationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightRotationBeatmapEventData*> {
 public:
   // Declarations

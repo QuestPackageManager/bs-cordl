@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTemporalFiltering)
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

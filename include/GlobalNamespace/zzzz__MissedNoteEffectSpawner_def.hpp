@@ -9,16 +9,16 @@ namespace GlobalNamespace {
 class FlyingSpriteSpawner;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
 class __CoreGameHUDController__InitData;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

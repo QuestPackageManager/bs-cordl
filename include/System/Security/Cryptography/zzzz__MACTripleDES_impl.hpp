@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__KeyedHashAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__MACTripleDES_def.hpp"
-#include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"
 #include "System/Security/Cryptography/zzzz__TailStream_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"
 #include "System/Security/Cryptography/zzzz__TripleDES_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::MACTripleDES._ctor
 template <>
@@ -83,63 +83,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::ICryptoTransform*& System::Security::Cryptography::MACTripleDES::__get_m_encryptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_encryptor;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::ICryptoTransform*> const& System::Security::Cryptography::MACTripleDES::__get_m_encryptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_encryptor;
 }
 constexpr void System::Security::Cryptography::MACTripleDES::__set_m_encryptor(::System::Security::Cryptography::ICryptoTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_encryptor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::CryptoStream*& System::Security::Cryptography::MACTripleDES::__get__cs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::CryptoStream*> const& System::Security::Cryptography::MACTripleDES::__get__cs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cs;
 }
 constexpr void System::Security::Cryptography::MACTripleDES::__set__cs(::System::Security::Cryptography::CryptoStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::TailStream*& System::Security::Cryptography::MACTripleDES::__get__ts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ts;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::TailStream*> const& System::Security::Cryptography::MACTripleDES::__get__ts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ts;
 }
 constexpr void System::Security::Cryptography::MACTripleDES::__set__ts(::System::Security::Cryptography::TailStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Cryptography::MACTripleDES::__get_m_bytesPerBlock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_bytesPerBlock;
 }
 constexpr int32_t const& System::Security::Cryptography::MACTripleDES::__get_m_bytesPerBlock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_bytesPerBlock;
 }
 constexpr void System::Security::Cryptography::MACTripleDES::__set_m_bytesPerBlock(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_bytesPerBlock = value;
 }
 constexpr ::System::Security::Cryptography::TripleDES*& System::Security::Cryptography::MACTripleDES::__get_des() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___des;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::TripleDES*> const& System::Security::Cryptography::MACTripleDES::__get_des() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___des;
 }
 constexpr void System::Security::Cryptography::MACTripleDES::__set_des(::System::Security::Cryptography::TripleDES* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___des)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::MACTripleDES* System::Security::Cryptography::MACTripleDES::New_ctor() {

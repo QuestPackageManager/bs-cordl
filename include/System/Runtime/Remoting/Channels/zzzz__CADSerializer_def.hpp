@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADSerializer)
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System {
@@ -17,6 +14,9 @@ class Object;
 }
 namespace System::IO {
 class MemoryStream;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

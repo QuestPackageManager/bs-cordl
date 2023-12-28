@@ -12,92 +12,92 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelEventHandler)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UIElements {
-class FocusEvent;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
 namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IMoveHandler;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class ISelectHandler;
 }
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerMoveHandler;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+namespace UnityEngine::UIElements {
+class __PanelEventHandler__PointerEvent;
 }
 namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
+class IPanel;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 namespace UnityEngine::EventSystems {
 class IScrollHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class IPointerMoveHandler;
+}
+namespace UnityEngine::UIElements {
+struct __PanelEventHandler__PointerEventType;
+}
+namespace UnityEngine::UIElements {
+class FocusEvent;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class __PanelEventHandler__PointerEvent;
+class BlurEvent;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine {
+class Event;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IMoveHandler;
 }
 namespace UnityEngine::EventSystems {
-class EventSystem;
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
 }
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+class IRuntimePanelComponent;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
-namespace UnityEngine::UIElements {
-struct __PanelEventHandler__PointerEventType;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::UIElements {
-class BlurEvent;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine {
 struct EventModifiers;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -172,8 +172,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Panel
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13159)) CS Name: ::PanelEventHandler::PointerEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13159)) CS Name: ::PanelEventHandler::PointerEvent*
 class CORDL_TYPE __PanelEventHandler__PointerEvent : public ::System::Object {
 public:
   // Declarations
@@ -604,7 +604,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Panel
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(14602))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13160))
 // CS Name: ::UnityEngine.UIElements::PanelEventHandler*
 class CORDL_TYPE PanelEventHandler : public ::UnityEngine::EventSystems::UIBehaviour {

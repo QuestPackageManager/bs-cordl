@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScheduledItem)
 namespace UnityEngine::UIElements {
+struct TimerState;
+}
+namespace UnityEngine::UIElements {
 class __ScheduledItem____c;
 }
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

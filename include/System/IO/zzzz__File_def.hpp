@@ -7,29 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(File)
+namespace System::Security::AccessControl {
+struct AccessControlSections;
+}
 namespace System::IO {
 struct FileAttributes;
-}
-namespace System::IO {
-class StreamWriter;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::IO {
-class FileStream;
-}
-namespace System::IO {
-class StreamReader;
-}
-namespace System::IO {
-struct FileAccess;
 }
 namespace System::Security::AccessControl {
 class FileSecurity;
 }
 namespace System::IO {
-struct FileMode;
+struct FileAccess;
+}
+namespace System::IO {
+class StreamWriter;
+}
+namespace System::IO {
+class FileStream;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::IO {
 struct FileShare;
@@ -37,11 +34,14 @@ struct FileShare;
 namespace System::IO {
 class TextWriter;
 }
-namespace System::Text {
-class Encoding;
+namespace System::IO {
+struct FileMode;
 }
-namespace System::Security::AccessControl {
-struct AccessControlSections;
+namespace System::IO {
+class StreamReader;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::IO {

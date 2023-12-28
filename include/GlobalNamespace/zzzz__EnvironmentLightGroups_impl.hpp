@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__IEnvironmentLightGroups_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__EnvironmentLightGroups____c._ctor
 template <>
@@ -131,42 +131,42 @@ constexpr GlobalNamespace::EnvironmentLightGroups::operator ::GlobalNamespace::I
   return static_cast<::GlobalNamespace::IEnvironmentLightGroups*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& GlobalNamespace::EnvironmentLightGroups::__get__lightGroupSOList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupSOList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*> const&
 GlobalNamespace::EnvironmentLightGroups::__get__lightGroupSOList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupSOList;
 }
 constexpr void GlobalNamespace::EnvironmentLightGroups::__set__lightGroupSOList(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroupSOList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightGroupSO*>*& GlobalNamespace::EnvironmentLightGroups::__get__lightGroupSODict() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupSODict;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightGroupSO*>*> const&
 GlobalNamespace::EnvironmentLightGroups::__get__lightGroupSODict() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupSODict;
 }
 constexpr void GlobalNamespace::EnvironmentLightGroups::__set__lightGroupSODict(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightGroupSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroupSODict)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& GlobalNamespace::EnvironmentLightGroups::__get__lightGroupSOListForLightGroupDataDict() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupSOListForLightGroupDataDict;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*> const&
 GlobalNamespace::EnvironmentLightGroups::__get__lightGroupSOListForLightGroupDataDict() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupSOListForLightGroupDataDict;
 }
 constexpr void GlobalNamespace::EnvironmentLightGroups::__set__lightGroupSOListForLightGroupDataDict(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroupSOListForLightGroupDataDict)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

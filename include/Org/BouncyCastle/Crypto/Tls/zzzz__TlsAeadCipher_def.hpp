@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsAeadCipher)
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

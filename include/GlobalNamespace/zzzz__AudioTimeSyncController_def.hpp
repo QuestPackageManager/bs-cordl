@@ -13,22 +13,22 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class __AudioTimeSyncController__InitData;
+struct __AudioTimeSyncController__State;
+}
+namespace UnityEngine {
+class WaitUntil;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class __AudioTimeSyncController__InitData;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace GlobalNamespace {
-struct __AudioTimeSyncController__State;
-}
 namespace UnityEngine {
 class AudioSource;
 }
-namespace UnityEngine {
-class WaitUntil;
+namespace GlobalNamespace {
+class FloatSO;
 }
 namespace UnityEngine {
 class AudioClip;

@@ -10,53 +10,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleResource)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class AssetBundleRequestOptions;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct __AssetBundleResource__LoadType;
+struct ProvideHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
 namespace UnityEngine {
 class AssetBundle;
+}
+namespace UnityEngine::Networking {
+class DownloadHandlerAssetBundle;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine {
 class AsyncOperation;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct __AssetBundleResource__LoadType;
 }
-namespace UnityEngine::Networking {
-class DownloadHandlerAssetBundle;
+namespace UnityEngine {
+class AssetBundleRequest;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IAssetBundleResource;
+}
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class AssetBundleRequestOptions;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -124,7 +124,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13993))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleResource*
 class CORDL_TYPE AssetBundleResource : public ::System::Object {

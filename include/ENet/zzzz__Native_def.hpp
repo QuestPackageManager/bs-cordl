@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Native)
 namespace ENet {
-struct PeerState;
+struct ENetSslConfiguration;
 }
 namespace ENet {
 struct ENetEvent;
+}
+namespace ENet {
+struct ENetAddress;
+}
+namespace ENet {
+struct PeerState;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace ENet {
 struct PacketFlags;
 }
 namespace ENet {
 struct ENetCallbacks;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace ENet {
-struct ENetAddress;
-}
-namespace ENet {
-struct ENetSslConfiguration;
 }
 // Forward declare root types
 namespace ENet {

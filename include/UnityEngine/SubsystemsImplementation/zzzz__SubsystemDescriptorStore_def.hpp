@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubsystemDescriptorStore)
-namespace UnityEngine {
-class IntegratedSubsystemDescriptor;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::SubsystemsImplementation {
+class SubsystemDescriptorWithProvider;
 }
 namespace UnityEngine {
 class SubsystemDescriptor;
 }
-namespace UnityEngine::SubsystemsImplementation {
-class SubsystemDescriptorWithProvider;
+namespace UnityEngine {
+class IntegratedSubsystemDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::SubsystemsImplementation {

@@ -20,16 +20,16 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -103,7 +103,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextF
 // SizeInfo { instance_size: 1056, native_size: -1, calculated_instance_size: 1056, calculated_native_size: 1056, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7098), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7098))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7098)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7098), inst: 397 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7061))
 // CS Name: ::UnityEngine.UIElements::TextField*
 class CORDL_TYPE TextField : public ::UnityEngine::UIElements::TextInputBaseField_1<::StringW> {
@@ -199,8 +199,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextFie
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5280 }), TypeDefinitionIndex(TypeDefinitionIndex(7061)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7059))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name: ::TextField::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5280 }), TypeDefinitionIndex(TypeDefinitionIndex(7059)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7061))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name: ::TextField::UxmlFactory*
 class CORDL_TYPE __TextField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextField*, ::UnityEngine::UIElements::__TextField__UxmlTraits*> {
 public:
   // Declarations

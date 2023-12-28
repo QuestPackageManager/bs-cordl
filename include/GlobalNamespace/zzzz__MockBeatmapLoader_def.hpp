@@ -13,29 +13,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapLoader)
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class __MockBeatmapLoader____c;
-}
 namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class MockBeatmapData;
 }
 namespace GlobalNamespace {
 class __MockBeatmapLoader____c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
-class MockBeatmapData;
+class BeatmapLevelsModel;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -43,23 +31,35 @@ template <typename TResult> class Task_1;
 namespace GlobalNamespace {
 struct __MockBeatmapLoader___GetBeatmapData_d__2;
 }
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+namespace System {
+class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class __MockBeatmapLoader____c;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace GlobalNamespace {
 struct __MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d;
@@ -68,13 +68,13 @@ namespace GlobalNamespace {
 struct __BeatmapLevelsModel__GetBeatmapLevelResult;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -105,9 +105,8 @@ MARK_VAL_T(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0____GetBe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5172)) CS Name:
-// ::MockBeatmapLoader::<>c__DisplayClass2_0::<<GetBeatmapData>b__3>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5172)) CS Name: ::MockBeatmapLoader::<>c__DisplayClass2_0::<<GetBeatmapData>b__3>d
 struct CORDL_TYPE __MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d {
 public:
   // Declarations
@@ -292,10 +291,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockBeatmapLo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 892 }), TypeDefinitionIndex(TypeDefinitionIndex(15509)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 }), TypeDefinitionIndex(TypeDefinitionIndex(4358)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5175)) CS Name:
-// ::MockBeatmapLoader::<GetBeatmapData>d__2
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 892 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(15509)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5175)) CS Name: ::MockBeatmapLoader::<GetBeatmapData>d__2
 struct CORDL_TYPE __MockBeatmapLoader___GetBeatmapData_d__2 {
 public:
   // Declarations

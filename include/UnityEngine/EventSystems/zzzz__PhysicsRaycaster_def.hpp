@@ -11,7 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsRaycaster)
 namespace UnityEngine {
-struct Ray;
+struct RaycastHit;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -19,20 +25,14 @@ class PointerEventData;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct RaycastHit;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
 namespace UnityEngine::EventSystems {
 class __PhysicsRaycaster__RaycastHitComparer;
 }
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;

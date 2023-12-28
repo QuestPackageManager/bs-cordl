@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(AndroidJavaProxy)
 namespace UnityEngine {
 class GlobalJavaObjectRef;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 class AndroidJavaObject;
 }
 namespace UnityEngine {
 class AndroidJavaClass;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

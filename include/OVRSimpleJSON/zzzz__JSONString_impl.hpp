@@ -2,10 +2,10 @@
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONString_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::OVRSimpleJSON::JSONString.get_Tag
 template <>
 
@@ -135,15 +135,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& OVRSimpleJSON::JSONString::__get_m_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr ::StringW const& OVRSimpleJSON::JSONString::__get_m_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr void OVRSimpleJSON::JSONString::__set_m_Data(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::OVRSimpleJSON::JSONNodeType OVRSimpleJSON::JSONString::get_Tag() {

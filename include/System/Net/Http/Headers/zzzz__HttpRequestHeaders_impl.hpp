@@ -4,10 +4,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/Net/Http/Headers/zzzz__AuthenticationHeaderValue_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
+#include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::__HttpRequestHeaders____c._ctor
 template <>
@@ -261,15 +261,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Nullable_1<bool>& System::Net::Http::Headers::HttpRequestHeaders::__get_expectContinue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expectContinue;
 }
 constexpr ::System::Nullable_1<bool> const& System::Net::Http::Headers::HttpRequestHeaders::__get_expectContinue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expectContinue;
 }
 constexpr void System::Net::Http::Headers::HttpRequestHeaders::__set_expectContinue(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___expectContinue = value;
 }
 inline ::System::Net::Http::Headers::HttpRequestHeaders* System::Net::Http::Headers::HttpRequestHeaders::New_ctor() {

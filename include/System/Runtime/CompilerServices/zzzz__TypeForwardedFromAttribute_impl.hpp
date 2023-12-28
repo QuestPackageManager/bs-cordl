@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::CompilerServices::TypeForwardedFromAttribute::__get__AssemblyFullName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AssemblyFullName_k__BackingField;
 }
 constexpr ::StringW const& System::Runtime::CompilerServices::TypeForwardedFromAttribute::__get__AssemblyFullName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AssemblyFullName_k__BackingField;
 }
 constexpr void System::Runtime::CompilerServices::TypeForwardedFromAttribute::__set__AssemblyFullName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____AssemblyFullName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::TypeForwardedFromAttribute* System::Runtime::CompilerServices::TypeForwardedFromAttribute::New_ctor(::StringW assemblyFullName) {

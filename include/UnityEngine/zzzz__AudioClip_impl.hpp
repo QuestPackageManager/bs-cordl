@@ -440,27 +440,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::__AudioClip__PCMReaderCallback*& UnityEngine::AudioClip::__get_m_PCMReaderCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PCMReaderCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__AudioClip__PCMReaderCallback*> const& UnityEngine::AudioClip::__get_m_PCMReaderCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PCMReaderCallback;
 }
 constexpr void UnityEngine::AudioClip::__set_m_PCMReaderCallback(::UnityEngine::__AudioClip__PCMReaderCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PCMReaderCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::__AudioClip__PCMSetPositionCallback*& UnityEngine::AudioClip::__get_m_PCMSetPositionCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PCMSetPositionCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__AudioClip__PCMSetPositionCallback*> const& UnityEngine::AudioClip::__get_m_PCMSetPositionCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PCMSetPositionCallback;
 }
 constexpr void UnityEngine::AudioClip::__set_m_PCMSetPositionCallback(::UnityEngine::__AudioClip__PCMSetPositionCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PCMSetPositionCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::New_ctor() {

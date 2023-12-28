@@ -8,59 +8,59 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/Net/zzzz__SocketAddress_def.hpp"
+#include "System/Net/Sockets/zzzz__SelectMode_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
-#include "System/Net/Sockets/zzzz__IPProtectionLevel_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__NetworkInterfaceComponent_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketOptionName_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__IOSelectorJob_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__NetworkInterfaceComponent_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Net/Sockets/zzzz__SelectMode_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
-#include "System/zzzz__IOAsyncCallback_def.hpp"
-#include "System/Net/Sockets/zzzz__IOControlCode_def.hpp"
-#include "System/Net/zzzz__SocketAddress_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__ProtocolType_def.hpp"
-#include "System/Net/zzzz__EndPoint_def.hpp"
+#include "System/zzzz__IOSelectorJob_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketOptionLevel_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
-#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketType_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
-#include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Net/Sockets/zzzz__ProtocolType_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/Net/zzzz__EndPoint_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/zzzz__IOAsyncCallback_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
+#include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Net/Sockets/zzzz__IPProtectionLevel_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
+#include "System/Net/Sockets/zzzz__IOControlCode_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceOnCompletedFlags_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_def.hpp"
+#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
+#include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__IOAsyncResult_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::__Socket__CachedEventArgs._ctor
 template <>
@@ -77,64 +77,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>*& System::Net::Sockets::__Socket__CachedEventArgs::__get_TaskAccept() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TaskAccept;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>*> const&
 System::Net::Sockets::__Socket__CachedEventArgs::__get_TaskAccept() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TaskAccept;
 }
 constexpr void System::Net::Sockets::__Socket__CachedEventArgs::__set_TaskAccept(::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TaskAccept)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*& System::Net::Sockets::__Socket__CachedEventArgs::__get_TaskReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TaskReceive;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*> const& System::Net::Sockets::__Socket__CachedEventArgs::__get_TaskReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TaskReceive;
 }
 constexpr void System::Net::Sockets::__Socket__CachedEventArgs::__set_TaskReceive(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TaskReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*& System::Net::Sockets::__Socket__CachedEventArgs::__get_TaskSend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TaskSend;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*> const& System::Net::Sockets::__Socket__CachedEventArgs::__get_TaskSend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TaskSend;
 }
 constexpr void System::Net::Sockets::__Socket__CachedEventArgs::__set_TaskSend(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TaskSend)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*& System::Net::Sockets::__Socket__CachedEventArgs::__get_ValueTaskReceive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ValueTaskReceive;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*> const& System::Net::Sockets::__Socket__CachedEventArgs::__get_ValueTaskReceive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ValueTaskReceive;
 }
 constexpr void System::Net::Sockets::__Socket__CachedEventArgs::__set_ValueTaskReceive(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ValueTaskReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*& System::Net::Sockets::__Socket__CachedEventArgs::__get_ValueTaskSend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ValueTaskSend;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*> const& System::Net::Sockets::__Socket__CachedEventArgs::__get_ValueTaskSend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ValueTaskSend;
 }
 constexpr void System::Net::Sockets::__Socket__CachedEventArgs::__set_ValueTaskSend(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ValueTaskSend)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Sockets::__Socket__CachedEventArgs* System::Net::Sockets::__Socket__CachedEventArgs::New_ctor() {
@@ -148,29 +148,29 @@ inline void System::Net::Sockets::__Socket__CachedEventArgs::_ctor() {
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::__Socket__CachedEventArgs::__Socket__CachedEventArgs() {}
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>& System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__builder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____builder;
 }
 template <typename TResult>
 constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> const& System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__builder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____builder;
 }
 template <typename TResult>
 constexpr void System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::__set__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____builder = value;
 }
 template <typename TResult> constexpr bool& System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__accessed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accessed;
 }
 template <typename TResult> constexpr bool const& System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__accessed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accessed;
 }
 template <typename TResult> constexpr void System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::__set__accessed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____accessed = value;
 }
 template <typename TResult> inline ::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>* System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>::New_ctor() {
@@ -208,15 +208,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs::__get__wrapExceptionsInIOExceptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrapExceptionsInIOExceptions;
 }
 constexpr bool const& System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs::__get__wrapExceptionsInIOExceptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrapExceptionsInIOExceptions;
 }
 constexpr void System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs::__set__wrapExceptionsInIOExceptions(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wrapExceptionsInIOExceptions = value;
 }
 inline ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs::New_ctor() {
@@ -636,63 +636,63 @@ constexpr System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::operato
   return static_cast<::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::System::Object*>*& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__continuation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continuation;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__continuation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continuation;
 }
 constexpr void System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__set__continuation(::System::Action_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____continuation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ExecutionContext*& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__executionContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__executionContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionContext;
 }
 constexpr void System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__set__executionContext(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____executionContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__scheduler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scheduler;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__scheduler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scheduler;
 }
 constexpr void System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__set__scheduler(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scheduler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int16_t& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr int16_t const& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr void System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__set__token(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____token = value;
 }
 constexpr bool& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__WrapExceptionsInIOExceptions_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WrapExceptionsInIOExceptions_k__BackingField;
 }
 constexpr bool const& System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__get__WrapExceptionsInIOExceptions_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WrapExceptionsInIOExceptions_k__BackingField;
 }
 constexpr void System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::__set__WrapExceptionsInIOExceptions_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____WrapExceptionsInIOExceptions_k__BackingField = value;
 }
 inline void System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs::setStaticF_Reserved(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value) {
@@ -1565,15 +1565,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::SocketAsyncResult*& System::Net::Sockets::__Socket____c__DisplayClass240_0::__get_sockares() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sockares;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SocketAsyncResult*> const& System::Net::Sockets::__Socket____c__DisplayClass240_0::__get_sockares() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sockares;
 }
 constexpr void System::Net::Sockets::__Socket____c__DisplayClass240_0::__set_sockares(::System::Net::Sockets::SocketAsyncResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sockares)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Sockets::__Socket____c__DisplayClass240_0* System::Net::Sockets::__Socket____c__DisplayClass240_0::New_ctor() {
@@ -1624,15 +1624,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::Sockets::__Socket____c__DisplayClass298_0::__get_sent_so_far() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sent_so_far;
 }
 constexpr int32_t const& System::Net::Sockets::__Socket____c__DisplayClass298_0::__get_sent_so_far() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sent_so_far;
 }
 constexpr void System::Net::Sockets::__Socket____c__DisplayClass298_0::__set_sent_so_far(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sent_so_far = value;
 }
 inline ::System::Net::Sockets::__Socket____c__DisplayClass298_0* System::Net::Sockets::__Socket____c__DisplayClass298_0::New_ctor() {
@@ -1681,39 +1681,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::Socket*& System::Net::Sockets::__Socket____c__DisplayClass355_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& System::Net::Sockets::__Socket____c__DisplayClass355_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void System::Net::Sockets::__Socket____c__DisplayClass355_0::__set___4__this(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IOSelectorJob*& System::Net::Sockets::__Socket____c__DisplayClass355_0::__get_job() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___job;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IOSelectorJob*> const& System::Net::Sockets::__Socket____c__DisplayClass355_0::__get_job() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___job;
 }
 constexpr void System::Net::Sockets::__Socket____c__DisplayClass355_0::__set_job(::System::IOSelectorJob* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___job)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr void*& System::Net::Sockets::__Socket____c__DisplayClass355_0::__get_handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void* const& System::Net::Sockets::__Socket____c__DisplayClass355_0::__get_handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void System::Net::Sockets::__Socket____c__DisplayClass355_0::__set_handle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handle = value;
 }
 inline ::System::Net::Sockets::__Socket____c__DisplayClass355_0* System::Net::Sockets::__Socket____c__DisplayClass355_0::New_ctor() {
@@ -4256,219 +4256,219 @@ constexpr System::Net::Sockets::Socket::operator ::System::IDisposable*() noexce
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::Sockets::__Socket__CachedEventArgs*& System::Net::Sockets::Socket::__get__cachedTaskEventArgs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedTaskEventArgs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__CachedEventArgs*> const& System::Net::Sockets::Socket::__get__cachedTaskEventArgs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedTaskEventArgs;
 }
 constexpr void System::Net::Sockets::Socket::__set__cachedTaskEventArgs(::System::Net::Sockets::__Socket__CachedEventArgs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedTaskEventArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Sockets::Socket::__get_is_closed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_closed;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_is_closed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_closed;
 }
 constexpr void System::Net::Sockets::Socket::__set_is_closed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_closed = value;
 }
 constexpr bool& System::Net::Sockets::Socket::__get_is_listening() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_listening;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_is_listening() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_listening;
 }
 constexpr void System::Net::Sockets::Socket::__set_is_listening(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_listening = value;
 }
 constexpr bool& System::Net::Sockets::Socket::__get_useOverlappedIO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useOverlappedIO;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_useOverlappedIO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useOverlappedIO;
 }
 constexpr void System::Net::Sockets::Socket::__set_useOverlappedIO(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useOverlappedIO = value;
 }
 constexpr int32_t& System::Net::Sockets::Socket::__get_linger_timeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linger_timeout;
 }
 constexpr int32_t const& System::Net::Sockets::Socket::__get_linger_timeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linger_timeout;
 }
 constexpr void System::Net::Sockets::Socket::__set_linger_timeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___linger_timeout = value;
 }
 constexpr ::System::Net::Sockets::AddressFamily& System::Net::Sockets::Socket::__get_addressFamily() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addressFamily;
 }
 constexpr ::System::Net::Sockets::AddressFamily const& System::Net::Sockets::Socket::__get_addressFamily() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addressFamily;
 }
 constexpr void System::Net::Sockets::Socket::__set_addressFamily(::System::Net::Sockets::AddressFamily value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___addressFamily = value;
 }
 constexpr ::System::Net::Sockets::SocketType& System::Net::Sockets::Socket::__get_socketType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___socketType;
 }
 constexpr ::System::Net::Sockets::SocketType const& System::Net::Sockets::Socket::__get_socketType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___socketType;
 }
 constexpr void System::Net::Sockets::Socket::__set_socketType(::System::Net::Sockets::SocketType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___socketType = value;
 }
 constexpr ::System::Net::Sockets::ProtocolType& System::Net::Sockets::Socket::__get_protocolType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___protocolType;
 }
 constexpr ::System::Net::Sockets::ProtocolType const& System::Net::Sockets::Socket::__get_protocolType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___protocolType;
 }
 constexpr void System::Net::Sockets::Socket::__set_protocolType(::System::Net::Sockets::ProtocolType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___protocolType = value;
 }
 constexpr ::System::Net::Sockets::SafeSocketHandle*& System::Net::Sockets::Socket::__get_m_Handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Handle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SafeSocketHandle*> const& System::Net::Sockets::Socket::__get_m_Handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Handle;
 }
 constexpr void System::Net::Sockets::Socket::__set_m_Handle(::System::Net::Sockets::SafeSocketHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Handle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::EndPoint*& System::Net::Sockets::Socket::__get_seed_endpoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seed_endpoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& System::Net::Sockets::Socket::__get_seed_endpoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seed_endpoint;
 }
 constexpr void System::Net::Sockets::Socket::__set_seed_endpoint(::System::Net::EndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___seed_endpoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::SemaphoreSlim*& System::Net::Sockets::Socket::__get_ReadSem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReadSem;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::Net::Sockets::Socket::__get_ReadSem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReadSem;
 }
 constexpr void System::Net::Sockets::Socket::__set_ReadSem(::System::Threading::SemaphoreSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReadSem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::SemaphoreSlim*& System::Net::Sockets::Socket::__get_WriteSem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriteSem;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::Net::Sockets::Socket::__get_WriteSem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriteSem;
 }
 constexpr void System::Net::Sockets::Socket::__set_WriteSem(::System::Threading::SemaphoreSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___WriteSem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Sockets::Socket::__get_is_blocking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_blocking;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_is_blocking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_blocking;
 }
 constexpr void System::Net::Sockets::Socket::__set_is_blocking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_blocking = value;
 }
 constexpr bool& System::Net::Sockets::Socket::__get_is_bound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_bound;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_is_bound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_bound;
 }
 constexpr void System::Net::Sockets::Socket::__set_is_bound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_bound = value;
 }
 constexpr bool& System::Net::Sockets::Socket::__get_is_connected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_connected;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_is_connected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_connected;
 }
 constexpr void System::Net::Sockets::Socket::__set_is_connected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_connected = value;
 }
 constexpr int32_t& System::Net::Sockets::Socket::__get_m_IntCleanedUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IntCleanedUp;
 }
 constexpr int32_t const& System::Net::Sockets::Socket::__get_m_IntCleanedUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IntCleanedUp;
 }
 constexpr void System::Net::Sockets::Socket::__set_m_IntCleanedUp(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IntCleanedUp = value;
 }
 constexpr bool& System::Net::Sockets::Socket::__get_connect_in_progress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connect_in_progress;
 }
 constexpr bool const& System::Net::Sockets::Socket::__get_connect_in_progress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connect_in_progress;
 }
 constexpr void System::Net::Sockets::Socket::__set_connect_in_progress(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connect_in_progress = value;
 }
 constexpr int32_t& System::Net::Sockets::Socket::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr int32_t const& System::Net::Sockets::Socket::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void System::Net::Sockets::Socket::__set__cordl_ID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 inline void System::Net::Sockets::Socket::setStaticF_AcceptCompletedHandler(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value) {

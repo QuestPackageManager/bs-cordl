@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__EventsTestScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO.Init
 template <>
 
@@ -32,39 +32,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::EnvironmentInfoSO*& GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__get__environmentInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__get__environmentInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfo;
 }
 constexpr void GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__set__environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SceneInfo*& GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__get__eventsTestSceneInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventsTestSceneInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__get__eventsTestSceneInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventsTestSceneInfo;
 }
 constexpr void GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__set__eventsTestSceneInfo(::GlobalNamespace::SceneInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventsTestSceneInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SceneInfo*& GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__get__gameCoreSceneInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameCoreSceneInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__get__gameCoreSceneInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameCoreSceneInfo;
 }
 constexpr void GlobalNamespace::EventsTestScenesTransitionSetupDataSO::__set__gameCoreSceneInfo(::GlobalNamespace::SceneInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameCoreSceneInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::EventsTestScenesTransitionSetupDataSO::Init() {

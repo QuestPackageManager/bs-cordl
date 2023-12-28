@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection.Register
 template <>
 

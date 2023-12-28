@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManagerRuntimeData)
+namespace System {
+class Type;
+}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class ResourceLocationData;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::ResourceManager
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13983)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13983))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14125))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::ResourceManagerRuntimeData*
 class CORDL_TYPE ResourceManagerRuntimeData : public ::System::Object {

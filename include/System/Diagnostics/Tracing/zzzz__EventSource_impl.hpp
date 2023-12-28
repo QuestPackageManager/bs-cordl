@@ -2,12 +2,12 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
+#include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Tracing::__EventSource__EventData.set_DataPointer
 template <>
 
@@ -324,15 +324,15 @@ constexpr System::Diagnostics::Tracing::EventSource::operator ::System::IDisposa
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Diagnostics::Tracing::EventSource::__get__Name_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr ::StringW const& System::Diagnostics::Tracing::EventSource::__get__Name_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;
 }
 constexpr void System::Diagnostics::Tracing::EventSource::__set__Name_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Diagnostics::Tracing::EventSource* System::Diagnostics::Tracing::EventSource::New_ctor() {

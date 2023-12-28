@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLightWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
+#include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData.get_lightGroup
 template <>
@@ -54,27 +54,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LightGroupSO*& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::__get__lightGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::__get__lightGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroup;
 }
 constexpr void GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::__set__lightGroup(::GlobalNamespace::LightGroupSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::__get__groupIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupIntensity;
 }
 constexpr float_t const& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::__get__groupIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupIntensity;
 }
 constexpr void GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::__set__groupIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____groupIntensity = value;
 }
 inline ::GlobalNamespace::LightGroupSO* GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData::get_lightGroup() {
@@ -147,27 +147,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::__get__lightId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightId;
 }
 constexpr int32_t const& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::__get__lightId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightId;
 }
 constexpr void GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::__set__lightId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightId = value;
 }
 constexpr float_t& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::__get__intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr float_t const& GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::__get__intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr void GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::__set__intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
 inline int32_t GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::get_lightId() {
@@ -252,69 +252,69 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::DirectionalLightWithIds*& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__directionalLightWithIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLightWithIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLightWithIds*> const& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__directionalLightWithIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLightWithIds;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__set__directionalLightWithIds(::GlobalNamespace::DirectionalLightWithIds* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directionalLightWithIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData*>*&
 GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__groupLightData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupLightData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData*>*> const&
 GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__groupLightData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupLightData;
 }
 constexpr void
 GlobalNamespace::DirectionalLightWithIdsGroupEntry::__set__groupLightData(::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupLightData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId*>*&
 GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__individualLightData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____individualLightData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId*>*> const&
 GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__individualLightData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____individualLightData;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__set__individualLightData(
     ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____individualLightData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__excludedLightIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludedLightIds;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__excludedLightIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____excludedLightIds;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__set__excludedLightIds(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____excludedLightIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__groupLightsWeighting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupLightsWeighting;
 }
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__groupLightsWeighting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupLightsWeighting;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__set__groupLightsWeighting(::GlobalNamespace::ColorMixAndWeightingApproach value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____groupLightsWeighting = value;
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData*>* GlobalNamespace::DirectionalLightWithIdsGroupEntry::get_groupLightData() {

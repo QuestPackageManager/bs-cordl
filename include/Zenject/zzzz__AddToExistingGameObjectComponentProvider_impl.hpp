@@ -3,12 +3,12 @@
 #include "Zenject/zzzz__AddToExistingGameObjectComponentProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::AddToExistingGameObjectComponentProvider._ctor
 template <>
 
@@ -63,15 +63,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& Zenject::AddToExistingGameObjectComponentProvider::__get__gameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& Zenject::AddToExistingGameObjectComponentProvider::__get__gameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObject;
 }
 constexpr void Zenject::AddToExistingGameObjectComponentProvider::__set__gameObject(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::AddToExistingGameObjectComponentProvider*

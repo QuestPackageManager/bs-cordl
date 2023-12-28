@@ -6,14 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionalAvatarDataSyncHandler)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class IDisposable;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -22,10 +16,16 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataPacket;
+struct OptionalAvatarData;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace BeatSaber::AvatarCore {
-struct OptionalAvatarData;
+class OptionalAvatarDataPacket;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class ByteArrayNetSerializable;

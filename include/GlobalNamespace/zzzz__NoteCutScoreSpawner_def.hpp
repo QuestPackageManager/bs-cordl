@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoteCutScoreSpawner)
 namespace GlobalNamespace {
-class IScoreController;
+class FlyingScoreSpawner;
 }
 namespace GlobalNamespace {
-class FlyingScoreSpawner;
+class IScoreController;
 }
 namespace GlobalNamespace {
 class ScoringElement;

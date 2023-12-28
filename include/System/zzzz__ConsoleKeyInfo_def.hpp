@@ -11,10 +11,10 @@ namespace System {
 struct ConsoleKey;
 }
 namespace System {
-struct ConsoleModifiers;
+class Object;
 }
 namespace System {
-class Object;
+struct ConsoleModifiers;
 }
 // Forward declare root types
 namespace System {

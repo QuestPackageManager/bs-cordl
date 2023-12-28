@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ResultObjectiveListItem)
 namespace UnityEngine {
 class Sprite;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine {
-struct Color;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

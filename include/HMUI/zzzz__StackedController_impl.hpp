@@ -2,9 +2,9 @@
 #include "HMUI/zzzz__ContainerViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__StackedController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "HMUI/zzzz__StackedController_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: ::HMUI::__StackedController____c__DisplayClass5_0._ctor
@@ -40,15 +40,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HMUI::__StackedController____c__DisplayClass5_0::__get_numberOfViewControllersToPop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberOfViewControllersToPop;
 }
 constexpr int32_t const& HMUI::__StackedController____c__DisplayClass5_0::__get_numberOfViewControllersToPop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberOfViewControllersToPop;
 }
 constexpr void HMUI::__StackedController____c__DisplayClass5_0::__set_numberOfViewControllersToPop(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___numberOfViewControllersToPop = value;
 }
 inline ::HMUI::__StackedController____c__DisplayClass5_0* HMUI::__StackedController____c__DisplayClass5_0::New_ctor() {

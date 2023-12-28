@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(HeadInObstacleHapticEffect)
-namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
 namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class GameplayLevelSceneTransitionEvents;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 namespace GlobalNamespace {
 class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
-class IGamePause;
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

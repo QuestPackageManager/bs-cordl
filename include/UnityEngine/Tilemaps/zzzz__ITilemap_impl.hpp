@@ -3,8 +3,8 @@
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3Int_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__ITilemap_def.hpp"
-#include "UnityEngine/zzzz__Vector3Int_def.hpp"
 #include "UnityEngine/Tilemaps/zzzz__Tilemap_def.hpp"
+#include "UnityEngine/zzzz__Vector3Int_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Tilemaps::ITilemap._ctor
 template <>
 
@@ -81,51 +81,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Tilemaps::Tilemap*& UnityEngine::Tilemaps::ITilemap::__get_m_Tilemap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tilemap;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Tilemaps::Tilemap*> const& UnityEngine::Tilemaps::ITilemap::__get_m_Tilemap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tilemap;
 }
 constexpr void UnityEngine::Tilemaps::ITilemap::__set_m_Tilemap(::UnityEngine::Tilemaps::Tilemap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Tilemap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Tilemaps::ITilemap::__get_m_AddToList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddToList;
 }
 constexpr bool const& UnityEngine::Tilemaps::ITilemap::__get_m_AddToList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddToList;
 }
 constexpr void UnityEngine::Tilemaps::ITilemap::__set_m_AddToList(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AddToList = value;
 }
 constexpr int32_t& UnityEngine::Tilemaps::ITilemap::__get_m_RefreshCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefreshCount;
 }
 constexpr int32_t const& UnityEngine::Tilemaps::ITilemap::__get_m_RefreshCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefreshCount;
 }
 constexpr void UnityEngine::Tilemaps::ITilemap::__set_m_RefreshCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RefreshCount = value;
 }
 constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>& UnityEngine::Tilemaps::ITilemap::__get_m_RefreshPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefreshPos;
 }
 constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> const& UnityEngine::Tilemaps::ITilemap::__get_m_RefreshPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefreshPos;
 }
 constexpr void UnityEngine::Tilemaps::ITilemap::__set_m_RefreshPos(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RefreshPos = value;
 }
 inline void UnityEngine::Tilemaps::ITilemap::setStaticF_s_Instance(::UnityEngine::Tilemaps::ITilemap* value) {

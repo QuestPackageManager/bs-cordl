@@ -10,7 +10,13 @@ namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::GM {
+class __GMNamedCurves__WapiP192V1Holder;
 }
 namespace Org::BouncyCastle::Asn1::GM {
 class __GMNamedCurves__SM2P256V1Holder;
@@ -19,22 +25,16 @@ namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
+class X9ECParametersHolder;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Asn1::GM {
-class __GMNamedCurves__WapiP192V1Holder;
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::GM {

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pointer)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateCallbackReceiver;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
+class DeltaControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateCallbackReceiver;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Callbacks)
 namespace ENet {
+class FreeCallback;
+}
+namespace ENet {
 struct ENetCallbacks;
 }
 namespace ENet {
@@ -13,9 +16,6 @@ class NoMemoryCallback;
 }
 namespace ENet {
 class AllocCallback;
-}
-namespace ENet {
-class FreeCallback;
 }
 // Forward declare root types
 namespace ENet {

@@ -5,47 +5,47 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerPlayerListViewController)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace HMUI {
-class HoverHint;
+class IInvitePlatformHandler;
 }
 namespace GlobalNamespace {
 class ILobbyGameStateController;
 }
-namespace GlobalNamespace {
-class GameServerPlayersTableView;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IInvitePlatformHandler;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
+struct MultiplayerLobbyState;
 }
 namespace GlobalNamespace {
-struct MultiplayerLobbyState;
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class GameServerPlayersTableView;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace HMUI {
+class HoverHint;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
 class ButtonBinder;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

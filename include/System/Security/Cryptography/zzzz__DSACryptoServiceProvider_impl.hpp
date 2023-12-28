@@ -3,9 +3,9 @@
 #include "System/Security/Cryptography/zzzz__DSACryptoServiceProvider_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
-#include "System/zzzz__EventArgs_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__EventArgs_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::DSACryptoServiceProvider._ctor
 template <>
 
@@ -179,75 +179,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Security::Cryptography::KeyPairPersistence*& System::Security::Cryptography::DSACryptoServiceProvider::__get_store() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::KeyPairPersistence*> const& System::Security::Cryptography::DSACryptoServiceProvider::__get_store() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
 constexpr void System::Security::Cryptography::DSACryptoServiceProvider::__set_store(::Mono::Security::Cryptography::KeyPairPersistence* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___store)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Security::Cryptography::DSACryptoServiceProvider::__get_persistKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___persistKey;
 }
 constexpr bool const& System::Security::Cryptography::DSACryptoServiceProvider::__get_persistKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___persistKey;
 }
 constexpr void System::Security::Cryptography::DSACryptoServiceProvider::__set_persistKey(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___persistKey = value;
 }
 constexpr bool& System::Security::Cryptography::DSACryptoServiceProvider::__get_persisted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___persisted;
 }
 constexpr bool const& System::Security::Cryptography::DSACryptoServiceProvider::__get_persisted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___persisted;
 }
 constexpr void System::Security::Cryptography::DSACryptoServiceProvider::__set_persisted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___persisted = value;
 }
 constexpr bool& System::Security::Cryptography::DSACryptoServiceProvider::__get_privateKeyExportable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKeyExportable;
 }
 constexpr bool const& System::Security::Cryptography::DSACryptoServiceProvider::__get_privateKeyExportable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKeyExportable;
 }
 constexpr void System::Security::Cryptography::DSACryptoServiceProvider::__set_privateKeyExportable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___privateKeyExportable = value;
 }
 constexpr bool& System::Security::Cryptography::DSACryptoServiceProvider::__get_m_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
 constexpr bool const& System::Security::Cryptography::DSACryptoServiceProvider::__get_m_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
 constexpr void System::Security::Cryptography::DSACryptoServiceProvider::__set_m_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_disposed = value;
 }
 constexpr ::Mono::Security::Cryptography::DSAManaged*& System::Security::Cryptography::DSACryptoServiceProvider::__get_dsa() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dsa;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::DSAManaged*> const& System::Security::Cryptography::DSACryptoServiceProvider::__get_dsa() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dsa;
 }
 constexpr void System::Security::Cryptography::DSACryptoServiceProvider::__set_dsa(::Mono::Security::Cryptography::DSAManaged* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dsa)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Cryptography::DSACryptoServiceProvider::setStaticF_useMachineKeyStore(bool value) {

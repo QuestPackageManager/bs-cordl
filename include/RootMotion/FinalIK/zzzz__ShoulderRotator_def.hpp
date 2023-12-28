@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ShoulderRotator)
 namespace RootMotion::FinalIK {
+struct FullBodyBipedChain;
+}
+namespace RootMotion::FinalIK {
 class __IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedChain;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

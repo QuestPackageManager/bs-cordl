@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

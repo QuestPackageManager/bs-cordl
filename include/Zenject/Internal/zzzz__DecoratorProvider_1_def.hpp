@@ -7,17 +7,20 @@ CORDL_MODULE_EXPORT(DecoratorProvider_1)
 namespace Zenject::Internal {
 class IDecoratorProvider;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 struct Guid;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
@@ -26,10 +29,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject::Internal {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_AudioText)
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
 namespace UnityEngine::UI {
 class Text;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
 }
 namespace Tayx::Graphy {
 class GraphyManager;

@@ -3,14 +3,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ITaskUtility)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace System {
-struct TimeSpan;
+template <typename TResult> class Func_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -18,11 +21,8 @@ class Task;
 namespace System {
 class Action;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace BGNet::Core {

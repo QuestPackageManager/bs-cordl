@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateHashtable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SurrogateSelector._ctor
 template <>
 
@@ -59,27 +59,27 @@ constexpr System::Runtime::Serialization::SurrogateSelector::operator ::System::
   return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Serialization::SurrogateHashtable*& System::Runtime::Serialization::SurrogateSelector::__get_m_surrogates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_surrogates;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SurrogateHashtable*> const& System::Runtime::Serialization::SurrogateSelector::__get_m_surrogates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_surrogates;
 }
 constexpr void System::Runtime::Serialization::SurrogateSelector::__set_m_surrogates(::System::Runtime::Serialization::SurrogateHashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_surrogates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::ISurrogateSelector*& System::Runtime::Serialization::SurrogateSelector::__get_m_nextSelector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nextSelector;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& System::Runtime::Serialization::SurrogateSelector::__get_m_nextSelector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nextSelector;
 }
 constexpr void System::Runtime::Serialization::SurrogateSelector::__set_m_nextSelector(::System::Runtime::Serialization::ISurrogateSelector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_nextSelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::SurrogateSelector* System::Runtime::Serialization::SurrogateSelector::New_ctor() {

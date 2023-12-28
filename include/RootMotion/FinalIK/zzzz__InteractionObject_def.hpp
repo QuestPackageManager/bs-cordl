@@ -12,40 +12,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InteractionObject)
 namespace RootMotion::FinalIK {
-class InteractionTarget;
-}
-namespace RootMotion::FinalIK {
-class __InteractionObject__AnimatorEvent;
-}
-namespace RootMotion::FinalIK {
-class __InteractionObject__InteractionEvent;
-}
-namespace RootMotion::FinalIK {
-class __InteractionObject__Multiplier;
-}
-namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class __InteractionObject__WeightCurve;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace RootMotion::FinalIK {
-class InteractionSystem;
-}
-namespace UnityEngine {
-class Transform;
+class __InteractionObject__InteractionEvent;
 }
 namespace RootMotion::FinalIK {
 class __InteractionObject__Message;
 }
 namespace RootMotion::FinalIK {
-class __InteractionObject__WeightCurve;
+class __InteractionObject__Multiplier;
 }
 namespace UnityEngine {
-class Animator;
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class InteractionTarget;
+}
+namespace RootMotion::FinalIK {
+class InteractionSystem;
+}
+namespace RootMotion::FinalIK {
+class __InteractionObject__AnimatorEvent;
 }
 namespace UnityEngine {
 class Animation;
+}
+namespace UnityEngine {
+class Animator;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
@@ -53,11 +53,11 @@ class UnityEvent;
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 struct __InteractionObject__WeightCurve__Type;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -541,7 +541,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Interacti
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12600)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12602))
 // CS Name: ::InteractionObject::Multiplier*
 class CORDL_TYPE __InteractionObject__Multiplier : public ::System::Object {

@@ -70,15 +70,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Polyglot::Localization*& GlobalNamespace::LocalizationProvider::__get__localization() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localization;
 }
 constexpr ::cordl_internals::to_const_pointer<::Polyglot::Localization*> const& GlobalNamespace::LocalizationProvider::__get__localization() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localization;
 }
 constexpr void GlobalNamespace::LocalizationProvider::__set__localization(::Polyglot::Localization* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localization)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LocalizationProvider::setStaticF__instance(::GlobalNamespace::LocalizationProvider* value) {

@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultDragAndDropClient)
 namespace UnityEngine::UIElements {
-class IDragAndDrop;
+class IDragAndDropData;
 }
 namespace UnityEngine::UIElements {
 class StartDragArgs;
@@ -14,7 +14,7 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
+class IDragAndDrop;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

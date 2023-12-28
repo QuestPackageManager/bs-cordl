@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HapticFeedbackManager.get_continuousRumblePreset
 template <>
 
@@ -50,51 +50,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::HapticFeedbackManager::__get__controllersRumbleEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersRumbleEnabled;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::HapticFeedbackManager::__get__controllersRumbleEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersRumbleEnabled;
 }
 constexpr void GlobalNamespace::HapticFeedbackManager::__set__controllersRumbleEnabled(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllersRumbleEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::HapticFeedbackManager::__get__continuousRumblePreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continuousRumblePreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::HapticFeedbackManager::__get__continuousRumblePreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continuousRumblePreset;
 }
 constexpr void GlobalNamespace::HapticFeedbackManager::__set__continuousRumblePreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____continuousRumblePreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RumbleHapticFeedbackPlayer*& GlobalNamespace::HapticFeedbackManager::__get__rumbleHapticFeedbackPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumbleHapticFeedbackPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RumbleHapticFeedbackPlayer*> const& GlobalNamespace::HapticFeedbackManager::__get__rumbleHapticFeedbackPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumbleHapticFeedbackPlayer;
 }
 constexpr void GlobalNamespace::HapticFeedbackManager::__set__rumbleHapticFeedbackPlayer(::GlobalNamespace::RumbleHapticFeedbackPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rumbleHapticFeedbackPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IHapticFeedbackPlayer*& GlobalNamespace::HapticFeedbackManager::__get__advancedHapticFeedbackPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____advancedHapticFeedbackPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IHapticFeedbackPlayer*> const& GlobalNamespace::HapticFeedbackManager::__get__advancedHapticFeedbackPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____advancedHapticFeedbackPlayer;
 }
 constexpr void GlobalNamespace::HapticFeedbackManager::__set__advancedHapticFeedbackPlayer(::GlobalNamespace::IHapticFeedbackPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____advancedHapticFeedbackPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Libraries::HM::HMLib::VR::HapticPresetSO* GlobalNamespace::HapticFeedbackManager::get_continuousRumblePreset() {

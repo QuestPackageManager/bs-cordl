@@ -72,7 +72,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInitSetupD
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15393)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
 // CS Name: ::AppInitSetupData*
 class CORDL_TYPE AppInitSetupData : public ::System::Object {

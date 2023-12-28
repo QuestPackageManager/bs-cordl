@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeHelpers)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-struct TypeCode;
+class Object;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System {
-class Type;
+struct TypeCode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

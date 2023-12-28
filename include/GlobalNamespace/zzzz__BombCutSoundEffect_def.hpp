@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BombCutSoundEffect)
 namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
 class __BombCutSoundEffect__Pool;
 }
 namespace UnityEngine {
 class AudioClip;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 class AudioSource;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +123,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombCutSoundEff
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4058)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 287 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4057)) CS Name: ::BombCutSoundEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 287 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4058))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4057)) CS Name: ::BombCutSoundEffect::Pool*
 class CORDL_TYPE __BombCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombCutSoundEffect*> {
 public:
   // Declarations

@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicHeightVirtualizationController_1)
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+class ReusableCollectionItem;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
+template <typename T> class Predicate_1;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
 }
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+class GeometryChangedEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

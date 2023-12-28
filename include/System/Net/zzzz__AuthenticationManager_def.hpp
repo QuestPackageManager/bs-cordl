@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AuthenticationManager)
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Net {
-class Authorization;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System {
-class Object;
-}
 namespace System::Net {
 class WebRequest;
 }
 namespace System::Net {
 class ICredentialPolicy;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net {
+class Authorization;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

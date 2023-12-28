@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SonySaveData_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SonySaveData.RegisterForTicking
 template <>
 
@@ -155,15 +155,15 @@ constexpr GlobalNamespace::SonySaveData::operator ::Zenject::ITickable*() noexce
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::SonySaveData::__get__isMarkedForSave() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMarkedForSave;
 }
 constexpr bool const& GlobalNamespace::SonySaveData::__get__isMarkedForSave() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMarkedForSave;
 }
 constexpr void GlobalNamespace::SonySaveData::__set__isMarkedForSave(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isMarkedForSave = value;
 }
 inline void GlobalNamespace::SonySaveData::RegisterForTicking(::Zenject::TickableManager* tickableManager) {

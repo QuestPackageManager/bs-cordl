@@ -5,13 +5,28 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEditorStandardLevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class SceneInfo;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PracticeSettings;
 }
 namespace GlobalNamespace {
 class ColorScheme;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class SceneInfo;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -20,22 +35,7 @@ namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace BeatmapEditor3D {

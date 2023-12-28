@@ -12,13 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AttributeData)
 namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
 struct __HEU_AttributeData__AttributeType;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_AttributeData__AttributeState;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -154,8 +154,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Attrib
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9662)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9661))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9663)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9661)), TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(9662)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9663)) CS Name: ::HoudiniEngineUnity::HEU_AttributeData*
 class CORDL_TYPE HEU_AttributeData : public ::System::Object {
 public:
   // Declarations

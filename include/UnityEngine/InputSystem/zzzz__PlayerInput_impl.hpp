@@ -7,27 +7,27 @@
 #include "UnityEngine/InputSystem/zzzz__PlayerNotifications_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__PlayerInput_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PlayerInput_def.hpp"
-#include "UnityEngine/InputSystem/Users/zzzz__InputUser_def.hpp"
-#include "UnityEngine/InputSystem/Users/zzzz__InputUserChange_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputValue_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PlayerNotifications_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PlayerInput_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "UnityEngine/InputSystem/Users/zzzz__InputUser_def.hpp"
+#include "UnityEngine/InputSystem/Users/zzzz__InputUserChange_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PlayerNotifications_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::__PlayerInput__ActionEvent.get_actionId
@@ -103,27 +103,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::__PlayerInput__ActionEvent::__get_m_ActionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionId;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::__PlayerInput__ActionEvent::__get_m_ActionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionId;
 }
 constexpr void UnityEngine::InputSystem::__PlayerInput__ActionEvent::__set_m_ActionId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::__PlayerInput__ActionEvent::__get_m_ActionName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::__PlayerInput__ActionEvent::__get_m_ActionName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionName;
 }
 constexpr void UnityEngine::InputSystem::__PlayerInput__ActionEvent::__set_m_ActionName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::InputSystem::__PlayerInput__ActionEvent::get_actionId() {
@@ -1297,386 +1297,386 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::InputActionAsset*& UnityEngine::InputSystem::PlayerInput::__get_m_Actions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Actions;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& UnityEngine::InputSystem::PlayerInput::__get_m_Actions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Actions;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_Actions(::UnityEngine::InputSystem::InputActionAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Actions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::PlayerNotifications& UnityEngine::InputSystem::PlayerInput::__get_m_NotificationBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NotificationBehavior;
 }
 constexpr ::UnityEngine::InputSystem::PlayerNotifications const& UnityEngine::InputSystem::PlayerInput::__get_m_NotificationBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NotificationBehavior;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_NotificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NotificationBehavior = value;
 }
 constexpr ::UnityEngine::InputSystem::UI::InputSystemUIInputModule*& UnityEngine::InputSystem::PlayerInput::__get_m_UIInputModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UIInputModule;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::UI::InputSystemUIInputModule*> const& UnityEngine::InputSystem::PlayerInput::__get_m_UIInputModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UIInputModule;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_UIInputModule(::UnityEngine::InputSystem::UI::InputSystemUIInputModule* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UIInputModule)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::__PlayerInput__DeviceLostEvent*& UnityEngine::InputSystem::PlayerInput::__get_m_DeviceLostEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceLostEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInput__DeviceLostEvent*> const& UnityEngine::InputSystem::PlayerInput::__get_m_DeviceLostEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceLostEvent;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_DeviceLostEvent(::UnityEngine::InputSystem::__PlayerInput__DeviceLostEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceLostEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::__PlayerInput__DeviceRegainedEvent*& UnityEngine::InputSystem::PlayerInput::__get_m_DeviceRegainedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceRegainedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInput__DeviceRegainedEvent*> const& UnityEngine::InputSystem::PlayerInput::__get_m_DeviceRegainedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceRegainedEvent;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_DeviceRegainedEvent(::UnityEngine::InputSystem::__PlayerInput__DeviceRegainedEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceRegainedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::__PlayerInput__ControlsChangedEvent*& UnityEngine::InputSystem::PlayerInput::__get_m_ControlsChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlsChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInput__ControlsChangedEvent*> const& UnityEngine::InputSystem::PlayerInput::__get_m_ControlsChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlsChangedEvent;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_ControlsChangedEvent(::UnityEngine::InputSystem::__PlayerInput__ControlsChangedEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ControlsChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__PlayerInput__ActionEvent*, ::Array<::UnityEngine::InputSystem::__PlayerInput__ActionEvent*>*>&
 UnityEngine::InputSystem::PlayerInput::__get_m_ActionEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionEvents;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__PlayerInput__ActionEvent*, ::Array<::UnityEngine::InputSystem::__PlayerInput__ActionEvent*>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_ActionEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionEvents;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_ActionEvents(
     ::ArrayW<::UnityEngine::InputSystem::__PlayerInput__ActionEvent*, ::Array<::UnityEngine::InputSystem::__PlayerInput__ActionEvent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::PlayerInput::__get_m_NeverAutoSwitchControlSchemes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NeverAutoSwitchControlSchemes;
 }
 constexpr bool const& UnityEngine::InputSystem::PlayerInput::__get_m_NeverAutoSwitchControlSchemes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NeverAutoSwitchControlSchemes;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_NeverAutoSwitchControlSchemes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NeverAutoSwitchControlSchemes = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::PlayerInput::__get_m_DefaultControlScheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultControlScheme;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::PlayerInput::__get_m_DefaultControlScheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultControlScheme;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_DefaultControlScheme(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DefaultControlScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::PlayerInput::__get_m_DefaultActionMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultActionMap;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::PlayerInput::__get_m_DefaultActionMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultActionMap;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_DefaultActionMap(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DefaultActionMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::PlayerInput::__get_m_SplitScreenIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SplitScreenIndex;
 }
 constexpr int32_t const& UnityEngine::InputSystem::PlayerInput::__get_m_SplitScreenIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SplitScreenIndex;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_SplitScreenIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SplitScreenIndex = value;
 }
 constexpr ::UnityEngine::Camera*& UnityEngine::InputSystem::PlayerInput::__get_m_Camera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Camera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& UnityEngine::InputSystem::PlayerInput::__get_m_Camera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Camera;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_Camera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputValue*& UnityEngine::InputSystem::PlayerInput::__get_m_InputValueObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputValueObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputValue*> const& UnityEngine::InputSystem::PlayerInput::__get_m_InputValueObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputValueObject;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_InputValueObject(::UnityEngine::InputSystem::InputValue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InputValueObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionMap*& UnityEngine::InputSystem::PlayerInput::__get_m_CurrentActionMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentActionMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionMap*> const& UnityEngine::InputSystem::PlayerInput::__get_m_CurrentActionMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentActionMap;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_CurrentActionMap(::UnityEngine::InputSystem::InputActionMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CurrentActionMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::PlayerInput::__get_m_PlayerIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PlayerIndex;
 }
 constexpr int32_t const& UnityEngine::InputSystem::PlayerInput::__get_m_PlayerIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PlayerIndex;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_PlayerIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PlayerIndex = value;
 }
 constexpr bool& UnityEngine::InputSystem::PlayerInput::__get_m_InputActive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputActive;
 }
 constexpr bool const& UnityEngine::InputSystem::PlayerInput::__get_m_InputActive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputActive;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_InputActive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InputActive = value;
 }
 constexpr bool& UnityEngine::InputSystem::PlayerInput::__get_m_Enabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Enabled;
 }
 constexpr bool const& UnityEngine::InputSystem::PlayerInput::__get_m_Enabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Enabled;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_Enabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Enabled = value;
 }
 constexpr bool& UnityEngine::InputSystem::PlayerInput::__get_m_ActionsInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionsInitialized;
 }
 constexpr bool const& UnityEngine::InputSystem::PlayerInput::__get_m_ActionsInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionsInitialized;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_ActionsInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActionsInitialized = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& UnityEngine::InputSystem::PlayerInput::__get_m_ActionMessageNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionMessageNames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& UnityEngine::InputSystem::PlayerInput::__get_m_ActionMessageNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionMessageNames;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_ActionMessageNames(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionMessageNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::Users::InputUser& UnityEngine::InputSystem::PlayerInput::__get_m_InputUser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputUser;
 }
 constexpr ::UnityEngine::InputSystem::Users::InputUser const& UnityEngine::InputSystem::PlayerInput::__get_m_InputUser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputUser;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_InputUser(::UnityEngine::InputSystem::Users::InputUser value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InputUser = value;
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::PlayerInput::__get_m_ActionTriggeredDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionTriggeredDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_ActionTriggeredDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionTriggeredDelegate;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_ActionTriggeredDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionTriggeredDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>& UnityEngine::InputSystem::PlayerInput::__get_m_DeviceLostCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceLostCallbacks;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_DeviceLostCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceLostCallbacks;
 }
 constexpr void
 UnityEngine::InputSystem::PlayerInput::__set_m_DeviceLostCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DeviceLostCallbacks = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>&
 UnityEngine::InputSystem::PlayerInput::__get_m_DeviceRegainedCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceRegainedCallbacks;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_DeviceRegainedCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceRegainedCallbacks;
 }
 constexpr void
 UnityEngine::InputSystem::PlayerInput::__set_m_DeviceRegainedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DeviceRegainedCallbacks = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>&
 UnityEngine::InputSystem::PlayerInput::__get_m_ControlsChangedCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlsChangedCallbacks;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_ControlsChangedCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlsChangedCallbacks;
 }
 constexpr void
 UnityEngine::InputSystem::PlayerInput::__set_m_ControlsChangedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ControlsChangedCallbacks = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*>&
 UnityEngine::InputSystem::PlayerInput::__get_m_ActionTriggeredCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionTriggeredCallbacks;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_ActionTriggeredCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionTriggeredCallbacks;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_ActionTriggeredCallbacks(
     ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActionTriggeredCallbacks = value;
 }
 constexpr ::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*&
 UnityEngine::InputSystem::PlayerInput::__get_m_UnpairedDeviceUsedDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnpairedDeviceUsedDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_UnpairedDeviceUsedDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnpairedDeviceUsedDelegate;
 }
 constexpr void
 UnityEngine::InputSystem::PlayerInput::__set_m_UnpairedDeviceUsedDelegate(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UnpairedDeviceUsedDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*&
 UnityEngine::InputSystem::PlayerInput::__get_m_PreFilterUnpairedDeviceUsedDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreFilterUnpairedDeviceUsedDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_PreFilterUnpairedDeviceUsedDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreFilterUnpairedDeviceUsedDelegate;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_PreFilterUnpairedDeviceUsedDelegate(
     ::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreFilterUnpairedDeviceUsedDelegate)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::PlayerInput::__get_m_OnUnpairedDeviceUsedHooked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnUnpairedDeviceUsedHooked;
 }
 constexpr bool const& UnityEngine::InputSystem::PlayerInput::__get_m_OnUnpairedDeviceUsedHooked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnUnpairedDeviceUsedHooked;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_OnUnpairedDeviceUsedHooked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OnUnpairedDeviceUsedHooked = value;
 }
 constexpr ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*& UnityEngine::InputSystem::PlayerInput::__get_m_DeviceChangeDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceChangeDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> const&
 UnityEngine::InputSystem::PlayerInput::__get_m_DeviceChangeDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceChangeDelegate;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_DeviceChangeDelegate(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceChangeDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::PlayerInput::__get_m_OnDeviceChangeHooked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnDeviceChangeHooked;
 }
 constexpr bool const& UnityEngine::InputSystem::PlayerInput::__get_m_OnDeviceChangeHooked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnDeviceChangeHooked;
 }
 constexpr void UnityEngine::InputSystem::PlayerInput::__set_m_OnDeviceChangeHooked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OnDeviceChangeHooked = value;
 }
 inline void UnityEngine::InputSystem::PlayerInput::setStaticF_s_AllActivePlayersCount(int32_t value) {

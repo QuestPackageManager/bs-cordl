@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ButtonStripField)
-namespace UnityEngine::UIElements {
-class __ButtonStripField__UxmlTraits;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class __ButtonStripField__UxmlFactory;
@@ -15,8 +15,8 @@ class __ButtonStripField__UxmlFactory;
 namespace UnityEngine::UIElements {
 class Button;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class __ButtonStripField__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -133,8 +133,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonS
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7103)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5258 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7104))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7102)) CS Name: ::ButtonStripField::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5258 }), TypeDefinitionIndex(TypeDefinitionIndex(7104)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7103)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7102)) CS Name: ::ButtonStripField::UxmlFactory*
 class CORDL_TYPE __ButtonStripField__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*, ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits*> {
 public:

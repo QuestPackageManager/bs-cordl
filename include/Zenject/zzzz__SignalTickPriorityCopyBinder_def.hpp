@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalTickPriorityCopyBinder)
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class SignalCopyBinder;
 }
 namespace Zenject {
-class SignalCopyBinder;
+class SignalDeclarationBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

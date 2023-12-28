@@ -72,17 +72,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType&
 GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::__get__appInitOverrideStartType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitOverrideStartType_k__BackingField;
 }
 constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const&
 GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::__get__appInitOverrideStartType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitOverrideStartType_k__BackingField;
 }
 constexpr void GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::__set__appInitOverrideStartType_k__BackingField(
     ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____appInitOverrideStartType_k__BackingField = value;
 }
 inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::get_appInitOverrideStartType() {

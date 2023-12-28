@@ -4,9 +4,9 @@
 #include "GlobalNamespace/zzzz__RecordingToolSettingsFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolLoggingViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData._ctor
 template <>
@@ -24,16 +24,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData::__get_nextScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextScenesTransitionSetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const&
 GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData::__get_nextScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextScenesTransitionSetupData;
 }
 constexpr void GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData::__set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextScenesTransitionSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*
@@ -137,68 +137,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::RecordingToolConfigViewController*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__recordingToolConfigViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolConfigViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolConfigViewController*> const&
 GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__recordingToolConfigViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolConfigViewController;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__set__recordingToolConfigViewController(::GlobalNamespace::RecordingToolConfigViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolConfigViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingToolSettingsViewController*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__recordingToolSettingsViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSettingsViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSettingsViewController*> const&
 GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__recordingToolSettingsViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSettingsViewController;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__set__recordingToolSettingsViewController(::GlobalNamespace::RecordingToolSettingsViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolSettingsViewController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingToolLoggingViewController*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__recordingToolLoggingViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolLoggingViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolLoggingViewController*> const&
 GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__recordingToolLoggingViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolLoggingViewController;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__set__recordingToolLoggingViewController(::GlobalNamespace::RecordingToolLoggingViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolLoggingViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameScenesManager*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__gameScenesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameScenesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__gameScenesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameScenesManager;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__set__gameScenesManager(::GlobalNamespace::GameScenesManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*> const&
 GlobalNamespace::RecordingToolSettingsFlowCoordinator::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__set__initData(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise_1)
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
 class ITaskCompletionAction;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -27,7 +27,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5134 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5134 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2785))
 // CS Name: ::Task::WhenAllPromise`1<T>*
 class CORDL_TYPE __Task__WhenAllPromise_1 : public ::System::Threading::Tasks::Task_1<::ArrayW<T, ::Array<T>*>> {

@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(CbcBlockCipherMac)
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crypto::Paddings {
+class IBlockCipherPadding;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto::Paddings {
-class IBlockCipherPadding;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {

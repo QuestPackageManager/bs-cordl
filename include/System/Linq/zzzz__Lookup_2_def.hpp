@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lookup_2)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class __Lookup_2___GetEnumerator_d__12;
@@ -30,23 +30,23 @@ template <typename TKey, typename TElement> class __Lookup_2___GetEnumerator_d__
 namespace System::Linq {
 template <typename TKey, typename TElement> class __Lookup_2__Grouping;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TElement> class __Lookup_2__Grouping___GetEnumerator_d__7;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class ICollection_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

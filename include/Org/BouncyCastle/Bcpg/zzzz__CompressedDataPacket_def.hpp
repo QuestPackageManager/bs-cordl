@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::CompressedDataPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557)), TypeDefinitionIndex(TypeDefinitionIndex(559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(559)), TypeDefinitionIndex(TypeDefinitionIndex(557))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(558))
 // CS Name: ::Org.BouncyCastle.Bcpg::CompressedDataPacket*
 class CORDL_TYPE CompressedDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {

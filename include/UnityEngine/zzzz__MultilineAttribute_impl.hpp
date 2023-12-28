@@ -15,15 +15,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::MultilineAttribute::__get_lines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lines;
 }
 constexpr int32_t const& UnityEngine::MultilineAttribute::__get_lines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lines;
 }
 constexpr void UnityEngine::MultilineAttribute::__set_lines(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lines = value;
 }
 inline ::UnityEngine::MultilineAttribute* UnityEngine::MultilineAttribute::New_ctor() {

@@ -96,51 +96,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__hapticPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__hapticPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticPreset;
 }
 constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__set__hapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HapticFeedbackManager*& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__hapticFeedbackManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__hapticFeedbackManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
 constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__gamePause() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gamePause;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__gamePause() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gamePause;
 }
 constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__set__gamePause(::GlobalNamespace::IGamePause* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamePause)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SaberType& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__saberType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberType;
 }
 constexpr ::GlobalNamespace::SaberType const& GlobalNamespace::SliderHapticFeedbackInteractionEffect::__get__saberType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberType;
 }
 constexpr void GlobalNamespace::SliderHapticFeedbackInteractionEffect::__set__saberType(::GlobalNamespace::SaberType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberType = value;
 }
 inline void GlobalNamespace::SliderHapticFeedbackInteractionEffect::Start() {

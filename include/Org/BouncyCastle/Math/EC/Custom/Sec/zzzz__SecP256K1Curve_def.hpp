@@ -11,25 +11,25 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class __SecP256K1Curve__SecP256K1LookupTable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecP256K1Point;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class __SecP256K1Curve__SecP256K1LookupTable;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

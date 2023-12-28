@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReference)
 namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace TMPro {
-class TMP_FontAsset;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;

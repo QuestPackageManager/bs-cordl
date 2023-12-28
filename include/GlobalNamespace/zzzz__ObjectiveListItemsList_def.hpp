@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst: 5219 }), TypeDefinitionIndex(TypeDefinitionIndex(13674)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5800))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5801)) CS Name: ::ObjectiveListItemsList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst: 5219 }), TypeDefinitionIndex(TypeDefinitionIndex(5800)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13674))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5801)) CS Name: ::ObjectiveListItemsList*
 class CORDL_TYPE ObjectiveListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::ObjectiveListItem*> {
 public:
   // Declarations

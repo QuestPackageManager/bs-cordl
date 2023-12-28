@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BaseNoteVisuals)
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class CutoutAnimateEffect;
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
+class CutoutAnimateEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {

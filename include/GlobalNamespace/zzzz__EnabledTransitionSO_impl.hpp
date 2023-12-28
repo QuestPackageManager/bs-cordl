@@ -94,75 +94,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::EnabledTransitionSO::__get__normalState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalState;
 }
 constexpr bool const& GlobalNamespace::EnabledTransitionSO::__get__normalState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalState;
 }
 constexpr void GlobalNamespace::EnabledTransitionSO::__set__normalState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalState = value;
 }
 constexpr bool& GlobalNamespace::EnabledTransitionSO::__get__highlightedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedState;
 }
 constexpr bool const& GlobalNamespace::EnabledTransitionSO::__get__highlightedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedState;
 }
 constexpr void GlobalNamespace::EnabledTransitionSO::__set__highlightedState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightedState = value;
 }
 constexpr bool& GlobalNamespace::EnabledTransitionSO::__get__pressedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedState;
 }
 constexpr bool const& GlobalNamespace::EnabledTransitionSO::__get__pressedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedState;
 }
 constexpr void GlobalNamespace::EnabledTransitionSO::__set__pressedState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedState = value;
 }
 constexpr bool& GlobalNamespace::EnabledTransitionSO::__get__disabledState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledState;
 }
 constexpr bool const& GlobalNamespace::EnabledTransitionSO::__get__disabledState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledState;
 }
 constexpr void GlobalNamespace::EnabledTransitionSO::__set__disabledState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledState = value;
 }
 constexpr bool& GlobalNamespace::EnabledTransitionSO::__get__selectedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedState;
 }
 constexpr bool const& GlobalNamespace::EnabledTransitionSO::__get__selectedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedState;
 }
 constexpr void GlobalNamespace::EnabledTransitionSO::__set__selectedState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedState = value;
 }
 constexpr bool& GlobalNamespace::EnabledTransitionSO::__get__selectedAndHighlightedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedState;
 }
 constexpr bool const& GlobalNamespace::EnabledTransitionSO::__get__selectedAndHighlightedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedState;
 }
 constexpr void GlobalNamespace::EnabledTransitionSO::__set__selectedAndHighlightedState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAndHighlightedState = value;
 }
 inline bool GlobalNamespace::EnabledTransitionSO::get_normalState() {

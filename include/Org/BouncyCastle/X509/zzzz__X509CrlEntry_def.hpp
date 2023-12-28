@@ -16,14 +16,14 @@ class BigInteger;
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlEntry;
 }
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

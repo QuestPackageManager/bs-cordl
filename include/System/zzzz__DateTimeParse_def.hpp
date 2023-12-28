@@ -12,58 +12,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeParse)
 namespace System {
-struct DateTimeToken;
-}
-namespace System {
-struct DateTimeResult;
-}
-namespace System {
-struct ParsingInfo;
-}
-namespace System::Text {
-class StringBuilder;
+class __DateTimeParse____c;
 }
 namespace System {
 class Exception;
 }
 namespace System {
-class __DateTimeParse__MatchNumberDelegate;
-}
-namespace System {
-struct DateTimeRawInfo;
-}
-namespace System {
-struct __DateTimeParse__TM;
-}
-namespace System::Globalization {
-struct DateTimeStyles;
-}
-namespace System {
-struct __DateTimeParse__DTT;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class __DateTimeParse____c;
-}
-namespace System {
-struct __DTString;
+struct DateTimeResult;
 }
 namespace System {
 struct __DateTimeParse__DS;
 }
 namespace System {
+struct __DateTimeParse__TM;
+}
+namespace System {
+struct DateTimeRawInfo;
+}
+namespace System {
 struct TimeSpan;
+}
+namespace System {
+struct __DateTimeParse__DTT;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct ParsingInfo;
+}
+namespace System {
+struct DateTimeToken;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct __DTString;
+}
+namespace System {
+class __DateTimeParse__MatchNumberDelegate;
+}
+namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System::Globalization {
+class Calendar;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Globalization {
+class DateTimeFormatInfo;
 }
 namespace System {
 class Object;

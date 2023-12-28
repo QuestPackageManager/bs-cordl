@@ -22,78 +22,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_multiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_multiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_multiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multiplier = value;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_dataType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataType;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_dataType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataType;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_dataType(::UnityEngine::UIElements::StyleSheets::Syntax::DataType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dataType = value;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_combinator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___combinator;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_combinator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___combinator;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_combinator(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___combinator = value;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*>&
 UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_subExpressions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subExpressions;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const&
 UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_subExpressions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subExpressions;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_subExpressions(
     ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subExpressions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_keyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyword;
 }
 constexpr ::StringW const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_keyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyword;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_keyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*

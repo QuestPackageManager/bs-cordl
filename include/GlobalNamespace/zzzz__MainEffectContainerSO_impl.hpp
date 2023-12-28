@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainEffectContainerSO.get_mainEffect
 template <>
 
@@ -60,27 +60,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MainEffectSO*& GlobalNamespace::MainEffectContainerSO::__get__mainEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffect;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectSO*> const& GlobalNamespace::MainEffectContainerSO::__get__mainEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffect;
 }
 constexpr void GlobalNamespace::MainEffectContainerSO::__set__mainEffect(::GlobalNamespace::MainEffectSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::MainEffectContainerSO::__get__postProcessEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____postProcessEnabled;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::MainEffectContainerSO::__get__postProcessEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____postProcessEnabled;
 }
 constexpr void GlobalNamespace::MainEffectContainerSO::__set__postProcessEnabled(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____postProcessEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MainEffectSO* GlobalNamespace::MainEffectContainerSO::get_mainEffect() {

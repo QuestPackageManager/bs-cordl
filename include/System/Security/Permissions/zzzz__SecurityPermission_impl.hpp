@@ -2,9 +2,9 @@
 #include "System/Security/Permissions/zzzz__SecurityPermissionFlag_impl.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_impl.hpp"
 #include "System/Security/Permissions/zzzz__SecurityPermission_def.hpp"
-#include "System/Security/zzzz__SecurityElement_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/Permissions/zzzz__SecurityPermissionFlag_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 //  Writing Method size for method: ::System::Security::Permissions::SecurityPermission._ctor
 template <>
@@ -127,15 +127,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Permissions::SecurityPermissionFlag& System::Security::Permissions::SecurityPermission::__get_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr ::System::Security::Permissions::SecurityPermissionFlag const& System::Security::Permissions::SecurityPermission::__get_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr void System::Security::Permissions::SecurityPermission::__set_flags(::System::Security::Permissions::SecurityPermissionFlag value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
 inline ::System::Security::Permissions::SecurityPermission* System::Security::Permissions::SecurityPermission::New_ctor(::System::Security::Permissions::PermissionState state) {

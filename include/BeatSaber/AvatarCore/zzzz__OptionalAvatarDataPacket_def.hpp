@@ -6,17 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionalAvatarDataPacket)
-namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace GlobalNamespace {
 class ByteArrayNetSerializable;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;
@@ -24,8 +18,14 @@ class IPoolablePacket;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
+}
+namespace GlobalNamespace {
+template <typename T> class PacketPool_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

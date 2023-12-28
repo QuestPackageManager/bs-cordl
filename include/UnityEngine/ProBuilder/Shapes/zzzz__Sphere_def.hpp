@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Sphere)
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
@@ -20,7 +17,10 @@ namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

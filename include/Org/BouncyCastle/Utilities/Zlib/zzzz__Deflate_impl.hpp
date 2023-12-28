@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__Tree_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__Tree_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config._ctor
 template <>
 
@@ -22,63 +22,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_good_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___good_length;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_good_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___good_length;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__set_good_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___good_length = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_max_lazy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_lazy;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_max_lazy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_lazy;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__set_max_lazy(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_lazy = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_nice_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nice_length;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_nice_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nice_length;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__set_nice_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nice_length = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_max_chain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_chain;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_max_chain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_chain;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__set_max_chain(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_chain = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_func() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___func;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__get_func() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___func;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::__set_func(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___func = value;
 }
 inline ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config* Org::BouncyCastle::Utilities::Zlib::__Deflate__Config::New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length,
@@ -688,675 +688,675 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_strm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strm;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_strm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strm;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_strm(::Org::BouncyCastle::Utilities::Zlib::ZStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_status(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___status = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_pending_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pending_buf;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_pending_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pending_buf;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_pending_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pending_buf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_pending_out() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pending_out;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_pending_out() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pending_out;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_pending_out(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pending_out = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_pending() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pending;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_pending() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pending;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_pending(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pending = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_noheader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noheader;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_noheader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noheader;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_noheader(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noheader = value;
 }
 constexpr uint8_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_data_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data_type;
 }
 constexpr uint8_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_data_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data_type;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_data_type(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___data_type = value;
 }
 constexpr uint8_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr uint8_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_method(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___method = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_last_flush() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_flush;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_last_flush() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_flush;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_last_flush(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___last_flush = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_w_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w_size;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_w_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w_size;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_w_size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___w_size = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_w_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w_bits;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_w_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w_bits;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_w_bits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___w_bits = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_w_mask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w_mask;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_w_mask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w_mask;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_w_mask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___w_mask = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_window() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_window() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___window)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_window_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window_size;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_window_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window_size;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_window_size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___window_size = value;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_prev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_prev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_prev(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_head() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_head() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___head;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_head(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_ins_h() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ins_h;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_ins_h() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ins_h;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_ins_h(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ins_h = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_size;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_size;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_hash_size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hash_size = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_bits;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_bits;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_hash_bits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hash_bits = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_mask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_mask;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_mask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_mask;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_hash_mask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hash_mask = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_shift() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_shift;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_hash_shift() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash_shift;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_hash_shift(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hash_shift = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_block_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___block_start;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_block_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___block_start;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_block_start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___block_start = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_match_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___match_length;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_match_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___match_length;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_match_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___match_length = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_prev_match() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev_match;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_prev_match() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev_match;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_prev_match(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prev_match = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_match_available() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___match_available;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_match_available() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___match_available;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_match_available(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___match_available = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_strstart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strstart;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_strstart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strstart;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_strstart(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strstart = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_match_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___match_start;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_match_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___match_start;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_match_start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___match_start = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_lookahead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookahead;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_lookahead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookahead;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_lookahead(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lookahead = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_prev_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev_length;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_prev_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev_length;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_prev_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prev_length = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_max_chain_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_chain_length;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_max_chain_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_chain_length;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_max_chain_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_chain_length = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_max_lazy_match() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_lazy_match;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_max_lazy_match() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_lazy_match;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_max_lazy_match(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_lazy_match = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_level() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_level() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_level(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___level = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_strategy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strategy;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_strategy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strategy;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_strategy(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strategy = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_good_match() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___good_match;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_good_match() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___good_match;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_good_match(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___good_match = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_nice_match() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nice_match;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_nice_match() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nice_match;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_nice_match(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nice_match = value;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_dyn_ltree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dyn_ltree;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_dyn_ltree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dyn_ltree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_dyn_ltree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dyn_ltree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_dyn_dtree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dyn_dtree;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_dyn_dtree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dyn_dtree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_dyn_dtree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dyn_dtree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bl_tree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bl_tree;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bl_tree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bl_tree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_bl_tree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bl_tree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_l_desc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l_desc;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_l_desc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l_desc;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_l_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___l_desc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_d_desc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d_desc;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_d_desc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d_desc;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_d_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___d_desc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree*& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bl_desc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bl_desc;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Tree*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bl_desc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bl_desc;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_bl_desc(::Org::BouncyCastle::Utilities::Zlib::Tree* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bl_desc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bl_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bl_count;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bl_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bl_count;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_bl_count(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bl_count)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_heap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heap;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_heap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heap;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_heap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___heap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_heap_len() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heap_len;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_heap_len() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heap_len;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_heap_len(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___heap_len = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_heap_max() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heap_max;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_heap_max() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heap_max;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_heap_max(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___heap_max = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_depth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_depth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_depth(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___depth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_l_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l_buf;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_l_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l_buf;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_l_buf(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___l_buf = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_lit_bufsize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lit_bufsize;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_lit_bufsize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lit_bufsize;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_lit_bufsize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lit_bufsize = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_last_lit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_lit;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_last_lit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_lit;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_last_lit(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___last_lit = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_d_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d_buf;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_d_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d_buf;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_d_buf(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d_buf = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_opt_len() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opt_len;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_opt_len() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opt_len;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_opt_len(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___opt_len = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_static_len() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_len;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_static_len() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_len;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_static_len(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___static_len = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_matches() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___matches;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_matches() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___matches;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_matches(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___matches = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_last_eob_len() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_eob_len;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_last_eob_len() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last_eob_len;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_last_eob_len(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___last_eob_len = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bi_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bi_buf;
 }
 constexpr uint32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bi_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bi_buf;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_bi_buf(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bi_buf = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bi_valid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bi_valid;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bi_valid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bi_valid;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_bi_valid(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bi_valid = value;
 }
 inline void Org::BouncyCastle::Utilities::Zlib::Deflate::setStaticF_config_table(

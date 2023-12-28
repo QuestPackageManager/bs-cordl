@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SetPSSaberGlowColor)
 namespace GlobalNamespace {
-class SaberTypeObject;
+class ColorManager;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class SaberTypeObject;
 }
 namespace UnityEngine {
 class ParticleSystem;

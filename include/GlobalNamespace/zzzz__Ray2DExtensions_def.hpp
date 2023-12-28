@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ray2DExtensions)
 namespace UnityEngine {
-struct Vector2;
+struct Ray2D;
 }
 namespace UnityEngine {
-struct Ray2D;
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(DisappearingArrowControllerBase_1)
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
-namespace GlobalNamespace {
-class CutoutEffect;
-}
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+class CutoutEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {

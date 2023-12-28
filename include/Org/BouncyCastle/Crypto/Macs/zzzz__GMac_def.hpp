@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GMac)
-namespace Org::BouncyCastle::Crypto::Modes {
-class GcmBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class GcmBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;

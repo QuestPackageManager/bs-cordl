@@ -3,14 +3,14 @@
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRPhysicsRaycaster_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRPhysicsRaycaster_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c._ctor
@@ -265,27 +265,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::LayerMask& UnityEngine::EventSystems::OVRPhysicsRaycaster::__get_m_EventMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventMask;
 }
 constexpr ::UnityEngine::LayerMask const& UnityEngine::EventSystems::OVRPhysicsRaycaster::__get_m_EventMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventMask;
 }
 constexpr void UnityEngine::EventSystems::OVRPhysicsRaycaster::__set_m_EventMask(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EventMask = value;
 }
 constexpr int32_t& UnityEngine::EventSystems::OVRPhysicsRaycaster::__get_sortOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortOrder;
 }
 constexpr int32_t const& UnityEngine::EventSystems::OVRPhysicsRaycaster::__get_sortOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortOrder;
 }
 constexpr void UnityEngine::EventSystems::OVRPhysicsRaycaster::__set_sortOrder(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sortOrder = value;
 }
 inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* UnityEngine::EventSystems::OVRPhysicsRaycaster::New_ctor() {

@@ -66,39 +66,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraPositionSmooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraPositionSmooth;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraPositionSmooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraPositionSmooth;
 }
 constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__set__smoothCameraPositionSmooth(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothCameraPositionSmooth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraRotationSmooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraRotationSmooth;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothCameraRotationSmooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothCameraRotationSmooth;
 }
 constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__set__smoothCameraRotationSmooth(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothCameraRotationSmooth)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothnesses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothnesses;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__get__smoothnesses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothnesses;
 }
 constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothnesses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::SmoothCameraSmoothnessSettingsController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {

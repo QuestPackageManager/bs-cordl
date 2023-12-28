@@ -18,27 +18,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& Oculus::Platform::Models::NetSyncSessionsChangedNotification::__get_ConnectionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionId;
 }
 constexpr int64_t const& Oculus::Platform::Models::NetSyncSessionsChangedNotification::__get_ConnectionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionId;
 }
 constexpr void Oculus::Platform::Models::NetSyncSessionsChangedNotification::__set_ConnectionId(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConnectionId = value;
 }
 constexpr ::Oculus::Platform::Models::NetSyncSessionList*& Oculus::Platform::Models::NetSyncSessionsChangedNotification::__get_Sessions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Sessions;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::NetSyncSessionList*> const& Oculus::Platform::Models::NetSyncSessionsChangedNotification::__get_Sessions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Sessions;
 }
 constexpr void Oculus::Platform::Models::NetSyncSessionsChangedNotification::__set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Sessions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* Oculus::Platform::Models::NetSyncSessionsChangedNotification::New_ctor(void* o) {

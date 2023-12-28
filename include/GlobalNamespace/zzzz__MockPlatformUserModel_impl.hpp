@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformUserModel_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
+#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockPlatformUserModel.add_platformUserInfoDidChangeEvent
 template <>
 
@@ -145,15 +145,15 @@ constexpr GlobalNamespace::MockPlatformUserModel::operator ::GlobalNamespace::IP
   return static_cast<::GlobalNamespace::IPlatformUserModel*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::GlobalNamespace::UserInfo*>*& GlobalNamespace::MockPlatformUserModel::__get_platformUserInfoDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformUserInfoDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::UserInfo*>*> const& GlobalNamespace::MockPlatformUserModel::__get_platformUserInfoDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___platformUserInfoDidChangeEvent;
 }
 constexpr void GlobalNamespace::MockPlatformUserModel::__set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___platformUserInfoDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MockPlatformUserModel::add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value) {

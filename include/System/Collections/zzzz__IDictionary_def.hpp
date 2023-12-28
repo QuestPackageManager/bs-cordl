@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDictionary)
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
@@ -11,9 +14,6 @@ class IDictionaryEnumerator;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections {

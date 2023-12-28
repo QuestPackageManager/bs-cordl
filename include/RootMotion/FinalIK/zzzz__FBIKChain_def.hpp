@@ -12,28 +12,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FBIKChain)
 namespace RootMotion::FinalIK {
-struct __FBIKChain__Smoothing;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class __FBIKChain__ChildConstraint;
-}
-namespace RootMotion::FinalIK {
-class __IKSolver__Point;
+class IKConstraintBend;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
-}
-namespace RootMotion::FinalIK {
-class IKConstraintBend;
+struct __FBIKChain__Smoothing;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Node;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Point;
+}
+namespace RootMotion::FinalIK {
+class __FBIKChain__ChildConstraint;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -285,7 +285,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__FBIKChain
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12549)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12549))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12550))
 // CS Name: ::RootMotion.FinalIK::FBIKChain*
 class CORDL_TYPE FBIKChain : public ::System::Object {

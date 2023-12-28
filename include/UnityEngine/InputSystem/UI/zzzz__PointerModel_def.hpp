@@ -13,7 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerModel)
 namespace UnityEngine::InputSystem::UI {
-class ExtendedPointerEventData;
+struct __PointerModel__ButtonState;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -22,10 +22,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::InputSystem::UI {
-struct __PointerModel__ButtonState;
+struct UIPointerType;
 }
 namespace UnityEngine::InputSystem::UI {
-struct UIPointerType;
+class ExtendedPointerEventData;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -36,11 +36,11 @@ class PointerEventData;
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__FramePressState;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -56,7 +56,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 155, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13213)), TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(13213)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6379))
 // CS Name: ::PointerModel::ButtonState
 struct CORDL_TYPE __PointerModel__ButtonState {
@@ -185,8 +185,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::__
 // SizeInfo { instance_size: 520, native_size: -1, calculated_instance_size: 520, calculated_native_size: 532, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(6379)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6380)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6379)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6380)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
 struct CORDL_TYPE PointerModel {
 public:
   // Declarations

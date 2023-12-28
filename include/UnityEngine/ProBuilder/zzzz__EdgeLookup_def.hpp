@@ -8,11 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EdgeLookup)
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -25,9 +28,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 class __EdgeLookup____c__DisplayClass16_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

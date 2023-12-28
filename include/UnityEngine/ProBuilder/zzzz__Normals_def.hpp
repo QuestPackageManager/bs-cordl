@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Normals)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CombineInstance)
 namespace UnityEngine {
-struct Vector4;
+class Mesh;
 }
 namespace UnityEngine {
-class Mesh;
+struct Vector4;
 }
 namespace UnityEngine {
 struct Matrix4x4;

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ToggleWithCallbacks)
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
 }
 namespace System {
 template <typename T> class Action_1;

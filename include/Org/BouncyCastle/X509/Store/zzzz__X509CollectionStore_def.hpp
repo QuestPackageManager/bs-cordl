@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509CollectionStore)
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;

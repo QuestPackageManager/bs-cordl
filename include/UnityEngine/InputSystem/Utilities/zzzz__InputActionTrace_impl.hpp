@@ -6,24 +6,24 @@
 #include "UnityEngine/InputSystem/zzzz__InputActionState_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InputActionTrace_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InputActionTrace_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__ActionEvent_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr.get_action
 template <>
 
@@ -780,120 +780,120 @@ constexpr UnityEngine::InputSystem::Utilities::InputActionTrace::operator ::Syst
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_SubscribedToAll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubscribedToAll;
 }
 constexpr bool const& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_SubscribedToAll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubscribedToAll;
 }
 constexpr void UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_SubscribedToAll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SubscribedToAll = value;
 }
 constexpr bool& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_OnActionChangeHooked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnActionChangeHooked;
 }
 constexpr bool const& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_OnActionChangeHooked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnActionChangeHooked;
 }
 constexpr void UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_OnActionChangeHooked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OnActionChangeHooked = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*>& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_SubscribedActions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubscribedActions;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> const&
 UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_SubscribedActions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubscribedActions;
 }
 constexpr void UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_SubscribedActions(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputAction*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SubscribedActions = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*>& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_SubscribedActionMaps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubscribedActionMaps;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> const&
 UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_SubscribedActionMaps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubscribedActionMaps;
 }
 constexpr void
 UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_SubscribedActionMaps(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionMap*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SubscribedActionMaps = value;
 }
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_EventBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventBuffer;
 }
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer const& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_EventBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventBuffer;
 }
 constexpr void UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_EventBuffer(::UnityEngine::InputSystem::LowLevel::InputEventBuffer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EventBuffer = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*>& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_ActionMapStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionMapStates;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> const&
 UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_ActionMapStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionMapStates;
 }
 constexpr void
 UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_ActionMapStates(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActionMapStates = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*>& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_ActionMapStateClones() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionMapStateClones;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> const&
 UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_ActionMapStateClones() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionMapStateClones;
 }
 constexpr void
 UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_ActionMapStateClones(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputActionState*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActionMapStateClones = value;
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_CallbackDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CallbackDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_CallbackDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CallbackDelegate;
 }
 constexpr void UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_CallbackDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CallbackDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*& UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_ActionChangeDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionChangeDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*> const&
 UnityEngine::InputSystem::Utilities::InputActionTrace::__get_m_ActionChangeDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionChangeDelegate;
 }
 constexpr void UnityEngine::InputSystem::Utilities::InputActionTrace::__set_m_ActionChangeDelegate(::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionChangeDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::LowLevel::InputEventBuffer UnityEngine::InputSystem::Utilities::InputActionTrace::get_buffer() {

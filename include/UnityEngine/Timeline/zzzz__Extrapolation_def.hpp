@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extrapolation)
 namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
 class __Extrapolation____c;
 }
 namespace UnityEngine::Timeline {
 class TrackAsset;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
 }
 namespace System {
 template <typename T> class Comparison_1;

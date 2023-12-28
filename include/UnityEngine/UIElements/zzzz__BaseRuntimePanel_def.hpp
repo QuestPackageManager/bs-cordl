@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRuntimePanel)
+namespace UnityEngine {
+struct Vector2;
+}
 namespace System {
 class Action;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class __BaseRuntimePanel____c;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-struct Vector2;
+class ScriptableObject;
+}
+namespace UnityEngine::UIElements {
+class __BaseRuntimePanel____c;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -7,26 +7,26 @@ CORDL_MODULE_EXPORT(TimeStampReq)
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Tsp {
 class MessageImprint;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class DerBoolean;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {

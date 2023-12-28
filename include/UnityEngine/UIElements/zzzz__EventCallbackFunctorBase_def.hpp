@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(EventCallbackFunctorBase)
 namespace UnityEngine::UIElements {
 struct CallbackPhase;
 }
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-struct PropagationPhase;
-}
 namespace System {
 class Delegate;
 }
 namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
 struct InvokePolicy;
+}
+namespace UnityEngine::UIElements {
+struct PropagationPhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

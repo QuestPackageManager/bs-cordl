@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
-#include "GlobalNamespace/zzzz__SliderInteractionManager_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__SliderInteractionManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SliderInteractionEffect.get_saberInteractionParam
 template <>
 
@@ -130,15 +130,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SliderInteractionManager*& GlobalNamespace::SliderInteractionEffect::__get__sliderInteractionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderInteractionManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderInteractionManager*> const& GlobalNamespace::SliderInteractionEffect::__get__sliderInteractionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderInteractionManager;
 }
 constexpr void GlobalNamespace::SliderInteractionEffect::__set__sliderInteractionManager(::GlobalNamespace::SliderInteractionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderInteractionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::SliderInteractionEffect::get_saberInteractionParam() {

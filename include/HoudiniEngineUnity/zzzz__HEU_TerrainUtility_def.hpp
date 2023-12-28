@@ -9,32 +9,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TerrainUtility)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class TerrainData;
-}
-namespace UnityEngine {
-class TerrainLayer;
-}
-namespace HoudiniEngineUnity {
-struct HFLayerType;
 }
 namespace UnityEngine {
 class Terrain;
@@ -43,7 +19,31 @@ namespace HoudiniEngineUnity {
 class HEU_VolumeScatterTrees;
 }
 namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+class TerrainLayer;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailProperties;
+}
+namespace UnityEngine {
+class TerrainData;
+}
+namespace HoudiniEngineUnity {
+struct HFLayerType;
+}
+namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace HoudiniEngineUnity {
 class HEU_TreePrototypeInfo;

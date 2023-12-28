@@ -5,14 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TMP_SubMesh)
-namespace UnityEngine {
-class Renderer;
-}
-namespace TMPro {
-class TextMeshPro;
-}
 namespace TMPro {
 class TMP_FontAsset;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace TMPro {
 class TMP_SpriteAsset;
@@ -20,17 +17,20 @@ class TMP_SpriteAsset;
 namespace TMPro {
 class TMP_Text;
 }
-namespace TMPro {
-struct MaterialReference;
-}
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-class Material;
+class Mesh;
+}
+namespace TMPro {
+struct MaterialReference;
+}
+namespace TMPro {
+class TextMeshPro;
 }
 namespace UnityEngine {
-class Mesh;
+class Renderer;
 }
 // Forward declare root types
 namespace TMPro {

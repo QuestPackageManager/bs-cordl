@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePass)
 namespace GlobalNamespace {
-class __BloomPrePassRenderDataSO__Data;
+struct __BloomPrePass__Mode;
 }
 namespace GlobalNamespace {
 class BloomPrePassRenderDataSO;
-}
-namespace GlobalNamespace {
-struct __BloomPrePass__Mode;
 }
 namespace GlobalNamespace {
 class BloomPrePassEffectContainerSO;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererSO;
+}
+namespace GlobalNamespace {
+class __BloomPrePassRenderDataSO__Data;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePass_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14454)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14454))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14455))
 // CS Name: ::BloomPrePass*
 class CORDL_TYPE BloomPrePass : public ::UnityEngine::MonoBehaviour {

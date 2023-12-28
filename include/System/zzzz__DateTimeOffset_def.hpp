@@ -12,53 +12,53 @@ CORDL_MODULE_EXPORT(DateTimeOffset)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class ISpanFormattable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System::Globalization {
+class Calendar;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System {
 class Object;
 }
-namespace System {
-class IComparable;
-}
-namespace System {
-class IFormattable;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
+}
+namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 struct TimeSpan;
 }
-namespace System::Globalization {
-struct DateTimeStyles;
+namespace System {
+class IComparable;
 }
 // Forward declare root types
 namespace System {

@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Expression)
 namespace System::Linq::Expressions {
-class __Expression__UnaryExpressionProxy;
+class __Expression__ExtensionInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::Linq::Expressions {
-class __Expression__MemberExpressionProxy;
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System {
 class Type;
 }
 namespace System::Linq::Expressions {
-class __Expression__LambdaExpressionProxy;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+struct ExpressionType;
 }
 namespace System::Linq::Expressions {
-struct ExpressionType;
+class __Expression__UnaryExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class __Expression__LambdaExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class __Expression__MemberExpressionProxy;
 }
 namespace System::Dynamic::Utils {
 template <typename TKey, typename TValue> class CacheDict_2;
-}
-namespace System::Linq::Expressions {
-class __Expression__ExtensionInfo;
 }
 // Forward declare root types
 namespace System::Linq::Expressions {

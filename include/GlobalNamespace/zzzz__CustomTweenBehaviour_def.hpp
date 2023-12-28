@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomTweenBehaviour)
-namespace GlobalNamespace {
-class __CustomTweenBehaviour____c;
-}
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace GlobalNamespace {
+class __CustomTweenBehaviour____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

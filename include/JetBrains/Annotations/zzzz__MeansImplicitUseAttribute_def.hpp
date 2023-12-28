@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::MeansImplicitUseAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15750)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15751))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15751)), TypeDefinitionIndex(TypeDefinitionIndex(15750))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15749))
 // CS Name: ::JetBrains.Annotations::MeansImplicitUseAttribute*
 class CORDL_TYPE MeansImplicitUseAttribute : public ::System::Attribute {

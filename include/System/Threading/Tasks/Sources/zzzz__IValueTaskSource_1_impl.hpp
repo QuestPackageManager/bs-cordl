@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceOnCompletedFlags_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 template <typename TResult> inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>::GetStatus(int16_t token) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

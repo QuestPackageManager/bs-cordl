@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__CacheControlHeaderValue_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::CacheControlHeaderValue.get_Extensions
 template <>
 
@@ -526,196 +526,196 @@ constexpr System::Net::Http::Headers::CacheControlHeaderValue::operator ::System
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& System::Net::Http::Headers::CacheControlHeaderValue::__get_extensions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> const&
 System::Net::Http::Headers::CacheControlHeaderValue::__get_extensions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set_extensions(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Net::Http::Headers::CacheControlHeaderValue::__get_no_cache_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___no_cache_headers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::Net::Http::Headers::CacheControlHeaderValue::__get_no_cache_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___no_cache_headers;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set_no_cache_headers(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___no_cache_headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Net::Http::Headers::CacheControlHeaderValue::__get_private_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___private_headers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::Net::Http::Headers::CacheControlHeaderValue::__get_private_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___private_headers;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set_private_headers(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___private_headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::CacheControlHeaderValue::__get__MaxAge_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxAge_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::Headers::CacheControlHeaderValue::__get__MaxAge_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxAge_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__MaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxAge_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__MaxStale_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxStale_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__MaxStale_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxStale_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__MaxStale_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxStale_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::CacheControlHeaderValue::__get__MaxStaleLimit_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxStaleLimit_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::Headers::CacheControlHeaderValue::__get__MaxStaleLimit_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxStaleLimit_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__MaxStaleLimit_k__BackingField(::System::Nullable_1<::System::TimeSpan> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxStaleLimit_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::CacheControlHeaderValue::__get__MinFresh_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinFresh_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::Headers::CacheControlHeaderValue::__get__MinFresh_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MinFresh_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__MinFresh_k__BackingField(::System::Nullable_1<::System::TimeSpan> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MinFresh_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__MustRevalidate_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MustRevalidate_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__MustRevalidate_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MustRevalidate_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__MustRevalidate_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MustRevalidate_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__NoCache_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NoCache_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__NoCache_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NoCache_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__NoCache_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NoCache_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__NoStore_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NoStore_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__NoStore_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NoStore_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__NoStore_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NoStore_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__NoTransform_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NoTransform_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__NoTransform_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NoTransform_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__NoTransform_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NoTransform_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__OnlyIfCached_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OnlyIfCached_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__OnlyIfCached_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OnlyIfCached_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__OnlyIfCached_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OnlyIfCached_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__Private_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Private_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__Private_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Private_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__Private_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Private_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__ProxyRevalidate_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ProxyRevalidate_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__ProxyRevalidate_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ProxyRevalidate_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__ProxyRevalidate_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ProxyRevalidate_k__BackingField = value;
 }
 constexpr bool& System::Net::Http::Headers::CacheControlHeaderValue::__get__Public_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Public_k__BackingField;
 }
 constexpr bool const& System::Net::Http::Headers::CacheControlHeaderValue::__get__Public_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Public_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__Public_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Public_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::CacheControlHeaderValue::__get__SharedMaxAge_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SharedMaxAge_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::Headers::CacheControlHeaderValue::__get__SharedMaxAge_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SharedMaxAge_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::CacheControlHeaderValue::__set__SharedMaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SharedMaxAge_k__BackingField = value;
 }
 inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* System::Net::Http::Headers::CacheControlHeaderValue::get_Extensions() {

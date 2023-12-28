@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CreditsData__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5473)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5473))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5474))
 // CS Name: ::CreditsData::Text*
 class CORDL_TYPE __CreditsData__Text : public ::System::Object {

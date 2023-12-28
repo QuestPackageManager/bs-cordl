@@ -4,8 +4,8 @@
 #include "HoudiniEngineUnity/zzzz__HEU_PluginStorage_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PluginStorage_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType::__HEU_PluginStorage__DataType(int32_t value__) noexcept {
@@ -33,27 +33,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType& HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType const& HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__set__type(::HoudiniEngineUnity::__HEU_PluginStorage__DataType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__get__valueStr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueStr;
 }
 constexpr ::StringW const& HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__get__valueStr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueStr;
 }
 constexpr void HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__set__valueStr(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____valueStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData* HoudiniEngineUnity::__HEU_PluginStorage__StoreData::New_ctor() {
@@ -67,15 +67,15 @@ inline void HoudiniEngineUnity::__HEU_PluginStorage__StoreData::_ctor() {
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData::__HEU_PluginStorage__StoreData() {}
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>::__get__array() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>::__get__array() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 template <typename T> constexpr void HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>::__set__array(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>* HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>::New_ctor() {
@@ -561,40 +561,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*& HoudiniEngineUnity::HEU_PluginStorage::__get__dataMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*> const&
 HoudiniEngineUnity::HEU_PluginStorage::__get__dataMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataMap;
 }
 constexpr void HoudiniEngineUnity::HEU_PluginStorage::__set__dataMap(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& HoudiniEngineUnity::HEU_PluginStorage::__get__envPathMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____envPathMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& HoudiniEngineUnity::HEU_PluginStorage::__get__envPathMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____envPathMap;
 }
 constexpr void HoudiniEngineUnity::HEU_PluginStorage::__set__envPathMap(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____envPathMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_PluginStorage::__get__requiresSave() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requiresSave;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_PluginStorage::__get__requiresSave() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requiresSave;
 }
 constexpr void HoudiniEngineUnity::HEU_PluginStorage::__set__requiresSave(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requiresSave = value;
 }
 inline void HoudiniEngineUnity::HEU_PluginStorage::setStaticF__instance(::HoudiniEngineUnity::HEU_PluginStorage* value) {

@@ -3,11 +3,11 @@
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightTranslationBeatmapEventData.get_translation
 template <>
 
@@ -149,87 +149,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::LightTranslationBeatmapEventData::__get_groupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
 constexpr int32_t const& GlobalNamespace::LightTranslationBeatmapEventData::__get_groupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set_groupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___groupId = value;
 }
 constexpr int32_t& GlobalNamespace::LightTranslationBeatmapEventData::__get_elementId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
 constexpr int32_t const& GlobalNamespace::LightTranslationBeatmapEventData::__get_elementId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set_elementId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementId = value;
 }
 constexpr bool& GlobalNamespace::LightTranslationBeatmapEventData::__get_usePreviousEventValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventValue;
 }
 constexpr bool const& GlobalNamespace::LightTranslationBeatmapEventData::__get_usePreviousEventValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventValue;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set_usePreviousEventValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventValue = value;
 }
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::LightTranslationBeatmapEventData::__get_easeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::LightTranslationBeatmapEventData::__get_easeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set_easeType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___easeType = value;
 }
 constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::LightTranslationBeatmapEventData::__get_axis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis;
 }
 constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::LightTranslationBeatmapEventData::__get_axis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set_axis(::GlobalNamespace::LightAxis value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___axis = value;
 }
 constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventData::__get__translation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translation_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventData::__get__translation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translation_k__BackingField;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set__translation_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translation_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventData::__get__distribution_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distribution_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventData::__get__distribution_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distribution_k__BackingField;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventData::__set__distribution_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____distribution_k__BackingField = value;
 }
 inline void

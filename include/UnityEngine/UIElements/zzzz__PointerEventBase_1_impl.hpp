@@ -4,15 +4,15 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/zzzz__Touch_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__Touch_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
 template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
@@ -22,244 +22,244 @@ template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::
   return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pointerId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerId_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pointerId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerId_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__pointerId_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerId_k__BackingField = value;
 }
 template <typename T> constexpr ::StringW& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pointerType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerType_k__BackingField;
 }
 template <typename T> constexpr ::StringW const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pointerType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerType_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__pointerType_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__get__isPrimary_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPrimary_k__BackingField;
 }
 template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__isPrimary_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPrimary_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__isPrimary_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPrimary_k__BackingField = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__button_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__button_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__button_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____button_k__BackingField = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pressedButtons_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedButtons_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pressedButtons_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedButtons_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__pressedButtons_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedButtons_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__get__position_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__position_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__position_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__get__localPosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__localPosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__localPosition_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPosition_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__get__deltaPosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaPosition_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__deltaPosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaPosition_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaPosition_k__BackingField = value;
 }
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__deltaTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaTime_k__BackingField;
 }
 template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__deltaTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaTime_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__deltaTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaTime_k__BackingField = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__clickCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__clickCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__clickCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clickCount_k__BackingField = value;
 }
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pressure_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressure_k__BackingField;
 }
 template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__pressure_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressure_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__pressure_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressure_k__BackingField = value;
 }
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__tangentialPressure_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentialPressure_k__BackingField;
 }
 template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__tangentialPressure_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentialPressure_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__tangentialPressure_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tangentialPressure_k__BackingField = value;
 }
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__altitudeAngle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____altitudeAngle_k__BackingField;
 }
 template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__altitudeAngle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____altitudeAngle_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__altitudeAngle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____altitudeAngle_k__BackingField = value;
 }
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__azimuthAngle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____azimuthAngle_k__BackingField;
 }
 template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__azimuthAngle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____azimuthAngle_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__azimuthAngle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____azimuthAngle_k__BackingField = value;
 }
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__get__twist_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
 }
 template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__twist_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__twist_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____twist_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__get__radius_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__radius_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__radius_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radius_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__get__radiusVariance_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radiusVariance_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__radiusVariance_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radiusVariance_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radiusVariance_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::PointerEventBase_1<T>::__get__modifiers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__modifiers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifiers_k__BackingField = value;
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
 }
 template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField = value;
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField;
 }
 template <typename T>
 constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__set__UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField = value;
 }
 template <typename T> inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pointerId() {

@@ -11,26 +11,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlWriterSettings)
-namespace System::IO {
-class Stream;
-}
-namespace System::IO {
-class TextWriter;
-}
 namespace System::Xml {
 class XmlWriter;
 }
 namespace System::Xml {
-struct ConformanceLevel;
-}
-namespace System::Xml {
 struct NewLineHandling;
 }
-namespace System::Text {
-class Encoding;
+namespace System::Xml {
+struct XmlStandalone;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Xml {
+struct NamespaceHandling;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Xml {
+struct ConformanceLevel;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Xml {
 class XmlQualifiedName;
@@ -38,14 +41,11 @@ class XmlQualifiedName;
 namespace System::Xml {
 struct TriState;
 }
+namespace System::IO {
+class TextWriter;
+}
 namespace System::Xml {
 struct XmlOutputMethod;
-}
-namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Xml {
-struct NamespaceHandling;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::System::Xml::XmlWriterSettings);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11493)), TypeDefinitionIndex(TypeDefinitionIndex(11434)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11492)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11494))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11492)), TypeDefinitionIndex(TypeDefinitionIndex(11493)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11434)), TypeDefinitionIndex(TypeDefinitionIndex(11494)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11413))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11495))
 // CS Name: ::System.Xml::XmlWriterSettings*
 class CORDL_TYPE XmlWriterSettings : public ::System::Object {

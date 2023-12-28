@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverAim)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class RotationLimit;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Bone;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class RotationLimit;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__IterationDelegate;

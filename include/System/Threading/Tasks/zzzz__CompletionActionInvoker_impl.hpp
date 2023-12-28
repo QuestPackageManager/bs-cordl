@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__CompletionActionInvoker_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::CompletionActionInvoker._ctor
 template <>
 
@@ -56,27 +56,27 @@ constexpr System::Threading::Tasks::CompletionActionInvoker::operator ::System::
   return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
 constexpr ::System::Threading::Tasks::ITaskCompletionAction*& System::Threading::Tasks::CompletionActionInvoker::__get_m_action() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_action;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::ITaskCompletionAction*> const& System::Threading::Tasks::CompletionActionInvoker::__get_m_action() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_action;
 }
 constexpr void System::Threading::Tasks::CompletionActionInvoker::__set_m_action(::System::Threading::Tasks::ITaskCompletionAction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::CompletionActionInvoker::__get_m_completingTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_completingTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::CompletionActionInvoker::__get_m_completingTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_completingTask;
 }
 constexpr void System::Threading::Tasks::CompletionActionInvoker::__set_m_completingTask(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_completingTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::CompletionActionInvoker* System::Threading::Tasks::CompletionActionInvoker::New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action,

@@ -8,6 +8,15 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRManagerSettings)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine::XR::Management {
 class XRLoader;
 }
@@ -18,22 +27,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {
@@ -49,9 +49,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16035)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name:
-// ::XRManagerSettings::<InitializeLoader>d__24*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697
+// }), TypeDefinitionIndex(TypeDefinitionIndex(16035))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name: ::XRManagerSettings::<InitializeLoader>d__24*
 class CORDL_TYPE __XRManagerSettings___InitializeLoader_d__24 : public ::System::Object {
 public:
   // Declarations

@@ -16,39 +16,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::HelpURLAttribute::__get_m_Url() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Url;
 }
 constexpr ::StringW const& UnityEngine::HelpURLAttribute::__get_m_Url() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Url;
 }
 constexpr void UnityEngine::HelpURLAttribute::__set_m_Url(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Url)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::HelpURLAttribute::__get_m_Dispatcher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dispatcher;
 }
 constexpr bool const& UnityEngine::HelpURLAttribute::__get_m_Dispatcher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dispatcher;
 }
 constexpr void UnityEngine::HelpURLAttribute::__set_m_Dispatcher(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Dispatcher = value;
 }
 constexpr ::StringW& UnityEngine::HelpURLAttribute::__get_m_DispatchingFieldName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DispatchingFieldName;
 }
 constexpr ::StringW const& UnityEngine::HelpURLAttribute::__get_m_DispatchingFieldName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DispatchingFieldName;
 }
 constexpr void UnityEngine::HelpURLAttribute::__set_m_DispatchingFieldName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DispatchingFieldName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::HelpURLAttribute* UnityEngine::HelpURLAttribute::New_ctor(::StringW url) {

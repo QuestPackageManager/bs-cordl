@@ -13,37 +13,37 @@ namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupList;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace UnityEngine {
-struct KeyCode;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
+class BeatmapData;
 }
 namespace GlobalNamespace {
 class __EventsTestGameplayManager__MockBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
-class BeatmapData;
+struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroupList;
+}
+namespace GlobalNamespace {
+class __EventsTestGameplayManager____c__DisplayClass19_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace UnityEngine {
+struct KeyCode;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass20_0;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class __EventsTestGameplayManager____c__DisplayClass19_0;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;

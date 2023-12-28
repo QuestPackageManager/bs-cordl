@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__DetailPrototype_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__DetailRenderMode_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::DetailPrototype.set_prototype
 template <>
 
@@ -325,171 +325,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& UnityEngine::DetailPrototype::__get_m_Prototype() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Prototype;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::DetailPrototype::__get_m_Prototype() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Prototype;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_Prototype(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Prototype)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Texture2D*& UnityEngine::DetailPrototype::__get_m_PrototypeTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrototypeTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& UnityEngine::DetailPrototype::__get_m_PrototypeTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrototypeTexture;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_PrototypeTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrototypeTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& UnityEngine::DetailPrototype::__get_m_HealthyColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HealthyColor;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::DetailPrototype::__get_m_HealthyColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HealthyColor;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_HealthyColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HealthyColor = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::DetailPrototype::__get_m_DryColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DryColor;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::DetailPrototype::__get_m_DryColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DryColor;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_DryColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DryColor = value;
 }
 constexpr float_t& UnityEngine::DetailPrototype::__get_m_MinWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinWidth;
 }
 constexpr float_t const& UnityEngine::DetailPrototype::__get_m_MinWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinWidth;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_MinWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MinWidth = value;
 }
 constexpr float_t& UnityEngine::DetailPrototype::__get_m_MaxWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxWidth;
 }
 constexpr float_t const& UnityEngine::DetailPrototype::__get_m_MaxWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxWidth;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_MaxWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxWidth = value;
 }
 constexpr float_t& UnityEngine::DetailPrototype::__get_m_MinHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinHeight;
 }
 constexpr float_t const& UnityEngine::DetailPrototype::__get_m_MinHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinHeight;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_MinHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MinHeight = value;
 }
 constexpr float_t& UnityEngine::DetailPrototype::__get_m_MaxHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxHeight;
 }
 constexpr float_t const& UnityEngine::DetailPrototype::__get_m_MaxHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxHeight;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_MaxHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxHeight = value;
 }
 constexpr int32_t& UnityEngine::DetailPrototype::__get_m_NoiseSeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NoiseSeed;
 }
 constexpr int32_t const& UnityEngine::DetailPrototype::__get_m_NoiseSeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NoiseSeed;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_NoiseSeed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NoiseSeed = value;
 }
 constexpr float_t& UnityEngine::DetailPrototype::__get_m_NoiseSpread() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NoiseSpread;
 }
 constexpr float_t const& UnityEngine::DetailPrototype::__get_m_NoiseSpread() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NoiseSpread;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_NoiseSpread(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NoiseSpread = value;
 }
 constexpr float_t& UnityEngine::DetailPrototype::__get_m_HoleEdgePadding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HoleEdgePadding;
 }
 constexpr float_t const& UnityEngine::DetailPrototype::__get_m_HoleEdgePadding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HoleEdgePadding;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_HoleEdgePadding(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HoleEdgePadding = value;
 }
 constexpr int32_t& UnityEngine::DetailPrototype::__get_m_RenderMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RenderMode;
 }
 constexpr int32_t const& UnityEngine::DetailPrototype::__get_m_RenderMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RenderMode;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_RenderMode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RenderMode = value;
 }
 constexpr int32_t& UnityEngine::DetailPrototype::__get_m_UsePrototypeMesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UsePrototypeMesh;
 }
 constexpr int32_t const& UnityEngine::DetailPrototype::__get_m_UsePrototypeMesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UsePrototypeMesh;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_UsePrototypeMesh(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UsePrototypeMesh = value;
 }
 constexpr int32_t& UnityEngine::DetailPrototype::__get_m_UseInstancing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseInstancing;
 }
 constexpr int32_t const& UnityEngine::DetailPrototype::__get_m_UseInstancing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseInstancing;
 }
 constexpr void UnityEngine::DetailPrototype::__set_m_UseInstancing(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseInstancing = value;
 }
 inline void UnityEngine::DetailPrototype::setStaticF_DefaultHealthColor(::UnityEngine::Color value) {

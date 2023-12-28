@@ -2,20 +2,20 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Globalization/zzzz__TextInfo_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/Globalization/zzzz__CultureTypes_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Globalization/zzzz__CultureTypes_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/Globalization/zzzz__CultureData_def.hpp"
+#include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
+#include "System/Globalization/zzzz__TextInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "ansi", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ebcdic", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "mac", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "oem", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "right_to_left", ty: "bool", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "list_sep", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
@@ -989,327 +989,327 @@ constexpr System::Globalization::CultureInfo::operator ::System::IFormatProvider
   return static_cast<::System::IFormatProvider*>(static_cast<void*>(this));
 }
 constexpr bool& System::Globalization::CultureInfo::__get_m_isReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isReadOnly;
 }
 constexpr bool const& System::Globalization::CultureInfo::__get_m_isReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isReadOnly;
 }
 constexpr void System::Globalization::CultureInfo::__set_m_isReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isReadOnly = value;
 }
 constexpr int32_t& System::Globalization::CultureInfo::__get_cultureID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cultureID;
 }
 constexpr int32_t const& System::Globalization::CultureInfo::__get_cultureID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cultureID;
 }
 constexpr void System::Globalization::CultureInfo::__set_cultureID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cultureID = value;
 }
 constexpr int32_t& System::Globalization::CultureInfo::__get_parent_lcid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent_lcid;
 }
 constexpr int32_t const& System::Globalization::CultureInfo::__get_parent_lcid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent_lcid;
 }
 constexpr void System::Globalization::CultureInfo::__set_parent_lcid(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parent_lcid = value;
 }
 constexpr int32_t& System::Globalization::CultureInfo::__get_datetime_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___datetime_index;
 }
 constexpr int32_t const& System::Globalization::CultureInfo::__get_datetime_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___datetime_index;
 }
 constexpr void System::Globalization::CultureInfo::__set_datetime_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___datetime_index = value;
 }
 constexpr int32_t& System::Globalization::CultureInfo::__get_number_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___number_index;
 }
 constexpr int32_t const& System::Globalization::CultureInfo::__get_number_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___number_index;
 }
 constexpr void System::Globalization::CultureInfo::__set_number_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___number_index = value;
 }
 constexpr int32_t& System::Globalization::CultureInfo::__get_default_calendar_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___default_calendar_type;
 }
 constexpr int32_t const& System::Globalization::CultureInfo::__get_default_calendar_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___default_calendar_type;
 }
 constexpr void System::Globalization::CultureInfo::__set_default_calendar_type(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___default_calendar_type = value;
 }
 constexpr bool& System::Globalization::CultureInfo::__get_m_useUserOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useUserOverride;
 }
 constexpr bool const& System::Globalization::CultureInfo::__get_m_useUserOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useUserOverride;
 }
 constexpr void System::Globalization::CultureInfo::__set_m_useUserOverride(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_useUserOverride = value;
 }
 constexpr ::System::Globalization::NumberFormatInfo*& System::Globalization::CultureInfo::__get_numInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::NumberFormatInfo*> const& System::Globalization::CultureInfo::__get_numInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numInfo;
 }
 constexpr void System::Globalization::CultureInfo::__set_numInfo(::System::Globalization::NumberFormatInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___numInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::DateTimeFormatInfo*& System::Globalization::CultureInfo::__get_dateTimeInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTimeInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::DateTimeFormatInfo*> const& System::Globalization::CultureInfo::__get_dateTimeInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTimeInfo;
 }
 constexpr void System::Globalization::CultureInfo::__set_dateTimeInfo(::System::Globalization::DateTimeFormatInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dateTimeInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::TextInfo*& System::Globalization::CultureInfo::__get_textInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::TextInfo*> const& System::Globalization::CultureInfo::__get_textInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textInfo;
 }
 constexpr void System::Globalization::CultureInfo::__set_textInfo(::System::Globalization::TextInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_m_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_m_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr void System::Globalization::CultureInfo::__set_m_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_englishname() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___englishname;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_englishname() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___englishname;
 }
 constexpr void System::Globalization::CultureInfo::__set_englishname(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___englishname)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_nativename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativename;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_nativename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativename;
 }
 constexpr void System::Globalization::CultureInfo::__set_nativename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nativename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_iso3lang() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iso3lang;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_iso3lang() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iso3lang;
 }
 constexpr void System::Globalization::CultureInfo::__set_iso3lang(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iso3lang)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_iso2lang() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iso2lang;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_iso2lang() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iso2lang;
 }
 constexpr void System::Globalization::CultureInfo::__set_iso2lang(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iso2lang)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_win3lang() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___win3lang;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_win3lang() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___win3lang;
 }
 constexpr void System::Globalization::CultureInfo::__set_win3lang(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___win3lang)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::CultureInfo::__get_territory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___territory;
 }
 constexpr ::StringW const& System::Globalization::CultureInfo::__get_territory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___territory;
 }
 constexpr void System::Globalization::CultureInfo::__set_territory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___territory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CultureInfo::__get_native_calendar_names() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___native_calendar_names;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CultureInfo::__get_native_calendar_names() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___native_calendar_names;
 }
 constexpr void System::Globalization::CultureInfo::__set_native_calendar_names(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___native_calendar_names)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CompareInfo*& System::Globalization::CultureInfo::__get_compareInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compareInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& System::Globalization::CultureInfo::__get_compareInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compareInfo;
 }
 constexpr void System::Globalization::CultureInfo::__set_compareInfo(::System::Globalization::CompareInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___compareInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<void>& System::Globalization::CultureInfo::__get_textinfo_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textinfo_data;
 }
 constexpr ::cordl_internals::Ptr<void> const& System::Globalization::CultureInfo::__get_textinfo_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textinfo_data;
 }
 constexpr void System::Globalization::CultureInfo::__set_textinfo_data(::cordl_internals::Ptr<void> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textinfo_data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Globalization::CultureInfo::__get_m_dataItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dataItem;
 }
 constexpr int32_t const& System::Globalization::CultureInfo::__get_m_dataItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dataItem;
 }
 constexpr void System::Globalization::CultureInfo::__set_m_dataItem(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_dataItem = value;
 }
 constexpr ::System::Globalization::Calendar*& System::Globalization::CultureInfo::__get_calendar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calendar;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& System::Globalization::CultureInfo::__get_calendar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calendar;
 }
 constexpr void System::Globalization::CultureInfo::__set_calendar(::System::Globalization::Calendar* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___calendar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureInfo*& System::Globalization::CultureInfo::__get_parent_culture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent_culture;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& System::Globalization::CultureInfo::__get_parent_culture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent_culture;
 }
 constexpr void System::Globalization::CultureInfo::__set_parent_culture(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parent_culture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Globalization::CultureInfo::__get_constructed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructed;
 }
 constexpr bool const& System::Globalization::CultureInfo::__get_constructed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructed;
 }
 constexpr void System::Globalization::CultureInfo::__set_constructed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___constructed = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Globalization::CultureInfo::__get_cached_serialized_form() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cached_serialized_form;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Globalization::CultureInfo::__get_cached_serialized_form() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cached_serialized_form;
 }
 constexpr void System::Globalization::CultureInfo::__set_cached_serialized_form(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cached_serialized_form)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureData*& System::Globalization::CultureInfo::__get_m_cultureData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cultureData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& System::Globalization::CultureInfo::__get_m_cultureData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cultureData;
 }
 constexpr void System::Globalization::CultureInfo::__set_m_cultureData(::System::Globalization::CultureData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cultureData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Globalization::CultureInfo::__get_m_isInherited() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isInherited;
 }
 constexpr bool const& System::Globalization::CultureInfo::__get_m_isInherited() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isInherited;
 }
 constexpr void System::Globalization::CultureInfo::__set_m_isInherited(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isInherited = value;
 }
 inline void System::Globalization::CultureInfo::setStaticF_invariant_culture_info(::System::Globalization::CultureInfo* value) {

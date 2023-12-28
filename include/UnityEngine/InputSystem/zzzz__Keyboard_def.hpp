@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Keyboard)
-namespace UnityEngine::InputSystem::Controls {
-class AnyKeyControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class KeyControl;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct IMECompositionString;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class ITextInputReceiver;
 }
-namespace UnityEngine::InputSystem {
-struct Key;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AnyKeyControl;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct IMECompositionString;
+namespace UnityEngine::InputSystem::Controls {
+class KeyControl;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem {
+struct Key;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Keyboard);
 // SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 448, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 324 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(6669), inst: 3863 }), TypeDefinitionIndex(TypeDefinitionIndex(6529)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2323), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3862 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6243)) CS Name: ::UnityEngine.InputSystem::Keyboard*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3863 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(6529)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 324 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3862 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6239))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6243)) CS Name: ::UnityEngine.InputSystem::Keyboard*
 class CORDL_TYPE Keyboard : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations

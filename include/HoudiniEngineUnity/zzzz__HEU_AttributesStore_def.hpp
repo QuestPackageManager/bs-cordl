@@ -11,37 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AttributesStore)
 namespace UnityEngine {
-class Mesh;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_AttributeData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-class __HEU_AttributesStore__SetAttributeValueFunc;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartType;
-}
-namespace UnityEngine {
-class Material;
+struct HAPI_PartInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
@@ -50,31 +23,58 @@ namespace HoudiniEngineUnity {
 class HEU_ToolsInfo;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_AttributeData__AttributeType;
+class HEU_AttributeData;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace HoudiniEngineUnity {
+class __HEU_AttributesStore__SetAttributeValueFunc;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartType;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_ToolsInfo__PaintMergeMode;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
 }
 namespace UnityEngine {
 class MeshCollider;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
+struct __HEU_AttributeData__AttributeType;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Transform;
 }
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

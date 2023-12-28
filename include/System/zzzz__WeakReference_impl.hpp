@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::WeakReference.AllocateHandle
 template <>
@@ -167,27 +167,27 @@ constexpr System::WeakReference::operator ::System::Runtime::Serialization::ISer
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr bool& System::WeakReference::__get_isLongReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isLongReference;
 }
 constexpr bool const& System::WeakReference::__get_isLongReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isLongReference;
 }
 constexpr void System::WeakReference::__set_isLongReference(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isLongReference = value;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& System::WeakReference::__get_gcHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gcHandle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& System::WeakReference::__get_gcHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gcHandle;
 }
 constexpr void System::WeakReference::__set_gcHandle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gcHandle = value;
 }
 inline void System::WeakReference::AllocateHandle(::System::Object* target) {

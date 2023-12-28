@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/Text/zzzz__DecoderFallbackException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Text::DecoderFallbackException._ctor
 template <>
 
@@ -50,27 +50,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Text::DecoderFallbackException::__get__bytesUnknown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesUnknown;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Text::DecoderFallbackException::__get__bytesUnknown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesUnknown;
 }
 constexpr void System::Text::DecoderFallbackException::__set__bytesUnknown(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bytesUnknown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::DecoderFallbackException::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& System::Text::DecoderFallbackException::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void System::Text::DecoderFallbackException::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor() {

@@ -7,13 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_7)
 namespace Zenject {
-class BindInfo;
-}
-namespace System {
-class Object;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory> class __FactoryFromBinder_7____c__2_1;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract> class __FactoryFromBinder_7____c__DisplayClass1_0;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract> class FactorySubContainerBinder_7;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -21,29 +27,23 @@ class FactoryBindInfo;
 namespace Zenject {
 class ConditionCopyNonLazyBinder;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract> class __FactoryFromBinder_7____c__DisplayClass1_0;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory> class __FactoryFromBinder_7____c__2_1;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TResult> class Func_8;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract> class FactorySubContainerBinder_7;
+namespace System {
+class Object;
 }
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
+class InjectTypeInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IFactory_7;
 }
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace Zenject {
 class IProvider;

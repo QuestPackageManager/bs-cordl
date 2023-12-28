@@ -161,39 +161,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Mono::Security::X509::X509Extension::__get_extnOid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extnOid;
 }
 constexpr ::StringW const& Mono::Security::X509::X509Extension::__get_extnOid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extnOid;
 }
 constexpr void Mono::Security::X509::X509Extension::__set_extnOid(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extnOid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Security::X509::X509Extension::__get_extnCritical() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extnCritical;
 }
 constexpr bool const& Mono::Security::X509::X509Extension::__get_extnCritical() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extnCritical;
 }
 constexpr void Mono::Security::X509::X509Extension::__set_extnCritical(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extnCritical = value;
 }
 constexpr ::Mono::Security::ASN1*& Mono::Security::X509::X509Extension::__get_extnValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extnValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& Mono::Security::X509::X509Extension::__get_extnValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extnValue;
 }
 constexpr void Mono::Security::X509::X509Extension::__set_extnValue(::Mono::Security::ASN1* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extnValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::X509::X509Extension* Mono::Security::X509::X509Extension::New_ctor(::Mono::Security::ASN1* asn1) {

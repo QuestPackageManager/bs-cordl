@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Debug)
-namespace System {
-class Object;
-}
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace UnityEngine {
+class ILogger;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine {
-class ILogger;
+struct Vector3;
 }
-namespace UnityEngine {
-struct Color;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

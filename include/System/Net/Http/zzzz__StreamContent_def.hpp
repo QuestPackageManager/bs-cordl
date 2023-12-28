@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(StreamContent)
 namespace System::Net {
 class TransportContext;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::IO {
 class Stream;

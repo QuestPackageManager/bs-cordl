@@ -1,8 +1,8 @@
 #pragma once
 #include "Unity/Collections/zzzz__NativeArrayDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDisposeJob_def.hpp"
-#include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
+#include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeArrayDisposeJob.Execute
 template <>
 

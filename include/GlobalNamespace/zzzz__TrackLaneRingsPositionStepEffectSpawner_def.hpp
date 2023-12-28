@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TrackLaneRingsPositionStepEffectSpawner)
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class TrackLaneRingsManager;

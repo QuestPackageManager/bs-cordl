@@ -14,13 +14,13 @@ namespace Unity::XR::Oculus {
 struct SystemHeadset;
 }
 namespace Unity::XR::Oculus {
-struct __Boundary__BoundaryType;
-}
-namespace Unity::XR::Oculus {
 struct __NativeMethods__UserDefinedSettings;
 }
 namespace Unity::XR::Oculus {
 class __NativeMethods__Internal;
+}
+namespace Unity::XR::Oculus {
+struct __Boundary__BoundaryType;
 }
 namespace UnityEngine {
 struct Vector3;

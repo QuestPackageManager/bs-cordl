@@ -4,15 +4,15 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroCountdown_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroCountdown_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroCountdownTextController_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23._ctor
 template <>
@@ -117,87 +117,87 @@ constexpr GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23:
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_delay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_delay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set_delay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_seconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seconds;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_seconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seconds;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set_seconds(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___seconds = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_durationMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationMultiplier;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_durationMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationMultiplier;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set_durationMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___durationMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get__soundDelayAfterText_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soundDelayAfterText_5__2;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get__soundDelayAfterText_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soundDelayAfterText_5__2;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set__soundDelayAfterText_5__2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____soundDelayAfterText_5__2 = value;
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23* GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::New_ctor(int32_t __1__state) {
@@ -344,63 +344,63 @@ constexpr GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::oper
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_delay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_delay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set_delay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_audioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_audioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set_audioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24* GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::New_ctor(int32_t __1__state) {
@@ -535,28 +535,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get_textController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const&
 GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get_textController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textController;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__set_textController(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::New_ctor() {
@@ -703,88 +703,88 @@ constexpr GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::ope
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr ::StringW const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set_text(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_appearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appearDuration;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_appearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appearDuration;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set_appearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___appearDuration = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_disappearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disappearDuration;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_disappearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disappearDuration;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set_disappearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disappearDuration = value;
 }
 constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___8__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*> const&
 GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___8__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____8__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25* GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::New_ctor(int32_t __1__state) {
@@ -947,221 +947,221 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__textAppearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textAppearDuration;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__textAppearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textAppearDuration;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textAppearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textAppearDuration = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__textDisappearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textDisappearDuration;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__textDisappearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textDisappearDuration;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textDisappearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textDisappearDuration = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__goDisappearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goDisappearDuration;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__goDisappearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goDisappearDuration;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__goDisappearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goDisappearDuration = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__partsDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partsDistance;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__partsDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partsDistance;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__partsDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____partsDistance = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerIntroCountdown::__get__startLocalPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startLocalPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerIntroCountdown::__get__startLocalPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startLocalPosition;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__startLocalPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startLocalPosition = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerIntroCountdown::__get__targetLocalPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLocalPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerIntroCountdown::__get__targetLocalPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLocalPosition;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__targetLocalPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetLocalPosition = value;
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__readyClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__readyClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyClip;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__readyClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readyClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__setClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__setClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setClip;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__setClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____setClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__goClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__goClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goClip;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__goClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__buildUpClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildUpClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__buildUpClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildUpClip;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__buildUpClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buildUpClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::MultiplayerIntroCountdown::__get__textController0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController0;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__textController0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController0;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textController0(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textController0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::MultiplayerIntroCountdown::__get__textController1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController1;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__textController1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController1;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textController1(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textController1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::MultiplayerIntroCountdown::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& GlobalNamespace::MultiplayerIntroCountdown::__get__multiplayerOffsetByLocalPlayerPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerOffsetByLocalPlayerPosition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*> const&
 GlobalNamespace::MultiplayerIntroCountdown::__get__multiplayerOffsetByLocalPlayerPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerOffsetByLocalPlayerPosition;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__multiplayerOffsetByLocalPlayerPosition(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerOffsetByLocalPlayerPosition)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::MultiplayerIntroCountdown::__get__tweeningManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__tweeningManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__tweeningManager(::Tweening::TimeTweeningManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::MultiplayerIntroCountdown::__get__currentTextController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTextController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__currentTextController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTextController;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__currentTextController(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentTextController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__fontSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSize;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__fontSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSize;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__fontSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fontSize = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__alpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alpha;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__alpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alpha;
 }
 constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__alpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alpha = value;
 }
 inline float_t GlobalNamespace::MultiplayerIntroCountdown::get_textAppearDuration() {

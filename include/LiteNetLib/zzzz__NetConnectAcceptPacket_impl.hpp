@@ -49,39 +49,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& LiteNetLib::NetConnectAcceptPacket::__get_ConnectionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionId;
 }
 constexpr int64_t const& LiteNetLib::NetConnectAcceptPacket::__get_ConnectionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionId;
 }
 constexpr void LiteNetLib::NetConnectAcceptPacket::__set_ConnectionId(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConnectionId = value;
 }
 constexpr uint8_t& LiteNetLib::NetConnectAcceptPacket::__get_ConnectionNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionNumber;
 }
 constexpr uint8_t const& LiteNetLib::NetConnectAcceptPacket::__get_ConnectionNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionNumber;
 }
 constexpr void LiteNetLib::NetConnectAcceptPacket::__set_ConnectionNumber(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConnectionNumber = value;
 }
 constexpr bool& LiteNetLib::NetConnectAcceptPacket::__get_IsReusedPeer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsReusedPeer;
 }
 constexpr bool const& LiteNetLib::NetConnectAcceptPacket::__get_IsReusedPeer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsReusedPeer;
 }
 constexpr void LiteNetLib::NetConnectAcceptPacket::__set_IsReusedPeer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsReusedPeer = value;
 }
 inline ::LiteNetLib::NetConnectAcceptPacket* LiteNetLib::NetConnectAcceptPacket::New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ConsoleDriver_def.hpp"
-#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
+#include "System/zzzz__IConsoleDriver_def.hpp"
 //  Writing Method size for method: ::System::ConsoleDriver.CreateNullConsoleDriver
 template <>
 

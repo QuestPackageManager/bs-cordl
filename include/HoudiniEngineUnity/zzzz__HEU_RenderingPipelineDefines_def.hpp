@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_RenderingPipelineDefines)
-namespace HoudiniEngineUnity {
-struct HEU_PipelineType;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+struct HEU_PipelineType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

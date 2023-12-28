@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 CORDL_MODULE_EXPORT(QuaternionControl)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::QuaternionControl);
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst:
-// 3342 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6639)) CS Name: ::UnityEngine.InputSystem.Controls::QuaternionControl*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3342 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6639)) CS Name: ::UnityEngine.InputSystem.Controls::QuaternionControl*
 class CORDL_TYPE QuaternionControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Quaternion> {
 public:
   // Declarations

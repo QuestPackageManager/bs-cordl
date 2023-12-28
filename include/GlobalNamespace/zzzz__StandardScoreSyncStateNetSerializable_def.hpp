@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardScoreSyncStateNetSerializable)
 namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+struct SyncStateId;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+template <typename T> class PacketPool_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -25,8 +25,8 @@ class NetDataReader;
 namespace GlobalNamespace {
 template <typename T> class ISyncStateSerializable_1;
 }
-namespace GlobalNamespace {
-struct SyncStateId;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12980))
 // CS Name: ::StandardScoreSyncStateNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateNetSerializable : public ::System::Object {

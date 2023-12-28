@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReadonlyCutScoreBuffer)
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
+class __ScoreModel__NoteScoreDefinition;
 }
 namespace GlobalNamespace {
 class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
-class __ScoreModel__NoteScoreDefinition;
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class ICutScoreBufferDidChangeReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {

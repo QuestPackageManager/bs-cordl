@@ -98,15 +98,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::SHA1Internal*& System::Security::Cryptography::SHA1CryptoServiceProvider::__get_sha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sha;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::SHA1Internal*> const& System::Security::Cryptography::SHA1CryptoServiceProvider::__get_sha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sha;
 }
 constexpr void System::Security::Cryptography::SHA1CryptoServiceProvider::__set_sha(::System::Security::Cryptography::SHA1Internal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sha)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* System::Security::Cryptography::SHA1CryptoServiceProvider::New_ctor() {

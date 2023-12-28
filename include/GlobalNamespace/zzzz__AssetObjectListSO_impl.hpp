@@ -30,15 +30,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>& GlobalNamespace::AssetObjectListSO::__get__objects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objects;
 }
 constexpr ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> const& GlobalNamespace::AssetObjectListSO::__get__objects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objects;
 }
 constexpr void GlobalNamespace::AssetObjectListSO::__set__objects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> GlobalNamespace::AssetObjectListSO::get_objects() {

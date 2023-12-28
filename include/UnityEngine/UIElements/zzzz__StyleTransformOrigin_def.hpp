@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTransformOrigin)
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+struct TransformOrigin;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTransformOrigin);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7317))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7317)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7316))
 // CS Name: ::UnityEngine.UIElements::StyleTransformOrigin
 struct CORDL_TYPE StyleTransformOrigin {

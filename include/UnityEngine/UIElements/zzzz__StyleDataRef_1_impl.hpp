@@ -1,43 +1,43 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleDataRef_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleDataRef_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_m_RefCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_m_RefCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;
 }
 template <typename T> constexpr void UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__set_m_RefCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RefCount = value;
 }
 template <typename T> constexpr uint32_t& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_m_Id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Id;
 }
 template <typename T> constexpr uint32_t const& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_m_Id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Id;
 }
 template <typename T> constexpr void UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__set_m_Id(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Id = value;
 }
 template <typename T> constexpr T& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename T> constexpr T const& UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename T> constexpr void UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__set_value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline void UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::setStaticF_m_NextId(uint32_t value) {

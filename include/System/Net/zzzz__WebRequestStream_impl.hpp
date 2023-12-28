@@ -7,20 +7,20 @@
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Net/zzzz__BufferOffsetSize_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/Net/zzzz__WebCompletionSource_def.hpp"
 #include "System/Net/zzzz__WebConnection_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
+#include "System/Net/zzzz__WebRequestStream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Net/zzzz__BufferOffsetSize_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -857,147 +857,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::MemoryStream*& System::Net::WebRequestStream::__get_writeBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& System::Net::WebRequestStream::__get_writeBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeBuffer;
 }
 constexpr void System::Net::WebRequestStream::__set_writeBuffer(::System::IO::MemoryStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writeBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::WebRequestStream::__get_requestWritten() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestWritten;
 }
 constexpr bool const& System::Net::WebRequestStream::__get_requestWritten() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestWritten;
 }
 constexpr void System::Net::WebRequestStream::__set_requestWritten(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requestWritten = value;
 }
 constexpr bool& System::Net::WebRequestStream::__get_allowBuffering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowBuffering;
 }
 constexpr bool const& System::Net::WebRequestStream::__get_allowBuffering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowBuffering;
 }
 constexpr void System::Net::WebRequestStream::__set_allowBuffering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowBuffering = value;
 }
 constexpr bool& System::Net::WebRequestStream::__get_sendChunked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sendChunked;
 }
 constexpr bool const& System::Net::WebRequestStream::__get_sendChunked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sendChunked;
 }
 constexpr void System::Net::WebRequestStream::__set_sendChunked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sendChunked = value;
 }
 constexpr ::System::Net::WebCompletionSource*& System::Net::WebRequestStream::__get_pendingWrite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pendingWrite;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& System::Net::WebRequestStream::__get_pendingWrite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pendingWrite;
 }
 constexpr void System::Net::WebRequestStream::__set_pendingWrite(::System::Net::WebCompletionSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pendingWrite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Net::WebRequestStream::__get_totalWritten() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalWritten;
 }
 constexpr int64_t const& System::Net::WebRequestStream::__get_totalWritten() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___totalWritten;
 }
 constexpr void System::Net::WebRequestStream::__set_totalWritten(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___totalWritten = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::WebRequestStream::__get_headers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::WebRequestStream::__get_headers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
 constexpr void System::Net::WebRequestStream::__set_headers(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::WebRequestStream::__get_headersSent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headersSent;
 }
 constexpr bool const& System::Net::WebRequestStream::__get_headersSent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headersSent;
 }
 constexpr void System::Net::WebRequestStream::__set_headersSent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headersSent = value;
 }
 constexpr int32_t& System::Net::WebRequestStream::__get_completeRequestWritten() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completeRequestWritten;
 }
 constexpr int32_t const& System::Net::WebRequestStream::__get_completeRequestWritten() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completeRequestWritten;
 }
 constexpr void System::Net::WebRequestStream::__set_completeRequestWritten(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completeRequestWritten = value;
 }
 constexpr int32_t& System::Net::WebRequestStream::__get_chunkTrailerWritten() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkTrailerWritten;
 }
 constexpr int32_t const& System::Net::WebRequestStream::__get_chunkTrailerWritten() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkTrailerWritten;
 }
 constexpr void System::Net::WebRequestStream::__set_chunkTrailerWritten(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chunkTrailerWritten = value;
 }
 constexpr ::System::IO::Stream*& System::Net::WebRequestStream::__get__InnerStream_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InnerStream_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::WebRequestStream::__get__InnerStream_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InnerStream_k__BackingField;
 }
 constexpr void System::Net::WebRequestStream::__set__InnerStream_k__BackingField(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____InnerStream_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::WebRequestStream::__get__KeepAlive_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____KeepAlive_k__BackingField;
 }
 constexpr bool const& System::Net::WebRequestStream::__get__KeepAlive_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____KeepAlive_k__BackingField;
 }
 constexpr void System::Net::WebRequestStream::__set__KeepAlive_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____KeepAlive_k__BackingField = value;
 }
 inline void System::Net::WebRequestStream::setStaticF_crlf(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

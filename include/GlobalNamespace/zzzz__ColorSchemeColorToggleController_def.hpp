@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeColorToggleController)
-namespace UnityEngine::UI {
-class Toggle;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class Graphic;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

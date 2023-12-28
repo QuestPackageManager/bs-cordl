@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionaryEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__DictionaryEntry_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__DictionaryEntry_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionary_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator._ctor
 template <>
 
@@ -141,28 +141,28 @@ constexpr Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator:
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__get_parent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*> const&
 Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__get_parent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
 constexpr void Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__set_parent(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__get_pos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__get_pos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr void Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__set_pos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos = value;
 }
 inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*

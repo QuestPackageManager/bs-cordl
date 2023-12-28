@@ -83,39 +83,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType& GlobalNamespace::EnvironmentSizeData::__get__floorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floorType;
 }
 constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType const& GlobalNamespace::EnvironmentSizeData::__get__floorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floorType;
 }
 constexpr void GlobalNamespace::EnvironmentSizeData::__set__floorType(::GlobalNamespace::__EnvironmentSizeData__FloorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floorType = value;
 }
 constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType& GlobalNamespace::EnvironmentSizeData::__get__ceilingType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ceilingType;
 }
 constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType const& GlobalNamespace::EnvironmentSizeData::__get__ceilingType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ceilingType;
 }
 constexpr void GlobalNamespace::EnvironmentSizeData::__set__ceilingType(::GlobalNamespace::__EnvironmentSizeData__CeilingType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ceilingType = value;
 }
 constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType& GlobalNamespace::EnvironmentSizeData::__get__trackLaneType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneType;
 }
 constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType const& GlobalNamespace::EnvironmentSizeData::__get__trackLaneType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneType;
 }
 constexpr void GlobalNamespace::EnvironmentSizeData::__set__trackLaneType(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____trackLaneType = value;
 }
 inline ::GlobalNamespace::__EnvironmentSizeData__FloorType GlobalNamespace::EnvironmentSizeData::get_floorType() {

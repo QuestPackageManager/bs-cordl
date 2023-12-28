@@ -2,34 +2,34 @@
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctor_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
 template <typename TEventType> constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 template <typename TEventType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<TEventType>*> const& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 template <typename TEventType> constexpr void UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TEventType> constexpr int64_t& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__get_m_EventTypeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventTypeId;
 }
 template <typename TEventType> constexpr int64_t const& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__get_m_EventTypeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventTypeId;
 }
 template <typename TEventType> constexpr void UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__set_m_EventTypeId(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EventTypeId = value;
 }
 /// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))

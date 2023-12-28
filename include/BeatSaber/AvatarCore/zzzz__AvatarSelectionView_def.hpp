@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(AvatarSelectionView)
 namespace HMUI {
 class ButtonBinder;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace HMUI {
-class ImageView;
-}
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::UI {
+class Button;
+}
+namespace HMUI {
+class ImageView;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarSelectionView);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15177))
 // CS Name: ::BeatSaber.AvatarCore::AvatarSelectionView*
 class CORDL_TYPE AvatarSelectionView : public ::UnityEngine::MonoBehaviour {

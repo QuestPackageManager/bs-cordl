@@ -16,51 +16,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__createGroupsForTiles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____createGroupsForTiles;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__createGroupsForTiles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____createGroupsForTiles;
 }
 constexpr void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__set__createGroupsForTiles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____createGroupsForTiles = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__exportUnusedTiles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exportUnusedTiles;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__exportUnusedTiles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exportUnusedTiles;
 }
 constexpr void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__set__exportUnusedTiles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____exportUnusedTiles = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__applyTileColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyTileColor;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__applyTileColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyTileColor;
 }
 constexpr void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__set__applyTileColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____applyTileColor = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__applyTilemapOrientation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyTilemapOrientation;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__applyTilemapOrientation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyTilemapOrientation;
 }
 constexpr void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__set__applyTilemapOrientation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____applyTilemapOrientation = value;
 }
 inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::New_ctor() {

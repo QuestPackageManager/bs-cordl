@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableAsset)
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
-struct Playable;
+class IPlayableAsset;
 }
 namespace UnityEngine::Playables {
 struct PlayableBinding;
@@ -18,11 +15,14 @@ struct PlayableBinding;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::Playables {
-class IPlayableAsset;
+struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

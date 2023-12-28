@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceFindControlLayoutDelegate)
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
-}
 namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
 namespace System {
-class IAsyncResult;
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {

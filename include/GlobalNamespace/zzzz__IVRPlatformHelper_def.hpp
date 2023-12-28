@@ -7,7 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRPlatformHelper)
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
 }
 namespace UnityEngine {
 struct Pose;
@@ -16,16 +19,13 @@ namespace System {
 class Action;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace GlobalNamespace {
-struct VRPlatformSDK;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

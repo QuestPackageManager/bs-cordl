@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightWithIdMonoBehaviour.get_lightId
 template <>
 
@@ -164,39 +164,39 @@ constexpr GlobalNamespace::LightWithIdMonoBehaviour::operator ::GlobalNamespace:
   return static_cast<::GlobalNamespace::ILightWithId*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::LightWithIdMonoBehaviour::__get__ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ID;
 }
 constexpr int32_t const& GlobalNamespace::LightWithIdMonoBehaviour::__get__ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ID;
 }
 constexpr void GlobalNamespace::LightWithIdMonoBehaviour::__set__ID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ID = value;
 }
 constexpr ::GlobalNamespace::LightWithIdManager*& GlobalNamespace::LightWithIdMonoBehaviour::__get__lightManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> const& GlobalNamespace::LightWithIdMonoBehaviour::__get__lightManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightManager;
 }
 constexpr void GlobalNamespace::LightWithIdMonoBehaviour::__set__lightManager(::GlobalNamespace::LightWithIdManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::LightWithIdMonoBehaviour::__get__isRegistered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRegistered;
 }
 constexpr bool const& GlobalNamespace::LightWithIdMonoBehaviour::__get__isRegistered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRegistered;
 }
 constexpr void GlobalNamespace::LightWithIdMonoBehaviour::__set__isRegistered(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isRegistered = value;
 }
 inline int32_t GlobalNamespace::LightWithIdMonoBehaviour::get_lightId() {

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(BaseMultiplayerStartGameCountdownViewController)
-namespace GlobalNamespace {
-class BeatmapSelectionView;
-}
-namespace GlobalNamespace {
-class ModifiersSelectionView;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
 class ToggleBinder;
 }
+namespace UnityEngine::UI {
+class Toggle;
+}
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
+class ModifiersSelectionView;
+}
+namespace GlobalNamespace {
 class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
+class BeatmapSelectionView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

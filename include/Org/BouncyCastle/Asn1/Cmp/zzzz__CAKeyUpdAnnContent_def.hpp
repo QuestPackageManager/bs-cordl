@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(CAKeyUpdAnnContent)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class CmpCertificate;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class CmpCertificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

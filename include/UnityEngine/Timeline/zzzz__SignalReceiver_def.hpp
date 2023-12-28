@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(SignalReceiver)
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Playables {
-class INotification;
-}
 namespace UnityEngine::Timeline {
 class SignalAsset;
 }
+namespace UnityEngine::Playables {
+class INotification;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::Timeline {
-class __SignalReceiver__EventKeyValue;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
+}
+namespace UnityEngine::Timeline {
+class __SignalReceiver__EventKeyValue;
 }
 namespace UnityEngine::Events {
 class UnityEvent;

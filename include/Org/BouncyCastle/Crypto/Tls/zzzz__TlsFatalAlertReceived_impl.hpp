@@ -33,15 +33,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::__get_alertDescription() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alertDescription;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::__get_alertDescription() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alertDescription;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::__set_alertDescription(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___alertDescription = value;
 }
 inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived* Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::New_ctor(uint8_t alertDescription) {

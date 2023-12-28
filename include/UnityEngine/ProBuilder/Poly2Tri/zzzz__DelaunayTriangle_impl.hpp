@@ -607,65 +607,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_Points() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Points;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const&
 UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_Points() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Points;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__set_Points(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Points = value;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_Neighbors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Neighbors;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const&
 UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_Neighbors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Neighbors;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__set_Neighbors(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Neighbors = value;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_EdgeIsConstrained() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EdgeIsConstrained;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_EdgeIsConstrained() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EdgeIsConstrained;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__set_EdgeIsConstrained(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EdgeIsConstrained = value;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_EdgeIsDelaunay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EdgeIsDelaunay;
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get_EdgeIsDelaunay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EdgeIsDelaunay;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__set_EdgeIsDelaunay(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EdgeIsDelaunay = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get__IsInterior_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInterior_k__BackingField;
 }
 constexpr bool const& UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__get__IsInterior_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInterior_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::__set__IsInterior_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsInterior_k__BackingField = value;
 }
 inline bool UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::get_IsInterior() {

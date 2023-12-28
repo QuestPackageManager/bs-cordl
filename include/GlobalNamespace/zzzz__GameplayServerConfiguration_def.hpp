@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayServerConfiguration)
 namespace GlobalNamespace {
+struct GameplayServerMode;
+}
+namespace GlobalNamespace {
 struct InvitePolicy;
 }
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+namespace GlobalNamespace {
+struct GameplayServerControlSettings;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace GlobalNamespace {
-struct GameplayServerMode;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
@@ -32,14 +32,14 @@ template <typename T> class INetImmutableSerializable_1;
 namespace GlobalNamespace {
 struct DiscoveryPolicy;
 }
-namespace GlobalNamespace {
-struct GameplayServerControlSettings;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
 struct SongSelectionMode;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_VAL_T(::GlobalNamespace::GameplayServerConfiguration);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(12721)), TypeDefinitionIndex(TypeDefinitionIndex(12768)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12959)), TypeDefinitionIndex(TypeDefinitionIndex(12804))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::GameplayServerConfiguration
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12721)), TypeDefinitionIndex(TypeDefinitionIndex(12959)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(12804))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::GameplayServerConfiguration
 struct CORDL_TYPE GameplayServerConfiguration {
 public:
   // Declarations

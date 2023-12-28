@@ -2,9 +2,9 @@
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixBuilderParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Pkix::PkixBuilderParameters.GetInstance
 template <>
 
@@ -149,27 +149,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Pkix::PkixBuilderParameters::__get_maxPathLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxPathLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Pkix::PkixBuilderParameters::__get_maxPathLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxPathLength;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixBuilderParameters::__set_maxPathLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxPathLength = value;
 }
 constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& Org::BouncyCastle::Pkix::PkixBuilderParameters::__get_excludedCerts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___excludedCerts;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& Org::BouncyCastle::Pkix::PkixBuilderParameters::__get_excludedCerts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___excludedCerts;
 }
 constexpr void Org::BouncyCastle::Pkix::PkixBuilderParameters::__set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___excludedCerts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* Org::BouncyCastle::Pkix::PkixBuilderParameters::GetInstance(::Org::BouncyCastle::Pkix::PkixParameters* pkixParams) {

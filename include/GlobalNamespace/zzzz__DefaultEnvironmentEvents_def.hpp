@@ -12,16 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultEnvironmentEvents)
 namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupEvent;
+class __DefaultEnvironmentEvents__BasicBeatmapEvent;
 }
 namespace GlobalNamespace {
 class __DefaultEnvironmentEvents__LightGroupFiltering;
 }
 namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__BasicBeatmapEvent;
+class __DefaultEnvironmentEvents__LightGroupDistribution;
 }
 namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupDistribution;
+class __DefaultEnvironmentEvents__LightGroupEvent;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
@@ -36,10 +36,10 @@ namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-struct __IndexFilter__IndexFilterLimitAlsoAffectType;
+struct __IndexFilter__IndexFilterRandomType;
 }
 namespace GlobalNamespace {
-struct __IndexFilter__IndexFilterRandomType;
+struct __IndexFilter__IndexFilterLimitAlsoAffectType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFilterin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4165))
 // CS Name: ::DefaultEnvironmentEvents::BasicBeatmapEvent*
 class CORDL_TYPE __DefaultEnvironmentEvents__BasicBeatmapEvent : public ::System::Object {
@@ -239,7 +239,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DefaultEnviro
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4315))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4167))
 // CS Name: ::DefaultEnvironmentEvents::LightGroupFiltering*
 class CORDL_TYPE __DefaultEnvironmentEvents__LightGroupFiltering : public ::System::Object {

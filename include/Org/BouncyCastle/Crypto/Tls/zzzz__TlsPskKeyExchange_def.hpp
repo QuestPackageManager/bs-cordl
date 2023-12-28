@@ -6,29 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsPskKeyExchange)
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::IO {
-class Stream;
+class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
@@ -36,23 +15,44 @@ class DHPrivateKeyParameters;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPskIdentityManager;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
+class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPskIdentity;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPskIdentityManager;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsDHVerifier;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsEncryptionCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

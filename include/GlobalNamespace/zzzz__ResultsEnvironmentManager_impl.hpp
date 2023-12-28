@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
-#include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_def.hpp"
 #include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
+#include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword.get_keyword
 template <>
 
@@ -51,28 +51,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::__get__keyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyword;
 }
 constexpr ::StringW const& GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::__get__keyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyword;
 }
 constexpr void GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::__set__keyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BaseResultsEnvironmentController*& GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::__get__resultsEnvironmentController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsEnvironmentController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BaseResultsEnvironmentController*> const&
 GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::__get__resultsEnvironmentController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsEnvironmentController;
 }
 constexpr void GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::__set__resultsEnvironmentController(::GlobalNamespace::BaseResultsEnvironmentController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultsEnvironmentController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::get_keyword() {
@@ -131,15 +131,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::__get_keyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyword;
 }
 constexpr ::StringW const& GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::__get_keyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyword;
 }
 constexpr void GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::__set_keyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0* GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::New_ctor() {
@@ -222,32 +222,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr ::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
                    ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*>&
 GlobalNamespace::ResultsEnvironmentManager::__get__resultEnvironmentControllersWithKeyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultEnvironmentControllersWithKeyword;
 }
 constexpr ::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*,
                    ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*> const&
 GlobalNamespace::ResultsEnvironmentManager::__get__resultEnvironmentControllersWithKeyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultEnvironmentControllersWithKeyword;
 }
 constexpr void GlobalNamespace::ResultsEnvironmentManager::__set__resultEnvironmentControllersWithKeyword(
     ::ArrayW<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*, ::Array<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultEnvironmentControllersWithKeyword)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::ResultsEnvironmentManager::__get__currentShownKeyword() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentShownKeyword;
 }
 constexpr ::StringW const& GlobalNamespace::ResultsEnvironmentManager::__get__currentShownKeyword() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentShownKeyword;
 }
 constexpr void GlobalNamespace::ResultsEnvironmentManager::__set__currentShownKeyword(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentShownKeyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BaseResultsEnvironmentController* GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword(::StringW keyword) {

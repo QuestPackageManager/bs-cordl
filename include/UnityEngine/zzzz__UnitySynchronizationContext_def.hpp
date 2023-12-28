@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnitySynchronizationContext)
-namespace UnityEngine {
-struct __UnitySynchronizationContext__WorkRequest;
-}
 namespace System::Threading {
 class SynchronizationContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct __UnitySynchronizationContext__WorkRequest;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System::Threading {
 class ManualResetEvent;

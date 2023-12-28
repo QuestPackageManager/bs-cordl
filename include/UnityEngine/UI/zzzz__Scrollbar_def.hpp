@@ -13,70 +13,70 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Scrollbar)
 namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::UI {
-struct __Scrollbar__Axis;
-}
-namespace UnityEngine::UI {
-class __Scrollbar___ClickRepeat_d__58;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-struct __Scrollbar__Direction;
-}
-namespace UnityEngine::UI {
-class __Scrollbar__ScrollEvent;
+class IInitializePotentialDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class __Scrollbar__ScrollEvent;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace UnityEngine::UI {
+class __Scrollbar___ClickRepeat_d__58;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::UI {
+struct __Scrollbar__Axis;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::UI {
+struct __Scrollbar__Direction;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::UI {
 class Selectable;
 }
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -366,8 +366,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Scrollbar___C
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 314, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13108)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10278))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13108)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13119))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
 class CORDL_TYPE Scrollbar : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations

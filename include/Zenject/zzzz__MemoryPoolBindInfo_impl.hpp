@@ -127,51 +127,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Zenject::MemoryPoolBindInfo::__get__ShowExpandWarning_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShowExpandWarning_k__BackingField;
 }
 constexpr bool const& Zenject::MemoryPoolBindInfo::__get__ShowExpandWarning_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ShowExpandWarning_k__BackingField;
 }
 constexpr void Zenject::MemoryPoolBindInfo::__set__ShowExpandWarning_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ShowExpandWarning_k__BackingField = value;
 }
 constexpr ::Zenject::PoolExpandMethods& Zenject::MemoryPoolBindInfo::__get__ExpandMethod_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ExpandMethod_k__BackingField;
 }
 constexpr ::Zenject::PoolExpandMethods const& Zenject::MemoryPoolBindInfo::__get__ExpandMethod_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ExpandMethod_k__BackingField;
 }
 constexpr void Zenject::MemoryPoolBindInfo::__set__ExpandMethod_k__BackingField(::Zenject::PoolExpandMethods value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ExpandMethod_k__BackingField = value;
 }
 constexpr int32_t& Zenject::MemoryPoolBindInfo::__get__InitialSize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InitialSize_k__BackingField;
 }
 constexpr int32_t const& Zenject::MemoryPoolBindInfo::__get__InitialSize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InitialSize_k__BackingField;
 }
 constexpr void Zenject::MemoryPoolBindInfo::__set__InitialSize_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____InitialSize_k__BackingField = value;
 }
 constexpr int32_t& Zenject::MemoryPoolBindInfo::__get__MaxSize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxSize_k__BackingField;
 }
 constexpr int32_t const& Zenject::MemoryPoolBindInfo::__get__MaxSize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxSize_k__BackingField;
 }
 constexpr void Zenject::MemoryPoolBindInfo::__set__MaxSize_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxSize_k__BackingField = value;
 }
 inline ::Zenject::MemoryPoolBindInfo* Zenject::MemoryPoolBindInfo::New_ctor() {

@@ -3,9 +3,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
 #include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJavaProxy._ctor
 template <>
 
@@ -150,27 +150,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AndroidJavaClass*& UnityEngine::AndroidJavaProxy::__get_javaInterface() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___javaInterface;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AndroidJavaClass*> const& UnityEngine::AndroidJavaProxy::__get_javaInterface() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___javaInterface;
 }
 constexpr void UnityEngine::AndroidJavaProxy::__set_javaInterface(::UnityEngine::AndroidJavaClass* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___javaInterface)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr void*& UnityEngine::AndroidJavaProxy::__get_proxyObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxyObject;
 }
 constexpr void* const& UnityEngine::AndroidJavaProxy::__get_proxyObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxyObject;
 }
 constexpr void UnityEngine::AndroidJavaProxy::__set_proxyObject(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___proxyObject = value;
 }
 inline void UnityEngine::AndroidJavaProxy::setStaticF_s_JavaLangSystemClass(::UnityEngine::GlobalJavaObjectRef* value) {

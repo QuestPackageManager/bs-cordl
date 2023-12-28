@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey._ctor
 template <>
@@ -147,17 +147,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>*&
 Newtonsoft::Json::Serialization::DefaultSerializationBinder::__get__typeCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>*> const&
 Newtonsoft::Json::Serialization::DefaultSerializationBinder::__get__typeCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeCache;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultSerializationBinder::__set__typeCache(
     ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::setStaticF_Instance(::Newtonsoft::Json::Serialization::DefaultSerializationBinder* value) {

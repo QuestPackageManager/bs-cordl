@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -127,51 +127,51 @@ constexpr Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22:
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get_pauseTimeInSeconds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseTimeInSeconds;
 }
 constexpr float_t const& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get_pauseTimeInSeconds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseTimeInSeconds;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__set_pauseTimeInSeconds(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pauseTimeInSeconds = value;
 }
 constexpr ::Unity::XR::Oculus::OculusRestarter*& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Unity::XR::Oculus::OculusRestarter*> const& Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__set___4__this(::Unity::XR::Oculus::OculusRestarter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22* Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::New_ctor(int32_t __1__state) {
@@ -339,51 +339,51 @@ constexpr Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::operato
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Unity::XR::Oculus::OculusRestarter*& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Unity::XR::Oculus::OculusRestarter*> const& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__set___4__this(::Unity::XR::Oculus::OculusRestarter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get_shouldRestart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldRestart;
 }
 constexpr bool const& Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__get_shouldRestart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldRestart;
 }
 constexpr void Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__set_shouldRestart(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shouldRestart = value;
 }
 inline ::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23* Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::New_ctor(int32_t __1__state) {
@@ -569,75 +569,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& Unity::XR::Oculus::OculusRestarter::__get_onAfterRestart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onAfterRestart;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Unity::XR::Oculus::OculusRestarter::__get_onAfterRestart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onAfterRestart;
 }
 constexpr void Unity::XR::Oculus::OculusRestarter::__set_onAfterRestart(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onAfterRestart)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& Unity::XR::Oculus::OculusRestarter::__get_onAfterShutdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onAfterShutdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Unity::XR::Oculus::OculusRestarter::__get_onAfterShutdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onAfterShutdown;
 }
 constexpr void Unity::XR::Oculus::OculusRestarter::__set_onAfterShutdown(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onAfterShutdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& Unity::XR::Oculus::OculusRestarter::__get_onQuit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onQuit;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Unity::XR::Oculus::OculusRestarter::__get_onQuit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onQuit;
 }
 constexpr void Unity::XR::Oculus::OculusRestarter::__set_onQuit(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onQuit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& Unity::XR::Oculus::OculusRestarter::__get_onAfterCoroutine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onAfterCoroutine;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Unity::XR::Oculus::OculusRestarter::__get_onAfterCoroutine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onAfterCoroutine;
 }
 constexpr void Unity::XR::Oculus::OculusRestarter::__set_onAfterCoroutine(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onAfterCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Coroutine*& Unity::XR::Oculus::OculusRestarter::__get_m_Coroutine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Coroutine;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& Unity::XR::Oculus::OculusRestarter::__get_m_Coroutine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Coroutine;
 }
 constexpr void Unity::XR::Oculus::OculusRestarter::__set_m_Coroutine(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Coroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Coroutine*& Unity::XR::Oculus::OculusRestarter::__get_m_pauseAndRestartCoroutine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pauseAndRestartCoroutine;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& Unity::XR::Oculus::OculusRestarter::__get_m_pauseAndRestartCoroutine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pauseAndRestartCoroutine;
 }
 constexpr void Unity::XR::Oculus::OculusRestarter::__set_m_pauseAndRestartCoroutine(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pauseAndRestartCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Unity::XR::Oculus::OculusRestarter::setStaticF_k_GameObjectName(::StringW value) {

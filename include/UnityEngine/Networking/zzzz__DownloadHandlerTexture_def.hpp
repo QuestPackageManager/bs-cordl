@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DownloadHandlerTexture)
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
 namespace UnityEngine {
 class Texture2D;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerTexture);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(15580)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16141)) CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
 class CORDL_TYPE DownloadHandlerTexture : public ::UnityEngine::Networking::DownloadHandler {
 public:

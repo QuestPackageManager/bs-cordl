@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 310 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 310 }), TypeDefinitionIndex(TypeDefinitionIndex(4742)),
 // TypeDefinitionIndex(TypeDefinitionIndex(4744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4741)) CS Name: ::DisappearingArrowController*
 class CORDL_TYPE DisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::GameNoteController*> {
 public:

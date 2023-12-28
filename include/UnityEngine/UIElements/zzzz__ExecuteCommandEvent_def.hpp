@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ExecuteCommandEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 1028 }), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7229)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 1028 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7231))
 // CS Name: ::UnityEngine.UIElements::ExecuteCommandEvent*
 class CORDL_TYPE ExecuteCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ExecuteCommandEvent*> {

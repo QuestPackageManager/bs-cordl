@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 CORDL_MODULE_EXPORT(QuestAppInit)
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class DefaultScenesTransitionsFromInit;
+}
+namespace GlobalNamespace {
+class MainSystemInit;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class DefaultScenesTransitionsFromInit;
-}
-namespace GlobalNamespace {
-class MainSystemInit;
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexWriter)
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Text::RegularExpressions {
+class RegexTree;
 }
 namespace System::Text::RegularExpressions {
 class RegexCode;
 }
-namespace System::Text::RegularExpressions {
-class RegexTree;
+namespace System::Collections::Generic {
+template <typename T> struct ValueListBuilder_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
 }
 namespace System::Collections {
 class Hashtable;
-}
-namespace System::Collections::Generic {
-template <typename T> struct ValueListBuilder_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

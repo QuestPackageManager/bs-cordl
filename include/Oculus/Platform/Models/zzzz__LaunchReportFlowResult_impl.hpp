@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::LaunchReportFlowResult::__get_DidCancel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
 constexpr bool const& Oculus::Platform::Models::LaunchReportFlowResult::__get_DidCancel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
 constexpr void Oculus::Platform::Models::LaunchReportFlowResult::__set_DidCancel(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidCancel = value;
 }
 constexpr uint64_t& Oculus::Platform::Models::LaunchReportFlowResult::__get_UserReportId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserReportId;
 }
 constexpr uint64_t const& Oculus::Platform::Models::LaunchReportFlowResult::__get_UserReportId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserReportId;
 }
 constexpr void Oculus::Platform::Models::LaunchReportFlowResult::__set_UserReportId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___UserReportId = value;
 }
 inline ::Oculus::Platform::Models::LaunchReportFlowResult* Oculus::Platform::Models::LaunchReportFlowResult::New_ctor(void* o) {

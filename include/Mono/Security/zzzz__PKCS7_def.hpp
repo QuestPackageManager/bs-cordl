@@ -11,10 +11,10 @@ namespace Mono::Security {
 class __PKCS7__ContentInfo;
 }
 namespace Mono::Security {
-class __PKCS7__SignedData;
+class __PKCS7__EncryptedData;
 }
 namespace Mono::Security {
-class __PKCS7__EncryptedData;
+class __PKCS7__SignedData;
 }
 namespace Mono::Security {
 class __PKCS7__SignerInfo;
@@ -22,11 +22,11 @@ class __PKCS7__SignerInfo;
 namespace Mono::Security {
 class ASN1;
 }
-namespace System::Collections {
-class ArrayList;
-}
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace Mono::Security {

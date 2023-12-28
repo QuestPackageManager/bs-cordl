@@ -4,10 +4,10 @@
 #include "UnityEngine/zzzz__LightmapBakeType_impl.hpp"
 #include "UnityEngine/zzzz__LightmapsMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SupportedRenderingFeatures_def.hpp"
-#include "UnityEngine/Rendering/zzzz__SupportedRenderingFeatures_def.hpp"
 #include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
-#include "UnityEngine/zzzz__LightmapsMode_def.hpp"
 #include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
+#include "UnityEngine/Rendering/zzzz__SupportedRenderingFeatures_def.hpp"
+#include "UnityEngine/zzzz__LightmapsMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes::__SupportedRenderingFeatures__ReflectionProbeModes(int32_t value__) noexcept {
   this->value__ = value__;
@@ -366,329 +366,329 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes& UnityEngine::Rendering::SupportedRenderingFeatures::__get__reflectionProbeModes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeModes_k__BackingField;
 }
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__reflectionProbeModes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeModes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__reflectionProbeModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reflectionProbeModes_k__BackingField = value;
 }
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes& UnityEngine::Rendering::SupportedRenderingFeatures::__get__defaultMixedLightingModes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMixedLightingModes_k__BackingField;
 }
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const&
 UnityEngine::Rendering::SupportedRenderingFeatures::__get__defaultMixedLightingModes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMixedLightingModes_k__BackingField;
 }
 constexpr void
 UnityEngine::Rendering::SupportedRenderingFeatures::__set__defaultMixedLightingModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultMixedLightingModes_k__BackingField = value;
 }
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes& UnityEngine::Rendering::SupportedRenderingFeatures::__get__mixedLightingModes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mixedLightingModes_k__BackingField;
 }
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__mixedLightingModes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mixedLightingModes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__mixedLightingModes_k__BackingField(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mixedLightingModes_k__BackingField = value;
 }
 constexpr ::UnityEngine::LightmapBakeType& UnityEngine::Rendering::SupportedRenderingFeatures::__get__lightmapBakeTypes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapBakeTypes_k__BackingField;
 }
 constexpr ::UnityEngine::LightmapBakeType const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__lightmapBakeTypes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapBakeTypes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__lightmapBakeTypes_k__BackingField(::UnityEngine::LightmapBakeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightmapBakeTypes_k__BackingField = value;
 }
 constexpr ::UnityEngine::LightmapsMode& UnityEngine::Rendering::SupportedRenderingFeatures::__get__lightmapsModes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapsModes_k__BackingField;
 }
 constexpr ::UnityEngine::LightmapsMode const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__lightmapsModes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapsModes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__lightmapsModes_k__BackingField(::UnityEngine::LightmapsMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightmapsModes_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__enlightenLightmapper_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enlightenLightmapper_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__enlightenLightmapper_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enlightenLightmapper_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__enlightenLightmapper_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enlightenLightmapper_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__enlighten_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enlighten_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__enlighten_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enlighten_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__enlighten_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enlighten_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__lightProbeProxyVolumes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightProbeProxyVolumes_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__lightProbeProxyVolumes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightProbeProxyVolumes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__lightProbeProxyVolumes_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightProbeProxyVolumes_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__motionVectors_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____motionVectors_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__motionVectors_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____motionVectors_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__motionVectors_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____motionVectors_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__receiveShadows_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receiveShadows_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__receiveShadows_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receiveShadows_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__receiveShadows_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____receiveShadows_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__reflectionProbes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbes_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__reflectionProbes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__reflectionProbes_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reflectionProbes_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__reflectionProbesBlendDistance_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbesBlendDistance_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__reflectionProbesBlendDistance_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbesBlendDistance_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__reflectionProbesBlendDistance_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reflectionProbesBlendDistance_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__rendererPriority_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rendererPriority_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__rendererPriority_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rendererPriority_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__rendererPriority_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rendererPriority_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__rendersUIOverlay_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rendersUIOverlay_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__rendersUIOverlay_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rendersUIOverlay_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__rendersUIOverlay_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rendersUIOverlay_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesEnvironmentLighting_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesEnvironmentLighting_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesEnvironmentLighting_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesEnvironmentLighting_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesEnvironmentLighting_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesEnvironmentLighting_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesFog_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesFog_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesFog_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesFog_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesFog_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesFog_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesRealtimeReflectionProbes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesRealtimeReflectionProbes_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesRealtimeReflectionProbes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesRealtimeReflectionProbes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesRealtimeReflectionProbes_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesRealtimeReflectionProbes_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesOtherLightingSettings_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesOtherLightingSettings_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesOtherLightingSettings_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesOtherLightingSettings_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesOtherLightingSettings_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesOtherLightingSettings_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__editableMaterialRenderQueue_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editableMaterialRenderQueue_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__editableMaterialRenderQueue_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editableMaterialRenderQueue_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__editableMaterialRenderQueue_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____editableMaterialRenderQueue_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesLODBias_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesLODBias_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesLODBias_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesLODBias_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesLODBias_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesLODBias_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesMaximumLODLevel_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesMaximumLODLevel_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesMaximumLODLevel_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesMaximumLODLevel_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesMaximumLODLevel_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesMaximumLODLevel_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__rendererProbes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rendererProbes_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__rendererProbes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rendererProbes_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__rendererProbes_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rendererProbes_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__particleSystemInstancing_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemInstancing_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__particleSystemInstancing_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemInstancing_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__particleSystemInstancing_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____particleSystemInstancing_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__autoAmbientProbeBaking_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoAmbientProbeBaking_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__autoAmbientProbeBaking_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoAmbientProbeBaking_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__autoAmbientProbeBaking_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoAmbientProbeBaking_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__autoDefaultReflectionProbeBaking_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoDefaultReflectionProbeBaking_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__autoDefaultReflectionProbeBaking_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoDefaultReflectionProbeBaking_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__autoDefaultReflectionProbeBaking_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoDefaultReflectionProbeBaking_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesShadowmask_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesShadowmask_k__BackingField;
 }
 constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overridesShadowmask_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overridesShadowmask_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overridesShadowmask_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overridesShadowmask_k__BackingField = value;
 }
 constexpr ::StringW& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overrideShadowmaskMessage_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideShadowmaskMessage_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Rendering::SupportedRenderingFeatures::__get__overrideShadowmaskMessage_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideShadowmaskMessage_k__BackingField;
 }
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__set__overrideShadowmaskMessage_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideShadowmaskMessage_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

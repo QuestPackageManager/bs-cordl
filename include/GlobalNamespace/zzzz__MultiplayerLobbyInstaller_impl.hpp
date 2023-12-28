@@ -32,29 +32,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& GlobalNamespace::MultiplayerLobbyInstaller::__get__multiplayerLobbyAvatarControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLobbyAvatarControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const&
 GlobalNamespace::MultiplayerLobbyInstaller::__get__multiplayerLobbyAvatarControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLobbyAvatarControllerPrefab;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyInstaller::__set__multiplayerLobbyAvatarControllerPrefab(::GlobalNamespace::MultiplayerLobbyAvatarController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerLobbyAvatarControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlace*& GlobalNamespace::MultiplayerLobbyInstaller::__get__multiplayerAvatarPlacePrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerAvatarPlacePrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarPlace*> const& GlobalNamespace::MultiplayerLobbyInstaller::__get__multiplayerAvatarPlacePrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerAvatarPlacePrefab;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyInstaller::__set__multiplayerAvatarPlacePrefab(::GlobalNamespace::MultiplayerLobbyAvatarPlace* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerAvatarPlacePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerLobbyInstaller::InstallBindings() {

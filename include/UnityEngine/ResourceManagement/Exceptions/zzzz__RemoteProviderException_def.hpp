@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemoteProviderException)
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace UnityEngine::ResourceManagement::Util {
 class UnityWebRequestResult;
 }
 namespace System {
 class Exception;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Exceptions {

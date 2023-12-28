@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidancePathEvaluator)
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
 class BezierSplineEvaluator;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;

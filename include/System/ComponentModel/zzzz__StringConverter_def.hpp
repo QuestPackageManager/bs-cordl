@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 CORDL_MODULE_EXPORT(StringConverter)
-namespace System {
-class Type;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System {
-class Object;
+class Type;
 }
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

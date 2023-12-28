@@ -4,11 +4,11 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus::__HEU_Task__TaskStatus(int32_t value__) noexcept {
   this->value__ = value__;
@@ -210,51 +210,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus& HoudiniEngineUnity::HEU_Task::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus const& HoudiniEngineUnity::HEU_Task::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void HoudiniEngineUnity::HEU_Task::__set__status(::HoudiniEngineUnity::__HEU_Task__TaskStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult& HoudiniEngineUnity::HEU_Task::__get__result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____result;
 }
 constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult const& HoudiniEngineUnity::HEU_Task::__get__result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____result;
 }
 constexpr void HoudiniEngineUnity::HEU_Task::__set__result(::HoudiniEngineUnity::__HEU_Task__TaskResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____result = value;
 }
 constexpr ::System::Guid& HoudiniEngineUnity::HEU_Task::__get__guid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____guid;
 }
 constexpr ::System::Guid const& HoudiniEngineUnity::HEU_Task::__get__guid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____guid;
 }
 constexpr void HoudiniEngineUnity::HEU_Task::__set__guid(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____guid = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_Task__TaskCallback*& HoudiniEngineUnity::HEU_Task::__get__taskCompletedDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskCompletedDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_Task__TaskCallback*> const& HoudiniEngineUnity::HEU_Task::__get__taskCompletedDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskCompletedDelegate;
 }
 constexpr void HoudiniEngineUnity::HEU_Task::__set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskCompletedDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Guid HoudiniEngineUnity::HEU_Task::get_TaskGuid() {

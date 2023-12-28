@@ -108,28 +108,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*& GlobalNamespace::ObstacleControllerBase::__get_didInitEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didInitEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*> const& GlobalNamespace::ObstacleControllerBase::__get_didInitEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didInitEvent;
 }
 constexpr void GlobalNamespace::ObstacleControllerBase::__set_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*& GlobalNamespace::ObstacleControllerBase::__get_didStartDissolvingEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartDissolvingEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*> const&
 GlobalNamespace::ObstacleControllerBase::__get_didStartDissolvingEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartDissolvingEvent;
 }
 constexpr void GlobalNamespace::ObstacleControllerBase::__set_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didStartDissolvingEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ObstacleControllerBase::add_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value) {

@@ -2,8 +2,8 @@
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "UnityEngine/PS4/XR/zzzz__PSVRLoader_def.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PS4::XR::PSVRLoader.get_displaySubsystem
 template <>
 

@@ -2,12 +2,12 @@
 #include "GlobalNamespace/zzzz__OVRPose_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRComposition_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRComposition._ctor
 template <>
@@ -133,51 +133,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRComposition::__get_cameraInTrackingSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraInTrackingSpace;
 }
 constexpr bool const& GlobalNamespace::OVRComposition::__get_cameraInTrackingSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraInTrackingSpace;
 }
 constexpr void GlobalNamespace::OVRComposition::__set_cameraInTrackingSpace(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cameraInTrackingSpace = value;
 }
 constexpr ::GlobalNamespace::OVRCameraRig*& GlobalNamespace::OVRComposition::__get_cameraRig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRig;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& GlobalNamespace::OVRComposition::__get_cameraRig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRig;
 }
 constexpr void GlobalNamespace::OVRComposition::__set_cameraRig(::GlobalNamespace::OVRCameraRig* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cameraRig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRComposition::__get_usingLastAttachedNodePose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usingLastAttachedNodePose;
 }
 constexpr bool const& GlobalNamespace::OVRComposition::__get_usingLastAttachedNodePose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usingLastAttachedNodePose;
 }
 constexpr void GlobalNamespace::OVRComposition::__set_usingLastAttachedNodePose(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usingLastAttachedNodePose = value;
 }
 constexpr ::GlobalNamespace::OVRPose& GlobalNamespace::OVRComposition::__get_lastAttachedNodePose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastAttachedNodePose;
 }
 constexpr ::GlobalNamespace::OVRPose const& GlobalNamespace::OVRComposition::__get_lastAttachedNodePose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastAttachedNodePose;
 }
 constexpr void GlobalNamespace::OVRComposition::__set_lastAttachedNodePose(::GlobalNamespace::OVRPose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastAttachedNodePose = value;
 }
 inline ::GlobalNamespace::OVRComposition* GlobalNamespace::OVRComposition::New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,

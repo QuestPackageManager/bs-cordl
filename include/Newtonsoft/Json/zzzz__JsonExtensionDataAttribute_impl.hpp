@@ -73,27 +73,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Newtonsoft::Json::JsonExtensionDataAttribute::__get__WriteData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WriteData_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::JsonExtensionDataAttribute::__get__WriteData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WriteData_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonExtensionDataAttribute::__set__WriteData_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____WriteData_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::JsonExtensionDataAttribute::__get__ReadData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReadData_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::JsonExtensionDataAttribute::__get__ReadData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReadData_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonExtensionDataAttribute::__set__ReadData_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ReadData_k__BackingField = value;
 }
 inline bool Newtonsoft::Json::JsonExtensionDataAttribute::get_WriteData() {

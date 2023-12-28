@@ -11,10 +11,10 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-struct BindingInheritanceMethods;
+class NonLazyBinder;
 }
 namespace Zenject {
-class NonLazyBinder;
+struct BindingInheritanceMethods;
 }
 // Forward declare root types
 namespace Zenject {

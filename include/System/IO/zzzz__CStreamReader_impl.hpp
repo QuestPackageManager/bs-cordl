@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__CStreamReader_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/zzzz__TermInfoDriver_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: ::System::IO::CStreamReader._ctor
 template <>
 
@@ -92,15 +92,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::TermInfoDriver*& System::IO::CStreamReader::__get_driver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___driver;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::TermInfoDriver*> const& System::IO::CStreamReader::__get_driver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___driver;
 }
 constexpr void System::IO::CStreamReader::__set_driver(::System::TermInfoDriver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___driver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::CStreamReader* System::IO::CStreamReader::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {

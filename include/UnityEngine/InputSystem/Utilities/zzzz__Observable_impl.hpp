@@ -1,25 +1,25 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observable_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__Observable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__Observable_def.hpp"
 template <typename TValue> constexpr ::System::IDisposable*& UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>::__get_subscription() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subscription;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>::__get_subscription() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subscription;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>::__set_subscription(::System::IDisposable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subscription)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue>

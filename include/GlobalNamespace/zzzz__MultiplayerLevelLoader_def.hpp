@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelLoader)
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class IDifficultyBeatmap;
+}
+namespace Zenject {
+class ITickable;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
-namespace System::Threading {
-class CancellationTokenSource;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -31,14 +31,14 @@ struct __BeatmapLevelsModel__GetBeatmapLevelResult;
 namespace GlobalNamespace {
 struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
 }
-namespace Zenject {
-class ITickable;
-}
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class BeatmapLevelsModel;
 }
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+namespace System {
+class Action;
+}
+namespace System::Threading {
+class CancellationTokenSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -10,19 +10,19 @@ namespace UnityEngine::ProBuilder {
 class CIELabColor;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class XYZColor;
 }
 namespace UnityEngine::ProBuilder {
 class HSVColor;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::ProBuilder {
-class XYZColor;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

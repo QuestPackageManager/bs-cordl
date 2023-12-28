@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSystemPerfMetrics)
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+class __OVRSystemPerfMetrics__PerfMetrics;
 }
 namespace GlobalNamespace {
-class __OVRSystemPerfMetrics__PerfMetrics;
+class __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
 }
 namespace GlobalNamespace {
 class __OVRNetwork__OVRNetworkTcpServer;

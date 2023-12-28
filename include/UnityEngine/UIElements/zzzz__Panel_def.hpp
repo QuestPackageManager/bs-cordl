@@ -11,85 +11,85 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Panel)
 namespace UnityEngine::UIElements {
-class SavePersistentViewData;
+class TimeMsFunction;
 }
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-class Shader;
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 struct VisualTreeUpdatePhase;
 }
-namespace UnityEngine {
-struct Vector2Int;
-}
 namespace UnityEngine::UIElements {
-class GetViewDataDictionary;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class IVisualTreeUpdater;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
+namespace UnityEngine {
+struct Vector2Int;
 }
 namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
+class Event;
 }
 namespace UnityEngine::UIElements {
 class EventDispatcher;
 }
-namespace UnityEngine::UIElements {
-class VisualTreeUpdater;
+namespace UnityEngine {
+struct EventInterests;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
+class IMGUIContainer;
 }
 namespace UnityEngine::UIElements {
 class TimerEventScheduler;
 }
 namespace UnityEngine::UIElements {
-class LoadResourceFunction;
-}
-namespace UnityEngine::UIElements {
-class TimeMsFunction;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IScheduler;
-}
-namespace UnityEngine {
-struct EventInterests;
-}
-namespace UnityEngine::UIElements {
-struct ContextType;
+class SavePersistentViewData;
 }
 namespace System {
-class Type;
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class VisualElement;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine::UIElements {
+class GetViewDataDictionary;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+class LoadResourceFunction;
+}
+namespace UnityEngine::UIElements {
+class AtlasBase;
+}
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class VisualTreeUpdater;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -101,8 +101,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Panel);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 337, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14604)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6862)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6870))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6875)) CS Name: ::UnityEngine.UIElements::Panel*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6870)), TypeDefinitionIndex(TypeDefinitionIndex(14604)), TypeDefinitionIndex(TypeDefinitionIndex(6862)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9966))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6875)) CS Name: ::UnityEngine.UIElements::Panel*
 class CORDL_TYPE Panel : public ::UnityEngine::UIElements::BaseVisualElementPanel {
 public:
   // Declarations

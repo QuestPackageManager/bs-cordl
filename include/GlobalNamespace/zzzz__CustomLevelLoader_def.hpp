@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(CustomLevelLoader)
-namespace GlobalNamespace {
-class EnvironmentsListSO;
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class EnvironmentsListSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

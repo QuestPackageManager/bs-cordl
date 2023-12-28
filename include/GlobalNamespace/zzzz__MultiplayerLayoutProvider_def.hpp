@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLayoutProvider)
-namespace GlobalNamespace {
-struct MultiplayerPlayerLayout;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerLayout;
 }
 // Forward declare root types
 namespace GlobalNamespace {

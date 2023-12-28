@@ -19,39 +19,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__get_Value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
 constexpr ::StringW const& Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__get_Value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
 constexpr void Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__set_Value(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__get_HashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HashCode;
 }
 constexpr int32_t const& Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__get_HashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HashCode;
 }
 constexpr void Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__set_HashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HashCode = value;
 }
 constexpr ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*& Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__get_Next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*> const& Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__get_Next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr void Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::__set_Next(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* Newtonsoft::Json::Utilities::__PropertyNameTable__Entry::New_ctor(::StringW value, int32_t hashCode,
@@ -159,42 +159,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Newtonsoft::Json::Utilities::PropertyNameTable::__get__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 constexpr int32_t const& Newtonsoft::Json::Utilities::PropertyNameTable::__get__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 constexpr void Newtonsoft::Json::Utilities::PropertyNameTable::__set__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count = value;
 }
 constexpr ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*>&
 Newtonsoft::Json::Utilities::PropertyNameTable::__get__entries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 constexpr ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> const&
 Newtonsoft::Json::Utilities::PropertyNameTable::__get__entries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 constexpr void Newtonsoft::Json::Utilities::PropertyNameTable::__set__entries(
     ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Newtonsoft::Json::Utilities::PropertyNameTable::__get__mask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mask;
 }
 constexpr int32_t const& Newtonsoft::Json::Utilities::PropertyNameTable::__get__mask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mask;
 }
 constexpr void Newtonsoft::Json::Utilities::PropertyNameTable::__set__mask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mask = value;
 }
 inline void Newtonsoft::Json::Utilities::PropertyNameTable::setStaticF_HashCodeRandomizer(int32_t value) {

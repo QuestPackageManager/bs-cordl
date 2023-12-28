@@ -15,7 +15,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerInput)
 namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem::UI {
+class InputSystemUIInputModule;
+}
+namespace UnityEngine::InputSystem {
+class InputValue;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+class __PlayerInput__DeviceLostEvent;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class __PlayerInput__ActionEvent;
+}
+namespace UnityEngine::InputSystem {
 class __PlayerInput__ControlsChangedEvent;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class __PlayerInput__DeviceRegainedEvent;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
 }
 namespace UnityEngine::InputSystem::Users {
 struct InputUser;
@@ -24,67 +84,7 @@ namespace UnityEngine::InputSystem::Users {
 struct InputUserChange;
 }
 namespace UnityEngine::InputSystem {
-class InputValue;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem::UI {
-class InputSystemUIInputModule;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem {
-class __PlayerInput__DeviceLostEvent;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem {
-class __PlayerInput__ActionEvent;
-}
-namespace UnityEngine::InputSystem {
-class __PlayerInput__DeviceRegainedEvent;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::InputSystem {
 struct PlayerNotifications;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -121,8 +121,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__PlayerInput__DeviceRegainedEvent);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6133)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 424 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6311)) CS Name: ::PlayerInput::ActionEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6133)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 424 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6311)) CS Name: ::PlayerInput::ActionEvent*
 class CORDL_TYPE __PlayerInput__ActionEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> {
 public:
   // Declarations
@@ -199,10 +199,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 528, native_size: -1, calculated_instance_size: 528, calculated_native_size: 521, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 988 }), TypeDefinitionIndex(TypeDefinitionIndex(6320)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6133)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6364))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6315)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(6364)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6133)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 988 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2323), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6320))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6315)) CS
 // Name: ::UnityEngine.InputSystem::PlayerInput*
 class CORDL_TYPE PlayerInput : public ::UnityEngine::MonoBehaviour {
 public:
@@ -975,7 +975,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Player
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(6315))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6312)) CS Name: ::PlayerInput::DeviceLostEvent*
 class CORDL_TYPE __PlayerInput__DeviceLostEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
@@ -1009,8 +1009,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6313)) CS Name: ::PlayerInput::DeviceRegainedEvent*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6315))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6313)) CS Name: ::PlayerInput::DeviceRegainedEvent*
 class CORDL_TYPE __PlayerInput__DeviceRegainedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
   // Declarations
@@ -1043,8 +1043,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6314)) CS Name: ::PlayerInput::ControlsChangedEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 378 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6314)) CS Name: ::PlayerInput::ControlsChangedEvent*
 class CORDL_TYPE __PlayerInput__ControlsChangedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
 public:
   // Declarations

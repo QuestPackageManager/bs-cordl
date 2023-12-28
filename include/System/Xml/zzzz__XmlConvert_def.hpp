@@ -10,14 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlConvert)
+namespace System::Text::RegularExpressions {
+class Regex;
+}
+namespace System {
+struct DateTime;
+}
 namespace System::Xml {
 struct ExceptionType;
 }
 namespace System {
-class Exception;
-}
-namespace System {
-struct Decimal;
+struct Guid;
 }
 namespace System {
 struct DateTimeOffset;
@@ -25,23 +28,20 @@ struct DateTimeOffset;
 namespace System {
 struct TimeSpan;
 }
+namespace System {
+struct Decimal;
+}
 namespace System::Xml {
 struct XmlDateTimeSerializationMode;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System {
-struct Guid;
-}
-namespace System {
-class Uri;
 }
 namespace System {
 class ArgumentException;
 }
 namespace System {
-struct DateTime;
+class Exception;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Xml::XmlConvert);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11548))
 // CS Name: ::System.Xml::XmlConvert*
 class CORDL_TYPE XmlConvert : public ::System::Object {

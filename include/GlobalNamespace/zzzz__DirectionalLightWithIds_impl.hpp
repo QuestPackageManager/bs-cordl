@@ -33,39 +33,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::DirectionalLight*& GlobalNamespace::DirectionalLightWithIds::__get__directionalLight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLight;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLight*> const& GlobalNamespace::DirectionalLightWithIds::__get__directionalLight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLight;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIds::__set__directionalLight(::GlobalNamespace::DirectionalLight* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directionalLight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::DirectionalLightWithIds::__get__setIntensityOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setIntensityOnly;
 }
 constexpr bool const& GlobalNamespace::DirectionalLightWithIds::__get__setIntensityOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setIntensityOnly;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIds::__set__setIntensityOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setIntensityOnly = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::DirectionalLightWithIds::__get__defaultColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::DirectionalLightWithIds::__get__defaultColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColor;
 }
 constexpr void GlobalNamespace::DirectionalLightWithIds::__set__defaultColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultColor = value;
 }
 inline void GlobalNamespace::DirectionalLightWithIds::ColorWasSet(::UnityEngine::Color color) {

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriterBase64Encoder_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__WriteState_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
+#include "System/Xml/zzzz__WriteState_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlRawWriter.WriteStartDocument
 template <>
 
@@ -450,27 +450,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlRawWriterBase64Encoder*& System::Xml::XmlRawWriter::__get_base64Encoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base64Encoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriterBase64Encoder*> const& System::Xml::XmlRawWriter::__get_base64Encoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base64Encoder;
 }
 constexpr void System::Xml::XmlRawWriter::__set_base64Encoder(::System::Xml::XmlRawWriterBase64Encoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___base64Encoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::IXmlNamespaceResolver*& System::Xml::XmlRawWriter::__get_resolver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resolver;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& System::Xml::XmlRawWriter::__get_resolver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resolver;
 }
 constexpr void System::Xml::XmlRawWriter::__set_resolver(::System::Xml::IXmlNamespaceResolver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resolver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::XmlRawWriter::WriteStartDocument() {

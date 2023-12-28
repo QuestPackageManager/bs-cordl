@@ -104,51 +104,51 @@ constexpr GlobalNamespace::BeatmapDataItem::operator ::System::IComparable_1<::G
   return static_cast<::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::BeatmapDataItem::__get__time_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::BeatmapDataItem::__get__time_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataItem::__set__time_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapDataItem::__get__executionOrder_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionOrder_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapDataItem::__get__executionOrder_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionOrder_k__BackingField;
 }
 constexpr void GlobalNamespace::BeatmapDataItem::__set__executionOrder_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____executionOrder_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapDataItem::__get_subtypeIdentifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeIdentifier;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapDataItem::__get_subtypeIdentifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeIdentifier;
 }
 constexpr void GlobalNamespace::BeatmapDataItem::__set_subtypeIdentifier(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___subtypeIdentifier = value;
 }
 constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType& GlobalNamespace::BeatmapDataItem::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType const& GlobalNamespace::BeatmapDataItem::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void GlobalNamespace::BeatmapDataItem::__set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 inline float_t GlobalNamespace::BeatmapDataItem::get_time() {

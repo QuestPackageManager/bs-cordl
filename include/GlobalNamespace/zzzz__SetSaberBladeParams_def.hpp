@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SetSaberBladeParams)
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace GlobalNamespace {
 class ColorManager;
 }
@@ -19,6 +16,9 @@ class SaberTypeObject;
 }
 namespace GlobalNamespace {
 class __SetSaberBladeParams__PropertyTintColorPair;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5304))
 // CS Name: ::SetSaberBladeParams::PropertyTintColorPair*
 class CORDL_TYPE __SetSaberBladeParams__PropertyTintColorPair : public ::System::Object {

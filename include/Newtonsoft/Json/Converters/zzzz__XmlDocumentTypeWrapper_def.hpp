@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XmlDocumentTypeWrapper)
 namespace Newtonsoft::Json::Converters {
 class IXmlDocumentType;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml {
 class XmlDocumentType;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

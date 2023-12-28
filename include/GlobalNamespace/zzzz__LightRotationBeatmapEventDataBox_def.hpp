@@ -11,7 +11,13 @@ namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
+class IndexFilter;
+}
+namespace GlobalNamespace {
 struct LightAxis;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class LightRotationBaseData;
@@ -20,19 +26,13 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace GlobalNamespace {
-class IndexFilter;
+class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

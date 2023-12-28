@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding_def.hpp"
-#include "System/Xml/zzzz__Ucs4Decoder_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Xml/zzzz__Ucs4Decoder_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ucs4Encoding.get_WebName
 template <>
 
@@ -230,15 +230,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Ucs4Decoder*& System::Xml::Ucs4Encoding::__get_ucs4Decoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ucs4Decoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Ucs4Decoder*> const& System::Xml::Ucs4Encoding::__get_ucs4Decoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ucs4Decoder;
 }
 constexpr void System::Xml::Ucs4Encoding::__set_ucs4Decoder(::System::Xml::Ucs4Decoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ucs4Decoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW System::Xml::Ucs4Encoding::get_WebName() {

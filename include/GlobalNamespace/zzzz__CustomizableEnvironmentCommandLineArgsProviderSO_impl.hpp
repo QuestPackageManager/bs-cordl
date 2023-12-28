@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomizableEnvironmentCommandLineArgsProviderSO_def.hpp"
-#include "GlobalNamespace/zzzz__ICommandLineArgsProvider_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentCommandLineArgsProvider_def.hpp"
+#include "GlobalNamespace/zzzz__ICommandLineArgsProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO.GetCommandLineArgs
 template <>
 
@@ -38,39 +38,39 @@ constexpr GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::ope
   return static_cast<::GlobalNamespace::ICommandLineArgsProvider*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useCustomCommandLineArgs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomCommandLineArgs;
 }
 constexpr bool const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useCustomCommandLineArgs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomCommandLineArgs;
 }
 constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__useCustomCommandLineArgs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useCustomCommandLineArgs = value;
 }
 constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useEnvironmentCommandLineArgs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useEnvironmentCommandLineArgs;
 }
 constexpr bool const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useEnvironmentCommandLineArgs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useEnvironmentCommandLineArgs;
 }
 constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__useEnvironmentCommandLineArgs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useEnvironmentCommandLineArgs = value;
 }
 constexpr ::StringW& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__customCommandLineArgs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customCommandLineArgs;
 }
 constexpr ::StringW const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__customCommandLineArgs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customCommandLineArgs;
 }
 constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__customCommandLineArgs(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customCommandLineArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::setStaticF__environmentCommandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value) {

@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PreviewBeatmapLevelPackSO)
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelCollectionSO;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewBeatmapLevelPackSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4404))
 // CS Name: ::PreviewBeatmapLevelPackSO*
 class CORDL_TYPE PreviewBeatmapLevelPackSO : public ::GlobalNamespace::PersistentScriptableObject {

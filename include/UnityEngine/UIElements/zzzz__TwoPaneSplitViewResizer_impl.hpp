@@ -3,12 +3,12 @@
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewOrientation_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewResizer_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewOrientation_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitViewResizer.get_fixedPane
 template <>
 
@@ -175,63 +175,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Start;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Start;
 }
 constexpr void UnityEngine::UIElements::TwoPaneSplitViewResizer::__set_m_Start(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Start = value;
 }
 constexpr bool& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Active() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Active;
 }
 constexpr bool const& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Active() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Active;
 }
 constexpr void UnityEngine::UIElements::TwoPaneSplitViewResizer::__set_m_Active(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Active = value;
 }
 constexpr ::UnityEngine::UIElements::TwoPaneSplitView*& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_SplitView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SplitView;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TwoPaneSplitView*> const& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_SplitView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SplitView;
 }
 constexpr void UnityEngine::UIElements::TwoPaneSplitViewResizer::__set_m_SplitView(::UnityEngine::UIElements::TwoPaneSplitView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SplitView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Direction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
 constexpr int32_t const& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Direction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
 constexpr void UnityEngine::UIElements::TwoPaneSplitViewResizer::__set_m_Direction(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Direction = value;
 }
 constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Orientation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Orientation;
 }
 constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation const& UnityEngine::UIElements::TwoPaneSplitViewResizer::__get_m_Orientation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Orientation;
 }
 constexpr void UnityEngine::UIElements::TwoPaneSplitViewResizer::__set_m_Orientation(::UnityEngine::UIElements::TwoPaneSplitViewOrientation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Orientation = value;
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TwoPaneSplitViewResizer::get_fixedPane() {

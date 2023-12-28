@@ -9,16 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerRequestUriBuilder)
 namespace System::Text {
-class Encoding;
-}
-namespace System {
-class Uri;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
+class StringBuilder;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -26,11 +17,20 @@ template <typename T> class IEnumerable_1;
 namespace System::Net {
 struct __HttpListenerRequestUriBuilder__EncodingType;
 }
+namespace System {
+class Object;
+}
 namespace System::Text {
-class StringBuilder;
+class Encoding;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net {
 struct __HttpListenerRequestUriBuilder__ParsingResult;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {

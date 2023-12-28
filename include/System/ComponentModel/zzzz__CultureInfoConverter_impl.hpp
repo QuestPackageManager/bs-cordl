@@ -2,12 +2,12 @@
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
-#include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::__CultureInfoConverter__CultureComparer._ctor
@@ -46,15 +46,15 @@ constexpr System::ComponentModel::__CultureInfoConverter__CultureComparer::opera
   return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
 }
 constexpr ::System::ComponentModel::CultureInfoConverter*& System::ComponentModel::__CultureInfoConverter__CultureComparer::__get__converter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____converter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CultureInfoConverter*> const& System::ComponentModel::__CultureInfoConverter__CultureComparer::__get__converter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____converter;
 }
 constexpr void System::ComponentModel::__CultureInfoConverter__CultureComparer::__set__converter(::System::ComponentModel::CultureInfoConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____converter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::ComponentModel::__CultureInfoConverter__CultureComparer*
@@ -286,15 +286,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection*& System::ComponentModel::CultureInfoConverter::__get__values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____values;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeConverter__StandardValuesCollection*> const& System::ComponentModel::CultureInfoConverter::__get__values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____values;
 }
 constexpr void System::ComponentModel::CultureInfoConverter::__set__values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW System::ComponentModel::CultureInfoConverter::get_DefaultCultureString() {

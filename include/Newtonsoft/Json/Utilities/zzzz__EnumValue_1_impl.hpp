@@ -2,27 +2,27 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumValue_1_def.hpp"
 template <typename T> constexpr ::StringW& Newtonsoft::Json::Utilities::EnumValue_1<T>::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 template <typename T> constexpr ::StringW const& Newtonsoft::Json::Utilities::EnumValue_1<T>::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::EnumValue_1<T>::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& Newtonsoft::Json::Utilities::EnumValue_1<T>::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr T const& Newtonsoft::Json::Utilities::EnumValue_1<T>::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::EnumValue_1<T>::__set__value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::StringW Newtonsoft::Json::Utilities::EnumValue_1<T>::get_Name() {

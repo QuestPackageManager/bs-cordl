@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "GlobalNamespace/zzzz__TubeLightIntensityBehaviour_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "GlobalNamespace/zzzz__TubeLightIntensityBehaviour_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TubeLightIntensityAsset.get_clipCaps
 template <>
 
@@ -54,15 +54,15 @@ constexpr GlobalNamespace::TubeLightIntensityAsset::operator ::UnityEngine::Time
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::TubeLightIntensityBehaviour*& GlobalNamespace::TubeLightIntensityAsset::__get__template() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeLightIntensityBehaviour*> const& GlobalNamespace::TubeLightIntensityAsset::__get__template() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
 constexpr void GlobalNamespace::TubeLightIntensityAsset::__set__template(::GlobalNamespace::TubeLightIntensityBehaviour* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::TubeLightIntensityAsset::get_clipCaps() {

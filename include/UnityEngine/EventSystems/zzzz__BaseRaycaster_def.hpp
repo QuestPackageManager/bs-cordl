@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRaycaster)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

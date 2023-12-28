@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingSpriteSpawner)
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class __FlyingSpriteEffect__Pool;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
-}
 namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace UnityEngine {
-class Sprite;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

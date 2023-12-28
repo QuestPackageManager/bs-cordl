@@ -73,27 +73,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LightmapDataSO*& GlobalNamespace::BakedLightDataLoader::__get__lightmapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightmapDataSO*> const& GlobalNamespace::BakedLightDataLoader::__get__lightmapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapData;
 }
 constexpr void GlobalNamespace::BakedLightDataLoader::__set__lightmapData(::GlobalNamespace::LightmapDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Texture2D*& GlobalNamespace::BakedLightDataLoader::__get__blackTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blackTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& GlobalNamespace::BakedLightDataLoader::__get__blackTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blackTexture;
 }
 constexpr void GlobalNamespace::BakedLightDataLoader::__set__blackTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blackTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BakedLightDataLoader::setStaticF__lightMap1PropertyId(int32_t value) {

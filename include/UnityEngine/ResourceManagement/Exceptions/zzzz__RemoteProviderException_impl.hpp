@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__RemoteProviderException_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__UnityWebRequestResult_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException._ctor
 template <>
 
@@ -71,16 +71,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*& UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__get__WebRequestResult_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WebRequestResult_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> const&
 UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__get__WebRequestResult_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WebRequestResult_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__set__WebRequestResult_k__BackingField(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____WebRequestResult_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param location: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)

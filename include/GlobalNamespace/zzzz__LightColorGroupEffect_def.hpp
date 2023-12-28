@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightColorGroupEffect)
-namespace Tweening {
-class FloatTween;
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace GlobalNamespace {
-class LightColorBeatmapEventData;
+class LightWithIdManager;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class IBpmController;
@@ -19,26 +22,23 @@ class IBpmController;
 namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
-namespace GlobalNamespace {
-class __LightColorGroupEffect__InitData;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
+namespace UnityEngine {
+struct Color;
 }
 namespace Tweening {
-class SongTimeTweeningManager;
+class FloatTween;
+}
+namespace GlobalNamespace {
+class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class __LightColorGroupEffect__InitData;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,7 +125,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightColorGro
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
 // CS Name: ::LightColorGroupEffect*
 class CORDL_TYPE LightColorGroupEffect : public ::System::Object {

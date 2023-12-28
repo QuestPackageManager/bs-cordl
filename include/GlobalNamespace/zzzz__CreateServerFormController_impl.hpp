@@ -46,27 +46,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& GlobalNamespace::CreateServerFormController::__get__maxPlayersList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPlayersList;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& GlobalNamespace::CreateServerFormController::__get__maxPlayersList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPlayersList;
 }
 constexpr void GlobalNamespace::CreateServerFormController::__set__maxPlayersList(::GlobalNamespace::FormattedFloatListSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maxPlayersList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::CreateServerFormController::__get__netDiscoverable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netDiscoverable;
 }
 constexpr bool const& GlobalNamespace::CreateServerFormController::__get__netDiscoverable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____netDiscoverable;
 }
 constexpr void GlobalNamespace::CreateServerFormController::__set__netDiscoverable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____netDiscoverable = value;
 }
 inline ::GlobalNamespace::CreateServerFormData GlobalNamespace::CreateServerFormController::get_formData() {

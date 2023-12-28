@@ -9,31 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementFocusRing)
 namespace UnityEngine::UIElements {
-class IFocusRing;
-}
-namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class IFocusRing;
 }
 namespace UnityEngine::UIElements {
-class __VisualElementFocusRing__FocusRingRecord;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class __VisualElementFocusRing__FocusRingRecord;
+}
+namespace UnityEngine::UIElements {
+class Focusable;
 }
 namespace UnityEngine::UIElements {
 struct __VisualElementFocusRing__DefaultFocusOrder;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class EventBase;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -190,7 +190,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6795)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6795))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6797))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusRing*
 class CORDL_TYPE VisualElementFocusRing : public ::System::Object {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementPanelActivator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElementPanelActivator.get_isActive
 template <>
 
@@ -151,39 +151,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable*& UnityEngine::UIElements::VisualElementPanelActivator::__get_m_Activatable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Activatable;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementPanelActivatable*> const& UnityEngine::UIElements::VisualElementPanelActivator::__get_m_Activatable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Activatable;
 }
 constexpr void UnityEngine::UIElements::VisualElementPanelActivator::__set_m_Activatable(::UnityEngine::UIElements::IVisualElementPanelActivatable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Activatable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::UIElements::VisualElementPanelActivator::__get__isActive_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActive_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::VisualElementPanelActivator::__get__isActive_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActive_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::VisualElementPanelActivator::__set__isActive_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isActive_k__BackingField = value;
 }
 constexpr bool& UnityEngine::UIElements::VisualElementPanelActivator::__get__isDetaching_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDetaching_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::VisualElementPanelActivator::__get__isDetaching_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDetaching_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::VisualElementPanelActivator::__set__isDetaching_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDetaching_k__BackingField = value;
 }
 inline bool UnityEngine::UIElements::VisualElementPanelActivator::get_isActive() {

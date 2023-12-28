@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogateSelector_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogate_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector._ctor
 template <>
 
@@ -45,15 +45,15 @@ constexpr System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::opera
   return static_cast<::System::Runtime::Serialization::ISurrogateSelector*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Serialization::ISurrogateSelector*& System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__get__next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__get__next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr void System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__set__next(::System::Runtime::Serialization::ISurrogateSelector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::setStaticF_s_cachedTypeObjRef(::System::Type* value) {

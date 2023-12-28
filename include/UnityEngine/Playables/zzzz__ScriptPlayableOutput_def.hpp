@@ -13,10 +13,10 @@ namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct PlayableOutputHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+struct PlayableOutput;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

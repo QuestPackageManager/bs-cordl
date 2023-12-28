@@ -3,8 +3,8 @@
 #include "Mono/Security/Interface/zzzz__AlertLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Interface/zzzz__Alert_def.hpp"
-#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertLevel_def.hpp"
+#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Interface::Alert.get_Level
 template <>
 
@@ -76,27 +76,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Security::Interface::AlertLevel& Mono::Security::Interface::Alert::__get_level() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
 constexpr ::Mono::Security::Interface::AlertLevel const& Mono::Security::Interface::Alert::__get_level() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
 constexpr void Mono::Security::Interface::Alert::__set_level(::Mono::Security::Interface::AlertLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___level = value;
 }
 constexpr ::Mono::Security::Interface::AlertDescription& Mono::Security::Interface::Alert::__get_description() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___description;
 }
 constexpr ::Mono::Security::Interface::AlertDescription const& Mono::Security::Interface::Alert::__get_description() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___description;
 }
 constexpr void Mono::Security::Interface::Alert::__set_description(::Mono::Security::Interface::AlertDescription value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___description = value;
 }
 inline ::Mono::Security::Interface::AlertLevel Mono::Security::Interface::Alert::get_Level() {

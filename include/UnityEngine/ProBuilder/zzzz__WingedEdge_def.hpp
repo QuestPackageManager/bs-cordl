@@ -8,41 +8,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WingedEdge)
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 class __WingedEdge____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class __WingedEdge____c__DisplayClass32_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-class __WingedEdge____c__DisplayClass32_0;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
+struct Edge;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -7,26 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityEventBase)
-namespace UnityEngine::Events {
-struct PersistentListenerMode;
-}
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
-namespace UnityEngine::Events {
-class InvokableCallList;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::Events {
 class PersistentCallGroup;
+}
+namespace UnityEngine::Events {
+class InvokableCallList;
+}
+namespace UnityEngine::Events {
+struct PersistentListenerMode;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -35,7 +32,10 @@ namespace UnityEngine::Events {
 class PersistentCall;
 }
 namespace System {
-class Object;
+class Type;
+}
+namespace UnityEngine::Events {
+class BaseInvokableCall;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

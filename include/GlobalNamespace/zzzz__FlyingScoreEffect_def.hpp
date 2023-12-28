@@ -8,27 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlyingScoreEffect)
-namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
-}
-namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
-}
-namespace GlobalNamespace {
-class CutScoreBuffer;
-}
-namespace TMPro {
-class TextMeshPro;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class __FlyingScoreEffect__Pool;
 }
@@ -37,6 +16,27 @@ struct Vector3;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace TMPro {
+class TextMeshPro;
+}
+namespace GlobalNamespace {
+class ICutScoreBufferDidChangeReceiver;
+}
+namespace GlobalNamespace {
+class ICutScoreBufferDidFinishReceiver;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace GlobalNamespace {
+class CutScoreBuffer;
+}
+namespace GlobalNamespace {
+class IReadonlyCutScoreBuffer;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreEffect__Pool);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4852))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4854))
 // CS Name: ::FlyingScoreEffect*
 class CORDL_TYPE FlyingScoreEffect : public ::GlobalNamespace::FlyingObjectEffect {
@@ -197,8 +197,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreEffe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2811 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4854))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4853)) CS Name: ::FlyingScoreEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2811 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4853)) CS Name: ::FlyingScoreEffect::Pool*
 class CORDL_TYPE __FlyingScoreEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
 public:
   // Declarations

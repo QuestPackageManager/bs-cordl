@@ -2,11 +2,11 @@
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatarAdapterInstallerSO_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
-#include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatarSystemSettings_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__BeatAvatarEditorViewController_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModelSO_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarColorViewController_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModelSO_def.hpp"
+#include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatarSystemSettings_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO.InstallBindings
 template <>
 
@@ -55,65 +55,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__avatarPartsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPartsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*> const& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__avatarPartsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPartsModel;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarPartsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::SkinColorSetSO*& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__skinColorSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinColorSet;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::SkinColorSetSO*> const& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__skinColorSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinColorSet;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__set__skinColorSet(::BeatSaber::BeatAvatarSDK::SkinColorSetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skinColorSet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*> const& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__set__settings(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__beatAvatarEditorViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatAvatarEditorViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*> const&
 BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__beatAvatarEditorViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatAvatarEditorViewController;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__set__beatAvatarEditorViewController(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatAvatarEditorViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController*& BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__editAvatarColorView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editAvatarColorView;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController*> const&
 BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__get__editAvatarColorView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editAvatarColorView;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::__set__editAvatarColorView(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____editAvatarColorView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::InstallBindings() {

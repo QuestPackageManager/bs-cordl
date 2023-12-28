@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::OnRemoveWriter._ctor
 template <>
 

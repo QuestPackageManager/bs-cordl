@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
 }
 namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

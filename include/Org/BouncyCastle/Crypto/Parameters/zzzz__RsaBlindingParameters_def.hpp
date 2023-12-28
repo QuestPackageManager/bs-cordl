@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(RsaBlindingParameters)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

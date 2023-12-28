@@ -2,39 +2,39 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
 template <typename TPriority> constexpr TPriority& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__get__Priority_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Priority_k__BackingField;
 }
 template <typename TPriority> constexpr TPriority const& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__get__Priority_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Priority_k__BackingField;
 }
 template <typename TPriority> constexpr void Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__set__Priority_k__BackingField(TPriority value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Priority_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TPriority> constexpr int32_t& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__get__QueueIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____QueueIndex_k__BackingField;
 }
 template <typename TPriority> constexpr int32_t const& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__get__QueueIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____QueueIndex_k__BackingField;
 }
 template <typename TPriority> constexpr void Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__set__QueueIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____QueueIndex_k__BackingField = value;
 }
 template <typename TPriority> constexpr int64_t& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__get__InsertionIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InsertionIndex_k__BackingField;
 }
 template <typename TPriority> constexpr int64_t const& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__get__InsertionIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InsertionIndex_k__BackingField;
 }
 template <typename TPriority> constexpr void Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__set__InsertionIndex_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____InsertionIndex_k__BackingField = value;
 }
 template <typename TPriority> inline TPriority Priority_Queue::GenericPriorityQueueNode_1<TPriority>::get_Priority() {

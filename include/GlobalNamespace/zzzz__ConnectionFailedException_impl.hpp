@@ -35,15 +35,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ConnectionFailedReason& GlobalNamespace::ConnectionFailedException::__get_reason() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reason;
 }
 constexpr ::GlobalNamespace::ConnectionFailedReason const& GlobalNamespace::ConnectionFailedException::__get_reason() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reason;
 }
 constexpr void GlobalNamespace::ConnectionFailedException::__set_reason(::GlobalNamespace::ConnectionFailedReason value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reason = value;
 }
 inline ::GlobalNamespace::ConnectionFailedException* GlobalNamespace::ConnectionFailedException::New_ctor(::GlobalNamespace::ConnectionFailedReason reason) {

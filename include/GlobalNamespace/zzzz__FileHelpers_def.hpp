@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileHelpers)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

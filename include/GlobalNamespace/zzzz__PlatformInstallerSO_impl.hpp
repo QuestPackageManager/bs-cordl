@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstallerSO_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlatformInstallerSO.InstallBindings
 template <>
 
@@ -33,64 +33,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AppInitSetupData*& GlobalNamespace::PlatformInstallerSO::__get__setupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitSetupData*> const& GlobalNamespace::PlatformInstallerSO::__get__setupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setupData;
 }
 constexpr void GlobalNamespace::PlatformInstallerSO::__set__setupData(::GlobalNamespace::AppInitSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____setupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SonyAchievementIdsModelSO*& GlobalNamespace::PlatformInstallerSO::__get__ps4AchievementIdsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4AchievementIdsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyAchievementIdsModelSO*> const& GlobalNamespace::PlatformInstallerSO::__get__ps4AchievementIdsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4AchievementIdsModel;
 }
 constexpr void GlobalNamespace::PlatformInstallerSO::__set__ps4AchievementIdsModel(::GlobalNamespace::SonyAchievementIdsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4AchievementIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SonyAchievementIdsModelSO*& GlobalNamespace::PlatformInstallerSO::__get__ps5AchievementIdsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5AchievementIdsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyAchievementIdsModelSO*> const& GlobalNamespace::PlatformInstallerSO::__get__ps5AchievementIdsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5AchievementIdsModel;
 }
 constexpr void GlobalNamespace::PlatformInstallerSO::__set__ps5AchievementIdsModel(::GlobalNamespace::SonyAchievementIdsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5AchievementIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AchievementIdsModelSO*& GlobalNamespace::PlatformInstallerSO::__get__achievementIdsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementIdsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementIdsModelSO*> const& GlobalNamespace::PlatformInstallerSO::__get__achievementIdsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementIdsModel;
 }
 constexpr void GlobalNamespace::PlatformInstallerSO::__set__achievementIdsModel(::GlobalNamespace::AchievementIdsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*& GlobalNamespace::PlatformInstallerSO::__get__mockPlatformAdditionalContentModelInitialData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mockPlatformAdditionalContentModelInitialData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*> const&
 GlobalNamespace::PlatformInstallerSO::__get__mockPlatformAdditionalContentModelInitialData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mockPlatformAdditionalContentModelInitialData;
 }
 constexpr void GlobalNamespace::PlatformInstallerSO::__set__mockPlatformAdditionalContentModelInitialData(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mockPlatformAdditionalContentModelInitialData)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::InteropServices::CallingConvention& System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__get_m_callingConvention() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_callingConvention;
 }
 constexpr ::System::Runtime::InteropServices::CallingConvention const& System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__get_m_callingConvention() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_callingConvention;
 }
 constexpr void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_callingConvention = value;
 }
 inline ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*

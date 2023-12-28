@@ -80,15 +80,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::CallbackRunner::__get_IsPersistantBetweenSceneLoads() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsPersistantBetweenSceneLoads;
 }
 constexpr bool const& Oculus::Platform::CallbackRunner::__get_IsPersistantBetweenSceneLoads() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsPersistantBetweenSceneLoads;
 }
 constexpr void Oculus::Platform::CallbackRunner::__set_IsPersistantBetweenSceneLoads(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsPersistantBetweenSceneLoads = value;
 }
 inline void Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform() {

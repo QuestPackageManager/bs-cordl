@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(Lexer)
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace System {
-struct DateTimeOffset;
-}
 namespace System::Net::Http::Headers {
 struct Token;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

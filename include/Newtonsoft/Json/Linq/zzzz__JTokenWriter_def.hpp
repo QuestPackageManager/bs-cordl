@@ -8,26 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JTokenWriter)
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace System {
 struct Guid;
 }
 namespace System {
 struct DateTimeOffset;
 }
-namespace System {
-struct TimeSpan;
-}
-namespace Newtonsoft::Json::Linq {
-class JValue;
+namespace Newtonsoft::Json {
+struct JsonToken;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace Newtonsoft::Json {
-struct JsonToken;
+namespace System {
+struct DateTime;
 }
 namespace System {
 class Object;
@@ -35,11 +29,17 @@ class Object;
 namespace System {
 struct Decimal;
 }
+namespace Newtonsoft::Json::Linq {
+class JValue;
+}
 namespace System {
 class Uri;
 }
+namespace Newtonsoft::Json {
+class JsonReader;
+}
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 namespace Newtonsoft::Json::Linq {
 class JContainer;

@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueFixup)
+namespace System {
+class Object;
+}
 namespace System::Reflection {
 class MemberInfo;
 }
@@ -16,9 +19,6 @@ class ReadObjectInfo;
 }
 namespace System {
 class Array;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ValueFixup)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3254)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3254))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3296))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ValueFixup*
 class CORDL_TYPE ValueFixup : public ::System::Object {

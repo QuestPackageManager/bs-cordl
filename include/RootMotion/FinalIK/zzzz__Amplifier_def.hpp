@@ -13,9 +13,6 @@ namespace RootMotion::FinalIK {
 class __Amplifier__Body;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
@@ -23,6 +20,9 @@ class __Amplifier__Body__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

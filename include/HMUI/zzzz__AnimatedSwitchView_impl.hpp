@@ -5,15 +5,15 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
+#include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
-#include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: ::HMUI::__AnimatedSwitchView__ColorBlock._ctor
 template <>
 
@@ -28,75 +28,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__get_knobColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor;
 }
 constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__get_knobColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor;
 }
 constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__set_knobColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___knobColor = value;
 }
 constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__get_knobColor0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor0;
 }
 constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__get_knobColor0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor0;
 }
 constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__set_knobColor0(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___knobColor0 = value;
 }
 constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__get_knobColor1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor1;
 }
 constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__get_knobColor1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___knobColor1;
 }
 constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__set_knobColor1(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___knobColor1 = value;
 }
 constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__get_backgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor;
 }
 constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__get_backgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor;
 }
 constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__set_backgroundColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backgroundColor = value;
 }
 constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__get_backgroundColor0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor0;
 }
 constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__get_backgroundColor0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor0;
 }
 constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__set_backgroundColor0(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backgroundColor0 = value;
 }
 constexpr ::UnityEngine::Color& HMUI::__AnimatedSwitchView__ColorBlock::__get_backgroundColor1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor1;
 }
 constexpr ::UnityEngine::Color const& HMUI::__AnimatedSwitchView__ColorBlock::__get_backgroundColor1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor1;
 }
 constexpr void HMUI::__AnimatedSwitchView__ColorBlock::__set_backgroundColor1(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___backgroundColor1 = value;
 }
 inline ::HMUI::__AnimatedSwitchView__ColorBlock* HMUI::__AnimatedSwitchView__ColorBlock::New_ctor() {
@@ -577,267 +577,267 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RectTransform*& HMUI::AnimatedSwitchView::__get__knobRectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____knobRectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& HMUI::AnimatedSwitchView::__get__knobRectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____knobRectTransform;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__knobRectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____knobRectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ImageView*& HMUI::AnimatedSwitchView::__get__backgroundImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& HMUI::AnimatedSwitchView::__get__backgroundImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundImage;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__backgroundImage(::HMUI::ImageView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backgroundImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ImageView*& HMUI::AnimatedSwitchView::__get__knobImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____knobImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& HMUI::AnimatedSwitchView::__get__knobImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____knobImage;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__knobImage(::HMUI::ImageView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____knobImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshProUGUI*& HMUI::AnimatedSwitchView::__get__onText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onText;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& HMUI::AnimatedSwitchView::__get__onText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onText;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__onText(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TextMeshProUGUI*& HMUI::AnimatedSwitchView::__get__offText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offText;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& HMUI::AnimatedSwitchView::__get__offText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offText;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__offText(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__switchAnimationSmooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____switchAnimationSmooth;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__switchAnimationSmooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____switchAnimationSmooth;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__switchAnimationSmooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____switchAnimationSmooth = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__disableAnimationDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableAnimationDuration;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__disableAnimationDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableAnimationDuration;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__disableAnimationDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disableAnimationDuration = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__highlightAnimationDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightAnimationDuration;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__highlightAnimationDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightAnimationDuration;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__highlightAnimationDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightAnimationDuration = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__horizontalStretchAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____horizontalStretchAmount;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__horizontalStretchAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____horizontalStretchAmount;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__horizontalStretchAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____horizontalStretchAmount = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__verticalStretchAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalStretchAmount;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__verticalStretchAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____verticalStretchAmount;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__verticalStretchAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____verticalStretchAmount = value;
 }
 constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__get__onColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onColors;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__get__onColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onColors;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__onColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__get__offColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offColors;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__get__offColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offColors;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__offColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__get__onHighlightedColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onHighlightedColors;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__get__onHighlightedColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onHighlightedColors;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__onHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onHighlightedColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__get__offHighlightedColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offHighlightedColors;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__get__offHighlightedColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offHighlightedColors;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__offHighlightedColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____offHighlightedColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__AnimatedSwitchView__ColorBlock*& HMUI::AnimatedSwitchView::__get__disabledColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledColors;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::__AnimatedSwitchView__ColorBlock*> const& HMUI::AnimatedSwitchView::__get__disabledColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledColors;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__disabledColors(::HMUI::__AnimatedSwitchView__ColorBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disabledColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::__AnimatedSwitchView__AnimationState& HMUI::AnimatedSwitchView::__get__animationState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationState;
 }
 constexpr ::HMUI::__AnimatedSwitchView__AnimationState const& HMUI::AnimatedSwitchView::__get__animationState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationState;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__animationState(::HMUI::__AnimatedSwitchView__AnimationState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____animationState = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__switchAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____switchAmount;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__switchAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____switchAmount;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__switchAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____switchAmount = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__highlightAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightAmount;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__highlightAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightAmount;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__highlightAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightAmount = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__disabledAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAmount;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__disabledAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAmount;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__disabledAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledAmount = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__originalKnobWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalKnobWidth;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__originalKnobWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalKnobWidth;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__originalKnobWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalKnobWidth = value;
 }
 constexpr float_t& HMUI::AnimatedSwitchView::__get__originalKnobHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalKnobHeight;
 }
 constexpr float_t const& HMUI::AnimatedSwitchView::__get__originalKnobHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalKnobHeight;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__originalKnobHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalKnobHeight = value;
 }
 constexpr ::HMUI::ToggleWithCallbacks*& HMUI::AnimatedSwitchView::__get__toggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleWithCallbacks*> const& HMUI::AnimatedSwitchView::__get__toggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
 constexpr void HMUI::AnimatedSwitchView::__set__toggle(::HMUI::ToggleWithCallbacks* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::AnimatedSwitchView::Awake() {

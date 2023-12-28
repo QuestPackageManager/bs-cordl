@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(PgpEncryptedDataList)
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpEncryptedData;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpEncryptedData;
 }
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

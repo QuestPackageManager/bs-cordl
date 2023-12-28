@@ -37,63 +37,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__audioTimeSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__audioTimeSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__gravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__gravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
 constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__set__gravity(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gravity = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__normalizedGravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalizedGravity;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__normalizedGravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalizedGravity;
 }
 constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__set__normalizedGravity(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalizedGravity = value;
 }
 constexpr ::GlobalNamespace::BezierSplineEvaluator*& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__bezierSplineEvaluator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierSplineEvaluator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__bezierSplineEvaluator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierSplineEvaluator;
 }
 constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__set__bezierSplineEvaluator(::GlobalNamespace::BezierSplineEvaluator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bezierSplineEvaluator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__currentAcceleration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentAcceleration;
 }
 constexpr float_t const& GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__currentAcceleration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentAcceleration;
 }
 constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__set__currentAcceleration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentAcceleration = value;
 }
 inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,

@@ -6,36 +6,6 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PracticeViewController)
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace HMUI {
-class RangeValuesTextSlider;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
 namespace HMUI {
 class TimeSlider;
 }
@@ -43,7 +13,37 @@ namespace HMUI {
 class PercentSlider;
 }
 namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace HMUI {
+class RangeValuesTextSlider;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
 class LevelBar;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class PerceivedLoudnessPerLevelModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PracticeViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5731))
 // CS Name: ::PracticeViewController*
 class CORDL_TYPE PracticeViewController : public ::HMUI::ViewController {

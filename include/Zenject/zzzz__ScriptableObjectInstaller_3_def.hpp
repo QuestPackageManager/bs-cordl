@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ScriptableObjectInstaller_3)
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X25519Agreement)
 namespace Org::BouncyCastle::Crypto {
-class IRawAgreement;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class X25519PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IRawAgreement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

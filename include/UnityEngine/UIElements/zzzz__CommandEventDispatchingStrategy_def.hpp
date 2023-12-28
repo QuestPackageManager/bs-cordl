@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CommandEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class EventBase;
+class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class IPanel;

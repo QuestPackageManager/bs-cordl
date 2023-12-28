@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IPInterfaceProperties)
 namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
+class UnicastIPAddressInformationCollection;
 }
 namespace System::Net::NetworkInformation {
-class UnicastIPAddressInformationCollection;
+class GatewayIPAddressInformationCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

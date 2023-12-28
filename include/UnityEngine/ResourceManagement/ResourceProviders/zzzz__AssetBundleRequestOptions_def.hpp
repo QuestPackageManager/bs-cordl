@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleRequestOptions)
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class ILocationSizeData;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct AssetLoadMode;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 75, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13989))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13989)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13991))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleRequestOptions*
 class CORDL_TYPE AssetBundleRequestOptions : public ::System::Object {

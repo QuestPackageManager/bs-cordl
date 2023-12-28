@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_def.hpp"
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightRenderer)
 namespace UnityEngine {
-class Transform;
+class Renderer;
 }
 namespace UnityEngine {
-class Renderer;
+class Transform;
 }
 namespace UnityEngine {
 class MeshFilter;

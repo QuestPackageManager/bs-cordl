@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PresentHiddenSettingsAfterNClicks)
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
 class SettingsFlowCoordinator;
 }
 namespace HMUI {
-class ButtonBinder;
-}
-namespace HMUI {
 class ViewController;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

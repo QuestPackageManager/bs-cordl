@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UserAttributeSubpacketsParser)
-namespace Org::BouncyCastle::Bcpg {
-class UserAttributeSubpacket;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class UserAttributeSubpacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

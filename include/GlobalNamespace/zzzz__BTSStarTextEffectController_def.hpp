@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BTSStarTextEffectController)
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
 class SpriteRenderer;
+}
+namespace GlobalNamespace {
+class __BTSStarTextEffectController__Pool;
 }
 namespace UnityEngine {
 class Animation;
 }
 namespace UnityEngine {
-class Transform;
+class Sprite;
 }
-namespace GlobalNamespace {
-class __BTSStarTextEffectController__Pool;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -133,9 +133,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSStarTextEffe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11053), inst:
-// 3514 }), TypeDefinitionIndex(TypeDefinitionIndex(3979)), TypeDefinitionIndex(TypeDefinitionIndex(11053))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3978)) CS Name:
-// ::BTSStarTextEffectController::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11053), inst: 3514 }), TypeDefinitionIndex(TypeDefinitionIndex(11053)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(3979))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(3978)) CS Name: ::BTSStarTextEffectController::Pool*
 class CORDL_TYPE __BTSStarTextEffectController__Pool : public ::Zenject::MonoMemoryPool_4<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float_t, ::GlobalNamespace::BTSStarTextEffectController*> {
 public:
   // Declarations

@@ -9,19 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeStyleUpdaterTraversal)
 namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct SelectorMatchRecord;
-}
-namespace UnityEngine::UIElements {
 class StyleVariableContext;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class StyleMatchingContext;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyReader;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResultInfo;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
@@ -29,26 +32,23 @@ struct VersionChangeType;
 namespace UnityEngine::UIElements {
 class StyleRule;
 }
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
 namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResultInfo;
+struct SelectorMatchRecord;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct ComputedStyle;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine::UIElements {
 class __VisualTreeStyleUpdaterTraversal____c;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyReader;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace System {
 template <typename T> class Comparison_1;

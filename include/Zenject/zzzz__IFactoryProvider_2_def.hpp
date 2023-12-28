@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__IFactoryProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IFactoryProvider_2)
-namespace System {
-class Object;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 namespace System {
 class Action;
 }
 namespace System {
 struct Guid;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

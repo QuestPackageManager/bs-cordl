@@ -3,15 +3,15 @@
 #include "Zenject/zzzz__ArrayPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 template <typename T> constexpr int32_t& Zenject::ArrayPool_1<T>::__get__length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 template <typename T> constexpr int32_t const& Zenject::ArrayPool_1<T>::__get__length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 template <typename T> constexpr void Zenject::ArrayPool_1<T>::__set__length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length = value;
 }
 template <typename T> inline void Zenject::ArrayPool_1<T>::setStaticF__pools(::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* value) {

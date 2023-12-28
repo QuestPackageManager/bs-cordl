@@ -20,51 +20,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Mono::Globalization::Unicode::Contraction::__get_Index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Index;
 }
 constexpr int32_t const& Mono::Globalization::Unicode::Contraction::__get_Index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Index;
 }
 constexpr void Mono::Globalization::Unicode::Contraction::__set_Index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Index = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Mono::Globalization::Unicode::Contraction::__get_Source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Source;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Mono::Globalization::Unicode::Contraction::__get_Source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Source;
 }
 constexpr void Mono::Globalization::Unicode::Contraction::__set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Globalization::Unicode::Contraction::__get_Replacement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Replacement;
 }
 constexpr ::StringW const& Mono::Globalization::Unicode::Contraction::__get_Replacement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Replacement;
 }
 constexpr void Mono::Globalization::Unicode::Contraction::__set_Replacement(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Replacement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Globalization::Unicode::Contraction::__get_SortKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SortKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Globalization::Unicode::Contraction::__get_SortKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SortKey;
 }
 constexpr void Mono::Globalization::Unicode::Contraction::__set_SortKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SortKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Globalization::Unicode::Contraction* Mono::Globalization::Unicode::Contraction::New_ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement,

@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Crl)
-namespace System::Collections {
-class ArrayList;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
-}
 namespace System::Security::Cryptography {
 class DSA;
 }
 namespace Mono::Security::X509 {
 class X509ExtensionCollection;
 }
-namespace System {
-struct DateTime;
+namespace System::Collections {
+class ArrayList;
 }
 namespace Mono::Security::X509 {
 class __X509Crl__X509CrlEntry;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class RSA;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
 }
 namespace Mono::Security {
 class ASN1;

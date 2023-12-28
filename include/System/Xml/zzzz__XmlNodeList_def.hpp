@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNodeList)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Xml {

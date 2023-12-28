@@ -1,21 +1,21 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlLoader_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
-#include "System/Xml/zzzz__XmlDeclaration_def.hpp"
+#include "System/Xml/zzzz__XmlDocumentType_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/zzzz__XmlElement_def.hpp"
-#include "System/Xml/zzzz__XmlReader_def.hpp"
-#include "System/Xml/zzzz__XmlParserContext_def.hpp"
-#include "System/Xml/zzzz__XmlEntityReference_def.hpp"
-#include "System/Xml/zzzz__XmlAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlDocumentType_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlEntity_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlAttribute_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlEntityReference_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__XmlParserContext_def.hpp"
+#include "System/Xml/zzzz__XmlDeclaration_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlLoader._ctor
 template <>
 
@@ -403,39 +403,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlDocument*& System::Xml::XmlLoader::__get_doc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doc;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& System::Xml::XmlLoader::__get_doc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doc;
 }
 constexpr void System::Xml::XmlLoader::__set_doc(::System::Xml::XmlDocument* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___doc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlReader*& System::Xml::XmlLoader::__get_reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::XmlLoader::__get_reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr void System::Xml::XmlLoader::__set_reader(::System::Xml::XmlReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlLoader::__get_preserveWhitespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preserveWhitespace;
 }
 constexpr bool const& System::Xml::XmlLoader::__get_preserveWhitespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preserveWhitespace;
 }
 constexpr void System::Xml::XmlLoader::__set_preserveWhitespace(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___preserveWhitespace = value;
 }
 inline ::System::Xml::XmlLoader* System::Xml::XmlLoader::New_ctor() {

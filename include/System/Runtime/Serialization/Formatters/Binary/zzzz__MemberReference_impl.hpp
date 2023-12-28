@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::MemberReference._ctor
 template <>
 
@@ -79,15 +79,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::MemberReference::__get_idRef() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idRef;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::MemberReference::__get_idRef() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idRef;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::MemberReference::__set_idRef(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___idRef = value;
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::MemberReference* System::Runtime::Serialization::Formatters::Binary::MemberReference::New_ctor() {

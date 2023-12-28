@@ -47,39 +47,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::TubeBloomPrePassLight*& GlobalNamespace::TubeBloomPrePassLightWithId::__get__tubeBloomPrePassLight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tubeBloomPrePassLight;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& GlobalNamespace::TubeBloomPrePassLightWithId::__get__tubeBloomPrePassLight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tubeBloomPrePassLight;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tubeBloomPrePassLight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setOnlyOnce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setOnlyOnce;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setOnlyOnce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setOnlyOnce;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__set__setOnlyOnce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setOnlyOnce = value;
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setColorOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
 constexpr bool const& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setColorOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
 constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__set__setColorOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setColorOnly = value;
 }
 inline ::UnityEngine::Color GlobalNamespace::TubeBloomPrePassLightWithId::get_color() {

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyAsyncResult)
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Threading {
-class WaitHandle;
-}
 namespace System::Net {
 class __LazyAsyncResult__ThreadContext;
 }
 namespace System {
+class Object;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
 class IAsyncResult;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System::Threading {
+class ManualResetEvent;
 }
 // Forward declare root types
 namespace System::Net {

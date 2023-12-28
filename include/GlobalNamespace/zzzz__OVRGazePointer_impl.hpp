@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRCursor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGazePointer_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__OVRProgressIndicator_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_hidden
 template <>
 
@@ -246,195 +246,195 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRGazePointer::__get_gazeIcon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gazeIcon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRGazePointer::__get_gazeIcon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gazeIcon;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_gazeIcon(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gazeIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRGazePointer::__get_hideByDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideByDefault;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__get_hideByDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideByDefault;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_hideByDefault(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hideByDefault = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_showTimeoutPeriod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showTimeoutPeriod;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_showTimeoutPeriod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showTimeoutPeriod;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_showTimeoutPeriod(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showTimeoutPeriod = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_hideTimeoutPeriod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideTimeoutPeriod;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_hideTimeoutPeriod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideTimeoutPeriod;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_hideTimeoutPeriod(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hideTimeoutPeriod = value;
 }
 constexpr bool& GlobalNamespace::OVRGazePointer::__get_dimOnHideRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dimOnHideRequest;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__get_dimOnHideRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dimOnHideRequest;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_dimOnHideRequest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dimOnHideRequest = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_depthScaleMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthScaleMultiplier;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_depthScaleMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthScaleMultiplier;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_depthScaleMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depthScaleMultiplier = value;
 }
 constexpr bool& GlobalNamespace::OVRGazePointer::__get_matchNormalOnPhysicsColliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___matchNormalOnPhysicsColliders;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__get_matchNormalOnPhysicsColliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___matchNormalOnPhysicsColliders;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_matchNormalOnPhysicsColliders(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___matchNormalOnPhysicsColliders = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRGazePointer::__get_rayTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rayTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRGazePointer::__get_rayTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rayTransform;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_rayTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rayTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRGazePointer::__get__hidden_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hidden_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRGazePointer::__get__hidden_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hidden_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set__hidden_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hidden_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get__currentScale_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentScale_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get__currentScale_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentScale_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set__currentScale_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentScale_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_depth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_depth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_depth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depth = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_hideUntilTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideUntilTime;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_hideUntilTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hideUntilTime;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_hideUntilTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hideUntilTime = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGazePointer::__get_positionSetsThisFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionSetsThisFrame;
 }
 constexpr int32_t const& GlobalNamespace::OVRGazePointer::__get_positionSetsThisFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionSetsThisFrame;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_positionSetsThisFrame(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___positionSetsThisFrame = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_lastShowRequestTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastShowRequestTime;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_lastShowRequestTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastShowRequestTime;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_lastShowRequestTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastShowRequestTime = value;
 }
 constexpr float_t& GlobalNamespace::OVRGazePointer::__get_lastHideRequestTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastHideRequestTime;
 }
 constexpr float_t const& GlobalNamespace::OVRGazePointer::__get_lastHideRequestTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastHideRequestTime;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_lastHideRequestTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastHideRequestTime = value;
 }
 constexpr ::GlobalNamespace::OVRProgressIndicator*& GlobalNamespace::OVRGazePointer::__get_progressIndicator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressIndicator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRProgressIndicator*> const& GlobalNamespace::OVRGazePointer::__get_progressIndicator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressIndicator;
 }
 constexpr void GlobalNamespace::OVRGazePointer::__set_progressIndicator(::GlobalNamespace::OVRProgressIndicator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___progressIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRGazePointer::setStaticF__instance(::GlobalNamespace::OVRGazePointer* value) {

@@ -1,17 +1,17 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__NetworkStreamWrapper_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkStreamWrapper._ctor
 template <>
 
@@ -486,27 +486,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::TcpClient*& System::Net::NetworkStreamWrapper::__get__client() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpClient*> const& System::Net::NetworkStreamWrapper::__get__client() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
 constexpr void System::Net::NetworkStreamWrapper::__set__client(::System::Net::Sockets::TcpClient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____client)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::NetworkStream*& System::Net::NetworkStreamWrapper::__get__networkStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& System::Net::NetworkStreamWrapper::__get__networkStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkStream;
 }
 constexpr void System::Net::NetworkStreamWrapper::__set__networkStream(::System::Net::Sockets::NetworkStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::NetworkStreamWrapper* System::Net::NetworkStreamWrapper::New_ctor(::System::Net::Sockets::TcpClient* client) {

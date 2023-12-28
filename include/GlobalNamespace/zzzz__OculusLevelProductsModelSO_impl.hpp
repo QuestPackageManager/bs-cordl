@@ -64,27 +64,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::__get__levelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::__get__levelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::__set__levelId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::__get__sku() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sku;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::__get__sku() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sku;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::__set__sku(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sku)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData::get_sku() {
@@ -178,42 +178,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__get__sku() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sku;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__get__sku() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sku;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__set__sku(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sku)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__get__levelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__get__levelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackId;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__set__levelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*>&
 GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__get__levelProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*> const&
 GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__get__levelProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::__set__levelProductsData(
     ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData::get_sku() {
@@ -323,51 +323,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__targetLevelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLevelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__targetLevelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLevelPackId;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__set__targetLevelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__shouldOwnLevelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldOwnLevelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__shouldOwnLevelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldOwnLevelPackId;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__set__shouldOwnLevelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shouldOwnLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__redirectedSku() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redirectedSku;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__redirectedSku() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____redirectedSku;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__set__redirectedSku(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____redirectedSku)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__validUntilDate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validUntilDate;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__get__validUntilDate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validUntilDate;
 }
 constexpr void GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::__set__validUntilDate(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validUntilDate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData::get_targetLevelPackId() {
@@ -450,32 +450,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*>&
 GlobalNamespace::OculusLevelProductsModelSO::__get__levelPackProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> const&
 GlobalNamespace::OculusLevelProductsModelSO::__get__levelPackProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr void GlobalNamespace::OculusLevelProductsModelSO::__set__levelPackProductsData(
     ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*>&
 GlobalNamespace::OculusLevelProductsModelSO::__get__levelPackRedirectionData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> const&
 GlobalNamespace::OculusLevelProductsModelSO::__get__levelPackRedirectionData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 constexpr void GlobalNamespace::OculusLevelProductsModelSO::__set__levelPackRedirectionData(
     ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*>

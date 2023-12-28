@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HtmlEncodedRawTextWriterIndent)
-namespace System::IO {
-class Stream;
-}
 namespace System::Xml {
 class XmlWriterSettings;
 }
 namespace System::IO {
 class TextWriter;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {

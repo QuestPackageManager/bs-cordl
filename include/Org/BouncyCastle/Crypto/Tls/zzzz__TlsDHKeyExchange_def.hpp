@@ -6,44 +6,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDHKeyExchange)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAgreementCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsCredentials;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

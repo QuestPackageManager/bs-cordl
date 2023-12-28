@@ -41,15 +41,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Threading::Tasks::StackGuard::__get_m_inliningDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_inliningDepth;
 }
 constexpr int32_t const& System::Threading::Tasks::StackGuard::__get_m_inliningDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_inliningDepth;
 }
 constexpr void System::Threading::Tasks::StackGuard::__set_m_inliningDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_inliningDepth = value;
 }
 inline bool System::Threading::Tasks::StackGuard::TryBeginInliningScope() {

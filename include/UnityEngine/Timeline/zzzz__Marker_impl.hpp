@@ -107,27 +107,27 @@ constexpr UnityEngine::Timeline::Marker::operator ::UnityEngine::Timeline::IMark
   return static_cast<::UnityEngine::Timeline::IMarker*>(static_cast<void*>(this));
 }
 constexpr double_t& UnityEngine::Timeline::Marker::__get_m_Time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Time;
 }
 constexpr double_t const& UnityEngine::Timeline::Marker::__get_m_Time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Time;
 }
 constexpr void UnityEngine::Timeline::Marker::__set_m_Time(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Time = value;
 }
 constexpr ::UnityEngine::Timeline::TrackAsset*& UnityEngine::Timeline::Marker::__get__parent_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TrackAsset*> const& UnityEngine::Timeline::Marker::__get__parent_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent_k__BackingField;
 }
 constexpr void UnityEngine::Timeline::Marker::__set__parent_k__BackingField(::UnityEngine::Timeline::TrackAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parent_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::TrackAsset* UnityEngine::Timeline::Marker::get_parent() {

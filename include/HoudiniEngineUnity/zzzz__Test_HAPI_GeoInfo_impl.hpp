@@ -39,15 +39,15 @@ constexpr HoudiniEngineUnity::Test_HAPI_GeoInfo::operator ::HoudiniEngineUnity::
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& HoudiniEngineUnity::Test_HAPI_GeoInfo::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::HoudiniEngineUnity::HAPI_GeoInfo const& HoudiniEngineUnity::Test_HAPI_GeoInfo::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_HAPI_GeoInfo::__set_self(::HoudiniEngineUnity::HAPI_GeoInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self = value;
 }
 inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* HoudiniEngineUnity::Test_HAPI_GeoInfo::New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self) {

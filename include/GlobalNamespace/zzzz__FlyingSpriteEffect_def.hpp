@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(FlyingSpriteEffect)
 namespace UnityEngine {
 class Sprite;
 }
-namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class __FlyingSpriteEffect__Pool;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +125,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingSpriteEff
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2812 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4856))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4855)) CS Name: ::FlyingSpriteEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4856)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2812 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4855)) CS Name: ::FlyingSpriteEffect::Pool*
 class CORDL_TYPE __FlyingSpriteEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingSpriteEffect*> {
 public:
   // Declarations

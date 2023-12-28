@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(RenderPipelineAsset)
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine::Rendering {
-class RenderPipeline;
-}
 namespace UnityEngine {
 class Shader;
+}
+namespace UnityEngine::Rendering {
+class RenderPipeline;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

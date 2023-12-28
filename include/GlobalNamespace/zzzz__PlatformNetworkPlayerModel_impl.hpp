@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfig._ctor

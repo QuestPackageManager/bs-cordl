@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::IPInterfaceProperties.get_UnicastAddresses
 template <>
 

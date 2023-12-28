@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventAttribute)
 namespace System::Diagnostics::Tracing {
-struct EventKeywords;
+struct EventLevel;
 }
 namespace System::Diagnostics::Tracing {
-struct EventLevel;
+struct EventKeywords;
 }
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3743)), TypeDefinitionIndex(TypeDefinitionIndex(3744))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3743)), TypeDefinitionIndex(TypeDefinitionIndex(3744)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
 // CS Name: ::System.Diagnostics.Tracing::EventAttribute*
 class CORDL_TYPE EventAttribute : public ::System::Attribute {

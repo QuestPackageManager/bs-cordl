@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__RC2_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RC2CryptoServiceProvider_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RC2CryptoServiceProvider._ctor
 template <>
 
@@ -101,15 +101,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Security::Cryptography::RC2CryptoServiceProvider::__get_m_use40bitSalt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_use40bitSalt;
 }
 constexpr bool const& System::Security::Cryptography::RC2CryptoServiceProvider::__get_m_use40bitSalt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_use40bitSalt;
 }
 constexpr void System::Security::Cryptography::RC2CryptoServiceProvider::__set_m_use40bitSalt(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_use40bitSalt = value;
 }
 inline void System::Security::Cryptography::RC2CryptoServiceProvider::setStaticF_s_legalKeySizes(

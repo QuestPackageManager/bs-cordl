@@ -9,67 +9,46 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EventTrigger)
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-struct EventTriggerType;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-class IDropHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-class __EventTrigger__Entry;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class __EventTrigger__Entry;
+}
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
 class IScrollHandler;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
 class __EventTrigger__TriggerEvent;
 }
 namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IEndDragHandler;
@@ -78,10 +57,31 @@ namespace UnityEngine::EventSystems {
 class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
-class IMoveHandler;
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::EventSystems {
+struct EventTriggerType;
+}
+namespace UnityEngine::EventSystems {
+class IDropHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -101,8 +101,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__EventTrigger__TriggerEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5235 }), TypeDefinitionIndex(TypeDefinitionIndex(13165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13192)) CS Name: ::EventTrigger::TriggerEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5235 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13192)) CS Name: ::EventTrigger::TriggerEvent*
 class CORDL_TYPE __EventTrigger__TriggerEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::BaseEventData*> {
 public:
   // Declarations

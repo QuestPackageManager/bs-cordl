@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableListProxy)
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class IList;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class Array;

@@ -1,7 +1,7 @@
 #pragma once
 #include "System/ComponentModel/Design/zzzz__IComponentChangeService_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__MemberDescriptor_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Design::IComponentChangeService.OnComponentChanged
 template <>
 

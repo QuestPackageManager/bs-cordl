@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Parties_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Party_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Parties.GetCurrent
 template <>
 

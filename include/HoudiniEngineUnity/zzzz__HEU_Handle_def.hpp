@@ -15,40 +15,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Handle)
 namespace HoudiniEngineUnity {
-struct __HEU_Handle__HEU_HandleType;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_HandleInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_HandleParamBinding;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
 class HEU_Parameters;
 }
 namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_TransformEuler;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_Handle__HEU_HandleType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_XYZOrder;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_RSTOrder;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -112,8 +112,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Handle
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9681)), TypeDefinitionIndex(TypeDefinitionIndex(9715)), TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(9715)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9681)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9714))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
 // CS Name: ::HoudiniEngineUnity::HEU_Handle*
 class CORDL_TYPE HEU_Handle : public ::UnityEngine::ScriptableObject {

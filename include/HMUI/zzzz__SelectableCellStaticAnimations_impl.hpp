@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SelectableCellStaticAnimations_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::HMUI::SelectableCellStaticAnimations.Awake
 template <>
 
@@ -103,63 +103,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::SelectableCell*& HMUI::SelectableCellStaticAnimations::__get__selectableCell() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectableCell;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::SelectableCell*> const& HMUI::SelectableCellStaticAnimations::__get__selectableCell() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectableCell;
 }
 constexpr void HMUI::SelectableCellStaticAnimations::__set__selectableCell(::HMUI::SelectableCell* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectableCell)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SelectableCellStaticAnimations::__get__normalAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SelectableCellStaticAnimations::__get__normalAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAnimationClip;
 }
 constexpr void HMUI::SelectableCellStaticAnimations::__set__normalAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SelectableCellStaticAnimations::__get__highlightedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SelectableCellStaticAnimations::__get__highlightedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAnimationClip;
 }
 constexpr void HMUI::SelectableCellStaticAnimations::__set__highlightedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlightedAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SelectableCellStaticAnimations::__get__selectedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SelectableCellStaticAnimations::__get__selectedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAnimationClip;
 }
 constexpr void HMUI::SelectableCellStaticAnimations::__set__selectedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedAnimationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& HMUI::SelectableCellStaticAnimations::__get__selectedAndHighlightedAnimationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAnimationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& HMUI::SelectableCellStaticAnimations::__get__selectedAndHighlightedAnimationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAnimationClip;
 }
 constexpr void HMUI::SelectableCellStaticAnimations::__set__selectedAndHighlightedAnimationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedAndHighlightedAnimationClip)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

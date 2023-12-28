@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMappingSpine)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
 namespace RootMotion::FinalIK {
 class __IKMapping__BoneMap;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;

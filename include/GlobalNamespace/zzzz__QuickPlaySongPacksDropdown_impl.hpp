@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySongPacksDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySongPacksDropdown_def.hpp"
-#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySongPacksDropdown_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem._ctor
 template <>
@@ -27,51 +27,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_serializedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedName;
 }
 constexpr ::StringW const& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_serializedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedName;
 }
 constexpr void GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__set_serializedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serializedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_localizedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedName;
 }
 constexpr ::StringW const& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_localizedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedName;
 }
 constexpr void GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__set_localizedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_order() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___order;
 }
 constexpr int32_t const& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_order() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___order;
 }
 constexpr void GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__set_order(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___order = value;
 }
 constexpr ::GlobalNamespace::SongPackMask& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_songPackMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songPackMask;
 }
 constexpr ::GlobalNamespace::SongPackMask const& GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_songPackMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songPackMask;
 }
 constexpr void GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::__set_songPackMask(::GlobalNamespace::SongPackMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songPackMask = value;
 }
 inline ::GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem* GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem::New_ctor() {
@@ -117,15 +117,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__QuickPlaySongPacksDropdown____c__DisplayClass13_0::__get_serializedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedName;
 }
 constexpr ::StringW const& GlobalNamespace::__QuickPlaySongPacksDropdown____c__DisplayClass13_0::__get_serializedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedName;
 }
 constexpr void GlobalNamespace::__QuickPlaySongPacksDropdown____c__DisplayClass13_0::__set_serializedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serializedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__QuickPlaySongPacksDropdown____c__DisplayClass13_0* GlobalNamespace::__QuickPlaySongPacksDropdown____c__DisplayClass13_0::New_ctor() {
@@ -456,77 +456,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::SimpleTextDropdown*& GlobalNamespace::QuickPlaySongPacksDropdown::__get__simpleTextDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simpleTextDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& GlobalNamespace::QuickPlaySongPacksDropdown::__get__simpleTextDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simpleTextDropdown;
 }
 constexpr void GlobalNamespace::QuickPlaySongPacksDropdown::__set__simpleTextDropdown(::HMUI::SimpleTextDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____simpleTextDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SongPackMasksModel*& GlobalNamespace::QuickPlaySongPacksDropdown::__get__songPackMasksModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& GlobalNamespace::QuickPlaySongPacksDropdown::__get__songPackMasksModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
 constexpr void GlobalNamespace::QuickPlaySongPacksDropdown::__set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songPackMasksModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<int32_t>*& GlobalNamespace::QuickPlaySongPacksDropdown::__get_didSelectCellWithIdxEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::QuickPlaySongPacksDropdown::__get_didSelectCellWithIdxEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
 constexpr void GlobalNamespace::QuickPlaySongPacksDropdown::__set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectCellWithIdxEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::QuickPlaySongPacksDropdown::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& GlobalNamespace::QuickPlaySongPacksDropdown::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void GlobalNamespace::QuickPlaySongPacksDropdown::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 constexpr ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride*& GlobalNamespace::QuickPlaySongPacksDropdown::__get__quickPlaySongPacksOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySongPacksOverride;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride*> const&
 GlobalNamespace::QuickPlaySongPacksDropdown::__get__quickPlaySongPacksOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySongPacksOverride;
 }
 constexpr void GlobalNamespace::QuickPlaySongPacksDropdown::__set__quickPlaySongPacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickPlaySongPacksOverride)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem*>*& GlobalNamespace::QuickPlaySongPacksDropdown::__get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem*>*> const&
 GlobalNamespace::QuickPlaySongPacksDropdown::__get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr void GlobalNamespace::QuickPlaySongPacksDropdown::__set__data(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySongPacksDropdown__SongPackMaskItem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::QuickPlaySongPacksDropdown::add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value) {

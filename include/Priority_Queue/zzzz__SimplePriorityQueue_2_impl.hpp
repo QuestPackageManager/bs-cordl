@@ -2,28 +2,28 @@
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
 template <typename TItem, typename TPriority> constexpr TItem& Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__get__Data_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data_k__BackingField;
 }
 template <typename TItem, typename TPriority> constexpr TItem const& Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__get__Data_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data_k__BackingField;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::__set__Data_k__BackingField(TItem value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Data_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority> inline TItem Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>::get_Data() {
@@ -65,56 +65,56 @@ template <typename TItem, typename TPriority> constexpr Priority_Queue::SimplePr
 template <typename TItem, typename TPriority>
 constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__get__queue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____queue;
 }
 template <typename TItem, typename TPriority>
 constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*> const&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__get__queue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____queue;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__set__queue(
     ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____queue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority>
 constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__get__itemToNodesCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodesCache;
 }
 template <typename TItem, typename TPriority>
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*> const&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__get__itemToNodesCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemToNodesCache;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__set__itemToNodesCache(
     ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____itemToNodesCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority>
 constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__get__nullNodesCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullNodesCache;
 }
 template <typename TItem, typename TPriority>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*> const&
 Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__get__nullNodesCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullNodesCache;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::__set__nullNodesCache(
     ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nullNodesCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority> inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::New_ctor() {

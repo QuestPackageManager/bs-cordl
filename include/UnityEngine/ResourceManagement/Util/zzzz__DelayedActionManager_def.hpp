@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelayedActionManager)
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace System {
-class Delegate;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::ResourceManagement::Util {
 struct __DelayedActionManager__DelegateInfo;
 }
 namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Delegate;
+}
+namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -110,7 +110,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 }), TypeDefinitionIndex(TypeDefinitionIndex(13966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13968))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DelayedActionManager*
 class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager*> {

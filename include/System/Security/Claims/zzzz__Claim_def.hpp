@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Claim)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Security::Claims {
-class ClaimsIdentity;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+namespace System::Security::Claims {
+class ClaimsIdentity;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;

@@ -11,11 +11,11 @@ class Object;
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

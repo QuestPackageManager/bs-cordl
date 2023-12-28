@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UISystemProfilerApi)
 namespace UnityEngine {
-class Object;
+struct __UISystemProfilerApi__SampleType;
 }
 namespace UnityEngine {
-struct __UISystemProfilerApi__SampleType;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -100,75 +100,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& RootMotion::FinalIK::RotationLimitHinge::__get_useLimits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useLimits;
 }
 constexpr bool const& RootMotion::FinalIK::RotationLimitHinge::__get_useLimits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useLimits;
 }
 constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_useLimits(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useLimits = value;
 }
 constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_min() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_min() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
 constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_min(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___min = value;
 }
 constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_max() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_max() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
 constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_max(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max = value;
 }
 constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_zeroAxisDisplayOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zeroAxisDisplayOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_zeroAxisDisplayOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zeroAxisDisplayOffset;
 }
 constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_zeroAxisDisplayOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zeroAxisDisplayOffset = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::RotationLimitHinge::__get_lastRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::RotationLimitHinge::__get_lastRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastRotation;
 }
 constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_lastRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastRotation = value;
 }
 constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_lastAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastAngle;
 }
 constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_lastAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastAngle;
 }
 constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_lastAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastAngle = value;
 }
 inline void RootMotion::FinalIK::RotationLimitHinge::OpenUserManual() {

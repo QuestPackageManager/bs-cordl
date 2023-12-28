@@ -3,8 +3,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 template <typename T> inline ::Oculus::Platform::__Message_1__Callback<T>* Oculus::Platform::__Message_1__Callback<T>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::Oculus::Platform::__Message_1__Callback<T>*>(object, method));
@@ -39,15 +39,15 @@ template <typename T> inline void Oculus::Platform::__Message_1__Callback<T>::En
 // Ctor Parameters []
 template <typename T> constexpr ::Oculus::Platform::__Message_1__Callback<T>::__Message_1__Callback() {}
 template <typename T> constexpr T& Oculus::Platform::Message_1<T>::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 template <typename T> constexpr T const& Oculus::Platform::Message_1<T>::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 template <typename T> constexpr void Oculus::Platform::Message_1<T>::__set_data(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::Oculus::Platform::Message_1<T>* Oculus::Platform::Message_1<T>::New_ctor(void* c_message) {

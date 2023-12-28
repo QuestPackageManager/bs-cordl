@@ -5,33 +5,33 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceChannelTypes_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClient_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceServer_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
-#include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceChannelTypes_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceServer_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::__IgnoranceConnectionManager__ConnectionState(int32_t value__) noexcept {
@@ -65,64 +65,64 @@ constexpr GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionPara
   return static_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IConnectionRequestHandler*& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_connectionRequestHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionRequestHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const&
 GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_connectionRequestHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionRequestHandler;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__set_connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionRequestHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_useSsl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useSsl;
 }
 constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_useSsl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useSsl;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__set_useSsl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useSsl = value;
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__set_userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__set_userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_enableBackgroundSentry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableBackgroundSentry;
 }
 constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_enableBackgroundSentry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableBackgroundSentry;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__set_enableBackgroundSentry(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableBackgroundSentry = value;
 }
 inline ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase* GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::New_ctor() {
@@ -152,63 +152,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr int32_t const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__set_port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_certificatePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificatePath;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_certificatePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificatePath;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__set_certificatePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificatePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_certificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_certificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__set_certificate(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_privateKeyPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKeyPath;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_privateKeyPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKeyPath;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__set_privateKeyPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateKeyPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_privateKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__get_privateKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__set_privateKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams* GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::New_ctor() {
@@ -238,87 +238,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_hostName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_hostName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_hostName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr int32_t const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_serverUserId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserId;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_serverUserId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserId;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_serverUserId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverUserId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_serverUserName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserName;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_serverUserName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserName;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_serverUserName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverUserName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_validateCertificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validateCertificate;
 }
 constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_validateCertificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validateCertificate;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_validateCertificate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validateCertificate = value;
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_rootCertificatePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificatePath;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_rootCertificatePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificatePath;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_rootCertificatePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootCertificatePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_rootCertificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificate;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__get_rootCertificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificate;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__set_rootCertificate(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootCertificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams* GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::New_ctor() {
@@ -475,64 +475,64 @@ constexpr GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::op
   return static_cast<::GlobalNamespace::IConnection*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IgnoranceConnectionManager*& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__connectionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IgnoranceConnectionManager*> const&
 GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__connectionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionManager;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__set__connectionManager(::GlobalNamespace::IgnoranceConnectionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get_peerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___peerId;
 }
 constexpr uint32_t const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get_peerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___peerId;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__set_peerId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___peerId = value;
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__userId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__userId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__set__userId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__userName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__userName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__set__userName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__isConnectionOwner_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnectionOwner_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__get__isConnectionOwner_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnectionOwner_k__BackingField;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__set__isConnectionOwner_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isConnectionOwner_k__BackingField = value;
 }
 inline ::StringW GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_userId() {
@@ -631,15 +631,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::IgnoranceCore::IgnoranceClient*& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__get_client() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___client;
 }
 constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceClient*> const& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__get_client() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___client;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__set_client(::IgnoranceCore::IgnoranceClient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___client)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0* GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::New_ctor() {
@@ -690,15 +690,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::IgnoranceCore::IgnoranceServer*& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__get_server() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___server;
 }
 constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceServer*> const& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__get_server() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___server;
 }
 constexpr void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__set_server(::IgnoranceCore::IgnoranceServer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___server)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1* GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::New_ctor() {
@@ -1648,321 +1648,321 @@ constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::System::IDispo
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Action*& GlobalNamespace::IgnoranceConnectionManager::__get_onInitializedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onInitializedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::IgnoranceConnectionManager::__get_onInitializedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onInitializedEvent;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set_onInitializedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onInitializedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::IgnoranceConnectionManager::__get_onConnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::IgnoranceConnectionManager::__get_onConnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectedEvent;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set_onConnectedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onConnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& GlobalNamespace::IgnoranceConnectionManager::__get_onDisconnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDisconnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& GlobalNamespace::IgnoranceConnectionManager::__get_onDisconnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDisconnectedEvent;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onDisconnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& GlobalNamespace::IgnoranceConnectionManager::__get_onConnectionFailedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionFailedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const&
 GlobalNamespace::IgnoranceConnectionManager::__get_onConnectionFailedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionFailedEvent;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onConnectionFailedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& GlobalNamespace::IgnoranceConnectionManager::__get_onConnectionConnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionConnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const& GlobalNamespace::IgnoranceConnectionManager::__get_onConnectionConnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionConnectedEvent;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onConnectionConnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*& GlobalNamespace::IgnoranceConnectionManager::__get_onConnectionDisconnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionDisconnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const&
 GlobalNamespace::IgnoranceConnectionManager::__get_onConnectionDisconnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionDisconnectedEvent;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onConnectionDisconnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*&
 GlobalNamespace::IgnoranceConnectionManager::__get_onReceivedDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceivedDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*> const&
 GlobalNamespace::IgnoranceConnectionManager::__get_onReceivedDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceivedDataEvent;
 }
 constexpr void
 GlobalNamespace::IgnoranceConnectionManager::__set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceivedDataEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager::__get__userId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager::__get__userId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__userId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager::__get__userName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager::__get__userName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__userName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::IgnoranceCore::IgnoranceChannelTypes, ::Array<::IgnoranceCore::IgnoranceChannelTypes>*>& GlobalNamespace::IgnoranceConnectionManager::__get__channels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channels;
 }
 constexpr ::ArrayW<::IgnoranceCore::IgnoranceChannelTypes, ::Array<::IgnoranceCore::IgnoranceChannelTypes>*> const& GlobalNamespace::IgnoranceConnectionManager::__get__channels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channels;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__channels(::ArrayW<::IgnoranceCore::IgnoranceChannelTypes, ::Array<::IgnoranceCore::IgnoranceChannelTypes>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____channels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState& GlobalNamespace::IgnoranceConnectionManager::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const& GlobalNamespace::IgnoranceConnectionManager::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__state(::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
 constexpr ::IgnoranceCore::IgnoranceClient*& GlobalNamespace::IgnoranceConnectionManager::__get__client() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
 constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceClient*> const& GlobalNamespace::IgnoranceConnectionManager::__get__client() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__client(::IgnoranceCore::IgnoranceClient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____client)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::IgnoranceCore::IgnoranceServer*& GlobalNamespace::IgnoranceConnectionManager::__get__server() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____server;
 }
 constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceServer*> const& GlobalNamespace::IgnoranceConnectionManager::__get__server() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____server;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__server(::IgnoranceCore::IgnoranceServer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____server)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IConnectionRequestHandler*& GlobalNamespace::IgnoranceConnectionManager::__get__connectionRequestHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& GlobalNamespace::IgnoranceConnectionManager::__get__connectionRequestHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestHandler;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionRequestHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<uint32_t>*& GlobalNamespace::IgnoranceConnectionManager::__get__pendingConnections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingConnections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& GlobalNamespace::IgnoranceConnectionManager::__get__pendingConnections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingConnections;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__pendingConnections(::System::Collections::Generic::List_1<uint32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingConnections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>*& GlobalNamespace::IgnoranceConnectionManager::__get__connections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>*> const&
 GlobalNamespace::IgnoranceConnectionManager::__get__connections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connections;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::IgnoranceConnectionManager::__get__incomingDataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::IgnoranceConnectionManager::__get__incomingDataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataWriter;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__incomingDataWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____incomingDataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataReader*& GlobalNamespace::IgnoranceConnectionManager::__get__incomingDataReader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataReader;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& GlobalNamespace::IgnoranceConnectionManager::__get__incomingDataReader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataReader;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__incomingDataReader(::LiteNetLib::Utils::NetDataReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____incomingDataReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::IgnoranceConnectionManager::__get__connectionRequestWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::IgnoranceConnectionManager::__get__connectionRequestWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestWriter;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__connectionRequestWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionRequestWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::IgnoranceConnectionManager::__get__backgroundSentryDisconnectCts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundSentryDisconnectCts;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& GlobalNamespace::IgnoranceConnectionManager::__get__backgroundSentryDisconnectCts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundSentryDisconnectCts;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__backgroundSentryDisconnectCts(::System::Threading::CancellationTokenSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backgroundSentryDisconnectCts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::IgnoranceConnectionManager::__get__sentryDisconnected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentryDisconnected;
 }
 constexpr bool const& GlobalNamespace::IgnoranceConnectionManager::__get__sentryDisconnected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentryDisconnected;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__sentryDisconnected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sentryDisconnected = value;
 }
 constexpr int64_t& GlobalNamespace::IgnoranceConnectionManager::__get__lastPollUpdateTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPollUpdateTime;
 }
 constexpr int64_t const& GlobalNamespace::IgnoranceConnectionManager::__get__lastPollUpdateTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPollUpdateTime;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__lastPollUpdateTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPollUpdateTime = value;
 }
 constexpr ::BGNet::Core::ITimeProvider*& GlobalNamespace::IgnoranceConnectionManager::__get__timeProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& GlobalNamespace::IgnoranceConnectionManager::__get__timeProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__timeProvider(::BGNet::Core::ITimeProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGNet::Core::ITaskUtility*& GlobalNamespace::IgnoranceConnectionManager::__get__taskUtility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& GlobalNamespace::IgnoranceConnectionManager::__get__taskUtility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__taskUtility(::BGNet::Core::ITaskUtility* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskUtility)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager::__get__serverUserId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverUserId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager::__get__serverUserId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverUserId_k__BackingField;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__serverUserId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverUserId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager::__get__serverUserName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverUserName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager::__get__serverUserName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverUserName_k__BackingField;
 }
 constexpr void GlobalNamespace::IgnoranceConnectionManager::__set__serverUserName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serverUserName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::IgnoranceConnectionManager::add_onInitializedEvent(::System::Action* value) {

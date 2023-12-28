@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightBakingPersistentSettingsSO)
-namespace GlobalNamespace {
-class BakedLightDataLoader;
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
-class LightmapLightsWithIds;
+class MainEffectGraphicsSettingsPresetsSO;
 }
 namespace GlobalNamespace {
-class MirrorRendererGraphicsSettingsPresets;
+class BloomPrePassEffectSO;
 }
 namespace GlobalNamespace {
 class MirrorRendererSO;
@@ -23,37 +23,37 @@ namespace GlobalNamespace {
 class MainEffectContainerSO;
 }
 namespace GlobalNamespace {
-class FakeMirrorSettings;
-}
-namespace GlobalNamespace {
 class BloomPrePassEffectContainerSO;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-class BloomPrePassGraphicsSettingsPresetsSO;
 }
 namespace GlobalNamespace {
 class MainEffectSO;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class BakedLightDataLoader;
 }
 namespace GlobalNamespace {
-class MainEffectGraphicsSettingsPresetsSO;
+class FakeMirrorSettings;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+class LightmapLightsWithIds;
 }
 namespace GlobalNamespace {
 class FakeMirrorObjectsInstaller;
 }
 namespace GlobalNamespace {
-class BakedReflectionProbe;
-}
-namespace UnityEngine {
-struct Color;
+class BloomPrePassGraphicsSettingsPresetsSO;
 }
 namespace GlobalNamespace {
-class BloomPrePassEffectSO;
+class MirrorRendererGraphicsSettingsPresets;
+}
+namespace GlobalNamespace {
+class BakedReflectionProbe;
 }
 // Forward declare root types
 namespace GlobalNamespace {

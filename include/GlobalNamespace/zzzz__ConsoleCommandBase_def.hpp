@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleCommandBase)
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-class ArgumentBase;
+namespace System {
+template <typename T> class IComparable_1;
 }
 namespace GlobalNamespace {
 class __ConsoleCommandBase____c__DisplayClass14_0;
-}
-namespace GlobalNamespace {
-struct __DebugConsoleController__ConsoleMessage;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __ConsoleCommandBase____c;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+struct __DebugConsoleController__ConsoleMessage;
+}
+namespace GlobalNamespace {
+class ArgumentBase;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

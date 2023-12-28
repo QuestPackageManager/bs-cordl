@@ -2,13 +2,13 @@
 #include "LiteNetLib/zzzz__ConnectionRequestResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequestResult_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::ConnectionRequest.get_Result
 template <>
 
@@ -248,87 +248,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::LiteNetLib::NetManager*& LiteNetLib::ConnectionRequest::__get__listener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& LiteNetLib::ConnectionRequest::__get__listener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set__listener(::LiteNetLib::NetManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::ConnectionRequest::__get__used() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____used;
 }
 constexpr int32_t const& LiteNetLib::ConnectionRequest::__get__used() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____used;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set__used(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____used = value;
 }
 constexpr ::LiteNetLib::Utils::NetDataReader*& LiteNetLib::ConnectionRequest::__get_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Data;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& LiteNetLib::ConnectionRequest::__get_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Data;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set_Data(::LiteNetLib::Utils::NetDataReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::ConnectionRequestResult& LiteNetLib::ConnectionRequest::__get__Result_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
 }
 constexpr ::LiteNetLib::ConnectionRequestResult const& LiteNetLib::ConnectionRequest::__get__Result_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set__Result_k__BackingField(::LiteNetLib::ConnectionRequestResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Result_k__BackingField = value;
 }
 constexpr int64_t& LiteNetLib::ConnectionRequest::__get_ConnectionTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionTime;
 }
 constexpr int64_t const& LiteNetLib::ConnectionRequest::__get_ConnectionTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionTime;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set_ConnectionTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConnectionTime = value;
 }
 constexpr uint8_t& LiteNetLib::ConnectionRequest::__get_ConnectionNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionNumber;
 }
 constexpr uint8_t const& LiteNetLib::ConnectionRequest::__get_ConnectionNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionNumber;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set_ConnectionNumber(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConnectionNumber = value;
 }
 constexpr ::System::Net::IPEndPoint*& LiteNetLib::ConnectionRequest::__get_RemoteEndPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RemoteEndPoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::ConnectionRequest::__get_RemoteEndPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RemoteEndPoint;
 }
 constexpr void LiteNetLib::ConnectionRequest::__set_RemoteEndPoint(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RemoteEndPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::LiteNetLib::ConnectionRequestResult LiteNetLib::ConnectionRequest::get_Result() {

@@ -12,11 +12,11 @@ CORDL_MODULE_EXPORT(NetDataReader)
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace System {
-template <typename T> struct ArraySegment_1;
-}
 namespace System::Net {
 class IPEndPoint;
+}
+namespace System {
+template <typename T> struct ArraySegment_1;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {

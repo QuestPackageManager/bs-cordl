@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509CollectionStoreParameters)
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::X509::Store {
+class IX509StoreParameters;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509StoreParameters;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

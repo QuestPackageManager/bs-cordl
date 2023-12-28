@@ -10,64 +10,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionResultsViewController)
 namespace GlobalNamespace {
-class __MissionResultsViewController____c__DisplayClass29_0;
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class __MissionResultsViewController___StartFireworksAfterDelay_d__28;
 }
-namespace GlobalNamespace {
-class MissionNode;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
 class ResultObjectiveListItemsList;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class FireworksController;
 }
 namespace UnityEngine {
 class Sprite;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
-class MissionCompletionResults;
+class __MissionResultsViewController____c__DisplayClass29_0;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class FireworksController;
-}
-namespace GlobalNamespace {
 class SongPreviewPlayer;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace GlobalNamespace {
-class MissionObjectiveResult;
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace GlobalNamespace {
 class MissionObjective;
+}
+namespace GlobalNamespace {
+class MissionObjectiveResult;
 }
 namespace GlobalNamespace {
 class ResultObjectiveListItem;
@@ -288,7 +288,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionResult
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5702))
 // CS Name: ::MissionResultsViewController*
 class CORDL_TYPE MissionResultsViewController : public ::HMUI::ViewController {

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewReorderableDragAndDropController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ListViewReorderableDragAndDropController._ctor
 template <>
 
@@ -52,15 +52,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::ListView*& UnityEngine::UIElements::ListViewReorderableDragAndDropController::__get_m_ListView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ListView;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& UnityEngine::UIElements::ListViewReorderableDragAndDropController::__get_m_ListView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ListView;
 }
 constexpr void UnityEngine::UIElements::ListViewReorderableDragAndDropController::__set_m_ListView(::UnityEngine::UIElements::ListView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ListView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* UnityEngine::UIElements::ListViewReorderableDragAndDropController::New_ctor(::UnityEngine::UIElements::ListView* view) {

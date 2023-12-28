@@ -2,39 +2,39 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& GlobalNamespace::RandomObjectPicker_1<T>::__get__objects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objects;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& GlobalNamespace::RandomObjectPicker_1<T>::__get__objects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objects;
 }
 template <typename T> constexpr void GlobalNamespace::RandomObjectPicker_1<T>::__set__objects(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr float_t& GlobalNamespace::RandomObjectPicker_1<T>::__get__lastPickTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPickTime;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::RandomObjectPicker_1<T>::__get__lastPickTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPickTime;
 }
 template <typename T> constexpr void GlobalNamespace::RandomObjectPicker_1<T>::__set__lastPickTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPickTime = value;
 }
 template <typename T> constexpr float_t& GlobalNamespace::RandomObjectPicker_1<T>::__get__minimumPickInterval() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimumPickInterval;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::RandomObjectPicker_1<T>::__get__minimumPickInterval() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimumPickInterval;
 }
 template <typename T> constexpr void GlobalNamespace::RandomObjectPicker_1<T>::__set__minimumPickInterval(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minimumPickInterval = value;
 }
 template <typename T> inline ::GlobalNamespace::RandomObjectPicker_1<T>* GlobalNamespace::RandomObjectPicker_1<T>::New_ctor(T obj, float_t minimumPickInterval) {

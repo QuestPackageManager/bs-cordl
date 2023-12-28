@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfFeedbackBytesGenerator)
 namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacDerivationFunction;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+class IMacDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

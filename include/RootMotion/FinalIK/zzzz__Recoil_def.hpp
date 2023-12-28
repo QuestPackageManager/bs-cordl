@@ -20,16 +20,16 @@ namespace RootMotion::FinalIK {
 class AimIK;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace RootMotion::FinalIK {
-struct __Recoil__Handedness;
+class AnimationCurve;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+struct __Recoil__Handedness;
 }
 namespace UnityEngine {
 class Transform;
@@ -285,8 +285,8 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Recoil__H
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12666)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12656))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12666)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
 class CORDL_TYPE Recoil : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations

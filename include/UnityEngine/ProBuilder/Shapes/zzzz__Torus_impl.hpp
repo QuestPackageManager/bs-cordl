@@ -2,10 +2,10 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Torus_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Torus.CopyShape
 template <>
 
@@ -101,75 +101,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Torus::__get_m_Rows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rows;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Torus::__get_m_Rows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rows;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Torus::__set_m_Rows(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Rows = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Torus::__get_m_Columns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Columns;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Torus::__get_m_Columns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Columns;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Torus::__set_m_Columns(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Columns = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__get_m_TubeRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TubeRadius;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Torus::__get_m_TubeRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TubeRadius;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Torus::__set_m_TubeRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TubeRadius = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__get_m_HorizontalCircumference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalCircumference;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Torus::__get_m_HorizontalCircumference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalCircumference;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Torus::__set_m_HorizontalCircumference(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HorizontalCircumference = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Torus::__get_m_VerticalCircumference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalCircumference;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Torus::__get_m_VerticalCircumference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalCircumference;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Torus::__set_m_VerticalCircumference(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VerticalCircumference = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Shapes::Torus::__get_m_Smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Torus::__get_m_Smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Torus::__set_m_Smooth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
 inline void UnityEngine::ProBuilder::Shapes::Torus::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {

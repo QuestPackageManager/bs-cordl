@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__SignalCopyBinder_impl.hpp"
 #include "Zenject/zzzz__SignalTickPriorityCopyBinder_def.hpp"
-#include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
 #include "Zenject/zzzz__SignalCopyBinder_def.hpp"
+#include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::SignalTickPriorityCopyBinder._ctor
 template <>
 
@@ -63,15 +63,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::SignalDeclarationBindInfo*& Zenject::SignalTickPriorityCopyBinder::__get__SignalBindInfo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalBindInfo_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalDeclarationBindInfo*> const& Zenject::SignalTickPriorityCopyBinder::__get__SignalBindInfo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalBindInfo_k__BackingField;
 }
 constexpr void Zenject::SignalTickPriorityCopyBinder::__set__SignalBindInfo_k__BackingField(::Zenject::SignalDeclarationBindInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SignalBindInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SignalTickPriorityCopyBinder* Zenject::SignalTickPriorityCopyBinder::New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {

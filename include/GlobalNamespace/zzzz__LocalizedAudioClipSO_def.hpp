@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LocalizedAudioClipSO)
 namespace GlobalNamespace {
+class __LocalizedAudioClipSO____c__DisplayClass4_0;
+}
+namespace GlobalNamespace {
 class __LocalizedAudioClipSO__LocalizedAudioClipInfo;
 }
 namespace UnityEngine {
 class AudioClip;
-}
-namespace GlobalNamespace {
-class __LocalizedAudioClipSO____c__DisplayClass4_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalizedAudi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5870))
 // CS Name: ::LocalizedAudioClipSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __LocalizedAudioClipSO____c__DisplayClass4_0 : public ::System::Object {

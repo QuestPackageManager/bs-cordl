@@ -3,10 +3,10 @@
 #include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Threading::ManualResetEventSlim.get_WaitHandle
 template <>
 
@@ -324,39 +324,39 @@ constexpr System::Threading::ManualResetEventSlim::operator ::System::IDisposabl
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Object*& System::Threading::ManualResetEventSlim::__get_m_lock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::ManualResetEventSlim::__get_m_lock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lock;
 }
 constexpr void System::Threading::ManualResetEventSlim::__set_m_lock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ManualResetEvent*& System::Threading::ManualResetEventSlim::__get_m_eventObj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eventObj;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Threading::ManualResetEventSlim::__get_m_eventObj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eventObj;
 }
 constexpr void System::Threading::ManualResetEventSlim::__set_m_eventObj(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_eventObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::ManualResetEventSlim::__get_m_combinedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_combinedState;
 }
 constexpr int32_t const& System::Threading::ManualResetEventSlim::__get_m_combinedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_combinedState;
 }
 constexpr void System::Threading::ManualResetEventSlim::__set_m_combinedState(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_combinedState = value;
 }
 inline void System::Threading::ManualResetEventSlim::setStaticF_s_cancellationTokenCallback(::System::Action_1<::System::Object*>* value) {

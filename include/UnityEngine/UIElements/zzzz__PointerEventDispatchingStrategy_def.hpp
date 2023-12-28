@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PointerEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
@@ -13,9 +16,6 @@ class IPanel;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

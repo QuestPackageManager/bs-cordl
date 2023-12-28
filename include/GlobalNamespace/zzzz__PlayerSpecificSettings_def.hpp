@@ -12,13 +12,13 @@ namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace GlobalNamespace {
+struct EnvironmentEffectsFilterPreset;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettings);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4621)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4606)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4622))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS Name: ::PlayerSpecificSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4622)), TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(4621)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS Name: ::PlayerSpecificSettings*
 class CORDL_TYPE PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations

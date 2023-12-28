@@ -11,52 +11,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireworkItemController)
 namespace GlobalNamespace {
-class __FireworkItemController___FireCoroutine_d__29;
-}
-namespace UnityEngine {
-class Gradient;
-}
-namespace GlobalNamespace {
-class __FireworkItemController__Pool;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+template <typename T> class RandomObjectPicker_1;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace GlobalNamespace {
 class DirectionalLight;
 }
 namespace GlobalNamespace {
-class __FireworkItemController__FireworkItemParticleSystem;
+class __FireworkItemController___FireCoroutine_d__29;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
 class AudioSource;
 }
+namespace GlobalNamespace {
+class __FireworkItemController__Pool;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class __FireworkItemController__FireworkItemParticleSystem;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+class AudioClip;
+}
 namespace UnityEngine {
 class ParticleSystem;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

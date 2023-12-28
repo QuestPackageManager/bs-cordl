@@ -143,15 +143,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& System::Security::Cryptography::RNGCryptoServiceProvider::__get__handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handle;
 }
 constexpr void* const& System::Security::Cryptography::RNGCryptoServiceProvider::__get__handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handle;
 }
 constexpr void System::Security::Cryptography::RNGCryptoServiceProvider::__set__handle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handle = value;
 }
 inline void System::Security::Cryptography::RNGCryptoServiceProvider::setStaticF__lock(::System::Object* value) {

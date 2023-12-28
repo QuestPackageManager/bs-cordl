@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SelectManyObservable_2_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__SelectManyObservable_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__SelectManyObservable_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TSource>"
 template <typename TSource, typename TResult> constexpr UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::operator ::System::IObserver_1<TSource>*() noexcept {
@@ -15,34 +15,34 @@ template <typename TSource, typename TResult> constexpr UnityEngine::InputSystem
 template <typename TSource, typename TResult>
 constexpr ::UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>*&
 UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::__get_m_Observable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observable;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>*> const&
 UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::__get_m_Observable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observable;
 }
 template <typename TSource, typename TResult>
 constexpr void
 UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::__set_m_Observable(::UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::IObserver_1<TResult>*& UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::__get_m_Observer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observer;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TResult>*> const&
 UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::__get_m_Observer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observer;
 }
 template <typename TSource, typename TResult>
 constexpr void UnityEngine::InputSystem::Utilities::__SelectManyObservable_2__Select<TSource, TResult>::__set_m_Observer(::System::IObserver_1<TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
@@ -85,33 +85,33 @@ template <typename TSource, typename TResult> constexpr UnityEngine::InputSystem
   return static_cast<::System::IObservable_1<TResult>*>(static_cast<void*>(this));
 }
 template <typename TSource, typename TResult> constexpr ::System::IObservable_1<TSource>*& UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::__get_m_Source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Source;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TSource>*> const& UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::__get_m_Source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Source;
 }
 template <typename TSource, typename TResult> constexpr void UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::__set_m_Source(::System::IObservable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>*& UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::__get_m_Filter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Filter;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>*> const&
 UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::__get_m_Filter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Filter;
 }
 template <typename TSource, typename TResult>
 constexpr void
 UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::__set_m_Filter(::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Filter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>

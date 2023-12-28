@@ -10,8 +10,8 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "RootMotion/FinalIK/zzzz__HitReactionVRIK_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__HitReactionVRIK__Offset.get_crossFader
 template <>
@@ -226,123 +226,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Collider*& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_collider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collider;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_collider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collider;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set_collider(::UnityEngine::Collider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___collider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_crossFadeTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFadeTime;
 }
 constexpr float_t const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_crossFadeTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFadeTime;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set_crossFadeTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crossFadeTime = value;
 }
 constexpr float_t& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__crossFader_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crossFader_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__crossFader_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crossFader_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set__crossFader_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____crossFader_k__BackingField = value;
 }
 constexpr float_t& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__timer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__timer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set__timer_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timer_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__force_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____force_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__force_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____force_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set__force_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____force_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__point_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____point_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get__point_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____point_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set__point_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____point_k__BackingField = value;
 }
 constexpr float_t& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr float_t const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set_length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___length = value;
 }
 constexpr float_t& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_crossFadeSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFadeSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_crossFadeSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossFadeSpeed;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set_crossFadeSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crossFadeSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_lastTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTime;
 }
 constexpr float_t const& RootMotion::FinalIK::__HitReactionVRIK__Offset::__get_lastTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTime;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__Offset::__set_lastTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastTime = value;
 }
 inline float_t RootMotion::FinalIK::__HitReactionVRIK__Offset::get_crossFader() {
@@ -485,51 +485,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::__IKSolverVR__PositionOffset& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_positionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionOffset;
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_positionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionOffset;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__set_positionOffset(::RootMotion::FinalIK::__IKSolverVR__PositionOffset value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___positionOffset = value;
 }
 constexpr float_t& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_lastValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastValue;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_lastValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastValue;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__set_lastValue(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastValue = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__get_current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::__set_current(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___current = value;
 }
 inline void GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink::Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Vector3 offset, float_t crossFader) {
@@ -620,42 +620,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__get_forceDirCurveIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceDirCurveIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__get_forceDirCurveIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceDirCurveIndex;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__set_forceDirCurveIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forceDirCurveIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__get_upDirCurveIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___upDirCurveIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__get_upDirCurveIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___upDirCurveIndex;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__set_upDirCurveIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___upDirCurveIndex = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*>*>&
 RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__get_offsetLinks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetLinks;
 }
 constexpr ::ArrayW<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*>*> const&
 RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__get_offsetLinks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetLinks;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::__set_offsetLinks(
     ::ArrayW<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__PositionOffset__PositionOffsetLink*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___offsetLinks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t RootMotion::FinalIK::__HitReactionVRIK__PositionOffset::GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves) {
@@ -736,51 +736,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::__IKSolverVR__RotationOffset& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_rotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__RotationOffset const& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_rotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__set_rotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationOffset = value;
 }
 constexpr float_t& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_lastValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastValue;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_lastValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastValue;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__set_lastValue(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastValue = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__get_current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr void GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::__set_current(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___current = value;
 }
 inline void GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink::Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float_t crossFader) {
@@ -871,42 +871,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__get_curveIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curveIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__get_curveIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curveIndex;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__set_curveIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curveIndex = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink*>*>&
 RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__get_offsetLinks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetLinks;
 }
 constexpr ::ArrayW<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink*>*> const&
 RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__get_offsetLinks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetLinks;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__set_offsetLinks(
     ::ArrayW<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink*, ::Array<::GlobalNamespace::__HitReactionVRIK__RotationOffset__RotationOffsetLink*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___offsetLinks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rigidbody*& RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__get_rigidbody() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rigidbody;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__get_rigidbody() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rigidbody;
 }
 constexpr void RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::__set_rigidbody(::UnityEngine::Rigidbody* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rigidbody)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t RootMotion::FinalIK::__HitReactionVRIK__RotationOffset::GetLength(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> curves) {
@@ -984,45 +984,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*>& RootMotion::FinalIK::HitReactionVRIK::__get_offsetCurves() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetCurves;
 }
 constexpr ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> const& RootMotion::FinalIK::HitReactionVRIK::__get_offsetCurves() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetCurves;
 }
 constexpr void RootMotion::FinalIK::HitReactionVRIK::__set_offsetCurves(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___offsetCurves)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset*>*>&
 RootMotion::FinalIK::HitReactionVRIK::__get_positionOffsets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionOffsets;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset*>*> const&
 RootMotion::FinalIK::HitReactionVRIK::__get_positionOffsets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionOffsets;
 }
 constexpr void RootMotion::FinalIK::HitReactionVRIK::__set_positionOffsets(
     ::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__PositionOffset*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positionOffsets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*>&
 RootMotion::FinalIK::HitReactionVRIK::__get_rotationOffsets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffsets;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*> const&
 RootMotion::FinalIK::HitReactionVRIK::__get_rotationOffsets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffsets;
 }
 constexpr void RootMotion::FinalIK::HitReactionVRIK::__set_rotationOffsets(
     ::ArrayW<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*, ::Array<::RootMotion::FinalIK::__HitReactionVRIK__RotationOffset*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rotationOffsets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::HitReactionVRIK::OnModifyOffset() {

@@ -14,67 +14,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebOperation)
 namespace System::Net {
-template <typename T> class WebCompletionSource_1;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Net {
 class WebRequestStream;
-}
-namespace System::Net {
-class WebConnection;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class WebResponseStream;
-}
-namespace System::Net {
-struct __WebOperation___Run_d__58;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Net {
-struct __WebOperation___GetRequestStream_d__50;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class ServicePoint;
 }
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
 namespace System::Net {
-class BufferOffsetSize;
+class ServicePoint;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+class Exception;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Net {
+struct __WebOperation___Run_d__58;
+}
+namespace System::Net {
+struct __WebOperation___GetRequestStream_d__50;
+}
+namespace System::Net {
+class HttpWebRequest;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Net {
+template <typename T> class WebCompletionSource_1;
+}
+namespace System::Net {
+class BufferOffsetSize;
+}
+namespace System::Net {
+class WebConnection;
+}
+namespace System::Net {
+class WebResponseStream;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Net {
@@ -94,9 +94,9 @@ MARK_VAL_T(::System::Net::__WebOperation___Run_d__58);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 899 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 899 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
 struct CORDL_TYPE __WebOperation___GetRequestStream_d__50 {
 public:
   // Declarations
@@ -146,8 +146,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebOperation___Ge
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9226)) CS Name: ::WebOperation::<Run>d__58
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9226))
+// CS Name: ::WebOperation::<Run>d__58
 struct CORDL_TYPE __WebOperation___Run_d__58 {
 public:
   // Declarations

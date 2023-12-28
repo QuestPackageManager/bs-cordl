@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Identity)
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
 namespace System::Runtime::Remoting::Contexts {
 class DynamicPropertyCollection;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

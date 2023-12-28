@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberMovementData)
 namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class IBladeMovementData;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 struct BladeMovementDataElement;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace UnityEngine {
-struct Vector3;
+class ISaberMovementDataProcessor;
 }
 namespace GlobalNamespace {
 class ISaberMovementData;

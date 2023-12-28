@@ -68,15 +68,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& Meta::XR::Samples::SampleMetadata::__get__timestampOpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timestampOpen;
 }
 constexpr float_t const& Meta::XR::Samples::SampleMetadata::__get__timestampOpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timestampOpen;
 }
 constexpr void Meta::XR::Samples::SampleMetadata::__set__timestampOpen(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timestampOpen = value;
 }
 inline void Meta::XR::Samples::SampleMetadata::Awake() {

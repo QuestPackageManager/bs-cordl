@@ -12,13 +12,13 @@ namespace System::Security {
 class SecurityElement;
 }
 namespace Mono::Xml {
-class __SmallXmlParser__IAttrList;
-}
-namespace Mono::Xml {
 class __SmallXmlParser__IContentHandler;
 }
 namespace Mono::Xml {
 class SmallXmlParser;
+}
+namespace Mono::Xml {
+class __SmallXmlParser__IAttrList;
 }
 // Forward declare root types
 namespace Mono::Xml {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncHelper)
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class Task;
 }
 namespace System::Threading::Tasks {
-class Task;
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace System::Xml {

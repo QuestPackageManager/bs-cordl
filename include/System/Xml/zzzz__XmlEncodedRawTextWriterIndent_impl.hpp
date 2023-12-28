@@ -2,11 +2,11 @@
 #include "System/Xml/zzzz__ConformanceLevel_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriterIndent_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
-#include "System/Xml/zzzz__BitStack_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__BitStack_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlEncodedRawTextWriterIndent._ctor
 template <>
 
@@ -354,75 +354,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Xml::XmlEncodedRawTextWriterIndent::__get_indentLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentLevel;
 }
 constexpr int32_t const& System::Xml::XmlEncodedRawTextWriterIndent::__get_indentLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentLevel;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_indentLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indentLevel = value;
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriterIndent::__get_newLineOnAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineOnAttributes;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriterIndent::__get_newLineOnAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineOnAttributes;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_newLineOnAttributes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newLineOnAttributes = value;
 }
 constexpr ::StringW& System::Xml::XmlEncodedRawTextWriterIndent::__get_indentChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentChars;
 }
 constexpr ::StringW const& System::Xml::XmlEncodedRawTextWriterIndent::__get_indentChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentChars;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_indentChars(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indentChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlEncodedRawTextWriterIndent::__get_mixedContent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mixedContent;
 }
 constexpr bool const& System::Xml::XmlEncodedRawTextWriterIndent::__get_mixedContent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mixedContent;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_mixedContent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mixedContent = value;
 }
 constexpr ::System::Xml::BitStack*& System::Xml::XmlEncodedRawTextWriterIndent::__get_mixedContentStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mixedContentStack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::BitStack*> const& System::Xml::XmlEncodedRawTextWriterIndent::__get_mixedContentStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mixedContentStack;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_mixedContentStack(::System::Xml::BitStack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mixedContentStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::ConformanceLevel& System::Xml::XmlEncodedRawTextWriterIndent::__get_conformanceLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___conformanceLevel;
 }
 constexpr ::System::Xml::ConformanceLevel const& System::Xml::XmlEncodedRawTextWriterIndent::__get_conformanceLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___conformanceLevel;
 }
 constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_conformanceLevel(::System::Xml::ConformanceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___conformanceLevel = value;
 }
 inline ::System::Xml::XmlEncodedRawTextWriterIndent* System::Xml::XmlEncodedRawTextWriterIndent::New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings) {

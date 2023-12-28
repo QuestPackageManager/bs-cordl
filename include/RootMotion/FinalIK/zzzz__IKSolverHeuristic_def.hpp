@@ -10,8 +10,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverHeuristic)
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class __IKSolver__Bone;
 }
 namespace UnityEngine {
 class Transform;
@@ -19,8 +19,8 @@ class Transform;
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
-namespace RootMotion::FinalIK {
-class __IKSolver__Bone;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

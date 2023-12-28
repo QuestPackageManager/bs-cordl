@@ -12,10 +12,10 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System {

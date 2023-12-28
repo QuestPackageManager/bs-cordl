@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECMqvWithKdfBasicAgreement)
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;

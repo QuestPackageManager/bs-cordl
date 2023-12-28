@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactory_2)
+namespace System {
+class Object;
+}
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {

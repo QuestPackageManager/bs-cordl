@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(BooleanConverter)
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
 namespace System::ComponentModel {
 class __TypeConverter__StandardValuesCollection;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System::ComponentModel {

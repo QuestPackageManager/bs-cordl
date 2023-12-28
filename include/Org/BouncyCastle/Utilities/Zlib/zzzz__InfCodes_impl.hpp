@@ -92,171 +92,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_mode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_len() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___len;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_len() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___len;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_len(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___len = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_tree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tree;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_tree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_tree(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_tree_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tree_index;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_tree_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tree_index;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_tree_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tree_index = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_need() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___need;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_need() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___need;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_need(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___need = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_lit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lit;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_lit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lit;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_lit(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lit = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_get() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___get;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_get() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___get;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_get(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___get = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dist() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dist;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dist() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dist;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_dist(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dist = value;
 }
 constexpr uint8_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_lbits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lbits;
 }
 constexpr uint8_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_lbits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lbits;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_lbits(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lbits = value;
 }
 constexpr uint8_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dbits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dbits;
 }
 constexpr uint8_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dbits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dbits;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_dbits(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dbits = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_ltree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ltree;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_ltree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ltree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_ltree(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ltree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_ltree_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ltree_index;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_ltree_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ltree_index;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_ltree_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ltree_index = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dtree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtree;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dtree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_dtree(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dtree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dtree_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtree_index;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dtree_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtree_index;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_dtree_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dtree_index = value;
 }
 inline void Org::BouncyCastle::Utilities::Zlib::InfCodes::setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value) {

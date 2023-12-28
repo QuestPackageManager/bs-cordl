@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AvatarRandomizer)
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarPartsModel;
-}
-namespace BeatSaber::BeatAvatarSDK {
 class AvatarData;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class RandomizeAvatarColorMap;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarPartsModel;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

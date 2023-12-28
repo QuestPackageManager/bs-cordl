@@ -8,16 +8,16 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class MemoryPoolBindInfo;
-}
-namespace Zenject {
 class FactoryBindInfo;
-}
-namespace System {
-class Object;
 }
 namespace Zenject {
 class BindInfo;
+}
+namespace Zenject {
+class MemoryPoolBindInfo;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
@@ -34,7 +34,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10868)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10868), inst: 4472 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10868), inst: 4472 }), TypeDefinitionIndex(TypeDefinitionIndex(10868))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10869))
 // CS Name: ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolIdInitialSizeMaxSizeBinder_1 : public ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract> {

@@ -13,14 +13,14 @@ class Object;
 namespace UnityEngine {
 class Object;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class IList;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IList;
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

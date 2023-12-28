@@ -4,28 +4,28 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IInputActionCollection)
 namespace UnityEngine::InputSystem {
-struct InputBinding;
+class InputAction;
 }
 namespace UnityEngine::InputSystem {
 struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

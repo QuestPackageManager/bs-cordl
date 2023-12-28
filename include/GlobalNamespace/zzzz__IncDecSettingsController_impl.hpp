@@ -118,15 +118,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::StepValuePicker*& GlobalNamespace::IncDecSettingsController::__get__stepValuePicker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepValuePicker;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& GlobalNamespace::IncDecSettingsController::__get__stepValuePicker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepValuePicker;
 }
 constexpr void GlobalNamespace::IncDecSettingsController::__set__stepValuePicker(::GlobalNamespace::StepValuePicker* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stepValuePicker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::IncDecSettingsController::set_enableDec(bool value) {

@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IResourceReader)
 namespace System::Collections {
-class IEnumerable;
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
+class IEnumerable;
 }
 namespace System {
 class IDisposable;

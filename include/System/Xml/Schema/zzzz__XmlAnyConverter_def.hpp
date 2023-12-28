@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAnyConverter)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System::Xml::XPath {
-class XPathNavigator;
-}
-namespace System {
-struct Decimal;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Xml::XPath {
+class XPathNavigator;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

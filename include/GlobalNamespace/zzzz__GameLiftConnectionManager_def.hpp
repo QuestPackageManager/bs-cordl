@@ -16,106 +16,103 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameLiftConnectionManager)
 namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__GameLiftConnectionManagerParamsBase;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__ConnectToServerParams;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-class ICertificateValidator;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__StartClientParams;
-}
-namespace GlobalNamespace {
-class GameLiftClientConnectionRequestHandler;
 }
 namespace GlobalNamespace {
 struct __GameLiftConnectionManager__ConnectionState;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Action;
-}
-namespace BGNet::Core::GameLift {
-class IGameLiftPlayerSessionProvider;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+struct __GameLiftConnectionManager___GameLiftConnectToServer_d__81;
 }
 namespace BGNet::Core {
 class ITimeProvider;
 }
-namespace GlobalNamespace {
-struct PublicServerInfo;
-}
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+template <typename T1, typename T2> class Action_2;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+class Task;
 }
-namespace GlobalNamespace {
-struct __GameLiftConnectionManager___GameLiftConnectToServer_d__81;
+namespace BGNet::Core::GameLift {
+class IGameLiftPlayerSessionProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+class __GameLiftConnectionManager__ConnectToServerParams;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__GameLiftConnectionManagerParamsBase;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+class GameLiftClientConnectionRequestHandler;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace GlobalNamespace {
+class IConnection;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__StartClientParams;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace GlobalNamespace {
+class ICertificateValidator;
 }
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
@@ -125,6 +122,9 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -393,10 +393,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameLiftConne
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(13013)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 897 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 885 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12736)) CS Name:
-// ::GameLiftConnectionManager::<GameLiftConnectToServer>d__81
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13013)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 885
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 897 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12736)) CS Name: ::GameLiftConnectionManager::<GameLiftConnectToServer>d__81
 struct CORDL_TYPE __GameLiftConnectionManager___GameLiftConnectToServer_d__81 {
 public:
   // Declarations
@@ -462,8 +461,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameLiftConne
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12732))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12737)) CS Name: ::GameLiftConnectionManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12732)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12737)) CS Name: ::GameLiftConnectionManager*
 class CORDL_TYPE GameLiftConnectionManager : public ::System::Object {
 public:
   // Declarations

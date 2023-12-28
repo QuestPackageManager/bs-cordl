@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BindIPEndPoint)
-namespace System {
-class Object;
-}
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System::Net {
 class ServicePoint;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

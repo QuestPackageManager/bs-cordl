@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RestrictionFacets)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11618)), TypeDefinitionIndex(TypeDefinitionIndex(11617))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11618)), TypeDefinitionIndex(TypeDefinitionIndex(11617)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11619))
 // CS Name: ::System.Xml.Schema::RestrictionFacets*
 class CORDL_TYPE RestrictionFacets : public ::System::Object {

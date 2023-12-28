@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,26 +9,26 @@ CORDL_MODULE_EXPORT(InjectUtil)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class __InjectUtil____c;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace System {
 class Type;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

@@ -1,22 +1,22 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::__MatchCollection__Enumerator._ctor
 template <>
@@ -121,27 +121,27 @@ constexpr System::Text::RegularExpressions::__MatchCollection__Enumerator::opera
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Text::RegularExpressions::MatchCollection*& System::Text::RegularExpressions::__MatchCollection__Enumerator::__get__collection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collection;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::MatchCollection*> const& System::Text::RegularExpressions::__MatchCollection__Enumerator::__get__collection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collection;
 }
 constexpr void System::Text::RegularExpressions::__MatchCollection__Enumerator::__set__collection(::System::Text::RegularExpressions::MatchCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::RegularExpressions::__MatchCollection__Enumerator::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& System::Text::RegularExpressions::__MatchCollection__Enumerator::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void System::Text::RegularExpressions::__MatchCollection__Enumerator::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 inline ::System::Text::RegularExpressions::__MatchCollection__Enumerator*
@@ -704,100 +704,100 @@ constexpr System::Text::RegularExpressions::MatchCollection::operator ::System::
   return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 constexpr ::System::Text::RegularExpressions::Regex*& System::Text::RegularExpressions::MatchCollection::__get__regex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____regex;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& System::Text::RegularExpressions::MatchCollection::__get__regex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____regex;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__regex(::System::Text::RegularExpressions::Regex* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____regex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>*& System::Text::RegularExpressions::MatchCollection::__get__matches() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matches;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>*> const&
 System::Text::RegularExpressions::MatchCollection::__get__matches() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matches;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__matches(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::Match*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____matches)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::RegularExpressions::MatchCollection::__get__done() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____done;
 }
 constexpr bool const& System::Text::RegularExpressions::MatchCollection::__get__done() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____done;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__done(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____done = value;
 }
 constexpr ::StringW& System::Text::RegularExpressions::MatchCollection::__get__input() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____input;
 }
 constexpr ::StringW const& System::Text::RegularExpressions::MatchCollection::__get__input() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____input;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__input(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____input)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::RegularExpressions::MatchCollection::__get__beginning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beginning;
 }
 constexpr int32_t const& System::Text::RegularExpressions::MatchCollection::__get__beginning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beginning;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__beginning(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beginning = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::MatchCollection::__get__length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr int32_t const& System::Text::RegularExpressions::MatchCollection::__get__length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::MatchCollection::__get__startat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startat;
 }
 constexpr int32_t const& System::Text::RegularExpressions::MatchCollection::__get__startat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startat;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__startat(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startat = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::MatchCollection::__get__prevlen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevlen;
 }
 constexpr int32_t const& System::Text::RegularExpressions::MatchCollection::__get__prevlen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevlen;
 }
 constexpr void System::Text::RegularExpressions::MatchCollection::__set__prevlen(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevlen = value;
 }
 inline ::System::Text::RegularExpressions::MatchCollection* System::Text::RegularExpressions::MatchCollection::New_ctor(::System::Text::RegularExpressions::Regex* regex, ::StringW input,

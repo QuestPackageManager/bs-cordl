@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(OptionsViewController)
 namespace GlobalNamespace {
 struct __OptionsViewController__OptionsButton;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

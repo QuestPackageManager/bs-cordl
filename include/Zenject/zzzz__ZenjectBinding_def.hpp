@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenjectBinding)
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class Context;
+struct __ZenjectBinding__BindTypes;
 }
 namespace UnityEngine {
 class Component;
 }
 namespace Zenject {
-struct __ZenjectBinding__BindTypes;
+class InjectTypeInfo;
+}
+namespace Zenject {
+class Context;
 }
 // Forward declare root types
 namespace Zenject {

@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateStatusRequest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__OcspStatusRequest_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest._ctor
 template <>
 
@@ -113,27 +113,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::__get_mStatusType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStatusType;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::__get_mStatusType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStatusType;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::__set_mStatusType(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mStatusType = value;
 }
 constexpr ::System::Object*& Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::__get_mRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::__get_mRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRequest;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::__set_mRequest(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::New_ctor(uint8_t statusType, ::System::Object* request) {

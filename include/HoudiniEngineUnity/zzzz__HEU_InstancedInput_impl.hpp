@@ -37,39 +37,39 @@ constexpr HoudiniEngineUnity::HEU_InstancedInput::operator ::HoudiniEngineUnity:
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::GameObject*& HoudiniEngineUnity::HEU_InstancedInput::__get__instancedGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancedGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HoudiniEngineUnity::HEU_InstancedInput::__get__instancedGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancedGameObject;
 }
 constexpr void HoudiniEngineUnity::HEU_InstancedInput::__set__instancedGameObject(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instancedGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InstancedInput::__get__rotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationOffset;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InstancedInput::__get__rotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationOffset;
 }
 constexpr void HoudiniEngineUnity::HEU_InstancedInput::__set__rotationOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationOffset = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InstancedInput::__get__scaleOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleOffset;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InstancedInput::__get__scaleOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleOffset;
 }
 constexpr void HoudiniEngineUnity::HEU_InstancedInput::__set__scaleOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scaleOffset = value;
 }
 inline bool HoudiniEngineUnity::HEU_InstancedInput::IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other) {

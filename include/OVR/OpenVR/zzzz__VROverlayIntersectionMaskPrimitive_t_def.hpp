@@ -22,7 +22,7 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8631)), TypeDefinitionIndex(TypeDefinitionIndex(8643))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8643)), TypeDefinitionIndex(TypeDefinitionIndex(8631))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8710))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionMaskPrimitive_t
 struct CORDL_TYPE VROverlayIntersectionMaskPrimitive_t {

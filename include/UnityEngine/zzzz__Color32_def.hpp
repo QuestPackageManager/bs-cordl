@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color32)
-namespace System {
-class IFormatProvider;
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 class IFormattable;
 }
-namespace UnityEngine {
-struct Color;
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {

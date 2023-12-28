@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModel_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSaveData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::AvatarDataModel.get_avatarData
 template <>
 
@@ -232,63 +232,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__avatarCreated_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarCreated_k__BackingField;
 }
 constexpr bool const& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__avatarCreated_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarCreated_k__BackingField;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarDataModel::__set__avatarCreated_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____avatarCreated_k__BackingField = value;
 }
 constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get_didChangeAvatarDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeAvatarDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*> const& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get_didChangeAvatarDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeAvatarDataEvent;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarDataModel::__set_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeAvatarDataEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__avatarPartsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPartsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__avatarPartsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPartsModel;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarDataModel::__set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarPartsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ISaveData*& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__saveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__saveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saveData;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarDataModel::__set__saveData(::GlobalNamespace::ISaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarData*& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__avatarData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarData;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarData*> const& BeatSaber::BeatAvatarSDK::AvatarDataModel::__get__avatarData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarData;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarDataModel::__set__avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::BeatAvatarSDK::AvatarDataModel::setStaticF_filePath(::StringW value) {

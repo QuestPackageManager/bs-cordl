@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509StoreManager_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Stores_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Stores_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::X509StoreManager.get_CurrentUserPath
 template <>
 

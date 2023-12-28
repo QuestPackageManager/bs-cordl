@@ -6,34 +6,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(DTSweepContext)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationConstraint;
+class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepEdgeEvent;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepPointComparator;
+class DTSweepBasin;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+struct TriangulationAlgorithm;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFront;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepBasin;
+class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationAlgorithm;
+class TriangulationConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFrontNode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class Triangulatable;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DTSweepPointComparator;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

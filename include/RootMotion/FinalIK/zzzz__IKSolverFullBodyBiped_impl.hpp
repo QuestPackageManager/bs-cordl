@@ -2,18 +2,18 @@
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
+#include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
+#include "RootMotion/zzzz__BipedReferences_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingSpine_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
-#include "RootMotion/zzzz__BipedReferences_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
-#include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKSolverFullBodyBiped.get_bodyEffector
 template <>
 
@@ -684,75 +684,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_rootNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_rootNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootNode;
 }
 constexpr void RootMotion::FinalIK::IKSolverFullBodyBiped::__set_rootNode(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_spineStiffness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spineStiffness;
 }
 constexpr float_t const& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_spineStiffness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spineStiffness;
 }
 constexpr void RootMotion::FinalIK::IKSolverFullBodyBiped::__set_spineStiffness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spineStiffness = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_pullBodyVertical() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullBodyVertical;
 }
 constexpr float_t const& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_pullBodyVertical() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullBodyVertical;
 }
 constexpr void RootMotion::FinalIK::IKSolverFullBodyBiped::__set_pullBodyVertical(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pullBodyVertical = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_pullBodyHorizontal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullBodyHorizontal;
 }
 constexpr float_t const& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_pullBodyHorizontal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pullBodyHorizontal;
 }
 constexpr void RootMotion::FinalIK::IKSolverFullBodyBiped::__set_pullBodyHorizontal(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pullBodyHorizontal = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverFullBodyBiped::__get__pullBodyOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pullBodyOffset_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverFullBodyBiped::__get__pullBodyOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pullBodyOffset_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::IKSolverFullBodyBiped::__set__pullBodyOffset_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pullBodyOffset_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverFullBodyBiped::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void RootMotion::FinalIK::IKSolverFullBodyBiped::__set_offset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 inline ::RootMotion::FinalIK::IKEffector* RootMotion::FinalIK::IKSolverFullBodyBiped::get_bodyEffector() {

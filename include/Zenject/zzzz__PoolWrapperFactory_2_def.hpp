@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_2)
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TParam1, typename TValue> class IMemoryPool_2;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
+namespace System {
+class Object;
+}
 namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class IFactory;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputPreset)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_InputAssetPreset;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputObjectPreset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputPreset);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9642)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9642))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
 // CS Name: ::HoudiniEngineUnity::HEU_InputPreset*
 class CORDL_TYPE HEU_InputPreset : public ::System::Object {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoseDataSource)
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace UnityEngine::SpatialTracking {
 struct __TrackedPoseDriver__TrackedPose;
-}
-namespace UnityEngine {
-struct Pose;
 }
 namespace UnityEngine::XR {
 struct XRNodeState;
 }
+namespace UnityEngine::XR {
+struct XRNode;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Pose;
 }
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;

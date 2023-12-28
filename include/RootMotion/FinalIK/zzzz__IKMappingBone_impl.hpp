@@ -2,9 +2,9 @@
 #include "RootMotion/FinalIK/zzzz__IKMapping_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKMappingBone.IsValid
 template <>
 
@@ -117,39 +117,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingBone::__get_bone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingBone::__get_bone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone;
 }
 constexpr void RootMotion::FinalIK::IKMappingBone::__set_bone(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::IKMappingBone::__get_maintainRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKMappingBone::__get_maintainRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationWeight;
 }
 constexpr void RootMotion::FinalIK::IKMappingBone::__set_maintainRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainRotationWeight = value;
 }
 constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingBone::__get_boneMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingBone::__get_boneMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMap;
 }
 constexpr void RootMotion::FinalIK::IKMappingBone::__set_boneMap(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boneMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool RootMotion::FinalIK::IKMappingBone::IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message) {

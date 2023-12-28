@@ -1,14 +1,14 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__VectorConverter_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::VectorConverter.get_EnableVector2
 template <>
@@ -240,39 +240,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Newtonsoft::Json::Converters::VectorConverter::__get__EnableVector2_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnableVector2_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::VectorConverter::__get__EnableVector2_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnableVector2_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::VectorConverter::__set__EnableVector2_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EnableVector2_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Converters::VectorConverter::__get__EnableVector3_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnableVector3_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::VectorConverter::__get__EnableVector3_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnableVector3_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::VectorConverter::__set__EnableVector3_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EnableVector3_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Converters::VectorConverter::__get__EnableVector4_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnableVector4_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::VectorConverter::__get__EnableVector4_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnableVector4_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::VectorConverter::__set__EnableVector4_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EnableVector4_k__BackingField = value;
 }
 inline void Newtonsoft::Json::Converters::VectorConverter::setStaticF_V2(::System::Type* value) {

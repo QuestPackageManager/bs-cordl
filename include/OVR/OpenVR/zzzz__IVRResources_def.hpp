@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRResources)
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System::Text {
 class StringBuilder;
@@ -17,7 +17,7 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace OVR::OpenVR {
 class __IVRResources___LoadSharedResource;

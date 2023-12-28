@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(UnityEvent)
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace UnityEngine::Events {
+class BaseInvokableCall;
+}
 namespace System {
 class Type;
 }
@@ -17,9 +20,6 @@ class Object;
 }
 namespace UnityEngine::Events {
 class UnityAction;
-}
-namespace UnityEngine::Events {
-class BaseInvokableCall;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

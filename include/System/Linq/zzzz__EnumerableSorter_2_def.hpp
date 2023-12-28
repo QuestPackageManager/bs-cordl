@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(EnumerableSorter_2)
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Linq {
 template <typename TElement> class EnumerableSorter_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -27,7 +27,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14293)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 }), TypeDefinitionIndex(TypeDefinitionIndex(14293))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14294))
 // CS Name: ::System.Linq::EnumerableSorter`2<TElement,TKey>*
 class CORDL_TYPE EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<TElement> {

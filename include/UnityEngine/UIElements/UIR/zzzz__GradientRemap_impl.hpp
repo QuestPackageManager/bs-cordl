@@ -30,63 +30,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::UIR::GradientRemap::__get_origIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::GradientRemap::__get_origIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origIndex;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientRemap::__set_origIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___origIndex = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::GradientRemap::__get_destIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::GradientRemap::__get_destIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destIndex;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientRemap::__set_destIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___destIndex = value;
 }
 constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::GradientRemap::__get_location() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___location;
 }
 constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::GradientRemap::__get_location() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___location;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientRemap::__set_location(::UnityEngine::RectInt value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___location = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& UnityEngine::UIElements::UIR::GradientRemap::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& UnityEngine::UIElements::UIR::GradientRemap::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientRemap::__set_next(::UnityEngine::UIElements::UIR::GradientRemap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::TextureId& UnityEngine::UIElements::UIR::GradientRemap::__get_atlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___atlas;
 }
 constexpr ::UnityEngine::UIElements::TextureId const& UnityEngine::UIElements::UIR::GradientRemap::__get_atlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___atlas;
 }
 constexpr void UnityEngine::UIElements::UIR::GradientRemap::__set_atlas(::UnityEngine::UIElements::TextureId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___atlas = value;
 }
 inline void UnityEngine::UIElements::UIR::GradientRemap::Reset() {

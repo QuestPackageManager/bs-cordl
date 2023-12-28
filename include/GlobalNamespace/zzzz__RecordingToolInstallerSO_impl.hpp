@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::RecordingToolResourceContainerSO*& GlobalNamespace::RecordingToolInstallerSO::__get__recordingToolResourceContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolResourceContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolResourceContainerSO*> const& GlobalNamespace::RecordingToolInstallerSO::__get__recordingToolResourceContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolResourceContainer;
 }
 constexpr void GlobalNamespace::RecordingToolInstallerSO::__set__recordingToolResourceContainer(::GlobalNamespace::RecordingToolResourceContainerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolResourceContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RecordingToolInstallerSO::InstallBindings() {

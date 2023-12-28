@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IEditorPlayerConnection)
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace UnityEngine::Networking::PlayerConnection {
+class MessageEventArgs;
 }
 namespace System {
 struct Guid;
 }
-namespace UnityEngine::Networking::PlayerConnection {
-class MessageEventArgs;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace UnityEngine::Networking::PlayerConnection {

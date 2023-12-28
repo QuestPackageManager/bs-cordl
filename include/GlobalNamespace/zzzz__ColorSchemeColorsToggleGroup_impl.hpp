@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeColorToggleController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeColorToggleController_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeColorsToggleGroup.add_selectedColorDidChangeEvent
 template <>
 
@@ -258,142 +258,142 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__saberAColorToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberAColorToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__saberAColorToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberAColorToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__saberAColorToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberAColorToggleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__saberBColorToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBColorToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__saberBColorToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBColorToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__saberBColorToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberBColorToggleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor0ToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0ToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const&
 GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor0ToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0ToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__environmentColor0ToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentColor0ToggleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor1ToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1ToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const&
 GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor1ToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1ToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__environmentColor1ToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentColor1ToggleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__obstaclesColorToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesColorToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const&
 GlobalNamespace::ColorSchemeColorsToggleGroup::__get__obstaclesColorToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesColorToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__obstaclesColorToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstaclesColorToggleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor0BoostToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0BoostToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const&
 GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor0BoostToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0BoostToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__environmentColor0BoostToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentColor0BoostToggleController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor1BoostToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1BoostToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const&
 GlobalNamespace::ColorSchemeColorsToggleGroup::__get__environmentColor1BoostToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1BoostToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__environmentColor1BoostToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentColor1BoostToggleController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::Color>*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get_selectedColorDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedColorDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& GlobalNamespace::ColorSchemeColorsToggleGroup::__get_selectedColorDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedColorDidChangeEvent;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectedColorDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__selectedColorToggleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedColorToggleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeColorToggleController*> const& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__selectedColorToggleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedColorToggleController;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__selectedColorToggleController(::GlobalNamespace::ColorSchemeColorToggleController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedColorToggleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorScheme*& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__colorScheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& GlobalNamespace::ColorSchemeColorsToggleGroup::__get__colorScheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
 constexpr void GlobalNamespace::ColorSchemeColorsToggleGroup::__set__colorScheme(::GlobalNamespace::ColorScheme* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value) {

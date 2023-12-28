@@ -85,8 +85,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Compos
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 411
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6719))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6720)) CS Name: ::UnityEngine.InputSystem.Composites::Vector2Composite*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 411 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6719))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6720)) CS Name:
+// ::UnityEngine.InputSystem.Composites::Vector2Composite*
 class CORDL_TYPE Vector2Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2> {
 public:
   // Declarations

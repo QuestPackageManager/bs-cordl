@@ -2,8 +2,8 @@
 #include "Mono/zzzz__RuntimeRemoteClassHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__TransparentProxy_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Proxies::TransparentProxy.GetProxyType
@@ -108,39 +108,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::Remoting::Proxies::RealProxy*& System::Runtime::Remoting::Proxies::TransparentProxy::__get__rp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rp;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Proxies::RealProxy*> const& System::Runtime::Remoting::Proxies::TransparentProxy::__get__rp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rp;
 }
 constexpr void System::Runtime::Remoting::Proxies::TransparentProxy::__set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::RuntimeRemoteClassHandle& System::Runtime::Remoting::Proxies::TransparentProxy::__get__class() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____class;
 }
 constexpr ::Mono::RuntimeRemoteClassHandle const& System::Runtime::Remoting::Proxies::TransparentProxy::__get__class() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____class;
 }
 constexpr void System::Runtime::Remoting::Proxies::TransparentProxy::__set__class(::Mono::RuntimeRemoteClassHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____class = value;
 }
 constexpr bool& System::Runtime::Remoting::Proxies::TransparentProxy::__get__custom_type_info() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____custom_type_info;
 }
 constexpr bool const& System::Runtime::Remoting::Proxies::TransparentProxy::__get__custom_type_info() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____custom_type_info;
 }
 constexpr void System::Runtime::Remoting::Proxies::TransparentProxy::__set__custom_type_info(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____custom_type_info = value;
 }
 inline ::System::RuntimeType* System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType() {

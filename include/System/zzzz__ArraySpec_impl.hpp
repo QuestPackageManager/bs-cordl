@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ArraySpec_def.hpp"
 #include "System/zzzz__ModifierSpec_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::ArraySpec._ctor
 template <>
 
@@ -66,27 +66,27 @@ constexpr System::ArraySpec::operator ::System::ModifierSpec*() noexcept {
   return static_cast<::System::ModifierSpec*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::ArraySpec::__get_dimensions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dimensions;
 }
 constexpr int32_t const& System::ArraySpec::__get_dimensions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dimensions;
 }
 constexpr void System::ArraySpec::__set_dimensions(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dimensions = value;
 }
 constexpr bool& System::ArraySpec::__get_bound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bound;
 }
 constexpr bool const& System::ArraySpec::__get_bound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bound;
 }
 constexpr void System::ArraySpec::__set_bound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bound = value;
 }
 inline ::System::ArraySpec* System::ArraySpec::New_ctor(int32_t dimensions, bool bound) {

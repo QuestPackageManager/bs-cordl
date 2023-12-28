@@ -8,10 +8,10 @@ namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;

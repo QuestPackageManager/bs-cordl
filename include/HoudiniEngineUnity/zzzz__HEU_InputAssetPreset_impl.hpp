@@ -15,15 +15,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& HoudiniEngineUnity::HEU_InputAssetPreset::__get__gameObjectName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_InputAssetPreset::__get__gameObjectName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectName;
 }
 constexpr void HoudiniEngineUnity::HEU_InputAssetPreset::__set__gameObjectName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObjectName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::HEU_InputAssetPreset* HoudiniEngineUnity::HEU_InputAssetPreset::New_ctor() {

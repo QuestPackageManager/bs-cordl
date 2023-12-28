@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12074)), TypeDefinitionIndex(TypeDefinitionIndex(12082))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(12074))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12077))
 // CS Name: ::Newtonsoft.Json.Bson::BsonValue*
 class CORDL_TYPE BsonValue : public ::Newtonsoft::Json::Bson::BsonToken {

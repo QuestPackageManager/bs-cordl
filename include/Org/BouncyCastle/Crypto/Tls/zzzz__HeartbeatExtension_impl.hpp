@@ -65,15 +65,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::__get_mMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMode;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::__get_mMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMode;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::__set_mMode(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mMode = value;
 }
 inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::New_ctor(uint8_t mode) {

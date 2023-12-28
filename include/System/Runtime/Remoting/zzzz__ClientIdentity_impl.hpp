@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__Identity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ClientIdentity._ctor
 template <>
 
@@ -80,15 +80,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::WeakReference*& System::Runtime::Remoting::ClientIdentity::__get__proxyReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proxyReference;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& System::Runtime::Remoting::ClientIdentity::__get__proxyReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proxyReference;
 }
 constexpr void System::Runtime::Remoting::ClientIdentity::__set__proxyReference(::System::WeakReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____proxyReference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::ClientIdentity* System::Runtime::Remoting::ClientIdentity::New_ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef) {

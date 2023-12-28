@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(AddressablesAsyncInstaller_1)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace BGLib::AppFlow::Initialization {
+template <typename T> struct __AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2;
+}
 namespace UnityEngine::AddressableAssets {
 class AssetLabelReference;
-}
-namespace BGLib::AppFlow::Initialization {
-class __AsyncInstaller__IInstallerRegistry;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T> struct __AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2;
+class __AsyncInstaller__IInstallerRegistry;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -50,8 +50,8 @@ namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 87 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5057 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5057 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 87 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15419)) CS Name: ::AddressablesAsyncInstaller`1::<LoadResourcesBeforeInstallAsync>d__2<T>
 struct CORDL_TYPE __AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2 {
 public:
@@ -107,8 +107,8 @@ namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 852 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 86 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(15422)), TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 86 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 852 }), TypeDefinitionIndex(TypeDefinitionIndex(15422))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15420)) CS Name: ::BGLib.AppFlow.Initialization::AddressablesAsyncInstaller`1<T>*
 class CORDL_TYPE AddressablesAsyncInstaller_1 : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:

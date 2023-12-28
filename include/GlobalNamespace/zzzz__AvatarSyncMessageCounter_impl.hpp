@@ -3,8 +3,8 @@
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarSyncMessageCounter_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AvatarSyncMessageCounter._ctor
 template <>
 
@@ -63,27 +63,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Queue_1<::System::DateTime>*& GlobalNamespace::AvatarSyncMessageCounter::__get_messageTimestamps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageTimestamps;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::DateTime>*> const& GlobalNamespace::AvatarSyncMessageCounter::__get_messageTimestamps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageTimestamps;
 }
 constexpr void GlobalNamespace::AvatarSyncMessageCounter::__set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___messageTimestamps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::TimeSpan& GlobalNamespace::AvatarSyncMessageCounter::__get_period() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___period;
 }
 constexpr ::System::TimeSpan const& GlobalNamespace::AvatarSyncMessageCounter::__get_period() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___period;
 }
 constexpr void GlobalNamespace::AvatarSyncMessageCounter::__set_period(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___period = value;
 }
 inline ::GlobalNamespace::AvatarSyncMessageCounter* GlobalNamespace::AvatarSyncMessageCounter::New_ctor(::System::TimeSpan period) {

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainMap)
 namespace UnityEngine::TerrainUtils {
-struct TerrainMapStatusCode;
-}
-namespace UnityEngine::TerrainUtils {
-class __TerrainMap____c__DisplayClass3_0;
+struct TerrainTileCoord;
 }
 namespace UnityEngine {
 struct Vector2;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace UnityEngine::TerrainUtils {
-struct TerrainTileCoord;
+struct TerrainMapStatusCode;
 }
 namespace UnityEngine {
 class Terrain;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::TerrainUtils {
+class __TerrainMap____c__DisplayClass3_0;
 }
 namespace System {
 template <typename T> class Predicate_1;

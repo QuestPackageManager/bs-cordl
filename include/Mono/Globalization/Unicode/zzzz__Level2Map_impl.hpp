@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& Mono::Globalization::Unicode::Level2Map::__get_Source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Source;
 }
 constexpr uint8_t const& Mono::Globalization::Unicode::Level2Map::__get_Source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Source;
 }
 constexpr void Mono::Globalization::Unicode::Level2Map::__set_Source(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Source = value;
 }
 constexpr uint8_t& Mono::Globalization::Unicode::Level2Map::__get_Replace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Replace;
 }
 constexpr uint8_t const& Mono::Globalization::Unicode::Level2Map::__get_Replace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Replace;
 }
 constexpr void Mono::Globalization::Unicode::Level2Map::__set_Replace(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Replace = value;
 }
 inline ::Mono::Globalization::Unicode::Level2Map* Mono::Globalization::Unicode::Level2Map::New_ctor(uint8_t source, uint8_t replace) {

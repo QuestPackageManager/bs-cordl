@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PointerEventDataExtension)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
 struct Ray;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyCenterStageManager)
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class CenterStageScreenController;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

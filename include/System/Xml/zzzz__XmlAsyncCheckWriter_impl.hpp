@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckWriter_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Xml/zzzz__WriteState_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/Xml/zzzz__WriteState_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter._ctor
 template <>
 
@@ -435,27 +435,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlWriter*& System::Xml::XmlAsyncCheckWriter::__get_coreWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& System::Xml::XmlAsyncCheckWriter::__get_coreWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coreWriter;
 }
 constexpr void System::Xml::XmlAsyncCheckWriter::__set_coreWriter(::System::Xml::XmlWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___coreWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::Task*& System::Xml::XmlAsyncCheckWriter::__get_lastTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Xml::XmlAsyncCheckWriter::__get_lastTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTask;
 }
 constexpr void System::Xml::XmlAsyncCheckWriter::__set_lastTask(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlAsyncCheckWriter* System::Xml::XmlAsyncCheckWriter::New_ctor(::System::Xml::XmlWriter* writer) {

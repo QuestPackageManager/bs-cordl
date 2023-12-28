@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReferenceManager)
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace System::Collections::Generic {
@@ -17,6 +14,9 @@ template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 namespace TMPro {
 class TMP_ColorGradient;

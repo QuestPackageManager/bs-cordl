@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_3)
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace System {
 class Action;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IValidatable;
 }
 namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-struct Guid;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,7 +41,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4842 }), TypeDefinitionIndex(TypeDefinitionIndex(11219))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4842 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11221))
 // CS Name: ::Zenject::PoolableMemoryPoolProvider`3<TParam1,TContract,TMemoryPool>*
 class CORDL_TYPE PoolableMemoryPoolProvider_3 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {

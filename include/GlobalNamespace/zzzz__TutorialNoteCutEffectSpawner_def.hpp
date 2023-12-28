@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(TutorialNoteCutEffectSpawner)
 namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
 class FlyingTextSpawner;
 }
 namespace GlobalNamespace {
@@ -16,6 +13,9 @@ class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

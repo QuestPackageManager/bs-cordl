@@ -11,6 +11,12 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace Zenject {
 class __ConventionBindInfo____c__DisplayClass7_0;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace Zenject {
 class __ConventionBindInfo____c__DisplayClass6_0;
 }
@@ -20,14 +26,8 @@ class Type;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Reflection {
 class Assembly;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;

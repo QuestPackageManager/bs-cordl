@@ -82,99 +82,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Rotate::__get__rotationVector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationVector;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Rotate::__get__rotationVector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationVector;
 }
 constexpr void GlobalNamespace::Rotate::__set__rotationVector(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationVector = value;
 }
 constexpr float_t& GlobalNamespace::Rotate::__get__speed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speed;
 }
 constexpr float_t const& GlobalNamespace::Rotate::__get__speed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speed;
 }
 constexpr void GlobalNamespace::Rotate::__set__speed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____speed = value;
 }
 constexpr bool& GlobalNamespace::Rotate::__get__randomize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomize;
 }
 constexpr bool const& GlobalNamespace::Rotate::__get__randomize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomize;
 }
 constexpr void GlobalNamespace::Rotate::__set__randomize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomize = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Rotate::__get__randomMinMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomMinMultiplier;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Rotate::__get__randomMinMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomMinMultiplier;
 }
 constexpr void GlobalNamespace::Rotate::__set__randomMinMultiplier(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomMinMultiplier = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Rotate::__get__randomMaxMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomMaxMultiplier;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Rotate::__get__randomMaxMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomMaxMultiplier;
 }
 constexpr void GlobalNamespace::Rotate::__set__randomMaxMultiplier(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomMaxMultiplier = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::Rotate::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::Rotate::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::Rotate::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Rotate::__get__startRotationAngles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotationAngles;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Rotate::__get__startRotationAngles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotationAngles;
 }
 constexpr void GlobalNamespace::Rotate::__set__startRotationAngles(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startRotationAngles = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Rotate::__get__randomizedMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedMultiplier;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Rotate::__get__randomizedMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomizedMultiplier;
 }
 constexpr void GlobalNamespace::Rotate::__set__randomizedMultiplier(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomizedMultiplier = value;
 }
 inline void GlobalNamespace::Rotate::Awake() {

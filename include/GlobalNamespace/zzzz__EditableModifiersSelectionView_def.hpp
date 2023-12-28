@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
 CORDL_MODULE_EXPORT(EditableModifiersSelectionView)
-namespace UnityEngine::UI {
-class Button;
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace UnityEngine {
-class CanvasGroup;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

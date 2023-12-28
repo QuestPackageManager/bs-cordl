@@ -13,46 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlowCoordinator)
 namespace HMUI {
-class __FlowCoordinator____c__DisplayClass45_0;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass49_0;
-}
-namespace HMUI {
-struct __ViewController__AnimationDirection;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass46_0;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass38_0;
-}
-namespace HMUI {
-class ScreenSystem;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace HMUI {
-class NavigationController;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass41_0;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass43_0;
-}
-namespace HMUI {
 struct __FlowCoordinator___DismissChildFlowCoordinatorsRecursively_d__39;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass50_0;
 }
 namespace HMUI {
 struct __FlowCoordinator___DismissChildViewControllersRecursively_d__40;
@@ -60,8 +21,53 @@ struct __FlowCoordinator___DismissChildViewControllersRecursively_d__40;
 namespace HMUI {
 class __FlowCoordinator____c__DisplayClass42_0;
 }
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass43_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass45_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass46_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass50_0;
+}
+namespace HMUI {
+class ViewController;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HMUI {
+struct __ViewController__AnimationDirection;
+}
+namespace HMUI {
+class NavigationController;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass37_0;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass49_0;
+}
+namespace HMUI {
+class ScreenSystem;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace System {
+class Action;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass38_0;
+}
+namespace UnityEngine::EventSystems {
+class BaseInputModule;
+}
+namespace HMUI {
+class __FlowCoordinator____c__DisplayClass41_0;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
@@ -69,26 +75,20 @@ class EventSystem;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace UnityEngine::EventSystems {
-class BaseInputModule;
-}
-namespace HMUI {
-class __FlowCoordinator____c__DisplayClass37_0;
+namespace System {
+class Object;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+struct TaskAwaiter;
 }
 // Forward declare root types
 namespace HMUI {
@@ -319,7 +319,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__FlowCoordinator____c__Di
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13573))
 // CS Name: ::FlowCoordinator::<DismissChildFlowCoordinatorsRecursively>d__39
 struct CORDL_TYPE __FlowCoordinator___DismissChildFlowCoordinatorsRecursively_d__39 {

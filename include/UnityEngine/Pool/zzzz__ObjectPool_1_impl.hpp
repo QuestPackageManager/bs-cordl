@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
-#include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
@@ -16,99 +16,99 @@ template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::U
   return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__get_m_List() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_List() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_List(::System::Collections::Generic::List_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_List)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__get_m_CreateFunc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_CreateFunc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_CreateFunc(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CreateFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__get_m_ActionOnGet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_ActionOnGet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_ActionOnGet(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnGet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__get_m_ActionOnRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_ActionOnRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_ActionOnRelease(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnRelease)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__get_m_ActionOnDestroy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnDestroy;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_ActionOnDestroy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnDestroy;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_ActionOnDestroy(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnDestroy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& UnityEngine::Pool::ObjectPool_1<T>::__get_m_MaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 template <typename T> constexpr int32_t const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_MaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_MaxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxSize = value;
 }
 template <typename T> constexpr bool& UnityEngine::Pool::ObjectPool_1<T>::__get_m_CollectionCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CollectionCheck;
 }
 template <typename T> constexpr bool const& UnityEngine::Pool::ObjectPool_1<T>::__get_m_CollectionCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CollectionCheck;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set_m_CollectionCheck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CollectionCheck = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::Pool::ObjectPool_1<T>::__get__CountAll_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CountAll_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::Pool::ObjectPool_1<T>::__get__CountAll_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CountAll_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__set__CountAll_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CountAll_k__BackingField = value;
 }
 template <typename T> inline int32_t UnityEngine::Pool::ObjectPool_1<T>::get_CountAll() {

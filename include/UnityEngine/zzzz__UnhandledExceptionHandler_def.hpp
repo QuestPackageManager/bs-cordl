@@ -11,10 +11,10 @@ namespace System {
 class UnhandledExceptionEventHandler;
 }
 namespace System {
-class UnhandledExceptionEventArgs;
+class Object;
 }
 namespace System {
-class Object;
+class UnhandledExceptionEventArgs;
 }
 // Forward declare root types
 namespace UnityEngine {

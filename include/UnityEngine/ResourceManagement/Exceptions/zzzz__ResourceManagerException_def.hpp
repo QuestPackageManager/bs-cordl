@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceManagerException)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Exception;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;

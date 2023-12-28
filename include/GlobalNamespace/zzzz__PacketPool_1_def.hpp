@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
-class IPacketPool;
+class IPoolablePacket;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
+class IPacketPool;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentBag_1;

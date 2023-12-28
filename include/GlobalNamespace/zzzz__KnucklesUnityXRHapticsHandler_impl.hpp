@@ -3,16 +3,16 @@
 #include "UnityEngine/XR/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__KnucklesUnityXRHapticsHandler_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__KnucklesUnityXRHapticsHandler_def.hpp"
+#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9._ctor
 template <>
 
@@ -116,64 +116,64 @@ constexpr GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler*& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::KnucklesUnityXRHapticsHandler*> const&
 GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::XR::InputDevice& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get__device_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____device_5__2;
 }
 constexpr ::UnityEngine::XR::InputDevice const& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get__device_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____device_5__2;
 }
 constexpr void GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__set__device_5__2(::UnityEngine::XR::InputDevice value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____device_5__2 = value;
 }
 constexpr ::UnityEngine::WaitForSecondsRealtime*& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get__waiter_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waiter_5__3;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSecondsRealtime*> const& GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get__waiter_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waiter_5__3;
 }
 constexpr void GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waiter_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::New_ctor(int32_t __1__state) {
@@ -299,63 +299,63 @@ constexpr GlobalNamespace::KnucklesUnityXRHapticsHandler::operator ::System::IDi
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::MonoBehaviour*& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__coroutineRunner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineRunner;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MonoBehaviour*> const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__coroutineRunner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineRunner;
 }
 constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__set__coroutineRunner(::UnityEngine::MonoBehaviour* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineRunner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Coroutine*& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__hapticsCoroutine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticsCoroutine;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__hapticsCoroutine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticsCoroutine;
 }
 constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__set__hapticsCoroutine(::UnityEngine::Coroutine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticsCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__node() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____node;
 }
 constexpr ::UnityEngine::XR::XRNode const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__node() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____node;
 }
 constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__set__node(::UnityEngine::XR::XRNode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____node = value;
 }
 constexpr float_t& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__remainingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remainingTime;
 }
 constexpr float_t const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__remainingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remainingTime;
 }
 constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__set__remainingTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remainingTime = value;
 }
 constexpr float_t& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__amplitude() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitude;
 }
 constexpr float_t const& GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__amplitude() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitude;
 }
 constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__set__amplitude(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____amplitude = value;
 }
 inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* GlobalNamespace::KnucklesUnityXRHapticsHandler::New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner) {

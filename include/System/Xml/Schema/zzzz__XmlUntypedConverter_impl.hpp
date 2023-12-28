@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlListConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlUntypedConverter_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlUntypedConverter._ctor
 template <>
 
@@ -598,15 +598,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Xml::Schema::XmlUntypedConverter::__get_allowListToList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowListToList;
 }
 constexpr bool const& System::Xml::Schema::XmlUntypedConverter::__get_allowListToList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowListToList;
 }
 constexpr void System::Xml::Schema::XmlUntypedConverter::__set_allowListToList(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowListToList = value;
 }
 inline void System::Xml::Schema::XmlUntypedConverter::setStaticF_Untyped(::System::Xml::Schema::XmlValueConverter* value) {

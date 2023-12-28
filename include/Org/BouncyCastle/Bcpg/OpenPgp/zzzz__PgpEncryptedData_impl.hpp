@@ -83,51 +83,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_inStr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inStr;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_inStr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inStr;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_inStr(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_lookAhead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookAhead;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_lookAhead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookAhead;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_lookAhead(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookAhead)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufStart;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufStart;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_bufStart(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufStart = value;
 }
 constexpr int32_t& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufEnd;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufEnd;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_bufEnd(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufEnd = value;
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::New_ctor(::System::IO::Stream* inStr) {
@@ -226,40 +226,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encData;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encData;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_encData(::Org::BouncyCastle::Bcpg::InputStreamPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encStream;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_encStream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_truncStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___truncStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*> const&
 Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_truncStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___truncStream;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___truncStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::New_ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData) {

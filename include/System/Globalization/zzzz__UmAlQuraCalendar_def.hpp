@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UmAlQuraCalendar)
-namespace System {
-struct DateTime;
+namespace System::Globalization {
+struct __UmAlQuraCalendar__DateMapping;
 }
 namespace System {
 struct DayOfWeek;
 }
-namespace System::Globalization {
-struct __UmAlQuraCalendar__DateMapping;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {

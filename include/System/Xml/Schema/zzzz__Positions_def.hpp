@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Positions)
+namespace System::Xml::Schema {
+struct Position;
+}
 namespace System::Collections {
 class ArrayList;
 }
 namespace System {
 class Object;
-}
-namespace System::Xml::Schema {
-struct Position;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

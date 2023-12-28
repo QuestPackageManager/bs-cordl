@@ -3,76 +3,76 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserCapabilityList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AbuseReportRecording_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Error_def.hpp"
-#include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LivestreamingStartResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PurchaseList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PartyID_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ChallengeList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ApplicationInviteList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LivestreamingStatus_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MicrophoneAvailabilityState_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserReportID_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchInvitePanelFlowResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LinkedAccountList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AppDownloadResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AvatarEditorResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchFriendRequestFlowResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetSyncSessionList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__InstalledApplicationList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ProductList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__RejoinDialogResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__SdkAccountList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ChallengeEntryList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetSyncSetSessionPropertyResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserDataStoreUpdateResponse_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__OrgScopedID_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
-#include "Oculus/Platform/Models/zzzz__SendInvitesResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetSyncConnection_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserAccountAgeCategory_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LivestreamingVideoStats_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Party_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchInvitePanelFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ApplicationVersion_def.hpp"
-#include "Oculus/Platform/Models/zzzz__SystemVoipState_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LivestreamingApplicationStatus_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ShareMediaResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDeleteResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadCancelResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchBlockFlowResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValueList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchReportFlowResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchUnblockFlowResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Purchase_def.hpp"
-#include "Oculus/Platform/Models/zzzz__BlockedUserList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PidList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ChallengeList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
+#include "Oculus/Platform/Models/zzzz__SdkAccountList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AbuseReportRecording_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchBlockFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__NetSyncConnection_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MicrophoneAvailabilityState_def.hpp"
+#include "Oculus/Platform/Models/zzzz__NetSyncSetSessionPropertyResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LivestreamingStatus_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LivestreamingApplicationStatus_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserCapabilityList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PidList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AppDownloadResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadCancelResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LinkedAccountList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PartyID_def.hpp"
+#include "Oculus/Platform/Models/zzzz__NetSyncSessionList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDeleteResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LivestreamingStartResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValueList_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "Oculus/Platform/Models/zzzz__BlockedUserList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PurchaseList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__SendInvitesResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ApplicationInviteList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchFriendRequestFlowResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ChallengeEntryList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ShareMediaResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__SystemVoipState_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserReportID_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
+#include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserDataStoreUpdateResponse_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Party_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LivestreamingVideoStats_def.hpp"
+#include "Oculus/Platform/Models/zzzz__OrgScopedID_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Error_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchReportFlowResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ProductList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserAccountAgeCategory_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
+#include "Oculus/Platform/Models/zzzz__RejoinDialogResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Purchase_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSessionsChangedNotification_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::__Message__Callback._ctor
 template <>
 
@@ -1541,39 +1541,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::__Message__MessageType& Oculus::Platform::Message::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::Oculus::Platform::__Message__MessageType const& Oculus::Platform::Message::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void Oculus::Platform::Message::__set_type(::Oculus::Platform::__Message__MessageType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 constexpr uint64_t& Oculus::Platform::Message::__get_requestID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestID;
 }
 constexpr uint64_t const& Oculus::Platform::Message::__get_requestID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestID;
 }
 constexpr void Oculus::Platform::Message::__set_requestID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requestID = value;
 }
 constexpr ::Oculus::Platform::Models::Error*& Oculus::Platform::Message::__get_error() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Error*> const& Oculus::Platform::Message::__get_error() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
 constexpr void Oculus::Platform::Message::__set_error(::Oculus::Platform::Models::Error* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___error)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Oculus::Platform::Message::setStaticF__HandleExtraMessageTypes_k__BackingField(::Oculus::Platform::__Message__ExtraMessageTypesHandler* value) {

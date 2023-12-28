@@ -3,18 +3,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerLevelStatsData_def.hpp"
-#include "GlobalNamespace/zzzz__RunLevelMenuDestination_def.hpp"
-#include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardViewController_def.hpp"
+#include "GlobalNamespace/zzzz__RunLevelMenuDestination_def.hpp"
 #include "GlobalNamespace/zzzz__ResultsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0._ctor
 template <>
 
@@ -46,28 +46,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SoloFreePlayFlowCoordinator*& GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SoloFreePlayFlowCoordinator*> const& GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__set___4__this(::GlobalNamespace::SoloFreePlayFlowCoordinator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ResultsViewController*& GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__get_resultsViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultsViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultsViewController*> const&
 GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__get_resultsViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultsViewController;
 }
 constexpr void GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__set_resultsViewController(::GlobalNamespace::ResultsViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resultsViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0* GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::New_ctor() {
@@ -291,88 +291,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MenuLightsPresetSO*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__defaultLightsPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLightsPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__defaultLightsPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLightsPreset;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__defaultLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultLightsPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuLightsPresetSO*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__resultsClearedLightsPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsClearedLightsPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__resultsClearedLightsPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsClearedLightsPreset;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__resultsClearedLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultsClearedLightsPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuLightsPresetSO*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__resultsFailedLightsPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsFailedLightsPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__resultsFailedLightsPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsFailedLightsPreset;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__resultsFailedLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultsFailedLightsPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuLightsManager*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__menuLightsManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuLightsManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsManager*> const& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__menuLightsManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuLightsManager;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__menuLightsManager(::GlobalNamespace::MenuLightsManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuLightsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ResultsViewController*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__resultsViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultsViewController*> const& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__resultsViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultsViewController;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__resultsViewController(::GlobalNamespace::ResultsViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultsViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlatformLeaderboardViewController*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__platformLeaderboardViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformLeaderboardViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardViewController*> const&
 GlobalNamespace::SoloFreePlayFlowCoordinator::__get__platformLeaderboardViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformLeaderboardViewController;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__platformLeaderboardViewController(::GlobalNamespace::PlatformLeaderboardViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformLeaderboardViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel*& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__platformLeaderboardsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformLeaderboardsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardsModel*> const& GlobalNamespace::SoloFreePlayFlowCoordinator::__get__platformLeaderboardsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformLeaderboardsModel;
 }
 constexpr void GlobalNamespace::SoloFreePlayFlowCoordinator::__set__platformLeaderboardsModel(::GlobalNamespace::PlatformLeaderboardsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformLeaderboardsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::SoloFreePlayFlowCoordinator::get_gameMode() {

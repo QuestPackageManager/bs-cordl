@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__UISelectionState_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 CORDL_MODULE_EXPORT(NoTransitionsToggle)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine::UI {
 struct __Selectable__SelectionState;
 }
 namespace HMUI {
 struct UISelectionState;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace HMUI {

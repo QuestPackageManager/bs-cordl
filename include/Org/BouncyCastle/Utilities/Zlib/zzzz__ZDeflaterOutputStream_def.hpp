@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZDeflaterOutputStream)
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;

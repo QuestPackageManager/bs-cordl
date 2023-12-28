@@ -79,39 +79,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__get_iface_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface_path;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::LinuxNetworkInterface::__get_iface_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface_path;
 }
 constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__set_iface_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__get_iface_operstate_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface_operstate_path;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::LinuxNetworkInterface::__get_iface_operstate_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface_operstate_path;
 }
 constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__set_iface_operstate_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_operstate_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__get_iface_flags_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface_flags_path;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::LinuxNetworkInterface::__get_iface_flags_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface_flags_path;
 }
 constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__set_iface_flags_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_flags_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath() {

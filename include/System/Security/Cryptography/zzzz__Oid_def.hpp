@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::Oid);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8975))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8975)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8972))
 // CS Name: ::System.Security.Cryptography::Oid*
 class CORDL_TYPE Oid : public ::System::Object {

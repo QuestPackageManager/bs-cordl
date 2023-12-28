@@ -57,99 +57,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::FullBodyBipedIK*& RootMotion::FinalIK::FBBIKArmBending::__get_ik() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::FullBodyBipedIK*> const& RootMotion::FinalIK::FBBIKArmBending::__get_ik() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ik)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::FBBIKArmBending::__get_bendDirectionOffsetLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendDirectionOffsetLeft;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::FBBIKArmBending::__get_bendDirectionOffsetLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendDirectionOffsetLeft;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_bendDirectionOffsetLeft(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendDirectionOffsetLeft = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::FBBIKArmBending::__get_bendDirectionOffsetRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendDirectionOffsetRight;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::FBBIKArmBending::__get_bendDirectionOffsetRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendDirectionOffsetRight;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_bendDirectionOffsetRight(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendDirectionOffsetRight = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::FBBIKArmBending::__get_characterSpaceBendOffsetLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterSpaceBendOffsetLeft;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::FBBIKArmBending::__get_characterSpaceBendOffsetLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterSpaceBendOffsetLeft;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_characterSpaceBendOffsetLeft(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characterSpaceBendOffsetLeft = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::FBBIKArmBending::__get_characterSpaceBendOffsetRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterSpaceBendOffsetRight;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::FBBIKArmBending::__get_characterSpaceBendOffsetRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterSpaceBendOffsetRight;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_characterSpaceBendOffsetRight(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characterSpaceBendOffsetRight = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::FBBIKArmBending::__get_leftHandTargetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandTargetRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::FBBIKArmBending::__get_leftHandTargetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandTargetRotation;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_leftHandTargetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftHandTargetRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::FBBIKArmBending::__get_rightHandTargetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandTargetRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::FBBIKArmBending::__get_rightHandTargetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandTargetRotation;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_rightHandTargetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightHandTargetRotation = value;
 }
 constexpr bool& RootMotion::FinalIK::FBBIKArmBending::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::FBBIKArmBending::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::FBBIKArmBending::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 inline void RootMotion::FinalIK::FBBIKArmBending::LateUpdate() {

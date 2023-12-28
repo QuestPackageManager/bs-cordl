@@ -9,49 +9,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRInputModule)
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
+class PointerEventData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace GlobalNamespace {
-class HapticFeedbackManager;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace VRUIControls {
-class VRPointer;
-}
-namespace VRUIControls {
-class MouseState;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 namespace VRUIControls {
 class MouseButtonEventData;
 }
 namespace UnityEngine {
-struct Vector2;
+class GameObject;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace VRUIControls {
+class MouseState;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
+namespace VRUIControls {
+class VRPointer;
+}
+namespace GlobalNamespace {
+class HapticFeedbackManager;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine {
+class Component;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace VRUIControls {

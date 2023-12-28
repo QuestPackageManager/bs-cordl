@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class __MissScoringElement__Pool;
 }
 namespace GlobalNamespace {
-class NoteData;
+struct __ScoreMultiplierCounter__MultiplierEventType;
 }
 namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissScoringElement__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5323)), TypeDefinitionIndex(TypeDefinitionIndex(5320))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5329))
 // CS Name: ::MissScoringElement*
 class CORDL_TYPE MissScoringElement : public ::GlobalNamespace::ScoringElement {
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissScoringElem
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2818 }), TypeDefinitionIndex(TypeDefinitionIndex(5322)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5329))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5328)) CS Name: ::MissScoringElement::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5322)), TypeDefinitionIndex(TypeDefinitionIndex(5329)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2818
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5328)) CS Name: ::MissScoringElement::Pool*
 class CORDL_TYPE __MissScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::MissScoringElement*> {
 public:
   // Declarations

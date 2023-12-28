@@ -10,41 +10,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneLoader)
-namespace GlobalNamespace {
-class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-struct __OVRSceneLoader__SceneInfo;
-}
-namespace UnityEngine {
-class AssetBundle;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine::UI {
-class Text;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 class Canvas;
 }
 namespace GlobalNamespace {
+class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
+}
+namespace UnityEngine {
+class AssetBundle;
+}
+namespace GlobalNamespace {
 class __OVRSceneLoader___DelayCanvasPosUpdate_d__24;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace GlobalNamespace {
+struct __OVRSceneLoader__SceneInfo;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -302,7 +302,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneLoade
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7957))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7957)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7960))
 // CS Name: ::OVRSceneLoader*
 class CORDL_TYPE OVRSceneLoader : public ::UnityEngine::MonoBehaviour {

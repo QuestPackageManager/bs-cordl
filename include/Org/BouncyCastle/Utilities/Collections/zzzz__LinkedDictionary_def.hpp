@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedDictionary)
+namespace System::Collections {
+class IDictionary;
+}
 namespace System {
 class Array;
 }
@@ -14,6 +17,9 @@ class IDictionaryEnumerator;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class ICollection;
+}
 namespace System {
 class Object;
 }
@@ -21,13 +27,7 @@ namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

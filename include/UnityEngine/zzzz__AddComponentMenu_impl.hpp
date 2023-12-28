@@ -30,27 +30,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::AddComponentMenu::__get_m_AddComponentMenu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddComponentMenu;
 }
 constexpr ::StringW const& UnityEngine::AddComponentMenu::__get_m_AddComponentMenu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddComponentMenu;
 }
 constexpr void UnityEngine::AddComponentMenu::__set_m_AddComponentMenu(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AddComponentMenu)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::AddComponentMenu::__get_m_Ordering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ordering;
 }
 constexpr int32_t const& UnityEngine::AddComponentMenu::__get_m_Ordering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ordering;
 }
 constexpr void UnityEngine::AddComponentMenu::__set_m_Ordering(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ordering = value;
 }
 inline ::UnityEngine::AddComponentMenu* UnityEngine::AddComponentMenu::New_ctor(::StringW menuName) {

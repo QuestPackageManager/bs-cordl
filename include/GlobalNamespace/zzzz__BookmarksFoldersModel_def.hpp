@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BookmarksFoldersModel)
 namespace GlobalNamespace {
-class __BookmarksFoldersModel____c;
+class FileBrowserItem;
 }
 namespace GlobalNamespace {
-class FileBrowserItem;
+class __BookmarksFoldersModel____c;
 }
 namespace System {
 struct __Environment__SpecialFolder;

@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ITypeDescriptorContext)
-namespace System::ComponentModel {
-class IContainer;
-}
 namespace System {
 class IServiceProvider;
+}
+namespace System::ComponentModel {
+class IContainer;
 }
 // Forward declare root types
 namespace System::ComponentModel {

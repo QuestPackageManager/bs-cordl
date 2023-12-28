@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BundledAssetProvider)
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __BundledAssetProvider__InternalOp;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
-namespace UnityEngine {
-class AssetBundle;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __BundledAssetProvider__InternalOp;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class AssetBundle;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__BundledAs
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13996))
 // CS Name: ::BundledAssetProvider::InternalOp*
 class CORDL_TYPE __BundledAssetProvider__InternalOp : public ::System::Object {

@@ -14,10 +14,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __LeaderboardIdsModelSO__LeaderboardIdData;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __LeaderboardIdsModelSO__LeaderboardIdData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

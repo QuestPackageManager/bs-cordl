@@ -2,13 +2,13 @@
 #include "System/Globalization/zzzz__NumberStyles_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
-#include "System/Globalization/zzzz__CultureData_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CultureData_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Globalization::NumberFormatInfo._ctor
 template <>
 
@@ -626,411 +626,411 @@ constexpr System::Globalization::NumberFormatInfo::operator ::System::IFormatPro
   return static_cast<::System::IFormatProvider*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Globalization::NumberFormatInfo::__get_numberGroupSizes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberGroupSizes;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Globalization::NumberFormatInfo::__get_numberGroupSizes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberGroupSizes;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_numberGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___numberGroupSizes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Globalization::NumberFormatInfo::__get_currencyGroupSizes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyGroupSizes;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Globalization::NumberFormatInfo::__get_currencyGroupSizes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyGroupSizes;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencyGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currencyGroupSizes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Globalization::NumberFormatInfo::__get_percentGroupSizes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentGroupSizes;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Globalization::NumberFormatInfo::__get_percentGroupSizes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentGroupSizes;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentGroupSizes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___percentGroupSizes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_positiveSign() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positiveSign;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_positiveSign() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positiveSign;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_positiveSign(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positiveSign)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_negativeSign() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___negativeSign;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_negativeSign() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___negativeSign;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_negativeSign(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___negativeSign)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_numberDecimalSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberDecimalSeparator;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_numberDecimalSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberDecimalSeparator;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_numberDecimalSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___numberDecimalSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_numberGroupSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberGroupSeparator;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_numberGroupSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberGroupSeparator;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_numberGroupSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___numberGroupSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_currencyGroupSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyGroupSeparator;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_currencyGroupSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyGroupSeparator;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencyGroupSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currencyGroupSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_currencyDecimalSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyDecimalSeparator;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_currencyDecimalSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyDecimalSeparator;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencyDecimalSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currencyDecimalSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_currencySymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencySymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_currencySymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencySymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencySymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currencySymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_ansiCurrencySymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ansiCurrencySymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_ansiCurrencySymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ansiCurrencySymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_ansiCurrencySymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ansiCurrencySymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_nanSymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nanSymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_nanSymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nanSymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_nanSymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nanSymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_positiveInfinitySymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positiveInfinitySymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_positiveInfinitySymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positiveInfinitySymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_positiveInfinitySymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positiveInfinitySymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_negativeInfinitySymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___negativeInfinitySymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_negativeInfinitySymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___negativeInfinitySymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_negativeInfinitySymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___negativeInfinitySymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_percentDecimalSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentDecimalSeparator;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_percentDecimalSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentDecimalSeparator;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentDecimalSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___percentDecimalSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_percentGroupSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentGroupSeparator;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_percentGroupSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentGroupSeparator;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentGroupSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___percentGroupSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_percentSymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentSymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_percentSymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentSymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentSymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___percentSymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::NumberFormatInfo::__get_perMilleSymbol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___perMilleSymbol;
 }
 constexpr ::StringW const& System::Globalization::NumberFormatInfo::__get_perMilleSymbol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___perMilleSymbol;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_perMilleSymbol(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___perMilleSymbol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::NumberFormatInfo::__get_nativeDigits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeDigits;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::NumberFormatInfo::__get_nativeDigits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeDigits;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_nativeDigits(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nativeDigits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_m_dataItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dataItem;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_m_dataItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dataItem;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_m_dataItem(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_dataItem = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_numberDecimalDigits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberDecimalDigits;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_numberDecimalDigits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberDecimalDigits;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_numberDecimalDigits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___numberDecimalDigits = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_currencyDecimalDigits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyDecimalDigits;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_currencyDecimalDigits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyDecimalDigits;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencyDecimalDigits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currencyDecimalDigits = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_currencyPositivePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyPositivePattern;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_currencyPositivePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyPositivePattern;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencyPositivePattern(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currencyPositivePattern = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_currencyNegativePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyNegativePattern;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_currencyNegativePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currencyNegativePattern;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_currencyNegativePattern(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currencyNegativePattern = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_numberNegativePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberNegativePattern;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_numberNegativePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberNegativePattern;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_numberNegativePattern(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___numberNegativePattern = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_percentPositivePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentPositivePattern;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_percentPositivePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentPositivePattern;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentPositivePattern(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___percentPositivePattern = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_percentNegativePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentNegativePattern;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_percentNegativePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentNegativePattern;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentNegativePattern(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___percentNegativePattern = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_percentDecimalDigits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentDecimalDigits;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_percentDecimalDigits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___percentDecimalDigits;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_percentDecimalDigits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___percentDecimalDigits = value;
 }
 constexpr int32_t& System::Globalization::NumberFormatInfo::__get_digitSubstitution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digitSubstitution;
 }
 constexpr int32_t const& System::Globalization::NumberFormatInfo::__get_digitSubstitution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digitSubstitution;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_digitSubstitution(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___digitSubstitution = value;
 }
 constexpr bool& System::Globalization::NumberFormatInfo::__get_isReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isReadOnly;
 }
 constexpr bool const& System::Globalization::NumberFormatInfo::__get_isReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isReadOnly;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_isReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isReadOnly = value;
 }
 constexpr bool& System::Globalization::NumberFormatInfo::__get_m_useUserOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useUserOverride;
 }
 constexpr bool const& System::Globalization::NumberFormatInfo::__get_m_useUserOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useUserOverride;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_m_useUserOverride(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_useUserOverride = value;
 }
 constexpr bool& System::Globalization::NumberFormatInfo::__get_m_isInvariant() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isInvariant;
 }
 constexpr bool const& System::Globalization::NumberFormatInfo::__get_m_isInvariant() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isInvariant;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_m_isInvariant(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isInvariant = value;
 }
 constexpr bool& System::Globalization::NumberFormatInfo::__get_validForParseAsNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validForParseAsNumber;
 }
 constexpr bool const& System::Globalization::NumberFormatInfo::__get_validForParseAsNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validForParseAsNumber;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_validForParseAsNumber(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validForParseAsNumber = value;
 }
 constexpr bool& System::Globalization::NumberFormatInfo::__get_validForParseAsCurrency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validForParseAsCurrency;
 }
 constexpr bool const& System::Globalization::NumberFormatInfo::__get_validForParseAsCurrency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validForParseAsCurrency;
 }
 constexpr void System::Globalization::NumberFormatInfo::__set_validForParseAsCurrency(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validForParseAsCurrency = value;
 }
 inline void System::Globalization::NumberFormatInfo::setStaticF_invariantInfo(::System::Globalization::NumberFormatInfo* value) {

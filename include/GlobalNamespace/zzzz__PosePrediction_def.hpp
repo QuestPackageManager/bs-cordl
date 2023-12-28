@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PosePrediction)
-namespace UnityEngine {
-struct Pose;
-}
 namespace GlobalNamespace {
 struct PoseSerializable;
+}
+namespace UnityEngine {
+struct Pose;
 }
 // Forward declare root types
 namespace GlobalNamespace {

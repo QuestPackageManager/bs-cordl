@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackLaneRingsRotationEffectSpawner)
 namespace GlobalNamespace {
-struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
+struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
+}
+namespace GlobalNamespace {
 class TrackLaneRingsRotationEffect;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TrackLaneRing
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5008))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(5008))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5009))
 // CS Name: ::TrackLaneRingsRotationEffectSpawner*
 class CORDL_TYPE TrackLaneRingsRotationEffectSpawner : public ::UnityEngine::MonoBehaviour {

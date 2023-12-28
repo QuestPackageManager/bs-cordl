@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISelectHandler)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

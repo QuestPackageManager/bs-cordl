@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Diagnostics::DebuggerBrowsableState& System::Diagnostics::DebuggerBrowsableAttribute::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::System::Diagnostics::DebuggerBrowsableState const& System::Diagnostics::DebuggerBrowsableAttribute::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void System::Diagnostics::DebuggerBrowsableAttribute::__set_state(::System::Diagnostics::DebuggerBrowsableState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___state = value;
 }
 inline ::System::Diagnostics::DebuggerBrowsableAttribute* System::Diagnostics::DebuggerBrowsableAttribute::New_ctor(::System::Diagnostics::DebuggerBrowsableState state) {

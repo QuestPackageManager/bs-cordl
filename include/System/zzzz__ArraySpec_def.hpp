@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ArraySpec)
 namespace System {
 class ModifierSpec;
 }
-namespace System {
-class Type;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {

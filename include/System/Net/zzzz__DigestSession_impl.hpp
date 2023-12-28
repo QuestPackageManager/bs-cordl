@@ -2,14 +2,14 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__DigestSession_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
-#include "System/Net/zzzz__DigestHeaderParser_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/zzzz__DigestHeaderParser_def.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: ::System::Net::DigestSession._ctor
 template <>
 
@@ -203,63 +203,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::DateTime& System::Net::DigestSession::__get_lastUse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastUse;
 }
 constexpr ::System::DateTime const& System::Net::DigestSession::__get_lastUse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastUse;
 }
 constexpr void System::Net::DigestSession::__set_lastUse(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastUse = value;
 }
 constexpr int32_t& System::Net::DigestSession::__get__nc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nc;
 }
 constexpr int32_t const& System::Net::DigestSession::__get__nc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nc;
 }
 constexpr void System::Net::DigestSession::__set__nc(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nc = value;
 }
 constexpr ::System::Security::Cryptography::HashAlgorithm*& System::Net::DigestSession::__get_hash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& System::Net::DigestSession::__get_hash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash;
 }
 constexpr void System::Net::DigestSession::__set_hash(::System::Security::Cryptography::HashAlgorithm* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::DigestHeaderParser*& System::Net::DigestSession::__get_parser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::DigestHeaderParser*> const& System::Net::DigestSession::__get_parser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
 constexpr void System::Net::DigestSession::__set_parser(::System::Net::DigestHeaderParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::DigestSession::__get__cnonce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cnonce;
 }
 constexpr ::StringW const& System::Net::DigestSession::__get__cnonce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cnonce;
 }
 constexpr void System::Net::DigestSession::__set__cnonce(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cnonce)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::DigestSession::setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value) {

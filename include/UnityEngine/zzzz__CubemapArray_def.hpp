@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapArray)
 namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct TextureCreationFlags;
+struct GraphicsFormat;
 }
 namespace UnityEngine {
 struct TextureFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+struct TextureCreationFlags;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct DefaultFormat;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DirectorControlPlayable)
-namespace System {
-class Object;
-}
 namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+template <typename T> struct ScriptPlayable_1;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

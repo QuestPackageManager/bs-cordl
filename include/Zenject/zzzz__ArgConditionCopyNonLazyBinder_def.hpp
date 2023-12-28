@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ArgConditionCopyNonLazyBinder)
 namespace Zenject {
-class InstantiateCallbackConditionCopyNonLazyBinder;
-}
-namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Zenject {
+class InstantiateCallbackConditionCopyNonLazyBinder;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {

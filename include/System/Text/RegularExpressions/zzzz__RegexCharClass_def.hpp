@@ -15,23 +15,23 @@ template <typename T> class List_1;
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Text::RegularExpressions {
+struct __RegexCharClass__LowerCaseMapping;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Text::RegularExpressions {
 struct __RegexCharClass__SingleRange;
 }
-namespace System::Text::RegularExpressions {
-struct __RegexCharClass__LowerCaseMapping;
-}
-namespace System::Text::RegularExpressions {
-class __RegexCharClass__SingleRangeComparer;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Globalization {
 struct UnicodeCategory;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Text::RegularExpressions {
+class __RegexCharClass__SingleRangeComparer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;

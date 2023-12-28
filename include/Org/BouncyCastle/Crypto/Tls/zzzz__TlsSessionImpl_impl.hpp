@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSessionImpl_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl._ctor
 template <>
 
@@ -88,39 +88,39 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::operator ::Org::Bouncy
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSession*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mSessionID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSessionID;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mSessionID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSessionID;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__set_mSessionID(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mSessionID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mSessionParameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSessionParameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SessionParameters*> const& Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mSessionParameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSessionParameters;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mSessionParameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mResumable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mResumable;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mResumable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mResumable;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__set_mResumable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mResumable = value;
 }
 inline ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl* Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID,

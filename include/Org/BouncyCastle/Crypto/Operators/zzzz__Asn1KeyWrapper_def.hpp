@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(Asn1KeyWrapper)
 namespace Org::BouncyCastle::Crypto {
 class IBlockResult;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Crypto {
 class IKeyWrapper;

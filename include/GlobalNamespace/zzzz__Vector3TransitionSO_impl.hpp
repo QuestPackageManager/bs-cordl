@@ -101,75 +101,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__normalState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalState;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__normalState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalState;
 }
 constexpr void GlobalNamespace::Vector3TransitionSO::__set__normalState(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalState = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__highlightedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedState;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__highlightedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedState;
 }
 constexpr void GlobalNamespace::Vector3TransitionSO::__set__highlightedState(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightedState = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__pressedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedState;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__pressedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedState;
 }
 constexpr void GlobalNamespace::Vector3TransitionSO::__set__pressedState(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedState = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__disabledState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledState;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__disabledState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledState;
 }
 constexpr void GlobalNamespace::Vector3TransitionSO::__set__disabledState(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledState = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__selectedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedState;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__selectedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedState;
 }
 constexpr void GlobalNamespace::Vector3TransitionSO::__set__selectedState(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedState = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::Vector3TransitionSO::__get__selectedAndHighlightedState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedState;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::Vector3TransitionSO::__get__selectedAndHighlightedState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedState;
 }
 constexpr void GlobalNamespace::Vector3TransitionSO::__set__selectedAndHighlightedState(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAndHighlightedState = value;
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::Vector3TransitionSO::get_normalState() {

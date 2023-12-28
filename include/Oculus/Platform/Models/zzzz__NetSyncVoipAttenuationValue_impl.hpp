@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& Oculus::Platform::Models::NetSyncVoipAttenuationValue::__get_Decibels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Decibels;
 }
 constexpr float_t const& Oculus::Platform::Models::NetSyncVoipAttenuationValue::__get_Decibels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Decibels;
 }
 constexpr void Oculus::Platform::Models::NetSyncVoipAttenuationValue::__set_Decibels(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Decibels = value;
 }
 constexpr float_t& Oculus::Platform::Models::NetSyncVoipAttenuationValue::__get_Distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Distance;
 }
 constexpr float_t const& Oculus::Platform::Models::NetSyncVoipAttenuationValue::__get_Distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Distance;
 }
 constexpr void Oculus::Platform::Models::NetSyncVoipAttenuationValue::__set_Distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Distance = value;
 }
 inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* Oculus::Platform::Models::NetSyncVoipAttenuationValue::New_ctor(void* o) {

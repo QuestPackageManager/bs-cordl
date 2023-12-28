@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRLayoutUpdater)
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

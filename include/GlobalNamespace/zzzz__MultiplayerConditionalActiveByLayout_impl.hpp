@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition::__MultiplayerConditionalActiveByLayout__Condition(int32_t value__) noexcept {
   this->value__ = value__;
@@ -59,39 +59,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__condition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____condition;
 }
 constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__condition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____condition;
 }
 constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____condition = value;
 }
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout;
 }
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout;
 }
 constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__set__layout(::GlobalNamespace::MultiplayerPlayerLayout value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layout = value;
 }
 constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layoutProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layoutProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
 constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layoutProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::Start() {

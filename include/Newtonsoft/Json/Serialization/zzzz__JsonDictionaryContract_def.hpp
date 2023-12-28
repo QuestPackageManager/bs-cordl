@@ -5,20 +5,23 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JsonDictionaryContract)
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
 }
 namespace Newtonsoft::Json::Utilities {
 class IWrappedDictionary;
@@ -26,11 +29,8 @@ class IWrappedDictionary;
 namespace System::Reflection {
 class ConstructorInfo;
 }
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

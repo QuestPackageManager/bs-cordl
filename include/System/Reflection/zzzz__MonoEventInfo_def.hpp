@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MonoEventInfo)
-namespace System::Reflection {
-struct EventAttributes;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct EventAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {

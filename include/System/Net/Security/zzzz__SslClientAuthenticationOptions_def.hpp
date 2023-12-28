@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SslClientAuthenticationOptions)
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System::Net::Security {
+struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationMode;
 }
-namespace System::Net::Security {
-struct EncryptionPolicy;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 namespace System::Net::Security {
 class LocalCertificateSelectionCallback;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Net::Security::SslClientAuthenticationOptions);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8964)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8964)),
 // TypeDefinitionIndex(TypeDefinitionIndex(9366))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9362)) CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
 class CORDL_TYPE SslClientAuthenticationOptions : public ::System::Object {
 public:

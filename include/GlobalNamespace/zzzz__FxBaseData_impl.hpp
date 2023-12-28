@@ -16,27 +16,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::FxBaseData::__get_beat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
 constexpr float_t const& GlobalNamespace::FxBaseData::__get_beat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
 constexpr void GlobalNamespace::FxBaseData::__set_beat(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beat = value;
 }
 constexpr bool& GlobalNamespace::FxBaseData::__get_usePreviousEventValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventValue;
 }
 constexpr bool const& GlobalNamespace::FxBaseData::__get_usePreviousEventValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventValue;
 }
 constexpr void GlobalNamespace::FxBaseData::__set_usePreviousEventValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventValue = value;
 }
 inline ::GlobalNamespace::FxBaseData* GlobalNamespace::FxBaseData::New_ctor(float_t beat, bool usePreviousEventValue) {

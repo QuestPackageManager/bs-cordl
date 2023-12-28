@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Installer_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AnimatorInstaller)
+namespace System {
+class Object;
+}
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace UnityEngine {
 class Animator;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::AnimatorInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14882)), TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst:
-// 3907 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11301)) CS Name: ::Zenject::AnimatorInstaller*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3907 }), TypeDefinitionIndex(TypeDefinitionIndex(14882)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11132))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11301)) CS Name: ::Zenject::AnimatorInstaller*
 class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityEngine::Animator*, ::Zenject::AnimatorInstaller*> {
 public:
   // Declarations

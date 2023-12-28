@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePointManager)
-namespace System::Net {
-class ServicePoint;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System::Net {
-class ICertificatePolicy;
-}
 namespace System {
 class Uri;
-}
-namespace System::Net {
-class ServerCertValidationCallback;
-}
-namespace System::Net {
-struct SecurityProtocolType;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
 namespace System::Net {
 class IWebProxy;
 }
 namespace System::Net {
+struct SecurityProtocolType;
+}
+namespace System::Net {
+class ICertificatePolicy;
+}
+namespace System::Net {
+class ServerCertValidationCallback;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace System::Net {
 class __ServicePointManager__SPKey;
+}
+namespace System::Net {
+class ServicePoint;
+}
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
 namespace System {
 class Object;
@@ -133,7 +133,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__ServicePointManag
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9055))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9055)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9202))
 // CS Name: ::System.Net::ServicePointManager*
 class CORDL_TYPE ServicePointManager : public ::System::Object {

@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoKernel_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
-#include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InitializableManager_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::MonoKernel.get_IsDestroyed
 template <>
@@ -174,63 +174,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::TickableManager*& Zenject::MonoKernel::__get__tickableManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickableManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const& Zenject::MonoKernel::__get__tickableManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickableManager;
 }
 constexpr void Zenject::MonoKernel::__set__tickableManager(::Zenject::TickableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tickableManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::InitializableManager*& Zenject::MonoKernel::__get__initializableManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializableManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::InitializableManager*> const& Zenject::MonoKernel::__get__initializableManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializableManager;
 }
 constexpr void Zenject::MonoKernel::__set__initializableManager(::Zenject::InitializableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initializableManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DisposableManager*& Zenject::MonoKernel::__get__disposablesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposablesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DisposableManager*> const& Zenject::MonoKernel::__get__disposablesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposablesManager;
 }
 constexpr void Zenject::MonoKernel::__set__disposablesManager(::Zenject::DisposableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposablesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::MonoKernel::__get__hasInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInitialized;
 }
 constexpr bool const& Zenject::MonoKernel::__get__hasInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInitialized;
 }
 constexpr void Zenject::MonoKernel::__set__hasInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasInitialized = value;
 }
 constexpr bool& Zenject::MonoKernel::__get__isDestroyed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDestroyed;
 }
 constexpr bool const& Zenject::MonoKernel::__get__isDestroyed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDestroyed;
 }
 constexpr void Zenject::MonoKernel::__set__isDestroyed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDestroyed = value;
 }
 inline bool Zenject::MonoKernel::get_IsDestroyed() {

@@ -48,27 +48,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::NoteTrailParticleSystem::__get__particleSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::NoteTrailParticleSystem::__get__particleSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystem;
 }
 constexpr void GlobalNamespace::NoteTrailParticleSystem::__set__particleSystem(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::NoteTrailParticleSystem::__get__emitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::NoteTrailParticleSystem::__get__emitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
 constexpr void GlobalNamespace::NoteTrailParticleSystem::__set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitParams = value;
 }
 inline void GlobalNamespace::NoteTrailParticleSystem::Awake() {

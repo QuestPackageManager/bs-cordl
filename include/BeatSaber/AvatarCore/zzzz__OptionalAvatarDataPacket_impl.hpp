@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataPacket_def.hpp"
-#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
-#include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
+#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::OptionalAvatarDataPacket.get_pool
 template <>
 
@@ -121,27 +121,27 @@ constexpr BeatSaber::AvatarCore::OptionalAvatarDataPacket::operator ::GlobalName
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr uint32_t& BeatSaber::AvatarCore::OptionalAvatarDataPacket::__get_dataType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataType;
 }
 constexpr uint32_t const& BeatSaber::AvatarCore::OptionalAvatarDataPacket::__get_dataType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataType;
 }
 constexpr void BeatSaber::AvatarCore::OptionalAvatarDataPacket::__set_dataType(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dataType = value;
 }
 constexpr ::GlobalNamespace::ByteArrayNetSerializable*& BeatSaber::AvatarCore::OptionalAvatarDataPacket::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ByteArrayNetSerializable*> const& BeatSaber::AvatarCore::OptionalAvatarDataPacket::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void BeatSaber::AvatarCore::OptionalAvatarDataPacket::__set_data(::GlobalNamespace::ByteArrayNetSerializable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* BeatSaber::AvatarCore::OptionalAvatarDataPacket::get_pool() {

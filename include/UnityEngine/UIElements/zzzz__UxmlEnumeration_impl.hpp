@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumeration_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlEnumeration.get_values
 template <>
 
@@ -62,15 +62,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::UIElements::UxmlEnumeration::__get_m_Values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Values;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& UnityEngine::UIElements::UxmlEnumeration::__get_m_Values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Values;
 }
 constexpr void UnityEngine::UIElements::UxmlEnumeration::__set_m_Values(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UnityEngine::UIElements::UxmlEnumeration::get_values() {

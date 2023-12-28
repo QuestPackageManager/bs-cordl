@@ -34,75 +34,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__NoteExecutionRating__Rating& GlobalNamespace::NoteExecutionRating::__get_rating() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rating;
 }
 constexpr ::GlobalNamespace::__NoteExecutionRating__Rating const& GlobalNamespace::NoteExecutionRating::__get_rating() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rating;
 }
 constexpr void GlobalNamespace::NoteExecutionRating::__set_rating(::GlobalNamespace::__NoteExecutionRating__Rating value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rating = value;
 }
 constexpr int32_t& GlobalNamespace::NoteExecutionRating::__get_cutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cutScore;
 }
 constexpr int32_t const& GlobalNamespace::NoteExecutionRating::__get_cutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cutScore;
 }
 constexpr void GlobalNamespace::NoteExecutionRating::__set_cutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cutScore = value;
 }
 constexpr int32_t& GlobalNamespace::NoteExecutionRating::__get_beforeCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beforeCutScore;
 }
 constexpr int32_t const& GlobalNamespace::NoteExecutionRating::__get_beforeCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beforeCutScore;
 }
 constexpr void GlobalNamespace::NoteExecutionRating::__set_beforeCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beforeCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::NoteExecutionRating::__get_centerDistanceCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___centerDistanceCutScore;
 }
 constexpr int32_t const& GlobalNamespace::NoteExecutionRating::__get_centerDistanceCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___centerDistanceCutScore;
 }
 constexpr void GlobalNamespace::NoteExecutionRating::__set_centerDistanceCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___centerDistanceCutScore = value;
 }
 constexpr int32_t& GlobalNamespace::NoteExecutionRating::__get_afterCutScore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterCutScore;
 }
 constexpr int32_t const& GlobalNamespace::NoteExecutionRating::__get_afterCutScore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterCutScore;
 }
 constexpr void GlobalNamespace::NoteExecutionRating::__set_afterCutScore(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___afterCutScore = value;
 }
 constexpr ::GlobalNamespace::__NoteData__ScoringType& GlobalNamespace::NoteExecutionRating::__get_scoringType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoringType;
 }
 constexpr ::GlobalNamespace::__NoteData__ScoringType const& GlobalNamespace::NoteExecutionRating::__get_scoringType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoringType;
 }
 constexpr void GlobalNamespace::NoteExecutionRating::__set_scoringType(::GlobalNamespace::__NoteData__ScoringType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scoringType = value;
 }
 inline ::GlobalNamespace::NoteExecutionRating* GlobalNamespace::NoteExecutionRating::New_ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType,

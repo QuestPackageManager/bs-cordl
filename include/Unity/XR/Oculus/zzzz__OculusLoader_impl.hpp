@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusLoader_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusLoader_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult::__OculusLoader__DeviceSupportedResult(int32_t value__) noexcept {

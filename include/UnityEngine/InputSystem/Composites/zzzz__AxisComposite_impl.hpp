@@ -74,63 +74,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::InputSystem::Composites::AxisComposite::__get_negative() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___negative;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::AxisComposite::__get_negative() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___negative;
 }
 constexpr void UnityEngine::InputSystem::Composites::AxisComposite::__set_negative(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___negative = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::AxisComposite::__get_positive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positive;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::AxisComposite::__get_positive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positive;
 }
 constexpr void UnityEngine::InputSystem::Composites::AxisComposite::__set_positive(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___positive = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Composites::AxisComposite::__get_minValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
 constexpr float_t const& UnityEngine::InputSystem::Composites::AxisComposite::__get_minValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
 constexpr void UnityEngine::InputSystem::Composites::AxisComposite::__set_minValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minValue = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Composites::AxisComposite::__get_maxValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
 constexpr float_t const& UnityEngine::InputSystem::Composites::AxisComposite::__get_maxValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
 constexpr void UnityEngine::InputSystem::Composites::AxisComposite::__set_maxValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxValue = value;
 }
 constexpr ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins& UnityEngine::InputSystem::Composites::AxisComposite::__get_whichSideWins() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___whichSideWins;
 }
 constexpr ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins const& UnityEngine::InputSystem::Composites::AxisComposite::__get_whichSideWins() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___whichSideWins;
 }
 constexpr void UnityEngine::InputSystem::Composites::AxisComposite::__set_whichSideWins(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___whichSideWins = value;
 }
 inline float_t UnityEngine::InputSystem::Composites::AxisComposite::get_midPoint() {

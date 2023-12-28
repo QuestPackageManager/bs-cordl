@@ -2,12 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSaturationValueSlider_def.hpp"
-#include "GlobalNamespace/zzzz__ColorHueSlider_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__ColorHueSlider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HSVPanelController.add_colorDidChangeEvent
 template <>
 
@@ -168,52 +168,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorSaturationValueSlider*& GlobalNamespace::HSVPanelController::__get__colorSaturationValueSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSaturationValueSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSaturationValueSlider*> const& GlobalNamespace::HSVPanelController::__get__colorSaturationValueSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSaturationValueSlider;
 }
 constexpr void GlobalNamespace::HSVPanelController::__set__colorSaturationValueSlider(::GlobalNamespace::ColorSaturationValueSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSaturationValueSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorHueSlider*& GlobalNamespace::HSVPanelController::__get__colorHueSlider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorHueSlider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorHueSlider*> const& GlobalNamespace::HSVPanelController::__get__colorHueSlider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorHueSlider;
 }
 constexpr void GlobalNamespace::HSVPanelController::__set__colorHueSlider(::GlobalNamespace::ColorHueSlider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorHueSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& GlobalNamespace::HSVPanelController::__get_colorDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*> const&
 GlobalNamespace::HSVPanelController::__get_colorDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorDidChangeEvent;
 }
 constexpr void GlobalNamespace::HSVPanelController::__set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::HSVPanelController::__get__hsvColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hsvColor;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::HSVPanelController::__get__hsvColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hsvColor;
 }
 constexpr void GlobalNamespace::HSVPanelController::__set__hsvColor(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hsvColor = value;
 }
 inline void GlobalNamespace::HSVPanelController::add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {

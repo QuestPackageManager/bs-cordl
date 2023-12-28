@@ -31,39 +31,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LocalLeaderboardsModel*& GlobalNamespace::ResetLocalLeaderboardOnKey::__get__localLeaderboardsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localLeaderboardsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& GlobalNamespace::ResetLocalLeaderboardOnKey::__get__localLeaderboardsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localLeaderboardsModel;
 }
 constexpr void GlobalNamespace::ResetLocalLeaderboardOnKey::__set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localLeaderboardsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::KeyCode& GlobalNamespace::ResetLocalLeaderboardOnKey::__get__keyCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyCode;
 }
 constexpr ::UnityEngine::KeyCode const& GlobalNamespace::ResetLocalLeaderboardOnKey::__get__keyCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyCode;
 }
 constexpr void GlobalNamespace::ResetLocalLeaderboardOnKey::__set__keyCode(::UnityEngine::KeyCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyCode = value;
 }
 constexpr ::GlobalNamespace::ISaveData*& GlobalNamespace::ResetLocalLeaderboardOnKey::__get__saveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& GlobalNamespace::ResetLocalLeaderboardOnKey::__get__saveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saveData;
 }
 constexpr void GlobalNamespace::ResetLocalLeaderboardOnKey::__set__saveData(::GlobalNamespace::ISaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ResetLocalLeaderboardOnKey::Update() {

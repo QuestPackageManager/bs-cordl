@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuaternionSerializable)
-namespace System {
-class Object;
-}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+class INetSerializable;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

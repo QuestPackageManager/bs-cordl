@@ -9,13 +9,13 @@ namespace System {
 class Type;
 }
 namespace Org::BouncyCastle::X509::Store {
+class IX509StoreParameters;
+}
+namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509StoreParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

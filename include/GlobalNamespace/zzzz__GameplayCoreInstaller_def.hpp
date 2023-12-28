@@ -5,40 +5,40 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(GameplayCoreInstaller)
 namespace GlobalNamespace {
-class BadNoteCutEffectSpawner;
-}
-namespace GlobalNamespace {
-class SongProfilingController;
-}
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelModel;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class PlayerHeightDetector;
-}
-namespace GlobalNamespace {
-class NoteCutScoreSpawner;
-}
-namespace GlobalNamespace {
-class MissedNoteEffectSpawner;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
+class BeatLineManager;
 }
 namespace GlobalNamespace {
 class EffectPoolsManualInstaller;
 }
 namespace GlobalNamespace {
-class BeatLineManager;
+class PerceivedLoudnessPerLevelModel;
+}
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelModel;
 }
 namespace GlobalNamespace {
 class AudioManagerSO;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class SongProfilingController;
+}
+namespace GlobalNamespace {
+class BadNoteCutEffectSpawner;
+}
+namespace GlobalNamespace {
+class MissedNoteEffectSpawner;
+}
+namespace GlobalNamespace {
+class NoteCutScoreSpawner;
+}
+namespace GlobalNamespace {
+class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
 class SongAutopilot;

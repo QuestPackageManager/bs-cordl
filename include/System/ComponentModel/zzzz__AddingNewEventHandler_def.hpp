@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddingNewEventHandler)
 namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System::ComponentModel {
 class AddingNewEventArgs;
 }
 namespace System {
-class IAsyncResult;
+class Object;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::ComponentModel {

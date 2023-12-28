@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType::__BloomPrePassNonLightPass__ExecutionTimeType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -154,27 +154,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType& GlobalNamespace::BloomPrePassNonLightPass::__get__executionTimeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionTimeType;
 }
 constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& GlobalNamespace::BloomPrePassNonLightPass::__get__executionTimeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____executionTimeType;
 }
 constexpr void GlobalNamespace::BloomPrePassNonLightPass::__set__executionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____executionTimeType = value;
 }
 constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType& GlobalNamespace::BloomPrePassNonLightPass::__get__registeredExecutionTimeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredExecutionTimeType;
 }
 constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& GlobalNamespace::BloomPrePassNonLightPass::__get__registeredExecutionTimeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredExecutionTimeType;
 }
 constexpr void GlobalNamespace::BloomPrePassNonLightPass::__set__registeredExecutionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____registeredExecutionTimeType = value;
 }
 inline void GlobalNamespace::BloomPrePassNonLightPass::setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value) {

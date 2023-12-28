@@ -1,43 +1,43 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Lazy_1_def.hpp"
-#include "System/zzzz__LazyHelper_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
+#include "System/zzzz__LazyHelper_def.hpp"
 template <typename T> constexpr ::System::LazyHelper*& System::Lazy_1<T>::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::LazyHelper*> const& System::Lazy_1<T>::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 template <typename T> constexpr void System::Lazy_1<T>::__set__state(::System::LazyHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Func_1<T>*& System::Lazy_1<T>::__get__factory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factory;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& System::Lazy_1<T>::__get__factory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factory;
 }
 template <typename T> constexpr void System::Lazy_1<T>::__set__factory(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____factory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& System::Lazy_1<T>::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr T const& System::Lazy_1<T>::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr void System::Lazy_1<T>::__set__value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T System::Lazy_1<T>::CreateViaDefaultConstructor() {

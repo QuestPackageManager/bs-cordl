@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ConstraintRotationOffset);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12508))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12508)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12512))
 // CS Name: ::RootMotion.FinalIK::ConstraintRotationOffset*
 class CORDL_TYPE ConstraintRotationOffset : public ::RootMotion::FinalIK::Constraint {

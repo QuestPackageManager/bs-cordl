@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeNames_impl.hpp"
 #include "System/zzzz__TypeIdentifiers_def.hpp"
-#include "System/zzzz__TypeIdentifier_def.hpp"
 #include "System/zzzz__TypeIdentifiers_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__TypeIdentifier_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::System::__TypeIdentifiers__Display._ctor
 template <>
 
@@ -73,27 +73,27 @@ constexpr System::__TypeIdentifiers__Display::operator ::System::IEquatable_1<::
   return static_cast<::System::IEquatable_1<::System::TypeName*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::__TypeIdentifiers__Display::__get_displayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr ::StringW const& System::__TypeIdentifiers__Display::__get_displayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr void System::__TypeIdentifiers__Display::__set_displayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__TypeIdentifiers__Display::__get_internal_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internal_name;
 }
 constexpr ::StringW const& System::__TypeIdentifiers__Display::__get_internal_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___internal_name;
 }
 constexpr void System::__TypeIdentifiers__Display::__set_internal_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___internal_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::__TypeIdentifiers__Display* System::__TypeIdentifiers__Display::New_ctor(::StringW displayName) {

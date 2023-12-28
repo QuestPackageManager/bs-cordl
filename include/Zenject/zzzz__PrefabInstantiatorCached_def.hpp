@@ -5,15 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PrefabInstantiatorCached)
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
-}
 namespace UnityEngine {
 class GameObject;
 }
@@ -21,16 +12,25 @@ namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class IPrefabInstantiator;
+struct TypeValuePair;
 }
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Object;
 }
+namespace System {
+class Action;
+}
 namespace Zenject {
 class GameObjectCreationParameters;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class IPrefabInstantiator;
 }
 // Forward declare root types
 namespace Zenject {

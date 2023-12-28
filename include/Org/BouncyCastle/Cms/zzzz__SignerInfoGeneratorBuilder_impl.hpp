@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInfoGeneratorBuilder_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerInfoGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerInfoGenerator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder._ctor
 template <>
 
@@ -119,39 +119,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_directSignature() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___directSignature;
 }
 constexpr bool const& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_directSignature() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___directSignature;
 }
 constexpr void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__set_directSignature(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___directSignature = value;
 }
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_signedGen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedGen;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_signedGen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedGen;
 }
 constexpr void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signedGen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_unsignedGen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedGen;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_unsignedGen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedGen;
 }
 constexpr void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unsignedGen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::New_ctor() {

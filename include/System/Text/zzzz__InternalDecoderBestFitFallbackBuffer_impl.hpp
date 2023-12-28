@@ -127,51 +127,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr char16_t& System::Text::InternalDecoderBestFitFallbackBuffer::__get__cBestFit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cBestFit;
 }
 constexpr char16_t const& System::Text::InternalDecoderBestFitFallbackBuffer::__get__cBestFit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cBestFit;
 }
 constexpr void System::Text::InternalDecoderBestFitFallbackBuffer::__set__cBestFit(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cBestFit = value;
 }
 constexpr int32_t& System::Text::InternalDecoderBestFitFallbackBuffer::__get__iCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iCount;
 }
 constexpr int32_t const& System::Text::InternalDecoderBestFitFallbackBuffer::__get__iCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iCount;
 }
 constexpr void System::Text::InternalDecoderBestFitFallbackBuffer::__set__iCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iCount = value;
 }
 constexpr int32_t& System::Text::InternalDecoderBestFitFallbackBuffer::__get__iSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iSize;
 }
 constexpr int32_t const& System::Text::InternalDecoderBestFitFallbackBuffer::__get__iSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iSize;
 }
 constexpr void System::Text::InternalDecoderBestFitFallbackBuffer::__set__iSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iSize = value;
 }
 constexpr ::System::Text::InternalDecoderBestFitFallback*& System::Text::InternalDecoderBestFitFallbackBuffer::__get__oFallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oFallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::InternalDecoderBestFitFallback*> const& System::Text::InternalDecoderBestFitFallbackBuffer::__get__oFallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oFallback;
 }
 constexpr void System::Text::InternalDecoderBestFitFallbackBuffer::__set__oFallback(::System::Text::InternalDecoderBestFitFallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oFallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Text::InternalDecoderBestFitFallbackBuffer::setStaticF_s_InternalSyncObject(::System::Object* value) {

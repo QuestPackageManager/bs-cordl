@@ -2,15 +2,15 @@
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventDataBox_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBaseData_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightTranslationBeatmapEventDataBox.get_subtypeIdentifier
 template <>
 
@@ -85,53 +85,53 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__lightTranslationBaseDataList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationBaseDataList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*> const&
 GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__lightTranslationBaseDataList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationBaseDataList;
 }
 constexpr void
 GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__lightTranslationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightTranslationBaseDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__axis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____axis;
 }
 constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__axis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____axis;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__axis(::GlobalNamespace::LightAxis value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____axis = value;
 }
 constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__translationDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationDirection;
 }
 constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__translationDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationDirection;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__translationDirection(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translationDirection = value;
 }
 constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__beatStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
 constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__beatStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
 constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__beatStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatStep = value;
 }
 inline int32_t GlobalNamespace::LightTranslationBeatmapEventDataBox::get_subtypeIdentifier() {

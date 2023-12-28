@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasFiltersInternal_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasFilters_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasCustomFilter_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasFilters_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DynamicAtlasSettings.get_minAtlasSize
 template <>
 
@@ -192,63 +192,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_MinAtlasSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinAtlasSize;
 }
 constexpr int32_t const& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_MinAtlasSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinAtlasSize;
 }
 constexpr void UnityEngine::UIElements::DynamicAtlasSettings::__set_m_MinAtlasSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MinAtlasSize = value;
 }
 constexpr int32_t& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_MaxAtlasSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxAtlasSize;
 }
 constexpr int32_t const& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_MaxAtlasSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxAtlasSize;
 }
 constexpr void UnityEngine::UIElements::DynamicAtlasSettings::__set_m_MaxAtlasSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxAtlasSize = value;
 }
 constexpr int32_t& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_MaxSubTextureSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSubTextureSize;
 }
 constexpr int32_t const& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_MaxSubTextureSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSubTextureSize;
 }
 constexpr void UnityEngine::UIElements::DynamicAtlasSettings::__set_m_MaxSubTextureSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxSubTextureSize = value;
 }
 constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_ActiveFilters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveFilters;
 }
 constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal const& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_ActiveFilters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveFilters;
 }
 constexpr void UnityEngine::UIElements::DynamicAtlasSettings::__set_m_ActiveFilters(::UnityEngine::UIElements::DynamicAtlasFiltersInternal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActiveFilters = value;
 }
 constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_CustomFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CustomFilter;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasCustomFilter*> const& UnityEngine::UIElements::DynamicAtlasSettings::__get_m_CustomFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CustomFilter;
 }
 constexpr void UnityEngine::UIElements::DynamicAtlasSettings::__set_m_CustomFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CustomFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t UnityEngine::UIElements::DynamicAtlasSettings::get_minAtlasSize() {

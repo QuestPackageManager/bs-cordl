@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Security::Cryptography::HMACSHA512::__get_m_useLegacyBlockSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useLegacyBlockSize;
 }
 constexpr bool const& System::Security::Cryptography::HMACSHA512::__get_m_useLegacyBlockSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_useLegacyBlockSize;
 }
 constexpr void System::Security::Cryptography::HMACSHA512::__set_m_useLegacyBlockSize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_useLegacyBlockSize = value;
 }
 inline ::System::Security::Cryptography::HMACSHA512* System::Security::Cryptography::HMACSHA512::New_ctor() {

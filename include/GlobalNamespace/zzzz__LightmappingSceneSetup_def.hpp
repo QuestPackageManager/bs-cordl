@@ -15,19 +15,16 @@ namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
 class StandardLevelNoTransitionInstallerData;
 }
 namespace GlobalNamespace {
-class __LightmappingSceneSetup____c__DisplayClass8_0;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class __LightmappingSceneSetup____c__DisplayClass8_0;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -35,14 +32,17 @@ class Task;
 namespace GlobalNamespace {
 struct __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
 }
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,9 +62,8 @@ MARK_VAL_T(::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name:
-// ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name: ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
 struct CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d {
 public:
   // Declarations
@@ -178,7 +177,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightmappingS
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6035))
 // CS Name: ::LightmappingSceneSetup*
 class CORDL_TYPE LightmappingSceneSetup : public ::Zenject::MonoInstaller {

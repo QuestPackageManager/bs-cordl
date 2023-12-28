@@ -3,29 +3,29 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalReader_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalReader_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonDictionaryContract_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenReader_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonDictionaryContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonObjectContract_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence::__JsonSerializerInternalReader__PropertyPresence(int32_t value__) noexcept {
@@ -58,80 +58,80 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr ::StringW const& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__set_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Property;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const&
 Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Property;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__set_Property(::Newtonsoft::Json::Serialization::JsonProperty* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_ConstructorProperty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConstructorProperty;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const&
 Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_ConstructorProperty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConstructorProperty;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__set_ConstructorProperty(::Newtonsoft::Json::Serialization::JsonProperty* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ConstructorProperty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence>&
 Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Presence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Presence;
 }
 constexpr ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> const&
 Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Presence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Presence;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__set_Presence(
     ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Presence = value;
 }
 constexpr ::System::Object*& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Value;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__set_Value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Used() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Used;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__get_Used() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Used;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::__set_Used(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Used = value;
 }
 inline ::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext* Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext::New_ctor() {
@@ -178,16 +178,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& Newtonsoft::Json::Serialization::__JsonSerializerInternalReader____c__DisplayClass36_0::__get_property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___property;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const&
 Newtonsoft::Json::Serialization::__JsonSerializerInternalReader____c__DisplayClass36_0::__get_property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___property;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonSerializerInternalReader____c__DisplayClass36_0::__set_property(::Newtonsoft::Json::Serialization::JsonProperty* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader____c__DisplayClass36_0* Newtonsoft::Json::Serialization::__JsonSerializerInternalReader____c__DisplayClass36_0::New_ctor() {

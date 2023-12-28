@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FloorAdjustViewController)
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class Vector3SO;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace GlobalNamespace {
-class Vector3SO;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBigAvatarAnimator)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct EaseType;
+namespace Tweening {
+template <typename T> class Tween_1;
 }
 namespace GlobalNamespace {
 class HologramRays;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace Tweening {
-template <typename T> class Tween_1;
+class TimeTweeningManager;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

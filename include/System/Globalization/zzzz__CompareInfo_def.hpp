@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompareInfo)
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Globalization {
+class SortKey;
+}
 namespace System::Globalization {
 struct CompareOptions;
 }
 namespace System {
 class Object;
 }
-namespace System::Globalization {
-class SortKey;
-}
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+class ISimpleCollator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Globalization {
-class ISimpleCollator;
-}
-namespace System::Globalization {
 class SortVersion;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::System::Globalization::CompareInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3658))
 // CS Name: ::System.Globalization::CompareInfo*
 class CORDL_TYPE CompareInfo : public ::System::Object {

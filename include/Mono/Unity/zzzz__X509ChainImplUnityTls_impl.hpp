@@ -2,11 +2,11 @@
 #include "Mono/Unity/zzzz__UnityTls_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_impl.hpp"
 #include "Mono/Unity/zzzz__X509ChainImplUnityTls_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Mono/Unity/zzzz__UnityTls_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 //  Writing Method size for method: ::Mono::Unity::X509ChainImplUnityTls._ctor
@@ -158,64 +158,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& Mono::Unity::X509ChainImplUnityTls::__get_elements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elements;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& Mono::Unity::X509ChainImplUnityTls::__get_elements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elements;
 }
 constexpr void Mono::Unity::X509ChainImplUnityTls::__set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref& Mono::Unity::X509ChainImplUnityTls::__get_nativeCertificateChain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeCertificateChain;
 }
 constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref const& Mono::Unity::X509ChainImplUnityTls::__get_nativeCertificateChain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeCertificateChain;
 }
 constexpr void Mono::Unity::X509ChainImplUnityTls::__set_nativeCertificateChain(::Mono::Unity::__UnityTls__unitytls_x509list_ref value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nativeCertificateChain = value;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& Mono::Unity::X509ChainImplUnityTls::__get_policy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___policy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& Mono::Unity::X509ChainImplUnityTls::__get_policy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___policy;
 }
 constexpr void Mono::Unity::X509ChainImplUnityTls::__set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___policy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*& Mono::Unity::X509ChainImplUnityTls::__get_chainStatusList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainStatusList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const&
 Mono::Unity::X509ChainImplUnityTls::__get_chainStatusList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainStatusList;
 }
 constexpr void Mono::Unity::X509ChainImplUnityTls::__set_chainStatusList(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chainStatusList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Unity::X509ChainImplUnityTls::__get_reverseOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reverseOrder;
 }
 constexpr bool const& Mono::Unity::X509ChainImplUnityTls::__get_reverseOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reverseOrder;
 }
 constexpr void Mono::Unity::X509ChainImplUnityTls::__set_reverseOrder(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reverseOrder = value;
 }
 /// @param reverseOrder: bool (default: false)

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(CompressedDataParser)
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfoParser;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfoParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

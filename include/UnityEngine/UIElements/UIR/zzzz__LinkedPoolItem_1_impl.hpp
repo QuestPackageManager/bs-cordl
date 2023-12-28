@@ -2,15 +2,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 template <typename T> constexpr T& UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::__get_poolNext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poolNext;
 }
 template <typename T> constexpr T const& UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::__get_poolNext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poolNext;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::__set_poolNext(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poolNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>* UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::New_ctor() {

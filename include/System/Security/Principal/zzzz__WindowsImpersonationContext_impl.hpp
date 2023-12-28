@@ -109,27 +109,27 @@ constexpr System::Security::Principal::WindowsImpersonationContext::operator ::S
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& System::Security::Principal::WindowsImpersonationContext::__get__token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr void* const& System::Security::Principal::WindowsImpersonationContext::__get__token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr void System::Security::Principal::WindowsImpersonationContext::__set__token(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____token = value;
 }
 constexpr bool& System::Security::Principal::WindowsImpersonationContext::__get_undo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___undo;
 }
 constexpr bool const& System::Security::Principal::WindowsImpersonationContext::__get_undo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___undo;
 }
 constexpr void System::Security::Principal::WindowsImpersonationContext::__set_undo(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___undo = value;
 }
 inline ::System::Security::Principal::WindowsImpersonationContext* System::Security::Principal::WindowsImpersonationContext::New_ctor(void* token) {

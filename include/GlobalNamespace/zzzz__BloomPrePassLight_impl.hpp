@@ -5,14 +5,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__BloomPrePassLight__VertexData::__get_vertex() {
   return this->___vertex;
 }
@@ -128,28 +128,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BloomPrePassLightTypeSO*& GlobalNamespace::__BloomPrePassLight__LightsDataItem::__get_lightType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightType;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassLightTypeSO*> const& GlobalNamespace::__BloomPrePassLight__LightsDataItem::__get_lightType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightType;
 }
 constexpr void GlobalNamespace::__BloomPrePassLight__LightsDataItem::__set_lightType(::GlobalNamespace::BloomPrePassLightTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*& GlobalNamespace::__BloomPrePassLight__LightsDataItem::__get_lights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lights;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*> const&
 GlobalNamespace::__BloomPrePassLight__LightsDataItem::__get_lights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lights;
 }
 constexpr void GlobalNamespace::__BloomPrePassLight__LightsDataItem::__set_lights(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BloomPrePassLight__LightsDataItem*
@@ -335,51 +335,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BloomPrePassLightTypeSO*& GlobalNamespace::BloomPrePassLight::__get__lightType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightType;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassLightTypeSO*> const& GlobalNamespace::BloomPrePassLight::__get__lightType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightType;
 }
 constexpr void GlobalNamespace::BloomPrePassLight::__set__lightType(::GlobalNamespace::BloomPrePassLightTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomPrePassLightTypeSO*& GlobalNamespace::BloomPrePassLight::__get__registeredWithLightType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredWithLightType;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassLightTypeSO*> const& GlobalNamespace::BloomPrePassLight::__get__registeredWithLightType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredWithLightType;
 }
 constexpr void GlobalNamespace::BloomPrePassLight::__set__registeredWithLightType(::GlobalNamespace::BloomPrePassLightTypeSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____registeredWithLightType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::BloomPrePassLight::__get__isRegistered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRegistered;
 }
 constexpr bool const& GlobalNamespace::BloomPrePassLight::__get__isRegistered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRegistered;
 }
 constexpr void GlobalNamespace::BloomPrePassLight::__set__isRegistered(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isRegistered = value;
 }
 constexpr bool& GlobalNamespace::BloomPrePassLight::__get__isBeingDestroyed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isBeingDestroyed;
 }
 constexpr bool const& GlobalNamespace::BloomPrePassLight::__get__isBeingDestroyed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isBeingDestroyed;
 }
 constexpr void GlobalNamespace::BloomPrePassLight::__set__isBeingDestroyed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isBeingDestroyed = value;
 }
 inline void GlobalNamespace::BloomPrePassLight::setStaticF__bloomLightsDict(

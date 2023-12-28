@@ -1,20 +1,20 @@
 #pragma once
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpFlowCoordinator_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__HelpNavigationController_def.hpp"
-#include "GlobalNamespace/zzzz__HealthWarningDisplayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__LicensesDisplayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"
+#include "GlobalNamespace/zzzz__LicensesDisplayViewController_def.hpp"
+#include "GlobalNamespace/zzzz__HelpNavigationController_def.hpp"
+#include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningDisplayViewController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpFlowCoordinator.add_didFinishEvent
 template <>
 
@@ -149,148 +149,148 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::HelpMenuViewController*& GlobalNamespace::HelpFlowCoordinator::__get__helpMenuViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____helpMenuViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HelpMenuViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__helpMenuViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____helpMenuViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__helpMenuViewController(::GlobalNamespace::HelpMenuViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____helpMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HelpNavigationController*& GlobalNamespace::HelpFlowCoordinator::__get__helpNavigationController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____helpNavigationController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HelpNavigationController*> const& GlobalNamespace::HelpFlowCoordinator::__get__helpNavigationController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____helpNavigationController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__helpNavigationController(::GlobalNamespace::HelpNavigationController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____helpNavigationController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HowToPlayViewController*& GlobalNamespace::HelpFlowCoordinator::__get__howToPlayViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____howToPlayViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HowToPlayViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__howToPlayViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____howToPlayViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__howToPlayViewController(::GlobalNamespace::HowToPlayViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____howToPlayViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::HealthWarningDisplayViewController*& GlobalNamespace::HelpFlowCoordinator::__get__healthWarningDisplayViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthWarningDisplayViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningDisplayViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__healthWarningDisplayViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthWarningDisplayViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__healthWarningDisplayViewController(::GlobalNamespace::HealthWarningDisplayViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____healthWarningDisplayViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PrivacyPolicyDisplayViewController*& GlobalNamespace::HelpFlowCoordinator::__get__privacyPolicyDisplayViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privacyPolicyDisplayViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PrivacyPolicyDisplayViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__privacyPolicyDisplayViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privacyPolicyDisplayViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__privacyPolicyDisplayViewController(::GlobalNamespace::PrivacyPolicyDisplayViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____privacyPolicyDisplayViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EulaDisplayViewController*& GlobalNamespace::HelpFlowCoordinator::__get__eulaDisplayViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eulaDisplayViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EulaDisplayViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__eulaDisplayViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eulaDisplayViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__eulaDisplayViewController(::GlobalNamespace::EulaDisplayViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eulaDisplayViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LicensesDisplayViewController*& GlobalNamespace::HelpFlowCoordinator::__get__licensesDisplayViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____licensesDisplayViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LicensesDisplayViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__licensesDisplayViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____licensesDisplayViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__licensesDisplayViewController(::GlobalNamespace::LicensesDisplayViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____licensesDisplayViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerStatisticsViewController*& GlobalNamespace::HelpFlowCoordinator::__get__playerStatisticsViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerStatisticsViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerStatisticsViewController*> const& GlobalNamespace::HelpFlowCoordinator::__get__playerStatisticsViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerStatisticsViewController;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__playerStatisticsViewController(::GlobalNamespace::PlayerStatisticsViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerStatisticsViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerDataModel*& GlobalNamespace::HelpFlowCoordinator::__get__playerDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& GlobalNamespace::HelpFlowCoordinator::__get__playerDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__playerDataModel(::GlobalNamespace::PlayerDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::HelpFlowCoordinator::__get__menuTransitionsHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuTransitionsHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& GlobalNamespace::HelpFlowCoordinator::__get__menuTransitionsHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuTransitionsHelper;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuTransitionsHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>*& GlobalNamespace::HelpFlowCoordinator::__get_didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>*> const& GlobalNamespace::HelpFlowCoordinator::__get_didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*& GlobalNamespace::HelpFlowCoordinator::__get__viewControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewControllers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*> const&
 GlobalNamespace::HelpFlowCoordinator::__get__viewControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewControllers;
 }
 constexpr void GlobalNamespace::HelpFlowCoordinator::__set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::HelpFlowCoordinator::add_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value) {

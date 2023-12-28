@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAutoDetectWriter_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/Xml/zzzz__XmlEventCache_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
+#include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
+#include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlEventCache_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAutoDetectWriter._ctor
 template <>
 
@@ -553,75 +553,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlRawWriter*& System::Xml::XmlAutoDetectWriter::__get_wrapped() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapped;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& System::Xml::XmlAutoDetectWriter::__get_wrapped() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wrapped;
 }
 constexpr void System::Xml::XmlAutoDetectWriter::__set_wrapped(::System::Xml::XmlRawWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wrapped)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::OnRemoveWriter*& System::Xml::XmlAutoDetectWriter::__get_onRemove() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onRemove;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::OnRemoveWriter*> const& System::Xml::XmlAutoDetectWriter::__get_onRemove() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onRemove;
 }
 constexpr void System::Xml::XmlAutoDetectWriter::__set_onRemove(::System::Xml::OnRemoveWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onRemove)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlWriterSettings*& System::Xml::XmlAutoDetectWriter::__get_writerSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writerSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriterSettings*> const& System::Xml::XmlAutoDetectWriter::__get_writerSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writerSettings;
 }
 constexpr void System::Xml::XmlAutoDetectWriter::__set_writerSettings(::System::Xml::XmlWriterSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writerSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlEventCache*& System::Xml::XmlAutoDetectWriter::__get_eventCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlEventCache*> const& System::Xml::XmlAutoDetectWriter::__get_eventCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventCache;
 }
 constexpr void System::Xml::XmlAutoDetectWriter::__set_eventCache(::System::Xml::XmlEventCache* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::TextWriter*& System::Xml::XmlAutoDetectWriter::__get_textWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& System::Xml::XmlAutoDetectWriter::__get_textWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textWriter;
 }
 constexpr void System::Xml::XmlAutoDetectWriter::__set_textWriter(::System::IO::TextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Stream*& System::Xml::XmlAutoDetectWriter::__get_strm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strm;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Xml::XmlAutoDetectWriter::__get_strm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strm;
 }
 constexpr void System::Xml::XmlAutoDetectWriter::__set_strm(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___strm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlAutoDetectWriter* System::Xml::XmlAutoDetectWriter::New_ctor(::System::Xml::XmlWriterSettings* writerSettings) {

@@ -3,15 +3,15 @@
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__PrefabBindingFinalizer_def.hpp"
 #include "Zenject/zzzz__PrefabBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__PrefabInstantiatorCached_def.hpp"
@@ -78,39 +78,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::PrefabBindingFinalizer*& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabBindingFinalizer*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__set___4__this(::Zenject::PrefabBindingFinalizer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__get_container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__get_container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___container;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__set_container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Type*>*& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__get_concreteTypes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___concreteTypes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__get_concreteTypes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___concreteTypes;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::__set_concreteTypes(::System::Collections::Generic::List_1<::System::Type*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___concreteTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0* Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0::New_ctor() {
@@ -204,28 +204,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::PrefabInstantiatorCached*& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::__get_prefabCreator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefabCreator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiatorCached*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::__get_prefabCreator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefabCreator;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::__set_prefabCreator(::Zenject::PrefabInstantiatorCached* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefabCreator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0*& Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::__get_CS$__8__locals1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0*> const&
 Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::__get_CS$__8__locals1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::__set_CS$__8__locals1(::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1* Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1::New_ctor() {
@@ -318,27 +318,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::PrefabBindingFinalizer*& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabBindingFinalizer*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::__set___4__this(::Zenject::PrefabBindingFinalizer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::__get_container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::__get_container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___container;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::__set_container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0* Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0::New_ctor() {
@@ -431,28 +431,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::PrefabInstantiatorCached*& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::__get_prefabCreator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefabCreator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiatorCached*> const& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::__get_prefabCreator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefabCreator;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::__set_prefabCreator(::Zenject::PrefabInstantiatorCached* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefabCreator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0*& Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::__get_CS$__8__locals1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0*> const&
 Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::__get_CS$__8__locals1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr void Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::__set_CS$__8__locals1(::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1* Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1::New_ctor() {
@@ -549,40 +549,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::PrefabBindingFinalizer::__get__gameObjectBindInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& Zenject::PrefabBindingFinalizer::__get__gameObjectBindInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr void Zenject::PrefabBindingFinalizer::__set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObjectBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Object*& Zenject::PrefabBindingFinalizer::__get__prefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& Zenject::PrefabBindingFinalizer::__get__prefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefab;
 }
 constexpr void Zenject::PrefabBindingFinalizer::__set__prefab(::UnityEngine::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*& Zenject::PrefabBindingFinalizer::__get__providerFactory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providerFactory;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*> const&
 Zenject::PrefabBindingFinalizer::__get__providerFactory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providerFactory;
 }
 constexpr void Zenject::PrefabBindingFinalizer::__set__providerFactory(::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____providerFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::PrefabBindingFinalizer* Zenject::PrefabBindingFinalizer::New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,

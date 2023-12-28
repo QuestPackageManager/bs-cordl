@@ -7,16 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlLoader)
 namespace System::Xml {
-class XmlResolver;
-}
-namespace System::Xml {
-class XmlDocument;
-}
-namespace System::Xml {
 class XmlNamespaceManager;
 }
 namespace System::Xml {
-class XmlDeclaration;
+class XmlDocumentType;
+}
+namespace System::Xml {
+class IDtdInfo;
 }
 namespace System {
 class Exception;
@@ -25,31 +22,34 @@ namespace System::Xml {
 class XmlElement;
 }
 namespace System::Xml {
-class XmlReader;
-}
-namespace System::Xml {
-class XmlParserContext;
-}
-namespace System::Xml {
-class XmlEntityReference;
-}
-namespace System::Xml {
-class XmlAttribute;
-}
-namespace System::Xml {
-class XmlDocumentType;
-}
-namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
 class XmlEntity;
 }
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
-class IDtdInfo;
+struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlReader;
+}
+namespace System::Xml {
+class XmlAttribute;
+}
+namespace System::Xml {
+class XmlDocument;
+}
+namespace System::Xml {
+class XmlEntityReference;
+}
+namespace System::Xml {
+class XmlResolver;
+}
+namespace System::Xml {
+class XmlParserContext;
+}
+namespace System::Xml {
+class XmlDeclaration;
 }
 // Forward declare root types
 namespace System::Xml {

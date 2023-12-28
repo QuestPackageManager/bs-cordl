@@ -20,23 +20,23 @@ class MeshFilter;
 namespace UnityEngine {
 class Mesh;
 }
-namespace Unity::Jobs {
-class IJob;
-}
-namespace GlobalNamespace {
-struct __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace Unity::Collections {
-struct Allocator;
+template <typename T> struct NativeArray_1;
+}
+namespace GlobalNamespace {
+struct __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList;
+}
+namespace Unity::Jobs {
+class IJob;
 }
 namespace System {
 class IDisposable;
+}
+namespace Unity::Collections {
+struct Allocator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +56,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob_
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7977))
 // CS Name: ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob::NList
 struct CORDL_TYPE __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList {
@@ -164,9 +164,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRScenePlane
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9977))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7979)) CS Name: ::OVRScenePlaneMeshFilter*
 class CORDL_TYPE OVRScenePlaneMeshFilter : public ::UnityEngine::MonoBehaviour {
 public:

@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(SecP160R2Curve)
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class SecP160R2Point;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class __SecP160R2Curve__SecP160R2LookupTable;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class SecP160R2Point;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

@@ -2,28 +2,28 @@
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RpcHandler_1_def.hpp"
+#include "System/zzzz__Action_5_def.hpp"
 #include "GlobalNamespace/zzzz__RpcHandler_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_6_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "System/zzzz__Action_6_def.hpp"
-#include "System/zzzz__Action_5_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 template <typename TType, typename T> constexpr ::System::Action_1<::StringW>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T> constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>::__set_callback(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T> inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>* GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>::New_ctor() {
@@ -45,16 +45,16 @@ template <typename TType, typename T> inline void GlobalNamespace::__RpcHandler_
 // Ctor Parameters []
 template <typename TType, typename T> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>::__RpcHandler_1____c__DisplayClass10_0_1() {}
 template <typename TType, typename T, typename T0> constexpr ::System::Action_2<::StringW, T0>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass11_0_2<TType, T, T0>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, T0>*> const& GlobalNamespace::__RpcHandler_1____c__DisplayClass11_0_2<TType, T, T0>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0> constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass11_0_2<TType, T, T0>::__set_callback(::System::Action_2<::StringW, T0>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0>
@@ -79,17 +79,17 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass11_0_2<TType, T, T
 template <typename TType, typename T, typename T0> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass11_0_2<TType, T, T0>::__RpcHandler_1____c__DisplayClass11_0_2() {}
 template <typename TType, typename T, typename T0, typename T1>
 constexpr ::System::Action_3<::StringW, T0, T1>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass12_0_3<TType, T, T0, T1>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::StringW, T0, T1>*> const& GlobalNamespace::__RpcHandler_1____c__DisplayClass12_0_3<TType, T, T0, T1>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass12_0_3<TType, T, T0, T1>::__set_callback(::System::Action_3<::StringW, T0, T1>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0, typename T1>
@@ -115,18 +115,18 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass12_0_3<TType, T, T
 template <typename TType, typename T, typename T0, typename T1> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass12_0_3<TType, T, T0, T1>::__RpcHandler_1____c__DisplayClass12_0_3() {}
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr ::System::Action_4<::StringW, T0, T1, T2>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass13_0_4<TType, T, T0, T1, T2>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::StringW, T0, T1, T2>*> const&
 GlobalNamespace::__RpcHandler_1____c__DisplayClass13_0_4<TType, T, T0, T1, T2>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass13_0_4<TType, T, T0, T1, T2>::__set_callback(::System::Action_4<::StringW, T0, T1, T2>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2>
@@ -153,18 +153,18 @@ template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass13_0_4<TType, T, T0, T1, T2>::__RpcHandler_1____c__DisplayClass13_0_4() {}
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr ::System::Action_5<::StringW, T0, T1, T2, T3>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass14_0_5<TType, T, T0, T1, T2, T3>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_5<::StringW, T0, T1, T2, T3>*> const&
 GlobalNamespace::__RpcHandler_1____c__DisplayClass14_0_5<TType, T, T0, T1, T2, T3>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass14_0_5<TType, T, T0, T1, T2, T3>::__set_callback(::System::Action_5<::StringW, T0, T1, T2, T3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
@@ -190,16 +190,16 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass14_0_5<TType, T, T
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass14_0_5<TType, T, T0, T1, T2, T3>::__RpcHandler_1____c__DisplayClass14_0_5() {}
 template <typename TType, typename T> constexpr ::System::Action_2<::StringW, int64_t>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T> constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>::__set_callback(::System::Action_2<::StringW, int64_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T> inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>* GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>::New_ctor() {
@@ -223,17 +223,17 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>::
 // Ctor Parameters []
 template <typename TType, typename T> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>::__RpcHandler_1____c__DisplayClass15_0_1() {}
 template <typename TType, typename T, typename T0> constexpr ::System::Action_3<::StringW, int64_t, T0>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass16_0_2<TType, T, T0>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::StringW, int64_t, T0>*> const& GlobalNamespace::__RpcHandler_1____c__DisplayClass16_0_2<TType, T, T0>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass16_0_2<TType, T, T0>::__set_callback(::System::Action_3<::StringW, int64_t, T0>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0>
@@ -259,18 +259,18 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass16_0_2<TType, T, T
 template <typename TType, typename T, typename T0> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass16_0_2<TType, T, T0>::__RpcHandler_1____c__DisplayClass16_0_2() {}
 template <typename TType, typename T, typename T0, typename T1>
 constexpr ::System::Action_4<::StringW, int64_t, T0, T1>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass17_0_3<TType, T, T0, T1>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::StringW, int64_t, T0, T1>*> const&
 GlobalNamespace::__RpcHandler_1____c__DisplayClass17_0_3<TType, T, T0, T1>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass17_0_3<TType, T, T0, T1>::__set_callback(::System::Action_4<::StringW, int64_t, T0, T1>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0, typename T1>
@@ -296,18 +296,18 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass17_0_3<TType, T, T
 template <typename TType, typename T, typename T0, typename T1> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass17_0_3<TType, T, T0, T1>::__RpcHandler_1____c__DisplayClass17_0_3() {}
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr ::System::Action_5<::StringW, int64_t, T0, T1, T2>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass18_0_4<TType, T, T0, T1, T2>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_5<::StringW, int64_t, T0, T1, T2>*> const&
 GlobalNamespace::__RpcHandler_1____c__DisplayClass18_0_4<TType, T, T0, T1, T2>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass18_0_4<TType, T, T0, T1, T2>::__set_callback(::System::Action_5<::StringW, int64_t, T0, T1, T2>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2>
@@ -334,18 +334,18 @@ template <typename TType, typename T, typename T0, typename T1, typename T2>
 constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass18_0_4<TType, T, T0, T1, T2>::__RpcHandler_1____c__DisplayClass18_0_4() {}
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr ::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5<TType, T, T0, T1, T2, T3>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>*> const&
 GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5<TType, T, T0, T1, T2, T3>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5<TType, T, T0, T1, T2, T3>::__set_callback(::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
@@ -371,18 +371,18 @@ inline void GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5<TType, T, T
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
 constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5<TType, T, T0, T1, T2, T3>::__RpcHandler_1____c__DisplayClass19_0_5() {}
 template <typename TType, typename T> constexpr ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>*& GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>*> const&
 GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename T>
 constexpr void GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>::__set_callback(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType, typename T> inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>* GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>::New_ctor() {
@@ -404,42 +404,42 @@ template <typename TType, typename T> inline void GlobalNamespace::__RpcHandler_
 // Ctor Parameters []
 template <typename TType, typename T> constexpr ::GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>::__RpcHandler_1____c__DisplayClass20_0_1() {}
 template <typename TType> constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::RpcHandler_1<TType>::__get__multiplayerSessionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 template <typename TType>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& GlobalNamespace::RpcHandler_1<TType>::__get__multiplayerSessionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 template <typename TType> constexpr void GlobalNamespace::RpcHandler_1<TType>::__set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType> constexpr ::GlobalNamespace::__MultiplayerSessionManager__MessageType& GlobalNamespace::RpcHandler_1<TType>::__get__messageType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messageType;
 }
 template <typename TType> constexpr ::GlobalNamespace::__MultiplayerSessionManager__MessageType const& GlobalNamespace::RpcHandler_1<TType>::__get__messageType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messageType;
 }
 template <typename TType> constexpr void GlobalNamespace::RpcHandler_1<TType>::__set__messageType(::GlobalNamespace::__MultiplayerSessionManager__MessageType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____messageType = value;
 }
 template <typename TType> constexpr ::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::RpcHandler_1<TType>::__get__rpcSerializer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rpcSerializer;
 }
 template <typename TType>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>*> const&
 GlobalNamespace::RpcHandler_1<TType>::__get__rpcSerializer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rpcSerializer;
 }
 template <typename TType> constexpr void GlobalNamespace::RpcHandler_1<TType>::__set__rpcSerializer(::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rpcSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TType>

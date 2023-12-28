@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputRuntime)
-namespace UnityEngine {
-struct ScreenOrientation;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class InputUpdateDelegate;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputDeviceCommand;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct InputEvent;
 }
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine {
+struct ScreenOrientation;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

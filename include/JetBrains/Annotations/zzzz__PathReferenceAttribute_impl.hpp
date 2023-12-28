@@ -60,15 +60,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& JetBrains::Annotations::PathReferenceAttribute::__get__BasePath_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BasePath_k__BackingField;
 }
 constexpr ::StringW const& JetBrains::Annotations::PathReferenceAttribute::__get__BasePath_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BasePath_k__BackingField;
 }
 constexpr void JetBrains::Annotations::PathReferenceAttribute::__set__BasePath_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BasePath_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::JetBrains::Annotations::PathReferenceAttribute* JetBrains::Annotations::PathReferenceAttribute::New_ctor() {

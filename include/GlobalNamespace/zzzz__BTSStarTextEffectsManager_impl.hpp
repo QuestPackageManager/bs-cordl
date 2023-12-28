@@ -2,15 +2,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSStarTextEffectsManager_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "GlobalNamespace/zzzz__BTSStarTextEffectController_def.hpp"
 #include "GlobalNamespace/zzzz__BTSStarTextEffectsManager_def.hpp"
+#include "GlobalNamespace/zzzz__BTSStarTextEffectController_def.hpp"
+#include "GlobalNamespace/zzzz__BTSStarTextEventEffect_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__BTSStarTextEventEffect_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5._ctor
 template <>
 
@@ -114,52 +114,52 @@ constexpr GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BTSStarTextEffectController*& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get_effectController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEffectController*> const&
 GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get_effectController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectController;
 }
 constexpr void GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__set_effectController(::GlobalNamespace::BTSStarTextEffectController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___effectController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BTSStarTextEffectsManager*& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEffectsManager*> const& GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::__set___4__this(::GlobalNamespace::BTSStarTextEffectsManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5* GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5::New_ctor(int32_t __1__state) {
@@ -275,28 +275,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BTSStarTextEventEffect*& GlobalNamespace::BTSStarTextEffectsManager::__get__btsStarTextEventEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsStarTextEventEffect;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEventEffect*> const& GlobalNamespace::BTSStarTextEffectsManager::__get__btsStarTextEventEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsStarTextEventEffect;
 }
 constexpr void GlobalNamespace::BTSStarTextEffectsManager::__set__btsStarTextEventEffect(::GlobalNamespace::BTSStarTextEventEffect* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsStarTextEventEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__BTSStarTextEffectController__Pool*& GlobalNamespace::BTSStarTextEffectsManager::__get__btsStarTextEffectControllerPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsStarTextEffectControllerPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BTSStarTextEffectController__Pool*> const&
 GlobalNamespace::BTSStarTextEffectsManager::__get__btsStarTextEffectControllerPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsStarTextEffectControllerPool;
 }
 constexpr void GlobalNamespace::BTSStarTextEffectsManager::__set__btsStarTextEffectControllerPool(::GlobalNamespace::__BTSStarTextEffectController__Pool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsStarTextEffectControllerPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BTSStarTextEffectsManager::Start() {

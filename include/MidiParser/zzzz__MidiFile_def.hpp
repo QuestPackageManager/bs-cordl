@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MidiFile)
 namespace MidiParser {
-class MidiTrack;
+class __MidiFile__Reader;
 }
 namespace MidiParser {
-class __MidiFile__Reader;
+class MidiTrack;
 }
 namespace System::IO {
 class Stream;

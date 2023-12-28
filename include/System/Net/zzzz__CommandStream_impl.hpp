@@ -3,20 +3,20 @@
 #include "System/Net/zzzz__NetworkStreamWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CommandStream_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Net/zzzz__CommandStream_def.hpp"
 #include "System/Net/zzzz__ResponseDescription_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_def.hpp"
 #include "System/Net/zzzz__FtpStatusCode_def.hpp"
 #include "System/Net/zzzz__ReceiveState_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__CommandStream__PipelineInstruction::__CommandStream__PipelineInstruction(int32_t value__) noexcept {
   this->value__ = value__;
@@ -85,27 +85,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::__CommandStream__PipelineEntry::__get_Command() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Command;
 }
 constexpr ::StringW const& System::Net::__CommandStream__PipelineEntry::__get_Command() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Command;
 }
 constexpr void System::Net::__CommandStream__PipelineEntry::__set_Command(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Command)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__CommandStream__PipelineEntryFlags& System::Net::__CommandStream__PipelineEntry::__get_Flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Flags;
 }
 constexpr ::System::Net::__CommandStream__PipelineEntryFlags const& System::Net::__CommandStream__PipelineEntry::__get_Flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Flags;
 }
 constexpr void System::Net::__CommandStream__PipelineEntry::__set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Flags = value;
 }
 inline ::System::Net::__CommandStream__PipelineEntry* System::Net::__CommandStream__PipelineEntry::New_ctor(::StringW command) {
@@ -487,159 +487,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::CommandStream::__get__recoverableFailure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recoverableFailure;
 }
 constexpr bool const& System::Net::CommandStream::__get__recoverableFailure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recoverableFailure;
 }
 constexpr void System::Net::CommandStream::__set__recoverableFailure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____recoverableFailure = value;
 }
 constexpr ::System::Net::WebRequest*& System::Net::CommandStream::__get__request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& System::Net::CommandStream::__get__request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____request;
 }
 constexpr void System::Net::CommandStream::__set__request(::System::Net::WebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::CommandStream::__get__isAsync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isAsync;
 }
 constexpr bool const& System::Net::CommandStream::__get__isAsync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isAsync;
 }
 constexpr void System::Net::CommandStream::__set__isAsync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isAsync = value;
 }
 constexpr bool& System::Net::CommandStream::__get__aborted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aborted;
 }
 constexpr bool const& System::Net::CommandStream::__get__aborted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aborted;
 }
 constexpr void System::Net::CommandStream::__set__aborted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____aborted = value;
 }
 constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>& System::Net::CommandStream::__get__commands() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commands;
 }
 constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> const& System::Net::CommandStream::__get__commands() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commands;
 }
 constexpr void System::Net::CommandStream::__set__commands(::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____commands)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::CommandStream::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& System::Net::CommandStream::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void System::Net::CommandStream::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 constexpr bool& System::Net::CommandStream::__get__doRead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doRead;
 }
 constexpr bool const& System::Net::CommandStream::__get__doRead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doRead;
 }
 constexpr void System::Net::CommandStream::__set__doRead(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____doRead = value;
 }
 constexpr bool& System::Net::CommandStream::__get__doSend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doSend;
 }
 constexpr bool const& System::Net::CommandStream::__get__doSend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doSend;
 }
 constexpr void System::Net::CommandStream::__set__doSend(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____doSend = value;
 }
 constexpr ::System::Net::ResponseDescription*& System::Net::CommandStream::__get__currentResponseDescription() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentResponseDescription;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& System::Net::CommandStream::__get__currentResponseDescription() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentResponseDescription;
 }
 constexpr void System::Net::CommandStream::__set__currentResponseDescription(::System::Net::ResponseDescription* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentResponseDescription)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::CommandStream::__get__abortReason() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____abortReason;
 }
 constexpr ::StringW const& System::Net::CommandStream::__get__abortReason() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____abortReason;
 }
 constexpr void System::Net::CommandStream::__set__abortReason(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____abortReason)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::CommandStream::__get__buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer;
 }
 constexpr ::StringW const& System::Net::CommandStream::__get__buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer;
 }
 constexpr void System::Net::CommandStream::__set__buffer(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoding*& System::Net::CommandStream::__get__encoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Net::CommandStream::__get__encoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
 constexpr void System::Net::CommandStream::__set__encoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Decoder*& System::Net::CommandStream::__get__decoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& System::Net::CommandStream::__get__decoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decoder;
 }
 constexpr void System::Net::CommandStream::__set__decoder(::System::Text::Decoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____decoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::CommandStream::setStaticF_s_writeCallbackDelegate(::System::AsyncCallback* value) {

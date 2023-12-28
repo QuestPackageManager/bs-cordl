@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LobbyGameStateModel)
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyGameStateModel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12880)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12880))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4503))
 // CS Name: ::LobbyGameStateModel*
 class CORDL_TYPE LobbyGameStateModel : public ::System::Object {

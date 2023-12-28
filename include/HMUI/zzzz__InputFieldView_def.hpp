@@ -12,56 +12,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputFieldView)
-namespace HMUI {
-struct __InputFieldView__SelectionState;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ImageView;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class YieldInstruction;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class YieldInstruction;
+}
 namespace HMUI {
 class ButtonBinder;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace HMUI {
+class ImageView;
 }
 namespace HMUI {
 class __InputFieldView__InputFieldChanged;
 }
 namespace HMUI {
-class UIKeyboard;
+struct __InputFieldView__SelectionState;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace HMUI {
 class __InputFieldView___BlinkingCaretCoroutine_d__43;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace HMUI {
+class UIKeyboard;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -148,7 +148,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__InputFieldView__Selectio
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13629))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13629)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
 // CS Name: ::HMUI::InputFieldView*
 class CORDL_TYPE InputFieldView : public ::UnityEngine::UI::Selectable {
@@ -475,8 +475,8 @@ static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldView, 0x178>, "S
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13632)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 331 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 331 }), TypeDefinitionIndex(TypeDefinitionIndex(13632)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
 class CORDL_TYPE __InputFieldView__InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::HMUI::InputFieldView*> {
 public:
   // Declarations

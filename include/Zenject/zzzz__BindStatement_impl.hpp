@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 //  Writing Method size for method: ::Zenject::BindStatement._ctor
 template <>
 
@@ -146,27 +146,27 @@ constexpr Zenject::BindStatement::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& Zenject::BindStatement::__get__disposables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::IDisposable*>*> const& Zenject::BindStatement::__get__disposables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
 constexpr void Zenject::BindStatement::__set__disposables(::System::Collections::Generic::List_1<::System::IDisposable*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::IBindingFinalizer*& Zenject::BindStatement::__get__bindingFinalizer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindingFinalizer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IBindingFinalizer*> const& Zenject::BindStatement::__get__bindingFinalizer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindingFinalizer;
 }
 constexpr void Zenject::BindStatement::__set__bindingFinalizer(::Zenject::IBindingFinalizer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindingFinalizer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::BindStatement* Zenject::BindStatement::New_ctor() {

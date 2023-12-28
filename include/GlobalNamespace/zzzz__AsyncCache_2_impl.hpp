@@ -1,34 +1,34 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncCache_2_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncCache_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Lazy_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Lazy_1_def.hpp"
 template <typename TKey, typename TValue> constexpr TKey& GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__get_toAdd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toAdd;
 }
 template <typename TKey, typename TValue> constexpr TKey const& GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__get_toAdd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toAdd;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__set_toAdd(TKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toAdd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::AsyncCache_2<TKey, TValue>*& GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCache_2<TKey, TValue>*> const& GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__set___4__this(::GlobalNamespace::AsyncCache_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
@@ -50,33 +50,33 @@ template <typename TKey, typename TValue> inline ::System::Threading::Tasks::Tas
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>::__AsyncCache_2____c__DisplayClass4_0() {}
 template <typename TKey, typename TValue> constexpr ::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>*& GlobalNamespace::AsyncCache_2<TKey, TValue>::__get__valueFactory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueFactory;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>*> const& GlobalNamespace::AsyncCache_2<TKey, TValue>::__get__valueFactory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueFactory;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::AsyncCache_2<TKey, TValue>::__set__valueFactory(::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____valueFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>*& GlobalNamespace::AsyncCache_2<TKey, TValue>::__get__map() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____map;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>*> const&
 GlobalNamespace::AsyncCache_2<TKey, TValue>::__get__map() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____map;
 }
 template <typename TKey, typename TValue>
 constexpr void
 GlobalNamespace::AsyncCache_2<TKey, TValue>::__set__map(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____map)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>

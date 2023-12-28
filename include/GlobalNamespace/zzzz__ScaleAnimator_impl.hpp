@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScaleAnimator.OnDestroy
 template <>
 
@@ -160,75 +160,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::ScaleAnimator::__get__displayedScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayedScale;
 }
 constexpr float_t const& GlobalNamespace::ScaleAnimator::__get__displayedScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayedScale;
 }
 constexpr void GlobalNamespace::ScaleAnimator::__set__displayedScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____displayedScale = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::ScaleAnimator::__get__targetTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::ScaleAnimator::__get__targetTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTransform;
 }
 constexpr void GlobalNamespace::ScaleAnimator::__set__targetTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::ScaleAnimator::__get__tweeningManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::ScaleAnimator::__get__tweeningManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr void GlobalNamespace::ScaleAnimator::__set__tweeningManager(::Tweening::TimeTweeningManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::ScaleAnimator::__get__scaleUpTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleUpTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::ScaleAnimator::__get__scaleUpTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleUpTween;
 }
 constexpr void GlobalNamespace::ScaleAnimator::__set__scaleUpTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scaleUpTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::ScaleAnimator::__get__scaleDownTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleDownTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::ScaleAnimator::__get__scaleDownTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleDownTween;
 }
 constexpr void GlobalNamespace::ScaleAnimator::__set__scaleDownTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scaleDownTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::ScaleAnimator::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& GlobalNamespace::ScaleAnimator::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void GlobalNamespace::ScaleAnimator::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 inline void GlobalNamespace::ScaleAnimator::OnDestroy() {

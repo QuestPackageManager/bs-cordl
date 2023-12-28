@@ -10,13 +10,31 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverFullBodyBiped)
 namespace RootMotion::FinalIK {
-class IKEffector;
+struct FullBodyBipedEffector;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class FBIKChain;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedChain;
 }
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class IKConstraintBend;
+}
+namespace RootMotion {
+class BipedLimbOrientations;
+}
+namespace RootMotion {
+class __BipedLimbOrientations__LimbOrientation;
+}
+namespace RootMotion {
+class BipedReferences;
+}
+namespace RootMotion::FinalIK {
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class IKMappingSpine;
@@ -24,29 +42,11 @@ class IKMappingSpine;
 namespace RootMotion::FinalIK {
 class IKMappingLimb;
 }
-namespace RootMotion {
-class BipedReferences;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class IKMappingBone;
-}
-namespace RootMotion {
-class __BipedLimbOrientations__LimbOrientation;
-}
-namespace RootMotion::FinalIK {
-class IKConstraintBend;
-}
 namespace UnityEngine {
 class Transform;
 }
-namespace RootMotion {
-class BipedLimbOrientations;
-}
 namespace RootMotion::FinalIK {
-class FBIKChain;
+class IKMappingBone;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFullBodyBiped);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12570))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12570)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12573))
 // CS Name: ::RootMotion.FinalIK::IKSolverFullBodyBiped*
 class CORDL_TYPE IKSolverFullBodyBiped : public ::RootMotion::FinalIK::IKSolverFullBody {

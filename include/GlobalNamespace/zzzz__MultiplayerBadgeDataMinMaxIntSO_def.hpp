@@ -11,16 +11,16 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class MultiplayerBadgeAwardData;
-}
-namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class MultiplayerBadgeAwardData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

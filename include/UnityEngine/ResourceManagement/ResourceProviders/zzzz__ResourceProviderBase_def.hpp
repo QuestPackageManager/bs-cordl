@@ -7,26 +7,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderBehaviourFlags_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceProviderBase)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __ResourceProviderBase__BaseInitAsyncOp;
+class IResourceProvider;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class IInitializableObject;
 }
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __ResourceProviderBase__BaseInitAsyncOp;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProviderBehaviourFlags;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
@@ -34,11 +37,8 @@ struct ProvideHandle;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __ResourceProviderBase____c__DisplayClass10_0;
 }
-namespace System {
-class Type;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace System {
 template <typename TResult> class Func_1;

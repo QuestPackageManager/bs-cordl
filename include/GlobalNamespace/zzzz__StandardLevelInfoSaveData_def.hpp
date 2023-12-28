@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelInfoSaveData)
 namespace GlobalNamespace {
-class __StandardLevelInfoSaveData__DifficultyBeatmapSet;
+class BeatmapLevelColorSchemeSaveData;
+}
+namespace GlobalNamespace {
+class __StandardLevelInfoSaveData__VersionCheck;
 }
 namespace GlobalNamespace {
 class __StandardLevelInfoSaveData__DifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class BeatmapLevelColorSchemeSaveData;
-}
-namespace GlobalNamespace {
-class __StandardLevelInfoSaveData__VersionCheck;
+class __StandardLevelInfoSaveData__DifficultyBeatmapSet;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -35,80 +35,80 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__defaultSettingsMenuViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSettingsMenuViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
 GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__defaultSettingsMenuViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSettingsMenuViewController;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__defaultSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__oculusPCSettingsMenuViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusPCSettingsMenuViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
 GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__oculusPCSettingsMenuViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusPCSettingsMenuViewController;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__oculusPCSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusPCSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__questSettingsMenuViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____questSettingsMenuViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
 GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__questSettingsMenuViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____questSettingsMenuViewController;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__questSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____questSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvrSettingsMenuViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvrSettingsMenuViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
 GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvrSettingsMenuViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvrSettingsMenuViewController;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__psvrSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____psvrSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvr2SettingsMenuViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvr2SettingsMenuViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
 GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvr2SettingsMenuViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvr2SettingsMenuViewController;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__psvr2SettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____psvr2SettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::TabBarViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__tabBarViewControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabBarViewControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TabBarViewController*> const& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__tabBarViewControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabBarViewControllerPrefab;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__tabBarViewControllerPrefab(::GlobalNamespace::TabBarViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tabBarViewControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBindings() {

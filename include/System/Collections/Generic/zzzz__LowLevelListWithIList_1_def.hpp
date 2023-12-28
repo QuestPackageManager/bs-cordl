@@ -6,6 +6,15 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelListWithIList_1)
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -13,16 +22,7 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> struct __LowLevelListWithIList_1__Enumerator;

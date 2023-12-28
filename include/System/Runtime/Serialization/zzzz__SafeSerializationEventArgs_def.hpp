@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 CORDL_MODULE_EXPORT(SafeSerializationEventArgs)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Object;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SafeSerializationEventArgs);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3225))
 // CS Name: ::System.Runtime.Serialization::SafeSerializationEventArgs*
 class CORDL_TYPE SafeSerializationEventArgs : public ::System::EventArgs {

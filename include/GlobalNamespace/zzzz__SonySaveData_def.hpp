@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SonySaveData)
 namespace Zenject {
+class ITickable;
+}
+namespace Zenject {
 class TickableManager;
 }
 namespace GlobalNamespace {
 class ISaveData;
-}
-namespace Zenject {
-class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

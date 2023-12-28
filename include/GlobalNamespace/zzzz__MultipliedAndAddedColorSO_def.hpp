@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(MultipliedAndAddedColorSO)
-namespace GlobalNamespace {
-class SimpleColorSO;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class SimpleColorSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

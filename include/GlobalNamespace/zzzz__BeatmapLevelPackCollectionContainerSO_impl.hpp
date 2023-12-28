@@ -31,16 +31,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& GlobalNamespace::BeatmapLevelPackCollectionContainerSO::__get__beatmapLevelPackCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelPackCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const&
 GlobalNamespace::BeatmapLevelPackCollectionContainerSO::__get__beatmapLevelPackCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelPackCollection;
 }
 constexpr void GlobalNamespace::BeatmapLevelPackCollectionContainerSO::__set__beatmapLevelPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelPackCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* GlobalNamespace::BeatmapLevelPackCollectionContainerSO::get_beatmapLevelPackCollection() {

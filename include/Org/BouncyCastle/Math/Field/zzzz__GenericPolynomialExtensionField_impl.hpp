@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__GenericPolynomialExtensionField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomialExtensionField_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomialExtensionField_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField._ctor
 template <>
 
@@ -148,27 +148,27 @@ constexpr Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::opera
   return static_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Math::Field::IFiniteField*& Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__get_subfield() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subfield;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IFiniteField*> const& Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__get_subfield() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subfield;
 }
 constexpr void Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__set_subfield(::Org::BouncyCastle::Math::Field::IFiniteField* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subfield)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Math::Field::IPolynomial*& Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__get_minimalPolynomial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minimalPolynomial;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::Field::IPolynomial*> const& Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__get_minimalPolynomial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minimalPolynomial;
 }
 constexpr void Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__set_minimalPolynomial(::Org::BouncyCastle::Math::Field::IPolynomial* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___minimalPolynomial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*

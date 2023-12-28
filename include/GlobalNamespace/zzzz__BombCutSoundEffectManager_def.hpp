@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BombCutSoundEffectManager)
 namespace GlobalNamespace {
-class __BombCutSoundEffect__Pool;
-}
-namespace GlobalNamespace {
 struct NoteCutInfo;
 }
-namespace GlobalNamespace {
-class BombCutSoundEffect;
-}
-namespace GlobalNamespace {
-class NoteController;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+class BombCutSoundEffect;
+}
+namespace GlobalNamespace {
+class __BombCutSoundEffect__Pool;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 class SaberManager;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

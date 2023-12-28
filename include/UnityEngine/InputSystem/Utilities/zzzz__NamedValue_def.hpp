@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedValue)
-namespace UnityEngine::InputSystem::Utilities {
-struct PrimitiveValue;
-}
 namespace System {
 struct TypeCode;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct PrimitiveValue;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

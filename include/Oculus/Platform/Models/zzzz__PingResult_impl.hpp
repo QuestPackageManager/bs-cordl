@@ -73,27 +73,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint64_t& Oculus::Platform::Models::PingResult::__get__ID_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ID_k__BackingField;
 }
 constexpr uint64_t const& Oculus::Platform::Models::PingResult::__get__ID_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ID_k__BackingField;
 }
 constexpr void Oculus::Platform::Models::PingResult::__set__ID_k__BackingField(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ID_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<uint64_t>& Oculus::Platform::Models::PingResult::__get_pingTimeUsec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pingTimeUsec;
 }
 constexpr ::System::Nullable_1<uint64_t> const& Oculus::Platform::Models::PingResult::__get_pingTimeUsec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pingTimeUsec;
 }
 constexpr void Oculus::Platform::Models::PingResult::__set_pingTimeUsec(::System::Nullable_1<uint64_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pingTimeUsec = value;
 }
 inline ::Oculus::Platform::Models::PingResult* Oculus::Platform::Models::PingResult::New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) {

@@ -3,17 +3,17 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboardHands_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboardHands_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHand_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 // Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityEngine::Transform*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "LeftPresenceTransform", ty:
 // "::UnityEngine::Transform*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "RightHandTransform", ty: "::UnityEngine::Transform*", modifiers: "", def_value: Some("nullptr") },
 // CppParam { name: "RightPresenceTransform", ty: "::UnityEngine::Transform*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "BoneName", ty: "::GlobalNamespace::__OVRSkeleton__BoneId",
@@ -313,332 +313,332 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRTrackedKeyboardHands::__get_LeftHandPresence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LeftHandPresence;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_LeftHandPresence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LeftHandPresence;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_LeftHandPresence(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LeftHandPresence)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRTrackedKeyboardHands::__get_RightHandPresence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RightHandPresence;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_RightHandPresence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RightHandPresence;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_RightHandPresence(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RightHandPresence)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRTrackedKeyboardHands::__get_handPresenceInitialized_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPresenceInitialized_;
 }
 constexpr bool const& GlobalNamespace::OVRTrackedKeyboardHands::__get_handPresenceInitialized_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPresenceInitialized_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_handPresenceInitialized_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handPresenceInitialized_ = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandRoot_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandRoot_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandRoot_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandRoot_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHandRoot_(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandRoot_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandRoot_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandRoot_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandRoot_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandRoot_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHandRoot_(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandRoot_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRTrackedKeyboard*& GlobalNamespace::OVRTrackedKeyboardHands::__get_KeyboardTracker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyboardTracker;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRTrackedKeyboard*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_KeyboardTracker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyboardTracker;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_KeyboardTracker(::GlobalNamespace::OVRTrackedKeyboard* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___KeyboardTracker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRCameraRig*& GlobalNamespace::OVRTrackedKeyboardHands::__get_cameraRig_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRig_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_cameraRig_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraRig_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_cameraRig_(::GlobalNamespace::OVRCameraRig* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cameraRig_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRHand*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHand_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHand_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHand_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHand_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHand_(::GlobalNamespace::OVRHand* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHand_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSkeleton*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkeleton_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkeleton_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkeleton_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkeleton_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHandSkeleton_(::GlobalNamespace::OVRSkeleton* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandSkeleton_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSkeletonRenderer*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkeletonRenderer_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkeletonRenderer_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeletonRenderer*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkeletonRenderer_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkeletonRenderer_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHandSkeletonRenderer_(::GlobalNamespace::OVRSkeletonRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandSkeletonRenderer_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkeletonRendererGO_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkeletonRendererGO_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkeletonRendererGO_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkeletonRendererGO_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHandSkeletonRendererGO_(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandSkeletonRendererGO_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SkinnedMeshRenderer*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkinnedMeshRenderer_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkinnedMeshRenderer_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandSkinnedMeshRenderer_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandSkinnedMeshRenderer_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHandSkinnedMeshRenderer_(::UnityEngine::SkinnedMeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandSkinnedMeshRenderer_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRMeshRenderer*& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandMeshRenderer_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandMeshRenderer_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMeshRenderer*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_leftHandMeshRenderer_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHandMeshRenderer_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_leftHandMeshRenderer_(::GlobalNamespace::OVRMeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftHandMeshRenderer_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRHand*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHand_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHand_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHand_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHand_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHand_(::GlobalNamespace::OVRHand* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHand_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSkeleton*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkeleton_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkeleton_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkeleton_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkeleton_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHandSkeleton_(::GlobalNamespace::OVRSkeleton* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandSkeleton_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSkeletonRenderer*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkeletonRenderer_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkeletonRenderer_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeletonRenderer*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkeletonRenderer_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkeletonRenderer_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHandSkeletonRenderer_(::GlobalNamespace::OVRSkeletonRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandSkeletonRenderer_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkeletonRendererGO_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkeletonRendererGO_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkeletonRendererGO_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkeletonRendererGO_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHandSkeletonRendererGO_(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandSkeletonRendererGO_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRMeshRenderer*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandMeshRenderer_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandMeshRenderer_;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMeshRenderer*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandMeshRenderer_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandMeshRenderer_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHandMeshRenderer_(::GlobalNamespace::OVRMeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandMeshRenderer_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SkinnedMeshRenderer*& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkinnedMeshRenderer_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkinnedMeshRenderer_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_rightHandSkinnedMeshRenderer_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightHandSkinnedMeshRenderer_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_rightHandSkinnedMeshRenderer_(::UnityEngine::SkinnedMeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightHandSkinnedMeshRenderer_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRTrackedKeyboardHands::__get__RightHandOverKeyboard_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RightHandOverKeyboard_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRTrackedKeyboardHands::__get__RightHandOverKeyboard_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RightHandOverKeyboard_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set__RightHandOverKeyboard_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____RightHandOverKeyboard_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRTrackedKeyboardHands::__get__LeftHandOverKeyboard_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LeftHandOverKeyboard_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRTrackedKeyboardHands::__get__LeftHandOverKeyboard_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LeftHandOverKeyboard_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set__LeftHandOverKeyboard_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LeftHandOverKeyboard_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent>& GlobalNamespace::OVRTrackedKeyboardHands::__get_lastVisibilityEvent_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastVisibilityEvent_;
 }
 constexpr ::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> const&
 GlobalNamespace::OVRTrackedKeyboardHands::__get_lastVisibilityEvent_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastVisibilityEvent_;
 }
 constexpr void
 GlobalNamespace::OVRTrackedKeyboardHands::__set_lastVisibilityEvent_(::System::Nullable_1<::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastVisibilityEvent_ = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*>&
 GlobalNamespace::OVRTrackedKeyboardHands::__get_boneMappings_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMappings_;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> const&
 GlobalNamespace::OVRTrackedKeyboardHands::__get_boneMappings_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boneMappings_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_boneMappings_(
     ::ArrayW<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping, ::Array<::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMapping>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boneMappings_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::OVRTrackedKeyboardHands::__get_HandsMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HandsMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::OVRTrackedKeyboardHands::__get_HandsMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HandsMaterial;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_HandsMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___HandsMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::OVRTrackedKeyboardHands::__get_keyboardPositionID_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardPositionID_;
 }
 constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboardHands::__get_keyboardPositionID_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardPositionID_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_keyboardPositionID_(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyboardPositionID_ = value;
 }
 constexpr int32_t& GlobalNamespace::OVRTrackedKeyboardHands::__get_keyboardRotationID_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardRotationID_;
 }
 constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboardHands::__get_keyboardRotationID_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardRotationID_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_keyboardRotationID_(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyboardRotationID_ = value;
 }
 constexpr int32_t& GlobalNamespace::OVRTrackedKeyboardHands::__get_keyboardScaleID_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardScaleID_;
 }
 constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboardHands::__get_keyboardScaleID_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardScaleID_;
 }
 constexpr void GlobalNamespace::OVRTrackedKeyboardHands::__set_keyboardScaleID_(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyboardScaleID_ = value;
 }
 inline void GlobalNamespace::OVRTrackedKeyboardHands::setStaticF_handInnerAlphaThreshold_(float_t value) {

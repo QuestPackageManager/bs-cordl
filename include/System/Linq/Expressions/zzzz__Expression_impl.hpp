@@ -4,8 +4,8 @@
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
 #include "System/Dynamic/Utils/zzzz__CacheDict_2_def.hpp"
 // Ctor Parameters []
@@ -15,15 +15,15 @@ constexpr ::System::Linq::Expressions::__Expression__MemberExpressionProxy::__Ex
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::__Expression__UnaryExpressionProxy::__Expression__UnaryExpressionProxy() {}
 constexpr ::System::Linq::Expressions::ExpressionType& System::Linq::Expressions::__Expression__ExtensionInfo::__get_NodeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NodeType;
 }
 constexpr ::System::Linq::Expressions::ExpressionType const& System::Linq::Expressions::__Expression__ExtensionInfo::__get_NodeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NodeType;
 }
 constexpr void System::Linq::Expressions::__Expression__ExtensionInfo::__set_NodeType(::System::Linq::Expressions::ExpressionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___NodeType = value;
 }
 // Ctor Parameters []

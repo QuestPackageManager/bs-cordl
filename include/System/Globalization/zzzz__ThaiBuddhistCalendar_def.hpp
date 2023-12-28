@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThaiBuddhistCalendar)
-namespace System::Globalization {
-class GregorianCalendarHelper;
-}
-namespace System::Globalization {
-class EraInfo;
-}
 namespace System {
 struct DateTime;
 }
+namespace System::Globalization {
+class GregorianCalendarHelper;
+}
 namespace System {
 struct DayOfWeek;
+}
+namespace System::Globalization {
+class EraInfo;
 }
 // Forward declare root types
 namespace System::Globalization {

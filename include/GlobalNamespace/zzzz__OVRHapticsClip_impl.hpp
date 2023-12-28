@@ -205,39 +205,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::OVRHapticsClip::__get__Count_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Count_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::OVRHapticsClip::__get__Count_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Count_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHapticsClip::__set__Count_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Count_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::OVRHapticsClip::__get__Capacity_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Capacity_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::OVRHapticsClip::__get__Capacity_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Capacity_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHapticsClip::__set__Capacity_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Capacity_k__BackingField = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::OVRHapticsClip::__get__Samples_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Samples_k__BackingField;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::OVRHapticsClip::__get__Samples_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Samples_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRHapticsClip::__set__Samples_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Samples_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::OVRHapticsClip::get_Count() {

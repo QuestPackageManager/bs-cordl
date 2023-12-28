@@ -11,10 +11,10 @@ namespace System {
 struct DateTime;
 }
 namespace Oculus::Platform {
-struct ChallengeViewerFilter;
+struct ChallengeVisibility;
 }
 namespace Oculus::Platform {
-struct ChallengeVisibility;
+struct ChallengeViewerFilter;
 }
 // Forward declare root types
 namespace Oculus::Platform {

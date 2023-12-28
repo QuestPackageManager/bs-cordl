@@ -2,11 +2,11 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"
-#include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
 #include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback._ctor
 template <>
@@ -152,16 +152,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback*& UnityEngine::AnimatorOverrideController::__get_OnOverrideControllerDirty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnOverrideControllerDirty;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback*> const&
 UnityEngine::AnimatorOverrideController::__get_OnOverrideControllerDirty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnOverrideControllerDirty;
 }
 constexpr void UnityEngine::AnimatorOverrideController::__set_OnOverrideControllerDirty(::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnOverrideControllerDirty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AnimatorOverrideController* UnityEngine::AnimatorOverrideController::New_ctor(::UnityEngine::RuntimeAnimatorController* controller) {

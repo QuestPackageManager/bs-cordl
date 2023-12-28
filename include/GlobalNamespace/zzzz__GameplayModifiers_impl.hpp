@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType::__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -400,183 +400,183 @@ constexpr GlobalNamespace::GameplayModifiers::operator ::LiteNetLib::Utils::INet
   return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType& GlobalNamespace::GameplayModifiers::__get__energyType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyType;
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType const& GlobalNamespace::GameplayModifiers::__get__energyType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyType;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__energyType(::GlobalNamespace::__GameplayModifiers__EnergyType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____energyType = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__noFailOn0Energy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noFailOn0Energy;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__noFailOn0Energy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noFailOn0Energy;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__noFailOn0Energy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noFailOn0Energy = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__instaFail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instaFail;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__instaFail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instaFail;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__instaFail(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____instaFail = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__failOnSaberClash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failOnSaberClash;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__failOnSaberClash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failOnSaberClash;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__failOnSaberClash(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____failOnSaberClash = value;
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& GlobalNamespace::GameplayModifiers::__get__enabledObstacleType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabledObstacleType;
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& GlobalNamespace::GameplayModifiers::__get__enabledObstacleType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabledObstacleType;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__enabledObstacleType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enabledObstacleType = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__fastNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fastNotes;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__fastNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fastNotes;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__fastNotes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fastNotes = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__strictAngles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strictAngles;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__strictAngles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strictAngles;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__strictAngles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____strictAngles = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__disappearingArrows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingArrows;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__disappearingArrows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingArrows;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__disappearingArrows(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearingArrows = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__ghostNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostNotes;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__ghostNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostNotes;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__ghostNotes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ghostNotes = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__noBombs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noBombs;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__noBombs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noBombs;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__noBombs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noBombs = value;
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed& GlobalNamespace::GameplayModifiers::__get__songSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeed;
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed const& GlobalNamespace::GameplayModifiers::__get__songSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeed;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__songSpeed(::GlobalNamespace::__GameplayModifiers__SongSpeed value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songSpeed = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__noArrows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noArrows;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__noArrows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noArrows;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__noArrows(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noArrows = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__proMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proMode;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__proMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proMode;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__proMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____proMode = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__zenMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zenMode;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__zenMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zenMode;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__zenMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zenMode = value;
 }
 constexpr bool& GlobalNamespace::GameplayModifiers::__get__smallCubes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smallCubes;
 }
 constexpr bool const& GlobalNamespace::GameplayModifiers::__get__smallCubes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smallCubes;
 }
 constexpr void GlobalNamespace::GameplayModifiers::__set__smallCubes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smallCubes = value;
 }
 inline void GlobalNamespace::GameplayModifiers::setStaticF_noModifiers(::GlobalNamespace::GameplayModifiers* value) {

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkStatisticsState)
 namespace System {
+class Object;
+}
+namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 namespace GlobalNamespace {
 class __NetworkStatisticsState__NetworkStatisticsUpdateDelegate;

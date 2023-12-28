@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_LODGroup_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
-#include "UnityEngine/zzzz__LODGroup_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__LODGroup_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_LODGroup._ctor
 template <>
 
@@ -56,15 +56,15 @@ constexpr HoudiniEngineUnity::Test_LODGroup::operator ::HoudiniEngineUnity::IEqu
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::LODGroup*& HoudiniEngineUnity::Test_LODGroup::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::LODGroup*> const& HoudiniEngineUnity::Test_LODGroup::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_LODGroup::__set_self(::UnityEngine::LODGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_LODGroup* HoudiniEngineUnity::Test_LODGroup::New_ctor(::UnityEngine::LODGroup* self) {

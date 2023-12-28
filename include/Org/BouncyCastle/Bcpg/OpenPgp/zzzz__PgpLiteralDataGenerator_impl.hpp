@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpLiteralDataGenerator_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/IO/zzzz__FileInfo_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__IStreamGenerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/zzzz__FileInfo_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator._ctor
 template <>
 
@@ -125,27 +125,27 @@ constexpr Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::operator ::
   return static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__get_pkOut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pkOut;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__get_pkOut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pkOut;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pkOut)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__get_oldFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oldFormat;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__get_oldFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oldFormat;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__set_oldFormat(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___oldFormat = value;
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::New_ctor() {

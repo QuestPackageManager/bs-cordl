@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::PlayerSpaceConvertor::__get__worldToPlayerSpaceRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldToPlayerSpaceRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::PlayerSpaceConvertor::__get__worldToPlayerSpaceRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldToPlayerSpaceRotation;
 }
 constexpr void GlobalNamespace::PlayerSpaceConvertor::__set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____worldToPlayerSpaceRotation = value;
 }
 inline ::UnityEngine::Quaternion GlobalNamespace::PlayerSpaceConvertor::get_worldToPlayerSpaceRotation() {

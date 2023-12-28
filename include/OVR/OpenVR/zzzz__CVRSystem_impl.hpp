@@ -3,32 +3,32 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRControllerAxisType_def.hpp"
-#include "OVR/OpenVR/zzzz__EDeviceActivityLevel_def.hpp"
-#include "OVR/OpenVR/zzzz__HiddenAreaMesh_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
-#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
 #include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackedDeviceClass_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackedPropertyError_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRFirmwareError_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
+#include "OVR/OpenVR/zzzz__EHiddenAreaMeshType_def.hpp"
+#include "OVR/OpenVR/zzzz__HiddenAreaMesh_t_def.hpp"
+#include "OVR/OpenVR/zzzz__DistortionCoordinates_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EDeviceActivityLevel_def.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackedControllerRole_def.hpp"
-#include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackedDeviceProperty_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackedPropertyError_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EHiddenAreaMeshType_def.hpp"
-#include "OVR/OpenVR/zzzz__DistortionCoordinates_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVREventType_def.hpp"
+#include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRButtonId_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRFirmwareError_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRControllerAxisType_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__EVREventType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__CVRSystem___PollNextEventPacked._ctor
@@ -1170,15 +1170,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRSystem& OVR::OpenVR::CVRSystem::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRSystem const& OVR::OpenVR::CVRSystem::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRSystem::__set_FnTable(::OVR::OpenVR::IVRSystem value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRSystem* OVR::OpenVR::CVRSystem::New_ctor(void* pInterface) {

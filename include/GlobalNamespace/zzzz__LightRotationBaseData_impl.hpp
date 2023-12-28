@@ -24,75 +24,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::LightRotationBaseData::__get_beat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
 constexpr float_t const& GlobalNamespace::LightRotationBaseData::__get_beat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
 constexpr void GlobalNamespace::LightRotationBaseData::__set_beat(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beat = value;
 }
 constexpr bool& GlobalNamespace::LightRotationBaseData::__get_usePreviousEventRotationValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventRotationValue;
 }
 constexpr bool const& GlobalNamespace::LightRotationBaseData::__get_usePreviousEventRotationValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePreviousEventRotationValue;
 }
 constexpr void GlobalNamespace::LightRotationBaseData::__set_usePreviousEventRotationValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePreviousEventRotationValue = value;
 }
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::LightRotationBaseData::__get_easeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::LightRotationBaseData::__get_easeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___easeType;
 }
 constexpr void GlobalNamespace::LightRotationBaseData::__set_easeType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___easeType = value;
 }
 constexpr float_t& GlobalNamespace::LightRotationBaseData::__get_rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr float_t const& GlobalNamespace::LightRotationBaseData::__get_rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr void GlobalNamespace::LightRotationBaseData::__set_rotation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotation = value;
 }
 constexpr int32_t& GlobalNamespace::LightRotationBaseData::__get_loopsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loopsCount;
 }
 constexpr int32_t const& GlobalNamespace::LightRotationBaseData::__get_loopsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loopsCount;
 }
 constexpr void GlobalNamespace::LightRotationBaseData::__set_loopsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loopsCount = value;
 }
 constexpr ::GlobalNamespace::LightRotationDirection& GlobalNamespace::LightRotationBaseData::__get_rotationDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationDirection;
 }
 constexpr ::GlobalNamespace::LightRotationDirection const& GlobalNamespace::LightRotationBaseData::__get_rotationDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationDirection;
 }
 constexpr void GlobalNamespace::LightRotationBaseData::__set_rotationDirection(::GlobalNamespace::LightRotationDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationDirection = value;
 }
 inline ::GlobalNamespace::LightRotationBaseData* GlobalNamespace::LightRotationBaseData::New_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType,

@@ -308,111 +308,111 @@ constexpr Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::operator ::Org::B
   return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__rc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rc;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__rc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rc;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__rc(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__bufferPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufferPos;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__bufferPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufferPos;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__bufferPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bufferPos = value;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__bitCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bitCount;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__bitCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bitCount;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__bitCount(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bitCount)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__hash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hash;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__hash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hash;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__hash(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__K() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____K;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__K() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____K;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__K(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____K)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__L() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____L;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__L() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____L;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__L(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____L)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__block() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____block;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__block() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____block;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__block(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____block)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__state(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::setStaticF_SBOX(::ArrayW<int32_t, ::Array<int32_t>*> value) {

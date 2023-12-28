@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(IsoDateTimeConverter)
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace System::Globalization {
-struct DateTimeStyles;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System::Globalization {
 class CultureInfo;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

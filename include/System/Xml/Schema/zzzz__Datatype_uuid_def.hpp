@@ -13,14 +13,14 @@ class Type;
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System::Xml {
-class XmlNameTable;
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Exception;
+namespace System::Xml {
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

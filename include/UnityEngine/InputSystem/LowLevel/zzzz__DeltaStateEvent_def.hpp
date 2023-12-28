@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeltaStateEvent)
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
@@ -18,20 +21,17 @@ struct InputEvent;
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct __DeltaStateEvent___stateData_e__FixedBuffer;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
 struct Allocator;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct __DeltaStateEvent___stateData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

@@ -9,26 +9,26 @@ CORDL_MODULE_EXPORT(EnumUtils)
 namespace Newtonsoft::Json::Utilities {
 class __EnumUtils____c;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class __EnumUtils____c__2_1;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
 }
+namespace System {
+class Object;
+}
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class EnumValue_1;
+template <typename TKey, typename TValue> class ThreadSafeStore_2;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue> class ThreadSafeStore_2;
+template <typename T> class EnumValue_1;
 }
 namespace System::Runtime::Serialization {
 class EnumMemberAttribute;

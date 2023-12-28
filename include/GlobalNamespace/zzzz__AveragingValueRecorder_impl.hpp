@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__AveragingValueRecorder__AverageValueData.get_value
 template <>
 
@@ -189,124 +189,124 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__averageWindowDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageWindowDuration;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__averageWindowDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageWindowDuration;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__averageWindowDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____averageWindowDuration = value;
 }
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__historyValuesPerSecond() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyValuesPerSecond;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__historyValuesPerSecond() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyValuesPerSecond;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__historyValuesPerSecond(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____historyValuesPerSecond = value;
 }
 constexpr int32_t& GlobalNamespace::AveragingValueRecorder::__get__historyValuesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyValuesCount;
 }
 constexpr int32_t const& GlobalNamespace::AveragingValueRecorder::__get__historyValuesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyValuesCount;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__historyValuesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____historyValuesCount = value;
 }
 constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>*& GlobalNamespace::AveragingValueRecorder::__get__averageWindowValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageWindowValues;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>*> const&
 GlobalNamespace::AveragingValueRecorder::__get__averageWindowValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageWindowValues;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__averageWindowValues(::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____averageWindowValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Queue_1<float_t>*& GlobalNamespace::AveragingValueRecorder::__get__historyValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyValues;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<float_t>*> const& GlobalNamespace::AveragingValueRecorder::__get__historyValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyValues;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__historyValues(::System::Collections::Generic::Queue_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____historyValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time = value;
 }
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__historyTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyTime;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__historyTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____historyTime;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__historyTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____historyTime = value;
 }
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__averageValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageValue;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__averageValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageValue;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__averageValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____averageValue = value;
 }
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__averageWindowValuesDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageWindowValuesDuration;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__averageWindowValuesDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averageWindowValuesDuration;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__averageWindowValuesDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____averageWindowValuesDuration = value;
 }
 constexpr float_t& GlobalNamespace::AveragingValueRecorder::__get__lastValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastValue;
 }
 constexpr float_t const& GlobalNamespace::AveragingValueRecorder::__get__lastValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastValue;
 }
 constexpr void GlobalNamespace::AveragingValueRecorder::__set__lastValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastValue = value;
 }
 inline ::GlobalNamespace::AveragingValueRecorder* GlobalNamespace::AveragingValueRecorder::New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond) {

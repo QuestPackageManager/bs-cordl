@@ -63,51 +63,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AveragingValueRecorder*& GlobalNamespace::MovementHistoryRecorder::__get__averagingValueRecorer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averagingValueRecorer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AveragingValueRecorder*> const& GlobalNamespace::MovementHistoryRecorder::__get__averagingValueRecorer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____averagingValueRecorer;
 }
 constexpr void GlobalNamespace::MovementHistoryRecorder::__set__averagingValueRecorer(::GlobalNamespace::AveragingValueRecorder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____averagingValueRecorer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MovementHistoryRecorder::__get__increaseSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____increaseSpeed;
 }
 constexpr float_t const& GlobalNamespace::MovementHistoryRecorder::__get__increaseSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____increaseSpeed;
 }
 constexpr void GlobalNamespace::MovementHistoryRecorder::__set__increaseSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____increaseSpeed = value;
 }
 constexpr float_t& GlobalNamespace::MovementHistoryRecorder::__get__decreaseSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decreaseSpeed;
 }
 constexpr float_t const& GlobalNamespace::MovementHistoryRecorder::__get__decreaseSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decreaseSpeed;
 }
 constexpr void GlobalNamespace::MovementHistoryRecorder::__set__decreaseSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____decreaseSpeed = value;
 }
 constexpr float_t& GlobalNamespace::MovementHistoryRecorder::__get__accum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accum;
 }
 constexpr float_t const& GlobalNamespace::MovementHistoryRecorder::__get__accum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accum;
 }
 constexpr void GlobalNamespace::MovementHistoryRecorder::__set__accum(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____accum = value;
 }
 inline ::GlobalNamespace::AveragingValueRecorder* GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer() {

@@ -61,27 +61,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::SemVer*& UnityEngine::ProBuilder::ChangelogEntry::__get_m_VersionInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VersionInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::SemVer*> const& UnityEngine::ProBuilder::ChangelogEntry::__get_m_VersionInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VersionInfo;
 }
 constexpr void UnityEngine::ProBuilder::ChangelogEntry::__set_m_VersionInfo(::UnityEngine::ProBuilder::SemVer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VersionInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ProBuilder::ChangelogEntry::__get_m_ReleaseNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseNotes;
 }
 constexpr ::StringW const& UnityEngine::ProBuilder::ChangelogEntry::__get_m_ReleaseNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReleaseNotes;
 }
 constexpr void UnityEngine::ProBuilder::ChangelogEntry::__set_m_ReleaseNotes(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ReleaseNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::SemVer* UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo() {

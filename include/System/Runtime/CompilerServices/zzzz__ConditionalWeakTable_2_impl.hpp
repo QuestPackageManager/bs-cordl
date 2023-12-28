@@ -3,14 +3,14 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 template <typename TKey, typename TValue>
 inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>*
@@ -48,45 +48,45 @@ template <typename TKey, typename TValue> constexpr System::Runtime::CompilerSer
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__get__table() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*> const&
 System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__get__table() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
 template <typename TKey, typename TValue>
 constexpr void System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__set__table(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__get__currentIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentIndex;
 }
 template <typename TKey, typename TValue> constexpr int32_t const& System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__get__currentIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentIndex;
 }
 template <typename TKey, typename TValue> constexpr void System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__set__currentIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentIndex = value;
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__get__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__get__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 template <typename TKey, typename TValue>
 constexpr void System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__set__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
 template <typename TKey, typename TValue>
@@ -153,44 +153,44 @@ template <typename TKey, typename TValue> constexpr System::Runtime::CompilerSer
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>&
 System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> const&
 System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 template <typename TKey, typename TValue>
 constexpr void System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__set_data(
     ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__get__lock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__get__lock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;
 }
 template <typename TKey, typename TValue> constexpr void System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__set__lock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__get_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
 template <typename TKey, typename TValue> constexpr int32_t const& System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__get_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
 template <typename TKey, typename TValue> constexpr void System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__set_size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
 template <typename TKey, typename TValue>

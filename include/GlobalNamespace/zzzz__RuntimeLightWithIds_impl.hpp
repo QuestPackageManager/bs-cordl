@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId.get_intensity
 template <>
@@ -53,15 +53,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId::__get__intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr float_t const& GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId::__get__intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr void GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId::__set__intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
 inline float_t GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId::get_intensity() {
@@ -176,65 +176,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*>*>&
 GlobalNamespace::RuntimeLightWithIds::__get__lightIntensityData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*>*> const&
 GlobalNamespace::RuntimeLightWithIds::__get__lightIntensityData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityData;
 }
 constexpr void GlobalNamespace::RuntimeLightWithIds::__set__lightIntensityData(
     ::ArrayW<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightIntensityData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::RuntimeLightWithIds::__get__intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr float_t const& GlobalNamespace::RuntimeLightWithIds::__get__intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr void GlobalNamespace::RuntimeLightWithIds::__set__intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
 constexpr float_t& GlobalNamespace::RuntimeLightWithIds::__get__maxIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxIntensity;
 }
 constexpr float_t const& GlobalNamespace::RuntimeLightWithIds::__get__maxIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxIntensity;
 }
 constexpr void GlobalNamespace::RuntimeLightWithIds::__set__maxIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxIntensity = value;
 }
 constexpr bool& GlobalNamespace::RuntimeLightWithIds::__get__multiplyColorByAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplyColorByAlpha;
 }
 constexpr bool const& GlobalNamespace::RuntimeLightWithIds::__get__multiplyColorByAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplyColorByAlpha;
 }
 constexpr void GlobalNamespace::RuntimeLightWithIds::__set__multiplyColorByAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplyColorByAlpha = value;
 }
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& GlobalNamespace::RuntimeLightWithIds::__get__mixType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mixType;
 }
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& GlobalNamespace::RuntimeLightWithIds::__get__mixType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mixType;
 }
 constexpr void GlobalNamespace::RuntimeLightWithIds::__set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mixType = value;
 }
 inline ::GlobalNamespace::ColorMixAndWeightingApproach GlobalNamespace::RuntimeLightWithIds::get_mixType() {

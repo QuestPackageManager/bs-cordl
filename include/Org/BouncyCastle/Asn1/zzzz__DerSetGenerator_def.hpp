@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerSetGenerator)
 namespace System::IO {
-class Stream;
+class MemoryStream;
 }
 namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;

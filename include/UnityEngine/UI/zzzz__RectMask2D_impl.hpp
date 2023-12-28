@@ -5,20 +5,20 @@
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UI/zzzz__IClippable_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__ICanvasRaycastFilter_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UI/zzzz__IClipper_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
-#include "UnityEngine/UI/zzzz__RectangularVertexClipper_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/UI/zzzz__IClippable_def.hpp"
+#include "UnityEngine/UI/zzzz__RectangularVertexClipper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::RectMask2D.get_padding
 template <>
 
@@ -291,147 +291,147 @@ constexpr UnityEngine::UI::RectMask2D::operator ::UnityEngine::ICanvasRaycastFil
   return static_cast<::UnityEngine::ICanvasRaycastFilter*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UI::RectangularVertexClipper*& UnityEngine::UI::RectMask2D::__get_m_VertexClipper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertexClipper;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::RectangularVertexClipper*> const& UnityEngine::UI::RectMask2D::__get_m_VertexClipper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VertexClipper;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_VertexClipper(::UnityEngine::UI::RectangularVertexClipper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VertexClipper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RectTransform*& UnityEngine::UI::RectMask2D::__get_m_RectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& UnityEngine::UI::RectMask2D::__get_m_RectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RectTransform;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_RectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::MaskableGraphic*>*& UnityEngine::UI::RectMask2D::__get_m_MaskableTargets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskableTargets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UI::MaskableGraphic*>*> const& UnityEngine::UI::RectMask2D::__get_m_MaskableTargets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskableTargets;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_MaskableTargets(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::MaskableGraphic*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MaskableTargets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*& UnityEngine::UI::RectMask2D::__get_m_ClipTargets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClipTargets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*> const& UnityEngine::UI::RectMask2D::__get_m_ClipTargets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClipTargets;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_ClipTargets(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClipTargets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::UI::RectMask2D::__get_m_ShouldRecalculateClipRects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldRecalculateClipRects;
 }
 constexpr bool const& UnityEngine::UI::RectMask2D::__get_m_ShouldRecalculateClipRects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldRecalculateClipRects;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_ShouldRecalculateClipRects(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShouldRecalculateClipRects = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*& UnityEngine::UI::RectMask2D::__get_m_Clippers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Clippers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*> const& UnityEngine::UI::RectMask2D::__get_m_Clippers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Clippers;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_Clippers(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Clippers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UI::RectMask2D::__get_m_LastClipRectCanvasSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastClipRectCanvasSpace;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UI::RectMask2D::__get_m_LastClipRectCanvasSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastClipRectCanvasSpace;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_LastClipRectCanvasSpace(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastClipRectCanvasSpace = value;
 }
 constexpr bool& UnityEngine::UI::RectMask2D::__get_m_ForceClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForceClip;
 }
 constexpr bool const& UnityEngine::UI::RectMask2D::__get_m_ForceClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForceClip;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_ForceClip(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForceClip = value;
 }
 constexpr ::UnityEngine::Vector4& UnityEngine::UI::RectMask2D::__get_m_Padding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Padding;
 }
 constexpr ::UnityEngine::Vector4 const& UnityEngine::UI::RectMask2D::__get_m_Padding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Padding;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_Padding(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Padding = value;
 }
 constexpr ::UnityEngine::Vector2Int& UnityEngine::UI::RectMask2D::__get_m_Softness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Softness;
 }
 constexpr ::UnityEngine::Vector2Int const& UnityEngine::UI::RectMask2D::__get_m_Softness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Softness;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_Softness(::UnityEngine::Vector2Int value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Softness = value;
 }
 constexpr ::UnityEngine::Canvas*& UnityEngine::UI::RectMask2D::__get_m_Canvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Canvas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& UnityEngine::UI::RectMask2D::__get_m_Canvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Canvas;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_Canvas(::UnityEngine::Canvas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Canvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& UnityEngine::UI::RectMask2D::__get_m_Corners() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Corners;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& UnityEngine::UI::RectMask2D::__get_m_Corners() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Corners;
 }
 constexpr void UnityEngine::UI::RectMask2D::__set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Corners)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Vector4 UnityEngine::UI::RectMask2D::get_padding() {

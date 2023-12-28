@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstaller_5)
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

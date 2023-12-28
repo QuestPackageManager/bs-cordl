@@ -62,39 +62,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::ProBuilder::XYZColor::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr float_t const& UnityEngine::ProBuilder::XYZColor::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void UnityEngine::ProBuilder::XYZColor::__set_x(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::XYZColor::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr float_t const& UnityEngine::ProBuilder::XYZColor::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void UnityEngine::ProBuilder::XYZColor::__set_y(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::XYZColor::__get_z() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
 constexpr float_t const& UnityEngine::ProBuilder::XYZColor::__get_z() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
 constexpr void UnityEngine::ProBuilder::XYZColor::__set_z(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___z = value;
 }
 inline ::UnityEngine::ProBuilder::XYZColor* UnityEngine::ProBuilder::XYZColor::New_ctor(float_t x, float_t y, float_t z) {

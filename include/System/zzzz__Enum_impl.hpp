@@ -3,19 +3,19 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__Enum_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__Enum_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
+#include "System/zzzz__Enum_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Enum_ParseFailureKind_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Enum_ParseFailureKind_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::System::__Enum__EnumResult.Init
 template <>
@@ -154,27 +154,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& System::__Enum__ValuesAndNames::__get_Values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Values;
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& System::__Enum__ValuesAndNames::__get_Values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Values;
 }
 constexpr void System::__Enum__ValuesAndNames::__set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::__Enum__ValuesAndNames::__get_Names() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Names;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::__Enum__ValuesAndNames::__get_Names() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Names;
 }
 constexpr void System::__Enum__ValuesAndNames::__set_Names(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Names)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::__Enum__ValuesAndNames* System::__Enum__ValuesAndNames::New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names) {

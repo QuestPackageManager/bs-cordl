@@ -3,8 +3,8 @@
 #include "System/Diagnostics/Tracing/zzzz__EventLevel_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventAttribute_def.hpp"
-#include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
+#include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Tracing::EventAttribute._ctor
 template <>
 
@@ -81,51 +81,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Diagnostics::Tracing::EventAttribute::__get__EventId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EventId_k__BackingField;
 }
 constexpr int32_t const& System::Diagnostics::Tracing::EventAttribute::__get__EventId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EventId_k__BackingField;
 }
 constexpr void System::Diagnostics::Tracing::EventAttribute::__set__EventId_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EventId_k__BackingField = value;
 }
 constexpr ::System::Diagnostics::Tracing::EventLevel& System::Diagnostics::Tracing::EventAttribute::__get__Level_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Level_k__BackingField;
 }
 constexpr ::System::Diagnostics::Tracing::EventLevel const& System::Diagnostics::Tracing::EventAttribute::__get__Level_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Level_k__BackingField;
 }
 constexpr void System::Diagnostics::Tracing::EventAttribute::__set__Level_k__BackingField(::System::Diagnostics::Tracing::EventLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Level_k__BackingField = value;
 }
 constexpr ::System::Diagnostics::Tracing::EventKeywords& System::Diagnostics::Tracing::EventAttribute::__get__Keywords_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Keywords_k__BackingField;
 }
 constexpr ::System::Diagnostics::Tracing::EventKeywords const& System::Diagnostics::Tracing::EventAttribute::__get__Keywords_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Keywords_k__BackingField;
 }
 constexpr void System::Diagnostics::Tracing::EventAttribute::__set__Keywords_k__BackingField(::System::Diagnostics::Tracing::EventKeywords value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Keywords_k__BackingField = value;
 }
 constexpr ::StringW& System::Diagnostics::Tracing::EventAttribute::__get__Message_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Message_k__BackingField;
 }
 constexpr ::StringW const& System::Diagnostics::Tracing::EventAttribute::__get__Message_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Message_k__BackingField;
 }
 constexpr void System::Diagnostics::Tracing::EventAttribute::__set__Message_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Message_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Diagnostics::Tracing::EventAttribute* System::Diagnostics::Tracing::EventAttribute::New_ctor(int32_t eventId) {

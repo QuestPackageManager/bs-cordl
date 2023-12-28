@@ -7,10 +7,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
-#include "System/zzzz__Version_def.hpp"
+#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveDataItem_def.hpp"
-#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
@@ -67,15 +67,15 @@ constexpr BeatmapSaveDataVersion3::__BeatmapSaveData__BeatmapSaveDataItem::opera
   return static_cast<::System::IComparable_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BeatmapSaveDataItem*>*>(static_cast<void*>(this));
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BeatmapSaveDataItem::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BeatmapSaveDataItem::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BeatmapSaveDataItem::__set_b(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__BeatmapSaveDataItem::get_beat() {
@@ -164,39 +164,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType& BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__get_et() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___et;
 }
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType const& BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__get_et() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___et;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__set_et(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___et = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__set_i(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__get_f() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__get_f() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::__set_f(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___f = value;
 }
 inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData::get_eventType() {
@@ -264,15 +264,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData::__get_o() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
 constexpr bool const& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData::__get_o() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData::__set_o(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___o = value;
 }
 inline bool BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData::get_boost() {
@@ -323,15 +323,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData::__get_m() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData::__get_m() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData::__set_m(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData::get_bpm() {
@@ -407,27 +407,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__ExecutionTime& BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__ExecutionTime const& BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::__set_e(::BeatmapSaveDataVersion3::__BeatmapSaveData__ExecutionTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___e = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::__set_r(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 inline ::BeatmapSaveDataVersion3::__BeatmapSaveData__ExecutionTime BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData::get_executionTime() {
@@ -507,30 +507,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::__get_k() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k;
 }
 constexpr ::StringW const& GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::__get_k() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k;
 }
 constexpr void GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::__set_k(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___k)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*&
 GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*> const&
 GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr void GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::__set_e(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::get_keyword() {
@@ -598,17 +598,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>*&
 BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventTypesWithKeywords::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>*> const&
 BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventTypesWithKeywords::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventTypesWithKeywords::__set_d(
     ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___d)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword*>*
@@ -780,39 +780,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter*& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__get_f() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter*> const& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__get_f() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__set_f(::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___f)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__get_w() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__get_w() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__set_w(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___w = value;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType const& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::__set_d(::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 inline ::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter* BeatmapSaveDataVersion3::__BeatmapSaveData__EventBox::get_indexFilter() {
@@ -941,63 +941,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<int32_t>*& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_l() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_l() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__set_l(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___l)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__set_s(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType const& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__set_t(::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__set_i(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::__set_b(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBox::get_vfxDistributionParam() {
@@ -1116,39 +1116,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__set_b(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__set_p(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___p = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__get_v() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__get_v() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::__set_v(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData::get_beat() {
@@ -1258,51 +1258,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__set_b(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__set_p(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___p = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_v() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_v() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__set_v(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::__set_i(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData::get_beat() {
@@ -1592,111 +1592,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__BeatmapSaveData__IndexFilter__IndexFilterType& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_f() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__IndexFilter__IndexFilterType const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_f() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_f(::GlobalNamespace::__BeatmapSaveData__IndexFilter__IndexFilterType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___f = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_p(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___p = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_t(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_r(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_c(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilterRandomType& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_n() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilterRandomType const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_n() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_n(::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilterRandomType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___n = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_s(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_l() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_l() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_l(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___l = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilterLimitAlsoAffectsType& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilterLimitAlsoAffectsType const& BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::__set_d(::BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilterLimitAlsoAffectsType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 inline ::GlobalNamespace::__BeatmapSaveData__IndexFilter__IndexFilterType BeatmapSaveDataVersion3::__BeatmapSaveData__IndexFilter::get_type() {
@@ -1895,65 +1895,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__set_r(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__set_t(::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__set_b(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__set_i(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData*>*& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData*>*> const&
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr void
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::__set_e(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBox::get_brightnessDistributionParam() {
@@ -2142,87 +2142,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_b(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__TransitionType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__TransitionType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_i(::BeatmapSaveDataVersion3::__BeatmapSaveData__TransitionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EnvironmentColorType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EnvironmentColorType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_c(::BeatmapSaveDataVersion3::__BeatmapSaveData__EnvironmentColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_s(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_f() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_f() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_f(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___f = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_sb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sb;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_sb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sb;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_sb(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sb = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_sf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sf;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__get_sf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sf;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::__set_sf(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sf = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorBaseData::get_beat() {
@@ -2420,89 +2420,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_s(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_t(::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__Axis& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_a() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__Axis const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_a() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_a(::BeatmapSaveDataVersion3::__BeatmapSaveData__Axis value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___a = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_r(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_b(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_i(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData*>*& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_l() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData*>*> const&
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__get_l() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr void
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::__set_l(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___l)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBox::get_rotationDistributionParam() {
@@ -2704,75 +2704,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__set_b(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__set_p(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___p = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__set_e(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___e = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_l() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_l() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__set_l(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___l = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__set_r(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__LightRotationBaseData__RotationDirection& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_o() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__LightRotationBaseData__RotationDirection const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__get_o() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::__set_o(::GlobalNamespace::__BeatmapSaveData__LightRotationBaseData__RotationDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___o = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationBaseData::get_beat() {
@@ -2964,90 +2964,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_s(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_t(::GlobalNamespace::__BeatmapSaveData__EventBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__Axis& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_a() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__Axis const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_a() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_a(::BeatmapSaveDataVersion3::__BeatmapSaveData__Axis value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___a = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_r(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_b(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_i(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData*>*&
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_l() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData*>*> const&
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__get_l() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
 constexpr void
 BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::__set_l(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___l)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBox::get_gapDistributionParam() {
@@ -3204,51 +3204,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__set_b(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__set_p(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___p = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__set_e(::BeatmapSaveDataVersion3::__BeatmapSaveData__EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___e = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::__set_t(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationBaseData::get_beat() {
@@ -3338,15 +3338,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup::__get_g() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup::__get_g() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup::__set_g(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___g = value;
 }
 inline int32_t BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup::get_groupId() {
@@ -3373,15 +3373,15 @@ inline void BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup::_ctor(flo
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup::__BeatmapSaveData__EventBoxGroup() {}
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup_1<T>::__get_e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup_1<T>::__get_e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
 template <typename T> constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__EventBoxGroup_1<T>::__set_e(::System::Collections::Generic::List_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
@@ -3447,15 +3447,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventType& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup::__get_t() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventType const& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup::__get_t() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup::__set_t(::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___t = value;
 }
 inline ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventType BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup::get_type() {
@@ -3559,31 +3559,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData*>*& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection::__get__il() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____il;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData*>*> const&
 BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection::__get__il() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____il;
 }
 constexpr void
 BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection::__set__il(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____il)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData*>*& BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection::__get__fl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fl;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData*>*> const&
 BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection::__get__fl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fl;
 }
 constexpr void
 BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection::__set__fl(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FloatFxEventBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__IntFxEventBaseData*>*
@@ -3915,63 +3915,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__set_x(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__set_y(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_a() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_a() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__set_a(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___a = value;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType const& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__set_c(::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::__set_d(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 inline int32_t BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData::get_line() {
@@ -4069,27 +4069,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::__set_x(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::__set_y(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 inline int32_t BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData::get_line() {
@@ -4177,39 +4177,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__set_x(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__set_y(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 constexpr ::GlobalNamespace::OffsetDirection& BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::GlobalNamespace::OffsetDirection const& BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::__set_d(::GlobalNamespace::OffsetDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 inline int32_t BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData::get_line() {
@@ -4376,87 +4376,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_c(::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_x(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_y(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_d(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_tb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tb;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_tb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tb;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_tb(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tb = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_tx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tx;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_tx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tx;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_tx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tx = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_ty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ty;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__get_ty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ty;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::__set_ty(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ty = value;
 }
 inline ::BeatmapSaveDataVersion3::__BeatmapSaveData__NoteColorType BeatmapSaveDataVersion3::__BeatmapSaveData__BaseSliderData::get_colorType() {
@@ -4601,51 +4601,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_mu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mu;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_mu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mu;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__set_mu(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mu = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_tmu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tmu;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_tmu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tmu;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__set_tmu(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tmu = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_tc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tc;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_tc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tc;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__set_tc(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tc = value;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_m() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode const& BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__get_m() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::__set_m(::GlobalNamespace::SliderMidAnchorMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m = value;
 }
 inline float_t BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData::get_headControlPointLengthMultiplier() {
@@ -4749,27 +4749,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::__get_sc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sc;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::__get_sc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sc;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::__set_sc(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sc = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::__set_s(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 inline int32_t BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData::get_sliceCount() {
@@ -4901,63 +4901,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_x() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_x() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__set_x(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_y() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_y() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__set_y(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___y = value;
 }
 constexpr float_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr float_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__set_d(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_w() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_w() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__set_w(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___w = value;
 }
 constexpr int32_t& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_h() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h;
 }
 constexpr int32_t const& BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__get_h() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___h;
 }
 constexpr void BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::__set_h(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___h = value;
 }
 inline int32_t BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData::get_line() {
@@ -5195,240 +5195,240 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& BeatmapSaveDataVersion3::BeatmapSaveData::__get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr ::StringW const& BeatmapSaveDataVersion3::BeatmapSaveData::__get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_bpmEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bpmEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_bpmEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bpmEvents;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_bpmEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BpmChangeEventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bpmEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_rotationEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_rotationEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationEvents;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_rotationEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__RotationEventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rotationEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_colorNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorNotes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_colorNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorNotes;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_colorNotes(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorNoteData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_bombNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bombNotes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_bombNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bombNotes;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_bombNotes(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BombNoteData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bombNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_obstacles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstacles;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_obstacles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstacles;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_obstacles(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ObstacleData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obstacles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_sliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_sliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliders;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_sliders(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__SliderData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_burstSliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burstSliders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_burstSliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burstSliders;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_burstSliders(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BurstSliderData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___burstSliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_waypoints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___waypoints;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_waypoints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___waypoints;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__WaypointData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___waypoints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_basicBeatmapEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_basicBeatmapEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEvents;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_basicBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___basicBeatmapEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_colorBoostBeatmapEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorBoostBeatmapEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_colorBoostBeatmapEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorBoostBeatmapEvents;
 }
 constexpr void
 BeatmapSaveDataVersion3::BeatmapSaveData::__set_colorBoostBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorBoostBeatmapEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_lightColorEventBoxGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightColorEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_lightColorEventBoxGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightColorEventBoxGroups;
 }
 constexpr void
 BeatmapSaveDataVersion3::BeatmapSaveData::__set_lightColorEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightColorEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_lightRotationEventBoxGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightRotationEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_lightRotationEventBoxGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightRotationEventBoxGroups;
 }
 constexpr void
 BeatmapSaveDataVersion3::BeatmapSaveData::__set_lightRotationEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightRotationEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_lightTranslationEventBoxGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightTranslationEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_lightTranslationEventBoxGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightTranslationEventBoxGroups;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_lightTranslationEventBoxGroups(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightTranslationEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_vfxEventBoxGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vfxEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_vfxEventBoxGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vfxEventBoxGroups;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___vfxEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*& BeatmapSaveDataVersion3::BeatmapSaveData::__get__fxEventsCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fxEventsCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*> const& BeatmapSaveDataVersion3::BeatmapSaveData::__get__fxEventsCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fxEventsCollection;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set__fxEventsCollection(::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fxEventsCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventTypesWithKeywords*& BeatmapSaveDataVersion3::BeatmapSaveData::__get_basicEventTypesWithKeywords() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicEventTypesWithKeywords;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventTypesWithKeywords*> const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__get_basicEventTypesWithKeywords() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicEventTypesWithKeywords;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_basicEventTypesWithKeywords(::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventTypesWithKeywords* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___basicEventTypesWithKeywords)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& BeatmapSaveDataVersion3::BeatmapSaveData::__get_useNormalEventsAsCompatibleEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useNormalEventsAsCompatibleEvents;
 }
 constexpr bool const& BeatmapSaveDataVersion3::BeatmapSaveData::__get_useNormalEventsAsCompatibleEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useNormalEventsAsCompatibleEvents;
 }
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__set_useNormalEventsAsCompatibleEvents(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useNormalEventsAsCompatibleEvents = value;
 }
 inline void BeatmapSaveDataVersion3::BeatmapSaveData::setStaticF_version2_6_0(::System::Version* value) {

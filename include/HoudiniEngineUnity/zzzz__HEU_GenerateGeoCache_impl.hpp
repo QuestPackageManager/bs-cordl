@@ -7,25 +7,25 @@
 #include "UnityEngine/zzzz__MeshTopology_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_UnityMaterialInfo_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeoGroup_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MeshIndexFormat_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
-#include "UnityEngine/zzzz__MeshTopology_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeoGroup_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__MeshTopology_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_UnityMaterialInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -56,123 +56,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderType;
 }
 constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderType;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__colliderType(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderType = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderCenter;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderCenter;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__colliderCenter(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderCenter = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderSize;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderSize;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__colliderSize(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderSize = value;
 }
 constexpr float_t& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderRadius;
 }
 constexpr float_t const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__colliderRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderRadius;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__colliderRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colliderRadius = value;
 }
 constexpr bool& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__convexCollider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convexCollider;
 }
 constexpr bool const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__convexCollider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convexCollider;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__convexCollider(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____convexCollider = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__collisionGroupName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionGroupName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__collisionGroupName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionGroupName;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__collisionGroupName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collisionGroupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__collisionVertices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionVertices;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__collisionVertices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionVertices;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__collisionVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collisionVertices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__collisionIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionIndices;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__collisionIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collisionIndices;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__collisionIndices(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collisionIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::MeshTopology& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__meshTopology() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTopology;
 }
 constexpr ::UnityEngine::MeshTopology const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__meshTopology() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTopology;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__meshTopology(::UnityEngine::MeshTopology value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshTopology = value;
 }
 constexpr bool& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__isTrigger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isTrigger;
 }
 constexpr bool const& HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__isTrigger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isTrigger;
 }
 constexpr void HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::__set__isTrigger(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isTrigger = value;
 }
 inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo* HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo::New_ctor() {
@@ -706,578 +706,578 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__AssetID_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AssetID_k__BackingField;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__AssetID_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AssetID_k__BackingField;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__AssetID_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AssetID_k__BackingField = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__geoInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____geoInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_GeoInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__geoInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____geoInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__geoInfo(::HoudiniEngineUnity::HAPI_GeoInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____geoInfo = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_PartInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__partInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_PartInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__partInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__partInfo(::HoudiniEngineUnity::HAPI_PartInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____partInfo = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__partName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__partName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partName;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__partName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__vertexList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexList;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__vertexList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexList;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__vertexList(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vertexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__faceCounts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____faceCounts;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__faceCounts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____faceCounts;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__faceCounts(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____faceCounts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__houdiniMaterialIDs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____houdiniMaterialIDs;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__houdiniMaterialIDs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____houdiniMaterialIDs;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__houdiniMaterialIDs(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____houdiniMaterialIDs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__singleFaceUnityMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singleFaceUnityMaterial;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__singleFaceUnityMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singleFaceUnityMaterial;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__singleFaceUnityMaterial(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____singleFaceUnityMaterial = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__singleFaceHoudiniMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singleFaceHoudiniMaterial;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__singleFaceHoudiniMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singleFaceHoudiniMaterial;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__singleFaceHoudiniMaterial(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____singleFaceHoudiniMaterial = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialInfos;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialInfos;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__unityMaterialInfos(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unityMaterialInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__unityMaterialAttrInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____unityMaterialAttrInfo = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialAttrName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrName;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialAttrName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrName;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__unityMaterialAttrName(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unityMaterialAttrName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialAttrStringsMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrStringsMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__unityMaterialAttrStringsMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialAttrStringsMap;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__unityMaterialAttrStringsMap(::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unityMaterialAttrStringsMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrNameInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrNameInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrNameInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrNameInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__substanceMaterialAttrNameInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____substanceMaterialAttrNameInfo = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrName;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrName;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__substanceMaterialAttrName(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____substanceMaterialAttrName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrStringsMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrStringsMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrStringsMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrStringsMap;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__substanceMaterialAttrStringsMap(::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____substanceMaterialAttrStringsMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrIndexInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrIndexInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrIndexInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrIndexInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__substanceMaterialAttrIndexInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____substanceMaterialAttrIndexInfo = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrIndex;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__substanceMaterialAttrIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceMaterialAttrIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__substanceMaterialAttrIndex(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____substanceMaterialAttrIndex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__inUseMaterials() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inUseMaterials;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__inUseMaterials() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inUseMaterials;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__inUseMaterials(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inUseMaterials)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__posAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posAttrInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__posAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__posAttrInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____posAttrInfo = value;
 }
 constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_AttributeInfo, ::Array<::HoudiniEngineUnity::HAPI_AttributeInfo>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__uvsAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uvsAttrInfo;
 }
 constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_AttributeInfo, ::Array<::HoudiniEngineUnity::HAPI_AttributeInfo>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__uvsAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uvsAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__uvsAttrInfo(::ArrayW<::HoudiniEngineUnity::HAPI_AttributeInfo, ::Array<::HoudiniEngineUnity::HAPI_AttributeInfo>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uvsAttrInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__normalAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAttrInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__normalAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__normalAttrInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalAttrInfo = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__colorAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAttrInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__colorAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__colorAttrInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorAttrInfo = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__alphaAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaAttrInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__alphaAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__alphaAttrInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alphaAttrInfo = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__tangentAttrInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentAttrInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__tangentAttrInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentAttrInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__tangentAttrInfo(::HoudiniEngineUnity::HAPI_AttributeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tangentAttrInfo = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__posAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posAttr;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__posAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posAttr;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__posAttr(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____posAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__uvsAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uvsAttr;
 }
 constexpr ::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__uvsAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uvsAttr;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__uvsAttr(::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uvsAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__normalAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAttr;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__normalAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAttr;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__normalAttr(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__colorAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAttr;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__colorAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorAttr;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__colorAttr(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__alphaAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaAttr;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__alphaAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaAttr;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__alphaAttr(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____alphaAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__tangentAttr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentAttr;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__tangentAttr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentAttr;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__tangentAttr(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tangentAttr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groups;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groups;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__groups(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__hasGroupGeometry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasGroupGeometry;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__hasGroupGeometry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasGroupGeometry;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__hasGroupGeometry(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasGroupGeometry = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groupSplitVertexIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitVertexIndices;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groupSplitVertexIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitVertexIndices;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__groupSplitVertexIndices(::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupSplitVertexIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groupSplitFaceIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitFaceIndices;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groupSplitFaceIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupSplitFaceIndices;
 }
 constexpr void
 HoudiniEngineUnity::HEU_GenerateGeoCache::__set__groupSplitFaceIndices(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupSplitFaceIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groupVertexOffsets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupVertexOffsets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__groupVertexOffsets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupVertexOffsets;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__groupVertexOffsets(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupVertexOffsets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__allCollisionVertexList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allCollisionVertexList;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__allCollisionVertexList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allCollisionVertexList;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__allCollisionVertexList(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allCollisionVertexList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__allCollisionFaceIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allCollisionFaceIndices;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__allCollisionFaceIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allCollisionFaceIndices;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__allCollisionFaceIndices(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allCollisionFaceIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__normalCosineThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalCosineThreshold;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__normalCosineThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalCosineThreshold;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__normalCosineThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalCosineThreshold = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__hasLODGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasLODGroups;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__hasLODGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasLODGroups;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__hasLODGroups(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasLODGroups = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__LODTransitionValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LODTransitionValues;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__LODTransitionValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LODTransitionValues;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__LODTransitionValues(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____LODTransitionValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__isMeshReadWrite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMeshReadWrite;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__isMeshReadWrite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMeshReadWrite;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__isMeshReadWrite(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isMeshReadWrite = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__colliderInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderInfos;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__colliderInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliderInfos;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__colliderInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colliderInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__materialCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__materialCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialCache;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__materialCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MaterialData*>*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__materialIDToDataMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIDToDataMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MaterialData*>*> const&
 HoudiniEngineUnity::HEU_GenerateGeoCache::__get__materialIDToDataMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIDToDataMap;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__materialIDToDataMap(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MaterialData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialIDToDataMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__assetCacheFolderPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetCacheFolderPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__assetCacheFolderPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetCacheFolderPath;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__assetCacheFolderPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetCacheFolderPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat*& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__meshIndexFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshIndexFormat;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_MeshIndexFormat*> const& HoudiniEngineUnity::HEU_GenerateGeoCache::__get__meshIndexFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshIndexFormat;
 }
 constexpr void HoudiniEngineUnity::HEU_GenerateGeoCache::__set__meshIndexFormat(::HoudiniEngineUnity::HEU_MeshIndexFormat* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshIndexFormat)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t HoudiniEngineUnity::HEU_GenerateGeoCache::get_GeoID() {

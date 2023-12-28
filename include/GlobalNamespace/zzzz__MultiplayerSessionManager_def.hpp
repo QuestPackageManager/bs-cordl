@@ -9,33 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSessionManager)
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct __MultiplayerSessionManager__ConnectionState;
-}
-namespace GlobalNamespace {
-struct UpdateConnectionStateReason;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
@@ -46,31 +19,58 @@ namespace GlobalNamespace {
 template <typename TType, typename TData> class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
-class __MultiplayerSessionManager____c__DisplayClass98_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
-namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__SessionType;
 }
 namespace GlobalNamespace {
+struct __MultiplayerSessionManager__ConnectionState;
+}
+namespace GlobalNamespace {
 class __MultiplayerSessionManager____c;
+}
+namespace GlobalNamespace {
+struct UpdateConnectionStateReason;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+template <typename TData> class INetworkPacketSubSerializer_1;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__MessageType;
+}
+namespace GlobalNamespace {
+class __MultiplayerSessionManager____c__DisplayClass98_0;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

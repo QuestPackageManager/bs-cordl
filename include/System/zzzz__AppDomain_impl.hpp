@@ -2,22 +2,22 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__AppDomain_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
 #include "System/zzzz__ResolveEventHandler_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
-#include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__EventHandler_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__FirstChanceExceptionEventArgs_def.hpp"
 #include "System/zzzz__AssemblyLoadEventHandler_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Policy/zzzz__Evidence_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__FirstChanceExceptionEventArgs_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__EventHandler_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::System::AppDomain.IsAppXModel
 template <>
 
@@ -533,208 +533,208 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& System::AppDomain::__get__mono_app_domain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mono_app_domain;
 }
 constexpr void* const& System::AppDomain::__get__mono_app_domain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mono_app_domain;
 }
 constexpr void System::AppDomain::__set__mono_app_domain(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mono_app_domain = value;
 }
 constexpr ::System::Object*& System::AppDomain::__get__evidence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____evidence;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomain::__get__evidence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____evidence;
 }
 constexpr void System::AppDomain::__set__evidence(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____evidence)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::AppDomain::__get__granted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____granted;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomain::__get__granted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____granted;
 }
 constexpr void System::AppDomain::__set__granted(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____granted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::AppDomain::__get__principalPolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____principalPolicy;
 }
 constexpr int32_t const& System::AppDomain::__get__principalPolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____principalPolicy;
 }
 constexpr void System::AppDomain::__set__principalPolicy(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____principalPolicy = value;
 }
 constexpr ::System::AssemblyLoadEventHandler*& System::AppDomain::__get_AssemblyLoad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssemblyLoad;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AssemblyLoadEventHandler*> const& System::AppDomain::__get_AssemblyLoad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssemblyLoad;
 }
 constexpr void System::AppDomain::__set_AssemblyLoad(::System::AssemblyLoadEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___AssemblyLoad)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ResolveEventHandler*& System::AppDomain::__get_AssemblyResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssemblyResolve;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& System::AppDomain::__get_AssemblyResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssemblyResolve;
 }
 constexpr void System::AppDomain::__set_AssemblyResolve(::System::ResolveEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___AssemblyResolve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::EventHandler*& System::AppDomain::__get_DomainUnload() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DomainUnload;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& System::AppDomain::__get_DomainUnload() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DomainUnload;
 }
 constexpr void System::AppDomain::__set_DomainUnload(::System::EventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DomainUnload)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::EventHandler*& System::AppDomain::__get_ProcessExit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ProcessExit;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& System::AppDomain::__get_ProcessExit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ProcessExit;
 }
 constexpr void System::AppDomain::__set_ProcessExit(::System::EventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ProcessExit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ResolveEventHandler*& System::AppDomain::__get_ResourceResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ResourceResolve;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& System::AppDomain::__get_ResourceResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ResourceResolve;
 }
 constexpr void System::AppDomain::__set_ResourceResolve(::System::ResolveEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ResourceResolve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ResolveEventHandler*& System::AppDomain::__get_TypeResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TypeResolve;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& System::AppDomain::__get_TypeResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TypeResolve;
 }
 constexpr void System::AppDomain::__set_TypeResolve(::System::ResolveEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TypeResolve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::UnhandledExceptionEventHandler*& System::AppDomain::__get_UnhandledException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UnhandledException;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::UnhandledExceptionEventHandler*> const& System::AppDomain::__get_UnhandledException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UnhandledException;
 }
 constexpr void System::AppDomain::__set_UnhandledException(::System::UnhandledExceptionEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UnhandledException)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*& System::AppDomain::__get_FirstChanceException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FirstChanceException;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*> const&
 System::AppDomain::__get_FirstChanceException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FirstChanceException;
 }
 constexpr void System::AppDomain::__set_FirstChanceException(::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___FirstChanceException)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::AppDomain::__get__domain_manager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____domain_manager;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomain::__get__domain_manager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____domain_manager;
 }
 constexpr void System::AppDomain::__set__domain_manager(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____domain_manager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ResolveEventHandler*& System::AppDomain::__get_ReflectionOnlyAssemblyResolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReflectionOnlyAssemblyResolve;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& System::AppDomain::__get_ReflectionOnlyAssemblyResolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReflectionOnlyAssemblyResolve;
 }
 constexpr void System::AppDomain::__set_ReflectionOnlyAssemblyResolve(::System::ResolveEventHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReflectionOnlyAssemblyResolve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::AppDomain::__get__activation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activation;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomain::__get__activation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activation;
 }
 constexpr void System::AppDomain::__set__activation(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::AppDomain::__get__applicationIdentity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationIdentity;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::AppDomain::__get__applicationIdentity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationIdentity;
 }
 constexpr void System::AppDomain::__set__applicationIdentity(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____applicationIdentity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& System::AppDomain::__get_compatibility_switch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compatibility_switch;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::AppDomain::__get_compatibility_switch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compatibility_switch;
 }
 constexpr void System::AppDomain::__set_compatibility_switch(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___compatibility_switch)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::AppDomain::setStaticF__process_guid(::StringW value) {

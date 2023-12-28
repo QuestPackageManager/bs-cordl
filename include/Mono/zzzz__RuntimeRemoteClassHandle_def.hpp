@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(RuntimeRemoteClassHandle)
 namespace Mono {
-struct __RuntimeStructs__RemoteClass;
+struct RuntimeClassHandle;
 }
 namespace Mono {
-struct RuntimeClassHandle;
+struct __RuntimeStructs__RemoteClass;
 }
 // Forward declare root types
 namespace Mono {

@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(MockPlayerAuthenticationTokenProvider)
 namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
 }
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
 struct AuthenticationToken;

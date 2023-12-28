@@ -11,47 +11,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboardHands)
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
+namespace UnityEngine {
+class Material;
 }
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboardHands__HandBoneMapping;
 }
 namespace GlobalNamespace {
+class OVRTrackedKeyboard;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace GlobalNamespace {
 class OVRHand;
 }
 namespace GlobalNamespace {
-struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
 }
 namespace GlobalNamespace {
 class OVRSkeleton;
 }
 namespace GlobalNamespace {
-class OVRMeshRenderer;
+struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Material;
+class SkinnedMeshRenderer;
 }
 namespace GlobalNamespace {
-class OVRCameraRig;
+class OVRMeshRenderer;
 }
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
 }
 namespace GlobalNamespace {
 class OVRSkeletonRenderer;
-}
-namespace GlobalNamespace {
-class OVRTrackedKeyboard;
-}
-namespace UnityEngine {
-class SkinnedMeshRenderer;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__BoneId;
@@ -159,7 +159,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKey
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(8040))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
 class CORDL_TYPE OVRTrackedKeyboardHands : public ::UnityEngine::MonoBehaviour {
 public:

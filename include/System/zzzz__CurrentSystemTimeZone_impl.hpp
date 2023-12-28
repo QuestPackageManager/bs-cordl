@@ -2,9 +2,9 @@
 #include "System/zzzz__TimeZone_impl.hpp"
 #include "System/zzzz__CurrentSystemTimeZone_def.hpp"
 #include "System/Globalization/zzzz__DaylightTime_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: ::System::CurrentSystemTimeZone._ctor
 template <>
 
@@ -96,51 +96,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::CurrentSystemTimeZone::__get_m_ticksOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ticksOffset;
 }
 constexpr int64_t const& System::CurrentSystemTimeZone::__get_m_ticksOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ticksOffset;
 }
 constexpr void System::CurrentSystemTimeZone::__set_m_ticksOffset(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ticksOffset = value;
 }
 constexpr ::StringW& System::CurrentSystemTimeZone::__get_m_standardName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_standardName;
 }
 constexpr ::StringW const& System::CurrentSystemTimeZone::__get_m_standardName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_standardName;
 }
 constexpr void System::CurrentSystemTimeZone::__set_m_standardName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_standardName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::CurrentSystemTimeZone::__get_m_daylightName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_daylightName;
 }
 constexpr ::StringW const& System::CurrentSystemTimeZone::__get_m_daylightName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_daylightName;
 }
 constexpr void System::CurrentSystemTimeZone::__set_m_daylightName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_daylightName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::CurrentSystemTimeZone::__get_m_CachedDaylightChanges() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedDaylightChanges;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::CurrentSystemTimeZone::__get_m_CachedDaylightChanges() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedDaylightChanges;
 }
 constexpr void System::CurrentSystemTimeZone::__set_m_CachedDaylightChanges(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedDaylightChanges)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::CurrentSystemTimeZone* System::CurrentSystemTimeZone::New_ctor() {

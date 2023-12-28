@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalDeclarationAsyncInitializer_def.hpp"
-#include "Zenject/zzzz__SignalDeclaration_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
 #include "Zenject/zzzz__LazyInject_1_def.hpp"
+#include "Zenject/zzzz__SignalDeclaration_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::SignalDeclarationAsyncInitializer._ctor
 template <>
 
@@ -71,27 +71,27 @@ constexpr Zenject::SignalDeclarationAsyncInitializer::operator ::Zenject::IIniti
   return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::LazyInject_1<::Zenject::TickableManager*>*& Zenject::SignalDeclarationAsyncInitializer::__get__tickManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInject_1<::Zenject::TickableManager*>*> const& Zenject::SignalDeclarationAsyncInitializer::__get__tickManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickManager;
 }
 constexpr void Zenject::SignalDeclarationAsyncInitializer::__set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tickManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*& Zenject::SignalDeclarationAsyncInitializer::__get__declarations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declarations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*> const& Zenject::SignalDeclarationAsyncInitializer::__get__declarations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declarations;
 }
 constexpr void Zenject::SignalDeclarationAsyncInitializer::__set__declarations(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____declarations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SignalDeclarationAsyncInitializer* Zenject::SignalDeclarationAsyncInitializer::New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,

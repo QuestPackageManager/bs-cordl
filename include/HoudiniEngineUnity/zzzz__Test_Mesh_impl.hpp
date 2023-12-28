@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_Mesh_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_Mesh._ctor
 template <>
@@ -55,15 +55,15 @@ constexpr HoudiniEngineUnity::Test_Mesh::operator ::HoudiniEngineUnity::IEquivab
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Mesh*& HoudiniEngineUnity::Test_Mesh::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& HoudiniEngineUnity::Test_Mesh::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_Mesh::__set_self(::UnityEngine::Mesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_Mesh* HoudiniEngineUnity::Test_Mesh::New_ctor(::UnityEngine::Mesh* self) {

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(CADMethodRef)
 namespace System {
 class Type;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

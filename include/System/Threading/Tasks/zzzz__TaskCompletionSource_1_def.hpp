@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskCompletionSource_1)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class Exception;
-}
 namespace System::Threading::Tasks {
 struct TaskCreationOptions;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System {
+class Exception;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
 class Object;

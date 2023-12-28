@@ -9,10 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimitiveValue)
 namespace System {
+struct TypeCode;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
 class IConvertible;
 }
 namespace System {
-struct TypeCode;
+struct DateTime;
 }
 namespace System {
 class Object;
@@ -25,12 +31,6 @@ struct Decimal;
 }
 namespace System {
 class Type;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

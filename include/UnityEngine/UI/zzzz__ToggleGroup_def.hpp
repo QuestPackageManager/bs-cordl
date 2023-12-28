@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ToggleGroup)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::UI {
 class __ToggleGroup____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Predicate_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

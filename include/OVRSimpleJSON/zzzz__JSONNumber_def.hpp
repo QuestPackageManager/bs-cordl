@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNumber)
-namespace OVRSimpleJSON {
-struct JSONNodeType;
-}
-namespace OVRSimpleJSON {
-struct __JSONNode__Enumerator;
-}
 namespace System {
 class Object;
 }
 namespace OVRSimpleJSON {
-struct JSONTextMode;
+struct __JSONNode__Enumerator;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVRSimpleJSON {
+struct JSONNodeType;
+}
+namespace OVRSimpleJSON {
+struct JSONTextMode;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRFace)
-namespace GlobalNamespace {
-class OVRFaceExpressions;
-}
 namespace UnityEngine {
 class SkinnedMeshRenderer;
 }
 namespace GlobalNamespace {
 struct __OVRFaceExpressions__FaceExpression;
+}
+namespace GlobalNamespace {
+class OVRFaceExpressions;
 }
 // Forward declare root types
 namespace GlobalNamespace {

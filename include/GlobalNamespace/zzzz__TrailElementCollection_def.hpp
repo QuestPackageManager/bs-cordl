@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrailElementCollection)
-namespace GlobalNamespace {
-struct __TrailElementCollection__InterpolationState;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct __TrailElementCollection__InterpolationState;
 }
 namespace GlobalNamespace {
 class TrailElement;

@@ -3,20 +3,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
+#include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/Rendering/zzzz__StencilState_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeDescriptor_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__RectInt_def.hpp"
-#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/Rendering/zzzz__StencilState_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType::__Utility__GPUBufferType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -30,39 +30,39 @@ template <typename T> constexpr UnityEngine::UIElements::UIR::__Utility__GPUBuff
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr void*& UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 template <typename T> constexpr void* const& UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__set_buffer(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buffer = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__get_elemCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemCount;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__get_elemCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemCount;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__set_elemCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elemCount = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__get_elemStride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemStride;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__get_elemStride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elemStride;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>::__set_elemStride(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elemStride = value;
 }
 template <typename T>

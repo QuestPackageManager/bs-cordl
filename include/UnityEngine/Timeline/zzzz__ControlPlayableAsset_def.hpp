@@ -11,26 +11,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ControlPlayableAsset)
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-class __ControlPlayableAsset___GetControlableScripts_d__39;
-}
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::Timeline {
-class IPropertyPreview;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
 }
 namespace UnityEngine::Playables {
 class PlayableAsset;
@@ -38,26 +20,26 @@ class PlayableAsset;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
+struct ClipCaps;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace UnityEngine::Timeline {
 class IPropertyCollector;
 }
-namespace UnityEngine::Playables {
-class PlayableDirector;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace UnityEngine::Timeline {
+class IPropertyPreview;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -65,20 +47,38 @@ class ParticleSystem;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::Timeline {
+class __ControlPlayableAsset___GetControlableScripts_d__39;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -254,9 +254,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Control
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 83, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10046)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10196)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13900))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(13874)) CS Name: ::UnityEngine.Timeline::ControlPlayableAsset*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10196)), TypeDefinitionIndex(TypeDefinitionIndex(13900)), TypeDefinitionIndex(TypeDefinitionIndex(10422)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10046)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 311 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13874)) CS
+// Name: ::UnityEngine.Timeline::ControlPlayableAsset*
 class CORDL_TYPE ControlPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations

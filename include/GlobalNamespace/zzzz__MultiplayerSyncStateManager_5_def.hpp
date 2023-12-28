@@ -8,16 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncStateManager_5)
 namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
+}
+namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
-}
-namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -26,13 +23,16 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
+template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
+}
+namespace GlobalNamespace {
+template <typename T> class IPacketPool_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

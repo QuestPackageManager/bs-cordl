@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Diagnostics/zzzz__StackFrame_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
+#include "System/Diagnostics/zzzz__StackFrame_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Diagnostics::__StackTrace__TraceFormat::__StackTrace__TraceFormat(int32_t value__) noexcept {
@@ -253,39 +253,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*>& System::Diagnostics::StackTrace::__get_frames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
 constexpr ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> const& System::Diagnostics::StackTrace::__get_frames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
 constexpr void System::Diagnostics::StackTrace::__set_frames(::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___frames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*>& System::Diagnostics::StackTrace::__get_captured_traces() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___captured_traces;
 }
 constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> const& System::Diagnostics::StackTrace::__get_captured_traces() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___captured_traces;
 }
 constexpr void System::Diagnostics::StackTrace::__set_captured_traces(::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___captured_traces)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Diagnostics::StackTrace::__get_debug_info() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debug_info;
 }
 constexpr bool const& System::Diagnostics::StackTrace::__get_debug_info() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debug_info;
 }
 constexpr void System::Diagnostics::StackTrace::__set_debug_info(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___debug_info = value;
 }
 inline void System::Diagnostics::StackTrace::setStaticF_isAotidSet(bool value) {

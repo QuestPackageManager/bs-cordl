@@ -8,6 +8,15 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenCaptureAfterDelay)
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace GlobalNamespace {
+class __ScreenCaptureAfterDelay___Start_d__6;
+}
+namespace GlobalNamespace {
+class ScreenCaptureCache;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -18,16 +27,7 @@ namespace UnityEngine {
 class Texture2D;
 }
 namespace GlobalNamespace {
-class __ScreenCaptureAfterDelay___Start_d__6;
-}
-namespace GlobalNamespace {
 class MainEffectController;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace GlobalNamespace {
-class ScreenCaptureCache;
 }
 namespace GlobalNamespace {
 struct __ScreenCaptureCache__ScreenshotType;
@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15306)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15306))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15303))
 // CS Name: ::ScreenCaptureAfterDelay::InitData*
 class CORDL_TYPE __ScreenCaptureAfterDelay__InitData : public ::System::Object {

@@ -19,17 +19,17 @@ class __Queue__QueueDebugView;
 namespace System {
 class Array;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class __Queue__QueueEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {

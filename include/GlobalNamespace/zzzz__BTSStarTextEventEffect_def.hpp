@@ -10,13 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSStarTextEventEffect)
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class __BTSStarTextEventEffect__StarTextSprite;
-}
-namespace GlobalNamespace {
-class __BTSStarTextEventEffect__StartTextPosition;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
@@ -28,16 +22,22 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace UnityEngine {
-class Sprite;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
+namespace GlobalNamespace {
+class __BTSStarTextEventEffect__StarTextSprite;
+}
+namespace GlobalNamespace {
+class __BTSStarTextEventEffect__StartTextPosition;
+}
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -212,7 +212,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BTSStarTextEv
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3985))
 // CS Name: ::BTSStarTextEventEffect*
 class CORDL_TYPE BTSStarTextEventEffect : public ::UnityEngine::MonoBehaviour {

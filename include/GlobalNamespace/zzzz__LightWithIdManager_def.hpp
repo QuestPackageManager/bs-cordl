@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIdManager)
 namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
 class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class ILightWithId;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Color;

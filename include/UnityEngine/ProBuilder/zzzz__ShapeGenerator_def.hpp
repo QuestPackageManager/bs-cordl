@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShapeGenerator)
 namespace UnityEngine::ProBuilder {
-struct ShapeType;
+struct Axis;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
-struct Axis;
+struct ShapeType;
 }
 namespace UnityEngine::ProBuilder {
 struct PivotLocation;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

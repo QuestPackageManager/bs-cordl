@@ -34,15 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::IPAddress*& System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::__get_address() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___address;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::__get_address() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___address;
 }
 constexpr void System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::__set_address(::System::Net::IPAddress* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___address)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation* System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor(::System::Net::IPAddress* address) {

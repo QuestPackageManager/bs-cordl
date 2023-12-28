@@ -2,8 +2,8 @@
 #include "HMUI/zzzz__HoverHint_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizedHoverHint_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalizedHoverHint.SetText
 template <>
 

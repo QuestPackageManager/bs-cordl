@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ZenjectSafeBehaviour_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ZenjectSafeBehaviour.Inject
 template <>
 
@@ -101,27 +101,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::ZenjectSafeBehaviour::__get__isInjected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInjected;
 }
 constexpr bool const& GlobalNamespace::ZenjectSafeBehaviour::__get__isInjected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInjected;
 }
 constexpr void GlobalNamespace::ZenjectSafeBehaviour::__set__isInjected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isInjected = value;
 }
 constexpr bool& GlobalNamespace::ZenjectSafeBehaviour::__get__wasOnEnableCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wasOnEnableCalled;
 }
 constexpr bool const& GlobalNamespace::ZenjectSafeBehaviour::__get__wasOnEnableCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wasOnEnableCalled;
 }
 constexpr void GlobalNamespace::ZenjectSafeBehaviour::__set__wasOnEnableCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wasOnEnableCalled = value;
 }
 inline void GlobalNamespace::ZenjectSafeBehaviour::Inject() {

@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::BoolWithDefaultValueSO::__get__defaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultValue;
 }
 constexpr bool const& GlobalNamespace::BoolWithDefaultValueSO::__get__defaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultValue;
 }
 constexpr void GlobalNamespace::BoolWithDefaultValueSO::__set__defaultValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultValue = value;
 }
 inline void GlobalNamespace::BoolWithDefaultValueSO::OnEnable() {

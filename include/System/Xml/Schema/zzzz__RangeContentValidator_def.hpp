@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RangeContentValidator)
 namespace System::Xml::Schema {
-struct XmlSchemaContentType;
+class Positions;
 }
 namespace System::Xml::Schema {
 class BitSet;
 }
 namespace System::Xml::Schema {
-class Positions;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+struct XmlSchemaContentType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

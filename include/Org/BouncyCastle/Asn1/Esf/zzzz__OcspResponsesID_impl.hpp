@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspResponsesID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHash_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID.GetInstance
 template <>
@@ -112,27 +112,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*& Org::BouncyCastle::Asn1::Esf::OcspResponsesID::__get_ocspIdentifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspIdentifier;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*> const& Org::BouncyCastle::Asn1::Esf::OcspResponsesID::__get_ocspIdentifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspIdentifier;
 }
 constexpr void Org::BouncyCastle::Asn1::Esf::OcspResponsesID::__set_ocspIdentifier(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ocspIdentifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& Org::BouncyCastle::Asn1::Esf::OcspResponsesID::__get_ocspRepHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspRepHash;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherHash*> const& Org::BouncyCastle::Asn1::Esf::OcspResponsesID::__get_ocspRepHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspRepHash;
 }
 constexpr void Org::BouncyCastle::Asn1::Esf::OcspResponsesID::__set_ocspRepHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ocspRepHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::OcspResponsesID* Org::BouncyCastle::Asn1::Esf::OcspResponsesID::GetInstance(::System::Object* obj) {

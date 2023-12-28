@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultPKMacPrimitivesProvider)
-namespace Org::BouncyCastle::Crmf {
-class IPKMacPrimitivesProvider;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
@@ -15,6 +12,9 @@ class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace Org::BouncyCastle::Crmf {
+class IPKMacPrimitivesProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

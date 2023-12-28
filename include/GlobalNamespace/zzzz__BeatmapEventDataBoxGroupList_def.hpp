@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupList)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupProcessor;
+template <typename T, typename TBase> class SortedList_2;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
-template <typename T, typename TBase> class SortedList_2;
+class BeatmapEventDataBoxGroup;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroupProcessor;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+class BeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

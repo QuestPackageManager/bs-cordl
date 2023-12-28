@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Android/zzzz__Permission_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::Permission.GetActivity
 template <>
 

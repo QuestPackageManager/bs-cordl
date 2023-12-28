@@ -6,11 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationClipPlayable)
-namespace UnityEngine::Playables {
-class IPlayable;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -18,11 +21,8 @@ struct PlayableGraph;
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

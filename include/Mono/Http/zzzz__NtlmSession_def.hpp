@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmSession)
 namespace System::Net {
-class Authorization;
-}
-namespace System::Net {
-class WebRequest;
+class ICredentials;
 }
 namespace Mono::Security::Protocol::Ntlm {
 class MessageBase;
 }
 namespace System::Net {
-class ICredentials;
+class WebRequest;
+}
+namespace System::Net {
+class Authorization;
 }
 // Forward declare root types
 namespace Mono::Http {

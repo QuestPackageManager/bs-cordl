@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
-#include "RootMotion/zzzz__Warning_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
+#include "RootMotion/zzzz__Warning_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__IKMapping__BoneMap.Initiate
 template <>
@@ -407,267 +407,267 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKMapping__BoneMap::__get_transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transform;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_chainIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_chainIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_chainIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chainIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_nodeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_nodeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_nodeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nodeIndex = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKMapping__BoneMap::__get_defaultLocalPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_defaultLocalPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalPosition;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_defaultLocalPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKMapping__BoneMap::__get_defaultLocalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_defaultLocalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_defaultLocalRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKMapping__BoneMap::__get_localSwingAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localSwingAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_localSwingAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localSwingAxis;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_localSwingAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localSwingAxis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKMapping__BoneMap::__get_localTwistAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localTwistAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_localTwistAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localTwistAxis;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_localTwistAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localTwistAxis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planePosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planePosition;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_planePosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___planePosition = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKMapping__BoneMap::__get_ikPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ikPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_ikPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ikPosition;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_ikPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ikPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKMapping__BoneMap::__get_defaultLocalTargetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalTargetRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_defaultLocalTargetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalTargetRotation;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_defaultLocalTargetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalTargetRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKMapping__BoneMap::__get_maintainRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_maintainRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotation;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_maintainRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainRotation = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___length = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKMapping__BoneMap::__get_animatedRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_animatedRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animatedRotation;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_animatedRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animatedRotation = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planeBone1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planeBone1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planeBone1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planeBone1;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_planeBone1(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___planeBone1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planeBone2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planeBone2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planeBone2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planeBone2;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_planeBone2(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___planeBone2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planeBone3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planeBone3;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_planeBone3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___planeBone3;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_planeBone3(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___planeBone3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane1ChainIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane1ChainIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane1ChainIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane1ChainIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_plane1ChainIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plane1ChainIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane1NodeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane1NodeIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane1NodeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane1NodeIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_plane1NodeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plane1NodeIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane2ChainIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane2ChainIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane2ChainIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane2ChainIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_plane2ChainIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plane2ChainIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane2NodeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane2NodeIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane2NodeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane2NodeIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_plane2NodeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plane2NodeIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane3ChainIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane3ChainIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane3ChainIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane3ChainIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_plane3ChainIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plane3ChainIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane3NodeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane3NodeIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKMapping__BoneMap::__get_plane3NodeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plane3NodeIndex;
 }
 constexpr void RootMotion::FinalIK::__IKMapping__BoneMap::__set_plane3NodeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plane3NodeIndex = value;
 }
 inline void RootMotion::FinalIK::__IKMapping__BoneMap::Initiate(::UnityEngine::Transform* transform, ::RootMotion::FinalIK::IKSolverFullBody* solver) {

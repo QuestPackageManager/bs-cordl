@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchscreenState)
 namespace UnityEngine::InputSystem::LowLevel {
-struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 struct __TouchscreenState___touchData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
+struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -108,7 +108,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6515)), TypeDefinitionIndex(TypeDefinitionIndex(6516))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6516)), TypeDefinitionIndex(TypeDefinitionIndex(6515))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6517))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TouchscreenState
 #pragma pack(push, 0)

@@ -6,44 +6,41 @@ CORDL_MODULE_INIT
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityUtil)
-namespace ModestTree::Util {
-class __UnityUtil____c;
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Component;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace ModestTree::Util {
-class __UnityUtil___GetDirectChildren_d__21;
-}
-namespace UnityEngine {
-class Component;
+class __UnityUtil___GetParentsAndSelf_d__17;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace ModestTree::Util {
+class __UnityUtil____c;
+}
+namespace ModestTree::Util {
+class __UnityUtil___GetDirectChildrenAndSelf_d__20;
+}
+namespace ModestTree::Util {
+class __UnityUtil___GetDirectChildren_d__21;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace ModestTree::Util {
 class __UnityUtil___get_AllScenes_d__1;
 }
 namespace ModestTree::Util {
-class __UnityUtil___GetParentsAndSelf_d__17;
-}
-namespace ModestTree::Util {
 class __UnityUtil___GetParents_d__16;
-}
-namespace ModestTree::Util {
-class __UnityUtil___GetDirectChildrenAndSelf_d__20;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -51,11 +48,14 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

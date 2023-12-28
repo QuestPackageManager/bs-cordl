@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Library)
 namespace UnityOpus {
+struct OpusApplication;
+}
+namespace UnityOpus {
 struct OpusSignal;
 }
 namespace UnityOpus {
-struct ErrorCode;
+struct NumChannels;
 }
 namespace UnityOpus {
 struct SamplingFrequency;
 }
 namespace UnityOpus {
-struct OpusApplication;
-}
-namespace UnityOpus {
-struct NumChannels;
+struct ErrorCode;
 }
 // Forward declare root types
 namespace UnityOpus {

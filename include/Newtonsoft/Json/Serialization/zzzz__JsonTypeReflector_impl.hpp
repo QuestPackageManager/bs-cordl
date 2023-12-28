@@ -2,19 +2,19 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonTypeReflector_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__DataContractAttribute_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonTypeReflector_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
-#include "System/Runtime/Serialization/zzzz__DataMemberAttribute_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
+#include "System/Runtime/Serialization/zzzz__DataContractAttribute_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonTypeReflector_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__DataMemberAttribute_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0._ctor
 template <>
@@ -48,28 +48,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::System::Type*& Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::__get_converterType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___converterType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::__get_converterType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___converterType;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::__set_converterType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___converterType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_1<::System::Object*>*& Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::__get_defaultConstructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultConstructor;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::__get_defaultConstructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultConstructor;
 }
 constexpr void Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::__set_defaultConstructor(::System::Func_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0* Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0::New_ctor() {

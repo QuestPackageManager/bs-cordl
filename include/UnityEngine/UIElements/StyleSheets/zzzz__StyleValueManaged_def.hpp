@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(StyleValueManaged)
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace System {
 class Object;

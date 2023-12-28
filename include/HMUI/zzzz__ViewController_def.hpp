@@ -11,53 +11,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ViewController)
-namespace HMUI {
-class __ViewController__DidActivateDelegate;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace HMUI {
-class __ViewController___PresentViewControllerCoroutine_d__58;
+class Screen;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace HMUI {
-class ButtonBinder;
+class __ViewController___PresentViewControllerCoroutine_d__58;
 }
 namespace HMUI {
 class ContainerViewController;
 }
 namespace HMUI {
-class Screen;
+class __ViewController__DidActivateDelegate;
+}
+namespace HMUI {
+class __ViewController___DismissViewControllerCoroutine_d__62;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace HMUI {
-struct __ViewController__AnimationType;
+class __ViewController__DidDeactivateDelegate;
 }
-namespace HMUI {
-class __ViewController___ReplaceViewControllerCoroutine_d__60;
+namespace System {
+class Action;
 }
 namespace HMUI {
 struct __ViewController__AnimationDirection;
-}
-namespace HMUI {
-class __ViewController__DidDeactivateDelegate;
 }
 namespace UnityEngine::EventSystems {
 class BaseRaycaster;
 }
 namespace HMUI {
-class __ViewController___DismissViewControllerCoroutine_d__62;
+class ButtonBinder;
 }
-namespace System {
-class IAsyncResult;
+namespace HMUI {
+class __ViewController___ReplaceViewControllerCoroutine_d__60;
 }
 namespace System {
 class AsyncCallback;
@@ -65,11 +62,14 @@ class AsyncCallback;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -297,7 +297,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController__Animatio
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13602))
 // CS Name: ::ViewController::<PresentViewControllerCoroutine>d__58*
 class CORDL_TYPE __ViewController___PresentViewControllerCoroutine_d__58 : public ::System::Object {
@@ -444,7 +444,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__ViewController___Present
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13603))
 // CS Name: ::ViewController::<ReplaceViewControllerCoroutine>d__60*
 class CORDL_TYPE __ViewController___ReplaceViewControllerCoroutine_d__60 : public ::System::Object {

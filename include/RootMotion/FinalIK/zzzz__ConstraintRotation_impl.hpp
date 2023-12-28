@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::ConstraintRotation::__get_rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::ConstraintRotation::__get_rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotation::__set_rotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotation = value;
 }
 inline void RootMotion::FinalIK::ConstraintRotation::UpdateConstraint() {

@@ -4,39 +4,39 @@
 #include "System/zzzz__Predicate_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& System::Collections::Generic::LowLevelList_1<T>::__get__items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Collections::Generic::LowLevelList_1<T>::__get__items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename T> constexpr void System::Collections::Generic::LowLevelList_1<T>::__set__items(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::LowLevelList_1<T>::__get__size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____size;
 }
 template <typename T> constexpr int32_t const& System::Collections::Generic::LowLevelList_1<T>::__get__size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____size;
 }
 template <typename T> constexpr void System::Collections::Generic::LowLevelList_1<T>::__set__size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____size = value;
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::LowLevelList_1<T>::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 template <typename T> constexpr int32_t const& System::Collections::Generic::LowLevelList_1<T>::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 template <typename T> constexpr void System::Collections::Generic::LowLevelList_1<T>::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 template <typename T> inline void System::Collections::Generic::LowLevelList_1<T>::setStaticF_s_emptyArray(::ArrayW<T, ::Array<T>*> value) {

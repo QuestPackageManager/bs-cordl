@@ -9,16 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonTextWriter)
 namespace System {
-struct Decimal;
-}
-namespace System::IO {
-class TextWriter;
-}
-namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace System {
-struct DateTimeOffset;
 }
 namespace System {
 struct TimeSpan;
@@ -26,23 +17,32 @@ struct TimeSpan;
 namespace System {
 class Uri;
 }
+namespace System {
+struct Guid;
+}
+namespace Newtonsoft::Json {
+template <typename T> class IArrayPool_1;
+}
+namespace System::IO {
+class TextWriter;
+}
 namespace Newtonsoft::Json::Utilities {
 class Base64Encoder;
 }
-namespace Newtonsoft::Json {
-struct JsonToken;
+namespace System {
+struct Decimal;
 }
 namespace System {
 struct DateTime;
 }
 namespace Newtonsoft::Json {
-template <typename T> class IArrayPool_1;
-}
-namespace System {
-struct Guid;
+struct JsonToken;
 }
 namespace System {
 class Object;
+}
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

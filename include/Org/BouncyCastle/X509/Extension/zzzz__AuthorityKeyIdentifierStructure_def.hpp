@@ -10,11 +10,11 @@ class Asn1OctetString;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {

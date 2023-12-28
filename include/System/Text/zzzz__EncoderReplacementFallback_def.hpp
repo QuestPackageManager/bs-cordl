@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(EncoderReplacementFallback)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Text {
-class EncoderFallbackBuffer;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Text {
+class EncoderFallbackBuffer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {

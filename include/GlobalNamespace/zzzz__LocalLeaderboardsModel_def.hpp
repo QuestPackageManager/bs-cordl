@@ -10,40 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardsModel)
 namespace GlobalNamespace {
+class ISaveData;
+}
+namespace GlobalNamespace {
 struct __LocalLeaderboardsModel__LeaderboardType;
 }
 namespace GlobalNamespace {
 class __LocalLeaderboardsModel__SavedLeaderboardsData;
 }
-namespace GlobalNamespace {
-class __LocalLeaderboardsModel__ScoreData;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __LocalLeaderboardsModel____c;
-}
-namespace GlobalNamespace {
 class __LocalLeaderboardsModel__LeaderboardData;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class __LocalLeaderboardsModel__ScoreData;
+}
+namespace GlobalNamespace {
+class __LocalLeaderboardsModel____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class ISaveData;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class Predicate_1;
 }
 namespace System {
 template <typename T> class Comparison_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

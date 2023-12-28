@@ -2,9 +2,9 @@
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Threading/zzzz__AbandonedMutexException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Threading/zzzz__Mutex_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Threading::AbandonedMutexException._ctor
 template <>
 
@@ -67,27 +67,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Threading::AbandonedMutexException::__get__mutexIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mutexIndex;
 }
 constexpr int32_t const& System::Threading::AbandonedMutexException::__get__mutexIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mutexIndex;
 }
 constexpr void System::Threading::AbandonedMutexException::__set__mutexIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mutexIndex = value;
 }
 constexpr ::System::Threading::Mutex*& System::Threading::AbandonedMutexException::__get__mutex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mutex;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Mutex*> const& System::Threading::AbandonedMutexException::__get__mutex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mutex;
 }
 constexpr void System::Threading::AbandonedMutexException::__set__mutex(::System::Threading::Mutex* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mutex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::AbandonedMutexException* System::Threading::AbandonedMutexException::New_ctor() {

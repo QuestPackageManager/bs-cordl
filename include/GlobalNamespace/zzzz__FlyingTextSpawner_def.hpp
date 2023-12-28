@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingTextSpawner)
-namespace GlobalNamespace {
-class FlyingObjectEffect;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class __FlyingTextEffect__Pool;
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
+class FlyingObjectEffect;
+}
+namespace GlobalNamespace {
+class __FlyingTextEffect__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingTextSpawner);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4891))
 // CS Name: ::FlyingTextSpawner*
 class CORDL_TYPE FlyingTextSpawner : public ::UnityEngine::MonoBehaviour {

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownServiceTypeEntry);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3082)), TypeDefinitionIndex(TypeDefinitionIndex(3079))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079)), TypeDefinitionIndex(TypeDefinitionIndex(3082))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3083))
 // CS Name: ::System.Runtime.Remoting::WellKnownServiceTypeEntry*
 class CORDL_TYPE WellKnownServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {

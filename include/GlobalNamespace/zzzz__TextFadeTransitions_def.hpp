@@ -12,11 +12,11 @@ CORDL_MODULE_EXPORT(TextFadeTransitions)
 namespace UnityEngine {
 class CanvasGroup;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 struct __TextFadeTransitions__State;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TextFadeTrans
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5338)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5338))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5339))
 // CS Name: ::TextFadeTransitions*
 class CORDL_TYPE TextFadeTransitions : public ::UnityEngine::MonoBehaviour {

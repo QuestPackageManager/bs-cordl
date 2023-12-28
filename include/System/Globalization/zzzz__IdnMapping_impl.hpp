@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__IdnMapping_def.hpp"
-#include "System/Globalization/zzzz__Punycode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__Punycode_def.hpp"
 //  Writing Method size for method: ::System::Globalization::IdnMapping._ctor
 template <>
 
@@ -211,39 +211,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Globalization::IdnMapping::__get_allow_unassigned() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allow_unassigned;
 }
 constexpr bool const& System::Globalization::IdnMapping::__get_allow_unassigned() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allow_unassigned;
 }
 constexpr void System::Globalization::IdnMapping::__set_allow_unassigned(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allow_unassigned = value;
 }
 constexpr bool& System::Globalization::IdnMapping::__get_use_std3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_std3;
 }
 constexpr bool const& System::Globalization::IdnMapping::__get_use_std3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_std3;
 }
 constexpr void System::Globalization::IdnMapping::__set_use_std3(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___use_std3 = value;
 }
 constexpr ::System::Globalization::Punycode*& System::Globalization::IdnMapping::__get_puny() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___puny;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Punycode*> const& System::Globalization::IdnMapping::__get_puny() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___puny;
 }
 constexpr void System::Globalization::IdnMapping::__set_puny(::System::Globalization::Punycode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___puny)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Globalization::IdnMapping* System::Globalization::IdnMapping::New_ctor() {

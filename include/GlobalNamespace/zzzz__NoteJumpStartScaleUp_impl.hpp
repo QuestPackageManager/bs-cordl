@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpStartScaleUp_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteJump_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJump_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteJumpStartScaleUp.Awake
 template <>
 
@@ -94,51 +94,51 @@ constexpr GlobalNamespace::NoteJumpStartScaleUp::operator ::GlobalNamespace::INo
   return static_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::NoteJumpStartScaleUp::__get__fullScaleJumpPart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullScaleJumpPart;
 }
 constexpr float_t const& GlobalNamespace::NoteJumpStartScaleUp::__get__fullScaleJumpPart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullScaleJumpPart;
 }
 constexpr void GlobalNamespace::NoteJumpStartScaleUp::__set__fullScaleJumpPart(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullScaleJumpPart = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::NoteJumpStartScaleUp::__get__targetTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::NoteJumpStartScaleUp::__get__targetTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTransform;
 }
 constexpr void GlobalNamespace::NoteJumpStartScaleUp::__set__targetTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteController*& GlobalNamespace::NoteJumpStartScaleUp::__get__noteController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteController*> const& GlobalNamespace::NoteJumpStartScaleUp::__get__noteController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteController;
 }
 constexpr void GlobalNamespace::NoteJumpStartScaleUp::__set__noteController(::GlobalNamespace::NoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteJump*& GlobalNamespace::NoteJumpStartScaleUp::__get__noteJump() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJump;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteJump*> const& GlobalNamespace::NoteJumpStartScaleUp::__get__noteJump() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJump;
 }
 constexpr void GlobalNamespace::NoteJumpStartScaleUp::__set__noteJump(::GlobalNamespace::NoteJump* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteJump)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::NoteJumpStartScaleUp::Awake() {

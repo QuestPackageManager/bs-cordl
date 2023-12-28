@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BTSStarTextEffectController*& GlobalNamespace::BTSStarTextEventInstaller::__get__btsStarTextEffectController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsStarTextEffectController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEffectController*> const& GlobalNamespace::BTSStarTextEventInstaller::__get__btsStarTextEffectController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsStarTextEffectController;
 }
 constexpr void GlobalNamespace::BTSStarTextEventInstaller::__set__btsStarTextEffectController(::GlobalNamespace::BTSStarTextEffectController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsStarTextEffectController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BTSStarTextEventInstaller::InstallBindings() {

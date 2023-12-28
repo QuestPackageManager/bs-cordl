@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MessageEnd)
+namespace System::IO {
+class Stream;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

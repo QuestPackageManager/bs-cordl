@@ -2,12 +2,12 @@
 #include "UnityEngine/UIElements/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Button_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Button_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__Button__UxmlTraits._ctor
 template <>
@@ -135,15 +135,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::Clickable*& UnityEngine::UIElements::Button::__get_m_Clickable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Clickable;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& UnityEngine::UIElements::Button::__get_m_Clickable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Clickable;
 }
 constexpr void UnityEngine::UIElements::Button::__set_m_Clickable(::UnityEngine::UIElements::Clickable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Clickable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::Button::setStaticF_ussClassName(::StringW value) {

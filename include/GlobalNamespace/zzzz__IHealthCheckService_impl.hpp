@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IPollable"
 constexpr GlobalNamespace::IHealthCheckService::operator ::GlobalNamespace::IPollable*() noexcept {
   return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));

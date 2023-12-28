@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Util/zzzz__TokenizerStream_def.hpp"
-#include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
 #include "System/Security/Util/zzzz__TokenizerStringBlock_def.hpp"
+#include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
 //  Writing Method size for method: ::System::Security::Util::TokenizerStream._ctor
 template <>
 
@@ -158,99 +158,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Security::Util::TokenizerStream::__get_m_countTokens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_countTokens;
 }
 constexpr int32_t const& System::Security::Util::TokenizerStream::__get_m_countTokens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_countTokens;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_countTokens(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_countTokens = value;
 }
 constexpr ::System::Security::Util::TokenizerShortBlock*& System::Security::Util::TokenizerStream::__get_m_headTokens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headTokens;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& System::Security::Util::TokenizerStream::__get_m_headTokens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headTokens;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_headTokens(::System::Security::Util::TokenizerShortBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_headTokens)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Util::TokenizerShortBlock*& System::Security::Util::TokenizerStream::__get_m_lastTokens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastTokens;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& System::Security::Util::TokenizerStream::__get_m_lastTokens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastTokens;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_lastTokens(::System::Security::Util::TokenizerShortBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_lastTokens)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Util::TokenizerShortBlock*& System::Security::Util::TokenizerStream::__get_m_currentTokens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentTokens;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& System::Security::Util::TokenizerStream::__get_m_currentTokens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentTokens;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_currentTokens(::System::Security::Util::TokenizerShortBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_currentTokens)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Util::TokenizerStream::__get_m_indexTokens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexTokens;
 }
 constexpr int32_t const& System::Security::Util::TokenizerStream::__get_m_indexTokens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexTokens;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_indexTokens(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_indexTokens = value;
 }
 constexpr ::System::Security::Util::TokenizerStringBlock*& System::Security::Util::TokenizerStream::__get_m_headStrings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headStrings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& System::Security::Util::TokenizerStream::__get_m_headStrings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headStrings;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_headStrings(::System::Security::Util::TokenizerStringBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_headStrings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Util::TokenizerStringBlock*& System::Security::Util::TokenizerStream::__get_m_currentStrings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentStrings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& System::Security::Util::TokenizerStream::__get_m_currentStrings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentStrings;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_currentStrings(::System::Security::Util::TokenizerStringBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_currentStrings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Util::TokenizerStream::__get_m_indexStrings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexStrings;
 }
 constexpr int32_t const& System::Security::Util::TokenizerStream::__get_m_indexStrings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexStrings;
 }
 constexpr void System::Security::Util::TokenizerStream::__set_m_indexStrings(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_indexStrings = value;
 }
 inline ::System::Security::Util::TokenizerStream* System::Security::Util::TokenizerStream::New_ctor() {

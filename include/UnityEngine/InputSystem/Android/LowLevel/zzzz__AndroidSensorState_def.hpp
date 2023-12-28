@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(AndroidSensorState)
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine::InputSystem::Android::LowLevel {
-struct __AndroidSensorState___data_e__FixedBuffer;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct __AndroidSensorState___data_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {

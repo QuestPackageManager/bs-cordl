@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialInstaller)
 namespace GlobalNamespace {
-class PlayerHeightDetector;
-}
-namespace GlobalNamespace {
-class TutorialSceneSetupData;
+class EffectPoolsManualInstaller;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
-class EffectPoolsManualInstaller;
+class PlayerHeightDetector;
+}
+namespace GlobalNamespace {
+class TutorialSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

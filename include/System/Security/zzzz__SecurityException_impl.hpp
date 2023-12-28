@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Security/zzzz__SecurityException_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::System::Security::SecurityException._ctor
 template <>
 
@@ -93,15 +93,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Security::SecurityException::__get_permissionState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___permissionState;
 }
 constexpr ::StringW const& System::Security::SecurityException::__get_permissionState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___permissionState;
 }
 constexpr void System::Security::SecurityException::__set_permissionState(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___permissionState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::SecurityException* System::Security::SecurityException::New_ctor() {

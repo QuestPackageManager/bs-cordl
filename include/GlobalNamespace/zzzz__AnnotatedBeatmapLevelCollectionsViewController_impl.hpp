@@ -2,12 +2,12 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsViewController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsGridView_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController.add_didOpenBeatmapLevelCollectionsEvent
 template <>
 
@@ -288,110 +288,110 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView*& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__annotatedBeatmapLevelCollectionsGridView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotatedBeatmapLevelCollectionsGridView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView*> const&
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__annotatedBeatmapLevelCollectionsGridView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotatedBeatmapLevelCollectionsGridView;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set__annotatedBeatmapLevelCollectionsGridView(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____annotatedBeatmapLevelCollectionsGridView)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LoadingControl*& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__loadingControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadingControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__loadingControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadingControl;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set__loadingControl(::GlobalNamespace::LoadingControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loadingControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAdditionalContentModel*& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__additionalContentModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalContentModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const&
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__additionalContentModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalContentModel;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____additionalContentModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get_didOpenBeatmapLevelCollectionsEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didOpenBeatmapLevelCollectionsEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get_didOpenBeatmapLevelCollectionsEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didOpenBeatmapLevelCollectionsEvent;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set_didOpenBeatmapLevelCollectionsEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didOpenBeatmapLevelCollectionsEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get_didCloseBeatmapLevelCollectionsEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didCloseBeatmapLevelCollectionsEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get_didCloseBeatmapLevelCollectionsEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didCloseBeatmapLevelCollectionsEvent;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set_didCloseBeatmapLevelCollectionsEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didCloseBeatmapLevelCollectionsEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*&
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get_didSelectAnnotatedBeatmapLevelCollectionEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectAnnotatedBeatmapLevelCollectionEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*> const&
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get_didSelectAnnotatedBeatmapLevelCollectionEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectAnnotatedBeatmapLevelCollectionEvent;
 }
 constexpr void
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectAnnotatedBeatmapLevelCollectionEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__selectedItemIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedItemIndex;
 }
 constexpr int32_t const& GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__selectedItemIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedItemIndex;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set__selectedItemIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedItemIndex = value;
 }
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*&
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__annotatedBeatmapLevelCollections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotatedBeatmapLevelCollections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*> const&
 GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__get__annotatedBeatmapLevelCollections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotatedBeatmapLevelCollections;
 }
 constexpr void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::__set__annotatedBeatmapLevelCollections(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____annotatedBeatmapLevelCollections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value) {

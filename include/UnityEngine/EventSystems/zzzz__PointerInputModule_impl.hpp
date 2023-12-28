@@ -3,13 +3,13 @@
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
-#include "UnityEngine/zzzz__Touch_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Touch_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::__PointerInputModule__ButtonState.get_eventData
 template <>
@@ -87,28 +87,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& UnityEngine::EventSystems::__PointerInputModule__ButtonState::__get_m_Button() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Button;
 }
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& UnityEngine::EventSystems::__PointerInputModule__ButtonState::__get_m_Button() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Button;
 }
 constexpr void UnityEngine::EventSystems::__PointerInputModule__ButtonState::__set_m_Button(::UnityEngine::EventSystems::__PointerEventData__InputButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Button = value;
 }
 constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData*& UnityEngine::EventSystems::__PointerInputModule__ButtonState::__get_m_EventData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventData;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData*> const&
 UnityEngine::EventSystems::__PointerInputModule__ButtonState::__get_m_EventData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventData;
 }
 constexpr void UnityEngine::EventSystems::__PointerInputModule__ButtonState::__set_m_EventData(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* UnityEngine::EventSystems::__PointerInputModule__ButtonState::get_eventData() {
@@ -227,17 +227,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>*&
 UnityEngine::EventSystems::__PointerInputModule__MouseState::__get_m_TrackedButtons() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedButtons;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>*> const&
 UnityEngine::EventSystems::__PointerInputModule__MouseState::__get_m_TrackedButtons() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedButtons;
 }
 constexpr void
 UnityEngine::EventSystems::__PointerInputModule__MouseState::__set_m_TrackedButtons(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TrackedButtons)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::EventSystems::__PointerInputModule__MouseState::AnyPressesThisFrame() {
@@ -326,27 +326,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::__get_buttonState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonState;
 }
 constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::__get_buttonState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonState;
 }
 constexpr void UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::__set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buttonState = value;
 }
 constexpr ::UnityEngine::EventSystems::PointerEventData*& UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::__get_buttonData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonData;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::__get_buttonData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonData;
 }
 constexpr void UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::__set_buttonData(::UnityEngine::EventSystems::PointerEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buttonData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData::PressedThisFrame() {
@@ -624,28 +624,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*& UnityEngine::EventSystems::PointerInputModule::__get_m_PointerData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*> const&
 UnityEngine::EventSystems::PointerInputModule::__get_m_PointerData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerData;
 }
 constexpr void UnityEngine::EventSystems::PointerInputModule::__set_m_PointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PointerData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& UnityEngine::EventSystems::PointerInputModule::__get_m_MouseState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MouseState;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseState*> const& UnityEngine::EventSystems::PointerInputModule::__get_m_MouseState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MouseState;
 }
 constexpr void UnityEngine::EventSystems::PointerInputModule::__set_m_MouseState(::UnityEngine::EventSystems::__PointerInputModule__MouseState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MouseState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::EventSystems::PointerInputModule::GetPointerData(int32_t id, ByRef<::UnityEngine::EventSystems::PointerEventData*> data, bool create) {

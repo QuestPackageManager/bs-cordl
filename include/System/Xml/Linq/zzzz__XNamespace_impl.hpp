@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
-#include "System/Xml/Linq/zzzz__XName_def.hpp"
-#include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Linq/zzzz__XName_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XNamespace._ctor
 template <>
 
@@ -265,39 +265,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Xml::Linq::XNamespace::__get__namespaceName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namespaceName;
 }
 constexpr ::StringW const& System::Xml::Linq::XNamespace::__get__namespaceName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namespaceName;
 }
 constexpr void System::Xml::Linq::XNamespace::__set__namespaceName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namespaceName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::Linq::XNamespace::__get__hashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashCode;
 }
 constexpr int32_t const& System::Xml::Linq::XNamespace::__get__hashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashCode;
 }
 constexpr void System::Xml::Linq::XNamespace::__set__hashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hashCode = value;
 }
 constexpr ::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*& System::Xml::Linq::XNamespace::__get__names() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____names;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*> const& System::Xml::Linq::XNamespace::__get__names() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____names;
 }
 constexpr void System::Xml::Linq::XNamespace::__set__names(::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____names)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::Linq::XNamespace::setStaticF_s_namespaces(::System::Xml::Linq::XHashtable_1<::System::WeakReference*>* value) {

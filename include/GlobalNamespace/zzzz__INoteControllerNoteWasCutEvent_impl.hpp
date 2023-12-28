@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__INoteControllerNoteWasCutEvent_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteControllerNoteWasCutEvent.HandleNoteControllerNoteWasCut
 template <>
 

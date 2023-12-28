@@ -7,59 +7,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPacketSerializer_2)
-namespace GlobalNamespace {
-template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
-}
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSerializer_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
-}
 namespace System {
-template <typename TResult> class Func_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Type;
 }
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+template <typename TData> class INetworkPacketSerializer_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::AssetLabelReference.get_labelString
 template <>
 
@@ -95,15 +95,15 @@ constexpr UnityEngine::AddressableAssets::AssetLabelReference::operator ::UnityE
   return static_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(static_cast<void*>(this));
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::AssetLabelReference::__get_m_LabelString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LabelString;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::AssetLabelReference::__get_m_LabelString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LabelString;
 }
 constexpr void UnityEngine::AddressableAssets::AssetLabelReference::__set_m_LabelString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LabelString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::AddressableAssets::AssetLabelReference::get_labelString() {

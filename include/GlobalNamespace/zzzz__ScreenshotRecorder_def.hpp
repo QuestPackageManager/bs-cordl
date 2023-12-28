@@ -13,13 +13,13 @@ namespace GlobalNamespace {
 struct __ScreenshotRecorder__RecordingType;
 }
 namespace UnityEngine {
-class Camera;
+class Texture2D;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-class Texture2D;
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {

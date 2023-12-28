@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleScreenBufferInfo)
 namespace System {
-struct SmallRect;
+struct Coord;
 }
 namespace System {
-struct Coord;
+struct SmallRect;
 }
 // Forward declare root types
 namespace System {
@@ -23,7 +23,7 @@ MARK_VAL_T(::System::ConsoleScreenBufferInfo);
 // SizeInfo { instance_size: 22, native_size: 22, calculated_instance_size: 22, calculated_native_size: 38, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2645)), TypeDefinitionIndex(TypeDefinitionIndex(2646))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2646)), TypeDefinitionIndex(TypeDefinitionIndex(2645))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2647))
 // CS Name: ::System::ConsoleScreenBufferInfo
 struct CORDL_TYPE ConsoleScreenBufferInfo {

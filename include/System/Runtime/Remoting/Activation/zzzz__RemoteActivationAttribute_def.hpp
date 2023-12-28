@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(RemoteActivationAttribute)
 namespace System::Runtime::Remoting::Contexts {
 class IContextAttribute;
 }
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+namespace System::Collections {
+class IList;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
-namespace System::Collections {
-class IList;
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {

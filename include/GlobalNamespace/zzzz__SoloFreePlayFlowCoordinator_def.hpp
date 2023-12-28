@@ -10,31 +10,28 @@ namespace GlobalNamespace {
 class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
-class RunLevelMenuDestination;
-}
-namespace GlobalNamespace {
-class __SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
-}
-namespace GlobalNamespace {
-class LeaderboardViewController;
-}
-namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
 class PlatformLeaderboardViewController;
+}
+namespace GlobalNamespace {
+class RunLevelMenuDestination;
 }
 namespace GlobalNamespace {
 class ResultsViewController;
 }
 namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
+}
+namespace GlobalNamespace {
+class __SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -43,7 +40,10 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class LeaderboardViewController;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {

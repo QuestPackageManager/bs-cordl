@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LineInfo)
 namespace UnityEngine::TextCore::Text {
-struct Extents;
+struct TextAlignment;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
+struct Extents;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

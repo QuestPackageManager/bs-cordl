@@ -201,39 +201,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::FingerRig::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& RootMotion::FinalIK::FingerRig::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void RootMotion::FinalIK::FingerRig::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::Finger*, ::Array<::RootMotion::FinalIK::Finger*>*>& RootMotion::FinalIK::FingerRig::__get_fingers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fingers;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::Finger*, ::Array<::RootMotion::FinalIK::Finger*>*> const& RootMotion::FinalIK::FingerRig::__get_fingers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fingers;
 }
 constexpr void RootMotion::FinalIK::FingerRig::__set_fingers(::ArrayW<::RootMotion::FinalIK::Finger*, ::Array<::RootMotion::FinalIK::Finger*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fingers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::FingerRig::__get__initiated_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initiated_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::FingerRig::__get__initiated_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initiated_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::FingerRig::__set__initiated_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initiated_k__BackingField = value;
 }
 inline bool RootMotion::FinalIK::FingerRig::get_initiated() {

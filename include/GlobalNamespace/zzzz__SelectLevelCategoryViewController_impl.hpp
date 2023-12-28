@@ -4,10 +4,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
+#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -37,39 +37,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory& GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__get_levelCategory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCategory;
 }
 constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const& GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__get_levelCategory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelCategory;
 }
 constexpr void GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__set_levelCategory(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelCategory = value;
 }
 constexpr ::StringW& GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__get_localizedKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedKey;
 }
 constexpr ::StringW const& GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__get_localizedKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedKey;
 }
 constexpr void GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__set_localizedKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizedKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__get_categoryIcon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___categoryIcon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__get_categoryIcon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___categoryIcon;
 }
 constexpr void GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__set_categoryIcon(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___categoryIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::New_ctor() {
@@ -115,17 +115,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>&
 GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__get_enabledLevelCategories() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabledLevelCategories;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
 GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__get_enabledLevelCategories() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabledLevelCategories;
 }
 constexpr void GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__set_enabledLevelCategories(
     ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enabledLevelCategories)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::New_ctor() {
@@ -383,84 +383,84 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*>&
 GlobalNamespace::SelectLevelCategoryViewController::__get__allLevelCategoryInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allLevelCategoryInfos;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> const&
 GlobalNamespace::SelectLevelCategoryViewController::__get__allLevelCategoryInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allLevelCategoryInfos;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__set__allLevelCategoryInfos(
     ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allLevelCategoryInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::IconSegmentedControl*& GlobalNamespace::SelectLevelCategoryViewController::__get__levelFilterCategoryIconSegmentedControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelFilterCategoryIconSegmentedControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::IconSegmentedControl*> const& GlobalNamespace::SelectLevelCategoryViewController::__get__levelFilterCategoryIconSegmentedControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelFilterCategoryIconSegmentedControl;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__set__levelFilterCategoryIconSegmentedControl(::HMUI::IconSegmentedControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelFilterCategoryIconSegmentedControl)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IAnalyticsModel*& GlobalNamespace::SelectLevelCategoryViewController::__get__analyticsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& GlobalNamespace::SelectLevelCategoryViewController::__get__analyticsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*&
 GlobalNamespace::SelectLevelCategoryViewController::__get_didSelectLevelCategoryEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelCategoryEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
 GlobalNamespace::SelectLevelCategoryViewController::__get_didSelectLevelCategoryEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelCategoryEvent;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__set_didSelectLevelCategoryEvent(
     ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectLevelCategoryEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory& GlobalNamespace::SelectLevelCategoryViewController::__get__prevSelectedLevelCategory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevSelectedLevelCategory;
 }
 constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const& GlobalNamespace::SelectLevelCategoryViewController::__get__prevSelectedLevelCategory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevSelectedLevelCategory;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__set__prevSelectedLevelCategory(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevSelectedLevelCategory = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*>&
 GlobalNamespace::SelectLevelCategoryViewController::__get__levelCategoryInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelCategoryInfos;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> const&
 GlobalNamespace::SelectLevelCategoryViewController::__get__levelCategoryInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelCategoryInfos;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__set__levelCategoryInfos(
     ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelCategoryInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent(

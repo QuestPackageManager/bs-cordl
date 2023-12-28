@@ -4,8 +4,8 @@
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator._ctor
 template <>
@@ -102,15 +102,15 @@ constexpr Mono::Security::X509::__X509CertificateCollection__X509CertificateEnum
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IEnumerator*& Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator::__get_enumerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator::__get_enumerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 constexpr void Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator::__set_enumerator(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator*

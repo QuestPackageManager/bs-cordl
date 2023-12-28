@@ -1,25 +1,25 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DataConvertorWithCustomTypeAndParam_3_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "GlobalNamespace/zzzz__DataItemConvertor_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T, typename TType, typename TParam>
 constexpr ::System::Collections::Generic::Dictionary_2<TType, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>*&
 GlobalNamespace::DataConvertorWithCustomTypeAndParam_3<T, TType, TParam>::__get__convertors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convertors;
 }
 template <typename T, typename TType, typename TParam>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TType, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>*> const&
 GlobalNamespace::DataConvertorWithCustomTypeAndParam_3<T, TType, TParam>::__get__convertors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convertors;
 }
 template <typename T, typename TType, typename TParam>
 constexpr void GlobalNamespace::DataConvertorWithCustomTypeAndParam_3<T, TType, TParam>::__set__convertors(
     ::System::Collections::Generic::Dictionary_2<TType, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____convertors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename TType, typename TParam>

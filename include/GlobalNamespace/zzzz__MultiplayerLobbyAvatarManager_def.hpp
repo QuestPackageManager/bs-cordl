@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarManager)
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarController__Factory;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyAvatarController;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
+}
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarController__Factory;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace System {
 class Object;

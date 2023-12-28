@@ -5,18 +5,18 @@
 #include "System/zzzz__UriKind_impl.hpp"
 #include "System/zzzz__Uri_impl.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__UriFormatException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__ParsingError_def.hpp"
-#include "System/zzzz__UriComponents_def.hpp"
-#include "System/zzzz__UriHostNameType_def.hpp"
+#include "System/zzzz__UriFormatException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__UriFormat_def.hpp"
-#include "System/zzzz__UriKind_def.hpp"
+#include "System/zzzz__ParsingError_def.hpp"
 #include "System/zzzz__UriParser_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__UriHostNameType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__UriComponents_def.hpp"
+#include "System/zzzz__UriKind_def.hpp"
+#include "System/zzzz__UriFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::__Uri__Flags::__Uri__Flags(uint64_t value__) noexcept {
   this->value__ = value__;
@@ -108,75 +108,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::__Uri__UriInfo::__get_Host() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Host;
 }
 constexpr ::StringW const& System::__Uri__UriInfo::__get_Host() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Host;
 }
 constexpr void System::__Uri__UriInfo::__set_Host(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Host)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__Uri__UriInfo::__get_ScopeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ScopeId;
 }
 constexpr ::StringW const& System::__Uri__UriInfo::__get_ScopeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ScopeId;
 }
 constexpr void System::__Uri__UriInfo::__set_ScopeId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ScopeId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__Uri__UriInfo::__get_String() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___String;
 }
 constexpr ::StringW const& System::__Uri__UriInfo::__get_String() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___String;
 }
 constexpr void System::__Uri__UriInfo::__set_String(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___String)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::__Uri__Offset& System::__Uri__UriInfo::__get_Offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Offset;
 }
 constexpr ::System::__Uri__Offset const& System::__Uri__UriInfo::__get_Offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Offset;
 }
 constexpr void System::__Uri__UriInfo::__set_Offset(::System::__Uri__Offset value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Offset = value;
 }
 constexpr ::StringW& System::__Uri__UriInfo::__get_DnsSafeHost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DnsSafeHost;
 }
 constexpr ::StringW const& System::__Uri__UriInfo::__get_DnsSafeHost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DnsSafeHost;
 }
 constexpr void System::__Uri__UriInfo::__set_DnsSafeHost(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DnsSafeHost)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::__Uri__MoreInfo*& System::__Uri__UriInfo::__get_MoreInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoreInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::__Uri__MoreInfo*> const& System::__Uri__UriInfo::__get_MoreInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MoreInfo;
 }
 constexpr void System::__Uri__UriInfo::__set_MoreInfo(::System::__Uri__MoreInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MoreInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::__Uri__UriInfo* System::__Uri__UriInfo::New_ctor() {
@@ -203,75 +203,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::__Uri__MoreInfo::__get_Path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Path;
 }
 constexpr ::StringW const& System::__Uri__MoreInfo::__get_Path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Path;
 }
 constexpr void System::__Uri__MoreInfo::__set_Path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__Uri__MoreInfo::__get_Query() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Query;
 }
 constexpr ::StringW const& System::__Uri__MoreInfo::__get_Query() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Query;
 }
 constexpr void System::__Uri__MoreInfo::__set_Query(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Query)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__Uri__MoreInfo::__get_Fragment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Fragment;
 }
 constexpr ::StringW const& System::__Uri__MoreInfo::__get_Fragment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Fragment;
 }
 constexpr void System::__Uri__MoreInfo::__set_Fragment(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Fragment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__Uri__MoreInfo::__get_AbsoluteUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AbsoluteUri;
 }
 constexpr ::StringW const& System::__Uri__MoreInfo::__get_AbsoluteUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AbsoluteUri;
 }
 constexpr void System::__Uri__MoreInfo::__set_AbsoluteUri(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___AbsoluteUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::__Uri__MoreInfo::__get_Hash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Hash;
 }
 constexpr int32_t const& System::__Uri__MoreInfo::__get_Hash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Hash;
 }
 constexpr void System::__Uri__MoreInfo::__set_Hash(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Hash = value;
 }
 constexpr ::StringW& System::__Uri__MoreInfo::__get_RemoteUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RemoteUrl;
 }
 constexpr ::StringW const& System::__Uri__MoreInfo::__get_RemoteUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RemoteUrl;
 }
 constexpr void System::__Uri__MoreInfo::__set_RemoteUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RemoteUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::__Uri__MoreInfo* System::__Uri__MoreInfo::New_ctor() {
@@ -2094,87 +2094,87 @@ constexpr System::Uri::operator ::System::Runtime::Serialization::ISerializable*
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Uri::__get_m_String() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_String;
 }
 constexpr ::StringW const& System::Uri::__get_m_String() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_String;
 }
 constexpr void System::Uri::__set_m_String(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_String)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Uri::__get_m_originalUnicodeString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_originalUnicodeString;
 }
 constexpr ::StringW const& System::Uri::__get_m_originalUnicodeString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_originalUnicodeString;
 }
 constexpr void System::Uri::__set_m_originalUnicodeString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_originalUnicodeString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::UriParser*& System::Uri::__get_m_Syntax() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Syntax;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::UriParser*> const& System::Uri::__get_m_Syntax() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Syntax;
 }
 constexpr void System::Uri::__set_m_Syntax(::System::UriParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Syntax)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Uri::__get_m_DnsSafeHost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DnsSafeHost;
 }
 constexpr ::StringW const& System::Uri::__get_m_DnsSafeHost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DnsSafeHost;
 }
 constexpr void System::Uri::__set_m_DnsSafeHost(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DnsSafeHost)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::__Uri__Flags& System::Uri::__get_m_Flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr ::System::__Uri__Flags const& System::Uri::__get_m_Flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr void System::Uri::__set_m_Flags(::System::__Uri__Flags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Flags = value;
 }
 constexpr ::System::__Uri__UriInfo*& System::Uri::__get_m_Info() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Info;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::__Uri__UriInfo*> const& System::Uri::__get_m_Info() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Info;
 }
 constexpr void System::Uri::__set_m_Info(::System::__Uri__UriInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Uri::__get_m_iriParsing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_iriParsing;
 }
 constexpr bool const& System::Uri::__get_m_iriParsing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_iriParsing;
 }
 constexpr void System::Uri::__set_m_iriParsing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_iriParsing = value;
 }
 inline void System::Uri::setStaticF_UriSchemeFile(::StringW value) {

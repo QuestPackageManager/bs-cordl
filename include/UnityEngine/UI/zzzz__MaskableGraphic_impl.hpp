@@ -3,14 +3,14 @@
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/UI/zzzz__IMaterialModifier_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/UI/zzzz__IMaskable_def.hpp"
 #include "UnityEngine/UI/zzzz__IClippable_def.hpp"
 #include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/UI/zzzz__IMaterialModifier_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/UI/zzzz__IMaskable_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::__MaskableGraphic__CullStateChangedEvent._ctor
 template <>
@@ -359,123 +359,123 @@ constexpr UnityEngine::UI::MaskableGraphic::operator ::UnityEngine::UI::IMateria
   return static_cast<::UnityEngine::UI::IMaterialModifier*>(static_cast<void*>(this));
 }
 constexpr bool& UnityEngine::UI::MaskableGraphic::__get_m_ShouldRecalculateStencil() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldRecalculateStencil;
 }
 constexpr bool const& UnityEngine::UI::MaskableGraphic::__get_m_ShouldRecalculateStencil() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldRecalculateStencil;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_ShouldRecalculateStencil(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShouldRecalculateStencil = value;
 }
 constexpr ::UnityEngine::Material*& UnityEngine::UI::MaskableGraphic::__get_m_MaskMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& UnityEngine::UI::MaskableGraphic::__get_m_MaskMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskMaterial;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_MaskMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MaskMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::RectMask2D*& UnityEngine::UI::MaskableGraphic::__get_m_ParentMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentMask;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::RectMask2D*> const& UnityEngine::UI::MaskableGraphic::__get_m_ParentMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentMask;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_ParentMask(::UnityEngine::UI::RectMask2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ParentMask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::UI::MaskableGraphic::__get_m_Maskable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Maskable;
 }
 constexpr bool const& UnityEngine::UI::MaskableGraphic::__get_m_Maskable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Maskable;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_Maskable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Maskable = value;
 }
 constexpr bool& UnityEngine::UI::MaskableGraphic::__get_m_IsMaskingGraphic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsMaskingGraphic;
 }
 constexpr bool const& UnityEngine::UI::MaskableGraphic::__get_m_IsMaskingGraphic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsMaskingGraphic;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_IsMaskingGraphic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsMaskingGraphic = value;
 }
 constexpr bool& UnityEngine::UI::MaskableGraphic::__get_m_IncludeForMasking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IncludeForMasking;
 }
 constexpr bool const& UnityEngine::UI::MaskableGraphic::__get_m_IncludeForMasking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IncludeForMasking;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_IncludeForMasking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IncludeForMasking = value;
 }
 constexpr ::UnityEngine::UI::__MaskableGraphic__CullStateChangedEvent*& UnityEngine::UI::MaskableGraphic::__get_m_OnCullStateChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnCullStateChanged;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__MaskableGraphic__CullStateChangedEvent*> const& UnityEngine::UI::MaskableGraphic::__get_m_OnCullStateChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnCullStateChanged;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_OnCullStateChanged(::UnityEngine::UI::__MaskableGraphic__CullStateChangedEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnCullStateChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::UI::MaskableGraphic::__get_m_ShouldRecalculate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldRecalculate;
 }
 constexpr bool const& UnityEngine::UI::MaskableGraphic::__get_m_ShouldRecalculate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldRecalculate;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_ShouldRecalculate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShouldRecalculate = value;
 }
 constexpr int32_t& UnityEngine::UI::MaskableGraphic::__get_m_StencilValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StencilValue;
 }
 constexpr int32_t const& UnityEngine::UI::MaskableGraphic::__get_m_StencilValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StencilValue;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_StencilValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StencilValue = value;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& UnityEngine::UI::MaskableGraphic::__get_m_Corners() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Corners;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& UnityEngine::UI::MaskableGraphic::__get_m_Corners() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Corners;
 }
 constexpr void UnityEngine::UI::MaskableGraphic::__set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Corners)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UI::__MaskableGraphic__CullStateChangedEvent* UnityEngine::UI::MaskableGraphic::get_onCullStateChanged() {

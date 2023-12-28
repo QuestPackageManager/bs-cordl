@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputSystem_def.hpp"
-#include "UnityEngineInternal/Input/zzzz__NativeInputUpdateType_def.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeUpdateCallback_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngineInternal/Input/zzzz__NativeInputUpdateType_def.hpp"
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.get_onDeviceDiscovered
 template <>
 

@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContextAwareResult)
 namespace System::Net {
-struct __ContextAwareResult__StateFlags;
+class __ContextAwareResult____c;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class AsyncCallback;
-}
 namespace System::Net {
-class __ContextAwareResult____c;
+struct __ContextAwareResult__StateFlags;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System::Threading {
 class ContextCallback;
@@ -161,7 +161,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__ContextAwareResul
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9018)), TypeDefinitionIndex(TypeDefinitionIndex(9107))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9107)), TypeDefinitionIndex(TypeDefinitionIndex(9018))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9020))
 // CS Name: ::System.Net::ContextAwareResult*
 class CORDL_TYPE ContextAwareResult : public ::System::Net::LazyAsyncResult {

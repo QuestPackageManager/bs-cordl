@@ -12,13 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapCapture)
 namespace UnityEngine {
-class Cubemap;
+struct Vector3;
 }
 namespace UnityEngine {
-class Camera;
-}
-namespace GlobalNamespace {
-struct __CubemapCapture__ImageType;
+class Cubemap;
 }
 namespace UnityEngine {
 class Texture2D;
@@ -26,8 +23,11 @@ class Texture2D;
 namespace UnityEngine {
 struct CubemapFace;
 }
+namespace GlobalNamespace {
+struct __CubemapCapture__ImageType;
+}
 namespace UnityEngine {
-struct Vector3;
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +99,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CubemapCaptur
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10072)), TypeDefinitionIndex(TypeDefinitionIndex(5829)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6242))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(10072)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5829))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5830)) CS Name: ::CubemapCapture*
 class CORDL_TYPE CubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

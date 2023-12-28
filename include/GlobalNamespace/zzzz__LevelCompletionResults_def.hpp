@@ -10,31 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCompletionResults)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+template <typename T> class INetImmutableSerializable_1;
 }
 namespace GlobalNamespace {
 struct __RankModel__Rank;
 }
+namespace System {
+class Object;
+}
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace System {
 class IComparable;
 }
 namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndStateType;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndAction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -158,8 +158,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelCompleti
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(15018)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15017))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(15018)), TypeDefinitionIndex(TypeDefinitionIndex(15017)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
 class CORDL_TYPE LevelCompletionResults : public ::System::Object {
 public:
   // Declarations

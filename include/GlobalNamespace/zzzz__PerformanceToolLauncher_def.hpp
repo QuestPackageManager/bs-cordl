@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PerformanceToolLauncher)
 namespace GlobalNamespace {
-class MainCamera;
+class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 struct __PerformanceToolLauncher__Config;
 }
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct __PerformanceToolLauncher__OverrideConfig;
 }
 namespace GlobalNamespace {
 class IGamePause;
 }
 namespace GlobalNamespace {
 struct __PerformanceToolLauncher__Assets;
+}
+namespace GlobalNamespace {
+struct __PerformanceToolLauncher__OverrideConfig;
+}
+namespace GlobalNamespace {
+class MainCamera;
 }
 namespace GlobalNamespace {
 class PerformanceVisualizer;
@@ -168,7 +168,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceTo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5948)), TypeDefinitionIndex(TypeDefinitionIndex(5949)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5949)), TypeDefinitionIndex(TypeDefinitionIndex(5948))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5951))
 // CS Name: ::PerformanceToolLauncher*
 class CORDL_TYPE PerformanceToolLauncher : public ::UnityEngine::MonoBehaviour {

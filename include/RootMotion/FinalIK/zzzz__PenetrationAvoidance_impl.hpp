@@ -6,9 +6,9 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__PenetrationAvoidance_def.hpp"
 #include "RootMotion/FinalIK/zzzz__PenetrationAvoidance_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink._ctor
 template <>
 
@@ -25,27 +25,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::__get_effector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effector;
 }
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::__get_effector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effector;
 }
 constexpr void GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::__set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___effector = value;
 }
 constexpr float_t& GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 inline ::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink* GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::New_ctor() {
@@ -121,126 +121,126 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_raycastFrom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastFrom;
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_raycastFrom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastFrom;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_raycastFrom(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___raycastFrom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_raycastTo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastTo;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_raycastTo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastTo;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_raycastTo(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___raycastTo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_raycastRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastRadius;
 }
 constexpr float_t const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_raycastRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastRadius;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_raycastRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___raycastRadius = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*>&
 RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_effectors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectors;
 }
 constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> const&
 RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_effectors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectors;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_effectors(
     ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___effectors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_smoothTimeIn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothTimeIn;
 }
 constexpr float_t const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_smoothTimeIn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothTimeIn;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_smoothTimeIn(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothTimeIn = value;
 }
 constexpr float_t& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_smoothTimeOut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothTimeOut;
 }
 constexpr float_t const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_smoothTimeOut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___smoothTimeOut;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_smoothTimeOut(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___smoothTimeOut = value;
 }
 constexpr ::UnityEngine::LayerMask& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_layers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layers;
 }
 constexpr ::UnityEngine::LayerMask const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_layers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layers;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_layers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layers = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_offset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_offsetTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetTarget;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_offsetTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetTarget;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_offsetTarget(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offsetTarget = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_offsetV() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetV;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__get_offsetV() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsetV;
 }
 constexpr void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::__set_offsetV(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offsetV = value;
 }
 inline void RootMotion::FinalIK::__PenetrationAvoidance__Avoider::Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight) {
@@ -303,17 +303,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*>&
 RootMotion::FinalIK::PenetrationAvoidance::__get_avoiders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___avoiders;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> const&
 RootMotion::FinalIK::PenetrationAvoidance::__get_avoiders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___avoiders;
 }
 constexpr void
 RootMotion::FinalIK::PenetrationAvoidance::__set_avoiders(::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___avoiders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::PenetrationAvoidance::OnModifyOffset() {

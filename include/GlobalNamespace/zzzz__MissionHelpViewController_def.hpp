@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionHelpViewController)
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class __MissionHelpViewController__MissionHelpGameObjectPair;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class __MissionHelpViewController__MissionHelpGameObjectPair;
-}
-namespace GlobalNamespace {
 class MissionHelpSO;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class GameObject;

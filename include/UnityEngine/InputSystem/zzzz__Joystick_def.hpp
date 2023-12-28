@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Joystick)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class StickControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

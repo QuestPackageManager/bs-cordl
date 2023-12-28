@@ -1,11 +1,11 @@
 #pragma once
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNumber_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
 //  Writing Method size for method: ::OVRSimpleJSON::JSONNumber.get_Tag
 template <>
 
@@ -219,15 +219,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr double_t& OVRSimpleJSON::JSONNumber::__get_m_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr double_t const& OVRSimpleJSON::JSONNumber::__get_m_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr void OVRSimpleJSON::JSONNumber::__set_m_Data(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Data = value;
 }
 inline ::OVRSimpleJSON::JSONNodeType OVRSimpleJSON::JSONNumber::get_Tag() {

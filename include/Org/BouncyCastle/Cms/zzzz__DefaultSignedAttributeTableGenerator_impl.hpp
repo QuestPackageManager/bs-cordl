@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Cms/zzzz__DefaultSignedAttributeTableGenerator_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator._ctor
 template <>
 
@@ -89,15 +89,15 @@ constexpr Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::operator
   return static_cast<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::__get_table() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___table;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::__get_table() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___table;
 }
 constexpr void Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::__set_table(::System::Collections::IDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator* Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::New_ctor() {

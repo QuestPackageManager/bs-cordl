@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ChannelServices)
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Runtime::Remoting::Channels {
+class IChannel;
+}
 namespace System::Runtime::Remoting::Channels {
 class IChannelSender;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Runtime::Remoting::Contexts {
+class CrossContextChannel;
 }
 namespace System {
 class Object;
 }
-namespace System::Runtime::Remoting::Channels {
-class IChannel;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Runtime::Remoting {
 class ChannelData;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System::Runtime::Remoting {
 class ProviderData;
 }
 namespace System::Runtime::Remoting::Messaging {
 class ReturnMessage;
-}
-namespace System::Runtime::Remoting::Contexts {
-class CrossContextChannel;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

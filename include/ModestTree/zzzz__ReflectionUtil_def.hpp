@@ -5,53 +5,53 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReflectionUtil)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System {
-class Array;
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class Array;
 }
 namespace System {
 class Type;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

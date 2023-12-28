@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ResolveEventHandler_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ResolveEventArgs_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 //  Writing Method size for method: ::System::ResolveEventHandler._ctor
 template <>
 

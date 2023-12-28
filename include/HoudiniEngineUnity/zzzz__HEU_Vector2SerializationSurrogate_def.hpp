@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_Vector2SerializationSurrogate)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

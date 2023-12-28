@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rect)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IFormattable;
-}
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

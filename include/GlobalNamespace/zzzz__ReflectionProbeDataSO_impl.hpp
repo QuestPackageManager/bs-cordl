@@ -74,27 +74,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Cubemap*& GlobalNamespace::ReflectionProbeDataSO::__get__reflectionProbeCubemap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeCubemap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Cubemap*> const& GlobalNamespace::ReflectionProbeDataSO::__get__reflectionProbeCubemap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeCubemap1;
 }
 constexpr void GlobalNamespace::ReflectionProbeDataSO::__set__reflectionProbeCubemap1(::UnityEngine::Cubemap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reflectionProbeCubemap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Cubemap*& GlobalNamespace::ReflectionProbeDataSO::__get__reflectionProbeCubemap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeCubemap2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Cubemap*> const& GlobalNamespace::ReflectionProbeDataSO::__get__reflectionProbeCubemap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeCubemap2;
 }
 constexpr void GlobalNamespace::ReflectionProbeDataSO::__set__reflectionProbeCubemap2(::UnityEngine::Cubemap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reflectionProbeCubemap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Cubemap* GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1() {

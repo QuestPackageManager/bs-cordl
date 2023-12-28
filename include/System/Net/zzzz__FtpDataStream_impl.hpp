@@ -1,15 +1,15 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__FtpDataStream_def.hpp"
-#include "System/Net/zzzz__FtpWebRequest_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/zzzz__CloseExState_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__ICloseEx_def.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__FtpWebRequest_def.hpp"
 #include "System/Net/zzzz__TriState_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::FtpDataStream._ctor
 template <>
 
@@ -386,75 +386,75 @@ constexpr System::Net::FtpDataStream::operator ::System::Net::ICloseEx*() noexce
   return static_cast<::System::Net::ICloseEx*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::FtpWebRequest*& System::Net::FtpDataStream::__get__request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpWebRequest*> const& System::Net::FtpDataStream::__get__request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____request;
 }
 constexpr void System::Net::FtpDataStream::__set__request(::System::Net::FtpWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::NetworkStream*& System::Net::FtpDataStream::__get__networkStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& System::Net::FtpDataStream::__get__networkStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkStream;
 }
 constexpr void System::Net::FtpDataStream::__set__networkStream(::System::Net::Sockets::NetworkStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::FtpDataStream::__get__writeable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeable;
 }
 constexpr bool const& System::Net::FtpDataStream::__get__writeable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeable;
 }
 constexpr void System::Net::FtpDataStream::__set__writeable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____writeable = value;
 }
 constexpr bool& System::Net::FtpDataStream::__get__readable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readable;
 }
 constexpr bool const& System::Net::FtpDataStream::__get__readable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readable;
 }
 constexpr void System::Net::FtpDataStream::__set__readable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____readable = value;
 }
 constexpr bool& System::Net::FtpDataStream::__get__isFullyRead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFullyRead;
 }
 constexpr bool const& System::Net::FtpDataStream::__get__isFullyRead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFullyRead;
 }
 constexpr void System::Net::FtpDataStream::__set__isFullyRead(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isFullyRead = value;
 }
 constexpr bool& System::Net::FtpDataStream::__get__closing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closing;
 }
 constexpr bool const& System::Net::FtpDataStream::__get__closing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closing;
 }
 constexpr void System::Net::FtpDataStream::__set__closing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____closing = value;
 }
 inline ::System::Net::FtpDataStream* System::Net::FtpDataStream::New_ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request,

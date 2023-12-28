@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(SurrogateSelector)
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SurrogateHashtable;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

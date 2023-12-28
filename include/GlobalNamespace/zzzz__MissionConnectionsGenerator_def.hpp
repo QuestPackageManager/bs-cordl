@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionConnectionsGenerator)
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MissionNodesManager;
-}
 namespace GlobalNamespace {
 class MissionNode;
 }
@@ -18,6 +12,12 @@ template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class MissionNodeConnection;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

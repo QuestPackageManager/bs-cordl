@@ -5,38 +5,38 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(V2AttributeCertificateInfoGenerator)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttCertIssuer;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Holder;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeCertificateInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeX509;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
+class AttributeCertificateInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttCertIssuer;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Holder;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

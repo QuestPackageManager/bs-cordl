@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseSlider_1)
 namespace UnityEngine::UIElements {
+class TextField;
+}
+namespace UnityEngine::UIElements {
 template <typename T> class ClampedDragger_1;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-template <typename TValueType> struct __BaseSlider_1__SliderKey;
 }
 namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-class TextField;
+template <typename TValueType> struct __BaseSlider_1__SliderKey;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class FocusOutEvent;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+class FocusOutEvent;
 }
 namespace UnityEngine::UIElements {
 struct SliderDirection;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,7 +56,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 }), TypeDefinitionIndex(TypeDefinitionIndex(7100))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7100))
 // CS Name: ::BaseSlider`1::SliderKey<TValueType>
 struct CORDL_TYPE __BaseSlider_1__SliderKey {
@@ -124,8 +124,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(7099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name: ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(7099)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name:
+// ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
 class CORDL_TYPE BaseSlider_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
   // Declarations

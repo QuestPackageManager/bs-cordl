@@ -7,14 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityTlsProvider)
-namespace System::Net::Security {
-struct SslPolicyErrors;
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509verify_result;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509_ref;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_errorstate;
+}
+namespace Mono::Net::Security {
+class ChainValidationHelper;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System {
+struct Guid;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
 }
 namespace System::Net::Security {
 class SslStream;
@@ -22,29 +40,11 @@ class SslStream;
 namespace System::IO {
 class Stream;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_errorstate;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace System {
-struct Guid;
-}
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509_ref;
-}
-namespace Mono::Net::Security {
-class ChainValidationHelper;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 // Forward declare root types
 namespace Mono::Unity {

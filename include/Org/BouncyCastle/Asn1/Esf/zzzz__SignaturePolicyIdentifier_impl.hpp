@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__SignaturePolicyIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Esf/zzzz__SignaturePolicyId_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Esf/zzzz__SignaturePolicyId_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier.GetInstance
 template <>
 
@@ -86,15 +86,15 @@ constexpr Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::operator ::Or
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*& Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::__get_sigPolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicy;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*> const& Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::__get_sigPolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicy;
 }
 constexpr void Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::__set_sigPolicy(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sigPolicy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::GetInstance(::System::Object* obj) {

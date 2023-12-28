@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed25519)
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+struct __Ed25519__Algorithm;
+}
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class __Ed25519__PointAccum;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class __Ed25519__PointExt;
@@ -18,15 +27,6 @@ class IDigest;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class __Ed25519__PointPrecomp;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-struct __Ed25519__Algorithm;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {

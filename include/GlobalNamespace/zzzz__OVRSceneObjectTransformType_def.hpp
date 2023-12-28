@@ -76,7 +76,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneObjec
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7972)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7972))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7973))
 // CS Name: ::OVRSceneObjectTransformType*
 class CORDL_TYPE OVRSceneObjectTransformType : public ::UnityEngine::MonoBehaviour {

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs8Generator)
 namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObjectGenerator;
+class PemObject;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkConfigSO)
 namespace GlobalNamespace {
+class DnsEndPoint;
+}
+namespace GlobalNamespace {
 struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
-}
-namespace GlobalNamespace {
-class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {

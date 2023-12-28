@@ -8,6 +8,21 @@ CORDL_MODULE_EXPORT(EnvironmentInfoSO)
 namespace GlobalNamespace {
 class EnvironmentIntensityReductionOptions;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace BeatmapSaveDataVersion3 {
+class BeatmapLightshowSaveData;
+}
+namespace GlobalNamespace {
+class EnvironmentSizeData;
+}
+namespace GlobalNamespace {
+class SceneInfo;
+}
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
@@ -15,25 +30,10 @@ namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
-class EnvironmentSizeData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class DefaultEnvironmentEvents;
 }
 namespace GlobalNamespace {
 class EnvironmentLightGroups;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace BeatmapSaveDataVersion3 {
-class BeatmapLightshowSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "GlobalNamespace/zzzz__CrossFadeAudioSource_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData._ctor
 template <>
@@ -29,51 +29,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_audioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_audioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
 constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__set_audioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__set_startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_songTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_songTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
 constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__set_songTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_timeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_timeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
 constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__set_timeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeScale = value;
 }
 inline ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*
@@ -308,161 +308,161 @@ constexpr GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::ope
   return static_cast<::GlobalNamespace::IStartSeekSongController*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::CrossFadeAudioSource*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CrossFadeAudioSource*> const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__audioSource(::GlobalNamespace::CrossFadeAudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__audioLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__audioLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__audioLatency(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*> const&
 GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__initData(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__multiplayerSessionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
 GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__multiplayerSessionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__timeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeScale;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__timeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeScale;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__timeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeScale = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongTime;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongTime;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__songTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__songTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__songTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__songTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__songTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__songTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTime = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__audioStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioStarted;
 }
 constexpr bool const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__audioStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioStarted;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__audioStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioStarted = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__currentObservableIsFailed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentObservableIsFailed;
 }
 constexpr bool const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__currentObservableIsFailed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentObservableIsFailed;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__currentObservableIsFailed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentObservableIsFailed = value;
 }
 constexpr ::GlobalNamespace::IMultiplayerObservable*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__observable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____observable;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerObservable*> const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__observable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____observable;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__observable(::GlobalNamespace::IMultiplayerObservable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____observable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__lastLatencyOffsetTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastLatencyOffsetTime;
 }
 constexpr int64_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__get__lastLatencyOffsetTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastLatencyOffsetTime;
 }
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__set__lastLatencyOffsetTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastLatencyOffsetTime = value;
 }
 inline ::UnityEngine::WaitUntil* GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_waitUntilIsReadyToStartTheSong() {

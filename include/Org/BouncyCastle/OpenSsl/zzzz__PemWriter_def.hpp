@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PemWriter)
-namespace System::IO {
-class TextWriter;
-}
 namespace System {
 class Object;
+}
+namespace System::IO {
+class TextWriter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

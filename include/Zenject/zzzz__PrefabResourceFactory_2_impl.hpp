@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabResourceFactory_2_def.hpp"
+#include "Zenject/zzzz__IFactory_3_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IFactory_3_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_3<::StringW,P1,T>"
 template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1, T>::operator ::Zenject::IFactory_3<::StringW, P1, T>*() noexcept {
   return static_cast<::Zenject::IFactory_3<::StringW, P1, T>*>(static_cast<void*>(this));
@@ -15,15 +15,15 @@ template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename P1, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabResourceFactory_2<P1, T>::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 template <typename P1, typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::PrefabResourceFactory_2<P1, T>::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 template <typename P1, typename T> constexpr void Zenject::PrefabResourceFactory_2<P1, T>::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename P1, typename T> inline ::Zenject::DiContainer* Zenject::PrefabResourceFactory_2<P1, T>::get_Container() {

@@ -9,8 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextNativeHandle)
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::TextCore::Text {
+class TextInfo;
 }
 namespace UnityEngine::UIElements {
 struct CursorPositionStylePainterParameters;
@@ -18,17 +18,17 @@ struct CursorPositionStylePainterParameters;
 namespace UnityEngine::UIElements {
 class ITextHandle;
 }
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct TextVertex;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__TextParams;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -40,8 +40,9 @@ MARK_VAL_T(::UnityEngine::UIElements::TextNativeHandle);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15377)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 749 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7146)) CS Name: ::UnityEngine.UIElements::TextNativeHandle
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 749 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15377))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7146)) CS Name:
+// ::UnityEngine.UIElements::TextNativeHandle
 struct CORDL_TYPE TextNativeHandle {
 public:
   // Declarations

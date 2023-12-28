@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mirror)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class MirrorRendererSO;
-}
 namespace UnityEngine {
 class MeshRenderer;
 }
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine {
 class Material;
+}
+namespace GlobalNamespace {
+class MirrorRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,15 +2,15 @@
 #include "GlobalNamespace/zzzz__OrderedSet_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__OrderedSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T>::__OrderedSet_1__ProcessOrder(int32_t value__) noexcept {
   this->value__ = value__;
@@ -21,63 +21,63 @@ template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> GlobalNamespace::__OrderedSet_1__ProcessOrder<T>::Fifo{ static_cast<int32_t>(0x1) };
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> GlobalNamespace::__OrderedSet_1__ProcessOrder<T>::DontCare{ static_cast<int32_t>(0x2) };
 template <typename T> constexpr T& GlobalNamespace::__OrderedSet_1__Node<T>::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename T> constexpr T const& GlobalNamespace::__OrderedSet_1__Node<T>::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1__Node<T>::__set_value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& GlobalNamespace::__OrderedSet_1__Node<T>::__get_previous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previous;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& GlobalNamespace::__OrderedSet_1__Node<T>::__get_previous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previous;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1__Node<T>::__set_previous(::GlobalNamespace::__OrderedSet_1__Node<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& GlobalNamespace::__OrderedSet_1__Node<T>::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& GlobalNamespace::__OrderedSet_1__Node<T>::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1__Node<T>::__set_next(::GlobalNamespace::__OrderedSet_1__Node<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& GlobalNamespace::__OrderedSet_1__Node<T>::__get_isRemoved() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRemoved;
 }
 template <typename T> constexpr bool const& GlobalNamespace::__OrderedSet_1__Node<T>::__get_isRemoved() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRemoved;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1__Node<T>::__set_isRemoved(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isRemoved = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__OrderedSet_1__Node<T>::__get_clearCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__OrderedSet_1__Node<T>::__get_clearCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearCount;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1__Node<T>::__set_clearCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clearCount = value;
 }
 template <typename T> inline ::GlobalNamespace::__OrderedSet_1__Node<T>* GlobalNamespace::__OrderedSet_1__Node<T>::New_ctor(T value, int32_t clearCount) {
@@ -104,52 +104,52 @@ template <typename T> constexpr GlobalNamespace::__OrderedSet_1___GetEnumerator_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T> constexpr T& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr T const& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__set___2__current(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::OrderedSet_1<T>*& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OrderedSet_1<T>*> const& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__set___4__this(::GlobalNamespace::OrderedSet_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get__next_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next_5__2;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__get__next_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next_5__2;
 }
 template <typename T> constexpr void GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::__set__next_5__2(::GlobalNamespace::__OrderedSet_1__Node<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>* GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>::New_ctor(int32_t __1__state) {
@@ -198,77 +198,77 @@ template <typename T> constexpr GlobalNamespace::OrderedSet_1<T>::operator ::Sys
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Comparison_1<T>*& GlobalNamespace::OrderedSet_1<T>::__get__comparison() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparison;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<T>*> const& GlobalNamespace::OrderedSet_1<T>::__get__comparison() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparison;
 }
 template <typename T> constexpr void GlobalNamespace::OrderedSet_1<T>::__set__comparison(::System::Comparison_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparison)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T>& GlobalNamespace::OrderedSet_1<T>::__get__processOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____processOrder;
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const& GlobalNamespace::OrderedSet_1<T>::__get__processOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____processOrder;
 }
 template <typename T> constexpr void GlobalNamespace::OrderedSet_1<T>::__set__processOrder(::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____processOrder = value;
 }
 template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>*& GlobalNamespace::OrderedSet_1<T>::__get__sortIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndices;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>*> const&
 GlobalNamespace::OrderedSet_1<T>::__get__sortIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndices;
 }
 template <typename T> constexpr void GlobalNamespace::OrderedSet_1<T>::__set__sortIndices(::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sortIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& GlobalNamespace::OrderedSet_1<T>::__get__head() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____head;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& GlobalNamespace::OrderedSet_1<T>::__get__head() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____head;
 }
 template <typename T> constexpr void GlobalNamespace::OrderedSet_1<T>::__set__head(::GlobalNamespace::__OrderedSet_1__Node<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& GlobalNamespace::OrderedSet_1<T>::__get__tail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tail;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& GlobalNamespace::OrderedSet_1<T>::__get__tail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tail;
 }
 template <typename T> constexpr void GlobalNamespace::OrderedSet_1<T>::__set__tail(::GlobalNamespace::__OrderedSet_1__Node<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tail)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::OrderedSet_1<T>::__get__clearCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::OrderedSet_1<T>::__get__clearCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clearCount;
 }
 template <typename T> constexpr void GlobalNamespace::OrderedSet_1<T>::__set__clearCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clearCount = value;
 }
 template <typename T> inline int32_t GlobalNamespace::OrderedSet_1<T>::get_count() {

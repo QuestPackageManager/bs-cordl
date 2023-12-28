@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(CscaMasterList)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
 }
 namespace System {
 class Object;

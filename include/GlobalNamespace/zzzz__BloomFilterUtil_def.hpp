@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomFilterUtil)
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass2_0_1;
+template <typename T> class __BloomFilterUtil____c__DisplayClass1_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass1_0_1;
+template <typename T> class __BloomFilterUtil____c__DisplayClass2_0_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

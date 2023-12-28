@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ITextInputField.get_hasFocus
 template <>

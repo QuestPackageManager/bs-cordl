@@ -66,15 +66,15 @@ constexpr Org::BouncyCastle::Crypto::SimpleBlockResult::operator ::Org::BouncyCa
   return static_cast<::Org::BouncyCastle::Crypto::IBlockResult*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::SimpleBlockResult::__get_result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::SimpleBlockResult::__get_result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 constexpr void Org::BouncyCastle::Crypto::SimpleBlockResult::__set_result(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___result)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::SimpleBlockResult* Org::BouncyCastle::Crypto::SimpleBlockResult::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result) {

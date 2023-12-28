@@ -1,18 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
 template <typename T> constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::__get__callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallback_1<T>*> const& GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::__get__callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 template <typename T> constexpr void GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::__set__callback(::GlobalNamespace::BeatmapDataCallback_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

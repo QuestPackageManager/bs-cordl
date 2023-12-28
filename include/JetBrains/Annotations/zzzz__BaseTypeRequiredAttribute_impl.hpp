@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& JetBrains::Annotations::BaseTypeRequiredAttribute::__get__BaseType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BaseType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& JetBrains::Annotations::BaseTypeRequiredAttribute::__get__BaseType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BaseType_k__BackingField;
 }
 constexpr void JetBrains::Annotations::BaseTypeRequiredAttribute::__set__BaseType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BaseType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::JetBrains::Annotations::BaseTypeRequiredAttribute* JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor(::System::Type* baseType) {

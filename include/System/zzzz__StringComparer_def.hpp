@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringComparer)
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace System {
-class OrdinalCaseSensitiveComparer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace System {
 class CultureAwareComparer;
 }
 namespace System {
 class OrdinalIgnoreCaseComparer;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System {
+class OrdinalCaseSensitiveComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {

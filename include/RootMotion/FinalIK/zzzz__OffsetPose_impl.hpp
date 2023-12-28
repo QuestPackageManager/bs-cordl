@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__OffsetPose__EffectorLink.Apply
 template <>
 
@@ -39,51 +39,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_effector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effector;
 }
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_effector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effector;
 }
 constexpr void RootMotion::FinalIK::__OffsetPose__EffectorLink::__set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___effector = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void RootMotion::FinalIK::__OffsetPose__EffectorLink::__set_offset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_pin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pin;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_pin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pin;
 }
 constexpr void RootMotion::FinalIK::__OffsetPose__EffectorLink::__set_pin(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pin = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_pinWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pinWeight;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__OffsetPose__EffectorLink::__get_pinWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pinWeight;
 }
 constexpr void RootMotion::FinalIK::__OffsetPose__EffectorLink::__set_pinWeight(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pinWeight = value;
 }
 inline void RootMotion::FinalIK::__OffsetPose__EffectorLink::Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, ::UnityEngine::Quaternion rotation) {
@@ -151,16 +151,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*>& RootMotion::FinalIK::OffsetPose::__get_effectorLinks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectorLinks;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> const&
 RootMotion::FinalIK::OffsetPose::__get_effectorLinks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectorLinks;
 }
 constexpr void RootMotion::FinalIK::OffsetPose::__set_effectorLinks(::ArrayW<::RootMotion::FinalIK::__OffsetPose__EffectorLink*, ::Array<::RootMotion::FinalIK::__OffsetPose__EffectorLink*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___effectorLinks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::OffsetPose::Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight) {

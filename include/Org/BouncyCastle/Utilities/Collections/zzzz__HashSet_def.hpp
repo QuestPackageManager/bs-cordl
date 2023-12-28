@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

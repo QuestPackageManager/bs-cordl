@@ -10,58 +10,58 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LevelSelectionFlowCoordinator)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class LevelSearchViewController;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace GlobalNamespace {
 class SearchFilterParamsViewController;
 }
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+struct __SelectLevelCategoryViewController__LevelCategory;
+}
 namespace HMUI {
 struct __ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class __LevelSelectionFlowCoordinator__State;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController__ContentType;
+}
+namespace GlobalNamespace {
+struct LevelFilter;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class LevelSelectionNavigationController;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct __SelectLevelCategoryViewController__LevelCategory;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController__ContentType;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-class __LevelSelectionFlowCoordinator__State;
-}
-namespace GlobalNamespace {
-class LevelSearchViewController;
-}
-namespace GlobalNamespace {
-struct LevelFilter;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -80,8 +80,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelSelectionFlowCoordinator__State);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5674)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4779 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5500)) CS Name: ::LevelSelectionFlowCoordinator::State*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4779
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5500)) CS Name: ::LevelSelectionFlowCoordinator::State*
 class CORDL_TYPE __LevelSelectionFlowCoordinator__State : public ::System::Object {
 public:
   // Declarations

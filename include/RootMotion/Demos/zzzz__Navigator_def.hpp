@@ -11,16 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Navigator)
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace UnityEngine::AI {
+class NavMeshPath;
 }
 namespace RootMotion::Demos {
 struct __Navigator__State;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::AI {
-class NavMeshPath;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::Demos {
@@ -88,7 +88,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::Demos::__Navigator__
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::Demos {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12504)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12504))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12505))
 // CS Name: ::RootMotion.Demos::Navigator*
 class CORDL_TYPE Navigator : public ::System::Object {

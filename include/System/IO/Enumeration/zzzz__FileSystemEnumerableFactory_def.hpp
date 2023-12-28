@@ -7,29 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileSystemEnumerableFactory)
-namespace System::IO::Enumeration {
-class __FileSystemEnumerableFactory____c__DisplayClass7_0;
-}
-namespace System::IO::Enumeration {
-class __FileSystemEnumerableFactory____c__DisplayClass3_0;
-}
-namespace System::IO::Enumeration {
-class __FileSystemEnumerableFactory____c__DisplayClass4_0;
-}
-namespace System::IO {
-class EnumerationOptions;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::IO {
-class FileInfo;
-}
-namespace System::IO::Enumeration {
-class __FileSystemEnumerableFactory____c__DisplayClass8_0;
-}
-namespace System::IO {
-class DirectoryInfo;
 }
 namespace System::IO {
 class FileSystemInfo;
@@ -37,14 +16,35 @@ class FileSystemInfo;
 namespace System::IO::Enumeration {
 class __FileSystemEnumerableFactory____c__DisplayClass5_0;
 }
+namespace System::IO::Enumeration {
+class __FileSystemEnumerableFactory____c__DisplayClass6_0;
+}
+namespace System::IO::Enumeration {
+class __FileSystemEnumerableFactory____c__DisplayClass8_0;
+}
+namespace System::IO::Enumeration {
+class __FileSystemEnumerableFactory____c__DisplayClass4_0;
+}
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::IO {
+class FileInfo;
+}
+namespace System::IO {
+class DirectoryInfo;
+}
+namespace System::IO::Enumeration {
+class __FileSystemEnumerableFactory____c__DisplayClass3_0;
 }
 namespace System::IO::Enumeration {
 class __FileSystemEnumerableFactory____c;
 }
 namespace System::IO::Enumeration {
-class __FileSystemEnumerableFactory____c__DisplayClass6_0;
+class __FileSystemEnumerableFactory____c__DisplayClass7_0;
+}
+namespace System::IO {
+class EnumerationOptions;
 }
 namespace System::IO::Enumeration {
 template <typename TResult> class __FileSystemEnumerable_1__FindTransform;

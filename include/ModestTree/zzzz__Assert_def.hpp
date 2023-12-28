@@ -8,6 +8,15 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Assert)
 namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
 class Exception;
 }
 namespace System::Collections::Generic {
@@ -18,15 +27,6 @@ class Action;
 }
 namespace Zenject {
 class ZenjectException;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;

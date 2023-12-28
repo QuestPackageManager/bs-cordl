@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MonoInstallerBase)
-namespace System {
-class Object;
-}
 namespace Zenject {
 class IInstaller;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;

@@ -6,53 +6,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkStream)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct Span_1;
+template <typename TResult> struct ValueTask_1;
 }
 namespace System::IO {
 struct SeekOrigin;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class IAsyncResult;
 }
+namespace System::IO {
+struct FileAccess;
+}
+namespace System {
+class Object;
+}
 namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
+struct ValueTask;
+}
+namespace System::Net::Sockets {
+struct SocketShutdown;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Memory_1;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Net::Sockets {
-struct SocketShutdown;
+namespace System {
+class AsyncCallback;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
 }
 // Forward declare root types
 namespace System::Net::Sockets {

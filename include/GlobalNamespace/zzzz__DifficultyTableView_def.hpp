@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DifficultyTableView)
-namespace GlobalNamespace {
-class DifficultyTableCell;
-}
-namespace HMUI {
-class TableView;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class TableCell;
 }
 namespace HMUI {
-class TableCell;
+class TableView;
+}
+namespace GlobalNamespace {
+class DifficultyTableCell;
+}
+namespace HMUI {
+class __TableView__IDataSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

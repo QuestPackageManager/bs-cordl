@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Tweening/zzzz__Tween_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Tween_1)
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace Tweening {

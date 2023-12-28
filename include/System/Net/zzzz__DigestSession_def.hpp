@@ -7,20 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestSession)
+namespace System {
+struct DateTime;
+}
 namespace System::Security::Cryptography {
 class HashAlgorithm;
 }
 namespace System::Net {
-class DigestHeaderParser;
-}
-namespace System::Net {
-class WebRequest;
-}
-namespace System::Net {
-class Authorization;
-}
-namespace System::Net {
 class HttpWebRequest;
+}
+namespace System::Net {
+class DigestHeaderParser;
 }
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
@@ -28,8 +25,11 @@ class RandomNumberGenerator;
 namespace System::Net {
 class ICredentials;
 }
-namespace System {
-struct DateTime;
+namespace System::Net {
+class WebRequest;
+}
+namespace System::Net {
+class Authorization;
 }
 // Forward declare root types
 namespace System::Net {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Net::DigestSession);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9160))
 // CS Name: ::System.Net::DigestSession*
 class CORDL_TYPE DigestSession : public ::System::Object {

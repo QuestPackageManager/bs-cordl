@@ -121,27 +121,27 @@ constexpr Polyglot::LocalizedTextMesh::operator ::Polyglot::ILocalize*() noexcep
   return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::TextMesh*& Polyglot::LocalizedTextMesh::__get_text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextMesh*> const& Polyglot::LocalizedTextMesh::__get_text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
 constexpr void Polyglot::LocalizedTextMesh::__set_text(::UnityEngine::TextMesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Polyglot::LocalizedTextMesh::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::StringW const& Polyglot::LocalizedTextMesh::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void Polyglot::LocalizedTextMesh::__set_key(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW Polyglot::LocalizedTextMesh::get_Key() {

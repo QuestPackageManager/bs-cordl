@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameObjectSwitchEventEffect)
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
-namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;

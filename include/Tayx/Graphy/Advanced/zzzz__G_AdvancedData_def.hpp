@@ -8,26 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(G_AdvancedData)
-namespace UnityEngine {
-class RectTransform;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 namespace UnityEngine::UI {
 class Image;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
+struct __GraphyManager__ModulePosition;
 }
 namespace Tayx::Graphy::UI {
 class IMovable;
@@ -35,8 +29,14 @@ class IMovable;
 namespace Tayx::Graphy::UI {
 class IModifiableState;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class Text;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Advanced {

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(X509ChainElementEnumerator)
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

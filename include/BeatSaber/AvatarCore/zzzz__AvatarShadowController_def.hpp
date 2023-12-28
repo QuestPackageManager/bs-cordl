@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AvatarShadowController)
 namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarController;
 }
 namespace UnityEngine {
-class Transform;
+class SpriteRenderer;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

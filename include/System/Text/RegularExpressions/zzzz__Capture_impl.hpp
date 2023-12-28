@@ -163,39 +163,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::RegularExpressions::Capture::__get__Index_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Index_k__BackingField;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Capture::__get__Index_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Index_k__BackingField;
 }
 constexpr void System::Text::RegularExpressions::Capture::__set__Index_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Index_k__BackingField = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::Capture::__get__Length_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Length_k__BackingField;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Capture::__get__Length_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Length_k__BackingField;
 }
 constexpr void System::Text::RegularExpressions::Capture::__set__Length_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Length_k__BackingField = value;
 }
 constexpr ::StringW& System::Text::RegularExpressions::Capture::__get__Text_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Text_k__BackingField;
 }
 constexpr ::StringW const& System::Text::RegularExpressions::Capture::__get__Text_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Text_k__BackingField;
 }
 constexpr void System::Text::RegularExpressions::Capture::__set__Text_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Text_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Text::RegularExpressions::Capture* System::Text::RegularExpressions::Capture::New_ctor(::StringW text, int32_t index, int32_t length) {

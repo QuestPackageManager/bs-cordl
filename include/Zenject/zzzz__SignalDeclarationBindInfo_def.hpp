@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalDeclarationBindInfo)
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
 }
 namespace Zenject {
 struct SignalMissingHandlerResponses;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

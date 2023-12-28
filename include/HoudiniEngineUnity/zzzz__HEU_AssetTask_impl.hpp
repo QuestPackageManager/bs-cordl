@@ -3,13 +3,13 @@
 #include "HoudiniEngineUnity/zzzz__HEU_Task_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetTask_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetTask_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType::__HEU_AssetTask__BuildType(int32_t value__) noexcept {
@@ -139,75 +139,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType& HoudiniEngineUnity::HEU_AssetTask::__get__buildType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildType;
 }
 constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType const& HoudiniEngineUnity::HEU_AssetTask::__get__buildType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildType;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetTask::__set__buildType(::HoudiniEngineUnity::__HEU_AssetTask__BuildType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____buildType = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& HoudiniEngineUnity::HEU_AssetTask::__get__asset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asset;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& HoudiniEngineUnity::HEU_AssetTask::__get__asset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asset;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetTask::__set__asset(::HoudiniEngineUnity::HEU_HoudiniAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____asset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_AssetTask::__get__assetPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_AssetTask::__get__assetPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetPath;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetTask::__set__assetPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_AssetTask::__get__position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_AssetTask::__get__position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetTask::__set__position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_AssetTask::__get__buildResult() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildResult;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_AssetTask::__get__buildResult() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildResult;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetTask::__set__buildResult(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____buildResult = value;
 }
 constexpr int64_t& HoudiniEngineUnity::HEU_AssetTask::__get__forceSessionID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceSessionID;
 }
 constexpr int64_t const& HoudiniEngineUnity::HEU_AssetTask::__get__forceSessionID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceSessionID;
 }
 constexpr void HoudiniEngineUnity::HEU_AssetTask::__set__forceSessionID(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceSessionID = value;
 }
 inline ::HoudiniEngineUnity::HEU_SessionBase* HoudiniEngineUnity::HEU_AssetTask::GetTaskSession() {

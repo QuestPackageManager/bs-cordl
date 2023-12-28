@@ -9,22 +9,22 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IMemoryPool_8;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IFactory_8;
+class IMemoryPool;
 }
 namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-class IMemoryPool;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class IFactory;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class IFactory_8;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IFactory;
 }
 // Forward declare root types
 namespace Zenject {

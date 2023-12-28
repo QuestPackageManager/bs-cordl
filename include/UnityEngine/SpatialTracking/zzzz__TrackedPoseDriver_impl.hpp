@@ -4,11 +4,11 @@
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/Experimental/XR/Interaction/zzzz__BasePoseProvider_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataFlags_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__DeviceType::__TrackedPoseDriver__DeviceType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -507,88 +507,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__DeviceType& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_Device() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Device;
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__DeviceType const& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_Device() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Device;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_Device(::UnityEngine::SpatialTracking::__TrackedPoseDriver__DeviceType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Device = value;
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_PoseSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PoseSource;
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose const& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_PoseSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PoseSource;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_PoseSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PoseSource = value;
 }
 constexpr ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_PoseProviderComponent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PoseProviderComponent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*> const&
 UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_PoseProviderComponent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PoseProviderComponent;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_PoseProviderComponent(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PoseProviderComponent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackingType& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_TrackingType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackingType;
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackingType const& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_TrackingType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackingType;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_TrackingType(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackingType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TrackingType = value;
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__UpdateType& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_UpdateType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateType;
 }
 constexpr ::UnityEngine::SpatialTracking::__TrackedPoseDriver__UpdateType const& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_UpdateType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateType;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_UpdateType(::UnityEngine::SpatialTracking::__TrackedPoseDriver__UpdateType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateType = value;
 }
 constexpr bool& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_UseRelativeTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseRelativeTransform;
 }
 constexpr bool const& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_UseRelativeTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseRelativeTransform;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_UseRelativeTransform(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseRelativeTransform = value;
 }
 constexpr ::UnityEngine::Pose& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_OriginPose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OriginPose;
 }
 constexpr ::UnityEngine::Pose const& UnityEngine::SpatialTracking::TrackedPoseDriver::__get_m_OriginPose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OriginPose;
 }
 constexpr void UnityEngine::SpatialTracking::TrackedPoseDriver::__set_m_OriginPose(::UnityEngine::Pose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OriginPose = value;
 }
 inline ::UnityEngine::SpatialTracking::__TrackedPoseDriver__DeviceType UnityEngine::SpatialTracking::TrackedPoseDriver::get_deviceType() {

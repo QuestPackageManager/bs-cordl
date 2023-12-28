@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Cache/zzzz__RequestCacheBinding_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCacheValidator_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCache_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCacheValidator_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
 //  Writing Method size for method: ::System::Net::Cache::RequestCacheBinding._ctor
 template <>
@@ -64,39 +64,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Cache::RequestCache*& System::Net::Cache::RequestCacheBinding::__get_m_RequestCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCache*> const& System::Net::Cache::RequestCacheBinding::__get_m_RequestCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestCache;
 }
 constexpr void System::Net::Cache::RequestCacheBinding::__set_m_RequestCache(::System::Net::Cache::RequestCache* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Cache::RequestCacheValidator*& System::Net::Cache::RequestCacheBinding::__get_m_CacheValidator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheValidator;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheValidator*> const& System::Net::Cache::RequestCacheBinding::__get_m_CacheValidator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheValidator;
 }
 constexpr void System::Net::Cache::RequestCacheBinding::__set_m_CacheValidator(::System::Net::Cache::RequestCacheValidator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheValidator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Cache::RequestCachePolicy*& System::Net::Cache::RequestCacheBinding::__get_m_Policy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Policy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Net::Cache::RequestCacheBinding::__get_m_Policy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Policy;
 }
 constexpr void System::Net::Cache::RequestCacheBinding::__set_m_Policy(::System::Net::Cache::RequestCachePolicy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Policy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Cache::RequestCacheBinding* System::Net::Cache::RequestCacheBinding::New_ctor(::System::Net::Cache::RequestCache* requestCache,

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlOcspRef_def.hpp"
+#include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlListID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherRevRefs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlListID_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspListID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Esf::CrlOcspRef.GetInstance
 template <>
 
@@ -112,39 +112,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Esf::CrlListID*& Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__get_crlids() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlids;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::CrlListID*> const& Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__get_crlids() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlids;
 }
 constexpr void Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__set_crlids(::Org::BouncyCastle::Asn1::Esf::CrlListID* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___crlids)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Esf::OcspListID*& Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__get_ocspids() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspids;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OcspListID*> const& Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__get_ocspids() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspids;
 }
 constexpr void Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__set_ocspids(::Org::BouncyCastle::Asn1::Esf::OcspListID* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ocspids)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*& Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__get_otherRev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRev;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*> const& Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__get_otherRev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRev;
 }
 constexpr void Org::BouncyCastle::Asn1::Esf::CrlOcspRef::__set_otherRev(::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___otherRev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* Org::BouncyCastle::Asn1::Esf::CrlOcspRef::GetInstance(::System::Object* obj) {

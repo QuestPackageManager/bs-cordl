@@ -3,8 +3,8 @@
 #include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 #include "Zenject/zzzz__NonLazyBinder_def.hpp"
+#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 //  Writing Method size for method: ::Zenject::CopyNonLazyBinder._ctor
 template <>
 
@@ -106,15 +106,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& Zenject::CopyNonLazyBinder::__get__secondaryBindInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secondaryBindInfos;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& Zenject::CopyNonLazyBinder::__get__secondaryBindInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secondaryBindInfos;
 }
 constexpr void Zenject::CopyNonLazyBinder::__set__secondaryBindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____secondaryBindInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::CopyNonLazyBinder* Zenject::CopyNonLazyBinder::New_ctor(::Zenject::BindInfo* bindInfo) {

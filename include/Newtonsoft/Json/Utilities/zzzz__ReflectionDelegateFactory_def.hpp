@@ -5,7 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionDelegateFactory)
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System {
+class Type;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -13,29 +19,23 @@ template <typename TResult> class Func_1;
 namespace System::Reflection {
 class PropertyInfo;
 }
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class FieldInfo;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-class MethodBase;
+class Object;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T, typename TResult> class MethodCall_2;
 }
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidAssetPackInfo)
 namespace UnityEngine::Android {
-struct AndroidAssetPackStatus;
+struct AndroidAssetPackError;
 }
 namespace UnityEngine::Android {
-struct AndroidAssetPackError;
+struct AndroidAssetPackStatus;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14921)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14920))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14920)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14921))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14922))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackInfo*
 class CORDL_TYPE AndroidAssetPackInfo : public ::System::Object {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TokenizerStream)
 namespace System::Security::Util {
-class TokenizerShortBlock;
+class TokenizerStringBlock;
 }
 namespace System::Security::Util {
-class TokenizerStringBlock;
+class TokenizerShortBlock;
 }
 // Forward declare root types
 namespace System::Security::Util {

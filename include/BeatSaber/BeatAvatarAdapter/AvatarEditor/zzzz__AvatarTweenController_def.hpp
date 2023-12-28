@@ -9,44 +9,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarTweenController)
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
-}
-namespace Tweening {
-template <typename T> class Tween_1;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class __AvatarTweenController____c__DisplayClass54_0;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class __AvatarTweenController___DisappearAnimation_d__60;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __AvatarTweenController____c__DisplayClass54_0;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class __AvatarTweenController___AppearAnimation_d__55;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace Tweening {
+template <typename T> class Tween_1;
+}
+namespace GlobalNamespace {
+class ICoroutineStarter;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine {
 class WaitForSeconds;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -342,7 +342,7 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::Av
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15265))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::AvatarTweenController*
 class CORDL_TYPE AvatarTweenController : public ::UnityEngine::MonoBehaviour {

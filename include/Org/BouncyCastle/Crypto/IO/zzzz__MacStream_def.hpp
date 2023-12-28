@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MacStream)
 namespace System::IO {
 class Stream;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {

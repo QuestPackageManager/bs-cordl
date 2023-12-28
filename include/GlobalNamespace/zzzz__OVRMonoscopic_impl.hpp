@@ -29,27 +29,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRMonoscopic::__get_toggleButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRMonoscopic::__get_toggleButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
 constexpr void GlobalNamespace::OVRMonoscopic::__set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toggleButton = value;
 }
 constexpr bool& GlobalNamespace::OVRMonoscopic::__get_monoscopic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monoscopic;
 }
 constexpr bool const& GlobalNamespace::OVRMonoscopic::__get_monoscopic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monoscopic;
 }
 constexpr void GlobalNamespace::OVRMonoscopic::__set_monoscopic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___monoscopic = value;
 }
 inline void GlobalNamespace::OVRMonoscopic::Update() {

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/TextCore/zzzz__Glyph_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_SpriteGlyph._ctor
 template <>
 
@@ -54,15 +54,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Sprite*& TMPro::TMP_SpriteGlyph::__get_sprite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sprite;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& TMPro::TMP_SpriteGlyph::__get_sprite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sprite;
 }
 constexpr void TMPro::TMP_SpriteGlyph::__set_sprite(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::TMP_SpriteGlyph* TMPro::TMP_SpriteGlyph::New_ctor() {

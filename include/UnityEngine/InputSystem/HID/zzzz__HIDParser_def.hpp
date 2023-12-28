@@ -11,13 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HIDParser)
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptor;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemTypeAndTag;
-}
-namespace UnityEngine::InputSystem::HID {
 struct __HIDParser__HIDItemStateLocal;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__HIDDeviceDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HIDParser__HIDItemStateGlobal;
@@ -26,10 +23,13 @@ namespace UnityEngine::InputSystem::HID {
 struct __HIDParser__HIDReportData;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__UsagePage;
+struct __HIDParser__HIDItemTypeAndTag;
 }
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__UsagePage;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

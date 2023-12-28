@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "MidiParser/zzzz__MidiTrack_def.hpp"
-#include "MidiParser/zzzz__MidiEvent_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "MidiParser/zzzz__MidiEvent_def.hpp"
 //  Writing Method size for method: ::MidiParser::MidiTrack._ctor
 template <>
 
@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& MidiParser::MidiTrack::__get_Index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Index;
 }
 constexpr int32_t const& MidiParser::MidiTrack::__get_Index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Index;
 }
 constexpr void MidiParser::MidiTrack::__set_Index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Index = value;
 }
 constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& MidiParser::MidiTrack::__get_MidiEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MidiEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*> const& MidiParser::MidiTrack::__get_MidiEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MidiEvents;
 }
 constexpr void MidiParser::MidiTrack::__set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MidiEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::MidiParser::MidiTrack* MidiParser::MidiTrack::New_ctor() {

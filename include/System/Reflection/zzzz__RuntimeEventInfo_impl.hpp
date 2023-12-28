@@ -2,17 +2,17 @@
 #include "System/Reflection/zzzz__EventInfo_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeEventInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__MonoEventInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Reflection/zzzz__RuntimeModule_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Reflection/zzzz__MonoEventInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
 //  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_event_info
 template <>
 
@@ -339,27 +339,27 @@ constexpr System::Reflection::RuntimeEventInfo::operator ::System::Runtime::Seri
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr void*& System::Reflection::RuntimeEventInfo::__get_klass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___klass;
 }
 constexpr void* const& System::Reflection::RuntimeEventInfo::__get_klass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___klass;
 }
 constexpr void System::Reflection::RuntimeEventInfo::__set_klass(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___klass = value;
 }
 constexpr void*& System::Reflection::RuntimeEventInfo::__get_handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void* const& System::Reflection::RuntimeEventInfo::__get_handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void System::Reflection::RuntimeEventInfo::__set_handle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handle = value;
 }
 inline void System::Reflection::RuntimeEventInfo::get_event_info(::System::Reflection::RuntimeEventInfo* ev, ByRef<::System::Reflection::MonoEventInfo> info) {

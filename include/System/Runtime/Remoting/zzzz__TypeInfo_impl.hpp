@@ -52,39 +52,39 @@ constexpr System::Runtime::Remoting::TypeInfo::operator ::System::Runtime::Remot
   return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Runtime::Remoting::TypeInfo::__get_serverType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverType;
 }
 constexpr ::StringW const& System::Runtime::Remoting::TypeInfo::__get_serverType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverType;
 }
 constexpr void System::Runtime::Remoting::TypeInfo::__set_serverType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::TypeInfo::__get_serverHierarchy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverHierarchy;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::TypeInfo::__get_serverHierarchy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverHierarchy;
 }
 constexpr void System::Runtime::Remoting::TypeInfo::__set_serverHierarchy(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverHierarchy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::TypeInfo::__get_interfacesImplemented() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interfacesImplemented;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::TypeInfo::__get_interfacesImplemented() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interfacesImplemented;
 }
 constexpr void System::Runtime::Remoting::TypeInfo::__set_interfacesImplemented(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___interfacesImplemented)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::TypeInfo* System::Runtime::Remoting::TypeInfo::New_ctor(::System::Type* type) {

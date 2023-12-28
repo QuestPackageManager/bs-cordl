@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferBlurryScreenGrab_def.hpp"
-#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CommandBufferBlurryScreenGrab.CreateCommandBuffer
 template <>
 
@@ -72,51 +72,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::KawaseBlurRendererSO*& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__kawaseBlurRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kawaseBlurRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::KawaseBlurRendererSO*> const& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__kawaseBlurRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kawaseBlurRenderer;
 }
 constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kawaseBlurRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__kernelSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kernelSize;
 }
 constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__kernelSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kernelSize;
 }
 constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__set__kernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____kernelSize = value;
 }
 constexpr ::UnityEngine::Rendering::CameraEvent& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__cameraEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraEvent;
 }
 constexpr ::UnityEngine::Rendering::CameraEvent const& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__cameraEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraEvent;
 }
 constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__set__cameraEvent(::UnityEngine::Rendering::CameraEvent value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraEvent = value;
 }
 constexpr int32_t& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__downsample() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsample;
 }
 constexpr int32_t const& GlobalNamespace::CommandBufferBlurryScreenGrab::__get__downsample() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsample;
 }
 constexpr void GlobalNamespace::CommandBufferBlurryScreenGrab::__set__downsample(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____downsample = value;
 }
 inline void GlobalNamespace::CommandBufferBlurryScreenGrab::setStaticF__cameras(::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* value) {

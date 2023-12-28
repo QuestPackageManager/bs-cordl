@@ -113,15 +113,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& Zenject::SignalCopyBinder::__get__bindInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfos;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& Zenject::SignalCopyBinder::__get__bindInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfos;
 }
 constexpr void Zenject::SignalCopyBinder::__set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SignalCopyBinder* Zenject::SignalCopyBinder::New_ctor() {

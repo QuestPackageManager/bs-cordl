@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector3Tween)
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace Tweening {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::Vector3Tween);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst:
-// 412 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16095)) CS Name: ::Tweening::Vector3Tween*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(16099)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16095)) CS Name: ::Tweening::Vector3Tween*
 class CORDL_TYPE Vector3Tween : public ::Tweening::Tween_1<::UnityEngine::Vector3> {
 public:
   // Declarations

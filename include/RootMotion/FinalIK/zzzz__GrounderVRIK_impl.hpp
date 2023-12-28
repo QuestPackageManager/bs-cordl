@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Grounder_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GrounderVRIK_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::GrounderVRIK.OpenTutorial
 template <>
 
@@ -182,27 +182,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::VRIK*& RootMotion::FinalIK::GrounderVRIK::__get_ik() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::VRIK*> const& RootMotion::FinalIK::GrounderVRIK::__get_ik() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr void RootMotion::FinalIK::GrounderVRIK::__set_ik(::RootMotion::FinalIK::VRIK* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ik)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& RootMotion::FinalIK::GrounderVRIK::__get_feet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___feet;
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& RootMotion::FinalIK::GrounderVRIK::__get_feet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___feet;
 }
 constexpr void RootMotion::FinalIK::GrounderVRIK::__set_feet(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___feet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::GrounderVRIK::OpenTutorial() {

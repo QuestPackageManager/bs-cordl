@@ -11,19 +11,19 @@ namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class VRIK;
+class __IKSolverVR__Leg;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
+class __VRIKCalibrator__CalibrationData;
+}
+namespace RootMotion::FinalIK {
 class __VRIKCalibrator__Settings;
 }
 namespace RootMotion::FinalIK {
-class __IKSolverVR__Leg;
-}
-namespace RootMotion::FinalIK {
-class __VRIKCalibrator__CalibrationData;
+class VRIK;
 }
 namespace GlobalNamespace {
 class __VRIKCalibrator__CalibrationData__Target;
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__VRIKCalibrator__Settings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12669))
 // CS Name: ::VRIKCalibrator::Settings*
 class CORDL_TYPE __VRIKCalibrator__Settings : public ::System::Object {
@@ -277,7 +277,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__VRIKCalib
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12670))
 // CS Name: ::VRIKCalibrator::CalibrationData::Target*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData__Target : public ::System::Object {

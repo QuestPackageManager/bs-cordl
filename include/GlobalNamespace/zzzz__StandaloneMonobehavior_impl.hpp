@@ -7,23 +7,23 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
-#include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
-#include "UnityEngine/zzzz__FrameTiming_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
+#include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__FrameTiming_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20.MoveNext
 template <>
@@ -253,63 +253,63 @@ constexpr GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::o
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::StandaloneMonobehavior*& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandaloneMonobehavior*> const& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__set___4__this(::GlobalNamespace::StandaloneMonobehavior* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::CancellationToken& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get_cancellationToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
 constexpr ::System::Threading::CancellationToken const& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get_cancellationToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
 constexpr void GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__set_cancellationToken(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cancellationToken = value;
 }
 constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tcs;
 }
 constexpr void GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25* GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25::New_ctor(int32_t __1__state) {
@@ -600,63 +600,63 @@ constexpr GlobalNamespace::StandaloneMonobehavior::operator ::GlobalNamespace::I
   return static_cast<::GlobalNamespace::IStandaloneMonobehavior*>(static_cast<void*>(this));
 }
 constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::StandaloneMonobehavior::__get__readyTcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyTcs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& GlobalNamespace::StandaloneMonobehavior::__get__readyTcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyTcs;
 }
 constexpr void GlobalNamespace::StandaloneMonobehavior::__set__readyTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readyTcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::StandaloneMonobehavior::__get__isRunning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRunning;
 }
 constexpr bool const& GlobalNamespace::StandaloneMonobehavior::__get__isRunning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRunning;
 }
 constexpr void GlobalNamespace::StandaloneMonobehavior::__set__isRunning(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isRunning = value;
 }
 constexpr float_t& GlobalNamespace::StandaloneMonobehavior::__get__startTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTime;
 }
 constexpr float_t const& GlobalNamespace::StandaloneMonobehavior::__get__startTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTime;
 }
 constexpr void GlobalNamespace::StandaloneMonobehavior::__set__startTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startTime = value;
 }
 constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*>& GlobalNamespace::StandaloneMonobehavior::__get__lastFrameTimings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameTimings;
 }
 constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> const& GlobalNamespace::StandaloneMonobehavior::__get__lastFrameTimings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameTimings;
 }
 constexpr void GlobalNamespace::StandaloneMonobehavior::__set__lastFrameTimings(::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastFrameTimings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::StandaloneMonobehavior::__get__lastFrameTimeCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameTimeCount;
 }
 constexpr int32_t const& GlobalNamespace::StandaloneMonobehavior::__get__lastFrameTimeCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameTimeCount;
 }
 constexpr void GlobalNamespace::StandaloneMonobehavior::__set__lastFrameTimeCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameTimeCount = value;
 }
 inline float_t GlobalNamespace::StandaloneMonobehavior::get_objectLifeTime() {

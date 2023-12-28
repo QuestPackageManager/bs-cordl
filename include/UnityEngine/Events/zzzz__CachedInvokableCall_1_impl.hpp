@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__InvokableCall_1_impl.hpp"
 #include "UnityEngine/Events/zzzz__CachedInvokableCall_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 template <typename T> constexpr T& UnityEngine::Events::CachedInvokableCall_1<T>::__get_m_Arg1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Arg1;
 }
 template <typename T> constexpr T const& UnityEngine::Events::CachedInvokableCall_1<T>::__get_m_Arg1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Arg1;
 }
 template <typename T> constexpr void UnityEngine::Events::CachedInvokableCall_1<T>::__set_m_Arg1(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Arg1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

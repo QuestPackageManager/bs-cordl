@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(BaseShaderInfoStorage)
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

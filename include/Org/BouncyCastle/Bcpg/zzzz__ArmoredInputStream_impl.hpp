@@ -241,171 +241,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_input() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_input() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_input(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___input)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_start(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___start = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_outBuf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outBuf;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_outBuf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outBuf;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_outBuf(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___outBuf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_bufPtr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufPtr;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_bufPtr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufPtr;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_bufPtr(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufPtr = value;
 }
 constexpr ::Org::BouncyCastle::Bcpg::Crc24*& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_crc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crc;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::Crc24*> const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_crc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crc;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_crc(::Org::BouncyCastle::Bcpg::Crc24* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___crc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_crcFound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crcFound;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_crcFound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crcFound;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_crcFound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crcFound = value;
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_hasHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasHeaders;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_hasHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasHeaders;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_hasHeaders(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasHeaders = value;
 }
 constexpr ::StringW& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_header() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___header;
 }
 constexpr ::StringW const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_header() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___header;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_header(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___header)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_newLineFound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineFound;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_newLineFound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineFound;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_newLineFound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newLineFound = value;
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_clearText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearText;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_clearText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearText;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_clearText(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clearText = value;
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_restart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___restart;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_restart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___restart;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_restart(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___restart = value;
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_headerList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headerList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_headerList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headerList;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_headerList(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headerList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_lastC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastC;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_lastC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastC;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_lastC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastC = value;
 }
 constexpr bool& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_isEndOfStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isEndOfStream;
 }
 constexpr bool const& Org::BouncyCastle::Bcpg::ArmoredInputStream::__get_isEndOfStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isEndOfStream;
 }
 constexpr void Org::BouncyCastle::Bcpg::ArmoredInputStream::__set_isEndOfStream(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isEndOfStream = value;
 }
 inline void Org::BouncyCastle::Bcpg::ArmoredInputStream::setStaticF_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

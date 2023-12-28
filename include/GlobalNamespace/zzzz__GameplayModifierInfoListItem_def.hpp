@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameplayModifierInfoListItem)
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace HMUI {
 class HoverHint;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

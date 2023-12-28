@@ -153,39 +153,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::PracticeSettings::__get__startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongTime;
 }
 constexpr float_t const& GlobalNamespace::PracticeSettings::__get__startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongTime;
 }
 constexpr void GlobalNamespace::PracticeSettings::__set__startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::PracticeSettings::__get__songSpeedMul() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeedMul;
 }
 constexpr float_t const& GlobalNamespace::PracticeSettings::__get__songSpeedMul() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeedMul;
 }
 constexpr void GlobalNamespace::PracticeSettings::__set__songSpeedMul(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songSpeedMul = value;
 }
 constexpr bool& GlobalNamespace::PracticeSettings::__get__startInAdvanceAndClearNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startInAdvanceAndClearNotes;
 }
 constexpr bool const& GlobalNamespace::PracticeSettings::__get__startInAdvanceAndClearNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startInAdvanceAndClearNotes;
 }
 constexpr void GlobalNamespace::PracticeSettings::__set__startInAdvanceAndClearNotes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startInAdvanceAndClearNotes = value;
 }
 inline float_t GlobalNamespace::PracticeSettings::get_startSongTime() {

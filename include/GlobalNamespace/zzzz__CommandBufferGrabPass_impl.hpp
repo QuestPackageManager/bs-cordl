@@ -3,10 +3,10 @@
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGrabPass_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
-#include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CommandBufferGrabPass.CreateCommandBuffer
 template <>
 
@@ -66,27 +66,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::CommandBufferGrabPass::__get__textureName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureName;
 }
 constexpr ::StringW const& GlobalNamespace::CommandBufferGrabPass::__get__textureName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureName;
 }
 constexpr void GlobalNamespace::CommandBufferGrabPass::__set__textureName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textureName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rendering::CameraEvent& GlobalNamespace::CommandBufferGrabPass::__get__cameraEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraEvent;
 }
 constexpr ::UnityEngine::Rendering::CameraEvent const& GlobalNamespace::CommandBufferGrabPass::__get__cameraEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraEvent;
 }
 constexpr void GlobalNamespace::CommandBufferGrabPass::__set__cameraEvent(::UnityEngine::Rendering::CameraEvent value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraEvent = value;
 }
 inline void GlobalNamespace::CommandBufferGrabPass::setStaticF__cameras(::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* value) {

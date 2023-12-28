@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Unity/XR/OpenVR/zzzz__ViveTracker_def.hpp"
 CORDL_MODULE_EXPORT(HandedViveTracker)
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class ButtonControl;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {

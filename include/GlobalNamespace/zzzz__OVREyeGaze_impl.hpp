@@ -5,10 +5,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "GlobalNamespace/zzzz__OVREyeGaze_def.hpp"
-#include "GlobalNamespace/zzzz__OVREyeGaze_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__OVREyeGaze_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVREyeGaze__EyeId::__OVREyeGaze__EyeId(int32_t value__) noexcept {
   this->value__ = value__;
@@ -213,135 +213,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVREyeGaze__EyeId& GlobalNamespace::OVREyeGaze::__get_Eye() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Eye;
 }
 constexpr ::GlobalNamespace::__OVREyeGaze__EyeId const& GlobalNamespace::OVREyeGaze::__get_Eye() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Eye;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set_Eye(::GlobalNamespace::__OVREyeGaze__EyeId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Eye = value;
 }
 constexpr float_t& GlobalNamespace::OVREyeGaze::__get__Confidence_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Confidence_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OVREyeGaze::__get__Confidence_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Confidence_k__BackingField;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set__Confidence_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Confidence_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OVREyeGaze::__get_ConfidenceThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConfidenceThreshold;
 }
 constexpr float_t const& GlobalNamespace::OVREyeGaze::__get_ConfidenceThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConfidenceThreshold;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set_ConfidenceThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ConfidenceThreshold = value;
 }
 constexpr bool& GlobalNamespace::OVREyeGaze::__get_ApplyPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApplyPosition;
 }
 constexpr bool const& GlobalNamespace::OVREyeGaze::__get_ApplyPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApplyPosition;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set_ApplyPosition(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ApplyPosition = value;
 }
 constexpr bool& GlobalNamespace::OVREyeGaze::__get_ApplyRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApplyRotation;
 }
 constexpr bool const& GlobalNamespace::OVREyeGaze::__get_ApplyRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApplyRotation;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set_ApplyRotation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ApplyRotation = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__EyeGazesState& GlobalNamespace::OVREyeGaze::__get__currentEyeGazesState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentEyeGazesState;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__EyeGazesState const& GlobalNamespace::OVREyeGaze::__get__currentEyeGazesState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentEyeGazesState;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set__currentEyeGazesState(::GlobalNamespace::__OVRPlugin__EyeGazesState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentEyeGazesState = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVREyeGaze::__get_ReferenceFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReferenceFrame;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVREyeGaze::__get_ReferenceFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReferenceFrame;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set_ReferenceFrame(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReferenceFrame)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode& GlobalNamespace::OVREyeGaze::__get_TrackingMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TrackingMode;
 }
 constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode const& GlobalNamespace::OVREyeGaze::__get_TrackingMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TrackingMode;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set_TrackingMode(::GlobalNamespace::__OVREyeGaze__EyeTrackingMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TrackingMode = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::OVREyeGaze::__get__initialRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialRotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::OVREyeGaze::__get__initialRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialRotationOffset;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set__initialRotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialRotationOffset = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVREyeGaze::__get__viewTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVREyeGaze::__get__viewTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____viewTransform;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set__viewTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____viewTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::StringW>*& GlobalNamespace::OVREyeGaze::__get__onPermissionGranted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onPermissionGranted;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& GlobalNamespace::OVREyeGaze::__get__onPermissionGranted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onPermissionGranted;
 }
 constexpr void GlobalNamespace::OVREyeGaze::__set__onPermissionGranted(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onPermissionGranted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVREyeGaze::setStaticF__trackingInstanceCount(int32_t value) {

@@ -84,39 +84,39 @@ constexpr UnityEngine::InputSystem::Interactions::PressInteraction::operator ::U
   return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::PressInteraction::__get_pressPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::PressInteraction::__get_pressPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr void UnityEngine::InputSystem::Interactions::PressInteraction::__set_pressPoint(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pressPoint = value;
 }
 constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior& UnityEngine::InputSystem::Interactions::PressInteraction::__get_behavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___behavior;
 }
 constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior const& UnityEngine::InputSystem::Interactions::PressInteraction::__get_behavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___behavior;
 }
 constexpr void UnityEngine::InputSystem::Interactions::PressInteraction::__set_behavior(::UnityEngine::InputSystem::Interactions::PressBehavior value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___behavior = value;
 }
 constexpr bool& UnityEngine::InputSystem::Interactions::PressInteraction::__get_m_WaitingForRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitingForRelease;
 }
 constexpr bool const& UnityEngine::InputSystem::Interactions::PressInteraction::__get_m_WaitingForRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WaitingForRelease;
 }
 constexpr void UnityEngine::InputSystem::Interactions::PressInteraction::__set_m_WaitingForRelease(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WaitingForRelease = value;
 }
 inline float_t UnityEngine::InputSystem::Interactions::PressInteraction::get_pressPointOrDefault() {

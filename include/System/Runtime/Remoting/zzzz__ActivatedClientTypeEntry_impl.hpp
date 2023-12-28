@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ActivatedClientTypeEntry_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ActivatedClientTypeEntry._ctor
 template <>
 
@@ -79,27 +79,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::Remoting::ActivatedClientTypeEntry::__get_applicationUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___applicationUrl;
 }
 constexpr ::StringW const& System::Runtime::Remoting::ActivatedClientTypeEntry::__get_applicationUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___applicationUrl;
 }
 constexpr void System::Runtime::Remoting::ActivatedClientTypeEntry::__set_applicationUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___applicationUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& System::Runtime::Remoting::ActivatedClientTypeEntry::__get_obj_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Remoting::ActivatedClientTypeEntry::__get_obj_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr void System::Runtime::Remoting::ActivatedClientTypeEntry::__set_obj_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj_type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* System::Runtime::Remoting::ActivatedClientTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl) {

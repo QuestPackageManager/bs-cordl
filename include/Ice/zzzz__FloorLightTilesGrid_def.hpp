@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FloorLightTilesGrid)
-namespace Ice {
-class FloorLightTile;
-}
 namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace Ice {
-class __FloorLightTile__Pool;
+class FloorLightTile;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace Ice {
+class __FloorLightTile__Pool;
 }
 namespace UnityEngine {
 struct Color;

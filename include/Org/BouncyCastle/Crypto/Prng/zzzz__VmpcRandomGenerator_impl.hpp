@@ -85,39 +85,39 @@ constexpr Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::operator ::Org::
   return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
 }
 constexpr uint8_t& Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_n() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_n() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__set_n(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___n = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_P() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___P;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_P() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___P;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___P)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint8_t& Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr uint8_t const& Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__set_s(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
 inline ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator* Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::New_ctor() {

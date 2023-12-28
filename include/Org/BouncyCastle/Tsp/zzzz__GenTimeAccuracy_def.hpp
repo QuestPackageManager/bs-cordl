@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenTimeAccuracy)
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace Org::BouncyCastle::Asn1::Tsp {
 class Accuracy;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

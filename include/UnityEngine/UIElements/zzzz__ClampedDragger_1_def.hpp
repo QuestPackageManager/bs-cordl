@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClampedDragger_1)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
-class EventBase;
+template <typename TValueType> class BaseSlider_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> struct __ClampedDragger_1__DragDirection;
 }
-namespace UnityEngine::UIElements {
-template <typename TValueType> class BaseSlider_1;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -95,8 +95,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6788)), TypeDefinitionIndex(TypeDefinitionIndex(6807)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 920
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6789)) CS Name: ::UnityEngine.UIElements::ClampedDragger`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6788)), TypeDefinitionIndex(TypeDefinitionIndex(6807)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 920 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6789)) CS Name:
+// ::UnityEngine.UIElements::ClampedDragger`1<T>*
 class CORDL_TYPE ClampedDragger_1 : public ::UnityEngine::UIElements::Clickable {
 public:
   // Declarations

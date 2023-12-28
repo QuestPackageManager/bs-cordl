@@ -123,39 +123,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Oculus::Platform::PlatformSettings::__get_ovrAppID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovrAppID;
 }
 constexpr ::StringW const& Oculus::Platform::PlatformSettings::__get_ovrAppID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovrAppID;
 }
 constexpr void Oculus::Platform::PlatformSettings::__set_ovrAppID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ovrAppID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::PlatformSettings::__get_ovrMobileAppID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovrMobileAppID;
 }
 constexpr ::StringW const& Oculus::Platform::PlatformSettings::__get_ovrMobileAppID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovrMobileAppID;
 }
 constexpr void Oculus::Platform::PlatformSettings::__set_ovrMobileAppID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ovrMobileAppID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Oculus::Platform::PlatformSettings::__get_ovrUseStandalonePlatform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovrUseStandalonePlatform;
 }
 constexpr bool const& Oculus::Platform::PlatformSettings::__get_ovrUseStandalonePlatform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ovrUseStandalonePlatform;
 }
 constexpr void Oculus::Platform::PlatformSettings::__set_ovrUseStandalonePlatform(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ovrUseStandalonePlatform = value;
 }
 inline void Oculus::Platform::PlatformSettings::setStaticF_instance(::Oculus::Platform::PlatformSettings* value) {

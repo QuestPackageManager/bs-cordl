@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(XmlQualifiedName)
 namespace System::Xml {
 class __XmlQualifiedName__HashCodeOfStringDelegate;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml {

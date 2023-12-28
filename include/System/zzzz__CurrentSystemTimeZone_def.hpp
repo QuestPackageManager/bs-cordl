@@ -12,13 +12,13 @@ namespace System::Globalization {
 class DaylightTime;
 }
 namespace System {
-struct TimeSpan;
-}
-namespace System {
 struct DateTime;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System {

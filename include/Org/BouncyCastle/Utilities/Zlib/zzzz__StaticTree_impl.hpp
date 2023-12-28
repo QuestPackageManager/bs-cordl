@@ -20,63 +20,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_static_tree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_tree;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_static_tree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_tree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_static_tree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___static_tree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_bits;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_bits;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_extra_bits(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extra_bits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_base() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_base;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_extra_base() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extra_base;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_extra_base(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extra_base = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_elems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elems;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_elems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elems;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_elems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elems = value;
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_max_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_length;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_max_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_length;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_max_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_length = value;
 }
 inline void Org::BouncyCastle::Utilities::Zlib::StaticTree::setStaticF_static_ltree(::ArrayW<int16_t, ::Array<int16_t>*> value) {

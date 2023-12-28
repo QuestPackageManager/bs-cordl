@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayHelpers)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T> class Predicate_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __ArrayHelpers____c__DisplayClass34_1_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace Unity::Collections {
 struct Allocator;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

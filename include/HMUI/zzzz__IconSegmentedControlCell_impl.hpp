@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__SegmentedControlCell_impl.hpp"
 #include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::HMUI::IconSegmentedControlCell.set_sprite
 template <>
 
@@ -88,39 +88,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Image*& HMUI::IconSegmentedControlCell::__get__icon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____icon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& HMUI::IconSegmentedControlCell::__get__icon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____icon;
 }
 constexpr void HMUI::IconSegmentedControlCell::__set__icon(::UnityEngine::UI::Image* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____icon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::HoverHint*& HMUI::IconSegmentedControlCell::__get__hoverHint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoverHint;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& HMUI::IconSegmentedControlCell::__get__hoverHint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoverHint;
 }
 constexpr void HMUI::IconSegmentedControlCell::__set__hoverHint(::HMUI::HoverHint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& HMUI::IconSegmentedControlCell::__get__backgroundGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HMUI::IconSegmentedControlCell::__get__backgroundGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundGameObject;
 }
 constexpr void HMUI::IconSegmentedControlCell::__set__backgroundGameObject(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backgroundGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::IconSegmentedControlCell::set_sprite(::UnityEngine::Sprite* value) {

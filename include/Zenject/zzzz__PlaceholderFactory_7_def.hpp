@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_7)
-namespace System {
-class Object;
-}
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IFactory_7;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class __PlaceholderFactory_7___get_ParamTypes_d__2;
+class IFactory;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class __PlaceholderFactory_7___get_ParamTypes_d__2;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class IFactory;
+class InjectTypeInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 // Forward declare root types
 namespace Zenject {

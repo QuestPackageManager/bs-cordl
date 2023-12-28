@@ -13,37 +13,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RunSongConsoleCommand)
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+class __RunSongConsoleCommand____c;
 }
 namespace GlobalNamespace {
-class ArgumentBase;
+class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-struct __DebugConsoleController__ConsoleMessage;
-}
-namespace GlobalNamespace {
-struct __RunSongConsoleCommand___ExecuteAsync_d__14;
+class SongRunningHelper;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __RunSongConsoleCommand____c;
+struct __RunSongConsoleCommand___ExecuteAsync_d__14;
+}
+namespace GlobalNamespace {
+template <typename T> class OptionalArgument_1;
+}
+namespace GlobalNamespace {
+class __RunSongConsoleCommand____c__DisplayClass14_0;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class SongRunningHelper;
-}
-namespace GlobalNamespace {
-class __RunSongConsoleCommand____c__DisplayClass14_0;
+struct __DebugConsoleController__ConsoleMessage;
 }
 namespace GlobalNamespace {
 template <typename T> class RequiredArgument_1;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class ArgumentBase;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -51,20 +54,17 @@ struct BeatmapDifficulty;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelsModel__GetBeatmapLevelResult;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -200,8 +200,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RunSongConsol
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4358)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5987)) CS Name: ::RunSongConsoleCommand::<ExecuteAsync>d__14
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5987)) CS Name: ::RunSongConsoleCommand::<ExecuteAsync>d__14
 struct CORDL_TYPE __RunSongConsoleCommand___ExecuteAsync_d__14 {
 public:
   // Declarations

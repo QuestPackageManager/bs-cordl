@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_FontAssetUtilities)
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace TMPro {
-class TMP_SpriteCharacter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class TMP_SpriteAsset;
 }
 namespace TMPro {
 struct FontStyles;
 }
 namespace TMPro {
-struct FontWeight;
+class TMP_SpriteCharacter;
 }
 namespace TMPro {
 class TMP_FontAsset;
@@ -28,7 +28,7 @@ namespace TMPro {
 class TMP_Character;
 }
 namespace TMPro {
-class TMP_SpriteAsset;
+struct FontWeight;
 }
 // Forward declare root types
 namespace TMPro {

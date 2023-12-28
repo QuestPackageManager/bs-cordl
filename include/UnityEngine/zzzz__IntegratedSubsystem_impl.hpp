@@ -115,27 +115,27 @@ constexpr UnityEngine::IntegratedSubsystem::operator ::UnityEngine::ISubsystem*(
   return static_cast<::UnityEngine::ISubsystem*>(static_cast<void*>(this));
 }
 constexpr void*& UnityEngine::IntegratedSubsystem::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::IntegratedSubsystem::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::IntegratedSubsystem::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 constexpr ::UnityEngine::ISubsystemDescriptor*& UnityEngine::IntegratedSubsystem::__get_m_SubsystemDescriptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubsystemDescriptor;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ISubsystemDescriptor*> const& UnityEngine::IntegratedSubsystem::__get_m_SubsystemDescriptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubsystemDescriptor;
 }
 constexpr void UnityEngine::IntegratedSubsystem::__set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SubsystemDescriptor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::IntegratedSubsystem::SetHandle(::UnityEngine::IntegratedSubsystem* subsystem) {

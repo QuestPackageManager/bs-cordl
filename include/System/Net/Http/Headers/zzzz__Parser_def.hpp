@@ -12,13 +12,7 @@ namespace System {
 class Object;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Token;
-}
-namespace System::Net::Http::Headers {
-class __Parser__Uri;
-}
-namespace System::Net::Http::Headers {
-class __Parser__Int;
+class __Parser__TimeSpanSeconds;
 }
 namespace System::Net::Http::Headers {
 class __Parser__Host;
@@ -30,22 +24,28 @@ namespace System::Net::Http::Headers {
 class __Parser__DateTime;
 }
 namespace System::Net::Http::Headers {
-class __Parser__Long;
+class __Parser__Int;
+}
+namespace System::Net::Http::Headers {
+class __Parser__Token;
+}
+namespace System::Net::Http::Headers {
+class __Parser__Uri;
 }
 namespace System::Net::Http::Headers {
 class __Parser__EmailAddress;
 }
 namespace System::Net::Http::Headers {
-class __Parser__TimeSpanSeconds;
-}
-namespace GlobalNamespace {
-class __Parser__DateTime____c;
+class __Parser__Long;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct DateTimeOffset;
+}
+namespace GlobalNamespace {
+class __Parser__DateTime____c;
 }
 namespace GlobalNamespace {
 class __Parser__MD5____c;

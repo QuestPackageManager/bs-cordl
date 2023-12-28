@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GeometryChangedEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
-// 1722 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7212)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1722 }), TypeDefinitionIndex(TypeDefinitionIndex(7180)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7212)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
 class CORDL_TYPE GeometryChangedEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::GeometryChangedEvent*> {
 public:
   // Declarations

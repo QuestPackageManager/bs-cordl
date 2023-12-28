@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupLists)
 namespace GlobalNamespace {
+class BeatmapEventDataBoxGroup;
+}
+namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupList;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IBeatToTimeConvertor;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

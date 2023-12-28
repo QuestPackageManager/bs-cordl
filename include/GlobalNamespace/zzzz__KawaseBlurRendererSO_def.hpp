@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KawaseBlurRendererSO)
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class Texture2D;
+}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace GlobalNamespace {
 struct __KawaseBlurRendererSO__KernelSize;
 }
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace GlobalNamespace {
-struct __KawaseBlurRendererSO__Pass;
-}
 namespace GlobalNamespace {
 struct __KawaseBlurRendererSO__WeightsType;
 }
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+struct __KawaseBlurRendererSO__Pass;
 }
 namespace GlobalNamespace {
 class __KawaseBlurRendererSO__BloomKernel;

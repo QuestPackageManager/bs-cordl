@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PCAppInit)
-namespace GlobalNamespace {
-class MainSystemInit;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
+}
+namespace GlobalNamespace {
+class MainSystemInit;
 }
 // Forward declare root types
 namespace GlobalNamespace {

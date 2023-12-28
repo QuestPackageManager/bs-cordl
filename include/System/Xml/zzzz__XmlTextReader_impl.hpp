@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/Xml/zzzz__XmlTextReader_def.hpp"
-#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
 #include "System/Xml/zzzz__ReadState_def.hpp"
-#include "System/Xml/zzzz__EntityHandling_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__EntityHandling_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlTextReader._ctor
 template <>
 
@@ -427,15 +427,15 @@ constexpr System::Xml::XmlTextReader::operator ::System::Xml::IXmlNamespaceResol
   return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlTextReaderImpl*& System::Xml::XmlTextReader::__get_impl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impl;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& System::Xml::XmlTextReader::__get_impl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impl;
 }
 constexpr void System::Xml::XmlTextReader::__set_impl(::System::Xml::XmlTextReaderImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___impl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlTextReader* System::Xml::XmlTextReader::New_ctor(::System::IO::TextReader* input, ::System::Xml::XmlNameTable* nt) {

@@ -17,65 +17,65 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebConnection)
-namespace System::Net {
-class WebOperation;
+namespace Mono::Net::Security {
+class MonoTlsStream;
 }
 namespace System::Net {
-class __WebConnection____c;
-}
-namespace System::Net {
-struct __WebConnection___InitConnection_d__19;
-}
-namespace System::Net {
-struct __WebConnection___Connect_d__16;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Net {
-class WebRequestStream;
+struct __WebConnection___CreateStream_d__18;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
+class __WebConnection____c;
+}
+namespace System::Net {
+class NetworkCredential;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net {
 struct WebExceptionStatus;
+}
+namespace System::Net {
+class WebOperation;
 }
 namespace System::Net {
 class WebConnectionTunnel;
 }
-namespace System::Net {
-class ServicePoint;
+namespace System {
+struct DateTime;
 }
 namespace System::Net {
 class WebException;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Net {
+class WebRequestStream;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Net {
+struct __WebConnection___Connect_d__16;
+}
+namespace System::Net {
+class ServicePoint;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Net {
-struct __WebConnection___CreateStream_d__18;
-}
-namespace Mono::Net::Security {
-class MonoTlsStream;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 class Exception;
 }
 namespace System::Net {
-class NetworkCredential;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+struct __WebConnection___InitConnection_d__19;
 }
 namespace System {
 class AsyncCallback;
@@ -86,14 +86,20 @@ template <typename T> class Action_1;
 namespace System {
 class Object;
 }
-namespace System::Net {
-class IPEndPoint;
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -102,19 +108,13 @@ namespace System::Net {
 class IPAddress;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Net::Sockets {
 class NetworkStream;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Net {
@@ -275,9 +275,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection___C
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
 struct CORDL_TYPE __WebConnection___CreateStream_d__18 {
 public:
   // Declarations
@@ -346,9 +346,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection___C
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 901 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9218)) CS Name: ::WebConnection::<InitConnection>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9218)) CS Name: ::WebConnection::<InitConnection>d__19
 struct CORDL_TYPE __WebConnection___InitConnection_d__19 {
 public:
   // Declarations
@@ -413,7 +413,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection___I
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9219))
 // CS Name: ::System.Net::WebConnection*
 class CORDL_TYPE WebConnection : public ::System::Object {

@@ -1,19 +1,19 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::AsyncComputeOperation_1<T>::__get__tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcs;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& GlobalNamespace::AsyncComputeOperation_1<T>::__get__tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcs;
 }
 template <typename T> constexpr void GlobalNamespace::AsyncComputeOperation_1<T>::__set__tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::AsyncComputeOperation_1<T>::get_task() {

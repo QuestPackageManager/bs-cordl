@@ -8,23 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RealProxy)
-namespace System::Runtime::Remoting {
-class ClientIdentity;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+class MonoMethodMessage;
 }
 namespace System {
 class MarshalByRefObject;
@@ -32,17 +17,32 @@ class MarshalByRefObject;
 namespace System::Runtime::Remoting {
 class Identity;
 }
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Exception;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Remoting::Messaging {
-class MonoMethodMessage;
+namespace System::Runtime::Remoting {
+class ClientIdentity;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {

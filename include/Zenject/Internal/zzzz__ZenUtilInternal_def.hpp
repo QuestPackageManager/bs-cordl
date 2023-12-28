@@ -7,18 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenUtilInternal)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace Zenject::Internal {
 class __ZenUtilInternal____c;
 }
@@ -29,25 +17,37 @@ namespace Zenject::Internal {
 class __ZenUtilInternal____c__DisplayClass10_0;
 }
 namespace System {
-class Delegate;
-}
-namespace Zenject {
-class SceneContext;
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace Zenject {
+class SceneContext;
+}
 namespace UnityEngine::SceneManagement {
 struct Scene;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
+}
+namespace System {
+class Delegate;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -55,11 +55,11 @@ class IDisposable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject::Internal {

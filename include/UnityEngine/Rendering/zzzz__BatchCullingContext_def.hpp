@@ -14,17 +14,17 @@ CORDL_MODULE_EXPORT(BatchCullingContext)
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace UnityEngine {
 struct Plane;
 }
-namespace UnityEngine::Rendering {
-struct LODParameters;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 struct BatchVisibility;
+}
+namespace UnityEngine::Rendering {
+struct LODParameters;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -36,9 +36,9 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 // SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 160, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 748 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10355)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 738 }), TypeDefinitionIndex(TypeDefinitionIndex(10163)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10364))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10364)), TypeDefinitionIndex(TypeDefinitionIndex(10355)), TypeDefinitionIndex(TypeDefinitionIndex(10163)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 748 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 738 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(10365)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
 struct CORDL_TYPE BatchCullingContext {
 public:

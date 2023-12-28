@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MarkerList)
-namespace System {
-class Type;
-}
-namespace UnityEngine::Timeline {
-class TrackAsset;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::Playables {
 class PlayableAsset;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class ScriptableObject;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Timeline {
 class IMarker;
 }
 namespace UnityEngine::Timeline {
 class TimelineAsset;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

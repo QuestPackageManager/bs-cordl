@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthenticatedData)
 namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+class ContentInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

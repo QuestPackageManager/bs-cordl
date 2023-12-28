@@ -1,63 +1,63 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__LazyInstanceInjector_def.hpp"
-#include "Zenject/zzzz__MemoryPoolIdInitialSizeMaxSizeBinder_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "Zenject/zzzz__BindingCondition_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_3_def.hpp"
-#include "Zenject/zzzz__IInstantiator_def.hpp"
-#include "Zenject/Internal/zzzz__IDecoratorProvider_def.hpp"
-#include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_6_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_4_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
-#include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__IdScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__ConventionSelectTypesBinder_def.hpp"
-#include "Zenject/zzzz__InjectSources_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_2_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_5_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_7_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__ConcreteIdBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_11_def.hpp"
-#include "Zenject/Internal/zzzz__LookupId_def.hpp"
-#include "Zenject/zzzz__BindStatement_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "Zenject/zzzz__IInstantiator_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__ConcreteIdBinderGeneric_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "Zenject/zzzz__ConventionSelectTypesBinder_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_4_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_7_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_6_def.hpp"
+#include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_2_def.hpp"
 #include "Zenject/zzzz__ZenjectSettings_def.hpp"
+#include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Zenject/zzzz__IdScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_5_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_3_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/Internal/zzzz__IDecoratorProvider_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Zenject/zzzz__BindingCondition_def.hpp"
+#include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__InjectSources_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_11_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__BindStatement_def.hpp"
+#include "Zenject/zzzz__LazyInstanceInjector_def.hpp"
+#include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/Internal/zzzz__LookupId_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__MemoryPoolIdInitialSizeMaxSizeBinder_1_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::Zenject::__DiContainer__ProviderInfo._ctor
 template <>
@@ -106,51 +106,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::DiContainer*& Zenject::__DiContainer__ProviderInfo::__get_Container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::__DiContainer__ProviderInfo::__get_Container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Container;
 }
 constexpr void Zenject::__DiContainer__ProviderInfo::__set_Container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::__DiContainer__ProviderInfo::__get_NonLazy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NonLazy;
 }
 constexpr bool const& Zenject::__DiContainer__ProviderInfo::__get_NonLazy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NonLazy;
 }
 constexpr void Zenject::__DiContainer__ProviderInfo::__set_NonLazy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___NonLazy = value;
 }
 constexpr ::Zenject::IProvider*& Zenject::__DiContainer__ProviderInfo::__get_Provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::__DiContainer__ProviderInfo::__get_Provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
 constexpr void Zenject::__DiContainer__ProviderInfo::__set_Provider(::Zenject::IProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::BindingCondition*& Zenject::__DiContainer__ProviderInfo::__get_Condition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Condition;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::BindingCondition*> const& Zenject::__DiContainer__ProviderInfo::__get_Condition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Condition;
 }
 constexpr void Zenject::__DiContainer__ProviderInfo::__set_Condition(::Zenject::BindingCondition* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Condition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DiContainer__ProviderInfo* Zenject::__DiContainer__ProviderInfo::New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingCondition* condition, bool nonLazy,
@@ -483,15 +483,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::InjectContext*& Zenject::__DiContainer____c__DisplayClass86_0::__get_context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& Zenject::__DiContainer____c__DisplayClass86_0::__get_context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
 constexpr void Zenject::__DiContainer____c__DisplayClass86_0::__set_context(::Zenject::InjectContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DiContainer____c__DisplayClass86_0* Zenject::__DiContainer____c__DisplayClass86_0::New_ctor() {
@@ -660,88 +660,88 @@ constexpr Zenject::__DiContainer___GetDependencyContracts_d__96::operator ::Syst
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Type*& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set___2__current(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::Zenject::DiContainer*& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set___4__this(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::__DiContainer___GetDependencyContracts_d__96::__get_contract() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contract;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::__DiContainer___GetDependencyContracts_d__96::__get_contract() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contract;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set_contract(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contract)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___3__contract() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__contract;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___3__contract() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__contract;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set___3__contract(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__contract)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*& Zenject::__DiContainer___GetDependencyContracts_d__96::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*> const&
 Zenject::__DiContainer___GetDependencyContracts_d__96::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void Zenject::__DiContainer___GetDependencyContracts_d__96::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DiContainer___GetDependencyContracts_d__96* Zenject::__DiContainer___GetDependencyContracts_d__96::New_ctor(int32_t __1__state) {
@@ -827,51 +827,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::DiContainer*& Zenject::__DiContainer____c__DisplayClass178_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::__DiContainer____c__DisplayClass178_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Zenject::__DiContainer____c__DisplayClass178_0::__set___4__this(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::__DiContainer____c__DisplayClass178_0::__get_contractType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contractType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::__DiContainer____c__DisplayClass178_0::__get_contractType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contractType;
 }
 constexpr void Zenject::__DiContainer____c__DisplayClass178_0::__set_contractType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contractType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& Zenject::__DiContainer____c__DisplayClass178_0::__get_identifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identifier;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::__DiContainer____c__DisplayClass178_0::__get_identifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identifier;
 }
 constexpr void Zenject::__DiContainer____c__DisplayClass178_0::__set_identifier(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___identifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::__DiContainer____c__DisplayClass178_0::__get_concreteType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___concreteType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::__DiContainer____c__DisplayClass178_0::__get_concreteType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___concreteType;
 }
 constexpr void Zenject::__DiContainer____c__DisplayClass178_0::__set_concreteType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___concreteType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__DiContainer____c__DisplayClass178_0* Zenject::__DiContainer____c__DisplayClass178_0::New_ctor() {
@@ -891,15 +891,15 @@ inline bool Zenject::__DiContainer____c__DisplayClass178_0::_UnbindId_b__0(::Zen
 // Ctor Parameters []
 constexpr ::Zenject::__DiContainer____c__DisplayClass178_0::__DiContainer____c__DisplayClass178_0() {}
 template <typename TContract> constexpr TContract& Zenject::__DiContainer____c__DisplayClass203_0_1<TContract>::__get_instance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instance;
 }
 template <typename TContract> constexpr TContract const& Zenject::__DiContainer____c__DisplayClass203_0_1<TContract>::__get_instance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instance;
 }
 template <typename TContract> constexpr void Zenject::__DiContainer____c__DisplayClass203_0_1<TContract>::__set_instance(TContract value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___instance)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> inline ::Zenject::__DiContainer____c__DisplayClass203_0_1<TContract>* Zenject::__DiContainer____c__DisplayClass203_0_1<TContract>::New_ctor() {
@@ -3012,275 +3012,275 @@ constexpr Zenject::DiContainer::operator ::Zenject::IInstantiator*() noexcept {
   return static_cast<::Zenject::IInstantiator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*& Zenject::DiContainer::__get__decorators() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decorators;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*> const&
 Zenject::DiContainer::__get__decorators() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____decorators;
 }
 constexpr void Zenject::DiContainer::__set__decorators(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____decorators)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>*&
 Zenject::DiContainer::__get__providers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providers;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>*> const&
 Zenject::DiContainer::__get__providers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providers;
 }
 constexpr void
 Zenject::DiContainer::__set__providers(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____providers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*>&
 Zenject::DiContainer::__get__containerLookups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerLookups;
 }
 constexpr ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> const&
 Zenject::DiContainer::__get__containerLookups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerLookups;
 }
 constexpr void Zenject::DiContainer::__set__containerLookups(
     ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____containerLookups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& Zenject::DiContainer::__get__resolvesInProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolvesInProgress;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*> const& Zenject::DiContainer::__get__resolvesInProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolvesInProgress;
 }
 constexpr void Zenject::DiContainer::__set__resolvesInProgress(::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resolvesInProgress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& Zenject::DiContainer::__get__resolvesTwiceInProgress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolvesTwiceInProgress;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*> const& Zenject::DiContainer::__get__resolvesTwiceInProgress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolvesTwiceInProgress;
 }
 constexpr void Zenject::DiContainer::__set__resolvesTwiceInProgress(::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resolvesTwiceInProgress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::LazyInstanceInjector*& Zenject::DiContainer::__get__lazyInjector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lazyInjector;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInstanceInjector*> const& Zenject::DiContainer::__get__lazyInjector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lazyInjector;
 }
 constexpr void Zenject::DiContainer::__set__lazyInjector(::Zenject::LazyInstanceInjector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lazyInjector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::Internal::SingletonMarkRegistry*& Zenject::DiContainer::__get__singletonMarkRegistry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singletonMarkRegistry;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::Internal::SingletonMarkRegistry*> const& Zenject::DiContainer::__get__singletonMarkRegistry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singletonMarkRegistry;
 }
 constexpr void Zenject::DiContainer::__set__singletonMarkRegistry(::Zenject::Internal::SingletonMarkRegistry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____singletonMarkRegistry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*& Zenject::DiContainer::__get__currentBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentBindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*> const& Zenject::DiContainer::__get__currentBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentBindings;
 }
 constexpr void Zenject::DiContainer::__set__currentBindings(::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::BindStatement*>*& Zenject::DiContainer::__get__childBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childBindings;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindStatement*>*> const& Zenject::DiContainer::__get__childBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childBindings;
 }
 constexpr void Zenject::DiContainer::__set__childBindings(::System::Collections::Generic::List_1<::Zenject::BindStatement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____childBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& Zenject::DiContainer::__get__validatedTypes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validatedTypes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& Zenject::DiContainer::__get__validatedTypes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validatedTypes;
 }
 constexpr void Zenject::DiContainer::__set__validatedTypes(::System::Collections::Generic::HashSet_1<::System::Type*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validatedTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::IValidatable*>*& Zenject::DiContainer::__get__validationQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validationQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IValidatable*>*> const& Zenject::DiContainer::__get__validationQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validationQueue;
 }
 constexpr void Zenject::DiContainer::__set__validationQueue(::System::Collections::Generic::List_1<::Zenject::IValidatable*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validationQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& Zenject::DiContainer::__get__contextTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contextTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& Zenject::DiContainer::__get__contextTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contextTransform;
 }
 constexpr void Zenject::DiContainer::__set__contextTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contextTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::DiContainer::__get__hasLookedUpContextTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasLookedUpContextTransform;
 }
 constexpr bool const& Zenject::DiContainer::__get__hasLookedUpContextTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasLookedUpContextTransform;
 }
 constexpr void Zenject::DiContainer::__set__hasLookedUpContextTransform(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasLookedUpContextTransform = value;
 }
 constexpr ::UnityEngine::Transform*& Zenject::DiContainer::__get__inheritedDefaultParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inheritedDefaultParent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& Zenject::DiContainer::__get__inheritedDefaultParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inheritedDefaultParent;
 }
 constexpr void Zenject::DiContainer::__set__inheritedDefaultParent(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inheritedDefaultParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& Zenject::DiContainer::__get__explicitDefaultParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explicitDefaultParent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& Zenject::DiContainer::__get__explicitDefaultParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explicitDefaultParent;
 }
 constexpr void Zenject::DiContainer::__set__explicitDefaultParent(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explicitDefaultParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::DiContainer::__get__hasExplicitDefaultParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasExplicitDefaultParent;
 }
 constexpr bool const& Zenject::DiContainer::__get__hasExplicitDefaultParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasExplicitDefaultParent;
 }
 constexpr void Zenject::DiContainer::__set__hasExplicitDefaultParent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasExplicitDefaultParent = value;
 }
 constexpr ::Zenject::ZenjectSettings*& Zenject::DiContainer::__get__settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenjectSettings*> const& Zenject::DiContainer::__get__settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr void Zenject::DiContainer::__set__settings(::Zenject::ZenjectSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::DiContainer::__get__hasResolvedRoots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasResolvedRoots;
 }
 constexpr bool const& Zenject::DiContainer::__get__hasResolvedRoots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasResolvedRoots;
 }
 constexpr void Zenject::DiContainer::__set__hasResolvedRoots(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasResolvedRoots = value;
 }
 constexpr bool& Zenject::DiContainer::__get__isFinalizingBinding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFinalizingBinding;
 }
 constexpr bool const& Zenject::DiContainer::__get__isFinalizingBinding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isFinalizingBinding;
 }
 constexpr void Zenject::DiContainer::__set__isFinalizingBinding(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isFinalizingBinding = value;
 }
 constexpr bool& Zenject::DiContainer::__get__isValidating() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isValidating;
 }
 constexpr bool const& Zenject::DiContainer::__get__isValidating() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isValidating;
 }
 constexpr void Zenject::DiContainer::__set__isValidating(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isValidating = value;
 }
 constexpr bool& Zenject::DiContainer::__get__isInstalling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInstalling;
 }
 constexpr bool const& Zenject::DiContainer::__get__isInstalling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInstalling;
 }
 constexpr void Zenject::DiContainer::__set__isInstalling(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isInstalling = value;
 }
 constexpr bool& Zenject::DiContainer::__get__AssertOnNewGameObjects_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AssertOnNewGameObjects_k__BackingField;
 }
 constexpr bool const& Zenject::DiContainer::__get__AssertOnNewGameObjects_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AssertOnNewGameObjects_k__BackingField;
 }
 constexpr void Zenject::DiContainer::__set__AssertOnNewGameObjects_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AssertOnNewGameObjects_k__BackingField = value;
 }
 inline ::Zenject::DiContainer* Zenject::DiContainer::New_ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainersEnumerable, bool isValidating) {

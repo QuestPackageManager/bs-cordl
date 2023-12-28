@@ -15,53 +15,53 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontAsset)
-namespace UnityEngine::TextCore {
-struct GlyphRect;
-}
-namespace UnityEngine::TextCore::Text {
-class FontFeatureTable;
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine::TextCore::Text {
 struct FontWeightPair;
 }
 namespace UnityEngine::TextCore::Text {
-class __FontAsset____c;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class Character;
 }
 namespace UnityEngine::TextCore {
-struct FaceInfo;
+struct GlyphRect;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontAssetCreationEditorSettings;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct FontEngineError;
 }
+namespace UnityEngine::TextCore::Text {
+struct AtlasPopulationMode;
+}
+namespace UnityEngine::TextCore::Text {
+class FontFeatureTable;
+}
 namespace UnityEngine {
 class Texture2D;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::TextCore {
 class Glyph;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::TextCore::Text {
-struct AtlasPopulationMode;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontAssetCreationEditorSettings;
-}
-namespace UnityEngine::TextCore::Text {
-class Character;
-}
-namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace UnityEngine::TextCore {
+struct FaceInfo;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TextCore::Text {
+class __FontAsset____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -142,8 +142,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__F
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15534)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), TypeDefinitionIndex(TypeDefinitionIndex(9966)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(13680)), TypeDefinitionIndex(TypeDefinitionIndex(15526))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(15534)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13680)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), TypeDefinitionIndex(TypeDefinitionIndex(9966))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13682)) CS Name: ::UnityEngine.TextCore.Text::FontAsset*
 class CORDL_TYPE FontAsset : public ::UnityEngine::TextCore::Text::TextAsset {
 public:

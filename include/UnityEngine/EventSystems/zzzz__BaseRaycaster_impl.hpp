@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::BaseRaycaster.Raycast
 template <>
 
@@ -180,15 +180,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventSystems::BaseRaycaster*& UnityEngine::EventSystems::BaseRaycaster::__get_m_RootRaycaster() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootRaycaster;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseRaycaster*> const& UnityEngine::EventSystems::BaseRaycaster::__get_m_RootRaycaster() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootRaycaster;
 }
 constexpr void UnityEngine::EventSystems::BaseRaycaster::__set_m_RootRaycaster(::UnityEngine::EventSystems::BaseRaycaster* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RootRaycaster)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::EventSystems::BaseRaycaster::Raycast(::UnityEngine::EventSystems::PointerEventData* eventData,

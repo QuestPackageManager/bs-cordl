@@ -104,28 +104,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::PlatformInstaller::__get__isTest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isTest;
 }
 constexpr bool const& GlobalNamespace::PlatformInstaller::__get__isTest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isTest;
 }
 constexpr void GlobalNamespace::PlatformInstaller::__set__isTest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isTest = value;
 }
 constexpr ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*& GlobalNamespace::PlatformInstaller::__get__mockPlatformAdditionalContentModelInitialData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mockPlatformAdditionalContentModelInitialData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*> const&
 GlobalNamespace::PlatformInstaller::__get__mockPlatformAdditionalContentModelInitialData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mockPlatformAdditionalContentModelInitialData;
 }
 constexpr void GlobalNamespace::PlatformInstaller::__set__mockPlatformAdditionalContentModelInitialData(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mockPlatformAdditionalContentModelInitialData)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

@@ -5,18 +5,18 @@
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__TypeInformation_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IFormatter_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__TypeInformation_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.set_AssemblyFormat
 template <>
 
@@ -216,89 +216,89 @@ constexpr System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::o
   return static_cast<::System::Runtime::Serialization::IFormatter*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Serialization::ISurrogateSelector*& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_surrogates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_surrogates;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const&
 System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_surrogates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_surrogates;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_surrogates(::System::Runtime::Serialization::ISurrogateSelector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_surrogates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::StreamingContext& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
 constexpr ::System::Runtime::Serialization::StreamingContext const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_context(::System::Runtime::Serialization::StreamingContext value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_context = value;
 }
 constexpr ::System::Runtime::Serialization::SerializationBinder*& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_binder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_binder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationBinder*> const&
 System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_binder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_binder;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_binder(::System::Runtime::Serialization::SerializationBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_typeFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_typeFormat;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_typeFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_typeFormat;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_typeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_typeFormat = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_assemblyFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_assemblyFormat;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_assemblyFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_assemblyFormat;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_assemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_assemblyFormat = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_securityLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_securityLevel;
 }
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_securityLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_securityLevel;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_securityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_securityLevel = value;
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_crossAppDomainArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_crossAppDomainArray;
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__get_m_crossAppDomainArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_crossAppDomainArray;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__set_m_crossAppDomainArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_crossAppDomainArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::setStaticF_typeNameCache(

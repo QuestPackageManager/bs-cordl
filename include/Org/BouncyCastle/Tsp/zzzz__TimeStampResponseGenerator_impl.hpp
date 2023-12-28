@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponseGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponse_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenGenerator_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponseGenerator_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
-#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo._ctor
 template <>
 
@@ -190,87 +190,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___status = value;
 }
 constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_statusStrings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusStrings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_statusStrings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusStrings;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_statusStrings(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___statusStrings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_failInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failInfo;
 }
 constexpr int32_t const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_failInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failInfo;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_failInfo(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___failInfo = value;
 }
 constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_tokenGenerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenGenerator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_tokenGenerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenGenerator;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_tokenGenerator(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tokenGenerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedAlgorithms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedAlgorithms;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedAlgorithms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedAlgorithms;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_acceptedAlgorithms(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___acceptedAlgorithms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedPolicies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedPolicies;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedPolicies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedPolicies;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_acceptedPolicies(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___acceptedPolicies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedExtensions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedExtensions;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedExtensions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___acceptedExtensions;
 }
 constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_acceptedExtensions(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___acceptedExtensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator,

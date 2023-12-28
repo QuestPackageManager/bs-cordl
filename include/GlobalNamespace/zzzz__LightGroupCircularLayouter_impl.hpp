@@ -26,75 +26,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__get__radius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius;
 }
 constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__get__radius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius;
 }
 constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__radius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radius = value;
 }
 constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__get__angle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____angle;
 }
 constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__get__angle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____angle;
 }
 constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__angle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____angle = value;
 }
 constexpr float_t& GlobalNamespace::LightGroupCircularLayouter::__get__startingAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startingAngle;
 }
 constexpr float_t const& GlobalNamespace::LightGroupCircularLayouter::__get__startingAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startingAngle;
 }
 constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__startingAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startingAngle = value;
 }
 constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection& GlobalNamespace::LightGroupCircularLayouter::__get__rotationDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
 constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection const& GlobalNamespace::LightGroupCircularLayouter::__get__rotationDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
 constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__rotationDirection(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationDirection = value;
 }
 constexpr bool& GlobalNamespace::LightGroupCircularLayouter::__get__staticRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____staticRotation;
 }
 constexpr bool const& GlobalNamespace::LightGroupCircularLayouter::__get__staticRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____staticRotation;
 }
 constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__staticRotation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____staticRotation = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::LightGroupCircularLayouter::__get__additionalAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalAngle;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::LightGroupCircularLayouter::__get__additionalAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____additionalAngle;
 }
 constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__additionalAngle(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____additionalAngle = value;
 }
 inline ::GlobalNamespace::LightGroupCircularLayouter* GlobalNamespace::LightGroupCircularLayouter::New_ctor() {

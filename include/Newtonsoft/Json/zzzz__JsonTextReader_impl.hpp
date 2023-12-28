@@ -3,17 +3,17 @@
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextReader_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader._ctor
 template <>
 
@@ -876,135 +876,135 @@ constexpr Newtonsoft::Json::JsonTextReader::operator ::Newtonsoft::Json::IJsonLi
   return static_cast<::Newtonsoft::Json::IJsonLineInfo*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::TextReader*& Newtonsoft::Json::JsonTextReader::__get__reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& Newtonsoft::Json::JsonTextReader::__get__reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__reader(::System::IO::TextReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Newtonsoft::Json::JsonTextReader::__get__chars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chars;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Newtonsoft::Json::JsonTextReader::__get__chars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chars;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__chars(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____chars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Newtonsoft::Json::JsonTextReader::__get__charsUsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charsUsed;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__get__charsUsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charsUsed;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__charsUsed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charsUsed = value;
 }
 constexpr int32_t& Newtonsoft::Json::JsonTextReader::__get__charPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charPos;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__get__charPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charPos;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__charPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charPos = value;
 }
 constexpr int32_t& Newtonsoft::Json::JsonTextReader::__get__lineStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineStartPos;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__get__lineStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineStartPos;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__lineStartPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineStartPos = value;
 }
 constexpr int32_t& Newtonsoft::Json::JsonTextReader::__get__lineNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineNumber;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__get__lineNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineNumber;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__lineNumber(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineNumber = value;
 }
 constexpr bool& Newtonsoft::Json::JsonTextReader::__get__isEndOfFile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEndOfFile;
 }
 constexpr bool const& Newtonsoft::Json::JsonTextReader::__get__isEndOfFile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEndOfFile;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__isEndOfFile(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isEndOfFile = value;
 }
 constexpr ::Newtonsoft::Json::Utilities::StringBuffer& Newtonsoft::Json::JsonTextReader::__get__stringBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuffer;
 }
 constexpr ::Newtonsoft::Json::Utilities::StringBuffer const& Newtonsoft::Json::JsonTextReader::__get__stringBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuffer;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stringBuffer = value;
 }
 constexpr ::Newtonsoft::Json::Utilities::StringReference& Newtonsoft::Json::JsonTextReader::__get__stringReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringReference;
 }
 constexpr ::Newtonsoft::Json::Utilities::StringReference const& Newtonsoft::Json::JsonTextReader::__get__stringReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringReference;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__stringReference(::Newtonsoft::Json::Utilities::StringReference value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stringReference = value;
 }
 constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& Newtonsoft::Json::JsonTextReader::__get__arrayPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& Newtonsoft::Json::JsonTextReader::__get__arrayPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayPool;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrayPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable*& Newtonsoft::Json::JsonTextReader::__get_NameTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NameTable;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::PropertyNameTable*> const& Newtonsoft::Json::JsonTextReader::__get_NameTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NameTable;
 }
 constexpr void Newtonsoft::Json::JsonTextReader::__set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NameTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::JsonTextReader* Newtonsoft::Json::JsonTextReader::New_ctor(::System::IO::TextReader* reader) {

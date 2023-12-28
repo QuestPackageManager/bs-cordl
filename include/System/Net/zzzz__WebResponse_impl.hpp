@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: ::System::Net::WebResponse._ctor
 template <>
 
@@ -174,15 +174,15 @@ constexpr System::Net::WebResponse::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& System::Net::WebResponse::__get_m_IsFromCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsFromCache;
 }
 constexpr bool const& System::Net::WebResponse::__get_m_IsFromCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsFromCache;
 }
 constexpr void System::Net::WebResponse::__set_m_IsFromCache(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsFromCache = value;
 }
 inline ::System::Net::WebResponse* System::Net::WebResponse::New_ctor() {

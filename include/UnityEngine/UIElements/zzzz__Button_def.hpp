@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Button)
-namespace UnityEngine::UIElements {
-class __Button__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class __Button__UxmlFactory;
-}
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
+class __Button__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __Button__UxmlTraits;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
+struct __VisualElement__MeasureMode;
+}
+namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
+class NavigationSubmitEvent;
 }
 namespace UnityEngine::UIElements {
 class Clickable;
@@ -172,8 +172,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Button,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7124)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7125))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257 }), TypeDefinitionIndex(TypeDefinitionIndex(7124)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7125)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
 class CORDL_TYPE __Button__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Button*, ::UnityEngine::UIElements::__Button__UxmlTraits*> {
 public:
   // Declarations

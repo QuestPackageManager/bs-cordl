@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(UriConverter)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
+}
+namespace System {
+class Type;
 }
 namespace Newtonsoft::Json {
 class JsonReader;

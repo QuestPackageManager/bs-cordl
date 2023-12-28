@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Exception_impl.hpp"
 #include "Mono/Security/Interface/zzzz__TlsException_def.hpp"
-#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 #include "Mono/Security/Interface/zzzz__Alert_def.hpp"
+#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Interface::TlsException._ctor
 template <>
 
@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Security::Interface::Alert*& Mono::Security::Interface::TlsException::__get_alert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alert;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::Alert*> const& Mono::Security::Interface::TlsException::__get_alert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alert;
 }
 constexpr void Mono::Security::Interface::TlsException::__set_alert(::Mono::Security::Interface::Alert* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___alert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Interface::TlsException* Mono::Security::Interface::TlsException::New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message) {

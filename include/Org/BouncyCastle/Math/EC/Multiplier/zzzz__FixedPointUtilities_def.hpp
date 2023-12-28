@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedPointUtilities)
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __FixedPointUtilities__FixedPointCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
 class FixedPointPreCompInfo;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class __FixedPointUtilities__FixedPointCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {

@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderEvents)
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UIElements::UIR {
-struct ChainBuilderStats;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
-}
 namespace UnityEngine::UIElements::UIR::Implementation {
-class UIRTextUpdatePainter;
-}
-namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
+struct ClipMethod;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine::UIElements::UIR {
+struct ChainBuilderStats;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
-struct ClipMethod;
+class UIRTextUpdatePainter;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
+}
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {

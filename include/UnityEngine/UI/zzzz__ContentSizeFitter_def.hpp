@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentSizeFitter)
 namespace UnityEngine::UI {
-class ILayoutSelfController;
-}
-namespace UnityEngine::UI {
 class ILayoutController;
 }
 namespace UnityEngine::UI {
 struct __ContentSizeFitter__FitMode;
+}
+namespace UnityEngine::UI {
+class ILayoutSelfController;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -86,7 +86,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ContentSizeFi
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13077))
 // CS Name: ::UnityEngine.UI::ContentSizeFitter*
 class CORDL_TYPE ContentSizeFitter : public ::UnityEngine::EventSystems::UIBehaviour {

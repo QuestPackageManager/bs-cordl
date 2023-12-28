@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicBoneColliderBase)
 namespace GlobalNamespace {
-struct __DynamicBoneColliderBase__Direction;
+struct __DynamicBoneColliderBase__Bound;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct __DynamicBoneColliderBase__Bound;
+struct __DynamicBoneColliderBase__Direction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +137,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DynamicBoneCo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16047)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16048))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16049)) CS Name: ::DynamicBoneColliderBase*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16048)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16049)) CS Name: ::DynamicBoneColliderBase*
 class CORDL_TYPE DynamicBoneColliderBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

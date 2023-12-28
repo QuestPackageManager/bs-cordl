@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalMultiplayerSyncState_3)
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
 }
 namespace GlobalNamespace {
@@ -14,9 +17,6 @@ template <typename TStateTable, typename TType, typename TState> class __StateBu
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;

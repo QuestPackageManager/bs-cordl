@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StrongNameKeyPair)
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+struct StreamingContext;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Reflection {

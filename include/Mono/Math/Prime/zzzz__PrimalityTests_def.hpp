@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimalityTests)
-namespace Mono::Math {
-class BigInteger;
-}
 namespace Mono::Math::Prime {
 struct ConfidenceFactor;
+}
+namespace Mono::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Mono::Math::Prime {

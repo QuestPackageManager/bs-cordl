@@ -59,27 +59,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BlueNoiseDithering*& GlobalNamespace::BlueNoiseDitheringUpdater::__get__blueNoiseDithering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueNoiseDithering;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BlueNoiseDithering*> const& GlobalNamespace::BlueNoiseDitheringUpdater::__get__blueNoiseDithering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blueNoiseDithering;
 }
 constexpr void GlobalNamespace::BlueNoiseDitheringUpdater::__set__blueNoiseDithering(::GlobalNamespace::BlueNoiseDithering* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blueNoiseDithering)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RandomValueToShader*& GlobalNamespace::BlueNoiseDitheringUpdater::__get__randomValueToShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomValueToShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomValueToShader*> const& GlobalNamespace::BlueNoiseDitheringUpdater::__get__randomValueToShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomValueToShader;
 }
 constexpr void GlobalNamespace::BlueNoiseDitheringUpdater::__set__randomValueToShader(::GlobalNamespace::RandomValueToShader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomValueToShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BlueNoiseDitheringUpdater::OnEnable() {

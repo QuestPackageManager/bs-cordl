@@ -45,39 +45,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Light*& GlobalNamespace::UnityLightWithId::__get__light() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____light;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Light*> const& GlobalNamespace::UnityLightWithId::__get__light() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____light;
 }
 constexpr void GlobalNamespace::UnityLightWithId::__set__light(::UnityEngine::Light* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____light)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::UnityLightWithId::__get__intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr float_t const& GlobalNamespace::UnityLightWithId::__get__intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr void GlobalNamespace::UnityLightWithId::__set__intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
 constexpr float_t& GlobalNamespace::UnityLightWithId::__get__minAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr float_t const& GlobalNamespace::UnityLightWithId::__get__minAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr void GlobalNamespace::UnityLightWithId::__set__minAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
 inline ::UnityEngine::Color GlobalNamespace::UnityLightWithId::get_color() {

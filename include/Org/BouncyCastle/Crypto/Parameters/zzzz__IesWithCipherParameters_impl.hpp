@@ -34,15 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::__get_cipherKeySize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipherKeySize;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::__get_cipherKeySize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipherKeySize;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::__set_cipherKeySize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cipherKeySize = value;
 }
 inline ::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters* Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation,

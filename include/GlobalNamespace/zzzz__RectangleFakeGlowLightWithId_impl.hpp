@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlowLightWithId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlow_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RectangleFakeGlowLightWithId.get_color
 template <>
 
@@ -48,39 +48,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::RectangleFakeGlowLightWithId::__get__minAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr float_t const& GlobalNamespace::RectangleFakeGlowLightWithId::__get__minAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
 constexpr void GlobalNamespace::RectangleFakeGlowLightWithId::__set__minAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
 constexpr float_t& GlobalNamespace::RectangleFakeGlowLightWithId::__get__alphaMul() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaMul;
 }
 constexpr float_t const& GlobalNamespace::RectangleFakeGlowLightWithId::__get__alphaMul() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaMul;
 }
 constexpr void GlobalNamespace::RectangleFakeGlowLightWithId::__set__alphaMul(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alphaMul = value;
 }
 constexpr ::GlobalNamespace::RectangleFakeGlow*& GlobalNamespace::RectangleFakeGlowLightWithId::__get__rectangleFakeGlow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectangleFakeGlow;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RectangleFakeGlow*> const& GlobalNamespace::RectangleFakeGlowLightWithId::__get__rectangleFakeGlow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectangleFakeGlow;
 }
 constexpr void GlobalNamespace::RectangleFakeGlowLightWithId::__set__rectangleFakeGlow(::GlobalNamespace::RectangleFakeGlow* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rectangleFakeGlow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Color GlobalNamespace::RectangleFakeGlowLightWithId::get_color() {

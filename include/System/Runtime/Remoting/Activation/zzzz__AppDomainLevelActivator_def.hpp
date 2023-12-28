@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AppDomainLevelActivator)
 namespace System::Runtime::Remoting::Activation {
-class IActivator;
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+class IActivator;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;

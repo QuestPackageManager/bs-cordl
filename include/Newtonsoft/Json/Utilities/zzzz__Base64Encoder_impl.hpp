@@ -63,51 +63,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Newtonsoft::Json::Utilities::Base64Encoder::__get__charsLine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charsLine;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Newtonsoft::Json::Utilities::Base64Encoder::__get__charsLine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charsLine;
 }
 constexpr void Newtonsoft::Json::Utilities::Base64Encoder::__set__charsLine(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____charsLine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::TextWriter*& Newtonsoft::Json::Utilities::Base64Encoder::__get__writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& Newtonsoft::Json::Utilities::Base64Encoder::__get__writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr void Newtonsoft::Json::Utilities::Base64Encoder::__set__writer(::System::IO::TextWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Newtonsoft::Json::Utilities::Base64Encoder::__get__leftOverBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftOverBytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Newtonsoft::Json::Utilities::Base64Encoder::__get__leftOverBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftOverBytes;
 }
 constexpr void Newtonsoft::Json::Utilities::Base64Encoder::__set__leftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftOverBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Newtonsoft::Json::Utilities::Base64Encoder::__get__leftOverBytesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftOverBytesCount;
 }
 constexpr int32_t const& Newtonsoft::Json::Utilities::Base64Encoder::__get__leftOverBytesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftOverBytesCount;
 }
 constexpr void Newtonsoft::Json::Utilities::Base64Encoder::__set__leftOverBytesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leftOverBytesCount = value;
 }
 inline ::Newtonsoft::Json::Utilities::Base64Encoder* Newtonsoft::Json::Utilities::Base64Encoder::New_ctor(::System::IO::TextWriter* writer) {

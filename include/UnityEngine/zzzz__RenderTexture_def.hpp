@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(RenderTexture)
 namespace UnityEngine::Experimental::Rendering {
 struct DefaultFormat;
 }
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+namespace UnityEngine {
+struct RenderBuffer;
 }
-namespace UnityEngine::Rendering {
-struct TextureDimension;
+namespace UnityEngine {
+struct RenderTextureFormat;
 }
 namespace UnityEngine {
 struct VRTextureUsage;
@@ -21,17 +21,17 @@ struct VRTextureUsage;
 namespace UnityEngine {
 struct RenderTextureDescriptor;
 }
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
-struct RenderBuffer;
-}
-namespace UnityEngine {
-struct RenderTextureMemoryless;
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
 }
 namespace UnityEngine {
 struct RenderTextureReadWrite;
+}
+namespace UnityEngine::Rendering {
+struct TextureDimension;
+}
+namespace UnityEngine {
+struct RenderTextureMemoryless;
 }
 // Forward declare root types
 namespace UnityEngine {

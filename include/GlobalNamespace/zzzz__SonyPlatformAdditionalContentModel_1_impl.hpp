@@ -9,23 +9,23 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__SonyLevelProductModelSO_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "GlobalNamespace/zzzz__ISonyCommerceHelper_def.hpp"
-#include "GlobalNamespace/zzzz__AlwaysOwnedContentContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISonyCommerceHelper_def.hpp"
+#include "GlobalNamespace/zzzz__SonyLevelProductModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__AlwaysOwnedContentContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
 constexpr GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
@@ -339,108 +339,108 @@ constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___UpdateEnti
 template <typename T>
 constexpr ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21<T>::__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21() {}
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__entitlementsLabels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entitlementsLabels;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__entitlementsLabels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entitlementsLabels;
 }
 template <typename T> constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__entitlementsLabels(::System::Collections::Generic::HashSet_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entitlementsLabels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Threading::SemaphoreSlim*& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__semaphoreSlim() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____semaphoreSlim;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__semaphoreSlim() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____semaphoreSlim;
 }
 template <typename T> constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__semaphoreSlim(::System::Threading::SemaphoreSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____semaphoreSlim)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__isDataValid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDataValid;
 }
 template <typename T> constexpr bool const& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__isDataValid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDataValid;
 }
 template <typename T> constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__isDataValid(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDataValid = value;
 }
 template <typename T> constexpr ::GlobalNamespace::ISonyCommerceHelper*& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__sonyCommerceHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyCommerceHelper;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISonyCommerceHelper*> const& GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__sonyCommerceHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyCommerceHelper;
 }
 template <typename T> constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__sonyCommerceHelper(::GlobalNamespace::ISonyCommerceHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sonyCommerceHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__levelIdToProductData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelIdToProductData;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> const&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__levelIdToProductData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelIdToProductData;
 }
 template <typename T>
 constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__levelIdToProductData(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelIdToProductData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__levelPackIdToProductData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackIdToProductData;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*> const&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__levelPackIdToProductData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackIdToProductData;
 }
 template <typename T>
 constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__levelPackIdToProductData(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackIdToProductData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__levelPackRedirectionData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*> const&
 GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__get__levelPackRedirectionData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackRedirectionData;
 }
 template <typename T>
 constexpr void GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>::__set__levelPackRedirectionData(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

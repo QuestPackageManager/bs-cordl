@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolWrapperFactory_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_1_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_1<T>"
 template <typename T> constexpr Zenject::PoolWrapperFactory_1<T>::operator ::Zenject::IFactory_1<T>*() noexcept {
   return static_cast<::Zenject::IFactory_1<T>*>(static_cast<void*>(this));
@@ -15,15 +15,15 @@ template <typename T> constexpr Zenject::PoolWrapperFactory_1<T>::operator ::Zen
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::Zenject::IMemoryPool_1<T>*& Zenject::PoolWrapperFactory_1<T>::__get__pool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& Zenject::PoolWrapperFactory_1<T>::__get__pool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename T> constexpr void Zenject::PoolWrapperFactory_1<T>::__set__pool(::Zenject::IMemoryPool_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::Zenject::PoolWrapperFactory_1<T>* Zenject::PoolWrapperFactory_1<T>::New_ctor(::Zenject::IMemoryPool_1<T>* pool) {

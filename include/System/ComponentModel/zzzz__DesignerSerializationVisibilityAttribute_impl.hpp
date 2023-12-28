@@ -2,8 +2,8 @@
 #include "System/ComponentModel/zzzz__DesignerSerializationVisibility_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__DesignerSerializationVisibilityAttribute_def.hpp"
-#include "System/ComponentModel/zzzz__DesignerSerializationVisibility_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/ComponentModel/zzzz__DesignerSerializationVisibility_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::DesignerSerializationVisibilityAttribute._ctor
 template <>
 
@@ -83,15 +83,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::ComponentModel::DesignerSerializationVisibility& System::ComponentModel::DesignerSerializationVisibilityAttribute::__get__Visibility_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Visibility_k__BackingField;
 }
 constexpr ::System::ComponentModel::DesignerSerializationVisibility const& System::ComponentModel::DesignerSerializationVisibilityAttribute::__get__Visibility_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Visibility_k__BackingField;
 }
 constexpr void System::ComponentModel::DesignerSerializationVisibilityAttribute::__set__Visibility_k__BackingField(::System::ComponentModel::DesignerSerializationVisibility value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Visibility_k__BackingField = value;
 }
 inline void System::ComponentModel::DesignerSerializationVisibilityAttribute::setStaticF_Content(::System::ComponentModel::DesignerSerializationVisibilityAttribute* value) {

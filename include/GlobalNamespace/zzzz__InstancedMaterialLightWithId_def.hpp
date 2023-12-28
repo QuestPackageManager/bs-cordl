@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(InstancedMaterialLightWithId)
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

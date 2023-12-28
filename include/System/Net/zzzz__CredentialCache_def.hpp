@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CredentialCache)
 namespace System::Net {
-class ICredentials;
+class NetworkCredential;
 }
 namespace System::Net {
-class NetworkCredential;
+class ICredentials;
 }
 // Forward declare root types
 namespace System::Net {

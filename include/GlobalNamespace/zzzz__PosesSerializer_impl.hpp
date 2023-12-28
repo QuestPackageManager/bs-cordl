@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesSerializer_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
-#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingInfoSaveData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PosesSerializer._ctor
 template <>
@@ -195,27 +195,27 @@ constexpr GlobalNamespace::PosesSerializer::operator ::GlobalNamespace::IPosesSe
   return static_cast<::GlobalNamespace::IPosesSerializer*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::PosesSerializer::__get__logger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::PosesSerializer::__get__logger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
 constexpr void GlobalNamespace::PosesSerializer::__set__logger(::GlobalNamespace::IBeatSaberLogger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::RecordingConverter*& GlobalNamespace::PosesSerializer::__get__recordingConverter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingConverter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingConverter*> const& GlobalNamespace::PosesSerializer::__get__recordingConverter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingConverter;
 }
 constexpr void GlobalNamespace::PosesSerializer::__set__recordingConverter(::GlobalNamespace::RecordingConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingConverter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::PosesSerializer* GlobalNamespace::PosesSerializer::New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {

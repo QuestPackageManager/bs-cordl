@@ -5,8 +5,8 @@
 #include "System/Net/zzzz__ContextAwareResult_def.hpp"
 #include "System/Net/zzzz__ContextAwareResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__ContextAwareResult__StateFlags::__ContextAwareResult__StateFlags(uint8_t value__) noexcept {
@@ -258,39 +258,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::ExecutionContext*& System::Net::ContextAwareResult::__get__context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Net::ContextAwareResult::__get__context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr void System::Net::ContextAwareResult::__set__context(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::ContextAwareResult::__get__lock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::ContextAwareResult::__get__lock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;
 }
 constexpr void System::Net::ContextAwareResult::__set__lock(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__ContextAwareResult__StateFlags& System::Net::ContextAwareResult::__get__flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flags;
 }
 constexpr ::System::Net::__ContextAwareResult__StateFlags const& System::Net::ContextAwareResult::__get__flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flags;
 }
 constexpr void System::Net::ContextAwareResult::__set__flags(::System::Net::__ContextAwareResult__StateFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flags = value;
 }
 inline void System::Net::ContextAwareResult::SafeCaptureIdentity() {

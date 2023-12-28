@@ -9,37 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServerLobbyFlowCoordinator)
 namespace GlobalNamespace {
-class MultiplayerSettingsPanelController;
-}
-namespace GlobalNamespace {
-class CenterStageScreenController;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
-class ScreenModeSO;
-}
-namespace HMUI {
-class ScreenModeController;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
+class GameplaySetupViewController;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyController;
@@ -47,62 +17,62 @@ class MultiplayerLobbyController;
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
-namespace GlobalNamespace {
-class __LevelSelectionFlowCoordinator__State;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-struct MultiplayerLobbyState;
+class FadeInOutController;
 }
 namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelSelectionFlowCoordinator;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace GlobalNamespace {
-class __GameServerLobbyFlowCoordinator____c__DisplayClass70_0;
-}
-namespace GlobalNamespace {
-class ServerPlayerListViewController;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class LobbyGameStateModel;
+class PlayersMissingEntitlementsNetSerializable;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsViewController;
 }
 namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class __LevelSelectionFlowCoordinator__State;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class ConnectionErrorDialogViewController;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
+class ServerPlayerListViewController;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class __GameServerLobbyFlowCoordinator____c__DisplayClass85_0;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class SelectModifiersViewController;
 }
 namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-class ConnectionErrorDialogViewController;
+class PlatformLeaderboardsModel;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
@@ -111,31 +81,61 @@ namespace GlobalNamespace {
 class LobbySetupViewController;
 }
 namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
+class IUnifiedNetworkPlayerModel;
 }
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+namespace HMUI {
+class ScreenModeSO;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+class ILobbyGameStateController;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace HMUI {
+class ScreenModeController;
 }
 namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
+class MultiplayerSettingsPanelController;
 }
 namespace GlobalNamespace {
 struct __GameServerLobbyFlowCoordinator__LobbyType;
 }
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class SimpleDialogPromptViewController;
+}
+namespace GlobalNamespace {
+class __GameServerLobbyFlowCoordinator____c__DisplayClass85_0;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelSelectionFlowCoordinator;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+struct CannotStartGameReason;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class __GameServerLobbyFlowCoordinator____c__DisplayClass70_0;
+}
+namespace GlobalNamespace {
+class CenterStageScreenController;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;

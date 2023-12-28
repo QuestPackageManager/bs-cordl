@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__OidCollection_def.hpp"
-#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Security/Cryptography/zzzz__OidEnumerator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Cryptography/zzzz__OidEnumerator_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::OidCollection._ctor
 template <>
 
@@ -147,16 +147,16 @@ constexpr System::Security::Cryptography::OidCollection::operator ::System::Coll
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*& System::Security::Cryptography::OidCollection::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*> const&
 System::Security::Cryptography::OidCollection::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Security::Cryptography::OidCollection::__set__list(::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::OidCollection* System::Security::Cryptography::OidCollection::New_ctor() {

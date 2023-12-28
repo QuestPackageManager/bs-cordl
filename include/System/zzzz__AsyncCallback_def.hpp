@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCallback)
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PaddedBufferedBlockCipher)
 namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {

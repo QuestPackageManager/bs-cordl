@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertPairStoreSelector_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector.CloneSelector
 template <>
 
@@ -181,41 +181,41 @@ constexpr Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::operator ::
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::X509::X509CertificatePair*& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__get_certPair() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certPair;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificatePair*> const& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__get_certPair() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certPair;
 }
 constexpr void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__set_certPair(::Org::BouncyCastle::X509::X509CertificatePair* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certPair)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__get_forwardSelector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forwardSelector;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const&
 Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__get_forwardSelector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forwardSelector;
 }
 constexpr void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__set_forwardSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___forwardSelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__get_reverseSelector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reverseSelector;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const&
 Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__get_reverseSelector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reverseSelector;
 }
 constexpr void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__set_reverseSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reverseSelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::CloneSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* s) {

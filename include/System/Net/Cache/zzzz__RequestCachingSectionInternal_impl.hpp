@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::Cache::RequestCachingSectionInternal::__get_DisableAllCaching() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisableAllCaching;
 }
 constexpr bool const& System::Net::Cache::RequestCachingSectionInternal::__get_DisableAllCaching() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisableAllCaching;
 }
 constexpr void System::Net::Cache::RequestCachingSectionInternal::__set_DisableAllCaching(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DisableAllCaching = value;
 }
 inline ::System::Net::Cache::RequestCachingSectionInternal* System::Net::Cache::RequestCachingSectionInternal::New_ctor() {

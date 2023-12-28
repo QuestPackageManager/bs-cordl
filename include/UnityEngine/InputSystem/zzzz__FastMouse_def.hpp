@@ -8,31 +8,31 @@ namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IEventMerger;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateCallbackReceiver;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IEventMerger;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateCallbackReceiver;
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class DeltaControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

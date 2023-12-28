@@ -2,8 +2,8 @@
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 //  Writing Method size for method: ::HMUI::CurvedCanvasSettings.get_radius
 template <>
@@ -104,27 +104,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::CurvedCanvasSettings::__get__radius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius;
 }
 constexpr float_t const& HMUI::CurvedCanvasSettings::__get__radius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius;
 }
 constexpr void HMUI::CurvedCanvasSettings::__set__radius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radius = value;
 }
 constexpr bool& HMUI::CurvedCanvasSettings::__get__useFlatInEditMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useFlatInEditMode;
 }
 constexpr bool const& HMUI::CurvedCanvasSettings::__get__useFlatInEditMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useFlatInEditMode;
 }
 constexpr void HMUI::CurvedCanvasSettings::__set__useFlatInEditMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useFlatInEditMode = value;
 }
 inline float_t HMUI::CurvedCanvasSettings::get_radius() {

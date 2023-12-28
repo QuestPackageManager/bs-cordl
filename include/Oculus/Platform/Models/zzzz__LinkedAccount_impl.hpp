@@ -17,39 +17,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Oculus::Platform::Models::LinkedAccount::__get_AccessToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AccessToken;
 }
 constexpr ::StringW const& Oculus::Platform::Models::LinkedAccount::__get_AccessToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AccessToken;
 }
 constexpr void Oculus::Platform::Models::LinkedAccount::__set_AccessToken(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___AccessToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::ServiceProvider& Oculus::Platform::Models::LinkedAccount::__get_ServiceProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ServiceProvider;
 }
 constexpr ::Oculus::Platform::ServiceProvider const& Oculus::Platform::Models::LinkedAccount::__get_ServiceProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ServiceProvider;
 }
 constexpr void Oculus::Platform::Models::LinkedAccount::__set_ServiceProvider(::Oculus::Platform::ServiceProvider value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ServiceProvider = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::LinkedAccount::__get_UserId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserId;
 }
 constexpr ::StringW const& Oculus::Platform::Models::LinkedAccount::__get_UserId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserId;
 }
 constexpr void Oculus::Platform::Models::LinkedAccount::__set_UserId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::LinkedAccount* Oculus::Platform::Models::LinkedAccount::New_ctor(void* o) {

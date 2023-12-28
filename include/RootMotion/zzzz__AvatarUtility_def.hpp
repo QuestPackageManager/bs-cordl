@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AvatarUtility)
-namespace UnityEngine {
-struct AvatarIKGoal;
-}
 namespace RootMotion {
 class TQ;
-}
-namespace UnityEngine {
-class Avatar;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
+class Avatar;
+}
+namespace UnityEngine {
 struct HumanBodyBones;
+}
+namespace UnityEngine {
+struct AvatarIKGoal;
 }
 // Forward declare root types
 namespace RootMotion {

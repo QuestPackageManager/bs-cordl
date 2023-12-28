@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventSource)
-namespace System {
-class Object;
+namespace System::Diagnostics::Tracing {
+struct EventKeywords;
 }
 namespace System::Diagnostics::Tracing {
 struct EventLevel;
 }
 namespace System::Diagnostics::Tracing {
-struct EventKeywords;
-}
-namespace System::Diagnostics::Tracing {
 struct __EventSource__EventData;
+}
+namespace System {
+struct Guid;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
-struct Guid;
+class Object;
 }
 // Forward declare root types
 namespace System::Diagnostics::Tracing {

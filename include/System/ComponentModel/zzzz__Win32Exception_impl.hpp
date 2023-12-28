@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
 #include "System/ComponentModel/zzzz__Win32Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Win32Exception._ctor
 template <>
 
@@ -110,15 +110,15 @@ constexpr System::ComponentModel::Win32Exception::operator ::System::Runtime::Se
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::ComponentModel::Win32Exception::__get_nativeErrorCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeErrorCode;
 }
 constexpr int32_t const& System::ComponentModel::Win32Exception::__get_nativeErrorCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeErrorCode;
 }
 constexpr void System::ComponentModel::Win32Exception::__set_nativeErrorCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nativeErrorCode = value;
 }
 inline ::System::ComponentModel::Win32Exception* System::ComponentModel::Win32Exception::New_ctor() {

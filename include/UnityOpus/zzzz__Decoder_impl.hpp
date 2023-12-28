@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityOpus/zzzz__NumChannels_impl.hpp"
 #include "UnityOpus/zzzz__Decoder_def.hpp"
-#include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
 #include "UnityOpus/zzzz__NumChannels_def.hpp"
 //  Writing Method size for method: ::UnityOpus::Decoder._ctor
 template <>
@@ -86,51 +86,51 @@ constexpr UnityOpus::Decoder::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& UnityOpus::Decoder::__get_decoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decoder;
 }
 constexpr void* const& UnityOpus::Decoder::__get_decoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decoder;
 }
 constexpr void UnityOpus::Decoder::__set_decoder(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___decoder = value;
 }
 constexpr ::UnityOpus::NumChannels& UnityOpus::Decoder::__get_channels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___channels;
 }
 constexpr ::UnityOpus::NumChannels const& UnityOpus::Decoder::__get_channels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___channels;
 }
 constexpr void UnityOpus::Decoder::__set_channels(::UnityOpus::NumChannels value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___channels = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& UnityOpus::Decoder::__get_softclipMem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___softclipMem;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& UnityOpus::Decoder::__get_softclipMem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___softclipMem;
 }
 constexpr void UnityOpus::Decoder::__set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___softclipMem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityOpus::Decoder::__get_disposedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposedValue;
 }
 constexpr bool const& UnityOpus::Decoder::__get_disposedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposedValue;
 }
 constexpr void UnityOpus::Decoder::__set_disposedValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposedValue = value;
 }
 inline ::UnityOpus::Decoder* UnityOpus::Decoder::New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) {

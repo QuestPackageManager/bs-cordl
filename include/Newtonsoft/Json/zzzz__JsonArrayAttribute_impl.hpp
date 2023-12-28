@@ -71,15 +71,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Newtonsoft::Json::JsonArrayAttribute::__get__allowNullItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowNullItems;
 }
 constexpr bool const& Newtonsoft::Json::JsonArrayAttribute::__get__allowNullItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowNullItems;
 }
 constexpr void Newtonsoft::Json::JsonArrayAttribute::__set__allowNullItems(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allowNullItems = value;
 }
 inline bool Newtonsoft::Json::JsonArrayAttribute::get_AllowNullItems() {

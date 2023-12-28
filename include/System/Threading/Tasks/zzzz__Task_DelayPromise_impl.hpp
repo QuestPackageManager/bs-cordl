@@ -36,39 +36,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::CancellationToken& System::Threading::Tasks::__Task__DelayPromise::__get_Token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Token;
 }
 constexpr ::System::Threading::CancellationToken const& System::Threading::Tasks::__Task__DelayPromise::__get_Token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Token;
 }
 constexpr void System::Threading::Tasks::__Task__DelayPromise::__set_Token(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Token = value;
 }
 constexpr ::System::Threading::CancellationTokenRegistration& System::Threading::Tasks::__Task__DelayPromise::__get_Registration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Registration;
 }
 constexpr ::System::Threading::CancellationTokenRegistration const& System::Threading::Tasks::__Task__DelayPromise::__get_Registration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Registration;
 }
 constexpr void System::Threading::Tasks::__Task__DelayPromise::__set_Registration(::System::Threading::CancellationTokenRegistration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Registration = value;
 }
 constexpr ::System::Threading::Timer*& System::Threading::Tasks::__Task__DelayPromise::__get_Timer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& System::Threading::Tasks::__Task__DelayPromise::__get_Timer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timer;
 }
 constexpr void System::Threading::Tasks::__Task__DelayPromise::__set_Timer(::System::Threading::Timer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Timer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::__Task__DelayPromise* System::Threading::Tasks::__Task__DelayPromise::New_ctor(::System::Threading::CancellationToken token) {

@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GetFromPrefabComponentProvider)
 namespace System {
-class Type;
-}
-namespace Zenject {
-class IPrefabInstantiator;
-}
-namespace System {
 class Action;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class IPrefabInstantiator;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class InjectContext;
+struct TypeValuePair;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {

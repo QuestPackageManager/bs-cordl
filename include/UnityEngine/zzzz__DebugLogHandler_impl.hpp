@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__DebugLogHandler_def.hpp"
+#include "UnityEngine/zzzz__LogOption_def.hpp"
 #include "UnityEngine/zzzz__ILogHandler_def.hpp"
 #include "UnityEngine/zzzz__LogType_def.hpp"
-#include "UnityEngine/zzzz__LogOption_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"

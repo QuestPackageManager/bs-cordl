@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMixedRealityCaptureTest)
-namespace GlobalNamespace {
-struct __OVRMixedRealityCaptureTest__CameraMode;
-}
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+struct __OVRMixedRealityCaptureTest__CameraMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRMixedReali
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8136)), TypeDefinitionIndex(TypeDefinitionIndex(7756))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8136)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7756))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8137))
 // CS Name: ::OVRMixedRealityCaptureTest*
 class CORDL_TYPE OVRMixedRealityCaptureTest : public ::UnityEngine::MonoBehaviour {

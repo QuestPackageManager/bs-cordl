@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BombNoteController)
+namespace GlobalNamespace {
+class __BombNoteController__Pool;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class CuttableBySaber;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-class NoteData;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
-class __BombNoteController__Pool;
+class NoteData;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class CuttableBySaber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -130,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombNoteControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2810 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2810 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(4736))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4735)) CS Name: ::BombNoteController::Pool*
 class CORDL_TYPE __BombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombNoteController*> {
 public:

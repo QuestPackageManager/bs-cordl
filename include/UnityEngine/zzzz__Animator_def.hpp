@@ -10,34 +10,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Animator)
 namespace UnityEngine {
+struct AnimatorUpdateMode;
+}
+namespace UnityEngine {
 class Avatar;
 }
 namespace UnityEngine {
-class ScriptableObject;
+struct Quaternion;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct AnimatorTransitionInfo;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+class RuntimeAnimatorController;
 }
 namespace UnityEngine {
-struct MatchTargetWeightMask;
-}
-namespace UnityEngine {
-struct AnimatorRecorderMode;
-}
-namespace UnityEngine {
-struct AnimatorUpdateMode;
+struct AvatarTarget;
 }
 namespace UnityEngine {
 struct AvatarIKGoal;
 }
 namespace UnityEngine {
-class AnimatorControllerParameter;
+struct AnimatorTransitionInfo;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace UnityEngine {
+struct AvatarIKHint;
+}
+namespace UnityEngine {
+struct HumanBodyBones;
 }
 namespace UnityEngine {
 struct AnimatorCullingMode;
@@ -46,40 +49,37 @@ namespace System {
 class Type;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct AnimatorStateInfo;
-}
-namespace UnityEngine {
-struct StateInfoIndex;
-}
-namespace UnityEngine {
-struct AnimatorClipInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class ScriptableObject;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
-struct AvatarTarget;
+class AnimatorControllerParameter;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine {
-struct HumanBodyBones;
+struct Vector3;
 }
 namespace UnityEngine {
-struct AvatarIKHint;
+struct AnimatorStateInfo;
+}
+namespace UnityEngine {
+struct AnimatorClipInfo;
+}
+namespace UnityEngine {
+struct MatchTargetWeightMask;
+}
+namespace UnityEngine {
+struct AnimatorRecorderMode;
 }
 namespace UnityEngine {
 class StateMachineBehaviour;
 }
 namespace UnityEngine {
-class RuntimeAnimatorController;
-}
-namespace UnityEngine {
-struct Vector3;
+struct StateInfoIndex;
 }
 // Forward declare root types
 namespace UnityEngine {

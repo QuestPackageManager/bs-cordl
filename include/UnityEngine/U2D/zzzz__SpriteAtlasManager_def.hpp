@@ -9,10 +9,10 @@ namespace UnityEngine::U2D {
 class SpriteAtlas;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::U2D {

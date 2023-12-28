@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SparselyPopulatedArray_1)
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArrayFragment_1;
+template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 namespace System::Threading {
-template <typename T> struct SparselyPopulatedArrayAddInfo_1;
+template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {

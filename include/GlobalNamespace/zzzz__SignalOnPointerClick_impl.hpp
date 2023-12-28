@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnPointerClick_def.hpp"
-#include "GlobalNamespace/zzzz__Signal_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "GlobalNamespace/zzzz__Signal_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SignalOnPointerClick.OnPointerClick
@@ -42,15 +42,15 @@ constexpr GlobalNamespace::SignalOnPointerClick::operator ::UnityEngine::EventSy
   return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::SignalOnPointerClick::__get__inputFieldClickedSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFieldClickedSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::SignalOnPointerClick::__get__inputFieldClickedSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFieldClickedSignal;
 }
 constexpr void GlobalNamespace::SignalOnPointerClick::__set__inputFieldClickedSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputFieldClickedSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SignalOnPointerClick::OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameLiftClientConnectionRequestHandler.get_playerSessionId
 template <>
@@ -88,15 +88,15 @@ constexpr GlobalNamespace::GameLiftClientConnectionRequestHandler::operator ::Gl
   return static_cast<::GlobalNamespace::IConnectionRequestHandler*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::GameLiftClientConnectionRequestHandler::__get__playerSessionId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSessionId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::GameLiftClientConnectionRequestHandler::__get__playerSessionId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSessionId_k__BackingField;
 }
 constexpr void GlobalNamespace::GameLiftClientConnectionRequestHandler::__set__playerSessionId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSessionId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::GameLiftClientConnectionRequestHandler::get_playerSessionId() {

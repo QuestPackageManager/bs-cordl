@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::SongSpeedData::__get_speedMul() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___speedMul;
 }
 constexpr float_t const& GlobalNamespace::SongSpeedData::__get_speedMul() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___speedMul;
 }
 constexpr void GlobalNamespace::SongSpeedData::__set_speedMul(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___speedMul = value;
 }
 inline ::GlobalNamespace::SongSpeedData* GlobalNamespace::SongSpeedData::New_ctor(float_t speedMul) {

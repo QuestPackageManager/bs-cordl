@@ -2,27 +2,27 @@
 #include "GlobalNamespace/zzzz__ArgumentBase_impl.hpp"
 #include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
 template <typename T> constexpr bool& GlobalNamespace::OptionalArgument_1<T>::__get__hasValue_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasValue_k__BackingField;
 }
 template <typename T> constexpr bool const& GlobalNamespace::OptionalArgument_1<T>::__get__hasValue_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasValue_k__BackingField;
 }
 template <typename T> constexpr void GlobalNamespace::OptionalArgument_1<T>::__set__hasValue_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasValue_k__BackingField = value;
 }
 template <typename T> constexpr T& GlobalNamespace::OptionalArgument_1<T>::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr T const& GlobalNamespace::OptionalArgument_1<T>::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr void GlobalNamespace::OptionalArgument_1<T>::__set__value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T GlobalNamespace::OptionalArgument_1<T>::get_value() {

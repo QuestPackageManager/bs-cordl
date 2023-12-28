@@ -79,51 +79,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::ObjectIDGenerator::__get_m_currentCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentCount;
 }
 constexpr int32_t const& System::Runtime::Serialization::ObjectIDGenerator::__get_m_currentCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentCount;
 }
 constexpr void System::Runtime::Serialization::ObjectIDGenerator::__set_m_currentCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentCount = value;
 }
 constexpr int32_t& System::Runtime::Serialization::ObjectIDGenerator::__get_m_currentSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentSize;
 }
 constexpr int32_t const& System::Runtime::Serialization::ObjectIDGenerator::__get_m_currentSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentSize;
 }
 constexpr void System::Runtime::Serialization::ObjectIDGenerator::__set_m_currentSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentSize = value;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& System::Runtime::Serialization::ObjectIDGenerator::__get_m_ids() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ids;
 }
 constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& System::Runtime::Serialization::ObjectIDGenerator::__get_m_ids() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ids;
 }
 constexpr void System::Runtime::Serialization::ObjectIDGenerator::__set_m_ids(::ArrayW<int64_t, ::Array<int64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ids)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Runtime::Serialization::ObjectIDGenerator::__get_m_objs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_objs;
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System::Runtime::Serialization::ObjectIDGenerator::__get_m_objs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_objs;
 }
 constexpr void System::Runtime::Serialization::ObjectIDGenerator::__set_m_objs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_objs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::Serialization::ObjectIDGenerator::setStaticF_sizes(::ArrayW<int32_t, ::Array<int32_t>*> value) {

@@ -11,16 +11,16 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct DetailRenderMode;
+class Texture2D;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
-class Texture2D;
+struct Color;
+}
+namespace UnityEngine {
+struct DetailRenderMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::DetailPrototype);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15469))
 // CS Name: ::UnityEngine::DetailPrototype*
 class CORDL_TYPE DetailPrototype : public ::System::Object {

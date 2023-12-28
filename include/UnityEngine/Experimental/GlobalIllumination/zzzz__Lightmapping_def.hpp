@@ -19,11 +19,11 @@ class __Lightmapping__RequestLightsDelegate;
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightDataGI;
 }
-namespace System {
-class Object;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {

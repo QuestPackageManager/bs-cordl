@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INoteMirrorable)
 namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+class NoteData;
 }
 namespace GlobalNamespace {
-class NoteData;
+template <typename T> class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

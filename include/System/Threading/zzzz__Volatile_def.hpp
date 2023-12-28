@@ -11,10 +11,10 @@ namespace System::Threading {
 struct __Volatile__VolatileInt32;
 }
 namespace System::Threading {
-struct __Volatile__VolatileObject;
+struct __Volatile__VolatileBoolean;
 }
 namespace System::Threading {
-struct __Volatile__VolatileBoolean;
+struct __Volatile__VolatileObject;
 }
 namespace System {
 class Object;

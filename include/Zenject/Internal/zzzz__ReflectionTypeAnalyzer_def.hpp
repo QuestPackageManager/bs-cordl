@@ -7,64 +7,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionTypeAnalyzer)
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass8_0;
+class __ReflectionTypeInfo__InjectConstructorInfo;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectMethodInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass5_0;
+class __ReflectionTypeInfo__InjectPropertyInfo;
 }
 namespace System {
 class Type;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass7_0;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass7_1;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectConstructorInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass11_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class __ReflectionTypeAnalyzer____c;
 }
 namespace Zenject {
 class InjectableInfo;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass6_1;
-}
-namespace Zenject::Internal {
 class __ReflectionTypeAnalyzer____c__DisplayClass6_0;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectFieldInfo;
+class __ReflectionTypeAnalyzer____c__DisplayClass5_0;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeAnalyzer____c__DisplayClass11_0;
 }
 namespace Zenject::Internal {
 class __ReflectionTypeAnalyzer____c__DisplayClass5_1;
 }
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectPropertyInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Reflection {
+class ParameterInfo;
 }
 namespace Zenject::Internal {
 class __ReflectionTypeInfo__InjectParameterInfo;
 }
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace System::Reflection {
 class MemberInfo;
 }
-namespace System::Reflection {
-class ParameterInfo;
+namespace Zenject::Internal {
+class __ReflectionTypeAnalyzer____c__DisplayClass7_0;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectFieldInfo;
 }
 namespace System::Reflection {
 class ConstructorInfo;
@@ -72,23 +57,38 @@ class ConstructorInfo;
 namespace Zenject::Internal {
 class ReflectionTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject::Internal {
+class __ReflectionTypeAnalyzer____c__DisplayClass7_1;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace Zenject::Internal {
+class __ReflectionTypeAnalyzer____c__DisplayClass6_1;
 }
-namespace System::Reflection {
-class FieldInfo;
+namespace Zenject::Internal {
+class __ReflectionTypeAnalyzer____c__DisplayClass8_0;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectMethodInfo;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
 class PropertyInfo;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject::Internal {

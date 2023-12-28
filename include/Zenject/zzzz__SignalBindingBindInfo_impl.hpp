@@ -72,27 +72,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& Zenject::SignalBindingBindInfo::__get__Identifier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Identifier_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::SignalBindingBindInfo::__get__Identifier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Identifier_k__BackingField;
 }
 constexpr void Zenject::SignalBindingBindInfo::__set__Identifier_k__BackingField(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Identifier_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::SignalBindingBindInfo::__get__SignalType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalType_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::SignalBindingBindInfo::__get__SignalType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SignalType_k__BackingField;
 }
 constexpr void Zenject::SignalBindingBindInfo::__set__SignalType_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SignalType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SignalBindingBindInfo* Zenject::SignalBindingBindInfo::New_ctor(::System::Type* signalType) {

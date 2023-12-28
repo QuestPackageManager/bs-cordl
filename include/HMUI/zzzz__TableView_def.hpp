@@ -12,35 +12,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TableView)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
-class Object;
+template <typename T1, typename T2> class Action_2;
 }
 namespace HMUI {
-struct __TableView__ScrollPositionType;
+struct __TableView__TableType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace HMUI {
+class ITableCellOwner;
+}
+namespace HMUI {
+class SelectableCell;
 }
 namespace UnityEngine {
-struct __RectTransform__Axis;
-}
-namespace System {
-template <typename T> class Action_1;
+class RectTransform;
 }
 namespace HMUI {
 struct TableViewSelectionType;
 }
 namespace HMUI {
-class __TableView__CellsGroup;
+struct __TableView__ScrollPositionType;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HMUI {
+class ScrollView;
 }
 namespace HMUI {
 class __TableView__IDataSource;
 }
 namespace HMUI {
-struct __TableView__TableType;
+struct __SelectableCell__TransitionType;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class Object;
+}
+namespace UnityEngine {
+struct __RectTransform__Axis;
 }
 namespace HMUI {
 class TableCell;
@@ -48,29 +69,8 @@ class TableCell;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HMUI {
-class SelectableCell;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace HMUI {
-class ITableCellOwner;
-}
-namespace HMUI {
-class ScrollView;
+class __TableView__CellsGroup;
 }
 // Forward declare root types
 namespace HMUI {
@@ -298,7 +298,7 @@ public:
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13659)), TypeDefinitionIndex(TypeDefinitionIndex(13665))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13665)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13659))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13669))
 // CS Name: ::HMUI::TableView*
 class CORDL_TYPE TableView : public ::UnityEngine::MonoBehaviour {

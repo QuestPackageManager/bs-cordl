@@ -87,15 +87,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::InputSystem::Controls::ButtonControl::__get_pressPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Controls::ButtonControl::__get_pressPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr void UnityEngine::InputSystem::Controls::ButtonControl::__set_pressPoint(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pressPoint = value;
 }
 inline void UnityEngine::InputSystem::Controls::ButtonControl::setStaticF_s_GlobalDefaultButtonPressPoint(float_t value) {

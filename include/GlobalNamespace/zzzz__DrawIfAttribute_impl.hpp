@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__DrawIfAttribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
-#include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType::__DrawIfAttribute__DisablingType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -46,51 +46,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::DrawIfAttribute::__get_propertyName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyName;
 }
 constexpr ::StringW const& GlobalNamespace::DrawIfAttribute::__get_propertyName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyName;
 }
 constexpr void GlobalNamespace::DrawIfAttribute::__set_propertyName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___propertyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& GlobalNamespace::DrawIfAttribute::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::DrawIfAttribute::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void GlobalNamespace::DrawIfAttribute::__set_value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& GlobalNamespace::DrawIfAttribute::__get_orValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::DrawIfAttribute::__get_orValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orValue;
 }
 constexpr void GlobalNamespace::DrawIfAttribute::__set_orValue(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___orValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType& GlobalNamespace::DrawIfAttribute::__get_disablingType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disablingType;
 }
 constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType const& GlobalNamespace::DrawIfAttribute::__get_disablingType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disablingType;
 }
 constexpr void GlobalNamespace::DrawIfAttribute::__set_disablingType(::GlobalNamespace::__DrawIfAttribute__DisablingType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disablingType = value;
 }
 /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))

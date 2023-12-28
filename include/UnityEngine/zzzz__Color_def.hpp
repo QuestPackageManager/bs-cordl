@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class IFormattable;
 }
-namespace UnityEngine {
-struct Vector4;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {

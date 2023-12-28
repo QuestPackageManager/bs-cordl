@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(CollectionPool_2)
 namespace UnityEngine::Pool {
+template <typename T> class ObjectPool_1;
+}
+namespace UnityEngine::Pool {
 template <typename T> struct PooledObject_1;
 }
 namespace UnityEngine::Pool {
 template <typename TCollection, typename TItem> class __CollectionPool_2____c;
-}
-namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {

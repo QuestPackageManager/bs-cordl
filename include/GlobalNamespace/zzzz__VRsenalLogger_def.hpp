@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(VRsenalLogger)
 namespace GlobalNamespace {
 class VRsenalScoreLogger;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class StringSignal;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class StringSignal;
-}
-namespace GlobalNamespace {
 class GameScenesManager;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

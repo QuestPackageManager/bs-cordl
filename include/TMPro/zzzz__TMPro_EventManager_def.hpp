@@ -5,31 +5,31 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TMPro_EventManager)
 namespace TMPro {
-class Compute_DT_EventArgs;
+class FastAction;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace TMPro {
 template <typename A, typename B> class FastAction_2;
-}
-namespace TMPro {
-template <typename A> class FastAction_1;
 }
 namespace System {
 class Object;
 }
 namespace TMPro {
-class FastAction;
+class Compute_DT_EventArgs;
 }
 namespace TMPro {
 template <typename A, typename B, typename C> class FastAction_3;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
 class GameObject;
+}
+namespace TMPro {
+template <typename A> class FastAction_1;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace TMPro {

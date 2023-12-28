@@ -6,8 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryStream)
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Threading::Tasks {
-struct ValueTask;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -15,29 +27,17 @@ class Task;
 namespace System::IO {
 class Stream;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System {
-template <typename T> struct Memory_1;
 }
 namespace System {
 template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
+struct ValueTask;
 }
 // Forward declare root types
 namespace System::IO {

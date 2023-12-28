@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionStagesManager_def.hpp"
 #include "GlobalNamespace/zzzz__MissionStageLockView_def.hpp"
-#include "GlobalNamespace/zzzz__MissionStage_def.hpp"
 #include "GlobalNamespace/zzzz__MissionStagesManager_def.hpp"
+#include "GlobalNamespace/zzzz__MissionStage_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MissionStagesManager____c._ctor
 template <>
@@ -168,39 +168,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MissionStageLockView*& GlobalNamespace::MissionStagesManager::__get__missionStageLockView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionStageLockView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionStageLockView*> const& GlobalNamespace::MissionStagesManager::__get__missionStageLockView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionStageLockView;
 }
 constexpr void GlobalNamespace::MissionStagesManager::__set__missionStageLockView(::GlobalNamespace::MissionStageLockView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionStageLockView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::MissionStage*, ::Array<::GlobalNamespace::MissionStage*>*>& GlobalNamespace::MissionStagesManager::__get__missionStages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionStages;
 }
 constexpr ::ArrayW<::GlobalNamespace::MissionStage*, ::Array<::GlobalNamespace::MissionStage*>*> const& GlobalNamespace::MissionStagesManager::__get__missionStages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionStages;
 }
 constexpr void GlobalNamespace::MissionStagesManager::__set__missionStages(::ArrayW<::GlobalNamespace::MissionStage*, ::Array<::GlobalNamespace::MissionStage*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionStages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MissionStage*& GlobalNamespace::MissionStagesManager::__get__firstLockedMissionStage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstLockedMissionStage;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionStage*> const& GlobalNamespace::MissionStagesManager::__get__firstLockedMissionStage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstLockedMissionStage;
 }
 constexpr void GlobalNamespace::MissionStagesManager::__set__firstLockedMissionStage(::GlobalNamespace::MissionStage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____firstLockedMissionStage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MissionStage* GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage() {

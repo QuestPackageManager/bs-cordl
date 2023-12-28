@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type3Message);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13766)), TypeDefinitionIndex(TypeDefinitionIndex(13765))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13765)), TypeDefinitionIndex(TypeDefinitionIndex(13766))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13771))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type3Message*
 class CORDL_TYPE Type3Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {

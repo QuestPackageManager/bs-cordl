@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPoolInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteDebrisPoolInstaller.InstallBindings
 template <>
 
@@ -32,87 +32,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::NoteDebris*& GlobalNamespace::NoteDebrisPoolInstaller::__get__normalNoteDebrisHDPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalNoteDebrisHDPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebris*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__normalNoteDebrisHDPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalNoteDebrisHDPrefab;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__normalNoteDebrisHDPrefab(::GlobalNamespace::NoteDebris* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalNoteDebrisHDPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteDebris*& GlobalNamespace::NoteDebrisPoolInstaller::__get__normalNoteDebrisLWPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalNoteDebrisLWPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebris*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__normalNoteDebrisLWPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalNoteDebrisLWPrefab;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__normalNoteDebrisLWPrefab(::GlobalNamespace::NoteDebris* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalNoteDebrisLWPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteDebris*& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderHeadNoteDebrisHDPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderHeadNoteDebrisHDPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebris*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderHeadNoteDebrisHDPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderHeadNoteDebrisHDPrefab;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__burstSliderHeadNoteDebrisHDPrefab(::GlobalNamespace::NoteDebris* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderHeadNoteDebrisHDPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteDebris*& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderHeadNoteDebrisLWPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderHeadNoteDebrisLWPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebris*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderHeadNoteDebrisLWPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderHeadNoteDebrisLWPrefab;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__burstSliderHeadNoteDebrisLWPrefab(::GlobalNamespace::NoteDebris* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderHeadNoteDebrisLWPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteDebris*& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderElementNoteHDPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderElementNoteHDPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebris*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderElementNoteHDPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderElementNoteHDPrefab;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__burstSliderElementNoteHDPrefab(::GlobalNamespace::NoteDebris* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderElementNoteHDPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteDebris*& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderElementNoteLWPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderElementNoteLWPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebris*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__burstSliderElementNoteLWPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burstSliderElementNoteLWPrefab;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__burstSliderElementNoteLWPrefab(::GlobalNamespace::NoteDebris* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderElementNoteLWPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::NoteDebrisPoolInstaller::__get__noteDebrisHDConditionVariable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteDebrisHDConditionVariable;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::NoteDebrisPoolInstaller::__get__noteDebrisHDConditionVariable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteDebrisHDConditionVariable;
 }
 constexpr void GlobalNamespace::NoteDebrisPoolInstaller::__set__noteDebrisHDConditionVariable(::GlobalNamespace::BoolSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteDebrisHDConditionVariable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::NoteDebrisPoolInstaller::InstallBindings() {

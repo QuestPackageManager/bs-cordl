@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticClassification_def.hpp"
-#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSemanticClassification.get_Labels
 template <>
 
@@ -92,15 +92,15 @@ constexpr GlobalNamespace::OVRSemanticClassification::operator ::GlobalNamespace
   return static_cast<::GlobalNamespace::IOVRSceneComponent*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::OVRSemanticClassification::__get__labels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____labels;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::OVRSemanticClassification::__get__labels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____labels;
 }
 constexpr void GlobalNamespace::OVRSemanticClassification::__set__labels(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____labels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* GlobalNamespace::OVRSemanticClassification::get_Labels() {

@@ -92,39 +92,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Org::BouncyCastle::Utilities::Zlib::Tree::__get_dyn_tree() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dyn_tree;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Org::BouncyCastle::Utilities::Zlib::Tree::__get_dyn_tree() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dyn_tree;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Tree::__set_dyn_tree(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dyn_tree)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Utilities::Zlib::Tree::__get_max_code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_code;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::Zlib::Tree::__get_max_code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max_code;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Tree::__set_max_code(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max_code = value;
 }
 constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree*& Org::BouncyCastle::Utilities::Zlib::Tree::__get_stat_desc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stat_desc;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::StaticTree*> const& Org::BouncyCastle::Utilities::Zlib::Tree::__get_stat_desc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stat_desc;
 }
 constexpr void Org::BouncyCastle::Utilities::Zlib::Tree::__set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stat_desc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Utilities::Zlib::Tree::setStaticF_extra_lbits(::ArrayW<int32_t, ::Array<int32_t>*> value) {

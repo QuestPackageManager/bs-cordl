@@ -7,18 +7,6 @@ CORDL_MODULE_EXPORT(IInstantiator)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -26,10 +14,22 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class Component;
 }
 // Forward declare root types
 namespace Zenject {

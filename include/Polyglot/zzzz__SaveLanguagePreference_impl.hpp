@@ -46,15 +46,15 @@ constexpr Polyglot::SaveLanguagePreference::operator ::Polyglot::ILocalize*() no
   return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 constexpr ::StringW& Polyglot::SaveLanguagePreference::__get_preferenceKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preferenceKey;
 }
 constexpr ::StringW const& Polyglot::SaveLanguagePreference::__get_preferenceKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preferenceKey;
 }
 constexpr void Polyglot::SaveLanguagePreference::__set_preferenceKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___preferenceKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Polyglot::SaveLanguagePreference::Start() {

@@ -2,8 +2,8 @@
 #include "Zenject/Internal/zzzz__PreserveAttribute_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::InjectAttributeBase.get_Optional
 template <>
 
@@ -99,39 +99,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Zenject::InjectAttributeBase::__get__Optional_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Optional_k__BackingField;
 }
 constexpr bool const& Zenject::InjectAttributeBase::__get__Optional_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Optional_k__BackingField;
 }
 constexpr void Zenject::InjectAttributeBase::__set__Optional_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Optional_k__BackingField = value;
 }
 constexpr ::System::Object*& Zenject::InjectAttributeBase::__get__Id_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Id_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::InjectAttributeBase::__get__Id_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Id_k__BackingField;
 }
 constexpr void Zenject::InjectAttributeBase::__set__Id_k__BackingField(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Id_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::InjectSources& Zenject::InjectAttributeBase::__get__Source_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Source_k__BackingField;
 }
 constexpr ::Zenject::InjectSources const& Zenject::InjectAttributeBase::__get__Source_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Source_k__BackingField;
 }
 constexpr void Zenject::InjectAttributeBase::__set__Source_k__BackingField(::Zenject::InjectSources value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Source_k__BackingField = value;
 }
 inline bool Zenject::InjectAttributeBase::get_Optional() {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataBasicInfo)
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {

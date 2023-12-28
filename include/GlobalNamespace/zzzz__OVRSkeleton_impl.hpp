@@ -4,11 +4,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRBone_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
@@ -1028,256 +1028,256 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRSkeleton__SkeletonType& GlobalNamespace::OVRSkeleton::__get__skeletonType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skeletonType;
 }
 constexpr ::GlobalNamespace::__OVRSkeleton__SkeletonType const& GlobalNamespace::OVRSkeleton::__get__skeletonType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skeletonType;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__skeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____skeletonType = value;
 }
 constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*& GlobalNamespace::OVRSkeleton::__get__dataProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*> const& GlobalNamespace::OVRSkeleton::__get__dataProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__dataProvider(::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__updateRootPose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateRootPose;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__updateRootPose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateRootPose;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__updateRootPose(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____updateRootPose = value;
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__updateRootScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateRootScale;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__updateRootScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateRootScale;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__updateRootScale(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____updateRootScale = value;
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__enablePhysicsCapsules() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enablePhysicsCapsules;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__enablePhysicsCapsules() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enablePhysicsCapsules;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__enablePhysicsCapsules(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enablePhysicsCapsules = value;
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__applyBoneTranslations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyBoneTranslations;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__applyBoneTranslations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyBoneTranslations;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__applyBoneTranslations(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____applyBoneTranslations = value;
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRSkeleton::__get__bonesGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bonesGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRSkeleton::__get__bonesGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bonesGO;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__bonesGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bonesGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRSkeleton::__get__bindPosesGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindPosesGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRSkeleton::__get__bindPosesGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindPosesGO;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__bindPosesGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindPosesGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRSkeleton::__get__capsulesGO() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsulesGO;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRSkeleton::__get__capsulesGO() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsulesGO;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__capsulesGO(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____capsulesGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*& GlobalNamespace::OVRSkeleton::__get__bones() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bones;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*> const& GlobalNamespace::OVRSkeleton::__get__bones() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bones;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__bones(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bones)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*& GlobalNamespace::OVRSkeleton::__get__bindPoses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindPoses;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*> const& GlobalNamespace::OVRSkeleton::__get__bindPoses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindPoses;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__bindPoses(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindPoses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>*& GlobalNamespace::OVRSkeleton::__get__capsules() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsules;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>*> const& GlobalNamespace::OVRSkeleton::__get__capsules() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsules;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__capsules(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____capsules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Skeleton2& GlobalNamespace::OVRSkeleton::__get__skeleton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skeleton;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Skeleton2 const& GlobalNamespace::OVRSkeleton::__get__skeleton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skeleton;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__skeleton(::GlobalNamespace::__OVRPlugin__Skeleton2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____skeleton = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::OVRSkeleton::__get_wristFixupRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wristFixupRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::OVRSkeleton::__get_wristFixupRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wristFixupRotation;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set_wristFixupRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wristFixupRotation = value;
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__IsInitialized_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__IsInitialized_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__IsInitialized_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsInitialized_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__IsDataValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__IsDataValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataValid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__IsDataValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDataValid_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRSkeleton::__get__IsDataHighConfidence_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataHighConfidence_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRSkeleton::__get__IsDataHighConfidence_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsDataHighConfidence_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__IsDataHighConfidence_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsDataHighConfidence_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*& GlobalNamespace::OVRSkeleton::__get__Bones_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Bones_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*> const& GlobalNamespace::OVRSkeleton::__get__Bones_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Bones_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__Bones_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Bones_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*& GlobalNamespace::OVRSkeleton::__get__BindPoses_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BindPoses_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*> const& GlobalNamespace::OVRSkeleton::__get__BindPoses_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BindPoses_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__BindPoses_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BindPoses_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>*& GlobalNamespace::OVRSkeleton::__get__Capsules_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Capsules_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>*> const&
 GlobalNamespace::OVRSkeleton::__get__Capsules_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Capsules_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__Capsules_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Capsules_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::OVRSkeleton::__get__SkeletonChangedCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SkeletonChangedCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::OVRSkeleton::__get__SkeletonChangedCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SkeletonChangedCount_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSkeleton::__set__SkeletonChangedCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SkeletonChangedCount_k__BackingField = value;
 }
 inline bool GlobalNamespace::OVRSkeleton::get_IsInitialized() {

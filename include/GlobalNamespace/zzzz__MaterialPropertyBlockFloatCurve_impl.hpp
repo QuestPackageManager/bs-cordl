@@ -33,39 +33,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::MaterialPropertyBlockFloatCurve::__get__curve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::MaterialPropertyBlockFloatCurve::__get__curve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curve;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockFloatCurve::__set__curve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MaterialPropertyBlockFloatCurve::__get__valueMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueMultiplier;
 }
 constexpr float_t const& GlobalNamespace::MaterialPropertyBlockFloatCurve::__get__valueMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueMultiplier;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockFloatCurve::__set__valueMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____valueMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::MaterialPropertyBlockFloatCurve::__get__speedMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speedMultiplier;
 }
 constexpr float_t const& GlobalNamespace::MaterialPropertyBlockFloatCurve::__get__speedMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speedMultiplier;
 }
 constexpr void GlobalNamespace::MaterialPropertyBlockFloatCurve::__set__speedMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____speedMultiplier = value;
 }
 inline void GlobalNamespace::MaterialPropertyBlockFloatCurve::SetProperty() {

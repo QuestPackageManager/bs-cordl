@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_Texture2D_Extensions)
-namespace HoudiniEngineUnity {
-class __Test_Texture2D_Extensions____c;
-}
 namespace UnityEngine {
 class Texture2D;
 }
-namespace HoudiniEngineUnity {
-class Test_Texture2D;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class __Test_Texture2D_Extensions____c;
+}
+namespace HoudiniEngineUnity {
+class Test_Texture2D;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;

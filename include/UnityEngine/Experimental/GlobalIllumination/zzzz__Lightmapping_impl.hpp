@@ -5,8 +5,8 @@
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__Lightmapping_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightDataGI_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate._ctor
 template <>
 

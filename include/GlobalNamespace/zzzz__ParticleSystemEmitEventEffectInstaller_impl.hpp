@@ -34,29 +34,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ParticleSystemEventController*& GlobalNamespace::ParticleSystemEmitEventEffectInstaller::__get__particleSystemEventControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEventControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParticleSystemEventController*> const&
 GlobalNamespace::ParticleSystemEmitEventEffectInstaller::__get__particleSystemEventControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEventControllerPrefab;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffectInstaller::__set__particleSystemEventControllerPrefab(::GlobalNamespace::ParticleSystemEventController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystemEventControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::ParticleSystemEmitEventEffectInstaller::__get__particleSystemEventControllerInitialSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEventControllerInitialSize;
 }
 constexpr int32_t const& GlobalNamespace::ParticleSystemEmitEventEffectInstaller::__get__particleSystemEventControllerInitialSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEventControllerInitialSize;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffectInstaller::__set__particleSystemEventControllerInitialSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____particleSystemEventControllerInitialSize = value;
 }
 inline void GlobalNamespace::ParticleSystemEmitEventEffectInstaller::InstallBindings() {

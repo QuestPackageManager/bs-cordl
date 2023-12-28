@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BpmController)
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class IBpmController;
+}
+namespace GlobalNamespace {
+class __BpmController__InitData;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class __BpmController__InitData;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BPMChangeBeatmapEventData;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class IBpmController;
+class BPMChangeBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

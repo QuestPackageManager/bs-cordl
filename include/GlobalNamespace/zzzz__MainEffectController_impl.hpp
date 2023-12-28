@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__ImageEffectController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__ImageEffectController_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainEffectController.add_afterImageEffectEvent
 template <>
 
@@ -145,51 +145,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MainEffectContainerSO*& GlobalNamespace::MainEffectController::__get__mainEffectContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectContainerSO*> const& GlobalNamespace::MainEffectController::__get__mainEffectContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectContainer;
 }
 constexpr void GlobalNamespace::MainEffectController::__set__mainEffectContainer(::GlobalNamespace::MainEffectContainerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::MainEffectController::__get__fadeValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::MainEffectController::__get__fadeValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeValue;
 }
 constexpr void GlobalNamespace::MainEffectController::__set__fadeValue(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::RenderTexture*>*& GlobalNamespace::MainEffectController::__get_afterImageEffectEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterImageEffectEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::RenderTexture*>*> const& GlobalNamespace::MainEffectController::__get_afterImageEffectEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterImageEffectEvent;
 }
 constexpr void GlobalNamespace::MainEffectController::__set_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___afterImageEffectEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ImageEffectController*& GlobalNamespace::MainEffectController::__get__imageEffectController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____imageEffectController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ImageEffectController*> const& GlobalNamespace::MainEffectController::__get__imageEffectController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____imageEffectController;
 }
 constexpr void GlobalNamespace::MainEffectController::__set__imageEffectController(::GlobalNamespace::ImageEffectController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____imageEffectController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MainEffectController::add_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value) {

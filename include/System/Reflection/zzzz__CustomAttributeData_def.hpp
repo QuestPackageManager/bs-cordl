@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomAttributeData)
 namespace System::Reflection {
-class ParameterInfo;
+class ConstructorInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System::Reflection {
+struct CustomAttributeTypedArgument;
 }
 namespace System::Reflection {
 struct CustomAttributeNamedArgument;
@@ -22,28 +22,28 @@ namespace System {
 class Type;
 }
 namespace System::Reflection {
-class Assembly;
+class MemberInfo;
 }
 namespace System {
 class Object;
+}
+namespace System::Reflection {
+class __CustomAttributeData__LazyCAttrData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 class RuntimeType;
 }
 namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Reflection {
-class __CustomAttributeData__LazyCAttrData;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-struct CustomAttributeTypedArgument;
-}
-namespace System::Reflection {
 class Module;
+}
+namespace System::Reflection {
+class ParameterInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::System::Reflection::__CustomAttributeData__LazyCAttrData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3513))
 // CS Name: ::CustomAttributeData::LazyCAttrData*
 class CORDL_TYPE __CustomAttributeData__LazyCAttrData : public ::System::Object {

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnAnimationController_def.hpp"
-#include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
-#include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_def.hpp"
+#include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BTSCharacterSpawnAnimationController.get_isCharacterVisible
 template <>
 
@@ -164,161 +164,161 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Playables::PlayableDirector*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__spawnCharacterPlayableDirector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCharacterPlayableDirector;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__spawnCharacterPlayableDirector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCharacterPlayableDirector;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__spawnCharacterPlayableDirector(::UnityEngine::Playables::PlayableDirector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spawnCharacterPlayableDirector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::JumpReceiver*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__jumpReceiver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpReceiver;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::JumpReceiver*> const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__jumpReceiver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpReceiver;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__jumpReceiver(::GlobalNamespace::JumpReceiver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jumpReceiver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__appearAnimationEndTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearAnimationEndTime;
 }
 constexpr float_t const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__appearAnimationEndTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearAnimationEndTime;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__appearAnimationEndTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____appearAnimationEndTime = value;
 }
 constexpr float_t& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__disappearAnimationStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearAnimationStartTime;
 }
 constexpr float_t const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__disappearAnimationStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearAnimationStartTime;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__disappearAnimationStartTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearAnimationStartTime = value;
 }
 constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__rimLightColorSetter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightColorSetter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__rimLightColorSetter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightColorSetter;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__rimLightColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rimLightColorSetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__rimLightIntensityAnimator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightIntensityAnimator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockFloatAnimator*> const&
 GlobalNamespace::BTSCharacterSpawnAnimationController::__get__rimLightIntensityAnimator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightIntensityAnimator;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__rimLightIntensityAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rimLightIntensityAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__rimLightEdgeStartAnimator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightEdgeStartAnimator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockFloatAnimator*> const&
 GlobalNamespace::BTSCharacterSpawnAnimationController::__get__rimLightEdgeStartAnimator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightEdgeStartAnimator;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__rimLightEdgeStartAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rimLightEdgeStartAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SongSpeedData*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__songSpeedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeedData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongSpeedData*> const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__songSpeedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeedData;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__songSpeedData(::GlobalNamespace::SongSpeedData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songSpeedData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Timeline::ActivationTrack*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__characterActivationTrack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characterActivationTrack;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ActivationTrack*> const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__characterActivationTrack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characterActivationTrack;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__characterActivationTrack(::UnityEngine::Timeline::ActivationTrack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____characterActivationTrack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BTSCharacter*& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__currentBtsCharacter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentBtsCharacter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacter*> const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__currentBtsCharacter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentBtsCharacter;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__currentBtsCharacter(::GlobalNamespace::BTSCharacter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentBtsCharacter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__defaultSpawnCharacterDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSpawnCharacterDuration;
 }
 constexpr float_t const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__defaultSpawnCharacterDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSpawnCharacterDuration;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__defaultSpawnCharacterDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultSpawnCharacterDuration = value;
 }
 constexpr double_t& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__playableDirectorTimeBeforePause() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playableDirectorTimeBeforePause;
 }
 constexpr double_t const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__playableDirectorTimeBeforePause() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playableDirectorTimeBeforePause;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__playableDirectorTimeBeforePause(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playableDirectorTimeBeforePause = value;
 }
 constexpr float_t& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__animatorNormalizedTimeBeforePause() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animatorNormalizedTimeBeforePause;
 }
 constexpr float_t const& GlobalNamespace::BTSCharacterSpawnAnimationController::__get__animatorNormalizedTimeBeforePause() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animatorNormalizedTimeBeforePause;
 }
 constexpr void GlobalNamespace::BTSCharacterSpawnAnimationController::__set__animatorNormalizedTimeBeforePause(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____animatorNormalizedTimeBeforePause = value;
 }
 inline bool GlobalNamespace::BTSCharacterSpawnAnimationController::get_isCharacterVisible() {

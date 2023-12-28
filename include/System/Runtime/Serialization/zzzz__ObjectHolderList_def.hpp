@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectHolderList)
 namespace System::Runtime::Serialization {
-class ObjectHolderListEnumerator;
+class ObjectHolder;
 }
 namespace System::Runtime::Serialization {
-class ObjectHolder;
+class ObjectHolderListEnumerator;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

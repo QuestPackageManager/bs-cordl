@@ -4,11 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 CORDL_MODULE_EXPORT(AddToNewGameObjectComponentProvider)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -16,14 +19,11 @@ template <typename T1, typename T2> class Action_2;
 namespace Zenject {
 class GameObjectCreationParameters;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

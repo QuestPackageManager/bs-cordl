@@ -11,10 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheet)
 namespace UnityEngine::UIElements {
-class StyleRule;
+struct StyleValueHandle;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueFunction;
 }
 namespace UnityEngine {
-struct Color;
+class Object;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct ScalableImage;
@@ -23,31 +29,25 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
+struct StyleValueType;
+}
+namespace UnityEngine::UIElements {
 struct __StyleSheet__ImportStruct;
 }
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+class StyleRule;
 }
-namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+namespace UnityEngine::UIElements::StyleSheets {
+struct Dimension;
 }
-namespace UnityEngine::UIElements {
-struct StyleValueKeyword;
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueType;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct Dimension;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueFunction;
-}
-namespace UnityEngine {
-class Object;
+struct StyleValueKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

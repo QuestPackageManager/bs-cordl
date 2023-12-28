@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/zzzz__RuntimeClassHandle_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "Mono/zzzz__RuntimeStructs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Mono/zzzz__RuntimeStructs_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
 //  Writing Method size for method: ::Mono::RuntimeClassHandle._ctor
 template <>
 

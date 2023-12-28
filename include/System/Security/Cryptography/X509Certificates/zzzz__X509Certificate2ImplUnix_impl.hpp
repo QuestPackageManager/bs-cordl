@@ -4,10 +4,10 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2ImplUnix_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix.EnsureCertData
 template <>
 
@@ -311,27 +311,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::__get_readCertData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readCertData;
 }
 constexpr bool const& System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::__get_readCertData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readCertData;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::__set_readCertData(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readCertData = value;
 }
 constexpr ::Internal::Cryptography::Pal::CertificateData& System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::__get_certData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certData;
 }
 constexpr ::Internal::Cryptography::Pal::CertificateData const& System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::__get_certData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certData;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::__set_certData(::Internal::Cryptography::Pal::CertificateData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___certData = value;
 }
 inline void System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::EnsureCertData() {

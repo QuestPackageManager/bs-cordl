@@ -12,13 +12,10 @@ namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class __FlyingScoreSpawner__InitData;
 }
 namespace GlobalNamespace {
 struct __FlyingScoreSpawner__SpawnPosition;
@@ -27,7 +24,10 @@ namespace GlobalNamespace {
 class __FlyingScoreEffect__Pool;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
+class IReadonlyCutScoreBuffer;
+}
+namespace GlobalNamespace {
+class __FlyingScoreSpawner__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

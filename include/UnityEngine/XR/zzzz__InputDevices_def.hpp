@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevices)
 namespace UnityEngine::XR {
+struct InputDevice;
+}
+namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace System {
@@ -15,9 +18,6 @@ template <typename T> class Action_1;
 }
 namespace UnityEngine::XR {
 struct ConnectionChangeType;
-}
-namespace UnityEngine::XR {
-struct InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

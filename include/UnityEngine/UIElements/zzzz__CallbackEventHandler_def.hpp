@@ -8,19 +8,19 @@ namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+struct TrickleDown;
 }
 namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
 struct DispatchMode;
-}
-namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-struct TrickleDown;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackRegistry;

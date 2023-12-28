@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
+#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackRegistry_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.SendEvent
 template <>
@@ -182,15 +182,15 @@ constexpr UnityEngine::UIElements::CallbackEventHandler::operator ::UnityEngine:
   return static_cast<::UnityEngine::UIElements::IEventHandler*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& UnityEngine::UIElements::CallbackEventHandler::__get_m_CallbackRegistry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CallbackRegistry;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackRegistry*> const& UnityEngine::UIElements::CallbackEventHandler::__get_m_CallbackRegistry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CallbackRegistry;
 }
 constexpr void UnityEngine::UIElements::CallbackEventHandler::__set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CallbackRegistry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param useTrickleDown: ::UnityEngine::UIElements::TrickleDown (default: static_cast<int32_t>(0x0))

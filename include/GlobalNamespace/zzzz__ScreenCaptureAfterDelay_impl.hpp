@@ -3,12 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenCaptureAfterDelay_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__ScreenCaptureAfterDelay_def.hpp"
+#include "GlobalNamespace/zzzz__ScreenCaptureCache_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__ScreenCaptureCache_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -30,51 +30,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_screenshotType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotType;
 }
 constexpr ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_screenshotType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotType;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__set_screenshotType(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotType = value;
 }
 constexpr float_t& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_screenCaptureTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenCaptureTime;
 }
 constexpr float_t const& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_screenCaptureTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenCaptureTime;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__set_screenCaptureTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenCaptureTime = value;
 }
 constexpr int32_t& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_pixelsWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pixelsWidth;
 }
 constexpr int32_t const& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_pixelsWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pixelsWidth;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__set_pixelsWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pixelsWidth = value;
 }
 constexpr int32_t& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_pixelsHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pixelsHeight;
 }
 constexpr int32_t const& GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__get_pixelsHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pixelsHeight;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay__InitData::__set_pixelsHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pixelsHeight = value;
 }
 inline ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* GlobalNamespace::__ScreenCaptureAfterDelay__InitData::New_ctor(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType,
@@ -195,39 +195,39 @@ constexpr GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::operator ::Sy
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ScreenCaptureAfterDelay*& GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScreenCaptureAfterDelay*> const& GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::__set___4__this(::GlobalNamespace::ScreenCaptureAfterDelay* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6* GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6::New_ctor(int32_t __1__state) {
@@ -323,63 +323,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MainEffectController*& GlobalNamespace::ScreenCaptureAfterDelay::__get__mainEffectController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectController*> const& GlobalNamespace::ScreenCaptureAfterDelay::__get__mainEffectController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectController;
 }
 constexpr void GlobalNamespace::ScreenCaptureAfterDelay::__set__mainEffectController(::GlobalNamespace::MainEffectController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ScreenCaptureCache*& GlobalNamespace::ScreenCaptureAfterDelay::__get__screenCaptureCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screenCaptureCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScreenCaptureCache*> const& GlobalNamespace::ScreenCaptureAfterDelay::__get__screenCaptureCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screenCaptureCache;
 }
 constexpr void GlobalNamespace::ScreenCaptureAfterDelay::__set__screenCaptureCache(::GlobalNamespace::ScreenCaptureCache* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____screenCaptureCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__ScreenCaptureAfterDelay__InitData*& GlobalNamespace::ScreenCaptureAfterDelay::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScreenCaptureAfterDelay__InitData*> const& GlobalNamespace::ScreenCaptureAfterDelay::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::ScreenCaptureAfterDelay::__set__initData(::GlobalNamespace::__ScreenCaptureAfterDelay__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Texture2D*& GlobalNamespace::ScreenCaptureAfterDelay::__get__captureTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& GlobalNamespace::ScreenCaptureAfterDelay::__get__captureTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureTexture;
 }
 constexpr void GlobalNamespace::ScreenCaptureAfterDelay::__set__captureTexture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____captureTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& GlobalNamespace::ScreenCaptureAfterDelay::__get__captureRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureRenderTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& GlobalNamespace::ScreenCaptureAfterDelay::__get__captureRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureRenderTexture;
 }
 constexpr void GlobalNamespace::ScreenCaptureAfterDelay::__set__captureRenderTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____captureRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::ScreenCaptureAfterDelay::Start() {

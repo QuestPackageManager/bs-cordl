@@ -23,15 +23,15 @@ constexpr System::Resources::FileBasedResourceGroveler::operator ::System::Resou
   return static_cast<::System::Resources::IResourceGroveler*>(static_cast<void*>(this));
 }
 constexpr ::System::Resources::__ResourceManager__ResourceManagerMediator*& System::Resources::FileBasedResourceGroveler::__get__mediator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mediator;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__ResourceManagerMediator*> const& System::Resources::FileBasedResourceGroveler::__get__mediator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mediator;
 }
 constexpr void System::Resources::FileBasedResourceGroveler::__set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mediator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Resources::FileBasedResourceGroveler* System::Resources::FileBasedResourceGroveler::New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator) {

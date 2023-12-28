@@ -3,9 +3,9 @@
 #include "UnityEngine/UI/zzzz__CanvasScaler_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode::__CanvasScaler__ScaleMode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -466,171 +466,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode& UnityEngine::UI::CanvasScaler::__get_m_UiScaleMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UiScaleMode;
 }
 constexpr ::UnityEngine::UI::__CanvasScaler__ScaleMode const& UnityEngine::UI::CanvasScaler::__get_m_UiScaleMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UiScaleMode;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_UiScaleMode(::UnityEngine::UI::__CanvasScaler__ScaleMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UiScaleMode = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_ReferencePixelsPerUnit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferencePixelsPerUnit;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_ReferencePixelsPerUnit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferencePixelsPerUnit;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_ReferencePixelsPerUnit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReferencePixelsPerUnit = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_ScaleFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleFactor;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_ScaleFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleFactor;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_ScaleFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScaleFactor = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UI::CanvasScaler::__get_m_ReferenceResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferenceResolution;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UI::CanvasScaler::__get_m_ReferenceResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferenceResolution;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_ReferenceResolution(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReferenceResolution = value;
 }
 constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode& UnityEngine::UI::CanvasScaler::__get_m_ScreenMatchMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenMatchMode;
 }
 constexpr ::UnityEngine::UI::__CanvasScaler__ScreenMatchMode const& UnityEngine::UI::CanvasScaler::__get_m_ScreenMatchMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenMatchMode;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_ScreenMatchMode(::UnityEngine::UI::__CanvasScaler__ScreenMatchMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScreenMatchMode = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_MatchWidthOrHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MatchWidthOrHeight;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_MatchWidthOrHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MatchWidthOrHeight;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_MatchWidthOrHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MatchWidthOrHeight = value;
 }
 constexpr ::UnityEngine::UI::__CanvasScaler__Unit& UnityEngine::UI::CanvasScaler::__get_m_PhysicalUnit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PhysicalUnit;
 }
 constexpr ::UnityEngine::UI::__CanvasScaler__Unit const& UnityEngine::UI::CanvasScaler::__get_m_PhysicalUnit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PhysicalUnit;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_PhysicalUnit(::UnityEngine::UI::__CanvasScaler__Unit value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PhysicalUnit = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_FallbackScreenDPI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FallbackScreenDPI;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_FallbackScreenDPI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FallbackScreenDPI;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_FallbackScreenDPI(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FallbackScreenDPI = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_DefaultSpriteDPI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultSpriteDPI;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_DefaultSpriteDPI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DefaultSpriteDPI;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_DefaultSpriteDPI(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DefaultSpriteDPI = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_DynamicPixelsPerUnit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DynamicPixelsPerUnit;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_DynamicPixelsPerUnit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DynamicPixelsPerUnit;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_DynamicPixelsPerUnit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DynamicPixelsPerUnit = value;
 }
 constexpr ::UnityEngine::Canvas*& UnityEngine::UI::CanvasScaler::__get_m_Canvas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Canvas;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& UnityEngine::UI::CanvasScaler::__get_m_Canvas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Canvas;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_Canvas(::UnityEngine::Canvas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Canvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_PrevScaleFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrevScaleFactor;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_PrevScaleFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrevScaleFactor;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_PrevScaleFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PrevScaleFactor = value;
 }
 constexpr float_t& UnityEngine::UI::CanvasScaler::__get_m_PrevReferencePixelsPerUnit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrevReferencePixelsPerUnit;
 }
 constexpr float_t const& UnityEngine::UI::CanvasScaler::__get_m_PrevReferencePixelsPerUnit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrevReferencePixelsPerUnit;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_PrevReferencePixelsPerUnit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PrevReferencePixelsPerUnit = value;
 }
 constexpr bool& UnityEngine::UI::CanvasScaler::__get_m_PresetInfoIsWorld() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PresetInfoIsWorld;
 }
 constexpr bool const& UnityEngine::UI::CanvasScaler::__get_m_PresetInfoIsWorld() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PresetInfoIsWorld;
 }
 constexpr void UnityEngine::UI::CanvasScaler::__set_m_PresetInfoIsWorld(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PresetInfoIsWorld = value;
 }
 inline ::UnityEngine::UI::__CanvasScaler__ScaleMode UnityEngine::UI::CanvasScaler::get_uiScaleMode() {

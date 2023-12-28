@@ -2,44 +2,44 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_Result_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_SphereInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Result_def.hpp"
-#include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_EnvIntType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_State_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_BoxInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_HandleBindingInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_VolumeTileInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ParmChoiceInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_CurveInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Viewport_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_CacheProperty_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GroupType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_StatusType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_CookOptions_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_HeightFieldSampling_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_VolumeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_StatusVerbosity_def.hpp"
-#include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_SessionSyncInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_CacheProperty_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_StatusType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_GroupType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_CurveInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ParmChoiceInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_VolumeTileInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_BoxInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_SphereInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_StatusVerbosity_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_SessionEnvIntType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_VolumeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_State_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_EnvIntType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_CookOptions_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Result_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_HeightFieldSampling_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_SessionBase.get_UserNotifiedSessionInvalid
 template <>
 
@@ -3062,75 +3062,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::HEU_SessionData*& HoudiniEngineUnity::HEU_SessionBase::__get__sessionData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionData;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionData*> const& HoudiniEngineUnity::HEU_SessionBase::__get__sessionData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionData;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionBase::__set__sessionData(::HoudiniEngineUnity::HEU_SessionData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sessionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionBase::__get__UserNotifiedSessionInvalid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UserNotifiedSessionInvalid_k__BackingField;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionBase::__get__UserNotifiedSessionInvalid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UserNotifiedSessionInvalid_k__BackingField;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionBase::__set__UserNotifiedSessionInvalid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UserNotifiedSessionInvalid_k__BackingField = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_SessionBase::__get__sessionErrorMsg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionErrorMsg;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_SessionBase::__get__sessionErrorMsg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionErrorMsg;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionBase::__set__sessionErrorMsg(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sessionErrorMsg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionBase::__get__LogErrorOverride_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LogErrorOverride_k__BackingField;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionBase::__get__LogErrorOverride_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LogErrorOverride_k__BackingField;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionBase::__set__LogErrorOverride_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LogErrorOverride_k__BackingField = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionBase::__get__ThrowErrorOverride_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ThrowErrorOverride_k__BackingField;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionBase::__get__ThrowErrorOverride_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ThrowErrorOverride_k__BackingField;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionBase::__set__ThrowErrorOverride_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ThrowErrorOverride_k__BackingField = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Result& HoudiniEngineUnity::HEU_SessionBase::__get__LastCallResultCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LastCallResultCode_k__BackingField;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Result const& HoudiniEngineUnity::HEU_SessionBase::__get__LastCallResultCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LastCallResultCode_k__BackingField;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionBase::__set__LastCallResultCode_k__BackingField(::HoudiniEngineUnity::HAPI_Result value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LastCallResultCode_k__BackingField = value;
 }
 inline bool HoudiniEngineUnity::HEU_SessionBase::get_UserNotifiedSessionInvalid() {

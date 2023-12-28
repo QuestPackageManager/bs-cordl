@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataStrobeFilterTransform_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataStrobeFilterTransform_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataStrobeFilterTransform_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData.StartPotentialStrobe
@@ -53,100 +53,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_isActive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isActive;
 }
 constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_isActive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isActive;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_isActive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isActive = value;
 }
 constexpr float_t& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_strobeStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strobeStartTime;
 }
 constexpr float_t const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_strobeStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strobeStartTime;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_strobeStartTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strobeStartTime = value;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_startColorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startColorType;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_startColorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startColorType;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_startColorType(::GlobalNamespace::EnvironmentColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startColorType = value;
 }
 constexpr float_t& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastSwitchTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSwitchTime;
 }
 constexpr float_t const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastSwitchTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSwitchTime;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_lastSwitchTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastSwitchTime = value;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastColorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastColorType;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastColorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastColorType;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_lastColorType(::GlobalNamespace::EnvironmentColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastColorType = value;
 }
 constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastIsOn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastIsOn;
 }
 constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastIsOn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastIsOn;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_lastIsOn(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastIsOn = value;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventData*& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_originalBasicBeatmapEventData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originalBasicBeatmapEventData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BasicBeatmapEventData*> const&
 GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_originalBasicBeatmapEventData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originalBasicBeatmapEventData;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_originalBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___originalBasicBeatmapEventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get__foundFirstColoredEventData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____foundFirstColoredEventData;
 }
 constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get__foundFirstColoredEventData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____foundFirstColoredEventData;
 }
 constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set__foundFirstColoredEventData(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____foundFirstColoredEventData = value;
 }
 inline void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData) {

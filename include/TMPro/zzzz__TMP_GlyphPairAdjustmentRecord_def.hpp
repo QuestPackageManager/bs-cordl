@@ -10,10 +10,10 @@ namespace UnityEngine::TextCore::LowLevel {
 struct GlyphPairAdjustmentRecord;
 }
 namespace TMPro {
-struct TMP_GlyphAdjustmentRecord;
+struct FontFeatureLookupFlags;
 }
 namespace TMPro {
-struct FontFeatureLookupFlags;
+struct TMP_GlyphAdjustmentRecord;
 }
 // Forward declare root types
 namespace TMPro {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextElement)
-namespace UnityEngine::TextCore {
-class Glyph;
-}
 namespace UnityEngine::TextCore::Text {
 struct TextElementType;
 }
 namespace UnityEngine::TextCore::Text {
 class TextAsset;
+}
+namespace UnityEngine::TextCore {
+class Glyph;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13705))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13706))
 // CS Name: ::UnityEngine.TextCore.Text::TextElement*
 class CORDL_TYPE TextElement : public ::System::Object {

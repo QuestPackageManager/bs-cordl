@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlDeclarationWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 #include "System/Xml/zzzz__XmlDeclaration_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XmlDeclarationWrapper._ctor
 template <>
@@ -100,15 +100,15 @@ constexpr Newtonsoft::Json::Converters::XmlDeclarationWrapper::operator ::Newton
   return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlDeclaration*& Newtonsoft::Json::Converters::XmlDeclarationWrapper::__get__declaration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declaration;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDeclaration*> const& Newtonsoft::Json::Converters::XmlDeclarationWrapper::__get__declaration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declaration;
 }
 constexpr void Newtonsoft::Json::Converters::XmlDeclarationWrapper::__set__declaration(::System::Xml::XmlDeclaration* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____declaration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Converters::XmlDeclarationWrapper* Newtonsoft::Json::Converters::XmlDeclarationWrapper::New_ctor(::System::Xml::XmlDeclaration* declaration) {

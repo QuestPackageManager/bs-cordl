@@ -12,22 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKEffector)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
+namespace RootMotion::FinalIK {
+class __IKSolver__Node;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace RootMotion::FinalIK {
-class __IKSolver__Node;
-}
-namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKEffector);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12552))
 // CS Name: ::RootMotion.FinalIK::IKEffector*
 class CORDL_TYPE IKEffector : public ::System::Object {

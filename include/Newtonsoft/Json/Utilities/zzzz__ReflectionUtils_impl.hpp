@@ -1,24 +1,24 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionUtils_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionUtils_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::__ReflectionUtils____c._ctor
 template <>
 
@@ -233,15 +233,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0::__get_subTypeProperty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subTypeProperty;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0::__get_subTypeProperty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subTypeProperty;
 }
 constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0::__set_subTypeProperty(::System::Reflection::PropertyInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subTypeProperty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0* Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0::New_ctor() {
@@ -304,27 +304,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::__get_method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr ::StringW const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::__get_method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::__set_method(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::__get_methodDeclaringType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodDeclaringType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::__get_methodDeclaringType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodDeclaringType;
 }
 constexpr void Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::__set_methodDeclaringType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___methodDeclaringType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0* Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0::New_ctor() {

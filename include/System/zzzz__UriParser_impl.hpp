@@ -3,14 +3,14 @@
 #include "System/zzzz__UriParser_impl.hpp"
 #include "System/zzzz__UriSyntaxFlags_impl.hpp"
 #include "System/zzzz__UriParser_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
+#include "System/zzzz__UriFormatException_def.hpp"
+#include "System/zzzz__UriSyntaxFlags_def.hpp"
 #include "System/zzzz__UriParser_BuiltInUriParser_def.hpp"
+#include "System/zzzz__UriFormat_def.hpp"
 #include "System/zzzz__UriParser_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__UriSyntaxFlags_def.hpp"
-#include "System/zzzz__UriFormat_def.hpp"
 #include "System/zzzz__UriComponents_def.hpp"
-#include "System/zzzz__UriFormatException_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::__UriParser__UriQuirksVersion::__UriParser__UriQuirksVersion(int32_t value__) noexcept {
   this->value__ = value__;
@@ -363,63 +363,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::UriSyntaxFlags& System::UriParser::__get_m_Flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr ::System::UriSyntaxFlags const& System::UriParser::__get_m_Flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr void System::UriParser::__set_m_Flags(::System::UriSyntaxFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Flags = value;
 }
 constexpr ::System::UriSyntaxFlags& System::UriParser::__get_m_UpdatableFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdatableFlags;
 }
 constexpr ::System::UriSyntaxFlags const& System::UriParser::__get_m_UpdatableFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdatableFlags;
 }
 constexpr void System::UriParser::__set_m_UpdatableFlags(::System::UriSyntaxFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdatableFlags = value;
 }
 constexpr bool& System::UriParser::__get_m_UpdatableFlagsUsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdatableFlagsUsed;
 }
 constexpr bool const& System::UriParser::__get_m_UpdatableFlagsUsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdatableFlagsUsed;
 }
 constexpr void System::UriParser::__set_m_UpdatableFlagsUsed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdatableFlagsUsed = value;
 }
 constexpr int32_t& System::UriParser::__get_m_Port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Port;
 }
 constexpr int32_t const& System::UriParser::__get_m_Port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Port;
 }
 constexpr void System::UriParser::__set_m_Port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Port = value;
 }
 constexpr ::StringW& System::UriParser::__get_m_Scheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scheme;
 }
 constexpr ::StringW const& System::UriParser::__get_m_Scheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scheme;
 }
 constexpr void System::UriParser::__set_m_Scheme(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Scheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::UriParser::setStaticF_m_Table(::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* value) {

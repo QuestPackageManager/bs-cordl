@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__Aes_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AesManaged_def.hpp"
+#include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
+#include "System/Security/Cryptography/zzzz__RijndaelManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
-#include "System/Security/Cryptography/zzzz__RijndaelManaged_def.hpp"
-#include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::AesManaged._ctor
 template <>
 
@@ -289,15 +289,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::RijndaelManaged*& System::Security::Cryptography::AesManaged::__get_m_rijndael() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_rijndael;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RijndaelManaged*> const& System::Security::Cryptography::AesManaged::__get_m_rijndael() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_rijndael;
 }
 constexpr void System::Security::Cryptography::AesManaged::__set_m_rijndael(::System::Security::Cryptography::RijndaelManaged* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_rijndael)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::AesManaged* System::Security::Cryptography::AesManaged::New_ctor() {

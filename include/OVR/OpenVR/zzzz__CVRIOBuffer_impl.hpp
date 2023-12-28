@@ -2,8 +2,8 @@
 #include "OVR/OpenVR/zzzz__IVRIOBuffer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRIOBuffer_def.hpp"
-#include "OVR/OpenVR/zzzz__EIOBufferError_def.hpp"
 #include "OVR/OpenVR/zzzz__EIOBufferMode_def.hpp"
+#include "OVR/OpenVR/zzzz__EIOBufferError_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRIOBuffer._ctor
 template <>
 
@@ -97,15 +97,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRIOBuffer& OVR::OpenVR::CVRIOBuffer::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRIOBuffer const& OVR::OpenVR::CVRIOBuffer::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRIOBuffer::__set_FnTable(::OVR::OpenVR::IVRIOBuffer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRIOBuffer* OVR::OpenVR::CVRIOBuffer::New_ctor(void* pInterface) {

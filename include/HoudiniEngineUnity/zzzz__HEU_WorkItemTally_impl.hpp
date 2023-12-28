@@ -81,75 +81,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& HoudiniEngineUnity::HEU_WorkItemTally::__get__totalWorkItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalWorkItems;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_WorkItemTally::__get__totalWorkItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalWorkItems;
 }
 constexpr void HoudiniEngineUnity::HEU_WorkItemTally::__set__totalWorkItems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalWorkItems = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_WorkItemTally::__get__waitingWorkItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitingWorkItems;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_WorkItemTally::__get__waitingWorkItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitingWorkItems;
 }
 constexpr void HoudiniEngineUnity::HEU_WorkItemTally::__set__waitingWorkItems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____waitingWorkItems = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_WorkItemTally::__get__scheduledWorkItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scheduledWorkItems;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_WorkItemTally::__get__scheduledWorkItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scheduledWorkItems;
 }
 constexpr void HoudiniEngineUnity::HEU_WorkItemTally::__set__scheduledWorkItems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scheduledWorkItems = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_WorkItemTally::__get__cookingWorkItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookingWorkItems;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_WorkItemTally::__get__cookingWorkItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookingWorkItems;
 }
 constexpr void HoudiniEngineUnity::HEU_WorkItemTally::__set__cookingWorkItems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cookingWorkItems = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_WorkItemTally::__get__cookedWorkItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookedWorkItems;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_WorkItemTally::__get__cookedWorkItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookedWorkItems;
 }
 constexpr void HoudiniEngineUnity::HEU_WorkItemTally::__set__cookedWorkItems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cookedWorkItems = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_WorkItemTally::__get__erroredWorkItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____erroredWorkItems;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_WorkItemTally::__get__erroredWorkItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____erroredWorkItems;
 }
 constexpr void HoudiniEngineUnity::HEU_WorkItemTally::__set__erroredWorkItems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____erroredWorkItems = value;
 }
 inline void HoudiniEngineUnity::HEU_WorkItemTally::ZeroAll() {

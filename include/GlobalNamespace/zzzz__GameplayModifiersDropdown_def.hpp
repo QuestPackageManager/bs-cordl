@@ -10,6 +10,15 @@ CORDL_MODULE_EXPORT(GameplayModifiersDropdown)
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class __GameplayModifiersDropdown____c;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
 namespace HMUI {
 class SimpleTextDropdown;
 }
@@ -19,17 +28,8 @@ template <typename T> class Action_1;
 namespace HMUI {
 class DropdownWithTableView;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class __GameplayModifiersDropdown____c;
-}
 namespace GlobalNamespace {
 struct GameplayModifierMask;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -73,27 +73,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& HMUI::Interactable::__get__interactable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interactable;
 }
 constexpr bool const& HMUI::Interactable::__get__interactable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interactable;
 }
 constexpr void HMUI::Interactable::__set__interactable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____interactable = value;
 }
 constexpr ::System::Action_2<::HMUI::Interactable*, bool>*& HMUI::Interactable::__get_interactableChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interactableChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::HMUI::Interactable*, bool>*> const& HMUI::Interactable::__get_interactableChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interactableChangeEvent;
 }
 constexpr void HMUI::Interactable::__set_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___interactableChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::Interactable::add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value) {

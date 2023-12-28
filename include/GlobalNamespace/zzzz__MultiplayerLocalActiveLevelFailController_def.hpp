@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveLevelFailController)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
+class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class GameSongController;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
-}
-namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
 class LevelFailedTextEffect;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

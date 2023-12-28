@@ -6,8 +6,44 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Clickable)
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureOutEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseCaptureOutEvent;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
 namespace UnityEngine::UIElements {
 class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
+}
+namespace UnityEngine::UIElements {
+class MouseDownEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseMoveEvent;
 }
 namespace UnityEngine::UIElements {
 struct InvokePolicy;
@@ -16,43 +52,7 @@ namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
-class MouseDownEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
 class MouseUpEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseCaptureOutEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class PointerCaptureOutEvent;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
-}
-namespace UnityEngine::UIElements {
-class MouseMoveEvent;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-class PointerCancelEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Clickable);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6826))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6826)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6807))
 // CS Name: ::UnityEngine.UIElements::Clickable*
 class CORDL_TYPE Clickable : public ::UnityEngine::UIElements::PointerManipulator {

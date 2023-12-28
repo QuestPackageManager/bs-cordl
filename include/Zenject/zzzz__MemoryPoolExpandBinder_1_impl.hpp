@@ -2,21 +2,21 @@
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolExpandBinder_1_def.hpp"
 #include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 template <typename TContract> constexpr ::Zenject::MemoryPoolBindInfo*& Zenject::MemoryPoolExpandBinder_1<TContract>::__get__MemoryPoolBindInfo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemoryPoolBindInfo_k__BackingField;
 }
 template <typename TContract>
 constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& Zenject::MemoryPoolExpandBinder_1<TContract>::__get__MemoryPoolBindInfo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemoryPoolBindInfo_k__BackingField;
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolExpandBinder_1<TContract>::__set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MemoryPoolBindInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract>

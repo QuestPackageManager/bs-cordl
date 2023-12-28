@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModel_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModelSO_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSO_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarMeshPartSO_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSpritePartSO_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarMeshPartSO_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSO_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartCollection_1_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModelSO_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSpritePartSO_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::AvatarPartsModel.get_headTopCollection
 template <>
 
@@ -181,129 +181,129 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__headTopCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTopCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__headTopCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTopCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__headTopCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headTopCollection_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__eyesCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eyesCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__eyesCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eyesCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__eyesCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eyesCollection_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__mouthCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouthCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__mouthCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouthCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__mouthCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mouthCollection_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__glassesCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____glassesCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__glassesCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____glassesCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__glassesCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____glassesCollection_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__facialHairCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____facialHairCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__facialHairCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____facialHairCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__facialHairCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____facialHairCollection_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__handsCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handsCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__handsCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handsCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__handsCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handsCollection_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__clothesCollection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clothesCollection_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__clothesCollection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clothesCollection_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__clothesCollection_k__BackingField(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clothesCollection_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*, ::Array<::BeatSaber::BeatAvatarSDK::SkinColorSO*>*>& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__skinColors_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinColors_k__BackingField;
 }
 constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*, ::Array<::BeatSaber::BeatAvatarSDK::SkinColorSO*>*> const&
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__skinColors_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinColors_k__BackingField;
 }
 constexpr void
 BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__skinColors_k__BackingField(::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*, ::Array<::BeatSaber::BeatAvatarSDK::SkinColorSO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skinColors_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__indexById() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexById;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& BeatSaber::BeatAvatarSDK::AvatarPartsModel::__get__indexById() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexById;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPartsModel::__set__indexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____indexById)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>* BeatSaber::BeatAvatarSDK::AvatarPartsModel::get_headTopCollection() {

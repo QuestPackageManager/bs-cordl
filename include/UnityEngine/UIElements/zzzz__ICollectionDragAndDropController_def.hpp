@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICollectionDragAndDropController)
 namespace UnityEngine::UIElements {
+class IReorderable;
+}
+namespace UnityEngine::UIElements {
 template <typename TArgs> class IDragAndDropController_1;
 }
 namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
-}
-namespace UnityEngine::UIElements {
-class IReorderable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

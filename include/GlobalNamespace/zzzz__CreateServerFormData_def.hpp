@@ -16,19 +16,19 @@ namespace GlobalNamespace {
 struct SongPackMask;
 }
 namespace GlobalNamespace {
+struct SongSelectionMode;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-struct GameplayModifierMask;
+struct GameplayServerControlSettings;
 }
 namespace GlobalNamespace {
 struct GameplayServerMode;
 }
 namespace GlobalNamespace {
-struct SongSelectionMode;
-}
-namespace GlobalNamespace {
-struct GameplayServerControlSettings;
+struct GameplayModifierMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,8 +40,8 @@ MARK_VAL_T(::GlobalNamespace::CreateServerFormData);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12959)), TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(14997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12759))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(15047)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12959)), TypeDefinitionIndex(TypeDefinitionIndex(14997))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(5565)) CS Name: ::CreateServerFormData
 struct CORDL_TYPE CreateServerFormData {
 public:

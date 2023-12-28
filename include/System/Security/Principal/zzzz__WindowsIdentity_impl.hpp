@@ -3,16 +3,16 @@
 #include "System/Security/Principal/zzzz__WindowsAccountType_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Security/Principal/zzzz__WindowsIdentity_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Security/Principal/zzzz__WindowsAccountType_def.hpp"
+#include "System/Security/Principal/zzzz__WindowsImpersonationContext_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
-#include "System/Security/Principal/zzzz__WindowsImpersonationContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Security/Principal/zzzz__WindowsAccountType_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::WindowsIdentity._ctor
 template <>
 
@@ -255,75 +255,75 @@ constexpr System::Security::Principal::WindowsIdentity::operator ::System::IDisp
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& System::Security::Principal::WindowsIdentity::__get__token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr void* const& System::Security::Principal::WindowsIdentity::__get__token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
 constexpr void System::Security::Principal::WindowsIdentity::__set__token(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____token = value;
 }
 constexpr ::StringW& System::Security::Principal::WindowsIdentity::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::StringW const& System::Security::Principal::WindowsIdentity::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void System::Security::Principal::WindowsIdentity::__set__type(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Principal::WindowsAccountType& System::Security::Principal::WindowsIdentity::__get__account() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____account;
 }
 constexpr ::System::Security::Principal::WindowsAccountType const& System::Security::Principal::WindowsIdentity::__get__account() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____account;
 }
 constexpr void System::Security::Principal::WindowsIdentity::__set__account(::System::Security::Principal::WindowsAccountType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____account = value;
 }
 constexpr bool& System::Security::Principal::WindowsIdentity::__get__authenticated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____authenticated;
 }
 constexpr bool const& System::Security::Principal::WindowsIdentity::__get__authenticated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____authenticated;
 }
 constexpr void System::Security::Principal::WindowsIdentity::__set__authenticated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____authenticated = value;
 }
 constexpr ::StringW& System::Security::Principal::WindowsIdentity::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& System::Security::Principal::WindowsIdentity::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void System::Security::Principal::WindowsIdentity::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::SerializationInfo*& System::Security::Principal::WindowsIdentity::__get__info() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____info;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& System::Security::Principal::WindowsIdentity::__get__info() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____info;
 }
 constexpr void System::Security::Principal::WindowsIdentity::__set__info(::System::Runtime::Serialization::SerializationInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Principal::WindowsIdentity::setStaticF_invalidWindows(void* value) {

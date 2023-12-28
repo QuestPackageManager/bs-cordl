@@ -66,63 +66,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Color& GlobalNamespace::AvatarColorBehaviour::__get__startColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::AvatarColorBehaviour::__get__startColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColor;
 }
 constexpr void GlobalNamespace::AvatarColorBehaviour::__set__startColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::AvatarColorBehaviour::__get__endColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::AvatarColorBehaviour::__get__endColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endColor;
 }
 constexpr void GlobalNamespace::AvatarColorBehaviour::__set__endColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endColor = value;
 }
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::AvatarColorBehaviour::__get__easeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::AvatarColorBehaviour::__get__easeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType;
 }
 constexpr void GlobalNamespace::AvatarColorBehaviour::__set__easeType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____easeType = value;
 }
 constexpr ::BeatSaber::AvatarCore::AvatarVisualController*& GlobalNamespace::AvatarColorBehaviour::__get__avatarVisualController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarVisualController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarVisualController*> const& GlobalNamespace::AvatarColorBehaviour::__get__avatarVisualController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarVisualController;
 }
 constexpr void GlobalNamespace::AvatarColorBehaviour::__set__avatarVisualController(::BeatSaber::AvatarCore::AvatarVisualController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarVisualController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::AvatarColorBehaviour::__get__duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr float_t const& GlobalNamespace::AvatarColorBehaviour::__get__duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr void GlobalNamespace::AvatarColorBehaviour::__set__duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
 inline void GlobalNamespace::AvatarColorBehaviour::OnGraphStart(::UnityEngine::Playables::Playable playable) {

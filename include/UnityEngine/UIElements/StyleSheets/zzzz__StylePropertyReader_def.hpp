@@ -12,58 +12,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyReader)
 namespace UnityEngine::UIElements {
-struct Angle;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleEnumType;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class __StylePropertyReader__GetCursorIdFunction;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueKeyword;
-}
-namespace UnityEngine::UIElements {
-struct Cursor;
+class StyleVariableResolver;
 }
 namespace UnityEngine::UIElements {
 struct TransformOrigin;
 }
 namespace UnityEngine::UIElements {
-class StyleProperty;
+struct Scale;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
 struct TextShadow;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+class StyleComplexSelector;
 }
 namespace UnityEngine::UIElements {
-struct Background;
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+struct TimeValue;
+}
+namespace UnityEngine::UIElements {
+struct EasingFunction;
 }
 namespace UnityEngine::UIElements {
 class StyleVariableContext;
 }
-namespace UnityEngine::UIElements {
-struct Rotate;
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleEnumType;
 }
 namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-class StyleVariableResolver;
-}
-namespace UnityEngine {
-class Font;
+struct StyleValueType;
 }
 namespace UnityEngine::UIElements {
 struct Length;
@@ -71,29 +53,47 @@ struct Length;
 namespace UnityEngine::UIElements {
 struct Translate;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
+namespace UnityEngine::UIElements {
+struct StyleValueKeyword;
 }
 namespace UnityEngine::UIElements::StyleSheets {
-struct ImageSource;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class __StylePropertyReader__GetCursorIdFunction;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct Rotate;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueType;
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+class StyleProperty;
+}
+namespace UnityEngine::UIElements {
+struct Angle;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyValue;
 }
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+struct Cursor;
 }
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct ImageSource;
 }
 namespace UnityEngine::UIElements {
 struct StyleValueHandle;

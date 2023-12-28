@@ -10,10 +10,10 @@ namespace UnityEngine::TextCore::LowLevel {
 struct GlyphValueRecord;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {

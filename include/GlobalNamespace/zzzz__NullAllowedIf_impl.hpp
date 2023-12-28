@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ComparisonOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowed_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedIf_def.hpp"
+#include "GlobalNamespace/zzzz__NullAllowed_def.hpp"
 #include "GlobalNamespace/zzzz__ComparisonOperation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "GlobalNamespace/zzzz__NullAllowed_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NullAllowedIf._ctor
 template <>
 
@@ -56,39 +56,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::NullAllowedIf::__get_propertyName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyName;
 }
 constexpr ::StringW const& GlobalNamespace::NullAllowedIf::__get_propertyName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyName;
 }
 constexpr void GlobalNamespace::NullAllowedIf::__set_propertyName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___propertyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& GlobalNamespace::NullAllowedIf::__get__valueToCompare() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueToCompare;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::NullAllowedIf::__get__valueToCompare() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueToCompare;
 }
 constexpr void GlobalNamespace::NullAllowedIf::__set__valueToCompare(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____valueToCompare)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ComparisonOperation& GlobalNamespace::NullAllowedIf::__get__comparisonOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparisonOperation;
 }
 constexpr ::GlobalNamespace::ComparisonOperation const& GlobalNamespace::NullAllowedIf::__get__comparisonOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparisonOperation;
 }
 constexpr void GlobalNamespace::NullAllowedIf::__set__comparisonOperation(::GlobalNamespace::ComparisonOperation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____comparisonOperation = value;
 }
 /// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))

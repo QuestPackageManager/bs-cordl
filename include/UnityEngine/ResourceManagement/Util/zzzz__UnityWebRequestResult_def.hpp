@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityWebRequestResult)
 namespace UnityEngine::Networking {
-struct __UnityWebRequest__Result;
+class UnityWebRequest;
 }
 namespace UnityEngine::Networking {
-class UnityWebRequest;
+struct __UnityWebRequest__Result;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

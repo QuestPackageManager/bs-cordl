@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__SystemNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceFactory_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::SystemNetworkInterface.GetNetworkInterfaces
 template <>
 

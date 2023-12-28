@@ -6,22 +6,22 @@
 #include "System/zzzz__TimeZoneInfo_impl.hpp"
 #include "System/zzzz__TimeZoneInfo_def.hpp"
 #include "System/zzzz__TimeZoneInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__DayOfWeek_def.hpp"
+#include "GlobalNamespace/zzzz__Interop_def.hpp"
+#include "System/zzzz__TimeZoneInfoOptions_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "GlobalNamespace/zzzz__Interop_def.hpp"
-#include "System/zzzz__DayOfWeek_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__TimeZoneInfoOptions_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: ::System::__TimeZoneInfo__TZifType._ctor
@@ -815,87 +815,87 @@ constexpr System::__TimeZoneInfo__AdjustmentRule::operator ::System::Runtime::Se
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 constexpr ::System::DateTime& System::__TimeZoneInfo__AdjustmentRule::__get__dateStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateStart;
 }
 constexpr ::System::DateTime const& System::__TimeZoneInfo__AdjustmentRule::__get__dateStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateStart;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__dateStart(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateStart = value;
 }
 constexpr ::System::DateTime& System::__TimeZoneInfo__AdjustmentRule::__get__dateEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateEnd;
 }
 constexpr ::System::DateTime const& System::__TimeZoneInfo__AdjustmentRule::__get__dateEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateEnd;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__dateEnd(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateEnd = value;
 }
 constexpr ::System::TimeSpan& System::__TimeZoneInfo__AdjustmentRule::__get__daylightDelta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightDelta;
 }
 constexpr ::System::TimeSpan const& System::__TimeZoneInfo__AdjustmentRule::__get__daylightDelta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightDelta;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__daylightDelta(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____daylightDelta = value;
 }
 constexpr ::System::__TimeZoneInfo__TransitionTime& System::__TimeZoneInfo__AdjustmentRule::__get__daylightTransitionStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightTransitionStart;
 }
 constexpr ::System::__TimeZoneInfo__TransitionTime const& System::__TimeZoneInfo__AdjustmentRule::__get__daylightTransitionStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightTransitionStart;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__daylightTransitionStart(::System::__TimeZoneInfo__TransitionTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____daylightTransitionStart = value;
 }
 constexpr ::System::__TimeZoneInfo__TransitionTime& System::__TimeZoneInfo__AdjustmentRule::__get__daylightTransitionEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightTransitionEnd;
 }
 constexpr ::System::__TimeZoneInfo__TransitionTime const& System::__TimeZoneInfo__AdjustmentRule::__get__daylightTransitionEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightTransitionEnd;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__daylightTransitionEnd(::System::__TimeZoneInfo__TransitionTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____daylightTransitionEnd = value;
 }
 constexpr ::System::TimeSpan& System::__TimeZoneInfo__AdjustmentRule::__get__baseUtcOffsetDelta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseUtcOffsetDelta;
 }
 constexpr ::System::TimeSpan const& System::__TimeZoneInfo__AdjustmentRule::__get__baseUtcOffsetDelta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseUtcOffsetDelta;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__baseUtcOffsetDelta(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseUtcOffsetDelta = value;
 }
 constexpr bool& System::__TimeZoneInfo__AdjustmentRule::__get__noDaylightTransitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noDaylightTransitions;
 }
 constexpr bool const& System::__TimeZoneInfo__AdjustmentRule::__get__noDaylightTransitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noDaylightTransitions;
 }
 constexpr void System::__TimeZoneInfo__AdjustmentRule::__set__noDaylightTransitions(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noDaylightTransitions = value;
 }
 inline ::System::DateTime System::__TimeZoneInfo__AdjustmentRule::get_DateStart() {
@@ -1110,15 +1110,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::TimeZoneInfo*& System::__TimeZoneInfo__CachedData::__get__localTimeZone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localTimeZone;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::TimeZoneInfo*> const& System::__TimeZoneInfo__CachedData::__get__localTimeZone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localTimeZone;
 }
 constexpr void System::__TimeZoneInfo__CachedData::__set__localTimeZone(::System::TimeZoneInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localTimeZone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::TimeZoneInfo* System::__TimeZoneInfo__CachedData::CreateLocal() {
@@ -1177,75 +1177,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::__TimeZoneInfo____c__DisplayClass16_0::__get_localtimeFilePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localtimeFilePath;
 }
 constexpr ::StringW const& System::__TimeZoneInfo____c__DisplayClass16_0::__get_localtimeFilePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localtimeFilePath;
 }
 constexpr void System::__TimeZoneInfo____c__DisplayClass16_0::__set_localtimeFilePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localtimeFilePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__TimeZoneInfo____c__DisplayClass16_0::__get_posixrulesFilePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___posixrulesFilePath;
 }
 constexpr ::StringW const& System::__TimeZoneInfo____c__DisplayClass16_0::__get_posixrulesFilePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___posixrulesFilePath;
 }
 constexpr void System::__TimeZoneInfo____c__DisplayClass16_0::__set_posixrulesFilePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___posixrulesFilePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::__TimeZoneInfo____c__DisplayClass16_0::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::__TimeZoneInfo____c__DisplayClass16_0::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void System::__TimeZoneInfo____c__DisplayClass16_0::__set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::__TimeZoneInfo____c__DisplayClass16_0::__get_rawData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::__TimeZoneInfo____c__DisplayClass16_0::__get_rawData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawData;
 }
 constexpr void System::__TimeZoneInfo____c__DisplayClass16_0::__set_rawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rawData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__TimeZoneInfo____c__DisplayClass16_0::__get_id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___id;
 }
 constexpr ::StringW const& System::__TimeZoneInfo____c__DisplayClass16_0::__get_id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___id;
 }
 constexpr void System::__TimeZoneInfo____c__DisplayClass16_0::__set_id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::__TimeZoneInfo____c__DisplayClass16_0::__get_timeZoneDirectory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeZoneDirectory;
 }
 constexpr ::StringW const& System::__TimeZoneInfo____c__DisplayClass16_0::__get_timeZoneDirectory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeZoneDirectory;
 }
 constexpr void System::__TimeZoneInfo____c__DisplayClass16_0::__set_timeZoneDirectory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timeZoneDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::__TimeZoneInfo____c__DisplayClass16_0* System::__TimeZoneInfo____c__DisplayClass16_0::New_ctor() {
@@ -2951,87 +2951,87 @@ constexpr System::TimeZoneInfo::operator ::System::Runtime::Serialization::IDese
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::TimeZoneInfo::__get__id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr ::StringW const& System::TimeZoneInfo::__get__id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr void System::TimeZoneInfo::__set__id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TimeZoneInfo::__get__displayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayName;
 }
 constexpr ::StringW const& System::TimeZoneInfo::__get__displayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayName;
 }
 constexpr void System::TimeZoneInfo::__set__displayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TimeZoneInfo::__get__standardDisplayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardDisplayName;
 }
 constexpr ::StringW const& System::TimeZoneInfo::__get__standardDisplayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardDisplayName;
 }
 constexpr void System::TimeZoneInfo::__set__standardDisplayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____standardDisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TimeZoneInfo::__get__daylightDisplayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightDisplayName;
 }
 constexpr ::StringW const& System::TimeZoneInfo::__get__daylightDisplayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____daylightDisplayName;
 }
 constexpr void System::TimeZoneInfo::__set__daylightDisplayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____daylightDisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::TimeSpan& System::TimeZoneInfo::__get__baseUtcOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseUtcOffset;
 }
 constexpr ::System::TimeSpan const& System::TimeZoneInfo::__get__baseUtcOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseUtcOffset;
 }
 constexpr void System::TimeZoneInfo::__set__baseUtcOffset(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseUtcOffset = value;
 }
 constexpr bool& System::TimeZoneInfo::__get__supportsDaylightSavingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____supportsDaylightSavingTime;
 }
 constexpr bool const& System::TimeZoneInfo::__get__supportsDaylightSavingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____supportsDaylightSavingTime;
 }
 constexpr void System::TimeZoneInfo::__set__supportsDaylightSavingTime(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____supportsDaylightSavingTime = value;
 }
 constexpr ::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*>& System::TimeZoneInfo::__get__adjustmentRules() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____adjustmentRules;
 }
 constexpr ::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> const& System::TimeZoneInfo::__get__adjustmentRules() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____adjustmentRules;
 }
 constexpr void System::TimeZoneInfo::__set__adjustmentRules(::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____adjustmentRules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::TimeZoneInfo::setStaticF_s_utcTimeZone(::System::TimeZoneInfo* value) {

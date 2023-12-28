@@ -1,21 +1,21 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposeBlock_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_6_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_4_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_8_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_3_def.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_7_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Zenject/zzzz__DisposeBlock_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_4_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_5_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_6_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_7_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_5_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DisposeBlock_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_8_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_3_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "", def_value:
@@ -139,27 +139,27 @@ constexpr Zenject::DisposeBlock::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& Zenject::DisposeBlock::__get__disposables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::IDisposable*>*> const& Zenject::DisposeBlock::__get__disposables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
 constexpr void Zenject::DisposeBlock::__set__disposables(::System::Collections::Generic::List_1<::System::IDisposable*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*& Zenject::DisposeBlock::__get__objectPoolPairs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectPoolPairs;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*> const& Zenject::DisposeBlock::__get__objectPoolPairs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectPoolPairs;
 }
 constexpr void Zenject::DisposeBlock::__set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectPoolPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Zenject::DisposeBlock::setStaticF__pool(::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* value) {

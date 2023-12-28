@@ -15,17 +15,17 @@ struct __Tile__ColliderType;
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::Tilemaps {
-struct TileFlags;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Tilemaps {
+struct TileFlags;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -37,8 +37,8 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileData);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15938)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15941)) CS Name: ::UnityEngine.Tilemaps::TileData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(15938)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15941)) CS Name: ::UnityEngine.Tilemaps::TileData
 struct CORDL_TYPE TileData {
 public:
   // Declarations

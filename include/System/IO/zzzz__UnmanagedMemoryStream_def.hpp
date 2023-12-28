@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmanagedMemoryStream)
 namespace System::Threading::Tasks {
-struct ValueTask;
+class Task;
 }
 namespace System::Runtime::InteropServices {
 class SafeBuffer;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace System::IO {
 struct FileAccess;
 }
 namespace System::Threading::Tasks {
-class Task;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
-}
-namespace System::IO {
-struct SeekOrigin;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+template <typename T> struct Memory_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-template <typename T> struct Memory_1;
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace System::IO {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::IO::UnmanagedMemoryStream);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
 // CS Name: ::System.IO::UnmanagedMemoryStream*
 class CORDL_TYPE UnmanagedMemoryStream : public ::System::IO::Stream {

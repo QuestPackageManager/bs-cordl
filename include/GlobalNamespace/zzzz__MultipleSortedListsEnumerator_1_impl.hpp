@@ -1,55 +1,55 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultipleSortedListsEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultipleSortedListsEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "GlobalNamespace/zzzz__BinaryHeap_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultipleSortedListsEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__BinaryHeap_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>"
 template <typename T>
 constexpr GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::operator ::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*() noexcept {
   return static_cast<::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::IReadOnlyList_1<T>*& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__dataList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataList;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<T>*> const& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__dataList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataList;
 }
 template <typename T> constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__set__dataList(::System::Collections::Generic::IReadOnlyList_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__idx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__idx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx;
 }
 template <typename T> constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__set__idx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idx = value;
 }
 template <typename T> constexpr T& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__currentValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentValue;
 }
 template <typename T> constexpr T const& GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__get__currentValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentValue;
 }
 template <typename T> constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::__set__currentValue(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>::get_currentValue() {
@@ -96,56 +96,56 @@ template <typename T> constexpr GlobalNamespace::__MultipleSortedListsEnumerator
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T> constexpr T& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr T const& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__set___2__current(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*> const&
 GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T> constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__set___4__this(::GlobalNamespace::MultipleSortedListsEnumerator_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*& GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get__heapItem_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heapItem_5__2;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*> const&
 GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__get__heapItem_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heapItem_5__2;
 }
 template <typename T>
 constexpr void GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>::__set__heapItem_5__2(::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____heapItem_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
@@ -196,18 +196,18 @@ template <typename T> constexpr GlobalNamespace::MultipleSortedListsEnumerator_1
 }
 template <typename T>
 constexpr ::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*& GlobalNamespace::MultipleSortedListsEnumerator_1<T>::__get__heap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heap;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*> const&
 GlobalNamespace::MultipleSortedListsEnumerator_1<T>::__get__heap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heap;
 }
 template <typename T>
 constexpr void GlobalNamespace::MultipleSortedListsEnumerator_1<T>::__set__heap(::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____heap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MoveBackWall)
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
 class MeshRenderer;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

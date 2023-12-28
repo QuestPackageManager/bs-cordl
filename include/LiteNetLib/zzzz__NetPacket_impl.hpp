@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
-#include "LiteNetLib/zzzz__PacketProperty_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/zzzz__PacketProperty_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetPacket.get_Property
 template <>
 
@@ -291,39 +291,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& LiteNetLib::NetPacket::__get_RawData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RawData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& LiteNetLib::NetPacket::__get_RawData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RawData;
 }
 constexpr void LiteNetLib::NetPacket::__set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RawData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::NetPacket::__get_Size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Size;
 }
 constexpr int32_t const& LiteNetLib::NetPacket::__get_Size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Size;
 }
 constexpr void LiteNetLib::NetPacket::__set_Size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Size = value;
 }
 constexpr ::System::Object*& LiteNetLib::NetPacket::__get_UserData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetPacket::__get_UserData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserData;
 }
 constexpr void LiteNetLib::NetPacket::__set_UserData(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void LiteNetLib::NetPacket::setStaticF_LastProperty(int32_t value) {

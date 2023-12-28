@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeNames_def.hpp"
 #include "System/zzzz__TypeNames_def.hpp"
+#include "System/zzzz__TypeName_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__TypeName_def.hpp"
 //  Writing Method size for method: ::System::__TypeNames__ATypeName.get_DisplayName
 template <>
 

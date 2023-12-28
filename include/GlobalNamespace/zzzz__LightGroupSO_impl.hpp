@@ -98,87 +98,87 @@ constexpr GlobalNamespace::LightGroupSO::operator ::GlobalNamespace::ILightGroup
   return static_cast<::GlobalNamespace::ILightGroup*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::LightGroupSO::__get__groupName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupName;
 }
 constexpr ::StringW const& GlobalNamespace::LightGroupSO::__get__groupName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupName;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__groupName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::LightGroupSO::__get__groupDescription() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupDescription;
 }
 constexpr ::StringW const& GlobalNamespace::LightGroupSO::__get__groupDescription() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupDescription;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__groupDescription(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupDescription)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::LightGroupSO::__get__groupId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupId;
 }
 constexpr int32_t const& GlobalNamespace::LightGroupSO::__get__groupId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupId;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__groupId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____groupId = value;
 }
 constexpr int32_t& GlobalNamespace::LightGroupSO::__get__startLightId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startLightId;
 }
 constexpr int32_t const& GlobalNamespace::LightGroupSO::__get__startLightId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startLightId;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__startLightId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startLightId = value;
 }
 constexpr int32_t& GlobalNamespace::LightGroupSO::__get__numberOfElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfElements;
 }
 constexpr int32_t const& GlobalNamespace::LightGroupSO::__get__numberOfElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfElements;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__numberOfElements(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfElements = value;
 }
 constexpr int32_t& GlobalNamespace::LightGroupSO::__get__sameIdElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sameIdElements;
 }
 constexpr int32_t const& GlobalNamespace::LightGroupSO::__get__sameIdElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sameIdElements;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__sameIdElements(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sameIdElements = value;
 }
 constexpr bool& GlobalNamespace::LightGroupSO::__get__ignoreLightGroupEffectManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreLightGroupEffectManager;
 }
 constexpr bool const& GlobalNamespace::LightGroupSO::__get__ignoreLightGroupEffectManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreLightGroupEffectManager;
 }
 constexpr void GlobalNamespace::LightGroupSO::__set__ignoreLightGroupEffectManager(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreLightGroupEffectManager = value;
 }
 inline ::StringW GlobalNamespace::LightGroupSO::get_groupName() {

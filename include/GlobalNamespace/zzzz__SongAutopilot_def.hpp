@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SongAutopilot)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class PlayerVRControllersManager;
+class Vector3SO;
 }
 namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
-class Vector3SO;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+struct __SongAutopilot__Frame;
+}
+namespace GlobalNamespace {
+class PlayerVRControllersManager;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-struct __SongAutopilot__Frame;
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 namespace UnityEngine {
 class Camera;
@@ -88,7 +88,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongAutopilot
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15314)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15314)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5379))
 // CS Name: ::SongAutopilot*
 class CORDL_TYPE SongAutopilot : public ::GlobalNamespace::ZenjectSafeBehaviour {

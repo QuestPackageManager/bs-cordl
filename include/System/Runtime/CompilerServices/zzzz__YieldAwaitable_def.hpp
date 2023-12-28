@@ -11,19 +11,19 @@ namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
 }
 namespace System::Threading {
-class WaitCallback;
+class SendOrPostCallback;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
-}
-namespace System::Threading {
-class SendOrPostCallback;
 }
 namespace System {
 class Action;
 }
 namespace System {
 class Object;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

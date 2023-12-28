@@ -109,15 +109,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Xml::XmlUnspecifiedAttribute::__get_fSpecified() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fSpecified;
 }
 constexpr bool const& System::Xml::XmlUnspecifiedAttribute::__get_fSpecified() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fSpecified;
 }
 constexpr void System::Xml::XmlUnspecifiedAttribute::__set_fSpecified(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fSpecified = value;
 }
 inline ::System::Xml::XmlUnspecifiedAttribute* System::Xml::XmlUnspecifiedAttribute::New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc) {

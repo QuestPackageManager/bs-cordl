@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Gost3410KeyGenerationParameters)
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410Parameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410Parameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

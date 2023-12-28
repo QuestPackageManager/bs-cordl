@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(NoteCutFloorLightStreakTileEffectSpawner)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
+namespace GlobalNamespace {
+class ColorManager;
+}
 namespace Ice {
 class FloorLightStreakTileEffect;
 }
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace Ice {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawner);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16171))
 // CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawner*
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawner : public ::UnityEngine::MonoBehaviour {

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ReloadDataEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5239 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9596))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9601)) CS Name: ::HoudiniEngineUnity::HEU_ReloadDataEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9596)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 5239 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9601)) CS Name: ::HoudiniEngineUnity::HEU_ReloadDataEvent*
 class CORDL_TYPE HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*> {
 public:
   // Declarations

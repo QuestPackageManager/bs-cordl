@@ -10,17 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRRenderModels)
+namespace System::Text {
+class StringBuilder;
+}
 namespace OVR::OpenVR {
-struct RenderModel_ControllerMode_State_t;
+struct __CVRRenderModels__GetComponentStateUnion;
+}
+namespace OVR::OpenVR {
+struct VRControllerState_t;
 }
 namespace OVR::OpenVR {
 struct RenderModel_ComponentState_t;
 }
 namespace OVR::OpenVR {
-struct __CVRRenderModels__GetComponentStateUnion;
-}
-namespace System::Text {
-class StringBuilder;
+struct RenderModel_ControllerMode_State_t;
 }
 namespace OVR::OpenVR {
 struct EVRRenderModelError;
@@ -28,20 +31,17 @@ struct EVRRenderModelError;
 namespace OVR::OpenVR {
 class __CVRRenderModels___GetComponentStatePacked;
 }
-namespace OVR::OpenVR {
-struct VRControllerState_t;
-}
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class Object;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t_Packed;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentState;

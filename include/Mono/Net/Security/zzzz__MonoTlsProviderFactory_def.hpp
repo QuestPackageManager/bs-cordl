@@ -10,16 +10,16 @@ namespace System {
 class Object;
 }
 namespace System {
-struct Guid;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
+template <typename T1, typename T2> class Tuple_2;
 }
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
+struct Guid;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithHttpTransferUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 973 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 973 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(13436))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13334)) CS Name: ::Oculus.Platform::MessageWithHttpTransferUpdate*
 class CORDL_TYPE MessageWithHttpTransferUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*> {
 public:

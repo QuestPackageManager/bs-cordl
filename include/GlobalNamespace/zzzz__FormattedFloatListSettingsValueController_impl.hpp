@@ -78,75 +78,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::FormattedFloatListSettingsValueController::__get__settingsValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::FormattedFloatListSettingsValueController::__get__settingsValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsValue;
 }
 constexpr void GlobalNamespace::FormattedFloatListSettingsValueController::__set__settingsValue(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::FormattedFloatListSettingsValueController::__get__values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____values;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::FormattedFloatListSettingsValueController::__get__values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____values;
 }
 constexpr void GlobalNamespace::FormattedFloatListSettingsValueController::__set__values(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::FormattedFloatListSettingsValueController::__get__formattingString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____formattingString;
 }
 constexpr ::StringW const& GlobalNamespace::FormattedFloatListSettingsValueController::__get__formattingString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____formattingString;
 }
 constexpr void GlobalNamespace::FormattedFloatListSettingsValueController::__set__formattingString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____formattingString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType& GlobalNamespace::FormattedFloatListSettingsValueController::__get_valueType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueType;
 }
 constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const& GlobalNamespace::FormattedFloatListSettingsValueController::__get_valueType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueType;
 }
 constexpr void GlobalNamespace::FormattedFloatListSettingsValueController::__set_valueType(::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueType = value;
 }
 constexpr float_t& GlobalNamespace::FormattedFloatListSettingsValueController::__get__min() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____min;
 }
 constexpr float_t const& GlobalNamespace::FormattedFloatListSettingsValueController::__get__min() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____min;
 }
 constexpr void GlobalNamespace::FormattedFloatListSettingsValueController::__set__min(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____min = value;
 }
 constexpr float_t& GlobalNamespace::FormattedFloatListSettingsValueController::__get__max() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____max;
 }
 constexpr float_t const& GlobalNamespace::FormattedFloatListSettingsValueController::__get__max() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____max;
 }
 constexpr void GlobalNamespace::FormattedFloatListSettingsValueController::__set__max(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____max = value;
 }
 inline bool GlobalNamespace::FormattedFloatListSettingsValueController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {

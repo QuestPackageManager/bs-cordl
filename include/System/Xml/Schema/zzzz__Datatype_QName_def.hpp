@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_QName)
 namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System {
-class Exception;
+class XmlValueConverter;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml::Schema {
-struct XmlTypeCode;
+class FacetsChecker;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System {
 class Object;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+class Type;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System {
-class Type;
+class XmlSchemaType;
 }
 namespace System::Xml {
 struct XmlTokenizedType;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

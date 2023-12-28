@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Application)
-namespace Oculus::Platform {
-class ApplicationOptions;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+namespace Oculus::Platform::Models {
+class AppDownloadResult;
 }
 namespace Oculus::Platform::Models {
 class AppDownloadProgressResult;
 }
 namespace Oculus::Platform::Models {
-class AppDownloadResult;
-}
-namespace Oculus::Platform::Models {
 class ApplicationVersion;
+}
+namespace Oculus::Platform {
+class ApplicationOptions;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -4,10 +4,10 @@
 #include "System/IO/zzzz__MatchType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/IO/zzzz__MatchCasing_def.hpp"
-#include "System/IO/zzzz__SearchOption_def.hpp"
+#include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/IO/zzzz__MatchType_def.hpp"
+#include "System/IO/zzzz__SearchOption_def.hpp"
 //  Writing Method size for method: ::System::IO::EnumerationOptions.get_Compatible
 template <>
 
@@ -214,75 +214,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::IO::EnumerationOptions::__get__RecurseSubdirectories_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RecurseSubdirectories_k__BackingField;
 }
 constexpr bool const& System::IO::EnumerationOptions::__get__RecurseSubdirectories_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RecurseSubdirectories_k__BackingField;
 }
 constexpr void System::IO::EnumerationOptions::__set__RecurseSubdirectories_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____RecurseSubdirectories_k__BackingField = value;
 }
 constexpr bool& System::IO::EnumerationOptions::__get__IgnoreInaccessible_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreInaccessible_k__BackingField;
 }
 constexpr bool const& System::IO::EnumerationOptions::__get__IgnoreInaccessible_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreInaccessible_k__BackingField;
 }
 constexpr void System::IO::EnumerationOptions::__set__IgnoreInaccessible_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IgnoreInaccessible_k__BackingField = value;
 }
 constexpr ::System::IO::FileAttributes& System::IO::EnumerationOptions::__get__AttributesToSkip_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttributesToSkip_k__BackingField;
 }
 constexpr ::System::IO::FileAttributes const& System::IO::EnumerationOptions::__get__AttributesToSkip_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AttributesToSkip_k__BackingField;
 }
 constexpr void System::IO::EnumerationOptions::__set__AttributesToSkip_k__BackingField(::System::IO::FileAttributes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AttributesToSkip_k__BackingField = value;
 }
 constexpr ::System::IO::MatchType& System::IO::EnumerationOptions::__get__MatchType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MatchType_k__BackingField;
 }
 constexpr ::System::IO::MatchType const& System::IO::EnumerationOptions::__get__MatchType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MatchType_k__BackingField;
 }
 constexpr void System::IO::EnumerationOptions::__set__MatchType_k__BackingField(::System::IO::MatchType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MatchType_k__BackingField = value;
 }
 constexpr ::System::IO::MatchCasing& System::IO::EnumerationOptions::__get__MatchCasing_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MatchCasing_k__BackingField;
 }
 constexpr ::System::IO::MatchCasing const& System::IO::EnumerationOptions::__get__MatchCasing_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MatchCasing_k__BackingField;
 }
 constexpr void System::IO::EnumerationOptions::__set__MatchCasing_k__BackingField(::System::IO::MatchCasing value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MatchCasing_k__BackingField = value;
 }
 constexpr bool& System::IO::EnumerationOptions::__get__ReturnSpecialDirectories_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReturnSpecialDirectories_k__BackingField;
 }
 constexpr bool const& System::IO::EnumerationOptions::__get__ReturnSpecialDirectories_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReturnSpecialDirectories_k__BackingField;
 }
 constexpr void System::IO::EnumerationOptions::__set__ReturnSpecialDirectories_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ReturnSpecialDirectories_k__BackingField = value;
 }
 inline void System::IO::EnumerationOptions::setStaticF__Compatible_k__BackingField(::System::IO::EnumerationOptions* value) {

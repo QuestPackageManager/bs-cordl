@@ -6,32 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsClientProtocol)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::IO {
-class MemoryStream;
-}
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class AbstractTlsContext;
+class DigitallySigned;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContextImpl;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DigitallySigned;
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClient;
@@ -43,10 +28,25 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+class AbstractTlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateStatus;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

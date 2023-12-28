@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AbuseReport)
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+class Request;
 }
 namespace Oculus::Platform {
 struct ReportRequestResponse;
 }
 namespace Oculus::Platform {
-class Request;
+template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {

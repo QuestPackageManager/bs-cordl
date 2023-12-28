@@ -3,16 +3,16 @@
 #include "UnityEngine/UIElements/zzzz__SliderDirection_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ClampedDragger_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ClampedDragger_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FocusOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename TValueType> constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::__BaseSlider_1__SliderKey(int32_t value__) noexcept {
   this->value__ = value__;
@@ -34,165 +34,165 @@ constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> Unity
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType>::Highest{ static_cast<int32_t>(0x6) };
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__dragContainer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragContainer_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__dragContainer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragContainer_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set__dragContainer_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dragContainer_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__dragElement_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragElement_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__dragElement_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragElement_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dragElement_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__dragBorderElement_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragBorderElement_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__dragBorderElement_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragBorderElement_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set__dragBorderElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dragBorderElement_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::TextField*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__inputTextField_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputTextField_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextField*> const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__inputTextField_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputTextField_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputTextField_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_LowValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LowValue;
 }
 template <typename TValueType> constexpr TValueType const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_LowValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LowValue;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_LowValue(TValueType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LowValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_HighValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighValue;
 }
 template <typename TValueType> constexpr TValueType const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_HighValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighValue;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_HighValue(TValueType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HighValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr float_t& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_PageSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PageSize;
 }
 template <typename TValueType> constexpr float_t const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_PageSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PageSize;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_PageSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PageSize = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_ShowInputField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowInputField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_ShowInputField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowInputField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_ShowInputField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShowInputField = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__clamped_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clamped_k__BackingField;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__clamped_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clamped_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set__clamped_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clamped_k__BackingField = value;
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__clampedDragger_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampedDragger_k__BackingField;
 }
 template <typename TValueType>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClampedDragger_1<TValueType>*> const&
 UnityEngine::UIElements::BaseSlider_1<TValueType>::__get__clampedDragger_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampedDragger_k__BackingField;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clampedDragger_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::Rect& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_DragElementStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragElementStartPos;
 }
 template <typename TValueType> constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_DragElementStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragElementStartPos;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_DragElementStartPos(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DragElementStartPos = value;
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::SliderDirection& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_Direction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::SliderDirection const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_Direction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_Direction(::UnityEngine::UIElements::SliderDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Direction = value;
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_Inverted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Inverted;
 }
 template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__get_m_Inverted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Inverted;
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__set_m_Inverted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Inverted = value;
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_ussClassName(::StringW value) {

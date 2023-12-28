@@ -80,64 +80,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MultiplayerPlayersManager*& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__multiplayerPlayersManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPlayersManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayersManager*> const&
 GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__multiplayerPlayersManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPlayersManager;
 }
 constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__set__multiplayerPlayersManager(::GlobalNamespace::MultiplayerPlayersManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerPlayersManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__positionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__positionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionOffset;
 }
 constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__set__positionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positionOffset = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__rotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__rotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationOffset;
 }
 constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__set__rotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationOffset = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__lastParentPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastParentPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__lastParentPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastParentPosition;
 }
 constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__set__lastParentPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastParentPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__lastParentRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastParentRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__get__lastParentRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastParentRotation;
 }
 constexpr void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::__set__lastParentRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastParentRotation = value;
 }
 inline void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake() {

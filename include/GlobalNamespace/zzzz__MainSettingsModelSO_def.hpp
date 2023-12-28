@@ -17,61 +17,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSettingsModelSO)
 namespace GlobalNamespace {
-class BoolSO;
-}
-namespace GlobalNamespace {
-struct __MainSettingsModelSO__WindowMode;
-}
-namespace GlobalNamespace {
-class PerformancePreset;
-}
-namespace GlobalNamespace {
-class Vector2IntSO;
-}
-namespace GlobalNamespace {
 class ObstaclesQualitySO;
+}
+namespace GlobalNamespace {
+class StringSO;
+}
+namespace GlobalNamespace {
+class IntSO;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
-class StringSO;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+class __MainSettingsModelSO__Config;
 }
 namespace GlobalNamespace {
 class Vector3SO;
 }
 namespace GlobalNamespace {
-struct __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71;
+class LanguageSO;
 }
 namespace GlobalNamespace {
-class IntSO;
+class Vector2IntSO;
+}
+namespace GlobalNamespace {
+class PerformancePreset;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+class BoolSO;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
+struct __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71;
+}
+namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
-class LanguageSO;
-}
-namespace GlobalNamespace {
-class __MainSettingsModelSO__Config;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+struct __MainSettingsModelSO__WindowMode;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,7 +143,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainSettingsM
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 251, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4433)), TypeDefinitionIndex(TypeDefinitionIndex(4442))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4433)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4442))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4434))
 // CS Name: ::MainSettingsModelSO::Config*
 class CORDL_TYPE __MainSettingsModelSO__Config : public ::System::Object {
@@ -882,9 +882,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainSettingsM
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 870 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2507))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4435)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 870 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4435)) CS Name:
 // ::MainSettingsModelSO::<ForceApplyPerformancePresetAsync>d__71
 struct CORDL_TYPE __MainSettingsModelSO___ForceApplyPerformancePresetAsync_d__71 {
 public:
@@ -943,9 +943,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainSettingsM
 // SizeInfo { instance_size: 424, native_size: -1, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2507)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 870 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15857))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4436)) CS Name: ::MainSettingsModelSO*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst:
+// 5315 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 870 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4436))
+// CS Name: ::MainSettingsModelSO*
 class CORDL_TYPE MainSettingsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations

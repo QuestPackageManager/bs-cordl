@@ -44,27 +44,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::ConsoleSpecialKey& System::ConsoleCancelEventArgs::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::System::ConsoleSpecialKey const& System::ConsoleCancelEventArgs::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void System::ConsoleCancelEventArgs::__set__type(::System::ConsoleSpecialKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____type = value;
 }
 constexpr bool& System::ConsoleCancelEventArgs::__get__Cancel_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Cancel_k__BackingField;
 }
 constexpr bool const& System::ConsoleCancelEventArgs::__get__Cancel_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Cancel_k__BackingField;
 }
 constexpr void System::ConsoleCancelEventArgs::__set__Cancel_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Cancel_k__BackingField = value;
 }
 inline ::System::ConsoleCancelEventArgs* System::ConsoleCancelEventArgs::New_ctor(::System::ConsoleSpecialKey type) {

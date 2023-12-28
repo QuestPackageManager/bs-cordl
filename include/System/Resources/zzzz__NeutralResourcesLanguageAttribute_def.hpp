@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Resources::NeutralResourcesLanguageAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3431))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3431)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3427))
 // CS Name: ::System.Resources::NeutralResourcesLanguageAttribute*
 class CORDL_TYPE NeutralResourcesLanguageAttribute : public ::System::Attribute {

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EntitlementCheck)
-namespace Oculus::Platform {
-class Message;
-}
 namespace System {
 class Action;
+}
+namespace Oculus::Platform {
+class Message;
 }
 // Forward declare root types
 namespace Oculus::Platform::Samples::EntitlementCheck {

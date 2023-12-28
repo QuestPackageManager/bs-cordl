@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*>& GlobalNamespace::ProgressActivitySO::__get_subtasks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtasks;
 }
 constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> const& GlobalNamespace::ProgressActivitySO::__get_subtasks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtasks;
 }
 constexpr void GlobalNamespace::ProgressActivitySO::__set_subtasks(::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subtasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::ProgressActivitySO* GlobalNamespace::ProgressActivitySO::New_ctor() {

@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerBindingFinalizer)
 namespace Zenject {
-class __SubContainerBindingFinalizer____c__DisplayClass5_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class __SubContainerBindingFinalizer____c__DisplayClass6_0;
-}
-namespace Zenject {
 class ISubContainerCreator;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
+namespace Zenject {
+class __SubContainerBindingFinalizer____c__DisplayClass5_1;
 }
 namespace Zenject {
 class __SubContainerBindingFinalizer____c__DisplayClass5_0;
 }
 namespace Zenject {
-class BindInfo;
+class __SubContainerBindingFinalizer____c__DisplayClass6_1;
 }
 namespace Zenject {
-class __SubContainerBindingFinalizer____c__DisplayClass6_1;
+class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class __SubContainerBindingFinalizer____c__DisplayClass6_0;
 }
 namespace Zenject {
 class InjectTypeInfo;

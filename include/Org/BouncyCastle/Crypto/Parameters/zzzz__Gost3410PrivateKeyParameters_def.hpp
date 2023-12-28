@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Gost3410KeyParameters_def.hpp"
 CORDL_MODULE_EXPORT(Gost3410PrivateKeyParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410Parameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410Parameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;

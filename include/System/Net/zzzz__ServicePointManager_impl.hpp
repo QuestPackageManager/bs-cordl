@@ -2,15 +2,15 @@
 #include "System/Net/zzzz__SecurityProtocolType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ServicePointManager_def.hpp"
-#include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
-#include "System/Net/zzzz__ICertificatePolicy_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
-#include "System/Net/zzzz__SecurityProtocolType_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/zzzz__SecurityProtocolType_def.hpp"
+#include "System/Net/zzzz__ICertificatePolicy_def.hpp"
+#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
 #include "System/Net/zzzz__ServicePointManager_def.hpp"
+#include "System/Net/zzzz__ServicePoint_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::__ServicePointManager__SPKey._ctor
 template <>
@@ -73,39 +73,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Uri*& System::Net::__ServicePointManager__SPKey::__get_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::__ServicePointManager__SPKey::__get_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr void System::Net::__ServicePointManager__SPKey::__set_uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& System::Net::__ServicePointManager__SPKey::__get_proxy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::__ServicePointManager__SPKey::__get_proxy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
 constexpr void System::Net::__ServicePointManager__SPKey::__set_proxy(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::__ServicePointManager__SPKey::__get_use_connect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_connect;
 }
 constexpr bool const& System::Net::__ServicePointManager__SPKey::__get_use_connect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___use_connect;
 }
 constexpr void System::Net::__ServicePointManager__SPKey::__set_use_connect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___use_connect = value;
 }
 inline ::System::Net::__ServicePointManager__SPKey* System::Net::__ServicePointManager__SPKey::New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {

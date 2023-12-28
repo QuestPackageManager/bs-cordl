@@ -7,13 +7,13 @@
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__SliderMidAnchorMode_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__SliderMidAnchorMode_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SliderSpawnInfoNetSerializable.Obtain
 template <>
@@ -127,387 +127,387 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorType& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_colorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorType;
 }
 constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_colorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorType;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_colorType(::GlobalNamespace::ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorType = value;
 }
 constexpr ::GlobalNamespace::__SliderData__Type& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_sliderType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderType;
 }
 constexpr ::GlobalNamespace::__SliderData__Type const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_sliderType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderType;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_sliderType(::GlobalNamespace::__SliderData__Type value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sliderType = value;
 }
 constexpr bool& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_hasHeadNote() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasHeadNote;
 }
 constexpr bool const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_hasHeadNote() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasHeadNote;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_hasHeadNote(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasHeadNote = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTime;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTime;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headTime = value;
 }
 constexpr int32_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headLineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headLineIndex;
 }
 constexpr int32_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headLineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headLineIndex;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headLineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headLineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headLineLayer;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headLineLayer = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headBeforeJumpLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headBeforeJumpLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headBeforeJumpLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headBeforeJumpLineLayer;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headBeforeJumpLineLayer = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headControlPointLengthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headControlPointLengthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headControlPointLengthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headControlPointLengthMultiplier;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headControlPointLengthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headControlPointLengthMultiplier = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headCutDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headCutDirection;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headCutDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headCutDirection;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headCutDirection(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headCutDirection = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headCutDirectionAngleOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headCutDirectionAngleOffset;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headCutDirectionAngleOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headCutDirectionAngleOffset;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headCutDirectionAngleOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headCutDirectionAngleOffset = value;
 }
 constexpr bool& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_hasTailNote() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasTailNote;
 }
 constexpr bool const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_hasTailNote() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasTailNote;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_hasTailNote(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasTailNote = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailTime;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailTime;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailTime = value;
 }
 constexpr int32_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailLineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailLineIndex;
 }
 constexpr int32_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailLineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailLineIndex;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailLineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailLineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailLineLayer;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailLineLayer = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailBeforeJumpLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailBeforeJumpLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailBeforeJumpLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailBeforeJumpLineLayer;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailBeforeJumpLineLayer = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailControlPointLengthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailControlPointLengthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailControlPointLengthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailControlPointLengthMultiplier;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailControlPointLengthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailControlPointLengthMultiplier = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailCutDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailCutDirection;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailCutDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailCutDirection;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailCutDirection(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailCutDirection = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailCutDirectionAngleOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailCutDirectionAngleOffset;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailCutDirectionAngleOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailCutDirectionAngleOffset;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailCutDirectionAngleOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailCutDirectionAngleOffset = value;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_midAnchorMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___midAnchorMode;
 }
 constexpr ::GlobalNamespace::SliderMidAnchorMode const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_midAnchorMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___midAnchorMode;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_midAnchorMode(::GlobalNamespace::SliderMidAnchorMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___midAnchorMode = value;
 }
 constexpr int32_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_sliceCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliceCount;
 }
 constexpr int32_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_sliceCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliceCount;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_sliceCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sliceCount = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_squishAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___squishAmount;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_squishAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___squishAmount;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_squishAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___squishAmount = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headMoveStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headMoveStartPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headMoveStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headMoveStartPos;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headMoveStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headMoveStartPos = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headJumpStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headJumpStartPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headJumpStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headJumpStartPos;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headJumpStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headJumpStartPos = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headJumpEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headJumpEndPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headJumpEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headJumpEndPos;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headJumpEndPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headJumpEndPos = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headJumpGravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headJumpGravity;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_headJumpGravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headJumpGravity;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_headJumpGravity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headJumpGravity = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailMoveStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailMoveStartPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailMoveStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailMoveStartPos;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailMoveStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailMoveStartPos = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailJumpStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailJumpStartPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailJumpStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailJumpStartPos;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailJumpStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailJumpStartPos = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailJumpEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailJumpEndPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailJumpEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailJumpEndPos;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailJumpEndPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailJumpEndPos = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailJumpGravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailJumpGravity;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_tailJumpGravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tailJumpGravity;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_tailJumpGravity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tailJumpGravity = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_moveDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveDuration;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_moveDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveDuration;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_moveDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveDuration = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_jumpDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpDuration;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_jumpDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpDuration;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_jumpDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___jumpDuration = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__get_rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__set_rotation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotation = value;
 }
 inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::SliderSpawnInfoNetSerializable::Obtain() {

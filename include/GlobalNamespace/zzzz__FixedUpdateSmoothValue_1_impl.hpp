@@ -2,39 +2,39 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FixedUpdateSmoothValue_1_def.hpp"
 template <typename T> constexpr T& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__get__currentSmoothedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSmoothedValue;
 }
 template <typename T> constexpr T const& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__get__currentSmoothedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSmoothedValue;
 }
 template <typename T> constexpr void GlobalNamespace::FixedUpdateSmoothValue_1<T>::__set__currentSmoothedValue(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentSmoothedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__get__prevSmoothedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevSmoothedValue;
 }
 template <typename T> constexpr T const& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__get__prevSmoothedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevSmoothedValue;
 }
 template <typename T> constexpr void GlobalNamespace::FixedUpdateSmoothValue_1<T>::__set__prevSmoothedValue(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prevSmoothedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr float_t& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__get__smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 template <typename T> constexpr float_t const& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__get__smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 template <typename T> constexpr void GlobalNamespace::FixedUpdateSmoothValue_1<T>::__set__smooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smooth = value;
 }
 template <typename T> inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* GlobalNamespace::FixedUpdateSmoothValue_1<T>::New_ctor(float_t smooth) {

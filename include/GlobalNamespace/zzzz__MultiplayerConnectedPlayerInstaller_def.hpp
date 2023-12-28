@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerInstaller)
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
@@ -15,19 +15,19 @@ namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBombNoteController;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerGameNoteController;
-}
-namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerObstacleController;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerGameNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

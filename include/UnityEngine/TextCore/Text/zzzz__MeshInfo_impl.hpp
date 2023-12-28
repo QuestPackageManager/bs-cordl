@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexSortingOrder_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::MeshInfo._ctor
 template <>
 

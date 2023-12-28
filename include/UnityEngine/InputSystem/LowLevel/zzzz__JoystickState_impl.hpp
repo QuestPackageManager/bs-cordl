@@ -3,8 +3,8 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__JoystickState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__JoystickState_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button::__JoystickState__Button(int32_t value__) noexcept {
   this->value__ = value__;

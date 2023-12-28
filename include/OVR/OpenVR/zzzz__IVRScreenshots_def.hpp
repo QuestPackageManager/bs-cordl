@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRScreenshots)
-namespace System {
-class Object;
-}
 namespace OVR::OpenVR {
 struct EVRScreenshotError;
 }
 namespace System {
 class IAsyncResult;
 }
+namespace System::Text {
+class StringBuilder;
+}
 namespace System {
 class AsyncCallback;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System {
+class Object;
 }
 namespace OVR::OpenVR {
 struct EVRScreenshotPropertyFilenames;
@@ -32,22 +32,22 @@ namespace OVR::OpenVR {
 struct EVRScreenshotType;
 }
 namespace OVR::OpenVR {
-class __IVRScreenshots___HookScreenshot;
+class __IVRScreenshots___RequestScreenshot;
 }
 namespace OVR::OpenVR {
-class __IVRScreenshots___UpdateScreenshotProgress;
-}
-namespace OVR::OpenVR {
-class __IVRScreenshots___GetScreenshotPropertyType;
+class __IVRScreenshots___SubmitScreenshot;
 }
 namespace OVR::OpenVR {
 class __IVRScreenshots___GetScreenshotPropertyFilename;
 }
 namespace OVR::OpenVR {
-class __IVRScreenshots___RequestScreenshot;
+class __IVRScreenshots___GetScreenshotPropertyType;
 }
 namespace OVR::OpenVR {
-class __IVRScreenshots___SubmitScreenshot;
+class __IVRScreenshots___UpdateScreenshotProgress;
+}
+namespace OVR::OpenVR {
+class __IVRScreenshots___HookScreenshot;
 }
 namespace OVR::OpenVR {
 class __IVRScreenshots___TakeStereoScreenshot;

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XInputController)
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
 namespace UnityEngine::InputSystem::XInput {
-struct __XInputController__DeviceSubType;
+struct __XInputController__DeviceType;
 }
 namespace UnityEngine::InputSystem::XInput {
 struct __XInputController__Capabilities;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::XInput {
 struct __XInputController__DeviceFlags;
 }
 namespace UnityEngine::InputSystem::XInput {
-struct __XInputController__DeviceType;
+struct __XInputController__DeviceSubType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {

@@ -49,15 +49,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::InputSystem::Processors::ScaleProcessor::__get_factor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factor;
 }
 constexpr float_t const& UnityEngine::InputSystem::Processors::ScaleProcessor::__get_factor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factor;
 }
 constexpr void UnityEngine::InputSystem::Processors::ScaleProcessor::__set_factor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___factor = value;
 }
 inline float_t UnityEngine::InputSystem::Processors::ScaleProcessor::Process(float_t value, ::UnityEngine::InputSystem::InputControl* control) {

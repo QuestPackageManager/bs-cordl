@@ -2,8 +2,8 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__InvertVector3Processor_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Processors::InvertVector3Processor.Process
 template <>
 
@@ -52,39 +52,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::InputSystem::Processors::InvertVector3Processor::__get_invertX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertX;
 }
 constexpr bool const& UnityEngine::InputSystem::Processors::InvertVector3Processor::__get_invertX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertX;
 }
 constexpr void UnityEngine::InputSystem::Processors::InvertVector3Processor::__set_invertX(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invertX = value;
 }
 constexpr bool& UnityEngine::InputSystem::Processors::InvertVector3Processor::__get_invertY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertY;
 }
 constexpr bool const& UnityEngine::InputSystem::Processors::InvertVector3Processor::__get_invertY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertY;
 }
 constexpr void UnityEngine::InputSystem::Processors::InvertVector3Processor::__set_invertY(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invertY = value;
 }
 constexpr bool& UnityEngine::InputSystem::Processors::InvertVector3Processor::__get_invertZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertZ;
 }
 constexpr bool const& UnityEngine::InputSystem::Processors::InvertVector3Processor::__get_invertZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertZ;
 }
 constexpr void UnityEngine::InputSystem::Processors::InvertVector3Processor::__set_invertZ(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invertZ = value;
 }
 inline ::UnityEngine::Vector3 UnityEngine::InputSystem::Processors::InvertVector3Processor::Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control) {

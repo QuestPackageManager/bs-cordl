@@ -47,27 +47,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Resources::NeutralResourcesLanguageAttribute::__get__CultureName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CultureName_k__BackingField;
 }
 constexpr ::StringW const& System::Resources::NeutralResourcesLanguageAttribute::__get__CultureName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CultureName_k__BackingField;
 }
 constexpr void System::Resources::NeutralResourcesLanguageAttribute::__set__CultureName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CultureName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Resources::UltimateResourceFallbackLocation& System::Resources::NeutralResourcesLanguageAttribute::__get__Location_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Location_k__BackingField;
 }
 constexpr ::System::Resources::UltimateResourceFallbackLocation const& System::Resources::NeutralResourcesLanguageAttribute::__get__Location_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Location_k__BackingField;
 }
 constexpr void System::Resources::NeutralResourcesLanguageAttribute::__set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Location_k__BackingField = value;
 }
 inline ::System::Resources::NeutralResourcesLanguageAttribute* System::Resources::NeutralResourcesLanguageAttribute::New_ctor(::StringW cultureName) {

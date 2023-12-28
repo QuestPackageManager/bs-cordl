@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHaptics)
 namespace GlobalNamespace {
+class __OVRHaptics__OVRHapticsChannel;
+}
+namespace GlobalNamespace {
 class __OVRHaptics__OVRHapticsOutput;
 }
 namespace GlobalNamespace {
 class __OVRHaptics__Config;
 }
 namespace GlobalNamespace {
-class __OVRHaptics__OVRHapticsChannel;
-}
-namespace GlobalNamespace {
 class OVRHapticsClip;
 }
-namespace GlobalNamespace {
-class OVRNativeBuffer;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class OVRNativeBuffer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetEventReceiverTest)
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;

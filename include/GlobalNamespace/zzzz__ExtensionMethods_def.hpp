@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtensionMethods)
 namespace UnityEngine {
-struct LayerMask;
+struct Vector3;
 }
 namespace UnityEngine {
 class Coroutine;
@@ -16,32 +16,32 @@ class Coroutine;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 class MonoBehaviour;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct TextureFormat;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine {
 class Texture2D;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 struct Vector2;

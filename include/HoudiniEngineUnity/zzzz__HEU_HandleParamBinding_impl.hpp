@@ -46,63 +46,63 @@ constexpr HoudiniEngineUnity::HEU_HandleParamBinding::operator ::HoudiniEngineUn
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType& HoudiniEngineUnity::HEU_HandleParamBinding::__get__paramType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramType;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType const& HoudiniEngineUnity::HEU_HandleParamBinding::__get__paramType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramType;
 }
 constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__set__paramType(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____paramType = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_HandleParamBinding::__get__parmID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parmID;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_HandleParamBinding::__get__parmID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parmID;
 }
 constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__set__parmID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____parmID = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_HandleParamBinding::__get__paramName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HandleParamBinding::__get__paramName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paramName;
 }
 constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__set__paramName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____paramName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_HandleParamBinding::__get__bDisabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bDisabled;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HandleParamBinding::__get__bDisabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bDisabled;
 }
 constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__set__bDisabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bDisabled = value;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& HoudiniEngineUnity::HEU_HandleParamBinding::__get__boundChannels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundChannels;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& HoudiniEngineUnity::HEU_HandleParamBinding::__get__boundChannels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundChannels;
 }
 constexpr void HoudiniEngineUnity::HEU_HandleParamBinding::__set__boundChannels(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boundChannels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool HoudiniEngineUnity::HEU_HandleParamBinding::IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other) {

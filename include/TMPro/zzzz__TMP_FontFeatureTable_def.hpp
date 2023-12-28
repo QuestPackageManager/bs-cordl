@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_FontFeatureTable)
 namespace TMPro {
-class TMP_GlyphPairAdjustmentRecord;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace TMPro {
 class __TMP_FontFeatureTable____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace TMPro {
+class TMP_GlyphPairAdjustmentRecord;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

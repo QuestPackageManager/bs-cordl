@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseKdfBytesGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;

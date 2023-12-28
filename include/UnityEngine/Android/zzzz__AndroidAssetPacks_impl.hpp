@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPacks_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPacks_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackInfo_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackUseMobileDataRequestResult_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackState_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback._ctor
 template <>
 
@@ -46,28 +46,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>*& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>*> const&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr void UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__set_m_Callback(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__get_m_AssetPacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetPacks;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__get_m_AssetPacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetPacks;
 }
 constexpr void UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__set_m_AssetPacks(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AssetPacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback*
@@ -130,17 +130,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>*&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>*> const&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr void UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::__set_m_Callback(
     ::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback*
@@ -201,56 +201,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>*&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_Callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>*> const&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_Callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
 constexpr void UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__set_m_Callback(
     ::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_AssetPackNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetPackNames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_AssetPackNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetPackNames;
 }
 constexpr void UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__set_m_AssetPackNames(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AssetPackNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Android::AndroidAssetPackState*>*& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_States() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_States;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Android::AndroidAssetPackState*>*> const&
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_States() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_States;
 }
 constexpr void
 UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__set_m_States(::System::Collections::Generic::List_1<::UnityEngine::Android::AndroidAssetPackState*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_States)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_Size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Size;
 }
 constexpr int64_t const& UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_Size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Size;
 }
 constexpr void UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__set_m_Size(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Size = value;
 }
 inline ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback* UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::New_ctor(

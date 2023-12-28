@@ -9,8 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HtmlEncodedRawTextWriter)
-namespace System::IO {
-class TextWriter;
+namespace System::Xml {
+class TernaryTreeReadOnly;
+}
+namespace System::Xml {
+class ByteStack;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 namespace System::IO {
 class Stream;
@@ -18,14 +24,8 @@ class Stream;
 namespace System::Xml {
 struct XmlStandalone;
 }
-namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-class TernaryTreeReadOnly;
-}
-namespace System::Xml {
-class ByteStack;
+namespace System::IO {
+class TextWriter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Xml::HtmlEncodedRawTextWriter);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11449)), TypeDefinitionIndex(TypeDefinitionIndex(11438)), TypeDefinitionIndex(TypeDefinitionIndex(11437))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11437)), TypeDefinitionIndex(TypeDefinitionIndex(11449)), TypeDefinitionIndex(TypeDefinitionIndex(11438))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11416))
 // CS Name: ::System.Xml::HtmlEncodedRawTextWriter*
 class CORDL_TYPE HtmlEncodedRawTextWriter : public ::System::Xml::XmlEncodedRawTextWriter {

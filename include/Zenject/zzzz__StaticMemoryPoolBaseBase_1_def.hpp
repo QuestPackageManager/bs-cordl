@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticMemoryPoolBaseBase_1)
+namespace System {
+class IDisposable;
+}
 namespace Zenject {
 class IMemoryPool;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace System {
-class Type;
+template <typename T> class Action_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class Type;
 }
 namespace System {
 class Object;

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
-#include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
 #include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
+#include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate.Awake
 template <>
 
@@ -52,27 +52,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::VoipAudioSourceHiLevel*& Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::__get_parent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::VoipAudioSourceHiLevel*> const& Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::__get_parent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
 constexpr void Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::__set_parent(::Oculus::Platform::VoipAudioSourceHiLevel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::__get_scratchBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scratchBuffer;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::__get_scratchBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scratchBuffer;
 }
 constexpr void Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::__set_scratchBuffer(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scratchBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::Awake() {
@@ -224,51 +224,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Oculus::Platform::VoipAudioSourceHiLevel::__get_initialPlaybackDelayMS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initialPlaybackDelayMS;
 }
 constexpr int32_t const& Oculus::Platform::VoipAudioSourceHiLevel::__get_initialPlaybackDelayMS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initialPlaybackDelayMS;
 }
 constexpr void Oculus::Platform::VoipAudioSourceHiLevel::__set_initialPlaybackDelayMS(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initialPlaybackDelayMS = value;
 }
 constexpr ::UnityEngine::AudioSource*& Oculus::Platform::VoipAudioSourceHiLevel::__get_audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& Oculus::Platform::VoipAudioSourceHiLevel::__get_audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioSource;
 }
 constexpr void Oculus::Platform::VoipAudioSourceHiLevel::__set_audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& Oculus::Platform::VoipAudioSourceHiLevel::__get_peakAmplitude() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___peakAmplitude;
 }
 constexpr float_t const& Oculus::Platform::VoipAudioSourceHiLevel::__get_peakAmplitude() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___peakAmplitude;
 }
 constexpr void Oculus::Platform::VoipAudioSourceHiLevel::__set_peakAmplitude(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___peakAmplitude = value;
 }
 constexpr ::Oculus::Platform::IVoipPCMSource*& Oculus::Platform::VoipAudioSourceHiLevel::__get_pcmSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pcmSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::IVoipPCMSource*> const& Oculus::Platform::VoipAudioSourceHiLevel::__get_pcmSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pcmSource;
 }
 constexpr void Oculus::Platform::VoipAudioSourceHiLevel::__set_pcmSource(::Oculus::Platform::IVoipPCMSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pcmSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Oculus::Platform::VoipAudioSourceHiLevel::setStaticF_audioSystemPlaybackFrequency(int32_t value) {

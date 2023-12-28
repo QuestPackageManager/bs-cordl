@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarPartsModel)
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarPartsModelSO;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class SkinColorSO;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarMeshPartSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarSpritePartSO;
+class SkinColorSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class SkinColorSetSO;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace BeatSaber::BeatAvatarSDK {
 template <typename T> class AvatarPartCollection_1;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarPartsModelSO;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarSpritePartSO;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

@@ -14,32 +14,32 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAuthFeatureFlag_def.hpp"
-#include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
-#include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAuthFeatureFlag_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
+#include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceResponse_def.hpp"
-#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14.MoveNext
 template <>
@@ -552,76 +552,76 @@ constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider::operator ::Globa
   return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::INetworkConfig*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__networkConfig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__networkConfig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
 }
 constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__networkConfig(::GlobalNamespace::INetworkConfig* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GraphAPIClient*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__graphAPIClient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAPIClient;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GraphAPIClient*> const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__graphAPIClient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAPIClient;
 }
 constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__graphAPIClient(::GlobalNamespace::GraphAPIClient* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAPIClient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__xPlatformAuthFeatureFlag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPlatformAuthFeatureFlag;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__xPlatformAuthFeatureFlag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xPlatformAuthFeatureFlag;
 }
 constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xPlatformAuthFeatureFlag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__pingAverages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingAverages;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*> const&
 BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__pingAverages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingAverages;
 }
 constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__pingAverages(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pingAverages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__pingCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingCount;
 }
 constexpr int32_t const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__pingCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingCount;
 }
 constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__pingCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pingCount = value;
 }
 constexpr int64_t& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__lastPingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPingTime;
 }
 constexpr int64_t const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__lastPingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPingTime;
 }
 constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__lastPingTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPingTime = value;
 }
 inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::setStaticF__awsGameLiftRegions(::ArrayW<::StringW, ::Array<::StringW>*> value) {

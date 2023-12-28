@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SelectObservable_2)
 namespace System {
-class IDisposable;
+template <typename T> class IObservable_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template <typename TSource, typename TResult> class __SelectObservable_2__Select;
 }
 namespace System {
-template <typename T> class IObservable_1;
-}
-namespace System {
-template <typename T> class IObserver_1;
+class IDisposable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class IObserver_1;
 }
 namespace System {
 class Exception;

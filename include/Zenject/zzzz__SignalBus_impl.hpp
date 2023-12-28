@@ -1,23 +1,23 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalBus_def.hpp"
+#include "Zenject/zzzz__SignalDeclaration_def.hpp"
 #include "Zenject/zzzz__SignalBus_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__SignalSubscription_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
 #include "Zenject/zzzz__SignalSubscriptionId_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
-#include "Zenject/zzzz__SignalDeclaration_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__SignalSubscription_def.hpp"
+#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::Zenject::__SignalBus____c._ctor
 template <>
@@ -179,15 +179,15 @@ inline ::Zenject::InjectTypeInfo* Zenject::__SignalBus____c::__zenCreateInjectTy
 // Ctor Parameters []
 constexpr ::Zenject::__SignalBus____c::__SignalBus____c() {}
 template <typename TSignal> constexpr ::System::Action*& Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TSignal> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TSignal> constexpr void Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>::__set_callback(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSignal> inline ::Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>* Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>::New_ctor() {
@@ -218,15 +218,15 @@ template <typename TSignal> inline ::Zenject::InjectTypeInfo* Zenject::__SignalB
 // Ctor Parameters []
 template <typename TSignal> constexpr ::Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>::__SignalBus____c__DisplayClass25_0_1() {}
 template <typename TSignal> constexpr ::System::Action_1<TSignal>*& Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TSignal> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> const& Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TSignal> constexpr void Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>::__set_callback(::System::Action_1<TSignal>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSignal> inline ::Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>* Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>::New_ctor() {
@@ -719,89 +719,89 @@ constexpr Zenject::SignalBus::operator ::Zenject::ILateDisposable*() noexcept {
   return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::__SignalSubscription__Pool*& Zenject::SignalBus::__get__subscriptionPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subscriptionPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& Zenject::SignalBus::__get__subscriptionPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subscriptionPool;
 }
 constexpr void Zenject::SignalBus::__set__subscriptionPool(::Zenject::__SignalSubscription__Pool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subscriptionPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*& Zenject::SignalBus::__get__localDeclarationMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localDeclarationMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*> const&
 Zenject::SignalBus::__get__localDeclarationMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localDeclarationMap;
 }
 constexpr void Zenject::SignalBus::__set__localDeclarationMap(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localDeclarationMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::SignalBus*& Zenject::SignalBus::__get__parentBus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentBus;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& Zenject::SignalBus::__get__parentBus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentBus;
 }
 constexpr void Zenject::SignalBus::__set__parentBus(::Zenject::SignalBus* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentBus)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*& Zenject::SignalBus::__get__subscriptionMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subscriptionMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*> const&
 Zenject::SignalBus::__get__subscriptionMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subscriptionMap;
 }
 constexpr void Zenject::SignalBus::__set__subscriptionMap(::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subscriptionMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::__ZenjectSettings__SignalSettings*& Zenject::SignalBus::__get__settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& Zenject::SignalBus::__get__settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settings;
 }
 constexpr void Zenject::SignalBus::__set__settings(::Zenject::__ZenjectSettings__SignalSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::__SignalDeclaration__Factory*& Zenject::SignalBus::__get__signalDeclarationFactory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signalDeclarationFactory;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalDeclaration__Factory*> const& Zenject::SignalBus::__get__signalDeclarationFactory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signalDeclarationFactory;
 }
 constexpr void Zenject::SignalBus::__set__signalDeclarationFactory(::Zenject::__SignalDeclaration__Factory* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signalDeclarationFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& Zenject::SignalBus::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::SignalBus::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void Zenject::SignalBus::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SignalBus* Zenject::SignalBus::New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,

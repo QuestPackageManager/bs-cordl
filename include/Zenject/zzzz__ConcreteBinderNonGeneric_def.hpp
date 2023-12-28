@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConcreteBinderNonGeneric)
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 class Type;
 }
 namespace Zenject {
-class FromBinderNonGeneric;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class BindStatement;
+class IProvider;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-class IProvider;
+class FromBinderNonGeneric;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class ConventionSelectTypesBinder;

@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRController)
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Pose;
 }
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
 namespace GlobalNamespace {
 class VRControllerTransformOffset;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VRController);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15614))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14438)) CS Name: ::VRController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14438)) CS Name: ::VRController*
 class CORDL_TYPE VRController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

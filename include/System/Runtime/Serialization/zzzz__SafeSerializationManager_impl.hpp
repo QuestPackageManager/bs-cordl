@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SafeSerializationManager_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SafeSerializationEventArgs_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SafeSerializationManager._ctor
 template <>
 
@@ -147,66 +147,66 @@ constexpr System::Runtime::Serialization::SafeSerializationManager::operator ::S
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::IList_1<::System::Object*>*& System::Runtime::Serialization::SafeSerializationManager::__get_m_serializedStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serializedStates;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Object*>*> const&
 System::Runtime::Serialization::SafeSerializationManager::__get_m_serializedStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serializedStates;
 }
 constexpr void System::Runtime::Serialization::SafeSerializationManager::__set_m_serializedStates(::System::Collections::Generic::IList_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_serializedStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::SerializationInfo*& System::Runtime::Serialization::SafeSerializationManager::__get_m_savedSerializationInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_savedSerializationInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const&
 System::Runtime::Serialization::SafeSerializationManager::__get_m_savedSerializationInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_savedSerializationInfo;
 }
 constexpr void System::Runtime::Serialization::SafeSerializationManager::__set_m_savedSerializationInfo(::System::Runtime::Serialization::SerializationInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_savedSerializationInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Runtime::Serialization::SafeSerializationManager::__get_m_realObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_realObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::SafeSerializationManager::__get_m_realObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_realObject;
 }
 constexpr void System::Runtime::Serialization::SafeSerializationManager::__set_m_realObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_realObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::RuntimeType*& System::Runtime::Serialization::SafeSerializationManager::__get_m_realType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_realType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::RuntimeType*> const& System::Runtime::Serialization::SafeSerializationManager::__get_m_realType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_realType;
 }
 constexpr void System::Runtime::Serialization::SafeSerializationManager::__set_m_realType(::System::RuntimeType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_realType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& System::Runtime::Serialization::SafeSerializationManager::__get_SerializeObjectState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SerializeObjectState;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*> const&
 System::Runtime::Serialization::SafeSerializationManager::__get_SerializeObjectState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SerializeObjectState;
 }
 constexpr void System::Runtime::Serialization::SafeSerializationManager::__set_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SerializeObjectState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::SafeSerializationManager* System::Runtime::Serialization::SafeSerializationManager::New_ctor() {

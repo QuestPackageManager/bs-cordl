@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PgpKeyRing)
 namespace Org::BouncyCastle::Bcpg {
+class TrustPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

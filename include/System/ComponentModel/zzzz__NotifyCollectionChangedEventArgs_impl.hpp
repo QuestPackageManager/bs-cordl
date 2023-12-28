@@ -2,9 +2,9 @@
 #include "System/ComponentModel/zzzz__NotifyCollectionChangedAction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__NotifyCollectionChangedEventArgs_def.hpp"
-#include "System/ComponentModel/zzzz__NotifyCollectionChangedAction_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/ComponentModel/zzzz__NotifyCollectionChangedAction_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::NotifyCollectionChangedEventArgs.get_Action
 template <>
 
@@ -340,63 +340,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::ComponentModel::NotifyCollectionChangedAction& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__Action_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Action_k__BackingField;
 }
 constexpr ::System::ComponentModel::NotifyCollectionChangedAction const& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__Action_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Action_k__BackingField;
 }
 constexpr void System::ComponentModel::NotifyCollectionChangedEventArgs::__set__Action_k__BackingField(::System::ComponentModel::NotifyCollectionChangedAction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Action_k__BackingField = value;
 }
 constexpr ::System::Collections::IList*& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__NewItems_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewItems_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__NewItems_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewItems_k__BackingField;
 }
 constexpr void System::ComponentModel::NotifyCollectionChangedEventArgs::__set__NewItems_k__BackingField(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____NewItems_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__NewStartingIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewStartingIndex_k__BackingField;
 }
 constexpr int32_t const& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__NewStartingIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NewStartingIndex_k__BackingField;
 }
 constexpr void System::ComponentModel::NotifyCollectionChangedEventArgs::__set__NewStartingIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NewStartingIndex_k__BackingField = value;
 }
 constexpr ::System::Collections::IList*& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__OldItems_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OldItems_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__OldItems_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OldItems_k__BackingField;
 }
 constexpr void System::ComponentModel::NotifyCollectionChangedEventArgs::__set__OldItems_k__BackingField(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OldItems_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__OldStartingIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OldStartingIndex_k__BackingField;
 }
 constexpr int32_t const& System::ComponentModel::NotifyCollectionChangedEventArgs::__get__OldStartingIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OldStartingIndex_k__BackingField;
 }
 constexpr void System::ComponentModel::NotifyCollectionChangedEventArgs::__set__OldStartingIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OldStartingIndex_k__BackingField = value;
 }
 inline ::System::ComponentModel::NotifyCollectionChangedAction System::ComponentModel::NotifyCollectionChangedEventArgs::get_Action() {

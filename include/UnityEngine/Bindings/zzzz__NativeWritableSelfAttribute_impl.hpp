@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::Bindings::NativeWritableSelfAttribute::__get__WritableSelf_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WritableSelf_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeWritableSelfAttribute::__get__WritableSelf_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WritableSelf_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeWritableSelfAttribute::__set__WritableSelf_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____WritableSelf_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf(bool value) {

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cone)
+namespace UnityEngine {
+struct Bounds;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;

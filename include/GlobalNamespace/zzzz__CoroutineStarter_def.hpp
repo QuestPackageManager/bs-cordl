@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(CoroutineStarter)
-namespace GlobalNamespace {
-class ICoroutineStarter;
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace GlobalNamespace {
+class ICoroutineStarter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

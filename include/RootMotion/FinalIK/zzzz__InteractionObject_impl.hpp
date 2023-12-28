@@ -3,14 +3,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
@@ -45,81 +45,81 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr float_t const& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__InteractionEvent::__set_time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
 }
 constexpr bool& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_pause() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pause;
 }
 constexpr bool const& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_pause() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pause;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__InteractionEvent::__set_pause(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pause = value;
 }
 constexpr bool& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_pickUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pickUp;
 }
 constexpr bool const& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_pickUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pickUp;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__InteractionEvent::__set_pickUp(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pickUp = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*>&
 RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_animations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animations;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> const&
 RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_animations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animations;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__InteractionEvent::__set_animations(
     ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*>&
 RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_messages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messages;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> const&
 RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_messages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messages;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__InteractionEvent::__set_messages(
     ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___messages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Events::UnityEvent*& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_unityEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unityEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& RootMotion::FinalIK::__InteractionObject__InteractionEvent::__get_unityEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unityEvent;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__InteractionEvent::__set_unityEvent(::UnityEngine::Events::UnityEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unityEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::__InteractionObject__InteractionEvent::Activate(::UnityEngine::Transform* t) {
@@ -169,27 +169,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& RootMotion::FinalIK::__InteractionObject__Message::__get_function() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___function;
 }
 constexpr ::StringW const& RootMotion::FinalIK::__InteractionObject__Message::__get_function() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___function;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__Message::__set_function(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___function)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& RootMotion::FinalIK::__InteractionObject__Message::__get_recipient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recipient;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& RootMotion::FinalIK::__InteractionObject__Message::__get_recipient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recipient;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__Message::__set_recipient(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recipient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::__InteractionObject__Message::Send(::UnityEngine::Transform* t) {
@@ -269,75 +269,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Animator*& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_animator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_animator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animator;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__set_animator(::UnityEngine::Animator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Animation*& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_animation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_animation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animation;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__set_animation(::UnityEngine::Animation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_animationState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationState;
 }
 constexpr ::StringW const& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_animationState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationState;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__set_animationState(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___animationState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_crossfadeTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossfadeTime;
 }
 constexpr float_t const& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_crossfadeTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossfadeTime;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__set_crossfadeTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crossfadeTime = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_layer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layer;
 }
 constexpr int32_t const& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_layer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layer;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__set_layer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layer = value;
 }
 constexpr bool& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_resetNormalizedTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetNormalizedTime;
 }
 constexpr bool const& RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__get_resetNormalizedTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetNormalizedTime;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::__set_resetNormalizedTime(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetNormalizedTime = value;
 }
 inline void RootMotion::FinalIK::__InteractionObject__AnimatorEvent::Activate(bool pickUp) {
@@ -416,27 +416,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& RootMotion::FinalIK::__InteractionObject__WeightCurve::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& RootMotion::FinalIK::__InteractionObject__WeightCurve::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__WeightCurve::__set_type(::GlobalNamespace::__InteractionObject__WeightCurve__Type value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::__InteractionObject__WeightCurve::__get_curve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::__InteractionObject__WeightCurve::__get_curve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__WeightCurve::__set_curve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___curve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t RootMotion::FinalIK::__InteractionObject__WeightCurve::GetValue(float_t timer) {
@@ -486,39 +486,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& RootMotion::FinalIK::__InteractionObject__Multiplier::__get_curve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& RootMotion::FinalIK::__InteractionObject__Multiplier::__get_curve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__Multiplier::__set_curve(::GlobalNamespace::__InteractionObject__WeightCurve__Type value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curve = value;
 }
 constexpr float_t& RootMotion::FinalIK::__InteractionObject__Multiplier::__get_multiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
 constexpr float_t const& RootMotion::FinalIK::__InteractionObject__Multiplier::__get_multiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__Multiplier::__set_multiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multiplier = value;
 }
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& RootMotion::FinalIK::__InteractionObject__Multiplier::__get_result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& RootMotion::FinalIK::__InteractionObject__Multiplier::__get_result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 constexpr void RootMotion::FinalIK::__InteractionObject__Multiplier::__set_result(::GlobalNamespace::__InteractionObject__WeightCurve__Type value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___result = value;
 }
 inline float_t RootMotion::FinalIK::__InteractionObject__Multiplier::GetValue(::RootMotion::FinalIK::__InteractionObject__WeightCurve* weightCurve, float_t timer) {
@@ -943,121 +943,121 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::InteractionObject::__get_otherLookAtTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherLookAtTarget;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::InteractionObject::__get_otherLookAtTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherLookAtTarget;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set_otherLookAtTarget(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___otherLookAtTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::InteractionObject::__get_otherTargetsRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherTargetsRoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::InteractionObject::__get_otherTargetsRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherTargetsRoot;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set_otherTargetsRoot(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___otherTargetsRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::InteractionObject::__get_positionOffsetSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionOffsetSpace;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::InteractionObject::__get_positionOffsetSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionOffsetSpace;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set_positionOffsetSpace(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positionOffsetSpace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*>&
 RootMotion::FinalIK::InteractionObject::__get_weightCurves() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weightCurves;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> const&
 RootMotion::FinalIK::InteractionObject::__get_weightCurves() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weightCurves;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set_weightCurves(
     ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___weightCurves)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*>&
 RootMotion::FinalIK::InteractionObject::__get_multipliers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multipliers;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> const&
 RootMotion::FinalIK::InteractionObject::__get_multipliers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multipliers;
 }
 constexpr void
 RootMotion::FinalIK::InteractionObject::__set_multipliers(::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multipliers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*>&
 RootMotion::FinalIK::InteractionObject::__get_events() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___events;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> const&
 RootMotion::FinalIK::InteractionObject::__get_events() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___events;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set_events(
     ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___events)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::InteractionObject::__get__length_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionObject::__get__length_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set__length_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length_k__BackingField = value;
 }
 constexpr ::RootMotion::FinalIK::InteractionSystem*& RootMotion::FinalIK::InteractionObject::__get__lastUsedInteractionSystem_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedInteractionSystem_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::InteractionSystem*> const& RootMotion::FinalIK::InteractionObject::__get__lastUsedInteractionSystem_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedInteractionSystem_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set__lastUsedInteractionSystem_k__BackingField(::RootMotion::FinalIK::InteractionSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastUsedInteractionSystem_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*>& RootMotion::FinalIK::InteractionObject::__get_targets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targets;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> const& RootMotion::FinalIK::InteractionObject::__get_targets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targets;
 }
 constexpr void RootMotion::FinalIK::InteractionObject::__set_targets(::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::InteractionObject::OpenUserManual() {

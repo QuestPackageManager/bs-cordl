@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MemberHolder)
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::MemberHolder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3205))
 // CS Name: ::System.Runtime.Serialization::MemberHolder*
 class CORDL_TYPE MemberHolder : public ::System::Object {

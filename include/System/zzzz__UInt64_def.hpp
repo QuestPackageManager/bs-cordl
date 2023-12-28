@@ -9,49 +9,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UInt64)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IComparable;
 }
 namespace System {
 class Type;
 }
 namespace System {
-class ISpanFormattable;
+class IFormatProvider;
 }
 namespace System {
-struct Decimal;
+class Object;
 }
 namespace System {
-template <typename T> struct Span_1;
+class IConvertible;
+}
+namespace System::Globalization {
+struct NumberStyles;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
 struct DateTime;
 }
 namespace System {
-class IConvertible;
+class ISpanFormattable;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 // Forward declare root types
 namespace System {

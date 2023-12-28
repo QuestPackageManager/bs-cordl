@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PosesRecorder)
-namespace GlobalNamespace {
-class __PosesRecorder____c;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
-}
-namespace GlobalNamespace {
-class PoseObject;
+class __PosesRecorder____c;
 }
 namespace GlobalNamespace {
 class __PosesRecordingData__ExternalCameraCalibration;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class PosesRecordingData;
+}
+namespace GlobalNamespace {
+class PoseObject;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

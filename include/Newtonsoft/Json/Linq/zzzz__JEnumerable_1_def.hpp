@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JEnumerable_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T> class IJEnumerable_1;
@@ -21,10 +15,16 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CmsProcessableInputStream)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
 }
 namespace System {
 class Object;
@@ -13,8 +13,8 @@ class Object;
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::ConstraintPosition::__get_position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::ConstraintPosition::__get_position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr void RootMotion::FinalIK::ConstraintPosition::__set_position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___position = value;
 }
 inline void RootMotion::FinalIK::ConstraintPosition::UpdateConstraint() {

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomAttributeNamedArgument)
 namespace System::Reflection {
-class MemberInfo;
+struct CustomAttributeTypedArgument;
 }
 namespace System {
 class Type;
 }
+namespace System::Reflection {
+class MemberInfo;
+}
 namespace System {
 class Object;
-}
-namespace System::Reflection {
-struct CustomAttributeTypedArgument;
 }
 // Forward declare root types
 namespace System::Reflection {

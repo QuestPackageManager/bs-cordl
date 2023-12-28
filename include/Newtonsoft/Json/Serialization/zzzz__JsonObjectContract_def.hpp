@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__Required_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 CORDL_MODULE_EXPORT(JsonObjectContract)
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class ConstructorInfo;
+namespace Newtonsoft::Json {
+struct MemberSerialization;
 }
 namespace Newtonsoft::Json {
 struct Required;
@@ -19,23 +16,26 @@ struct Required;
 namespace Newtonsoft::Json::Serialization {
 class JsonPropertyCollection;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
+namespace System::Reflection {
+class ConstructorInfo;
 }
 namespace Newtonsoft::Json::Serialization {
 class ExtensionDataSetter;
 }
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace Newtonsoft::Json::Serialization {
 class ExtensionDataGetter;
 }
-namespace Newtonsoft::Json {
-struct MemberSerialization;
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -47,9 +47,10 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonObjectContract);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(11821)), TypeDefinitionIndex(TypeDefinitionIndex(11907)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4756 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11948)) CS Name: ::Newtonsoft.Json.Serialization::JsonObjectContract*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11821)), TypeDefinitionIndex(TypeDefinitionIndex(11811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11907))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11948))
+// CS Name: ::Newtonsoft.Json.Serialization::JsonObjectContract*
 class CORDL_TYPE JsonObjectContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations

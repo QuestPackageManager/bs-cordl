@@ -12,20 +12,20 @@ class DiContainer;
 namespace Zenject {
 template <typename TParam1, typename TParam2> class __SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
-class GameObjectContext;
-}
-namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace Zenject {
+class GameObjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;

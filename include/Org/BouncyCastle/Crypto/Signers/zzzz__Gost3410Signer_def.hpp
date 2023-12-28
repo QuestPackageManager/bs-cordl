@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3410Signer)
 namespace Org::BouncyCastle::Crypto {
-class IDsa;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410KeyParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDsaExt;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDsa;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410KeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

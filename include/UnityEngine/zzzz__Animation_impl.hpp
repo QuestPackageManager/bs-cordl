@@ -2,17 +2,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Animation_def.hpp"
-#include "UnityEngine/zzzz__QueueMode_def.hpp"
+#include "UnityEngine/zzzz__AnimationState_def.hpp"
 #include "UnityEngine/zzzz__AnimationPlayMode_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/zzzz__WrapMode_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__AnimationState_def.hpp"
-#include "UnityEngine/zzzz__AnimationCullingType_def.hpp"
 #include "UnityEngine/zzzz__PlayMode_def.hpp"
+#include "UnityEngine/zzzz__AnimationCullingType_def.hpp"
+#include "UnityEngine/zzzz__QueueMode_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__Animation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::__Animation__Enumerator._ctor
 template <>
@@ -74,27 +74,27 @@ constexpr UnityEngine::__Animation__Enumerator::operator ::System::Collections::
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Animation*& UnityEngine::__Animation__Enumerator::__get_m_Outer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Outer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& UnityEngine::__Animation__Enumerator::__get_m_Outer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Outer;
 }
 constexpr void UnityEngine::__Animation__Enumerator::__set_m_Outer(::UnityEngine::Animation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Outer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::__Animation__Enumerator::__get_m_CurrentIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentIndex;
 }
 constexpr int32_t const& UnityEngine::__Animation__Enumerator::__get_m_CurrentIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentIndex;
 }
 constexpr void UnityEngine::__Animation__Enumerator::__set_m_CurrentIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentIndex = value;
 }
 inline ::UnityEngine::__Animation__Enumerator* UnityEngine::__Animation__Enumerator::New_ctor(::UnityEngine::Animation* outer) {

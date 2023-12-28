@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(HoverHint)
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace HMUI {
-class HoverHintController;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace HMUI {
+class HoverHintController;
+}
+namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;

@@ -14,20 +14,20 @@ CORDL_MODULE_EXPORT(HEU_InputInterfaceTerrain)
 namespace UnityEngine {
 class TerrainData;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct HAPI_VolumeInfo;
 }
 namespace UnityEngine {
 class TerrainLayer;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace HoudiniEngineUnity {
 class __HEU_InputInterfaceTerrain__HEU_InputDataTerrain;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 class Terrain;

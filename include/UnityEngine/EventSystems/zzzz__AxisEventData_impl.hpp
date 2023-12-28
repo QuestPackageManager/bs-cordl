@@ -80,27 +80,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::AxisEventData::__get__moveVector_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveVector_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::AxisEventData::__get__moveVector_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveVector_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::AxisEventData::__set__moveVector_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveVector_k__BackingField = value;
 }
 constexpr ::UnityEngine::EventSystems::MoveDirection& UnityEngine::EventSystems::AxisEventData::__get__moveDir_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDir_k__BackingField;
 }
 constexpr ::UnityEngine::EventSystems::MoveDirection const& UnityEngine::EventSystems::AxisEventData::__get__moveDir_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveDir_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::AxisEventData::__set__moveDir_k__BackingField(::UnityEngine::EventSystems::MoveDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveDir_k__BackingField = value;
 }
 inline ::UnityEngine::Vector2 UnityEngine::EventSystems::AxisEventData::get_moveVector() {

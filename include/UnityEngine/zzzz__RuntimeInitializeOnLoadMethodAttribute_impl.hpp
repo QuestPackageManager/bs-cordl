@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RuntimeInitializeLoadType& UnityEngine::RuntimeInitializeOnLoadMethodAttribute::__get_m_LoadType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LoadType;
 }
 constexpr ::UnityEngine::RuntimeInitializeLoadType const& UnityEngine::RuntimeInitializeOnLoadMethodAttribute::__get_m_LoadType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LoadType;
 }
 constexpr void UnityEngine::RuntimeInitializeOnLoadMethodAttribute::__set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LoadType = value;
 }
 inline ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute* UnityEngine::RuntimeInitializeOnLoadMethodAttribute::New_ctor() {

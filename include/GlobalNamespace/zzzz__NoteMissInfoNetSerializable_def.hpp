@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteMissInfoNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 struct ColorType;
 }
@@ -23,6 +20,9 @@ class NetDataWriter;
 namespace GlobalNamespace {
 class NoteData;
 }
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteMissInfoNetSerializable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15027))
 // CS Name: ::NoteMissInfoNetSerializable*
 class CORDL_TYPE NoteMissInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {

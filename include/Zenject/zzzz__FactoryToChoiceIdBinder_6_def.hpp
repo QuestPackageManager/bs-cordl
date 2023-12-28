@@ -11,13 +11,13 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryArgumentsToChoiceBinder_6;
 }
 namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace System {
 class Object;
-}
-namespace Zenject {
-class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {

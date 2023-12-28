@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebRequestPrefixElement_def.hpp"
-#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 //  Writing Method size for method: ::System::Net::WebRequestPrefixElement.get_Creator
 template <>
 
@@ -49,39 +49,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::WebRequestPrefixElement::__get_Prefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Prefix;
 }
 constexpr ::StringW const& System::Net::WebRequestPrefixElement::__get_Prefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Prefix;
 }
 constexpr void System::Net::WebRequestPrefixElement::__set_Prefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IWebRequestCreate*& System::Net::WebRequestPrefixElement::__get_creator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creator;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebRequestCreate*> const& System::Net::WebRequestPrefixElement::__get_creator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creator;
 }
 constexpr void System::Net::WebRequestPrefixElement::__set_creator(::System::Net::IWebRequestCreate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& System::Net::WebRequestPrefixElement::__get_creatorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creatorType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Net::WebRequestPrefixElement::__get_creatorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___creatorType;
 }
 constexpr void System::Net::WebRequestPrefixElement::__set_creatorType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creatorType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::IWebRequestCreate* System::Net::WebRequestPrefixElement::get_Creator() {

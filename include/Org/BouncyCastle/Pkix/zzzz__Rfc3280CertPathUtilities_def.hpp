@@ -7,53 +7,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rfc3280CertPathUtilities)
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Pkix {
-class CertStatus;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class DistributionPoint;
-}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixPolicyNode;
+}
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Pkix {
-class ReasonsMask;
+class PkixParameters;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Crl;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixCrlUtilities;
 }
 namespace Org::BouncyCastle::X509 {
-class X509Crl;
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPoint;
+}
+namespace Org::BouncyCastle::Pkix {
+class ReasonsMask;
+}
+namespace Org::BouncyCastle::Pkix {
+class CertStatus;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixNameConstraintValidator;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixPolicyNode;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

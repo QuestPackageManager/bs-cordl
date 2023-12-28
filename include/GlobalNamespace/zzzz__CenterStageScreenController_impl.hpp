@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__CountdownController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterScreenLayoutAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__CountdownController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CenterStageScreenController.get_countdownShown
 template <>
 
@@ -198,137 +198,137 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MenuLightsPresetSO*& GlobalNamespace::CenterStageScreenController::__get__defaultMenuLightsPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMenuLightsPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& GlobalNamespace::CenterStageScreenController::__get__defaultMenuLightsPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMenuLightsPreset;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__defaultMenuLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultMenuLightsPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuLightsPresetSO*& GlobalNamespace::CenterStageScreenController::__get__lobbyLightsPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyLightsPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& GlobalNamespace::CenterStageScreenController::__get__lobbyLightsPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyLightsPreset;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__lobbyLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyLightsPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuLightsPresetSO*& GlobalNamespace::CenterStageScreenController::__get__countdownMenuLightsPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownMenuLightsPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& GlobalNamespace::CenterStageScreenController::__get__countdownMenuLightsPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownMenuLightsPreset;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__countdownMenuLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____countdownMenuLightsPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapSelectionView*& GlobalNamespace::CenterStageScreenController::__get__beatmapSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapSelectionView*> const& GlobalNamespace::CenterStageScreenController::__get__beatmapSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ModifiersSelectionView*& GlobalNamespace::CenterStageScreenController::__get__modifiersSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ModifiersSelectionView*> const& GlobalNamespace::CenterStageScreenController::__get__modifiersSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::CountdownController*& GlobalNamespace::CenterStageScreenController::__get__countdownController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CountdownController*> const& GlobalNamespace::CenterStageScreenController::__get__countdownController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownController;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__countdownController(::GlobalNamespace::CountdownController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____countdownController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*& GlobalNamespace::CenterStageScreenController::__get__multiplayerLobbyCenterScreenLayoutAnimator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLobbyCenterScreenLayoutAnimator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*> const&
 GlobalNamespace::CenterStageScreenController::__get__multiplayerLobbyCenterScreenLayoutAnimator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLobbyCenterScreenLayoutAnimator;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__multiplayerLobbyCenterScreenLayoutAnimator(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerLobbyCenterScreenLayoutAnimator)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ILobbyGameStateController*& GlobalNamespace::CenterStageScreenController::__get__lobbyGameStateController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& GlobalNamespace::CenterStageScreenController::__get__lobbyGameStateController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateController;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyGameStateController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuLightsManager*& GlobalNamespace::CenterStageScreenController::__get__menuLightsManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuLightsManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsManager*> const& GlobalNamespace::CenterStageScreenController::__get__menuLightsManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuLightsManager;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__menuLightsManager(::GlobalNamespace::MenuLightsManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuLightsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::CenterStageScreenController::__get__countdownShown_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownShown_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::CenterStageScreenController::__get__countdownShown_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownShown_k__BackingField;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__countdownShown_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____countdownShown_k__BackingField = value;
 }
 constexpr int64_t& GlobalNamespace::CenterStageScreenController::__get__countdownEndTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownEndTime;
 }
 constexpr int64_t const& GlobalNamespace::CenterStageScreenController::__get__countdownEndTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____countdownEndTime;
 }
 constexpr void GlobalNamespace::CenterStageScreenController::__set__countdownEndTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____countdownEndTime = value;
 }
 inline bool GlobalNamespace::CenterStageScreenController::get_countdownShown() {

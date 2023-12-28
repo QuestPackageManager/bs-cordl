@@ -7,7 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FieldInfo)
 namespace System::Reflection {
-struct MemberTypes;
+struct FieldAttributes;
+}
+namespace System::Reflection {
+class CustomAttributeData;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System {
+struct RuntimeFieldHandle;
+}
+namespace System::Reflection {
+struct BindingFlags;
 }
 namespace System {
 class Type;
@@ -18,29 +30,17 @@ class CultureInfo;
 namespace System {
 struct TypedReference;
 }
-namespace System::Runtime::InteropServices {
-class MarshalAsAttribute;
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-struct FieldAttributes;
-}
-namespace System {
-struct RuntimeFieldHandle;
-}
 namespace System {
 struct RuntimeTypeHandle;
 }
-namespace System::Reflection {
-class CustomAttributeData;
-}
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-class Binder;
+namespace System::Runtime::InteropServices {
+class MarshalAsAttribute;
 }
 // Forward declare root types
 namespace System::Reflection {

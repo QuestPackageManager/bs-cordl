@@ -56,51 +56,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Renderer*& RootMotion::FinalIK::VRIKLODController::__get_LODRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LODRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& RootMotion::FinalIK::VRIKLODController::__get_LODRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LODRenderer;
 }
 constexpr void RootMotion::FinalIK::VRIKLODController::__set_LODRenderer(::UnityEngine::Renderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LODRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::VRIKLODController::__get_LODDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LODDistance;
 }
 constexpr float_t const& RootMotion::FinalIK::VRIKLODController::__get_LODDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LODDistance;
 }
 constexpr void RootMotion::FinalIK::VRIKLODController::__set_LODDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LODDistance = value;
 }
 constexpr bool& RootMotion::FinalIK::VRIKLODController::__get_allowCulled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowCulled;
 }
 constexpr bool const& RootMotion::FinalIK::VRIKLODController::__get_allowCulled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowCulled;
 }
 constexpr void RootMotion::FinalIK::VRIKLODController::__set_allowCulled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowCulled = value;
 }
 constexpr ::RootMotion::FinalIK::VRIK*& RootMotion::FinalIK::VRIKLODController::__get_ik() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::VRIK*> const& RootMotion::FinalIK::VRIKLODController::__get_ik() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ik;
 }
 constexpr void RootMotion::FinalIK::VRIKLODController::__set_ik(::RootMotion::FinalIK::VRIK* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ik)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::VRIKLODController::Start() {

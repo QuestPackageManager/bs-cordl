@@ -8,16 +8,16 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename TParam1, typename TValue> class IMemoryPool_2;
 }
 namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
+class IMemoryPool;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,7 +31,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 180 }), TypeDefinitionIndex(TypeDefinitionIndex(11085))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 180 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11087))
 // CS Name: ::Zenject::StaticMemoryPool`2<TParam1,TValue>*
 class CORDL_TYPE StaticMemoryPool_2 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {

@@ -18,39 +18,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__unityMaterialPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__unityMaterialPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityMaterialPath;
 }
 constexpr void HoudiniEngineUnity::HEU_UnityMaterialInfo::__set__unityMaterialPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unityMaterialPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__substancePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substancePath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__substancePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substancePath;
 }
 constexpr void HoudiniEngineUnity::HEU_UnityMaterialInfo::__set__substancePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____substancePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__substanceIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__substanceIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____substanceIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_UnityMaterialInfo::__set__substanceIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____substanceIndex = value;
 }
 inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* HoudiniEngineUnity::HEU_UnityMaterialInfo::New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex) {

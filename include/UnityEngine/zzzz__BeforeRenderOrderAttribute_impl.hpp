@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::BeforeRenderOrderAttribute::__get__order_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____order_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::BeforeRenderOrderAttribute::__get__order_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____order_k__BackingField;
 }
 constexpr void UnityEngine::BeforeRenderOrderAttribute::__set__order_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____order_k__BackingField = value;
 }
 inline int32_t UnityEngine::BeforeRenderOrderAttribute::get_order() {

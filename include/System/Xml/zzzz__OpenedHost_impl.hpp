@@ -15,15 +15,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Xml::OpenedHost::__get_nonCachedConnectionsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nonCachedConnectionsCount;
 }
 constexpr int32_t const& System::Xml::OpenedHost::__get_nonCachedConnectionsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nonCachedConnectionsCount;
 }
 constexpr void System::Xml::OpenedHost::__set_nonCachedConnectionsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nonCachedConnectionsCount = value;
 }
 inline ::System::Xml::OpenedHost* System::Xml::OpenedHost::New_ctor() {

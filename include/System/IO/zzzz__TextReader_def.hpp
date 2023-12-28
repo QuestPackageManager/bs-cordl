@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextReader)
 namespace System::IO {
+class __TextReader__SyncTextReader;
+}
+namespace System::IO {
 class __TextReader__NullTextReader;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::IO {
-class __TextReader__SyncTextReader;
+class __TextReader____c;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::IO {
-class __TextReader____c;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::IO {

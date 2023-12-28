@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSource)
 namespace UnityEngine {
-struct FFTWindow;
+class AudioClip;
 }
 namespace UnityEngine {
-class AudioClip;
+struct FFTWindow;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFormatter)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
+}
+namespace System {
+class Object;
 }
 namespace System::IO {
 class Stream;

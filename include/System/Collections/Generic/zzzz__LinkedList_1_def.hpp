@@ -10,47 +10,47 @@ CORDL_MODULE_EXPORT(LinkedList_1)
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Collections::Generic {
-template <typename T> struct __LinkedList_1__Enumerator;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class LinkedListNode_1;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> struct __LinkedList_1__Enumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;

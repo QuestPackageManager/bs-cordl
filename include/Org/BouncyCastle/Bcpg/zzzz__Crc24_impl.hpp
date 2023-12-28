@@ -68,15 +68,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Bcpg::Crc24::__get_crc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crc;
 }
 constexpr int32_t const& Org::BouncyCastle::Bcpg::Crc24::__get_crc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crc;
 }
 constexpr void Org::BouncyCastle::Bcpg::Crc24::__set_crc(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crc = value;
 }
 inline ::Org::BouncyCastle::Bcpg::Crc24* Org::BouncyCastle::Bcpg::Crc24::New_ctor() {

@@ -13,10 +13,10 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct ByReference_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> struct ByReference_1;
 }
 // Forward declare root types
 namespace System {

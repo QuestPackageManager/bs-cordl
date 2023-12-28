@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncCache_2)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> class __AsyncCache_2____c__DisplayClass4_0;
+}
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-template <typename T> class Lazy_1;
+template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+namespace System {
+template <typename T> class Lazy_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -32,39 +32,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__get_useCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCount;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__get_useCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCount;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageRenderInfo::__set_useCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useCount = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__get_firstGradientRemap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstGradientRemap;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__get_firstGradientRemap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstGradientRemap;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageRenderInfo::__set_firstGradientRemap(::UnityEngine::UIElements::UIR::GradientRemap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___firstGradientRemap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::Alloc& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__get_gradientSettingsAlloc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gradientSettingsAlloc;
 }
 constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__get_gradientSettingsAlloc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gradientSettingsAlloc;
 }
 constexpr void UnityEngine::UIElements::UIR::VectorImageRenderInfo::__set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gradientSettingsAlloc = value;
 }
 inline void UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset() {

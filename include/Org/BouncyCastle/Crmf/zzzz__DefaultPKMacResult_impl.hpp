@@ -53,15 +53,15 @@ constexpr Org::BouncyCastle::Crmf::DefaultPKMacResult::operator ::Org::BouncyCas
   return static_cast<::Org::BouncyCastle::Crypto::IBlockResult*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::IMac*& Org::BouncyCastle::Crmf::DefaultPKMacResult::__get_mac() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& Org::BouncyCastle::Crmf::DefaultPKMacResult::__get_mac() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
 constexpr void Org::BouncyCastle::Crmf::DefaultPKMacResult::__set_mac(::Org::BouncyCastle::Crypto::IMac* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mac)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* Org::BouncyCastle::Crmf::DefaultPKMacResult::New_ctor(::Org::BouncyCastle::Crypto::IMac* mac) {

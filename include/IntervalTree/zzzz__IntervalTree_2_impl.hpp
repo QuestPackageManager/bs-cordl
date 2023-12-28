@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TKey, typename TValue> inline void IntervalTree::__IntervalTree_2____c<TKey, TValue>::setStaticF___9(::IntervalTree::__IntervalTree_2____c<TKey, TValue>* value) {
   ::cordl_internals::setStaticField<::IntervalTree::__IntervalTree_2____c<TKey, TValue>*, "<>9",
@@ -48,15 +48,15 @@ template <typename TKey, typename TValue> inline TValue IntervalTree::__Interval
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::IntervalTree::__IntervalTree_2____c<TKey, TValue>::__IntervalTree_2____c() {}
 template <typename TKey, typename TValue> constexpr TValue& IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TKey, typename TValue> constexpr TValue const& IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>::__set_value(TValue value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
@@ -78,17 +78,17 @@ template <typename TKey, typename TValue> inline bool IntervalTree::__IntervalTr
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>::__IntervalTree_2____c__DisplayClass19_0() {}
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::__get_items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::__get_items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 template <typename TKey, typename TValue>
 constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::__set_items(::System::Collections::Generic::IEnumerable_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
@@ -110,28 +110,28 @@ template <typename TKey, typename TValue> inline bool IntervalTree::__IntervalTr
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::__IntervalTree_2____c__DisplayClass20_0() {}
 template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>*& IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTree_2<TKey, TValue>*> const& IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr TKey& IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TValue> constexpr TKey const& IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__set_key(TKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
@@ -154,28 +154,28 @@ inline bool IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>:
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__IntervalTree_2____c__DisplayClass23_0() {}
 template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>*& IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTree_2<TKey, TValue>*> const& IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr TKey& IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TValue> constexpr TKey const& IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__set_key(TKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
@@ -211,56 +211,56 @@ template <typename TKey, typename TValue> constexpr IntervalTree::IntervalTree_2
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& IntervalTree::IntervalTree_2<TKey, TValue>::__get_root() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& IntervalTree::IntervalTree_2<TKey, TValue>::__get_root() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__set_root(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*& IntervalTree::IntervalTree_2<TKey, TValue>::__get_items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const&
 IntervalTree::IntervalTree_2<TKey, TValue>::__get_items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 template <typename TKey, typename TValue>
 constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__set_items(::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::IComparer_1<TKey>*& IntervalTree::IntervalTree_2<TKey, TValue>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& IntervalTree::IntervalTree_2<TKey, TValue>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr bool& IntervalTree::IntervalTree_2<TKey, TValue>::__get_isInSync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInSync;
 }
 template <typename TKey, typename TValue> constexpr bool const& IntervalTree::IntervalTree_2<TKey, TValue>::__get_isInSync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInSync;
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__set_isInSync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isInSync = value;
 }
 template <typename TKey, typename TValue> inline ::System::Collections::IEnumerator* IntervalTree::IntervalTree_2<TKey, TValue>::System_Collections_IEnumerable_GetEnumerator() {

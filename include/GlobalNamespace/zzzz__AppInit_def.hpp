@@ -12,22 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppInit)
 namespace GlobalNamespace {
-class __AppInit____c;
+struct __AppInit___InitializeAsync_d__13;
+}
+namespace GlobalNamespace {
+class __AppInit____c__DisplayClass21_0;
+}
+namespace GlobalNamespace {
+class AppInitSetupData;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 struct __AppInit__AppStartType;
 }
 namespace GlobalNamespace {
-struct __AppInit___InitializeAsync_d__13;
-}
-namespace GlobalNamespace {
 class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
-}
-namespace GlobalNamespace {
-struct __AppInit___StartGameAsync_d__11;
-}
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
@@ -35,20 +35,23 @@ class GameScenesManager;
 namespace GlobalNamespace {
 struct __AppInit___Awake_d__10;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace BGLib::AppFlow::Initialization {
 class AsyncSceneContext;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+class __AppInit____c;
 }
 namespace GlobalNamespace {
-class AppInitSetupData;
+struct __AppInit___StartGameAsync_d__11;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
@@ -56,8 +59,8 @@ template <typename TResult> class TaskCompletionSource_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -65,17 +68,14 @@ template <typename T> class IEnumerator_1;
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -220,7 +220,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit___Awa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15387))
 // CS Name: ::AppInit::<StartGameAsync>d__11
 struct CORDL_TYPE __AppInit___StartGameAsync_d__11 {
@@ -322,7 +322,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(15385))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(15385)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15389))
 // CS Name: ::AppInit::<InitializeAsync>d__13
 struct CORDL_TYPE __AppInit___InitializeAsync_d__13 {

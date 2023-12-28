@@ -8,49 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SinglePlayerLevelSelectionFlowCoordinator)
 namespace GlobalNamespace {
-class MenuTransitionsHelper;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class SafeAreaFocusedSimpleDialogPromptViewController;
+class IDifficultyBeatmap;
 }
 namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class SafeAreaFocusedSimpleDialogPromptViewController;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class GameplaySetupViewController;
 }
 namespace GlobalNamespace {
 class __SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
@@ -59,13 +47,25 @@ namespace GlobalNamespace {
 class LeaderboardViewController;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class PracticeViewController;
 }
-namespace HMUI {
-struct __ViewController__AnimationType;
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {

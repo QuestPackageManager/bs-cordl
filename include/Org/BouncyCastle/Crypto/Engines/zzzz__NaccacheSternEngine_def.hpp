@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(NaccacheSternEngine)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class NaccacheSternKeyParameters;
 }
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

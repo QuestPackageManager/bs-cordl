@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ApplicationLifecycle)
+namespace Oculus::Platform::Models {
+class LaunchDetails;
+}
 namespace Oculus::Platform {
 struct LaunchResult;
 }
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class LaunchDetails;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ParticleSystemContinuousEventEffect)
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;

@@ -108,40 +108,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Bindings::NativeTypeAttribute::__get__Header_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Header_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Bindings::NativeTypeAttribute::__get__Header_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Header_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeTypeAttribute::__set__Header_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Header_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::Bindings::NativeTypeAttribute::__get__IntermediateScriptingStructName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IntermediateScriptingStructName_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Bindings::NativeTypeAttribute::__get__IntermediateScriptingStructName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IntermediateScriptingStructName_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeTypeAttribute::__set__IntermediateScriptingStructName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____IntermediateScriptingStructName_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Bindings::CodegenOptions& UnityEngine::Bindings::NativeTypeAttribute::__get__CodegenOptions_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CodegenOptions_k__BackingField;
 }
 constexpr ::UnityEngine::Bindings::CodegenOptions const& UnityEngine::Bindings::NativeTypeAttribute::__get__CodegenOptions_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CodegenOptions_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeTypeAttribute::__set__CodegenOptions_k__BackingField(::UnityEngine::Bindings::CodegenOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CodegenOptions_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::NativeTypeAttribute::set_Header(::StringW value) {

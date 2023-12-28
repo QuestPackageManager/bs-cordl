@@ -2,15 +2,15 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Host_def.hpp"
+#include "ENet/zzzz__ChecksumCallback_def.hpp"
+#include "ENet/zzzz__SslConfiguration_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "ENet/zzzz__Address_def.hpp"
 #include "ENet/zzzz__Event_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "ENet/zzzz__InterceptCallback_def.hpp"
-#include "ENet/zzzz__SslConfiguration_def.hpp"
-#include "ENet/zzzz__Packet_def.hpp"
-#include "ENet/zzzz__Address_def.hpp"
-#include "ENet/zzzz__ChecksumCallback_def.hpp"
 #include "ENet/zzzz__Peer_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "ENet/zzzz__Packet_def.hpp"
 //  Writing Method size for method: ::ENet::Host.get_NativeData
 template <>
 
@@ -463,15 +463,15 @@ constexpr ENet::Host::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& ENet::Host::__get_nativeHost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeHost;
 }
 constexpr void* const& ENet::Host::__get_nativeHost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeHost;
 }
 constexpr void ENet::Host::__set_nativeHost(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nativeHost = value;
 }
 inline void* ENet::Host::get_NativeData() {

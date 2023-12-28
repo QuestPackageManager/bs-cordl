@@ -3,15 +3,15 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__StringHelpers_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__StringHelpers_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8._ctor
 template <>
 
@@ -157,87 +157,87 @@ constexpr UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::Substring& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::Substring const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set___2__current(::UnityEngine::InputSystem::Utilities::Substring value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get_str() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___str;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get_str() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___str;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set_str(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___str)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___3__str() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__str;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get___3__str() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__str;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set___3__str(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__str)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get__length_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length_5__2;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get__length_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length_5__2;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set__length_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length_5__2 = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get__endPos_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos_5__3;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__get__endPos_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos_5__3;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::__set__endPos_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endPos_5__3 = value;
 }
 inline ::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8* UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8::New_ctor(int32_t __1__state) {
@@ -437,111 +437,111 @@ constexpr UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::ope
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set___2__current(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get_str() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___str;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get_str() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___str;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set_str(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___str)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___3__str() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__str;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___3__str() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__str;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set___3__str(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__str)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<char16_t, bool>*& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set_predicate(::System::Func_2<char16_t, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<char16_t, bool>*& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___3__predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__predicate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get___3__predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__predicate;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set___3__predicate(::System::Func_2<char16_t, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get__length_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length_5__2;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get__length_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____length_5__2;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set__length_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____length_5__2 = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get__position_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_5__3;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__get__position_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_5__3;
 }
 constexpr void UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::__set__position_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position_5__3 = value;
 }
 inline ::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9* UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9::New_ctor(int32_t __1__state) {

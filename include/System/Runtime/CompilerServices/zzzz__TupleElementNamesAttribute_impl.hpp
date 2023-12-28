@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::CompilerServices::TupleElementNamesAttribute::__get__transformNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transformNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::CompilerServices::TupleElementNamesAttribute::__get__transformNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transformNames;
 }
 constexpr void System::Runtime::CompilerServices::TupleElementNamesAttribute::__set__transformNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transformNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::TupleElementNamesAttribute*

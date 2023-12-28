@@ -3,16 +3,16 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter._ctor
 template <>
 
@@ -796,211 +796,211 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__batteryEnergy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryEnergy;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__batteryEnergy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryEnergy;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__batteryEnergy(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____batteryEnergy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__instaFail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instaFail;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__instaFail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instaFail;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__instaFail(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instaFail)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__noObstacles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noObstacles;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__noObstacles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noObstacles;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__noObstacles(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noObstacles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__noBombs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noBombs;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__noBombs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noBombs;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__noBombs(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noBombs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__fastNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fastNotes;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__fastNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fastNotes;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__fastNotes(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fastNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__strictAngles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strictAngles;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__strictAngles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strictAngles;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__strictAngles(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____strictAngles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__disappearingArrows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingArrows;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__disappearingArrows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingArrows;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__disappearingArrows(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disappearingArrows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__fasterSong() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fasterSong;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__fasterSong() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fasterSong;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__fasterSong(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fasterSong)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__slowerSong() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____slowerSong;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__slowerSong() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____slowerSong;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__slowerSong(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slowerSong)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__noArrows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noArrows;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__noArrows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noArrows;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__noArrows(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noArrows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__ghostNotes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostNotes;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__ghostNotes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostNotes;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__ghostNotes(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ghostNotes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__noFailOn0Energy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noFailOn0Energy;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__noFailOn0Energy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noFailOn0Energy;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__noFailOn0Energy(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noFailOn0Energy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__superFastSong() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____superFastSong;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__superFastSong() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____superFastSong;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__superFastSong(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____superFastSong)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__proMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proMode;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__proMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____proMode;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__proMode(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____proMode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__zenMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zenMode;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__zenMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zenMode;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__zenMode(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____zenMode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifiersModelSO::__get__smallCubes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smallCubes;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifiersModelSO::__get__smallCubes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smallCubes;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__smallCubes(::GlobalNamespace::GameplayModifierParamsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smallCubes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*&
 GlobalNamespace::GameplayModifiersModelSO::__get__gameplayModifierGetters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierGetters;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*> const&
 GlobalNamespace::GameplayModifiersModelSO::__get__gameplayModifierGetters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierGetters;
 }
 constexpr void GlobalNamespace::GameplayModifiersModelSO::__set__gameplayModifierGetters(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifierGetters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::GameplayModifiersModelSO::OnEnable() {

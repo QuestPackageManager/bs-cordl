@@ -15,36 +15,36 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Net/Http/zzzz__MonoWebRequestHandler_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
-#include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/Net/zzzz__HttpWebResponse_def.hpp"
-#include "System/Net/Http/zzzz__HttpMethod_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
-#include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
-#include "System/Net/Http/zzzz__MonoWebRequestHandler_def.hpp"
-#include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
 #include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
+#include "System/Net/zzzz__CookieContainer_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Net/Http/zzzz__MonoWebRequestHandler_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
+#include "System/Net/zzzz__HttpWebResponse_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/Http/zzzz__HttpMethod_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Net/zzzz__WebResponse_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::__MonoWebRequestHandler____c._ctor
 template <>
 
@@ -462,292 +462,292 @@ constexpr System::Net::Http::MonoWebRequestHandler::operator ::System::IDisposab
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_allowAutoRedirect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowAutoRedirect;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_allowAutoRedirect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowAutoRedirect;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_allowAutoRedirect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowAutoRedirect = value;
 }
 constexpr ::System::Net::DecompressionMethods& System::Net::Http::MonoWebRequestHandler::__get_automaticDecompression() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticDecompression;
 }
 constexpr ::System::Net::DecompressionMethods const& System::Net::Http::MonoWebRequestHandler::__get_automaticDecompression() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticDecompression;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_automaticDecompression(::System::Net::DecompressionMethods value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___automaticDecompression = value;
 }
 constexpr ::System::Net::CookieContainer*& System::Net::Http::MonoWebRequestHandler::__get_cookieContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& System::Net::Http::MonoWebRequestHandler::__get_cookieContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieContainer;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_cookieContainer(::System::Net::CookieContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookieContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::ICredentials*& System::Net::Http::MonoWebRequestHandler::__get_credentials() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___credentials;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& System::Net::Http::MonoWebRequestHandler::__get_credentials() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___credentials;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_credentials(::System::Net::ICredentials* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___credentials)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__get_maxAutomaticRedirections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAutomaticRedirections;
 }
 constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__get_maxAutomaticRedirections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAutomaticRedirections;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_maxAutomaticRedirections(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxAutomaticRedirections = value;
 }
 constexpr int64_t& System::Net::Http::MonoWebRequestHandler::__get_maxRequestContentBufferSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRequestContentBufferSize;
 }
 constexpr int64_t const& System::Net::Http::MonoWebRequestHandler::__get_maxRequestContentBufferSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRequestContentBufferSize;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_maxRequestContentBufferSize(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxRequestContentBufferSize = value;
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_preAuthenticate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preAuthenticate;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_preAuthenticate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preAuthenticate;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_preAuthenticate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___preAuthenticate = value;
 }
 constexpr ::System::Net::IWebProxy*& System::Net::Http::MonoWebRequestHandler::__get_proxy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& System::Net::Http::MonoWebRequestHandler::__get_proxy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_proxy(::System::Net::IWebProxy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_useCookies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCookies;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_useCookies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCookies;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_useCookies(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useCookies = value;
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_useProxy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useProxy;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_useProxy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useProxy;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_useProxy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useProxy = value;
 }
 constexpr ::System::Net::Security::SslClientAuthenticationOptions*& System::Net::Http::MonoWebRequestHandler::__get_sslOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslOptions;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslClientAuthenticationOptions*> const& System::Net::Http::MonoWebRequestHandler::__get_sslOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslOptions;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_sslOptions(::System::Net::Security::SslClientAuthenticationOptions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sslOptions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_allowPipelining() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowPipelining;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_allowPipelining() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowPipelining;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_allowPipelining(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowPipelining = value;
 }
 constexpr ::System::Net::Cache::RequestCachePolicy*& System::Net::Http::MonoWebRequestHandler::__get_cachePolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachePolicy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Net::Http::MonoWebRequestHandler::__get_cachePolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachePolicy;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_cachePolicy(::System::Net::Cache::RequestCachePolicy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cachePolicy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Security::AuthenticationLevel& System::Net::Http::MonoWebRequestHandler::__get_authenticationLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___authenticationLevel;
 }
 constexpr ::System::Net::Security::AuthenticationLevel const& System::Net::Http::MonoWebRequestHandler::__get_authenticationLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___authenticationLevel;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_authenticationLevel(::System::Net::Security::AuthenticationLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___authenticationLevel = value;
 }
 constexpr ::System::TimeSpan& System::Net::Http::MonoWebRequestHandler::__get_continueTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueTimeout;
 }
 constexpr ::System::TimeSpan const& System::Net::Http::MonoWebRequestHandler::__get_continueTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueTimeout;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_continueTimeout(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___continueTimeout = value;
 }
 constexpr ::System::Security::Principal::TokenImpersonationLevel& System::Net::Http::MonoWebRequestHandler::__get_impersonationLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impersonationLevel;
 }
 constexpr ::System::Security::Principal::TokenImpersonationLevel const& System::Net::Http::MonoWebRequestHandler::__get_impersonationLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impersonationLevel;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_impersonationLevel(::System::Security::Principal::TokenImpersonationLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___impersonationLevel = value;
 }
 constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__get_maxResponseHeadersLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxResponseHeadersLength;
 }
 constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__get_maxResponseHeadersLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxResponseHeadersLength;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_maxResponseHeadersLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxResponseHeadersLength = value;
 }
 constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__get_readWriteTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readWriteTimeout;
 }
 constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__get_readWriteTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readWriteTimeout;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_readWriteTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readWriteTimeout = value;
 }
 constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& System::Net::Http::MonoWebRequestHandler::__get_serverCertificateValidationCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverCertificateValidationCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const&
 System::Net::Http::MonoWebRequestHandler::__get_serverCertificateValidationCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverCertificateValidationCallback;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_serverCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverCertificateValidationCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_unsafeAuthenticatedConnectionSharing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsafeAuthenticatedConnectionSharing;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_unsafeAuthenticatedConnectionSharing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsafeAuthenticatedConnectionSharing;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_unsafeAuthenticatedConnectionSharing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___unsafeAuthenticatedConnectionSharing = value;
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_sentRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sentRequest;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_sentRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sentRequest;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_sentRequest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sentRequest = value;
 }
 constexpr ::StringW& System::Net::Http::MonoWebRequestHandler::__get_connectionGroupName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionGroupName;
 }
 constexpr ::StringW const& System::Net::Http::MonoWebRequestHandler::__get_connectionGroupName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionGroupName;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_connectionGroupName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionGroupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::MonoWebRequestHandler::__get_timeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::MonoWebRequestHandler::__get_timeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_timeout(::System::Nullable_1<::System::TimeSpan> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeout = value;
 }
 constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void System::Net::Http::MonoWebRequestHandler::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 inline void System::Net::Http::MonoWebRequestHandler::setStaticF_groupCounter(int64_t value) {

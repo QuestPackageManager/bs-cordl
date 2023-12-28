@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandGenerator)
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
 }
 namespace UnityEngine::UIElements::UIR {
 struct ChainBuilderStats;
@@ -17,44 +17,44 @@ struct ChainBuilderStats;
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct __UIRStylePainter__ClosingInfo;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine {
 class Shader;
-}
-namespace UnityEngine::UIElements {
-struct __VisualElement__RenderTargetMode;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
 }
+namespace UnityEngine::UIElements {
+struct __VisualElement__RenderTargetMode;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct __UIRStylePainter__ClosingInfo;
+}
 namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {

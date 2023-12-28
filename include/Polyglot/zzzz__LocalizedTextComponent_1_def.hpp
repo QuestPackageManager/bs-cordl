@@ -13,11 +13,11 @@ struct LanguageDirection;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Object;
-}
 namespace Polyglot {
 class ILocalize;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Polyglot {

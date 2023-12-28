@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__StateMachineBehaviour_def.hpp"
+#include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimatorControllerPlayable_def.hpp"
-#include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::StateMachineBehaviour.OnStateEnter
 template <>
 

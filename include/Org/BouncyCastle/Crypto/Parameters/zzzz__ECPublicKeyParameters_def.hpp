@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(ECPublicKeyParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

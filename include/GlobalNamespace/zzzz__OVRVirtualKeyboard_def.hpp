@@ -13,39 +13,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRVirtualKeyboard)
-namespace GlobalNamespace {
-class __OVRVirtualKeyboard____c;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct __OVRVirtualKeyboard__KeyboardPosition;
-}
-namespace GlobalNamespace {
-class OVRHand;
-}
-namespace GlobalNamespace {
-class __OVRVirtualKeyboard__InteractorRootTransformOverride;
-}
-namespace GlobalNamespace {
-class __OVRVirtualKeyboard__IInputSource;
-}
-namespace GlobalNamespace {
-class __OVRVirtualKeyboard__BaseInputSource;
-}
-namespace GlobalNamespace {
-class __OVRManager__EventListener;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class Material;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -53,7 +20,37 @@ namespace GlobalNamespace {
 struct __OVRPlugin__EventDataBuffer;
 }
 namespace GlobalNamespace {
-struct __OVRVirtualKeyboard__InputSource;
+struct __OVRVirtualKeyboard__KeyboardPosition;
+}
+namespace GlobalNamespace {
+class __OVRVirtualKeyboard__InteractorRootTransformOverride;
+}
+namespace GlobalNamespace {
+class __OVRVirtualKeyboard__HandInputSource;
+}
+namespace GlobalNamespace {
+class __OVRVirtualKeyboard____c;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::UI {
+class InputField;
+}
+namespace GlobalNamespace {
+class __OVRVirtualKeyboard__BaseInputSource;
+}
+namespace GlobalNamespace {
+class __OVRVirtualKeyboard__ControllerInputSource;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace GlobalNamespace {
+class __OVRManager__EventListener;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__VirtualKeyboardLocationInfo;
@@ -62,34 +59,37 @@ namespace GlobalNamespace {
 struct __OVRPlugin__VirtualKeyboardInputSource;
 }
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::UI {
-class InputField;
-}
-namespace UnityEngine::EventSystems {
-class OVRPhysicsRaycaster;
-}
-namespace GlobalNamespace {
-class __OVRVirtualKeyboard__HandInputSource;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct OVRPose;
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class Collider;
+class Texture2D;
 }
 namespace GlobalNamespace {
-class __OVRVirtualKeyboard__ControllerInputSource;
+class __OVRVirtualKeyboard__IInputSource;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct __OVRVirtualKeyboard__InputSource;
+}
+namespace GlobalNamespace {
+struct OVRPose;
+}
+namespace GlobalNamespace {
+class OVRHand;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::EventSystems {
+class OVRPhysicsRaycaster;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
@@ -101,10 +101,10 @@ namespace GlobalNamespace {
 struct __OVRInput__Controller;
 }
 namespace GlobalNamespace {
-class OVRSkeleton;
+class __OVRVirtualKeyboard__HandInputSource____c;
 }
 namespace GlobalNamespace {
-class __OVRVirtualKeyboard__HandInputSource____c;
+class OVRSkeleton;
 }
 namespace GlobalNamespace {
 class OVRBone;
@@ -113,22 +113,22 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace GlobalNamespace {
+struct __OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData;
+}
+namespace GlobalNamespace {
 class __OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Posef;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-struct __OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System {
 class Object;
@@ -626,8 +626,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRVirtualKey
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(8052)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8053)) CS Name: ::OVRVirtualKeyboard::ControllerInputSource*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(8050)), TypeDefinitionIndex(TypeDefinitionIndex(8052)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7588))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8053)) CS Name: ::OVRVirtualKeyboard::ControllerInputSource*
 class CORDL_TYPE __OVRVirtualKeyboard__ControllerInputSource : public ::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource {
 public:
   // Declarations

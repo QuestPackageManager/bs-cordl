@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LoadingControl)
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine::UI {
 class Image;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace System {
 class Action;
 }
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::UI {
-class Button;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKQuaternion)
-namespace LIV::SDK::Unity {
-struct SDKVector3;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace LIV::SDK::Unity {
+struct SDKVector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

@@ -2,8 +2,8 @@
 #include "Polyglot/zzzz__GoogleDriveDownloadFormat_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Polyglot/zzzz__LocalizationAsset_def.hpp"
-#include "Polyglot/zzzz__GoogleDriveDownloadFormat_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "Polyglot/zzzz__GoogleDriveDownloadFormat_def.hpp"
 //  Writing Method size for method: ::Polyglot::LocalizationAsset.get_TextAsset
 template <>
 
@@ -74,27 +74,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::TextAsset*& Polyglot::LocalizationAsset::__get_textAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& Polyglot::LocalizationAsset::__get_textAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textAsset;
 }
 constexpr void Polyglot::LocalizationAsset::__set_textAsset(::UnityEngine::TextAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Polyglot::GoogleDriveDownloadFormat& Polyglot::LocalizationAsset::__get_format() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr ::Polyglot::GoogleDriveDownloadFormat const& Polyglot::LocalizationAsset::__get_format() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr void Polyglot::LocalizationAsset::__set_format(::Polyglot::GoogleDriveDownloadFormat value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___format = value;
 }
 inline ::UnityEngine::TextAsset* Polyglot::LocalizationAsset::get_TextAsset() {

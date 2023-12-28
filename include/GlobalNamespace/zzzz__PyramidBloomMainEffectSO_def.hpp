@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PyramidBloomMainEffectSO)
-namespace GlobalNamespace {
-class BloomFogSO;
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 namespace GlobalNamespace {
 class PyramidBloomRendererSO;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace GlobalNamespace {
+class BloomFogSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

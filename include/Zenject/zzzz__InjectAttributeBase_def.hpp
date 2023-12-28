@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/Internal/zzzz__PreserveAttribute_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
 CORDL_MODULE_EXPORT(InjectAttributeBase)
-namespace System {
-class Object;
-}
 namespace Zenject {
 struct InjectSources;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::InjectAttributeBase);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(15707))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15707)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15708))
 // CS Name: ::Zenject::InjectAttributeBase*
 class CORDL_TYPE InjectAttributeBase : public ::Zenject::Internal::PreserveAttribute {

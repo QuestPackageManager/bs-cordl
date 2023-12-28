@@ -23,63 +23,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Assets::OVR::Scripts::FixMethodDelegate*& Assets::OVR::Scripts::FixRecord::__get_fixMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixMethod;
 }
 constexpr ::cordl_internals::to_const_pointer<::Assets::OVR::Scripts::FixMethodDelegate*> const& Assets::OVR::Scripts::FixRecord::__get_fixMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fixMethod;
 }
 constexpr void Assets::OVR::Scripts::FixRecord::__set_fixMethod(::Assets::OVR::Scripts::FixMethodDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fixMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Object*& Assets::OVR::Scripts::FixRecord::__get_targetObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& Assets::OVR::Scripts::FixRecord::__get_targetObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetObject;
 }
 constexpr void Assets::OVR::Scripts::FixRecord::__set_targetObject(::UnityEngine::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& Assets::OVR::Scripts::FixRecord::__get_buttonNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& Assets::OVR::Scripts::FixRecord::__get_buttonNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buttonNames;
 }
 constexpr void Assets::OVR::Scripts::FixRecord::__set_buttonNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buttonNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Assets::OVR::Scripts::FixRecord::__get_editModeRequired() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editModeRequired;
 }
 constexpr bool const& Assets::OVR::Scripts::FixRecord::__get_editModeRequired() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___editModeRequired;
 }
 constexpr void Assets::OVR::Scripts::FixRecord::__set_editModeRequired(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___editModeRequired = value;
 }
 constexpr bool& Assets::OVR::Scripts::FixRecord::__get_complete() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complete;
 }
 constexpr bool const& Assets::OVR::Scripts::FixRecord::__get_complete() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complete;
 }
 constexpr void Assets::OVR::Scripts::FixRecord::__set_complete(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___complete = value;
 }
 inline ::Assets::OVR::Scripts::FixRecord* Assets::OVR::Scripts::FixRecord::New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix,

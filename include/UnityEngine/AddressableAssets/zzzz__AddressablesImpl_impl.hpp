@@ -12,39 +12,39 @@
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationBase_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IAssetBundleResource_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo.get_Locator
 template <>
@@ -233,54 +233,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__Locator_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Locator_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__Locator_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Locator_k__BackingField;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__set__Locator_k__BackingField(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Locator_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__LocalHash_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalHash_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__LocalHash_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalHash_k__BackingField;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__set__LocalHash_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____LocalHash_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__CatalogLocation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CatalogLocation_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__CatalogLocation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CatalogLocation_k__BackingField;
 }
 constexpr void
 UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__set__CatalogLocation_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CatalogLocation_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__ContentUpdateAvailable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContentUpdateAvailable_k__BackingField;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__get__ContentUpdateAvailable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ContentUpdateAvailable_k__BackingField;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::__set__ContentUpdateAvailable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ContentUpdateAvailable_k__BackingField = value;
 }
 inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo::get_Locator() {
@@ -449,55 +449,55 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_Keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Keys;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_Keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Keys;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__set_m_Keys(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
 UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_locations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_locations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_locations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_locations;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__set_m_locations(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_locations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_Addressables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_Addressables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Addressables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_ResourceType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__get_m_ResourceType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceType;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::__set_m_ResourceType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeyOp::get_DebugName() {
@@ -620,67 +620,67 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::IEnumerable*& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_Key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_Key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__set_m_Key(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_MergeMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MergeMode;
 }
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_MergeMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MergeMode;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__set_m_MergeMode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MergeMode = value;
 }
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
 UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_locations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_locations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_locations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_locations;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__set_m_locations(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_locations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_Addressables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_Addressables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Addressables;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Addressables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_ResourceType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__get_m_ResourceType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceType;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::__set_m_ResourceType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::AddressableAssets::__AddressablesImpl__LoadResourceLocationKeysOp::get_DebugName() {
@@ -921,16 +921,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass62_0::__get_loc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loc;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass62_0::__get_loc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loc;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass62_0::__set_loc(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___loc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass62_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass62_0::New_ctor() {
@@ -985,52 +985,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get_catalogPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogPath;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get_catalogPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogPath;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__set_catalogPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___catalogPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get_providerSuffix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___providerSuffix;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__get_providerSuffix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___providerSuffix;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__set_providerSuffix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___providerSuffix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::New_ctor() {
@@ -1054,31 +1054,31 @@ UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::_Load
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0::__AddressablesImpl____c__DisplayClass71_0() {}
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>
@@ -1136,52 +1136,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerable*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get_keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get_keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__set_keys(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 constexpr ::System::Type*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::__set_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0::New_ctor() {
@@ -1239,40 +1239,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__set_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::New_ctor() {
@@ -1297,70 +1297,70 @@ UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::_Load
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0::__AddressablesImpl____c__DisplayClass83_0() {}
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Collections::IEnumerable*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_keys(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Action_1<TObject>*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_callback(::System::Action_1<TObject>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 template <typename TObject>
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 template <typename TObject>
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 template <typename TObject> constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_releaseDependenciesOnFailure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___releaseDependenciesOnFailure;
 }
 template <typename TObject> constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_releaseDependenciesOnFailure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___releaseDependenciesOnFailure;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_releaseDependenciesOnFailure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___releaseDependenciesOnFailure = value;
 }
 template <typename TObject>
@@ -1386,56 +1386,56 @@ UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObj
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__AddressablesImpl____c__DisplayClass86_0_1() {}
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr ::System::Action_1<TObject>*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set_callback(::System::Action_1<TObject>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject> constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_releaseDependenciesOnFailure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___releaseDependenciesOnFailure;
 }
 template <typename TObject> constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_releaseDependenciesOnFailure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___releaseDependenciesOnFailure;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set_releaseDependenciesOnFailure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___releaseDependenciesOnFailure = value;
 }
 template <typename TObject>
@@ -1493,28 +1493,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0::New_ctor() {
@@ -1569,28 +1569,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerable*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::__get_keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::__get_keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::__set_keys(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0::New_ctor() {
@@ -1646,28 +1646,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0::New_ctor() {
@@ -1725,31 +1725,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::__get_locations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::__get_locations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locations;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::__set_locations(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___locations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0::New_ctor() {
@@ -1807,40 +1807,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerable*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__get_keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__get_keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__set_keys(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__get_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__get_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mode = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::New_ctor() {
@@ -1865,30 +1865,30 @@ UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::_Dow
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0::__AddressablesImpl____c__DisplayClass106_0() {}
 template <typename TObject> constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__get_unloadSceneOpExcludeReleaseCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unloadSceneOpExcludeReleaseCallback;
 }
 template <typename TObject> constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__get_unloadSceneOpExcludeReleaseCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unloadSceneOpExcludeReleaseCallback;
 }
 template <typename TObject> constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__set_unloadSceneOpExcludeReleaseCallback(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___unloadSceneOpExcludeReleaseCallback = value;
 }
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TObject>
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TObject>
@@ -1945,40 +1945,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0::New_ctor() {
@@ -2033,43 +2033,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__get_locations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__get_locations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locations;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__set_locations(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___locations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0::New_ctor() {
@@ -2124,40 +2124,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IEnumerable*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__get_keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__get_keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keys;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__set_keys(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0::New_ctor() {
@@ -2212,42 +2212,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__get_instantiateParameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instantiateParameters;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__get_instantiateParameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instantiateParameters;
 }
 constexpr void
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::__set_instantiateParameters(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___instantiateParameters = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0::New_ctor() {
@@ -2302,43 +2302,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__get_location() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___location;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__get_location() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___location;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___location)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__get_instantiateParameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instantiateParameters;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__get_instantiateParameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instantiateParameters;
 }
 constexpr void
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::__set_instantiateParameters(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___instantiateParameters = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0::New_ctor() {
@@ -2394,64 +2394,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SceneManagement::LoadSceneMode& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_loadMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadMode;
 }
 constexpr ::UnityEngine::SceneManagement::LoadSceneMode const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_loadMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadMode;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__set_loadMode(::UnityEngine::SceneManagement::LoadSceneMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loadMode = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_activateOnLoad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activateOnLoad;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_activateOnLoad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activateOnLoad;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__set_activateOnLoad(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___activateOnLoad = value;
 }
 constexpr int32_t& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_priority() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priority;
 }
 constexpr int32_t const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__get_priority() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priority;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::__set_priority(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___priority = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0::New_ctor() {
@@ -2508,40 +2508,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__get_unloadOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unloadOptions;
 }
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__get_unloadOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unloadOptions;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___unloadOptions = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0::New_ctor() {
@@ -2599,40 +2599,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__get_unloadOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unloadOptions;
 }
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__get_unloadOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unloadOptions;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___unloadOptions = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0::New_ctor() {
@@ -2691,28 +2691,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0::New_ctor() {
@@ -2770,40 +2770,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__get_autoReleaseHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__get_autoReleaseHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoReleaseHandle;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__set_autoReleaseHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoReleaseHandle = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__get_autoCleanBundleCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoCleanBundleCache;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__get_autoCleanBundleCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoCleanBundleCache;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::__set_autoCleanBundleCache(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoCleanBundleCache = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0::New_ctor() {
@@ -2861,46 +2861,46 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__get_depOp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depOp;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__get_depOp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depOp;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__set_depOp(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depOp = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__get_forceSingleThreading() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceSingleThreading;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__get_forceSingleThreading() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceSingleThreading;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::__set_forceSingleThreading(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forceSingleThreading = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0::New_ctor() {
@@ -2955,41 +2955,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__get_catalogIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const&
 UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__get_catalogIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogIds;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__set_catalogIds(::System::Collections::Generic::IEnumerable_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___catalogIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__get_forceSingleThreading() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceSingleThreading;
 }
 constexpr bool const& UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__get_forceSingleThreading() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceSingleThreading;
 }
 constexpr void UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::__set_forceSingleThreading(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forceSingleThreading = value;
 }
 inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0* UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0::New_ctor() {
@@ -4675,208 +4675,208 @@ constexpr UnityEngine::AddressableAssets::AddressablesImpl::operator ::System::C
   return static_cast<::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceManager*& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ResourceManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ResourceManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceManager;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_InstanceProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InstanceProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_InstanceProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InstanceProvider;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_InstanceProvider(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InstanceProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_CatalogRequestsTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CatalogRequestsTimeout;
 }
 constexpr int32_t const& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_CatalogRequestsTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CatalogRequestsTimeout;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_CatalogRequestsTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CatalogRequestsTimeout = value;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*& UnityEngine::AddressableAssets::AddressablesImpl::__get_SceneProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SceneProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_SceneProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SceneProvider;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_SceneProvider(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SceneProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ResourceLocators() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceLocators;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ResourceLocators() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResourceLocators;
 }
 constexpr void
 UnityEngine::AddressableAssets::AddressablesImpl::__set_m_ResourceLocators(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceLocators)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_InitializationOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitializationOperation;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_InitializationOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitializationOperation;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_InitializationOperation(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InitializationOperation = value;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ActiveCheckUpdateOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveCheckUpdateOperation;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ActiveCheckUpdateOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveCheckUpdateOperation;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_ActiveCheckUpdateOperation(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActiveCheckUpdateOperation = value;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ActiveUpdateOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveUpdateOperation;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ActiveUpdateOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveUpdateOperation;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_ActiveUpdateOperation(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActiveUpdateOperation = value;
 }
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_OnHandleCompleteAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnHandleCompleteAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_OnHandleCompleteAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnHandleCompleteAction;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_OnHandleCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnHandleCompleteAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_OnSceneHandleCompleteAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnSceneHandleCompleteAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_OnSceneHandleCompleteAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnSceneHandleCompleteAction;
 }
 constexpr void
 UnityEngine::AddressableAssets::AddressablesImpl::__set_m_OnSceneHandleCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnSceneHandleCompleteAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_OnHandleDestroyedAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnHandleDestroyedAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_OnHandleDestroyedAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnHandleDestroyedAction;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_OnHandleDestroyedAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnHandleDestroyedAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_resultToHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_resultToHandle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_resultToHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_resultToHandle;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_resultToHandle(
     ::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_resultToHandle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_SceneInstances() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SceneInstances;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 UnityEngine::AddressableAssets::AddressablesImpl::__get_m_SceneInstances() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SceneInstances;
 }
 constexpr void
 UnityEngine::AddressableAssets::AddressablesImpl::__set_m_SceneInstances(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SceneInstances)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ActiveCleanBundleCacheOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveCleanBundleCacheOperation;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> const& UnityEngine::AddressableAssets::AddressablesImpl::__get_m_ActiveCleanBundleCacheOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActiveCleanBundleCacheOperation;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_m_ActiveCleanBundleCacheOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActiveCleanBundleCacheOperation = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::AddressablesImpl::__get_hasStartedInitialization() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasStartedInitialization;
 }
 constexpr bool const& UnityEngine::AddressableAssets::AddressablesImpl::__get_hasStartedInitialization() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasStartedInitialization;
 }
 constexpr void UnityEngine::AddressableAssets::AddressablesImpl::__set_hasStartedInitialization(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasStartedInitialization = value;
 }
 inline ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* UnityEngine::AddressableAssets::AddressablesImpl::get_InstanceProvider() {

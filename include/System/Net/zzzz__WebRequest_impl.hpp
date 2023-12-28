@@ -4,26 +4,26 @@
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCacheProtocol_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Security/Principal/zzzz__WindowsIdentity_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCacheBinding_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Net/zzzz__TimerThread_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCacheBinding_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/zzzz__TimerThread_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCacheProtocol_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Security/Principal/zzzz__WindowsIdentity_def.hpp"
+#include "System/Net/zzzz__WebResponse_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 //  Writing Method size for method: ::System::Net::__WebRequest__DesignerWebRequestCreate.Create
 template <>
@@ -103,27 +103,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Principal::WindowsIdentity*& System::Net::__WebRequest____c__DisplayClass78_0::__get_currentUser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentUser;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::WindowsIdentity*> const& System::Net::__WebRequest____c__DisplayClass78_0::__get_currentUser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentUser;
 }
 constexpr void System::Net::__WebRequest____c__DisplayClass78_0::__set_currentUser(::System::Security::Principal::WindowsIdentity* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentUser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebRequest*& System::Net::__WebRequest____c__DisplayClass78_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& System::Net::__WebRequest____c__DisplayClass78_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void System::Net::__WebRequest____c__DisplayClass78_0::__set___4__this(::System::Net::WebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::__WebRequest____c__DisplayClass78_0* System::Net::__WebRequest____c__DisplayClass78_0::New_ctor() {
@@ -170,27 +170,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Principal::WindowsIdentity*& System::Net::__WebRequest____c__DisplayClass79_0::__get_currentUser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentUser;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::WindowsIdentity*> const& System::Net::__WebRequest____c__DisplayClass79_0::__get_currentUser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentUser;
 }
 constexpr void System::Net::__WebRequest____c__DisplayClass79_0::__set_currentUser(::System::Security::Principal::WindowsIdentity* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentUser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebRequest*& System::Net::__WebRequest____c__DisplayClass79_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& System::Net::__WebRequest____c__DisplayClass79_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void System::Net::__WebRequest____c__DisplayClass79_0::__set___4__this(::System::Net::WebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::__WebRequest____c__DisplayClass79_0* System::Net::__WebRequest____c__DisplayClass79_0::New_ctor() {
@@ -809,63 +809,63 @@ constexpr System::Net::WebRequest::operator ::System::Runtime::Serialization::IS
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::Security::AuthenticationLevel& System::Net::WebRequest::__get_m_AuthenticationLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AuthenticationLevel;
 }
 constexpr ::System::Net::Security::AuthenticationLevel const& System::Net::WebRequest::__get_m_AuthenticationLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AuthenticationLevel;
 }
 constexpr void System::Net::WebRequest::__set_m_AuthenticationLevel(::System::Net::Security::AuthenticationLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AuthenticationLevel = value;
 }
 constexpr ::System::Security::Principal::TokenImpersonationLevel& System::Net::WebRequest::__get_m_ImpersonationLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImpersonationLevel;
 }
 constexpr ::System::Security::Principal::TokenImpersonationLevel const& System::Net::WebRequest::__get_m_ImpersonationLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ImpersonationLevel;
 }
 constexpr void System::Net::WebRequest::__set_m_ImpersonationLevel(::System::Security::Principal::TokenImpersonationLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ImpersonationLevel = value;
 }
 constexpr ::System::Net::Cache::RequestCachePolicy*& System::Net::WebRequest::__get_m_CachePolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachePolicy;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Net::WebRequest::__get_m_CachePolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachePolicy;
 }
 constexpr void System::Net::WebRequest::__set_m_CachePolicy(::System::Net::Cache::RequestCachePolicy* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachePolicy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Cache::RequestCacheProtocol*& System::Net::WebRequest::__get_m_CacheProtocol() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheProtocol;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheProtocol*> const& System::Net::WebRequest::__get_m_CacheProtocol() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheProtocol;
 }
 constexpr void System::Net::WebRequest::__set_m_CacheProtocol(::System::Net::Cache::RequestCacheProtocol* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheProtocol)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Cache::RequestCacheBinding*& System::Net::WebRequest::__get_m_CacheBinding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheBinding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheBinding*> const& System::Net::WebRequest::__get_m_CacheBinding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CacheBinding;
 }
 constexpr void System::Net::WebRequest::__set_m_CacheBinding(::System::Net::Cache::RequestCacheBinding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheBinding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::WebRequest::setStaticF_s_PrefixList(::System::Collections::ArrayList* value) {

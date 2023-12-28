@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer._ctor
 template <>
 
@@ -302,27 +302,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::Http::Headers::Lexer::__get_s() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr ::StringW const& System::Net::Http::Headers::Lexer::__get_s() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
 constexpr void System::Net::Http::Headers::Lexer::__set_s(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___s)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::Http::Headers::Lexer::__get_pos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr int32_t const& System::Net::Http::Headers::Lexer::__get_pos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr void System::Net::Http::Headers::Lexer::__set_pos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos = value;
 }
 inline void System::Net::Http::Headers::Lexer::setStaticF_token_chars(::ArrayW<bool, ::Array<bool>*> value) {

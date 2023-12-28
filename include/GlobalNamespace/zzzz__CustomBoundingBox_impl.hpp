@@ -30,39 +30,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__get__boundingBoxCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxCenter;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomBoundingBox::__get__boundingBoxCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxCenter;
 }
 constexpr void GlobalNamespace::CustomBoundingBox::__set__boundingBoxCenter(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boundingBoxCenter = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__get__boundingBoxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxSize;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CustomBoundingBox::__get__boundingBoxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxSize;
 }
 constexpr void GlobalNamespace::CustomBoundingBox::__set__boundingBoxSize(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boundingBoxSize = value;
 }
 constexpr ::UnityEngine::MeshRenderer*& GlobalNamespace::CustomBoundingBox::__get__meshRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& GlobalNamespace::CustomBoundingBox::__get__meshRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;
 }
 constexpr void GlobalNamespace::CustomBoundingBox::__set__meshRenderer(::UnityEngine::MeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::CustomBoundingBox::Awake() {

@@ -8,16 +8,16 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

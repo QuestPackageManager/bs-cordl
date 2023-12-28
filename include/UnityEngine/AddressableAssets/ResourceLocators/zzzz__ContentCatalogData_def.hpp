@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogData)
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class __ContentCatalogData__CompactLocation;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ResourceLocationMap;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 struct __ContentCatalogData__Bucket;
@@ -21,23 +21,23 @@ struct __ContentCatalogData__Bucket;
 namespace UnityEngine::ResourceManagement::Util {
 struct SerializedType;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationMap;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
 }
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class __ContentCatalogData__CompactLocation;
+}
 namespace System {
-class Object;
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {

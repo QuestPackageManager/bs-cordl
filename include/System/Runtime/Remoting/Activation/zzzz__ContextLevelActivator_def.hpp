@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ContextLevelActivator)
 namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+class IConstructionCallMessage;
 }
 namespace System::Runtime::Remoting::Activation {
 class IActivator;

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKMatrix4x4)
-namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace LIV::SDK::Unity {
 struct SDKVector3;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace LIV::SDK::Unity {
+struct SDKQuaternion;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

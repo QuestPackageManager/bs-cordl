@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaComplexType)
 namespace System::Xml::Schema {
-struct XmlSchemaContentProcessing;
+class XmlSchemaParticle;
 }
 namespace System::Xml::Schema {
 class ContentValidator;
@@ -16,7 +16,7 @@ namespace System::Xml::Schema {
 class XmlSchemaAnyAttribute;
 }
 namespace System::Xml::Schema {
-class XmlSchemaParticle;
+struct XmlSchemaContentProcessing;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

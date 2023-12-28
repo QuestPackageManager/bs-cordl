@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeafNode)
 namespace System::Xml::Schema {
-class BitSet;
-}
-namespace System::Xml::Schema {
-class InteriorNode;
+class Positions;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class Positions;
+class InteriorNode;
+}
+namespace System::Xml::Schema {
+class BitSet;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

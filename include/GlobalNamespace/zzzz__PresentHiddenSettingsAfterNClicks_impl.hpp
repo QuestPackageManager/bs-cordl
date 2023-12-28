@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PresentHiddenSettingsAfterNClicks_def.hpp"
-#include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PresentHiddenSettingsAfterNClicks.OnEnable
 template <>
 
@@ -62,75 +62,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__hiddenSettingsButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hiddenSettingsButton;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__hiddenSettingsButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hiddenSettingsButton;
 }
 constexpr void GlobalNamespace::PresentHiddenSettingsAfterNClicks::__set__hiddenSettingsButton(::UnityEngine::UI::Button* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hiddenSettingsButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ViewController*& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__hiddenSettingsViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hiddenSettingsViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__hiddenSettingsViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hiddenSettingsViewController;
 }
 constexpr void GlobalNamespace::PresentHiddenSettingsAfterNClicks::__set__hiddenSettingsViewController(::HMUI::ViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hiddenSettingsViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__numberOfClicksRequired() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfClicksRequired;
 }
 constexpr int32_t const& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__numberOfClicksRequired() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfClicksRequired;
 }
 constexpr void GlobalNamespace::PresentHiddenSettingsAfterNClicks::__set__numberOfClicksRequired(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfClicksRequired = value;
 }
 constexpr ::GlobalNamespace::SettingsFlowCoordinator*& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__settingsFlowCoordinator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsFlowCoordinator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsFlowCoordinator*> const& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__settingsFlowCoordinator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsFlowCoordinator;
 }
 constexpr void GlobalNamespace::PresentHiddenSettingsAfterNClicks::__set__settingsFlowCoordinator(::GlobalNamespace::SettingsFlowCoordinator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsFlowCoordinator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__currentNumberOfClicks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentNumberOfClicks;
 }
 constexpr int32_t const& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__currentNumberOfClicks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentNumberOfClicks;
 }
 constexpr void GlobalNamespace::PresentHiddenSettingsAfterNClicks::__set__currentNumberOfClicks(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentNumberOfClicks = value;
 }
 constexpr ::HMUI::ButtonBinder*& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__buttonBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::PresentHiddenSettingsAfterNClicks::__get__buttonBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void GlobalNamespace::PresentHiddenSettingsAfterNClicks::__set__buttonBinder(::HMUI::ButtonBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::PresentHiddenSettingsAfterNClicks::OnEnable() {

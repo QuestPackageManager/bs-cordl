@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TItem>"
 template <typename TItem, typename TPriority>
 constexpr Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::operator ::System::Collections::Generic::IEnumerator_1<TItem>*() noexcept {
@@ -26,55 +26,55 @@ template <typename TItem, typename TPriority> constexpr Priority_Queue::__Generi
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TItem, typename TPriority> constexpr int32_t& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TItem, typename TPriority> constexpr int32_t const& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TItem, typename TPriority> constexpr TItem& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TItem, typename TPriority> constexpr TItem const& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__set___2__current(TItem value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority>
 constexpr ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>*& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TItem, typename TPriority>
 constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>*> const&
 Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TItem, typename TPriority>
 constexpr void Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__set___4__this(::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority> constexpr int32_t& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get__i_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 template <typename TItem, typename TPriority> constexpr int32_t const& Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__get__i_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>::__set__i_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 template <typename TItem, typename TPriority>
@@ -138,52 +138,52 @@ template <typename TItem, typename TPriority> constexpr Priority_Queue::GenericP
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TItem, typename TPriority> constexpr int32_t& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__numNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numNodes;
 }
 template <typename TItem, typename TPriority> constexpr int32_t const& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__numNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numNodes;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__set__numNodes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numNodes = value;
 }
 template <typename TItem, typename TPriority> constexpr ::ArrayW<TItem, ::Array<TItem>*>& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__nodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodes;
 }
 template <typename TItem, typename TPriority> constexpr ::ArrayW<TItem, ::Array<TItem>*> const& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__nodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodes;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__set__nodes(::ArrayW<TItem, ::Array<TItem>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority> constexpr int64_t& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__numNodesEverEnqueued() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numNodesEverEnqueued;
 }
 template <typename TItem, typename TPriority> constexpr int64_t const& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__numNodesEverEnqueued() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numNodesEverEnqueued;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__set__numNodesEverEnqueued(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numNodesEverEnqueued = value;
 }
 template <typename TItem, typename TPriority> constexpr ::System::Comparison_1<TPriority>*& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 template <typename TItem, typename TPriority>
 constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<TPriority>*> const& Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__get__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 template <typename TItem, typename TPriority> constexpr void Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::__set__comparer(::System::Comparison_1<TPriority>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TItem, typename TPriority> inline ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::New_ctor(int32_t maxNodes) {

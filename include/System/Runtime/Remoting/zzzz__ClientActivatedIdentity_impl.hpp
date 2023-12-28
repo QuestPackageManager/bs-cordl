@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientActivatedIdentity_def.hpp"
-#include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ClientActivatedIdentity._ctor
 template <>
@@ -100,15 +100,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::MarshalByRefObject*& System::Runtime::Remoting::ClientActivatedIdentity::__get__targetThis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetThis;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& System::Runtime::Remoting::ClientActivatedIdentity::__get__targetThis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetThis;
 }
 constexpr void System::Runtime::Remoting::ClientActivatedIdentity::__set__targetThis(::System::MarshalByRefObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetThis)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::ClientActivatedIdentity* System::Runtime::Remoting::ClientActivatedIdentity::New_ctor(::StringW objectUri, ::System::Type* objectType) {

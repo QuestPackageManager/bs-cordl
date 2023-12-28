@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(XObjectWrapper)
 namespace System::Xml::Linq {
 class XObject;
 }
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -19,6 +16,9 @@ class Object;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

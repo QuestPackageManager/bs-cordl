@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUISkin)
 namespace UnityEngine {
-class GUISettings;
-}
-namespace UnityEngine {
-class GUIStyle;
+class Font;
 }
 namespace UnityEngine {
 class __GUISkin__SkinChangedDelegate;
 }
 namespace UnityEngine {
-class Font;
+class GUISettings;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class GUIStyle;
 }
 namespace System {
 class Object;

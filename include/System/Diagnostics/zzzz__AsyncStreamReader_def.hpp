@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncStreamReader)
 namespace System::Text {
+class Encoding;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Text {
 class Decoder;
 }
 namespace System {
@@ -17,12 +23,6 @@ class Stream;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Threading {
-class ManualResetEvent;
 }
 // Forward declare root types
 namespace System::Diagnostics {

@@ -2,26 +2,26 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__ArrayTypeMismatchException_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
-#include "System/zzzz__Converter_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
+#include "System/zzzz__Converter_2_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "System/zzzz__ArrayTypeMismatchException_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::__Array__ArrayEnumerator._ctor
 template <>
@@ -98,39 +98,39 @@ constexpr System::__Array__ArrayEnumerator::operator ::System::ICloneable*() noe
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Array*& System::__Array__ArrayEnumerator::__get__array() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& System::__Array__ArrayEnumerator::__get__array() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 constexpr void System::__Array__ArrayEnumerator::__set__array(::System::Array* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::__Array__ArrayEnumerator::__get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr int32_t const& System::__Array__ArrayEnumerator::__get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 constexpr void System::__Array__ArrayEnumerator::__set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
 constexpr int32_t& System::__Array__ArrayEnumerator::__get__endIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endIndex;
 }
 constexpr int32_t const& System::__Array__ArrayEnumerator::__get__endIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endIndex;
 }
 constexpr void System::__Array__ArrayEnumerator::__set__endIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endIndex = value;
 }
 inline ::System::__Array__ArrayEnumerator* System::__Array__ArrayEnumerator::New_ctor(::System::Array* array) {
@@ -165,39 +165,39 @@ inline ::System::Object* System::__Array__ArrayEnumerator::get_Current() {
 // Ctor Parameters []
 constexpr ::System::__Array__ArrayEnumerator::__Array__ArrayEnumerator() {}
 constexpr void*& System::__Array__RawData::__get_Bounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Bounds;
 }
 constexpr void* const& System::__Array__RawData::__get_Bounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Bounds;
 }
 constexpr void System::__Array__RawData::__set_Bounds(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Bounds = value;
 }
 constexpr void*& System::__Array__RawData::__get_Count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Count;
 }
 constexpr void* const& System::__Array__RawData::__get_Count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Count;
 }
 constexpr void System::__Array__RawData::__set_Count(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Count = value;
 }
 constexpr uint8_t& System::__Array__RawData::__get_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Data;
 }
 constexpr uint8_t const& System::__Array__RawData::__get_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Data;
 }
 constexpr void System::__Array__RawData::__set_Data(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Data = value;
 }
 // Ctor Parameters []

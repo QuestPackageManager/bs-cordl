@@ -103,39 +103,39 @@ constexpr Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::operator ::O
   return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_generator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_generator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generator;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__set_generator(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___generator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_window() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_window() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___window;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___window)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_windowCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowCount;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_windowCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowCount;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__set_windowCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowCount = value;
 }
 inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator,

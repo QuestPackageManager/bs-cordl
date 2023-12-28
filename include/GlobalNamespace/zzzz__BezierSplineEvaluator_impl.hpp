@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
-#include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult._ctor
 template <>
 
@@ -249,27 +249,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& GlobalNamespace::BezierSplineEvaluator::__get__segments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____segments;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*> const& GlobalNamespace::BezierSplineEvaluator::__get__segments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____segments;
 }
 constexpr void GlobalNamespace::BezierSplineEvaluator::__set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____segments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::BezierSplineEvaluator::__get__currentSegmentIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSegmentIndex;
 }
 constexpr int32_t const& GlobalNamespace::BezierSplineEvaluator::__get__currentSegmentIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSegmentIndex;
 }
 constexpr void GlobalNamespace::BezierSplineEvaluator::__set__currentSegmentIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentSegmentIndex = value;
 }
 inline ::GlobalNamespace::BezierSplineEvaluator* GlobalNamespace::BezierSplineEvaluator::New_ctor(::GlobalNamespace::BezierSpline* spline) {

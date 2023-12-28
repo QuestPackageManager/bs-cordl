@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsProcessableFile)
 namespace System::IO {
-class Stream;
-}
-namespace System::IO {
 class FileInfo;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

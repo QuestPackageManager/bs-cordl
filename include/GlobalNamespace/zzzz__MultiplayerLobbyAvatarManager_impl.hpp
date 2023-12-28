@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -115,65 +115,65 @@ constexpr GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDest
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarManager*& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarManager*> const&
 GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get_userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr ::StringW const& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get_userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr void GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__set_userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get_multiplayerAvatar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerAvatar;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const&
 GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get_multiplayerAvatar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerAvatar;
 }
 constexpr void GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__set_multiplayerAvatar(::GlobalNamespace::MultiplayerLobbyAvatarController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multiplayerAvatar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13*
@@ -352,80 +352,80 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__lobbyStateDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__lobbyStateDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyAvatarManager::__set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyStateDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory*& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__avatarControllerFactory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarControllerFactory;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory*> const&
 GlobalNamespace::MultiplayerLobbyAvatarManager::__get__avatarControllerFactory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarControllerFactory;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyAvatarManager::__set__avatarControllerFactory(::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarControllerFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__innerCircleRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerCircleRadius;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__innerCircleRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerCircleRadius;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyAvatarManager::__set__innerCircleRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____innerCircleRadius = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__minOuterCircleRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minOuterCircleRadius;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__minOuterCircleRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minOuterCircleRadius;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyAvatarManager::__set__minOuterCircleRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minOuterCircleRadius = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>*& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__playerIdToAvatarMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerIdToAvatarMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>*> const&
 GlobalNamespace::MultiplayerLobbyAvatarManager::__get__playerIdToAvatarMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerIdToAvatarMap;
 }
 constexpr void
 GlobalNamespace::MultiplayerLobbyAvatarManager::__set__playerIdToAvatarMap(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerIdToAvatarMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*& GlobalNamespace::MultiplayerLobbyAvatarManager::__get__inProgressDespawnAnimations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inProgressDespawnAnimations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*> const&
 GlobalNamespace::MultiplayerLobbyAvatarManager::__get__inProgressDespawnAnimations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inProgressDespawnAnimations;
 }
 constexpr void
 GlobalNamespace::MultiplayerLobbyAvatarManager::__set__inProgressDespawnAnimations(::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inProgressDespawnAnimations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerLobbyAvatarManager::Init(float_t innerCircleRadius, float_t minOuterCircleRadius) {

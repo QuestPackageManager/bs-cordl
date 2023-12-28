@@ -9,77 +9,77 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dictionary_2)
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
-}
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+struct StreamingContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+struct InsertionBehavior;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Array;
 }
 namespace System::Collections::Generic {
-struct InsertionBehavior;
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+class IDictionaryEnumerator;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __Dictionary_2__KeyCollection__Enumerator;

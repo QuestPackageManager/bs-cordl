@@ -4,7 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(Triangulatable)
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
@@ -12,14 +18,8 @@ class TriangulationContext;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

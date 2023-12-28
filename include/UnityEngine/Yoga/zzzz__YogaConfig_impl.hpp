@@ -99,27 +99,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& UnityEngine::Yoga::YogaConfig::__get__ygConfig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ygConfig;
 }
 constexpr void* const& UnityEngine::Yoga::YogaConfig::__get__ygConfig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ygConfig;
 }
 constexpr void UnityEngine::Yoga::YogaConfig::__set__ygConfig(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ygConfig = value;
 }
 constexpr ::UnityEngine::Yoga::Logger*& UnityEngine::Yoga::YogaConfig::__get__logger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::Logger*> const& UnityEngine::Yoga::YogaConfig::__get__logger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
 constexpr void UnityEngine::Yoga::YogaConfig::__set__logger(::UnityEngine::Yoga::Logger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::Yoga::YogaConfig::setStaticF_Default(::UnityEngine::Yoga::YogaConfig* value) {

@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TrackLaneRing.get_destRotZ
 template <>
 
@@ -129,123 +129,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__prevRotZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevRotZ;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__prevRotZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevRotZ;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__prevRotZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevRotZ = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__rotZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotZ;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__rotZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotZ;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__rotZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotZ = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__destRotZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destRotZ;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__destRotZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destRotZ;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__destRotZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____destRotZ = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__rotationSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationSpeed;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__rotationSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationSpeed;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__rotationSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationSpeed = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__prevPosZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevPosZ;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__prevPosZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevPosZ;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__prevPosZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevPosZ = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__posZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posZ;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__posZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posZ;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__posZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____posZ = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__destPosZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destPosZ;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__destPosZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destPosZ;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__destPosZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____destPosZ = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRing::__get__moveSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveSpeed;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRing::__get__moveSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveSpeed;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__moveSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveSpeed = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::TrackLaneRing::__get__positionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::TrackLaneRing::__get__positionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionOffset;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__positionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positionOffset = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::TrackLaneRing::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::TrackLaneRing::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::TrackLaneRing::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::TrackLaneRing::get_destRotZ() {

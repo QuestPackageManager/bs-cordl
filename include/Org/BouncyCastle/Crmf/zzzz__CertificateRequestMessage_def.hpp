@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoSigningKey;
+class CertTemplate;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertReqMsg;
@@ -24,11 +24,11 @@ class CertReqMsg;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoSigningKey;
+}
 namespace Org::BouncyCastle::Crmf {
 class IControl;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VoipAudioSourceHiLevel)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace Oculus::Platform {
 class __VoipAudioSourceHiLevel__FilterReadDelegate;
 }
 namespace Oculus::Platform {
-class IVoipPCMSource;
+struct VoipSampleRate;
 }
 namespace Oculus::Platform {
-struct VoipSampleRate;
+class IVoipPCMSource;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -33,51 +33,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::HealthWarningDisplayViewController::__get__healthAndSafetyTextMesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthAndSafetyTextMesh;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::HealthWarningDisplayViewController::__get__healthAndSafetyTextMesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthAndSafetyTextMesh;
 }
 constexpr void GlobalNamespace::HealthWarningDisplayViewController::__set__healthAndSafetyTextMesh(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____healthAndSafetyTextMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::HealthWarningDisplayViewController::__get__healthAndSafetyFullLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthAndSafetyFullLocalizationKey;
 }
 constexpr ::StringW const& GlobalNamespace::HealthWarningDisplayViewController::__get__healthAndSafetyFullLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthAndSafetyFullLocalizationKey;
 }
 constexpr void GlobalNamespace::HealthWarningDisplayViewController::__set__healthAndSafetyFullLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____healthAndSafetyFullLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::HealthWarningDisplayViewController::__get__healthAndSafetyPSLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthAndSafetyPSLocalizationKey;
 }
 constexpr ::StringW const& GlobalNamespace::HealthWarningDisplayViewController::__get__healthAndSafetyPSLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthAndSafetyPSLocalizationKey;
 }
 constexpr void GlobalNamespace::HealthWarningDisplayViewController::__set__healthAndSafetyPSLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____healthAndSafetyPSLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::HealthWarningDisplayViewController::__get__showShortHealthAndSafety() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showShortHealthAndSafety;
 }
 constexpr bool const& GlobalNamespace::HealthWarningDisplayViewController::__get__showShortHealthAndSafety() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showShortHealthAndSafety;
 }
 constexpr void GlobalNamespace::HealthWarningDisplayViewController::__set__showShortHealthAndSafety(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showShortHealthAndSafety = value;
 }
 inline void GlobalNamespace::HealthWarningDisplayViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {

@@ -3,9 +3,9 @@
 #include "UnityEngine/ResourceManagement/Util/zzzz__ResourceManagerConfig_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig.ExtractKeyAndSubKey
 template <>
 

@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/Internal/zzzz__LookupId_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 //  Writing Method size for method: ::Zenject::Internal::LookupId._ctor
 template <>
 
@@ -48,27 +48,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::IProvider*& Zenject::Internal::LookupId::__get_Provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::Internal::LookupId::__get_Provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Provider;
 }
 constexpr void Zenject::Internal::LookupId::__set_Provider(::Zenject::IProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::BindingId& Zenject::Internal::LookupId::__get_BindingId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BindingId;
 }
 constexpr ::Zenject::BindingId const& Zenject::Internal::LookupId::__get_BindingId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BindingId;
 }
 constexpr void Zenject::Internal::LookupId::__set_BindingId(::Zenject::BindingId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BindingId = value;
 }
 inline ::Zenject::Internal::LookupId* Zenject::Internal::LookupId::New_ctor() {

@@ -9,31 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate)
 namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
+}
+namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyStorageFlags;
 }
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

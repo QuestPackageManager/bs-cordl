@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyDescriptorCollection)
+namespace System {
+class Object;
+}
+namespace System::ComponentModel {
+class __PropertyDescriptorCollection__PropertyDescriptorEnumerator;
+}
 namespace System::Collections {
 class ICollection;
 }
 namespace System {
 class Array;
 }
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
 namespace System::Collections {
-class IEnumerator;
+class IDictionary;
 }
 namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerable;
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class __PropertyDescriptorCollection__PropertyDescriptorEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
 struct DictionaryEntry;

@@ -125,51 +125,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_x0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x0;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_x0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x0;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__set_x0(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x0 = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__set_c(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_x0L() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x0L;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_x0L() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x0L;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__set_x0L(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x0L = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_cL() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cL;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_cL() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cL;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__set_cL(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cL = value;
 }
 inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::New_ctor(int32_t x0, int32_t c) {

@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneStartHandler)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

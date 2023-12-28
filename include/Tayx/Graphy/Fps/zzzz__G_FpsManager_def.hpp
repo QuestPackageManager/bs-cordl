@@ -5,11 +5,23 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_FpsManager)
-namespace Tayx::Graphy {
-class GraphyManager;
-}
 namespace Tayx::Graphy::Fps {
 class G_FpsGraph;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsText;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -17,26 +29,14 @@ template <typename T> class List_1;
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
 }
-namespace Tayx::Graphy::Fps {
-class G_FpsText;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+class GraphyManager;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class GameObject;
 }
 namespace Tayx::Graphy::UI {
 class IModifiableState;
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15082))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsManager*
 class CORDL_TYPE G_FpsManager : public ::UnityEngine::MonoBehaviour {

@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ZenjectSceneLoader_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-#include "Zenject/zzzz__LoadSceneRelationship_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__ProjectKernel_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "Zenject/zzzz__ProjectKernel_def.hpp"
+#include "Zenject/zzzz__LoadSceneRelationship_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::ZenjectSceneLoader._ctor
 template <>
 
@@ -420,27 +420,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::ProjectKernel*& Zenject::ZenjectSceneLoader::__get__projectKernel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____projectKernel;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::ProjectKernel*> const& Zenject::ZenjectSceneLoader::__get__projectKernel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____projectKernel;
 }
 constexpr void Zenject::ZenjectSceneLoader::__set__projectKernel(::Zenject::ProjectKernel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____projectKernel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DiContainer*& Zenject::ZenjectSceneLoader::__get__sceneContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::ZenjectSceneLoader::__get__sceneContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneContainer;
 }
 constexpr void Zenject::ZenjectSceneLoader::__set__sceneContainer(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::ZenjectSceneLoader* Zenject::ZenjectSceneLoader::New_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel) {

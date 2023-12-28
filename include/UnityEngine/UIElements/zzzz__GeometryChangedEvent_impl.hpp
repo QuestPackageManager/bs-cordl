@@ -151,39 +151,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::GeometryChangedEvent::__get__oldRect_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oldRect_k__BackingField;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::GeometryChangedEvent::__get__oldRect_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oldRect_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::GeometryChangedEvent::__set__oldRect_k__BackingField(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____oldRect_k__BackingField = value;
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::GeometryChangedEvent::__get__newRect_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newRect_k__BackingField;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::GeometryChangedEvent::__get__newRect_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newRect_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::GeometryChangedEvent::__set__newRect_k__BackingField(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____newRect_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::GeometryChangedEvent::__get__layoutPass_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutPass_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::GeometryChangedEvent::__get__layoutPass_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutPass_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::GeometryChangedEvent::__set__layoutPass_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layoutPass_k__BackingField = value;
 }
 inline ::UnityEngine::UIElements::GeometryChangedEvent* UnityEngine::UIElements::GeometryChangedEvent::GetPooled(::UnityEngine::Rect oldRect, ::UnityEngine::Rect newRect) {

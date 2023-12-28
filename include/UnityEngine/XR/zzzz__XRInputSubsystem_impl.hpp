@@ -118,39 +118,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& UnityEngine::XR::XRInputSubsystem::__get_trackingOriginUpdated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackingOriginUpdated;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*> const& UnityEngine::XR::XRInputSubsystem::__get_trackingOriginUpdated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackingOriginUpdated;
 }
 constexpr void UnityEngine::XR::XRInputSubsystem::__set_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___trackingOriginUpdated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& UnityEngine::XR::XRInputSubsystem::__get_boundaryChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boundaryChanged;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*> const& UnityEngine::XR::XRInputSubsystem::__get_boundaryChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boundaryChanged;
 }
 constexpr void UnityEngine::XR::XRInputSubsystem::__set_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boundaryChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<uint64_t>*& UnityEngine::XR::XRInputSubsystem::__get_m_DeviceIdsCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceIdsCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint64_t>*> const& UnityEngine::XR::XRInputSubsystem::__get_m_DeviceIdsCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceIdsCache;
 }
 constexpr void UnityEngine::XR::XRInputSubsystem::__set_m_DeviceIdsCache(::System::Collections::Generic::List_1<uint64_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceIdsCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::XR::XRInputSubsystem::TryRecenter() {

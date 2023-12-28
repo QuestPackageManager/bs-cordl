@@ -10,13 +10,13 @@ namespace System {
 class __TypeNames__ATypeName;
 }
 namespace System {
+class TypeName;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class TypeName;
 }
 // Forward declare root types
 namespace System {

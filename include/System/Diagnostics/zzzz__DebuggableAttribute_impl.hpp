@@ -30,15 +30,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& System::Diagnostics::DebuggableAttribute::__get_m_debuggingModes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_debuggingModes;
 }
 constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const& System::Diagnostics::DebuggableAttribute::__get_m_debuggingModes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_debuggingModes;
 }
 constexpr void System::Diagnostics::DebuggableAttribute::__set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_debuggingModes = value;
 }
 inline ::System::Diagnostics::DebuggableAttribute* System::Diagnostics::DebuggableAttribute::New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes) {

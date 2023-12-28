@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
-#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "LeftFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: Some("{}") }]
@@ -285,75 +285,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRDisplay::__get_needsConfigureTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needsConfigureTexture;
 }
 constexpr bool const& GlobalNamespace::OVRDisplay::__get_needsConfigureTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needsConfigureTexture;
 }
 constexpr void GlobalNamespace::OVRDisplay::__set_needsConfigureTexture(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___needsConfigureTexture = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*>& GlobalNamespace::OVRDisplay::__get_eyeDescs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eyeDescs;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> const& GlobalNamespace::OVRDisplay::__get_eyeDescs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eyeDescs;
 }
 constexpr void GlobalNamespace::OVRDisplay::__set_eyeDescs(::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eyeDescs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRDisplay::__get_recenterRequested() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recenterRequested;
 }
 constexpr bool const& GlobalNamespace::OVRDisplay::__get_recenterRequested() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recenterRequested;
 }
 constexpr void GlobalNamespace::OVRDisplay::__set_recenterRequested(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recenterRequested = value;
 }
 constexpr int32_t& GlobalNamespace::OVRDisplay::__get_recenterRequestedFrameCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recenterRequestedFrameCount;
 }
 constexpr int32_t const& GlobalNamespace::OVRDisplay::__get_recenterRequestedFrameCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recenterRequestedFrameCount;
 }
 constexpr void GlobalNamespace::OVRDisplay::__set_recenterRequestedFrameCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recenterRequestedFrameCount = value;
 }
 constexpr int32_t& GlobalNamespace::OVRDisplay::__get_localTrackingSpaceRecenterCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localTrackingSpaceRecenterCount;
 }
 constexpr int32_t const& GlobalNamespace::OVRDisplay::__get_localTrackingSpaceRecenterCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localTrackingSpaceRecenterCount;
 }
 constexpr void GlobalNamespace::OVRDisplay::__set_localTrackingSpaceRecenterCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localTrackingSpaceRecenterCount = value;
 }
 constexpr ::System::Action*& GlobalNamespace::OVRDisplay::__get_RecenteredPose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RecenteredPose;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRDisplay::__get_RecenteredPose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RecenteredPose;
 }
 constexpr void GlobalNamespace::OVRDisplay::__set_RecenteredPose(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RecenteredPose)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::OVRDisplay* GlobalNamespace::OVRDisplay::New_ctor() {

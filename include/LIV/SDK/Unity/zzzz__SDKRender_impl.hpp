@@ -6,22 +6,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKRender_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Plane_def.hpp"
-#include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKOutputFrame_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKResolution_def.hpp"
+#include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ColorWriteMask_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__Plane_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKOutputFrame_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKRender.GetClipPlaneMaterial
 template <>
@@ -691,327 +691,327 @@ constexpr LIV::SDK::Unity::SDKRender::operator ::System::IDisposable*() noexcept
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer*& LIV::SDK::Unity::SDKRender::__get__clipPlaneCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneCommandBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& LIV::SDK::Unity::SDKRender::__get__clipPlaneCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneCommandBuffer;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipPlaneCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer*& LIV::SDK::Unity::SDKRender::__get__combineAlphaCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____combineAlphaCommandBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& LIV::SDK::Unity::SDKRender::__get__combineAlphaCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____combineAlphaCommandBuffer;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__combineAlphaCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____combineAlphaCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer*& LIV::SDK::Unity::SDKRender::__get__captureTextureCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureTextureCommandBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& LIV::SDK::Unity::SDKRender::__get__captureTextureCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureTextureCommandBuffer;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__captureTextureCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____captureTextureCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer*& LIV::SDK::Unity::SDKRender::__get__applyTextureCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyTextureCommandBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& LIV::SDK::Unity::SDKRender::__get__applyTextureCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applyTextureCommandBuffer;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__applyTextureCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____applyTextureCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer*& LIV::SDK::Unity::SDKRender::__get__optimizedRenderingCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optimizedRenderingCommandBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& LIV::SDK::Unity::SDKRender::__get__optimizedRenderingCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optimizedRenderingCommandBuffer;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__optimizedRenderingCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____optimizedRenderingCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rendering::CameraEvent& LIV::SDK::Unity::SDKRender::__get__clipPlaneCameraEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneCameraEvent;
 }
 constexpr ::UnityEngine::Rendering::CameraEvent const& LIV::SDK::Unity::SDKRender::__get__clipPlaneCameraEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneCameraEvent;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneCameraEvent(::UnityEngine::Rendering::CameraEvent value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clipPlaneCameraEvent = value;
 }
 constexpr ::UnityEngine::Rendering::CameraEvent& LIV::SDK::Unity::SDKRender::__get__optimizedRenderingCameraEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optimizedRenderingCameraEvent;
 }
 constexpr ::UnityEngine::Rendering::CameraEvent const& LIV::SDK::Unity::SDKRender::__get__optimizedRenderingCameraEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optimizedRenderingCameraEvent;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__optimizedRenderingCameraEvent(::UnityEngine::Rendering::CameraEvent value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____optimizedRenderingCameraEvent = value;
 }
 constexpr ::UnityEngine::Mesh*& LIV::SDK::Unity::SDKRender::__get__clipPlaneMesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneMesh;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& LIV::SDK::Unity::SDKRender::__get__clipPlaneMesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneMesh;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneMesh(::UnityEngine::Mesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipPlaneMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__clipPlaneSimpleMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneSimpleMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__clipPlaneSimpleMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneSimpleMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneSimpleMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipPlaneSimpleMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__clipPlaneSimpleDebugMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneSimpleDebugMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__clipPlaneSimpleDebugMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneSimpleDebugMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneSimpleDebugMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipPlaneSimpleDebugMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__clipPlaneComplexMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneComplexMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__clipPlaneComplexMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneComplexMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneComplexMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipPlaneComplexMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__clipPlaneComplexDebugMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneComplexDebugMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__clipPlaneComplexDebugMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clipPlaneComplexDebugMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__clipPlaneComplexDebugMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clipPlaneComplexDebugMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__writeOpaqueToAlphaMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeOpaqueToAlphaMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__writeOpaqueToAlphaMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeOpaqueToAlphaMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__writeOpaqueToAlphaMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writeOpaqueToAlphaMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__combineAlphaMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____combineAlphaMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__combineAlphaMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____combineAlphaMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__combineAlphaMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____combineAlphaMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__writeMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__writeMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__writeMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writeMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& LIV::SDK::Unity::SDKRender::__get__forceForwardRenderingMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceForwardRenderingMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& LIV::SDK::Unity::SDKRender::__get__forceForwardRenderingMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceForwardRenderingMaterial;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__forceForwardRenderingMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____forceForwardRenderingMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& LIV::SDK::Unity::SDKRender::__get__backgroundRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundRenderTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& LIV::SDK::Unity::SDKRender::__get__backgroundRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundRenderTexture;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__backgroundRenderTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backgroundRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& LIV::SDK::Unity::SDKRender::__get__foregroundRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____foregroundRenderTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& LIV::SDK::Unity::SDKRender::__get__foregroundRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____foregroundRenderTexture;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__foregroundRenderTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____foregroundRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& LIV::SDK::Unity::SDKRender::__get__optimizedRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optimizedRenderTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& LIV::SDK::Unity::SDKRender::__get__optimizedRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____optimizedRenderTexture;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__optimizedRenderTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____optimizedRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& LIV::SDK::Unity::SDKRender::__get__complexClipPlaneRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____complexClipPlaneRenderTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& LIV::SDK::Unity::SDKRender::__get__complexClipPlaneRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____complexClipPlaneRenderTexture;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__complexClipPlaneRenderTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____complexClipPlaneRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LIV::SDK::Unity::LIV*& LIV::SDK::Unity::SDKRender::__get__liv() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____liv;
 }
 constexpr ::cordl_internals::to_const_pointer<::LIV::SDK::Unity::LIV*> const& LIV::SDK::Unity::SDKRender::__get__liv() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____liv;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__liv(::LIV::SDK::Unity::LIV* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____liv)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LIV::SDK::Unity::SDKOutputFrame& LIV::SDK::Unity::SDKRender::__get__outputFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputFrame;
 }
 constexpr ::LIV::SDK::Unity::SDKOutputFrame const& LIV::SDK::Unity::SDKRender::__get__outputFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outputFrame;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__outputFrame(::LIV::SDK::Unity::SDKOutputFrame value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____outputFrame = value;
 }
 constexpr ::LIV::SDK::Unity::SDKInputFrame& LIV::SDK::Unity::SDKRender::__get__inputFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFrame;
 }
 constexpr ::LIV::SDK::Unity::SDKInputFrame const& LIV::SDK::Unity::SDKRender::__get__inputFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFrame;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__inputFrame(::LIV::SDK::Unity::SDKInputFrame value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inputFrame = value;
 }
 constexpr ::LIV::SDK::Unity::SDKResolution& LIV::SDK::Unity::SDKRender::__get__resolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolution;
 }
 constexpr ::LIV::SDK::Unity::SDKResolution const& LIV::SDK::Unity::SDKRender::__get__resolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolution;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__resolution(::LIV::SDK::Unity::SDKResolution value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resolution = value;
 }
 constexpr ::UnityEngine::Camera*& LIV::SDK::Unity::SDKRender::__get__cameraInstance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraInstance;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& LIV::SDK::Unity::SDKRender::__get__cameraInstance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraInstance;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__cameraInstance(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cameraInstance)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LIV::SDK::Unity::SDKPose& LIV::SDK::Unity::SDKRender::__get__requestedPose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestedPose;
 }
 constexpr ::LIV::SDK::Unity::SDKPose const& LIV::SDK::Unity::SDKRender::__get__requestedPose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestedPose;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__requestedPose(::LIV::SDK::Unity::SDKPose value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requestedPose = value;
 }
 constexpr int32_t& LIV::SDK::Unity::SDKRender::__get__requestedPoseFrameIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestedPoseFrameIndex;
 }
 constexpr int32_t const& LIV::SDK::Unity::SDKRender::__get__requestedPoseFrameIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestedPoseFrameIndex;
 }
 constexpr void LIV::SDK::Unity::SDKRender::__set__requestedPoseFrameIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requestedPoseFrameIndex = value;
 }
 inline ::UnityEngine::Material* LIV::SDK::Unity::SDKRender::GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask) {

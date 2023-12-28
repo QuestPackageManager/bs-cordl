@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WindowsConsoleDriver)
 namespace System {
-struct ConsoleKeyInfo;
-}
-namespace System {
 struct ConsoleScreenBufferInfo;
 }
 namespace System {
-struct Handles;
+struct InputRecord;
 }
 namespace System {
-struct InputRecord;
+struct ConsoleKeyInfo;
+}
+namespace System {
+struct Handles;
 }
 namespace System {
 class IConsoleDriver;

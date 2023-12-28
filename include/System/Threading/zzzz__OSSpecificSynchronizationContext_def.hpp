@@ -11,22 +11,22 @@ namespace System::Threading {
 class SendOrPostCallback;
 }
 namespace System::Threading {
-class __OSSpecificSynchronizationContext__InvocationEntryDelegate;
-}
-namespace System::Threading {
-class SynchronizationContext;
-}
-namespace System::Threading {
 class __OSSpecificSynchronizationContext__InvocationContext;
+}
+namespace System::Threading {
+class __OSSpecificSynchronizationContext__InvocationEntryDelegate;
 }
 namespace System::Threading {
 class __OSSpecificSynchronizationContext____c;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
 namespace System {
 class Object;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;

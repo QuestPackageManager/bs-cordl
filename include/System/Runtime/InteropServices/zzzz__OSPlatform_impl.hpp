@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/InteropServices/zzzz__OSPlatform_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::OSPlatform.get_Linux
 template <>
 

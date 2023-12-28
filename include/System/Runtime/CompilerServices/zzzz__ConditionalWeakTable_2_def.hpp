@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConditionalWeakTable_2)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Runtime::CompilerServices {
-struct Ephemeron;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
+struct Ephemeron;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System {
-class Object;
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -98,8 +98,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
   // Declarations

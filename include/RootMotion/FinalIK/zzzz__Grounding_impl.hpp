@@ -520,255 +520,255 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& RootMotion::FinalIK::__Grounding__Leg::__get__isGrounded_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isGrounded_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::__Grounding__Leg::__get__isGrounded_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isGrounded_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__isGrounded_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isGrounded_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Leg::__get__IKPosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IKPosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Leg::__get__IKPosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IKPosition_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__IKPosition_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IKPosition_k__BackingField = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__Grounding__Leg::__get_rotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__Grounding__Leg::__get_rotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_rotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationOffset = value;
 }
 constexpr bool& RootMotion::FinalIK::__Grounding__Leg::__get__initiated_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initiated_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::__Grounding__Leg::__get__initiated_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initiated_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__initiated_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initiated_k__BackingField = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Leg::__get__heightFromGround_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightFromGround_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Leg::__get__heightFromGround_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightFromGround_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__heightFromGround_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heightFromGround_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Leg::__get__velocity_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____velocity_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Leg::__get__velocity_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____velocity_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__velocity_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____velocity_k__BackingField = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__Grounding__Leg::__get__transform_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__Grounding__Leg::__get__transform_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__transform_k__BackingField(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Leg::__get__IKOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IKOffset_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Leg::__get__IKOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IKOffset_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__IKOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IKOffset_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::__Grounding__Leg::__get_invertFootCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertFootCenter;
 }
 constexpr bool const& RootMotion::FinalIK::__Grounding__Leg::__get_invertFootCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertFootCenter;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_invertFootCenter(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invertFootCenter = value;
 }
 constexpr ::UnityEngine::RaycastHit& RootMotion::FinalIK::__Grounding__Leg::__get__heelHit_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heelHit_k__BackingField;
 }
 constexpr ::UnityEngine::RaycastHit const& RootMotion::FinalIK::__Grounding__Leg::__get__heelHit_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heelHit_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__heelHit_k__BackingField(::UnityEngine::RaycastHit value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heelHit_k__BackingField = value;
 }
 constexpr ::UnityEngine::RaycastHit& RootMotion::FinalIK::__Grounding__Leg::__get__capsuleHit_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsuleHit_k__BackingField;
 }
 constexpr ::UnityEngine::RaycastHit const& RootMotion::FinalIK::__Grounding__Leg::__get__capsuleHit_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capsuleHit_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set__capsuleHit_k__BackingField(::UnityEngine::RaycastHit value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____capsuleHit_k__BackingField = value;
 }
 constexpr ::RootMotion::FinalIK::Grounding*& RootMotion::FinalIK::__Grounding__Leg::__get_grounding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___grounding;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& RootMotion::FinalIK::__Grounding__Leg::__get_grounding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___grounding;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_grounding(::RootMotion::FinalIK::Grounding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___grounding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Leg::__get_lastTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTime;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Leg::__get_lastTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTime;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_lastTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastTime = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Leg::__get_deltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deltaTime;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Leg::__get_deltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deltaTime;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_deltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___deltaTime = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Leg::__get_lastPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Leg::__get_lastPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastPosition;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_lastPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__Grounding__Leg::__get_toHitNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toHitNormal;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__Grounding__Leg::__get_toHitNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toHitNormal;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_toHitNormal(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toHitNormal = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__Grounding__Leg::__get_r() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__Grounding__Leg::__get_r() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_r(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Leg::__get_up() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___up;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Leg::__get_up() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___up;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_up(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___up = value;
 }
 constexpr bool& RootMotion::FinalIK::__Grounding__Leg::__get_doOverrideFootPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doOverrideFootPosition;
 }
 constexpr bool const& RootMotion::FinalIK::__Grounding__Leg::__get_doOverrideFootPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doOverrideFootPosition;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_doOverrideFootPosition(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___doOverrideFootPosition = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Leg::__get_overrideFootPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideFootPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Leg::__get_overrideFootPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideFootPosition;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_overrideFootPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideFootPosition = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Leg::__get_transformPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transformPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Leg::__get_transformPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___transformPosition;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Leg::__set_transformPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___transformPosition = value;
 }
 inline bool RootMotion::FinalIK::__Grounding__Leg::get_isGrounded() {
@@ -1101,87 +1101,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Pelvis::__get__IKOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IKOffset_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Pelvis::__get__IKOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IKOffset_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set__IKOffset_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IKOffset_k__BackingField = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Pelvis::__get__heightOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightOffset_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Pelvis::__get__heightOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____heightOffset_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set__heightOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____heightOffset_k__BackingField = value;
 }
 constexpr ::RootMotion::FinalIK::Grounding*& RootMotion::FinalIK::__Grounding__Pelvis::__get_grounding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___grounding;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& RootMotion::FinalIK::__Grounding__Pelvis::__get_grounding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___grounding;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set_grounding(::RootMotion::FinalIK::Grounding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___grounding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Grounding__Pelvis::__get_lastRootPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastRootPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Grounding__Pelvis::__get_lastRootPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastRootPosition;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set_lastRootPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastRootPosition = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Pelvis::__get_damperF() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___damperF;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Pelvis::__get_damperF() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___damperF;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set_damperF(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___damperF = value;
 }
 constexpr bool& RootMotion::FinalIK::__Grounding__Pelvis::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::__Grounding__Pelvis::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Grounding__Pelvis::__get_lastTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTime;
 }
 constexpr float_t const& RootMotion::FinalIK::__Grounding__Pelvis::__get_lastTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastTime;
 }
 constexpr void RootMotion::FinalIK::__Grounding__Pelvis::__set_lastTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastTime = value;
 }
 inline ::UnityEngine::Vector3 RootMotion::FinalIK::__Grounding__Pelvis::get_IKOffset() {
@@ -1577,291 +1577,291 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::LayerMask& RootMotion::FinalIK::Grounding::__get_layers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layers;
 }
 constexpr ::UnityEngine::LayerMask const& RootMotion::FinalIK::Grounding::__get_layers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layers;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_layers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layers = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_maxStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxStep;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_maxStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxStep;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_maxStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxStep = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_heightOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heightOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_heightOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heightOffset;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_heightOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___heightOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_footSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_footSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footSpeed;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_footSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_footRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRadius;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_footRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRadius;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_footRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footRadius = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_footCenterOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footCenterOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_footCenterOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footCenterOffset;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_footCenterOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footCenterOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_prediction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prediction;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_prediction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prediction;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_prediction(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prediction = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_footRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_footRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotationWeight;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_footRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footRotationWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_footRotationSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotationSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_footRotationSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotationSpeed;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_footRotationSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footRotationSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_maxFootRotationAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxFootRotationAngle;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_maxFootRotationAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxFootRotationAngle;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_maxFootRotationAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxFootRotationAngle = value;
 }
 constexpr bool& RootMotion::FinalIK::Grounding::__get_rotateSolver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateSolver;
 }
 constexpr bool const& RootMotion::FinalIK::Grounding::__get_rotateSolver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateSolver;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_rotateSolver(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotateSolver = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_pelvisSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_pelvisSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisSpeed;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_pelvisSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_pelvisDamper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisDamper;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_pelvisDamper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisDamper;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_pelvisDamper(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisDamper = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_lowerPelvisWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lowerPelvisWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_lowerPelvisWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lowerPelvisWeight;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_lowerPelvisWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lowerPelvisWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_liftPelvisWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___liftPelvisWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_liftPelvisWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___liftPelvisWeight;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_liftPelvisWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___liftPelvisWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::Grounding::__get_rootSphereCastRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootSphereCastRadius;
 }
 constexpr float_t const& RootMotion::FinalIK::Grounding::__get_rootSphereCastRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootSphereCastRadius;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_rootSphereCastRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootSphereCastRadius = value;
 }
 constexpr bool& RootMotion::FinalIK::Grounding::__get_overstepFallsDown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overstepFallsDown;
 }
 constexpr bool const& RootMotion::FinalIK::Grounding::__get_overstepFallsDown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overstepFallsDown;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_overstepFallsDown(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overstepFallsDown = value;
 }
 constexpr ::RootMotion::FinalIK::__Grounding__Quality& RootMotion::FinalIK::Grounding::__get_quality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quality;
 }
 constexpr ::RootMotion::FinalIK::__Grounding__Quality const& RootMotion::FinalIK::Grounding::__get_quality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quality;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_quality(::RootMotion::FinalIK::__Grounding__Quality value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___quality = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*>& RootMotion::FinalIK::Grounding::__get__legs_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____legs_k__BackingField;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> const& RootMotion::FinalIK::Grounding::__get__legs_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____legs_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set__legs_k__BackingField(::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____legs_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__Grounding__Pelvis*& RootMotion::FinalIK::Grounding::__get__pelvis_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pelvis_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__Grounding__Pelvis*> const& RootMotion::FinalIK::Grounding::__get__pelvis_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pelvis_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set__pelvis_k__BackingField(::RootMotion::FinalIK::__Grounding__Pelvis* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pelvis_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::Grounding::__get__isGrounded_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isGrounded_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::Grounding::__get__isGrounded_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isGrounded_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set__isGrounded_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isGrounded_k__BackingField = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::Grounding::__get__root_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____root_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::Grounding::__get__root_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____root_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set__root_k__BackingField(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____root_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RaycastHit& RootMotion::FinalIK::Grounding::__get__rootHit_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootHit_k__BackingField;
 }
 constexpr ::UnityEngine::RaycastHit const& RootMotion::FinalIK::Grounding::__get__rootHit_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootHit_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set__rootHit_k__BackingField(::UnityEngine::RaycastHit value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rootHit_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::Grounding::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::Grounding::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::Grounding::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 inline ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> RootMotion::FinalIK::Grounding::get_legs() {

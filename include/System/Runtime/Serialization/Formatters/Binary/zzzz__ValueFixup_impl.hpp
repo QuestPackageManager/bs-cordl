@@ -2,10 +2,10 @@
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixupEnum_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixup_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ValueFixup._ctor
 template <>
@@ -57,88 +57,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_valueFixupEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueFixupEnum;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_valueFixupEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueFixupEnum;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueFixupEnum = value;
 }
 constexpr ::System::Array*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_arrayObj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayObj;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_arrayObj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayObj;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_arrayObj(::System::Array* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arrayObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_indexMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indexMap;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_indexMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indexMap;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_indexMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indexMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_header() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___header;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_header() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___header;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_header(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___header)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberObject;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_memberObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_objectInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const&
 System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_objectInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectInfo;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_objectInfo(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objectInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberName;
 }
 constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberName;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::__set_memberName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::Serialization::Formatters::Binary::ValueFixup::setStaticF_valueInfo(::System::Reflection::MemberInfo* value) {

@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreUIController)
 namespace GlobalNamespace {
-struct __ScoreUIController__ScoreDisplayType;
+class IScoreController;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class IScoreController;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace GlobalNamespace {
 class __ScoreUIController__InitData;
+}
+namespace GlobalNamespace {
+struct __ScoreUIController__ScoreDisplayType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

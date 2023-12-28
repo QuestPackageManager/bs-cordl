@@ -11,53 +11,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeFormatInfo)
-namespace System {
-class IFormatProvider;
-}
-namespace System::Globalization {
-class CompareInfo;
-}
-namespace System::Globalization {
-struct DateTimeFormatFlags;
-}
 namespace System::Globalization {
 class CultureData;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace System {
 struct __DTString;
 }
 namespace System::Globalization {
-struct DateTimeStyles;
-}
-namespace System::Globalization {
-struct CalendarId;
-}
-namespace System::Globalization {
-class __DateTimeFormatInfo__TokenHashValue;
-}
-namespace System::Globalization {
-class Calendar;
+class CompareInfo;
 }
 namespace System {
-struct DayOfWeek;
+class ICloneable;
 }
 namespace System {
 class Type;
 }
 namespace System {
+struct DayOfWeek;
+}
+namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System {
 struct TokenType;
 }
 namespace System::Globalization {
+struct CalendarId;
+}
+namespace System::Globalization {
+struct DateTimeFormatFlags;
+}
+namespace System {
+class Object;
+}
+namespace System::Globalization {
+class Calendar;
+}
+namespace System::Globalization {
+class __DateTimeFormatInfo__TokenHashValue;
+}
+namespace System::Globalization {
 struct MonthNameStyles;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System::Globalization {

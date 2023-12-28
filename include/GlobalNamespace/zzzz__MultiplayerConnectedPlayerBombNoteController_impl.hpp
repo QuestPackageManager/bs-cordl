@@ -3,8 +3,8 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController.Init
 template <>
 

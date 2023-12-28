@@ -8,8 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONArray)
-namespace HoudiniEngineUnity {
-struct JSONNodeType;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
@@ -21,31 +24,28 @@ namespace HoudiniEngineUnity {
 class __JSONArray___get_Children_d__22;
 }
 namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
 class JSONNode;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace HoudiniEngineUnity {
+struct __JSONNode__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__JSONArray___get_Children_d__22);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1690
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9870)) CS Name: ::JSONArray::<get_Children>d__22*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9869)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1690 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9870)) CS Name: ::JSONArray::<get_Children>d__22*
 class CORDL_TYPE __JSONArray___get_Children_d__22 : public ::System::Object {
 public:
   // Declarations

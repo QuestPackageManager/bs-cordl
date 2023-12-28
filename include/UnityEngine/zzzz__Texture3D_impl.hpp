@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__TextureCreationFlags_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Texture3D.get_isReadable
 template <>

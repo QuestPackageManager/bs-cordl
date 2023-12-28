@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(BinaryReadWriteHelper)
 namespace System::IO {
 class BinaryWriter;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace System::IO {
 class BinaryReader;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

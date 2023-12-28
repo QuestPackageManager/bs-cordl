@@ -10,11 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameAndParameters)
+namespace UnityEngine::InputSystem::Utilities {
+struct NamedValue;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem::Utilities {
-struct NamedValue;
+class __NameAndParameters____c;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
@@ -24,9 +27,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class __NameAndParameters____c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

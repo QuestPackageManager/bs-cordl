@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HeaderInfoTable_def.hpp"
-#include "System/Net/zzzz__HeaderParser_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Net/zzzz__HeaderInfo_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Net/zzzz__HeaderParser_def.hpp"
 //  Writing Method size for method: ::System::Net::HeaderInfoTable.ParseSingleValue
 template <>
 

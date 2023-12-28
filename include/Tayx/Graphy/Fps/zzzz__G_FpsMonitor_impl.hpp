@@ -236,147 +236,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamples() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamples;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamples() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamples;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamples(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsSamples)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesSorted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesSorted;
 }
 constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesSorted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesSorted;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamplesSorted(::ArrayW<int16_t, ::Array<int16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsSamplesSorted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCapacity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCapacity;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCapacity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCapacity;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamplesCapacity(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsSamplesCapacity = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_onePercentSamples() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_onePercentSamples;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_onePercentSamples() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_onePercentSamples;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_onePercentSamples(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_onePercentSamples = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_zero1PercentSamples() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_zero1PercentSamples;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_zero1PercentSamples() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_zero1PercentSamples;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_zero1PercentSamples(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_zero1PercentSamples = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCount;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCount;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamplesCount(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsSamplesCount = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_indexSample() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexSample;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_indexSample() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexSample;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_indexSample(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_indexSample = value;
 }
 constexpr float_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_unscaledDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_unscaledDeltaTime;
 }
 constexpr float_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_unscaledDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_unscaledDeltaTime;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_unscaledDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_unscaledDeltaTime = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__CurrentFPS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurrentFPS_k__BackingField;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__CurrentFPS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurrentFPS_k__BackingField;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__CurrentFPS_k__BackingField(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CurrentFPS_k__BackingField = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__AverageFPS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AverageFPS_k__BackingField;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__AverageFPS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AverageFPS_k__BackingField;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__AverageFPS_k__BackingField(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AverageFPS_k__BackingField = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__OnePercentFPS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OnePercentFPS_k__BackingField;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__OnePercentFPS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OnePercentFPS_k__BackingField;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__OnePercentFPS_k__BackingField(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OnePercentFPS_k__BackingField = value;
 }
 constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__Zero1PercentFps_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Zero1PercentFps_k__BackingField;
 }
 constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__Zero1PercentFps_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Zero1PercentFps_k__BackingField;
 }
 constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__Zero1PercentFps_k__BackingField(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Zero1PercentFps_k__BackingField = value;
 }
 inline int16_t Tayx::Graphy::Fps::G_FpsMonitor::get_CurrentFPS() {

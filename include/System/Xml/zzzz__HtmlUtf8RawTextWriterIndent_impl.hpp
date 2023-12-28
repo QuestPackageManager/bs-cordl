@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriterIndent_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::HtmlUtf8RawTextWriterIndent._ctor
 template <>
 
@@ -137,51 +137,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Xml::HtmlUtf8RawTextWriterIndent::__get_indentLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentLevel;
 }
 constexpr int32_t const& System::Xml::HtmlUtf8RawTextWriterIndent::__get_indentLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentLevel;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriterIndent::__set_indentLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indentLevel = value;
 }
 constexpr int32_t& System::Xml::HtmlUtf8RawTextWriterIndent::__get_endBlockPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endBlockPos;
 }
 constexpr int32_t const& System::Xml::HtmlUtf8RawTextWriterIndent::__get_endBlockPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endBlockPos;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriterIndent::__set_endBlockPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endBlockPos = value;
 }
 constexpr ::StringW& System::Xml::HtmlUtf8RawTextWriterIndent::__get_indentChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentChars;
 }
 constexpr ::StringW const& System::Xml::HtmlUtf8RawTextWriterIndent::__get_indentChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentChars;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriterIndent::__set_indentChars(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indentChars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::HtmlUtf8RawTextWriterIndent::__get_newLineOnAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineOnAttributes;
 }
 constexpr bool const& System::Xml::HtmlUtf8RawTextWriterIndent::__get_newLineOnAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newLineOnAttributes;
 }
 constexpr void System::Xml::HtmlUtf8RawTextWriterIndent::__set_newLineOnAttributes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newLineOnAttributes = value;
 }
 inline ::System::Xml::HtmlUtf8RawTextWriterIndent* System::Xml::HtmlUtf8RawTextWriterIndent::New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings) {

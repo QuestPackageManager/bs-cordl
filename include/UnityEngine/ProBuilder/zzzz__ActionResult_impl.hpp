@@ -168,27 +168,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::__ActionResult__Status& UnityEngine::ProBuilder::ActionResult::__get__status_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status_k__BackingField;
 }
 constexpr ::UnityEngine::ProBuilder::__ActionResult__Status const& UnityEngine::ProBuilder::ActionResult::__get__status_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::ActionResult::__set__status_k__BackingField(::UnityEngine::ProBuilder::__ActionResult__Status value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status_k__BackingField = value;
 }
 constexpr ::StringW& UnityEngine::ProBuilder::ActionResult::__get__notification_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notification_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::ProBuilder::ActionResult::__get__notification_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notification_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::ActionResult::__set__notification_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____notification_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::__ActionResult__Status UnityEngine::ProBuilder::ActionResult::get_status() {

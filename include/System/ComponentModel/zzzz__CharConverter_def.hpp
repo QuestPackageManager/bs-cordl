@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(CharConverter)
 namespace System {
 class Type;
 }
+namespace System {
+class Object;
+}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

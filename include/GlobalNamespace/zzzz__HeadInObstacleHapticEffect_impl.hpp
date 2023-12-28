@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadInObstacleHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HeadInObstacleHapticEffect.Start
 template <>
 
@@ -103,137 +103,137 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::HeadInObstacleHapticEffect::__get__headHapticPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headHapticPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::HeadInObstacleHapticEffect::__get__headHapticPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headHapticPreset;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__headHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headHapticPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::HeadInObstacleHapticEffect::__get__minimalHapticDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimalHapticDuration;
 }
 constexpr float_t const& GlobalNamespace::HeadInObstacleHapticEffect::__get__minimalHapticDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimalHapticDuration;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__minimalHapticDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minimalHapticDuration = value;
 }
 constexpr ::GlobalNamespace::HapticFeedbackManager*& GlobalNamespace::HeadInObstacleHapticEffect::__get__hapticFeedbackManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& GlobalNamespace::HeadInObstacleHapticEffect::__get__hapticFeedbackManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& GlobalNamespace::HeadInObstacleHapticEffect::__get__playerHeadAndObstacleInteraction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeadAndObstacleInteraction;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeadAndObstacleInteraction*> const&
 GlobalNamespace::HeadInObstacleHapticEffect::__get__playerHeadAndObstacleInteraction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeadAndObstacleInteraction;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerHeadAndObstacleInteraction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::HeadInObstacleHapticEffect::__get__gamePause() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gamePause;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& GlobalNamespace::HeadInObstacleHapticEffect::__get__gamePause() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gamePause;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__gamePause(::GlobalNamespace::IGamePause* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamePause)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& GlobalNamespace::HeadInObstacleHapticEffect::__get__gameplayLevelSceneTransitionEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayLevelSceneTransitionEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const&
 GlobalNamespace::HeadInObstacleHapticEffect::__get__gameplayLevelSceneTransitionEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayLevelSceneTransitionEvents;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayLevelSceneTransitionEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerDataModel*& GlobalNamespace::HeadInObstacleHapticEffect::__get__playerDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& GlobalNamespace::HeadInObstacleHapticEffect::__get__playerDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModel;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__playerDataModel(::GlobalNamespace::PlayerDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::HeadInObstacleHapticEffect::__get__isGamePaused() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isGamePaused;
 }
 constexpr bool const& GlobalNamespace::HeadInObstacleHapticEffect::__get__isGamePaused() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isGamePaused;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__isGamePaused(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isGamePaused = value;
 }
 constexpr bool& GlobalNamespace::HeadInObstacleHapticEffect::__get__isLevelFinished() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isLevelFinished;
 }
 constexpr bool const& GlobalNamespace::HeadInObstacleHapticEffect::__get__isLevelFinished() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isLevelFinished;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__isLevelFinished(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isLevelFinished = value;
 }
 constexpr float_t& GlobalNamespace::HeadInObstacleHapticEffect::__get__minimumTimeUntilHapticEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimumTimeUntilHapticEnd;
 }
 constexpr float_t const& GlobalNamespace::HeadInObstacleHapticEffect::__get__minimumTimeUntilHapticEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimumTimeUntilHapticEnd;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__minimumTimeUntilHapticEnd(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minimumTimeUntilHapticEnd = value;
 }
 constexpr bool& GlobalNamespace::HeadInObstacleHapticEffect::__get__wasHeadInWallLastFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wasHeadInWallLastFrame;
 }
 constexpr bool const& GlobalNamespace::HeadInObstacleHapticEffect::__get__wasHeadInWallLastFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wasHeadInWallLastFrame;
 }
 constexpr void GlobalNamespace::HeadInObstacleHapticEffect::__set__wasHeadInWallLastFrame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wasHeadInWallLastFrame = value;
 }
 inline void GlobalNamespace::HeadInObstacleHapticEffect::Start() {

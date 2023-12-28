@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionDataSO)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class MissionHelpSO;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class MissionObjective;
+class MissionHelpSO;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
+}
+namespace GlobalNamespace {
+class MissionObjective;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionDataSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4457))
 // CS Name: ::MissionDataSO*
 class CORDL_TYPE MissionDataSO : public ::GlobalNamespace::PersistentScriptableObject {

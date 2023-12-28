@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__MemoryPool_2_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPool_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TParam1, typename TValue> inline void Zenject::PoolableMemoryPool_2<TParam1, TValue>::OnDespawned(TValue item) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolableMemoryPool_2<TParam1, TValue>*>::get(), "OnDespawned",

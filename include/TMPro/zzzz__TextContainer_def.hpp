@@ -16,6 +16,9 @@ struct Vector4;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+struct Rect;
+}
 namespace TMPro {
 class TextMeshPro;
 }
@@ -24,9 +27,6 @@ class RectTransform;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct Rect;
 }
 namespace TMPro {
 struct TextContainerAnchors;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::TMPro::TextContainer);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12305))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12306)) CS Name: ::TMPro::TextContainer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(12305))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12306)) CS Name: ::TMPro::TextContainer*
 class CORDL_TYPE TextContainer : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyUIPanel_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameEnergyUIPanel.Start
 template <>
 
@@ -117,111 +117,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Image*& GlobalNamespace::GameEnergyUIPanel::__get__energyBar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyBar;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::GameEnergyUIPanel::__get__energyBar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyBar;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__energyBar(::UnityEngine::UI::Image* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____energyBar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Playables::PlayableDirector*& GlobalNamespace::GameEnergyUIPanel::__get__playableDirector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playableDirector;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& GlobalNamespace::GameEnergyUIPanel::__get__playableDirector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playableDirector;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__playableDirector(::UnityEngine::Playables::PlayableDirector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playableDirector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Image*& GlobalNamespace::GameEnergyUIPanel::__get__batteryLifeSegmentPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryLifeSegmentPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::GameEnergyUIPanel::__get__batteryLifeSegmentPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryLifeSegmentPrefab;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__batteryLifeSegmentPrefab(::UnityEngine::UI::Image* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____batteryLifeSegmentPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::GameEnergyUIPanel::__get__batterySegmentSeparatorWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batterySegmentSeparatorWidth;
 }
 constexpr float_t const& GlobalNamespace::GameEnergyUIPanel::__get__batterySegmentSeparatorWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batterySegmentSeparatorWidth;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__batterySegmentSeparatorWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____batterySegmentSeparatorWidth = value;
 }
 constexpr float_t& GlobalNamespace::GameEnergyUIPanel::__get__batterySegmentHorizontalPadding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batterySegmentHorizontalPadding;
 }
 constexpr float_t const& GlobalNamespace::GameEnergyUIPanel::__get__batterySegmentHorizontalPadding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batterySegmentHorizontalPadding;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__batterySegmentHorizontalPadding(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____batterySegmentHorizontalPadding = value;
 }
 constexpr ::GlobalNamespace::IGameEnergyCounter*& GlobalNamespace::GameEnergyUIPanel::__get__gameEnergyCounter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameEnergyCounter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& GlobalNamespace::GameEnergyUIPanel::__get__gameEnergyCounter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameEnergyCounter;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__gameEnergyCounter(::GlobalNamespace::IGameEnergyCounter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameEnergyCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*& GlobalNamespace::GameEnergyUIPanel::__get__batteryLifeSegments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryLifeSegments;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*> const& GlobalNamespace::GameEnergyUIPanel::__get__batteryLifeSegments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryLifeSegments;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__batteryLifeSegments(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____batteryLifeSegments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::GameEnergyUIPanel::__get__activeBatteryLifeSegmentsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeBatteryLifeSegmentsCount;
 }
 constexpr int32_t const& GlobalNamespace::GameEnergyUIPanel::__get__activeBatteryLifeSegmentsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeBatteryLifeSegmentsCount;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__activeBatteryLifeSegmentsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____activeBatteryLifeSegmentsCount = value;
 }
 constexpr ::UnityEngine::RectTransform*& GlobalNamespace::GameEnergyUIPanel::__get__energyBarRectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyBarRectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& GlobalNamespace::GameEnergyUIPanel::__get__energyBarRectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyBarRectTransform;
 }
 constexpr void GlobalNamespace::GameEnergyUIPanel::__set__energyBarRectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____energyBarRectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::GameEnergyUIPanel::Start() {

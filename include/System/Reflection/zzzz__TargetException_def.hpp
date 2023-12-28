@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__ApplicationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TargetException)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Exception;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Exception;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

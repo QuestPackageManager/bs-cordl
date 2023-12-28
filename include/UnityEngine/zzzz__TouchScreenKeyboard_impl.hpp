@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_def.hpp"
-#include "UnityEngine/zzzz__RangeInt_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
+#include "UnityEngine/zzzz__RangeInt_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::__TouchScreenKeyboard__Status::__TouchScreenKeyboard__Status(int32_t value__) noexcept {
@@ -362,15 +362,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& UnityEngine::TouchScreenKeyboard::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::TouchScreenKeyboard::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::TouchScreenKeyboard::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 inline void UnityEngine::TouchScreenKeyboard::setStaticF__disableInPlaceEditing_k__BackingField(bool value) {

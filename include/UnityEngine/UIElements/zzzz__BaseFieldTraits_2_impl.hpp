@@ -1,21 +1,21 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 template <typename TValueType, typename TValueUxmlAttributeType> constexpr TValueUxmlAttributeType& UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::__get_m_Value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Value;
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
 constexpr TValueUxmlAttributeType const& UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::__get_m_Value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Value;
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
 constexpr void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::__set_m_Value(TValueUxmlAttributeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType, typename TValueUxmlAttributeType>

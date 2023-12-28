@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnsafeUtility)
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct __UnsafeUtility__AlignOfHelper_1;
+namespace System {
+class Array;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class Array;
+namespace Unity::Collections::LowLevel::Unsafe {
+template <typename T> struct __UnsafeUtility__AlignOfHelper_1;
+}
+namespace Unity::Collections {
+struct Allocator;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

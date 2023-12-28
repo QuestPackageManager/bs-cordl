@@ -15,51 +15,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::AppStaticSettingsSO::__get_requirePrivacyPolicy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requirePrivacyPolicy;
 }
 constexpr bool const& GlobalNamespace::AppStaticSettingsSO::__get_requirePrivacyPolicy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requirePrivacyPolicy;
 }
 constexpr void GlobalNamespace::AppStaticSettingsSO::__set_requirePrivacyPolicy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requirePrivacyPolicy = value;
 }
 constexpr bool& GlobalNamespace::AppStaticSettingsSO::__get_enable360DegreeLevels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enable360DegreeLevels;
 }
 constexpr bool const& GlobalNamespace::AppStaticSettingsSO::__get_enable360DegreeLevels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enable360DegreeLevels;
 }
 constexpr void GlobalNamespace::AppStaticSettingsSO::__set_enable360DegreeLevels(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enable360DegreeLevels = value;
 }
 constexpr bool& GlobalNamespace::AppStaticSettingsSO::__get_enableCustomLevels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableCustomLevels;
 }
 constexpr bool const& GlobalNamespace::AppStaticSettingsSO::__get_enableCustomLevels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableCustomLevels;
 }
 constexpr void GlobalNamespace::AppStaticSettingsSO::__set_enableCustomLevels(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableCustomLevels = value;
 }
 constexpr bool& GlobalNamespace::AppStaticSettingsSO::__get_disableMultiplayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disableMultiplayer;
 }
 constexpr bool const& GlobalNamespace::AppStaticSettingsSO::__get_disableMultiplayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disableMultiplayer;
 }
 constexpr void GlobalNamespace::AppStaticSettingsSO::__set_disableMultiplayer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disableMultiplayer = value;
 }
 inline ::GlobalNamespace::AppStaticSettingsSO* GlobalNamespace::AppStaticSettingsSO::New_ctor() {

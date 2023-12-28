@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandaloneInputModule)
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::EventSystems {
 struct __StandaloneInputModule__InputMode;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine {
 struct Vector2;

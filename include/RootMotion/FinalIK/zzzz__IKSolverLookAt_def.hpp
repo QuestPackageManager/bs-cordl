@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverLookAt)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class __IKSolverLookAt__LookAtBone;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Point;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
@@ -102,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolverL
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12580))
 // CS Name: ::RootMotion.FinalIK::IKSolverLookAt*
 class CORDL_TYPE IKSolverLookAt : public ::RootMotion::FinalIK::IKSolver {

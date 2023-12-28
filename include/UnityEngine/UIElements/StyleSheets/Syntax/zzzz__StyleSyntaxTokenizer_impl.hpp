@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenizer_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer.get_current
 template <>
 
@@ -141,29 +141,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*&
 UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::__get_m_Tokens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tokens;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*> const&
 UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::__get_m_Tokens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tokens;
 }
 constexpr void
 UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::__set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Tokens)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::__get_m_CurrentTokenIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTokenIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::__get_m_CurrentTokenIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTokenIndex;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::__set_m_CurrentTokenIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTokenIndex = value;
 }
 inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::get_current() {

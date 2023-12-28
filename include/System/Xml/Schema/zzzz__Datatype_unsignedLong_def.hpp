@@ -8,7 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_unsignedLong)
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
+}
+namespace System::Xml {
+class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -16,17 +22,11 @@ class IXmlNamespaceResolver;
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System {
-class Object;
-}
-namespace System::Xml {
-class XmlNameTable;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 class Exception;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageLobbyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CenterStageLobbyViewController.SetLevelGameplaySetupData
 template <>
@@ -34,27 +34,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BeatmapSelectionView*& GlobalNamespace::CenterStageLobbyViewController::__get__beatmapSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapSelectionView*> const& GlobalNamespace::CenterStageLobbyViewController::__get__beatmapSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr void GlobalNamespace::CenterStageLobbyViewController::__set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ModifiersSelectionView*& GlobalNamespace::CenterStageLobbyViewController::__get__modifiersSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ModifiersSelectionView*> const& GlobalNamespace::CenterStageLobbyViewController::__get__modifiersSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr void GlobalNamespace::CenterStageLobbyViewController::__set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::CenterStageLobbyViewController::SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData) {

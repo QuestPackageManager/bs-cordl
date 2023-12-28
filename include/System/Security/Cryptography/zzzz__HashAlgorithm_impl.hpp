@@ -308,51 +308,51 @@ constexpr System::Security::Cryptography::HashAlgorithm::operator ::System::Secu
   return static_cast<::System::Security::Cryptography::ICryptoTransform*>(static_cast<void*>(this));
 }
 constexpr bool& System::Security::Cryptography::HashAlgorithm::__get__disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr bool const& System::Security::Cryptography::HashAlgorithm::__get__disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed;
 }
 constexpr void System::Security::Cryptography::HashAlgorithm::__set__disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed = value;
 }
 constexpr int32_t& System::Security::Cryptography::HashAlgorithm::__get_HashSizeValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HashSizeValue;
 }
 constexpr int32_t const& System::Security::Cryptography::HashAlgorithm::__get_HashSizeValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HashSizeValue;
 }
 constexpr void System::Security::Cryptography::HashAlgorithm::__set_HashSizeValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HashSizeValue = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::HashAlgorithm::__get_HashValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HashValue;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::HashAlgorithm::__get_HashValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HashValue;
 }
 constexpr void System::Security::Cryptography::HashAlgorithm::__set_HashValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___HashValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Cryptography::HashAlgorithm::__get_State() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___State;
 }
 constexpr int32_t const& System::Security::Cryptography::HashAlgorithm::__get_State() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___State;
 }
 constexpr void System::Security::Cryptography::HashAlgorithm::__set_State(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___State = value;
 }
 inline ::System::Security::Cryptography::HashAlgorithm* System::Security::Cryptography::HashAlgorithm::New_ctor() {

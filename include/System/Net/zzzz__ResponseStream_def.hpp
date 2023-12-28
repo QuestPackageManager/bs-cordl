@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResponseStream)
 namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 namespace System {
 class Object;
@@ -17,10 +17,10 @@ namespace System {
 class IAsyncResult;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class MemoryStream;
 }
 namespace System::Net {
 class HttpListenerResponse;

@@ -5,9 +5,9 @@
 #include "GlobalNamespace/zzzz__OVRSpaceQuery_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpaceQuery_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRSpaceQuery__Options.get_MaxResults
 template <>
 

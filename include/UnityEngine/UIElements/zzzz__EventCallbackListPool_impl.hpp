@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackListPool_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackList_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::EventCallbackListPool.Get
 template <>
 
@@ -48,16 +48,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*& UnityEngine::UIElements::EventCallbackListPool::__get_m_Stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*> const&
 UnityEngine::UIElements::EventCallbackListPool::__get_m_Stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
 constexpr void UnityEngine::UIElements::EventCallbackListPool::__set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::EventCallbackList* UnityEngine::UIElements::EventCallbackListPool::Get(::UnityEngine::UIElements::EventCallbackList* initializer) {

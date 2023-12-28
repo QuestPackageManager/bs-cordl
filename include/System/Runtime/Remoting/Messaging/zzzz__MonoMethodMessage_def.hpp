@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoMethodMessage)
 namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
+class IInternalMessage;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MCMDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessage;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class RuntimeMethodInfo;
 }
 namespace System::Runtime::Remoting::Messaging {
 struct CallType;
@@ -36,11 +36,20 @@ struct CallType;
 namespace System::Runtime::Remoting::Messaging {
 class AsyncResult;
 }
+namespace System::Reflection {
+class RuntimeMethodInfo;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
 namespace System {
-class Exception;
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class IMethodReturnMessage;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IDictionary;
@@ -49,16 +58,7 @@ namespace System::Reflection {
 class MethodBase;
 }
 namespace System::Runtime::Remoting::Messaging {
-class MCMDictionary;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System {
-class Type;
+class IMethodCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -70,7 +70,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MonoMethodMessage);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3181))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3181)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3180))
 // CS Name: ::System.Runtime.Remoting.Messaging::MonoMethodMessage*
 class CORDL_TYPE MonoMethodMessage : public ::System::Object {

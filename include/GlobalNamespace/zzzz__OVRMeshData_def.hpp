@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(OVRMeshData)
 namespace UnityEngine {
-class Material;
+class Mesh;
 }
 namespace GlobalNamespace {
 struct OVRMeshAttributes;
 }
 namespace UnityEngine {
-class Mesh;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,18 +1,18 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneRoom_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "GlobalNamespace/zzzz__OVRScenePlane_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
+#include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneRoom.get_Floor
 template <>
 
@@ -260,159 +260,159 @@ constexpr GlobalNamespace::OVRSceneRoom::operator ::GlobalNamespace::IOVRSceneCo
   return static_cast<::GlobalNamespace::IOVRSceneComponent*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::OVRScenePlane*& GlobalNamespace::OVRSceneRoom::__get__Floor_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Floor_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRScenePlane*> const& GlobalNamespace::OVRSceneRoom::__get__Floor_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Floor_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__Floor_k__BackingField(::GlobalNamespace::OVRScenePlane* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Floor_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRScenePlane*& GlobalNamespace::OVRSceneRoom::__get__Ceiling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Ceiling_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRScenePlane*> const& GlobalNamespace::OVRSceneRoom::__get__Ceiling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Ceiling_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__Ceiling_k__BackingField(::GlobalNamespace::OVRScenePlane* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Ceiling_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::OVRScenePlane*, ::Array<::GlobalNamespace::OVRScenePlane*>*>& GlobalNamespace::OVRSceneRoom::__get__Walls_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Walls_k__BackingField;
 }
 constexpr ::ArrayW<::GlobalNamespace::OVRScenePlane*, ::Array<::GlobalNamespace::OVRScenePlane*>*> const& GlobalNamespace::OVRSceneRoom::__get__Walls_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Walls_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__Walls_k__BackingField(::ArrayW<::GlobalNamespace::OVRScenePlane*, ::Array<::GlobalNamespace::OVRScenePlane*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Walls_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>*& GlobalNamespace::OVRSceneRoom::__get__walls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____walls;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>*> const& GlobalNamespace::OVRSceneRoom::__get__walls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____walls;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__walls(::System::Collections::Generic::List_1<::GlobalNamespace::OVRScenePlane*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____walls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>*& GlobalNamespace::OVRSceneRoom::__get__orderedRoomGuids() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orderedRoomGuids;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>*> const& GlobalNamespace::OVRSceneRoom::__get__orderedRoomGuids() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orderedRoomGuids;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__orderedRoomGuids(::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____orderedRoomGuids)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Comparison_1<::GlobalNamespace::OVRScenePlane*>*& GlobalNamespace::OVRSceneRoom::__get__wallOrderComparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wallOrderComparer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<::GlobalNamespace::OVRScenePlane*>*> const& GlobalNamespace::OVRSceneRoom::__get__wallOrderComparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wallOrderComparer;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__wallOrderComparer(::System::Comparison_1<::GlobalNamespace::OVRScenePlane*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____wallOrderComparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSceneAnchor*& GlobalNamespace::OVRSceneRoom::__get__sceneAnchor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneAnchor;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneAnchor*> const& GlobalNamespace::OVRSceneRoom::__get__sceneAnchor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneAnchor;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__sceneAnchor(::GlobalNamespace::OVRSceneAnchor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneAnchor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSceneManager*& GlobalNamespace::OVRSceneRoom::__get__sceneManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneManager*> const& GlobalNamespace::OVRSceneRoom::__get__sceneManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneManager;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__sceneManager(::GlobalNamespace::OVRSceneManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::System::Guid>*& GlobalNamespace::OVRSceneRoom::__get__uuidToQuery() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uuidToQuery;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Guid>*> const& GlobalNamespace::OVRSceneRoom::__get__uuidToQuery() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uuidToQuery;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__uuidToQuery(::System::Collections::Generic::HashSet_1<::System::Guid>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uuidToQuery)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*& GlobalNamespace::OVRSceneRoom::__get__roomAnchors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____roomAnchors;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*> const& GlobalNamespace::OVRSceneRoom::__get__roomAnchors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____roomAnchors;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__roomAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____roomAnchors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::OVRSceneRoom::__get__taskCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskCount;
 }
 constexpr int32_t const& GlobalNamespace::OVRSceneRoom::__get__taskCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskCount;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__taskCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____taskCount = value;
 }
 constexpr ::System::Action_1<bool>*& GlobalNamespace::OVRSceneRoom::__get__onFetchAnchorsCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onFetchAnchorsCompleted;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& GlobalNamespace::OVRSceneRoom::__get__onFetchAnchorsCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onFetchAnchorsCompleted;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__onFetchAnchorsCompleted(::System::Action_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onFetchAnchorsCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>*& GlobalNamespace::OVRSceneRoom::__get__onAnchorLocalizationCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAnchorLocalizationCompleted;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>*> const& GlobalNamespace::OVRSceneRoom::__get__onAnchorLocalizationCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAnchorLocalizationCompleted;
 }
 constexpr void GlobalNamespace::OVRSceneRoom::__set__onAnchorLocalizationCompleted(::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onAnchorLocalizationCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRSceneRoom::setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>* value) {

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
-#include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
+#include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0._ctor
 template <>
@@ -40,16 +40,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*& GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0::__get_matchedArguments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___matchedArguments;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*> const&
 GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0::__get_matchedArguments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___matchedArguments;
 }
 constexpr void GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0::__set_matchedArguments(::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___matchedArguments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0* GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0::New_ctor() {
@@ -416,15 +416,15 @@ constexpr GlobalNamespace::ConsoleCommandBase::operator ::System::IComparable_1<
   return static_cast<::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*>& GlobalNamespace::ConsoleCommandBase::__get__arguments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
 constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> const& GlobalNamespace::ConsoleCommandBase::__get__arguments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
 constexpr void GlobalNamespace::ConsoleCommandBase::__set__arguments(::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arguments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::ConsoleCommandBase::get_isAsyncCommand() {

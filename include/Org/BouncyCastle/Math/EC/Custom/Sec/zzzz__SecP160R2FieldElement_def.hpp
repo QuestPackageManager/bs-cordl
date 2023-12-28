@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(SecP160R2FieldElement)
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

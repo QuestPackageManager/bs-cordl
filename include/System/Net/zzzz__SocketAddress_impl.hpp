@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__SocketAddress_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::SocketAddress.get_Family
 template <>
 
@@ -160,51 +160,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::SocketAddress::__get_m_Size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Size;
 }
 constexpr int32_t const& System::Net::SocketAddress::__get_m_Size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Size;
 }
 constexpr void System::Net::SocketAddress::__set_m_Size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Size = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::SocketAddress::__get_m_Buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::SocketAddress::__get_m_Buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Buffer;
 }
 constexpr void System::Net::SocketAddress::__set_m_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::SocketAddress::__get_m_changed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_changed;
 }
 constexpr bool const& System::Net::SocketAddress::__get_m_changed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_changed;
 }
 constexpr void System::Net::SocketAddress::__set_m_changed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_changed = value;
 }
 constexpr int32_t& System::Net::SocketAddress::__get_m_hash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hash;
 }
 constexpr int32_t const& System::Net::SocketAddress::__get_m_hash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hash;
 }
 constexpr void System::Net::SocketAddress::__set_m_hash(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hash = value;
 }
 inline ::System::Net::Sockets::AddressFamily System::Net::SocketAddress::get_Family() {

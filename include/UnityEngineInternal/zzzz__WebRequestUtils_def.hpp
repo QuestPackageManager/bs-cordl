@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebRequestUtils)
-namespace System {
-class Uri;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace UnityEngineInternal {

@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator._ctor
 template <>
 
@@ -75,39 +75,39 @@ constexpr System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumer
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Array*& System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__get__array() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__get__array() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____array;
 }
 constexpr void System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__set__array(::System::Array* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__get__total() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____total;
 }
 constexpr int32_t const& System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__get__total() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____total;
 }
 constexpr void System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__set__total(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____total = value;
 }
 constexpr int32_t& System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__get__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr int32_t const& System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__get__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr void System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::__set__current(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
 inline ::System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator* System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator::New_ctor(::System::Array* array,
@@ -674,87 +674,87 @@ constexpr System::ComponentModel::EventDescriptorCollection::operator ::System::
   return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*>& System::ComponentModel::EventDescriptorCollection::__get__events() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
 constexpr ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> const& System::ComponentModel::EventDescriptorCollection::__get__events() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__events(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____events)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::ComponentModel::EventDescriptorCollection::__get__namedSort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namedSort;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::ComponentModel::EventDescriptorCollection::__get__namedSort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namedSort;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__namedSort(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namedSort)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IComparer*& System::ComponentModel::EventDescriptorCollection::__get__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& System::ComponentModel::EventDescriptorCollection::__get__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__comparer(::System::Collections::IComparer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::ComponentModel::EventDescriptorCollection::__get__eventsOwned() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventsOwned;
 }
 constexpr bool const& System::ComponentModel::EventDescriptorCollection::__get__eventsOwned() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventsOwned;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__eventsOwned(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventsOwned = value;
 }
 constexpr bool& System::ComponentModel::EventDescriptorCollection::__get__needSort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____needSort;
 }
 constexpr bool const& System::ComponentModel::EventDescriptorCollection::__get__needSort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____needSort;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__needSort(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____needSort = value;
 }
 constexpr bool& System::ComponentModel::EventDescriptorCollection::__get__readOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readOnly;
 }
 constexpr bool const& System::ComponentModel::EventDescriptorCollection::__get__readOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readOnly;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__readOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____readOnly = value;
 }
 constexpr int32_t& System::ComponentModel::EventDescriptorCollection::__get__Count_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Count_k__BackingField;
 }
 constexpr int32_t const& System::ComponentModel::EventDescriptorCollection::__get__Count_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Count_k__BackingField;
 }
 constexpr void System::ComponentModel::EventDescriptorCollection::__set__Count_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Count_k__BackingField = value;
 }
 inline void System::ComponentModel::EventDescriptorCollection::setStaticF_Empty(::System::ComponentModel::EventDescriptorCollection* value) {

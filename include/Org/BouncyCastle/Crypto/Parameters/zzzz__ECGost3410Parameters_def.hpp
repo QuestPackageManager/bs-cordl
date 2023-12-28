@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECNamedDomainParameters_def.hpp"
 CORDL_MODULE_EXPORT(ECGost3410Parameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+class ECNamedDomainParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECNamedDomainParameters;
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;

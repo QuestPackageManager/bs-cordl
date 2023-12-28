@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
-#include "GlobalNamespace/zzzz__ParametricBoxFakeGlowController_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "GlobalNamespace/zzzz__ParametricBoxFrameController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__ParametricBoxFrameController_def.hpp"
+#include "GlobalNamespace/zzzz__ParametricBoxFakeGlowController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StretchableObstacle.get_bounds
 template <>
 
@@ -67,126 +67,126 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::StretchableObstacle::__get__edgeSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeSize;
 }
 constexpr float_t const& GlobalNamespace::StretchableObstacle::__get__edgeSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeSize;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__edgeSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____edgeSize = value;
 }
 constexpr float_t& GlobalNamespace::StretchableObstacle::__get__coreOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coreOffset;
 }
 constexpr float_t const& GlobalNamespace::StretchableObstacle::__get__coreOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coreOffset;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__coreOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____coreOffset = value;
 }
 constexpr float_t& GlobalNamespace::StretchableObstacle::__get__addColorMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addColorMultiplier;
 }
 constexpr float_t const& GlobalNamespace::StretchableObstacle::__get__addColorMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addColorMultiplier;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__addColorMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____addColorMultiplier = value;
 }
 constexpr float_t& GlobalNamespace::StretchableObstacle::__get__obstacleCoreLerpToWhiteFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleCoreLerpToWhiteFactor;
 }
 constexpr float_t const& GlobalNamespace::StretchableObstacle::__get__obstacleCoreLerpToWhiteFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleCoreLerpToWhiteFactor;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__obstacleCoreLerpToWhiteFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstacleCoreLerpToWhiteFactor = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::StretchableObstacle::__get__fakeGlowOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeGlowOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::StretchableObstacle::__get__fakeGlowOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeGlowOffset;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__fakeGlowOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fakeGlowOffset = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::StretchableObstacle::__get__obstacleCore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleCore;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::StretchableObstacle::__get__obstacleCore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleCore;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__obstacleCore(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleCore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>&
 GlobalNamespace::StretchableObstacle::__get__materialPropertyBlockControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockControllers;
 }
 constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> const&
 GlobalNamespace::StretchableObstacle::__get__materialPropertyBlockControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockControllers;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__materialPropertyBlockControllers(
     ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ParametricBoxFrameController*& GlobalNamespace::StretchableObstacle::__get__obstacleFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleFrame;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParametricBoxFrameController*> const& GlobalNamespace::StretchableObstacle::__get__obstacleFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleFrame;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__obstacleFrame(::GlobalNamespace::ParametricBoxFrameController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleFrame)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ParametricBoxFakeGlowController*& GlobalNamespace::StretchableObstacle::__get__obstacleFakeGlow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleFakeGlow;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParametricBoxFakeGlowController*> const& GlobalNamespace::StretchableObstacle::__get__obstacleFakeGlow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleFakeGlow;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__obstacleFakeGlow(::GlobalNamespace::ParametricBoxFakeGlowController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleFakeGlow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Bounds& GlobalNamespace::StretchableObstacle::__get__bounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bounds;
 }
 constexpr ::UnityEngine::Bounds const& GlobalNamespace::StretchableObstacle::__get__bounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bounds;
 }
 constexpr void GlobalNamespace::StretchableObstacle::__set__bounds(::UnityEngine::Bounds value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bounds = value;
 }
 inline void GlobalNamespace::StretchableObstacle::setStaticF__uvScaleID(int32_t value) {

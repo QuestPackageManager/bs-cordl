@@ -3,9 +3,9 @@
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorageRGBAFloat_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorageRGBAFloat_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c._ctor
 template <>
 

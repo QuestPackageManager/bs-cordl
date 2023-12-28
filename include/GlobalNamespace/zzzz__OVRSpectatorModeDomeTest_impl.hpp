@@ -3,14 +3,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpectatorModeDomeTest_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpectatorModeDomeTest_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpectatorModeDomeTest_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20._ctor
 template <>
 
@@ -114,39 +114,39 @@ constexpr GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::op
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSpectatorModeDomeTest*& GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSpectatorModeDomeTest*> const& GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::__set___4__this(::GlobalNamespace::OVRSpectatorModeDomeTest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20* GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20::New_ctor(int32_t __1__state) {
@@ -342,135 +342,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRSpectatorModeDomeTest::__get_inited() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
 constexpr bool const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_inited() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_inited(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inited = value;
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::OVRSpectatorModeDomeTest::__get_defaultExternalCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultExternalCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_defaultExternalCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultExternalCamera;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_defaultExternalCamera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultExternalCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Fovf& GlobalNamespace::OVRSpectatorModeDomeTest::__get_defaultFov() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultFov;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_defaultFov() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultFov;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultFov = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRSpectatorModeDomeTest::__get_SpectatorAnchor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SpectatorAnchor;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_SpectatorAnchor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SpectatorAnchor;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_SpectatorAnchor(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SpectatorAnchor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRSpectatorModeDomeTest::__get_Head() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Head;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_Head() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Head;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_Head(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode& GlobalNamespace::OVRSpectatorModeDomeTest::__get_camMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___camMode;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_camMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___camMode;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_camMode(::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___camMode = value;
 }
 constexpr bool& GlobalNamespace::OVRSpectatorModeDomeTest::__get_readyToSwitch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readyToSwitch;
 }
 constexpr bool const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_readyToSwitch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readyToSwitch;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_readyToSwitch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readyToSwitch = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRSpectatorModeDomeTest::__get_SpectatorCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SpectatorCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_SpectatorCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SpectatorCamera;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_SpectatorCamera(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SpectatorCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRSpectatorModeDomeTest::__get_distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr float_t const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distance = value;
 }
 constexpr float_t& GlobalNamespace::OVRSpectatorModeDomeTest::__get_elevation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elevation;
 }
 constexpr float_t const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_elevation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elevation;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_elevation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elevation = value;
 }
 constexpr float_t& GlobalNamespace::OVRSpectatorModeDomeTest::__get_polar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___polar;
 }
 constexpr float_t const& GlobalNamespace::OVRSpectatorModeDomeTest::__get_polar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___polar;
 }
 constexpr void GlobalNamespace::OVRSpectatorModeDomeTest::__set_polar(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___polar = value;
 }
 inline void GlobalNamespace::OVRSpectatorModeDomeTest::Awake() {

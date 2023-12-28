@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosePrediction_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PosePrediction.PredictPose
 template <>
 

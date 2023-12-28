@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AutoUnwrapSettings)
+namespace UnityEngine::ProBuilder {
+struct __AutoUnwrapSettings__Anchor;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::ProBuilder {
 struct __AutoUnwrapSettings__Fill;
-}
-namespace UnityEngine::ProBuilder {
-struct __AutoUnwrapSettings__Anchor;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -168,7 +168,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__AutoU
 // SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12098)), TypeDefinitionIndex(TypeDefinitionIndex(12099))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12098)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12099))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12100))
 // CS Name: ::UnityEngine.ProBuilder::AutoUnwrapSettings
 struct CORDL_TYPE AutoUnwrapSettings {

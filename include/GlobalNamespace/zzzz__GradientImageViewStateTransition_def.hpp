@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GradientImageViewStateTransition)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class GradientTransitionSO;
-}
-namespace System {
-class Action;
 }
 namespace Tweening {
 class ColorTween;
@@ -22,7 +19,10 @@ namespace GlobalNamespace {
 class BaseTransitionSO;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
+}
+namespace GlobalNamespace {
+class GradientTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GradientImageViewStateTransition);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 925 }), TypeDefinitionIndex(TypeDefinitionIndex(5442)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 925 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(13627))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5451)) CS Name: ::GradientImageViewStateTransition*
 class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::HMUI::ImageView*> {
 public:

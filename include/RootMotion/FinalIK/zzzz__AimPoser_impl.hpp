@@ -49,75 +49,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& RootMotion::FinalIK::__AimPoser__Pose::__get_visualize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___visualize;
 }
 constexpr bool const& RootMotion::FinalIK::__AimPoser__Pose::__get_visualize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___visualize;
 }
 constexpr void RootMotion::FinalIK::__AimPoser__Pose::__set_visualize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___visualize = value;
 }
 constexpr ::StringW& RootMotion::FinalIK::__AimPoser__Pose::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& RootMotion::FinalIK::__AimPoser__Pose::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void RootMotion::FinalIK::__AimPoser__Pose::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__AimPoser__Pose::__get_direction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___direction;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__AimPoser__Pose::__get_direction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___direction;
 }
 constexpr void RootMotion::FinalIK::__AimPoser__Pose::__set_direction(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___direction = value;
 }
 constexpr float_t& RootMotion::FinalIK::__AimPoser__Pose::__get_yaw() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yaw;
 }
 constexpr float_t const& RootMotion::FinalIK::__AimPoser__Pose::__get_yaw() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yaw;
 }
 constexpr void RootMotion::FinalIK::__AimPoser__Pose::__set_yaw(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___yaw = value;
 }
 constexpr float_t& RootMotion::FinalIK::__AimPoser__Pose::__get_pitch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pitch;
 }
 constexpr float_t const& RootMotion::FinalIK::__AimPoser__Pose::__get_pitch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pitch;
 }
 constexpr void RootMotion::FinalIK::__AimPoser__Pose::__set_pitch(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pitch = value;
 }
 constexpr float_t& RootMotion::FinalIK::__AimPoser__Pose::__get_angleBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleBuffer;
 }
 constexpr float_t const& RootMotion::FinalIK::__AimPoser__Pose::__get_angleBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleBuffer;
 }
 constexpr void RootMotion::FinalIK::__AimPoser__Pose::__set_angleBuffer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___angleBuffer = value;
 }
 inline bool RootMotion::FinalIK::__AimPoser__Pose::IsInDirection(::UnityEngine::Vector3 d) {
@@ -186,27 +186,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::AimPoser::__get_angleBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleBuffer;
 }
 constexpr float_t const& RootMotion::FinalIK::AimPoser::__get_angleBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleBuffer;
 }
 constexpr void RootMotion::FinalIK::AimPoser::__set_angleBuffer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___angleBuffer = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*>& RootMotion::FinalIK::AimPoser::__get_poses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poses;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> const& RootMotion::FinalIK::AimPoser::__get_poses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poses;
 }
 constexpr void RootMotion::FinalIK::AimPoser::__set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::RootMotion::FinalIK::__AimPoser__Pose* RootMotion::FinalIK::AimPoser::GetPose(::UnityEngine::Vector3 localDirection) {

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignedDataParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::SignedDataParser.GetInstance
 template <>
 
@@ -121,63 +121,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__seq() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____seq;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__seq() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____seq;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::SignedDataParser::__set__seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____seq)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::SignedDataParser::__set__version(::Org::BouncyCastle::Asn1::DerInteger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__nextObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__nextObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextObject;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::SignedDataParser::__set__nextObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nextObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__certsCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certsCalled;
 }
 constexpr bool const& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__certsCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certsCalled;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::SignedDataParser::__set__certsCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____certsCalled = value;
 }
 constexpr bool& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__crlsCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crlsCalled;
 }
 constexpr bool const& Org::BouncyCastle::Asn1::Cms::SignedDataParser::__get__crlsCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crlsCalled;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::SignedDataParser::__set__crlsCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____crlsCalled = value;
 }
 inline ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* Org::BouncyCastle::Asn1::Cms::SignedDataParser::GetInstance(::System::Object* o) {

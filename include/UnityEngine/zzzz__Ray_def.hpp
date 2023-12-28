@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(Ray)
+namespace System {
+class IFormatProvider;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
 class IFormattable;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {

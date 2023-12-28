@@ -70,52 +70,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buf;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buf;
 }
 constexpr void Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__set__buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__off() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____off;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__off() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____off;
 }
 constexpr void Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__set__off(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____off = value;
 }
 constexpr ::Org::BouncyCastle::Asn1::BerOctetStringGenerator*& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__gen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gen;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerOctetStringGenerator*> const&
 Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__gen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gen;
 }
 constexpr void Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__set__gen(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::DerOutputStream*& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__derOut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____derOut;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOutputStream*> const& Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__get__derOut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____derOut;
 }
 constexpr void Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream::__set__derOut(::Org::BouncyCastle::Asn1::DerOutputStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____derOut)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream*

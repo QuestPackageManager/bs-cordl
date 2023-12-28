@@ -12,25 +12,25 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class __NavigateFocusRing__ChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class IFocusRing;
 }
 namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
 class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
-class FocusController;
+class VisualElementFocusRing;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class __NavigateFocusRing__ChangeDirection;
-}
-namespace UnityEngine::UIElements {
-class VisualElementFocusRing;
+class Focusable;
 }
 namespace UnityEngine::UIElements {
 struct __NavigateFocusRing__FocusableHierarchyTraversal;

@@ -49,39 +49,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PlatformException__ErrorType& GlobalNamespace::PlatformException::__get_error() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
 constexpr ::GlobalNamespace::__PlatformException__ErrorType const& GlobalNamespace::PlatformException::__get_error() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
 constexpr void GlobalNamespace::PlatformException::__set_error(::GlobalNamespace::__PlatformException__ErrorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___error = value;
 }
 constexpr int32_t& GlobalNamespace::PlatformException::__get_code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___code;
 }
 constexpr int32_t const& GlobalNamespace::PlatformException::__get_code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___code;
 }
 constexpr void GlobalNamespace::PlatformException::__set_code(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___code = value;
 }
 constexpr int32_t& GlobalNamespace::PlatformException::__get_httpCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___httpCode;
 }
 constexpr int32_t const& GlobalNamespace::PlatformException::__get_httpCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___httpCode;
 }
 constexpr void GlobalNamespace::PlatformException::__set_httpCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___httpCode = value;
 }
 /// @param message: ::StringW (default: nullptr)

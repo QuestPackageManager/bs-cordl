@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSyntaxParser)
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class StyleSyntaxTokenizer;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionMultiplier;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct StyleSyntaxToken;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionCombinator;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct StyleSyntaxToken;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct ExpressionCombinator;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+class StyleSyntaxTokenizer;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct ExpressionMultiplier;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {

@@ -16,38 +16,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMGUIContainer)
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+struct __IMGUIContainer__GUIGlobals;
 }
 namespace UnityEngine {
 class __GUILayoutUtility__LayoutCache;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class ObjectGUIState;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine::UIElements {
 struct __VisualElement__MeasureMode;
 }
 namespace UnityEngine::UIElements {
-struct __IMGUIContainer__GUIGlobals;
-}
-namespace UnityEngine::UIElements {
 class MeshGenerationContext;
 }
-namespace UnityEngine::UIElements {
-class FocusChangeDirection;
-}
 namespace UnityEngine {
-class ObjectGUIState;
+struct Vector2;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements {
+class __IMGUIContainer__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class __IMGUIContainer__UxmlFactory;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace System {
-class IDisposable;
 }
 namespace UnityEngine {
 class Event;
@@ -55,17 +52,20 @@ class Event;
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
-namespace UnityEngine {
-struct Matrix4x4;
-}
 namespace UnityEngine::UIElements {
 class EventBase;
 }
-namespace UnityEngine::UIElements {
-class __IMGUIContainer__UxmlTraits;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace System {
-class Action;
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class FocusChangeDirection;
 }
 namespace UnityEngine {
 struct Color;
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__IMGUI
 // SizeInfo { instance_size: 120, native_size: 124, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6908))
 // CS Name: ::IMGUIContainer::GUIGlobals
 struct CORDL_TYPE __IMGUIContainer__GUIGlobals {
@@ -178,8 +178,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__IMGUI
 // SizeInfo { instance_size: 1224, native_size: -1, calculated_instance_size: 1224, calculated_native_size: 1220, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(6908)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6862))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6909))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6862)), TypeDefinitionIndex(TypeDefinitionIndex(6908)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6909))
 // CS Name: ::UnityEngine.UIElements::IMGUIContainer*
 class CORDL_TYPE IMGUIContainer : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -638,8 +638,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IMGUICo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6909)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5263
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6907))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6906)) CS Name: ::IMGUIContainer::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6907)), TypeDefinitionIndex(TypeDefinitionIndex(6909)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5263
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6906)) CS Name: ::IMGUIContainer::UxmlFactory*
 class CORDL_TYPE __IMGUIContainer__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::IMGUIContainer*, ::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits*> {
 public:
   // Declarations

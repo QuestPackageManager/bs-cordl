@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 CORDL_MODULE_EXPORT(RemoteActivator)
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
-}
-namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {

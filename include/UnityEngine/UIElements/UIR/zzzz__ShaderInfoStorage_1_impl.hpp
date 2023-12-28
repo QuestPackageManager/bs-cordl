@@ -3,96 +3,96 @@
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_InitialSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitialSize;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_InitialSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitialSize;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_InitialSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InitialSize = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_MaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_MaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_MaxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxSize = value;
 }
 template <typename T> constexpr ::UnityEngine::TextureFormat& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Format() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Format;
 }
 template <typename T> constexpr ::UnityEngine::TextureFormat const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Format() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Format;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_Format(::UnityEngine::TextureFormat value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Format = value;
 }
 template <typename T> constexpr ::System::Func_2<::UnityEngine::Color, T>*& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Convert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Convert;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Color, T>*> const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Convert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Convert;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_Convert(::System::Func_2<::UnityEngine::Color, T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Convert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::UIElements::UIRAtlasAllocator*& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Allocator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Allocator;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIRAtlasAllocator*> const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Allocator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Allocator;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_Allocator(::UnityEngine::UIElements::UIRAtlasAllocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::Texture2D*& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Texture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Texture;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Texture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Texture;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_Texture(::UnityEngine::Texture2D* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Texture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::Unity::Collections::NativeArray_1<T>& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Texels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Texels;
 }
 template <typename T> constexpr ::Unity::Collections::NativeArray_1<T> const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_Texels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Texels;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__set_m_Texels(::Unity::Collections::NativeArray_1<T> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Texels = value;
 }
 /// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))

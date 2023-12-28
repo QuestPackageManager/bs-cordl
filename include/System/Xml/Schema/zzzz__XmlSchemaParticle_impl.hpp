@@ -4,8 +4,8 @@
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_EmptyParticle_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::Schema::__XmlSchemaParticle__Occurs::__XmlSchemaParticle__Occurs(int32_t value__) noexcept {
   this->value__ = value__;
@@ -59,39 +59,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Decimal& System::Xml::Schema::XmlSchemaParticle::__get_minOccurs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minOccurs;
 }
 constexpr ::System::Decimal const& System::Xml::Schema::XmlSchemaParticle::__get_minOccurs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minOccurs;
 }
 constexpr void System::Xml::Schema::XmlSchemaParticle::__set_minOccurs(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minOccurs = value;
 }
 constexpr ::System::Decimal& System::Xml::Schema::XmlSchemaParticle::__get_maxOccurs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxOccurs;
 }
 constexpr ::System::Decimal const& System::Xml::Schema::XmlSchemaParticle::__get_maxOccurs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxOccurs;
 }
 constexpr void System::Xml::Schema::XmlSchemaParticle::__set_maxOccurs(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxOccurs = value;
 }
 constexpr ::System::Xml::Schema::__XmlSchemaParticle__Occurs& System::Xml::Schema::XmlSchemaParticle::__get_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr ::System::Xml::Schema::__XmlSchemaParticle__Occurs const& System::Xml::Schema::XmlSchemaParticle::__get_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr void System::Xml::Schema::XmlSchemaParticle::__set_flags(::System::Xml::Schema::__XmlSchemaParticle__Occurs value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
 inline void System::Xml::Schema::XmlSchemaParticle::setStaticF_Empty(::System::Xml::Schema::XmlSchemaParticle* value) {

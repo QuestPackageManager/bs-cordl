@@ -3,8 +3,8 @@
 #include "System/Runtime/InteropServices/zzzz__VarEnum_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__MarshalAsAttribute_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__UnmanagedType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__UnmanagedType_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::MarshalAsAttribute._ctor
 template <>
 
@@ -49,123 +49,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalCookie() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalCookie;
 }
 constexpr ::StringW const& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalCookie() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalCookie;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_MarshalCookie(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MarshalCookie)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalType;
 }
 constexpr ::StringW const& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalType;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_MarshalType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MarshalType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalTypeRef() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalTypeRef;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::MarshalAsAttribute::__get_MarshalTypeRef() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MarshalTypeRef;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_MarshalTypeRef(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MarshalTypeRef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArrayUserDefinedSubType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArrayUserDefinedSubType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArrayUserDefinedSubType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArrayUserDefinedSubType;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SafeArrayUserDefinedSubType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SafeArrayUserDefinedSubType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::InteropServices::UnmanagedType& System::Runtime::InteropServices::MarshalAsAttribute::__get_utype() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___utype;
 }
 constexpr ::System::Runtime::InteropServices::UnmanagedType const& System::Runtime::InteropServices::MarshalAsAttribute::__get_utype() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___utype;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_utype(::System::Runtime::InteropServices::UnmanagedType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___utype = value;
 }
 constexpr ::System::Runtime::InteropServices::UnmanagedType& System::Runtime::InteropServices::MarshalAsAttribute::__get_ArraySubType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ArraySubType;
 }
 constexpr ::System::Runtime::InteropServices::UnmanagedType const& System::Runtime::InteropServices::MarshalAsAttribute::__get_ArraySubType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ArraySubType;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_ArraySubType(::System::Runtime::InteropServices::UnmanagedType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ArraySubType = value;
 }
 constexpr ::System::Runtime::InteropServices::VarEnum& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArraySubType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArraySubType;
 }
 constexpr ::System::Runtime::InteropServices::VarEnum const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SafeArraySubType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SafeArraySubType;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SafeArraySubType(::System::Runtime::InteropServices::VarEnum value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SafeArraySubType = value;
 }
 constexpr int32_t& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeConst() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeConst;
 }
 constexpr int32_t const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeConst() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeConst;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SizeConst(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SizeConst = value;
 }
 constexpr int32_t& System::Runtime::InteropServices::MarshalAsAttribute::__get_IidParameterIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IidParameterIndex;
 }
 constexpr int32_t const& System::Runtime::InteropServices::MarshalAsAttribute::__get_IidParameterIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IidParameterIndex;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_IidParameterIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IidParameterIndex = value;
 }
 constexpr int16_t& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeParamIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeParamIndex;
 }
 constexpr int16_t const& System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeParamIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SizeParamIndex;
 }
 constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SizeParamIndex(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SizeParamIndex = value;
 }
 inline ::System::Runtime::InteropServices::MarshalAsAttribute* System::Runtime::InteropServices::MarshalAsAttribute::New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType) {

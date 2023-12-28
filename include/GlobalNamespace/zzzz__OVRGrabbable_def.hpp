@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(OVRGrabbable)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Collider;
 }
-namespace GlobalNamespace {
-class OVRGrabber;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class Rigidbody;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class OVRGrabber;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionary_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableDictionaryProxy)
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
+namespace System {
+class Array;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

@@ -1,24 +1,24 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlFactory_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IUxmlFactory"
 template <typename TCreatedType, typename TTraits> constexpr UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::operator ::UnityEngine::UIElements::IUxmlFactory*() noexcept {
   return static_cast<::UnityEngine::UIElements::IUxmlFactory*>(static_cast<void*>(this));
 }
 template <typename TCreatedType, typename TTraits> constexpr TTraits& UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__get_m_Traits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Traits;
 }
 template <typename TCreatedType, typename TTraits> constexpr TTraits const& UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__get_m_Traits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Traits;
 }
 template <typename TCreatedType, typename TTraits> constexpr void UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__set_m_Traits(TTraits value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Traits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TCreatedType, typename TTraits> inline ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>* UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::New_ctor() {

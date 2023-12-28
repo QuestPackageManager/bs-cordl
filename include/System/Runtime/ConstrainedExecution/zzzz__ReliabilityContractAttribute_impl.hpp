@@ -22,27 +22,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::ConstrainedExecution::Consistency& System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::__get__ConsistencyGuarantee_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConsistencyGuarantee_k__BackingField;
 }
 constexpr ::System::Runtime::ConstrainedExecution::Consistency const& System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::__get__ConsistencyGuarantee_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConsistencyGuarantee_k__BackingField;
 }
 constexpr void System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::__set__ConsistencyGuarantee_k__BackingField(::System::Runtime::ConstrainedExecution::Consistency value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ConsistencyGuarantee_k__BackingField = value;
 }
 constexpr ::System::Runtime::ConstrainedExecution::Cer& System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::__get__Cer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Cer_k__BackingField;
 }
 constexpr ::System::Runtime::ConstrainedExecution::Cer const& System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::__get__Cer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Cer_k__BackingField;
 }
 constexpr void System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::__set__Cer_k__BackingField(::System::Runtime::ConstrainedExecution::Cer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Cer_k__BackingField = value;
 }
 inline ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*

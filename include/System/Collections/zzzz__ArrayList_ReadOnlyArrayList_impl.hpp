@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Collections/zzzz__ArrayList_impl.hpp"
 #include "System/Collections/zzzz__ArrayList_ReadOnlyArrayList_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: ::System::Collections::__ArrayList__ReadOnlyArrayList._ctor
 template <>
@@ -440,15 +440,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::ArrayList*& System::Collections::__ArrayList__ReadOnlyArrayList::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Collections::__ArrayList__ReadOnlyArrayList::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Collections::__ArrayList__ReadOnlyArrayList::__set__list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::__ArrayList__ReadOnlyArrayList* System::Collections::__ArrayList__ReadOnlyArrayList::New_ctor(::System::Collections::ArrayList* l) {

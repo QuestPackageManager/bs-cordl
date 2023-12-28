@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaitHandle)
-namespace System {
-class IDisposable;
-}
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
@@ -18,6 +15,9 @@ class SafeWaitHandle;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {

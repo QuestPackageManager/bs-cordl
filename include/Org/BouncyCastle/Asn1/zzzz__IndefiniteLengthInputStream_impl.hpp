@@ -94,27 +94,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__get__lookAhead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lookAhead;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__get__lookAhead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lookAhead;
 }
 constexpr void Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__set__lookAhead(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lookAhead = value;
 }
 constexpr bool& Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__get__eofOn00() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eofOn00;
 }
 constexpr bool const& Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__get__eofOn00() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eofOn00;
 }
 constexpr void Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__set__eofOn00(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eofOn00 = value;
 }
 inline ::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream* Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::New_ctor(::System::IO::Stream* inStream, int32_t limit) {

@@ -227,15 +227,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SpriteSwapTransitionSO*& GlobalNamespace::SpriteSwapGraphicViewStateTransition::__get__transition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SpriteSwapTransitionSO*> const& GlobalNamespace::SpriteSwapGraphicViewStateTransition::__get__transition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr void GlobalNamespace::SpriteSwapGraphicViewStateTransition::__set__transition(::GlobalNamespace::SpriteSwapTransitionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BaseTransitionSO* GlobalNamespace::SpriteSwapGraphicViewStateTransition::get_transition() {

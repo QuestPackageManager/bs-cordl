@@ -9,6 +9,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gamepad)
 namespace UnityEngine::InputSystem::Haptics {
+class IHaptics;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct GamepadButton;
+}
+namespace UnityEngine::InputSystem::Haptics {
 class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Controls {
@@ -20,14 +26,8 @@ class DpadControl;
 namespace UnityEngine::InputSystem::Controls {
 class StickControl;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct GamepadButton;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

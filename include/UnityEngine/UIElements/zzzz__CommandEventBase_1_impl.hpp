@@ -8,15 +8,15 @@ template <typename T> constexpr UnityEngine::UIElements::CommandEventBase_1<T>::
   return static_cast<::UnityEngine::UIElements::ICommandEvent*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::StringW& UnityEngine::UIElements::CommandEventBase_1<T>::__get_m_CommandName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommandName;
 }
 template <typename T> constexpr ::StringW const& UnityEngine::UIElements::CommandEventBase_1<T>::__get_m_CommandName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommandName;
 }
 template <typename T> constexpr void UnityEngine::UIElements::CommandEventBase_1<T>::__set_m_CommandName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CommandName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::StringW UnityEngine::UIElements::CommandEventBase_1<T>::get_commandName() {

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBinary);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12077)), TypeDefinitionIndex(TypeDefinitionIndex(12069))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12069)), TypeDefinitionIndex(TypeDefinitionIndex(12077))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12079))
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinary*
 class CORDL_TYPE BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue {

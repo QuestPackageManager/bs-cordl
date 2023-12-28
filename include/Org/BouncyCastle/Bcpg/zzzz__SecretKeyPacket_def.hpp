@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecretKeyPacket)
 namespace Org::BouncyCastle::Bcpg {
-class S2k;
-}
-namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class S2k;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class PublicKeyPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

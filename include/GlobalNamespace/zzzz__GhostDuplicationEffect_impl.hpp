@@ -8,13 +8,13 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 // Ctor Parameters [CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "startSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "endPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "endSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
@@ -117,39 +117,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GhostDuplicationEffect*& GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostDuplicationEffect*> const& GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__set___4__this(::GlobalNamespace::GhostDuplicationEffect* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__get_ghostEffectParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ghostEffectParams;
 }
 constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__get_ghostEffectParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ghostEffectParams;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__set_ghostEffectParams(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ghostEffectParams = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__get_direction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___direction;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__get_direction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___direction;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::__set_direction(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___direction = value;
 }
 inline ::GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0* GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0::New_ctor() {
@@ -290,51 +290,51 @@ constexpr GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get_delay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get_delay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__set_delay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
 constexpr ::GlobalNamespace::GhostDuplicationEffect*& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostDuplicationEffect*> const& GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__set___4__this(::GlobalNamespace::GhostDuplicationEffect* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8* GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8::New_ctor(int32_t __1__state) {
@@ -547,39 +547,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*>& GlobalNamespace::GhostDuplicationEffect::__get__canvases() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvases;
 }
 constexpr ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> const& GlobalNamespace::GhostDuplicationEffect::__get__canvases() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canvases;
 }
 constexpr void GlobalNamespace::GhostDuplicationEffect::__set__canvases(::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvases)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::GhostDuplicationEffect::__get_isInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInitialized;
 }
 constexpr bool const& GlobalNamespace::GhostDuplicationEffect::__get_isInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInitialized;
 }
 constexpr void GlobalNamespace::GhostDuplicationEffect::__set_isInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isInitialized = value;
 }
 constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::GhostDuplicationEffect::__get__tweeningManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::GhostDuplicationEffect::__get__tweeningManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr void GlobalNamespace::GhostDuplicationEffect::__set__tweeningManager(::Tweening::TimeTweeningManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::GhostDuplicationEffect::OnDestroy() {

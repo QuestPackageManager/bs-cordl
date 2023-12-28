@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(PlayerOptionsViewController)
 namespace HMUI {
 class ViewController;
 }
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class PlayerSettingsPanelController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
 }
 namespace UnityEngine::UI {
 class Button;

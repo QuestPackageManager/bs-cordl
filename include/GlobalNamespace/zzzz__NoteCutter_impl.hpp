@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutter_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutter_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
@@ -24,39 +24,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::CuttableBySaber*& GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__get_cuttableBySaber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cuttableBySaber;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CuttableBySaber*> const& GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__get_cuttableBySaber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cuttableBySaber;
 }
 constexpr void GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__set_cuttableBySaber(::GlobalNamespace::CuttableBySaber* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cuttableBySaber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__get_distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr float_t const& GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__get_distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr void GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__set_distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distance = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__get_pos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__get_pos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr void GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::__set_pos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos = value;
 }
 inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams* GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::New_ctor() {
@@ -150,42 +150,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*>& GlobalNamespace::NoteCutter::__get__colliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliders;
 }
 constexpr ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> const& GlobalNamespace::NoteCutter::__get__colliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colliders;
 }
 constexpr void GlobalNamespace::NoteCutter::__set__colliders(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*>&
 GlobalNamespace::NoteCutter::__get__cuttableBySaberSortParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableBySaberSortParams;
 }
 constexpr ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> const&
 GlobalNamespace::NoteCutter::__get__cuttableBySaberSortParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cuttableBySaberSortParams;
 }
 constexpr void GlobalNamespace::NoteCutter::__set__cuttableBySaberSortParams(
     ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cuttableBySaberSortParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer*& GlobalNamespace::NoteCutter::__get__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer*> const& GlobalNamespace::NoteCutter::__get__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comparer;
 }
 constexpr void GlobalNamespace::NoteCutter::__set__comparer(::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::NoteCutter* GlobalNamespace::NoteCutter::New_ctor() {

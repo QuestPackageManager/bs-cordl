@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ClickDetector_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ClickDetector_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ClickDetector_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus.Reset
 template <>
@@ -38,51 +38,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_Target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Target;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_Target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Target;
 }
 constexpr void UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__set_m_Target(::UnityEngine::UIElements::VisualElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_PointerDownPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerDownPosition;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_PointerDownPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerDownPosition;
 }
 constexpr void UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__set_m_PointerDownPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointerDownPosition = value;
 }
 constexpr int64_t& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_LastPointerDownTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastPointerDownTime;
 }
 constexpr int64_t const& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_LastPointerDownTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastPointerDownTime;
 }
 constexpr void UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__set_m_LastPointerDownTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastPointerDownTime = value;
 }
 constexpr int32_t& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_ClickCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClickCount;
 }
 constexpr int32_t const& UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__get_m_ClickCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClickCount;
 }
 constexpr void UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::__set_m_ClickCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClickCount = value;
 }
 inline void UnityEngine::UIElements::__ClickDetector__ButtonClickStatus::Reset() {
@@ -219,16 +219,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*& UnityEngine::UIElements::ClickDetector::__get_m_ClickStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClickStatus;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*> const&
 UnityEngine::UIElements::ClickDetector::__get_m_ClickStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClickStatus;
 }
 constexpr void UnityEngine::UIElements::ClickDetector::__set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClickStatus)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::ClickDetector::setStaticF__s_DoubleClickTime_k__BackingField(int32_t value) {

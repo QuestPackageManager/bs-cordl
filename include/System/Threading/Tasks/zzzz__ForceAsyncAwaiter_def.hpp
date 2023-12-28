@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ForceAsyncAwaiter)
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

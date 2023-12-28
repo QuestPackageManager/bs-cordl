@@ -9,7 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolConfigurationProcessor)
 namespace GlobalNamespace {
-class MenuDestination;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class RecordingToolSettings;
+}
+namespace GlobalNamespace {
+class __ObjectsMovementRecorder__InitData;
+}
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__RecordingConfiguration;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__PlaybackScreenshot;
+}
+namespace GlobalNamespace {
+class RecordingSettings;
+}
+namespace GlobalNamespace {
+class RecordingToolResourceContainerSO;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class IPosesSerializer;
@@ -18,49 +48,19 @@ namespace UnityEngine {
 struct LayerMask;
 }
 namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__RecordingToolConfiguration;
-}
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class RecordingSettings;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class __ObjectsMovementRecorder__InitData;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__RecordingConfiguration;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__PlaybackScreenshot;
+class __RecordingToolConfigurationProcessor__ColorSaveData;
 }
 namespace GlobalNamespace {
 class ProgramArguments;
 }
 namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+class __RecordingToolConfigurationProcessor__RecordingToolConfiguration;
 }
 namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__ColorSaveData;
+class MenuDestination;
 }
-namespace GlobalNamespace {
-class RecordingToolResourceContainerSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

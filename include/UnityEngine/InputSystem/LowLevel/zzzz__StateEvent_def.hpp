@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateEvent)
-namespace UnityEngine::InputSystem::LowLevel {
-struct __StateEvent___stateData_e__FixedBuffer;
-}
-namespace Unity::Collections {
-struct Allocator;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct __StateEvent___stateData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace Unity::Collections {
+struct Allocator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

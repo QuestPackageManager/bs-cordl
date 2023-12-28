@@ -16,75 +16,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& HoudiniEngineUnity::HEU_InputObjectPreset::__get__gameObjectName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_InputObjectPreset::__get__gameObjectName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectName;
 }
 constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__gameObjectName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObjectName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_InputObjectPreset::__get__isSceneObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSceneObject;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InputObjectPreset::__get__isSceneObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSceneObject;
 }
 constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__isSceneObject(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isSceneObject = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_InputObjectPreset::__get__useTransformOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useTransformOffset;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_InputObjectPreset::__get__useTransformOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useTransformOffset;
 }
 constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__useTransformOffset(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useTransformOffset = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InputObjectPreset::__get__translateOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translateOffset;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InputObjectPreset::__get__translateOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translateOffset;
 }
 constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__translateOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translateOffset = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InputObjectPreset::__get__rotateOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateOffset;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InputObjectPreset::__get__rotateOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateOffset;
 }
 constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__rotateOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotateOffset = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_InputObjectPreset::__get__scaleOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleOffset;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_InputObjectPreset::__get__scaleOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scaleOffset;
 }
 constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__scaleOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scaleOffset = value;
 }
 inline ::HoudiniEngineUnity::HEU_InputObjectPreset* HoudiniEngineUnity::HEU_InputObjectPreset::New_ctor() {

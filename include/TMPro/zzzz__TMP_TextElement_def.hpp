@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_TextElement)
-namespace UnityEngine::TextCore {
-class Glyph;
+namespace TMPro {
+struct TextElementType;
 }
 namespace TMPro {
 class TMP_Asset;
 }
-namespace TMPro {
-struct TextElementType;
+namespace UnityEngine::TextCore {
+class Glyph;
 }
 // Forward declare root types
 namespace TMPro {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::TMPro::TMP_TextElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12447)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12448))
 // CS Name: ::TMPro::TMP_TextElement*
 class CORDL_TYPE TMP_TextElement : public ::System::Object {

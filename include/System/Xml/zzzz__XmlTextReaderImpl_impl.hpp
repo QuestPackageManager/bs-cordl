@@ -13,39 +13,39 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
-#include "System/Xml/zzzz__XmlParserContext_def.hpp"
-#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Tuple_4_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__EntityHandling_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
-#include "System/Xml/zzzz__ReadState_def.hpp"
-#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
-#include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Xml/zzzz__EntityHandling_def.hpp"
-#include "System/Xml/zzzz__LineInfo_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
+#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
+#include "System/Xml/zzzz__LineInfo_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
+#include "System/Xml/zzzz__ReadState_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
+#include "System/Xml/zzzz__XmlParserContext_def.hpp"
+#include "System/zzzz__Tuple_4_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
 #include "System/Xml/zzzz__IDtdParserAdapterV1_def.hpp"
 #include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
@@ -145,123 +145,123 @@ constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType System::Xml::__XmlTe
 constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType System::Xml::__XmlTextReaderImpl__InitInputType::TextReader{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType System::Xml::__XmlTextReaderImpl__InitInputType::Invalid{ static_cast<int32_t>(0x3) };
 constexpr bool& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_useAsync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAsync;
 }
 constexpr bool const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_useAsync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAsync;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_useAsync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useAsync = value;
 }
 constexpr ::System::IO::Stream*& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputStream;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputStream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputBytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputBytes;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputByteCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputByteCount;
 }
 constexpr int32_t const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputByteCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputByteCount;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputByteCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inputByteCount = value;
 }
 constexpr ::System::Uri*& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputbaseUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputbaseUri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputbaseUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputbaseUri;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputbaseUri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputbaseUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputUriStr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputUriStr;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputUriStr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputUriStr;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputUriStr(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputUriStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlResolver*& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputUriResolver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputUriResolver;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputUriResolver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputUriResolver;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputUriResolver(::System::Xml::XmlResolver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputUriResolver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlParserContext*& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputContext;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputContext(::System::Xml::XmlParserContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::TextReader*& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputTextReader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputTextReader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_inputTextReader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputTextReader;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_inputTextReader(::System::IO::TextReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputTextReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_initType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initType;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType const& System::Xml::__XmlTextReaderImpl__LaterInitParam::__get_initType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initType;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__LaterInitParam::__set_initType(::System::Xml::__XmlTextReaderImpl__InitInputType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initType = value;
 }
 // Ctor Parameters []
@@ -412,51 +412,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::XmlSpace& System::Xml::__XmlTextReaderImpl__XmlContext::__get_xmlSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSpace;
 }
 constexpr ::System::Xml::XmlSpace const& System::Xml::__XmlTextReaderImpl__XmlContext::__get_xmlSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSpace;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__XmlContext::__set_xmlSpace(::System::Xml::XmlSpace value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlSpace = value;
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__XmlContext::__get_xmlLang() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlLang;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__XmlContext::__get_xmlLang() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlLang;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__XmlContext::__set_xmlLang(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlLang)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__XmlContext::__get_defaultNamespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultNamespace;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__XmlContext::__get_defaultNamespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultNamespace;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__XmlContext::__set_defaultNamespace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__XmlContext*& System::Xml::__XmlTextReaderImpl__XmlContext::__get_previousContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__XmlContext*> const& System::Xml::__XmlTextReaderImpl__XmlContext::__get_previousContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousContext;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__XmlContext::__set_previousContext(::System::Xml::__XmlTextReaderImpl__XmlContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___previousContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::__XmlTextReaderImpl__XmlContext* System::Xml::__XmlTextReaderImpl__XmlContext::New_ctor() {
@@ -1149,15 +1149,15 @@ constexpr System::Xml::__XmlTextReaderImpl__DtdParserProxy::operator ::System::X
   return static_cast<::System::Xml::IDtdParserAdapter*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlTextReaderImpl*& System::Xml::__XmlTextReaderImpl__DtdParserProxy::__get_reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& System::Xml::__XmlTextReaderImpl__DtdParserProxy::__get_reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__DtdParserProxy::__set_reader(::System::Xml::XmlTextReaderImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::__XmlTextReaderImpl__DtdParserProxy* System::Xml::__XmlTextReaderImpl__DtdParserProxy::New_ctor(::System::Xml::XmlTextReaderImpl* reader) {
@@ -1735,231 +1735,231 @@ constexpr System::Xml::__XmlTextReaderImpl__NodeData::operator ::System::ICompar
   return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlNodeType& System::Xml::__XmlTextReaderImpl__NodeData::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::System::Xml::XmlNodeType const& System::Xml::__XmlTextReaderImpl__NodeData::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_type(::System::Xml::XmlNodeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__NodeData::__get_localName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localName;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__NodeData::__get_localName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localName;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_localName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__NodeData::__get_prefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__NodeData::__get_prefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_prefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__NodeData::__get_ns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__NodeData::__get_ns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_ns(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__NodeData::__get_nameWPrefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameWPrefix;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__NodeData::__get_nameWPrefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameWPrefix;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_nameWPrefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nameWPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::__XmlTextReaderImpl__NodeData::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr ::StringW const& System::Xml::__XmlTextReaderImpl__NodeData::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_value(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Xml::__XmlTextReaderImpl__NodeData::__get_chars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chars;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Xml::__XmlTextReaderImpl__NodeData::__get_chars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chars;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_chars(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::__XmlTextReaderImpl__NodeData::__get_valueStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueStartPos;
 }
 constexpr int32_t const& System::Xml::__XmlTextReaderImpl__NodeData::__get_valueStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueStartPos;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_valueStartPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueStartPos = value;
 }
 constexpr int32_t& System::Xml::__XmlTextReaderImpl__NodeData::__get_valueLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueLength;
 }
 constexpr int32_t const& System::Xml::__XmlTextReaderImpl__NodeData::__get_valueLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueLength;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_valueLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueLength = value;
 }
 constexpr ::System::Xml::LineInfo& System::Xml::__XmlTextReaderImpl__NodeData::__get_lineInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
 constexpr ::System::Xml::LineInfo const& System::Xml::__XmlTextReaderImpl__NodeData::__get_lineInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_lineInfo(::System::Xml::LineInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineInfo = value;
 }
 constexpr ::System::Xml::LineInfo& System::Xml::__XmlTextReaderImpl__NodeData::__get_lineInfo2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo2;
 }
 constexpr ::System::Xml::LineInfo const& System::Xml::__XmlTextReaderImpl__NodeData::__get_lineInfo2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo2;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_lineInfo2(::System::Xml::LineInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineInfo2 = value;
 }
 constexpr char16_t& System::Xml::__XmlTextReaderImpl__NodeData::__get_quoteChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quoteChar;
 }
 constexpr char16_t const& System::Xml::__XmlTextReaderImpl__NodeData::__get_quoteChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quoteChar;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_quoteChar(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___quoteChar = value;
 }
 constexpr int32_t& System::Xml::__XmlTextReaderImpl__NodeData::__get_depth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr int32_t const& System::Xml::__XmlTextReaderImpl__NodeData::__get_depth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depth;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_depth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depth = value;
 }
 constexpr bool& System::Xml::__XmlTextReaderImpl__NodeData::__get_isEmptyOrDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isEmptyOrDefault;
 }
 constexpr bool const& System::Xml::__XmlTextReaderImpl__NodeData::__get_isEmptyOrDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isEmptyOrDefault;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_isEmptyOrDefault(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isEmptyOrDefault = value;
 }
 constexpr int32_t& System::Xml::__XmlTextReaderImpl__NodeData::__get_entityId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entityId;
 }
 constexpr int32_t const& System::Xml::__XmlTextReaderImpl__NodeData::__get_entityId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entityId;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_entityId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___entityId = value;
 }
 constexpr bool& System::Xml::__XmlTextReaderImpl__NodeData::__get_xmlContextPushed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlContextPushed;
 }
 constexpr bool const& System::Xml::__XmlTextReaderImpl__NodeData::__get_xmlContextPushed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlContextPushed;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_xmlContextPushed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlContextPushed = value;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__NodeData*& System::Xml::__XmlTextReaderImpl__NodeData::__get_nextAttrValueChunk() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextAttrValueChunk;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__NodeData*> const& System::Xml::__XmlTextReaderImpl__NodeData::__get_nextAttrValueChunk() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextAttrValueChunk;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_nextAttrValueChunk(::System::Xml::__XmlTextReaderImpl__NodeData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextAttrValueChunk)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Xml::__XmlTextReaderImpl__NodeData::__get_schemaType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::__XmlTextReaderImpl__NodeData::__get_schemaType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaType;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_schemaType(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Xml::__XmlTextReaderImpl__NodeData::__get_typedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typedValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::__XmlTextReaderImpl__NodeData::__get_typedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typedValue;
 }
 constexpr void System::Xml::__XmlTextReaderImpl__NodeData::__set_typedValue(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Xml::__XmlTextReaderImpl__NodeData::setStaticF_s_None(::System::Xml::__XmlTextReaderImpl__NodeData* value) {
@@ -5483,918 +5483,918 @@ constexpr System::Xml::XmlTextReaderImpl::operator ::System::Xml::IXmlNamespaceR
   return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__LaterInitParam*& System::Xml::XmlTextReaderImpl::__get_laterInitParam() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___laterInitParam;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__LaterInitParam*> const& System::Xml::XmlTextReaderImpl::__get_laterInitParam() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___laterInitParam;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_laterInitParam(::System::Xml::__XmlTextReaderImpl__LaterInitParam* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___laterInitParam)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlCharType& System::Xml::XmlTextReaderImpl::__get_xmlCharType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlCharType;
 }
 constexpr ::System::Xml::XmlCharType const& System::Xml::XmlTextReaderImpl::__get_xmlCharType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlCharType;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_xmlCharType(::System::Xml::XmlCharType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlCharType = value;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingState& System::Xml::XmlTextReaderImpl::__get_ps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ps;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingState const& System::Xml::XmlTextReaderImpl::__get_ps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ps;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_ps(::System::Xml::__XmlTextReaderImpl__ParsingState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ps = value;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& System::Xml::XmlTextReaderImpl::__get_parsingFunction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingFunction;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& System::Xml::XmlTextReaderImpl::__get_parsingFunction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingFunction;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_parsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parsingFunction = value;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& System::Xml::XmlTextReaderImpl::__get_nextParsingFunction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextParsingFunction;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& System::Xml::XmlTextReaderImpl::__get_nextParsingFunction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextParsingFunction;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_nextParsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextParsingFunction = value;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& System::Xml::XmlTextReaderImpl::__get_nextNextParsingFunction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextNextParsingFunction;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& System::Xml::XmlTextReaderImpl::__get_nextNextParsingFunction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextNextParsingFunction;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_nextNextParsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextNextParsingFunction = value;
 }
 constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>& System::Xml::XmlTextReaderImpl::__get_nodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodes;
 }
 constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> const& System::Xml::XmlTextReaderImpl::__get_nodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodes;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_nodes(::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__NodeData*& System::Xml::XmlTextReaderImpl::__get_curNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__NodeData*> const& System::Xml::XmlTextReaderImpl::__get_curNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curNode;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_curNode(::System::Xml::__XmlTextReaderImpl__NodeData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___curNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_curAttrIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curAttrIndex;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_curAttrIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curAttrIndex;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_curAttrIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curAttrIndex = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_attrCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrCount;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_attrCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrCount;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_attrCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attrCount = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_attrHashtable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrHashtable;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_attrHashtable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrHashtable;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_attrHashtable(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attrHashtable = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_attrDuplWalkCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrDuplWalkCount;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_attrDuplWalkCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrDuplWalkCount;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_attrDuplWalkCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attrDuplWalkCount = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_attrNeedNamespaceLookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrNeedNamespaceLookup;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_attrNeedNamespaceLookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrNeedNamespaceLookup;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_attrNeedNamespaceLookup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attrNeedNamespaceLookup = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_fullAttrCleanup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullAttrCleanup;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_fullAttrCleanup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullAttrCleanup;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_fullAttrCleanup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fullAttrCleanup = value;
 }
 constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>& System::Xml::XmlTextReaderImpl::__get_attrDuplSortingArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrDuplSortingArray;
 }
 constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> const& System::Xml::XmlTextReaderImpl::__get_attrDuplSortingArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrDuplSortingArray;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_attrDuplSortingArray(::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attrDuplSortingArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlNameTable*& System::Xml::XmlTextReaderImpl::__get_nameTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& System::Xml::XmlTextReaderImpl::__get_nameTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_nameTable(::System::Xml::XmlNameTable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nameTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_nameTableFromSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTableFromSettings;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_nameTableFromSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTableFromSettings;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_nameTableFromSettings(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nameTableFromSettings = value;
 }
 constexpr ::System::Xml::XmlResolver*& System::Xml::XmlTextReaderImpl::__get_xmlResolver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolver;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& System::Xml::XmlTextReaderImpl::__get_xmlResolver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolver;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_xmlResolver(::System::Xml::XmlResolver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlResolver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlTextReaderImpl::__get_url() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___url;
 }
 constexpr ::StringW const& System::Xml::XmlTextReaderImpl::__get_url() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___url;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_url(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___url)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_normalize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalize;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_normalize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalize;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_normalize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___normalize = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_supportNamespaces() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportNamespaces;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_supportNamespaces() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportNamespaces;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_supportNamespaces(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___supportNamespaces = value;
 }
 constexpr ::System::Xml::WhitespaceHandling& System::Xml::XmlTextReaderImpl::__get_whitespaceHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___whitespaceHandling;
 }
 constexpr ::System::Xml::WhitespaceHandling const& System::Xml::XmlTextReaderImpl::__get_whitespaceHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___whitespaceHandling;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_whitespaceHandling(::System::Xml::WhitespaceHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___whitespaceHandling = value;
 }
 constexpr ::System::Xml::DtdProcessing& System::Xml::XmlTextReaderImpl::__get_dtdProcessing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtdProcessing;
 }
 constexpr ::System::Xml::DtdProcessing const& System::Xml::XmlTextReaderImpl::__get_dtdProcessing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtdProcessing;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_dtdProcessing(::System::Xml::DtdProcessing value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dtdProcessing = value;
 }
 constexpr ::System::Xml::EntityHandling& System::Xml::XmlTextReaderImpl::__get_entityHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entityHandling;
 }
 constexpr ::System::Xml::EntityHandling const& System::Xml::XmlTextReaderImpl::__get_entityHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entityHandling;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_entityHandling(::System::Xml::EntityHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___entityHandling = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_ignorePIs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignorePIs;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_ignorePIs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignorePIs;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_ignorePIs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ignorePIs = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_ignoreComments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreComments;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_ignoreComments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreComments;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_ignoreComments(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ignoreComments = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_checkCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_checkCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkCharacters;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_checkCharacters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___checkCharacters = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_lineNumberOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineNumberOffset;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_lineNumberOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineNumberOffset;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_lineNumberOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineNumberOffset = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_linePositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linePositionOffset;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_linePositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linePositionOffset;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_linePositionOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___linePositionOffset = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_closeInput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closeInput;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_closeInput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closeInput;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_closeInput(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___closeInput = value;
 }
 constexpr int64_t& System::Xml::XmlTextReaderImpl::__get_maxCharactersInDocument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCharactersInDocument;
 }
 constexpr int64_t const& System::Xml::XmlTextReaderImpl::__get_maxCharactersInDocument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCharactersInDocument;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_maxCharactersInDocument(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCharactersInDocument = value;
 }
 constexpr int64_t& System::Xml::XmlTextReaderImpl::__get_maxCharactersFromEntities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCharactersFromEntities;
 }
 constexpr int64_t const& System::Xml::XmlTextReaderImpl::__get_maxCharactersFromEntities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxCharactersFromEntities;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_maxCharactersFromEntities(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxCharactersFromEntities = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_v1Compat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v1Compat;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_v1Compat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v1Compat;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_v1Compat(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v1Compat = value;
 }
 constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::XmlTextReaderImpl::__get_namespaceManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& System::Xml::XmlTextReaderImpl::__get_namespaceManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceManager;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_namespaceManager(::System::Xml::XmlNamespaceManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaceManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlTextReaderImpl::__get_lastPrefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastPrefix;
 }
 constexpr ::StringW const& System::Xml::XmlTextReaderImpl::__get_lastPrefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastPrefix;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_lastPrefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__XmlContext*& System::Xml::XmlTextReaderImpl::__get_xmlContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__XmlContext*> const& System::Xml::XmlTextReaderImpl::__get_xmlContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlContext;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_xmlContext(::System::Xml::__XmlTextReaderImpl__XmlContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*>& System::Xml::XmlTextReaderImpl::__get_parsingStatesStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingStatesStack;
 }
 constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> const&
 System::Xml::XmlTextReaderImpl::__get_parsingStatesStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingStatesStack;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_parsingStatesStack(::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parsingStatesStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_parsingStatesStackTop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingStatesStackTop;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_parsingStatesStackTop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingStatesStackTop;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_parsingStatesStackTop(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parsingStatesStackTop = value;
 }
 constexpr ::StringW& System::Xml::XmlTextReaderImpl::__get_reportedBaseUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reportedBaseUri;
 }
 constexpr ::StringW const& System::Xml::XmlTextReaderImpl::__get_reportedBaseUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reportedBaseUri;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_reportedBaseUri(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reportedBaseUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoding*& System::Xml::XmlTextReaderImpl::__get_reportedEncoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reportedEncoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Xml::XmlTextReaderImpl::__get_reportedEncoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reportedEncoding;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_reportedEncoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reportedEncoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::IDtdInfo*& System::Xml::XmlTextReaderImpl::__get_dtdInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtdInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdInfo*> const& System::Xml::XmlTextReaderImpl::__get_dtdInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtdInfo;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_dtdInfo(::System::Xml::IDtdInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dtdInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XmlNodeType& System::Xml::XmlTextReaderImpl::__get_fragmentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fragmentType;
 }
 constexpr ::System::Xml::XmlNodeType const& System::Xml::XmlTextReaderImpl::__get_fragmentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fragmentType;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_fragmentType(::System::Xml::XmlNodeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fragmentType = value;
 }
 constexpr ::System::Xml::XmlParserContext*& System::Xml::XmlTextReaderImpl::__get_fragmentParserContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fragmentParserContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& System::Xml::XmlTextReaderImpl::__get_fragmentParserContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fragmentParserContext;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_fragmentParserContext(::System::Xml::XmlParserContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fragmentParserContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_fragment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fragment;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_fragment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fragment;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_fragment(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fragment = value;
 }
 constexpr ::System::Xml::IncrementalReadDecoder*& System::Xml::XmlTextReaderImpl::__get_incReadDecoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadDecoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::IncrementalReadDecoder*> const& System::Xml::XmlTextReaderImpl::__get_incReadDecoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadDecoder;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_incReadDecoder(::System::Xml::IncrementalReadDecoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___incReadDecoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__IncrementalReadState& System::Xml::XmlTextReaderImpl::__get_incReadState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadState;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__IncrementalReadState const& System::Xml::XmlTextReaderImpl::__get_incReadState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadState;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_incReadState(::System::Xml::__XmlTextReaderImpl__IncrementalReadState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___incReadState = value;
 }
 constexpr ::System::Xml::LineInfo& System::Xml::XmlTextReaderImpl::__get_incReadLineInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadLineInfo;
 }
 constexpr ::System::Xml::LineInfo const& System::Xml::XmlTextReaderImpl::__get_incReadLineInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadLineInfo;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_incReadLineInfo(::System::Xml::LineInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___incReadLineInfo = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_incReadDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadDepth;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_incReadDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadDepth;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_incReadDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___incReadDepth = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_incReadLeftStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadLeftStartPos;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_incReadLeftStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadLeftStartPos;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_incReadLeftStartPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___incReadLeftStartPos = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_incReadLeftEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadLeftEndPos;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_incReadLeftEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___incReadLeftEndPos;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_incReadLeftEndPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___incReadLeftEndPos = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_attributeValueBaseEntityId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeValueBaseEntityId;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_attributeValueBaseEntityId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeValueBaseEntityId;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_attributeValueBaseEntityId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___attributeValueBaseEntityId = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_emptyEntityInAttributeResolved() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___emptyEntityInAttributeResolved;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_emptyEntityInAttributeResolved() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___emptyEntityInAttributeResolved;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_emptyEntityInAttributeResolved(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___emptyEntityInAttributeResolved = value;
 }
 constexpr ::System::Xml::IValidationEventHandling*& System::Xml::XmlTextReaderImpl::__get_validationEventHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEventHandling;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::IValidationEventHandling*> const& System::Xml::XmlTextReaderImpl::__get_validationEventHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEventHandling;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_validationEventHandling(::System::Xml::IValidationEventHandling* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___validationEventHandling)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*& System::Xml::XmlTextReaderImpl::__get_onDefaultAttributeUse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDefaultAttributeUse;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*> const& System::Xml::XmlTextReaderImpl::__get_onDefaultAttributeUse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDefaultAttributeUse;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_onDefaultAttributeUse(::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onDefaultAttributeUse)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_validatingReaderCompatFlag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validatingReaderCompatFlag;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_validatingReaderCompatFlag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validatingReaderCompatFlag;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_validatingReaderCompatFlag(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validatingReaderCompatFlag = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_addDefaultAttributesAndNormalize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addDefaultAttributesAndNormalize;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_addDefaultAttributesAndNormalize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addDefaultAttributesAndNormalize;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_addDefaultAttributesAndNormalize(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___addDefaultAttributesAndNormalize = value;
 }
 constexpr ::System::Text::StringBuilder*& System::Xml::XmlTextReaderImpl::__get_stringBuilder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stringBuilder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Xml::XmlTextReaderImpl::__get_stringBuilder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stringBuilder;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_stringBuilder(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stringBuilder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_rootElementParsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootElementParsed;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_rootElementParsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootElementParsed;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_rootElementParsed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootElementParsed = value;
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_standalone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standalone;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_standalone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___standalone;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_standalone(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___standalone = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_nextEntityId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextEntityId;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_nextEntityId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextEntityId;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_nextEntityId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextEntityId = value;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingMode& System::Xml::XmlTextReaderImpl::__get_parsingMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingMode;
 }
 constexpr ::System::Xml::__XmlTextReaderImpl__ParsingMode const& System::Xml::XmlTextReaderImpl::__get_parsingMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parsingMode;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_parsingMode(::System::Xml::__XmlTextReaderImpl__ParsingMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parsingMode = value;
 }
 constexpr ::System::Xml::ReadState& System::Xml::XmlTextReaderImpl::__get_readState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readState;
 }
 constexpr ::System::Xml::ReadState const& System::Xml::XmlTextReaderImpl::__get_readState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readState;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_readState(::System::Xml::ReadState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readState = value;
 }
 constexpr ::System::Xml::IDtdEntityInfo*& System::Xml::XmlTextReaderImpl::__get_lastEntity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastEntity;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdEntityInfo*> const& System::Xml::XmlTextReaderImpl::__get_lastEntity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastEntity;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_lastEntity(::System::Xml::IDtdEntityInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastEntity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_afterResetState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterResetState;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_afterResetState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterResetState;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_afterResetState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___afterResetState = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_documentStartBytePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___documentStartBytePos;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_documentStartBytePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___documentStartBytePos;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_documentStartBytePos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___documentStartBytePos = value;
 }
 constexpr int32_t& System::Xml::XmlTextReaderImpl::__get_readValueOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readValueOffset;
 }
 constexpr int32_t const& System::Xml::XmlTextReaderImpl::__get_readValueOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readValueOffset;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_readValueOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readValueOffset = value;
 }
 constexpr int64_t& System::Xml::XmlTextReaderImpl::__get_charactersInDocument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charactersInDocument;
 }
 constexpr int64_t const& System::Xml::XmlTextReaderImpl::__get_charactersInDocument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charactersInDocument;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_charactersInDocument(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___charactersInDocument = value;
 }
 constexpr int64_t& System::Xml::XmlTextReaderImpl::__get_charactersFromEntities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charactersFromEntities;
 }
 constexpr int64_t const& System::Xml::XmlTextReaderImpl::__get_charactersFromEntities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charactersFromEntities;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_charactersFromEntities(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___charactersFromEntities = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>*& System::Xml::XmlTextReaderImpl::__get_currentEntities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEntities;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>*> const&
 System::Xml::XmlTextReaderImpl::__get_currentEntities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEntities;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_currentEntities(::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentEntities)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_disableUndeclaredEntityCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disableUndeclaredEntityCheck;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_disableUndeclaredEntityCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disableUndeclaredEntityCheck;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_disableUndeclaredEntityCheck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disableUndeclaredEntityCheck = value;
 }
 constexpr ::System::Xml::XmlReader*& System::Xml::XmlTextReaderImpl::__get_outerReader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outerReader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::XmlTextReaderImpl::__get_outerReader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outerReader;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_outerReader(::System::Xml::XmlReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___outerReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::XmlTextReaderImpl::__get_xmlResolverIsSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolverIsSet;
 }
 constexpr bool const& System::Xml::XmlTextReaderImpl::__get_xmlResolverIsSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlResolverIsSet;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_xmlResolverIsSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xmlResolverIsSet = value;
 }
 constexpr ::StringW& System::Xml::XmlTextReaderImpl::__get_Xml() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Xml;
 }
 constexpr ::StringW const& System::Xml::XmlTextReaderImpl::__get_Xml() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Xml;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_Xml(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Xml)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Xml::XmlTextReaderImpl::__get_XmlNs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___XmlNs;
 }
 constexpr ::StringW const& System::Xml::XmlTextReaderImpl::__get_XmlNs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___XmlNs;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_XmlNs(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___XmlNs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>*& System::Xml::XmlTextReaderImpl::__get_parseText_dummyTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parseText_dummyTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>*> const&
 System::Xml::XmlTextReaderImpl::__get_parseText_dummyTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parseText_dummyTask;
 }
 constexpr void System::Xml::XmlTextReaderImpl::__set_parseText_dummyTask(::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parseText_dummyTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlTextReaderImpl* System::Xml::XmlTextReaderImpl::New_ctor(::System::Xml::XmlNameTable* nt) {

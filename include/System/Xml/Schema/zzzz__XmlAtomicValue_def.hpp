@@ -13,16 +13,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAtomicValue)
 namespace System {
-struct DateTime;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System {
 class Object;
 }
 namespace System::Xml::Schema {
 class __XmlAtomicValue__NamespacePrefixForQName;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System {
 class Type;
@@ -31,7 +31,7 @@ namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System {
-class ICloneable;
+struct DateTime;
 }
 namespace System::Xml::Schema {
 struct __XmlAtomicValue__Union;
@@ -273,7 +273,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XmlAtomic
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11711)), TypeDefinitionIndex(TypeDefinitionIndex(11580)), TypeDefinitionIndex(TypeDefinitionIndex(2496))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2496)), TypeDefinitionIndex(TypeDefinitionIndex(11711)), TypeDefinitionIndex(TypeDefinitionIndex(11580))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11713))
 // CS Name: ::System.Xml.Schema::XmlAtomicValue*
 class CORDL_TYPE XmlAtomicValue : public ::System::Xml::XPath::XPathItem {

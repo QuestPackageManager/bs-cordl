@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CertOrEncCert)
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
 }
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class EncryptedValue;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

@@ -92,39 +92,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Security::Cryptography::KeySizes::__get_m_minSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_minSize;
 }
 constexpr int32_t const& System::Security::Cryptography::KeySizes::__get_m_minSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_minSize;
 }
 constexpr void System::Security::Cryptography::KeySizes::__set_m_minSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_minSize = value;
 }
 constexpr int32_t& System::Security::Cryptography::KeySizes::__get_m_maxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxSize;
 }
 constexpr int32_t const& System::Security::Cryptography::KeySizes::__get_m_maxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxSize;
 }
 constexpr void System::Security::Cryptography::KeySizes::__set_m_maxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxSize = value;
 }
 constexpr int32_t& System::Security::Cryptography::KeySizes::__get_m_skipSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_skipSize;
 }
 constexpr int32_t const& System::Security::Cryptography::KeySizes::__get_m_skipSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_skipSize;
 }
 constexpr void System::Security::Cryptography::KeySizes::__set_m_skipSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_skipSize = value;
 }
 inline int32_t System::Security::Cryptography::KeySizes::get_MinSize() {

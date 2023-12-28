@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
-#include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
+#include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PathsHolder.get_bezierPath
 template <>
 
@@ -59,27 +59,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BezierPath*& GlobalNamespace::PathsHolder::__get__bezierPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierPath;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierPath*> const& GlobalNamespace::PathsHolder::__get__bezierPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierPath;
 }
 constexpr void GlobalNamespace::PathsHolder::__set__bezierPath(::GlobalNamespace::BezierPath* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bezierPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VertexPath*& GlobalNamespace::PathsHolder::__get__vertexPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexPath;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VertexPath*> const& GlobalNamespace::PathsHolder::__get__vertexPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexPath;
 }
 constexpr void GlobalNamespace::PathsHolder::__set__vertexPath(::GlobalNamespace::VertexPath* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vertexPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BezierPath* GlobalNamespace::PathsHolder::get_bezierPath() {

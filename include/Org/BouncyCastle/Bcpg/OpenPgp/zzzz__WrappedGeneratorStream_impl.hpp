@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*& Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::__get_gen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gen;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*> const& Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::__get_gen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gen;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::__set_gen(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream* Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen,

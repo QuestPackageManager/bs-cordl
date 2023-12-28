@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(RuntimeParameterInfo)
 namespace System::Reflection {
 class CustomAttributeData;
 }
-namespace System::Runtime::InteropServices {
-class MarshalAsAttribute;
-}
-namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class ParameterInfo;
-}
-namespace System::Reflection {
-class MemberInfo;
 }
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Runtime::InteropServices {
+class MarshalAsAttribute;
+}
+namespace System {
+class Object;
+}
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

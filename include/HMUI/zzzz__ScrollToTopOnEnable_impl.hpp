@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::ScrollView*& HMUI::ScrollToTopOnEnable::__get__scrollView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollView;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ScrollView*> const& HMUI::ScrollToTopOnEnable::__get__scrollView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollView;
 }
 constexpr void HMUI::ScrollToTopOnEnable::__set__scrollView(::HMUI::ScrollView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scrollView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::ScrollToTopOnEnable::OnEnable() {

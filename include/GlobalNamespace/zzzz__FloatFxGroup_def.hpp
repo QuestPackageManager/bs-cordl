@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 CORDL_MODULE_EXPORT(FloatFxGroup)
-namespace GlobalNamespace {
-class FloatFxGroupEffectTarget;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class FloatFxGroupEffectTarget;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;

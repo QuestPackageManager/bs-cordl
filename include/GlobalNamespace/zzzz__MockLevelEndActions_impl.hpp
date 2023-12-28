@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockLevelEndActions_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockLevelEndActions.add_levelFailedEvent
 template <>
 
@@ -81,27 +81,27 @@ constexpr GlobalNamespace::MockLevelEndActions::operator ::GlobalNamespace::ILev
   return static_cast<::GlobalNamespace::ILevelEndActions*>(static_cast<void*>(this));
 }
 constexpr ::System::Action*& GlobalNamespace::MockLevelEndActions::__get_levelFailedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelFailedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MockLevelEndActions::__get_levelFailedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelFailedEvent;
 }
 constexpr void GlobalNamespace::MockLevelEndActions::__set_levelFailedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelFailedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::MockLevelEndActions::__get_levelFinishedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelFinishedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MockLevelEndActions::__get_levelFinishedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelFinishedEvent;
 }
 constexpr void GlobalNamespace::MockLevelEndActions::__set_levelFinishedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelFinishedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MockLevelEndActions::add_levelFailedEvent(::System::Action* value) {

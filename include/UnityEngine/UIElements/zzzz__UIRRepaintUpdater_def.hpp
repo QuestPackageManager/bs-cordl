@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UIRRepaintUpdater)
 namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
-namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIRRepaintUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7327))
 // CS Name: ::UnityEngine.UIElements::UIRRepaintUpdater*
 class CORDL_TYPE UIRRepaintUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {

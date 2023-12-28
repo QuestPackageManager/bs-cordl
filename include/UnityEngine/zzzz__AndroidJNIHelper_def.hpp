@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidJNIHelper)
+namespace UnityEngine {
+class AndroidJavaRunnable;
+}
+namespace UnityEngine {
+class AndroidJavaProxy;
+}
 namespace System {
 class Array;
 }
@@ -15,12 +21,6 @@ class Object;
 }
 namespace UnityEngine {
 struct jvalue;
-}
-namespace UnityEngine {
-class AndroidJavaProxy;
-}
-namespace UnityEngine {
-class AndroidJavaRunnable;
 }
 // Forward declare root types
 namespace UnityEngine {

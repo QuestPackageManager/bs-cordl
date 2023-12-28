@@ -149,15 +149,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__ImageEffectController__RenderImageCallback*& GlobalNamespace::ImageEffectController::__get__renderImageCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderImageCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ImageEffectController__RenderImageCallback*> const& GlobalNamespace::ImageEffectController::__get__renderImageCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderImageCallback;
 }
 constexpr void GlobalNamespace::ImageEffectController::__set__renderImageCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderImageCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ImageEffectController::SetCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* renderImageCallback) {

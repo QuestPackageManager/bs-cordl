@@ -15,19 +15,19 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class __Grounder__GrounderDelegate;
+class __Grounding__Leg;
 }
 namespace RootMotion::FinalIK {
-class __Grounding__Leg;
+class __Grounder__GrounderDelegate;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

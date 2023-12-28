@@ -46,15 +46,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& System::Runtime::InteropServices::SafeBuffer::__get__numBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBytes;
 }
 constexpr void* const& System::Runtime::InteropServices::SafeBuffer::__get__numBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBytes;
 }
 constexpr void System::Runtime::InteropServices::SafeBuffer::__set__numBytes(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numBytes = value;
 }
 inline void System::Runtime::InteropServices::SafeBuffer::setStaticF_Uninitialized(void* value) {

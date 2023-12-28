@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::KeyControl);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 292, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6629)), TypeDefinitionIndex(TypeDefinitionIndex(6242))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(6629))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6638))
 // CS Name: ::UnityEngine.InputSystem.Controls::KeyControl*
 class CORDL_TYPE KeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {

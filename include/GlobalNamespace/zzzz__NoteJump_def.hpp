@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteJump)
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class PlayerSpaceConvertor;
+class IAudioTimeSource;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class PlayerSpaceConvertor;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
-namespace UnityEngine {
-class Transform;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

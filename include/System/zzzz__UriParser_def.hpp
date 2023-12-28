@@ -11,10 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UriParser)
 namespace System {
-class Uri;
+class UriFormatException;
+}
+namespace System {
+struct UriSyntaxFlags;
 }
 namespace System {
 class __UriParser__BuiltInUriParser;
+}
+namespace System {
+struct UriFormat;
 }
 namespace System {
 struct __UriParser__UriQuirksVersion;
@@ -23,16 +29,10 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-struct UriSyntaxFlags;
-}
-namespace System {
-struct UriFormat;
-}
-namespace System {
 struct UriComponents;
 }
 namespace System {
-class UriFormatException;
+class Uri;
 }
 // Forward declare root types
 namespace System {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::System::__UriParser__UriQuirksVe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8885)), TypeDefinitionIndex(TypeDefinitionIndex(8890)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8890)), TypeDefinitionIndex(TypeDefinitionIndex(8885)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8887))
 // CS Name: ::System::UriParser*
 class CORDL_TYPE UriParser : public ::System::Object {

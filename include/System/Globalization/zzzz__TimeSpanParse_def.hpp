@@ -13,7 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeSpanParse)
 namespace System::Globalization {
-struct __TimeSpanParse__StringParser;
+struct __TimeSpanParse__ParseFailureKind;
+}
+namespace System::Globalization {
+struct __TimeSpanParse__TimeSpanRawInfo;
+}
+namespace System::Globalization {
+struct TimeSpanStyles;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Globalization {
 struct __TimeSpanParse__TimeSpanStandardStyles;
@@ -21,35 +33,23 @@ struct __TimeSpanParse__TimeSpanStandardStyles;
 namespace System::Globalization {
 struct __TimeSpanParse__TTT;
 }
+namespace System::Globalization {
+struct __TimeSpanParse__TimeSpanTokenizer;
+}
+namespace System::Globalization {
+struct __TimeSpanParse__StringParser;
+}
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 struct TimeSpan;
 }
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Globalization {
-struct __TimeSpanParse__TimeSpanRawInfo;
-}
-namespace System::Globalization {
-struct __TimeSpanParse__ParseFailureKind;
-}
 namespace System::Globalization {
 struct __TimeSpanParse__TimeSpanResult;
 }
 namespace System::Globalization {
 struct __TimeSpanParse__TimeSpanToken;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Globalization {
-struct TimeSpanStyles;
-}
-namespace System::Globalization {
-struct __TimeSpanParse__TimeSpanTokenizer;
 }
 namespace System::Globalization {
 struct __TimeSpanFormat__FormatLiterals;
@@ -335,7 +335,7 @@ static_assert(::cordl_internals::size_check_v<::System::Globalization::__TimeSpa
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2464))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3688))
 // CS Name: ::TimeSpanParse::TimeSpanTokenizer
 struct CORDL_TYPE __TimeSpanParse__TimeSpanTokenizer {
@@ -389,9 +389,8 @@ static_assert(::cordl_internals::size_check_v<::System::Globalization::__TimeSpa
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3682)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3687)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3689))
-// CS Name: ::TimeSpanParse::TimeSpanRawInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3686)), TypeDefinitionIndex(TypeDefinitionIndex(3687)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3682))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3689)) CS Name: ::TimeSpanParse::TimeSpanRawInfo
 struct CORDL_TYPE __TimeSpanParse__TimeSpanRawInfo {
 public:
   // Declarations

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509V1CertificateGenerator)
-namespace System {
-struct DateTime;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class V1TbsCertificateGenerator;
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+namespace Org::BouncyCastle::Asn1::X509 {
+class V1TbsCertificateGenerator;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -29,19 +29,19 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

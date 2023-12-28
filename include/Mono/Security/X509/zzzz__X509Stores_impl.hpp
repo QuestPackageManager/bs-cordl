@@ -46,39 +46,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Mono::Security::X509::X509Stores::__get__storePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____storePath;
 }
 constexpr ::StringW const& Mono::Security::X509::X509Stores::__get__storePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____storePath;
 }
 constexpr void Mono::Security::X509::X509Stores::__set__storePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____storePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Security::X509::X509Stores::__get__newFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newFormat;
 }
 constexpr bool const& Mono::Security::X509::X509Stores::__get__newFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newFormat;
 }
 constexpr void Mono::Security::X509::X509Stores::__set__newFormat(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____newFormat = value;
 }
 constexpr ::Mono::Security::X509::X509Store*& Mono::Security::X509::X509Stores::__get__trusted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trusted;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& Mono::Security::X509::X509Stores::__get__trusted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trusted;
 }
 constexpr void Mono::Security::X509::X509Stores::__set__trusted(::Mono::Security::X509::X509Store* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trusted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::X509::X509Stores* Mono::Security::X509::X509Stores::New_ctor(::StringW path, bool newFormat) {

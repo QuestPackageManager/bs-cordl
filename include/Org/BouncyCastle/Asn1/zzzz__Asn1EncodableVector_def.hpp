@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1EncodableVector)
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

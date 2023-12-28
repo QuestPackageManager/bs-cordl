@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaiwanCalendar)
-namespace System::Globalization {
-class EraInfo;
-}
 namespace System {
 struct DayOfWeek;
 }
 namespace System {
 struct DateTime;
+}
+namespace System::Globalization {
+class EraInfo;
 }
 namespace System::Globalization {
 class Calendar;

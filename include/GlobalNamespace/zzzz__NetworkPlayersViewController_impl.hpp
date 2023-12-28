@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersTableView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkPlayersViewController.get_myPartyTitle
 template <>
@@ -267,51 +267,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::NetworkPlayersTableView*& GlobalNamespace::NetworkPlayersViewController::__get__networkPlayersTableView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkPlayersTableView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayersTableView*> const& GlobalNamespace::NetworkPlayersViewController::__get__networkPlayersTableView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkPlayersTableView;
 }
 constexpr void GlobalNamespace::NetworkPlayersViewController::__set__networkPlayersTableView(::GlobalNamespace::NetworkPlayersTableView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkPlayersTableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::NetworkPlayersViewController::__get__refreshIsNeeded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshIsNeeded;
 }
 constexpr bool const& GlobalNamespace::NetworkPlayersViewController::__get__refreshIsNeeded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshIsNeeded;
 }
 constexpr void GlobalNamespace::NetworkPlayersViewController::__set__refreshIsNeeded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____refreshIsNeeded = value;
 }
 constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::NetworkPlayersViewController::__get_onJoinRequestEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onJoinRequestEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& GlobalNamespace::NetworkPlayersViewController::__get_onJoinRequestEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onJoinRequestEvent;
 }
 constexpr void GlobalNamespace::NetworkPlayersViewController::__set_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onJoinRequestEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::NetworkPlayersViewController::__get_onInviteRequestEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onInviteRequestEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& GlobalNamespace::NetworkPlayersViewController::__get_onInviteRequestEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onInviteRequestEvent;
 }
 constexpr void GlobalNamespace::NetworkPlayersViewController::__set_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onInviteRequestEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::NetworkPlayersViewController::get_myPartyTitle() {

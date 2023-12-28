@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixPolicyNode)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

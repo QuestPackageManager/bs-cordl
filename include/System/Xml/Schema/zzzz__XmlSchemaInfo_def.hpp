@@ -10,19 +10,19 @@ namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
+struct XmlSchemaValidity;
+}
+namespace System::Xml::Schema {
 class XmlSchemaElement;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAttribute;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11744)), TypeDefinitionIndex(TypeDefinitionIndex(11722))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11744))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11729))
 // CS Name: ::System.Xml.Schema::XmlSchemaInfo*
 class CORDL_TYPE XmlSchemaInfo : public ::System::Object {

@@ -21,46 +21,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelSO)
 namespace GlobalNamespace {
-struct __BeatmapLevelSO___GetCoverImageAsync_d__72;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelSO__GetBeatmapLevelDataResult;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
+namespace GlobalNamespace {
+struct __BeatmapLevelSO__GetBeatmapLevelDataResult;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
+class IDifficultyBeatmap;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class PreviewDifficultyBeatmapSet;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+struct __BeatmapLevelSO___GetPreviewAudioClipAsync_d__71;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelSO___GetCoverImageAsync_d__72;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
 class __BeatmapLevelSO__DifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelSO__DifficultyBeatmap;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IAssetSongAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IAssetSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelSO___GetPreviewAudioClipAsync_d__71;
-}
-namespace UnityEngine {
-class AudioClip;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
+class __BeatmapLevelSO__DifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelSO___GetBeatmapLevelDataAsync_d__76;
@@ -90,22 +90,22 @@ namespace UnityEngine {
 class Sprite;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapDataSO;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
 struct __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataAsync_d__17;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__16;
 }
 namespace GlobalNamespace {
-class BeatmapDataSO;
-}
-namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -245,8 +245,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelS
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4367)) CS Name: ::BeatmapLevelSO::DifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__16
 struct CORDL_TYPE __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__16 {
 public:
@@ -297,9 +297,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelS
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4368)) CS
-// Name: ::BeatmapLevelSO::DifficultyBeatmap::<GetBeatmapDataAsync>d__17
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4260)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4368)) CS Name: ::BeatmapLevelSO::DifficultyBeatmap::<GetBeatmapDataAsync>d__17
 struct CORDL_TYPE __BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataAsync_d__17 {
 public:
   // Declarations
@@ -634,9 +634,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4372)) CS Name: ::BeatmapLevelSO::<GetPreviewAudioClipAsync>d__71
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4372)) CS Name: ::BeatmapLevelSO::<GetPreviewAudioClipAsync>d__71
 struct CORDL_TYPE __BeatmapLevelSO___GetPreviewAudioClipAsync_d__71 {
 public:
   // Declarations
@@ -689,8 +689,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4373)) CS Name: ::BeatmapLevelSO::<GetCoverImageAsync>d__72
 struct CORDL_TYPE __BeatmapLevelSO___GetCoverImageAsync_d__72 {
 public:
@@ -744,9 +744,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelS
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 905
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4371)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 905 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4374)) CS
-// Name: ::BeatmapLevelSO::<GetBeatmapLevelDataAsync>d__76
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 905 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 905 }), TypeDefinitionIndex(TypeDefinitionIndex(4371))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4374)) CS Name: ::BeatmapLevelSO::<GetBeatmapLevelDataAsync>d__76
 struct CORDL_TYPE __BeatmapLevelSO___GetBeatmapLevelDataAsync_d__76 {
 public:
   // Declarations
@@ -796,7 +796,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelS
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4371)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(4371))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4375))
 // CS Name: ::BeatmapLevelSO*
 class CORDL_TYPE BeatmapLevelSO : public ::GlobalNamespace::PersistentScriptableObject {

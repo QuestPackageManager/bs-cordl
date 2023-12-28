@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__TouchType_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Touch_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__TouchPhase_def.hpp"
 #include "UnityEngine/zzzz__TouchType_def.hpp"
+#include "UnityEngine/zzzz__TouchPhase_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Touch.get_fingerId
 template <>
 

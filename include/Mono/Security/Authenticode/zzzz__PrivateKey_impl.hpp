@@ -95,51 +95,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Mono::Security::Authenticode::PrivateKey::__get_encrypted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encrypted;
 }
 constexpr bool const& Mono::Security::Authenticode::PrivateKey::__get_encrypted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encrypted;
 }
 constexpr void Mono::Security::Authenticode::PrivateKey::__set_encrypted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___encrypted = value;
 }
 constexpr ::System::Security::Cryptography::RSA*& Mono::Security::Authenticode::PrivateKey::__get_rsa() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rsa;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& Mono::Security::Authenticode::PrivateKey::__get_rsa() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rsa;
 }
 constexpr void Mono::Security::Authenticode::PrivateKey::__set_rsa(::System::Security::Cryptography::RSA* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rsa)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Security::Authenticode::PrivateKey::__get_weak() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weak;
 }
 constexpr bool const& Mono::Security::Authenticode::PrivateKey::__get_weak() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weak;
 }
 constexpr void Mono::Security::Authenticode::PrivateKey::__set_weak(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weak = value;
 }
 constexpr int32_t& Mono::Security::Authenticode::PrivateKey::__get_keyType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyType;
 }
 constexpr int32_t const& Mono::Security::Authenticode::PrivateKey::__get_keyType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyType;
 }
 constexpr void Mono::Security::Authenticode::PrivateKey::__set_keyType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyType = value;
 }
 inline ::Mono::Security::Authenticode::PrivateKey* Mono::Security::Authenticode::PrivateKey::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password) {

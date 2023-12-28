@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RadioButton)
 namespace UnityEngine::UIElements {
-class IGroupBoxOption;
-}
-namespace UnityEngine::UIElements {
 class __RadioButton__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
@@ -21,13 +18,16 @@ namespace UnityEngine::UIElements {
 class __RadioButton__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__RadioButton__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6992))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7077)) CS Name: ::RadioButton::UxmlTraits*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7131)), TypeDefinitionIndex(TypeDefinitionIndex(6992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 914
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7077)) CS Name: ::RadioButton::UxmlTraits*
 class CORDL_TYPE __RadioButton__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
@@ -223,8 +223,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioBu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7077)), TypeDefinitionIndex(TypeDefinitionIndex(7078)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5271
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7076)) CS Name: ::RadioButton::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7078)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7077)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5271 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7076)) CS Name: ::RadioButton::UxmlFactory*
 class CORDL_TYPE __RadioButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RadioButton*, ::UnityEngine::UIElements::__RadioButton__UxmlTraits*> {
 public:
   // Declarations

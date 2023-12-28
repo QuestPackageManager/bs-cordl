@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Parametric3SliceSpriteController)
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Mesh;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Parametric3SliceSpriteController);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14485))
 // CS Name: ::Parametric3SliceSpriteController*
 class CORDL_TYPE Parametric3SliceSpriteController : public ::UnityEngine::MonoBehaviour {

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EventCallbackListPool)
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
 namespace UnityEngine::UIElements {
 class EventCallbackList;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

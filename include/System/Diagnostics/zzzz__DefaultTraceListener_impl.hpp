@@ -160,15 +160,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Diagnostics::DefaultTraceListener::__get_logFileName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___logFileName;
 }
 constexpr ::StringW const& System::Diagnostics::DefaultTraceListener::__get_logFileName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___logFileName;
 }
 constexpr void System::Diagnostics::DefaultTraceListener::__set_logFileName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___logFileName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Diagnostics::DefaultTraceListener::setStaticF_OnWin32(bool value) {

@@ -149,87 +149,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::FPSCounter::__get__currentFPS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFPS_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::FPSCounter::__get__currentFPS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFPS_k__BackingField;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__currentFPS_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentFPS_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::FPSCounter::__get__lowestFPS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lowestFPS_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::FPSCounter::__get__lowestFPS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lowestFPS_k__BackingField;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__lowestFPS_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lowestFPS_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::FPSCounter::__get__highestFPS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highestFPS_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::FPSCounter::__get__highestFPS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highestFPS_k__BackingField;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__highestFPS_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highestFPS_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::FPSCounter::__get__droppedFrames_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____droppedFrames_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::FPSCounter::__get__droppedFrames_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____droppedFrames_k__BackingField;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__droppedFrames_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____droppedFrames_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::FPSCounter::__get__timeBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeBuffer;
 }
 constexpr float_t const& GlobalNamespace::FPSCounter::__get__timeBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeBuffer;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__timeBuffer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeBuffer = value;
 }
 constexpr int32_t& GlobalNamespace::FPSCounter::__get__frameCounter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameCounter;
 }
 constexpr int32_t const& GlobalNamespace::FPSCounter::__get__frameCounter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameCounter;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__frameCounter(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frameCounter = value;
 }
 constexpr float_t& GlobalNamespace::FPSCounter::__get__minDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::FPSCounter::__get__minDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minDeltaTime;
 }
 constexpr void GlobalNamespace::FPSCounter::__set__minDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minDeltaTime = value;
 }
 inline int32_t GlobalNamespace::FPSCounter::get_currentFPS() {

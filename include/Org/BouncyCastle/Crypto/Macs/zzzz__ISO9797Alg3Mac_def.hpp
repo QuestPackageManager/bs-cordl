@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISO9797Alg3Mac)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;

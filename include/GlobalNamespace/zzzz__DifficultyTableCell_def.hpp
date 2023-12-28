@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DifficultyTableCell)
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace GlobalNamespace {
 class FillIndicator;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

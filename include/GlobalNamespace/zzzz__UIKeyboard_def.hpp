@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UIKeyboard)
 namespace GlobalNamespace {
-class TextMeshProButton;
+class __UIKeyboard____c__DisplayClass21_0;
 }
 namespace System {
 class Action;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class __UIKeyboard____c__DisplayClass21_0;
-}
-namespace System {
-template <typename T> class Action_1;
+class TextMeshProButton;
 }
 // Forward declare root types
 namespace GlobalNamespace {

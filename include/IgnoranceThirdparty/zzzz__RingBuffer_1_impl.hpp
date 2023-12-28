@@ -3,51 +3,51 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& IgnoranceThirdparty::RingBuffer_1<T>::__get__entries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& IgnoranceThirdparty::RingBuffer_1<T>::__get__entries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 template <typename T> constexpr void IgnoranceThirdparty::RingBuffer_1<T>::__set__entries(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& IgnoranceThirdparty::RingBuffer_1<T>::__get__modMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modMask;
 }
 template <typename T> constexpr int32_t const& IgnoranceThirdparty::RingBuffer_1<T>::__get__modMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modMask;
 }
 template <typename T> constexpr void IgnoranceThirdparty::RingBuffer_1<T>::__set__modMask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modMask = value;
 }
 template <typename T> constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong& IgnoranceThirdparty::RingBuffer_1<T>::__get__consumerCursor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____consumerCursor;
 }
 template <typename T> constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong const& IgnoranceThirdparty::RingBuffer_1<T>::__get__consumerCursor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____consumerCursor;
 }
 template <typename T> constexpr void IgnoranceThirdparty::RingBuffer_1<T>::__set__consumerCursor(::IgnoranceThirdparty::__Volatile__PaddedLong value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____consumerCursor = value;
 }
 template <typename T> constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong& IgnoranceThirdparty::RingBuffer_1<T>::__get__producerCursor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____producerCursor;
 }
 template <typename T> constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong const& IgnoranceThirdparty::RingBuffer_1<T>::__get__producerCursor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____producerCursor;
 }
 template <typename T> constexpr void IgnoranceThirdparty::RingBuffer_1<T>::__set__producerCursor(::IgnoranceThirdparty::__Volatile__PaddedLong value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____producerCursor = value;
 }
 template <typename T> inline ::IgnoranceThirdparty::RingBuffer_1<T>* IgnoranceThirdparty::RingBuffer_1<T>::New_ctor(int32_t capacity) {

@@ -8,7 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreditsController)
 namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
 class CreditsScenesTransitionSetupDataSO;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class __CreditsController___ScrollCoroutine_d__13;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -16,29 +28,17 @@ class IEnumerator;
 namespace GlobalNamespace {
 class AudioPlayerBase;
 }
-namespace GlobalNamespace {
-class __CreditsController___ScrollCoroutine_d__13;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace UnityEngine {
 class RectTransform;
 }
-namespace HMUI {
-class ButtonBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

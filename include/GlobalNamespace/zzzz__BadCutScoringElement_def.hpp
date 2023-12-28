@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 struct __ScoreMultiplierCounter__MultiplierEventType;
 }
 namespace GlobalNamespace {
-class __BadCutScoringElement__Pool;
+class NoteData;
 }
 namespace GlobalNamespace {
-class NoteData;
+class __BadCutScoringElement__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BadCutScoringElement__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5323)), TypeDefinitionIndex(TypeDefinitionIndex(5320))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5327))
 // CS Name: ::BadCutScoringElement*
 class CORDL_TYPE BadCutScoringElement : public ::GlobalNamespace::ScoringElement {
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BadCutScoringEl
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2807 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5327))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5326)) CS Name: ::BadCutScoringElement::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5327)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2807 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5322))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5326)) CS Name: ::BadCutScoringElement::Pool*
 class CORDL_TYPE __BadCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::BadCutScoringElement*> {
 public:
   // Declarations

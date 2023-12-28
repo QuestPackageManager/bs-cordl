@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::IO::Pem::PemReader._ctor
 template <>
 
@@ -62,15 +62,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::TextReader*& Org::BouncyCastle::Utilities::IO::Pem::PemReader::__get_reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& Org::BouncyCastle::Utilities::IO::Pem::PemReader::__get_reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemReader::__set_reader(::System::IO::TextReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Utilities::IO::Pem::PemReader* Org::BouncyCastle::Utilities::IO::Pem::PemReader::New_ctor(::System::IO::TextReader* reader) {

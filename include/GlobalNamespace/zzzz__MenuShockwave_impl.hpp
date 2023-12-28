@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuShockwave_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MenuShockwave.Awake
 template <>
 
@@ -87,51 +87,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::MenuShockwave::__get__shockwavePS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::MenuShockwave::__get__shockwavePS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePS;
 }
 constexpr void GlobalNamespace::MenuShockwave::__set__shockwavePS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shockwavePS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::VRUIControls::VRPointer*& GlobalNamespace::MenuShockwave::__get__vrPointer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPointer;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRPointer*> const& GlobalNamespace::MenuShockwave::__get__vrPointer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPointer;
 }
 constexpr void GlobalNamespace::MenuShockwave::__set__vrPointer(::VRUIControls::VRPointer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPointer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::Signal*, ::Array<::GlobalNamespace::Signal*>*>& GlobalNamespace::MenuShockwave::__get__buttonClickEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonClickEvents;
 }
 constexpr ::ArrayW<::GlobalNamespace::Signal*, ::Array<::GlobalNamespace::Signal*>*> const& GlobalNamespace::MenuShockwave::__get__buttonClickEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonClickEvents;
 }
 constexpr void GlobalNamespace::MenuShockwave::__set__buttonClickEvents(::ArrayW<::GlobalNamespace::Signal*, ::Array<::GlobalNamespace::Signal*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonClickEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::MenuShockwave::__get__shockwavePSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePSEmitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::MenuShockwave::__get__shockwavePSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePSEmitParams;
 }
 constexpr void GlobalNamespace::MenuShockwave::__set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shockwavePSEmitParams = value;
 }
 inline void GlobalNamespace::MenuShockwave::Awake() {

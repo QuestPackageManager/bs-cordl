@@ -17,63 +17,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::LivestreamingStatus::__get_CommentsVisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CommentsVisible;
 }
 constexpr bool const& Oculus::Platform::Models::LivestreamingStatus::__get_CommentsVisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CommentsVisible;
 }
 constexpr void Oculus::Platform::Models::LivestreamingStatus::__set_CommentsVisible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CommentsVisible = value;
 }
 constexpr bool& Oculus::Platform::Models::LivestreamingStatus::__get_IsPaused() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsPaused;
 }
 constexpr bool const& Oculus::Platform::Models::LivestreamingStatus::__get_IsPaused() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsPaused;
 }
 constexpr void Oculus::Platform::Models::LivestreamingStatus::__set_IsPaused(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsPaused = value;
 }
 constexpr bool& Oculus::Platform::Models::LivestreamingStatus::__get_LivestreamingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LivestreamingEnabled;
 }
 constexpr bool const& Oculus::Platform::Models::LivestreamingStatus::__get_LivestreamingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LivestreamingEnabled;
 }
 constexpr void Oculus::Platform::Models::LivestreamingStatus::__set_LivestreamingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LivestreamingEnabled = value;
 }
 constexpr int32_t& Oculus::Platform::Models::LivestreamingStatus::__get_LivestreamingType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LivestreamingType;
 }
 constexpr int32_t const& Oculus::Platform::Models::LivestreamingStatus::__get_LivestreamingType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LivestreamingType;
 }
 constexpr void Oculus::Platform::Models::LivestreamingStatus::__set_LivestreamingType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LivestreamingType = value;
 }
 constexpr bool& Oculus::Platform::Models::LivestreamingStatus::__get_MicEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MicEnabled;
 }
 constexpr bool const& Oculus::Platform::Models::LivestreamingStatus::__get_MicEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MicEnabled;
 }
 constexpr void Oculus::Platform::Models::LivestreamingStatus::__set_MicEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MicEnabled = value;
 }
 inline ::Oculus::Platform::Models::LivestreamingStatus* Oculus::Platform::Models::LivestreamingStatus::New_ctor(void* o) {

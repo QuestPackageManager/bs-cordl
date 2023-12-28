@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__ArgumentOutOfRangeException_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
 template <>
 
@@ -108,15 +108,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::ArgumentOutOfRangeException::__get__actualValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actualValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::ArgumentOutOfRangeException::__get__actualValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actualValue;
 }
 constexpr void System::ArgumentOutOfRangeException::__set__actualValue(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____actualValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::ArgumentOutOfRangeException* System::ArgumentOutOfRangeException::New_ctor() {

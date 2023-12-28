@@ -8,19 +8,19 @@ namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 class ISubContainerCreator;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

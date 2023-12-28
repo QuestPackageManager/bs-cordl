@@ -21,19 +21,19 @@ constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPres
 template <typename T>
 constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*>&
 System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__get__perCoreStacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perCoreStacks;
 }
 template <typename T>
 constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> const&
 System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__get__perCoreStacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perCoreStacks;
 }
 template <typename T>
 constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__set__perCoreStacks(
     ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____perCoreStacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
@@ -72,41 +72,41 @@ inline bool System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLoc
 // Ctor Parameters []
 template <typename T> constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() {}
 template <typename T> constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__get__arrays() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrays;
 }
 template <typename T>
 constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__get__arrays() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrays;
 }
 template <typename T>
 constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrays)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__get__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 template <typename T> constexpr int32_t const& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__get__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 template <typename T> constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__set__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count = value;
 }
 template <typename T> constexpr uint32_t& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__get__firstStackItemMS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstStackItemMS;
 }
 template <typename T> constexpr uint32_t const& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__get__firstStackItemMS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstStackItemMS;
 }
 template <typename T> constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__set__firstStackItemMS(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstStackItemMS = value;
 }
 template <typename T> inline bool System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::TryPush(::ArrayW<T, ::Array<T>*> array) {
@@ -143,47 +143,47 @@ template <typename T> inline void System::Buffers::__TlsOverPerCoreLockedStacksA
 // Ctor Parameters []
 template <typename T> constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() {}
 template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__get__bucketArraySizes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bucketArraySizes;
 }
 template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__get__bucketArraySizes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bucketArraySizes;
 }
 template <typename T> constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__set__bucketArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bucketArraySizes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>&
 System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__get__buckets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename T>
 constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
                    ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> const&
 System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__get__buckets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename T>
 constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__set__buckets(
     ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__get__callbackCreated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbackCreated;
 }
 template <typename T> constexpr int32_t const& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__get__callbackCreated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbackCreated;
 }
 template <typename T> constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__set__callbackCreated(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____callbackCreated = value;
 }
 template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::setStaticF_t_tlsBuckets(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value) {

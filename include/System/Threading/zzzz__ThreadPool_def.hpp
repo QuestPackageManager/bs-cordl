@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadPool)
 namespace System::Threading {
-template <typename TState> class __ThreadPool____c__DisplayClass17_0_1;
-}
-namespace System::Threading {
-class WaitCallback;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
+class WaitOrTimerCallback;
 }
 namespace System::Threading {
 class RegisteredWaitHandle;
 }
+namespace System {
+struct TimeSpan;
+}
 namespace System::Threading {
-class WaitHandle;
+class IThreadPoolWorkItem;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
 namespace System::Threading {
 struct StackCrawlMark;
 }
 namespace System::Threading {
-class WaitOrTimerCallback;
+template <typename TState> class __ThreadPool____c__DisplayClass17_0_1;
 }
 namespace System {
-struct TimeSpan;
+class Object;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 // Forward declare root types
 namespace System::Threading {

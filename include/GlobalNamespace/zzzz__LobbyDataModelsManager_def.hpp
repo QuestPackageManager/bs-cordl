@@ -11,10 +11,10 @@ namespace GlobalNamespace {
 class ILobbyPlayersDataModel;
 }
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;

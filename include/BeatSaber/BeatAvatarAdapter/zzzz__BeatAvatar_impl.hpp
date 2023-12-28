@@ -2,12 +2,12 @@
 #include "BeatSaber/AvatarCore/zzzz__Avatar_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatar_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarPoseController_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::BeatAvatar.get_bodyCenterWorldPosition
 template <>
 
@@ -97,27 +97,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*& BeatSaber::BeatAvatarAdapter::BeatAvatar::__get__avatarVisualController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarVisualController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*> const& BeatSaber::BeatAvatarAdapter::BeatAvatar::__get__avatarVisualController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarVisualController;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatar::__set__avatarVisualController(::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarVisualController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController*& BeatSaber::BeatAvatarAdapter::BeatAvatar::__get__avatarPoseController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController*> const& BeatSaber::BeatAvatarAdapter::BeatAvatar::__get__avatarPoseController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseController;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::BeatAvatar::__set__avatarPoseController(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarPoseController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Vector3 BeatSaber::BeatAvatarAdapter::BeatAvatar::get_bodyCenterWorldPosition() {

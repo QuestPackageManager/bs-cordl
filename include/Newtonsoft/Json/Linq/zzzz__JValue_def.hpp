@@ -10,58 +10,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JValue)
 namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-struct Guid;
-}
-namespace System {
-class IConvertible;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-struct TypeCode;
+class Object;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 namespace System {
-class Object;
+class IComparable;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 namespace System {
-class Type;
+template <typename T> struct Nullable_1;
 }
 namespace System {
-class IComparable;
-}
-namespace Newtonsoft::Json::Linq {
-struct JTokenType;
+struct DateTimeOffset;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System {
-struct DateTimeOffset;
+class Type;
+}
+namespace System {
+struct Guid;
+}
+namespace Newtonsoft::Json::Linq {
+struct JTokenType;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+class Uri;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

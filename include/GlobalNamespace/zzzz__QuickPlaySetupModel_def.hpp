@@ -12,14 +12,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuickPlaySetupModel)
-namespace GlobalNamespace {
-class INetworkConfig;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class __QuickPlaySetupModel__QuickPlaySetupDataFB;
 }
-namespace GlobalNamespace {
-struct __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Net::Http {
 class HttpClient;
@@ -27,26 +27,26 @@ class HttpClient;
 namespace GlobalNamespace {
 class IQuickPlaySetupModel;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class INetworkConfig;
 }
-namespace System {
-class UriBuilder;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace GlobalNamespace {
+struct __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System {
+class UriBuilder;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__QuickPlaySetu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4480)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4482))
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4480))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4482))
 // CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
 struct CORDL_TYPE __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10 {
 public:

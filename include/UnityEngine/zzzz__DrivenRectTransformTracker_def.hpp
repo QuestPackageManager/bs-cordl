@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(DrivenRectTransformTracker)
 namespace UnityEngine {
-struct DrivenTransformProperties;
-}
-namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace UnityEngine {
+struct DrivenTransformProperties;
 }
 // Forward declare root types
 namespace UnityEngine {

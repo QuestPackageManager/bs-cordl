@@ -13,20 +13,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpContent)
-namespace System::Net::Http {
-class __HttpContent__FixedMemoryStream;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Net {
-class TransportContext;
-}
-namespace System::Net::Http {
-struct __HttpContent___LoadIntoBufferAsync_d__17;
 }
 namespace System::Text {
 class Encoding;
@@ -37,23 +25,35 @@ struct __HttpContent___ReadAsStringAsync_d__20;
 namespace System::Net::Http::Headers {
 class HttpContentHeaders;
 }
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System::Net::Http {
+class __HttpContent__FixedMemoryStream;
+}
+namespace System::Net::Http {
+struct __HttpContent___LoadIntoBufferAsync_d__17;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class TransportContext;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -136,7 +136,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpContent
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14647))
 // CS Name: ::HttpContent::<LoadIntoBufferAsync>d__17
 struct CORDL_TYPE __HttpContent___LoadIntoBufferAsync_d__17 {
@@ -190,8 +190,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpContent
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
 struct CORDL_TYPE __HttpContent___ReadAsStringAsync_d__20 {
 public:
   // Declarations

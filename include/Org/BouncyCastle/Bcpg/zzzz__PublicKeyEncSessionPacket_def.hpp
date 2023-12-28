@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicKeyEncSessionPacket)
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

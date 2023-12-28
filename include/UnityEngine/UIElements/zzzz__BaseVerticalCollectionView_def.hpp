@@ -16,109 +16,109 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVerticalCollectionView)
 namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace System {
-template <typename TResult> class Func_1;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class CollectionVirtualizationController;
-}
-namespace UnityEngine::UIElements {
-class ListViewDragger;
-}
-namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
-}
-namespace UnityEngine::UIElements {
-struct __BaseVerticalCollectionView____c__DisplayClass164_0;
-}
-namespace UnityEngine::UIElements {
-struct SelectionType;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class PointerCancelEvent;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-struct CollectionVirtualizationMethod;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class CollectionViewController;
+class IPointerEvent;
 }
 namespace System::Collections {
 class IList;
 }
 namespace UnityEngine::UIElements {
-class ScrollView;
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+class ICollectionDragAndDropController;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
 namespace UnityEngine::UIElements {
-class KeyboardNavigationManipulator;
+struct KeyboardNavigationOperation;
 }
 namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
+class AttachToPanelEvent;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+class KeyboardNavigationManipulator;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
+class CollectionViewController;
+}
+namespace UnityEngine::UIElements {
+struct AlternatingRowBackground;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine::UIElements {
+struct __BaseVerticalCollectionView____c__DisplayClass164_0;
+}
+namespace UnityEngine::UIElements {
+class CollectionVirtualizationController;
+}
+namespace UnityEngine::UIElements {
 class PointerDownEvent;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UIElements {
+class ListViewDragger;
+}
+namespace UnityEngine::UIElements {
+struct SelectionType;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+struct CollectionVirtualizationMethod;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -167,9 +167,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseV
 // SizeInfo { instance_size: 1176, native_size: -1, calculated_instance_size: 1176, calculated_native_size: 1172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6801)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6885)), TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(7141))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7143)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7141)), TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6885)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7143)) CS Name:
 // ::UnityEngine.UIElements::BaseVerticalCollectionView*
 class CORDL_TYPE BaseVerticalCollectionView : public ::UnityEngine::UIElements::BindableElement {
 public:

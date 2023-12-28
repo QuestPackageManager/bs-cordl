@@ -18,39 +18,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_useFirstPersonFlyingController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFirstPersonFlyingController;
 }
 constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_useFirstPersonFlyingController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFirstPersonFlyingController;
 }
 constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_useFirstPersonFlyingController(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useFirstPersonFlyingController = value;
 }
 constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_recordVRMovement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordVRMovement;
 }
 constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_recordVRMovement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordVRMovement;
 }
 constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_recordVRMovement(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordVRMovement = value;
 }
 constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_playVRMovement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playVRMovement;
 }
 constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_playVRMovement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playVRMovement;
 }
 constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_playVRMovement(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playVRMovement = value;
 }
 inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement,

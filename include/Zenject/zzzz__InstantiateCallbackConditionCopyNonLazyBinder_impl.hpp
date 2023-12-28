@@ -2,25 +2,25 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename T> constexpr ::System::Action_2<::Zenject::InjectContext*, T>*& Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, T>*> const&
 Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename T> constexpr void Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>::__set_callback(::System::Action_2<::Zenject::InjectContext*, T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

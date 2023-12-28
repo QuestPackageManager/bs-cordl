@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpRequest_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::NtpRequest._ctor
 template <>
 
@@ -138,39 +138,39 @@ constexpr LiteNetLib::Utils::NtpRequest::operator ::LiteNetLib::INetSocketListen
   return static_cast<::LiteNetLib::INetSocketListener*>(static_cast<void*>(this));
 }
 constexpr ::LiteNetLib::NetSocket*& LiteNetLib::Utils::NtpRequest::__get__socket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____socket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& LiteNetLib::Utils::NtpRequest::__get__socket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____socket;
 }
 constexpr void LiteNetLib::Utils::NtpRequest::__set__socket(::LiteNetLib::NetSocket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____socket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*& LiteNetLib::Utils::NtpRequest::__get__onRequestComplete() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onRequestComplete;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::LiteNetLib::Utils::NtpPacket*>*> const& LiteNetLib::Utils::NtpRequest::__get__onRequestComplete() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onRequestComplete;
 }
 constexpr void LiteNetLib::Utils::NtpRequest::__set__onRequestComplete(::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onRequestComplete)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IPEndPoint*& LiteNetLib::Utils::NtpRequest::__get__ntpEndPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ntpEndPoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::Utils::NtpRequest::__get__ntpEndPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ntpEndPoint;
 }
 constexpr void LiteNetLib::Utils::NtpRequest::__set__ntpEndPoint(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ntpEndPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::LiteNetLib::Utils::NtpRequest* LiteNetLib::Utils::NtpRequest::New_ctor(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete) {

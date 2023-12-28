@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DirectionalLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LightMode;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LinearColor;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10391)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10391)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
 struct CORDL_TYPE DirectionalLight {
 public:
   // Declarations

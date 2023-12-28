@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GlobalLinkedListNodeCache_1)
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace UnityEngine::ResourceManagement::Util {
 template <typename T> class LinkedListNodeCache_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

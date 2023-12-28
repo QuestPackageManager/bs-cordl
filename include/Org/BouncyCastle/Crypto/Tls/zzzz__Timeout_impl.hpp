@@ -124,27 +124,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& Org::BouncyCastle::Crypto::Tls::Timeout::__get_durationMillis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationMillis;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Tls::Timeout::__get_durationMillis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationMillis;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::Timeout::__set_durationMillis(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___durationMillis = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Tls::Timeout::__get_startMillis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startMillis;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Tls::Timeout::__get_startMillis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startMillis;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::Timeout::__set_startMillis(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startMillis = value;
 }
 inline ::Org::BouncyCastle::Crypto::Tls::Timeout* Org::BouncyCastle::Crypto::Tls::Timeout::New_ctor(int64_t durationMillis) {

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCustomSkeleton)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
-struct __OVRCustomSkeleton__RetargetingType;
+struct __OVRSkeleton__SkeletonType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__BoneId;
 }
 namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonType;
+struct __OVRCustomSkeleton__RetargetingType;
 }
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

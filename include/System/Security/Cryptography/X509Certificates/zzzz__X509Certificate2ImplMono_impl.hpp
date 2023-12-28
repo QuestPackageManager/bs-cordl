@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2ImplUnix_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2ImplMono_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImplCollection_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono.get_IsValid
 template <>
 
@@ -283,29 +283,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*& System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::__get_intermediateCerts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intermediateCerts;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*> const&
 System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::__get_intermediateCerts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intermediateCerts;
 }
 constexpr void
 System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::__set_intermediateCerts(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___intermediateCerts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::X509::X509Certificate*& System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::__get__cert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cert;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::__get__cert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cert;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::__set__cert(::Mono::Security::X509::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::setStaticF_empty_error(::StringW value) {

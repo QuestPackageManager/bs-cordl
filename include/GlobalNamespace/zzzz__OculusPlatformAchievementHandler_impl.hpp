@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformAchievementHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformAchievementHandler_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementProgress_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
@@ -42,17 +42,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*& GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0::__get_completionHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*> const&
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0::__get_completionHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr void
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0::__set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___completionHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0* GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0::New_ctor() {
@@ -107,30 +107,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 };
 constexpr ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*&
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::__get_completionHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*> const&
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::__get_completionHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr void
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::__set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___completionHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OculusPlatformAchievementHandler*& GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAchievementHandler*> const&
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::__set___4__this(::GlobalNamespace::OculusPlatformAchievementHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0* GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0::New_ctor() {
@@ -183,16 +183,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::Models::AchievementProgress*& GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1::__get_achievement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___achievement;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::AchievementProgress*> const&
 GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1::__get_achievement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___achievement;
 }
 constexpr void GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1::__set_achievement(::Oculus::Platform::Models::AchievementProgress* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___achievement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1* GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1::New_ctor() {
@@ -279,15 +279,15 @@ constexpr GlobalNamespace::OculusPlatformAchievementHandler::operator ::GlobalNa
   return static_cast<::GlobalNamespace::IPlatformAchievementsHandler*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::AchievementIdsModelSO*& GlobalNamespace::OculusPlatformAchievementHandler::__get__achievementIdsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementIdsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementIdsModelSO*> const& GlobalNamespace::OculusPlatformAchievementHandler::__get__achievementIdsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementIdsModel;
 }
 constexpr void GlobalNamespace::OculusPlatformAchievementHandler::__set__achievementIdsModel(::GlobalNamespace::AchievementIdsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OculusPlatformAchievementHandler::Initialize() {

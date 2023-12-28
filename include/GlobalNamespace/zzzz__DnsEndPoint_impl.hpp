@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DnsEndPoint.get_endPoint
 template <>
 
@@ -150,39 +150,39 @@ constexpr GlobalNamespace::DnsEndPoint::operator ::System::IEquatable_1<::Global
   return static_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::DnsEndPoint::__get_hostName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
 }
 constexpr ::StringW const& GlobalNamespace::DnsEndPoint::__get_hostName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
 }
 constexpr void GlobalNamespace::DnsEndPoint::__set_hostName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::DnsEndPoint::__get_port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr int32_t const& GlobalNamespace::DnsEndPoint::__get_port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
 constexpr void GlobalNamespace::DnsEndPoint::__set_port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
 constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& GlobalNamespace::DnsEndPoint::__get__getEndPointTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getEndPointTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*> const& GlobalNamespace::DnsEndPoint::__get__getEndPointTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getEndPointTask;
 }
 constexpr void GlobalNamespace::DnsEndPoint::__set__getEndPointTask(::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____getEndPointTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::IPEndPoint* GlobalNamespace::DnsEndPoint::get_endPoint() {

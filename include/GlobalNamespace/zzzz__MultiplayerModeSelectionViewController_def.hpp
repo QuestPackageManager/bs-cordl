@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerModeSelectionViewController)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class MultiplayerStatusData;
 }
 namespace GlobalNamespace {
 struct __MultiplayerModeSelectionViewController__MenuButton;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class INetworkConfig;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class MultiplayerStatusData;
+class INetworkConfig;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

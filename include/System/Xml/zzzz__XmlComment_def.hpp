@@ -9,10 +9,10 @@ namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlNode;
 }
 namespace System::Xml {
-class XmlNode;
+class XmlDocument;
 }
 // Forward declare root types
 namespace System::Xml {

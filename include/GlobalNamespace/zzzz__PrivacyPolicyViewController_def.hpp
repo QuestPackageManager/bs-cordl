@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrivacyPolicyViewController)
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class LocalizedTextAsset;
 }
 namespace HMUI {
 class TextPageScrollView;
 }
+namespace System {
+template <typename T> class Action_1;
+}
 namespace GlobalNamespace {
 struct __PrivacyPolicyViewController__ButtonType;
 }
-namespace GlobalNamespace {
-class LocalizedTextAsset;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

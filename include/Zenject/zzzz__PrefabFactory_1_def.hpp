@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(PrefabFactory_1)
 namespace Zenject {
 class InjectTypeInfo;
 }
+namespace UnityEngine {
+class Object;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
 class IFactory;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace UnityEngine {
-class Object;
 }
 namespace System {
 class Object;

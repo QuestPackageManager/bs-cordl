@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OpenVR)
 namespace OVR::OpenVR {
-class CVRApplications;
-}
-namespace OVR::OpenVR {
-class CVRRenderModels;
-}
-namespace OVR::OpenVR {
-struct EVRApplicationType;
-}
-namespace OVR::OpenVR {
-class __OpenVR__COpenVRContext;
-}
-namespace OVR::OpenVR {
-class CVRSystem;
-}
-namespace OVR::OpenVR {
-class CVRSettings;
-}
-namespace OVR::OpenVR {
-class CVRSpatialAnchors;
-}
-namespace OVR::OpenVR {
-class CVRScreenshots;
-}
-namespace OVR::OpenVR {
-class CVRChaperone;
-}
-namespace OVR::OpenVR {
-class CVRInput;
-}
-namespace OVR::OpenVR {
-class CVRChaperoneSetup;
+class CVRTrackedCamera;
 }
 namespace OVR::OpenVR {
 class CVROverlay;
 }
 namespace OVR::OpenVR {
-class CVRTrackedCamera;
+class __OpenVR__COpenVRContext;
 }
 namespace OVR::OpenVR {
-class CVRExtendedDisplay;
+class CVRApplications;
+}
+namespace OVR::OpenVR {
+class CVRChaperoneSetup;
+}
+namespace OVR::OpenVR {
+class CVRInput;
 }
 namespace OVR::OpenVR {
 struct EVRInitError;
 }
 namespace OVR::OpenVR {
+class CVRChaperone;
+}
+namespace OVR::OpenVR {
 class CVRCompositor;
+}
+namespace OVR::OpenVR {
+class CVRRenderModels;
+}
+namespace OVR::OpenVR {
+class CVRSettings;
+}
+namespace OVR::OpenVR {
+class CVRExtendedDisplay;
+}
+namespace OVR::OpenVR {
+class CVRSystem;
+}
+namespace OVR::OpenVR {
+struct EVRApplicationType;
+}
+namespace OVR::OpenVR {
+class CVRScreenshots;
+}
+namespace OVR::OpenVR {
+class CVRSpatialAnchors;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

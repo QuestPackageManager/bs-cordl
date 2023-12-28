@@ -90,27 +90,27 @@ constexpr Oculus::Platform::Packet::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr uint64_t& Oculus::Platform::Packet::__get_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
 constexpr uint64_t const& Oculus::Platform::Packet::__get_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
 constexpr void Oculus::Platform::Packet::__set_size(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
 constexpr void*& Oculus::Platform::Packet::__get_packetHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetHandle;
 }
 constexpr void* const& Oculus::Platform::Packet::__get_packetHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packetHandle;
 }
 constexpr void Oculus::Platform::Packet::__set_packetHandle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___packetHandle = value;
 }
 inline ::Oculus::Platform::Packet* Oculus::Platform::Packet::New_ctor(void* packetHandle) {

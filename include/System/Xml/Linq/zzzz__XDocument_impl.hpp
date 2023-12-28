@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XContainer_impl.hpp"
 #include "System/Xml/Linq/zzzz__XDocument_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
-#include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
-#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XDocument._ctor
 template <>
 
@@ -209,15 +209,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Linq::XDeclaration*& System::Xml::Linq::XDocument::__get__declaration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declaration;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDeclaration*> const& System::Xml::Linq::XDocument::__get__declaration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declaration;
 }
 constexpr void System::Xml::Linq::XDocument::__set__declaration(::System::Xml::Linq::XDeclaration* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____declaration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Linq::XDocument* System::Xml::Linq::XDocument::New_ctor() {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(DaylightTimeStruct)
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {

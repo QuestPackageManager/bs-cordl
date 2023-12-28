@@ -12,35 +12,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MinMaxSlider)
-namespace UnityEngine::UIElements {
-class __MinMaxSlider__UxmlTraits;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
-struct __MinMaxSlider__DragState;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+template <typename T> class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
 class __MinMaxSlider__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
+class __MinMaxSlider__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ClampedDragger_1;
-}
-namespace UnityEngine {
-struct Vector2;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct __MinMaxSlider__DragState;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__MinMaxSlider__UxmlTraits);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(7129)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 411 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7106)) CS Name: ::MinMaxSlider::UxmlTraits*
 class CORDL_TYPE __MinMaxSlider__UxmlTraits : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<::UnityEngine::Vector2> {
 public:
@@ -208,9 +208,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__MinMa
 // SizeInfo { instance_size: 1128, native_size: -1, calculated_instance_size: 1128, calculated_native_size: 1124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7107))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7108))
-// CS Name: ::UnityEngine.UIElements::MinMaxSlider*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7107)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(7130))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7108)) CS
+// Name: ::UnityEngine.UIElements::MinMaxSlider*
 class CORDL_TYPE MinMaxSlider : public ::UnityEngine::UIElements::BaseField_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -546,8 +546,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MinMaxS
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7106)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7108)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5268 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7105)) CS Name: ::MinMaxSlider::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5268 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7108)), TypeDefinitionIndex(TypeDefinitionIndex(7106))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7105)) CS Name: ::MinMaxSlider::UxmlFactory*
 class CORDL_TYPE __MinMaxSlider__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::MinMaxSlider*, ::UnityEngine::UIElements::__MinMaxSlider__UxmlTraits*> {
 public:
   // Declarations

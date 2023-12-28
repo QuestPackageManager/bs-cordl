@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__UnitySerializationHolder_def.hpp"
-#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
 //  Writing Method size for method: ::System::UnitySerializationHolder.AddElementTypes
 template <>
 
@@ -160,99 +160,99 @@ constexpr System::UnitySerializationHolder::operator ::System::Runtime::Serializ
   return static_cast<::System::Runtime::Serialization::IObjectReference*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& System::UnitySerializationHolder::__get_m_instantiation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_instantiation;
 }
 constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& System::UnitySerializationHolder::__get_m_instantiation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_instantiation;
 }
 constexpr void System::UnitySerializationHolder::__set_m_instantiation(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_instantiation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::UnitySerializationHolder::__get_m_elementTypes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_elementTypes;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::UnitySerializationHolder::__get_m_elementTypes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_elementTypes;
 }
 constexpr void System::UnitySerializationHolder::__set_m_elementTypes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_elementTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::UnitySerializationHolder::__get_m_genericParameterPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_genericParameterPosition;
 }
 constexpr int32_t const& System::UnitySerializationHolder::__get_m_genericParameterPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_genericParameterPosition;
 }
 constexpr void System::UnitySerializationHolder::__set_m_genericParameterPosition(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_genericParameterPosition = value;
 }
 constexpr ::System::Type*& System::UnitySerializationHolder::__get_m_declaringType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_declaringType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::UnitySerializationHolder::__get_m_declaringType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_declaringType;
 }
 constexpr void System::UnitySerializationHolder::__set_m_declaringType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_declaringType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::MethodBase*& System::UnitySerializationHolder::__get_m_declaringMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_declaringMethod;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& System::UnitySerializationHolder::__get_m_declaringMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_declaringMethod;
 }
 constexpr void System::UnitySerializationHolder::__set_m_declaringMethod(::System::Reflection::MethodBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_declaringMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::UnitySerializationHolder::__get_m_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_data;
 }
 constexpr ::StringW const& System::UnitySerializationHolder::__get_m_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_data;
 }
 constexpr void System::UnitySerializationHolder::__set_m_data(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::UnitySerializationHolder::__get_m_assemblyName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_assemblyName;
 }
 constexpr ::StringW const& System::UnitySerializationHolder::__get_m_assemblyName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_assemblyName;
 }
 constexpr void System::UnitySerializationHolder::__set_m_assemblyName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_assemblyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::UnitySerializationHolder::__get_m_unityType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_unityType;
 }
 constexpr int32_t const& System::UnitySerializationHolder::__get_m_unityType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_unityType;
 }
 constexpr void System::UnitySerializationHolder::__set_m_unityType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_unityType = value;
 }
 inline ::System::RuntimeType* System::UnitySerializationHolder::AddElementTypes(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type) {

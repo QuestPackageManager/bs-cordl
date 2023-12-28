@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorTween)
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace UnityEngine {
+struct Color;
 }
 namespace TMPro {
 struct __ColorTween__ColorTweenMode;
 }
 namespace TMPro {
-class ITweenValue;
+class __ColorTween__ColorTweenCallback;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 namespace TMPro {
-class __ColorTween__ColorTweenCallback;
+class ITweenValue;
 }
 // Forward declare root types
 namespace TMPro {
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__ColorTween__ColorTweenM
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 293 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12339)) CS Name: ::ColorTween::ColorTweenCallback*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12339)) CS Name: ::ColorTween::ColorTweenCallback*
 class CORDL_TYPE __ColorTween__ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
 public:
   // Declarations

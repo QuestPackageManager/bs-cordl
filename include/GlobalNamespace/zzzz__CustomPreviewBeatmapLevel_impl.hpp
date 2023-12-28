@@ -6,22 +6,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISpriteAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__ISpriteAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69.MoveNext
 template <>
 
@@ -469,291 +469,291 @@ constexpr GlobalNamespace::CustomPreviewBeatmapLevel::operator ::GlobalNamespace
   return static_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::ISpriteAsyncLoader*& GlobalNamespace::CustomPreviewBeatmapLevel::__get__spriteAsyncLoader_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteAsyncLoader_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISpriteAsyncLoader*> const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__spriteAsyncLoader_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteAsyncLoader_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__spriteAsyncLoader_k__BackingField(::GlobalNamespace::ISpriteAsyncLoader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spriteAsyncLoader_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::StandardLevelInfoSaveData*& GlobalNamespace::CustomPreviewBeatmapLevel::__get__standardLevelInfoSaveData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelInfoSaveData_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelInfoSaveData*> const&
 GlobalNamespace::CustomPreviewBeatmapLevel::__get__standardLevelInfoSaveData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelInfoSaveData_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__standardLevelInfoSaveData_k__BackingField(::GlobalNamespace::StandardLevelInfoSaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____standardLevelInfoSaveData_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomPreviewBeatmapLevel::__get__customLevelPath_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customLevelPath_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__customLevelPath_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customLevelPath_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__customLevelPath_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customLevelPath_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomPreviewBeatmapLevel::__get__levelID_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelID_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__levelID_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelID_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__levelID_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelID_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songName_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__songName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songSubName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSubName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songSubName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSubName_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__songSubName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songSubName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songAuthorName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songAuthorName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songAuthorName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songAuthorName_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__songAuthorName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songAuthorName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomPreviewBeatmapLevel::__get__levelAuthorName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelAuthorName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__levelAuthorName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelAuthorName_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__levelAuthorName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelAuthorName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__beatsPerMinute_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatsPerMinute_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__beatsPerMinute_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatsPerMinute_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__beatsPerMinute_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatsPerMinute_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songTimeOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songTimeOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__songTimeOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTimeOffset_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songDuration_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songDuration_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__songDuration_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songDuration_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__songDuration_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songDuration_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__shuffle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shuffle_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__shuffle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shuffle_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__shuffle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shuffle_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__shufflePeriod_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shufflePeriod_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__shufflePeriod_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shufflePeriod_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__shufflePeriod_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shufflePeriod_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__previewStartTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewStartTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__previewStartTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewStartTime_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__previewStartTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previewStartTime_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::CustomPreviewBeatmapLevel::__get__previewDuration_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewDuration_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__previewDuration_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewDuration_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__previewDuration_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previewDuration_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::EnvironmentInfoSO*& GlobalNamespace::CustomPreviewBeatmapLevel::__get__environmentInfo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfo_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__environmentInfo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfo_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__environmentInfo_k__BackingField(::GlobalNamespace::EnvironmentInfoSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentInfoSO*& GlobalNamespace::CustomPreviewBeatmapLevel::__get__allDirectionsEnvironmentInfo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allDirectionsEnvironmentInfo_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__allDirectionsEnvironmentInfo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allDirectionsEnvironmentInfo_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__allDirectionsEnvironmentInfo_k__BackingField(::GlobalNamespace::EnvironmentInfoSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allDirectionsEnvironmentInfo_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*>& GlobalNamespace::CustomPreviewBeatmapLevel::__get__environmentInfos_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfos_k__BackingField;
 }
 constexpr ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> const&
 GlobalNamespace::CustomPreviewBeatmapLevel::__get__environmentInfos_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfos_k__BackingField;
 }
 constexpr void
 GlobalNamespace::CustomPreviewBeatmapLevel::__set__environmentInfos_k__BackingField(::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentInfos_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::CustomPreviewBeatmapLevel::__get__defaultCoverImage_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultCoverImage_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__defaultCoverImage_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultCoverImage_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__defaultCoverImage_k__BackingField(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultCoverImage_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*&
 GlobalNamespace::CustomPreviewBeatmapLevel::__get__previewDifficultyBeatmapSets_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewDifficultyBeatmapSets_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> const&
 GlobalNamespace::CustomPreviewBeatmapLevel::__get__previewDifficultyBeatmapSets_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewDifficultyBeatmapSets_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__previewDifficultyBeatmapSets_k__BackingField(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewDifficultyBeatmapSets_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::ColorScheme*, ::Array<::GlobalNamespace::ColorScheme*>*>& GlobalNamespace::CustomPreviewBeatmapLevel::__get__beatmapOverrideColorSchemes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapOverrideColorSchemes_k__BackingField;
 }
 constexpr ::ArrayW<::GlobalNamespace::ColorScheme*, ::Array<::GlobalNamespace::ColorScheme*>*> const&
 GlobalNamespace::CustomPreviewBeatmapLevel::__get__beatmapOverrideColorSchemes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapOverrideColorSchemes_k__BackingField;
 }
 constexpr void
 GlobalNamespace::CustomPreviewBeatmapLevel::__set__beatmapOverrideColorSchemes_k__BackingField(::ArrayW<::GlobalNamespace::ColorScheme*, ::Array<::GlobalNamespace::ColorScheme*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapOverrideColorSchemes_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::CustomPreviewBeatmapLevel::__get__contentRating_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRating_k__BackingField;
 }
 constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__contentRating_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentRating_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__contentRating_k__BackingField(::GlobalNamespace::PlayerSensitivityFlag value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentRating_k__BackingField = value;
 }
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::CustomPreviewBeatmapLevel::__get__coverImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::CustomPreviewBeatmapLevel::__get__coverImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverImage;
 }
 constexpr void GlobalNamespace::CustomPreviewBeatmapLevel::__set__coverImage(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::ISpriteAsyncLoader* GlobalNamespace::CustomPreviewBeatmapLevel::get_spriteAsyncLoader() {

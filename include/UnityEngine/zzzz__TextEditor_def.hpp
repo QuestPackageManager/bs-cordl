@@ -12,7 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEditor)
 namespace UnityEngine {
-struct Rect;
+struct __TextEditor__Direction;
+}
+namespace UnityEngine {
+struct __TextEditor__TextEditOp;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class GUIContent;
@@ -20,29 +32,17 @@ class GUIContent;
 namespace UnityEngine {
 class Event;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+struct __TextEditor__DblClickSnapping;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 class TouchScreenKeyboard;
 }
 namespace UnityEngine {
-class GUIStyle;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct __TextEditor__Direction;
-}
-namespace UnityEngine {
 struct __TextEditor__CharacterType;
-}
-namespace UnityEngine {
-struct __TextEditor__TextEditOp;
-}
-namespace UnityEngine {
-struct __TextEditor__DblClickSnapping;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -462,8 +462,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TextEditor__TextE
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14612))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14616)) CS Name: ::UnityEngine::TextEditor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14612)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14616)) CS Name: ::UnityEngine::TextEditor*
 class CORDL_TYPE TextEditor : public ::System::Object {
 public:
   // Declarations

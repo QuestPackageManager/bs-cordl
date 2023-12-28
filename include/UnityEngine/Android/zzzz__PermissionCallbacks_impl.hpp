@@ -151,39 +151,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::StringW>*& UnityEngine::Android::PermissionCallbacks::__get_PermissionGranted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionGranted;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& UnityEngine::Android::PermissionCallbacks::__get_PermissionGranted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionGranted;
 }
 constexpr void UnityEngine::Android::PermissionCallbacks::__set_PermissionGranted(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PermissionGranted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::StringW>*& UnityEngine::Android::PermissionCallbacks::__get_PermissionDenied() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDenied;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& UnityEngine::Android::PermissionCallbacks::__get_PermissionDenied() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDenied;
 }
 constexpr void UnityEngine::Android::PermissionCallbacks::__set_PermissionDenied(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PermissionDenied)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::StringW>*& UnityEngine::Android::PermissionCallbacks::__get_PermissionDeniedAndDontAskAgain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDeniedAndDontAskAgain;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& UnityEngine::Android::PermissionCallbacks::__get_PermissionDeniedAndDontAskAgain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDeniedAndDontAskAgain;
 }
 constexpr void UnityEngine::Android::PermissionCallbacks::__set_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PermissionDeniedAndDontAskAgain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::Android::PermissionCallbacks::add_PermissionGranted(::System::Action_1<::StringW>* value) {

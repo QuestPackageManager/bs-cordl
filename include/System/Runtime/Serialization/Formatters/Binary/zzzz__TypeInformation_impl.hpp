@@ -63,39 +63,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::TypeInformation::__get_fullTypeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullTypeName;
 }
 constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::TypeInformation::__get_fullTypeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullTypeName;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::TypeInformation::__set_fullTypeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fullTypeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Serialization::Formatters::Binary::TypeInformation::__get_assemblyString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyString;
 }
 constexpr ::StringW const& System::Runtime::Serialization::Formatters::Binary::TypeInformation::__get_assemblyString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assemblyString;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::TypeInformation::__set_assemblyString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assemblyString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Serialization::Formatters::Binary::TypeInformation::__get_hasTypeForwardedFrom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasTypeForwardedFrom;
 }
 constexpr bool const& System::Runtime::Serialization::Formatters::Binary::TypeInformation::__get_hasTypeForwardedFrom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasTypeForwardedFrom;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::TypeInformation::__set_hasTypeForwardedFrom(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasTypeForwardedFrom = value;
 }
 inline ::StringW System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName() {

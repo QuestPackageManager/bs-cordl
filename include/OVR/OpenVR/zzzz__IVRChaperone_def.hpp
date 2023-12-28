@@ -27,28 +27,28 @@ namespace OVR::OpenVR {
 struct HmdQuad_t;
 }
 namespace OVR::OpenVR {
+class __IVRChaperone___GetPlayAreaSize;
+}
+namespace OVR::OpenVR {
+class __IVRChaperone___GetBoundsColor;
+}
+namespace OVR::OpenVR {
 class __IVRChaperone___ReloadInfo;
 }
 namespace OVR::OpenVR {
 class __IVRChaperone___ForceBoundsVisible;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetBoundsColor;
-}
-namespace OVR::OpenVR {
-class __IVRChaperone___SetSceneColor;
-}
-namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaSize;
-}
-namespace OVR::OpenVR {
-class __IVRChaperone___AreBoundsVisible;
+class __IVRChaperone___GetPlayAreaRect;
 }
 namespace OVR::OpenVR {
 class __IVRChaperone___GetCalibrationState;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaRect;
+class __IVRChaperone___SetSceneColor;
+}
+namespace OVR::OpenVR {
+class __IVRChaperone___AreBoundsVisible;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

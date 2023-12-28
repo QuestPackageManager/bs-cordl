@@ -65,44 +65,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>&
 GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelsEntitlements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsEntitlements;
 }
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const&
 GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelsEntitlements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsEntitlements;
 }
 constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__set__levelsEntitlements(
     ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelsEntitlements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>&
 GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelPacksEntitlements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPacksEntitlements;
 }
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const&
 GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelPacksEntitlements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPacksEntitlements;
 }
 constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__set__levelPacksEntitlements(
     ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPacksEntitlements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__packBetterBuyThanLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packBetterBuyThanLevel;
 }
 constexpr bool const& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__packBetterBuyThanLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packBetterBuyThanLevel;
 }
 constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__set__packBetterBuyThanLevel(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packBetterBuyThanLevel = value;
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements() {

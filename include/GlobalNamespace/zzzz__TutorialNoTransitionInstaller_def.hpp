@@ -8,10 +8,10 @@ namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class TutorialScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

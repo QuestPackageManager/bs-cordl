@@ -5,11 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioLatencyViewController)
-namespace HMUI {
-class ToggleBinder;
-}
 namespace GlobalNamespace {
 class FloatSO;
+}
+namespace GlobalNamespace {
+class BoolSO;
+}
+namespace HMUI {
+class RangeValuesTextSlider;
+}
+namespace GlobalNamespace {
+class VisualMetronome;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -17,17 +23,11 @@ class CanvasGroup;
 namespace UnityEngine::UI {
 class Toggle;
 }
-namespace GlobalNamespace {
-class BoolSO;
-}
-namespace GlobalNamespace {
-class VisualMetronome;
+namespace HMUI {
+class ToggleBinder;
 }
 namespace GlobalNamespace {
 class SongPreviewPlayer;
-}
-namespace HMUI {
-class RangeValuesTextSlider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

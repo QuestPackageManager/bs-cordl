@@ -3,18 +3,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueueThreadLocals_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& System::Threading::__ThreadPoolWorkQueue__SparseArray_1<T>::__get_m_array() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_array;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Threading::__ThreadPoolWorkQueue__SparseArray_1<T>::__get_m_array() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_array;
 }
 template <typename T> constexpr void System::Threading::__ThreadPoolWorkQueue__SparseArray_1<T>::__set_m_array(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::System::Threading::__ThreadPoolWorkQueue__SparseArray_1<T>* System::Threading::__ThreadPoolWorkQueue__SparseArray_1<T>::New_ctor(int32_t initialSize) {
@@ -139,65 +139,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::System::Threading::IThreadPoolWorkItem*, ::Array<::System::Threading::IThreadPoolWorkItem*>*>& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_array() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_array;
 }
 constexpr ::ArrayW<::System::Threading::IThreadPoolWorkItem*, ::Array<::System::Threading::IThreadPoolWorkItem*>*> const&
 System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_array() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_array;
 }
 constexpr void
 System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__set_m_array(::ArrayW<::System::Threading::IThreadPoolWorkItem*, ::Array<::System::Threading::IThreadPoolWorkItem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_mask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_mask;
 }
 constexpr int32_t const& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_mask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_mask;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__set_m_mask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_mask = value;
 }
 constexpr int32_t& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_headIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headIndex;
 }
 constexpr int32_t const& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_headIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headIndex;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__set_m_headIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_headIndex = value;
 }
 constexpr int32_t& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_tailIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tailIndex;
 }
 constexpr int32_t const& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_tailIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tailIndex;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__set_m_tailIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_tailIndex = value;
 }
 constexpr ::System::Threading::SpinLock& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_foreignLock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_foreignLock;
 }
 constexpr ::System::Threading::SpinLock const& System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__get_m_foreignLock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_foreignLock;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::__set_m_foreignLock(::System::Threading::SpinLock value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_foreignLock = value;
 }
 inline void System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue::LocalPush(::System::Threading::IThreadPoolWorkItem* obj) {
@@ -334,39 +334,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::System::Threading::IThreadPoolWorkItem*, ::Array<::System::Threading::IThreadPoolWorkItem*>*>& System::Threading::__ThreadPoolWorkQueue__QueueSegment::__get_nodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodes;
 }
 constexpr ::ArrayW<::System::Threading::IThreadPoolWorkItem*, ::Array<::System::Threading::IThreadPoolWorkItem*>*> const& System::Threading::__ThreadPoolWorkQueue__QueueSegment::__get_nodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodes;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__QueueSegment::__set_nodes(::ArrayW<::System::Threading::IThreadPoolWorkItem*, ::Array<::System::Threading::IThreadPoolWorkItem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::__ThreadPoolWorkQueue__QueueSegment::__get_indexes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indexes;
 }
 constexpr int32_t const& System::Threading::__ThreadPoolWorkQueue__QueueSegment::__get_indexes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indexes;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__QueueSegment::__set_indexes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indexes = value;
 }
 constexpr ::System::Threading::__ThreadPoolWorkQueue__QueueSegment*& System::Threading::__ThreadPoolWorkQueue__QueueSegment::__get_Next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__QueueSegment*> const& System::Threading::__ThreadPoolWorkQueue__QueueSegment::__get_Next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr void System::Threading::__ThreadPoolWorkQueue__QueueSegment::__set_Next(::System::Threading::__ThreadPoolWorkQueue__QueueSegment* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::__ThreadPoolWorkQueue__QueueSegment::GetIndexes(ByRef<int32_t> upper, ByRef<int32_t> lower) {
@@ -526,39 +526,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::__ThreadPoolWorkQueue__QueueSegment*& System::Threading::ThreadPoolWorkQueue::__get_queueHead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queueHead;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__QueueSegment*> const& System::Threading::ThreadPoolWorkQueue::__get_queueHead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queueHead;
 }
 constexpr void System::Threading::ThreadPoolWorkQueue::__set_queueHead(::System::Threading::__ThreadPoolWorkQueue__QueueSegment* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___queueHead)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::__ThreadPoolWorkQueue__QueueSegment*& System::Threading::ThreadPoolWorkQueue::__get_queueTail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queueTail;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__QueueSegment*> const& System::Threading::ThreadPoolWorkQueue::__get_queueTail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queueTail;
 }
 constexpr void System::Threading::ThreadPoolWorkQueue::__set_queueTail(::System::Threading::__ThreadPoolWorkQueue__QueueSegment* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___queueTail)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::ThreadPoolWorkQueue::__get_numOutstandingThreadRequests() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numOutstandingThreadRequests;
 }
 constexpr int32_t const& System::Threading::ThreadPoolWorkQueue::__get_numOutstandingThreadRequests() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numOutstandingThreadRequests;
 }
 constexpr void System::Threading::ThreadPoolWorkQueue::__set_numOutstandingThreadRequests(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___numOutstandingThreadRequests = value;
 }
 inline void

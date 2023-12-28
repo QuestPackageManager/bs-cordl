@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 // Ctor Parameters [CppParam { name: "valueIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "matchedVariableCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
 // }]
 constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext::__BaseStyleMatcher__MatchContext(int32_t valueIndex, int32_t matchedVariableCount) noexcept {
@@ -577,29 +577,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>*&
 UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::__get_m_ContextStack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContextStack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>*> const&
 UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::__get_m_ContextStack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ContextStack;
 }
 constexpr void
 UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::__set_m_ContextStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ContextStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext& UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::__get_m_CurrentContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentContext;
 }
 constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext const& UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::__get_m_CurrentContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentContext;
 }
 constexpr void UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::__set_m_CurrentContext(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentContext = value;
 }
 inline void UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::setStaticF_s_CustomIdentRegex(::System::Text::RegularExpressions::Regex* value) {

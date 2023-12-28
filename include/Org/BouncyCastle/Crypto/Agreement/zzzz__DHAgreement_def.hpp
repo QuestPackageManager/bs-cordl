@@ -10,17 +10,17 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
+class DHPrivateKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

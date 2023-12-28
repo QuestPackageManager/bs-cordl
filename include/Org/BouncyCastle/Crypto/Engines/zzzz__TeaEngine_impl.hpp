@@ -167,75 +167,75 @@ constexpr Org::BouncyCastle::Crypto::Engines::TeaEngine::operator ::Org::BouncyC
   return static_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(static_cast<void*>(this));
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__a() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____a;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__a() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____a;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__a(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____a = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____b;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____b;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__b(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____b = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____c;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____c;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__c(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____c = value;
 }
 constexpr uint32_t& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__d() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____d;
 }
 constexpr uint32_t const& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__d() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____d;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__d(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____d = value;
 }
 constexpr bool& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__initialised() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialised;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__initialised() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialised;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__initialised(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialised = value;
 }
 constexpr bool& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__forEncryption() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forEncryption;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__forEncryption() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forEncryption;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__forEncryption(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forEncryption = value;
 }
 inline ::Org::BouncyCastle::Crypto::Engines::TeaEngine* Org::BouncyCastle::Crypto::Engines::TeaEngine::New_ctor() {

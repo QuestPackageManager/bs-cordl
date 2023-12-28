@@ -2,9 +2,9 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer::__TouchscreenState___primaryTouchData_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;

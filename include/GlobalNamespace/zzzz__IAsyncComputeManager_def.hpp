@@ -3,17 +3,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAsyncComputeManager)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
 class AsyncComputeOperation;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace GlobalNamespace {
 template <typename T> class AsyncComputeOperation_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

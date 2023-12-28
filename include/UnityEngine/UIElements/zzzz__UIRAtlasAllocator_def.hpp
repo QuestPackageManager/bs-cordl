@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRAtlasAllocator)
-namespace UnityEngine::UIElements {
-class __UIRAtlasAllocator__Row;
-}
-namespace UnityEngine::UIElements {
-class __UIRAtlasAllocator__AreaNode;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine::UIElements {
+class __UIRAtlasAllocator__Row;
+}
+namespace UnityEngine::UIElements {
+class __UIRAtlasAllocator__AreaNode;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
@@ -179,7 +179,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIRAt
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: ::UIRAtlasAllocator::AreaNode*
 class CORDL_TYPE __UIRAtlasAllocator__AreaNode : public ::System::Object {

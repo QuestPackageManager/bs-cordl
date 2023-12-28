@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC2WrapEngine)
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
+namespace Org::BouncyCastle::Crypto::Modes {
+class CbcBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
@@ -19,11 +19,11 @@ class IDigest;
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class CbcBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

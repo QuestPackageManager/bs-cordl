@@ -4,8 +4,8 @@
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_impl.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphPairAdjustmentRecord_def.hpp"
-#include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__FontFeatureLookupFlags_def.hpp"
+#include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_GlyphPairAdjustmentRecord.get_firstAdjustmentRecord
 template <>
 
@@ -125,39 +125,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TMP_GlyphAdjustmentRecord& TMPro::TMP_GlyphPairAdjustmentRecord::__get_m_FirstAdjustmentRecord() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstAdjustmentRecord;
 }
 constexpr ::TMPro::TMP_GlyphAdjustmentRecord const& TMPro::TMP_GlyphPairAdjustmentRecord::__get_m_FirstAdjustmentRecord() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstAdjustmentRecord;
 }
 constexpr void TMPro::TMP_GlyphPairAdjustmentRecord::__set_m_FirstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FirstAdjustmentRecord = value;
 }
 constexpr ::TMPro::TMP_GlyphAdjustmentRecord& TMPro::TMP_GlyphPairAdjustmentRecord::__get_m_SecondAdjustmentRecord() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SecondAdjustmentRecord;
 }
 constexpr ::TMPro::TMP_GlyphAdjustmentRecord const& TMPro::TMP_GlyphPairAdjustmentRecord::__get_m_SecondAdjustmentRecord() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SecondAdjustmentRecord;
 }
 constexpr void TMPro::TMP_GlyphPairAdjustmentRecord::__set_m_SecondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SecondAdjustmentRecord = value;
 }
 constexpr ::TMPro::FontFeatureLookupFlags& TMPro::TMP_GlyphPairAdjustmentRecord::__get_m_FeatureLookupFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FeatureLookupFlags;
 }
 constexpr ::TMPro::FontFeatureLookupFlags const& TMPro::TMP_GlyphPairAdjustmentRecord::__get_m_FeatureLookupFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FeatureLookupFlags;
 }
 constexpr void TMPro::TMP_GlyphPairAdjustmentRecord::__set_m_FeatureLookupFlags(::TMPro::FontFeatureLookupFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FeatureLookupFlags = value;
 }
 inline ::TMPro::TMP_GlyphAdjustmentRecord TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord() {

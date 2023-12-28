@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EntityBehaviour)
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Deflate)
 namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
+class __Deflate__Config;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Tree;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class __Deflate__Config;
+class ZStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {

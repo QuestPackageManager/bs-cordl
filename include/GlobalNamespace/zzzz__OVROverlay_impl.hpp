@@ -10,20 +10,20 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVROverlay__OverlayShape::__OVROverlay__OverlayShape(int32_t value__) noexcept {
   this->value__ = value__;
@@ -652,627 +652,627 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVROverlay__OverlayType& GlobalNamespace::OVROverlay::__get_currentOverlayType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayType;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayType const& GlobalNamespace::OVROverlay::__get_currentOverlayType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayType;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_currentOverlayType(::GlobalNamespace::__OVROverlay__OverlayType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentOverlayType = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_isDynamic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDynamic;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_isDynamic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDynamic;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_isDynamic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isDynamic = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_isProtectedContent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isProtectedContent;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_isProtectedContent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isProtectedContent;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_isProtectedContent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isProtectedContent = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlay::__get_srcRectLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___srcRectLeft;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlay::__get_srcRectLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___srcRectLeft;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_srcRectLeft(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___srcRectLeft = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlay::__get_srcRectRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___srcRectRight;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlay::__get_srcRectRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___srcRectRight;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_srcRectRight(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___srcRectRight = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlay::__get_destRectLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destRectLeft;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlay::__get_destRectLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destRectLeft;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_destRectLeft(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___destRectLeft = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlay::__get_destRectRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destRectRight;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlay::__get_destRectRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___destRectRight;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_destRectRight(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___destRectRight = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_invertTextureRects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertTextureRects;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_invertTextureRects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___invertTextureRects;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_invertTextureRects(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invertTextureRects = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__TextureRectMatrixf& GlobalNamespace::OVROverlay::__get_textureRectMatrix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureRectMatrix;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__TextureRectMatrixf const& GlobalNamespace::OVROverlay::__get_textureRectMatrix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureRectMatrix;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_textureRectMatrix(::GlobalNamespace::__OVRPlugin__TextureRectMatrixf value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___textureRectMatrix = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_overrideTextureRectMatrix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideTextureRectMatrix;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_overrideTextureRectMatrix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideTextureRectMatrix;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_overrideTextureRectMatrix(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideTextureRectMatrix = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_overridePerLayerColorScaleAndOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overridePerLayerColorScaleAndOffset;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_overridePerLayerColorScaleAndOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overridePerLayerColorScaleAndOffset;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_overridePerLayerColorScaleAndOffset(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overridePerLayerColorScaleAndOffset = value;
 }
 constexpr ::UnityEngine::Vector4& GlobalNamespace::OVROverlay::__get_colorScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScale;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::OVROverlay::__get_colorScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScale;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_colorScale(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorScale = value;
 }
 constexpr ::UnityEngine::Vector4& GlobalNamespace::OVROverlay::__get_colorOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorOffset;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::OVROverlay::__get_colorOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorOffset;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_colorOffset(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorOffset = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useExpensiveSuperSample() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useExpensiveSuperSample;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useExpensiveSuperSample() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useExpensiveSuperSample;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useExpensiveSuperSample(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useExpensiveSuperSample = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useExpensiveSharpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useExpensiveSharpen;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useExpensiveSharpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useExpensiveSharpen;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useExpensiveSharpen(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useExpensiveSharpen = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_hidden() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hidden;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_hidden() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hidden;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_hidden(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hidden = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_isExternalSurface() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isExternalSurface;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_isExternalSurface() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isExternalSurface;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_isExternalSurface(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isExternalSurface = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_externalSurfaceWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceWidth;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_externalSurfaceWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceWidth;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_externalSurfaceWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalSurfaceWidth = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_externalSurfaceHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceHeight;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_externalSurfaceHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceHeight;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_externalSurfaceHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalSurfaceHeight = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_compositionDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionDepth;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_compositionDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionDepth;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_compositionDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___compositionDepth = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_layerCompositionDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerCompositionDepth;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_layerCompositionDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerCompositionDepth;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerCompositionDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerCompositionDepth = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_noDepthBufferTesting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noDepthBufferTesting;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_noDepthBufferTesting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noDepthBufferTesting;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_noDepthBufferTesting(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noDepthBufferTesting = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__EyeTextureFormat& GlobalNamespace::OVROverlay::__get_layerTextureFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextureFormat;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__EyeTextureFormat const& GlobalNamespace::OVROverlay::__get_layerTextureFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextureFormat;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerTextureFormat(::GlobalNamespace::__OVRPlugin__EyeTextureFormat value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerTextureFormat = value;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayShape& GlobalNamespace::OVROverlay::__get_currentOverlayShape() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayShape;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayShape const& GlobalNamespace::OVROverlay::__get_currentOverlayShape() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayShape;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_currentOverlayShape(::GlobalNamespace::__OVROverlay__OverlayShape value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentOverlayShape = value;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayShape& GlobalNamespace::OVROverlay::__get_prevOverlayShape() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevOverlayShape;
 }
 constexpr ::GlobalNamespace::__OVROverlay__OverlayShape const& GlobalNamespace::OVROverlay::__get_prevOverlayShape() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevOverlayShape;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_prevOverlayShape(::GlobalNamespace::__OVROverlay__OverlayShape value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevOverlayShape = value;
 }
 constexpr ::ArrayW<::UnityEngine::Texture*, ::Array<::UnityEngine::Texture*>*>& GlobalNamespace::OVROverlay::__get_textures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textures;
 }
 constexpr ::ArrayW<::UnityEngine::Texture*, ::Array<::UnityEngine::Texture*>*> const& GlobalNamespace::OVROverlay::__get_textures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textures;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_textures(::ArrayW<::UnityEngine::Texture*, ::Array<::UnityEngine::Texture*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_isAlphaPremultiplied() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isAlphaPremultiplied;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_isAlphaPremultiplied() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isAlphaPremultiplied;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_isAlphaPremultiplied(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isAlphaPremultiplied = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useBicubicFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useBicubicFiltering;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useBicubicFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useBicubicFiltering;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useBicubicFiltering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useBicubicFiltering = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useLegacyCubemapRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useLegacyCubemapRotation;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useLegacyCubemapRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useLegacyCubemapRotation;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useLegacyCubemapRotation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useLegacyCubemapRotation = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useEfficientSupersample() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useEfficientSupersample;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useEfficientSupersample() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useEfficientSupersample;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useEfficientSupersample(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useEfficientSupersample = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useEfficientSharpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useEfficientSharpen;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useEfficientSharpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useEfficientSharpen;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useEfficientSharpen(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useEfficientSharpen = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_useAutomaticFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAutomaticFiltering;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_useAutomaticFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAutomaticFiltering;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_useAutomaticFiltering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useAutomaticFiltering = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get__previewInEditor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewInEditor;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get__previewInEditor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewInEditor;
 }
 constexpr void GlobalNamespace::OVROverlay::__set__previewInEditor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previewInEditor = value;
 }
 constexpr ::ArrayW<void*, ::Array<void*>*>& GlobalNamespace::OVROverlay::__get_texturePtrs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___texturePtrs;
 }
 constexpr ::ArrayW<void*, ::Array<void*>*> const& GlobalNamespace::OVROverlay::__get_texturePtrs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___texturePtrs;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_texturePtrs(::ArrayW<void*, ::Array<void*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___texturePtrs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr void*& GlobalNamespace::OVROverlay::__get_externalSurfaceObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceObject;
 }
 constexpr void* const& GlobalNamespace::OVROverlay::__get_externalSurfaceObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceObject;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_externalSurfaceObject(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalSurfaceObject = value;
 }
 constexpr ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*& GlobalNamespace::OVROverlay::__get_externalSurfaceObjectCreated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceObjectCreated;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*> const& GlobalNamespace::OVROverlay::__get_externalSurfaceObjectCreated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceObjectCreated;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_externalSurfaceObjectCreated(::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___externalSurfaceObjectCreated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_isOverridePending() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isOverridePending;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_isOverridePending() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isOverridePending;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_isOverridePending(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isOverridePending = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get__layerId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layerId_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get__layerId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layerId_k__BackingField;
 }
 constexpr void GlobalNamespace::OVROverlay::__set__layerId_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layerId_k__BackingField = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVROverlay__LayerTexture, ::Array<::GlobalNamespace::__OVROverlay__LayerTexture>*>& GlobalNamespace::OVROverlay::__get_layerTextures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextures;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVROverlay__LayerTexture, ::Array<::GlobalNamespace::__OVROverlay__LayerTexture>*> const& GlobalNamespace::OVROverlay::__get_layerTextures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextures;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerTextures(::ArrayW<::GlobalNamespace::__OVROverlay__LayerTexture, ::Array<::GlobalNamespace::__OVROverlay__LayerTexture>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___layerTextures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__LayerDesc& GlobalNamespace::OVROverlay::__get_layerDesc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerDesc;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__LayerDesc const& GlobalNamespace::OVROverlay::__get_layerDesc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerDesc;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerDesc(::GlobalNamespace::__OVRPlugin__LayerDesc value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerDesc = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_stageCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stageCount;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_stageCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stageCount;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_stageCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stageCount = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_layerIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerIndex;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_layerIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerIndex;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerIndex = value;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& GlobalNamespace::OVROverlay::__get_layerIdHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerIdHandle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& GlobalNamespace::OVROverlay::__get_layerIdHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerIdHandle;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerIdHandle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerIdHandle = value;
 }
 constexpr void*& GlobalNamespace::OVROverlay::__get_layerIdPtr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerIdPtr;
 }
 constexpr void* const& GlobalNamespace::OVROverlay::__get_layerIdPtr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerIdPtr;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_layerIdPtr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerIdPtr = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_frameIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frameIndex;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_frameIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frameIndex;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_frameIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___frameIndex = value;
 }
 constexpr int32_t& GlobalNamespace::OVROverlay::__get_prevFrameIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevFrameIndex;
 }
 constexpr int32_t const& GlobalNamespace::OVROverlay::__get_prevFrameIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevFrameIndex;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_prevFrameIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevFrameIndex = value;
 }
 constexpr ::UnityEngine::Renderer*& GlobalNamespace::OVROverlay::__get_rend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rend;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& GlobalNamespace::OVROverlay::__get_rend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rend;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_rend(::UnityEngine::Renderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rend)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint64_t& GlobalNamespace::OVROverlay::__get_OpenVROverlayHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OpenVROverlayHandle;
 }
 constexpr uint64_t const& GlobalNamespace::OVROverlay::__get_OpenVROverlayHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OpenVROverlayHandle;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_OpenVROverlayHandle(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OpenVROverlayHandle = value;
 }
 constexpr ::UnityEngine::Vector4& GlobalNamespace::OVROverlay::__get_OpenVRUVOffsetAndScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OpenVRUVOffsetAndScale;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::OVROverlay::__get_OpenVRUVOffsetAndScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OpenVRUVOffsetAndScale;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_OpenVRUVOffsetAndScale(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OpenVRUVOffsetAndScale = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::OVROverlay::__get_OpenVRMouseScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OpenVRMouseScale;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::OVROverlay::__get_OpenVRMouseScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OpenVRMouseScale;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_OpenVRMouseScale(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OpenVRMouseScale = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__XRDevice& GlobalNamespace::OVROverlay::__get_constructedOverlayXRDevice() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructedOverlayXRDevice;
 }
 constexpr ::GlobalNamespace::__OVRManager__XRDevice const& GlobalNamespace::OVROverlay::__get_constructedOverlayXRDevice() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructedOverlayXRDevice;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_constructedOverlayXRDevice(::GlobalNamespace::__OVRManager__XRDevice value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___constructedOverlayXRDevice = value;
 }
 constexpr bool& GlobalNamespace::OVROverlay::__get_xrDeviceConstructed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xrDeviceConstructed;
 }
 constexpr bool const& GlobalNamespace::OVROverlay::__get_xrDeviceConstructed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xrDeviceConstructed;
 }
 constexpr void GlobalNamespace::OVROverlay::__set_xrDeviceConstructed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xrDeviceConstructed = value;
 }
 inline void GlobalNamespace::OVROverlay::setStaticF_instances(::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> value) {

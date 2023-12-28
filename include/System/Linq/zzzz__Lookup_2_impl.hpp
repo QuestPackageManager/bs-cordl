@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Lookup_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Linq/zzzz__Lookup_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Linq/zzzz__IGrouping_2_def.hpp"
+#include "System/Linq/zzzz__Lookup_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Linq/zzzz__IGrouping_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TElement>"
 template <typename TKey, typename TElement>
 constexpr GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::operator ::System::Collections::Generic::IEnumerator_1<TElement>*() noexcept {
@@ -27,55 +27,55 @@ template <typename TKey, typename TElement> constexpr GlobalNamespace::__Lookup_
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr int32_t& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TKey, typename TElement> constexpr int32_t const& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TKey, typename TElement> constexpr void GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TKey, typename TElement> constexpr TElement& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TElement> constexpr TElement const& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TElement> constexpr void GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__set___2__current(TElement value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement>
 constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const&
 GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TElement>
 constexpr void GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__set___4__this(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr int32_t& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get__i_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 template <typename TKey, typename TElement> constexpr int32_t const& GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__get__i_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 template <typename TKey, typename TElement> constexpr void GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::__set__i_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 template <typename TKey, typename TElement>
@@ -141,77 +141,77 @@ template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__
   return static_cast<::System::Collections::Generic::ICollection_1<TElement>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr TKey& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TElement> constexpr TKey const& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2__Grouping<TKey, TElement>::__set_key(TKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr int32_t& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_hashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCode;
 }
 template <typename TKey, typename TElement> constexpr int32_t const& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_hashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCode;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2__Grouping<TKey, TElement>::__set_hashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCode = value;
 }
 template <typename TKey, typename TElement> constexpr ::ArrayW<TElement, ::Array<TElement>*>& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_elements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elements;
 }
 template <typename TKey, typename TElement> constexpr ::ArrayW<TElement, ::Array<TElement>*> const& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_elements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elements;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2__Grouping<TKey, TElement>::__set_elements(::ArrayW<TElement, ::Array<TElement>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr int32_t& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TKey, typename TElement> constexpr int32_t const& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2__Grouping<TKey, TElement>::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 template <typename TKey, typename TElement> constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_hashNext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashNext;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_hashNext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashNext;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2__Grouping<TKey, TElement>::__set_hashNext(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hashNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& System::Linq::__Lookup_2__Grouping<TKey, TElement>::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2__Grouping<TKey, TElement>::__set_next(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> inline void System::Linq::__Lookup_2__Grouping<TKey, TElement>::Add(TElement element) {
@@ -336,54 +336,54 @@ template <typename TKey, typename TElement> constexpr System::Linq::__Lookup_2__
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr int32_t& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TKey, typename TElement> constexpr int32_t const& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TKey, typename TElement> constexpr ::System::Linq::IGrouping_2<TKey, TElement>*& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::IGrouping_2<TKey, TElement>*> const& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__set___2__current(::System::Linq::IGrouping_2<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr ::System::Linq::Lookup_2<TKey, TElement>*& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::Lookup_2<TKey, TElement>*> const& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__set___4__this(::System::Linq::Lookup_2<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get__g_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____g_5__2;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__get__g_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____g_5__2;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>::__set__g_5__2(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____g_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement>
@@ -440,58 +440,58 @@ template <typename TKey, typename TElement> constexpr System::Linq::Lookup_2<TKe
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TElement> constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Linq::Lookup_2<TKey, TElement>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& System::Linq::Lookup_2<TKey, TElement>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::Lookup_2<TKey, TElement>::__set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement>
 constexpr ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*>& System::Linq::Lookup_2<TKey, TElement>::__get_groupings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupings;
 }
 template <typename TKey, typename TElement>
 constexpr ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> const&
 System::Linq::Lookup_2<TKey, TElement>::__get_groupings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupings;
 }
 template <typename TKey, typename TElement>
 constexpr void
 System::Linq::Lookup_2<TKey, TElement>::__set_groupings(::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groupings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& System::Linq::Lookup_2<TKey, TElement>::__get_lastGrouping() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastGrouping;
 }
 template <typename TKey, typename TElement>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& System::Linq::Lookup_2<TKey, TElement>::__get_lastGrouping() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastGrouping;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::Lookup_2<TKey, TElement>::__set_lastGrouping(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastGrouping)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TElement> constexpr int32_t& System::Linq::Lookup_2<TKey, TElement>::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TKey, typename TElement> constexpr int32_t const& System::Linq::Lookup_2<TKey, TElement>::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TKey, typename TElement> constexpr void System::Linq::Lookup_2<TKey, TElement>::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 template <typename TKey, typename TElement>

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Numeric2FacetsChecker)
 namespace System::Xml::Schema {
-class XmlValueConverter;
+class XmlSchemaDatatype;
 }
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+class XmlValueConverter;
 }
 namespace System {
 class Object;

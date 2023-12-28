@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSlider)
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Graphic;
 }
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
 namespace UnityEngine {
 class RectTransform;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace UnityEngine::EventSystems {
 class IBeginDragHandler;
 }
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
 }
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {

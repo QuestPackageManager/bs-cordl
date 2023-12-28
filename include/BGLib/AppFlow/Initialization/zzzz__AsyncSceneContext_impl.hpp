@@ -9,17 +9,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SceneContext_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncSceneContext_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncSceneContext_def.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstallerRegistry_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstallerRegistry_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State::__AsyncSceneContext__State(int32_t value__) noexcept {
@@ -181,16 +181,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*& BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass6_0::__get_registry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___registry;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> const&
 BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass6_0::__get_registry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___registry;
 }
 constexpr void BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass6_0::__set_registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___registry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass6_0* BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass6_0::New_ctor() {
@@ -362,40 +362,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::BGLib::AppFlow::Initialization::AsyncInstaller*>*& BGLib::AppFlow::Initialization::AsyncSceneContext::__get__asyncInstallers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncInstallers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BGLib::AppFlow::Initialization::AsyncInstaller*>*> const&
 BGLib::AppFlow::Initialization::AsyncSceneContext::__get__asyncInstallers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncInstallers;
 }
 constexpr void BGLib::AppFlow::Initialization::AsyncSceneContext::__set__asyncInstallers(::System::Collections::Generic::List_1<::BGLib::AppFlow::Initialization::AsyncInstaller*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____asyncInstallers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State& BGLib::AppFlow::Initialization::AsyncSceneContext::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const& BGLib::AppFlow::Initialization::AsyncSceneContext::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void BGLib::AppFlow::Initialization::AsyncSceneContext::__set__state(::BGLib::AppFlow::Initialization::__AsyncSceneContext__State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
 constexpr ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*& BGLib::AppFlow::Initialization::AsyncSceneContext::__get__registry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registry;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> const& BGLib::AppFlow::Initialization::AsyncSceneContext::__get__registry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registry;
 }
 constexpr void BGLib::AppFlow::Initialization::AsyncSceneContext::__set__registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____registry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BGLib::AppFlow::Initialization::AsyncSceneContext::Run() {

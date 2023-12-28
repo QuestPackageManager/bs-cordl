@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LocalDataStore_def.hpp"
-#include "System/zzzz__LocalDataStoreSlot_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__LocalDataStoreMgr_def.hpp"
 #include "System/zzzz__LocalDataStoreElement_def.hpp"
+#include "System/zzzz__LocalDataStoreSlot_def.hpp"
+#include "System/zzzz__LocalDataStoreMgr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::LocalDataStore._ctor
 template <>
 
@@ -93,27 +93,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*>& System::LocalDataStore::__get_m_DataTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DataTable;
 }
 constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> const& System::LocalDataStore::__get_m_DataTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DataTable;
 }
 constexpr void System::LocalDataStore::__set_m_DataTable(::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DataTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::LocalDataStoreMgr*& System::LocalDataStore::__get_m_Manager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Manager;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& System::LocalDataStore::__get_m_Manager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Manager;
 }
 constexpr void System::LocalDataStore::__set_m_Manager(::System::LocalDataStoreMgr* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Manager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::LocalDataStore* System::LocalDataStore::New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity) {

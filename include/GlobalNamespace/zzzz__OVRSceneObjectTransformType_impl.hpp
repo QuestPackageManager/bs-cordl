@@ -26,15 +26,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation& GlobalNamespace::OVRSceneObjectTransformType::__get_TransformType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TransformType;
 }
 constexpr ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation const& GlobalNamespace::OVRSceneObjectTransformType::__get_TransformType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TransformType;
 }
 constexpr void GlobalNamespace::OVRSceneObjectTransformType::__set_TransformType(::GlobalNamespace::__OVRSceneObjectTransformType__Transformation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TransformType = value;
 }
 inline ::GlobalNamespace::OVRSceneObjectTransformType* GlobalNamespace::OVRSceneObjectTransformType::New_ctor() {

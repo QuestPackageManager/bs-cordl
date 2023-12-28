@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
-#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
 #include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IValue_1<T>"
 template <typename T> constexpr GlobalNamespace::ObservableVariableSO_1<T>::operator ::GlobalNamespace::IValue_1<T>*() noexcept {
   return static_cast<::GlobalNamespace::IValue_1<T>*>(static_cast<void*>(this));
@@ -13,27 +13,27 @@ template <typename T> constexpr GlobalNamespace::ObservableVariableSO_1<T>::oper
   return static_cast<::GlobalNamespace::IObservableChange*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Action*& GlobalNamespace::ObservableVariableSO_1<T>::__get_didChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeEvent;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ObservableVariableSO_1<T>::__get_didChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeEvent;
 }
 template <typename T> constexpr void GlobalNamespace::ObservableVariableSO_1<T>::__set_didChangeEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& GlobalNamespace::ObservableVariableSO_1<T>::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr T const& GlobalNamespace::ObservableVariableSO_1<T>::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr void GlobalNamespace::ObservableVariableSO_1<T>::__set__value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline void GlobalNamespace::ObservableVariableSO_1<T>::add_didChangeEvent(::System::Action* value) {

@@ -7,18 +7,18 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType::__HEU_Handle__HEU_HandleType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -386,147 +386,147 @@ constexpr HoudiniEngineUnity::HEU_Handle::operator ::HoudiniEngineUnity::IEquiva
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_Handle::__get__handleName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_Handle::__get__handleName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleName;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handleName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType& HoudiniEngineUnity::HEU_Handle::__get__handleType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleType;
 }
 constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const& HoudiniEngineUnity::HEU_Handle::__get__handleType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleType;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleType(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handleType = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_Handle::__get__handleIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_Handle::__get__handleIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handleIndex = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& HoudiniEngineUnity::HEU_Handle::__get__handleParamTranslateBinding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamTranslateBinding;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& HoudiniEngineUnity::HEU_Handle::__get__handleParamTranslateBinding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamTranslateBinding;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleParamTranslateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handleParamTranslateBinding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& HoudiniEngineUnity::HEU_Handle::__get__handleParamRotateBinding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamRotateBinding;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& HoudiniEngineUnity::HEU_Handle::__get__handleParamRotateBinding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamRotateBinding;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleParamRotateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handleParamRotateBinding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& HoudiniEngineUnity::HEU_Handle::__get__handleParamScaleBinding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamScaleBinding;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& HoudiniEngineUnity::HEU_Handle::__get__handleParamScaleBinding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamScaleBinding;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleParamScaleBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handleParamScaleBinding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_Handle::__get__handlePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlePosition;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_Handle::__get__handlePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlePosition;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handlePosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handlePosition = value;
 }
 constexpr ::UnityEngine::Quaternion& HoudiniEngineUnity::HEU_Handle::__get__handleRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleRotation;
 }
 constexpr ::UnityEngine::Quaternion const& HoudiniEngineUnity::HEU_Handle::__get__handleRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleRotation;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handleRotation = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_Handle::__get__handleScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleScale;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_Handle::__get__handleScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleScale;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__handleScale(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handleScale = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_RSTOrder& HoudiniEngineUnity::HEU_Handle::__get__rstOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rstOrder;
 }
 constexpr ::HoudiniEngineUnity::HAPI_RSTOrder const& HoudiniEngineUnity::HEU_Handle::__get__rstOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rstOrder;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rstOrder = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_XYZOrder& HoudiniEngineUnity::HEU_Handle::__get__xyzOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xyzOrder;
 }
 constexpr ::HoudiniEngineUnity::HAPI_XYZOrder const& HoudiniEngineUnity::HEU_Handle::__get__xyzOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xyzOrder;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xyzOrder = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_TransformEuler& HoudiniEngineUnity::HEU_Handle::__get__convertedTransformEuler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convertedTransformEuler;
 }
 constexpr ::HoudiniEngineUnity::HAPI_TransformEuler const& HoudiniEngineUnity::HEU_Handle::__get__convertedTransformEuler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____convertedTransformEuler;
 }
 constexpr void HoudiniEngineUnity::HEU_Handle::__set__convertedTransformEuler(::HoudiniEngineUnity::HAPI_TransformEuler value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____convertedTransformEuler = value;
 }
 inline ::StringW HoudiniEngineUnity::HEU_Handle::get_HandleName() {

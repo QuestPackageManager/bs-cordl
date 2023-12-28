@@ -9,59 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarEditorViewController)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace GlobalNamespace {
-class ColorPickerButtonController;
-}
-namespace GlobalNamespace {
-class NamedIntListController;
-}
-namespace GlobalNamespace {
-class __NamedIntListController__TextValuePair;
-}
-namespace GlobalNamespace {
-class __NamedColorListController__ColorValuePair;
-}
-namespace UnityEngine::UI {
-class Image;
-}
 namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class AvatarEditHistory;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __BeatAvatarEditorViewController____c__DisplayClass62_0;
-}
-namespace HMUI {
-class CurvedTextMeshPro;
-}
-namespace HMUI {
-template <typename T> class ValueChangedBinder_1;
+template <typename T> class AvatarPartCollection_1;
 }
 namespace HMUI {
 class ButtonBinder;
 }
+namespace GlobalNamespace {
+class __NamedColorListController__ColorValuePair;
+}
+namespace GlobalNamespace {
+class ColorPickerButtonController;
+}
 namespace UnityEngine::UI {
 class Button;
 }
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass63_0_1;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class SkinColorSO;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarPartsModel;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine {
 struct Color;
@@ -69,14 +33,50 @@ struct Color;
 namespace GlobalNamespace {
 class NamedColorListController;
 }
-namespace BeatSaber::BeatAvatarSDK {
-template <typename T> class AvatarPartCollection_1;
+namespace HMUI {
+class CurvedTextMeshPro;
 }
 namespace System {
 class Action;
 }
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass63_0_1;
+}
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class AvatarEditHistory;
+}
+namespace HMUI {
+template <typename T> class ValueChangedBinder_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace GlobalNamespace {
+class __NamedIntListController__TextValuePair;
+}
+namespace BeatSaber::BeatAvatarSDK {
+struct AvatarPart;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarPartsModel;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class SkinColorSO;
+}
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class NamedIntListController;
+}
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class __BeatAvatarEditorViewController____c__DisplayClass62_0;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -96,7 +96,7 @@ MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEdi
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15266))
 // CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass62_0*
 class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass62_0 : public ::System::Object {
@@ -211,7 +211,7 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15267))
 // CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass63_0`1<T>*
 class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass63_0_1 : public ::System::Object {

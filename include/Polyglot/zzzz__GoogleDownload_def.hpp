@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GoogleDownload)
-namespace Polyglot {
-class __GoogleDownload___DownloadSheet_d__0;
-}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Action_1;
 }
 namespace Polyglot {
 struct GoogleDriveDownloadFormat;
@@ -21,19 +18,22 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace Polyglot {
+class __GoogleDownload___DownloadSheet_d__0;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::Polyglot::__GoogleDownload___DownloadSheet_d__0);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15550))
 // CS Name: ::GoogleDownload::<DownloadSheet>d__0*
 class CORDL_TYPE __GoogleDownload___DownloadSheet_d__0 : public ::System::Object {

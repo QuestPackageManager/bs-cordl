@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__RevocationDetails_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__RevDetails_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__RevDetails_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::RevocationDetails._ctor
 template <>
 
@@ -76,15 +76,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails*& Org::BouncyCastle::Cmp::RevocationDetails::__get_revDetails() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revDetails;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> const& Org::BouncyCastle::Cmp::RevocationDetails::__get_revDetails() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revDetails;
 }
 constexpr void Org::BouncyCastle::Cmp::RevocationDetails::__set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___revDetails)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Cmp::RevocationDetails* Org::BouncyCastle::Cmp::RevocationDetails::New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails) {

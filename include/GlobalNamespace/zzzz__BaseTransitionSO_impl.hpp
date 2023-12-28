@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::TransitionTimingSO*& GlobalNamespace::BaseTransitionSO::__get__transitionTiming() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transitionTiming;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TransitionTimingSO*> const& GlobalNamespace::BaseTransitionSO::__get__transitionTiming() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transitionTiming;
 }
 constexpr void GlobalNamespace::BaseTransitionSO::__set__transitionTiming(::GlobalNamespace::TransitionTimingSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transitionTiming)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::EaseType GlobalNamespace::BaseTransitionSO::get_easeType() {

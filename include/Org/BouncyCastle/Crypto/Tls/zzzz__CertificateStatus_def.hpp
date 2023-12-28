@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(CertificateStatus)
 namespace System {
 class Object;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class OcspResponse;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

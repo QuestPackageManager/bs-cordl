@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_ThreadedTask)
-namespace System {
-class Object;
+namespace System::Threading {
+struct ThreadPriority;
 }
 namespace System::Threading {
 class Thread;
 }
-namespace System::Threading {
-struct ThreadPriority;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadedTask);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2670))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2670)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9809))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadedTask*
 class CORDL_TYPE HEU_ThreadedTask : public ::System::Object {

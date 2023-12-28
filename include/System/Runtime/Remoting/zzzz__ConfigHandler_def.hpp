@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConfigHandler)
-namespace System::Runtime::Remoting {
-class ChannelData;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class Stack;
-}
 namespace Mono::Xml {
 class SmallXmlParser;
-}
-namespace Mono::Xml {
-class __SmallXmlParser__IAttrList;
-}
-namespace System::Runtime::Remoting {
-class ProviderData;
 }
 namespace System {
 struct TimeSpan;
 }
+namespace System::Runtime::Remoting {
+class ProviderData;
+}
+namespace System::Collections {
+class ArrayList;
+}
 namespace Mono::Xml {
 class __SmallXmlParser__IContentHandler;
+}
+namespace Mono::Xml {
+class __SmallXmlParser__IAttrList;
+}
+namespace System::Collections {
+class Stack;
+}
+namespace System::Runtime::Remoting {
+class ChannelData;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

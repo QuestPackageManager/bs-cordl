@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/ComponentModel/zzzz__Component_def.hpp"
+#include "System/ComponentModel/zzzz__IComponent_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/ComponentModel/zzzz__IComponent_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__ISite_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Component.Finalize
 template <>
@@ -154,27 +154,27 @@ constexpr System::ComponentModel::Component::operator ::System::IDisposable*() n
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::ComponentModel::ISite*& System::ComponentModel::Component::__get_site() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___site;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISite*> const& System::ComponentModel::Component::__get_site() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___site;
 }
 constexpr void System::ComponentModel::Component::__set_site(::System::ComponentModel::ISite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___site)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::ComponentModel::EventHandlerList*& System::ComponentModel::Component::__get_events() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___events;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventHandlerList*> const& System::ComponentModel::Component::__get_events() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___events;
 }
 constexpr void System::ComponentModel::Component::__set_events(::System::ComponentModel::EventHandlerList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___events)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::ComponentModel::Component::setStaticF_EventDisposed(::System::Object* value) {

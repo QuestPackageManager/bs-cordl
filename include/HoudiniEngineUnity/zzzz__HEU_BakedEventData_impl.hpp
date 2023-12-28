@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BakedEventData_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_BakedEventData._ctor
 template <>
 
@@ -23,15 +23,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& HoudiniEngineUnity::HEU_BakedEventData::__get_IsNewBake() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsNewBake;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_BakedEventData::__get_IsNewBake() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsNewBake;
 }
 constexpr void HoudiniEngineUnity::HEU_BakedEventData::__set_IsNewBake(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsNewBake = value;
 }
 inline ::HoudiniEngineUnity::HEU_BakedEventData* HoudiniEngineUnity::HEU_BakedEventData::New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,

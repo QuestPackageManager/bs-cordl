@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidReflection)
 namespace System {
+class Exception;
+}
+namespace System {
 class Type;
 }
 namespace UnityEngine {
 class GlobalJavaObjectRef;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::AndroidReflection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14915))
 // CS Name: ::UnityEngine::AndroidReflection*
 class CORDL_TYPE AndroidReflection : public ::System::Object {

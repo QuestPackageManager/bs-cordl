@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightmapLightsWithIds)
-namespace GlobalNamespace {
-class __LightWithIds__LightWithId;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
 class __LightmapLightsWithIds__LightIntensitiesWithId;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace GlobalNamespace {
+class __LightWithIds__LightWithId;
 }
 namespace GlobalNamespace {
 struct __LightConstants__BakeId;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14532)), TypeDefinitionIndex(TypeDefinitionIndex(14543))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14543)), TypeDefinitionIndex(TypeDefinitionIndex(14532))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14534))
 // CS Name: ::LightmapLightsWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightsWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {

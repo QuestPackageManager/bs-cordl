@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ScaleAnimator)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Quaternion;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,43 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2)
 namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
-namespace System::Security::Cryptography {
-class Oid;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ContentType;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Impl;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class PublicKey;
 }
 namespace System::Security::Cryptography::X509Certificates {
+struct X509ContentType;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509ExtensionCollection;
+}
+namespace System::Security::Cryptography {
+class Oid;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Impl;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509NameType;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

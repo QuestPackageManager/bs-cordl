@@ -8,31 +8,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerFacade)
 namespace GlobalNamespace {
-class BeatmapCallbacksUpdater;
+class MultiplayerLocalActivePlayerIntroAnimator;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerIntroAnimator;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
 class GameSongController;
 }
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class BeatmapCallbacksUpdater;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class IStartSeekSongController;
@@ -40,14 +37,17 @@ class IStartSeekSongController;
 namespace GlobalNamespace {
 class IStartSeekSongControllerProvider;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsListener;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
+class __MultiplayerLocalActivePlayerFacade__Factory;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -283,8 +283,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLoca
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5151)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
-// 3490 }), TypeDefinitionIndex(TypeDefinitionIndex(5239))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5150)) CS Name: ::MultiplayerLocalActivePlayerFacade::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3490 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5151)), TypeDefinitionIndex(TypeDefinitionIndex(5239))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5150)) CS Name:
+// ::MultiplayerLocalActivePlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerLocalActivePlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*> {
 public:

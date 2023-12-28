@@ -8,22 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleContentValidator)
 namespace System::Xml::Schema {
-class SymbolsDictionary;
-}
-namespace System::Xml::Schema {
 class ContentValidator;
 }
-namespace System::Collections {
-class Stack;
+namespace System {
+class Object;
+}
+namespace System::Xml::Schema {
+class NamespaceList;
+}
+namespace System::Xml::Schema {
+class Positions;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaContentType;
 }
 namespace System::Xml::Schema {
-class NamespaceList;
+class SymbolsDictionary;
 }
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+class SyntaxTreeNode;
 }
 namespace System::Xml {
 class XmlQualifiedName;
@@ -31,14 +34,11 @@ class XmlQualifiedName;
 namespace System::Xml::Schema {
 class InteriorNode;
 }
+namespace System::Collections {
+class Stack;
+}
 namespace System::Xml::Schema {
 class BitSet;
-}
-namespace System::Xml::Schema {
-class Positions;
-}
-namespace System::Xml::Schema {
-class SyntaxTreeNode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

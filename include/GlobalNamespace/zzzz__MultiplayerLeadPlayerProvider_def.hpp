@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLeadPlayerProvider)
+namespace GlobalNamespace {
+class __MultiplayerScoreProvider__RankedPlayer;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
-}
-namespace GlobalNamespace {
 struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;

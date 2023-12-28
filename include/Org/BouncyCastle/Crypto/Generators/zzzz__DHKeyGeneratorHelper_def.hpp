@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHKeyGeneratorHelper)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

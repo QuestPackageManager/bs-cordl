@@ -3,58 +3,58 @@
 #include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Polyglot/zzzz__ILocalize_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::Polyglot::ILocalize"
 template <typename T> constexpr Polyglot::LocalizedTextComponent_1<T>::operator ::Polyglot::ILocalize*() noexcept {
   return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
 }
 template <typename T> constexpr T& Polyglot::LocalizedTextComponent_1<T>::__get_localizedComponent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedComponent;
 }
 template <typename T> constexpr T const& Polyglot::LocalizedTextComponent_1<T>::__get_localizedComponent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedComponent;
 }
 template <typename T> constexpr void Polyglot::LocalizedTextComponent_1<T>::__set_localizedComponent(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizedComponent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& Polyglot::LocalizedTextComponent_1<T>::__get_maintainTextAlignment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainTextAlignment;
 }
 template <typename T> constexpr bool const& Polyglot::LocalizedTextComponent_1<T>::__get_maintainTextAlignment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainTextAlignment;
 }
 template <typename T> constexpr void Polyglot::LocalizedTextComponent_1<T>::__set_maintainTextAlignment(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainTextAlignment = value;
 }
 template <typename T> constexpr ::StringW& Polyglot::LocalizedTextComponent_1<T>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename T> constexpr ::StringW const& Polyglot::LocalizedTextComponent_1<T>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename T> constexpr void Polyglot::LocalizedTextComponent_1<T>::__set_key(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<::System::Object*>*& Polyglot::LocalizedTextComponent_1<T>::__get_parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& Polyglot::LocalizedTextComponent_1<T>::__get_parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
 template <typename T> constexpr void Polyglot::LocalizedTextComponent_1<T>::__set_parameters(::System::Collections::Generic::List_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline bool Polyglot::LocalizedTextComponent_1<T>::get_MaintainTextAlignment() {

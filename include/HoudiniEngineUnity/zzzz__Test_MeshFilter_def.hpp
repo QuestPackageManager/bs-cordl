@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_MeshFilter)
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

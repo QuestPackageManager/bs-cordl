@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityDebugLogger)
-namespace GlobalNamespace {
-class IBeatSaberLogger;
+namespace System {
+class Object;
 }
 namespace System {
 class Exception;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class IBeatSaberLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {

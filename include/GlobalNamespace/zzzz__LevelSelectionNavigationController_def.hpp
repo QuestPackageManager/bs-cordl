@@ -7,41 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LevelSelectionNavigationController)
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class LevelFilteringNavigationController;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-class LevelCollectionNavigationController;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 struct __SelectLevelCategoryViewController__LevelCategory;
 }
 namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
 struct __StandardLevelDetailViewController__ContentType;
@@ -50,10 +32,28 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class LevelCollectionNavigationController;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
+}
+namespace GlobalNamespace {
+class LevelFilteringNavigationController;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,7 +65,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelSelectionNavigationController);
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13588)), TypeDefinitionIndex(TypeDefinitionIndex(14719))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(13588))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5687))
 // CS Name: ::LevelSelectionNavigationController*
 class CORDL_TYPE LevelSelectionNavigationController : public ::HMUI::NavigationController {

@@ -11,23 +11,23 @@ class MonoBehaviour;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Action;
-}
 namespace Zenject {
-class ZenjectSettings;
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class DiContainer;
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class ZenjectSettings;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffectManager_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffectManager_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSaberSoundEffect.Awake
 template <>
 
@@ -88,64 +88,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ObstacleSaberSparkleEffectManager*& GlobalNamespace::ObstacleSaberSoundEffect::__get__obstacleSaberSparkleEffectManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleSaberSparkleEffectManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleSaberSparkleEffectManager*> const&
 GlobalNamespace::ObstacleSaberSoundEffect::__get__obstacleSaberSparkleEffectManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleSaberSparkleEffectManager;
 }
 constexpr void GlobalNamespace::ObstacleSaberSoundEffect::__set__obstacleSaberSparkleEffectManager(::GlobalNamespace::ObstacleSaberSparkleEffectManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleSaberSparkleEffectManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SaberType& GlobalNamespace::ObstacleSaberSoundEffect::__get__saberType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberType;
 }
 constexpr ::GlobalNamespace::SaberType const& GlobalNamespace::ObstacleSaberSoundEffect::__get__saberType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberType;
 }
 constexpr void GlobalNamespace::ObstacleSaberSoundEffect::__set__saberType(::GlobalNamespace::SaberType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberType = value;
 }
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::ObstacleSaberSoundEffect::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::ObstacleSaberSoundEffect::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::ObstacleSaberSoundEffect::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::ObstacleSaberSoundEffect::__get__volume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volume;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSaberSoundEffect::__get__volume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volume;
 }
 constexpr void GlobalNamespace::ObstacleSaberSoundEffect::__set__volume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____volume = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSaberSoundEffect::__get__targetVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetVolume;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSaberSoundEffect::__get__targetVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetVolume;
 }
 constexpr void GlobalNamespace::ObstacleSaberSoundEffect::__set__targetVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetVolume = value;
 }
 inline void GlobalNamespace::ObstacleSaberSoundEffect::Awake() {

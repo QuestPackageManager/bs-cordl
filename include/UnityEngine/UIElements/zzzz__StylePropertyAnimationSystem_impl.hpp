@@ -14,27 +14,27 @@
 #include "UnityEngine/zzzz__Font_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyAnimationSystem_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StylePropertyAnimationSystem_def.hpp"
-#include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StylePropertyAnimationSystem_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState::__StylePropertyAnimationSystem__TransitionState(int32_t value__) noexcept {
@@ -551,67 +551,67 @@ template <typename T>
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                        ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>*&
 GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_elementPropertyStateDelta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementPropertyStateDelta;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                                                            ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>*> const&
 GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_elementPropertyStateDelta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementPropertyStateDelta;
 }
 template <typename T>
 constexpr void GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__set_elementPropertyStateDelta(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                  ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elementPropertyStateDelta)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                        ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>*&
 GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_elementPropertyQueuedEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementPropertyQueuedEvents;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                                                            ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>*> const&
 GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_elementPropertyQueuedEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementPropertyQueuedEvents;
 }
 template <typename T>
 constexpr void GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__set_elementPropertyQueuedEvents(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                  ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elementPropertyQueuedEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::UnityEngine::UIElements::IPanel*& GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_panel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___panel;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_panel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___panel;
 }
 template <typename T> constexpr void GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__set_panel(::UnityEngine::UIElements::IPanel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___panel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_m_ChangesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChangesCount;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__get_m_ChangesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChangesCount;
 }
 template <typename T> constexpr void GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>::__set_m_ChangesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChangesCount = value;
 }
 template <typename T>
@@ -715,65 +715,65 @@ template <typename T> inline ::GlobalNamespace::__StylePropertyAnimationSystem__
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>::__StylePropertyAnimationSystem__Values_1__EmptyData() {}
 template <typename T> constexpr int64_t& UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_m_CurrentTimeMs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTimeMs;
 }
 template <typename T> constexpr int64_t const& UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_m_CurrentTimeMs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTimeMs;
 }
 template <typename T> constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__set_m_CurrentTimeMs(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTimeMs = value;
 }
 template <typename T>
 constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_m_CurrentFrameEventsState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentFrameEventsState;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_m_CurrentFrameEventsState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentFrameEventsState;
 }
 template <typename T>
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__set_m_CurrentFrameEventsState(
     ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CurrentFrameEventsState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_m_NextFrameEventsState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextFrameEventsState;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_m_NextFrameEventsState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextFrameEventsState;
 }
 template <typename T>
 constexpr void
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__set_m_NextFrameEventsState(::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NextFrameEventsState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
                                                                                         ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>>&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_running() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___running;
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
                                                                                         ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_running() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___running;
 }
 template <typename T>
@@ -781,25 +781,25 @@ constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1
     ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
                                                                                   ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___running = value;
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T>&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_completed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__get_completed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 template <typename T>
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::__set_completed(
     ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completed = value;
 }
 template <typename T> inline bool UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T>::get_isEmpty() {
@@ -1091,16 +1091,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_3<float_t, float_t, bool>*& UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<float_t, float_t, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat::__set__SameFunc_k__BackingField(::System::Func_3<float_t, float_t, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<float_t, float_t, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat::get_SameFunc() {
@@ -1258,16 +1258,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_3<int32_t, int32_t, bool>*& UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<int32_t, int32_t, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt::__set__SameFunc_k__BackingField(::System::Func_3<int32_t, int32_t, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<int32_t, int32_t, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt::get_SameFunc() {
@@ -1429,17 +1429,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength::__set__SameFunc_k__BackingField(
     ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength::get_SameFunc() {
@@ -1603,16 +1603,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>*& UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor::__set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor::get_SameFunc() {
@@ -1665,17 +1665,17 @@ inline void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor::__StylePropertyAnimationSystem__ValuesColor() {}
 template <typename T> constexpr ::System::Func_3<T, T, bool>*& UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<T>::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<T, T, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<T>::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<T>::__set__SameFunc_k__BackingField(::System::Func_3<T, T, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::System::Func_3<T, T, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<T>::get_SameFunc() {
@@ -2029,17 +2029,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow::__set__SameFunc_k__BackingField(
     ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow::get_SameFunc() {
@@ -2204,17 +2204,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale::__set__SameFunc_k__BackingField(
     ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale::get_SameFunc() {
@@ -2378,17 +2378,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate::__set__SameFunc_k__BackingField(
     ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate::get_SameFunc() {
@@ -2553,17 +2553,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate::__set__SameFunc_k__BackingField(
     ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate::get_SameFunc() {
@@ -2728,17 +2728,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>*&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin::__get__SameFunc_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>*> const&
 UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin::__get__SameFunc_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SameFunc_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin::__set__SameFunc_k__BackingField(
     ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SameFunc_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>*
@@ -3169,201 +3169,201 @@ constexpr UnityEngine::UIElements::StylePropertyAnimationSystem::operator ::Unit
   return static_cast<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(static_cast<void*>(this));
 }
 constexpr int64_t& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_CurrentTimeMs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTimeMs;
 }
 constexpr int64_t const& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_CurrentTimeMs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTimeMs;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_CurrentTimeMs(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTimeMs = value;
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Floats() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Floats;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Floats() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Floats;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Floats(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Floats)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Ints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ints;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Ints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ints;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Ints(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Ints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Lengths() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Lengths;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Lengths() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Lengths;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Lengths(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Lengths)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Colors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Colors;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Colors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Colors;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Colors(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Colors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Backgrounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Backgrounds;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Backgrounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Backgrounds;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Backgrounds(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Backgrounds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_FontDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontDefinitions;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_FontDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontDefinitions;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_FontDefinitions(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FontDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Fonts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Fonts;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Fonts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Fonts;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Fonts(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Fonts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_TextShadows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextShadows;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_TextShadows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextShadows;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_TextShadows(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextShadows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Scale(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Scale)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Rotate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rotate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Rotate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rotate;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Rotate(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Rotate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Translate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Translate;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_Translate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Translate;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_Translate(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Translate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_TransformOrigin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TransformOrigin;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_TransformOrigin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TransformOrigin;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_TransformOrigin(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TransformOrigin)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*& UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_AllValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllValues;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_AllValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllValues;
 }
 constexpr void
 UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_AllValues(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AllValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_PropertyToValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PropertyToValues;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*> const&
 UnityEngine::UIElements::StylePropertyAnimationSystem::__get_m_PropertyToValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PropertyToValues;
 }
 constexpr void UnityEngine::UIElements::StylePropertyAnimationSystem::__set_m_PropertyToValues(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PropertyToValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* UnityEngine::UIElements::StylePropertyAnimationSystem::New_ctor() {

@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::LaunchBlockFlowResult::__get_DidBlock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidBlock;
 }
 constexpr bool const& Oculus::Platform::Models::LaunchBlockFlowResult::__get_DidBlock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidBlock;
 }
 constexpr void Oculus::Platform::Models::LaunchBlockFlowResult::__set_DidBlock(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidBlock = value;
 }
 constexpr bool& Oculus::Platform::Models::LaunchBlockFlowResult::__get_DidCancel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
 constexpr bool const& Oculus::Platform::Models::LaunchBlockFlowResult::__get_DidCancel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
 constexpr void Oculus::Platform::Models::LaunchBlockFlowResult::__set_DidCancel(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidCancel = value;
 }
 inline ::Oculus::Platform::Models::LaunchBlockFlowResult* Oculus::Platform::Models::LaunchBlockFlowResult::New_ctor(void* o) {

@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexTree)
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Text::RegularExpressions {
 class RegexNode;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Text::RegularExpressions {
 struct RegexOptions;

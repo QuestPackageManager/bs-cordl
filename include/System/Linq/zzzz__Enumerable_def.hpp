@@ -10,106 +10,106 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Enumerable)
 namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable__WhereSelectEnumerableIterator_2;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___SkipIterator_d__31_1;
-}
-namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable__WhereSelectArrayIterator_2;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable__Iterator_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___TakeIterator_d__25_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___ReverseIterator_d__79_1;
-}
-namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable__WhereSelectListIterator_2;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___UnionIterator_d__71_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___ExceptIterator_d__77_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Linq {
-template <typename TSource, typename TMiddle, typename TResult> class __Enumerable____c__DisplayClass7_0_3;
-}
-namespace System::Linq {
-template <typename TResult> class __Enumerable___CastIterator_d__99_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable___DistinctIterator_d__68_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Linq {
-template <typename TResult> class __Enumerable___OfTypeIterator_d__97_1;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Linq {
-template <typename TSource, typename TResult> class __Enumerable___SelectManyIterator_d__17_2;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable__WhereArrayIterator_1;
-}
-namespace System::Linq {
 template <typename TSource> class __Enumerable___DefaultIfEmptyIterator_d__95_1;
 }
 namespace System::Linq {
+template <typename TKey, typename TElement> class IGrouping_2;
+}
+namespace System::Linq {
+template <typename TSource, typename TResult> class __Enumerable__WhereSelectEnumerableIterator_2;
+}
+namespace System::Linq {
 template <typename TSource> class __Enumerable__WhereListIterator_1;
+}
+namespace System::Linq {
+template <typename TResult> class __Enumerable___CastIterator_d__99_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Linq {
-template <typename TSource> class __Enumerable__WhereEnumerableIterator_1;
+template <typename TSource, typename TResult> class __Enumerable___SelectManyIterator_d__17_2;
 }
 namespace System::Linq {
-template <typename TSource> class __Enumerable___ConcatIterator_d__59_1;
-}
-namespace System::Linq {
-template <typename TSource> class __Enumerable____c__DisplayClass6_0_1;
+template <typename TSource> class __Enumerable__Iterator_1;
 }
 namespace System::Linq {
 class __Enumerable___RangeIterator_d__115;
 }
 namespace System::Linq {
-template <typename TElement> class IOrderedEnumerable_1;
+template <typename TSource, typename TMiddle, typename TResult> class __Enumerable____c__DisplayClass7_0_3;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Linq {
+template <typename TResult> class __Enumerable___OfTypeIterator_d__97_1;
 }
 namespace System::Linq {
 template <typename TSource> class __Enumerable___IntersectIterator_d__74_1;
 }
 namespace System::Linq {
-template <typename TKey, typename TElement> class IGrouping_2;
+template <typename TSource> class __Enumerable___ConcatIterator_d__59_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___DistinctIterator_d__68_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable__WhereArrayIterator_1;
+}
+namespace System::Linq {
+template <typename TSource, typename TResult> class __Enumerable__WhereSelectArrayIterator_2;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___TakeIterator_d__25_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___UnionIterator_d__71_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___ExceptIterator_d__77_1;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Linq {
+template <typename TSource, typename TResult> class __Enumerable__WhereSelectListIterator_2;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable__WhereEnumerableIterator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Linq {
+template <typename TElement> class IOrderedEnumerable_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___ReverseIterator_d__79_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable____c__DisplayClass6_0_1;
+}
+namespace System::Linq {
+template <typename TSource> class __Enumerable___SkipIterator_d__31_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -423,7 +423,7 @@ namespace System::Linq {
 // cpp template
 template <typename TSource>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14255)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3014 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3014 }), TypeDefinitionIndex(TypeDefinitionIndex(14255))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14257))
 // CS Name: ::Enumerable::WhereArrayIterator`1<TSource>*
 class CORDL_TYPE __Enumerable__WhereArrayIterator_1 : public ::System::Linq::__Enumerable__Iterator_1<TSource> {
@@ -688,7 +688,7 @@ namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14255)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3041 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14255), inst: 3041 }), TypeDefinitionIndex(TypeDefinitionIndex(14255))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14260))
 // CS Name: ::Enumerable::WhereSelectArrayIterator`2<TSource,TResult>*
 class CORDL_TYPE __Enumerable__WhereSelectArrayIterator_2 : public ::System::Linq::__Enumerable__Iterator_1<TResult> {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_Terrain_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_Terrain._ctor
 template <>
 
@@ -55,15 +55,15 @@ constexpr HoudiniEngineUnity::Test_Terrain::operator ::HoudiniEngineUnity::IEqui
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Terrain*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Terrain*& HoudiniEngineUnity::Test_Terrain::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Terrain*> const& HoudiniEngineUnity::Test_Terrain::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_Terrain::__set_self(::UnityEngine::Terrain* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_Terrain* HoudiniEngineUnity::Test_Terrain::New_ctor(::UnityEngine::Terrain* self) {

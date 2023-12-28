@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(BeatmapCharacteristicSelectionViewController)
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
-namespace HMUI {
-class SegmentedControl;
-}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
@@ -19,6 +16,9 @@ template <typename T1, typename T2> class Action_2;
 }
 namespace HMUI {
 class IconSegmentedControl;
+}
+namespace HMUI {
+class SegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {

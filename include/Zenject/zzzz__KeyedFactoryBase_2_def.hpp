@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactoryBase_2)
+namespace Zenject {
+class IValidatable;
+}
 namespace System {
 class Type;
 }
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class IValidatable;
-}
-namespace Zenject {
-template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
 }
 namespace ModestTree::Util {
 template <typename T1, typename T2> class ValuePair_2;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

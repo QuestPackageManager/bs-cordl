@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PerceivedLoudnessPerLevelModel)
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelSO;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class PerceivedLoudnessPerLevelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

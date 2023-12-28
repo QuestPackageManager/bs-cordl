@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DelegateHelpers)
 namespace System {
-class Action;
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
-class Object;
+class Action;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TDelegate> struct CallbackArray_1;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

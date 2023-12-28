@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedText)
-namespace UnityEngine {
-struct TextAnchor;
-}
 namespace UnityEngine::UI {
 class Text;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 namespace Polyglot {
 struct LanguageDirection;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Polyglot::LocalizedText);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13128)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst: 2606 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15565))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15564)) CS Name: ::Polyglot::LocalizedText*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15565)), TypeDefinitionIndex(TypeDefinitionIndex(13128)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
+// 2606 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15564)) CS Name: ::Polyglot::LocalizedText*
 class CORDL_TYPE LocalizedText : public ::Polyglot::LocalizedTextComponent_1<::UnityEngine::UI::Text*> {
 public:
   // Declarations

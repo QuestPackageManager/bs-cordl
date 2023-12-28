@@ -1,42 +1,42 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonSerializer_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__MissingMemberHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"
+#include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__PreserveReferencesHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__MetadataPropertyHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__MissingMemberHandling_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "Newtonsoft/Json/zzzz__ConstructorHandling_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__PreserveReferencesHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverterCollection_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
-#include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"
-#include "Newtonsoft/Json/zzzz__MetadataPropertyHandling_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalWriter_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
+#include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__ConstructorHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonSerializerProxy.add_Error
 template <>
 
@@ -1042,41 +1042,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& Newtonsoft::Json::Serialization::JsonSerializerProxy::__get__serializerReader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializerReader;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*> const&
 Newtonsoft::Json::Serialization::JsonSerializerProxy::__get__serializerReader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializerReader;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonSerializerProxy::__set__serializerReader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializerReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*& Newtonsoft::Json::Serialization::JsonSerializerProxy::__get__serializerWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializerWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*> const&
 Newtonsoft::Json::Serialization::JsonSerializerProxy::__get__serializerWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializerWriter;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonSerializerProxy::__set__serializerWriter(::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializerWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::JsonSerializer*& Newtonsoft::Json::Serialization::JsonSerializerProxy::__get__serializer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonSerializer*> const& Newtonsoft::Json::Serialization::JsonSerializerProxy::__get__serializer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializer;
 }
 constexpr void Newtonsoft::Json::Serialization::JsonSerializerProxy::__set__serializer(::Newtonsoft::Json::JsonSerializer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {

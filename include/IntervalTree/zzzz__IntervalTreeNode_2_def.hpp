@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(IntervalTreeNode_2)
 namespace IntervalTree {
 template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
 namespace IntervalTree {
 template <typename TKey, typename TValue> class __IntervalTreeNode_2____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;

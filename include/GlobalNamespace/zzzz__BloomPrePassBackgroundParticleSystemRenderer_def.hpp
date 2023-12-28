@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_def.hpp"
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundParticleSystemRenderer)
 namespace UnityEngine {
-class Renderer;
+class ParticleSystem;
 }
 namespace UnityEngine {
-class ParticleSystem;
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

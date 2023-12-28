@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(AchievementIdsModelSO)
-namespace GlobalNamespace {
-class AchievementSO;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class AchievementSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

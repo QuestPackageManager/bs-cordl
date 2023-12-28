@@ -122,29 +122,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*&
 TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_frames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>*> const&
 TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_frames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___frames;
 }
 constexpr void
 TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__set_frames(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___frames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta& TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_meta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___meta;
 }
 constexpr ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta const& TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__get_meta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___meta;
 }
 constexpr void TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::__set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___meta = value;
 }
 inline ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject* TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::New_ctor() {

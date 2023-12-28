@@ -31,27 +31,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__get_useOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useOverride;
 }
 constexpr bool const& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__get_useOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useOverride;
 }
 constexpr void GlobalNamespace::BeatmapLevelColorSchemeSaveData::__set_useOverride(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useOverride = value;
 }
 constexpr ::GlobalNamespace::__PlayerSaveData__ColorScheme*& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__get_colorScheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScheme;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorScheme*> const& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__get_colorScheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScheme;
 }
 constexpr void GlobalNamespace::BeatmapLevelColorSchemeSaveData::__set_colorScheme(::GlobalNamespace::__PlayerSaveData__ColorScheme* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::BeatmapLevelColorSchemeSaveData::IsDefault() {

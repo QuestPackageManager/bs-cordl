@@ -9,17 +9,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectTypeDescriptionProvider)
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::ComponentModel {
-class TypeConverter;
+class __ReflectTypeDescriptionProvider__ReflectedTypeData;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
@@ -27,35 +30,32 @@ class ICustomTypeDescriptor;
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
-namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
 namespace System::ComponentModel {
 class EventDescriptor;
 }
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Attribute;
+}
 namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class IExtenderProvider;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::ComponentModel {
-class IExtenderProvider;
-}
-namespace System::ComponentModel {
-class AttributeCollection;
-}
-namespace System::ComponentModel {
-class __ReflectTypeDescriptionProvider__ReflectedTypeData;
-}
-namespace System::ComponentModel {
 class PropertyDescriptor;
 }
-namespace System::Reflection {
-class MemberInfo;
+namespace System::Collections {
+class ICollection;
 }
 namespace System::ComponentModel {
 class EditorAttribute;

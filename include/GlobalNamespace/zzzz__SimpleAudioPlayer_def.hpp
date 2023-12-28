@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SimpleAudioPlayer)
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

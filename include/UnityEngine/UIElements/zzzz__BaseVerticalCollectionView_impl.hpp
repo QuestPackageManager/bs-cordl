@@ -7,41 +7,41 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CollectionVirtualizationController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__SelectionType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AlternatingRowBackground_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CollectionVirtualizationMethod_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AlternatingRowBackground_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CollectionVirtualizationController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SelectionType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CollectionVirtualizationMethod_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "shiftKey", ty: "bool",
 // modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__BaseVerticalCollectionView____c__DisplayClass164_0::__BaseVerticalCollectionView____c__DisplayClass164_0(
@@ -1435,371 +1435,371 @@ constexpr UnityEngine::UIElements::BaseVerticalCollectionView::operator ::UnityE
   return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_onItemsChosen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onItemsChosen;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get_onItemsChosen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onItemsChosen;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onItemsChosen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_onSelectionChange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onSelectionChange;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get_onSelectionChange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onSelectionChange;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onSelectionChange)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_onSelectedIndicesChange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onSelectedIndicesChange;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get_onSelectedIndicesChange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onSelectedIndicesChange;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_onSelectedIndicesChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onSelectedIndicesChange)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<int32_t, int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_itemIndexChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemIndexChanged;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_itemIndexChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemIndexChanged;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_itemIndexChanged(::System::Action_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___itemIndexChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_itemsSourceChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemsSourceChanged;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_itemsSourceChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemsSourceChanged;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_itemsSourceChanged(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___itemsSourceChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_GetItemId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetItemId;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_GetItemId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetItemId;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_GetItemId(::System::Func_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GetItemId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_MakeItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MakeItem;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_MakeItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MakeItem;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MakeItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_BindItem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindItem;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_BindItem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindItem;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_BindItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get__unbindItem_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unbindItem_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get__unbindItem_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unbindItem_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unbindItem_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get__destroyItem_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destroyItem_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get__destroyItem_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destroyItem_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set__destroyItem_k__BackingField(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____destroyItem_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::SelectionType& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectionType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectionType;
 }
 constexpr ::UnityEngine::UIElements::SelectionType const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectionType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectionType;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_SelectionType(::UnityEngine::UIElements::SelectionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SelectionType = value;
 }
 constexpr bool& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_HorizontalScrollingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalScrollingEnabled;
 }
 constexpr bool const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_HorizontalScrollingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalScrollingEnabled;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_HorizontalScrollingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HorizontalScrollingEnabled = value;
 }
 constexpr ::UnityEngine::UIElements::AlternatingRowBackground& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ShowAlternatingRowBackgrounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowAlternatingRowBackgrounds;
 }
 constexpr ::UnityEngine::UIElements::AlternatingRowBackground const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ShowAlternatingRowBackgrounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowAlternatingRowBackgrounds;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShowAlternatingRowBackgrounds = value;
 }
 constexpr float_t& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_FixedItemHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FixedItemHeight;
 }
 constexpr float_t const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_FixedItemHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FixedItemHeight;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_FixedItemHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FixedItemHeight = value;
 }
 constexpr bool& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ItemHeightIsInline() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemHeightIsInline;
 }
 constexpr bool const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ItemHeightIsInline() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemHeightIsInline;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ItemHeightIsInline(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ItemHeightIsInline = value;
 }
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_VirtualizationMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VirtualizationMethod;
 }
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_VirtualizationMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VirtualizationMethod;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_VirtualizationMethod(::UnityEngine::UIElements::CollectionVirtualizationMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VirtualizationMethod = value;
 }
 constexpr ::UnityEngine::UIElements::ScrollView*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ScrollView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollView;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ScrollView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollView;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::CollectionViewController*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ViewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ViewController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::CollectionViewController*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ViewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ViewController;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ViewController(::UnityEngine::UIElements::CollectionViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationController*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_VirtualizationController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VirtualizationController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::CollectionVirtualizationController*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_VirtualizationController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VirtualizationController;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_VirtualizationController(::UnityEngine::UIElements::CollectionVirtualizationController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VirtualizationController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_NavigationManipulator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NavigationManipulator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyboardNavigationManipulator*> const&
 UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_NavigationManipulator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NavigationManipulator;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NavigationManipulator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ScrollOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollOffset;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ScrollOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollOffset;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ScrollOffset(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrollOffset = value;
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectedIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectedIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedIds;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_SelectedIds(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SelectedIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectedIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedIndices;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectedIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedIndices;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_SelectedIndices(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SelectedIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Object*>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectedItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedItems;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_SelectedItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SelectedItems;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_SelectedItems(::System::Collections::Generic::List_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SelectedItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_LastHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastHeight;
 }
 constexpr float_t const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_LastHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastHeight;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_LastHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastHeight = value;
 }
 constexpr bool& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_IsRangeSelectionDirectionUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsRangeSelectionDirectionUp;
 }
 constexpr bool const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_IsRangeSelectionDirectionUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsRangeSelectionDirectionUp;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_IsRangeSelectionDirectionUp(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsRangeSelectionDirectionUp = value;
 }
 constexpr ::UnityEngine::UIElements::ListViewDragger*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_Dragger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dragger;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListViewDragger*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_Dragger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dragger;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_Dragger(::UnityEngine::UIElements::ListViewDragger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Dragger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<int32_t, int32_t>*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ItemIndexChangedCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemIndexChangedCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ItemIndexChangedCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemIndexChangedCallback;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ItemIndexChangedCallback(::System::Action_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ItemIndexChangedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ItemsSourceChangedCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemsSourceChangedCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_ItemsSourceChangedCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemsSourceChangedCallback;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_ItemsSourceChangedCallback(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ItemsSourceChangedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_TouchDownPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchDownPosition;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::BaseVerticalCollectionView::__get_m_TouchDownPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TouchDownPosition;
 }
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__set_m_TouchDownPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TouchDownPosition = value;
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::setStaticF_k_EmptyItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value) {

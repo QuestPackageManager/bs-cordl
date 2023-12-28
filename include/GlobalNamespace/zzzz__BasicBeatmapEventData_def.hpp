@@ -11,13 +11,13 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

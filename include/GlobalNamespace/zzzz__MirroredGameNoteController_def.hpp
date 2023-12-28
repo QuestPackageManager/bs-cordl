@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MirroredGameNoteController)
 namespace GlobalNamespace {
-class IGameNoteMirrorable;
-}
-namespace GlobalNamespace {
-class INoteMovementProvider;
+class NoteMovement;
 }
 namespace GlobalNamespace {
 struct NoteVisualModifierType;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class IGameNoteMirrorable;
+}
+namespace GlobalNamespace {
+class __MirroredGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class NoteMovement;
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 template <typename T> class ICubeNoteControllerInitializable_1;
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
 }
 namespace GlobalNamespace {
-class __MirroredGameNoteController__Pool;
+class INoteMovementProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirroredGameNoteController__Pool);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4756)), TypeDefinitionIndex(TypeDefinitionIndex(4746)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4756), inst: 4619
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4755)) CS Name: ::MirroredGameNoteController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4756)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4756), inst: 4619 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4746))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4755)) CS Name: ::MirroredGameNoteController*
 class CORDL_TYPE MirroredGameNoteController : public ::GlobalNamespace::MirroredNoteController_1<::GlobalNamespace::IGameNoteMirrorable*> {
 public:
   // Declarations

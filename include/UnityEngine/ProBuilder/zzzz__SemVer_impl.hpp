@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SemVer_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::SemVer.get_major
 template <>
 
@@ -421,87 +421,87 @@ constexpr UnityEngine::ProBuilder::SemVer::operator ::System::IComparable*() noe
   return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::ProBuilder::SemVer::__get_m_Major() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Major;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::SemVer::__get_m_Major() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Major;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Major(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Major = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::SemVer::__get_m_Minor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Minor;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::SemVer::__get_m_Minor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Minor;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Minor(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Minor = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::SemVer::__get_m_Patch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Patch;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::SemVer::__get_m_Patch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Patch;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Patch(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Patch = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::SemVer::__get_m_Build() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Build;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::SemVer::__get_m_Build() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Build;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Build(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Build = value;
 }
 constexpr ::StringW& UnityEngine::ProBuilder::SemVer::__get_m_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr ::StringW const& UnityEngine::ProBuilder::SemVer::__get_m_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Type(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ProBuilder::SemVer::__get_m_Metadata() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Metadata;
 }
 constexpr ::StringW const& UnityEngine::ProBuilder::SemVer::__get_m_Metadata() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Metadata;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Metadata(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Metadata)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ProBuilder::SemVer::__get_m_Date() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Date;
 }
 constexpr ::StringW const& UnityEngine::ProBuilder::SemVer::__get_m_Date() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Date;
 }
 constexpr void UnityEngine::ProBuilder::SemVer::__set_m_Date(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Date)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t UnityEngine::ProBuilder::SemVer::get_major() {

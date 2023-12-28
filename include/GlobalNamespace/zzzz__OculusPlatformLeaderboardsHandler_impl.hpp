@@ -2,16 +2,16 @@
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "Oculus/Platform/zzzz__Request_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "Oculus/Platform/zzzz__Request_def.hpp"
+#include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
+#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c._ctor
@@ -110,28 +110,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformLeaderboardsHandler*> const&
 GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Request*& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__get_oculusRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oculusRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Request*> const& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__get_oculusRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oculusRequest;
 }
 constexpr void GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__set_oculusRequest(::Oculus::Platform::Request* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___oculusRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0* GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::New_ctor() {
@@ -182,41 +182,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformLeaderboardsHandler*> const&
 GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get_completionHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*> const&
 GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get_completionHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr void GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__set_completionHandler(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___completionHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get_referencePlayerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___referencePlayerId;
 }
 constexpr ::StringW const& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get_referencePlayerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___referencePlayerId;
 }
 constexpr void GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__set_referencePlayerId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___referencePlayerId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0* GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::New_ctor() {
@@ -267,30 +267,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformLeaderboardsHandler*> const&
 GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler*& GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__get_completionHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler*> const&
 GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__get_completionHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr void
 GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__set_completionHandler(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___completionHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0* GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::New_ctor() {
@@ -391,39 +391,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LeaderboardIdsModelSO*& GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__leaderboardIdsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIdsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardIdsModelSO*> const& GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__leaderboardIdsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIdsModel;
 }
 constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler::__set__leaderboardIdsModel(::GlobalNamespace::LeaderboardIdsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<uint64_t>*& GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__oculusRequestIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusRequestIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint64_t>*> const& GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__oculusRequestIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusRequestIds;
 }
 constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler::__set__oculusRequestIds(::System::Collections::Generic::HashSet_1<uint64_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusRequestIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiersModelSO*& GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__gameplayModifiersModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__gameplayModifiersModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
 }
 constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler::__set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiersModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler* GlobalNamespace::OculusPlatformLeaderboardsHandler::New_ctor() {

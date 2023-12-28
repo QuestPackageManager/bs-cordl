@@ -46,15 +46,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Tsp::TspValidationException::__get_failureCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failureCode;
 }
 constexpr int32_t const& Org::BouncyCastle::Tsp::TspValidationException::__get_failureCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___failureCode;
 }
 constexpr void Org::BouncyCastle::Tsp::TspValidationException::__set_failureCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___failureCode = value;
 }
 inline ::Org::BouncyCastle::Tsp::TspValidationException* Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message) {

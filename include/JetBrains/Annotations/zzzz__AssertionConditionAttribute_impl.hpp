@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::JetBrains::Annotations::AssertionConditionType& JetBrains::Annotations::AssertionConditionAttribute::__get__ConditionType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConditionType_k__BackingField;
 }
 constexpr ::JetBrains::Annotations::AssertionConditionType const& JetBrains::Annotations::AssertionConditionAttribute::__get__ConditionType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConditionType_k__BackingField;
 }
 constexpr void JetBrains::Annotations::AssertionConditionAttribute::__set__ConditionType_k__BackingField(::JetBrains::Annotations::AssertionConditionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ConditionType_k__BackingField = value;
 }
 inline ::JetBrains::Annotations::AssertionConditionAttribute* JetBrains::Annotations::AssertionConditionAttribute::New_ctor(::JetBrains::Annotations::AssertionConditionType conditionType) {

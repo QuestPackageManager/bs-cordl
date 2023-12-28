@@ -9,8 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRAnchor)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceQueryCompleteData;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+struct __OVRSpace__StorageLocation;
 }
 namespace UnityEngine {
 struct Pose;
@@ -21,35 +33,23 @@ class Transform;
 namespace UnityEngine {
 class Camera;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
 }
-namespace System {
-struct Guid;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceQueryInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
-}
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
+struct Guid;
 }
 // Forward declare root types
 namespace GlobalNamespace {

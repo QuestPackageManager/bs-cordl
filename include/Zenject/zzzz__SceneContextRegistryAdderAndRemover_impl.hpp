@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SceneContextRegistryAdderAndRemover_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__SceneContextRegistry_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__SceneContextRegistry_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover._ctor
 template <>
 
@@ -88,27 +88,27 @@ constexpr Zenject::SceneContextRegistryAdderAndRemover::operator ::System::IDisp
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::SceneContextRegistry*& Zenject::SceneContextRegistryAdderAndRemover::__get__registry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registry;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::SceneContextRegistry*> const& Zenject::SceneContextRegistryAdderAndRemover::__get__registry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registry;
 }
 constexpr void Zenject::SceneContextRegistryAdderAndRemover::__set__registry(::Zenject::SceneContextRegistry* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____registry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::SceneContext*& Zenject::SceneContextRegistryAdderAndRemover::__get__sceneContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::SceneContext*> const& Zenject::SceneContextRegistryAdderAndRemover::__get__sceneContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneContext;
 }
 constexpr void Zenject::SceneContextRegistryAdderAndRemover::__set__sceneContext(::Zenject::SceneContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SceneContextRegistryAdderAndRemover* Zenject::SceneContextRegistryAdderAndRemover::New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry) {

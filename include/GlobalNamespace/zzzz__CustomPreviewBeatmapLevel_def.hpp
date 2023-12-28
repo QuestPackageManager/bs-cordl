@@ -15,16 +15,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomPreviewBeatmapLevel)
 namespace GlobalNamespace {
-class IFilePathSongPreviewAudioClipProvider;
-}
-namespace GlobalNamespace {
 class StandardLevelInfoSaveData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct __CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69;
@@ -32,35 +23,44 @@ struct __CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69;
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class ISpriteAsyncLoader;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+struct PlayerSensitivityFlag;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class IFilePathSongPreviewAudioClipProvider;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,9 +76,9 @@ MARK_VAL_T(::GlobalNamespace::__CustomPreviewBeatmapLevel___GetCoverImageAsync_d
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4384)) CS Name: ::CustomPreviewBeatmapLevel::<GetCoverImageAsync>d__69
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4384)) CS Name: ::CustomPreviewBeatmapLevel::<GetCoverImageAsync>d__69
 struct CORDL_TYPE __CustomPreviewBeatmapLevel___GetCoverImageAsync_d__69 {
 public:
   // Declarations

@@ -10,20 +10,20 @@ CORDL_MODULE_EXPORT(ProjectKernel)
 namespace Zenject {
 class ZenjectSettings;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class SceneContextRegistry;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class __ProjectKernel____c__DisplayClass4_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
@@ -31,8 +31,8 @@ struct Scene;
 namespace Zenject {
 class SceneContext;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

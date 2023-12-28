@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(Projection)
 namespace UnityEngine::ProBuilder {
 class __Projection____c;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-struct SortMethod;
-}
-namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
-}
-namespace UnityEngine {
-struct Plane;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::ProBuilder {
+struct AutoUnwrapSettings;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+struct SortMethod;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -34,20 +34,20 @@ template <typename T> class IList_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::ProBuilder {
 struct ProjectionAxis;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+struct Plane;
 }
 namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2> struct SimpleTuple_2;
 }
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

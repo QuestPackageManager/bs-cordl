@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/X509/Extension/zzzz__X509ExtensionUtilities_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities.FromExtensionValue
 template <>
 

@@ -11,19 +11,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BurstSliderGameNoteController)
 namespace GlobalNamespace {
+class BoxCuttableBySaber;
+}
+namespace GlobalNamespace {
 class __BurstSliderGameNoteController__Pool;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+struct __NoteData__GameplayType;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+template <typename T> class ICubeNoteControllerInitializable_1;
 }
 namespace GlobalNamespace {
 class INoteMovementProvider;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-template <typename T> class ICubeNoteControllerInitializable_1;
+struct NoteVisualModifierType;
 }
 namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
@@ -32,34 +41,25 @@ namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace GlobalNamespace {
-class IGameNoteMirrorable;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+class AudioTimeSyncController;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class BoxCuttableBySaber;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct NoteVisualModifierType;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
+class IGameNoteMirrorable;
+}
+namespace GlobalNamespace {
 class INoteMirrorable;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BurstSliderGameNoteController__Pool);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(4761)), TypeDefinitionIndex(TypeDefinitionIndex(4749)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4738)) CS Name: ::BurstSliderGameNoteController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(14757)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4761))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4738)) CS Name: ::BurstSliderGameNoteController*
 class CORDL_TYPE BurstSliderGameNoteController : public ::GlobalNamespace::NoteController {
 public:
   // Declarations
@@ -304,8 +304,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BurstSliderGame
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4738)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 288 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4737)) CS Name: ::BurstSliderGameNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 288 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4738))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4737)) CS Name: ::BurstSliderGameNoteController::Pool*
 class CORDL_TYPE __BurstSliderGameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BurstSliderGameNoteController*> {
 public:
   // Declarations

@@ -5,10 +5,10 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier::__IKSolverLimb__BendModifier(int32_t value__) noexcept {
   this->value__ = value__;
@@ -195,201 +195,201 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AvatarIKGoal& RootMotion::FinalIK::IKSolverLimb::__get_goal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goal;
 }
 constexpr ::UnityEngine::AvatarIKGoal const& RootMotion::FinalIK::IKSolverLimb::__get_goal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goal;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_goal(::UnityEngine::AvatarIKGoal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___goal = value;
 }
 constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier& RootMotion::FinalIK::IKSolverLimb::__get_bendModifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendModifier;
 }
 constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const& RootMotion::FinalIK::IKSolverLimb::__get_bendModifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendModifier;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_bendModifier(::RootMotion::FinalIK::__IKSolverLimb__BendModifier value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendModifier = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKSolverLimb::__get_maintainRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKSolverLimb::__get_maintainRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationWeight;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_maintainRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainRotationWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKSolverLimb::__get_bendModifierWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendModifierWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKSolverLimb::__get_bendModifierWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendModifierWeight;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_bendModifierWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendModifierWeight = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKSolverLimb::__get_bendGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKSolverLimb::__get_bendGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_bendGoal(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bendGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::IKSolverLimb::__get_maintainBendFor1Frame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainBendFor1Frame;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverLimb::__get_maintainBendFor1Frame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainBendFor1Frame;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_maintainBendFor1Frame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainBendFor1Frame = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverLimb::__get_maintainRotationFor1Frame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationFor1Frame;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverLimb::__get_maintainRotationFor1Frame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotationFor1Frame;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_maintainRotationFor1Frame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainRotationFor1Frame = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKSolverLimb::__get_defaultRootRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultRootRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKSolverLimb::__get_defaultRootRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultRootRotation;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_defaultRootRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultRootRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKSolverLimb::__get_parentDefaultRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentDefaultRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKSolverLimb::__get_parentDefaultRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentDefaultRotation;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_parentDefaultRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parentDefaultRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKSolverLimb::__get_bone3RotationBeforeSolve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3RotationBeforeSolve;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKSolverLimb::__get_bone3RotationBeforeSolve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3RotationBeforeSolve;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_bone3RotationBeforeSolve(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bone3RotationBeforeSolve = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKSolverLimb::__get_maintainRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKSolverLimb::__get_maintainRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainRotation;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_maintainRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKSolverLimb::__get_bone3DefaultRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3DefaultRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKSolverLimb::__get_bone3DefaultRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3DefaultRotation;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_bone3DefaultRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bone3DefaultRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverLimb::__get__bendNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bendNormal;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverLimb::__get__bendNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bendNormal;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set__bendNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bendNormal = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverLimb::__get_animationNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationNormal;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverLimb::__get_animationNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___animationNormal;
 }
 constexpr void RootMotion::FinalIK::IKSolverLimb::__set_animationNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___animationNormal = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>&
 RootMotion::FinalIK::IKSolverLimb::__get_axisDirectionsLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axisDirectionsLeft;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> const&
 RootMotion::FinalIK::IKSolverLimb::__get_axisDirectionsLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axisDirectionsLeft;
 }
 constexpr void
 RootMotion::FinalIK::IKSolverLimb::__set_axisDirectionsLeft(::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___axisDirectionsLeft)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>&
 RootMotion::FinalIK::IKSolverLimb::__get_axisDirectionsRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axisDirectionsRight;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> const&
 RootMotion::FinalIK::IKSolverLimb::__get_axisDirectionsRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axisDirectionsRight;
 }
 constexpr void
 RootMotion::FinalIK::IKSolverLimb::__set_axisDirectionsRight(::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___axisDirectionsRight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::IKSolverLimb::MaintainRotation() {

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Version_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__ISpanFormattable_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::System::Version._ctor
 template <>
 
@@ -487,51 +487,51 @@ constexpr System::Version::operator ::System::ISpanFormattable*() noexcept {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Version::__get__Major() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Major;
 }
 constexpr int32_t const& System::Version::__get__Major() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Major;
 }
 constexpr void System::Version::__set__Major(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Major = value;
 }
 constexpr int32_t& System::Version::__get__Minor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Minor;
 }
 constexpr int32_t const& System::Version::__get__Minor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Minor;
 }
 constexpr void System::Version::__set__Minor(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Minor = value;
 }
 constexpr int32_t& System::Version::__get__Build() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Build;
 }
 constexpr int32_t const& System::Version::__get__Build() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Build;
 }
 constexpr void System::Version::__set__Build(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Build = value;
 }
 constexpr int32_t& System::Version::__get__Revision() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Revision;
 }
 constexpr int32_t const& System::Version::__get__Revision() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Revision;
 }
 constexpr void System::Version::__set__Revision(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Revision = value;
 }
 inline ::System::Version* System::Version::New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision) {

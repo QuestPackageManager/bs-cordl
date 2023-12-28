@@ -6,44 +6,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BlockingCollection_1)
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System {
-class Object;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Threading {
-class CancellationTokenSource;
+class SemaphoreSlim;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Concurrent {

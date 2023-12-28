@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Challenges)
-namespace Oculus::Platform::Models {
-class Challenge;
+namespace Oculus::Platform {
+struct LeaderboardStartAt;
 }
 namespace Oculus::Platform {
-class ChallengeOptions;
+class Request;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
@@ -20,16 +20,16 @@ namespace Oculus::Platform::Models {
 class ChallengeEntryList;
 }
 namespace Oculus::Platform {
-class Request;
+struct LeaderboardFilterType;
 }
 namespace Oculus::Platform {
-struct LeaderboardStartAt;
+class ChallengeOptions;
+}
+namespace Oculus::Platform::Models {
+class Challenge;
 }
 namespace Oculus::Platform::Models {
 class ChallengeList;
-}
-namespace Oculus::Platform {
-struct LeaderboardFilterType;
 }
 // Forward declare root types
 namespace Oculus::Platform {

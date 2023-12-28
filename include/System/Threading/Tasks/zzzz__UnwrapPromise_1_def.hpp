@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnwrapPromise_1)
 namespace System::Threading::Tasks {
-template <typename TResult> class __UnwrapPromise_1____c;
+class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
-class ITaskCompletionAction;
+template <typename TResult> class __UnwrapPromise_1____c;
 }
 namespace System::Threading::Tasks {
 class Task;

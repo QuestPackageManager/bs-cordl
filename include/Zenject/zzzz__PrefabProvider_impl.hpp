@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabProvider_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::PrefabProvider._ctor
 template <>
 
@@ -35,15 +35,15 @@ constexpr Zenject::PrefabProvider::operator ::Zenject::IPrefabProvider*() noexce
   return static_cast<::Zenject::IPrefabProvider*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Object*& Zenject::PrefabProvider::__get__prefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& Zenject::PrefabProvider::__get__prefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefab;
 }
 constexpr void Zenject::PrefabProvider::__set__prefab(::UnityEngine::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::PrefabProvider* Zenject::PrefabProvider::New_ctor(::UnityEngine::Object* prefab) {

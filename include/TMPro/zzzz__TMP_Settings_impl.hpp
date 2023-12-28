@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__TMP_Settings_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
-#include "TMPro/zzzz__TMP_Settings_def.hpp"
 #include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__TMP_Settings_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::TMPro::__TMP_Settings__LineBreakingTable._ctor
 template <>
 
@@ -25,27 +25,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*& TMPro::__TMP_Settings__LineBreakingTable::__get_leadingCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leadingCharacters;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*> const& TMPro::__TMP_Settings__LineBreakingTable::__get_leadingCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leadingCharacters;
 }
 constexpr void TMPro::__TMP_Settings__LineBreakingTable::__set_leadingCharacters(::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leadingCharacters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*& TMPro::__TMP_Settings__LineBreakingTable::__get_followingCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___followingCharacters;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*> const& TMPro::__TMP_Settings__LineBreakingTable::__get_followingCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___followingCharacters;
 }
 constexpr void TMPro::__TMP_Settings__LineBreakingTable::__set_followingCharacters(::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___followingCharacters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TMP_Settings__LineBreakingTable* TMPro::__TMP_Settings__LineBreakingTable::New_ctor() {
@@ -665,375 +665,375 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& TMPro::TMP_Settings::__get_m_enableWordWrapping() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableWordWrapping;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_enableWordWrapping() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableWordWrapping;
 }
 constexpr void TMPro::TMP_Settings::__set_m_enableWordWrapping(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableWordWrapping = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_enableKerning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableKerning;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_enableKerning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableKerning;
 }
 constexpr void TMPro::TMP_Settings::__set_m_enableKerning(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableKerning = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_enableExtraPadding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableExtraPadding;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_enableExtraPadding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableExtraPadding;
 }
 constexpr void TMPro::TMP_Settings::__set_m_enableExtraPadding(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableExtraPadding = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_enableTintAllSprites() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableTintAllSprites;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_enableTintAllSprites() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableTintAllSprites;
 }
 constexpr void TMPro::TMP_Settings::__set_m_enableTintAllSprites(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableTintAllSprites = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_enableParseEscapeCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableParseEscapeCharacters;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_enableParseEscapeCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableParseEscapeCharacters;
 }
 constexpr void TMPro::TMP_Settings::__set_m_enableParseEscapeCharacters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableParseEscapeCharacters = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_EnableRaycastTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EnableRaycastTarget;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_EnableRaycastTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EnableRaycastTarget;
 }
 constexpr void TMPro::TMP_Settings::__set_m_EnableRaycastTarget(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EnableRaycastTarget = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_GetFontFeaturesAtRuntime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetFontFeaturesAtRuntime;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_GetFontFeaturesAtRuntime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GetFontFeaturesAtRuntime;
 }
 constexpr void TMPro::TMP_Settings::__set_m_GetFontFeaturesAtRuntime(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_GetFontFeaturesAtRuntime = value;
 }
 constexpr int32_t& TMPro::TMP_Settings::__get_m_missingGlyphCharacter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingGlyphCharacter;
 }
 constexpr int32_t const& TMPro::TMP_Settings::__get_m_missingGlyphCharacter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingGlyphCharacter;
 }
 constexpr void TMPro::TMP_Settings::__set_m_missingGlyphCharacter(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_missingGlyphCharacter = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_warningsDisabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_warningsDisabled;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_warningsDisabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_warningsDisabled;
 }
 constexpr void TMPro::TMP_Settings::__set_m_warningsDisabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_warningsDisabled = value;
 }
 constexpr ::TMPro::TMP_FontAsset*& TMPro::TMP_Settings::__get_m_defaultFontAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultFontAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_FontAsset*> const& TMPro::TMP_Settings::__get_m_defaultFontAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultFontAsset;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultFontAsset(::TMPro::TMP_FontAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultFontAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& TMPro::TMP_Settings::__get_m_defaultFontAssetPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultFontAssetPath;
 }
 constexpr ::StringW const& TMPro::TMP_Settings::__get_m_defaultFontAssetPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultFontAssetPath;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultFontAssetPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultFontAssetPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& TMPro::TMP_Settings::__get_m_defaultFontSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultFontSize;
 }
 constexpr float_t const& TMPro::TMP_Settings::__get_m_defaultFontSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultFontSize;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultFontSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_defaultFontSize = value;
 }
 constexpr float_t& TMPro::TMP_Settings::__get_m_defaultAutoSizeMinRatio() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultAutoSizeMinRatio;
 }
 constexpr float_t const& TMPro::TMP_Settings::__get_m_defaultAutoSizeMinRatio() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultAutoSizeMinRatio;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultAutoSizeMinRatio(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_defaultAutoSizeMinRatio = value;
 }
 constexpr float_t& TMPro::TMP_Settings::__get_m_defaultAutoSizeMaxRatio() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultAutoSizeMaxRatio;
 }
 constexpr float_t const& TMPro::TMP_Settings::__get_m_defaultAutoSizeMaxRatio() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultAutoSizeMaxRatio;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultAutoSizeMaxRatio(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_defaultAutoSizeMaxRatio = value;
 }
 constexpr ::UnityEngine::Vector2& TMPro::TMP_Settings::__get_m_defaultTextMeshProTextContainerSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultTextMeshProTextContainerSize;
 }
 constexpr ::UnityEngine::Vector2 const& TMPro::TMP_Settings::__get_m_defaultTextMeshProTextContainerSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultTextMeshProTextContainerSize;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultTextMeshProTextContainerSize(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_defaultTextMeshProTextContainerSize = value;
 }
 constexpr ::UnityEngine::Vector2& TMPro::TMP_Settings::__get_m_defaultTextMeshProUITextContainerSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultTextMeshProUITextContainerSize;
 }
 constexpr ::UnityEngine::Vector2 const& TMPro::TMP_Settings::__get_m_defaultTextMeshProUITextContainerSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultTextMeshProUITextContainerSize;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultTextMeshProUITextContainerSize(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_defaultTextMeshProUITextContainerSize = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_autoSizeTextContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_autoSizeTextContainer;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_autoSizeTextContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_autoSizeTextContainer;
 }
 constexpr void TMPro::TMP_Settings::__set_m_autoSizeTextContainer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_autoSizeTextContainer = value;
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_IsTextObjectScaleStatic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsTextObjectScaleStatic;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_IsTextObjectScaleStatic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsTextObjectScaleStatic;
 }
 constexpr void TMPro::TMP_Settings::__set_m_IsTextObjectScaleStatic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsTextObjectScaleStatic = value;
 }
 constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*& TMPro::TMP_Settings::__get_m_fallbackFontAssets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fallbackFontAssets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*> const& TMPro::TMP_Settings::__get_m_fallbackFontAssets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fallbackFontAssets;
 }
 constexpr void TMPro::TMP_Settings::__set_m_fallbackFontAssets(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fallbackFontAssets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_matchMaterialPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_matchMaterialPreset;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_matchMaterialPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_matchMaterialPreset;
 }
 constexpr void TMPro::TMP_Settings::__set_m_matchMaterialPreset(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_matchMaterialPreset = value;
 }
 constexpr ::TMPro::TMP_SpriteAsset*& TMPro::TMP_Settings::__get_m_defaultSpriteAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultSpriteAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAsset*> const& TMPro::TMP_Settings::__get_m_defaultSpriteAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultSpriteAsset;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultSpriteAsset(::TMPro::TMP_SpriteAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultSpriteAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& TMPro::TMP_Settings::__get_m_defaultSpriteAssetPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultSpriteAssetPath;
 }
 constexpr ::StringW const& TMPro::TMP_Settings::__get_m_defaultSpriteAssetPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultSpriteAssetPath;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultSpriteAssetPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultSpriteAssetPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_enableEmojiSupport() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableEmojiSupport;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_enableEmojiSupport() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableEmojiSupport;
 }
 constexpr void TMPro::TMP_Settings::__set_m_enableEmojiSupport(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableEmojiSupport = value;
 }
 constexpr uint32_t& TMPro::TMP_Settings::__get_m_MissingCharacterSpriteUnicode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MissingCharacterSpriteUnicode;
 }
 constexpr uint32_t const& TMPro::TMP_Settings::__get_m_MissingCharacterSpriteUnicode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MissingCharacterSpriteUnicode;
 }
 constexpr void TMPro::TMP_Settings::__set_m_MissingCharacterSpriteUnicode(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MissingCharacterSpriteUnicode = value;
 }
 constexpr ::StringW& TMPro::TMP_Settings::__get_m_defaultColorGradientPresetsPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultColorGradientPresetsPath;
 }
 constexpr ::StringW const& TMPro::TMP_Settings::__get_m_defaultColorGradientPresetsPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultColorGradientPresetsPath;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultColorGradientPresetsPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultColorGradientPresetsPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TMP_StyleSheet*& TMPro::TMP_Settings::__get_m_defaultStyleSheet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultStyleSheet;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_StyleSheet*> const& TMPro::TMP_Settings::__get_m_defaultStyleSheet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultStyleSheet;
 }
 constexpr void TMPro::TMP_Settings::__set_m_defaultStyleSheet(::TMPro::TMP_StyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultStyleSheet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& TMPro::TMP_Settings::__get_m_StyleSheetsResourcePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleSheetsResourcePath;
 }
 constexpr ::StringW const& TMPro::TMP_Settings::__get_m_StyleSheetsResourcePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleSheetsResourcePath;
 }
 constexpr void TMPro::TMP_Settings::__set_m_StyleSheetsResourcePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StyleSheetsResourcePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::TextAsset*& TMPro::TMP_Settings::__get_m_leadingCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_leadingCharacters;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& TMPro::TMP_Settings::__get_m_leadingCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_leadingCharacters;
 }
 constexpr void TMPro::TMP_Settings::__set_m_leadingCharacters(::UnityEngine::TextAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_leadingCharacters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::TextAsset*& TMPro::TMP_Settings::__get_m_followingCharacters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_followingCharacters;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& TMPro::TMP_Settings::__get_m_followingCharacters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_followingCharacters;
 }
 constexpr void TMPro::TMP_Settings::__set_m_followingCharacters(::UnityEngine::TextAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_followingCharacters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::__TMP_Settings__LineBreakingTable*& TMPro::TMP_Settings::__get_m_linebreakingRules() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_linebreakingRules;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Settings__LineBreakingTable*> const& TMPro::TMP_Settings::__get_m_linebreakingRules() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_linebreakingRules;
 }
 constexpr void TMPro::TMP_Settings::__set_m_linebreakingRules(::TMPro::__TMP_Settings__LineBreakingTable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_linebreakingRules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& TMPro::TMP_Settings::__get_m_UseModernHangulLineBreakingRules() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseModernHangulLineBreakingRules;
 }
 constexpr bool const& TMPro::TMP_Settings::__get_m_UseModernHangulLineBreakingRules() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseModernHangulLineBreakingRules;
 }
 constexpr void TMPro::TMP_Settings::__set_m_UseModernHangulLineBreakingRules(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseModernHangulLineBreakingRules = value;
 }
 inline void TMPro::TMP_Settings::setStaticF_s_Instance(::TMPro::TMP_Settings* value) {

@@ -2,10 +2,10 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Threading::WaitHandle._ctor
 template <>
 
@@ -349,39 +349,39 @@ constexpr System::Threading::WaitHandle::operator ::System::IDisposable*() noexc
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& System::Threading::WaitHandle::__get_waitHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___waitHandle;
 }
 constexpr void* const& System::Threading::WaitHandle::__get_waitHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___waitHandle;
 }
 constexpr void System::Threading::WaitHandle::__set_waitHandle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___waitHandle = value;
 }
 constexpr ::Microsoft::Win32::SafeHandles::SafeWaitHandle*& System::Threading::WaitHandle::__get_safeWaitHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___safeWaitHandle;
 }
 constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeWaitHandle*> const& System::Threading::WaitHandle::__get_safeWaitHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___safeWaitHandle;
 }
 constexpr void System::Threading::WaitHandle::__set_safeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___safeWaitHandle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Threading::WaitHandle::__get_hasThreadAffinity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasThreadAffinity;
 }
 constexpr bool const& System::Threading::WaitHandle::__get_hasThreadAffinity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasThreadAffinity;
 }
 constexpr void System::Threading::WaitHandle::__set_hasThreadAffinity(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasThreadAffinity = value;
 }
 inline void System::Threading::WaitHandle::setStaticF_InvalidHandle(void* value) {

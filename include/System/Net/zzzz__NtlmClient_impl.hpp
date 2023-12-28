@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NtlmClient_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
-#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: ::System::Net::NtlmClient._ctor
 template <>
 
@@ -69,15 +69,15 @@ constexpr System::Net::NtlmClient::operator ::System::Net::IAuthenticationModule
   return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::IAuthenticationModule*& System::Net::NtlmClient::__get_authObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___authObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IAuthenticationModule*> const& System::Net::NtlmClient::__get_authObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___authObject;
 }
 constexpr void System::Net::NtlmClient::__set_authObject(::System::Net::IAuthenticationModule* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___authObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::NtlmClient* System::Net::NtlmClient::New_ctor() {

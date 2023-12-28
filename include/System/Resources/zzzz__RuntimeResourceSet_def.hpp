@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeResourceSet)
 namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Resources {
+struct ResourceLocator;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;
 }
 namespace System::Resources {
 class ResourceReader;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Resources {
-struct ResourceLocator;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Resources {

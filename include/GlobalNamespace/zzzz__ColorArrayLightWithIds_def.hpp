@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorArrayLightWithIds)
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
 namespace GlobalNamespace {
 class MaterialController;
 }
 namespace GlobalNamespace {
 class __ColorArrayLightWithIds__ColorArrayLightWithId;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace GlobalNamespace {
 class __LightWithIds__LightWithId;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;

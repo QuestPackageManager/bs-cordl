@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(CertificateConfirmationContentBuilder)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Cmp {
 class CertificateConfirmationContent;
+}
+namespace Org::BouncyCastle::Cms {
+class DefaultDigestAlgorithmIdentifierFinder;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::Cms {
-class DefaultDigestAlgorithmIdentifierFinder;
-}
-namespace Org::BouncyCastle::Cms {
 class DefaultSignatureAlgorithmIdentifierFinder;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

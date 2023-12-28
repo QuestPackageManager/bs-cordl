@@ -62,39 +62,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::DateTime& System::Globalization::DaylightTime::__get__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr ::System::DateTime const& System::Globalization::DaylightTime::__get__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____start;
 }
 constexpr void System::Globalization::DaylightTime::__set__start(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____start = value;
 }
 constexpr ::System::DateTime& System::Globalization::DaylightTime::__get__end() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____end;
 }
 constexpr ::System::DateTime const& System::Globalization::DaylightTime::__get__end() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____end;
 }
 constexpr void System::Globalization::DaylightTime::__set__end(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____end = value;
 }
 constexpr ::System::TimeSpan& System::Globalization::DaylightTime::__get__delta() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta;
 }
 constexpr ::System::TimeSpan const& System::Globalization::DaylightTime::__get__delta() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta;
 }
 constexpr void System::Globalization::DaylightTime::__set__delta(::System::TimeSpan value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____delta = value;
 }
 inline ::System::Globalization::DaylightTime* System::Globalization::DaylightTime::New_ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta) {

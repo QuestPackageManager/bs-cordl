@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__OneModifierComposite_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Composites::OneModifierComposite.get_valueType
 template <>
 
@@ -150,75 +150,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_modifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_modifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier;
 }
 constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_modifier(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifier = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_binding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binding;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_binding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binding;
 }
 constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_binding(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___binding = value;
 }
 constexpr bool& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_overrideModifiersNeedToBePressedFirst() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideModifiersNeedToBePressedFirst;
 }
 constexpr bool const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_overrideModifiersNeedToBePressedFirst() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideModifiersNeedToBePressedFirst;
 }
 constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_overrideModifiersNeedToBePressedFirst(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideModifiersNeedToBePressedFirst = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueSizeInBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueSizeInBytes;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueSizeInBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueSizeInBytes;
 }
 constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_m_ValueSizeInBytes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ValueSizeInBytes = value;
 }
 constexpr ::System::Type*& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueType;
 }
 constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_m_ValueType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ValueType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_BindingIsButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindingIsButton;
 }
 constexpr bool const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_BindingIsButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindingIsButton;
 }
 constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_m_BindingIsButton(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BindingIsButton = value;
 }
 inline ::System::Type* UnityEngine::InputSystem::Composites::OneModifierComposite::get_valueType() {

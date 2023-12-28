@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(CertReqMessages)
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertReqMsg;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

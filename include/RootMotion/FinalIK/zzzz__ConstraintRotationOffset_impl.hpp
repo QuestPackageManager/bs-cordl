@@ -63,75 +63,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::ConstraintRotationOffset::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::ConstraintRotationOffset::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotationOffset::__set_offset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::ConstraintRotationOffset::__get_defaultRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::ConstraintRotationOffset::__get_defaultRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultRotation;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotationOffset::__set_defaultRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::ConstraintRotationOffset::__get_defaultLocalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::ConstraintRotationOffset::__get_defaultLocalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotationOffset::__set_defaultLocalRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::ConstraintRotationOffset::__get_lastLocalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastLocalRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::ConstraintRotationOffset::__get_lastLocalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastLocalRotation;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotationOffset::__set_lastLocalRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastLocalRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::ConstraintRotationOffset::__get_defaultTargetLocalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultTargetLocalRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::ConstraintRotationOffset::__get_defaultTargetLocalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultTargetLocalRotation;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotationOffset::__set_defaultTargetLocalRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultTargetLocalRotation = value;
 }
 constexpr bool& RootMotion::FinalIK::ConstraintRotationOffset::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::ConstraintRotationOffset::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::ConstraintRotationOffset::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 inline void RootMotion::FinalIK::ConstraintRotationOffset::UpdateConstraint() {

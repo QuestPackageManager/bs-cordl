@@ -6,11 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyArray_1)
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct __ReadOnlyArray_1__Enumerator;
@@ -21,20 +30,11 @@ template <typename T> class IReadOnlyCollection_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

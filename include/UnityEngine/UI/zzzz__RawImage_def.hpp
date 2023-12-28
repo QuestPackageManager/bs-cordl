@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Rect_def.hpp"
 CORDL_MODULE_EXPORT(RawImage)
 namespace UnityEngine {
-struct Rect;
+class Texture;
 }
 namespace UnityEngine {
-class Texture;
+struct Rect;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::RawImage);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13099))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
 // CS Name: ::UnityEngine.UI::RawImage*
 class CORDL_TYPE RawImage : public ::UnityEngine::UI::MaskableGraphic {

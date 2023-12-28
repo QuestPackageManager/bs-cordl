@@ -126,15 +126,15 @@ constexpr UnityEngine::UIElements::FocusChangeDirection::operator ::System::IDis
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::UIElements::FocusChangeDirection::__get_m_Value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Value;
 }
 constexpr int32_t const& UnityEngine::UIElements::FocusChangeDirection::__get_m_Value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Value;
 }
 constexpr void UnityEngine::UIElements::FocusChangeDirection::__set_m_Value(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Value = value;
 }
 inline void UnityEngine::UIElements::FocusChangeDirection::setStaticF__unspecified_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value) {

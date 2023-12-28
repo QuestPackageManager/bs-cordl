@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerAvatarPoseDataProvider)
 namespace BeatSaber::AvatarCore {
+struct AvatarPoseData;
+}
+namespace BeatSaber::AvatarCore {
 class IAvatarPoseDataProvider;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseRestriction;
+}
+namespace GlobalNamespace {
+class INodePoseSyncStateManager;
 }
 namespace Zenject {
 class ITickable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseRestriction;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarPoseData;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15174)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15174))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15187))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
 class CORDL_TYPE ConnectedPlayerAvatarPoseDataProvider : public ::System::Object {

@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(LeaseManager)
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class Timer;
-}
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading {
+class Timer;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {

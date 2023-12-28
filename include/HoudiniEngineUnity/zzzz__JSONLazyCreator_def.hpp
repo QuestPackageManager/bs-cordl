@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONLazyCreator)
-namespace System {
-class Object;
+namespace HoudiniEngineUnity {
+struct JSONTextMode;
 }
-namespace System::Text {
-class StringBuilder;
+namespace HoudiniEngineUnity {
+struct __JSONNode__Enumerator;
 }
 namespace HoudiniEngineUnity {
 struct JSONNodeType;
@@ -25,11 +25,11 @@ class JSONObject;
 namespace HoudiniEngineUnity {
 class JSONNode;
 }
-namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
+namespace System::Text {
+class StringBuilder;
 }
-namespace HoudiniEngineUnity {
-struct JSONTextMode;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

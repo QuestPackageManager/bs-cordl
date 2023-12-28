@@ -11,13 +11,7 @@ namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System {
-class ICloneable;
-}
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class Object;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
@@ -25,8 +19,14 @@ class Lexer;
 namespace System::Net::Http::Headers {
 struct Token;
 }
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
+}
 namespace System {
-class Object;
+class ICloneable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

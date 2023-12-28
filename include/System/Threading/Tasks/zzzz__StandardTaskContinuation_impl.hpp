@@ -40,39 +40,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::StandardTaskContinuation::__get_m_task() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_task;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::StandardTaskContinuation::__get_m_task() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_task;
 }
 constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_task(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::TaskContinuationOptions& System::Threading::Tasks::StandardTaskContinuation::__get_m_options() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_options;
 }
 constexpr ::System::Threading::Tasks::TaskContinuationOptions const& System::Threading::Tasks::StandardTaskContinuation::__get_m_options() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_options;
 }
 constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_options(::System::Threading::Tasks::TaskContinuationOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_options = value;
 }
 constexpr ::System::Threading::Tasks::TaskScheduler*& System::Threading::Tasks::StandardTaskContinuation::__get_m_taskScheduler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskScheduler;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& System::Threading::Tasks::StandardTaskContinuation::__get_m_taskScheduler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskScheduler;
 }
 constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_taskScheduler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::StandardTaskContinuation* System::Threading::Tasks::StandardTaskContinuation::New_ctor(::System::Threading::Tasks::Task* task,

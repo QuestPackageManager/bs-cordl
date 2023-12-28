@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(LineLight)
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LineLight);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14560))
 // CS Name: ::LineLight*
 class CORDL_TYPE LineLight : public ::UnityEngine::MonoBehaviour {

@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LightGroup)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class LightGroupSO;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

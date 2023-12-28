@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RuntimeClip)
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

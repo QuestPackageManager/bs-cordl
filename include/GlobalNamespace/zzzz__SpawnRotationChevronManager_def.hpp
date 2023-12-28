@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpawnRotationChevronManager)
-namespace GlobalNamespace {
-class __SpawnRotationChevronManager__DirectionData;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
-namespace GlobalNamespace {
-class BeatmapObjectSpawnController;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapObjectData;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
+class BeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
 class __SpawnRotationChevron__Pool;
+}
+namespace GlobalNamespace {
+class __SpawnRotationChevronManager__DirectionData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class BeatmapObjectData;
+}
+namespace GlobalNamespace {
+class SpawnRotationBeatmapEventData;
 }
 namespace GlobalNamespace {
 class SpawnRotationChevron;

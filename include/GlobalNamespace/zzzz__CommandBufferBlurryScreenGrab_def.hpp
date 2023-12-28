@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandBufferBlurryScreenGrab)
-namespace GlobalNamespace {
-class KawaseBlurRendererSO;
-}
-namespace GlobalNamespace {
-class CommandBufferOwners;
-}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
-}
-namespace UnityEngine {
-class Camera;
 }
 namespace UnityEngine::Rendering {
 struct CameraEvent;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class KawaseBlurRendererSO;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace GlobalNamespace {
+class CommandBufferOwners;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferBlurryScreenGrab);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(15278)), TypeDefinitionIndex(TypeDefinitionIndex(14503))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(15278))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15276))
 // CS Name: ::CommandBufferBlurryScreenGrab*
 class CORDL_TYPE CommandBufferBlurryScreenGrab : public ::GlobalNamespace::CommandBufferGOCore {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleDissolve_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve.Awake
 template <>
 
@@ -74,27 +74,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ObstacleControllerBase*& GlobalNamespace::ObstacleDissolve::__get__obstacleController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleControllerBase*> const& GlobalNamespace::ObstacleDissolve::__get__obstacleController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleController;
 }
 constexpr void GlobalNamespace::ObstacleDissolve::__set__obstacleController(::GlobalNamespace::ObstacleControllerBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::CutoutAnimateEffect*& GlobalNamespace::ObstacleDissolve::__get__cutoutAnimateEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutoutAnimateEffect;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutoutAnimateEffect*> const& GlobalNamespace::ObstacleDissolve::__get__cutoutAnimateEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutoutAnimateEffect;
 }
 constexpr void GlobalNamespace::ObstacleDissolve::__set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutoutAnimateEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ObstacleDissolve::Awake() {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GUIWordWrapSizer)
 namespace UnityEngine {
+class GUIContent;
+}
+namespace UnityEngine {
 class GUILayoutOption;
 }
 namespace UnityEngine {
 class GUIStyle;
-}
-namespace UnityEngine {
-class GUIContent;
 }
 // Forward declare root types
 namespace UnityEngine {

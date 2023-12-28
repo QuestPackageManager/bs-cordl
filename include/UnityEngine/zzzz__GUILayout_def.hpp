@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GUILayout)
 namespace UnityEngine {
-class GUILayoutOption;
-}
-namespace UnityEngine {
 class GUIContent;
 }
 namespace UnityEngine {
 class GUIStyle;
+}
+namespace UnityEngine {
+class GUILayoutOption;
 }
 // Forward declare root types
 namespace UnityEngine {

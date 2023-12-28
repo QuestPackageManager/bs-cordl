@@ -2,9 +2,9 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivationAttribute_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::RemoteActivationAttribute._ctor
 template <>
 
@@ -57,15 +57,15 @@ constexpr System::Runtime::Remoting::Activation::RemoteActivationAttribute::oper
   return static_cast<::System::Runtime::Remoting::Contexts::IContextAttribute*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IList*& System::Runtime::Remoting::Activation::RemoteActivationAttribute::__get__contextProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contextProperties;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& System::Runtime::Remoting::Activation::RemoteActivationAttribute::__get__contextProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contextProperties;
 }
 constexpr void System::Runtime::Remoting::Activation::RemoteActivationAttribute::__set__contextProperties(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contextProperties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* System::Runtime::Remoting::Activation::RemoteActivationAttribute::New_ctor(::System::Collections::IList* contextProperties) {

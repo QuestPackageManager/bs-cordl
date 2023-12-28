@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResources_def.hpp"
 #include "GlobalNamespace/zzzz__OVRResources_def.hpp"
+#include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AssetBundle_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRResources____c__DisplayClass2_0._ctor
 template <>
 
@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__OVRResources____c__DisplayClass2_0::__get_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___path;
 }
 constexpr ::StringW const& GlobalNamespace::__OVRResources____c__DisplayClass2_0::__get_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___path;
 }
 constexpr void GlobalNamespace::__OVRResources____c__DisplayClass2_0::__set_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRResources____c__DisplayClass2_0* GlobalNamespace::__OVRResources____c__DisplayClass2_0::New_ctor() {
@@ -64,15 +64,15 @@ inline bool GlobalNamespace::__OVRResources____c__DisplayClass2_0::_Load_b__0(::
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__OVRResources____c__DisplayClass2_0::__OVRResources____c__DisplayClass2_0() {}
 template <typename T> constexpr ::StringW& GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>::__get_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___path;
 }
 template <typename T> constexpr ::StringW const& GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>::__get_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___path;
 }
 template <typename T> constexpr void GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>::__set_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>* GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>::New_ctor() {

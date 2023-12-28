@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SequencedChannel)
 namespace LiteNetLib {
-class NetPeer;
+class NetPacket;
 }
 namespace LiteNetLib {
-class NetPacket;
+class NetPeer;
 }
 // Forward declare root types
 namespace LiteNetLib {

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ButtonBinder)
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Events {
 class UnityAction;
 }
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace HMUI {

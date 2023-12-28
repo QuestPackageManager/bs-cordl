@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"
-#include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRHaptics__Config.get_SampleRateHz
 template <>
 
@@ -374,15 +374,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*& GlobalNamespace::__OVRHaptics__OVRHapticsChannel::__get_m_output() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_output;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*> const& GlobalNamespace::__OVRHaptics__OVRHapticsChannel::__get_m_output() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_output;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsChannel::__set_m_output(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_output)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* GlobalNamespace::__OVRHaptics__OVRHapticsChannel::New_ctor(uint32_t outputIndex) {
@@ -495,27 +495,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::__get__ReadCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReadCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::__get__ReadCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReadCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::__set__ReadCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ReadCount_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::OVRHapticsClip*& GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::__get__Clip_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Clip_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHapticsClip*> const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::__get__Clip_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Clip_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::__set__Clip_k__BackingField(::GlobalNamespace::OVRHapticsClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Clip_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::get_ReadCount() {
@@ -642,149 +642,149 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_lowLatencyMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lowLatencyMode;
 }
 constexpr bool const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_lowLatencyMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lowLatencyMode;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_lowLatencyMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_lowLatencyMode = value;
 }
 constexpr bool& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_paddingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_paddingEnabled;
 }
 constexpr bool const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_paddingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_paddingEnabled;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_paddingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_paddingEnabled = value;
 }
 constexpr int32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_prevSamplesQueued() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevSamplesQueued;
 }
 constexpr int32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_prevSamplesQueued() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevSamplesQueued;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_prevSamplesQueued(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevSamplesQueued = value;
 }
 constexpr float_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_prevSamplesQueuedTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevSamplesQueuedTime;
 }
 constexpr float_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_prevSamplesQueuedTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevSamplesQueuedTime;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_prevSamplesQueuedTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevSamplesQueuedTime = value;
 }
 constexpr int32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_numPredictionHits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numPredictionHits;
 }
 constexpr int32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_numPredictionHits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numPredictionHits;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_numPredictionHits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_numPredictionHits = value;
 }
 constexpr int32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_numPredictionMisses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numPredictionMisses;
 }
 constexpr int32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_numPredictionMisses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numPredictionMisses;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_numPredictionMisses(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_numPredictionMisses = value;
 }
 constexpr int32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_numUnderruns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numUnderruns;
 }
 constexpr int32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_numUnderruns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numUnderruns;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_numUnderruns(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_numUnderruns = value;
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>*& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_pendingClips() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pendingClips;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>*> const&
 GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_pendingClips() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pendingClips;
 }
 constexpr void
 GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_pendingClips(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pendingClips)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_controller() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
 constexpr uint32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_controller() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_controller(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_controller = value;
 }
 constexpr ::GlobalNamespace::OVRNativeBuffer*& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_nativeBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nativeBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRNativeBuffer*> const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_nativeBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nativeBuffer;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_nativeBuffer(::GlobalNamespace::OVRNativeBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_nativeBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRHapticsClip*& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_paddingClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_paddingClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHapticsClip*> const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_m_paddingClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_paddingClip;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_m_paddingClip(::GlobalNamespace::OVRHapticsClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_paddingClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_PrevSampleRateHz() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrevSampleRateHz;
 }
 constexpr int32_t const& GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__get_PrevSampleRateHz() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PrevSampleRateHz;
 }
 constexpr void GlobalNamespace::__OVRHaptics__OVRHapticsOutput::__set_PrevSampleRateHz(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PrevSampleRateHz = value;
 }
 inline ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* GlobalNamespace::__OVRHaptics__OVRHapticsOutput::New_ctor(uint32_t controller) {

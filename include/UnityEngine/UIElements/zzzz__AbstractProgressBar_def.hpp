@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AbstractProgressBar)
 namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class Label;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 class __AbstractProgressBar__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlFloatAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

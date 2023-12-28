@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Decimal& System::Runtime::CompilerServices::DecimalConstantAttribute::__get__dec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dec;
 }
 constexpr ::System::Decimal const& System::Runtime::CompilerServices::DecimalConstantAttribute::__get__dec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dec;
 }
 constexpr void System::Runtime::CompilerServices::DecimalConstantAttribute::__set__dec(::System::Decimal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dec = value;
 }
 inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* System::Runtime::CompilerServices::DecimalConstantAttribute::New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid,

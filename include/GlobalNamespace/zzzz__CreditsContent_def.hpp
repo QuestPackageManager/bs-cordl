@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreditsContent)
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
 class TextAsset;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

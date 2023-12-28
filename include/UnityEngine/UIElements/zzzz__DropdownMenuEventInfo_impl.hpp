@@ -21,63 +21,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::DropdownMenuEventInfo::__get__modifiers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::DropdownMenuEventInfo::__get__modifiers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::DropdownMenuEventInfo::__set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifiers_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::DropdownMenuEventInfo::__get__mousePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mousePosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::DropdownMenuEventInfo::__get__mousePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mousePosition_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::DropdownMenuEventInfo::__set__mousePosition_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mousePosition_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::DropdownMenuEventInfo::__get__localMousePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localMousePosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::DropdownMenuEventInfo::__get__localMousePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localMousePosition_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::DropdownMenuEventInfo::__set__localMousePosition_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localMousePosition_k__BackingField = value;
 }
 constexpr char16_t& UnityEngine::UIElements::DropdownMenuEventInfo::__get__character_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____character_k__BackingField;
 }
 constexpr char16_t const& UnityEngine::UIElements::DropdownMenuEventInfo::__get__character_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____character_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::DropdownMenuEventInfo::__set__character_k__BackingField(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____character_k__BackingField = value;
 }
 constexpr ::UnityEngine::KeyCode& UnityEngine::UIElements::DropdownMenuEventInfo::__get__keyCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyCode_k__BackingField;
 }
 constexpr ::UnityEngine::KeyCode const& UnityEngine::UIElements::DropdownMenuEventInfo::__get__keyCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyCode_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::DropdownMenuEventInfo::__set__keyCode_k__BackingField(::UnityEngine::KeyCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyCode_k__BackingField = value;
 }
 inline ::UnityEngine::UIElements::DropdownMenuEventInfo* UnityEngine::UIElements::DropdownMenuEventInfo::New_ctor(::UnityEngine::UIElements::EventBase* e) {

@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RenderPipeline)
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
 }
@@ -16,6 +13,9 @@ struct __Camera__RenderRequest;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

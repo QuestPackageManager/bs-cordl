@@ -9,10 +9,10 @@ namespace UnityEngine::Timeline {
 class TrackAsset;
 }
 namespace UnityEngine {
-class AnimationClip;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class AnimationClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

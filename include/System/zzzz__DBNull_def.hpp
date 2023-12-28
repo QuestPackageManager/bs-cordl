@@ -7,23 +7,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DBNull)
+namespace System {
+class IFormatProvider;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
+namespace System {
+class IConvertible;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
-class IFormatProvider;
+class Object;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
-class IConvertible;
+struct DateTime;
 }
 namespace System {
 struct Decimal;
@@ -31,11 +34,8 @@ struct Decimal;
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {

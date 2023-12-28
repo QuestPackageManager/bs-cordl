@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRSettings)
-namespace System::Text {
-class StringBuilder;
-}
 namespace OVR::OpenVR {
 struct EVRSettingsError;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

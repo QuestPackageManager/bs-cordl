@@ -18,51 +18,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::AchievementType& Oculus::Platform::Models::AchievementDefinition::__get_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr ::Oculus::Platform::AchievementType const& Oculus::Platform::Models::AchievementDefinition::__get_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr void Oculus::Platform::Models::AchievementDefinition::__set_Type(::Oculus::Platform::AchievementType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Type = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::AchievementDefinition::__get_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AchievementDefinition::__get_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr void Oculus::Platform::Models::AchievementDefinition::__set_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& Oculus::Platform::Models::AchievementDefinition::__get_BitfieldLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BitfieldLength;
 }
 constexpr uint32_t const& Oculus::Platform::Models::AchievementDefinition::__get_BitfieldLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BitfieldLength;
 }
 constexpr void Oculus::Platform::Models::AchievementDefinition::__set_BitfieldLength(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BitfieldLength = value;
 }
 constexpr uint64_t& Oculus::Platform::Models::AchievementDefinition::__get_Target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Target;
 }
 constexpr uint64_t const& Oculus::Platform::Models::AchievementDefinition::__get_Target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Target;
 }
 constexpr void Oculus::Platform::Models::AchievementDefinition::__set_Target(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Target = value;
 }
 inline ::Oculus::Platform::Models::AchievementDefinition* Oculus::Platform::Models::AchievementDefinition::New_ctor(void* o) {

@@ -2,32 +2,32 @@
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectNull_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameInfo_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__WriteObjectInfo_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectWriter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveTyped_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodCall_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryArray_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObject_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveUnTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssembly_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMap_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObject_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryArray_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectNull_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__WriteObjectInfo_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameInfo_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodCall_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveTyped_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodReturn_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMap_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssembly_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter._ctor
 template <>
 
@@ -795,269 +795,269 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Stream*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_sout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sout;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_sout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sout;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_sout(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_formatterTypeStyle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___formatterTypeStyle;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_formatterTypeStyle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___formatterTypeStyle;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_formatterTypeStyle(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___formatterTypeStyle = value;
 }
 constexpr ::System::Collections::Hashtable*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_objectMapTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectMapTable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_objectMapTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectMapTable;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_objectMapTable(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objectMapTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_objectWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_objectWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectWriter;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_objectWriter(::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objectWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::BinaryWriter*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_dataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryWriter*> const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_dataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataWriter;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_dataWriter(::System::IO::BinaryWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_m_nestedObjectCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nestedObjectCount;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_m_nestedObjectCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_nestedObjectCount;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_m_nestedObjectCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_nestedObjectCount = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_nullCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nullCount;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_nullCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nullCount;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_nullCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nullCount = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryMethodCall() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryMethodCall;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryMethodCall() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryMethodCall;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryMethodCall(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryMethodCall)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryMethodReturn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryMethodReturn;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryMethodReturn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryMethodReturn;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryMethodReturn(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryMethodReturn)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObject*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObject*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObject;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryObject(::System::Runtime::Serialization::Formatters::Binary::BinaryObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObjectWithMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObjectWithMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObjectWithMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObjectWithMap;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryObjectWithMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObjectWithMapTyped() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObjectWithMapTyped;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObjectWithMapTyped() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObjectWithMapTyped;
 }
 constexpr void
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryObjectWithMapTyped)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObjectString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObjectString;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryObjectString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryObjectString;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryObjectString(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryObjectString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArray*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryArray;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryArray*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryArray;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryArray(::System::Runtime::Serialization::Formatters::Binary::BinaryArray* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_byteBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_byteBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteBuffer;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___byteBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_chunkSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkSize;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_chunkSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkSize;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_chunkSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chunkSize = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_memberPrimitiveUnTyped() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberPrimitiveUnTyped;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_memberPrimitiveUnTyped() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberPrimitiveUnTyped;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_memberPrimitiveUnTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberPrimitiveUnTyped)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_memberPrimitiveTyped() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberPrimitiveTyped;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_memberPrimitiveTyped() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberPrimitiveTyped;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_memberPrimitiveTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberPrimitiveTyped)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_objectNull() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectNull;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_objectNull() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectNull;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_objectNull(::System::Runtime::Serialization::Formatters::Binary::ObjectNull* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objectNull)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_memberReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberReference;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberReference*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_memberReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___memberReference;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_memberReference(::System::Runtime::Serialization::Formatters::Binary::MemberReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___memberReference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*& System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryAssembly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryAssembly;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*> const&
 System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryAssembly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryAssembly;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__set_binaryAssembly(::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binaryAssembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*

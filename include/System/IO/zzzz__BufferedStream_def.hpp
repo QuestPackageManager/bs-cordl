@@ -18,74 +18,74 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedStream)
+namespace System {
+class AsyncCallback;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System::IO {
+struct __BufferedStream___DisposeAsync_d__34;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System::IO {
+struct __BufferedStream___FlushAsyncInternal_d__38;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::IO {
+struct __BufferedStream___ReadFromUnderlyingStreamAsync_d__51;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
+namespace System::IO {
+struct __BufferedStream___WriteToUnderlyingStreamAsync_d__63;
+}
+namespace System::IO {
+class __BufferedStream____c;
+}
+namespace System::IO {
+struct __BufferedStream___CopyToAsyncCore_d__71;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System::IO {
+struct __BufferedStream___FlushWriteAsync_d__42;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class Exception;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace System {
 template <typename T> struct Span_1;
-}
-namespace System::IO {
-struct __BufferedStream___FlushAsyncInternal_d__38;
-}
-namespace System::IO {
-class __BufferedStream____c;
-}
-namespace System::IO {
-struct __BufferedStream___FlushWriteAsync_d__42;
-}
-namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class Object;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System {
-class AsyncCallback;
-}
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::IO {
-struct __BufferedStream___WriteToUnderlyingStreamAsync_d__63;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct __BufferedStream___DisposeAsync_d__34;
-}
-namespace System::IO {
-struct __BufferedStream___CopyToAsyncCore_d__71;
-}
-namespace System::IO {
-struct __BufferedStream___ReadFromUnderlyingStreamAsync_d__51;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
+class IAsyncResult;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -94,10 +94,10 @@ namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -106,10 +106,10 @@ namespace System::Runtime::CompilerServices {
 struct AsyncValueTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
+template <typename TResult> struct AsyncValueTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncValueTaskMethodBuilder_1;
+template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
 }
 // Forward declare root types
 namespace System::IO {
@@ -201,7 +201,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__BufferedStream____
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3602))
 // CS Name: ::BufferedStream::<DisposeAsync>d__34
 struct CORDL_TYPE __BufferedStream___DisposeAsync_d__34 {
@@ -380,10 +380,10 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__BufferedStream___F
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3358)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2437))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(3605)) CS Name: ::BufferedStream::<ReadFromUnderlyingStreamAsync>d__51
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(3358))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3605))
+// CS Name: ::BufferedStream::<ReadFromUnderlyingStreamAsync>d__51
 struct CORDL_TYPE __BufferedStream___ReadFromUnderlyingStreamAsync_d__51 {
 public:
   // Declarations
@@ -456,8 +456,8 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__BufferedStream___R
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3361))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(3606)) CS Name: ::BufferedStream::<WriteToUnderlyingStreamAsync>d__63
 struct CORDL_TYPE __BufferedStream___WriteToUnderlyingStreamAsync_d__63 {
 public:

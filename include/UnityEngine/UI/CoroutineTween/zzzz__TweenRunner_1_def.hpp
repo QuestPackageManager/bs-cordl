@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine {
 class MonoBehaviour;
 }
 namespace UnityEngine::UI::CoroutineTween {
 template <typename T> class __TweenRunner_1___Start_d__2;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class Object;

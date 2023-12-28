@@ -2,9 +2,9 @@
 #include "HMUI/zzzz__UISelectionState_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "HMUI/zzzz__UISelectionState_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::HMUI::NoTransitionsToggle.get_selectionState
 template <>
 
@@ -105,27 +105,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::HMUI::UISelectionState>*& HMUI::NoTransitionsToggle::__get_selectionStateDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectionStateDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::UISelectionState>*> const& HMUI::NoTransitionsToggle::__get_selectionStateDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectionStateDidChangeEvent;
 }
 constexpr void HMUI::NoTransitionsToggle::__set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectionStateDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::UISelectionState& HMUI::NoTransitionsToggle::__get__selectionState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionState;
 }
 constexpr ::HMUI::UISelectionState const& HMUI::NoTransitionsToggle::__get__selectionState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionState;
 }
 constexpr void HMUI::NoTransitionsToggle::__set__selectionState(::HMUI::UISelectionState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectionState = value;
 }
 inline ::HMUI::UISelectionState HMUI::NoTransitionsToggle::get_selectionState() {

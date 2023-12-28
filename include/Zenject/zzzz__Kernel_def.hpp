@@ -9,22 +9,10 @@ namespace Zenject {
 class ITickable;
 }
 namespace Zenject {
-class ILateDisposable;
-}
-namespace Zenject {
-class TickableManager;
-}
-namespace System {
-class IDisposable;
+class DisposableManager;
 }
 namespace Zenject {
 class InitializableManager;
-}
-namespace Zenject {
-class IFixedTickable;
-}
-namespace Zenject {
-class IInitializable;
 }
 namespace System {
 class Object;
@@ -33,10 +21,22 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
+class TickableManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
 class ILateTickable;
 }
 namespace Zenject {
-class DisposableManager;
+class IFixedTickable;
+}
+namespace Zenject {
+class ILateDisposable;
 }
 // Forward declare root types
 namespace Zenject {

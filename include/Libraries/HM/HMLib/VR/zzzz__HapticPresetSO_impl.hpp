@@ -31,75 +31,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& Libraries::HM::HMLib::VR::HapticPresetSO::__get__duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr float_t const& Libraries::HM::HMLib::VR::HapticPresetSO::__get__duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr void Libraries::HM::HMLib::VR::HapticPresetSO::__set__duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
 constexpr float_t& Libraries::HM::HMLib::VR::HapticPresetSO::__get__strength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strength;
 }
 constexpr float_t const& Libraries::HM::HMLib::VR::HapticPresetSO::__get__strength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strength;
 }
 constexpr void Libraries::HM::HMLib::VR::HapticPresetSO::__set__strength(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____strength = value;
 }
 constexpr float_t& Libraries::HM::HMLib::VR::HapticPresetSO::__get__frequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequency;
 }
 constexpr float_t const& Libraries::HM::HMLib::VR::HapticPresetSO::__get__frequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequency;
 }
 constexpr void Libraries::HM::HMLib::VR::HapticPresetSO::__set__frequency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frequency = value;
 }
 constexpr bool& Libraries::HM::HMLib::VR::HapticPresetSO::__get__continuous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continuous;
 }
 constexpr bool const& Libraries::HM::HMLib::VR::HapticPresetSO::__get__continuous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continuous;
 }
 constexpr void Libraries::HM::HMLib::VR::HapticPresetSO::__set__continuous(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____continuous = value;
 }
 constexpr bool& Libraries::HM::HMLib::VR::HapticPresetSO::__get__useAdvancedHapticsOnSupportedPlatforms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useAdvancedHapticsOnSupportedPlatforms;
 }
 constexpr bool const& Libraries::HM::HMLib::VR::HapticPresetSO::__get__useAdvancedHapticsOnSupportedPlatforms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useAdvancedHapticsOnSupportedPlatforms;
 }
 constexpr void Libraries::HM::HMLib::VR::HapticPresetSO::__set__useAdvancedHapticsOnSupportedPlatforms(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useAdvancedHapticsOnSupportedPlatforms = value;
 }
 constexpr ::UnityEngine::AudioClip*& Libraries::HM::HMLib::VR::HapticPresetSO::__get__ps5HapticsClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5HapticsClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& Libraries::HM::HMLib::VR::HapticPresetSO::__get__ps5HapticsClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5HapticsClip;
 }
 constexpr void Libraries::HM::HMLib::VR::HapticPresetSO::__set__ps5HapticsClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5HapticsClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset) {

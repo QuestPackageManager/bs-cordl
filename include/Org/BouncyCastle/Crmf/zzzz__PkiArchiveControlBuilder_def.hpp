@@ -8,22 +8,22 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedDataGenerator;
+class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
 }
 namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+class CmsEnvelopedDataGenerator;
 }
-namespace Org::BouncyCastle::Crmf {
-class PkiArchiveControl;
+namespace Org::BouncyCastle::Cms {
+class CmsProcessableByteArray;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsProcessableByteArray;
+namespace Org::BouncyCastle::Crmf {
+class PkiArchiveControl;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

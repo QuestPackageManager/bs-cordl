@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__SignalTickPriorityCopyBinder_impl.hpp"
 #include "Zenject/zzzz__DeclareSignalAsyncTickPriorityCopyBinder_def.hpp"
-#include "Zenject/zzzz__SignalCopyBinder_def.hpp"
-#include "Zenject/zzzz__SignalTickPriorityCopyBinder_def.hpp"
 #include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
+#include "Zenject/zzzz__SignalTickPriorityCopyBinder_def.hpp"
+#include "Zenject/zzzz__SignalCopyBinder_def.hpp"
 //  Writing Method size for method: ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder._ctor
 template <>
 

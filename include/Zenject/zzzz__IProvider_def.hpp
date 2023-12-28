@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IProvider)
+namespace System {
+class Object;
+}
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace System {
-class Action;
 }
 namespace System {
 class Type;
@@ -16,11 +16,11 @@ class Type;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class InjectContext;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {

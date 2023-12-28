@@ -9,10 +9,10 @@ namespace System {
 class Object;
 }
 namespace System::Threading {
-class Thread;
+struct __ExecutionContext__Reader;
 }
 namespace System::Threading {
-struct __ExecutionContext__Reader;
+class Thread;
 }
 // Forward declare root types
 namespace System::Threading {

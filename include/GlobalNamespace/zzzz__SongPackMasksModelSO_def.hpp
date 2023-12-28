@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(SongPackMasksModelSO)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class SongPackMasksModelItem;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,40 +5,40 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PrepareLevelCompletionResults)
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
-}
-namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class SaberActivityCounter;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRatingsRecorder;
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectExecutionRatingsRecorder;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class SaberActivityCounter;
 }
 namespace GlobalNamespace {
 class IScoreController;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
 class ComboController;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndStateType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

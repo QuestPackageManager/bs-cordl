@@ -124,27 +124,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::JetBrains::Annotations::ImplicitUseKindFlags& JetBrains::Annotations::MeansImplicitUseAttribute::__get__UseKindFlags_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UseKindFlags_k__BackingField;
 }
 constexpr ::JetBrains::Annotations::ImplicitUseKindFlags const& JetBrains::Annotations::MeansImplicitUseAttribute::__get__UseKindFlags_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UseKindFlags_k__BackingField;
 }
 constexpr void JetBrains::Annotations::MeansImplicitUseAttribute::__set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UseKindFlags_k__BackingField = value;
 }
 constexpr ::JetBrains::Annotations::ImplicitUseTargetFlags& JetBrains::Annotations::MeansImplicitUseAttribute::__get__TargetFlags_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TargetFlags_k__BackingField;
 }
 constexpr ::JetBrains::Annotations::ImplicitUseTargetFlags const& JetBrains::Annotations::MeansImplicitUseAttribute::__get__TargetFlags_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TargetFlags_k__BackingField;
 }
 constexpr void JetBrains::Annotations::MeansImplicitUseAttribute::__set__TargetFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseTargetFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____TargetFlags_k__BackingField = value;
 }
 inline ::JetBrains::Annotations::MeansImplicitUseAttribute* JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor() {

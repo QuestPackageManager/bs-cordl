@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthEnvelopedData)
 namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
+class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Cms {
-class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
+class RecipientInformationStore;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
 }
 namespace System {
 class Object;

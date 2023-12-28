@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataLightsExtensions_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataLightsExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEventDataLightsExtensions.LightColorTypeFromEventDataValue

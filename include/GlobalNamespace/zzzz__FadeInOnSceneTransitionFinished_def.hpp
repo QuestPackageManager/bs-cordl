@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FadeInOnSceneTransitionFinished)
 namespace GlobalNamespace {
-class __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4;
-}
-namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
@@ -17,6 +14,9 @@ class FadeInOutController;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace GlobalNamespace {
+class __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4;
 }
 namespace System {
 class Object;

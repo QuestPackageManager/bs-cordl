@@ -12,17 +12,17 @@ class Action;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class SliderController;
 }
 namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
-class SliderController;
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

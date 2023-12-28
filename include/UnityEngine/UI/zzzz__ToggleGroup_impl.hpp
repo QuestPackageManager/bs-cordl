@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::__ToggleGroup____c._ctor
 template <>
 
@@ -296,27 +296,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::UI::ToggleGroup::__get_m_AllowSwitchOff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllowSwitchOff;
 }
 constexpr bool const& UnityEngine::UI::ToggleGroup::__get_m_AllowSwitchOff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllowSwitchOff;
 }
 constexpr void UnityEngine::UI::ToggleGroup::__set_m_AllowSwitchOff(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AllowSwitchOff = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>*& UnityEngine::UI::ToggleGroup::__get_m_Toggles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Toggles;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>*> const& UnityEngine::UI::ToggleGroup::__get_m_Toggles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Toggles;
 }
 constexpr void UnityEngine::UI::ToggleGroup::__set_m_Toggles(::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Toggles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::UI::ToggleGroup::get_allowSwitchOff() {

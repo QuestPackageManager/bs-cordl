@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 //  Writing Method size for method: ::System::Collections::IStructuralEquatable.Equals
 template <>
 

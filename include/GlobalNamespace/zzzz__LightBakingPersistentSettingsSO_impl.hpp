@@ -1,22 +1,22 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LightBakingPersistentSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__BakedLightDataLoader_def.hpp"
-#include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__FakeMirrorSettings_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__BakedLightDataLoader_def.hpp"
+#include "GlobalNamespace/zzzz__FakeMirrorSettings_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "GlobalNamespace/zzzz__BakedReflectionProbe_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.get_reflectionsCount
 template <>
 
@@ -274,224 +274,224 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::LightBakingPersistentSettingsSO::__get__reflectionsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionsCount;
 }
 constexpr int32_t const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__reflectionsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionsCount;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__reflectionsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reflectionsCount = value;
 }
 constexpr ::GlobalNamespace::BloomPrePassEffectSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bloomPrePassEffectToneMappingOff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectToneMappingOff;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectSO*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bloomPrePassEffectToneMappingOff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectToneMappingOff;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__bloomPrePassEffectToneMappingOff(::GlobalNamespace::BloomPrePassEffectSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffectToneMappingOff)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainEffectSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainEffectForBaking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectForBaking;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectSO*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainEffectForBaking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectForBaking;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__mainEffectForBaking(::GlobalNamespace::MainEffectSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectForBaking)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::LightBakingPersistentSettingsSO::__get__colorFromSchemeAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorFromSchemeAlpha;
 }
 constexpr float_t const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__colorFromSchemeAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorFromSchemeAlpha;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__colorFromSchemeAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorFromSchemeAlpha = value;
 }
 constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bakedLightEditorColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedLightEditorColors;
 }
 constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bakedLightEditorColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedLightEditorColors;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__bakedLightEditorColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedLightEditorColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainSettingsModelSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainSettingsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainSettingsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mirrorRendererGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*> const&
 GlobalNamespace::LightBakingPersistentSettingsSO::__get__mirrorRendererGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__mirrorRendererGraphicsSettingsPresets(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRendererGraphicsSettingsPresets)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainEffectGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectGraphicsSettingsPresets;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*> const&
 GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainEffectGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectGraphicsSettingsPresets;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__mainEffectGraphicsSettingsPresets(::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectGraphicsSettingsPresets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bloomPrePassGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassGraphicsSettingsPresets;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*> const&
 GlobalNamespace::LightBakingPersistentSettingsSO::__get__bloomPrePassGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassGraphicsSettingsPresets;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__bloomPrePassGraphicsSettingsPresets(::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassGraphicsSettingsPresets)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MirrorRendererSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mirrorRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererSO*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mirrorRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRenderer;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__mirrorRenderer(::GlobalNamespace::MirrorRendererSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MainEffectContainerSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainEffectContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectContainerSO*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__mainEffectContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectContainer;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__mainEffectContainer(::GlobalNamespace::MainEffectContainerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomPrePassEffectContainerSO*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bloomPrePassEffectContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectContainerSO*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bloomPrePassEffectContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectContainer;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__bloomPrePassEffectContainer(::GlobalNamespace::BloomPrePassEffectContainerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BakedLightDataLoader*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bakedLightDataLoaderPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedLightDataLoaderPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BakedLightDataLoader*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bakedLightDataLoaderPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedLightDataLoaderPrefab;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__bakedLightDataLoaderPrefab(::GlobalNamespace::BakedLightDataLoader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedLightDataLoaderPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BakedReflectionProbe*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bakedReflectionProbePrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedReflectionProbePrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BakedReflectionProbe*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__bakedReflectionProbePrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedReflectionProbePrefab;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__bakedReflectionProbePrefab(::GlobalNamespace::BakedReflectionProbe* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedReflectionProbePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LightmapLightsWithIds*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__lightmapLightsWithIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightsWithIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightmapLightsWithIds*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__lightmapLightsWithIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightsWithIds;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__lightmapLightsWithIds(::GlobalNamespace::LightmapLightsWithIds* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightmapLightsWithIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FakeMirrorObjectsInstaller*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__fakeMirrorObjectsInstallerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorObjectsInstallerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FakeMirrorObjectsInstaller*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__fakeMirrorObjectsInstallerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorObjectsInstallerPrefab;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__fakeMirrorObjectsInstallerPrefab(::GlobalNamespace::FakeMirrorObjectsInstaller* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fakeMirrorObjectsInstallerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FakeMirrorSettings*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__fakeMirrorSettingsPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorSettingsPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FakeMirrorSettings*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__fakeMirrorSettingsPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorSettingsPrefab;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__fakeMirrorSettingsPrefab(::GlobalNamespace::FakeMirrorSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fakeMirrorSettingsPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::LightBakingPersistentSettingsSO::__get__defaultDepthOnlyWriteMaterialForFakeMirror() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultDepthOnlyWriteMaterialForFakeMirror;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::LightBakingPersistentSettingsSO::__get__defaultDepthOnlyWriteMaterialForFakeMirror() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultDepthOnlyWriteMaterialForFakeMirror;
 }
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__set__defaultDepthOnlyWriteMaterialForFakeMirror(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultDepthOnlyWriteMaterialForFakeMirror)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemEventController)
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class __ParticleSystemEventController__Pool;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

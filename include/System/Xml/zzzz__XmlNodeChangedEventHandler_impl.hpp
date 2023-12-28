@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventHandler_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlNodeChangedEventHandler._ctor
 template <>
 

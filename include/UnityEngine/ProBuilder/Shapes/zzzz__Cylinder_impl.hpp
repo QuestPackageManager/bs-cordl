@@ -2,10 +2,10 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Cylinder_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Cylinder.CopyShape
 template <>
 
@@ -65,39 +65,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_AxisDivisions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AxisDivisions;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_AxisDivisions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AxisDivisions;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__set_m_AxisDivisions(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AxisDivisions = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_HeightCuts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightCuts;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_HeightCuts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightCuts;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__set_m_HeightCuts(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HeightCuts = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_Smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_Smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__set_m_Smooth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
 inline void UnityEngine::ProBuilder::Shapes::Cylinder::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {

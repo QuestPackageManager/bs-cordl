@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RoleSyntax)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

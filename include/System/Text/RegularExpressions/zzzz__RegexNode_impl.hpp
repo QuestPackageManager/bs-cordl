@@ -2,8 +2,8 @@
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexNode._ctor
 template <>
 
@@ -305,100 +305,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::RegularExpressions::RegexNode::__get_NType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NType;
 }
 constexpr int32_t const& System::Text::RegularExpressions::RegexNode::__get_NType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NType;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_NType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___NType = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*& System::Text::RegularExpressions::RegexNode::__get_Children() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Children;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*> const&
 System::Text::RegularExpressions::RegexNode::__get_Children() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Children;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_Children(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Children)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Text::RegularExpressions::RegexNode::__get_Str() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Str;
 }
 constexpr ::StringW const& System::Text::RegularExpressions::RegexNode::__get_Str() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Str;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_Str(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Str)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr char16_t& System::Text::RegularExpressions::RegexNode::__get_Ch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Ch;
 }
 constexpr char16_t const& System::Text::RegularExpressions::RegexNode::__get_Ch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Ch;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_Ch(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Ch = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::RegexNode::__get_M() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___M;
 }
 constexpr int32_t const& System::Text::RegularExpressions::RegexNode::__get_M() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___M;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_M(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___M = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::RegexNode::__get_N() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___N;
 }
 constexpr int32_t const& System::Text::RegularExpressions::RegexNode::__get_N() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___N;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_N(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___N = value;
 }
 constexpr ::System::Text::RegularExpressions::RegexOptions& System::Text::RegularExpressions::RegexNode::__get_Options() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Options;
 }
 constexpr ::System::Text::RegularExpressions::RegexOptions const& System::Text::RegularExpressions::RegexNode::__get_Options() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Options;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_Options(::System::Text::RegularExpressions::RegexOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Options = value;
 }
 constexpr ::System::Text::RegularExpressions::RegexNode*& System::Text::RegularExpressions::RegexNode::__get_Next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& System::Text::RegularExpressions::RegexNode::__get_Next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr void System::Text::RegularExpressions::RegexNode::__set_Next(::System::Text::RegularExpressions::RegexNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options) {

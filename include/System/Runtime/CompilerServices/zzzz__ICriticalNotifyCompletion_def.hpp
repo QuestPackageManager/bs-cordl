@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ICriticalNotifyCompletion)
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

@@ -5,27 +5,27 @@
 #include "UnityEngine/UIElements/zzzz__StylePropertyNameCollection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 template <typename T> constexpr ::UnityEngine::UIElements::StylePropertyNameCollection& UnityEngine::UIElements::TransitionEventBase_1<T>::__get__stylePropertyNames_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylePropertyNames_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::UIElements::StylePropertyNameCollection const& UnityEngine::UIElements::TransitionEventBase_1<T>::__get__stylePropertyNames_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stylePropertyNames_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::TransitionEventBase_1<T>::__set__stylePropertyNames_k__BackingField(::UnityEngine::UIElements::StylePropertyNameCollection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stylePropertyNames_k__BackingField = value;
 }
 template <typename T> constexpr double_t& UnityEngine::UIElements::TransitionEventBase_1<T>::__get__elapsedTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_k__BackingField;
 }
 template <typename T> constexpr double_t const& UnityEngine::UIElements::TransitionEventBase_1<T>::__get__elapsedTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::TransitionEventBase_1<T>::__set__elapsedTime_k__BackingField(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_k__BackingField = value;
 }
 template <typename T> inline ::UnityEngine::UIElements::StylePropertyNameCollection UnityEngine::UIElements::TransitionEventBase_1<T>::get_stylePropertyNames() {

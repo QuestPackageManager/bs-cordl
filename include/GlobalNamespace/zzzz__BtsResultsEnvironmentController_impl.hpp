@@ -3,21 +3,21 @@
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BtsResultsEnvironmentController_def.hpp"
-#include "GlobalNamespace/zzzz__BtsResultsEnvironmentController_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__BtsResultsEnvironmentController_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterDataModel_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacterResultAnimationController_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterResultAnimationController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation.get_name
 template <>
@@ -84,80 +84,80 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__placeTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____placeTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const&
 GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__placeTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____placeTransform;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__set__placeTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____placeTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BTSCharacterResultAnimationController*& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__animationController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterResultAnimationController*> const&
 GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__animationController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationController;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__set__animationController(::GlobalNamespace::BTSCharacterResultAnimationController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animationController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationClip*& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__animationClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const&
 GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__animationClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animationClip;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__set__animationClip(::UnityEngine::AnimationClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animationClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BTSCharacter*& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__btsCharacter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacter*> const&
 GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__btsCharacter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacter;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__set__btsCharacter(::GlobalNamespace::BTSCharacter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsCharacter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::AssetReference*& GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__btsCharacterAssetReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacterAssetReference;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const&
 GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__get__btsCharacterAssetReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacterAssetReference;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::__set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsCharacterAssetReference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::get_name() {
@@ -297,40 +297,40 @@ constexpr GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharacters
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BtsResultsEnvironmentController*& GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BtsResultsEnvironmentController*> const&
 GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__set___4__this(::GlobalNamespace::BtsResultsEnvironmentController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11*
@@ -482,74 +482,74 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::BtsResultsEnvironmentController::__get__btsCharacterAnimationWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacterAnimationWrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::BtsResultsEnvironmentController::__get__btsCharacterAnimationWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacterAnimationWrapper;
 }
 constexpr void GlobalNamespace::BtsResultsEnvironmentController::__set__btsCharacterAnimationWrapper(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsCharacterAnimationWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BTSCharacterDataModel*& GlobalNamespace::BtsResultsEnvironmentController::__get__btsCharacterDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacterDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterDataModel*> const& GlobalNamespace::BtsResultsEnvironmentController::__get__btsCharacterDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharacterDataModel;
 }
 constexpr void GlobalNamespace::BtsResultsEnvironmentController::__set__btsCharacterDataModel(::GlobalNamespace::BTSCharacterDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsCharacterDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Playables::PlayableDirector*& GlobalNamespace::BtsResultsEnvironmentController::__get__btsCharactersResultsAppearPlayableDirector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharactersResultsAppearPlayableDirector;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const&
 GlobalNamespace::BtsResultsEnvironmentController::__get__btsCharactersResultsAppearPlayableDirector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____btsCharactersResultsAppearPlayableDirector;
 }
 constexpr void GlobalNamespace::BtsResultsEnvironmentController::__set__btsCharactersResultsAppearPlayableDirector(::UnityEngine::Playables::PlayableDirector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____btsCharactersResultsAppearPlayableDirector)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
                    ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>&
 GlobalNamespace::BtsResultsEnvironmentController::__get__resultPlacesWithAnimations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultPlacesWithAnimations;
 }
 constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
                    ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> const&
 GlobalNamespace::BtsResultsEnvironmentController::__get__resultPlacesWithAnimations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resultPlacesWithAnimations;
 }
 constexpr void
 GlobalNamespace::BtsResultsEnvironmentController::__set__resultPlacesWithAnimations(::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
                                                                                              ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>
                                                                                         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resultPlacesWithAnimations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& GlobalNamespace::BtsResultsEnvironmentController::__get__handles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handles;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
 GlobalNamespace::BtsResultsEnvironmentController::__get__handles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handles;
 }
 constexpr void
 GlobalNamespace::BtsResultsEnvironmentController::__set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BtsResultsEnvironmentController::Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData) {

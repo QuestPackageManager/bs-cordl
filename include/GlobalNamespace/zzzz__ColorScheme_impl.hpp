@@ -298,183 +298,183 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& GlobalNamespace::ColorScheme::__get__colorSchemeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemeId;
 }
 constexpr ::StringW const& GlobalNamespace::ColorScheme::__get__colorSchemeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemeId;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__colorSchemeId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSchemeId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::ColorScheme::__get__colorSchemeNameLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemeNameLocalizationKey;
 }
 constexpr ::StringW const& GlobalNamespace::ColorScheme::__get__colorSchemeNameLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemeNameLocalizationKey;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__colorSchemeNameLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSchemeNameLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::ColorScheme::__get__useNonLocalizedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useNonLocalizedName;
 }
 constexpr bool const& GlobalNamespace::ColorScheme::__get__useNonLocalizedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useNonLocalizedName;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__useNonLocalizedName(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useNonLocalizedName = value;
 }
 constexpr ::StringW& GlobalNamespace::ColorScheme::__get__nonLocalizedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nonLocalizedName;
 }
 constexpr ::StringW const& GlobalNamespace::ColorScheme::__get__nonLocalizedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nonLocalizedName;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__nonLocalizedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nonLocalizedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::ColorScheme::__get__isEditable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEditable;
 }
 constexpr bool const& GlobalNamespace::ColorScheme::__get__isEditable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEditable;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__isEditable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isEditable = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__saberAColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberAColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__saberAColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberAColor;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__saberAColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberAColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__saberBColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__saberBColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBColor;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__saberBColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberBColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__obstaclesColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__obstaclesColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesColor;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__obstaclesColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstaclesColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__environmentColor0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__environmentColor0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__environmentColor0(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColor0 = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__environmentColor1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__environmentColor1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__environmentColor1(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColor1 = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__environmentColorW() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColorW;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__environmentColorW() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColorW;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__environmentColorW(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColorW = value;
 }
 constexpr bool& GlobalNamespace::ColorScheme::__get__supportsEnvironmentColorBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____supportsEnvironmentColorBoost;
 }
 constexpr bool const& GlobalNamespace::ColorScheme::__get__supportsEnvironmentColorBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____supportsEnvironmentColorBoost;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__supportsEnvironmentColorBoost(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____supportsEnvironmentColorBoost = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__environmentColor0Boost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0Boost;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__environmentColor0Boost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor0Boost;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__environmentColor0Boost(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColor0Boost = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__environmentColor1Boost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1Boost;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__environmentColor1Boost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColor1Boost;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__environmentColor1Boost(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColor1Boost = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorScheme::__get__environmentColorWBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColorWBoost;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorScheme::__get__environmentColorWBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColorWBoost;
 }
 constexpr void GlobalNamespace::ColorScheme::__set__environmentColorWBoost(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColorWBoost = value;
 }
 inline ::StringW GlobalNamespace::ColorScheme::get_colorSchemeId() {

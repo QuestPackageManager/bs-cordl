@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PasswordRecipientInfoGenerator)
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
+class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

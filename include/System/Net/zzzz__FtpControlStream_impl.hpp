@@ -5,25 +5,25 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__FtpControlStream_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__FtpWebRequest_def.hpp"
-#include "System/Net/zzzz__CommandStream_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Net/zzzz__FtpControlStream_def.hpp"
+#include "System/Net/zzzz__CommandStream_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/zzzz__TriState_def.hpp"
 #include "System/Net/zzzz__TlsStream_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
-#include "System/Net/zzzz__ResponseDescription_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/zzzz__FtpControlStream_def.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/zzzz__ResponseDescription_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__FtpWebRequest_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__FtpControlStream__GetPathOption::__FtpControlStream__GetPathOption(int32_t value__) noexcept {
   this->value__ = value__;
@@ -63,27 +63,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::FtpControlStream*& System::Net::__FtpControlStream____c__DisplayClass31_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpControlStream*> const& System::Net::__FtpControlStream____c__DisplayClass31_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void System::Net::__FtpControlStream____c__DisplayClass31_0::__set___4__this(::System::Net::FtpControlStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::TlsStream*& System::Net::__FtpControlStream____c__DisplayClass31_0::__get_tlsStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::TlsStream*> const& System::Net::__FtpControlStream____c__DisplayClass31_0::__get_tlsStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsStream;
 }
 constexpr void System::Net::__FtpControlStream____c__DisplayClass31_0::__set_tlsStream(::System::Net::TlsStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tlsStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::__FtpControlStream____c__DisplayClass31_0* System::Net::__FtpControlStream____c__DisplayClass31_0::New_ctor() {
@@ -600,219 +600,219 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::Socket*& System::Net::FtpControlStream::__get__dataSocket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataSocket;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& System::Net::FtpControlStream::__get__dataSocket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataSocket;
 }
 constexpr void System::Net::FtpControlStream::__set__dataSocket(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataSocket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::IPEndPoint*& System::Net::FtpControlStream::__get__passiveEndPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passiveEndPoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& System::Net::FtpControlStream::__get__passiveEndPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passiveEndPoint;
 }
 constexpr void System::Net::FtpControlStream::__set__passiveEndPoint(::System::Net::IPEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____passiveEndPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::TlsStream*& System::Net::FtpControlStream::__get__tlsStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tlsStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::TlsStream*> const& System::Net::FtpControlStream::__get__tlsStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tlsStream;
 }
 constexpr void System::Net::FtpControlStream::__set__tlsStream(::System::Net::TlsStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tlsStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& System::Net::FtpControlStream::__get__bannerMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerMessage;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Net::FtpControlStream::__get__bannerMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerMessage;
 }
 constexpr void System::Net::FtpControlStream::__set__bannerMessage(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bannerMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& System::Net::FtpControlStream::__get__welcomeMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____welcomeMessage;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Net::FtpControlStream::__get__welcomeMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____welcomeMessage;
 }
 constexpr void System::Net::FtpControlStream::__set__welcomeMessage(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____welcomeMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& System::Net::FtpControlStream::__get__exitMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exitMessage;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Net::FtpControlStream::__get__exitMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exitMessage;
 }
 constexpr void System::Net::FtpControlStream::__set__exitMessage(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exitMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::WeakReference*& System::Net::FtpControlStream::__get__credentials() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____credentials;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& System::Net::FtpControlStream::__get__credentials() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____credentials;
 }
 constexpr void System::Net::FtpControlStream::__set__credentials(::System::WeakReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____credentials)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::FtpControlStream::__get__currentTypeSetting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTypeSetting;
 }
 constexpr ::StringW const& System::Net::FtpControlStream::__get__currentTypeSetting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTypeSetting;
 }
 constexpr void System::Net::FtpControlStream::__set__currentTypeSetting(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentTypeSetting)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Net::FtpControlStream::__get__contentLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentLength;
 }
 constexpr int64_t const& System::Net::FtpControlStream::__get__contentLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentLength;
 }
 constexpr void System::Net::FtpControlStream::__set__contentLength(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentLength = value;
 }
 constexpr ::System::DateTime& System::Net::FtpControlStream::__get__lastModified() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastModified;
 }
 constexpr ::System::DateTime const& System::Net::FtpControlStream::__get__lastModified() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastModified;
 }
 constexpr void System::Net::FtpControlStream::__set__lastModified(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastModified = value;
 }
 constexpr bool& System::Net::FtpControlStream::__get__dataHandshakeStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataHandshakeStarted;
 }
 constexpr bool const& System::Net::FtpControlStream::__get__dataHandshakeStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataHandshakeStarted;
 }
 constexpr void System::Net::FtpControlStream::__set__dataHandshakeStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dataHandshakeStarted = value;
 }
 constexpr ::StringW& System::Net::FtpControlStream::__get__loginDirectory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loginDirectory;
 }
 constexpr ::StringW const& System::Net::FtpControlStream::__get__loginDirectory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loginDirectory;
 }
 constexpr void System::Net::FtpControlStream::__set__loginDirectory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loginDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::FtpControlStream::__get__establishedServerDirectory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____establishedServerDirectory;
 }
 constexpr ::StringW const& System::Net::FtpControlStream::__get__establishedServerDirectory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____establishedServerDirectory;
 }
 constexpr void System::Net::FtpControlStream::__set__establishedServerDirectory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____establishedServerDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::FtpControlStream::__get__requestedServerDirectory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestedServerDirectory;
 }
 constexpr ::StringW const& System::Net::FtpControlStream::__get__requestedServerDirectory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestedServerDirectory;
 }
 constexpr void System::Net::FtpControlStream::__set__requestedServerDirectory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____requestedServerDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& System::Net::FtpControlStream::__get__responseUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseUri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::FtpControlStream::__get__responseUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseUri;
 }
 constexpr void System::Net::FtpControlStream::__set__responseUri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::FtpLoginState& System::Net::FtpControlStream::__get__loginState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loginState;
 }
 constexpr ::System::Net::FtpLoginState const& System::Net::FtpControlStream::__get__loginState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loginState;
 }
 constexpr void System::Net::FtpControlStream::__set__loginState(::System::Net::FtpLoginState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loginState = value;
 }
 constexpr ::System::Net::FtpStatusCode& System::Net::FtpControlStream::__get_StatusCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatusCode;
 }
 constexpr ::System::Net::FtpStatusCode const& System::Net::FtpControlStream::__get_StatusCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatusCode;
 }
 constexpr void System::Net::FtpControlStream::__set_StatusCode(::System::Net::FtpStatusCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___StatusCode = value;
 }
 constexpr ::StringW& System::Net::FtpControlStream::__get_StatusLine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatusLine;
 }
 constexpr ::StringW const& System::Net::FtpControlStream::__get_StatusLine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatusLine;
 }
 constexpr void System::Net::FtpControlStream::__set_StatusLine(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___StatusLine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::FtpControlStream::setStaticF_s_acceptCallbackDelegate(::System::AsyncCallback* value) {

@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_3)
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class __PlaceholderFactory_3___get_ParamTypes_d__2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class IFactory;
-}
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TValue> class __PlaceholderFactory_3___get_ParamTypes_d__2;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
 namespace System {
-class IDisposable;
+class Type;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -173,7 +173,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4823 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4823 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11008))
 // CS Name: ::Zenject::PlaceholderFactory`3<TParam1,TParam2,TValue>*
 class CORDL_TYPE PlaceholderFactory_3 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {

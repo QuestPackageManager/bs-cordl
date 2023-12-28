@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLevelProductModelSO)
 namespace GlobalNamespace {
-class __SonyLevelProductModelSO__LevelPackProductData;
-}
-namespace GlobalNamespace {
 class __SonyLevelProductModelSO__LevelPackRedirectionData;
 }
 namespace GlobalNamespace {
 class __SonyLevelProductModelSO__LevelProductData;
+}
+namespace GlobalNamespace {
+class __SonyLevelProductModelSO__LevelPackProductData;
 }
 namespace System {
 template <typename T> class IComparable_1;

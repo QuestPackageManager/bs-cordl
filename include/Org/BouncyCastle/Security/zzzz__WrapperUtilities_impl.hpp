@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Org::BouncyCastle::Security::__WrapperUtilities__WrapAlgorithm::__WrapperUtilities__WrapAlgorithm(int32_t value__) noexcept {
   this->value__ = value__;
@@ -104,27 +104,27 @@ constexpr Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper
   return static_cast<::Org::BouncyCastle::Crypto::IWrapper*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper::__get_cipher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper::__get_cipher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
 constexpr void Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper::__set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cipher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper::__get_forWrapping() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forWrapping;
 }
 constexpr bool const& Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper::__get_forWrapping() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forWrapping;
 }
 constexpr void Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper::__set_forWrapping(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forWrapping = value;
 }
 inline ::Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper*

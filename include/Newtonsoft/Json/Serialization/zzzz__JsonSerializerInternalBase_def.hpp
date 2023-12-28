@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(JsonSerializerInternalBase)
 namespace Newtonsoft::Json::Serialization {
 class ErrorContext;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
@@ -18,23 +18,23 @@ template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json::Serialization {
 class __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace System {
-class Exception;
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerProxy;
+}
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+namespace System {
+class Exception;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__SoapServices_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Runtime/Remoting/zzzz__SoapServices_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/zzzz__SoapServices_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::__SoapServices__TypeInfo._ctor
 template <>
 
@@ -21,27 +21,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::__SoapServices__TypeInfo::__get_Attributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Attributes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Remoting::__SoapServices__TypeInfo::__get_Attributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Attributes;
 }
 constexpr void System::Runtime::Remoting::__SoapServices__TypeInfo::__set_Attributes(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::__SoapServices__TypeInfo::__get_Elements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Elements;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Remoting::__SoapServices__TypeInfo::__get_Elements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Elements;
 }
 constexpr void System::Runtime::Remoting::__SoapServices__TypeInfo::__set_Elements(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::__SoapServices__TypeInfo* System::Runtime::Remoting::__SoapServices__TypeInfo::New_ctor() {

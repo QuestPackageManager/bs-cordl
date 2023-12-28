@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(BeatAvatar)
 namespace BeatSaber::BeatAvatarSDK {
 class BeatAvatarPoseController;
 }
-namespace BeatSaber::BeatAvatarSDK {
-class BeatAvatarVisualController;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class BeatAvatarVisualController;
 }
 namespace BeatSaber::AvatarCore {
 struct AvatarPoseData;
@@ -20,11 +20,11 @@ struct AvatarPoseData;
 namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {

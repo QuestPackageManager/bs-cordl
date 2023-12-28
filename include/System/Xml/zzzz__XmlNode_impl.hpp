@@ -2,17 +2,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Xml/zzzz__XmlNodeList_def.hpp"
-#include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlNode._ctor
 template <>
 
@@ -756,15 +756,15 @@ constexpr System::Xml::XmlNode::operator ::System::Collections::IEnumerable*() n
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlNode*& System::Xml::XmlNode::__get_parentNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& System::Xml::XmlNode::__get_parentNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentNode;
 }
 constexpr void System::Xml::XmlNode::__set_parentNode(::System::Xml::XmlNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parentNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::XmlNode* System::Xml::XmlNode::New_ctor() {

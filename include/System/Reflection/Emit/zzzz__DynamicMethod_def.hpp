@@ -9,32 +9,32 @@ CORDL_MODULE_EXPORT(DynamicMethod)
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System {
-class Object;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
-namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System {
-struct RuntimeMethodHandle;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
-class MethodInfo;
+struct MethodAttributes;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Reflection {
+class Binder;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

@@ -2,8 +2,8 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__StepGenerationType_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Stairs_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -127,87 +127,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_StepGenerationType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StepGenerationType;
 }
 constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_StepGenerationType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StepGenerationType;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_StepGenerationType(::UnityEngine::ProBuilder::Shapes::StepGenerationType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StepGenerationType = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_StepsHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StepsHeight;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_StepsHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StepsHeight;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_StepsHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StepsHeight = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_StepsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StepsCount;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_StepsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StepsCount;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_StepsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StepsCount = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_HomogeneousSteps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HomogeneousSteps;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_HomogeneousSteps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HomogeneousSteps;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_HomogeneousSteps(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HomogeneousSteps = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_Circumference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Circumference;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_Circumference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Circumference;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_Circumference(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Circumference = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_Sides() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Sides;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_Sides() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Sides;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_Sides(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Sides = value;
 }
 constexpr float_t& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_InnerRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InnerRadius;
 }
 constexpr float_t const& UnityEngine::ProBuilder::Shapes::Stairs::__get_m_InnerRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InnerRadius;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Stairs::__set_m_InnerRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InnerRadius = value;
 }
 inline bool UnityEngine::ProBuilder::Shapes::Stairs::get_sides() {

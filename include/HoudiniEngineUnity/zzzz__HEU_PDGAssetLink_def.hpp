@@ -12,31 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PDGAssetLink)
 namespace HoudiniEngineUnity {
-struct __HEU_PDGAssetLink__LinkState;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace HoudiniEngineUnity {
 class HEU_TOPWorkResult;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemInfo;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class TOPNodeTags;
+class HEU_ReloadEventData;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_NodeInfo;
@@ -44,32 +26,50 @@ struct HAPI_NodeInfo;
 namespace HoudiniEngineUnity {
 class __HEU_PDGAssetLink__UpdateUIDelegate;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemResultInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_ReloadEventData;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_TOPNetworkData;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_TOPNodeData;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_PDGAssetLink__LinkState;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedEventData;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemResultInfo;
+}
+namespace HoudiniEngineUnity {
+class TOPNodeTags;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_WorkItemTally;
 }
-namespace System {
-class IAsyncResult;
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
@@ -192,7 +192,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_PDGAss
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9766)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9766))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9768))
 // CS Name: ::HoudiniEngineUnity::HEU_PDGAssetLink*
 class CORDL_TYPE HEU_PDGAssetLink : public ::UnityEngine::MonoBehaviour {

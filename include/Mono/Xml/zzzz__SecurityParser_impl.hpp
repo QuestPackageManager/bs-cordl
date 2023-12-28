@@ -149,39 +149,39 @@ constexpr Mono::Xml::SecurityParser::operator ::Mono::Xml::__SmallXmlParser__ICo
   return static_cast<::Mono::Xml::__SmallXmlParser__IContentHandler*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::SecurityElement*& Mono::Xml::SecurityParser::__get_root() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& Mono::Xml::SecurityParser::__get_root() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
 constexpr void Mono::Xml::SecurityParser::__set_root(::System::Security::SecurityElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::SecurityElement*& Mono::Xml::SecurityParser::__get_current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& Mono::Xml::SecurityParser::__get_current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr void Mono::Xml::SecurityParser::__set_current(::System::Security::SecurityElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Stack*& Mono::Xml::SecurityParser::__get_stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& Mono::Xml::SecurityParser::__get_stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
 }
 constexpr void Mono::Xml::SecurityParser::__set_stack(::System::Collections::Stack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Xml::SecurityParser* Mono::Xml::SecurityParser::New_ctor() {

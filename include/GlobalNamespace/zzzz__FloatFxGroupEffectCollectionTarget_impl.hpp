@@ -50,17 +50,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*>&
 GlobalNamespace::FloatFxGroupEffectCollectionTarget::__get__floatFxGroupEffectTargets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxGroupEffectTargets;
 }
 constexpr ::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*> const&
 GlobalNamespace::FloatFxGroupEffectCollectionTarget::__get__floatFxGroupEffectTargets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxGroupEffectTargets;
 }
 constexpr void GlobalNamespace::FloatFxGroupEffectCollectionTarget::__set__floatFxGroupEffectTargets(
     ::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxGroupEffectTargets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FloatFxGroupEffectCollectionTarget::SetValue(float_t value) {

@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IOAsyncResult)
-namespace System::Threading {
-class ManualResetEvent;
-}
 namespace System {
 class IAsyncResult;
 }
@@ -18,6 +15,9 @@ class WaitHandle;
 }
 namespace System {
 class Object;
+}
+namespace System::Threading {
+class ManualResetEvent;
 }
 // Forward declare root types
 namespace System {

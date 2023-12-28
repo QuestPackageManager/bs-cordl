@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(State)
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine::UIElements {
-struct TextureId;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

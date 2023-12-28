@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IKeyboardEvent"
@@ -12,39 +12,39 @@ template <typename T> constexpr UnityEngine::UIElements::KeyboardEventBase_1<T>:
   return static_cast<::UnityEngine::UIElements::IKeyboardEvent*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::KeyboardEventBase_1<T>::__get__modifiers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::KeyboardEventBase_1<T>::__get__modifiers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::KeyboardEventBase_1<T>::__set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifiers_k__BackingField = value;
 }
 template <typename T> constexpr char16_t& UnityEngine::UIElements::KeyboardEventBase_1<T>::__get__character_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____character_k__BackingField;
 }
 template <typename T> constexpr char16_t const& UnityEngine::UIElements::KeyboardEventBase_1<T>::__get__character_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____character_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::KeyboardEventBase_1<T>::__set__character_k__BackingField(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____character_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::KeyCode& UnityEngine::UIElements::KeyboardEventBase_1<T>::__get__keyCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyCode_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::KeyCode const& UnityEngine::UIElements::KeyboardEventBase_1<T>::__get__keyCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyCode_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::KeyboardEventBase_1<T>::__set__keyCode_k__BackingField(::UnityEngine::KeyCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyCode_k__BackingField = value;
 }
 template <typename T> inline ::UnityEngine::EventModifiers UnityEngine::UIElements::KeyboardEventBase_1<T>::get_modifiers() {

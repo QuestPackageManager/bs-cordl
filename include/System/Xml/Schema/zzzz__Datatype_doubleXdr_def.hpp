@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_doubleXdr)
 namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System {
 class Object;
-}
-namespace System::Xml {
-class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

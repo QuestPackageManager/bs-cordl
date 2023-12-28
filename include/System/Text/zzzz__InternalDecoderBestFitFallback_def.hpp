@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalDecoderBestFitFallback)
 namespace System::Text {
-class DecoderFallbackBuffer;
+class Encoding;
 }
 namespace System {
 class Object;
 }
 namespace System::Text {
-class Encoding;
+class DecoderFallbackBuffer;
 }
 // Forward declare root types
 namespace System::Text {

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBaseBase_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
 template <typename TValue> constexpr Zenject::StaticMemoryPoolBaseBase_1<TValue>::operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept {
@@ -21,39 +21,39 @@ template <typename TValue> constexpr Zenject::StaticMemoryPoolBaseBase_1<TValue>
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::Collections::Generic::Stack_1<TValue>*& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TValue>*> const& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 template <typename TValue> constexpr void Zenject::StaticMemoryPoolBaseBase_1<TValue>::__set__stack(::System::Collections::Generic::Stack_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr ::System::Action_1<TValue>*& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__onDespawnedMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onDespawnedMethod;
 }
 template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__onDespawnedMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onDespawnedMethod;
 }
 template <typename TValue> constexpr void Zenject::StaticMemoryPoolBaseBase_1<TValue>::__set__onDespawnedMethod(::System::Action_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onDespawnedMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr int32_t& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__activeCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeCount;
 }
 template <typename TValue> constexpr int32_t const& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__get__activeCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeCount;
 }
 template <typename TValue> constexpr void Zenject::StaticMemoryPoolBaseBase_1<TValue>::__set__activeCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____activeCount = value;
 }
 template <typename TValue> inline ::Zenject::StaticMemoryPoolBaseBase_1<TValue>* Zenject::StaticMemoryPoolBaseBase_1<TValue>::New_ctor(::System::Action_1<TValue>* onDespawnedMethod) {

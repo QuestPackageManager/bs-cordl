@@ -7,9 +7,6 @@ CORDL_MODULE_EXPORT(CertificationRequestInfo)
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
@@ -21,6 +18,9 @@ class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

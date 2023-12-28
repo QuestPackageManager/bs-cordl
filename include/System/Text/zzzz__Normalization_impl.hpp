@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__Normalization_def.hpp"
-#include "System/Text/zzzz__NormalizationForm_def.hpp"
-#include "System/Text/zzzz__NormalizationCheck_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__NormalizationCheck_def.hpp"
+#include "System/Text/zzzz__NormalizationForm_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::System::Text::Normalization.PropValue
 template <>
 

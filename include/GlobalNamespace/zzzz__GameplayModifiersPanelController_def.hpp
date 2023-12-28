@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(GameplayModifiersPanelController)
 namespace HMUI {
 class ToggleBinder;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class GameplayModifierToggle;
-}
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System {
 class Action;
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 class __GameplayModifiersPanelController____c__DisplayClass16_0;
 }
 namespace GlobalNamespace {
-class IRefreshable;
+class GameplayModifierToggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

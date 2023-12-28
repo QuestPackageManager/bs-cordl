@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Collections/zzzz__SortedList_impl.hpp"
 #include "System/Collections/zzzz__SortedList_SyncSortedList_def.hpp"
-#include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__SortedList_def.hpp"
 //  Writing Method size for method: ::System::Collections::__SortedList__SyncSortedList._ctor
 template <>
 
@@ -374,27 +374,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::SortedList*& System::Collections::__SortedList__SyncSortedList::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& System::Collections::__SortedList__SyncSortedList::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void System::Collections::__SortedList__SyncSortedList::__set__list(::System::Collections::SortedList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Collections::__SortedList__SyncSortedList::__get__root() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____root;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::__SortedList__SyncSortedList::__get__root() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____root;
 }
 constexpr void System::Collections::__SortedList__SyncSortedList::__set__root(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::__SortedList__SyncSortedList* System::Collections::__SortedList__SyncSortedList::New_ctor(::System::Collections::SortedList* list) {

@@ -45,27 +45,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::Configuration::SettingsSectionInternal::__get_HttpListenerUnescapeRequestUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HttpListenerUnescapeRequestUrl;
 }
 constexpr bool const& System::Net::Configuration::SettingsSectionInternal::__get_HttpListenerUnescapeRequestUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HttpListenerUnescapeRequestUrl;
 }
 constexpr void System::Net::Configuration::SettingsSectionInternal::__set_HttpListenerUnescapeRequestUrl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HttpListenerUnescapeRequestUrl = value;
 }
 constexpr ::System::Net::Sockets::IPProtectionLevel& System::Net::Configuration::SettingsSectionInternal::__get_IPProtectionLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IPProtectionLevel;
 }
 constexpr ::System::Net::Sockets::IPProtectionLevel const& System::Net::Configuration::SettingsSectionInternal::__get_IPProtectionLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IPProtectionLevel;
 }
 constexpr void System::Net::Configuration::SettingsSectionInternal::__set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IPProtectionLevel = value;
 }
 inline void System::Net::Configuration::SettingsSectionInternal::setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value) {

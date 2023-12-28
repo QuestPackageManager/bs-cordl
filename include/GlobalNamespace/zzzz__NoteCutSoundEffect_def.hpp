@@ -9,7 +9,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteCutSoundEffect)
 namespace GlobalNamespace {
-class Saber;
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
@@ -18,28 +24,22 @@ namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class NoteController;
+class __NoteCutSoundEffect__Pool;
 }
 namespace GlobalNamespace {
-class INoteCutSoundEffectDidFinishEvent;
+class NoteController;
 }
 namespace GlobalNamespace {
 template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+class INoteCutSoundEffectDidFinishEvent;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace GlobalNamespace {
+class Saber;
 }
 namespace UnityEngine {
 class AnimationCurve;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class __NoteCutSoundEffect__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -439,8 +439,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutSoundEff
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4070)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2823 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4069)) CS Name: ::NoteCutSoundEffect::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2823 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4069)) CS Name: ::NoteCutSoundEffect::Pool*
 class CORDL_TYPE __NoteCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteCutSoundEffect*> {
 public:
   // Declarations

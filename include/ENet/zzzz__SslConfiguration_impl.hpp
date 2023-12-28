@@ -1,9 +1,9 @@
 #pragma once
 #include "ENet/zzzz__ENetSslConfiguration_impl.hpp"
 #include "ENet/zzzz__SslConfiguration_def.hpp"
+#include "ENet/zzzz__SslMode_def.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "ENet/zzzz__SslMode_def.hpp"
 //  Writing Method size for method: ::ENet::SslConfiguration.get_NativeSslConfiguration
 template <>
 

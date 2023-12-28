@@ -8,9 +8,9 @@
 #include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
 #include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink._ctor
@@ -28,27 +28,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::__get_effector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effector;
 }
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::__get_effector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effector;
 }
 constexpr void GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::__set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___effector = value;
 }
 constexpr float_t& GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 inline ::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink* GlobalNamespace::__Recoil__RecoilOffset__EffectorLink::New_ctor() {
@@ -106,78 +106,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void RootMotion::FinalIK::__Recoil__RecoilOffset::__set_offset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_additivity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additivity;
 }
 constexpr float_t const& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_additivity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additivity;
 }
 constexpr void RootMotion::FinalIK::__Recoil__RecoilOffset::__set_additivity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___additivity = value;
 }
 constexpr float_t& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_maxAdditiveOffsetMag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAdditiveOffsetMag;
 }
 constexpr float_t const& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_maxAdditiveOffsetMag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAdditiveOffsetMag;
 }
 constexpr void RootMotion::FinalIK::__Recoil__RecoilOffset::__set_maxAdditiveOffsetMag(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxAdditiveOffsetMag = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*, ::Array<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*>*>&
 RootMotion::FinalIK::__Recoil__RecoilOffset::__get_effectorLinks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectorLinks;
 }
 constexpr ::ArrayW<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*, ::Array<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*>*> const&
 RootMotion::FinalIK::__Recoil__RecoilOffset::__get_effectorLinks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectorLinks;
 }
 constexpr void RootMotion::FinalIK::__Recoil__RecoilOffset::__set_effectorLinks(
     ::ArrayW<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*, ::Array<::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___effectorLinks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_additiveOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additiveOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_additiveOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additiveOffset;
 }
 constexpr void RootMotion::FinalIK::__Recoil__RecoilOffset::__set_additiveOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___additiveOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_lastOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__Recoil__RecoilOffset::__get_lastOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastOffset;
 }
 constexpr void RootMotion::FinalIK::__Recoil__RecoilOffset::__set_lastOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastOffset = value;
 }
 inline void RootMotion::FinalIK::__Recoil__RecoilOffset::Start() {
@@ -377,279 +377,279 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::AimIK*& RootMotion::FinalIK::Recoil::__get_aimIK() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aimIK;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::AimIK*> const& RootMotion::FinalIK::Recoil::__get_aimIK() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aimIK;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_aimIK(::RootMotion::FinalIK::AimIK* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___aimIK)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::Recoil::__get_aimIKSolvedLast() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aimIKSolvedLast;
 }
 constexpr bool const& RootMotion::FinalIK::Recoil::__get_aimIKSolvedLast() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aimIKSolvedLast;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_aimIKSolvedLast(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___aimIKSolvedLast = value;
 }
 constexpr ::RootMotion::FinalIK::__Recoil__Handedness& RootMotion::FinalIK::Recoil::__get_handedness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handedness;
 }
 constexpr ::RootMotion::FinalIK::__Recoil__Handedness const& RootMotion::FinalIK::Recoil::__get_handedness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handedness;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_handedness(::RootMotion::FinalIK::__Recoil__Handedness value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handedness = value;
 }
 constexpr bool& RootMotion::FinalIK::Recoil::__get_twoHanded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twoHanded;
 }
 constexpr bool const& RootMotion::FinalIK::Recoil::__get_twoHanded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twoHanded;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_twoHanded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twoHanded = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::Recoil::__get_recoilWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recoilWeight;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::Recoil::__get_recoilWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recoilWeight;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_recoilWeight(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recoilWeight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_magnitudeRandom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___magnitudeRandom;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_magnitudeRandom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___magnitudeRandom;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_magnitudeRandom(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___magnitudeRandom = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::Recoil::__get_rotationRandom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationRandom;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::Recoil::__get_rotationRandom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationRandom;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_rotationRandom(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationRandom = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::Recoil::__get_handRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRotationOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::Recoil::__get_handRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRotationOffset;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_handRotationOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handRotationOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_blendTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blendTime;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_blendTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blendTime;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_blendTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blendTime = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__Recoil__RecoilOffset*, ::Array<::RootMotion::FinalIK::__Recoil__RecoilOffset*>*>& RootMotion::FinalIK::Recoil::__get_offsets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsets;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__Recoil__RecoilOffset*, ::Array<::RootMotion::FinalIK::__Recoil__RecoilOffset*>*> const& RootMotion::FinalIK::Recoil::__get_offsets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offsets;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_offsets(::ArrayW<::RootMotion::FinalIK::__Recoil__RecoilOffset*, ::Array<::RootMotion::FinalIK::__Recoil__RecoilOffset*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___offsets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::Recoil::__get_rotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::Recoil::__get_rotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_rotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_magnitudeMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___magnitudeMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_magnitudeMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___magnitudeMlp;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_magnitudeMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___magnitudeMlp = value;
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_endTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endTime;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_endTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endTime;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_endTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endTime = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::Recoil::__get_handRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::Recoil::__get_handRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRotation;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_handRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::Recoil::__get_secondaryHandRelativeRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secondaryHandRelativeRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::Recoil::__get_secondaryHandRelativeRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secondaryHandRelativeRotation;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_secondaryHandRelativeRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___secondaryHandRelativeRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::Recoil::__get_randomRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___randomRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::Recoil::__get_randomRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___randomRotation;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_randomRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___randomRotation = value;
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___length = value;
 }
 constexpr bool& RootMotion::FinalIK::Recoil::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::Recoil::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_blendWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blendWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_blendWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blendWeight;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_blendWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blendWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::Recoil::__get_w() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w;
 }
 constexpr float_t const& RootMotion::FinalIK::Recoil::__get_w() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___w;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_w(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___w = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::Recoil::__get_primaryHandRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___primaryHandRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::Recoil::__get_primaryHandRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___primaryHandRotation;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_primaryHandRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___primaryHandRotation = value;
 }
 constexpr bool& RootMotion::FinalIK::Recoil::__get_handRotationsSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRotationsSet;
 }
 constexpr bool const& RootMotion::FinalIK::Recoil::__get_handRotationsSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRotationsSet;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_handRotationsSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handRotationsSet = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::Recoil::__get_aimIKAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aimIKAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::Recoil::__get_aimIKAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aimIKAxis;
 }
 constexpr void RootMotion::FinalIK::Recoil::__set_aimIKAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___aimIKAxis = value;
 }
 inline bool RootMotion::FinalIK::Recoil::get_isFinished() {

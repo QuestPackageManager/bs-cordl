@@ -11,14 +11,14 @@ template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredV
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
-}
 namespace System {
 class Action;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -88,7 +88,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 1127 }), TypeDefinitionIndex(TypeDefinitionIndex(2767))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 1127 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3364))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredValueTaskAwaitable_1 {

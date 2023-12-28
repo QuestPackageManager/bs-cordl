@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gradient)
 namespace UnityEngine {
-struct GradientMode;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct Color;
+struct GradientAlphaKey;
 }
 namespace UnityEngine {
 struct GradientColorKey;
 }
-namespace UnityEngine {
-struct GradientAlphaKey;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct GradientMode;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {

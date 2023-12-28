@@ -14,73 +14,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IgnoranceConnectionManager)
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__ConnectToServerParams;
+class IConnection;
 }
-namespace IgnoranceCore {
-struct IgnoranceChannelTypes;
-}
-namespace System {
-class Action;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__StartServerParams;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___DisposeAsync_d__77;
-}
-namespace System {
-class IDisposable;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 class __IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
+}
+namespace IgnoranceCore {
+class IgnoranceClient;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
 }
 namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+struct __IgnoranceConnectionManager__ConnectionState;
+}
+namespace GlobalNamespace {
 class __IgnoranceConnectionManager____c__DisplayClass77_0;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
-}
-namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass77_1;
-}
-namespace GlobalNamespace {
-class __IgnoranceConnectionManager__IgnoranceConnection;
 }
 namespace BGNet::Core {
 class ITimeProvider;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace GlobalNamespace {
-class IConnectionRequestHandler;
-}
-namespace IgnoranceCore {
-class IgnoranceClient;
-}
-namespace IgnoranceCore {
-class IgnoranceServer;
+class IPollable;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -88,35 +52,71 @@ template <typename T1, typename T2> class Action_2;
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
-namespace GlobalNamespace {
-class IConnection;
+namespace System::Threading {
+class CancellationTokenSource;
 }
-namespace GlobalNamespace {
-struct __IgnoranceConnectionManager__ConnectionState;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
+namespace System {
+class Action;
+}
+namespace IgnoranceCore {
+struct IgnoranceChannelTypes;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+struct __IgnoranceConnectionManager___DisposeAsync_d__77;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+class __IgnoranceConnectionManager__ConnectToServerParams;
+}
+namespace GlobalNamespace {
+class __IgnoranceConnectionManager__IgnoranceConnection;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+class __IgnoranceConnectionManager__StartServerParams;
+}
+namespace System {
+class IDisposable;
+}
+namespace IgnoranceCore {
+class IgnoranceServer;
+}
+namespace GlobalNamespace {
+class __IgnoranceConnectionManager____c__DisplayClass77_1;
+}
+namespace GlobalNamespace {
+class IConnectionRequestHandler;
+}
+namespace GlobalNamespace {
+struct __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -768,7 +768,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConn
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12794))
 // CS Name: ::IgnoranceConnectionManager::<DisposeAsync>d__77
 struct CORDL_TYPE __IgnoranceConnectionManager___DisposeAsync_d__77 {
@@ -818,7 +818,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConn
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12795))
 // CS Name: ::IgnoranceConnectionManager::<BackgroundDisconnectSentry>d__99
 struct CORDL_TYPE __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99 {
@@ -873,7 +873,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConn
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12787)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12787))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12796))
 // CS Name: ::IgnoranceConnectionManager*
 class CORDL_TYPE IgnoranceConnectionManager : public ::System::Object {

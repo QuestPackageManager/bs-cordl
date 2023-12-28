@@ -59,39 +59,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Xml::Base64Encoder::__get_leftOverBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftOverBytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Xml::Base64Encoder::__get_leftOverBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftOverBytes;
 }
 constexpr void System::Xml::Base64Encoder::__set_leftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftOverBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::Base64Encoder::__get_leftOverBytesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftOverBytesCount;
 }
 constexpr int32_t const& System::Xml::Base64Encoder::__get_leftOverBytesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftOverBytesCount;
 }
 constexpr void System::Xml::Base64Encoder::__set_leftOverBytesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftOverBytesCount = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Xml::Base64Encoder::__get_charsLine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charsLine;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Xml::Base64Encoder::__get_charsLine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charsLine;
 }
 constexpr void System::Xml::Base64Encoder::__set_charsLine(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charsLine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Base64Encoder* System::Xml::Base64Encoder::New_ctor() {

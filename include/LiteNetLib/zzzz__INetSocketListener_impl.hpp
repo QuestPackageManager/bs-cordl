@@ -1,7 +1,7 @@
 #pragma once
 #include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::INetSocketListener.OnMessageReceived
 template <>
 

@@ -5,33 +5,33 @@
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>::__CacheDict_2__Entry() {}
 template <typename TKey, typename TValue> constexpr int32_t& System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__get__mask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mask;
 }
 template <typename TKey, typename TValue> constexpr int32_t const& System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__get__mask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mask;
 }
 template <typename TKey, typename TValue> constexpr void System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__set__mask(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mask = value;
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*>&
 System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__get__entries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> const&
 System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__get__entries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 template <typename TKey, typename TValue>
 constexpr void System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__set__entries(
     ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> inline ::System::Dynamic::Utils::CacheDict_2<TKey, TValue>* System::Dynamic::Utils::CacheDict_2<TKey, TValue>::New_ctor(int32_t size) {

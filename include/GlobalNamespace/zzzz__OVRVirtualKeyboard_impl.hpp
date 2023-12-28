@@ -6,32 +6,32 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRVirtualKeyboard_def.hpp"
-#include "GlobalNamespace/zzzz__OVRVirtualKeyboard_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRHand_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "GlobalNamespace/zzzz__OVRVirtualKeyboard_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__InputField_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__OVRPhysicsRaycaster_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
+#include "GlobalNamespace/zzzz__OVRHand_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__OVRPhysicsRaycaster_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "GlobalNamespace/zzzz__OVRBone_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
@@ -165,43 +165,43 @@ constexpr GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*> const&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6::__set___4__this(
     ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride___RevertInteractorOverrides_d__6*
@@ -341,32 +341,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::__get_applyQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___applyQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*> const&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::__get_applyQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___applyQueue;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::__set_applyQueue(
     ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___applyQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::__get_revertQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revertQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>*> const&
 GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::__get_revertQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revertQueue;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::__set_revertQueue(
     ::System::Collections::Generic::Queue_1<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride__InteractorRootOverrideData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___revertQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride::Enqueue(::UnityEngine::Transform* interactorRootTransform,
@@ -528,27 +528,27 @@ constexpr GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::operator ::Sys
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::__get__operatingWithoutOVRCameraRig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____operatingWithoutOVRCameraRig;
 }
 constexpr bool const& GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::__get__operatingWithoutOVRCameraRig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____operatingWithoutOVRCameraRig;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::__set__operatingWithoutOVRCameraRig(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____operatingWithoutOVRCameraRig = value;
 }
 constexpr ::GlobalNamespace::OVRCameraRig*& GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::__get__rig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rig;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::__get__rig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rig;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::__set__rig(::GlobalNamespace::OVRCameraRig* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource* GlobalNamespace::__OVRVirtualKeyboard__BaseInputSource::New_ctor() {
@@ -634,87 +634,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__rootTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__rootTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootTransform;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__rootTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rootTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__directTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__directTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directTransform;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__directTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__inputSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputSource;
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__inputSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputSource;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__inputSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inputSource = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__Controller& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__controllerType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerType;
 }
 constexpr ::GlobalNamespace::__OVRInput__Controller const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__controllerType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerType;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__controllerType(::GlobalNamespace::__OVRInput__Controller value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____controllerType = value;
 }
 constexpr ::GlobalNamespace::OVRVirtualKeyboard*& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__keyboard() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyboard;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRVirtualKeyboard*> const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__keyboard() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyboard;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__keyboard(::GlobalNamespace::OVRVirtualKeyboard* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyboard)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__lastFrameCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameCount;
 }
 constexpr int32_t const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__lastFrameCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameCount;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__lastFrameCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameCount = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__triggerButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triggerButton;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__get__triggerButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triggerButton;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::__set__triggerButton(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____triggerButton = value;
 }
 inline bool GlobalNamespace::__OVRVirtualKeyboard__ControllerInputSource::get_TriggerIsPressed() {
@@ -878,63 +878,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OVRHand*& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__hand() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hand;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__hand() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hand;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__set__hand(::GlobalNamespace::OVRHand* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hand)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__inputSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputSource;
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InputSource const& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__inputSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputSource;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__set__inputSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inputSource = value;
 }
 constexpr ::GlobalNamespace::OVRVirtualKeyboard*& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__keyboard() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyboard;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRVirtualKeyboard*> const& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__keyboard() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyboard;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__set__keyboard(::GlobalNamespace::OVRVirtualKeyboard* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyboard)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSkeleton*& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__skeleton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skeleton;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__skeleton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skeleton;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__set__skeleton(::GlobalNamespace::OVRSkeleton* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skeleton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__lastFrameCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameCount;
 }
 constexpr int32_t const& GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__get__lastFrameCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameCount;
 }
 constexpr void GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::__set__lastFrameCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameCount = value;
 }
 inline ::GlobalNamespace::__OVRVirtualKeyboard__HandInputSource* GlobalNamespace::__OVRVirtualKeyboard__HandInputSource::New_ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard,
@@ -1738,428 +1738,428 @@ constexpr GlobalNamespace::OVRVirtualKeyboard::operator ::GlobalNamespace::__OVR
   return static_cast<::GlobalNamespace::__OVRManager__EventListener*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::StringW>*& GlobalNamespace::OVRVirtualKeyboard::__get_CommitText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CommitText;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& GlobalNamespace::OVRVirtualKeyboard::__get_CommitText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CommitText;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_CommitText(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CommitText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::OVRVirtualKeyboard::__get_Backspace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Backspace;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRVirtualKeyboard::__get_Backspace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Backspace;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_Backspace(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Backspace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::OVRVirtualKeyboard::__get_Enter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Enter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRVirtualKeyboard::__get_Enter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Enter;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_Enter(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Enter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::OVRVirtualKeyboard::__get_KeyboardShown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyboardShown;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRVirtualKeyboard::__get_KeyboardShown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyboardShown;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_KeyboardShown(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___KeyboardShown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::OVRVirtualKeyboard::__get_KeyboardHidden() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyboardHidden;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::OVRVirtualKeyboard::__get_KeyboardHidden() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyboardHidden;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_KeyboardHidden(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___KeyboardHidden)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Collider*& GlobalNamespace::OVRVirtualKeyboard::__get__Collider_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Collider_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& GlobalNamespace::OVRVirtualKeyboard::__get__Collider_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Collider_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set__Collider_k__BackingField(::UnityEngine::Collider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Collider_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition& GlobalNamespace::OVRVirtualKeyboard::__get_InitialPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialPosition;
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition const& GlobalNamespace::OVRVirtualKeyboard::__get_InitialPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialPosition;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_InitialPosition(::GlobalNamespace::__OVRVirtualKeyboard__KeyboardPosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InitialPosition = value;
 }
 constexpr ::UnityEngine::UI::InputField*& GlobalNamespace::OVRVirtualKeyboard::__get_textCommitField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textCommitField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::InputField*> const& GlobalNamespace::OVRVirtualKeyboard::__get_textCommitField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textCommitField;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_textCommitField(::UnityEngine::UI::InputField* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textCommitField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRVirtualKeyboard::__get_leftControllerRootTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftControllerRootTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRVirtualKeyboard::__get_leftControllerRootTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftControllerRootTransform;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_leftControllerRootTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftControllerRootTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRVirtualKeyboard::__get_leftControllerDirectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftControllerDirectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRVirtualKeyboard::__get_leftControllerDirectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftControllerDirectTransform;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_leftControllerDirectTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftControllerDirectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRVirtualKeyboard::__get_rightControllerRootTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightControllerRootTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRVirtualKeyboard::__get_rightControllerRootTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightControllerRootTransform;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_rightControllerRootTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightControllerRootTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::OVRVirtualKeyboard::__get_rightControllerDirectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightControllerDirectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::OVRVirtualKeyboard::__get_rightControllerDirectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightControllerDirectTransform;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_rightControllerDirectTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightControllerDirectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_controllerDirectInteraction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerDirectInteraction;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_controllerDirectInteraction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerDirectInteraction;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_controllerDirectInteraction(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerDirectInteraction = value;
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_controllerRayInteraction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRayInteraction;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_controllerRayInteraction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRayInteraction;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_controllerRayInteraction(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerRayInteraction = value;
 }
 constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster*& GlobalNamespace::OVRVirtualKeyboard::__get_controllerRaycaster() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRaycaster;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::OVRPhysicsRaycaster*> const& GlobalNamespace::OVRVirtualKeyboard::__get_controllerRaycaster() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerRaycaster;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_controllerRaycaster(::UnityEngine::EventSystems::OVRPhysicsRaycaster* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___controllerRaycaster)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRHand*& GlobalNamespace::OVRVirtualKeyboard::__get_handLeft() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handLeft;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& GlobalNamespace::OVRVirtualKeyboard::__get_handLeft() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handLeft;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_handLeft(::GlobalNamespace::OVRHand* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handLeft)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRHand*& GlobalNamespace::OVRVirtualKeyboard::__get_handRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRight;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRHand*> const& GlobalNamespace::OVRVirtualKeyboard::__get_handRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRight;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_handRight(::GlobalNamespace::OVRHand* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handRight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_handDirectInteraction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handDirectInteraction;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_handDirectInteraction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handDirectInteraction;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_handDirectInteraction(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handDirectInteraction = value;
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_handRayInteraction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRayInteraction;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_handRayInteraction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRayInteraction;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_handRayInteraction(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handRayInteraction = value;
 }
 constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster*& GlobalNamespace::OVRVirtualKeyboard::__get_handRaycaster() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRaycaster;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::OVRPhysicsRaycaster*> const& GlobalNamespace::OVRVirtualKeyboard::__get_handRaycaster() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handRaycaster;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_handRaycaster(::UnityEngine::EventSystems::OVRPhysicsRaycaster* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handRaycaster)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardModelShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardModelShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardModelShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardModelShader;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_keyboardModelShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyboardModelShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardModelAlphaBlendShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardModelAlphaBlendShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardModelAlphaBlendShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardModelAlphaBlendShader;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_keyboardModelAlphaBlendShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyboardModelAlphaBlendShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_InputEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InputEnabled;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_InputEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InputEnabled;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_InputEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InputEnabled = value;
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_isKeyboardCreated_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isKeyboardCreated_;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_isKeyboardCreated_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isKeyboardCreated_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_isKeyboardCreated_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isKeyboardCreated_ = value;
 }
 constexpr uint64_t& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardSpace_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardSpace_;
 }
 constexpr uint64_t const& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardSpace_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardSpace_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_keyboardSpace_(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyboardSpace_ = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>*&
 GlobalNamespace::OVRVirtualKeyboard::__get_virtualKeyboardTextures_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualKeyboardTextures_;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>*> const&
 GlobalNamespace::OVRVirtualKeyboard::__get_virtualKeyboardTextures_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualKeyboardTextures_;
 }
 constexpr void
 GlobalNamespace::OVRVirtualKeyboard::__set_virtualKeyboardTextures_(::System::Collections::Generic::Dictionary_2<uint64_t, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___virtualKeyboardTextures_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRGLTFScene& GlobalNamespace::OVRVirtualKeyboard::__get_virtualKeyboardScene_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualKeyboardScene_;
 }
 constexpr ::GlobalNamespace::OVRGLTFScene const& GlobalNamespace::OVRVirtualKeyboard::__get_virtualKeyboardScene_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualKeyboardScene_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_virtualKeyboardScene_(::GlobalNamespace::OVRGLTFScene value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualKeyboardScene_ = value;
 }
 constexpr uint64_t& GlobalNamespace::OVRVirtualKeyboard::__get_virtualKeyboardModelKey_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualKeyboardModelKey_;
 }
 constexpr uint64_t const& GlobalNamespace::OVRVirtualKeyboard::__get_virtualKeyboardModelKey_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualKeyboardModelKey_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_virtualKeyboardModelKey_(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualKeyboardModelKey_ = value;
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_modelInitialized_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modelInitialized_;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_modelInitialized_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modelInitialized_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_modelInitialized_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modelInitialized_ = value;
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_modelAvailable_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modelAvailable_;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_modelAvailable_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modelAvailable_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_modelAvailable_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modelAvailable_ = value;
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardVisible_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardVisible_;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_keyboardVisible_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyboardVisible_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_keyboardVisible_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyboardVisible_ = value;
 }
 constexpr ::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*& GlobalNamespace::OVRVirtualKeyboard::__get__interactorRootTransformOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interactorRootTransformOverride;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride*> const&
 GlobalNamespace::OVRVirtualKeyboard::__get__interactorRootTransformOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____interactorRootTransformOverride;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set__interactorRootTransformOverride(::GlobalNamespace::__OVRVirtualKeyboard__InteractorRootTransformOverride* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____interactorRootTransformOverride)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>*& GlobalNamespace::OVRVirtualKeyboard::__get__inputSources() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputSources;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>*> const&
 GlobalNamespace::OVRVirtualKeyboard::__get__inputSources() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputSources;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set__inputSources(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRVirtualKeyboard__IInputSource*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputSources)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRVirtualKeyboard::__get_ignoreTextCommmitFieldOnValueChanged_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreTextCommmitFieldOnValueChanged_;
 }
 constexpr bool const& GlobalNamespace::OVRVirtualKeyboard::__get_ignoreTextCommmitFieldOnValueChanged_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreTextCommmitFieldOnValueChanged_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_ignoreTextCommmitFieldOnValueChanged_(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ignoreTextCommmitFieldOnValueChanged_ = value;
 }
 constexpr ::UnityEngine::UI::InputField*& GlobalNamespace::OVRVirtualKeyboard::__get_runtimeInputField_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runtimeInputField_;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::InputField*> const& GlobalNamespace::OVRVirtualKeyboard::__get_runtimeInputField_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runtimeInputField_;
 }
 constexpr void GlobalNamespace::OVRVirtualKeyboard::__set_runtimeInputField_(::UnityEngine::UI::InputField* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___runtimeInputField_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRVirtualKeyboard::setStaticF_singleton_(::GlobalNamespace::OVRVirtualKeyboard* value) {

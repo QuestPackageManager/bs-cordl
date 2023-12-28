@@ -10,16 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lease)
 namespace System::Runtime::Remoting::Lifetime {
-class __Lease__RenewalDelegate;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Runtime::Remoting::Lifetime {
-class ISponsor;
-}
-namespace System::Runtime::Remoting::Lifetime {
-class ILease;
+struct LeaseState;
 }
 namespace System::Collections {
 class Queue;
@@ -27,17 +18,26 @@ class Queue;
 namespace System {
 class Object;
 }
+namespace System::Runtime::Remoting::Lifetime {
+class ILease;
+}
+namespace System::Runtime::Remoting::Lifetime {
+class __Lease__RenewalDelegate;
+}
+namespace System::Collections {
+class ArrayList;
+}
 namespace System {
 struct TimeSpan;
 }
 namespace System::Runtime::Remoting::Lifetime {
-struct LeaseState;
-}
-namespace System {
-class AsyncCallback;
+class ISponsor;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {
@@ -97,8 +97,8 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifet
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3096)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2605)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2368))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3093)) CS Name: ::System.Runtime.Remoting.Lifetime::Lease*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(3096)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2484))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3093)) CS Name: ::System.Runtime.Remoting.Lifetime::Lease*
 class CORDL_TYPE Lease : public ::System::MarshalByRefObject {
 public:
   // Declarations

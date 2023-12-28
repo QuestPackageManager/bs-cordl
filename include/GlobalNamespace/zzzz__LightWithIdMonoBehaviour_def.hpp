@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIdMonoBehaviour)
 namespace GlobalNamespace {
-class LightWithIdManager;
+class ILightWithId;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class ILightWithId;
+class LightWithIdManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

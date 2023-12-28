@@ -3,9 +3,9 @@
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampTokenEvidence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampAndCrl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampAndCrl_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence._ctor
 template <>
 
@@ -118,17 +118,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>&
 Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__get_timeStampAndCrls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeStampAndCrls;
 }
 constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> const&
 Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__get_timeStampAndCrls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeStampAndCrls;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::__set_timeStampAndCrls(
     ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timeStampAndCrls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::New_ctor(

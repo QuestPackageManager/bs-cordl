@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__MeasureFunction_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaNode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Yoga::MeasureFunction._ctor
 template <>

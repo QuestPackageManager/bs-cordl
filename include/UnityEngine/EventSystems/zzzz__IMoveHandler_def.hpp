@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMoveHandler)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class AxisEventData;
 }
 namespace UnityEngine::EventSystems {
-class AxisEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

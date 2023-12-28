@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IPacketPool_1<T>"
 template <typename T> constexpr GlobalNamespace::PacketPool_1<T>::operator ::GlobalNamespace::IPacketPool_1<T>*() noexcept {
@@ -14,15 +14,15 @@ template <typename T> constexpr GlobalNamespace::PacketPool_1<T>::operator ::Glo
   return static_cast<::GlobalNamespace::IPacketPool*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T>*& GlobalNamespace::PacketPool_1<T>::__get__bag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bag;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentBag_1<T>*> const& GlobalNamespace::PacketPool_1<T>::__get__bag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bag;
 }
 template <typename T> constexpr void GlobalNamespace::PacketPool_1<T>::__set__bag(::System::Collections::Concurrent::ConcurrentBag_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T GlobalNamespace::PacketPool_1<T>::Obtain() {

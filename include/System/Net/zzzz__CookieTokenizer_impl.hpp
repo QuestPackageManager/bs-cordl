@@ -2,8 +2,8 @@
 #include "System/Net/zzzz__CookieToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieTokenizer_def.hpp"
-#include "System/Net/zzzz__CookieToken_def.hpp"
 #include "System/Net/zzzz__CookieTokenizer_def.hpp"
+#include "System/Net/zzzz__CookieToken_def.hpp"
 //  Writing Method size for method: ::System::Net::__CookieTokenizer__RecognizedAttribute._ctor
 template <>
 
@@ -308,123 +308,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::CookieTokenizer::__get_m_eofCookie() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eofCookie;
 }
 constexpr bool const& System::Net::CookieTokenizer::__get_m_eofCookie() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eofCookie;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_eofCookie(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_eofCookie = value;
 }
 constexpr int32_t& System::Net::CookieTokenizer::__get_m_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_index;
 }
 constexpr int32_t const& System::Net::CookieTokenizer::__get_m_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_index;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_index = value;
 }
 constexpr int32_t& System::Net::CookieTokenizer::__get_m_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_length;
 }
 constexpr int32_t const& System::Net::CookieTokenizer::__get_m_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_length;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_length = value;
 }
 constexpr ::StringW& System::Net::CookieTokenizer::__get_m_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr ::StringW const& System::Net::CookieTokenizer::__get_m_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::CookieTokenizer::__get_m_quoted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_quoted;
 }
 constexpr bool const& System::Net::CookieTokenizer::__get_m_quoted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_quoted;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_quoted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_quoted = value;
 }
 constexpr int32_t& System::Net::CookieTokenizer::__get_m_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_start;
 }
 constexpr int32_t const& System::Net::CookieTokenizer::__get_m_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_start;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_start = value;
 }
 constexpr ::System::Net::CookieToken& System::Net::CookieTokenizer::__get_m_token() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_token;
 }
 constexpr ::System::Net::CookieToken const& System::Net::CookieTokenizer::__get_m_token() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_token;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_token(::System::Net::CookieToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_token = value;
 }
 constexpr int32_t& System::Net::CookieTokenizer::__get_m_tokenLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tokenLength;
 }
 constexpr int32_t const& System::Net::CookieTokenizer::__get_m_tokenLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tokenLength;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_tokenLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_tokenLength = value;
 }
 constexpr ::StringW& System::Net::CookieTokenizer::__get_m_tokenStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tokenStream;
 }
 constexpr ::StringW const& System::Net::CookieTokenizer::__get_m_tokenStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tokenStream;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_tokenStream(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_tokenStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::CookieTokenizer::__get_m_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_value;
 }
 constexpr ::StringW const& System::Net::CookieTokenizer::__get_m_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_value;
 }
 constexpr void System::Net::CookieTokenizer::__set_m_value(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void

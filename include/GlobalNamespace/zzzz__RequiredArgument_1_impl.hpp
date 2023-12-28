@@ -2,15 +2,15 @@
 #include "GlobalNamespace/zzzz__ArgumentBase_impl.hpp"
 #include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
 template <typename T> constexpr T& GlobalNamespace::RequiredArgument_1<T>::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr T const& GlobalNamespace::RequiredArgument_1<T>::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 template <typename T> constexpr void GlobalNamespace::RequiredArgument_1<T>::__set__value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T GlobalNamespace::RequiredArgument_1<T>::get_value() {

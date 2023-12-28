@@ -7,14 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlRegisteredNonCachedStream)
+namespace System::IO {
+struct SeekOrigin;
+}
 namespace System::Xml {
 class XmlDownloadManager;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System {
 class Object;
@@ -22,8 +19,11 @@ class Object;
 namespace System {
 class IAsyncResult;
 }
+namespace System {
+class AsyncCallback;
+}
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {

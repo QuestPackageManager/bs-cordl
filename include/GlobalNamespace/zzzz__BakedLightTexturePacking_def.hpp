@@ -10,13 +10,13 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace UnityEngine {
-struct RenderTextureDescriptor;
-}
-namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace GlobalNamespace {

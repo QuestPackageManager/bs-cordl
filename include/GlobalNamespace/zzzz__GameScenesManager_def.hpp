@@ -12,23 +12,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameScenesManager)
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace Zenject {
+class ZenjectSceneLoader;
+}
+namespace GlobalNamespace {
+class __GameScenesManager___ScenesTransitionCoroutine_d__38;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass33_0;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass31_0;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass38_0;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class __GameScenesManager__ScenesStackData;
 }
 namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass32_0;
+}
+namespace GlobalNamespace {
+struct __GameScenesManager__SceneDismissType;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass35_0;
+}
+namespace GlobalNamespace {
+class __GameScenesManager____c__DisplayClass30_0;
+}
+namespace GlobalNamespace {
+class SceneInfo;
+}
+namespace GlobalNamespace {
 class __GameScenesManager____c__DisplayClass34_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Action;
 }
 namespace UnityEngine {
 class WaitUntil;
@@ -39,59 +78,20 @@ struct __GameScenesManager__ScenePresentType;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass30_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass38_0;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace Zenject {
-class ZenjectSceneLoader;
-}
-namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class __GameScenesManager___ScenesTransitionCoroutine_d__38;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass31_0;
-}
-namespace GlobalNamespace {
-struct __GameScenesManager__SceneDismissType;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass33_0;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass32_0;
-}
-namespace GlobalNamespace {
-class __GameScenesManager____c__DisplayClass35_0;
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::EventSystems {
 class EventSystem;
 }
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -979,8 +979,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameScenesMan
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15397)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15396)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15405)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15396)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15405)) CS Name:
 // ::GameScenesManager::<ScenesTransitionCoroutine>d__38*
 class CORDL_TYPE __GameScenesManager___ScenesTransitionCoroutine_d__38 : public ::System::Object {
 public:

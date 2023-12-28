@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CircleTouchable)
 namespace UnityEngine {
-struct Vector2;
+class Camera;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
-class Camera;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;

@@ -10,14 +10,14 @@ template <typename T0> class UnityAction_1;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
 }
 namespace HMUI {
 class InputFieldView;
 }
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HMUI {

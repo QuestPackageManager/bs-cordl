@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventDispatcherGate)
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -14,8 +14,8 @@ template <typename T> class IEquatable_1;
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements {
-class EventDispatcher;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

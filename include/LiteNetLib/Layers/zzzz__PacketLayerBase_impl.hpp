@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& LiteNetLib::Layers::PacketLayerBase::__get_ExtraPacketSizeForLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExtraPacketSizeForLayer;
 }
 constexpr int32_t const& LiteNetLib::Layers::PacketLayerBase::__get_ExtraPacketSizeForLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExtraPacketSizeForLayer;
 }
 constexpr void LiteNetLib::Layers::PacketLayerBase::__set_ExtraPacketSizeForLayer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ExtraPacketSizeForLayer = value;
 }
 inline ::LiteNetLib::Layers::PacketLayerBase* LiteNetLib::Layers::PacketLayerBase::New_ctor(int32_t extraPacketSizeForLayer) {

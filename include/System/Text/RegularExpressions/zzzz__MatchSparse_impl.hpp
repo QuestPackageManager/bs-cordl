@@ -2,8 +2,8 @@
 #include "System/Text/RegularExpressions/zzzz__Match_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__MatchSparse_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::MatchSparse._ctor
 template <>
 
@@ -40,15 +40,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::MatchSparse::__get__caps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____caps;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::MatchSparse::__get__caps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____caps;
 }
 constexpr void System::Text::RegularExpressions::MatchSparse::__set__caps(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____caps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Text::RegularExpressions::MatchSparse* System::Text::RegularExpressions::MatchSparse::New_ctor(::System::Text::RegularExpressions::Regex* regex,

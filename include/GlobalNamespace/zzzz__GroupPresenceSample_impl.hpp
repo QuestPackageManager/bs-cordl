@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GroupPresenceSample_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
-#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchInvitePanelFlowResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
+#include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"
+#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GroupPresenceSample.Start
 template <>
 
@@ -405,123 +405,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::GroupPresenceSample::__get_IsJoinable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsJoinable;
 }
 constexpr bool const& GlobalNamespace::GroupPresenceSample::__get_IsJoinable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsJoinable;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_IsJoinable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsJoinable = value;
 }
 constexpr ::StringW& GlobalNamespace::GroupPresenceSample::__get_LobbySessionID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LobbySessionID;
 }
 constexpr ::StringW const& GlobalNamespace::GroupPresenceSample::__get_LobbySessionID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LobbySessionID;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_LobbySessionID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LobbySessionID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::GroupPresenceSample::__get_MatchSessionID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MatchSessionID;
 }
 constexpr ::StringW const& GlobalNamespace::GroupPresenceSample::__get_MatchSessionID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MatchSessionID;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_MatchSessionID(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MatchSessionID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint64_t& GlobalNamespace::GroupPresenceSample::__get_SuggestedUserID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SuggestedUserID;
 }
 constexpr uint64_t const& GlobalNamespace::GroupPresenceSample::__get_SuggestedUserID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SuggestedUserID;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_SuggestedUserID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SuggestedUserID = value;
 }
 constexpr ::UnityEngine::UI::Text*& GlobalNamespace::GroupPresenceSample::__get_InVRConsole() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InVRConsole;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& GlobalNamespace::GroupPresenceSample::__get_InVRConsole() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InVRConsole;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_InVRConsole(::UnityEngine::UI::Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InVRConsole)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Text*& GlobalNamespace::GroupPresenceSample::__get_DestinationsConsole() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationsConsole;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& GlobalNamespace::GroupPresenceSample::__get_DestinationsConsole() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationsConsole;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_DestinationsConsole(::UnityEngine::UI::Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DestinationsConsole)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::GroupPresenceSample::__get_DestinationAPINames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationAPINames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::GroupPresenceSample::__get_DestinationAPINames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationAPINames;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_DestinationAPINames(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DestinationAPINames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint64_t& GlobalNamespace::GroupPresenceSample::__get_LoggedInUserID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LoggedInUserID;
 }
 constexpr uint64_t const& GlobalNamespace::GroupPresenceSample::__get_LoggedInUserID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LoggedInUserID;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_LoggedInUserID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LoggedInUserID = value;
 }
 constexpr int32_t& GlobalNamespace::GroupPresenceSample::__get_DestinationIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationIndex;
 }
 constexpr int32_t const& GlobalNamespace::GroupPresenceSample::__get_DestinationIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationIndex;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_DestinationIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DestinationIndex = value;
 }
 constexpr bool& GlobalNamespace::GroupPresenceSample::__get_OnlyPushUpOnce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnlyPushUpOnce;
 }
 constexpr bool const& GlobalNamespace::GroupPresenceSample::__get_OnlyPushUpOnce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnlyPushUpOnce;
 }
 constexpr void GlobalNamespace::GroupPresenceSample::__set_OnlyPushUpOnce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OnlyPushUpOnce = value;
 }
 inline void GlobalNamespace::GroupPresenceSample::Start() {

@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5SharedPackageSKUsSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS5PublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS5SharedPackageSKUsSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS5PublisherSKUSettingsSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType::__PS5SharedPackageSKUsSO__BuildType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -59,27 +59,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__get__masterVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
 constexpr ::StringW const& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__get__masterVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
 constexpr void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__set__masterVersion(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__get__contentVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentVersion;
 }
 constexpr ::StringW const& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__get__contentVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentVersion;
 }
 constexpr void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__set__contentVersion(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contentVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_masterVersion() {
@@ -203,64 +203,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*>& GlobalNamespace::PS5SharedPackageSKUsSO::__get__availableSKUs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____availableSKUs;
 }
 constexpr ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> const&
 GlobalNamespace::PS5SharedPackageSKUsSO::__get__availableSKUs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____availableSKUs;
 }
 constexpr void GlobalNamespace::PS5SharedPackageSKUsSO::__set__availableSKUs(::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____availableSKUs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PS5SharedPackageSKUsSO::__get__conceptId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____conceptId;
 }
 constexpr ::StringW const& GlobalNamespace::PS5SharedPackageSKUsSO::__get__conceptId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____conceptId;
 }
 constexpr void GlobalNamespace::PS5SharedPackageSKUsSO::__set__conceptId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____conceptId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType& GlobalNamespace::PS5SharedPackageSKUsSO::__get__buildType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildType;
 }
 constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType const& GlobalNamespace::PS5SharedPackageSKUsSO::__get__buildType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildType;
 }
 constexpr void GlobalNamespace::PS5SharedPackageSKUsSO::__set__buildType(::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____buildType = value;
 }
 constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*& GlobalNamespace::PS5SharedPackageSKUsSO::__get__buildVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildVersion;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*> const& GlobalNamespace::PS5SharedPackageSKUsSO::__get__buildVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildVersion;
 }
 constexpr void GlobalNamespace::PS5SharedPackageSKUsSO::__set__buildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buildVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*& GlobalNamespace::PS5SharedPackageSKUsSO::__get__latestBuildVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latestBuildVersion;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*> const& GlobalNamespace::PS5SharedPackageSKUsSO::__get__latestBuildVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latestBuildVersion;
 }
 constexpr void GlobalNamespace::PS5SharedPackageSKUsSO::__set__latestBuildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____latestBuildVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> GlobalNamespace::PS5SharedPackageSKUsSO::get_availableSKUs() {

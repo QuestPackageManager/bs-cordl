@@ -133,51 +133,51 @@ constexpr GlobalNamespace::LobbyPlayerData::operator ::GlobalNamespace::ILevelGa
   return static_cast<::GlobalNamespace::ILevelGameplaySetupData*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::LobbyPlayerData::__get__isPartyOwner_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartyOwner_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerData::__get__isPartyOwner_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartyOwner_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerData::__set__isPartyOwner_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPartyOwner_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerData::__get__isActive_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActive_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerData::__get__isActive_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActive_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerData::__set__isActive_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isActive_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerData::__get__isReady_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReady_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerData::__get__isReady_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReady_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerData::__set__isReady_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isReady_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerData::__get__isInLobby_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInLobby_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerData::__get__isInLobby_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isInLobby_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerData::__set__isInLobby_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isInLobby_k__BackingField = value;
 }
 inline bool GlobalNamespace::LobbyPlayerData::get_isPartyOwner() {

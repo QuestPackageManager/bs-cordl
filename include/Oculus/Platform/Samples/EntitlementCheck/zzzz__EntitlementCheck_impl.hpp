@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/Samples/EntitlementCheck/zzzz__EntitlementCheck_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck.add_UserFailedEntitlementCheck
 template <>
 
@@ -124,15 +124,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::__get_exitAppOnFailure() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exitAppOnFailure;
 }
 constexpr bool const& Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::__get_exitAppOnFailure() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exitAppOnFailure;
 }
 constexpr void Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::__set_exitAppOnFailure(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___exitAppOnFailure = value;
 }
 inline void Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::setStaticF_UserFailedEntitlementCheck(::System::Action* value) {

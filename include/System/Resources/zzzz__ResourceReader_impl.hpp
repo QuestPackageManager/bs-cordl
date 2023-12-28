@@ -1,21 +1,21 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
-#include "System/Resources/zzzz__IResourceReader_def.hpp"
-#include "System/Resources/zzzz__ResourceLocator_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
+#include "System/Resources/zzzz__ResourceLocator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Resources/zzzz__ResourceTypeCode_def.hpp"
-#include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Resources/zzzz__IResourceReader_def.hpp"
 #include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: ::System::Resources::__ResourceReader__ResourceEnumerator._ctor
 template <>
@@ -146,51 +146,51 @@ constexpr System::Resources::__ResourceReader__ResourceEnumerator::operator ::Sy
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Resources::ResourceReader*& System::Resources::__ResourceReader__ResourceEnumerator::__get__reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& System::Resources::__ResourceReader__ResourceEnumerator::__get__reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 constexpr void System::Resources::__ResourceReader__ResourceEnumerator::__set__reader(::System::Resources::ResourceReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Resources::__ResourceReader__ResourceEnumerator::__get__currentIsValid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentIsValid;
 }
 constexpr bool const& System::Resources::__ResourceReader__ResourceEnumerator::__get__currentIsValid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentIsValid;
 }
 constexpr void System::Resources::__ResourceReader__ResourceEnumerator::__set__currentIsValid(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentIsValid = value;
 }
 constexpr int32_t& System::Resources::__ResourceReader__ResourceEnumerator::__get__currentName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentName;
 }
 constexpr int32_t const& System::Resources::__ResourceReader__ResourceEnumerator::__get__currentName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentName;
 }
 constexpr void System::Resources::__ResourceReader__ResourceEnumerator::__set__currentName(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentName = value;
 }
 constexpr int32_t& System::Resources::__ResourceReader__ResourceEnumerator::__get__dataPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataPosition;
 }
 constexpr int32_t const& System::Resources::__ResourceReader__ResourceEnumerator::__get__dataPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataPosition;
 }
 constexpr void System::Resources::__ResourceReader__ResourceEnumerator::__set__dataPosition(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dataPosition = value;
 }
 inline ::System::Resources::__ResourceReader__ResourceEnumerator* System::Resources::__ResourceReader__ResourceEnumerator::New_ctor(::System::Resources::ResourceReader* reader) {
@@ -629,172 +629,172 @@ constexpr System::Resources::ResourceReader::operator ::System::IDisposable*() n
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::BinaryReader*& System::Resources::ResourceReader::__get__store() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____store;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& System::Resources::ResourceReader::__get__store() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____store;
 }
 constexpr void System::Resources::ResourceReader::__set__store(::System::IO::BinaryReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____store)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& System::Resources::ResourceReader::__get__resCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const&
 System::Resources::ResourceReader::__get__resCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resCache;
 }
 constexpr void System::Resources::ResourceReader::__set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Resources::ResourceReader::__get__nameSectionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameSectionOffset;
 }
 constexpr int64_t const& System::Resources::ResourceReader::__get__nameSectionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameSectionOffset;
 }
 constexpr void System::Resources::ResourceReader::__set__nameSectionOffset(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nameSectionOffset = value;
 }
 constexpr int64_t& System::Resources::ResourceReader::__get__dataSectionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataSectionOffset;
 }
 constexpr int64_t const& System::Resources::ResourceReader::__get__dataSectionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataSectionOffset;
 }
 constexpr void System::Resources::ResourceReader::__set__dataSectionOffset(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dataSectionOffset = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Resources::ResourceReader::__get__nameHashes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameHashes;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Resources::ResourceReader::__get__nameHashes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameHashes;
 }
 constexpr void System::Resources::ResourceReader::__set__nameHashes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameHashes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<int32_t>& System::Resources::ResourceReader::__get__nameHashesPtr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameHashesPtr;
 }
 constexpr ::cordl_internals::Ptr<int32_t> const& System::Resources::ResourceReader::__get__nameHashesPtr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameHashesPtr;
 }
 constexpr void System::Resources::ResourceReader::__set__nameHashesPtr(::cordl_internals::Ptr<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameHashesPtr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Resources::ResourceReader::__get__namePositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namePositions;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Resources::ResourceReader::__get__namePositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namePositions;
 }
 constexpr void System::Resources::ResourceReader::__set__namePositions(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namePositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<int32_t>& System::Resources::ResourceReader::__get__namePositionsPtr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namePositionsPtr;
 }
 constexpr ::cordl_internals::Ptr<int32_t> const& System::Resources::ResourceReader::__get__namePositionsPtr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namePositionsPtr;
 }
 constexpr void System::Resources::ResourceReader::__set__namePositionsPtr(::cordl_internals::Ptr<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namePositionsPtr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>& System::Resources::ResourceReader::__get__typeTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeTable;
 }
 constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> const& System::Resources::ResourceReader::__get__typeTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeTable;
 }
 constexpr void System::Resources::ResourceReader::__set__typeTable(::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Resources::ResourceReader::__get__typeNamePositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeNamePositions;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Resources::ResourceReader::__get__typeNamePositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeNamePositions;
 }
 constexpr void System::Resources::ResourceReader::__set__typeNamePositions(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeNamePositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& System::Resources::ResourceReader::__get__objFormatter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objFormatter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*> const& System::Resources::ResourceReader::__get__objFormatter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objFormatter;
 }
 constexpr void System::Resources::ResourceReader::__set__objFormatter(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objFormatter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Resources::ResourceReader::__get__numResources() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numResources;
 }
 constexpr int32_t const& System::Resources::ResourceReader::__get__numResources() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numResources;
 }
 constexpr void System::Resources::ResourceReader::__set__numResources(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numResources = value;
 }
 constexpr ::System::IO::UnmanagedMemoryStream*& System::Resources::ResourceReader::__get__ums() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ums;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::UnmanagedMemoryStream*> const& System::Resources::ResourceReader::__get__ums() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ums;
 }
 constexpr void System::Resources::ResourceReader::__set__ums(::System::IO::UnmanagedMemoryStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ums)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Resources::ResourceReader::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr int32_t const& System::Resources::ResourceReader::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void System::Resources::ResourceReader::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 inline ::System::Resources::ResourceReader* System::Resources::ResourceReader::New_ctor(::System::IO::Stream* stream,

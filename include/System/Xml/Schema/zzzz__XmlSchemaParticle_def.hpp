@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(XmlSchemaParticle)
 namespace System::Xml::Schema {
 struct __XmlSchemaParticle__Occurs;
 }
-namespace System {
-struct Decimal;
-}
 namespace System::Xml::Schema {
 class __XmlSchemaParticle__EmptyParticle;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XmlSchema
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11732)), TypeDefinitionIndex(TypeDefinitionIndex(11714))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11732)), TypeDefinitionIndex(TypeDefinitionIndex(2655))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11734))
 // CS Name: ::System.Xml.Schema::XmlSchemaParticle*
 class CORDL_TYPE XmlSchemaParticle : public ::System::Xml::Schema::XmlSchemaAnnotated {

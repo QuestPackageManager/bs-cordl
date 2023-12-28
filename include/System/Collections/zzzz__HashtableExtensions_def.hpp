@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(HashtableExtensions)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {

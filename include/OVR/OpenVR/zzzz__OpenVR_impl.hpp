@@ -1,22 +1,22 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__OpenVR_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRApplications_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
-#include "OVR/OpenVR/zzzz__OpenVR_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRSettings_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRScreenshots_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRChaperone_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRInput_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRChaperoneSetup_def.hpp"
-#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
 #include "OVR/OpenVR/zzzz__CVRTrackedCamera_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRExtendedDisplay_def.hpp"
+#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
+#include "OVR/OpenVR/zzzz__OpenVR_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRApplications_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRChaperoneSetup_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRInput_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRInitError_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRChaperone_def.hpp"
 #include "OVR/OpenVR/zzzz__CVRCompositor_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSettings_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRExtendedDisplay_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRScreenshots_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__OpenVR__COpenVRContext._ctor
 template <>
 
@@ -239,159 +239,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::CVRSystem*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSystem*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRSystem;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRSystem(::OVR::OpenVR::CVRSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRChaperone*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRChaperone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRChaperone;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRChaperone*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRChaperone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRChaperone;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRChaperone(::OVR::OpenVR::CVRChaperone* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRChaperone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRChaperoneSetup*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRChaperoneSetup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRChaperoneSetup;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRChaperoneSetup*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRChaperoneSetup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRChaperoneSetup;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRChaperoneSetup(::OVR::OpenVR::CVRChaperoneSetup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRChaperoneSetup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRCompositor*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRCompositor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRCompositor;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRCompositor*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRCompositor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRCompositor;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRCompositor(::OVR::OpenVR::CVRCompositor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRCompositor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVROverlay*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVROverlay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVROverlay;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVROverlay*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVROverlay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVROverlay;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVROverlay(::OVR::OpenVR::CVROverlay* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVROverlay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRRenderModels*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRRenderModels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRRenderModels;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRRenderModels*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRRenderModels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRRenderModels;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRRenderModels(::OVR::OpenVR::CVRRenderModels* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRRenderModels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRExtendedDisplay*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRExtendedDisplay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRExtendedDisplay;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRExtendedDisplay*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRExtendedDisplay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRExtendedDisplay;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRExtendedDisplay(::OVR::OpenVR::CVRExtendedDisplay* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRExtendedDisplay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRSettings*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSettings*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRSettings;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRSettings(::OVR::OpenVR::CVRSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRApplications*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRApplications() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRApplications;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRApplications*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRApplications() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRApplications;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRApplications(::OVR::OpenVR::CVRApplications* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRApplications)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRScreenshots*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRScreenshots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRScreenshots;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRScreenshots*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRScreenshots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRScreenshots;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRScreenshots(::OVR::OpenVR::CVRScreenshots* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRScreenshots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRTrackedCamera*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRTrackedCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRTrackedCamera;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRTrackedCamera*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRTrackedCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRTrackedCamera;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRTrackedCamera(::OVR::OpenVR::CVRTrackedCamera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRTrackedCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRInput*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRInput() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRInput;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRInput*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRInput() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRInput;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRInput(::OVR::OpenVR::CVRInput* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRInput)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::OVR::OpenVR::CVRSpatialAnchors*& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRSpatialAnchors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRSpatialAnchors;
 }
 constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSpatialAnchors*> const& OVR::OpenVR::__OpenVR__COpenVRContext::__get_m_pVRSpatialAnchors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pVRSpatialAnchors;
 }
 constexpr void OVR::OpenVR::__OpenVR__COpenVRContext::__set_m_pVRSpatialAnchors(::OVR::OpenVR::CVRSpatialAnchors* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pVRSpatialAnchors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::OVR::OpenVR::__OpenVR__COpenVRContext* OVR::OpenVR::__OpenVR__COpenVRContext::New_ctor() {

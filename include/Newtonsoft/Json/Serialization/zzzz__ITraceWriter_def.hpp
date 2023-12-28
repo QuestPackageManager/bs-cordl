@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITraceWriter)
-namespace System::Diagnostics {
-struct TraceLevel;
-}
 namespace System {
 class Exception;
+}
+namespace System::Diagnostics {
+struct TraceLevel;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

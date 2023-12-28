@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(NativeArrayDisposeJob)
-namespace Unity::Collections {
-struct NativeArrayDispose;
-}
 namespace Unity::Jobs {
 class IJob;
+}
+namespace Unity::Collections {
+struct NativeArrayDispose;
 }
 // Forward declare root types
 namespace Unity::Collections {

@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(ExplicitContentWarningViewController)
 namespace System {
 class Action;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class __ExplicitContentWarningViewController___MainCoroutine_d__9;
 }
@@ -18,14 +21,11 @@ class Button;
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

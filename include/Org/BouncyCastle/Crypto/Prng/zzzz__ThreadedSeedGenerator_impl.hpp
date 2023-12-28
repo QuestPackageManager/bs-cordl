@@ -64,27 +64,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::__get_counter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___counter;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::__get_counter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___counter;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::__set_counter(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___counter = value;
 }
 constexpr bool& Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::__get_stop() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stop;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::__get_stop() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stop;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::__set_stop(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stop = value;
 }
 inline void Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator::Run(::System::Object* ignored) {

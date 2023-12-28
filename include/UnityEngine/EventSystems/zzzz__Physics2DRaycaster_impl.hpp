@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__Physics2DRaycaster_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::Physics2DRaycaster._ctor
 template <>
 
@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*>& UnityEngine::EventSystems::Physics2DRaycaster::__get_m_Hits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Hits;
 }
 constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> const& UnityEngine::EventSystems::Physics2DRaycaster::__get_m_Hits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Hits;
 }
 constexpr void UnityEngine::EventSystems::Physics2DRaycaster::__set_m_Hits(::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Hits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::EventSystems::Physics2DRaycaster* UnityEngine::EventSystems::Physics2DRaycaster::New_ctor() {

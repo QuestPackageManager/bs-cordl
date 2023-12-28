@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRMeshSubsystem)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine::XR {
 struct __XRMeshSubsystem__MeshTransformList;
 }
 namespace UnityEngine::XR {
 struct MeshGenerationResult;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
@@ -71,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::__XRMeshSubsyst
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 }), TypeDefinitionIndex(TypeDefinitionIndex(15965))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15965)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
 // CS Name: ::UnityEngine.XR::XRMeshSubsystem*
 class CORDL_TYPE XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {

@@ -12,10 +12,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class LightRotationGroup;
+class LightRotationGroupEffect;
 }
 namespace GlobalNamespace {
-class LightRotationGroupEffect;
+class LightRotationGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {

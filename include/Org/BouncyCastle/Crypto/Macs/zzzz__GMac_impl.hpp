@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__GMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__GcmBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__GcmBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Macs::GMac._ctor
 template <>
@@ -141,27 +141,27 @@ constexpr Org::BouncyCastle::Crypto::Macs::GMac::operator ::Org::BouncyCastle::C
   return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*& Org::BouncyCastle::Crypto::Macs::GMac::__get_cipher() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*> const& Org::BouncyCastle::Crypto::Macs::GMac::__get_cipher() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::GMac::__set_cipher(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cipher)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Macs::GMac::__get_macSizeBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___macSizeBits;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::GMac::__get_macSizeBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___macSizeBits;
 }
 constexpr void Org::BouncyCastle::Crypto::Macs::GMac::__set_macSizeBits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___macSizeBits = value;
 }
 inline ::Org::BouncyCastle::Crypto::Macs::GMac* Org::BouncyCastle::Crypto::Macs::GMac::New_ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher) {

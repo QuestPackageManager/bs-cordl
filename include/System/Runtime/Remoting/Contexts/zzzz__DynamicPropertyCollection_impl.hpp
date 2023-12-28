@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicProperty_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg._ctor
@@ -22,29 +22,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty*& System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::__get_Property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Property;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::IDynamicProperty*> const&
 System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::__get_Property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Property;
 }
 constexpr void System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::__set_Property(::System::Runtime::Remoting::Contexts::IDynamicProperty* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::__get_Sink() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Sink;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::IDynamicMessageSink*> const&
 System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::__get_Sink() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Sink;
 }
 constexpr void System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::__set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Sink)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg* System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg::New_ctor() {
@@ -151,15 +151,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::Contexts::DynamicPropertyCollection::__get__properties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____properties;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::Contexts::DynamicPropertyCollection::__get__properties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____properties;
 }
 constexpr void System::Runtime::Remoting::Contexts::DynamicPropertyCollection::__set__properties(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____properties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool System::Runtime::Remoting::Contexts::DynamicPropertyCollection::get_HasProperties() {

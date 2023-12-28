@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ParameterData)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace UnityEngine {
-class Gradient;
-}
 namespace UnityEngine {
 class GUIContent;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -25,11 +25,11 @@ class AnimationCurve;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
-class HEU_InputNode;
+template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterData);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 329, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9734))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9734)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9760))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterData*
 class CORDL_TYPE HEU_ParameterData : public ::System::Object {

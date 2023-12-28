@@ -8,30 +8,30 @@
 #include "Newtonsoft/Json/zzzz__StringEscapeHandling_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriterException_def.hpp"
 #include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__WriteState_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "Newtonsoft/Json/zzzz__WriteState_def.hpp"
+#include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::__JsonWriter__State::__JsonWriter__State(int32_t value__) noexcept {
   this->value__ = value__;
@@ -1614,135 +1614,135 @@ constexpr Newtonsoft::Json::JsonWriter::operator ::System::IDisposable*() noexce
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& Newtonsoft::Json::JsonWriter::__get__stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*> const& Newtonsoft::Json::JsonWriter::__get__stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::JsonPosition& Newtonsoft::Json::JsonWriter::__get__currentPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPosition;
 }
 constexpr ::Newtonsoft::Json::JsonPosition const& Newtonsoft::Json::JsonWriter::__get__currentPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPosition;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__currentPosition(::Newtonsoft::Json::JsonPosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentPosition = value;
 }
 constexpr ::Newtonsoft::Json::__JsonWriter__State& Newtonsoft::Json::JsonWriter::__get__currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentState;
 }
 constexpr ::Newtonsoft::Json::__JsonWriter__State const& Newtonsoft::Json::JsonWriter::__get__currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentState;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__currentState(::Newtonsoft::Json::__JsonWriter__State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentState = value;
 }
 constexpr ::Newtonsoft::Json::Formatting& Newtonsoft::Json::JsonWriter::__get__formatting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____formatting;
 }
 constexpr ::Newtonsoft::Json::Formatting const& Newtonsoft::Json::JsonWriter::__get__formatting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____formatting;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__formatting(::Newtonsoft::Json::Formatting value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____formatting = value;
 }
 constexpr bool& Newtonsoft::Json::JsonWriter::__get__CloseOutput_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CloseOutput_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::JsonWriter::__get__CloseOutput_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CloseOutput_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__CloseOutput_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CloseOutput_k__BackingField = value;
 }
 constexpr ::Newtonsoft::Json::DateFormatHandling& Newtonsoft::Json::JsonWriter::__get__dateFormatHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateFormatHandling;
 }
 constexpr ::Newtonsoft::Json::DateFormatHandling const& Newtonsoft::Json::JsonWriter::__get__dateFormatHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateFormatHandling;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__dateFormatHandling(::Newtonsoft::Json::DateFormatHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateFormatHandling = value;
 }
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling& Newtonsoft::Json::JsonWriter::__get__dateTimeZoneHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeZoneHandling;
 }
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& Newtonsoft::Json::JsonWriter::__get__dateTimeZoneHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeZoneHandling;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateTimeZoneHandling = value;
 }
 constexpr ::Newtonsoft::Json::StringEscapeHandling& Newtonsoft::Json::JsonWriter::__get__stringEscapeHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringEscapeHandling;
 }
 constexpr ::Newtonsoft::Json::StringEscapeHandling const& Newtonsoft::Json::JsonWriter::__get__stringEscapeHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringEscapeHandling;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__stringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stringEscapeHandling = value;
 }
 constexpr ::Newtonsoft::Json::FloatFormatHandling& Newtonsoft::Json::JsonWriter::__get__floatFormatHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFormatHandling;
 }
 constexpr ::Newtonsoft::Json::FloatFormatHandling const& Newtonsoft::Json::JsonWriter::__get__floatFormatHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFormatHandling;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__floatFormatHandling(::Newtonsoft::Json::FloatFormatHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatFormatHandling = value;
 }
 constexpr ::StringW& Newtonsoft::Json::JsonWriter::__get__dateFormatString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateFormatString;
 }
 constexpr ::StringW const& Newtonsoft::Json::JsonWriter::__get__dateFormatString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateFormatString;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__dateFormatString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dateFormatString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureInfo*& Newtonsoft::Json::JsonWriter::__get__culture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& Newtonsoft::Json::JsonWriter::__get__culture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr void Newtonsoft::Json::JsonWriter::__set__culture(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____culture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Newtonsoft::Json::JsonWriter::setStaticF_StateArray(::ArrayW<::ArrayW<::Newtonsoft::Json::__JsonWriter__State, ::Array<::Newtonsoft::Json::__JsonWriter__State>*>,

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
-namespace Mono::Security::X509 {
-class X509Extension;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Mono::Security {
 class ASN1;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Mono::Security::X509 {
+class X509Extension;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeforeRenderHelper)
-namespace UnityEngine {
-struct __BeforeRenderHelper__OrderBlock;
+namespace UnityEngine::Events {
+class UnityAction;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::Events {
-class UnityAction;
+namespace UnityEngine {
+struct __BeforeRenderHelper__OrderBlock;
 }
 // Forward declare root types
 namespace UnityEngine {

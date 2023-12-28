@@ -10,7 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainData)
 namespace UnityEngine {
-class TreePrototype;
+struct TreeInstance;
+}
+namespace UnityEngine {
+class TerrainLayer;
 }
 namespace UnityEngine {
 struct __TerrainData__BoundaryValueType;
@@ -19,16 +22,13 @@ namespace UnityEngine {
 class DetailPrototype;
 }
 namespace UnityEngine {
-struct TreeInstance;
+class TreePrototype;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Terrain;
-}
-namespace UnityEngine {
-class TerrainLayer;
 }
 // Forward declare root types
 namespace UnityEngine {

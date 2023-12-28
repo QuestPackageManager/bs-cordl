@@ -12,16 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColorsGradientFromColorSchemeColors)
 namespace GlobalNamespace {
-class __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element;
-}
-namespace GlobalNamespace {
-class EnvironmentColorManager;
-}
-namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
 }
 namespace GlobalNamespace {
+class __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element;
+}
+namespace GlobalNamespace {
 struct __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor;
+}
+namespace GlobalNamespace {
+class EnvironmentColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

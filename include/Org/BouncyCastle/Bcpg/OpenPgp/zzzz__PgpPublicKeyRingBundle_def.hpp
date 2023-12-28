@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpPublicKeyRingBundle)
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKeyRing;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System::IO {
 class Stream;
 }
@@ -24,6 +15,15 @@ class IEnumerable;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKeyRing;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

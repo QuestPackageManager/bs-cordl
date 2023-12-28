@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__StereoTargetEyeMask_impl.hpp"
 #include "GlobalNamespace/zzzz__FirstPersonFlyingController_def.hpp"
 #include "GlobalNamespace/zzzz__VRCenterAdjust_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "GlobalNamespace/zzzz__MouseLook_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
+#include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
+#include "GlobalNamespace/zzzz__MouseLook_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FirstPersonFlyingController.Awake
 template <>
 
@@ -99,171 +99,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::FirstPersonFlyingController::__get__moveSensitivity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveSensitivity;
 }
 constexpr float_t const& GlobalNamespace::FirstPersonFlyingController::__get__moveSensitivity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveSensitivity;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__moveSensitivity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveSensitivity = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::FirstPersonFlyingController::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::FirstPersonFlyingController::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Camera*& GlobalNamespace::FirstPersonFlyingController::__get__camera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____camera;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::FirstPersonFlyingController::__get__camera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____camera;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__camera(::UnityEngine::Camera* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FirstPersonFlyingController::__get__cameraFov() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraFov;
 }
 constexpr float_t const& GlobalNamespace::FirstPersonFlyingController::__get__cameraFov() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraFov;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__cameraFov(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraFov = value;
 }
 constexpr ::GlobalNamespace::VRCenterAdjust*& GlobalNamespace::FirstPersonFlyingController::__get__centerAdjust() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerAdjust;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRCenterAdjust*> const& GlobalNamespace::FirstPersonFlyingController::__get__centerAdjust() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerAdjust;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__centerAdjust(::GlobalNamespace::VRCenterAdjust* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerAdjust)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VRController*& GlobalNamespace::FirstPersonFlyingController::__get__controller0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller0;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& GlobalNamespace::FirstPersonFlyingController::__get__controller0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller0;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__controller0(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controller0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VRController*& GlobalNamespace::FirstPersonFlyingController::__get__controller1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller1;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& GlobalNamespace::FirstPersonFlyingController::__get__controller1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controller1;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__controller1(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controller1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>& GlobalNamespace::FirstPersonFlyingController::__get__controllerModels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerModels;
 }
 constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> const& GlobalNamespace::FirstPersonFlyingController::__get__controllerModels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllerModels;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__controllerModels(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllerModels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MouseLook*& GlobalNamespace::FirstPersonFlyingController::__get__mouseLook() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseLook;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MouseLook*> const& GlobalNamespace::FirstPersonFlyingController::__get__mouseLook() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseLook;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__mouseLook(::GlobalNamespace::MouseLook* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mouseLook)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver*& GlobalNamespace::FirstPersonFlyingController::__get__trackedPoseDriver() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackedPoseDriver;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpatialTracking::TrackedPoseDriver*> const& GlobalNamespace::FirstPersonFlyingController::__get__trackedPoseDriver() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackedPoseDriver;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__trackedPoseDriver(::UnityEngine::SpatialTracking::TrackedPoseDriver* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackedPoseDriver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::FirstPersonFlyingController::__get__shouldBeEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldBeEnabled;
 }
 constexpr bool const& GlobalNamespace::FirstPersonFlyingController::__get__shouldBeEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shouldBeEnabled;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__shouldBeEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shouldBeEnabled = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::FirstPersonFlyingController::__get__cameraTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::FirstPersonFlyingController::__get__cameraTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraTransform;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__cameraTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cameraTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::StereoTargetEyeMask& GlobalNamespace::FirstPersonFlyingController::__get__originalStereoTargetEyeMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalStereoTargetEyeMask;
 }
 constexpr ::UnityEngine::StereoTargetEyeMask const& GlobalNamespace::FirstPersonFlyingController::__get__originalStereoTargetEyeMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalStereoTargetEyeMask;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__originalStereoTargetEyeMask(::UnityEngine::StereoTargetEyeMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalStereoTargetEyeMask = value;
 }
 constexpr float_t& GlobalNamespace::FirstPersonFlyingController::__get__originalCameraFov() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalCameraFov;
 }
 constexpr float_t const& GlobalNamespace::FirstPersonFlyingController::__get__originalCameraFov() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalCameraFov;
 }
 constexpr void GlobalNamespace::FirstPersonFlyingController::__set__originalCameraFov(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalCameraFov = value;
 }
 inline void GlobalNamespace::FirstPersonFlyingController::Awake() {

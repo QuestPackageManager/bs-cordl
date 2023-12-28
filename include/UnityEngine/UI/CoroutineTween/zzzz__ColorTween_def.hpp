@@ -9,11 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorTween)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI::CoroutineTween {
-class ITweenValue;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::UI::CoroutineTween {
 struct __ColorTween__ColorTweenMode;
@@ -21,8 +18,11 @@ struct __ColorTween__ColorTweenMode;
 namespace UnityEngine::UI::CoroutineTween {
 class __ColorTween__ColorTweenCallback;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UI::CoroutineTween {
+class ITweenValue;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
@@ -128,7 +128,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CoroutineTween:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13151)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13153))
 // CS Name: ::UnityEngine.UI.CoroutineTween::ColorTween
 struct CORDL_TYPE ColorTween {

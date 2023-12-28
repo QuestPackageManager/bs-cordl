@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSpectatorController)
 namespace GlobalNamespace {
-class __MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
+class MultiplayerLocalInactivePlayerSongSyncController;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerSongSyncController;
+class MultiplayerController;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+class MultiplayerSpectatingSpotManager;
 }
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
+struct __MultiplayerController__State;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
 class __MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+class __MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,8 +2,8 @@
 #include "System/Collections/Generic/zzzz__Comparer_1_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__NullableComparer_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T> inline int32_t System::Collections::Generic::NullableComparer_1<T>::Compare(::System::Nullable_1<T> x, ::System::Nullable_1<T> y) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::NullableComparer_1<T>*>::get(), "Compare", std::vector<Il2CppClass*>{},

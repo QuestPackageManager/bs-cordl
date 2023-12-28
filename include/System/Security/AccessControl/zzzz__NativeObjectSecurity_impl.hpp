@@ -2,12 +2,12 @@
 #include "System/Security/AccessControl/zzzz__CommonObjectSecurity_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
-#include "System/Security/AccessControl/zzzz__ResourceType_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Security/AccessControl/zzzz__ResourceType_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode._ctor
 template <>
 
@@ -184,16 +184,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*& System::Security::AccessControl::NativeObjectSecurity::__get_exception_from_error_code() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exception_from_error_code;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode*> const&
 System::Security::AccessControl::NativeObjectSecurity::__get_exception_from_error_code() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exception_from_error_code;
 }
 constexpr void System::Security::AccessControl::NativeObjectSecurity::__set_exception_from_error_code(::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___exception_from_error_code)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::AccessControl::NativeObjectSecurity*

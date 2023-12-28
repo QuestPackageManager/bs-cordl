@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(IKdTree_2)
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTreeNode_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {

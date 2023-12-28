@@ -8,13 +8,13 @@ namespace Zenject {
 class TickableManager;
 }
 namespace Zenject {
-class InitializableManager;
+class DisposableManager;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class DisposableManager;
+class InitializableManager;
 }
 namespace Zenject {
 class InjectTypeInfo;

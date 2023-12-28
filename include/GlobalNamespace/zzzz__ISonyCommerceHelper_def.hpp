@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISonyCommerceHelper)
 namespace GlobalNamespace {
-struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+struct __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
 }
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
 }
 namespace GlobalNamespace {
-struct __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
-}
-namespace GlobalNamespace {
-struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
+struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {

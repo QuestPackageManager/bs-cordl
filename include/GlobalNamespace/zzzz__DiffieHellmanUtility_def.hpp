@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiffieHellmanUtility)
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__ElipticalCurveKeyPair;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IDiffieHellmanKeyPair;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__OperationTimer;
-}
-namespace Org::BouncyCastle::Crypto::Agreement {
-class DHBasicAgreement;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
-struct __DiffieHellmanUtility__KeyType;
-}
-namespace Org::BouncyCastle::Crypto::Agreement {
-class ECDHBasicAgreement;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
+class __DiffieHellmanUtility__ElipticalCurveKeyPair;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace GlobalNamespace {
 class __DiffieHellmanUtility__DiffieHellmanKeyPair;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace GlobalNamespace {
+struct __DiffieHellmanUtility__KeyType;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__OperationTimer;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace Org::BouncyCastle::Crypto::Agreement {
+class DHBasicAgreement;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class IDiffieHellmanKeyPair;
+}
+namespace Org::BouncyCastle::Crypto::Agreement {
+class ECDHBasicAgreement;
 }
 namespace GlobalNamespace {
 class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
@@ -59,11 +59,11 @@ class ECPrivateKeyParameters;
 namespace GlobalNamespace {
 class __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0;
 }
-namespace System::Diagnostics {
-class Stopwatch;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Diagnostics {
+class Stopwatch;
 }
 // Forward declare root types
 namespace GlobalNamespace {

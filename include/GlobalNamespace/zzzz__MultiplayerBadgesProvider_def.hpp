@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerBadgesProvider)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class MultiplayerBadgesModelSO;
-}
 namespace GlobalNamespace {
 class __MultiplayerBadgesProvider____c;
 }
@@ -19,10 +13,16 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class MultiplayerBadgesModelSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

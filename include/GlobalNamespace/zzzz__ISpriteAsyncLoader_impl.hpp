@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ISpriteAsyncLoader_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISpriteAsyncLoader.LoadSpriteAsync
 template <>

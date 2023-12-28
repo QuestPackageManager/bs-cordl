@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SignalOnPointerClick)
-namespace GlobalNamespace {
-class Signal;
-}
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
+}
+namespace GlobalNamespace {
+class Signal;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;

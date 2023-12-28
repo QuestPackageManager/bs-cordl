@@ -11,31 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHand)
 namespace GlobalNamespace {
-class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __OVRHand__Hand;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Step;
-}
-namespace GlobalNamespace {
-class __OVRMesh__IOVRMeshDataProvider;
+struct __OVRSkeleton__SkeletonPoseData;
 }
 namespace GlobalNamespace {
 class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 }
 namespace GlobalNamespace {
-struct __OVRMeshRenderer__MeshRendererData;
+class __OVRSkeleton__IOVRSkeletonDataProvider;
 }
 namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonPoseData;
+struct __OVRHand__Hand;
+}
+namespace GlobalNamespace {
+class __OVRMesh__IOVRMeshDataProvider;
 }
 namespace GlobalNamespace {
 struct __OVRHand__TrackingConfidence;
+}
+namespace GlobalNamespace {
+struct __OVRSkeletonRenderer__SkeletonRendererData;
+}
+namespace GlobalNamespace {
+class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRHand__HandFinger;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Step;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 struct __OVRMesh__MeshType;
@@ -44,16 +53,7 @@ namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonType;
 }
 namespace GlobalNamespace {
-struct __OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class __OVRSkeleton__IOVRSkeletonDataProvider;
-}
-namespace GlobalNamespace {
-struct __OVRHand__HandFinger;
+struct __OVRMeshRenderer__MeshRendererData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -241,8 +241,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHand__Trac
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8115)), TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(7771)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8113)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8113)), TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(7771)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
 class CORDL_TYPE OVRHand : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

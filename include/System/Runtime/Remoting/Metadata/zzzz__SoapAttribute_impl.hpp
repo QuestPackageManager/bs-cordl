@@ -65,39 +65,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Runtime::Remoting::Metadata::SoapAttribute::__get__useAttribute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useAttribute;
 }
 constexpr bool const& System::Runtime::Remoting::Metadata::SoapAttribute::__get__useAttribute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useAttribute;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapAttribute::__set__useAttribute(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useAttribute = value;
 }
 constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapAttribute::__get_ProtXmlNamespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ProtXmlNamespace;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapAttribute::__get_ProtXmlNamespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ProtXmlNamespace;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapAttribute::__set_ProtXmlNamespace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ProtXmlNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Runtime::Remoting::Metadata::SoapAttribute::__get_ReflectInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReflectInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Metadata::SoapAttribute::__get_ReflectInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReflectInfo;
 }
 constexpr void System::Runtime::Remoting::Metadata::SoapAttribute::__set_ReflectInfo(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReflectInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Metadata::SoapAttribute* System::Runtime::Remoting::Metadata::SoapAttribute::New_ctor() {

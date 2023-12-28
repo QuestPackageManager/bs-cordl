@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSettingsMenuViewController)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace HMUI {
-class TextSegmentedControl;
+namespace GlobalNamespace {
+class SettingsSubMenuInfo;
 }
 namespace HMUI {
 class SegmentedControl;
 }
-namespace GlobalNamespace {
-class SettingsSubMenuInfo;
+namespace HMUI {
+class TextSegmentedControl;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

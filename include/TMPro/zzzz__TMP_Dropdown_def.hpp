@@ -10,23 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Dropdown)
+namespace TMPro {
+class __TMP_Dropdown__OptionDataList;
+}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace TMPro {
 struct FloatTween;
-}
-namespace TMPro {
-class __TMP_Dropdown___DelayedDestroyDropdownList_d__81;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -34,56 +28,62 @@ class Image;
 namespace UnityEngine::UI {
 class Graphic;
 }
+namespace TMPro {
+class __TMP_Dropdown___DelayedDestroyDropdownList_d__81;
+}
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
+}
+namespace TMPro {
+class __TMP_Dropdown__DropdownEvent;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
 }
 namespace TMPro {
 class __TMP_Dropdown__OptionData;
 }
 namespace TMPro {
-class __TMP_Dropdown__DropdownEvent;
-}
-namespace TMPro {
 template <typename T> class TweenRunner_1;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace TMPro {
-class __TMP_Dropdown__OptionDataList;
-}
-namespace TMPro {
-class __TMP_Dropdown____c__DisplayClass69_0;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace TMPro {
-class TMP_Text;
-}
-namespace TMPro {
 class __TMP_Dropdown__DropdownItem;
 }
+namespace UnityEngine {
+class RectTransform;
+}
 namespace UnityEngine::EventSystems {
-class ICancelHandler;
+class PointerEventData;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace TMPro {
+class __TMP_Dropdown____c__DisplayClass69_0;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
@@ -406,7 +406,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_Dropdown__OptionDat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12350))
 // CS Name: ::TMP_Dropdown::DropdownEvent*
 class CORDL_TYPE __TMP_Dropdown__DropdownEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {

@@ -87,27 +87,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::__Message__Callback*& Oculus::Platform::Request::__get_callback_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback_;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message__Callback*> const& Oculus::Platform::Request::__get_callback_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback_;
 }
 constexpr void Oculus::Platform::Request::__set_callback_(::Oculus::Platform::__Message__Callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint64_t& Oculus::Platform::Request::__get__RequestID_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestID_k__BackingField;
 }
 constexpr uint64_t const& Oculus::Platform::Request::__get__RequestID_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestID_k__BackingField;
 }
 constexpr void Oculus::Platform::Request::__set__RequestID_k__BackingField(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____RequestID_k__BackingField = value;
 }
 inline ::Oculus::Platform::Request* Oculus::Platform::Request::New_ctor(uint64_t requestID) {

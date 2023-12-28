@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Decoder)
-namespace UnityOpus {
-struct SamplingFrequency;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityOpus {
+struct SamplingFrequency;
 }
 namespace UnityOpus {
 struct NumChannels;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityOpus::Decoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16215))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16215)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16212))
 // CS Name: ::UnityOpus::Decoder*
 class CORDL_TYPE Decoder : public ::System::Object {

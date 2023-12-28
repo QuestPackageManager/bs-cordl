@@ -11,22 +11,22 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System::Xml {
-class XmlNameTable;
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+struct LineInfo;
 }
 namespace System {
 class Exception;
+}
+namespace System::Xml {
+class IDtdEntityInfo;
 }
 namespace System {
 class Uri;
 }
 namespace System::Xml {
-struct LineInfo;
-}
-namespace System::Xml {
-class IDtdEntityInfo;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml {

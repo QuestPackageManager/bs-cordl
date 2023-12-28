@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__ICanvasRaycastFilter_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__ICanvasRaycastFilter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::CanvasGroup.get_alpha
 template <>
 

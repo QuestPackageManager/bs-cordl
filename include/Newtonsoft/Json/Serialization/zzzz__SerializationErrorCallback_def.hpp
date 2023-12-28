@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationErrorCallback)
-namespace Newtonsoft::Json::Serialization {
-class ErrorContext;
+namespace System {
+class AsyncCallback;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -14,8 +14,8 @@ struct StreamingContext;
 namespace System {
 class Object;
 }
-namespace System {
-class AsyncCallback;
+namespace Newtonsoft::Json::Serialization {
+class ErrorContext;
 }
 namespace System {
 class IAsyncResult;

@@ -15,51 +15,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::AutoSetupData::__get_selectBasedOnSuggestions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectBasedOnSuggestions;
 }
 constexpr bool const& GlobalNamespace::AutoSetupData::__get_selectBasedOnSuggestions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectBasedOnSuggestions;
 }
 constexpr void GlobalNamespace::AutoSetupData::__set_selectBasedOnSuggestions(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___selectBasedOnSuggestions = value;
 }
 constexpr bool& GlobalNamespace::AutoSetupData::__get_autoStartWhenAllReady() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoStartWhenAllReady;
 }
 constexpr bool const& GlobalNamespace::AutoSetupData::__get_autoStartWhenAllReady() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___autoStartWhenAllReady;
 }
 constexpr void GlobalNamespace::AutoSetupData::__set_autoStartWhenAllReady(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___autoStartWhenAllReady = value;
 }
 constexpr bool& GlobalNamespace::AutoSetupData::__get_forceAutoStartAfterSongSelection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceAutoStartAfterSongSelection;
 }
 constexpr bool const& GlobalNamespace::AutoSetupData::__get_forceAutoStartAfterSongSelection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceAutoStartAfterSongSelection;
 }
 constexpr void GlobalNamespace::AutoSetupData::__set_forceAutoStartAfterSongSelection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forceAutoStartAfterSongSelection = value;
 }
 constexpr bool& GlobalNamespace::AutoSetupData::__get_randomSongIfNoneSuggested() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___randomSongIfNoneSuggested;
 }
 constexpr bool const& GlobalNamespace::AutoSetupData::__get_randomSongIfNoneSuggested() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___randomSongIfNoneSuggested;
 }
 constexpr void GlobalNamespace::AutoSetupData::__set_randomSongIfNoneSuggested(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___randomSongIfNoneSuggested = value;
 }
 inline ::GlobalNamespace::AutoSetupData* GlobalNamespace::AutoSetupData::New_ctor() {

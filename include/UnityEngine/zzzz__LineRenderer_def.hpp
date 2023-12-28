@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LineRenderer)
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

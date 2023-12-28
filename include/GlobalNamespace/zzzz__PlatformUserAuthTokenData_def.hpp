@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformUserAuthTokenData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12924)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15982))
 // CS Name: ::PlatformUserAuthTokenData*
 class CORDL_TYPE PlatformUserAuthTokenData : public ::System::Object {

@@ -3,44 +3,44 @@
 #include "System/Reflection/zzzz__BindingFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolver_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__SerializationErrorCallback_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolver_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonDictionaryContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonStringContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonObjectContract_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__SerializationCallback_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolverState_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonStringContract_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__SerializationCallback_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolverState_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__SerializationErrorCallback_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonDictionaryContract_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonLinqContract_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonObjectContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
 template <typename TEnumeratorKey, typename TEnumeratorValue>
@@ -60,71 +60,71 @@ constexpr GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrappe
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr int32_t& GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr int32_t const& GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr void GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>&
 GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> const&
 GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr void GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__set___2__current(
     ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*&
 GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*> const&
 GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr void GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__set___4__this(
     ::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*&
 GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*> const&
 GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr void GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::__set___7__wrap1(
     ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
@@ -208,19 +208,19 @@ constexpr Newtonsoft::Json::Serialization::__DefaultContractResolver__Enumerable
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*&
 Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>::__get__e() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____e;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>::__get__e() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____e;
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>::__set__e(
     ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
@@ -494,28 +494,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::__get_getExtensionDataDictionary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getExtensionDataDictionary;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::__get_getExtensionDataDictionary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getExtensionDataDictionary;
 }
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::__set_getExtensionDataDictionary(::System::Func_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___getExtensionDataDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Reflection::MemberInfo*& Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::__get_member() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___member;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::__get_member() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___member;
 }
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::__set_member(::System::Reflection::MemberInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___member)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0::New_ctor() {
@@ -562,59 +562,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_setExtensionDataDictionary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setExtensionDataDictionary;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_setExtensionDataDictionary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setExtensionDataDictionary;
 }
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__set_setExtensionDataDictionary(::System::Action_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___setExtensionDataDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_1<::System::Object*>*& Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_createExtensionDataDictionary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createExtensionDataDictionary;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_createExtensionDataDictionary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createExtensionDataDictionary;
 }
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__set_createExtensionDataDictionary(::System::Func_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___createExtensionDataDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_setExtensionDataDictionaryValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setExtensionDataDictionaryValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_setExtensionDataDictionaryValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setExtensionDataDictionaryValue;
 }
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__set_setExtensionDataDictionaryValue(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___setExtensionDataDictionaryValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_CS$__8__locals1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__get_CS$__8__locals1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 constexpr void
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::__set_CS$__8__locals1(::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1* Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1::New_ctor() {
@@ -669,32 +669,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::__get_createEnumerableWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createEnumerableWrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::__get_createEnumerableWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createEnumerableWrapper;
 }
 constexpr void
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::__set_createEnumerableWrapper(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___createEnumerableWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::__get_CS$__8__locals2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals2;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::__get_CS$__8__locals2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals2;
 }
 constexpr void
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::__set_CS$__8__locals2(::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2* Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2::New_ctor() {
@@ -748,17 +748,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass64_0::__get_shouldSerializeCall() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldSerializeCall;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass64_0::__get_shouldSerializeCall() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shouldSerializeCall;
 }
 constexpr void
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass64_0::__set_shouldSerializeCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___shouldSerializeCall)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass64_0* Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass64_0::New_ctor() {
@@ -809,16 +809,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass65_0::__get_specifiedPropertyGet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___specifiedPropertyGet;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass65_0::__get_specifiedPropertyGet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___specifiedPropertyGet;
 }
 constexpr void Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass65_0::__set_specifiedPropertyGet(::System::Func_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___specifiedPropertyGet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass65_0* Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass65_0::New_ctor() {
@@ -1664,76 +1664,76 @@ constexpr Newtonsoft::Json::Serialization::DefaultContractResolver::operator ::N
   return static_cast<::Newtonsoft::Json::Serialization::IContractResolver*>(static_cast<void*>(this));
 }
 constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolverState*& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__instanceState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instanceState;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::DefaultContractResolverState*> const&
 Newtonsoft::Json::Serialization::DefaultContractResolver::__get__instanceState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instanceState;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver::__set__instanceState(::Newtonsoft::Json::Serialization::DefaultContractResolverState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instanceState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__sharedCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharedCache;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__sharedCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharedCache;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver::__set__sharedCache(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sharedCache = value;
 }
 constexpr ::System::Reflection::BindingFlags& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__DefaultMembersSearchFlags_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DefaultMembersSearchFlags_k__BackingField;
 }
 constexpr ::System::Reflection::BindingFlags const& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__DefaultMembersSearchFlags_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DefaultMembersSearchFlags_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver::__set__DefaultMembersSearchFlags_k__BackingField(::System::Reflection::BindingFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DefaultMembersSearchFlags_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__SerializeCompilerGeneratedMembers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SerializeCompilerGeneratedMembers_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__SerializeCompilerGeneratedMembers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SerializeCompilerGeneratedMembers_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver::__set__SerializeCompilerGeneratedMembers_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SerializeCompilerGeneratedMembers_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__IgnoreSerializableInterface_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreSerializableInterface_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__IgnoreSerializableInterface_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreSerializableInterface_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver::__set__IgnoreSerializableInterface_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IgnoreSerializableInterface_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__IgnoreSerializableAttribute_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreSerializableAttribute_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Serialization::DefaultContractResolver::__get__IgnoreSerializableAttribute_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreSerializableAttribute_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver::__set__IgnoreSerializableAttribute_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IgnoreSerializableAttribute_k__BackingField = value;
 }
 inline void Newtonsoft::Json::Serialization::DefaultContractResolver::setStaticF__instance(::Newtonsoft::Json::Serialization::IContractResolver* value) {

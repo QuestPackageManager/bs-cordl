@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitHinge);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12622))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12624))
 // CS Name: ::RootMotion.FinalIK::RotationLimitHinge*
 class CORDL_TYPE RotationLimitHinge : public ::RootMotion::FinalIK::RotationLimit {

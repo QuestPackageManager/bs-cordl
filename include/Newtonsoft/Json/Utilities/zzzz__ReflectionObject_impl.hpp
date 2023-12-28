@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionMember_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -42,15 +42,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::System::Func_1<::System::Object*>*& Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0::__get_ctor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctor;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0::__get_ctor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctor;
 }
 constexpr void Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0::__set_ctor(::System::Func_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ctor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0* Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0::New_ctor() {
@@ -101,16 +101,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1::__get_call() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1::__get_call() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call;
 }
 constexpr void Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1::__set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___call)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1* Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1::New_ctor() {
@@ -162,16 +162,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2::__get_call() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const&
 Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2::__get_call() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call;
 }
 constexpr void Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2::__set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___call)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2* Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2::New_ctor() {
@@ -346,30 +346,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& Newtonsoft::Json::Utilities::ReflectionObject::__get__Creator_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Creator_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const&
 Newtonsoft::Json::Utilities::ReflectionObject::__get__Creator_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Creator_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Utilities::ReflectionObject::__set__Creator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Creator_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*& Newtonsoft::Json::Utilities::ReflectionObject::__get__Members_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Members_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*> const&
 Newtonsoft::Json::Utilities::ReflectionObject::__get__Members_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Members_k__BackingField;
 }
 constexpr void
 Newtonsoft::Json::Utilities::ReflectionObject::__set__Members_k__BackingField(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Members_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* Newtonsoft::Json::Utilities::ReflectionObject::get_Creator() {

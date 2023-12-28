@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SmoothStepPositionGroupEventEffect)
-namespace Tweening {
-class Vector3Tween;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace Tweening {
+class Vector3Tween;
 }
 namespace UnityEngine {
 class Transform;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothStepPositionGroupEventEffect);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(16090)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4971)) CS Name: ::SmoothStepPositionGroupEventEffect*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4971)) CS Name: ::SmoothStepPositionGroupEventEffect*
 class CORDL_TYPE SmoothStepPositionGroupEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

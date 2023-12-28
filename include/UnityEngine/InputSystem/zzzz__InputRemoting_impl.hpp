@@ -5,15 +5,15 @@
 #include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
@@ -108,28 +108,28 @@ constexpr UnityEngine::InputSystem::__InputRemoting__Subscriber::operator ::Syst
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::InputSystem::InputRemoting*& UnityEngine::InputSystem::__InputRemoting__Subscriber::__get_owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputRemoting*> const& UnityEngine::InputSystem::__InputRemoting__Subscriber::__get_owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr void UnityEngine::InputSystem::__InputRemoting__Subscriber::__set_owner(::UnityEngine::InputSystem::InputRemoting* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___owner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*& UnityEngine::InputSystem::__InputRemoting__Subscriber::__get_observer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___observer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*> const&
 UnityEngine::InputSystem::__InputRemoting__Subscriber::__get_observer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___observer;
 }
 constexpr void UnityEngine::InputSystem::__InputRemoting__Subscriber::__set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::InputSystem::__InputRemoting__Subscriber::Dispose() {
@@ -1040,57 +1040,57 @@ constexpr UnityEngine::InputSystem::InputRemoting::operator ::System::IObserver_
   return static_cast<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags& UnityEngine::InputSystem::InputRemoting::__get_m_Flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags const& UnityEngine::InputSystem::InputRemoting::__get_m_Flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr void UnityEngine::InputSystem::InputRemoting::__set_m_Flags(::UnityEngine::InputSystem::__InputRemoting__Flags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Flags = value;
 }
 constexpr ::UnityEngine::InputSystem::InputManager*& UnityEngine::InputSystem::InputRemoting::__get_m_LocalManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocalManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputManager*> const& UnityEngine::InputSystem::InputRemoting::__get_m_LocalManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocalManager;
 }
 constexpr void UnityEngine::InputSystem::InputRemoting::__set_m_LocalManager(::UnityEngine::InputSystem::InputManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LocalManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*>&
 UnityEngine::InputSystem::InputRemoting::__get_m_Subscribers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Subscribers;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> const&
 UnityEngine::InputSystem::InputRemoting::__get_m_Subscribers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Subscribers;
 }
 constexpr void UnityEngine::InputSystem::InputRemoting::__set_m_Subscribers(
     ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Subscribers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*>&
 UnityEngine::InputSystem::InputRemoting::__get_m_Senders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Senders;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> const&
 UnityEngine::InputSystem::InputRemoting::__get_m_Senders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Senders;
 }
 constexpr void UnityEngine::InputSystem::InputRemoting::__set_m_Senders(
     ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Senders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::InputSystem::InputRemoting::get_sending() {

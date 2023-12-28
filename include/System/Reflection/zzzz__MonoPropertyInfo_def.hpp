@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(MonoPropertyInfo)
 namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
 struct PropertyAttributes;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

@@ -5,9 +5,9 @@
 #include "System/Threading/zzzz__OSSpecificSynchronizationContext_def.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/Threading/zzzz__OSSpecificSynchronizationContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate._ctor
 template <>
 
@@ -89,27 +89,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::SendOrPostCallback*& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__get_m_Delegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Delegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SendOrPostCallback*> const& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__get_m_Delegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Delegate;
 }
 constexpr void System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__set_m_Delegate(::System::Threading::SendOrPostCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Delegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__get_m_State() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_State;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__get_m_State() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_State;
 }
 constexpr void System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__set_m_State(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_State)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*
@@ -319,15 +319,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Threading::OSSpecificSynchronizationContext::__get_m_OSSynchronizationContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OSSynchronizationContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::OSSpecificSynchronizationContext::__get_m_OSSynchronizationContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OSSynchronizationContext;
 }
 constexpr void System::Threading::OSSpecificSynchronizationContext::__set_m_OSSynchronizationContext(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OSSynchronizationContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::OSSpecificSynchronizationContext::setStaticF_s_ContextCache(

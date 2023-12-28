@@ -12,32 +12,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelSettings)
+namespace UnityEngine::UIElements {
+class ThemeStyleSheet;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+class PanelTextSettings;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine::UIElements {
-class __PanelSettings__RuntimePanelAccess;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine::UIElements {
-struct PanelScaleMode;
-}
-namespace UnityEngine::UIElements {
-struct PanelScreenMatchMode;
-}
-namespace UnityEngine {
-struct Vector2Int;
-}
-namespace UnityEngine::UIElements {
-class ThemeStyleSheet;
 }
 namespace UnityEngine {
 class Shader;
@@ -46,10 +34,7 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements {
-class UIDocumentList;
+class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -57,14 +42,29 @@ class VisualElement;
 namespace UnityEngine::UIElements {
 class UIDocument;
 }
+namespace UnityEngine {
+struct Vector2Int;
+}
 namespace UnityEngine::UIElements {
 class DynamicAtlasSettings;
 }
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-class PanelTextSettings;
+struct PanelScaleMode;
+}
+namespace UnityEngine::UIElements {
+class __PanelSettings__RuntimePanelAccess;
+}
+namespace UnityEngine::UIElements {
+struct PanelScreenMatchMode;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine::UIElements {
+class UIDocumentList;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -170,8 +170,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Panel
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(7023)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(7024)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7023)), TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(7024)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7026)) CS Name: ::UnityEngine.UIElements::PanelSettings*
 class CORDL_TYPE PanelSettings : public ::UnityEngine::ScriptableObject {
 public:

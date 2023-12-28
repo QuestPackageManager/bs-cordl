@@ -9,7 +9,7 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class MultiplayerBadgeAwardData;
+class MultiplayerPlayerResultsData;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class MultiplayerBadgeAwardData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

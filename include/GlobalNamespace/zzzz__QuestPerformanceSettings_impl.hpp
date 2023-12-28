@@ -70,39 +70,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& GlobalNamespace::QuestPerformanceSettings::__get_gpuLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
 constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& GlobalNamespace::QuestPerformanceSettings::__get_gpuLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
 constexpr void GlobalNamespace::QuestPerformanceSettings::__set_gpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gpuLevel = value;
 }
 constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& GlobalNamespace::QuestPerformanceSettings::__get_cpuLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
 constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& GlobalNamespace::QuestPerformanceSettings::__get_cpuLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
 constexpr void GlobalNamespace::QuestPerformanceSettings::__set_cpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cpuLevel = value;
 }
 constexpr int32_t& GlobalNamespace::QuestPerformanceSettings::__get_foveatedRenderingLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___foveatedRenderingLevel;
 }
 constexpr int32_t const& GlobalNamespace::QuestPerformanceSettings::__get_foveatedRenderingLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___foveatedRenderingLevel;
 }
 constexpr void GlobalNamespace::QuestPerformanceSettings::__set_foveatedRenderingLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___foveatedRenderingLevel = value;
 }
 inline ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel GlobalNamespace::QuestPerformanceSettings::get_gpuPerformanceLevel() {

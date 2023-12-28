@@ -1,7 +1,7 @@
 #pragma once
 #include "TMPro/zzzz__ITextElement_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::TMPro::ITextElement.get_sharedMaterial
 template <>
 

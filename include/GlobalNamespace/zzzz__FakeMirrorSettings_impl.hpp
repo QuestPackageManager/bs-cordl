@@ -97,75 +97,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__fakeMirrorTransparency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorTransparency;
 }
 constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__fakeMirrorTransparency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorTransparency;
 }
 constexpr void GlobalNamespace::FakeMirrorSettings::__set__fakeMirrorTransparency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fakeMirrorTransparency = value;
 }
 constexpr bool& GlobalNamespace::FakeMirrorSettings::__get__useVertexDistortion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useVertexDistortion;
 }
 constexpr bool const& GlobalNamespace::FakeMirrorSettings::__get__useVertexDistortion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useVertexDistortion;
 }
 constexpr void GlobalNamespace::FakeMirrorSettings::__set__useVertexDistortion(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useVertexDistortion = value;
 }
 constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionNoiseScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionNoiseScale;
 }
 constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionNoiseScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionNoiseScale;
 }
 constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionNoiseScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionNoiseScale = value;
 }
 constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionStrength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionStrength;
 }
 constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionStrength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionStrength;
 }
 constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionStrength(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionStrength = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionDirectionality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionDirectionality;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionDirectionality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionDirectionality;
 }
 constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionDirectionality(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionDirectionality = value;
 }
 constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionZposMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionZposMultiplier;
 }
 constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionZposMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionZposMultiplier;
 }
 constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionZposMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionZposMultiplier = value;
 }
 inline void GlobalNamespace::FakeMirrorSettings::setStaticF__fakeMirrorTransparencyId(int32_t value) {

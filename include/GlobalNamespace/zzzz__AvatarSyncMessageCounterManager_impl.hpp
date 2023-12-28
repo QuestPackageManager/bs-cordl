@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarSyncMessageCounterManager_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarSyncMessageCounter_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarSyncMessageCounterManager_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarSyncMessageCounter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType::__AvatarSyncMessageCounterManager__MessageType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -107,34 +107,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 constexpr ::System::Collections::Generic::Dictionary_2<
     ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>*&
 GlobalNamespace::AvatarSyncMessageCounterManager::__get_userMessageCounters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userMessageCounters;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
     ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>*> const&
 GlobalNamespace::AvatarSyncMessageCounterManager::__get_userMessageCounters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userMessageCounters;
 }
 constexpr void GlobalNamespace::AvatarSyncMessageCounterManager::__set_userMessageCounters(
     ::System::Collections::Generic::Dictionary_2<
         ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userMessageCounters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*&
 GlobalNamespace::AvatarSyncMessageCounterManager::__get_messageTypePeriods() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageTypePeriods;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*> const&
 GlobalNamespace::AvatarSyncMessageCounterManager::__get_messageTypePeriods() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageTypePeriods;
 }
 constexpr void GlobalNamespace::AvatarSyncMessageCounterManager::__set_messageTypePeriods(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___messageTypePeriods)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::AvatarSyncMessageCounterManager::setStaticF__instance(::GlobalNamespace::AvatarSyncMessageCounterManager* value) {

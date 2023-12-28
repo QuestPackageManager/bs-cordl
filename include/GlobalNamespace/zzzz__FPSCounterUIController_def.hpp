@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FPSCounterUIController)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class FPSCounter;
 }
@@ -14,22 +17,19 @@ namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
 class __FPSCounterUIController___Start_d__9;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

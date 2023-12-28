@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutCoreEffectsSpawner)
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
 class NoteDebrisSpawner;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class ColorManager;
 }
 namespace GlobalNamespace {
 class NoteCutParticlesEffect;
 }
 namespace GlobalNamespace {
-class BombExplosionEffect;
-}
-namespace GlobalNamespace {
 class NoteCutHapticEffect;
 }
 namespace GlobalNamespace {
-class NoteController;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 struct __NoteCutHapticEffect__Type;
 }
 namespace GlobalNamespace {
+class BombExplosionEffect;
+}
+namespace GlobalNamespace {
 struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class ShockwaveEffect;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

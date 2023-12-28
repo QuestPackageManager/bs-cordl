@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(UIVertex)
 namespace UnityEngine {
-struct Vector4;
+struct Color32;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::UIVertex);
 // SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15907))
 // CS Name: ::UnityEngine::UIVertex
 struct CORDL_TYPE UIVertex {

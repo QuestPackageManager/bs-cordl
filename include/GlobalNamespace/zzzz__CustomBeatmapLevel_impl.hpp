@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomBeatmapLevel.get_beatmapLevelData
 template <>
 
@@ -94,15 +94,15 @@ constexpr GlobalNamespace::CustomBeatmapLevel::operator ::GlobalNamespace::IFile
   return static_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::BeatmapLevelData*& GlobalNamespace::CustomBeatmapLevel::__get__beatmapLevelData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelData*> const& GlobalNamespace::CustomBeatmapLevel::__get__beatmapLevelData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelData;
 }
 constexpr void GlobalNamespace::CustomBeatmapLevel::__set__beatmapLevelData(::GlobalNamespace::BeatmapLevelData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::IBeatmapLevelData* GlobalNamespace::CustomBeatmapLevel::get_beatmapLevelData() {

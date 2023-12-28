@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIStyle)
 namespace UnityEngine {
-class Font;
+struct Vector2;
 }
 namespace UnityEngine {
-class GUIContent;
+class GUIStyleState;
 }
 namespace UnityEngine {
 struct TextClipping;
@@ -22,22 +22,22 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Vector2;
+struct ImagePosition;
 }
 namespace UnityEngine {
-struct ImagePosition;
+class RectOffset;
+}
+namespace UnityEngine {
+class GUIContent;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct FontStyle;
 }
 namespace UnityEngine {
 struct TextAnchor;
-}
-namespace UnityEngine {
-class GUIStyleState;
-}
-namespace UnityEngine {
-class RectOffset;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::UnityEngine::GUIStyle);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14625))
 // CS Name: ::UnityEngine::GUIStyle*
 class CORDL_TYPE GUIStyle : public ::System::Object {

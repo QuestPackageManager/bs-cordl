@@ -3,9 +3,9 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageFlags_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AsnDecodeStatus_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageExtension_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageFlags_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageFlags_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension._ctor
 template <>
 
@@ -148,27 +148,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags& System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__get__keyUsages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyUsages;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const& System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__get__keyUsages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyUsages;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__set__keyUsages(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyUsages = value;
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus& System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus const& System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__set__status(::System::Security::Cryptography::AsnDecodeStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::New_ctor() {

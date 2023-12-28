@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__DiagnosticInfo_def.hpp"
-#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo.CreateEvent
 template <>
 
@@ -37,39 +37,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__get_DisplayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisplayName;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__get_DisplayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisplayName;
 }
 constexpr void UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__set_DisplayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__get_ObjectId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ObjectId;
 }
 constexpr int32_t const& UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__get_ObjectId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ObjectId;
 }
 constexpr void UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__set_ObjectId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ObjectId = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__get_Dependencies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Dependencies;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__get_Dependencies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Dependencies;
 }
 constexpr void UnityEngine::AddressableAssets::Utility::DiagnosticInfo::__set_Dependencies(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Dependencies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent

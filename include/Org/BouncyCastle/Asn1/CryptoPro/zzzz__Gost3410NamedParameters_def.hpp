@@ -12,10 +12,10 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace System::Collections {
-class IDictionary;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {

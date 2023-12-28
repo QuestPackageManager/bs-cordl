@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveCenterRingLightsController)
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerCenterResizeController;
+class BeatmapObjectSpawnCenter;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+class MultiplayerCenterResizeController;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,17 +2,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
-#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
-#include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 #include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
+#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffect.get_didFinishEvent
 template <>
 
@@ -188,304 +188,304 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::NoteCutSoundEffect::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::NoteCutSoundEffect::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::NoteCutSoundEffect::__get__speedToVolumeCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speedToVolumeCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::NoteCutSoundEffect::__get__speedToVolumeCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speedToVolumeCurve;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__speedToVolumeCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____speedToVolumeCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& GlobalNamespace::NoteCutSoundEffect::__get__badCutSoundEffectAudioClips() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutSoundEffectAudioClips;
 }
 constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& GlobalNamespace::NoteCutSoundEffect::__get__badCutSoundEffectAudioClips() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutSoundEffectAudioClips;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__badCutSoundEffectAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____badCutSoundEffectAudioClips)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__badCutVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutVolume;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__badCutVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutVolume;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__badCutVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____badCutVolume = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__goodCutVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutVolume;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__goodCutVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutVolume;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__goodCutVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goodCutVolume = value;
 }
 constexpr ::GlobalNamespace::Saber*& GlobalNamespace::NoteCutSoundEffect::__get__saber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saber;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& GlobalNamespace::NoteCutSoundEffect::__get__saber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saber;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__saber(::GlobalNamespace::Saber* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteController*& GlobalNamespace::NoteCutSoundEffect::__get__noteController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteController*> const& GlobalNamespace::NoteCutSoundEffect::__get__noteController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteController;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__noteController(::GlobalNamespace::NoteController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::NoteCutSoundEffect::__get__isPlaying() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPlaying;
 }
 constexpr bool const& GlobalNamespace::NoteCutSoundEffect::__get__isPlaying() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPlaying;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__isPlaying(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPlaying = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__volumeMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeMultiplier;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__volumeMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeMultiplier;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__volumeMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____volumeMultiplier = value;
 }
 constexpr bool& GlobalNamespace::NoteCutSoundEffect::__get__noteWasCut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCut;
 }
 constexpr bool const& GlobalNamespace::NoteCutSoundEffect::__get__noteWasCut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCut;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__noteWasCut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteWasCut = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__aheadTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aheadTime;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__aheadTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aheadTime;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__aheadTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____aheadTime = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__timeToNextNote() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToNextNote;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__timeToNextNote() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToNextNote;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__timeToNextNote(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeToNextNote = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__timeToPrevNote() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToPrevNote;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__timeToPrevNote() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToPrevNote;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__timeToPrevNote(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeToPrevNote = value;
 }
 constexpr double_t& GlobalNamespace::NoteCutSoundEffect::__get__startDSPTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startDSPTime;
 }
 constexpr double_t const& GlobalNamespace::NoteCutSoundEffect::__get__startDSPTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startDSPTime;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__startDSPTime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startDSPTime = value;
 }
 constexpr double_t& GlobalNamespace::NoteCutSoundEffect::__get__endDSPtime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDSPtime;
 }
 constexpr double_t const& GlobalNamespace::NoteCutSoundEffect::__get__endDSPtime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDSPtime;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__endDSPtime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endDSPtime = value;
 }
 constexpr double_t& GlobalNamespace::NoteCutSoundEffect::__get__fadeOutStartDSPtime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutStartDSPtime;
 }
 constexpr double_t const& GlobalNamespace::NoteCutSoundEffect::__get__fadeOutStartDSPtime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutStartDSPtime;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__fadeOutStartDSPtime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeOutStartDSPtime = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__noteMissedTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteMissedTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__noteMissedTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteMissedTimeOffset;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__noteMissedTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteMissedTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__beforeCutVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutVolume;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__beforeCutVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutVolume;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__beforeCutVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutVolume = value;
 }
 constexpr bool& GlobalNamespace::NoteCutSoundEffect::__get__goodCut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCut;
 }
 constexpr bool const& GlobalNamespace::NoteCutSoundEffect::__get__goodCut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCut;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__goodCut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goodCut = value;
 }
 constexpr float_t& GlobalNamespace::NoteCutSoundEffect::__get__pitch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pitch;
 }
 constexpr float_t const& GlobalNamespace::NoteCutSoundEffect::__get__pitch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pitch;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__pitch(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pitch = value;
 }
 constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& GlobalNamespace::NoteCutSoundEffect::__get__badCutRandomSoundPicker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutRandomSoundPicker;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*> const& GlobalNamespace::NoteCutSoundEffect::__get__badCutRandomSoundPicker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutRandomSoundPicker;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__badCutRandomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____badCutRandomSoundPicker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::NoteCutSoundEffect::__get__handleWrongSaberTypeAsGood() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleWrongSaberTypeAsGood;
 }
 constexpr bool const& GlobalNamespace::NoteCutSoundEffect::__get__handleWrongSaberTypeAsGood() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleWrongSaberTypeAsGood;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__handleWrongSaberTypeAsGood(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handleWrongSaberTypeAsGood = value;
 }
 constexpr bool& GlobalNamespace::NoteCutSoundEffect::__get__ignoreSaberSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreSaberSpeed;
 }
 constexpr bool const& GlobalNamespace::NoteCutSoundEffect::__get__ignoreSaberSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreSaberSpeed;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__ignoreSaberSpeed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreSaberSpeed = value;
 }
 constexpr bool& GlobalNamespace::NoteCutSoundEffect::__get__ignoreBadCuts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreBadCuts;
 }
 constexpr bool const& GlobalNamespace::NoteCutSoundEffect::__get__ignoreBadCuts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreBadCuts;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__ignoreBadCuts(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreBadCuts = value;
 }
 constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& GlobalNamespace::NoteCutSoundEffect::__get__didFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*> const&
 GlobalNamespace::NoteCutSoundEffect::__get__didFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishEvent;
 }
 constexpr void GlobalNamespace::NoteCutSoundEffect::__set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* GlobalNamespace::NoteCutSoundEffect::get_didFinishEvent() {

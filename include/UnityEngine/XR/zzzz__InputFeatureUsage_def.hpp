@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputFeatureUsage)
 namespace System {
+class Object;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::XR {
 struct InputFeatureType;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

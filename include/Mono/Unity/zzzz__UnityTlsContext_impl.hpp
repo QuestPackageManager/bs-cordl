@@ -3,13 +3,13 @@
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsContext_def.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsConnectionInfo_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsConnectionInfo_def.hpp"
 //  Writing Method size for method: ::Mono::Unity::UnityTlsContext._ctor
 template <>
 
@@ -377,207 +377,207 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx>& Mono::Unity::UnityTlsContext::__get_tlsContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsContext;
 }
 constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> const& Mono::Unity::UnityTlsContext::__get_tlsContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsContext;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_tlsContext(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tlsContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>& Mono::Unity::UnityTlsContext::__get_requestedClientCertChain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestedClientCertChain;
 }
 constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> const& Mono::Unity::UnityTlsContext::__get_requestedClientCertChain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestedClientCertChain;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_requestedClientCertChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___requestedClientCertChain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key>& Mono::Unity::UnityTlsContext::__get_requestedClientKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestedClientKey;
 }
 constexpr ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> const& Mono::Unity::UnityTlsContext::__get_requestedClientKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestedClientKey;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_requestedClientKey(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___requestedClientKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*& Mono::Unity::UnityTlsContext::__get_readCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback*> const& Mono::Unity::UnityTlsContext::__get_readCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readCallback;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_readCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*& Mono::Unity::UnityTlsContext::__get_writeCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback*> const& Mono::Unity::UnityTlsContext::__get_writeCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeCallback;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_writeCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writeCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*& Mono::Unity::UnityTlsContext::__get_certificateCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback*> const& Mono::Unity::UnityTlsContext::__get_certificateCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateCallback;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_certificateCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificateCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*& Mono::Unity::UnityTlsContext::__get_verifyCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verifyCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback*> const& Mono::Unity::UnityTlsContext::__get_verifyCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verifyCallback;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_verifyCallback(::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___verifyCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& Mono::Unity::UnityTlsContext::__get_localClientCertificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localClientCertificate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& Mono::Unity::UnityTlsContext::__get_localClientCertificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localClientCertificate;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_localClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localClientCertificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& Mono::Unity::UnityTlsContext::__get_remoteCertificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteCertificate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& Mono::Unity::UnityTlsContext::__get_remoteCertificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteCertificate;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_remoteCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___remoteCertificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::Interface::MonoTlsConnectionInfo*& Mono::Unity::UnityTlsContext::__get_connectioninfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectioninfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsConnectionInfo*> const& Mono::Unity::UnityTlsContext::__get_connectioninfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectioninfo;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_connectioninfo(::Mono::Security::Interface::MonoTlsConnectionInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectioninfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Unity::UnityTlsContext::__get_isAuthenticated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isAuthenticated;
 }
 constexpr bool const& Mono::Unity::UnityTlsContext::__get_isAuthenticated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isAuthenticated;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_isAuthenticated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isAuthenticated = value;
 }
 constexpr bool& Mono::Unity::UnityTlsContext::__get_hasContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasContext;
 }
 constexpr bool const& Mono::Unity::UnityTlsContext::__get_hasContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasContext;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_hasContext(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasContext = value;
 }
 constexpr bool& Mono::Unity::UnityTlsContext::__get_closedGraceful() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closedGraceful;
 }
 constexpr bool const& Mono::Unity::UnityTlsContext::__get_closedGraceful() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closedGraceful;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_closedGraceful(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___closedGraceful = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Unity::UnityTlsContext::__get_writeBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Unity::UnityTlsContext::__get_writeBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___writeBuffer;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_writeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___writeBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Unity::UnityTlsContext::__get_readBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Unity::UnityTlsContext::__get_readBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readBuffer;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_readBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& Mono::Unity::UnityTlsContext::__get_handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& Mono::Unity::UnityTlsContext::__get_handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_handle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handle = value;
 }
 constexpr ::System::Exception*& Mono::Unity::UnityTlsContext::__get_lastException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastException;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& Mono::Unity::UnityTlsContext::__get_lastException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastException;
 }
 constexpr void Mono::Unity::UnityTlsContext::__set_lastException(::System::Exception* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastException)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Unity::UnityTlsContext* Mono::Unity::UnityTlsContext::New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options) {

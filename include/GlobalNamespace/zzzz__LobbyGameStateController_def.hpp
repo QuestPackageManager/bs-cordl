@@ -10,52 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LobbyGameStateController)
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class PlayersMissingEntitlementsNetSerializable;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class IDisposable;
 }
 namespace GlobalNamespace {
-class MenuTransitionsHelper;
+class PlayerDataModel;
 }
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
-class LobbyGameStateModel;
+class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 struct MultiplayerLobbyState;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace GlobalNamespace {
-class __LobbyGameStateController____c__DisplayClass98_0;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
@@ -63,65 +42,86 @@ class BeatmapIdentifierNetSerializable;
 namespace GlobalNamespace {
 class __LobbyGameStateController____c;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class LevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelLoader;
-}
-namespace GlobalNamespace {
-class IMenuRpcManager;
-}
-namespace System::Threading::Tasks {
-class Task;
+struct CannotStartGameReason;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class __LobbyGameStateController____c__DisplayClass98_0;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelLoader;
 }
 namespace System {
-class IDisposable;
+class Action;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class LevelGameplaySetupData;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+class BeatmapLevelsModel;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace GlobalNamespace {
 class ILobbyPlayerData;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
-class PlayerLobbyPermissionConfigurationNetSerializable;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
 }
 namespace GlobalNamespace {
 struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+class PlayerLobbyPermissionConfigurationNetSerializable;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -276,8 +276,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyGameStat
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12688)), TypeDefinitionIndex(TypeDefinitionIndex(12720)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12879))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4502)) CS Name: ::LobbyGameStateController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(12879)), TypeDefinitionIndex(TypeDefinitionIndex(12688)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4502)) CS Name: ::LobbyGameStateController*
 class CORDL_TYPE LobbyGameStateController : public ::System::Object {
 public:
   // Declarations

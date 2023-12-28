@@ -3,39 +3,39 @@
 #include "GlobalNamespace/zzzz__UndoRedoBuffer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::UndoRedoBuffer_1<T>::__get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& GlobalNamespace::UndoRedoBuffer_1<T>::__get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 template <typename T> constexpr void GlobalNamespace::UndoRedoBuffer_1<T>::__set__data(::System::Collections::Generic::List_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::UndoRedoBuffer_1<T>::__get__capacity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capacity;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::UndoRedoBuffer_1<T>::__get__capacity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capacity;
 }
 template <typename T> constexpr void GlobalNamespace::UndoRedoBuffer_1<T>::__set__capacity(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____capacity = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::UndoRedoBuffer_1<T>::__get__cursor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursor;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::UndoRedoBuffer_1<T>::__get__cursor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursor;
 }
 template <typename T> constexpr void GlobalNamespace::UndoRedoBuffer_1<T>::__set__cursor(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cursor = value;
 }
 template <typename T> inline ::GlobalNamespace::UndoRedoBuffer_1<T>* GlobalNamespace::UndoRedoBuffer_1<T>::New_ctor(int32_t capacity) {

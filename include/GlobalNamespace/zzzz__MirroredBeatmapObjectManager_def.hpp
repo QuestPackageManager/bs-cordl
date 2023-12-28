@@ -5,19 +5,43 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MirroredBeatmapObjectManager)
 namespace GlobalNamespace {
+class MirroredBombNoteController;
+}
+namespace GlobalNamespace {
 class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class __MirroredSliderController__Pool;
-}
-namespace GlobalNamespace {
-class SliderController;
 }
 namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
-class MirroredGameNoteController;
+class IGameNoteMirrorable;
+}
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class __MirroredSliderController__Pool;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class MirroredSliderController;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class MirroredObstacleController;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class __MirroredObstacleController__Pool;
 }
 namespace GlobalNamespace {
 class __MirroredGameNoteController__Pool;
@@ -26,34 +50,10 @@ namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-class MirroredObstacleController;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class MirroredSliderController;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class MirroredGameNoteController;
 }
 namespace GlobalNamespace {
 class __MirroredBombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class __MirroredObstacleController__Pool;
-}
-namespace GlobalNamespace {
-class IGameNoteMirrorable;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace GlobalNamespace {
-class MirroredBombNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

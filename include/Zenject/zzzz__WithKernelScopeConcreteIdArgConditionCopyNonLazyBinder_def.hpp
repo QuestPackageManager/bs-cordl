@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 CORDL_MODULE_EXPORT(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder)
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;

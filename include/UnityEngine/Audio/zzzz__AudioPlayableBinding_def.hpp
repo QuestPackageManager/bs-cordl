@@ -9,13 +9,13 @@ namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableBinding;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayableBinding;
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {

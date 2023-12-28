@@ -8,14 +8,14 @@
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__HID__HIDLayoutBuilder____c._ctor
 template <>
 
@@ -263,51 +263,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_displayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_displayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr void UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__set_displayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_hidDescriptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hidDescriptor;
 }
 constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_hidDescriptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hidDescriptor;
 }
 constexpr void UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__set_hidDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hidDescriptor = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_parentLayout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentLayout;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_parentLayout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parentLayout;
 }
 constexpr void UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__set_parentLayout(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parentLayout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_deviceType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deviceType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__get_deviceType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deviceType;
 }
 constexpr void UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::__set_deviceType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___deviceType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder::Build() {
@@ -1270,15 +1270,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder*& UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0::__get_layout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder*> const& UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0::__get_layout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr void UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0::__set_layout(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___layout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0* UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0::New_ctor() {
@@ -1435,27 +1435,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::InputSystem::HID::HID::__get_m_HaveParsedHIDDescriptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HaveParsedHIDDescriptor;
 }
 constexpr bool const& UnityEngine::InputSystem::HID::HID::__get_m_HaveParsedHIDDescriptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HaveParsedHIDDescriptor;
 }
 constexpr void UnityEngine::InputSystem::HID::HID::__set_m_HaveParsedHIDDescriptor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HaveParsedHIDDescriptor = value;
 }
 constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor& UnityEngine::InputSystem::HID::HID::__get_m_HIDDescriptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HIDDescriptor;
 }
 constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& UnityEngine::InputSystem::HID::HID::__get_m_HIDDescriptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HIDDescriptor;
 }
 constexpr void UnityEngine::InputSystem::HID::HID::__set_m_HIDDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HIDDescriptor = value;
 }
 inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::HID::HID::get_QueryHIDReportDescriptorDeviceCommandType() {

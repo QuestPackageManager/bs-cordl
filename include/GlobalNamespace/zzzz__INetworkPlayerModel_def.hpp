@@ -7,12 +7,6 @@ CORDL_MODULE_EXPORT(INetworkPlayerModel)
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
-namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
 template <typename T> class Action_1;
 }
@@ -20,10 +14,16 @@ namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
 class ConnectedPlayerManager;
 }
 namespace GlobalNamespace {
-class INetworkPlayer;
+template <typename T> class INetworkPlayerModelPartyConfig_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

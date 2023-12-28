@@ -7,13 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShuffleExtensions)
 namespace System {
+class Random;
+}
+namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace GlobalNamespace {
+template <typename T> class __ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1;
 }
 namespace GlobalNamespace {
 template <typename T> class __ShuffleExtensions___TakeWithTombstone_d__2_1;
@@ -21,26 +24,23 @@ template <typename T> class __ShuffleExtensions___TakeWithTombstone_d__2_1;
 namespace GlobalNamespace {
 template <typename T1, typename T2> class __ShuffleExtensions___ZipSkipTombstone_d__3_2;
 }
-namespace System {
-class Random;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace GlobalNamespace {
-template <typename T> class __ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -546,7 +546,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5306
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5306
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15829)) CS Name: ::ShuffleExtensions::<ZipSkipTombstone>d__3`2<T1,T2>*
 class CORDL_TYPE __ShuffleExtensions___ZipSkipTombstone_d__3_2 : public ::System::Object {
 public:

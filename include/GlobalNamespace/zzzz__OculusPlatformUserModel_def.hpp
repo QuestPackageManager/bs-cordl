@@ -18,62 +18,62 @@ CORDL_MODULE_EXPORT(OculusPlatformUserModel)
 namespace GlobalNamespace {
 class UserInfo;
 }
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass13_0;
-}
-namespace GlobalNamespace {
-class IPlatformInit;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-class PlatformUserAuthTokenData;
-}
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
-class __OculusPlatformUserModel____c__DisplayClass15_0;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-struct __OculusPlatformUserModel___GetUserInfoTask_d__13;
 }
 namespace GlobalNamespace {
 class __OculusPlatformUserModel____c__DisplayClass14_0;
 }
 namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
+namespace GlobalNamespace {
+class __OculusPlatformUserModel____c__DisplayClass15_0;
+}
+namespace GlobalNamespace {
+class IPlatformInit;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
 class __OculusPlatformUserModel____c__DisplayClass16_1;
+}
+namespace GlobalNamespace {
+class __OculusPlatformUserModel____c__DisplayClass13_0;
+}
+namespace GlobalNamespace {
+class __OculusPlatformUserModel____c__DisplayClass16_0;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformUserModel___GetUserInfo_d__12;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct __OculusPlatformUserModel___GetUserInfo_d__12;
+class PlatformUserAuthTokenData;
 }
-namespace Oculus::Platform {
-template <typename T> class Message_1;
+namespace GlobalNamespace {
+struct __OculusPlatformUserModel___GetUserInfoTask_d__13;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
 namespace Oculus::Platform::Models {
 class User;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 namespace Oculus::Platform::Models {
 class UserList;
@@ -82,10 +82,10 @@ namespace Oculus::Platform::Models {
 class UserProof;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -132,8 +132,8 @@ MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___RequestXPlatformAccess
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15996)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15985)) CS Name: ::OculusPlatformUserModel::<GetUserInfo>d__12
 struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfo_d__12 {
 public:
@@ -237,9 +237,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatfor
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 410 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(15996))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15987)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15996)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 410 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15987)) CS Name:
 // ::OculusPlatformUserModel::<GetUserInfoTask>d__13
 struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfoTask_d__13 {
 public:
@@ -558,9 +558,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatfor
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15992)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15992)) CS
 // Name: ::OculusPlatformUserModel::<RequestXPlatformAccessToken>d__17
 struct CORDL_TYPE __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17 {
 public:
@@ -620,7 +620,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatfor
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12924)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15993))
 // CS Name: ::OculusPlatformUserModel*
 class CORDL_TYPE OculusPlatformUserModel : public ::System::Object {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__Win32Exception_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInformationException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::NetworkInformationException._ctor
 template <>
 

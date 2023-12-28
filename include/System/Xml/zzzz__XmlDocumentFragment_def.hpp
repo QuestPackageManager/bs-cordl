@@ -9,13 +9,13 @@ namespace System::Xml {
 class XmlLinkedNode;
 }
 namespace System::Xml {
+class XmlNode;
+}
+namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
 struct XmlNodeType;
-}
-namespace System::Xml {
-class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {

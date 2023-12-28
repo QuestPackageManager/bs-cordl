@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GamePause)
-namespace GlobalNamespace {
-class AudioListenerController;
-}
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class SongController;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
-}
-namespace GlobalNamespace {
-class IGamePause;
 }
 namespace GlobalNamespace {
 class BeatmapObjectExecutionRatingsRecorder;
 }
 namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class SongController;
+}
+namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
+class AudioListenerController;
+}
+namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
 class IScoreController;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 // Forward declare root types
 namespace GlobalNamespace {

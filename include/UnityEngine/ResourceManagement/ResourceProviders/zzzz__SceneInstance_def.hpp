@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SceneInstance)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace UnityEngine::SceneManagement {
 struct Scene;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

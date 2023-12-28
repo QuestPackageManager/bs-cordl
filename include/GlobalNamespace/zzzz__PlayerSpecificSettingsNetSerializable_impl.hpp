@@ -78,87 +78,87 @@ constexpr GlobalNamespace::PlayerSpecificSettingsNetSerializable::operator ::Lit
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr ::StringW const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr ::StringW const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_leftHanded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHanded;
 }
 constexpr bool const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_leftHanded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHanded;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_leftHanded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftHanded = value;
 }
 constexpr bool& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_automaticPlayerHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticPlayerHeight;
 }
 constexpr bool const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_automaticPlayerHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticPlayerHeight;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_automaticPlayerHeight(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___automaticPlayerHeight = value;
 }
 constexpr float_t& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_playerHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerHeight;
 }
 constexpr float_t const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_playerHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerHeight;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_playerHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerHeight = value;
 }
 constexpr float_t& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_headPosToPlayerHeightOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPosToPlayerHeightOffset;
 }
 constexpr float_t const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_headPosToPlayerHeightOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPosToPlayerHeightOffset;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_headPosToPlayerHeightOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headPosToPlayerHeightOffset = value;
 }
 constexpr ::GlobalNamespace::ColorSchemeNetSerializable& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_colorScheme() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScheme;
 }
 constexpr ::GlobalNamespace::ColorSchemeNetSerializable const& GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_colorScheme() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScheme;
 }
 constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_colorScheme(::GlobalNamespace::ColorSchemeNetSerializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorScheme = value;
 }
 inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* GlobalNamespace::PlayerSpecificSettingsNetSerializable::New_ctor() {

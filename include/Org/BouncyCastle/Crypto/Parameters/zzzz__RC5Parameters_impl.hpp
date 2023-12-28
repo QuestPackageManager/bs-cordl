@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::RC5Parameters::__get_rounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rounds;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::RC5Parameters::__get_rounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rounds;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::RC5Parameters::__set_rounds(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rounds = value;
 }
 inline ::Org::BouncyCastle::Crypto::Parameters::RC5Parameters* Org::BouncyCastle::Crypto::Parameters::RC5Parameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t rounds) {

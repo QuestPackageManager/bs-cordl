@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 //  Writing Method size for method: ::System::IO::BinaryReader._ctor
 template <>
 
@@ -424,123 +424,123 @@ constexpr System::IO::BinaryReader::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::Stream*& System::IO::BinaryReader::__get_m_stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::IO::BinaryReader::__get_m_stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stream;
 }
 constexpr void System::IO::BinaryReader::__set_m_stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::BinaryReader::__get_m_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::BinaryReader::__get_m_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_buffer;
 }
 constexpr void System::IO::BinaryReader::__set_m_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Decoder*& System::IO::BinaryReader::__get_m_decoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_decoder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& System::IO::BinaryReader::__get_m_decoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_decoder;
 }
 constexpr void System::IO::BinaryReader::__set_m_decoder(::System::Text::Decoder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_decoder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::BinaryReader::__get_m_charBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_charBytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::BinaryReader::__get_m_charBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_charBytes;
 }
 constexpr void System::IO::BinaryReader::__set_m_charBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_charBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::IO::BinaryReader::__get_m_singleChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_singleChar;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::IO::BinaryReader::__get_m_singleChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_singleChar;
 }
 constexpr void System::IO::BinaryReader::__set_m_singleChar(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_singleChar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::IO::BinaryReader::__get_m_charBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_charBuffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::IO::BinaryReader::__get_m_charBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_charBuffer;
 }
 constexpr void System::IO::BinaryReader::__set_m_charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_charBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::IO::BinaryReader::__get_m_maxCharsSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCharsSize;
 }
 constexpr int32_t const& System::IO::BinaryReader::__get_m_maxCharsSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCharsSize;
 }
 constexpr void System::IO::BinaryReader::__set_m_maxCharsSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxCharsSize = value;
 }
 constexpr bool& System::IO::BinaryReader::__get_m_2BytesPerChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_2BytesPerChar;
 }
 constexpr bool const& System::IO::BinaryReader::__get_m_2BytesPerChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_2BytesPerChar;
 }
 constexpr void System::IO::BinaryReader::__set_m_2BytesPerChar(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_2BytesPerChar = value;
 }
 constexpr bool& System::IO::BinaryReader::__get_m_isMemoryStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isMemoryStream;
 }
 constexpr bool const& System::IO::BinaryReader::__get_m_isMemoryStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isMemoryStream;
 }
 constexpr void System::IO::BinaryReader::__set_m_isMemoryStream(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isMemoryStream = value;
 }
 constexpr bool& System::IO::BinaryReader::__get_m_leaveOpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_leaveOpen;
 }
 constexpr bool const& System::IO::BinaryReader::__get_m_leaveOpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_leaveOpen;
 }
 constexpr void System::IO::BinaryReader::__set_m_leaveOpen(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_leaveOpen = value;
 }
 inline ::System::IO::BinaryReader* System::IO::BinaryReader::New_ctor(::System::IO::Stream* input) {

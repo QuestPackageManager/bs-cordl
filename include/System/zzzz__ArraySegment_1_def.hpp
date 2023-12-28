@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySegment_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
-class Object;
+template <typename T> struct __ArraySegment_1__Enumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
@@ -21,11 +18,8 @@ template <typename T> class IReadOnlyCollection_1;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
-template <typename T> struct __ArraySegment_1__Enumerator;
+class Object;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,7 +28,13 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;

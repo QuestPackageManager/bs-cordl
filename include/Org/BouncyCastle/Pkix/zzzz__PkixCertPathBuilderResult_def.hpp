@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(PkixCertPathBuilderResult)
 namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
 }
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

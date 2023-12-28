@@ -5,41 +5,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMultiplayerSessionManager)
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__SessionType;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
+class IConnectedPlayer;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+struct __MultiplayerSessionManager__SessionType;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__MessageType;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Action;
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

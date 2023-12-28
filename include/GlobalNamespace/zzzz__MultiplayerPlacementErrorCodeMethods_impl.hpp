@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCodeMethods_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCode_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPlacementErrorCodeMethods.ToConnectionFailedReason
 template <>
 

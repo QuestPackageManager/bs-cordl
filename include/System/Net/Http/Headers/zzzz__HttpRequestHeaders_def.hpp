@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(HttpRequestHeaders)
 namespace System::Net::Http::Headers {
 template <typename T> class HttpHeaderValueCollection_1;
 }
+namespace System::Net::Http::Headers {
+class AuthenticationHeaderValue;
+}
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace System::Net::Http::Headers {
-class TransferCodingHeaderValue;
 }
 namespace System::Net::Http::Headers {
 class __HttpRequestHeaders____c;
 }
 namespace System::Net::Http::Headers {
-class AuthenticationHeaderValue;
+class TransferCodingHeaderValue;
 }
 namespace System {
 template <typename T> class Predicate_1;
@@ -111,8 +111,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Ht
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14679)) CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14679)) CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
 class CORDL_TYPE HttpRequestHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations

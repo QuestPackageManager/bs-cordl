@@ -9,74 +9,74 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMethodInfo)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct RuntimeMethodHandle;
 }
 namespace System::Reflection {
-class Module;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Reflection {
-class Binder;
+struct BindingFlags;
 }
 namespace System::Reflection {
 struct MethodAttributes;
 }
 namespace System::Reflection {
-struct BindingFlags;
+struct PInvokeAttributes;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class RuntimeType;
 }
-namespace System {
-struct RuntimeTypeHandle;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
 namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Exception;
+struct CallingConventions;
 }
 namespace System::Reflection {
-struct PInvokeAttributes;
-}
-namespace System {
-struct RuntimeMethodHandle;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class Delegate;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System {
-class Object;
+class Module;
 }
 namespace System::Reflection {
 class MethodBase;
 }
 namespace System::Reflection {
-class CustomAttributeData;
+class ParameterInfo;
 }
 namespace System::Reflection {
-struct CallingConventions;
+class RuntimeModule;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System {
+class Exception;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
+class CustomAttributeData;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3479)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3479))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3523))
 // CS Name: ::System.Reflection::RuntimeMethodInfo*
 class CORDL_TYPE RuntimeMethodInfo : public ::System::Reflection::MethodInfo {

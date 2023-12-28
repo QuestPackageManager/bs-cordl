@@ -79,39 +79,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OVRMeshData& GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__get__MeshData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MeshData_k__BackingField;
 }
 constexpr ::GlobalNamespace::OVRMeshData const& GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__get__MeshData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MeshData_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__set__MeshData_k__BackingField(::GlobalNamespace::OVRMeshData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MeshData_k__BackingField = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__get_Weights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Weights;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__get_Weights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Weights;
 }
 constexpr void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__set_Weights(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Weights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__get_modified() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modified;
 }
 constexpr bool const& GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__get_modified() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modified;
 }
 constexpr void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::__set_modified(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modified = value;
 }
 inline ::GlobalNamespace::OVRMeshData GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::get_MeshData() {

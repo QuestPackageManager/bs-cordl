@@ -5,38 +5,38 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PemReader)
-namespace System::IO {
-class TextReader;
-}
-namespace Org::BouncyCastle::Pkcs {
-class Pkcs10CertificationRequest;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
-}
-namespace Org::BouncyCastle::OpenSsl {
-class IPasswordFinder;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Crl;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::OpenSsl {
+class IPasswordFinder;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+class X509Crl;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
+namespace System::IO {
+class TextReader;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Pkcs {
+class Pkcs10CertificationRequest;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {

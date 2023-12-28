@@ -1,31 +1,31 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LinkedListNodeCache_1_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__get_m_NodesCreated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodesCreated;
 }
 template <typename T> constexpr int32_t const& UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__get_m_NodesCreated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodesCreated;
 }
 template <typename T> constexpr void UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__set_m_NodesCreated(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NodesCreated = value;
 }
 template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>*& UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__get_m_NodeCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodeCache;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__get_m_NodeCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodeCache;
 }
 template <typename T> constexpr void UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NodeCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>* UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::Acquire(T val) {

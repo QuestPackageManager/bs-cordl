@@ -7,43 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBasedNetListener)
 namespace LiteNetLib {
+struct DisconnectInfo;
+}
+namespace LiteNetLib {
 class __EventBasedNetListener__OnNetworkLatencyUpdate;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnPeerDisconnected;
-}
-namespace LiteNetLib {
-class ConnectionRequest;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkError;
-}
-namespace System::Net {
-class IPEndPoint;
 }
 namespace System {
 class Object;
 }
 namespace LiteNetLib {
-struct DeliveryMethod;
+class __EventBasedNetListener__OnNetworkError;
+}
+namespace LiteNetLib {
+class __EventBasedNetListener__OnPeerDisconnected;
 }
 namespace LiteNetLib {
 class NetPeer;
 }
 namespace LiteNetLib {
-struct DisconnectInfo;
+struct DeliveryMethod;
 }
 namespace LiteNetLib {
-class __EventBasedNetListener__OnConnectionRequest;
+class __EventBasedNetListener__OnPeerConnected;
+}
+namespace LiteNetLib {
+class INetEventListener;
 }
 namespace LiteNetLib {
 class __EventBasedNetListener__OnNetworkReceive;
 }
 namespace LiteNetLib {
-class IDeliveryEventListener;
-}
-namespace System::Net::Sockets {
-struct SocketError;
+class ConnectionRequest;
 }
 namespace LiteNetLib {
 class __EventBasedNetListener__OnDeliveryEvent;
@@ -52,22 +46,28 @@ namespace LiteNetLib {
 class NetPacketReader;
 }
 namespace LiteNetLib {
+class IDeliveryEventListener;
+}
+namespace LiteNetLib {
 class __EventBasedNetListener__OnNetworkReceiveUnconnected;
+}
+namespace LiteNetLib {
+class __EventBasedNetListener__OnConnectionRequest;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace LiteNetLib {
 struct UnconnectedMessageType;
 }
-namespace LiteNetLib {
-class INetEventListener;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnPeerConnected;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
 }
 // Forward declare root types
 namespace LiteNetLib {

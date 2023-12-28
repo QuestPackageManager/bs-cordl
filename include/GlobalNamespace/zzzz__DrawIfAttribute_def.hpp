@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DrawIfAttribute)
-namespace GlobalNamespace {
-struct __DrawIfAttribute__DisablingType;
-}
 namespace System {
 class Object;
+}
+namespace GlobalNamespace {
+struct __DrawIfAttribute__DisablingType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

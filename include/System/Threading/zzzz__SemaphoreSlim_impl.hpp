@@ -6,20 +6,20 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 //  Writing Method size for method: ::System::Threading::__SemaphoreSlim__TaskNode._ctor
 template <>
 
@@ -68,27 +68,27 @@ constexpr System::Threading::__SemaphoreSlim__TaskNode::operator ::System::Threa
   return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
 constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& System::Threading::__SemaphoreSlim__TaskNode::__get_Prev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Prev;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& System::Threading::__SemaphoreSlim__TaskNode::__get_Prev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Prev;
 }
 constexpr void System::Threading::__SemaphoreSlim__TaskNode::__set_Prev(::System::Threading::__SemaphoreSlim__TaskNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& System::Threading::__SemaphoreSlim__TaskNode::__get_Next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& System::Threading::__SemaphoreSlim__TaskNode::__get_Next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
 constexpr void System::Threading::__SemaphoreSlim__TaskNode::__set_Next(::System::Threading::__SemaphoreSlim__TaskNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::__SemaphoreSlim__TaskNode* System::Threading::__SemaphoreSlim__TaskNode::New_ctor() {
@@ -490,87 +490,87 @@ constexpr System::Threading::SemaphoreSlim::operator ::System::IDisposable*() no
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Threading::SemaphoreSlim::__get_m_currentCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentCount;
 }
 constexpr int32_t const& System::Threading::SemaphoreSlim::__get_m_currentCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentCount;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_currentCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentCount = value;
 }
 constexpr int32_t& System::Threading::SemaphoreSlim::__get_m_maxCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCount;
 }
 constexpr int32_t const& System::Threading::SemaphoreSlim::__get_m_maxCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCount;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_maxCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxCount = value;
 }
 constexpr int32_t& System::Threading::SemaphoreSlim::__get_m_waitCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_waitCount;
 }
 constexpr int32_t const& System::Threading::SemaphoreSlim::__get_m_waitCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_waitCount;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_waitCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_waitCount = value;
 }
 constexpr ::System::Object*& System::Threading::SemaphoreSlim::__get_m_lockObj() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lockObj;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::SemaphoreSlim::__get_m_lockObj() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lockObj;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_lockObj(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_lockObj)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ManualResetEvent*& System::Threading::SemaphoreSlim::__get_m_waitHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_waitHandle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Threading::SemaphoreSlim::__get_m_waitHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_waitHandle;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_waitHandle(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_waitHandle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& System::Threading::SemaphoreSlim::__get_m_asyncHead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_asyncHead;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& System::Threading::SemaphoreSlim::__get_m_asyncHead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_asyncHead;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_asyncHead(::System::Threading::__SemaphoreSlim__TaskNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_asyncHead)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::__SemaphoreSlim__TaskNode*& System::Threading::SemaphoreSlim::__get_m_asyncTail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_asyncTail;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__SemaphoreSlim__TaskNode*> const& System::Threading::SemaphoreSlim::__get_m_asyncTail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_asyncTail;
 }
 constexpr void System::Threading::SemaphoreSlim::__set_m_asyncTail(::System::Threading::__SemaphoreSlim__TaskNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_asyncTail)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::SemaphoreSlim::setStaticF_s_trueTask(::System::Threading::Tasks::Task_1<bool>* value) {

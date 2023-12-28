@@ -11,22 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingSettings)
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__Mode;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class __PlaybackRenderer__PlaybackScreenshot;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class __PlaybackRenderer__PlaybackScreenshot;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -35,7 +32,10 @@ namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct __ObjectsMovementRecorder__Mode;
+}
+namespace GlobalNamespace {
+struct __ObjectsMovementRecorder__CameraView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingSettings);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(5917)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5968)) CS Name: ::RecordingSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(5918)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5917))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5968)) CS Name: ::RecordingSettings*
 class CORDL_TYPE RecordingSettings : public ::System::Object {
 public:
   // Declarations

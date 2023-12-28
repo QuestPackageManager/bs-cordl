@@ -2,37 +2,37 @@
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteMultiplayerSyncState_3_def.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
-#include "GlobalNamespace/zzzz__RemoteStateBuffer_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__RemoteStateBuffer_3_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__get__player() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____player;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__get__player() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____player;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__set__player(::GlobalNamespace::IConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____player)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*& GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__get__stateBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateBuffer;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*> const&
 GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__get__stateBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateBuffer;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__set__stateBuffer(::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stateBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TStateTable, typename TType, typename TState>

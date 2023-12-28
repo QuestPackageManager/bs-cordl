@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BTSCharacterResultAnimationController)
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
+}
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockFloatAnimator;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

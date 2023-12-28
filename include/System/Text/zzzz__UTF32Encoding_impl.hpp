@@ -2,13 +2,13 @@
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF32Encoding_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Text/zzzz__UTF32Encoding_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 //  Writing Method size for method: ::System::Text::__UTF32Encoding__UTF32Decoder._ctor
 template <>
 
@@ -55,27 +55,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::__UTF32Encoding__UTF32Decoder::__get_iChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iChar;
 }
 constexpr int32_t const& System::Text::__UTF32Encoding__UTF32Decoder::__get_iChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iChar;
 }
 constexpr void System::Text::__UTF32Encoding__UTF32Decoder::__set_iChar(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iChar = value;
 }
 constexpr int32_t& System::Text::__UTF32Encoding__UTF32Decoder::__get_readByteCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readByteCount;
 }
 constexpr int32_t const& System::Text::__UTF32Encoding__UTF32Decoder::__get_readByteCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readByteCount;
 }
 constexpr void System::Text::__UTF32Encoding__UTF32Decoder::__set_readByteCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readByteCount = value;
 }
 inline ::System::Text::__UTF32Encoding__UTF32Decoder* System::Text::__UTF32Encoding__UTF32Decoder::New_ctor(::System::Text::UTF32Encoding* encoding) {
@@ -536,39 +536,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Text::UTF32Encoding::__get__emitUTF32ByteOrderMark() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitUTF32ByteOrderMark;
 }
 constexpr bool const& System::Text::UTF32Encoding::__get__emitUTF32ByteOrderMark() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitUTF32ByteOrderMark;
 }
 constexpr void System::Text::UTF32Encoding::__set__emitUTF32ByteOrderMark(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitUTF32ByteOrderMark = value;
 }
 constexpr bool& System::Text::UTF32Encoding::__get__isThrowException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isThrowException;
 }
 constexpr bool const& System::Text::UTF32Encoding::__get__isThrowException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isThrowException;
 }
 constexpr void System::Text::UTF32Encoding::__set__isThrowException(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isThrowException = value;
 }
 constexpr bool& System::Text::UTF32Encoding::__get__bigEndian() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigEndian;
 }
 constexpr bool const& System::Text::UTF32Encoding::__get__bigEndian() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigEndian;
 }
 constexpr void System::Text::UTF32Encoding::__set__bigEndian(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bigEndian = value;
 }
 inline void System::Text::UTF32Encoding::setStaticF_s_default(::System::Text::UTF32Encoding* value) {

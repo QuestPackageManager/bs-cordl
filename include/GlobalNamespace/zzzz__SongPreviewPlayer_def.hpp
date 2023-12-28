@@ -9,44 +9,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongPreviewPlayer)
-namespace UnityEngine {
-class AudioSource;
-}
-namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceVolumeController;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class __SongPreviewPlayer__AudioSourceParams;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class __SongPreviewPlayer__AudioSourceVolumeController;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceParams;
+class __SongPreviewPlayer__InitData;
 }
 namespace GlobalNamespace {
 class AudioManagerSO;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __SongPreviewPlayer__InitData;
-}
-namespace UnityEngine {
-class AudioClip;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -124,7 +124,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPreviewPl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4079))
 // CS Name: ::SongPreviewPlayer::AudioSourceParams*
 class CORDL_TYPE __SongPreviewPlayer__AudioSourceParams : public ::System::Object {

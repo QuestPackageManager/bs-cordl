@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__TexturePlayableOutput_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::Playables::TexturePlayableOutput.GetHandle
 template <>
 

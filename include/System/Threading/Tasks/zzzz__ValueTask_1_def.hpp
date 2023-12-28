@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(ValueTask_1)
 namespace System {
 class Object;
 }
-namespace System::Threading::Tasks::Sources {
-template <typename TResult> class IValueTaskSource_1;
-}
 namespace GlobalNamespace {
 template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
+}
+namespace System::Threading::Tasks::Sources {
+template <typename TResult> class IValueTaskSource_1;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -27,10 +27,10 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
+template <typename TResult> struct ValueTaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct ValueTaskAwaiter_1;
+template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;

@@ -10,26 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonTextReader)
-namespace System {
-struct Decimal;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
-}
-namespace Newtonsoft::Json {
-class JsonReaderException;
+namespace Newtonsoft::Json::Utilities {
+class PropertyNameTable;
 }
 namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
-struct ReadType;
+template <typename T> class IArrayPool_1;
 }
 namespace System::IO {
 class TextReader;
 }
 namespace Newtonsoft::Json {
-template <typename T> class IArrayPool_1;
+struct ReadType;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -37,11 +31,17 @@ template <typename T> struct Nullable_1;
 namespace System {
 struct DateTimeOffset;
 }
-namespace Newtonsoft::Json::Utilities {
-class PropertyNameTable;
+namespace System {
+struct Decimal;
 }
 namespace System {
 struct DateTime;
+}
+namespace Newtonsoft::Json {
+class JsonReaderException;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextReader);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11866)), TypeDefinitionIndex(TypeDefinitionIndex(11890)), TypeDefinitionIndex(TypeDefinitionIndex(11833))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11890)), TypeDefinitionIndex(TypeDefinitionIndex(11866))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11824))
 // CS Name: ::Newtonsoft.Json::JsonTextReader*
 class CORDL_TYPE JsonTextReader : public ::Newtonsoft::Json::JsonReader {

@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGridCube)
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class OVRCameraRig;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

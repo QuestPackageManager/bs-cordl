@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleColor)
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleColor);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7290))
 // CS Name: ::UnityEngine.UIElements::StyleColor
 struct CORDL_TYPE StyleColor {

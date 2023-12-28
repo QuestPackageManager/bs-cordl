@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Sphere_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Sphere.CopyShape
 template <>
 
@@ -81,39 +81,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Sphere::__get_m_Subdivisions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Subdivisions;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Sphere::__get_m_Subdivisions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Subdivisions;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Sphere::__set_m_Subdivisions(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Subdivisions = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Sphere::__get_m_BottomMostVertexIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BottomMostVertexIndex;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Sphere::__get_m_BottomMostVertexIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BottomMostVertexIndex;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Sphere::__set_m_BottomMostVertexIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BottomMostVertexIndex = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Shapes::Sphere::__get_m_Smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr bool const& UnityEngine::ProBuilder::Shapes::Sphere::__get_m_Smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Sphere::__set_m_Smooth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
 inline void UnityEngine::ProBuilder::Shapes::Sphere::setStaticF_k_IcosphereVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {

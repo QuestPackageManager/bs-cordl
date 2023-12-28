@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RotationLimitPolygonal)
-namespace RootMotion::FinalIK {
-class __RotationLimitPolygonal__LimitPoint;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class __RotationLimitPolygonal__ReachCone;
+}
+namespace RootMotion::FinalIK {
+class __RotationLimitPolygonal__LimitPoint;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

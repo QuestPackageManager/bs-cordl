@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameplayModifierToggle)
-namespace HMUI {
-class HoverTextSetter;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine::UI {
 class Toggle;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+class HoverTextSetter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

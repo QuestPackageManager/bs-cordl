@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect._ctor
 template <>
 
@@ -21,63 +21,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationAngle;
 }
 constexpr float_t const& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationAngle;
 }
 constexpr void GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__set_rotationAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationAngle = value;
 }
 constexpr float_t& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationStep;
 }
 constexpr float_t const& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationStep;
 }
 constexpr void GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__set_rotationStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationStep = value;
 }
 constexpr float_t& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationFlexySpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationFlexySpeed;
 }
 constexpr float_t const& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationFlexySpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationFlexySpeed;
 }
 constexpr void GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__set_rotationFlexySpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationFlexySpeed = value;
 }
 constexpr int32_t& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationPropagationSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationPropagationSpeed;
 }
 constexpr int32_t const& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_rotationPropagationSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationPropagationSpeed;
 }
 constexpr void GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__set_rotationPropagationSpeed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationPropagationSpeed = value;
 }
 constexpr int32_t& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_progressPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressPos;
 }
 constexpr int32_t const& GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__get_progressPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressPos;
 }
 constexpr void GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::__set_progressPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___progressPos = value;
 }
 inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect::New_ctor() {
@@ -221,105 +221,105 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::TrackLaneRingsManager*& GlobalNamespace::TrackLaneRingsRotationEffect::__get__trackLaneRingsManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneRingsManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrackLaneRingsManager*> const& GlobalNamespace::TrackLaneRingsRotationEffect::__get__trackLaneRingsManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneRingsManager;
 }
 constexpr void GlobalNamespace::TrackLaneRingsRotationEffect::__set__trackLaneRingsManager(::GlobalNamespace::TrackLaneRingsManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackLaneRingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationAngle;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationAngle;
 }
 constexpr void GlobalNamespace::TrackLaneRingsRotationEffect::__set__startupRotationAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startupRotationAngle = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationStep;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationStep;
 }
 constexpr void GlobalNamespace::TrackLaneRingsRotationEffect::__set__startupRotationStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startupRotationStep = value;
 }
 constexpr int32_t& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationPropagationSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationPropagationSpeed;
 }
 constexpr int32_t const& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationPropagationSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationPropagationSpeed;
 }
 constexpr void GlobalNamespace::TrackLaneRingsRotationEffect::__set__startupRotationPropagationSpeed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startupRotationPropagationSpeed = value;
 }
 constexpr float_t& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationFlexySpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationFlexySpeed;
 }
 constexpr float_t const& GlobalNamespace::TrackLaneRingsRotationEffect::__get__startupRotationFlexySpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startupRotationFlexySpeed;
 }
 constexpr void GlobalNamespace::TrackLaneRingsRotationEffect::__set__startupRotationFlexySpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startupRotationFlexySpeed = value;
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*&
 GlobalNamespace::TrackLaneRingsRotationEffect::__get__activeRingRotationEffects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeRingRotationEffects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*> const&
 GlobalNamespace::TrackLaneRingsRotationEffect::__get__activeRingRotationEffects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeRingRotationEffects;
 }
 constexpr void
 GlobalNamespace::TrackLaneRingsRotationEffect::__set__activeRingRotationEffects(::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeRingRotationEffects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*&
 GlobalNamespace::TrackLaneRingsRotationEffect::__get__ringRotationEffectsPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringRotationEffectsPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*> const&
 GlobalNamespace::TrackLaneRingsRotationEffect::__get__ringRotationEffectsPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringRotationEffectsPool;
 }
 constexpr void
 GlobalNamespace::TrackLaneRingsRotationEffect::__set__ringRotationEffectsPool(::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ringRotationEffectsPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<int32_t>*& GlobalNamespace::TrackLaneRingsRotationEffect::__get_ringRotationEffectsToDelete() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ringRotationEffectsToDelete;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& GlobalNamespace::TrackLaneRingsRotationEffect::__get_ringRotationEffectsToDelete() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ringRotationEffectsToDelete;
 }
 constexpr void GlobalNamespace::TrackLaneRingsRotationEffect::__set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ringRotationEffectsToDelete)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::TrackLaneRingsRotationEffect::Awake() {

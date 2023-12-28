@@ -5,10 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GroupBoxUtility)
 namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
+class IGroupBox;
 }
 namespace UnityEngine::UIElements {
-class IGroupBox;
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class IGroupManager;
@@ -16,14 +19,11 @@ class IGroupManager;
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
-namespace UnityEngine::UIElements {
-class IGroupBoxOption;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+class IGroupBoxOption;
 }
 namespace System {
 class Type;

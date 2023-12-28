@@ -5,22 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapObjectExecutionRatingsRecorder)
 namespace GlobalNamespace {
-class ObstacleController;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class IScoreController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class ObstacleController;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
 class BeatmapObjectExecutionRating;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -28,8 +25,11 @@ template <typename T> class HashSet_1;
 namespace GlobalNamespace {
 class ScoringElement;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

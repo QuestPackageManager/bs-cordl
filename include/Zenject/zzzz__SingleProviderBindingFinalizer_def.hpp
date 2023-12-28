@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 CORDL_MODULE_EXPORT(SingleProviderBindingFinalizer)
 namespace Zenject {
-class IProvider;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class IProvider;
+}
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {

@@ -11,38 +11,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutGroup)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UI {
-class ILayoutController;
-}
 namespace UnityEngine {
 class RectOffset;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class ILayoutGroup;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
 namespace UnityEngine::UI {
 class ILayoutElement;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::UI {
 class __LayoutGroup___DelayedSetDirty_d__56;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::UI {
+class ILayoutGroup;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -160,8 +160,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__LayoutGroup__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15901))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
 class CORDL_TYPE LayoutGroup : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations

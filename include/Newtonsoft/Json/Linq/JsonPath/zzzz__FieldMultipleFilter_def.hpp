@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FieldMultipleFilter)
-namespace Newtonsoft::Json::Linq::JsonPath {
-class __FieldMultipleFilter____c;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class __FieldMultipleFilter____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -23,23 +20,26 @@ template <typename T> class List_1;
 namespace Newtonsoft::Json::Linq::JsonPath {
 class __FieldMultipleFilter___ExecuteFilter_d__4;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JObject;
+}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace Newtonsoft::Json::Linq {
-class JObject;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12017)) CS Name: ::FieldMultipleFilter::<ExecuteFilter>d__4*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12017)) CS Name: ::FieldMultipleFilter::<ExecuteFilter>d__4*
 class CORDL_TYPE __FieldMultipleFilter___ExecuteFilter_d__4 : public ::System::Object {
 public:
   // Declarations

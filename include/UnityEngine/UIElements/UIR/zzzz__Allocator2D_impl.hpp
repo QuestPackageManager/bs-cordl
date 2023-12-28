@@ -5,9 +5,9 @@
 #include "UnityEngine/zzzz__RectInt_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
@@ -28,27 +28,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::__Allocator2D__Area::__get_rect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::__Allocator2D__Area::__get_rect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Area::__set_rect(::UnityEngine::RectInt value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rect = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::__Allocator2D__Area::__get_allocator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::__Allocator2D__Area::__get_allocator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Area::__set_allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::UIR::__Allocator2D__Area* UnityEngine::UIElements::UIR::__Allocator2D__Area::New_ctor(::UnityEngine::RectInt rect) {
@@ -106,63 +106,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_rect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_rect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__set_rect(::UnityEngine::RectInt value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rect = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Area*& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_area() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___area;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Allocator2D__Area*> const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_area() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___area;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__set_area(::UnityEngine::UIElements::UIR::__Allocator2D__Area* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___area)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_allocator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_allocator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allocator;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__set_allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIR::Alloc& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_alloc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alloc;
 }
 constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_alloc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alloc;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__set_alloc(::UnityEngine::UIElements::UIR::Alloc value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___alloc = value;
 }
 constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Row*& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Allocator2D__Row*> const& UnityEngine::UIElements::UIR::__Allocator2D__Row::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void UnityEngine::UIElements::UIR::__Allocator2D__Row::__set_next(::UnityEngine::UIElements::UIR::__Allocator2D__Row* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::UIR::__Allocator2D__Row::setStaticF_pool(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* value) {
@@ -330,78 +330,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::UnityEngine::Vector2Int& UnityEngine::UIElements::UIR::Allocator2D::__get_m_MinSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinSize;
 }
 constexpr ::UnityEngine::Vector2Int const& UnityEngine::UIElements::UIR::Allocator2D::__get_m_MinSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MinSize;
 }
 constexpr void UnityEngine::UIElements::UIR::Allocator2D::__set_m_MinSize(::UnityEngine::Vector2Int value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MinSize = value;
 }
 constexpr ::UnityEngine::Vector2Int& UnityEngine::UIElements::UIR::Allocator2D::__get_m_MaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 constexpr ::UnityEngine::Vector2Int const& UnityEngine::UIElements::UIR::Allocator2D::__get_m_MaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxSize;
 }
 constexpr void UnityEngine::UIElements::UIR::Allocator2D::__set_m_MaxSize(::UnityEngine::Vector2Int value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxSize = value;
 }
 constexpr ::UnityEngine::Vector2Int& UnityEngine::UIElements::UIR::Allocator2D::__get_m_MaxAllocSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxAllocSize;
 }
 constexpr ::UnityEngine::Vector2Int const& UnityEngine::UIElements::UIR::Allocator2D::__get_m_MaxAllocSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxAllocSize;
 }
 constexpr void UnityEngine::UIElements::UIR::Allocator2D::__set_m_MaxAllocSize(::UnityEngine::Vector2Int value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxAllocSize = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::Allocator2D::__get_m_RowHeightBias() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RowHeightBias;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIR::Allocator2D::__get_m_RowHeightBias() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RowHeightBias;
 }
 constexpr void UnityEngine::UIElements::UIR::Allocator2D::__set_m_RowHeightBias(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RowHeightBias = value;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*>& UnityEngine::UIElements::UIR::Allocator2D::__get_m_Rows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rows;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> const&
 UnityEngine::UIElements::UIR::Allocator2D::__get_m_Rows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rows;
 }
 constexpr void
 UnityEngine::UIElements::UIR::Allocator2D::__set_m_Rows(::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Rows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*& UnityEngine::UIElements::UIR::Allocator2D::__get_m_Areas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Areas;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*> const&
 UnityEngine::UIElements::UIR::Allocator2D::__get_m_Areas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Areas;
 }
 constexpr void UnityEngine::UIElements::UIR::Allocator2D::__set_m_Areas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Areas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::UIR::Allocator2D* UnityEngine::UIElements::UIR::Allocator2D::New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) {

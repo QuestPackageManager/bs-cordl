@@ -8,6 +8,18 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionMapAnimationController)
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
+class MenuShockwave;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
+}
 namespace HMUI {
 class ScrollView;
 }
@@ -15,10 +27,10 @@ namespace GlobalNamespace {
 class __MissionMapAnimationController____c;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
 }
 namespace GlobalNamespace {
-class MenuShockwave;
+class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
 }
 namespace GlobalNamespace {
 class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
@@ -26,29 +38,17 @@ class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
 namespace GlobalNamespace {
 class __MissionMapAnimationController___UpdateStageCoroutine_d__14;
 }
-namespace GlobalNamespace {
-class MissionNodesManager;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
-}
-namespace System {
-class Action;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 namespace GlobalNamespace {
 class MissionNodeConnection;

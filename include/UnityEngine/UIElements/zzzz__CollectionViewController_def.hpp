@@ -5,17 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionViewController)
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
 namespace System::Collections {
 class IList;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2> class Action_2;
 }
-namespace System {
-class Action;
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
@@ -24,7 +21,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class Action;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

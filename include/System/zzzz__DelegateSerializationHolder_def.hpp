@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelegateSerializationHolder)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class IObjectReference;
+class __DelegateSerializationHolder__DelegateEntry;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System {
-class __DelegateSerializationHolder__DelegateEntry;
+class Delegate;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Runtime::Serialization {
+class IObjectReference;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
-class Delegate;
+class Object;
 }
 // Forward declare root types
 namespace System {

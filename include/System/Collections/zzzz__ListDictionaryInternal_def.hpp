@@ -12,28 +12,28 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
 class __ListDictionaryInternal__DictionaryNode;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class __ListDictionaryInternal__NodeKeyValueCollection;
 }
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class __ListDictionaryInternal__NodeEnumerator;
+class IDictionaryEnumerator;
 }
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class __ListDictionaryInternal__NodeEnumerator;
 }
 namespace System::Collections {
 struct DictionaryEntry;

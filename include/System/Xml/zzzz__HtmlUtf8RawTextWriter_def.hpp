@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HtmlUtf8RawTextWriter)
 namespace System::Xml {
-class TernaryTreeReadOnly;
-}
-namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
 class ByteStack;
 }
 namespace System::Xml {
 struct XmlStandalone;
+}
+namespace System::Xml {
+class TernaryTreeReadOnly;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 namespace System::IO {
 class Stream;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Xml::HtmlUtf8RawTextWriter);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11438)), TypeDefinitionIndex(TypeDefinitionIndex(11437)), TypeDefinitionIndex(TypeDefinitionIndex(11475))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11438)), TypeDefinitionIndex(TypeDefinitionIndex(11475)), TypeDefinitionIndex(TypeDefinitionIndex(11437))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11419))
 // CS Name: ::System.Xml::HtmlUtf8RawTextWriter*
 class CORDL_TYPE HtmlUtf8RawTextWriter : public ::System::Xml::XmlUtf8RawTextWriter {

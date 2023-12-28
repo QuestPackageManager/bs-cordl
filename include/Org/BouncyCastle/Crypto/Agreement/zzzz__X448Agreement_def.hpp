@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X448Agreement)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class X448PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IRawAgreement;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class X448PrivateKeyParameters;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

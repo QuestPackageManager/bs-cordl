@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MissionNodesManager*& GlobalNamespace::MissionNodeNameGenerator::__get__missionNodesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodesManager*> const& GlobalNamespace::MissionNodeNameGenerator::__get__missionNodesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodesManager;
 }
 constexpr void GlobalNamespace::MissionNodeNameGenerator::__set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNodesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MissionNodeNameGenerator* GlobalNamespace::MissionNodeNameGenerator::New_ctor() {

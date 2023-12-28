@@ -6,122 +6,122 @@
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__current(::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int64_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__fullStateUpdateFrequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullStateUpdateFrequency;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int64_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__fullStateUpdateFrequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullStateUpdateFrequency;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__fullStateUpdateFrequency(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullStateUpdateFrequency = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int64_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__deltaUpdateFrequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaUpdateFrequency;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int64_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__deltaUpdateFrequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaUpdateFrequency;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__deltaUpdateFrequency(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaUpdateFrequency = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentStateIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentStateIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentStateIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentStateIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__sentStateIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sentStateIndex = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentDeltaIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentDeltaIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentDeltaIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentDeltaIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__sentDeltaIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sentDeltaIndex = value;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
 GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentStates;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
 GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentStates;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__sentStates(
     ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sentStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
 GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentDeltas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentDeltas;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
 GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__sentDeltas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sentDeltas;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__sentDeltas(
     ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sentDeltas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::SyncStateId& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__lastSentSyncStateId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSentSyncStateId;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::SyncStateId const& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__lastSentSyncStateId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSentSyncStateId;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__set__lastSentSyncStateId(::GlobalNamespace::SyncStateId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastSentSyncStateId = value;
 }
 /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)

@@ -10,101 +10,101 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeneralUtility)
-namespace UnityEngine {
-class Texture;
-}
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HoudiniEngineUnity {
-class HEU_OutputAttribute;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAssetRoot;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Color;
+template <typename T> class __HEU_GeneralUtility__GetArray1ArgDel_1;
 }
 namespace UnityEngine {
 class Texture2D;
 }
 namespace HoudiniEngineUnity {
-struct TransformData;
-}
-namespace HoudiniEngineUnity {
-template <typename ARG2, typename T> class __HEU_GeneralUtility__GetArray2ArgDel_2;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class __HEU_GeneralUtility__GetAttributeArrayInputFunc_1;
-}
-namespace HoudiniEngineUnity {
-template <typename ARG3, typename ARG2, typename T> class __HEU_GeneralUtility__GetArray3ArgDel_3;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace HoudiniEngineUnity {
-class HEU_Parameters;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class __HEU_GeneralUtility__GetArray1ArgDel_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace UnityEngine {
-class MeshCollider;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace System {
-class Type;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_Handle;
+class HEU_OutputAttribute;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
+class HEU_Parameters;
+}
+namespace HoudiniEngineUnity {
+struct TransformData;
+}
+namespace HoudiniEngineUnity {
 template <typename T> class __HEU_GeneralUtility__SetAttributeArrayFunc_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace UnityEngine {
+class MeshCollider;
+}
+namespace HoudiniEngineUnity {
+template <typename ARG3, typename ARG2, typename T> class __HEU_GeneralUtility__GetArray3ArgDel_3;
+}
+namespace HoudiniEngineUnity {
+class HEU_Handle;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class __HEU_GeneralUtility__GetAttributeArrayInputFunc_1;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AssetInfo;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace System {
+class Type;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAssetRoot;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class IAsyncResult;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace HoudiniEngineUnity {
+template <typename ARG2, typename T> class __HEU_GeneralUtility__GetArray2ArgDel_2;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

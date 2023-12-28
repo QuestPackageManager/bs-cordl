@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_2)
-namespace Zenject {
-class IFactory;
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Type;
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -173,7 +173,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11005))
 // CS Name: ::Zenject::PlaceholderFactory`2<TParam1,TValue>*
 class CORDL_TYPE PlaceholderFactory_2 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {

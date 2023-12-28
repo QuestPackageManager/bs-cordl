@@ -2,8 +2,8 @@
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PreAssetEventData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PreAssetEventData._ctor
 template <>
 
@@ -21,27 +21,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& HoudiniEngineUnity::HEU_PreAssetEventData::__get_Asset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Asset;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& HoudiniEngineUnity::HEU_PreAssetEventData::__get_Asset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Asset;
 }
 constexpr void HoudiniEngineUnity::HEU_PreAssetEventData::__set_Asset(::HoudiniEngineUnity::HEU_HoudiniAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Asset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_AssetEventType& HoudiniEngineUnity::HEU_PreAssetEventData::__get_AssetType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetType;
 }
 constexpr ::HoudiniEngineUnity::HEU_AssetEventType const& HoudiniEngineUnity::HEU_PreAssetEventData::__get_AssetType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetType;
 }
 constexpr void HoudiniEngineUnity::HEU_PreAssetEventData::__set_AssetType(::HoudiniEngineUnity::HEU_AssetEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AssetType = value;
 }
 inline ::HoudiniEngineUnity::HEU_PreAssetEventData* HoudiniEngineUnity::HEU_PreAssetEventData::New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset,

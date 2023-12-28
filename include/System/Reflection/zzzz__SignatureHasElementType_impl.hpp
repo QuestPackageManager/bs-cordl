@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Reflection/zzzz__SignatureType_impl.hpp"
 #include "System/Reflection/zzzz__SignatureHasElementType_def.hpp"
-#include "System/Reflection/zzzz__SignatureType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__SignatureType_def.hpp"
 //  Writing Method size for method: ::System::Reflection::SignatureHasElementType._ctor
 template <>
 
@@ -327,15 +327,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Reflection::SignatureType*& System::Reflection::SignatureHasElementType::__get__elementType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::SignatureType*> const& System::Reflection::SignatureHasElementType::__get__elementType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementType;
 }
 constexpr void System::Reflection::SignatureHasElementType::__set__elementType(::System::Reflection::SignatureType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Reflection::SignatureHasElementType* System::Reflection::SignatureHasElementType::New_ctor(::System::Reflection::SignatureType* elementType) {

@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectSecurity)
 namespace System::Security::AccessControl {
-struct PropagationFlags;
-}
-namespace System {
-class Type;
-}
-namespace System::Security::AccessControl {
-class QualifiedAce;
-}
-namespace System::Security::AccessControl {
-class AuthorizationRuleCollection;
-}
-namespace System::Security::AccessControl {
 struct AccessControlType;
 }
 namespace System::Security::AccessControl {
-class AccessRule;
+struct AccessControlSections;
 }
 namespace System::Security::AccessControl {
 class CommonSecurityDescriptor;
 }
 namespace System::Security::AccessControl {
-struct AccessControlSections;
+struct PropagationFlags;
+}
+namespace System::Security::AccessControl {
+class AccessRule;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
+}
+namespace System {
+class Type;
+}
+namespace System::Security::AccessControl {
+class AuthorizationRuleCollection;
+}
+namespace System::Security::AccessControl {
+class QualifiedAce;
 }
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Threading {
 class ReaderWriterLock;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::ObjectSecurity);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3013))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3013)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3044))
 // CS Name: ::System.Security.AccessControl::ObjectSecurity*
 class CORDL_TYPE ObjectSecurity : public ::System::Object {

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IServerBeatmapProviderManager_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IServerBeatmapProviderManager.GetServerBeatmapProvider
 template <>
 

@@ -93,27 +93,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Exception*& System::Runtime::ExceptionServices::ExceptionDispatchInfo::__get_m_Exception() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Exception;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& System::Runtime::ExceptionServices::ExceptionDispatchInfo::__get_m_Exception() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Exception;
 }
 constexpr void System::Runtime::ExceptionServices::ExceptionDispatchInfo::__set_m_Exception(::System::Exception* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Exception)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Runtime::ExceptionServices::ExceptionDispatchInfo::__get_m_stackTrace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stackTrace;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::ExceptionServices::ExceptionDispatchInfo::__get_m_stackTrace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stackTrace;
 }
 constexpr void System::Runtime::ExceptionServices::ExceptionDispatchInfo::__set_m_stackTrace(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_stackTrace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* System::Runtime::ExceptionServices::ExceptionDispatchInfo::New_ctor(::System::Exception* exception) {

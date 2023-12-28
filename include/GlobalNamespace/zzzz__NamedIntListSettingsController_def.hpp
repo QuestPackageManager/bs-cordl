@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedIntListSettingsController)
 namespace GlobalNamespace {
-class __NamedIntListSettingsController__TextValuePair;
+class IntSO;
 }
 namespace GlobalNamespace {
-class IntSO;
+class __NamedIntListSettingsController__TextValuePair;
 }
 // Forward declare root types
 namespace GlobalNamespace {

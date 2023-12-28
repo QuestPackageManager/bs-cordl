@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__KeyedFactoryBase_2_impl.hpp"
 #include "Zenject/zzzz__KeyedFactory_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename TBase, typename TKey> inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::KeyedFactory_2<TBase, TKey>::get_ProvidedTypes() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_2<TBase, TKey>*>::get(),
                                                                              "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

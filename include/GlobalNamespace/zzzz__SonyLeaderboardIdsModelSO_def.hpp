@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLeaderboardIdsModelSO)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __SonyLeaderboardIdsModelSO__LeaderboardIdData;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __SonyLeaderboardIdsModelSO__LeaderboardIdData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

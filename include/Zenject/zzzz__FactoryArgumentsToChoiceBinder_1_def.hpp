@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_1)
 namespace Zenject {
-template <typename TContract> class FactoryToChoiceBinder_1;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
 class FactoryBindInfo;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+template <typename TContract> class FactoryToChoiceBinder_1;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -38,7 +38,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 1906 }), TypeDefinitionIndex(TypeDefinitionIndex(10848))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10848)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 1906 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10703))
 // CS Name: ::Zenject::FactoryArgumentsToChoiceBinder`1<TContract>*
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_1 : public ::Zenject::FactoryToChoiceBinder_1<TContract> {

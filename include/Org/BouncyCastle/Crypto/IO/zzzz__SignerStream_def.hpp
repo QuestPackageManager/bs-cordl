@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerStream)
-namespace System::IO {
-struct SeekOrigin;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {

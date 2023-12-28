@@ -15,31 +15,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpClient)
 namespace System::Net::Http {
-struct __HttpClient___SendAsyncWorker_d__47;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-struct TimeSpan;
+class HttpResponseMessage;
 }
 namespace System::Net::Http {
 class HttpMessageHandler;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Net::Http {
+struct __HttpClient___SendAsyncWorker_d__47;
+}
+namespace System {
+class Uri;
 }
 namespace System::Threading {
 class CancellationTokenSource;
-}
-namespace System::Net::Http {
-struct __HttpClient___GetStringAsync_d__53;
-}
-namespace System::Net::Http {
-class HttpResponseMessage;
 }
 namespace System::Net::Http::Headers {
 class HttpRequestHeaders;
@@ -50,14 +38,26 @@ struct HttpCompletionOption;
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Net::Http {
+struct __HttpClient___GetStringAsync_d__53;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
@@ -80,10 +80,10 @@ MARK_VAL_T(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(14645))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14642)) CS
-// Name: ::HttpClient::<SendAsyncWorker>d__47
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14645)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14642)) CS Name: ::HttpClient::<SendAsyncWorker>d__47
 struct CORDL_TYPE __HttpClient___SendAsyncWorker_d__47 {
 public:
   // Declarations
@@ -158,9 +158,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpClient_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14655)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14643)) CS Name: ::HttpClient::<GetStringAsync>d__53
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(14655)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14643)) CS Name: ::HttpClient::<GetStringAsync>d__53
 struct CORDL_TYPE __HttpClient___GetStringAsync_d__53 {
 public:
   // Declarations

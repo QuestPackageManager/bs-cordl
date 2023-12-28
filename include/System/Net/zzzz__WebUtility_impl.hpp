@@ -3,9 +3,9 @@
 #include "System/Net/Configuration/zzzz__UnicodeEncodingConformance_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebUtility_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Net/Configuration/zzzz__UnicodeEncodingConformance_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Net/zzzz__WebUtility_def.hpp"
 //  Writing Method size for method: ::System::Net::__WebUtility__UrlDecoder.FlushBytes
 template <>
@@ -78,75 +78,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::__WebUtility__UrlDecoder::__get__bufferSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufferSize;
 }
 constexpr int32_t const& System::Net::__WebUtility__UrlDecoder::__get__bufferSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bufferSize;
 }
 constexpr void System::Net::__WebUtility__UrlDecoder::__set__bufferSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bufferSize = value;
 }
 constexpr int32_t& System::Net::__WebUtility__UrlDecoder::__get__numChars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numChars;
 }
 constexpr int32_t const& System::Net::__WebUtility__UrlDecoder::__get__numChars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numChars;
 }
 constexpr void System::Net::__WebUtility__UrlDecoder::__set__numChars(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numChars = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::Net::__WebUtility__UrlDecoder::__get__charBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charBuffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::Net::__WebUtility__UrlDecoder::__get__charBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charBuffer;
 }
 constexpr void System::Net::__WebUtility__UrlDecoder::__set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____charBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::__WebUtility__UrlDecoder::__get__numBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBytes;
 }
 constexpr int32_t const& System::Net::__WebUtility__UrlDecoder::__get__numBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBytes;
 }
 constexpr void System::Net::__WebUtility__UrlDecoder::__set__numBytes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numBytes = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::__WebUtility__UrlDecoder::__get__byteBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____byteBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::__WebUtility__UrlDecoder::__get__byteBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____byteBuffer;
 }
 constexpr void System::Net::__WebUtility__UrlDecoder::__set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____byteBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::Encoding*& System::Net::__WebUtility__UrlDecoder::__get__encoding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Net::__WebUtility__UrlDecoder::__get__encoding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
 constexpr void System::Net::__WebUtility__UrlDecoder::__set__encoding(::System::Text::Encoding* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::__WebUtility__UrlDecoder::FlushBytes() {

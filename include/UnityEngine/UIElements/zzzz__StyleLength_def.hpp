@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleLength)
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
 struct Length;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TableCellWithSeparator)
-namespace UnityEngine {
-class GameObject;
-}
 namespace HMUI {
 class ITableCellOwner;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

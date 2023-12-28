@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
 template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
@@ -25,39 +25,39 @@ template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& Oculus::Platform::Models::DeserializableList_1<T>::__get__Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& Oculus::Platform::Models::DeserializableList_1<T>::__get__Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data;
 }
 template <typename T> constexpr void Oculus::Platform::Models::DeserializableList_1<T>::__set__Data(::System::Collections::Generic::List_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::StringW& Oculus::Platform::Models::DeserializableList_1<T>::__get__NextUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NextUrl;
 }
 template <typename T> constexpr ::StringW const& Oculus::Platform::Models::DeserializableList_1<T>::__get__NextUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NextUrl;
 }
 template <typename T> constexpr void Oculus::Platform::Models::DeserializableList_1<T>::__set__NextUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____NextUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::StringW& Oculus::Platform::Models::DeserializableList_1<T>::__get__PreviousUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreviousUrl;
 }
 template <typename T> constexpr ::StringW const& Oculus::Platform::Models::DeserializableList_1<T>::__get__PreviousUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PreviousUrl;
 }
 template <typename T> constexpr void Oculus::Platform::Models::DeserializableList_1<T>::__set__PreviousUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PreviousUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline int32_t Oculus::Platform::Models::DeserializableList_1<T>::get_Count() {

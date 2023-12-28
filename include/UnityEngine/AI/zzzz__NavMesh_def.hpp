@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavMesh)
 namespace UnityEngine::AI {
-struct NavMeshHit;
+class __NavMesh__OnNavMeshPreUpdate;
 }
 namespace UnityEngine::AI {
-class __NavMesh__OnNavMeshPreUpdate;
+struct NavMeshHit;
 }
 namespace UnityEngine {
 struct Vector3;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Vector3Mask_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Vector3Mask.get_x
 template <>
 

@@ -4,12 +4,12 @@
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.get_positionActionReference
 template <>
@@ -128,44 +128,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::InputActionReference*& GlobalNamespace::__UnityXRController__Configuration::__get__positionActionReference_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionActionReference_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const&
 GlobalNamespace::__UnityXRController__Configuration::__get__positionActionReference_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionActionReference_k__BackingField;
 }
 constexpr void GlobalNamespace::__UnityXRController__Configuration::__set__positionActionReference_k__BackingField(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____positionActionReference_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& GlobalNamespace::__UnityXRController__Configuration::__get__orientationActionReference_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientationActionReference_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const&
 GlobalNamespace::__UnityXRController__Configuration::__get__orientationActionReference_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____orientationActionReference_k__BackingField;
 }
 constexpr void GlobalNamespace::__UnityXRController__Configuration::__set__orientationActionReference_k__BackingField(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____orientationActionReference_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& GlobalNamespace::__UnityXRController__Configuration::__get__thumbstickActionReference_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thumbstickActionReference_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const&
 GlobalNamespace::__UnityXRController__Configuration::__get__thumbstickActionReference_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thumbstickActionReference_k__BackingField;
 }
 constexpr void GlobalNamespace::__UnityXRController__Configuration::__set__thumbstickActionReference_k__BackingField(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____thumbstickActionReference_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -340,75 +340,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRController::__get_positionAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& GlobalNamespace::UnityXRController::__get_positionAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionAction;
 }
 constexpr void GlobalNamespace::UnityXRController::__set_positionAction(::UnityEngine::InputSystem::InputAction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positionAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRController::__get_rotationAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& GlobalNamespace::UnityXRController::__get_rotationAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationAction;
 }
 constexpr void GlobalNamespace::UnityXRController::__set_rotationAction(::UnityEngine::InputSystem::InputAction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rotationAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRController::__get_thumbstickAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thumbstickAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& GlobalNamespace::UnityXRController::__get_thumbstickAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thumbstickAction;
 }
 constexpr void GlobalNamespace::UnityXRController::__set_thumbstickAction(::UnityEngine::InputSystem::InputAction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___thumbstickAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::XR::XRNode& GlobalNamespace::UnityXRController::__get_node() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
 constexpr ::UnityEngine::XR::XRNode const& GlobalNamespace::UnityXRController::__get_node() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
 constexpr void GlobalNamespace::UnityXRController::__set_node(::UnityEngine::XR::XRNode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___node = value;
 }
 constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName& GlobalNamespace::UnityXRController::__get__manufacturerName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manufacturerName_k__BackingField;
 }
 constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName const& GlobalNamespace::UnityXRController::__get__manufacturerName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manufacturerName_k__BackingField;
 }
 constexpr void GlobalNamespace::UnityXRController::__set__manufacturerName_k__BackingField(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____manufacturerName_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::IUnityXRHapticsHandler*& GlobalNamespace::UnityXRController::__get__hapticsHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticsHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnityXRHapticsHandler*> const& GlobalNamespace::UnityXRController::__get__hapticsHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticsHandler;
 }
 constexpr void GlobalNamespace::UnityXRController::__set__hapticsHandler(::GlobalNamespace::IUnityXRHapticsHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::IUnityXRHapticsHandler* GlobalNamespace::UnityXRController::get_hapticsHandler() {

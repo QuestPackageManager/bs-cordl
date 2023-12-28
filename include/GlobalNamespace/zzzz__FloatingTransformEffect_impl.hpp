@@ -5,8 +5,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatingTransformEffect_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatingTransformEffect.Start
 template <>
 
@@ -79,267 +79,267 @@ constexpr GlobalNamespace::FloatingTransformEffect::operator ::Zenject::ITickabl
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::FloatingTransformEffect::__get__positionMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionMultiplier;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::FloatingTransformEffect::__get__positionMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionMultiplier;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__positionMultiplier(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positionMultiplier = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::FloatingTransformEffect::__get__rotationMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationMultiplier;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::FloatingTransformEffect::__get__rotationMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationMultiplier;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__rotationMultiplier(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationMultiplier = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::FloatingTransformEffect::__get__rotationTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::FloatingTransformEffect::__get__rotationTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationTransform;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__rotationTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotationTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__maxRotationDegrees() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRotationDegrees;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__maxRotationDegrees() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRotationDegrees;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__maxRotationDegrees(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxRotationDegrees = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::FloatingTransformEffect::__get__xAmplitude() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xAmplitude;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatingTransformEffect::__get__xAmplitude() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xAmplitude;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__xAmplitude(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xAmplitude = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::FloatingTransformEffect::__get__xFrequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xFrequency;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatingTransformEffect::__get__xFrequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xFrequency;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__xFrequency(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xFrequency = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::FloatingTransformEffect::__get__yAmplitude() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAmplitude;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatingTransformEffect::__get__yAmplitude() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAmplitude;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__yAmplitude(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAmplitude = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::FloatingTransformEffect::__get__yFrequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yFrequency;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatingTransformEffect::__get__yFrequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yFrequency;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__yFrequency(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yFrequency = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::FloatingTransformEffect::__get__zAmplitude() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zAmplitude;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatingTransformEffect::__get__zAmplitude() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zAmplitude;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__zAmplitude(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zAmplitude = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::FloatingTransformEffect::__get__zFrequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zFrequency;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatingTransformEffect::__get__zFrequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zFrequency;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__zFrequency(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zFrequency = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::FloatingTransformEffect::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::FloatingTransformEffect::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::FloatingTransformEffect::__get__origin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____origin;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::FloatingTransformEffect::__get__origin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____origin;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__origin(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____origin = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__offsetX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetX;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__offsetX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetX;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__offsetX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetX = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__offsetY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetY;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__offsetY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetY;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__offsetY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetY = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__offsetZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetZ;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__offsetZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetZ;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__offsetZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetZ = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__amplitudeX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitudeX;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__amplitudeX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitudeX;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__amplitudeX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____amplitudeX = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__amplitudeY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitudeY;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__amplitudeY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitudeY;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__amplitudeY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____amplitudeY = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__amplitudeZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitudeZ;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__amplitudeZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____amplitudeZ;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__amplitudeZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____amplitudeZ = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__frequencyX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequencyX;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__frequencyX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequencyX;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__frequencyX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frequencyX = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__frequencyY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequencyY;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__frequencyY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequencyY;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__frequencyY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frequencyY = value;
 }
 constexpr float_t& GlobalNamespace::FloatingTransformEffect::__get__frequencyZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequencyZ;
 }
 constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__get__frequencyZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frequencyZ;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__frequencyZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frequencyZ = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::FloatingTransformEffect::__get__targetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetRotation;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::FloatingTransformEffect::__get__targetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetRotation;
 }
 constexpr void GlobalNamespace::FloatingTransformEffect::__set__targetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetRotation = value;
 }
 inline void GlobalNamespace::FloatingTransformEffect::Start() {

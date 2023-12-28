@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLayoutProvider.get_layout
 template <>
 
@@ -121,40 +121,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout& GlobalNamespace::MultiplayerLayoutProvider::__get__layout_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout_k__BackingField;
 }
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& GlobalNamespace::MultiplayerLayoutProvider::__get__layout_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout_k__BackingField;
 }
 constexpr void GlobalNamespace::MultiplayerLayoutProvider::__set__layout_k__BackingField(::GlobalNamespace::MultiplayerPlayerLayout value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layout_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::MultiplayerLayoutProvider::__get__activePlayerSpotsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePlayerSpotsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::MultiplayerLayoutProvider::__get__activePlayerSpotsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePlayerSpotsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::MultiplayerLayoutProvider::__set__activePlayerSpotsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____activePlayerSpotsCount_k__BackingField = value;
 }
 constexpr ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*& GlobalNamespace::MultiplayerLayoutProvider::__get_playersLayoutWasCalculatedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playersLayoutWasCalculatedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*> const&
 GlobalNamespace::MultiplayerLayoutProvider::__get_playersLayoutWasCalculatedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playersLayoutWasCalculatedEvent;
 }
 constexpr void GlobalNamespace::MultiplayerLayoutProvider::__set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playersLayoutWasCalculatedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MultiplayerPlayerLayout GlobalNamespace::MultiplayerLayoutProvider::get_layout() {

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture2D);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 403 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14082))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14085)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 403 }), TypeDefinitionIndex(TypeDefinitionIndex(14082)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10073))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14085)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
 class CORDL_TYPE AssetReferenceTexture2D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture2D*> {
 public:
   // Declarations

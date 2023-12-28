@@ -9,17 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceBuilder)
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceBuilder__RefInstance;
+class InputControlLayout;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__CacheRefInstance;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -27,23 +21,29 @@ class InputDevice;
 namespace UnityEngine::InputSystem::Layouts {
 struct __InputControlLayout__ControlItem;
 }
-namespace System::Text {
-class StringBuilder;
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__CacheRefInstance;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
+struct __InputDeviceBuilder__RefInstance;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {

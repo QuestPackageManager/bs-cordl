@@ -62,39 +62,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::Runtime::Serialization::ValueTypeFixupInfo::__get__containerID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerID;
 }
 constexpr int64_t const& System::Runtime::Serialization::ValueTypeFixupInfo::__get__containerID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerID;
 }
 constexpr void System::Runtime::Serialization::ValueTypeFixupInfo::__set__containerID(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____containerID = value;
 }
 constexpr ::System::Reflection::FieldInfo*& System::Runtime::Serialization::ValueTypeFixupInfo::__get__parentField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& System::Runtime::Serialization::ValueTypeFixupInfo::__get__parentField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentField;
 }
 constexpr void System::Runtime::Serialization::ValueTypeFixupInfo::__set__parentField(::System::Reflection::FieldInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Runtime::Serialization::ValueTypeFixupInfo::__get__parentIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentIndex;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Runtime::Serialization::ValueTypeFixupInfo::__get__parentIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentIndex;
 }
 constexpr void System::Runtime::Serialization::ValueTypeFixupInfo::__set__parentIndex(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentIndex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Serialization::ValueTypeFixupInfo* System::Runtime::Serialization::ValueTypeFixupInfo::New_ctor(int64_t containerID, ::System::Reflection::FieldInfo* member,

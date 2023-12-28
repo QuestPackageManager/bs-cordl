@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentSpectatingSpot_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerActivePlayersTimeOffsetAverage_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerActivePlayersTimeOffsetAverage_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot.add_hasBeenRemovedEvent
 template <>
 
@@ -155,77 +155,77 @@ constexpr GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::operator ::Glob
   return static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__preferredSpectatingSpot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preferredSpectatingSpot;
 }
 constexpr bool const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__preferredSpectatingSpot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preferredSpectatingSpot;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__set__preferredSpectatingSpot(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____preferredSpectatingSpot = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__displaySpotNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displaySpotNumber;
 }
 constexpr bool const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__displaySpotNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displaySpotNumber;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__set__displaySpotNumber(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____displaySpotNumber = value;
 }
 constexpr int32_t& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__spotNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spotNumber;
 }
 constexpr int32_t const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__spotNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spotNumber;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__set__spotNumber(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spotNumber = value;
 }
 constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__spectatingSpotManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatingSpotManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__spectatingSpotManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatingSpotManager;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__set__spectatingSpotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectatingSpotManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__activePlayersTimeOffsetAverage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePlayersTimeOffsetAverage;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*> const&
 GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get__activePlayersTimeOffsetAverage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePlayersTimeOffsetAverage;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__set__activePlayersTimeOffsetAverage(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activePlayersTimeOffsetAverage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get_hasBeenRemovedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasBeenRemovedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const&
 GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__get_hasBeenRemovedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasBeenRemovedEvent;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__set_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hasBeenRemovedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value) {

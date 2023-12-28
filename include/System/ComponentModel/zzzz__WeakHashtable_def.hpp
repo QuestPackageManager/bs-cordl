@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(WeakHashtable)
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::ComponentModel {
-class __WeakHashtable__WeakKeyComparer;
-}
 namespace System {
 class Object;
+}
+namespace System::ComponentModel {
+class __WeakHashtable__WeakKeyComparer;
 }
 // Forward declare root types
 namespace System::ComponentModel {

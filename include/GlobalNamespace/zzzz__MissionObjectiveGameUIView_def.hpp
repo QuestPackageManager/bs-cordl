@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionObjectiveGameUIView)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace GlobalNamespace {
 class MissionObjectiveChecker;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class Sprite;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace UnityEngine {
-class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveGameUIView);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
 // CS Name: ::MissionObjectiveGameUIView*
 class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {

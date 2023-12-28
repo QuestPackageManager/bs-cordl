@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo_CollectionHeaderTypeInfo_2)
 namespace System::Net::Http::Headers {
+struct HttpHeaderKind;
+}
+namespace System::Net::Http::Headers {
 template <typename T> class TryParseListDelegate_1;
 }
 namespace System {
 class Object;
-}
-namespace System::Net::Http::Headers {
-struct HttpHeaderKind;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -28,7 +28,7 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14669), inst: 2613 }), TypeDefinitionIndex(TypeDefinitionIndex(14669))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14669), inst: 2613 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14670))
 // CS Name: ::HeaderInfo::CollectionHeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__CollectionHeaderTypeInfo_2 : public ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U> {

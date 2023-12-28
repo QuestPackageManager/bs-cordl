@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(SongPacksDropdown)
 namespace GlobalNamespace {
 class SongPackMasksModel;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HMUI {
-class SimpleTextDropdown;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
 namespace HMUI {
 class DropdownWithTableView;
 }
 namespace GlobalNamespace {
 class __SongPacksDropdown____c;
 }
+namespace GlobalNamespace {
+struct SongPackMask;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HMUI {
+class SimpleTextDropdown;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

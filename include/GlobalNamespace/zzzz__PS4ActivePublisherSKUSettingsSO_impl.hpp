@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::PS4PublisherSKUSettingsSO*& GlobalNamespace::PS4ActivePublisherSKUSettingsSO::__get_activePublisherSKUSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activePublisherSKUSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4PublisherSKUSettingsSO*> const& GlobalNamespace::PS4ActivePublisherSKUSettingsSO::__get_activePublisherSKUSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activePublisherSKUSettings;
 }
 constexpr void GlobalNamespace::PS4ActivePublisherSKUSettingsSO::__set_activePublisherSKUSettings(::GlobalNamespace::PS4PublisherSKUSettingsSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activePublisherSKUSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* GlobalNamespace::PS4ActivePublisherSKUSettingsSO::New_ctor() {

@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentIn
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4172)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4171))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4171)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4172))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
 // CS Name: ::EnvironmentIntensityReductionOptions*
 class CORDL_TYPE EnvironmentIntensityReductionOptions : public ::System::Object {

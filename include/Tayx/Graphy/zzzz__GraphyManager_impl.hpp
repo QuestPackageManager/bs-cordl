@@ -5,18 +5,18 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__FFTWindow_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/zzzz__FFTWindow_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
-#include "UnityEngine/zzzz__AudioListener_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
-#include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
+#include "UnityEngine/zzzz__AudioListener_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioManager_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamManager_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
+#include "UnityEngine/zzzz__FFTWindow_def.hpp"
+#include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Tayx::Graphy::__GraphyManager__Mode::__GraphyManager__Mode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -1271,579 +1271,579 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Tayx::Graphy::__GraphyManager__Mode& Tayx::Graphy::GraphyManager::__get_m_graphyMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyMode;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__Mode const& Tayx::Graphy::GraphyManager::__get_m_graphyMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyMode;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_graphyMode(::Tayx::Graphy::__GraphyManager__Mode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_graphyMode = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_enableOnStartup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableOnStartup;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_enableOnStartup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableOnStartup;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_enableOnStartup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableOnStartup = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_keepAlive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_keepAlive;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_keepAlive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_keepAlive;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_keepAlive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_keepAlive = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_background() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_background;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_background() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_background;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_background(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_background = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_backgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_backgroundColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_backgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_backgroundColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_backgroundColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_backgroundColor = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_enableHotkeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableHotkeys;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_enableHotkeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableHotkeys;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_enableHotkeys(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableHotkeys = value;
 }
 constexpr ::UnityEngine::InputSystem::Key& Tayx::Graphy::GraphyManager::__get_m_toggleModeKeyCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleModeKeyCode;
 }
 constexpr ::UnityEngine::InputSystem::Key const& Tayx::Graphy::GraphyManager::__get_m_toggleModeKeyCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleModeKeyCode;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_toggleModeKeyCode(::UnityEngine::InputSystem::Key value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleModeKeyCode = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_toggleModeCtrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleModeCtrl;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_toggleModeCtrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleModeCtrl;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_toggleModeCtrl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleModeCtrl = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_toggleModeAlt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleModeAlt;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_toggleModeAlt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleModeAlt;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_toggleModeAlt(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleModeAlt = value;
 }
 constexpr ::UnityEngine::InputSystem::Key& Tayx::Graphy::GraphyManager::__get_m_toggleActiveKeyCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleActiveKeyCode;
 }
 constexpr ::UnityEngine::InputSystem::Key const& Tayx::Graphy::GraphyManager::__get_m_toggleActiveKeyCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleActiveKeyCode;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_toggleActiveKeyCode(::UnityEngine::InputSystem::Key value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleActiveKeyCode = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_toggleActiveCtrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleActiveCtrl;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_toggleActiveCtrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleActiveCtrl;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_toggleActiveCtrl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleActiveCtrl = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_toggleActiveAlt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleActiveAlt;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_toggleActiveAlt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_toggleActiveAlt;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_toggleActiveAlt(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleActiveAlt = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& Tayx::Graphy::GraphyManager::__get_m_graphModulePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphModulePosition;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& Tayx::Graphy::GraphyManager::__get_m_graphModulePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphModulePosition;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_graphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_graphModulePosition = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__get_m_fpsModuleState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsModuleState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__get_m_fpsModuleState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsModuleState;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_fpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsModuleState = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_goodFpsColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_goodFpsColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_goodFpsColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_goodFpsColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_goodFpsColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_goodFpsColor = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_goodFpsThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_goodFpsThreshold;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_goodFpsThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_goodFpsThreshold;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_goodFpsThreshold(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_goodFpsThreshold = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_cautionFpsColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cautionFpsColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_cautionFpsColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cautionFpsColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_cautionFpsColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cautionFpsColor = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_cautionFpsThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cautionFpsThreshold;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_cautionFpsThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cautionFpsThreshold;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_cautionFpsThreshold(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cautionFpsThreshold = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_criticalFpsColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_criticalFpsColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_criticalFpsColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_criticalFpsColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_criticalFpsColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_criticalFpsColor = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_fpsGraphResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsGraphResolution;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_fpsGraphResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsGraphResolution;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_fpsGraphResolution(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsGraphResolution = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_fpsTextUpdateRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsTextUpdateRate;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_fpsTextUpdateRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsTextUpdateRate;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_fpsTextUpdateRate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsTextUpdateRate = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__get_m_ramModuleState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramModuleState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__get_m_ramModuleState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramModuleState;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_ramModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ramModuleState = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_allocatedRamColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_allocatedRamColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_allocatedRamColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_allocatedRamColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_allocatedRamColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_allocatedRamColor = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_reservedRamColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_reservedRamColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_reservedRamColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_reservedRamColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_reservedRamColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_reservedRamColor = value;
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_monoRamColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_monoRamColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_monoRamColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_monoRamColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_monoRamColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_monoRamColor = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_ramGraphResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraphResolution;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_ramGraphResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraphResolution;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_ramGraphResolution(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ramGraphResolution = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_ramTextUpdateRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramTextUpdateRate;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_ramTextUpdateRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramTextUpdateRate;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_ramTextUpdateRate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ramTextUpdateRate = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__get_m_audioModuleState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioModuleState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__get_m_audioModuleState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioModuleState;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_audioModuleState = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& Tayx::Graphy::GraphyManager::__get_m_findAudioListenerInCameraIfNull() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_findAudioListenerInCameraIfNull;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& Tayx::Graphy::GraphyManager::__get_m_findAudioListenerInCameraIfNull() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_findAudioListenerInCameraIfNull;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_findAudioListenerInCameraIfNull = value;
 }
 constexpr ::UnityEngine::AudioListener*& Tayx::Graphy::GraphyManager::__get_m_audioListener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioListener;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioListener*> const& Tayx::Graphy::GraphyManager::__get_m_audioListener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioListener;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioListener(::UnityEngine::AudioListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_audioListener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& Tayx::Graphy::GraphyManager::__get_m_audioGraphColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioGraphColor;
 }
 constexpr ::UnityEngine::Color const& Tayx::Graphy::GraphyManager::__get_m_audioGraphColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioGraphColor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioGraphColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_audioGraphColor = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_audioGraphResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioGraphResolution;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_audioGraphResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioGraphResolution;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioGraphResolution(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_audioGraphResolution = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_audioTextUpdateRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioTextUpdateRate;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_audioTextUpdateRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioTextUpdateRate;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioTextUpdateRate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_audioTextUpdateRate = value;
 }
 constexpr ::UnityEngine::FFTWindow& Tayx::Graphy::GraphyManager::__get_m_FFTWindow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FFTWindow;
 }
 constexpr ::UnityEngine::FFTWindow const& Tayx::Graphy::GraphyManager::__get_m_FFTWindow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FFTWindow;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_FFTWindow(::UnityEngine::FFTWindow value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FFTWindow = value;
 }
 constexpr int32_t& Tayx::Graphy::GraphyManager::__get_m_spectrumSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_spectrumSize;
 }
 constexpr int32_t const& Tayx::Graphy::GraphyManager::__get_m_spectrumSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_spectrumSize;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_spectrumSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_spectrumSize = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& Tayx::Graphy::GraphyManager::__get_m_advancedModulePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModulePosition;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& Tayx::Graphy::GraphyManager::__get_m_advancedModulePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModulePosition;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_advancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_advancedModulePosition = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__get_m_advancedModuleState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModuleState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__get_m_advancedModuleState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModuleState;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_advancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_advancedModuleState = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_initialized;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_initialized;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_initialized = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_active() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_active;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_active() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_active;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_active(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_active = value;
 }
 constexpr bool& Tayx::Graphy::GraphyManager::__get_m_focused() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_focused;
 }
 constexpr bool const& Tayx::Graphy::GraphyManager::__get_m_focused() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_focused;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_focused(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_focused = value;
 }
 constexpr ::Tayx::Graphy::Fps::G_FpsManager*& Tayx::Graphy::GraphyManager::__get_m_fpsManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsManager*> const& Tayx::Graphy::GraphyManager::__get_m_fpsManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsManager;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_fpsManager(::Tayx::Graphy::Fps::G_FpsManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Ram::G_RamManager*& Tayx::Graphy::GraphyManager::__get_m_ramManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamManager*> const& Tayx::Graphy::GraphyManager::__get_m_ramManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramManager;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_ramManager(::Tayx::Graphy::Ram::G_RamManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ramManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Audio::G_AudioManager*& Tayx::Graphy::GraphyManager::__get_m_audioManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioManager*> const& Tayx::Graphy::GraphyManager::__get_m_audioManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioManager;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioManager(::Tayx::Graphy::Audio::G_AudioManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Advanced::G_AdvancedData*& Tayx::Graphy::GraphyManager::__get_m_advancedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedData;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Advanced::G_AdvancedData*> const& Tayx::Graphy::GraphyManager::__get_m_advancedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedData;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_advancedData(::Tayx::Graphy::Advanced::G_AdvancedData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_advancedData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Fps::G_FpsMonitor*& Tayx::Graphy::GraphyManager::__get_m_fpsMonitor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsMonitor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsMonitor*> const& Tayx::Graphy::GraphyManager::__get_m_fpsMonitor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsMonitor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_fpsMonitor(::Tayx::Graphy::Fps::G_FpsMonitor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Ram::G_RamMonitor*& Tayx::Graphy::GraphyManager::__get_m_ramMonitor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramMonitor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamMonitor*> const& Tayx::Graphy::GraphyManager::__get_m_ramMonitor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramMonitor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_ramMonitor(::Tayx::Graphy::Ram::G_RamMonitor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ramMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Audio::G_AudioMonitor*& Tayx::Graphy::GraphyManager::__get_m_audioMonitor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioMonitor;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioMonitor*> const& Tayx::Graphy::GraphyManager::__get_m_audioMonitor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioMonitor;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_audioMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset& Tayx::Graphy::GraphyManager::__get_m_modulePresetState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modulePresetState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset const& Tayx::Graphy::GraphyManager::__get_m_modulePresetState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modulePresetState;
 }
 constexpr void Tayx::Graphy::GraphyManager::__set_m_modulePresetState(::Tayx::Graphy::__GraphyManager__ModulePreset value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_modulePresetState = value;
 }
 inline ::Tayx::Graphy::GraphyManager* Tayx::Graphy::GraphyManager::New_ctor() {

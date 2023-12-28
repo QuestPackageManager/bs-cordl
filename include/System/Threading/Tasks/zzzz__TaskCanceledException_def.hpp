@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(TaskCanceledException)
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

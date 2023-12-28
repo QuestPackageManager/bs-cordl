@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RSAManaged)
+namespace Mono::Security::Cryptography {
+class __RSAManaged__KeyGeneratedEventHandler;
+}
 namespace Mono::Math {
 class BigInteger;
 }
 namespace System::Security::Cryptography {
 struct RSAParameters;
 }
-namespace Mono::Security::Cryptography {
-class __RSAManaged__KeyGeneratedEventHandler;
+namespace System {
+class EventArgs;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class EventArgs;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {

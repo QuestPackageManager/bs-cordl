@@ -1,66 +1,66 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_CreateFunc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_CreateFunc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPool_1<T>::__set_m_CreateFunc(::System::Func_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CreateFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_ResetAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResetAction;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_ResetAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResetAction;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPool_1<T>::__set_m_ResetAction(::System::Action_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResetAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_Limit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Limit;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_Limit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Limit;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPool_1<T>::__set_m_Limit(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Limit = value;
 }
 template <typename T> constexpr T& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_PoolFirst() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PoolFirst;
 }
 template <typename T> constexpr T const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get_m_PoolFirst() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PoolFirst;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPool_1<T>::__set_m_PoolFirst(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PoolFirst)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get__Count_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Count_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::UIR::LinkedPool_1<T>::__get__Count_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Count_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPool_1<T>::__set__Count_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Count_k__BackingField = value;
 }
 /// @param limit: int32_t (default: static_cast<int32_t>(0x2710))

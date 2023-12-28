@@ -9,25 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CanvasRenderer)
 namespace UnityEngine {
-class Mesh;
+struct Rect;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct Color;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -39,10 +27,22 @@ namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color32;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace UnityEngine {

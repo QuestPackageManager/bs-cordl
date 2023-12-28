@@ -9,40 +9,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeUtils)
 namespace System {
+struct DateTimeOffset;
+}
+namespace System {
 struct DateTimeKind;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Xml {
+struct XmlDateTimeSerializationMode;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace Newtonsoft::Json::Utilities {
+struct DateTimeParser;
+}
+namespace System::IO {
+class TextWriter;
 }
 namespace Newtonsoft::Json {
 struct DateFormatHandling;
 }
 namespace System {
-struct DateTime;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System::Xml {
-struct XmlDateTimeSerializationMode;
+template <typename T> struct Nullable_1;
 }
 namespace Newtonsoft::Json::Utilities {
 struct StringReference;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json::Utilities {
-struct DateTimeParser;
-}
 namespace Newtonsoft::Json {
 struct DateTimeZoneHandling;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::IO {
-class TextWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

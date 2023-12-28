@@ -2,22 +2,22 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/Compression/zzzz__GZipStream_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionLevel_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionLevel_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
+#include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
 //  Writing Method size for method: ::System::IO::Compression::GZipStream._ctor
 template <>
 
@@ -493,15 +493,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::Compression::DeflateStream*& System::IO::Compression::GZipStream::__get__deflateStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deflateStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStream*> const& System::IO::Compression::GZipStream::__get__deflateStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deflateStream;
 }
 constexpr void System::IO::Compression::GZipStream::__set__deflateStream(::System::IO::Compression::DeflateStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____deflateStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::Compression::GZipStream* System::IO::Compression::GZipStream::New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode) {

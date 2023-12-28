@@ -32,59 +32,59 @@ template <typename TValue> constexpr ::GlobalNamespace::__XHashtable_1__XHashtab
 // Ctor Parameters []
 template <typename TValue> constexpr ::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>::__XHashtable_1__XHashtableState__Entry() {}
 template <typename TValue> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__buckets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename TValue> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__buckets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename TValue> constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue>
 constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>&
 System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__entries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 template <typename TValue>
 constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> const&
 System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__entries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entries;
 }
 template <typename TValue>
 constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__set__entries(
     ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr int32_t& System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__numEntries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numEntries;
 }
 template <typename TValue> constexpr int32_t const& System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__numEntries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numEntries;
 }
 template <typename TValue> constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__set__numEntries(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numEntries = value;
 }
 template <typename TValue> constexpr ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*& System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__extractKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extractKey;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*> const&
 System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__get__extractKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extractKey;
 }
 template <typename TValue> constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__set__extractKey(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____extractKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue>
@@ -137,16 +137,16 @@ template <typename TValue> inline int32_t System::Xml::Linq::__XHashtable_1__XHa
 // Ctor Parameters []
 template <typename TValue> constexpr ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__XHashtable_1__XHashtableState() {}
 template <typename TValue> constexpr ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*& System::Xml::Linq::XHashtable_1<TValue>::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*> const& System::Xml::Linq::XHashtable_1<TValue>::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 template <typename TValue> constexpr void System::Xml::Linq::XHashtable_1<TValue>::__set__state(::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue>

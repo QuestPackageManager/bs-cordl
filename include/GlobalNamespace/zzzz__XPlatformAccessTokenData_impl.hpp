@@ -78,27 +78,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::XPlatformAccessTokenData::__get__token_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::XPlatformAccessTokenData::__get__token_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token_k__BackingField;
 }
 constexpr void GlobalNamespace::XPlatformAccessTokenData::__set__token_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____token_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlatformEnvironment& GlobalNamespace::XPlatformAccessTokenData::__get__platformEnvironment_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformEnvironment_k__BackingField;
 }
 constexpr ::GlobalNamespace::PlatformEnvironment const& GlobalNamespace::XPlatformAccessTokenData::__get__platformEnvironment_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformEnvironment_k__BackingField;
 }
 constexpr void GlobalNamespace::XPlatformAccessTokenData::__set__platformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____platformEnvironment_k__BackingField = value;
 }
 inline ::StringW GlobalNamespace::XPlatformAccessTokenData::get_token() {

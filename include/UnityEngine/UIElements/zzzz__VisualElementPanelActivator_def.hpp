@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(VisualElementPanelActivator)
 namespace UnityEngine::UIElements {
-class IVisualElementPanelActivatable;
+class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+class IVisualElementPanelActivatable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

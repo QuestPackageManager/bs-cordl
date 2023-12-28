@@ -15,56 +15,56 @@ CORDL_MODULE_EXPORT(Regex)
 namespace System::Text::RegularExpressions {
 struct __Regex__CachedCodeEntryKey;
 }
-namespace System::Text::RegularExpressions {
-class __Regex__CachedCodeEntry;
-}
 namespace System::Collections {
 class Hashtable;
-}
-namespace System {
-template <typename T> class WeakReference_1;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Text::RegularExpressions {
-class ExclusiveReference;
+class __Regex__CachedCodeEntry;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+struct TimeSpan;
 }
 namespace System::Text::RegularExpressions {
-class RegexReplacement;
+class Match;
+}
+namespace System::Text::RegularExpressions {
+class ExclusiveReference;
+}
+namespace System {
+template <typename T> class WeakReference_1;
 }
 namespace System::Text::RegularExpressions {
 class RegexCode;
 }
-namespace System::Text::RegularExpressions {
-class RegexRunnerFactory;
-}
-namespace System::Text::RegularExpressions {
-class MatchCollection;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Text::RegularExpressions {
-struct RegexOptions;
+class MatchCollection;
 }
 namespace System::Text::RegularExpressions {
-class Match;
+class RegexRunnerFactory;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace System::Text::RegularExpressions {
+class RegexReplacement;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -299,7 +299,7 @@ static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8925)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(8925))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8913))
 // CS Name: ::System.Text.RegularExpressions::Regex*
 class CORDL_TYPE Regex : public ::System::Object {

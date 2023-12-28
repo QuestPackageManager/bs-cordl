@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
-#include "UnityEngine/zzzz__SpriteMaskInteraction_def.hpp"
-#include "UnityEngine/zzzz__SpriteSortPoint_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__SpriteDrawMode_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__SpriteSortPoint_def.hpp"
 #include "UnityEngine/zzzz__SpriteTileMode_def.hpp"
+#include "UnityEngine/zzzz__SpriteMaskInteraction_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SpriteRenderer.RegisterSpriteChangeCallback
 template <>
 
@@ -461,15 +461,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>*& UnityEngine::SpriteRenderer::__get_m_SpriteChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>*> const& UnityEngine::SpriteRenderer::__get_m_SpriteChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteChangeEvent;
 }
 constexpr void UnityEngine::SpriteRenderer::__set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::SpriteRenderer::RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback) {

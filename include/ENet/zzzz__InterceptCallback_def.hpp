@@ -13,13 +13,13 @@ namespace ENet {
 struct Address;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace ENet {
 struct Event;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace ENet {

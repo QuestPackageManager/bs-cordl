@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 CORDL_MODULE_EXPORT(NetPacketReader)
 namespace LiteNetLib {
+class NetManager;
+}
+namespace LiteNetLib {
 class NetPacket;
 }
 namespace LiteNetLib {
 class NetEvent;
-}
-namespace LiteNetLib {
-class NetManager;
 }
 // Forward declare root types
 namespace LiteNetLib {

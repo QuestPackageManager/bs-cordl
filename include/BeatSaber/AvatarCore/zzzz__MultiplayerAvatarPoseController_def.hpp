@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(MultiplayerAvatarPoseController)
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace GlobalNamespace {
-class INodePoseSyncStateManager;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine {
+class Transform;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class INodePoseSyncStateManager;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__Utils_def.hpp"
-#include "Unity/XR/Oculus/zzzz__SystemHeadset_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "Unity/XR/Oculus/zzzz__SystemHeadset_def.hpp"
 //  Writing Method size for method: ::Unity::XR::Oculus::Utils.SetColorScaleAndOffset
 template <>
 

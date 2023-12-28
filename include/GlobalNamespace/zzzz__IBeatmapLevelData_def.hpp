@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(IBeatmapLevelData)
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace UnityEngine {
 class AudioClip;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

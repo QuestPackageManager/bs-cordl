@@ -8,31 +8,31 @@ template <typename TKey, typename TValue> constexpr GlobalNamespace::ReferenceCo
   return static_cast<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>(static_cast<void*>(this));
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__get__items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__get__items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__set__items(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::Dictionary_2<TKey, int32_t>*& GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__get__referencesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referencesCount;
 }
 template <typename TKey, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, int32_t>*> const&
 GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__get__referencesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referencesCount;
 }
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__set__referencesCount(::System::Collections::Generic::Dictionary_2<TKey, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____referencesCount)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue> inline int32_t GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::Insert(TKey key, TValue item) {

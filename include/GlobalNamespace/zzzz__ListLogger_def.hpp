@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListLogger)
+namespace System {
+class Exception;
+}
 namespace GlobalNamespace {
 class __ListLogger__LogMessage;
 }
-namespace System {
-class Exception;
+namespace GlobalNamespace {
+struct __ListLogger__LogType;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __ListLogger__LogType;
 }
 namespace System {
 class Object;

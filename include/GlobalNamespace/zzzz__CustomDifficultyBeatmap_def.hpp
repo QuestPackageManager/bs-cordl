@@ -13,53 +13,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomDifficultyBeatmap)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class __CustomDifficultyBeatmap____c__DisplayClass34_0;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
 namespace GlobalNamespace {
 struct __CustomDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__33;
-}
-namespace GlobalNamespace {
-struct __CustomDifficultyBeatmap___GetBeatmapDataAsync_d__34;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+struct BeatmapDifficulty;
 }
-namespace BeatmapSaveDataVersion3 {
-class BeatmapSaveData;
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class __CustomDifficultyBeatmap____c__DisplayClass34_0;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace BeatmapSaveDataVersion3 {
+class BeatmapSaveData;
+}
+namespace GlobalNamespace {
+struct __CustomDifficultyBeatmap___GetBeatmapDataAsync_d__34;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -86,9 +86,9 @@ MARK_VAL_T(::GlobalNamespace::__CustomDifficultyBeatmap___GetBeatmapDataBasicInf
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }), TypeDefinitionIndex(TypeDefinitionIndex(4258))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4379)) CS
-// Name: ::CustomDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__33
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4379)) CS Name: ::CustomDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__33
 struct CORDL_TYPE __CustomDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__33 {
 public:
   // Declarations
@@ -237,9 +237,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CustomDifficu
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4381)) CS Name:
-// ::CustomDifficultyBeatmap::<GetBeatmapDataAsync>d__34
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4381)) CS Name: ::CustomDifficultyBeatmap::<GetBeatmapDataAsync>d__34
 struct CORDL_TYPE __CustomDifficultyBeatmap___GetBeatmapDataAsync_d__34 {
 public:
   // Declarations

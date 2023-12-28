@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XAttribute)
-namespace System::Xml::Linq {
-class XNamespace;
+namespace System {
+class Object;
 }
 namespace System::Xml::Linq {
 class XName;
 }
+namespace System::Xml::Linq {
+class XNamespace;
+}
 namespace System::Xml {
 struct XmlNodeType;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

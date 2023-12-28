@@ -1,9 +1,9 @@
 #pragma once
 #include "LiteNetLib/Utils/zzzz__NetDataReader_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetPacketReader._ctor
 template <>
 
@@ -61,39 +61,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::NetPacketReader::__get__packet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packet;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::NetPacketReader::__get__packet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packet;
 }
 constexpr void LiteNetLib::NetPacketReader::__set__packet(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetManager*& LiteNetLib::NetPacketReader::__get__manager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manager;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& LiteNetLib::NetPacketReader::__get__manager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manager;
 }
 constexpr void LiteNetLib::NetPacketReader::__set__manager(::LiteNetLib::NetManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____manager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetEvent*& LiteNetLib::NetPacketReader::__get__evt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____evt;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetEvent*> const& LiteNetLib::NetPacketReader::__get__evt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____evt;
 }
 constexpr void LiteNetLib::NetPacketReader::__set__evt(::LiteNetLib::NetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____evt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::LiteNetLib::NetPacketReader* LiteNetLib::NetPacketReader::New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt) {

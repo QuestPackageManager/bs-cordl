@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
 namespace UnityEngine::TextCore::Text {
-struct LinkInfo;
-}
-namespace UnityEngine::TextCore::Text {
 struct PageInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextElementInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct WordInfo;
+struct LinkInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct LineInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct MeshInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextElementInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct WordInfo;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextInfo);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13713))
 // CS Name: ::UnityEngine.TextCore.Text::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {

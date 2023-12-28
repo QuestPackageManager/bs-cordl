@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(VRIK)
 namespace RootMotion::FinalIK {
-class __VRIK__References;
+class IKSolverVR;
 }
 namespace RootMotion::FinalIK {
-class IKSolverVR;
+class __VRIK__References;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;

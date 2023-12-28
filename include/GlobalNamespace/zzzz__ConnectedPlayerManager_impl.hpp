@@ -7,29 +7,29 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
-#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__IConnection_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
-#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
-#include "GlobalNamespace/zzzz__LongRollingAverage_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
+#include "GlobalNamespace/zzzz__LongRollingAverage_def.hpp"
+#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
 #include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
@@ -664,232 +664,232 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::operator :
   return static_cast<::GlobalNamespace::IConnectedPlayer*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr ::StringW const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName;
 }
 constexpr ::StringW const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isMe() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMe;
 }
 constexpr bool const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isMe() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMe;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__isMe(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isMe = value;
 }
 constexpr bool& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isConnectionOwner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnectionOwner;
 }
 constexpr bool const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isConnectionOwner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnectionOwner;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__isConnectionOwner(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isConnectionOwner = value;
 }
 constexpr ::GlobalNamespace::ConnectedPlayerManager*& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__manager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__manager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manager;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__manager(::GlobalNamespace::ConnectedPlayerManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____manager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IConnection*& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__connection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connection;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnection*> const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__connection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connection;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__connection(::GlobalNamespace::IConnection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__parent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*> const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__parent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__parent(::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint8_t& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__connectionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionId;
 }
 constexpr uint8_t const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__connectionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionId;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__connectionId(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectionId = value;
 }
 constexpr uint8_t& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__remoteConnectionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteConnectionId;
 }
 constexpr uint8_t const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__remoteConnectionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteConnectionId;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__remoteConnectionId(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteConnectionId = value;
 }
 constexpr int32_t& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__sortIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndex;
 }
 constexpr int32_t const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__sortIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndex;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__sortIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sortIndex = value;
 }
 constexpr bool& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isConnected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnected;
 }
 constexpr bool const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isConnected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnected;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__isConnected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isConnected = value;
 }
 constexpr ::GlobalNamespace::DisconnectedReason& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__disconnectedReason() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disconnectedReason;
 }
 constexpr ::GlobalNamespace::DisconnectedReason const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__disconnectedReason() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disconnectedReason;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__disconnectedReason(::GlobalNamespace::DisconnectedReason value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disconnectedReason = value;
 }
 constexpr bool& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isKicked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKicked;
 }
 constexpr bool const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__isKicked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isKicked;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__isKicked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isKicked = value;
 }
 constexpr ::GlobalNamespace::PlayerStateHash& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__playerState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerState;
 }
 constexpr ::GlobalNamespace::PlayerStateHash const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__playerState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerState;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__playerState(::GlobalNamespace::PlayerStateHash value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playerState = value;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__playerAvatars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerAvatars;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__playerAvatars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerAvatars;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__playerAvatars(::GlobalNamespace::MultiplayerAvatarsData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playerAvatars = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__publicEncryptionKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicEncryptionKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__publicEncryptionKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicEncryptionKey;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__publicEncryptionKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____publicEncryptionKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__random(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__EncryptionUtility__IEncryptionState*& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__encryptionState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionState;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> const&
 GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__encryptionState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionState;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__encryptionState(::GlobalNamespace::__EncryptionUtility__IEncryptionState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encryptionState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LongRollingAverage*& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__latency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latency;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LongRollingAverage*> const& GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__get__latency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latency;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::__set__latency(::GlobalNamespace::LongRollingAverage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____latency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::IConnection* GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer::get_connection() {
@@ -1297,51 +1297,51 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::oper
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr uint8_t& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_remoteConnectionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteConnectionId;
 }
 constexpr uint8_t const& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_remoteConnectionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteConnectionId;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__set_remoteConnectionId(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___remoteConnectionId = value;
 }
 constexpr ::StringW& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr ::StringW const& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__set_userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr ::StringW const& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userName;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__set_userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_isConnectionOwner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isConnectionOwner;
 }
 constexpr bool const& GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__get_isConnectionOwner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isConnectionOwner;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::__set_isConnectionOwner(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isConnectionOwner = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket*>* GlobalNamespace::__ConnectedPlayerManager__PlayerConnectedPacket::get_pool() {
@@ -1490,51 +1490,51 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::opera
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::PlayerStateHash& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_playerState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerState;
 }
 constexpr ::GlobalNamespace::PlayerStateHash const& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_playerState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerState;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__set_playerState(::GlobalNamespace::PlayerStateHash value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerState = value;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_playerAvatar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAvatar;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData const& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_playerAvatar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAvatar;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__set_playerAvatar(::GlobalNamespace::MultiplayerAvatarsData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerAvatar = value;
 }
 constexpr ::GlobalNamespace::ByteArrayNetSerializable*& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ByteArrayNetSerializable*> const& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__set_random(::GlobalNamespace::ByteArrayNetSerializable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ByteArrayNetSerializable*& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_publicEncryptionKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicEncryptionKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ByteArrayNetSerializable*> const& GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__get_publicEncryptionKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicEncryptionKey;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::__set_publicEncryptionKey(::GlobalNamespace::ByteArrayNetSerializable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicEncryptionKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket*>* GlobalNamespace::__ConnectedPlayerManager__PlayerIdentityPacket::get_pool() {
@@ -1682,15 +1682,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket::operato
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket::__get_playerAvatar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAvatar;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData const& GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket::__get_playerAvatar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAvatar;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket::__set_playerAvatar(::GlobalNamespace::MultiplayerAvatarsData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerAvatar = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket*>* GlobalNamespace::__ConnectedPlayerManager__PlayerAvatarPacket::get_pool() {
@@ -1833,15 +1833,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket::operator
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::PlayerStateHash& GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket::__get_playerState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerState;
 }
 constexpr ::GlobalNamespace::PlayerStateHash const& GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket::__get_playerState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerState;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket::__set_playerState(::GlobalNamespace::PlayerStateHash value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerState = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket*>* GlobalNamespace::__ConnectedPlayerManager__PlayerStatePacket::get_pool() {
@@ -1984,27 +1984,27 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::oper
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::__get_userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr ::StringW const& GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::__get_userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::__set_userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::__get_sortIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortIndex;
 }
 constexpr int32_t const& GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::__get_sortIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sortIndex;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::__set_sortIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sortIndex = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket*>* GlobalNamespace::__ConnectedPlayerManager__PlayerSortOrderPacket::get_pool() {
@@ -2147,15 +2147,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket::o
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::DisconnectedReason& GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket::__get_disconnectedReason() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedReason;
 }
 constexpr ::GlobalNamespace::DisconnectedReason const& GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket::__get_disconnectedReason() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedReason;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket::__set_disconnectedReason(::GlobalNamespace::DisconnectedReason value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disconnectedReason = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket*>* GlobalNamespace::__ConnectedPlayerManager__PlayerDisconnectedPacket::get_pool() {
@@ -2299,15 +2299,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket::operator 
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::DisconnectedReason& GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket::__get_disconnectedReason() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedReason;
 }
 constexpr ::GlobalNamespace::DisconnectedReason const& GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket::__get_disconnectedReason() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedReason;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket::__set_disconnectedReason(::GlobalNamespace::DisconnectedReason value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disconnectedReason = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket*>* GlobalNamespace::__ConnectedPlayerManager__KickPlayerPacket::get_pool() {
@@ -2450,15 +2450,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket::operator ::
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr int64_t& GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket::__get_syncTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___syncTime;
 }
 constexpr int64_t const& GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket::__get_syncTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___syncTime;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket::__set_syncTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___syncTime = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket*>* GlobalNamespace::__ConnectedPlayerManager__SyncTimePacket::get_pool() {
@@ -2598,15 +2598,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PingPacket::operator ::Glob
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr int64_t& GlobalNamespace::__ConnectedPlayerManager__PingPacket::__get_pingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pingTime;
 }
 constexpr int64_t const& GlobalNamespace::__ConnectedPlayerManager__PingPacket::__get_pingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pingTime;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PingPacket::__set_pingTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pingTime = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PingPacket*>* GlobalNamespace::__ConnectedPlayerManager__PingPacket::get_pool() {
@@ -2743,15 +2743,15 @@ constexpr GlobalNamespace::__ConnectedPlayerManager__PongPacket::operator ::Glob
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr int64_t& GlobalNamespace::__ConnectedPlayerManager__PongPacket::__get_pingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pingTime;
 }
 constexpr int64_t const& GlobalNamespace::__ConnectedPlayerManager__PongPacket::__get_pingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pingTime;
 }
 constexpr void GlobalNamespace::__ConnectedPlayerManager__PongPacket::__set_pingTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pingTime = value;
 }
 inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__ConnectedPlayerManager__PongPacket*>* GlobalNamespace::__ConnectedPlayerManager__PongPacket::get_pool() {
@@ -4136,380 +4136,380 @@ constexpr GlobalNamespace::ConnectedPlayerManager::operator ::System::IDisposabl
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Action*& GlobalNamespace::ConnectedPlayerManager::__get_connectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ConnectedPlayerManager::__get_connectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_connectedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::ConnectedPlayerManager::__get_initializedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initializedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ConnectedPlayerManager::__get_initializedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initializedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_initializedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___initializedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& GlobalNamespace::ConnectedPlayerManager::__get_disconnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& GlobalNamespace::ConnectedPlayerManager::__get_disconnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___disconnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& GlobalNamespace::ConnectedPlayerManager::__get_connectionFailedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionFailedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& GlobalNamespace::ConnectedPlayerManager::__get_connectionFailedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionFailedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionFailedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get_playerConnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerConnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& GlobalNamespace::ConnectedPlayerManager::__get_playerConnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerConnectedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerConnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get_playerDisconnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDisconnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& GlobalNamespace::ConnectedPlayerManager::__get_playerDisconnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDisconnectedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerDisconnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get_playerStateChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerStateChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& GlobalNamespace::ConnectedPlayerManager::__get_playerStateChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerStateChangedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerStateChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get_playerAvatarChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAvatarChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& GlobalNamespace::ConnectedPlayerManager::__get_playerAvatarChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerAvatarChangedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerAvatarChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get_playerOrderChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerOrderChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& GlobalNamespace::ConnectedPlayerManager::__get_playerOrderChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerOrderChangedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_playerOrderChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerOrderChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get_playerLatencyInitializedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerLatencyInitializedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& GlobalNamespace::ConnectedPlayerManager::__get_playerLatencyInitializedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerLatencyInitializedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_playerLatencyInitializedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerLatencyInitializedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::ConnectedPlayerManager::__get_syncTimeInitializedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___syncTimeInitializedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ConnectedPlayerManager::__get_syncTimeInitializedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___syncTimeInitializedEvent;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set_syncTimeInitializedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___syncTimeInitializedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& GlobalNamespace::ConnectedPlayerManager::__get__startTicks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTicks;
 }
 constexpr int64_t const& GlobalNamespace::ConnectedPlayerManager::__get__startTicks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTicks;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__startTicks(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startTicks = value;
 }
 constexpr ::GlobalNamespace::LongRollingAverage*& GlobalNamespace::ConnectedPlayerManager::__get__syncTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncTimeOffset;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LongRollingAverage*> const& GlobalNamespace::ConnectedPlayerManager::__get__syncTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncTimeOffset;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__syncTimeOffset(::GlobalNamespace::LongRollingAverage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncTimeOffset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGNet::Core::ITimeProvider*& GlobalNamespace::ConnectedPlayerManager::__get__timeProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& GlobalNamespace::ConnectedPlayerManager::__get__timeProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__timeProvider(::BGNet::Core::ITimeProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGNet::Core::ITaskUtility*& GlobalNamespace::ConnectedPlayerManager::__get__taskUtility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& GlobalNamespace::ConnectedPlayerManager::__get__taskUtility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__taskUtility(::BGNet::Core::ITaskUtility* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskUtility)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IConnectionManager*& GlobalNamespace::ConnectedPlayerManager::__get__connectionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionManager*> const& GlobalNamespace::ConnectedPlayerManager::__get__connectionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionManager;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__connectionManager(::GlobalNamespace::IConnectionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::ConnectedPlayerManager::__get__temporaryDataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____temporaryDataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::ConnectedPlayerManager::__get__temporaryDataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____temporaryDataWriter;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__temporaryDataWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____temporaryDataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::ConnectedPlayerManager::__get__temporaryEncryptedDataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____temporaryEncryptedDataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::ConnectedPlayerManager::__get__temporaryEncryptedDataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____temporaryEncryptedDataWriter;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__temporaryEncryptedDataWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____temporaryEncryptedDataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::ConnectedPlayerManager::__get__reliableDataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reliableDataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::ConnectedPlayerManager::__get__reliableDataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reliableDataWriter;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__reliableDataWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reliableDataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::ConnectedPlayerManager::__get__unreliableDataWriter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unreliableDataWriter;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::ConnectedPlayerManager::__get__unreliableDataWriter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unreliableDataWriter;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__unreliableDataWriter(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unreliableDataWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*>*& GlobalNamespace::ConnectedPlayerManager::__get__players() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____players;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*>*> const&
 GlobalNamespace::ConnectedPlayerManager::__get__players() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____players;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__players(::System::Collections::Generic::List_1<::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____players)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace::ConnectedPlayerManager::__get__localPlayerState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerState;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& GlobalNamespace::ConnectedPlayerManager::__get__localPlayerState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerState;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__localPlayerState(::System::Collections::Generic::HashSet_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayerState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& GlobalNamespace::ConnectedPlayerManager::__get__localPlayerAvatars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerAvatars;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData const& GlobalNamespace::ConnectedPlayerManager::__get__localPlayerAvatars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerAvatars;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__localPlayerAvatars(::GlobalNamespace::MultiplayerAvatarsData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPlayerAvatars = value;
 }
 constexpr ::GlobalNamespace::IDiffieHellmanKeyPair*& GlobalNamespace::ConnectedPlayerManager::__get__encryptionKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionKeys;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDiffieHellmanKeyPair*> const& GlobalNamespace::ConnectedPlayerManager::__get__encryptionKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionKeys;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__encryptionKeys(::GlobalNamespace::IDiffieHellmanKeyPair* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encryptionKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::ConnectedPlayerManager::__get__encryptionRandom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionRandom;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::ConnectedPlayerManager::__get__encryptionRandom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encryptionRandom;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__encryptionRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encryptionRandom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*& GlobalNamespace::ConnectedPlayerManager::__get__localPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer*> const& GlobalNamespace::ConnectedPlayerManager::__get__localPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayer;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__localPlayer(::GlobalNamespace::__ConnectedPlayerManager__ConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint8_t& GlobalNamespace::ConnectedPlayerManager::__get__lastConnectionId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastConnectionId;
 }
 constexpr uint8_t const& GlobalNamespace::ConnectedPlayerManager::__get__lastConnectionId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastConnectionId;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__lastConnectionId(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastConnectionId = value;
 }
 constexpr int64_t& GlobalNamespace::ConnectedPlayerManager::__get__lastPollTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPollTime;
 }
 constexpr int64_t const& GlobalNamespace::ConnectedPlayerManager::__get__lastPollTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPollTime;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__lastPollTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPollTime = value;
 }
 constexpr int32_t& GlobalNamespace::ConnectedPlayerManager::__get__lastPollFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPollFrame;
 }
 constexpr int32_t const& GlobalNamespace::ConnectedPlayerManager::__get__lastPollFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPollFrame;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__lastPollFrame(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPollFrame = value;
 }
 constexpr int64_t& GlobalNamespace::ConnectedPlayerManager::__get__lastPingTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPingTime;
 }
 constexpr int64_t const& GlobalNamespace::ConnectedPlayerManager::__get__lastPingTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPingTime;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__lastPingTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPingTime = value;
 }
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__ConnectedPlayerManager__InternalMessageType, ::GlobalNamespace::IConnectedPlayer*>*&
 GlobalNamespace::ConnectedPlayerManager::__get__messageSerializer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messageSerializer;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__ConnectedPlayerManager__InternalMessageType, ::GlobalNamespace::IConnectedPlayer*>*> const&
 GlobalNamespace::ConnectedPlayerManager::__get__messageSerializer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messageSerializer;
 }
 constexpr void GlobalNamespace::ConnectedPlayerManager::__set__messageSerializer(
     ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__ConnectedPlayerManager__InternalMessageType, ::GlobalNamespace::IConnectedPlayer*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____messageSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline uint8_t GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId() {

@@ -7,24 +7,24 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PanelScaleMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PanelScreenMatchMode_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ThemeStyleSheet_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIDocumentList_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelScaleMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelScreenMatchMode_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocumentList_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess._ctor
 template <>
 
@@ -176,27 +176,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::PanelSettings*& UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::__get_m_Settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PanelSettings*> const& UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::__get_m_Settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Settings;
 }
 constexpr void UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::__set_m_Settings(::UnityEngine::UIElements::PanelSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::__get_m_RuntimePanel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RuntimePanel;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::__get_m_RuntimePanel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RuntimePanel;
 }
 constexpr void UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::__set_m_RuntimePanel(::UnityEngine::UIElements::BaseRuntimePanel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RuntimePanel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess* UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::New_ctor(::UnityEngine::UIElements::PanelSettings* settings) {
@@ -972,327 +972,327 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::ThemeStyleSheet*& UnityEngine::UIElements::PanelSettings::__get_themeUss() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___themeUss;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ThemeStyleSheet*> const& UnityEngine::UIElements::PanelSettings::__get_themeUss() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___themeUss;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_themeUss(::UnityEngine::UIElements::ThemeStyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___themeUss)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RenderTexture*& UnityEngine::UIElements::PanelSettings::__get_m_TargetTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TargetTexture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& UnityEngine::UIElements::PanelSettings::__get_m_TargetTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TargetTexture;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_TargetTexture(::UnityEngine::RenderTexture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TargetTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::PanelScaleMode& UnityEngine::UIElements::PanelSettings::__get_m_ScaleMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleMode;
 }
 constexpr ::UnityEngine::UIElements::PanelScaleMode const& UnityEngine::UIElements::PanelSettings::__get_m_ScaleMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScaleMode;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ScaleMode(::UnityEngine::UIElements::PanelScaleMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScaleMode = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get_m_Scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get_m_Scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Scale;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_Scale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Scale = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get_m_ReferenceDpi() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferenceDpi;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get_m_ReferenceDpi() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferenceDpi;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ReferenceDpi(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReferenceDpi = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get_m_FallbackDpi() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FallbackDpi;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get_m_FallbackDpi() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FallbackDpi;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_FallbackDpi(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FallbackDpi = value;
 }
 constexpr ::UnityEngine::Vector2Int& UnityEngine::UIElements::PanelSettings::__get_m_ReferenceResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferenceResolution;
 }
 constexpr ::UnityEngine::Vector2Int const& UnityEngine::UIElements::PanelSettings::__get_m_ReferenceResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ReferenceResolution;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ReferenceResolution(::UnityEngine::Vector2Int value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReferenceResolution = value;
 }
 constexpr ::UnityEngine::UIElements::PanelScreenMatchMode& UnityEngine::UIElements::PanelSettings::__get_m_ScreenMatchMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenMatchMode;
 }
 constexpr ::UnityEngine::UIElements::PanelScreenMatchMode const& UnityEngine::UIElements::PanelSettings::__get_m_ScreenMatchMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenMatchMode;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ScreenMatchMode(::UnityEngine::UIElements::PanelScreenMatchMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScreenMatchMode = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get_m_Match() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Match;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get_m_Match() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Match;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_Match(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Match = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get_m_SortingOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SortingOrder;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get_m_SortingOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SortingOrder;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_SortingOrder(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SortingOrder = value;
 }
 constexpr int32_t& UnityEngine::UIElements::PanelSettings::__get_m_TargetDisplay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TargetDisplay;
 }
 constexpr int32_t const& UnityEngine::UIElements::PanelSettings::__get_m_TargetDisplay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TargetDisplay;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_TargetDisplay(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TargetDisplay = value;
 }
 constexpr bool& UnityEngine::UIElements::PanelSettings::__get_m_ClearDepthStencil() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClearDepthStencil;
 }
 constexpr bool const& UnityEngine::UIElements::PanelSettings::__get_m_ClearDepthStencil() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClearDepthStencil;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ClearDepthStencil(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClearDepthStencil = value;
 }
 constexpr bool& UnityEngine::UIElements::PanelSettings::__get_m_ClearColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClearColor;
 }
 constexpr bool const& UnityEngine::UIElements::PanelSettings::__get_m_ClearColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClearColor;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ClearColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClearColor = value;
 }
 constexpr ::UnityEngine::Color& UnityEngine::UIElements::PanelSettings::__get_m_ColorClearValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColorClearValue;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::UIElements::PanelSettings::__get_m_ColorClearValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColorClearValue;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ColorClearValue(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ColorClearValue = value;
 }
 constexpr ::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess*& UnityEngine::UIElements::PanelSettings::__get_m_PanelAccess() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelAccess;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess*> const& UnityEngine::UIElements::PanelSettings::__get_m_PanelAccess() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelAccess;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_PanelAccess(::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PanelAccess)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::UIDocumentList*& UnityEngine::UIElements::PanelSettings::__get_m_AttachedUIDocumentsList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AttachedUIDocumentsList;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIDocumentList*> const& UnityEngine::UIElements::PanelSettings::__get_m_AttachedUIDocumentsList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AttachedUIDocumentsList;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_AttachedUIDocumentsList(::UnityEngine::UIElements::UIDocumentList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AttachedUIDocumentsList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::DynamicAtlasSettings*& UnityEngine::UIElements::PanelSettings::__get_m_DynamicAtlasSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DynamicAtlasSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasSettings*> const& UnityEngine::UIElements::PanelSettings::__get_m_DynamicAtlasSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DynamicAtlasSettings;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_DynamicAtlasSettings(::UnityEngine::UIElements::DynamicAtlasSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DynamicAtlasSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& UnityEngine::UIElements::PanelSettings::__get_m_AtlasBlitShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AtlasBlitShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& UnityEngine::UIElements::PanelSettings::__get_m_AtlasBlitShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AtlasBlitShader;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_AtlasBlitShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AtlasBlitShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& UnityEngine::UIElements::PanelSettings::__get_m_RuntimeShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RuntimeShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& UnityEngine::UIElements::PanelSettings::__get_m_RuntimeShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RuntimeShader;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_RuntimeShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RuntimeShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& UnityEngine::UIElements::PanelSettings::__get_m_RuntimeWorldShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RuntimeWorldShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& UnityEngine::UIElements::PanelSettings::__get_m_RuntimeWorldShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RuntimeWorldShader;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_RuntimeWorldShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RuntimeWorldShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::PanelTextSettings*& UnityEngine::UIElements::PanelSettings::__get_textSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PanelTextSettings*> const& UnityEngine::UIElements::PanelSettings::__get_textSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textSettings;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_textSettings(::UnityEngine::UIElements::PanelTextSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::PanelSettings::__get_m_TargetRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TargetRect;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::PanelSettings::__get_m_TargetRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TargetRect;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_TargetRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TargetRect = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get_m_ResolvedScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResolvedScale;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get_m_ResolvedScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ResolvedScale;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_ResolvedScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ResolvedScale = value;
 }
 constexpr ::UnityEngine::UIElements::StyleSheet*& UnityEngine::UIElements::PanelSettings::__get_m_OldThemeUss() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OldThemeUss;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& UnityEngine::UIElements::PanelSettings::__get_m_OldThemeUss() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OldThemeUss;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_OldThemeUss(::UnityEngine::UIElements::StyleSheet* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OldThemeUss)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::PanelSettings::__get_m_EmptyPanelCounter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EmptyPanelCounter;
 }
 constexpr int32_t const& UnityEngine::UIElements::PanelSettings::__get_m_EmptyPanelCounter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EmptyPanelCounter;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_EmptyPanelCounter(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EmptyPanelCounter = value;
 }
 constexpr float_t& UnityEngine::UIElements::PanelSettings::__get__ScreenDPI_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ScreenDPI_k__BackingField;
 }
 constexpr float_t const& UnityEngine::UIElements::PanelSettings::__get__ScreenDPI_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ScreenDPI_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set__ScreenDPI_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ScreenDPI_k__BackingField = value;
 }
 constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& UnityEngine::UIElements::PanelSettings::__get_m_AssignedScreenToPanel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssignedScreenToPanel;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*> const& UnityEngine::UIElements::PanelSettings::__get_m_AssignedScreenToPanel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssignedScreenToPanel;
 }
 constexpr void UnityEngine::UIElements::PanelSettings::__set_m_AssignedScreenToPanel(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AssignedScreenToPanel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::UIElements::ThemeStyleSheet* UnityEngine::UIElements::PanelSettings::get_themeStyleSheet() {

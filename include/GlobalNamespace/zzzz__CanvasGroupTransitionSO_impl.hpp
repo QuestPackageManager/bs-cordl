@@ -99,75 +99,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__normalAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAlpha;
 }
 constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__normalAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAlpha;
 }
 constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__normalAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalAlpha = value;
 }
 constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__highlightedAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAlpha;
 }
 constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__highlightedAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAlpha;
 }
 constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__highlightedAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightedAlpha = value;
 }
 constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__pressedAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedAlpha;
 }
 constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__pressedAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedAlpha;
 }
 constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__pressedAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedAlpha = value;
 }
 constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__disabledAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAlpha;
 }
 constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__disabledAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAlpha;
 }
 constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__disabledAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledAlpha = value;
 }
 constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAlpha;
 }
 constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAlpha;
 }
 constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__selectedAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAlpha = value;
 }
 constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAndHighlightedAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAlpha;
 }
 constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAndHighlightedAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAlpha;
 }
 constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__selectedAndHighlightedAlpha(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAndHighlightedAlpha = value;
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_normalAlpha() {

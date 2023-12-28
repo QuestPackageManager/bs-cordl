@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(GeneralName)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
@@ -21,6 +18,9 @@ class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

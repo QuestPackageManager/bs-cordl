@@ -7,17 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryOutputWriter)
+namespace System::Xml {
+class XmlQualifiedName;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml {
-class BitStack;
-}
-namespace System::Xml {
-class XmlRawWriter;
 }
 namespace System::Xml {
 class XmlWriterSettings;
@@ -26,7 +20,13 @@ namespace System::Xml {
 struct XmlStandalone;
 }
 namespace System::Xml {
-class XmlQualifiedName;
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+class XmlRawWriter;
+}
+namespace System::Xml {
+class BitStack;
 }
 // Forward declare root types
 namespace System::Xml {

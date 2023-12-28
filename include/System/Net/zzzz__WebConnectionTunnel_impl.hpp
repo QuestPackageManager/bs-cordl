@@ -9,22 +9,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_3_impl.hpp"
 #include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
-#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/zzzz__Version_def.hpp"
+#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState::__WebConnectionTunnel__NtlmAuthState(int32_t value__) noexcept {
   this->value__ = value__;
@@ -477,147 +477,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::HttpWebRequest*& System::Net::WebConnectionTunnel::__get__Request_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Request_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& System::Net::WebConnectionTunnel::__get__Request_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Request_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__Request_k__BackingField(::System::Net::HttpWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Request_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& System::Net::WebConnectionTunnel::__get__ConnectUri_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConnectUri_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::WebConnectionTunnel::__get__ConnectUri_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConnectUri_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__ConnectUri_k__BackingField(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ConnectUri_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpWebRequest*& System::Net::WebConnectionTunnel::__get_connectRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& System::Net::WebConnectionTunnel::__get_connectRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectRequest;
 }
 constexpr void System::Net::WebConnectionTunnel::__set_connectRequest(::System::Net::HttpWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState& System::Net::WebConnectionTunnel::__get_ntlmAuthState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ntlmAuthState;
 }
 constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState const& System::Net::WebConnectionTunnel::__get_ntlmAuthState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ntlmAuthState;
 }
 constexpr void System::Net::WebConnectionTunnel::__set_ntlmAuthState(::System::Net::__WebConnectionTunnel__NtlmAuthState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ntlmAuthState = value;
 }
 constexpr bool& System::Net::WebConnectionTunnel::__get__Success_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Success_k__BackingField;
 }
 constexpr bool const& System::Net::WebConnectionTunnel::__get__Success_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Success_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__Success_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Success_k__BackingField = value;
 }
 constexpr bool& System::Net::WebConnectionTunnel::__get__CloseConnection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CloseConnection_k__BackingField;
 }
 constexpr bool const& System::Net::WebConnectionTunnel::__get__CloseConnection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CloseConnection_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__CloseConnection_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CloseConnection_k__BackingField = value;
 }
 constexpr int32_t& System::Net::WebConnectionTunnel::__get__StatusCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StatusCode_k__BackingField;
 }
 constexpr int32_t const& System::Net::WebConnectionTunnel::__get__StatusCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StatusCode_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__StatusCode_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____StatusCode_k__BackingField = value;
 }
 constexpr ::StringW& System::Net::WebConnectionTunnel::__get__StatusDescription_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StatusDescription_k__BackingField;
 }
 constexpr ::StringW const& System::Net::WebConnectionTunnel::__get__StatusDescription_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____StatusDescription_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__StatusDescription_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____StatusDescription_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Net::WebConnectionTunnel::__get__Challenge_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Challenge_k__BackingField;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Net::WebConnectionTunnel::__get__Challenge_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Challenge_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__Challenge_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Challenge_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebHeaderCollection*& System::Net::WebConnectionTunnel::__get__Headers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Headers_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::WebConnectionTunnel::__get__Headers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Headers_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Headers_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Version*& System::Net::WebConnectionTunnel::__get__ProxyVersion_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ProxyVersion_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Net::WebConnectionTunnel::__get__ProxyVersion_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ProxyVersion_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__ProxyVersion_k__BackingField(::System::Version* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ProxyVersion_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::WebConnectionTunnel::__get__Data_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data_k__BackingField;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::WebConnectionTunnel::__get__Data_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data_k__BackingField;
 }
 constexpr void System::Net::WebConnectionTunnel::__set__Data_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Data_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::HttpWebRequest* System::Net::WebConnectionTunnel::get_Request() {

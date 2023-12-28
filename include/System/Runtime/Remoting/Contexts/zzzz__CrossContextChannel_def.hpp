@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CrossContextChannel)
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Contexts {
 class __CrossContextChannel__ContextRestoreSink;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;

@@ -59,15 +59,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::EntityType& UnityEngine::ProBuilder::Entity::__get_m_EntityType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EntityType;
 }
 constexpr ::UnityEngine::ProBuilder::EntityType const& UnityEngine::ProBuilder::Entity::__get_m_EntityType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EntityType;
 }
 constexpr void UnityEngine::ProBuilder::Entity::__set_m_EntityType(::UnityEngine::ProBuilder::EntityType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EntityType = value;
 }
 inline ::UnityEngine::ProBuilder::EntityType UnityEngine::ProBuilder::Entity::get_entityType() {

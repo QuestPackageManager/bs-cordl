@@ -7,14 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSettings)
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
 class TextStyleSheet;
 }
-namespace UnityEngine {
-class Font;
+namespace UnityEngine::TextCore::Text {
+struct __TextSettings__FontReferenceMap;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
@@ -22,14 +28,8 @@ class SpriteAsset;
 namespace UnityEngine::TextCore::Text {
 class UnicodeLineBreakingRules;
 }
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::TextCore::Text {
-struct __TextSettings__FontReferenceMap;
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

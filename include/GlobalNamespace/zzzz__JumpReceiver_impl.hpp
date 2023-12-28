@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpReceiver.get_jumpToDestinationValid
 template <>
 
@@ -67,15 +67,15 @@ constexpr GlobalNamespace::JumpReceiver::operator ::UnityEngine::Playables::INot
   return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::JumpReceiver::__get__jumpToDestinationValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpToDestinationValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::JumpReceiver::__get__jumpToDestinationValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpToDestinationValid_k__BackingField;
 }
 constexpr void GlobalNamespace::JumpReceiver::__set__jumpToDestinationValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpToDestinationValid_k__BackingField = value;
 }
 inline bool GlobalNamespace::JumpReceiver::get_jumpToDestinationValid() {

@@ -82,15 +82,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CRC::__get_globalCrc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___globalCrc;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CRC::__get_globalCrc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___globalCrc;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CRC::__set_globalCrc(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___globalCrc = value;
 }
 inline void Org::BouncyCastle::Apache::Bzip2::CRC::setStaticF_crc32Table(::ArrayW<int32_t, ::Array<int32_t>*> value) {

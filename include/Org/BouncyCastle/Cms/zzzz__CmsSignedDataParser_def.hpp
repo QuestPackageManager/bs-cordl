@@ -10,8 +10,11 @@ CORDL_MODULE_EXPORT(CmsSignedDataParser)
 namespace Org::BouncyCastle::Cms {
 class CmsSignedHelper;
 }
-namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;
@@ -19,26 +22,23 @@ class Asn1SetParser;
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignedDataParser;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

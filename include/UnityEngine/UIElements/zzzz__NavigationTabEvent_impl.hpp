@@ -86,15 +86,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction& UnityEngine::UIElements::NavigationTabEvent::__get__direction_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____direction_k__BackingField;
 }
 constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction const& UnityEngine::UIElements::NavigationTabEvent::__get__direction_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____direction_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::NavigationTabEvent::__set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____direction_k__BackingField = value;
 }
 inline void UnityEngine::UIElements::NavigationTabEvent::set_direction(::UnityEngine::UIElements::__NavigationTabEvent__Direction value) {

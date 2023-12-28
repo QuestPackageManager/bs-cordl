@@ -2,11 +2,11 @@
 #include "System/zzzz__IOOperation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IOSelectorJob_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/zzzz__IOAsyncResult_def.hpp"
-#include "System/zzzz__IOAsyncCallback_def.hpp"
 #include "System/zzzz__IOOperation_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/zzzz__IOAsyncCallback_def.hpp"
+#include "System/zzzz__IOAsyncResult_def.hpp"
 //  Writing Method size for method: ::System::IOSelectorJob._ctor
 template <>
 
@@ -72,39 +72,39 @@ constexpr System::IOSelectorJob::operator ::System::Threading::IThreadPoolWorkIt
   return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
 constexpr ::System::IOOperation& System::IOSelectorJob::__get_operation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___operation;
 }
 constexpr ::System::IOOperation const& System::IOSelectorJob::__get_operation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___operation;
 }
 constexpr void System::IOSelectorJob::__set_operation(::System::IOOperation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___operation = value;
 }
 constexpr ::System::IOAsyncCallback*& System::IOSelectorJob::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IOAsyncCallback*> const& System::IOSelectorJob::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr void System::IOSelectorJob::__set_callback(::System::IOAsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IOAsyncResult*& System::IOSelectorJob::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IOAsyncResult*> const& System::IOSelectorJob::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void System::IOSelectorJob::__set_state(::System::IOAsyncResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IOSelectorJob* System::IOSelectorJob::New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state) {

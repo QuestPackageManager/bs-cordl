@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactory_5)
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
@@ -13,9 +16,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {

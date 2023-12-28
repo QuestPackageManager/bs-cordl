@@ -96,27 +96,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& GlobalNamespace::SonyVersion::__get__majorVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____majorVersion;
 }
 constexpr uint32_t const& GlobalNamespace::SonyVersion::__get__majorVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____majorVersion;
 }
 constexpr void GlobalNamespace::SonyVersion::__set__majorVersion(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____majorVersion = value;
 }
 constexpr uint32_t& GlobalNamespace::SonyVersion::__get__minorVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minorVersion;
 }
 constexpr uint32_t const& GlobalNamespace::SonyVersion::__get__minorVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minorVersion;
 }
 constexpr void GlobalNamespace::SonyVersion::__set__minorVersion(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minorVersion = value;
 }
 inline uint32_t GlobalNamespace::SonyVersion::get_majorVersion() {

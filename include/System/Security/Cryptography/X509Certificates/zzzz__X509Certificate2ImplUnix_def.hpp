@@ -14,17 +14,17 @@ struct DateTime;
 namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

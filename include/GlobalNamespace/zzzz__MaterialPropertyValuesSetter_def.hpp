@@ -18,16 +18,16 @@ namespace GlobalNamespace {
 class __MaterialPropertyValuesSetter__PropertyNameFloatValuePair;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class __MaterialPropertyValuesSetter__PropertyNameVectorValuePair;
 }
 namespace GlobalNamespace {
 class __MaterialPropertyValuesSetter__PropertyNameIntValuePair;
 }
 namespace GlobalNamespace {
-class __MaterialPropertyValuesSetter__PropertyNameColorValuePair;
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-class __MaterialPropertyValuesSetter__PropertyNameVectorValuePair;
+class __MaterialPropertyValuesSetter__PropertyNameColorValuePair;
 }
 // Forward declare root types
 namespace GlobalNamespace {

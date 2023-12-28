@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IInstaller_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::ScriptableObjectInstallerBase.get_Container
 template <>
 
@@ -108,15 +108,15 @@ constexpr Zenject::ScriptableObjectInstallerBase::operator ::Zenject::IInstaller
   return static_cast<::Zenject::IInstaller*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::DiContainer*& Zenject::ScriptableObjectInstallerBase::__get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::ScriptableObjectInstallerBase::__get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
 constexpr void Zenject::ScriptableObjectInstallerBase::__set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::DiContainer* Zenject::ScriptableObjectInstallerBase::get_Container() {

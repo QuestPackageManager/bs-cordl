@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSegmentedControl)
-namespace HMUI {
-class TextSegmentedControlCell;
-}
 namespace UnityEngine {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace Zenject {
+class DiContainer;
 }
 namespace HMUI {
 class __SegmentedControl__IDataSource;
 }
-namespace Zenject {
-class DiContainer;
+namespace HMUI {
+class TextSegmentedControlCell;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace HMUI {
 class SegmentedControlCell;

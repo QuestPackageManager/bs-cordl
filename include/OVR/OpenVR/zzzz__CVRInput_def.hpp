@@ -10,29 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRInput)
+namespace System::Text {
+class StringBuilder;
+}
 namespace OVR::OpenVR {
-struct InputAnalogActionData_t;
+struct InputOriginInfo_t;
+}
+namespace OVR::OpenVR {
+struct InputSkeletalActionData_t;
 }
 namespace OVR::OpenVR {
 struct InputDigitalActionData_t;
 }
 namespace OVR::OpenVR {
+struct InputAnalogActionData_t;
+}
+namespace OVR::OpenVR {
 struct InputPoseActionData_t;
-}
-namespace OVR::OpenVR {
-struct EVRSkeletalTransformSpace;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct EVRInputError;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct VRBoneTransform_t;
 }
 namespace OVR::OpenVR {
 struct EVRSkeletalMotionRange;
@@ -41,10 +35,16 @@ namespace OVR::OpenVR {
 struct VRActiveActionSet_t;
 }
 namespace OVR::OpenVR {
-struct InputOriginInfo_t;
+struct VRBoneTransform_t;
 }
 namespace OVR::OpenVR {
-struct InputSkeletalActionData_t;
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct EVRSkeletalTransformSpace;
+}
+namespace OVR::OpenVR {
+struct EVRInputError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRInput);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8540))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8540)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8576))
 // CS Name: ::OVR.OpenVR::CVRInput*
 class CORDL_TYPE CVRInput : public ::System::Object {

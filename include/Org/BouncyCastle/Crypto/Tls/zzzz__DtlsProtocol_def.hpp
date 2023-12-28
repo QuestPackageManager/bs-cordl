@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsProtocol)
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

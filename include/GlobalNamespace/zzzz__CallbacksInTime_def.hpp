@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CallbacksInTime)
-namespace GlobalNamespace {
-class BeatmapDataItem;
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -15,20 +15,20 @@ template <typename T> class List_1;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

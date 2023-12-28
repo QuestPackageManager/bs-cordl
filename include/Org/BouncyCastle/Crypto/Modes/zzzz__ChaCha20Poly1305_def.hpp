@@ -9,11 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChaCha20Poly1305)
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-struct __ChaCha20Poly1305__State;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class ChaCha7539Engine;
@@ -21,8 +18,11 @@ class ChaCha7539Engine;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+struct __ChaCha20Poly1305__State;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -114,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(962)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(962))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(963))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::ChaCha20Poly1305*
 class CORDL_TYPE ChaCha20Poly1305 : public ::System::Object {

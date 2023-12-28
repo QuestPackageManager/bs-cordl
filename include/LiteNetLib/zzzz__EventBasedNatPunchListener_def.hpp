@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBasedNatPunchListener)
 namespace LiteNetLib {
+class INatPunchListener;
+}
+namespace LiteNetLib {
+class __EventBasedNatPunchListener__OnNatIntroductionRequest;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace LiteNetLib {
 struct NatAddressType;
 }
 namespace LiteNetLib {
 class __EventBasedNatPunchListener__OnNatIntroductionSuccess;
 }
-namespace LiteNetLib {
-class __EventBasedNatPunchListener__OnNatIntroductionRequest;
-}
-namespace LiteNetLib {
-class INatPunchListener;
-}
-namespace System::Net {
-class IPEndPoint;
-}
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 // Forward declare root types
 namespace LiteNetLib {

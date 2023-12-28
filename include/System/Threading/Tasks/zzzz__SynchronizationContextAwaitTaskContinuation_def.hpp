@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SynchronizationContextAwaitTaskContinuation)
 namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Threading {
 class SynchronizationContext;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading::Tasks {
 class __SynchronizationContextAwaitTaskContinuation____c;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Threading {
+class ContextCallback;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
 namespace System {
-class Action;
+class Object;
 }
 namespace System {
-class Object;
+class Action;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

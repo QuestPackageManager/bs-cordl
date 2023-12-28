@@ -11,32 +11,32 @@ class IEnumerator;
 namespace System {
 class Object;
 }
-namespace System::Collections::Specialized {
-class __ListDictionary__NodeKeyValueCollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections::Specialized {
-class __ListDictionary__DictionaryNode;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections::Specialized {
+class __ListDictionary__NodeKeyValueCollection;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Specialized {
 class __ListDictionary__NodeEnumerator;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections::Specialized {
+class __ListDictionary__DictionaryNode;
 }
 namespace System::Collections {
 struct DictionaryEntry;

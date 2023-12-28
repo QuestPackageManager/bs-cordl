@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HoverTextSetter)
-namespace HMUI {
-class HoverTextController;
-}
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
@@ -15,10 +12,13 @@ namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
+}
+namespace HMUI {
+class HoverTextController;
 }
 // Forward declare root types
 namespace HMUI {

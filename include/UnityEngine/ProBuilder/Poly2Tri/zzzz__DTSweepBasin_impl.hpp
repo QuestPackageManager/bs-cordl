@@ -17,63 +17,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_leftNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_leftNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftNode;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__set_leftNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_bottomNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_bottomNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bottomNode;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__set_bottomNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bottomNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_rightNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_rightNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightNode;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__set_rightNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr double_t& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_width() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___width;
 }
 constexpr double_t const& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_width() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___width;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__set_width(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___width = value;
 }
 constexpr bool& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_leftHighest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHighest;
 }
 constexpr bool const& UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_leftHighest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftHighest;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__set_leftHighest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftHighest = value;
 }
 inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::New_ctor() {

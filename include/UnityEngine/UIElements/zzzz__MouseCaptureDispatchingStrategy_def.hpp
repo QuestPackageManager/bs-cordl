@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseCaptureDispatchingStrategy)
 namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
 struct __MouseCaptureDispatchingStrategy__EventBehavior;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class IPanel;

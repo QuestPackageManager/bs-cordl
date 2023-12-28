@@ -2,20 +2,20 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__EventBasedNetListener_def.hpp"
-#include "LiteNetLib/zzzz__EventBasedNetListener_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
-#include "LiteNetLib/zzzz__IDeliveryEventListener_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
+#include "LiteNetLib/zzzz__EventBasedNetListener_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
 #include "LiteNetLib/zzzz__INetEventListener_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
+#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "LiteNetLib/zzzz__IDeliveryEventListener_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::__EventBasedNetListener__OnPeerConnected._ctor
 template <>
 
@@ -1293,100 +1293,100 @@ constexpr LiteNetLib::EventBasedNetListener::operator ::LiteNetLib::IDeliveryEve
   return static_cast<::LiteNetLib::IDeliveryEventListener*>(static_cast<void*>(this));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerConnected*& LiteNetLib::EventBasedNetListener::__get_PeerConnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PeerConnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnPeerConnected*> const& LiteNetLib::EventBasedNetListener::__get_PeerConnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PeerConnectedEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PeerConnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected*& LiteNetLib::EventBasedNetListener::__get_PeerDisconnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PeerDisconnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected*> const& LiteNetLib::EventBasedNetListener::__get_PeerDisconnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PeerDisconnectedEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_PeerDisconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PeerDisconnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkError*& LiteNetLib::EventBasedNetListener::__get_NetworkErrorEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkErrorEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkError*> const& LiteNetLib::EventBasedNetListener::__get_NetworkErrorEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkErrorEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_NetworkErrorEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkError* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NetworkErrorEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkReceive*& LiteNetLib::EventBasedNetListener::__get_NetworkReceiveEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkReceiveEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkReceive*> const& LiteNetLib::EventBasedNetListener::__get_NetworkReceiveEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkReceiveEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_NetworkReceiveEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NetworkReceiveEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected*& LiteNetLib::EventBasedNetListener::__get_NetworkReceiveUnconnectedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkReceiveUnconnectedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected*> const&
 LiteNetLib::EventBasedNetListener::__get_NetworkReceiveUnconnectedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkReceiveUnconnectedEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_NetworkReceiveUnconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NetworkReceiveUnconnectedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate*& LiteNetLib::EventBasedNetListener::__get_NetworkLatencyUpdateEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkLatencyUpdateEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate*> const& LiteNetLib::EventBasedNetListener::__get_NetworkLatencyUpdateEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NetworkLatencyUpdateEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_NetworkLatencyUpdateEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NetworkLatencyUpdateEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnConnectionRequest*& LiteNetLib::EventBasedNetListener::__get_ConnectionRequestEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionRequestEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnConnectionRequest*> const& LiteNetLib::EventBasedNetListener::__get_ConnectionRequestEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionRequestEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_ConnectionRequestEvent(::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ConnectionRequestEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent*& LiteNetLib::EventBasedNetListener::__get_DeliveryEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeliveryEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent*> const& LiteNetLib::EventBasedNetListener::__get_DeliveryEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DeliveryEvent;
 }
 constexpr void LiteNetLib::EventBasedNetListener::__set_DeliveryEvent(::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DeliveryEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void LiteNetLib::EventBasedNetListener::add_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value) {

@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(LegacyResourcesProvider)
 namespace System {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __LegacyResourcesProvider__InternalOp;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine {
 class ResourceRequest;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyRes
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14009))
 // CS Name: ::LegacyResourcesProvider::InternalOp*
 class CORDL_TYPE __LegacyResourcesProvider__InternalOp : public ::System::Object {

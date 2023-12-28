@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseStyleMatcher)
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
+}
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct __BaseStyleMatcher__MatchContext;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

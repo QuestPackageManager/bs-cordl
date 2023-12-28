@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(CenterStageLobbyViewController)
 namespace GlobalNamespace {
-class BeatmapSelectionView;
+class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class BeatmapSelectionView;
 }
 namespace GlobalNamespace {
 class ModifiersSelectionView;

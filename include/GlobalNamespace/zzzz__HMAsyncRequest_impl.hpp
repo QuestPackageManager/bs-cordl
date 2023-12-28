@@ -3,8 +3,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__HMAsyncRequest__CancelHander._ctor
 template <>
@@ -171,27 +171,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::HMAsyncRequest::__get__cancelled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelled;
 }
 constexpr bool const& GlobalNamespace::HMAsyncRequest::__get__cancelled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelled;
 }
 constexpr void GlobalNamespace::HMAsyncRequest::__set__cancelled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cancelled = value;
 }
 constexpr ::GlobalNamespace::__HMAsyncRequest__CancelHander*& GlobalNamespace::HMAsyncRequest::__get__cancelHander() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelHander;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HMAsyncRequest__CancelHander*> const& GlobalNamespace::HMAsyncRequest::__get__cancelHander() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cancelHander;
 }
 constexpr void GlobalNamespace::HMAsyncRequest::__set__cancelHander(::GlobalNamespace::__HMAsyncRequest__CancelHander* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cancelHander)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* GlobalNamespace::HMAsyncRequest::get_CancelHandler() {

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FixedTickablesTaskUpdater)
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IFixedTickable;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Zenject::FixedTickablesTaskUpdater);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15733)), TypeDefinitionIndex(TypeDefinitionIndex(11337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11337), inst:
-// 4196 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11340)) CS Name: ::Zenject::FixedTickablesTaskUpdater*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11337), inst: 4196 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15733))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11340)) CS Name: ::Zenject::FixedTickablesTaskUpdater*
 class CORDL_TYPE FixedTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::IFixedTickable*> {
 public:
   // Declarations

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbyPlayerPermissionsModel.get_isPartyOwner
 template <>
 
@@ -256,99 +256,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IMenuRpcManager*& GlobalNamespace::LobbyPlayerPermissionsModel::__get__menuRpcManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuRpcManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__menuRpcManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuRpcManager;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuRpcManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::LobbyPlayerPermissionsModel::__get__multiplayerSessionManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__multiplayerSessionManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::LobbyPlayerPermissionsModel::__get__isPartyOwner_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartyOwner_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__isPartyOwner_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPartyOwner_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__isPartyOwner_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPartyOwner_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasRecommendBeatmapPermission_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendBeatmapPermission_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasRecommendBeatmapPermission_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendBeatmapPermission_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__hasRecommendBeatmapPermission_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasRecommendBeatmapPermission_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasRecommendModifiersPermission_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendModifiersPermission_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasRecommendModifiersPermission_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendModifiersPermission_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__hasRecommendModifiersPermission_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasRecommendModifiersPermission_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasKickVotePermission_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasKickVotePermission_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasKickVotePermission_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasKickVotePermission_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__hasKickVotePermission_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasKickVotePermission_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasInvitePermission_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInvitePermission_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::LobbyPlayerPermissionsModel::__get__hasInvitePermission_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInvitePermission_k__BackingField;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set__hasInvitePermission_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasInvitePermission_k__BackingField = value;
 }
 constexpr ::System::Action*& GlobalNamespace::LobbyPlayerPermissionsModel::__get_permissionsChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___permissionsChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LobbyPlayerPermissionsModel::__get_permissionsChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___permissionsChangedEvent;
 }
 constexpr void GlobalNamespace::LobbyPlayerPermissionsModel::__set_permissionsChangedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___permissionsChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::LobbyPlayerPermissionsModel::get_isPartyOwner() {

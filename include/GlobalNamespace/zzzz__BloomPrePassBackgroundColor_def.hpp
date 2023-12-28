@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColor)
 namespace UnityEngine {
-struct Color;
+class Material;
 }
 namespace UnityEngine {
-class RenderTexture;
+struct Color;
 }
 namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 namespace UnityEngine {
 struct Matrix4x4;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14478)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14456))
 // CS Name: ::BloomPrePassBackgroundColor*
 class CORDL_TYPE BloomPrePassBackgroundColor : public ::GlobalNamespace::BloomPrePassNonLightPass {

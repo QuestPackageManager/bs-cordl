@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hashtable_SyncHashtable)
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
+class IEnumerator;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Collections {

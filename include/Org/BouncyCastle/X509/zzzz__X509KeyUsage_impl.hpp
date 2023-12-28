@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::X509::X509KeyUsage::__get_usage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usage;
 }
 constexpr int32_t const& Org::BouncyCastle::X509::X509KeyUsage::__get_usage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usage;
 }
 constexpr void Org::BouncyCastle::X509::X509KeyUsage::__set_usage(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usage = value;
 }
 inline ::Org::BouncyCastle::X509::X509KeyUsage* Org::BouncyCastle::X509::X509KeyUsage::New_ctor(int32_t usage) {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 CORDL_MODULE_EXPORT(JsonPrimitiveContract)
-namespace Newtonsoft::Json {
-struct ReadType;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
+}
+namespace Newtonsoft::Json {
+struct ReadType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

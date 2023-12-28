@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorBlock)
+namespace UnityEngine {
+struct Color;
+}
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

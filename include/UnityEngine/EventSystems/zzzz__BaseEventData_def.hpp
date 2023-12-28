@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_def.hpp"
 CORDL_MODULE_EXPORT(BaseEventData)
-namespace UnityEngine::EventSystems {
-class EventSystem;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
 class BaseInputModule;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

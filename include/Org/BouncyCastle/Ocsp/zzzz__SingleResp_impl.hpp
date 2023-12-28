@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__SingleResp_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__SingleResponse_def.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__SingleResponse_def.hpp"
+#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Ocsp::SingleResp._ctor
 template <>
 
@@ -108,15 +108,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*& Org::BouncyCastle::Ocsp::SingleResp::__get_resp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resp;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*> const& Org::BouncyCastle::Ocsp::SingleResp::__get_resp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resp;
 }
 constexpr void Org::BouncyCastle::Ocsp::SingleResp::__set_resp(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Ocsp::SingleResp* Org::BouncyCastle::Ocsp::SingleResp::New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp) {

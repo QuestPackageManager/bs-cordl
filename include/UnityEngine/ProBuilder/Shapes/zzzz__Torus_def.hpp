@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(Torus)
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

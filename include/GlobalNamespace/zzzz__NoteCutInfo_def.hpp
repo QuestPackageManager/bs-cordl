@@ -9,15 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutInfo)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 struct SaberType;
 }
@@ -26,6 +17,15 @@ class ISaberMovementData;
 }
 namespace GlobalNamespace {
 struct __NoteCutInfo__FailReason;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutInfo__
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15025))
 // CS Name: ::NoteCutInfo
 struct CORDL_TYPE NoteCutInfo {

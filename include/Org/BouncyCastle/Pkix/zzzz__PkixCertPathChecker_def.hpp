@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(PkixCertPathChecker)
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

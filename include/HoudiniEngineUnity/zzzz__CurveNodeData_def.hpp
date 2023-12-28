@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(CurveNodeData)
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CurveNodeData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9619))
 // CS Name: ::HoudiniEngineUnity::CurveNodeData*
 class CORDL_TYPE CurveNodeData : public ::System::Object {

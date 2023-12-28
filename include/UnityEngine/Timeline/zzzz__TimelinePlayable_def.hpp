@@ -6,43 +6,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelinePlayable)
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+struct Playable;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace UnityEngine::Animations {
+struct AnimationPlayableOutput;
+}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Timeline {
 class ITimelineEvaluateCallback;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+class RuntimeElement;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Timeline {
-class TrackAsset;
+template <typename T> class IntervalTree_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Animations {
-struct AnimationPlayableOutput;
-}
 namespace UnityEngine::Timeline {
-class RuntimeElement;
-}
-namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
+class TrackAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

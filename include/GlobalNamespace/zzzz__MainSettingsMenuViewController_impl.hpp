@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainSettingsMenuViewController.add_didSelectSettingsSubMenuEvent
 template <>
 
@@ -126,66 +126,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*& GlobalNamespace::MainSettingsMenuViewController::__get_didSelectSettingsSubMenuEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectSettingsSubMenuEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*> const&
 GlobalNamespace::MainSettingsMenuViewController::__get_didSelectSettingsSubMenuEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectSettingsSubMenuEvent;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewController::__set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectSettingsSubMenuEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>& GlobalNamespace::MainSettingsMenuViewController::__get__settingsSubMenuInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsSubMenuInfos;
 }
 constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> const&
 GlobalNamespace::MainSettingsMenuViewController::__get__settingsSubMenuInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsSubMenuInfos;
 }
 constexpr void
 GlobalNamespace::MainSettingsMenuViewController::__set__settingsSubMenuInfos(::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsSubMenuInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::TextSegmentedControl*& GlobalNamespace::MainSettingsMenuViewController::__get__settingsMenuSegmentedControl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsMenuSegmentedControl;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::TextSegmentedControl*> const& GlobalNamespace::MainSettingsMenuViewController::__get__settingsMenuSegmentedControl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsMenuSegmentedControl;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewController::__set__settingsMenuSegmentedControl(::HMUI::TextSegmentedControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsMenuSegmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SettingsSubMenuInfo*& GlobalNamespace::MainSettingsMenuViewController::__get__selectedSubMenuInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedSubMenuInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsSubMenuInfo*> const& GlobalNamespace::MainSettingsMenuViewController::__get__selectedSubMenuInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedSubMenuInfo;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewController::__set__selectedSubMenuInfo(::GlobalNamespace::SettingsSubMenuInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedSubMenuInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::MainSettingsMenuViewController::__get__selectedSubMenuInfoIdx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedSubMenuInfoIdx;
 }
 constexpr int32_t const& GlobalNamespace::MainSettingsMenuViewController::__get__selectedSubMenuInfoIdx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedSubMenuInfoIdx;
 }
 constexpr void GlobalNamespace::MainSettingsMenuViewController::__set__selectedSubMenuInfoIdx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedSubMenuInfoIdx = value;
 }
 inline void GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value) {

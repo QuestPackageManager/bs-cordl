@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlaybackScreenshotRecorder_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlaybackScreenshotRecorder.get_directory
 template <>
@@ -121,39 +121,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::PlaybackScreenshotRecorder::__get__directory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directory;
 }
 constexpr ::StringW const& GlobalNamespace::PlaybackScreenshotRecorder::__get__directory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directory;
 }
 constexpr void GlobalNamespace::PlaybackScreenshotRecorder::__set__directory(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlaybackRenderer*& GlobalNamespace::PlaybackScreenshotRecorder::__get__playbackRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playbackRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlaybackRenderer*> const& GlobalNamespace::PlaybackScreenshotRecorder::__get__playbackRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playbackRenderer;
 }
 constexpr void GlobalNamespace::PlaybackScreenshotRecorder::__set__playbackRenderer(::GlobalNamespace::PlaybackRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playbackRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::PlaybackScreenshotRecorder::__get__frameNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameNumber;
 }
 constexpr int32_t const& GlobalNamespace::PlaybackScreenshotRecorder::__get__frameNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameNumber;
 }
 constexpr void GlobalNamespace::PlaybackScreenshotRecorder::__set__frameNumber(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frameNumber = value;
 }
 inline ::StringW GlobalNamespace::PlaybackScreenshotRecorder::get_directory() {

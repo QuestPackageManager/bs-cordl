@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeLayer)
 namespace HoudiniEngineUnity {
-class HEU_PartData;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
 }
 namespace UnityEngine {
 class TerrainLayer;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailPrototype;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

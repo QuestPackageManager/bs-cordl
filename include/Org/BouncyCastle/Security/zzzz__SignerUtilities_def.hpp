@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SignerUtilities)
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace System::Collections {
-class IDictionary;
+class ICollection;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

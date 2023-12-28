@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
-#include "RootMotion/zzzz__Warning_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/zzzz__Warning_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKConstraintBend.IsValid
 template <>
 
@@ -192,219 +192,219 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKConstraintBend::__get_bone1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKConstraintBend::__get_bone1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_bone1(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKConstraintBend::__get_bone2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKConstraintBend::__get_bone2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_bone2(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKConstraintBend::__get_bone3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKConstraintBend::__get_bone3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_bone3(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKConstraintBend::__get_bendGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKConstraintBend::__get_bendGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_bendGoal(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bendGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKConstraintBend::__get_direction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___direction;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKConstraintBend::__get_direction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___direction;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_direction(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___direction = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKConstraintBend::__get_rotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKConstraintBend::__get_rotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationOffset;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_rotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKConstraintBend::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKConstraintBend::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKConstraintBend::__get_defaultLocalDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalDirection;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKConstraintBend::__get_defaultLocalDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalDirection;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_defaultLocalDirection(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalDirection = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKConstraintBend::__get_defaultChildDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultChildDirection;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKConstraintBend::__get_defaultChildDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultChildDirection;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_defaultChildDirection(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultChildDirection = value;
 }
 constexpr float_t& RootMotion::FinalIK::IKConstraintBend::__get_clampF() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clampF;
 }
 constexpr float_t const& RootMotion::FinalIK::IKConstraintBend::__get_clampF() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clampF;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_clampF(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clampF = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKConstraintBend::__get_chainIndex1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex1;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKConstraintBend::__get_chainIndex1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex1;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_chainIndex1(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chainIndex1 = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKConstraintBend::__get_nodeIndex1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex1;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKConstraintBend::__get_nodeIndex1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex1;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_nodeIndex1(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nodeIndex1 = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKConstraintBend::__get_chainIndex2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex2;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKConstraintBend::__get_chainIndex2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex2;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_chainIndex2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chainIndex2 = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKConstraintBend::__get_nodeIndex2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex2;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKConstraintBend::__get_nodeIndex2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex2;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_nodeIndex2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nodeIndex2 = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKConstraintBend::__get_chainIndex3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex3;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKConstraintBend::__get_chainIndex3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chainIndex3;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_chainIndex3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chainIndex3 = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKConstraintBend::__get_nodeIndex3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex3;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKConstraintBend::__get_nodeIndex3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeIndex3;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_nodeIndex3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nodeIndex3 = value;
 }
 constexpr bool& RootMotion::FinalIK::IKConstraintBend::__get__initiated_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initiated_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::IKConstraintBend::__get__initiated_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initiated_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set__initiated_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initiated_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::IKConstraintBend::__get_limbOrientationsSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___limbOrientationsSet;
 }
 constexpr bool const& RootMotion::FinalIK::IKConstraintBend::__get_limbOrientationsSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___limbOrientationsSet;
 }
 constexpr void RootMotion::FinalIK::IKConstraintBend::__set_limbOrientationsSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___limbOrientationsSet = value;
 }
 inline bool RootMotion::FinalIK::IKConstraintBend::IsValid(::RootMotion::FinalIK::IKSolverFullBody* solver, ::RootMotion::__Warning__Logger* logger) {

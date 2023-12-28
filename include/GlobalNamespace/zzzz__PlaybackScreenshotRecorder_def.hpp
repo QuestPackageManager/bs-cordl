@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaybackScreenshotRecorder)
-namespace UnityEngine {
-class Texture2D;
-}
 namespace GlobalNamespace {
 class PlaybackRenderer;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 class RenderTexture;

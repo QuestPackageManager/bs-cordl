@@ -8,25 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeBuilder)
 namespace System {
-struct Guid;
+class Type;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class FieldInfo;
+}
+namespace System {
+struct Guid;
 }
 namespace System::Reflection {
-class Assembly;
+class Module;
 }
 namespace System::Reflection {
 struct ParameterModifier;
 }
 namespace System::Reflection {
-class Binder;
+struct TypeAttributes;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class EventInfo;
 }
 namespace System {
 class Object;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Reflection {
+class Binder;
 }
 namespace System::Reflection {
 class ConstructorInfo;
@@ -35,25 +53,7 @@ namespace System::Reflection {
 class MethodInfo;
 }
 namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System::Reflection {
-struct TypeAttributes;
+struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

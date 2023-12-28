@@ -8,8 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthenticatedDataStreamGenerator)
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
@@ -18,22 +21,19 @@ namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class CipherKeyGenerator;
 }
 namespace Org::BouncyCastle::Cms {
 class __CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1 {
-class BerSequenceGenerator;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace Org::BouncyCastle::Asn1 {
+class BerSequenceGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -9,38 +9,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArray_1)
-namespace System {
-class Object;
-}
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace Unity::Collections {
-template <typename T> struct __NativeArray_1__Enumerator;
-}
-namespace Unity::Collections {
-struct NativeArrayOptions;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+namespace Unity::Jobs {
+struct JobHandle;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
 }
-namespace Unity::Jobs {
-struct JobHandle;
+namespace Unity::Collections {
+struct NativeArrayOptions;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Unity::Collections {
+template <typename T> struct __NativeArray_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Unity::Collections {

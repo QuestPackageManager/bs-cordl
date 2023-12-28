@@ -201,63 +201,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& LiteNetLib::NetStatistics::__get__packetsSent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSent;
 }
 constexpr int64_t const& LiteNetLib::NetStatistics::__get__packetsSent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsSent;
 }
 constexpr void LiteNetLib::NetStatistics::__set__packetsSent(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsSent = value;
 }
 constexpr int64_t& LiteNetLib::NetStatistics::__get__packetsReceived() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceived;
 }
 constexpr int64_t const& LiteNetLib::NetStatistics::__get__packetsReceived() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetsReceived;
 }
 constexpr void LiteNetLib::NetStatistics::__set__packetsReceived(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetsReceived = value;
 }
 constexpr int64_t& LiteNetLib::NetStatistics::__get__bytesSent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesSent;
 }
 constexpr int64_t const& LiteNetLib::NetStatistics::__get__bytesSent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesSent;
 }
 constexpr void LiteNetLib::NetStatistics::__set__bytesSent(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bytesSent = value;
 }
 constexpr int64_t& LiteNetLib::NetStatistics::__get__bytesReceived() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesReceived;
 }
 constexpr int64_t const& LiteNetLib::NetStatistics::__get__bytesReceived() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesReceived;
 }
 constexpr void LiteNetLib::NetStatistics::__set__bytesReceived(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bytesReceived = value;
 }
 constexpr int64_t& LiteNetLib::NetStatistics::__get__packetLoss() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetLoss;
 }
 constexpr int64_t const& LiteNetLib::NetStatistics::__get__packetLoss() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetLoss;
 }
 constexpr void LiteNetLib::NetStatistics::__set__packetLoss(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetLoss = value;
 }
 inline int64_t LiteNetLib::NetStatistics::get_PacketsSent() {

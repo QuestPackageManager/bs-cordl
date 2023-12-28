@@ -3,16 +3,16 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__ArraySliceFilter_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__ArraySliceFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__ArraySliceFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JArray_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JArray_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12._ctor
 template <>
 
@@ -172,187 +172,187 @@ constexpr Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___2__current(::Newtonsoft::Json::Linq::JToken* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*> const&
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___4__this(::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get_current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*> const&
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get_current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set_current(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___3__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*> const&
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___3__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__current;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___3__current(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Linq::JArray*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__a_5__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____a_5__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JArray*> const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__a_5__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____a_5__1;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set__a_5__1(::Newtonsoft::Json::Linq::JArray* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____a_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__i_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__i_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set__i_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__stepCount_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepCount_5__3;
 }
 constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__stepCount_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepCount_5__3;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set__stepCount_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stepCount_5__3 = value;
 }
 constexpr int32_t& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__stopIndex_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopIndex_5__4;
 }
 constexpr int32_t const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__stopIndex_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopIndex_5__4;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set__stopIndex_5__4(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stopIndex_5__4 = value;
 }
 constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__positiveStep_5__5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positiveStep_5__5;
 }
 constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__positiveStep_5__5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positiveStep_5__5;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set__positiveStep_5__5(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positiveStep_5__5 = value;
 }
 constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get_errorWhenNoMatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___errorWhenNoMatch;
 }
 constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get_errorWhenNoMatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___errorWhenNoMatch;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set_errorWhenNoMatch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___errorWhenNoMatch = value;
 }
 constexpr bool& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___3__errorWhenNoMatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__errorWhenNoMatch;
 }
 constexpr bool const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___3__errorWhenNoMatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__errorWhenNoMatch;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___3__errorWhenNoMatch(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__errorWhenNoMatch = value;
 }
 constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__t_5__6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____t_5__6;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get__t_5__6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____t_5__6;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set__t_5__6(::Newtonsoft::Json::Linq::JToken* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____t_5__6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*> const&
 Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12* Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___ExecuteFilter_d__12::New_ctor(int32_t __1__state) {
@@ -550,39 +550,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Nullable_1<int32_t>& Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__get__Start_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Start_k__BackingField;
 }
 constexpr ::System::Nullable_1<int32_t> const& Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__get__Start_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Start_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__set__Start_k__BackingField(::System::Nullable_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Start_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<int32_t>& Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__get__End_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____End_k__BackingField;
 }
 constexpr ::System::Nullable_1<int32_t> const& Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__get__End_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____End_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__set__End_k__BackingField(::System::Nullable_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____End_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<int32_t>& Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__get__Step_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Step_k__BackingField;
 }
 constexpr ::System::Nullable_1<int32_t> const& Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__get__Step_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Step_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::__set__Step_k__BackingField(::System::Nullable_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Step_k__BackingField = value;
 }
 inline ::System::Nullable_1<int32_t> Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_Start() {

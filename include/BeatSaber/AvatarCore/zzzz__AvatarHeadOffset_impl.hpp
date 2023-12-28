@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarHeadOffset_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__MultiplayerAvatarPoseController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarHeadOffset.Start
 template <>
 
@@ -59,27 +59,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& BeatSaber::AvatarCore::AvatarHeadOffset::__get__positionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::AvatarCore::AvatarHeadOffset::__get__positionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionOffset;
 }
 constexpr void BeatSaber::AvatarCore::AvatarHeadOffset::__set__positionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positionOffset = value;
 }
 constexpr ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*& BeatSaber::AvatarCore::AvatarHeadOffset::__get__avatarPoseController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseController;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*> const& BeatSaber::AvatarCore::AvatarHeadOffset::__get__avatarPoseController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseController;
 }
 constexpr void BeatSaber::AvatarCore::AvatarHeadOffset::__set__avatarPoseController(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarPoseController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::AvatarCore::AvatarHeadOffset::Start() {

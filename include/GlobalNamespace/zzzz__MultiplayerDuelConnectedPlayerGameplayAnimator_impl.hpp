@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerDuelConnectedPlayerGameplayAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerLevelFailController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator.OnDestroy
 template <>
 
@@ -98,28 +98,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ScaleAnimator*& GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::__get__avatarScaleAnimator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarScaleAnimator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScaleAnimator*> const& GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::__get__avatarScaleAnimator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarScaleAnimator;
 }
 constexpr void GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::__set__avatarScaleAnimator(::GlobalNamespace::ScaleAnimator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarScaleAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*& GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::__get__failController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*> const&
 GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::__get__failController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failController;
 }
 constexpr void GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::__set__failController(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____failController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy() {

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6616)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayoutAttribute*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6616)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayoutAttribute*
 class CORDL_TYPE InputControlLayoutAttribute : public ::System::Attribute {
 public:
   // Declarations

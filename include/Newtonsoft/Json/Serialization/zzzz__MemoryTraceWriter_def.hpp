@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MemoryTraceWriter)
-namespace System {
-class Exception;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+namespace System::Diagnostics {
+struct TraceLevel;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Diagnostics {
-struct TraceLevel;
-}
 namespace Newtonsoft::Json::Serialization {
 class ITraceWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::MemoryTraceWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8942))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8942)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11908))
 // CS Name: ::Newtonsoft.Json.Serialization::MemoryTraceWriter*
 class CORDL_TYPE MemoryTraceWriter : public ::System::Object {

@@ -55,99 +55,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::DroppedFramesLabel::__get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::DroppedFramesLabel::__get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__text(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::DroppedFramesLabel::__get__expectedFrameRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expectedFrameRate;
 }
 constexpr int32_t const& GlobalNamespace::DroppedFramesLabel::__get__expectedFrameRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expectedFrameRate;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__expectedFrameRate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____expectedFrameRate = value;
 }
 constexpr int32_t& GlobalNamespace::DroppedFramesLabel::__get__resetInterval() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resetInterval;
 }
 constexpr int32_t const& GlobalNamespace::DroppedFramesLabel::__get__resetInterval() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resetInterval;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__resetInterval(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resetInterval = value;
 }
 constexpr int32_t& GlobalNamespace::DroppedFramesLabel::__get__totalNumberOfDroppedFrames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalNumberOfDroppedFrames;
 }
 constexpr int32_t const& GlobalNamespace::DroppedFramesLabel::__get__totalNumberOfDroppedFrames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalNumberOfDroppedFrames;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__totalNumberOfDroppedFrames(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalNumberOfDroppedFrames = value;
 }
 constexpr float_t& GlobalNamespace::DroppedFramesLabel::__get__syncedFrameTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncedFrameTime;
 }
 constexpr float_t const& GlobalNamespace::DroppedFramesLabel::__get__syncedFrameTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncedFrameTime;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__syncedFrameTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____syncedFrameTime = value;
 }
 constexpr float_t& GlobalNamespace::DroppedFramesLabel::__get__intervalTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalTime;
 }
 constexpr float_t const& GlobalNamespace::DroppedFramesLabel::__get__intervalTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalTime;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__intervalTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intervalTime = value;
 }
 constexpr float_t& GlobalNamespace::DroppedFramesLabel::__get__maxFrameTimeInInterval() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxFrameTimeInInterval;
 }
 constexpr float_t const& GlobalNamespace::DroppedFramesLabel::__get__maxFrameTimeInInterval() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxFrameTimeInInterval;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__maxFrameTimeInInterval(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxFrameTimeInInterval = value;
 }
 constexpr int32_t& GlobalNamespace::DroppedFramesLabel::__get__frameCountInInterval() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameCountInInterval;
 }
 constexpr int32_t const& GlobalNamespace::DroppedFramesLabel::__get__frameCountInInterval() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameCountInInterval;
 }
 constexpr void GlobalNamespace::DroppedFramesLabel::__set__frameCountInInterval(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frameCountInInterval = value;
 }
 inline void GlobalNamespace::DroppedFramesLabel::Start() {

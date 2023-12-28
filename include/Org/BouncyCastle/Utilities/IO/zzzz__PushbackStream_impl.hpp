@@ -66,15 +66,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Utilities::IO::PushbackStream::__get_buf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf;
 }
 constexpr int32_t const& Org::BouncyCastle::Utilities::IO::PushbackStream::__get_buf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buf;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::PushbackStream::__set_buf(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___buf = value;
 }
 inline ::Org::BouncyCastle::Utilities::IO::PushbackStream* Org::BouncyCastle::Utilities::IO::PushbackStream::New_ctor(::System::IO::Stream* s) {

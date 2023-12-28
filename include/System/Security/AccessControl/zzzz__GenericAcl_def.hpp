@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericAcl)
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Security::AccessControl {
-class AceEnumerator;
+class IEnumerator;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Security::AccessControl {
+class AceEnumerator;
 }
 namespace System::Security::AccessControl {
 class GenericAce;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

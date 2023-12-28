@@ -7,23 +7,23 @@ CORDL_MODULE_EXPORT(PlayerSpecificSettingsAtStartNetSerializable)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

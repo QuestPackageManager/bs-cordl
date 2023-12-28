@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapIdentifierNetSerializable)
 namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

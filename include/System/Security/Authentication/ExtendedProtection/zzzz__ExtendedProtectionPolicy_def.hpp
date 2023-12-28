@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ExtendedProtectionPolicy)
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
+namespace System::Security::Authentication::ExtendedProtection {
+struct PolicyEnforcement;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Security::Authentication::ExtendedProtection {
-struct PolicyEnforcement;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {

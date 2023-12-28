@@ -2,13 +2,13 @@
 #include "System/IO/zzzz__FileStatus_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/IO/zzzz__FileSystemInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/IO/zzzz__FileStatus_def.hpp"
 #include "System/IO/zzzz__FileAttributes_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::IO::FileSystemInfo._ctor
 template <>
 
@@ -276,51 +276,51 @@ constexpr System::IO::FileSystemInfo::operator ::System::Runtime::Serialization:
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::FileStatus& System::IO::FileSystemInfo::__get__fileStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fileStatus;
 }
 constexpr ::System::IO::FileStatus const& System::IO::FileSystemInfo::__get__fileStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fileStatus;
 }
 constexpr void System::IO::FileSystemInfo::__set__fileStatus(::System::IO::FileStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fileStatus = value;
 }
 constexpr ::StringW& System::IO::FileSystemInfo::__get_FullPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FullPath;
 }
 constexpr ::StringW const& System::IO::FileSystemInfo::__get_FullPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FullPath;
 }
 constexpr void System::IO::FileSystemInfo::__set_FullPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___FullPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::IO::FileSystemInfo::__get_OriginalPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OriginalPath;
 }
 constexpr ::StringW const& System::IO::FileSystemInfo::__get_OriginalPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OriginalPath;
 }
 constexpr void System::IO::FileSystemInfo::__set_OriginalPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OriginalPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::IO::FileSystemInfo::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& System::IO::FileSystemInfo::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void System::IO::FileSystemInfo::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::FileSystemInfo* System::IO::FileSystemInfo::New_ctor() {

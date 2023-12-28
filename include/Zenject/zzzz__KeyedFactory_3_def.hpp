@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactory_3)
 namespace System {
-class Type;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,7 +29,7 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey, typename TParam1>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3947 }), TypeDefinitionIndex(TypeDefinitionIndex(10995))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10995)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3947 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10997))
 // CS Name: ::Zenject::KeyedFactory`3<TBase,TKey,TParam1>*
 class CORDL_TYPE KeyedFactory_3 : public ::Zenject::KeyedFactoryBase_2<TBase, TKey> {

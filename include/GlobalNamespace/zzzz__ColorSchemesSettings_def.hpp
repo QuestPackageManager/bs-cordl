@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorSchemesSettings)
 namespace GlobalNamespace {
-class ColorSchemeSO;
+class ColorScheme;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace GlobalNamespace {
-class ColorScheme;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class ColorSchemeSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

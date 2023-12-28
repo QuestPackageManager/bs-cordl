@@ -1,11 +1,11 @@
 #pragma once
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__StringWriter_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: ::System::IO::StringWriter._ctor
 template <>
 
@@ -163,27 +163,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::StringBuilder*& System::IO::StringWriter::__get__sb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sb;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::IO::StringWriter::__get__sb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sb;
 }
 constexpr void System::IO::StringWriter::__set__sb(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IO::StringWriter::__get__isOpen() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isOpen;
 }
 constexpr bool const& System::IO::StringWriter::__get__isOpen() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isOpen;
 }
 constexpr void System::IO::StringWriter::__set__isOpen(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isOpen = value;
 }
 inline void System::IO::StringWriter::setStaticF_m_encoding(::System::Text::UnicodeEncoding* value) {

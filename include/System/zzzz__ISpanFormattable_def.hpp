@@ -9,10 +9,10 @@ namespace System {
 class IFormatProvider;
 }
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System {

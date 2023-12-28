@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__Group_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::Match._ctor
 template <>
 
@@ -226,111 +226,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::RegularExpressions::GroupCollection*& System::Text::RegularExpressions::Match::__get__groupcoll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupcoll;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::GroupCollection*> const& System::Text::RegularExpressions::Match::__get__groupcoll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupcoll;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__groupcoll(::System::Text::RegularExpressions::GroupCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupcoll)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::RegularExpressions::Regex*& System::Text::RegularExpressions::Match::__get__regex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____regex;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& System::Text::RegularExpressions::Match::__get__regex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____regex;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__regex(::System::Text::RegularExpressions::Regex* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____regex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::RegularExpressions::Match::__get__textbeg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textbeg;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Match::__get__textbeg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textbeg;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__textbeg(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textbeg = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::Match::__get__textpos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textpos;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Match::__get__textpos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textpos;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__textpos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textpos = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::Match::__get__textend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textend;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Match::__get__textend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textend;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__textend(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textend = value;
 }
 constexpr int32_t& System::Text::RegularExpressions::Match::__get__textstart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textstart;
 }
 constexpr int32_t const& System::Text::RegularExpressions::Match::__get__textstart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textstart;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__textstart(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textstart = value;
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& System::Text::RegularExpressions::Match::__get__matches() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matches;
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& System::Text::RegularExpressions::Match::__get__matches() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matches;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__matches(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____matches)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Text::RegularExpressions::Match::__get__matchcount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matchcount;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Text::RegularExpressions::Match::__get__matchcount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matchcount;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__matchcount(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____matchcount)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::RegularExpressions::Match::__get__balancing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____balancing;
 }
 constexpr bool const& System::Text::RegularExpressions::Match::__get__balancing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____balancing;
 }
 constexpr void System::Text::RegularExpressions::Match::__set__balancing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____balancing = value;
 }
 inline void System::Text::RegularExpressions::Match::setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::Match* value) {

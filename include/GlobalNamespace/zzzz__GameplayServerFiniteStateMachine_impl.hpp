@@ -3,15 +3,15 @@
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__GameState_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MenuRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams._ctor
 template <>
 
@@ -312,125 +312,125 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BGNet::Core::ITaskUtility*& GlobalNamespace::GameplayServerFiniteStateMachine::__get__taskUtility_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__taskUtility_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__taskUtility_k__BackingField(::BGNet::Core::ITaskUtility* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskUtility_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::GameplayServerFiniteStateMachine::__get__multiplayerSessionManager_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
 GlobalNamespace::GameplayServerFiniteStateMachine::__get__multiplayerSessionManager_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::GameplayServerFiniteStateMachine::__get__ownerUserId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownerUserId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__ownerUserId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownerUserId_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__ownerUserId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ownerUserId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& GlobalNamespace::GameplayServerFiniteStateMachine::__get__selectionMask_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionMask_k__BackingField;
 }
 constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__selectionMask_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectionMask_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectionMask_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::GameplayServerConfiguration& GlobalNamespace::GameplayServerFiniteStateMachine::__get__configuration_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configuration_k__BackingField;
 }
 constexpr ::GlobalNamespace::GameplayServerConfiguration const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__configuration_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configuration_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____configuration_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::IServerBeatmapProvider*& GlobalNamespace::GameplayServerFiniteStateMachine::__get__beatmapProvider_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapProvider_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IServerBeatmapProvider*> const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__beatmapProvider_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapProvider_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__beatmapProvider_k__BackingField(::GlobalNamespace::IServerBeatmapProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapProvider_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MenuRpcManager*& GlobalNamespace::GameplayServerFiniteStateMachine::__get__menuRpcManager_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuRpcManager_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuRpcManager*> const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__menuRpcManager_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuRpcManager_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__menuRpcManager_k__BackingField(::GlobalNamespace::MenuRpcManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuRpcManager_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayRpcManager*& GlobalNamespace::GameplayServerFiniteStateMachine::__get__gameplayRpcManager_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayRpcManager_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayRpcManager*> const& GlobalNamespace::GameplayServerFiniteStateMachine::__get__gameplayRpcManager_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayRpcManager_k__BackingField;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set__gameplayRpcManager_k__BackingField(::GlobalNamespace::GameplayRpcManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayRpcManager_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameState*& GlobalNamespace::GameplayServerFiniteStateMachine::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameState*> const& GlobalNamespace::GameplayServerFiniteStateMachine::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set_state(::GlobalNamespace::GameState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::GameplayServerFiniteStateMachine::__get_enteringState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enteringState;
 }
 constexpr bool const& GlobalNamespace::GameplayServerFiniteStateMachine::__get_enteringState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enteringState;
 }
 constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__set_enteringState(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enteringState = value;
 }
 inline ::BGNet::Core::ITaskUtility* GlobalNamespace::GameplayServerFiniteStateMachine::get_taskUtility() {

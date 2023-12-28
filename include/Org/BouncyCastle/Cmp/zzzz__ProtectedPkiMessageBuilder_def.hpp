@@ -6,14 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProtectedPkiMessageBuilder)
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFreeText;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class InfoTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFreeText;
+class PkiHeaderBuilder;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -21,35 +27,29 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiBody;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
+}
 namespace Org::BouncyCastle::Cmp {
 class ProtectedPkiMessage;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
 }
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMacFactory;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeaderBuilder;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class InfoTypeAndValue;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

@@ -78,15 +78,15 @@ constexpr UnityEngine::UIElements::CursorManager::operator ::UnityEngine::UIElem
   return static_cast<::UnityEngine::UIElements::ICursorManager*>(static_cast<void*>(this));
 }
 constexpr bool& UnityEngine::UIElements::CursorManager::__get__isCursorOverriden_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isCursorOverriden_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::CursorManager::__get__isCursorOverriden_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isCursorOverriden_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::CursorManager::__set__isCursorOverriden_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isCursorOverriden_k__BackingField = value;
 }
 inline bool UnityEngine::UIElements::CursorManager::get_isCursorOverriden() {

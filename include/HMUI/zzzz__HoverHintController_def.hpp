@@ -8,7 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HoverHintController)
 namespace HMUI {
+class __HoverHintController___ShowHintAfterDelay_d__10;
+}
+namespace HMUI {
+class __HoverHintController___HideHintAfterDelay_d__11;
+}
+namespace HMUI {
 class HoverHint;
+}
+namespace HMUI {
+class HoverHintPanel;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -16,23 +25,14 @@ class IEnumerator;
 namespace UnityEngine {
 class Transform;
 }
-namespace HMUI {
-class HoverHintPanel;
-}
-namespace HMUI {
-class __HoverHintController___ShowHintAfterDelay_d__10;
-}
-namespace HMUI {
-class __HoverHintController___HideHintAfterDelay_d__11;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace HMUI {

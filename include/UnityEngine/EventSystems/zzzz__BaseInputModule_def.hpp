@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseInputModule)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
 namespace UnityEngine::EventSystems {
 struct MoveDirection;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
 }
 namespace UnityEngine::EventSystems {
 class BaseInput;
@@ -28,10 +16,22 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::EventSystems {
 class EventSystem;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

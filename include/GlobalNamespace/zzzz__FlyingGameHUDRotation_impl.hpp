@@ -56,63 +56,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__get__smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 constexpr float_t const& GlobalNamespace::FlyingGameHUDRotation::__get__smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 constexpr void GlobalNamespace::FlyingGameHUDRotation::__set__smooth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smooth = value;
 }
 constexpr ::GlobalNamespace::BeatLineManager*& GlobalNamespace::FlyingGameHUDRotation::__get__beatLineManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatLineManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatLineManager*> const& GlobalNamespace::FlyingGameHUDRotation::__get__beatLineManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatLineManager;
 }
 constexpr void GlobalNamespace::FlyingGameHUDRotation::__set__beatLineManager(::GlobalNamespace::BeatLineManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatLineManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentSpawnRotation*& GlobalNamespace::FlyingGameHUDRotation::__get__environmentSpawnRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentSpawnRotation;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSpawnRotation*> const& GlobalNamespace::FlyingGameHUDRotation::__get__environmentSpawnRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentSpawnRotation;
 }
 constexpr void GlobalNamespace::FlyingGameHUDRotation::__set__environmentSpawnRotation(::GlobalNamespace::EnvironmentSpawnRotation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentSpawnRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__get__prevYAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevYAngle;
 }
 constexpr float_t const& GlobalNamespace::FlyingGameHUDRotation::__get__prevYAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevYAngle;
 }
 constexpr void GlobalNamespace::FlyingGameHUDRotation::__set__prevYAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevYAngle = value;
 }
 constexpr float_t& GlobalNamespace::FlyingGameHUDRotation::__get__yAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAngle;
 }
 constexpr float_t const& GlobalNamespace::FlyingGameHUDRotation::__get__yAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAngle;
 }
 constexpr void GlobalNamespace::FlyingGameHUDRotation::__set__yAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAngle = value;
 }
 inline void GlobalNamespace::FlyingGameHUDRotation::Start() {

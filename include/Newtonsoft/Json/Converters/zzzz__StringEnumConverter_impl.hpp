@@ -1,11 +1,11 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__StringEnumConverter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.get_CamelCaseText
 template <>
 
@@ -143,27 +143,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Newtonsoft::Json::Converters::StringEnumConverter::__get__CamelCaseText_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CamelCaseText_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::StringEnumConverter::__get__CamelCaseText_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CamelCaseText_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::StringEnumConverter::__set__CamelCaseText_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CamelCaseText_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Converters::StringEnumConverter::__get__AllowIntegerValues_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllowIntegerValues_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::StringEnumConverter::__get__AllowIntegerValues_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllowIntegerValues_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::StringEnumConverter::__set__AllowIntegerValues_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AllowIntegerValues_k__BackingField = value;
 }
 inline bool Newtonsoft::Json::Converters::StringEnumConverter::get_CamelCaseText() {

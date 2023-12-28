@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstanceProvider)
-namespace UnityEngine {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
 class Action;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class __ScriptableObjectInstanceProvider____c__DisplayClass13_0;
 }
 namespace Zenject {
-class DiContainer;
+class IProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;

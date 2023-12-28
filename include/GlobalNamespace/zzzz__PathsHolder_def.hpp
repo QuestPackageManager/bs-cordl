@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PathsHolder)
 namespace GlobalNamespace {
-class VertexPath;
+class BezierPath;
 }
 namespace GlobalNamespace {
-class BezierPath;
+class VertexPath;
 }
 // Forward declare root types
 namespace GlobalNamespace {

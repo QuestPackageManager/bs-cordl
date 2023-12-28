@@ -3,9 +3,9 @@
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/zzzz__RectInt_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__UIRAtlasAllocator__Row.get_offsetX
 template <>
@@ -154,63 +154,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__offsetX_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetX_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__offsetX_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetX_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__Row::__set__offsetX_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetX_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__offsetY_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetY_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__offsetY_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetY_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__Row::__set__offsetY_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offsetY_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__width_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__width_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____width_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__Row::__set__width_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____width_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__height_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____height_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get__height_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____height_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__Row::__set__height_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____height_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get_Cursor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Cursor;
 }
 constexpr int32_t const& UnityEngine::UIElements::__UIRAtlasAllocator__Row::__get_Cursor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Cursor;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__Row::__set_Cursor(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Cursor = value;
 }
 inline void UnityEngine::UIElements::__UIRAtlasAllocator__Row::setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* value) {
@@ -356,39 +356,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__get_rect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__get_rect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__set_rect(::UnityEngine::RectInt value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rect = value;
 }
 constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__get_previous() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previous;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__get_previous() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previous;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__set_previous(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::__set_next(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode::setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* value) {
@@ -729,150 +729,150 @@ constexpr UnityEngine::UIElements::UIRAtlasAllocator::operator ::System::IDispos
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__maxAtlasSize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxAtlasSize_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__maxAtlasSize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxAtlasSize_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__maxAtlasSize_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxAtlasSize_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__maxImageWidth_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxImageWidth_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__maxImageWidth_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxImageWidth_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__maxImageWidth_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxImageWidth_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__maxImageHeight_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxImageHeight_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__maxImageHeight_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxImageHeight_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__maxImageHeight_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxImageHeight_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__virtualWidth_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualWidth_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__virtualWidth_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualWidth_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__virtualWidth_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualWidth_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__virtualHeight_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualHeight_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__virtualHeight_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualHeight_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__virtualHeight_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualHeight_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__physicalWidth_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physicalWidth_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__physicalWidth_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physicalWidth_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__physicalWidth_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____physicalWidth_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get__physicalHeight_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physicalHeight_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get__physicalHeight_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physicalHeight_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__physicalHeight_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____physicalHeight_k__BackingField = value;
 }
 constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& UnityEngine::UIElements::UIRAtlasAllocator::__get_m_FirstUnpartitionedArea() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstUnpartitionedArea;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& UnityEngine::UIElements::UIRAtlasAllocator::__get_m_FirstUnpartitionedArea() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstUnpartitionedArea;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set_m_FirstUnpartitionedArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FirstUnpartitionedArea)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*>&
 UnityEngine::UIElements::UIRAtlasAllocator::__get_m_OpenRows() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpenRows;
 }
 constexpr ::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> const&
 UnityEngine::UIElements::UIRAtlasAllocator::__get_m_OpenRows() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpenRows;
 }
 constexpr void
 UnityEngine::UIElements::UIRAtlasAllocator::__set_m_OpenRows(::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OpenRows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get_m_1SidePadding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_1SidePadding;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get_m_1SidePadding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_1SidePadding;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set_m_1SidePadding(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_1SidePadding = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIRAtlasAllocator::__get_m_2SidePadding() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_2SidePadding;
 }
 constexpr int32_t const& UnityEngine::UIElements::UIRAtlasAllocator::__get_m_2SidePadding() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_2SidePadding;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set_m_2SidePadding(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_2SidePadding = value;
 }
 constexpr bool& UnityEngine::UIElements::UIRAtlasAllocator::__get__disposed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIRAtlasAllocator::__get__disposed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposed_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::UIRAtlasAllocator::__set__disposed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
 inline void UnityEngine::UIElements::UIRAtlasAllocator::setStaticF_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value) {

@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 class __NoteCutter__CuttableBySaberSortParamsComparer;
 }
 namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
 class __NoteCutter__CuttableBySaberSortParams;
 }
 namespace UnityEngine {
 class Collider;
-}
-namespace GlobalNamespace {
-class Saber;
 }
 namespace GlobalNamespace {
 class CuttableBySaber;

@@ -12,13 +12,13 @@ namespace LiteNetLib::Utils {
 struct NtpLeapIndicator;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
 namespace LiteNetLib::Utils {
 struct NtpMode;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NtpPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14237)) CS Name: ::LiteNetLib.Utils::NtpPacket*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2368))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14237)) CS Name: ::LiteNetLib.Utils::NtpPacket*
 class CORDL_TYPE NtpPacket : public ::System::Object {
 public:
   // Declarations

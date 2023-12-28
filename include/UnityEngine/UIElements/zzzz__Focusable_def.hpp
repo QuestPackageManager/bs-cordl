@@ -9,10 +9,10 @@ namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

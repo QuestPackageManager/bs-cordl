@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PS4PublisherSKUSettingsSO)
 namespace GlobalNamespace {
-class __PS4PublisherSKUSettingsSO__PS4BuildVersion;
+struct PS4ApplicationCategory;
 }
 namespace GlobalNamespace {
-struct PS4ApplicationCategory;
+class __PS4PublisherSKUSettingsSO__PS4BuildVersion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

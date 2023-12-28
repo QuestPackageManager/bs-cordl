@@ -8,14 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SchemaAttDef)
-namespace System::Xml::Schema {
-struct __SchemaAttDef__Reserve;
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml {
-class IDtdAttributeInfo;
+class IValidationEventHandling;
 }
 namespace System::Xml {
 class IDtdDefaultAttributeInfo;
+}
+namespace System::Xml::Schema {
+struct __SchemaAttDef__Reserve;
 }
 namespace System {
 class Object;
@@ -24,10 +27,7 @@ namespace System::Xml {
 struct XmlTokenizedType;
 }
 namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml {
-class IValidationEventHandling;
+class IDtdAttributeInfo;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

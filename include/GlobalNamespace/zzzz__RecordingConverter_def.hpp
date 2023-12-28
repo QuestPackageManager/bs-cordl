@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RecordingConverter)
 namespace GlobalNamespace {
-class IBeatSaberLogger;
+class PosesRecordingData;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class IBeatSaberLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {

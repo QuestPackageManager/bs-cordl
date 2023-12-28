@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextureEntry)
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
 namespace UnityEngine {
 class Texture;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

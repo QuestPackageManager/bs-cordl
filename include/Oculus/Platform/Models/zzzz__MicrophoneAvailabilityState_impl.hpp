@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::MicrophoneAvailabilityState::__get_MicrophoneAvailable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MicrophoneAvailable;
 }
 constexpr bool const& Oculus::Platform::Models::MicrophoneAvailabilityState::__get_MicrophoneAvailable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MicrophoneAvailable;
 }
 constexpr void Oculus::Platform::Models::MicrophoneAvailabilityState::__set_MicrophoneAvailable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MicrophoneAvailable = value;
 }
 inline ::Oculus::Platform::Models::MicrophoneAvailabilityState* Oculus::Platform::Models::MicrophoneAvailabilityState::New_ctor(void* o) {

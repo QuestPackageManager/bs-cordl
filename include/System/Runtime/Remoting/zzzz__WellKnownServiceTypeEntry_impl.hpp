@@ -80,39 +80,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
 constexpr void System::Runtime::Remoting::WellKnownServiceTypeEntry::__set_obj_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj_type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_uri;
 }
 constexpr ::StringW const& System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_uri;
 }
 constexpr void System::Runtime::Remoting::WellKnownServiceTypeEntry::__set_obj_uri(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___obj_uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::WellKnownObjectMode& System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_mode;
 }
 constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_mode;
 }
 constexpr void System::Runtime::Remoting::WellKnownServiceTypeEntry::__set_obj_mode(::System::Runtime::Remoting::WellKnownObjectMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___obj_mode = value;
 }
 inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* System::Runtime::Remoting::WellKnownServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,

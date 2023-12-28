@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_PartInfo)
 namespace HoudiniEngineUnity {
+struct HAPI_PartType;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_GroupType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -2,12 +2,12 @@
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::__ReferenceConverter__ReferenceComparer._ctor
 template <>
@@ -45,15 +45,15 @@ constexpr System::ComponentModel::__ReferenceConverter__ReferenceComparer::opera
   return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
 }
 constexpr ::System::ComponentModel::ReferenceConverter*& System::ComponentModel::__ReferenceConverter__ReferenceComparer::__get__converter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____converter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReferenceConverter*> const& System::ComponentModel::__ReferenceConverter__ReferenceComparer::__get__converter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____converter;
 }
 constexpr void System::ComponentModel::__ReferenceConverter__ReferenceComparer::__set__converter(::System::ComponentModel::ReferenceConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____converter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::ComponentModel::__ReferenceConverter__ReferenceComparer*
@@ -198,15 +198,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::ComponentModel::ReferenceConverter::__get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReferenceConverter::__get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
 constexpr void System::ComponentModel::ReferenceConverter::__set__type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::ComponentModel::ReferenceConverter::setStaticF_s_none(::StringW value) {

@@ -11,23 +11,23 @@ class DiContainer;
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-struct Guid;
+class Object;
 }
 namespace Zenject {
 class InjectContext;
 }
+namespace System {
+struct Guid;
+}
 namespace Zenject {
 class IValidatable;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

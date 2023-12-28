@@ -7,14 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedEnumerable_1)
+namespace System::Linq {
+template <typename TElement> class IOrderedEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Linq {
+template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
+}
+namespace System::Linq {
+template <typename TElement> class EnumerableSorter_1;
+}
 namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Linq {
-template <typename TElement> class EnumerableSorter_1;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -22,23 +34,11 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Linq {
-template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Linq {
-template <typename TElement> class IOrderedEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::Linq {

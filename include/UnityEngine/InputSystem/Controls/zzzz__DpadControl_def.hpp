@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DpadControl)
 namespace UnityEngine::InputSystem::Controls {
-class __DpadControl__DpadAxisControl;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 struct __DpadControl__ButtonBits;
 }
+namespace UnityEngine::InputSystem::Controls {
+class __DpadControl__DpadAxisControl;
+}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {

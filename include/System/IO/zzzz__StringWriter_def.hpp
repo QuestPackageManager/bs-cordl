@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringWriter)
 namespace System::Text {
-class Encoding;
+class StringBuilder;
 }
 namespace System::Text {
 class UnicodeEncoding;
 }
-namespace System {
-class IFormatProvider;
+namespace System::Text {
+class Encoding;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System::IO {

@@ -13,25 +13,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialSongController)
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class __TutorialSongController__TutorialObjectSpawnData;
 }
 namespace GlobalNamespace {
-class Signal;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
+class NoteData;
 }
 namespace GlobalNamespace {
 class __TutorialSongController__TutorialJumpingNoteSpawnData;
@@ -40,31 +28,43 @@ namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
-class __TutorialSongController__TutorialObstacleSpawnData;
+struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class __TutorialSongController__TutorialBasicNoteSpawnData;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class __TutorialSongController__TutorialObjectSpawnData;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class Signal;
 }
 namespace GlobalNamespace {
 class __TutorialSongController__InitData;
 }
 namespace GlobalNamespace {
+class __TutorialSongController__TutorialBasicNoteSpawnData;
+}
+namespace GlobalNamespace {
 class __TutorialSongController__TutorialBombNoteSpawnData;
 }
 namespace GlobalNamespace {
-class NoteData;
+class ObstacleController;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialObstacleSpawnData;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct ColorType;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -242,7 +242,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(5345))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5346))
 // CS Name: ::TutorialSongController::TutorialJumpingNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialJumpingNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData {
@@ -290,7 +290,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5346)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(5346))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5347))
 // CS Name: ::TutorialSongController::TutorialBasicNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBasicNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {

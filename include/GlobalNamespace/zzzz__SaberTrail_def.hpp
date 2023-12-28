@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberTrail)
-namespace GlobalNamespace {
-class TrailElementCollection;
-}
 namespace UnityEngine {
 struct Color;
 }
@@ -18,6 +15,9 @@ class SaberTrailRenderer;
 }
 namespace GlobalNamespace {
 class IBladeMovementData;
+}
+namespace GlobalNamespace {
+class TrailElementCollection;
 }
 namespace GlobalNamespace {
 struct BladeMovementDataElement;

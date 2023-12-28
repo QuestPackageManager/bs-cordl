@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlParserContext)
-namespace System::Text {
-class Encoding;
-}
 namespace System::Xml {
 struct XmlSpace;
 }
 namespace System::Xml {
-class XmlNameTable;
+class XmlNamespaceManager;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Xml {
-class XmlNamespaceManager;
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Xml::XmlParserContext);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11458))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11458)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11454))
 // CS Name: ::System.Xml::XmlParserContext*
 class CORDL_TYPE XmlParserContext : public ::System::Object {

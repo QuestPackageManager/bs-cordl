@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MaterialPropertyBlockController)
 namespace UnityEngine {
 class Renderer;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -132,39 +132,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__get_digest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digest;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__get_digest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digest;
 }
 constexpr void Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__set_digest(::Org::BouncyCastle::Crypto::IDigest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___digest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__get_u() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___u;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__get_u() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___u;
 }
 constexpr void Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__set_u(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___u = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__get_v() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__get_v() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
 constexpr void Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__set_v(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v = value;
 }
 inline ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator* Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {

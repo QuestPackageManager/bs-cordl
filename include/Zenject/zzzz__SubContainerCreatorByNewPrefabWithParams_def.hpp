@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabWithParams)
 namespace Zenject {
-class GameObjectCreationParameters;
+class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
 }
 namespace Zenject {
 class ISubContainerCreator;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
+struct TypeValuePair;
 }
 namespace Zenject {
 class IPrefabProvider;
 }
 namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
 class InjectContext;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
 class InjectableInfo;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/Net/zzzz__CookieCollection_def.hpp"
-#include "System/Net/zzzz__HeaderVariantInfo_def.hpp"
-#include "System/Net/zzzz__Cookie_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Net/zzzz__HeaderVariantInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/zzzz__CookieCollection_def.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/Net/zzzz__Cookie_def.hpp"
 //  Writing Method size for method: ::System::Net::CookieContainer._ctor
 template <>
 
@@ -193,75 +193,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Hashtable*& System::Net::CookieContainer::__get_m_domainTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_domainTable;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Net::CookieContainer::__get_m_domainTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_domainTable;
 }
 constexpr void System::Net::CookieContainer::__set_m_domainTable(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_domainTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::CookieContainer::__get_m_maxCookieSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCookieSize;
 }
 constexpr int32_t const& System::Net::CookieContainer::__get_m_maxCookieSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCookieSize;
 }
 constexpr void System::Net::CookieContainer::__set_m_maxCookieSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxCookieSize = value;
 }
 constexpr int32_t& System::Net::CookieContainer::__get_m_maxCookies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCookies;
 }
 constexpr int32_t const& System::Net::CookieContainer::__get_m_maxCookies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCookies;
 }
 constexpr void System::Net::CookieContainer::__set_m_maxCookies(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxCookies = value;
 }
 constexpr int32_t& System::Net::CookieContainer::__get_m_maxCookiesPerDomain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCookiesPerDomain;
 }
 constexpr int32_t const& System::Net::CookieContainer::__get_m_maxCookiesPerDomain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxCookiesPerDomain;
 }
 constexpr void System::Net::CookieContainer::__set_m_maxCookiesPerDomain(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxCookiesPerDomain = value;
 }
 constexpr int32_t& System::Net::CookieContainer::__get_m_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_count;
 }
 constexpr int32_t const& System::Net::CookieContainer::__get_m_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_count;
 }
 constexpr void System::Net::CookieContainer::__set_m_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_count = value;
 }
 constexpr ::StringW& System::Net::CookieContainer::__get_m_fqdnMyDomain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fqdnMyDomain;
 }
 constexpr ::StringW const& System::Net::CookieContainer::__get_m_fqdnMyDomain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fqdnMyDomain;
 }
 constexpr void System::Net::CookieContainer::__set_m_fqdnMyDomain(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fqdnMyDomain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::CookieContainer::setStaticF_HeaderInfo(::ArrayW<::System::Net::HeaderVariantInfo, ::Array<::System::Net::HeaderVariantInfo>*> value) {

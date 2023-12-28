@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexFC_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC._ctor
 template <>
 
@@ -110,39 +110,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Text::RegularExpressions::RegexCharClass*& System::Text::RegularExpressions::RegexFC::__get__cc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cc;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& System::Text::RegularExpressions::RegexFC::__get__cc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cc;
 }
 constexpr void System::Text::RegularExpressions::RegexFC::__set__cc(::System::Text::RegularExpressions::RegexCharClass* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Text::RegularExpressions::RegexFC::__get__nullable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullable;
 }
 constexpr bool const& System::Text::RegularExpressions::RegexFC::__get__nullable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullable;
 }
 constexpr void System::Text::RegularExpressions::RegexFC::__set__nullable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nullable = value;
 }
 constexpr bool& System::Text::RegularExpressions::RegexFC::__get__CaseInsensitive_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CaseInsensitive_k__BackingField;
 }
 constexpr bool const& System::Text::RegularExpressions::RegexFC::__get__CaseInsensitive_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CaseInsensitive_k__BackingField;
 }
 constexpr void System::Text::RegularExpressions::RegexFC::__set__CaseInsensitive_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CaseInsensitive_k__BackingField = value;
 }
 inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(bool nullable) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameState_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameState._ctor
 template <>
 
@@ -51,15 +51,15 @@ constexpr GlobalNamespace::GameState::operator ::System::IDisposable*() noexcept
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& GlobalNamespace::GameState::__get_fsm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fsm;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayServerFiniteStateMachine*> const& GlobalNamespace::GameState::__get_fsm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fsm;
 }
 constexpr void GlobalNamespace::GameState::__set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fsm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::GameState* GlobalNamespace::GameState::New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm) {

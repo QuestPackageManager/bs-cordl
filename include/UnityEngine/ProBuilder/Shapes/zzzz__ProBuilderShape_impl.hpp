@@ -5,12 +5,12 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__ProBuilderShape_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_shape
 template <>
 
@@ -395,111 +395,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Shapes::Shape*& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Shape() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Shape;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Shapes::Shape*> const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Shape() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Shape;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_Shape(::UnityEngine::ProBuilder::Shapes::Shape* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Shape)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Size;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Size;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_Size(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Size = value;
 }
 constexpr ::UnityEngine::Quaternion& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rotation;
 }
 constexpr ::UnityEngine::Quaternion const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Rotation;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_Rotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Rotation = value;
 }
 constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Mesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Mesh;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_Mesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Mesh;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_Mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::PivotLocation& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_PivotLocation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PivotLocation;
 }
 constexpr ::UnityEngine::ProBuilder::PivotLocation const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_PivotLocation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PivotLocation;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_PivotLocation(::UnityEngine::ProBuilder::PivotLocation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PivotLocation = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_PivotPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PivotPosition;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_PivotPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PivotPosition;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_PivotPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PivotPosition = value;
 }
 constexpr uint16_t& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_UnmodifiedMeshVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnmodifiedMeshVersion;
 }
 constexpr uint16_t const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_UnmodifiedMeshVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnmodifiedMeshVersion;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_UnmodifiedMeshVersion(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UnmodifiedMeshVersion = value;
 }
 constexpr ::UnityEngine::Bounds& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_EditionBounds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EditionBounds;
 }
 constexpr ::UnityEngine::Bounds const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_EditionBounds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EditionBounds;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_EditionBounds(::UnityEngine::Bounds value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EditionBounds = value;
 }
 constexpr ::UnityEngine::Bounds& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_ShapeBox() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShapeBox;
 }
 constexpr ::UnityEngine::Bounds const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__get_m_ShapeBox() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShapeBox;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__set_m_ShapeBox(::UnityEngine::Bounds value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShapeBox = value;
 }
 inline ::UnityEngine::ProBuilder::Shapes::Shape* UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shape() {

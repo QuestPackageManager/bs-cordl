@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
 CORDL_MODULE_EXPORT(TypedUxmlAttributeDescription_1)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

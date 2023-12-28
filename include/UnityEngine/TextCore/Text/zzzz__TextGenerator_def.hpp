@@ -25,65 +25,65 @@ CORDL_MODULE_EXPORT(TextGenerator)
 namespace UnityEngine::TextCore::Text {
 struct TextFontWeight;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::TextCore::Text {
 struct TextElementInfo;
-}
-namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct __TextGenerator__SpecialCharacter;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace UnityEngine {
-struct Color32;
+class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
 class TextElement;
 }
 namespace UnityEngine::TextCore::Text {
-struct RichTextTagAttribute;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::TextCore::Text {
-struct MaterialReference;
+struct __TextGenerator__SpecialCharacter;
 }
 namespace UnityEngine::TextCore::Text {
 struct XmlTagAttribute;
 }
 namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::TextCore::Text {
 struct WordWrapState;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
+struct MaterialReference;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::TextCore::Text {
+struct RichTextTagAttribute;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyles;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::TextCore::Text {
 class Character;
@@ -146,14 +146,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__T
 // SizeInfo { instance_size: 2648, native_size: -1, calculated_instance_size: 2648, calculated_native_size: 2644, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13705)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5143 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5144 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5142 }), TypeDefinitionIndex(TypeDefinitionIndex(13719)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 5141 }), TypeDefinitionIndex(TypeDefinitionIndex(13709)), TypeDefinitionIndex(TypeDefinitionIndex(13697)), TypeDefinitionIndex(TypeDefinitionIndex(13726)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(13723)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13690)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13694)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(13727)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13718))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13691)) CS Name: ::UnityEngine.TextCore.Text::TextGenerator*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13727)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13718)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5142 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 391 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13690)), TypeDefinitionIndex(TypeDefinitionIndex(13709)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5143 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5144 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5141 }), TypeDefinitionIndex(TypeDefinitionIndex(13677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13694)), TypeDefinitionIndex(TypeDefinitionIndex(13697)), TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(13726)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13723))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13691)) CS Name: ::UnityEngine.TextCore.Text::TextGenerator*
 class CORDL_TYPE TextGenerator : public ::System::Object {
 public:
   // Declarations

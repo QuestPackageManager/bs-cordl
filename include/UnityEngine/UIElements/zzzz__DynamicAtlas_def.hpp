@@ -14,44 +14,44 @@ CORDL_MODULE_EXPORT(DynamicAtlas)
 namespace UnityEngine {
 class Texture2D;
 }
+namespace UnityEngine {
+struct RectInt;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+struct FilterMode;
+}
 namespace UnityEngine::UIElements {
-class DynamicAtlasCustomFilter;
+class DynamicAtlasPage;
+}
+namespace UnityEngine::UIElements {
+struct DynamicAtlasFilters;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine::UIElements {
+class __DynamicAtlas__TextureInfo;
 }
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine::UIElements {
+class DynamicAtlasCustomFilter;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine {
-struct FilterMode;
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct DynamicAtlasFilters;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::UIElements {
-class __DynamicAtlas__TextureInfo;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine::UIElements {
 class IPanel;
-}
-namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine::UIElements {
-class DynamicAtlasPage;
-}
-namespace UnityEngine {
-struct TextureFormat;
 }
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class LinkedPool_1;
@@ -70,8 +70,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__DynamicAtlas__TextureInfo);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3981 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7413)), TypeDefinitionIndex(TypeDefinitionIndex(10162))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6761)) CS Name: ::DynamicAtlas::TextureInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3981 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(7399))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6761)) CS Name: ::DynamicAtlas::TextureInfo*
 class CORDL_TYPE __DynamicAtlas__TextureInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*> {
 public:
   // Declarations
@@ -165,7 +165,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Dynam
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6758)), TypeDefinitionIndex(TypeDefinitionIndex(10111)), TypeDefinitionIndex(TypeDefinitionIndex(6759))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6759)), TypeDefinitionIndex(TypeDefinitionIndex(6758)), TypeDefinitionIndex(TypeDefinitionIndex(10111))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6762))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlas*
 class CORDL_TYPE DynamicAtlas : public ::UnityEngine::UIElements::AtlasBase {

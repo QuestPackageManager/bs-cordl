@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreviewDifficultyBeatmap)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class BeatmapCharacteristicSO;
 }
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewDifficultyBeatmap);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4408))
 // CS Name: ::PreviewDifficultyBeatmap*
 class CORDL_TYPE PreviewDifficultyBeatmap : public ::System::Object {

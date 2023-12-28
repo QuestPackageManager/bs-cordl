@@ -10,19 +10,13 @@ namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
+class ILevelEndActions;
+}
+namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
-namespace GlobalNamespace {
 class __MissionLevelFailedController__InitData;
-}
-namespace GlobalNamespace {
-class GameSongController;
 }
 namespace GlobalNamespace {
 class __MissionLevelFailedController___LevelFailedCoroutine_d__13;
@@ -31,25 +25,31 @@ namespace GlobalNamespace {
 class LevelFailedTextEffect;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameSongController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class MissionCompletionResults;
 }
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-class MissionCompletionResults;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

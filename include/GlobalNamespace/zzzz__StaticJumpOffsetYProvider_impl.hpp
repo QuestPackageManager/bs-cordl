@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData._ctor
 template <>
 
@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__StaticJumpOffsetYProvider__InitData::__get_jumpyYOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpyYOffset;
 }
 constexpr float_t const& GlobalNamespace::__StaticJumpOffsetYProvider__InitData::__get_jumpyYOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpyYOffset;
 }
 constexpr void GlobalNamespace::__StaticJumpOffsetYProvider__InitData::__set_jumpyYOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___jumpyYOffset = value;
 }
 inline ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* GlobalNamespace::__StaticJumpOffsetYProvider__InitData::New_ctor(float_t jumpyYOffset) {
@@ -73,15 +73,15 @@ constexpr GlobalNamespace::StaticJumpOffsetYProvider::operator ::GlobalNamespace
   return static_cast<::GlobalNamespace::IJumpOffsetYProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*& GlobalNamespace::StaticJumpOffsetYProvider::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StaticJumpOffsetYProvider__InitData*> const& GlobalNamespace::StaticJumpOffsetYProvider::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::StaticJumpOffsetYProvider::__set__initData(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::StaticJumpOffsetYProvider::get_jumpOffsetY() {

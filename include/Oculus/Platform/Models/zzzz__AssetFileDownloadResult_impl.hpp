@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint64_t& Oculus::Platform::Models::AssetFileDownloadResult::__get_AssetId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetId;
 }
 constexpr uint64_t const& Oculus::Platform::Models::AssetFileDownloadResult::__get_AssetId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AssetId;
 }
 constexpr void Oculus::Platform::Models::AssetFileDownloadResult::__set_AssetId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AssetId = value;
 }
 constexpr ::StringW& Oculus::Platform::Models::AssetFileDownloadResult::__get_Filepath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Filepath;
 }
 constexpr ::StringW const& Oculus::Platform::Models::AssetFileDownloadResult::__get_Filepath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Filepath;
 }
 constexpr void Oculus::Platform::Models::AssetFileDownloadResult::__set_Filepath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Filepath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::Models::AssetFileDownloadResult* Oculus::Platform::Models::AssetFileDownloadResult::New_ctor(void* o) {

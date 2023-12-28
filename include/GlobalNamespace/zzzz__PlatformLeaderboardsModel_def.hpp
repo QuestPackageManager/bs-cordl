@@ -16,67 +16,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsModel)
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__State;
-}
-namespace GlobalNamespace {
 class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel___Initialize_d__19;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__UploadScoreResult;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__GetScoresResult;
 }
 namespace GlobalNamespace {
 class LeaderboardScoreUploader;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+class PlatformLeaderboardsHandler;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__GetScoresResult;
+}
+namespace GlobalNamespace {
+class UserInfo;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader__ScoreData;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class PlatformLeaderboardsHandler;
+class HMAsyncRequest;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__UploadScoreResult;
 }
 namespace GlobalNamespace {
 class IPlatformUserModel;
 }
 namespace GlobalNamespace {
-class UserInfo;
+class __PlatformLeaderboardsModel__LeaderboardScore;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__ScoresScope;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__State;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel___Initialize_d__19;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
@@ -88,13 +88,13 @@ namespace System {
 template <typename T> class IComparable_1;
 }
 namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BasicBeatmapEventData.get_previousSameTypeEventData
 template <>
 
@@ -155,51 +155,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::BasicBeatmapEventData::__get__sameTypeIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sameTypeIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::BasicBeatmapEventData::__get__sameTypeIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sameTypeIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::BasicBeatmapEventData::__set__sameTypeIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sameTypeIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::BasicBeatmapEventData::__get_basicBeatmapEventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEventType;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::BasicBeatmapEventData::__get_basicBeatmapEventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEventType;
 }
 constexpr void GlobalNamespace::BasicBeatmapEventData::__set_basicBeatmapEventType(::GlobalNamespace::BasicBeatmapEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___basicBeatmapEventType = value;
 }
 constexpr int32_t& GlobalNamespace::BasicBeatmapEventData::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr int32_t const& GlobalNamespace::BasicBeatmapEventData::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void GlobalNamespace::BasicBeatmapEventData::__set_value(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___value = value;
 }
 constexpr float_t& GlobalNamespace::BasicBeatmapEventData::__get_floatValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___floatValue;
 }
 constexpr float_t const& GlobalNamespace::BasicBeatmapEventData::__get_floatValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___floatValue;
 }
 constexpr void GlobalNamespace::BasicBeatmapEventData::__set_floatValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___floatValue = value;
 }
 inline void GlobalNamespace::BasicBeatmapEventData::setStaticF__defaultsForType(

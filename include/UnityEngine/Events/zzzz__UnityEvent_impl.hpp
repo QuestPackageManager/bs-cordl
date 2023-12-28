@@ -2,10 +2,10 @@
 #include "UnityEngine/Events/zzzz__UnityEventBase_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
-#include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Events::UnityEvent._ctor
 template <>
 
@@ -108,15 +108,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& UnityEngine::Events::UnityEvent::__get_m_InvokeArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InvokeArray;
 }
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& UnityEngine::Events::UnityEvent::__get_m_InvokeArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InvokeArray;
 }
 constexpr void UnityEngine::Events::UnityEvent::__set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InvokeArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Events::UnityEvent* UnityEngine::Events::UnityEvent::New_ctor() {

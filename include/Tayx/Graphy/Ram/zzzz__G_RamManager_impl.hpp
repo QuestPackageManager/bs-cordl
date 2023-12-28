@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamManager_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamText_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamText_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Ram::G_RamManager.Awake
 template <>
 
@@ -156,111 +156,111 @@ constexpr Tayx::Graphy::Ram::G_RamManager::operator ::Tayx::Graphy::UI::IModifia
   return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::GameObject*& Tayx::Graphy::Ram::G_RamManager::__get_m_ramGraphGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraphGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_ramGraphGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraphGameObject;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_ramGraphGameObject(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ramGraphGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*& Tayx::Graphy::Ram::G_RamManager::__get_m_backgroundImages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_backgroundImages;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_backgroundImages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_backgroundImages;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_backgroundImages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::GraphyManager*& Tayx::Graphy::Ram::G_RamManager::__get_m_graphyManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::GraphyManager*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_graphyManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyManager;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_graphyManager(::Tayx::Graphy::GraphyManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_graphyManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Ram::G_RamGraph*& Tayx::Graphy::Ram::G_RamManager::__get_m_ramGraph() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraph;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamGraph*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_ramGraph() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramGraph;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_ramGraph(::Tayx::Graphy::Ram::G_RamGraph* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ramGraph)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::Ram::G_RamText*& Tayx::Graphy::Ram::G_RamManager::__get_m_ramText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramText;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamText*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_ramText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramText;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_ramText(::Tayx::Graphy::Ram::G_RamText* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ramText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::RectTransform*& Tayx::Graphy::Ram::G_RamManager::__get_m_rectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_rectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_rectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_rectTransform;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_rectTransform(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_rectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& Tayx::Graphy::Ram::G_RamManager::__get_m_childrenGameObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_childrenGameObjects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> const& Tayx::Graphy::Ram::G_RamManager::__get_m_childrenGameObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_childrenGameObjects;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_childrenGameObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::Ram::G_RamManager::__get_m_previousModuleState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_previousModuleState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::Ram::G_RamManager::__get_m_previousModuleState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_previousModuleState;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_previousModuleState = value;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::Ram::G_RamManager::__get_m_currentModuleState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentModuleState;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::Ram::G_RamManager::__get_m_currentModuleState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentModuleState;
 }
 constexpr void Tayx::Graphy::Ram::G_RamManager::__set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentModuleState = value;
 }
 inline void Tayx::Graphy::Ram::G_RamManager::Awake() {

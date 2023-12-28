@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList_2)
-namespace GlobalNamespace {
-template <typename T> class ISortedListItemProcessor_1;
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
 template <typename T> class ISortedList_1;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedListItemProcessor_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

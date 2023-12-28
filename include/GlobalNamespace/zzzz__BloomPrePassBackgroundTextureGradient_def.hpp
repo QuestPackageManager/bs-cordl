@@ -7,16 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundTextureGradient)
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine {
 struct Color32;
@@ -25,7 +19,13 @@ namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

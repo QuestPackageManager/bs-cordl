@@ -2,17 +2,17 @@
 #include "System/Security/AccessControl/zzzz__AccessControlSections_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__ObjectSecurity_def.hpp"
-#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
-#include "System/Security/AccessControl/zzzz__AuthorizationRuleCollection_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
-#include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
-#include "System/Security/AccessControl/zzzz__CommonSecurityDescriptor_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
+#include "System/Security/AccessControl/zzzz__CommonSecurityDescriptor_def.hpp"
+#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Security/AccessControl/zzzz__AuthorizationRuleCollection_def.hpp"
+#include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterLock_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::ObjectSecurity._ctor
 template <>
 
@@ -180,39 +180,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::AccessControl::CommonSecurityDescriptor*& System::Security::AccessControl::ObjectSecurity::__get_descriptor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___descriptor;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::CommonSecurityDescriptor*> const& System::Security::AccessControl::ObjectSecurity::__get_descriptor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___descriptor;
 }
 constexpr void System::Security::AccessControl::ObjectSecurity::__set_descriptor(::System::Security::AccessControl::CommonSecurityDescriptor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___descriptor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::AccessControl::AccessControlSections& System::Security::AccessControl::ObjectSecurity::__get_sections_modified() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sections_modified;
 }
 constexpr ::System::Security::AccessControl::AccessControlSections const& System::Security::AccessControl::ObjectSecurity::__get_sections_modified() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sections_modified;
 }
 constexpr void System::Security::AccessControl::ObjectSecurity::__set_sections_modified(::System::Security::AccessControl::AccessControlSections value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sections_modified = value;
 }
 constexpr ::System::Threading::ReaderWriterLock*& System::Security::AccessControl::ObjectSecurity::__get_rw_lock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rw_lock;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& System::Security::AccessControl::ObjectSecurity::__get_rw_lock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rw_lock;
 }
 constexpr void System::Security::AccessControl::ObjectSecurity::__set_rw_lock(::System::Threading::ReaderWriterLock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rw_lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::AccessControl::ObjectSecurity* System::Security::AccessControl::ObjectSecurity::New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor) {

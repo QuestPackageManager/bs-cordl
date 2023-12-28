@@ -5,10 +5,10 @@
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "UnityEngine/zzzz__WaitUntil_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "UnityEngine/zzzz__WaitUntil_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__AudioTimeSyncController__InitData._ctor
 template <>
@@ -28,51 +28,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::__AudioTimeSyncController__InitData::__get_audioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::__AudioTimeSyncController__InitData::__get_audioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
 constexpr void GlobalNamespace::__AudioTimeSyncController__InitData::__set_audioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__AudioTimeSyncController__InitData::__get_startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr float_t const& GlobalNamespace::__AudioTimeSyncController__InitData::__get_startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
 constexpr void GlobalNamespace::__AudioTimeSyncController__InitData::__set_startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::__AudioTimeSyncController__InitData::__get_songTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::__AudioTimeSyncController__InitData::__get_songTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
 constexpr void GlobalNamespace::__AudioTimeSyncController__InitData::__set_songTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songTimeOffset = value;
 }
 constexpr float_t& GlobalNamespace::__AudioTimeSyncController__InitData::__get_timeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
 constexpr float_t const& GlobalNamespace::__AudioTimeSyncController__InitData::__get_timeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
 constexpr void GlobalNamespace::__AudioTimeSyncController__InitData::__set_timeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeScale = value;
 }
 inline ::GlobalNamespace::__AudioTimeSyncController__InitData* GlobalNamespace::__AudioTimeSyncController__InitData::New_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime,
@@ -476,291 +476,291 @@ constexpr GlobalNamespace::AudioTimeSyncController::operator ::GlobalNamespace::
   return static_cast<::GlobalNamespace::IAudioTimeSource*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__audioSyncLerpSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSyncLerpSpeed;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__audioSyncLerpSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSyncLerpSpeed;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__audioSyncLerpSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioSyncLerpSpeed = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__forcedSyncDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forcedSyncDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__forcedSyncDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forcedSyncDeltaTime;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__forcedSyncDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forcedSyncDeltaTime = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__startSyncDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSyncDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__startSyncDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSyncDeltaTime;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__startSyncDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startSyncDeltaTime = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__stopSyncDeltaTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopSyncDeltaTime;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__stopSyncDeltaTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopSyncDeltaTime;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__stopSyncDeltaTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stopSyncDeltaTime = value;
 }
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::AudioTimeSyncController::__get__audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::AudioTimeSyncController::__get__audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FloatSO*& GlobalNamespace::AudioTimeSyncController::__get__audioLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& GlobalNamespace::AudioTimeSyncController::__get__audioLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioLatency;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__audioLatency(::GlobalNamespace::FloatSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioLatency)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__AudioTimeSyncController__InitData*& GlobalNamespace::AudioTimeSyncController::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AudioTimeSyncController__InitData*> const& GlobalNamespace::AudioTimeSyncController::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__initData(::GlobalNamespace::__AudioTimeSyncController__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::AudioTimeSyncController::__get_forcedNoAudioSync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forcedNoAudioSync;
 }
 constexpr bool const& GlobalNamespace::AudioTimeSyncController::__get_forcedNoAudioSync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forcedNoAudioSync;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set_forcedNoAudioSync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forcedNoAudioSync = value;
 }
 constexpr ::System::Action*& GlobalNamespace::AudioTimeSyncController::__get_stateChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::AudioTimeSyncController::__get_stateChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateChangedEvent;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set_stateChangedEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stateChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::AudioTimeSyncController::__get__fixingAudioSyncError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixingAudioSyncError;
 }
 constexpr bool const& GlobalNamespace::AudioTimeSyncController::__get__fixingAudioSyncError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixingAudioSyncError;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__fixingAudioSyncError(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fixingAudioSyncError = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__audioStartTimeOffsetSinceStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioStartTimeOffsetSinceStart;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__audioStartTimeOffsetSinceStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioStartTimeOffsetSinceStart;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__audioStartTimeOffsetSinceStart(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioStartTimeOffsetSinceStart = value;
 }
 constexpr int32_t& GlobalNamespace::AudioTimeSyncController::__get__playbackLoopIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playbackLoopIndex;
 }
 constexpr int32_t const& GlobalNamespace::AudioTimeSyncController::__get__playbackLoopIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playbackLoopIndex;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__playbackLoopIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playbackLoopIndex = value;
 }
 constexpr int32_t& GlobalNamespace::AudioTimeSyncController::__get__prevAudioSamplePos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevAudioSamplePos;
 }
 constexpr int32_t const& GlobalNamespace::AudioTimeSyncController::__get__prevAudioSamplePos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevAudioSamplePos;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__prevAudioSamplePos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevAudioSamplePos = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__startSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongTime;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__startSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startSongTime;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__startSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startSongTime = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__songTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__songTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeOffset;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__songTimeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTimeOffset = value;
 }
 constexpr bool& GlobalNamespace::AudioTimeSyncController::__get__audioStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioStarted;
 }
 constexpr bool const& GlobalNamespace::AudioTimeSyncController::__get__audioStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioStarted;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__audioStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____audioStarted = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__timeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeScale;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__timeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeScale;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__timeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeScale = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__songTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__songTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__songTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTime = value;
 }
 constexpr double_t& GlobalNamespace::AudioTimeSyncController::__get__dspTimeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dspTimeOffset;
 }
 constexpr double_t const& GlobalNamespace::AudioTimeSyncController::__get__dspTimeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dspTimeOffset;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__dspTimeOffset(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dspTimeOffset = value;
 }
 constexpr ::GlobalNamespace::__AudioTimeSyncController__State& GlobalNamespace::AudioTimeSyncController::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr ::GlobalNamespace::__AudioTimeSyncController__State const& GlobalNamespace::AudioTimeSyncController::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__state(::GlobalNamespace::__AudioTimeSyncController__State value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
 constexpr bool& GlobalNamespace::AudioTimeSyncController::__get__canStartSong() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canStartSong;
 }
 constexpr bool const& GlobalNamespace::AudioTimeSyncController::__get__canStartSong() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____canStartSong;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__canStartSong(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____canStartSong = value;
 }
 constexpr bool& GlobalNamespace::AudioTimeSyncController::__get__isReady() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReady;
 }
 constexpr bool const& GlobalNamespace::AudioTimeSyncController::__get__isReady() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReady;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__isReady(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isReady = value;
 }
 constexpr float_t& GlobalNamespace::AudioTimeSyncController::__get__lastFrameDeltaSongTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameDeltaSongTime;
 }
 constexpr float_t const& GlobalNamespace::AudioTimeSyncController::__get__lastFrameDeltaSongTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameDeltaSongTime;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__lastFrameDeltaSongTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameDeltaSongTime = value;
 }
 constexpr bool& GlobalNamespace::AudioTimeSyncController::__get__forceNoAudioSyncOrAudioSyncErrorFixing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceNoAudioSyncOrAudioSyncErrorFixing;
 }
 constexpr bool const& GlobalNamespace::AudioTimeSyncController::__get__forceNoAudioSyncOrAudioSyncErrorFixing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceNoAudioSyncOrAudioSyncErrorFixing;
 }
 constexpr void GlobalNamespace::AudioTimeSyncController::__set__forceNoAudioSyncOrAudioSyncErrorFixing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceNoAudioSyncOrAudioSyncErrorFixing = value;
 }
 inline ::GlobalNamespace::__AudioTimeSyncController__State GlobalNamespace::AudioTimeSyncController::get_state() {

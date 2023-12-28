@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HIDParser_def.hpp"
-#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HIDParser_def.hpp"
+#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData.FindOrAddReport

@@ -3,12 +3,12 @@
 #include "System/Security/AccessControl/zzzz__AceType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
-#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Security/AccessControl/zzzz__AuditFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceType_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__AuditFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::GenericAce._ctor
 template <>
 
@@ -313,27 +313,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::AccessControl::AceFlags& System::Security::AccessControl::GenericAce::__get_ace_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ace_flags;
 }
 constexpr ::System::Security::AccessControl::AceFlags const& System::Security::AccessControl::GenericAce::__get_ace_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ace_flags;
 }
 constexpr void System::Security::AccessControl::GenericAce::__set_ace_flags(::System::Security::AccessControl::AceFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ace_flags = value;
 }
 constexpr ::System::Security::AccessControl::AceType& System::Security::AccessControl::GenericAce::__get_ace_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ace_type;
 }
 constexpr ::System::Security::AccessControl::AceType const& System::Security::AccessControl::GenericAce::__get_ace_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ace_type;
 }
 constexpr void System::Security::AccessControl::GenericAce::__set_ace_type(::System::Security::AccessControl::AceType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ace_type = value;
 }
 inline ::System::Security::AccessControl::GenericAce* System::Security::AccessControl::GenericAce::New_ctor(::System::Security::AccessControl::AceType type,

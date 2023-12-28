@@ -10,23 +10,23 @@ class Object;
 namespace System {
 class Type;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class DiContainer;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

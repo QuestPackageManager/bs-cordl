@@ -2,13 +2,13 @@
 #include "System/Net/Security/zzzz__SslPolicyErrors_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 //  Writing Method size for method: ::System::Net::__ServerCertValidationCallback__CallbackContext._ctor
 template <>
 
@@ -29,64 +29,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Net::__ServerCertValidationCallback__CallbackContext::__get_request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::__ServerCertValidationCallback__CallbackContext::__get_request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr void System::Net::__ServerCertValidationCallback__CallbackContext::__set_request(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& System::Net::__ServerCertValidationCallback__CallbackContext::__get_certificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const&
 System::Net::__ServerCertValidationCallback__CallbackContext::__get_certificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
 constexpr void System::Net::__ServerCertValidationCallback__CallbackContext::__set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Chain*& System::Net::__ServerCertValidationCallback__CallbackContext::__get_chain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chain;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Chain*> const& System::Net::__ServerCertValidationCallback__CallbackContext::__get_chain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chain;
 }
 constexpr void System::Net::__ServerCertValidationCallback__CallbackContext::__set_chain(::System::Security::Cryptography::X509Certificates::X509Chain* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Security::SslPolicyErrors& System::Net::__ServerCertValidationCallback__CallbackContext::__get_sslPolicyErrors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslPolicyErrors;
 }
 constexpr ::System::Net::Security::SslPolicyErrors const& System::Net::__ServerCertValidationCallback__CallbackContext::__get_sslPolicyErrors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslPolicyErrors;
 }
 constexpr void System::Net::__ServerCertValidationCallback__CallbackContext::__set_sslPolicyErrors(::System::Net::Security::SslPolicyErrors value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sslPolicyErrors = value;
 }
 constexpr bool& System::Net::__ServerCertValidationCallback__CallbackContext::__get_result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 constexpr bool const& System::Net::__ServerCertValidationCallback__CallbackContext::__get_result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 constexpr void System::Net::__ServerCertValidationCallback__CallbackContext::__set_result(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___result = value;
 }
 inline ::System::Net::__ServerCertValidationCallback__CallbackContext*
@@ -171,27 +171,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& System::Net::ServerCertValidationCallback::__get_m_ValidationCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValidationCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& System::Net::ServerCertValidationCallback::__get_m_ValidationCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValidationCallback;
 }
 constexpr void System::Net::ServerCertValidationCallback::__set_m_ValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ValidationCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ExecutionContext*& System::Net::ServerCertValidationCallback::__get_m_Context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Net::ServerCertValidationCallback::__get_m_Context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
 constexpr void System::Net::ServerCertValidationCallback::__set_m_Context(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::ServerCertValidationCallback* System::Net::ServerCertValidationCallback::New_ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {

@@ -2,17 +2,17 @@
 #include "System/Security/Permissions/zzzz__PermissionState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__PermissionSet_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Security/zzzz__SecurityElement_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 #include "System/Security/zzzz__ISecurityEncodable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 //  Writing Method size for method: ::System::Security::PermissionSet._ctor
 template <>
 
@@ -268,51 +268,51 @@ constexpr System::Security::PermissionSet::operator ::System::Runtime::Serializa
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Permissions::PermissionState& System::Security::PermissionSet::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr ::System::Security::Permissions::PermissionState const& System::Security::PermissionSet::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 constexpr void System::Security::PermissionSet::__set_state(::System::Security::Permissions::PermissionState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___state = value;
 }
 constexpr ::System::Collections::ArrayList*& System::Security::PermissionSet::__get_list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::PermissionSet::__get_list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr void System::Security::PermissionSet::__set_list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Security::PermissionSet::__get__declsec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declsec;
 }
 constexpr bool const& System::Security::PermissionSet::__get__declsec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declsec;
 }
 constexpr void System::Security::PermissionSet::__set__declsec(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____declsec = value;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& System::Security::PermissionSet::__get__ignored() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignored;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& System::Security::PermissionSet::__get__ignored() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignored;
 }
 constexpr void System::Security::PermissionSet::__set__ignored(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ignored)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::PermissionSet::setStaticF_psUnrestricted(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {

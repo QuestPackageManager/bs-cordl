@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectManager)
+namespace System::Reflection {
+class FieldInfo;
+}
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
 }
@@ -16,37 +19,34 @@ namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-class ObjectHolder;
-}
-namespace System::Runtime::Serialization {
 class DeserializationEventHandler;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
-namespace System::Reflection {
-class FieldInfo;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ObjectHolderList;
+}
+namespace System::Runtime::Serialization {
+class FixupHolder;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class RuntimeType;
+class ObjectHolder;
 }
 namespace System::Reflection {
 class RuntimeConstructorInfo;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class RuntimeType;
 }
 namespace System::Runtime::Serialization {
-class FixupHolder;
-}
-namespace System::Runtime::Serialization {
-class ObjectHolderList;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

@@ -3,8 +3,8 @@
 #include "System/Resources/zzzz__ManifestBasedResourceGroveler_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Resources/zzzz__UltimateResourceFallbackLocation_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Resources/zzzz__IResourceGroveler_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Resources/zzzz__ResourceManager_def.hpp"
 //  Writing Method size for method: ::System::Resources::ManifestBasedResourceGroveler._ctor
 template <>
@@ -60,15 +60,15 @@ constexpr System::Resources::ManifestBasedResourceGroveler::operator ::System::R
   return static_cast<::System::Resources::IResourceGroveler*>(static_cast<void*>(this));
 }
 constexpr ::System::Resources::__ResourceManager__ResourceManagerMediator*& System::Resources::ManifestBasedResourceGroveler::__get__mediator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mediator;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__ResourceManagerMediator*> const& System::Resources::ManifestBasedResourceGroveler::__get__mediator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mediator;
 }
 constexpr void System::Resources::ManifestBasedResourceGroveler::__set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mediator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Resources::ManifestBasedResourceGroveler* System::Resources::ManifestBasedResourceGroveler::New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator) {

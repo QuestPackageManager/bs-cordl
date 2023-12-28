@@ -5,20 +5,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffect_def.hpp"
-#include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffect_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__TickableManager_def.hpp"
-#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffect_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
+#include "Zenject/zzzz__TickableManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 #include "GlobalNamespace/zzzz__PauseController_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior._ctor
 template <>
@@ -93,83 +93,83 @@ constexpr GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBe
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__audioTimeSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__audioTimeSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__beatmapCallbacksController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__beatmapCallbacksController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>*&
 GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__particleSystemEventControllerPoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEventControllerPoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__particleSystemEventControllerPoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEventControllerPoolContainer;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__set__particleSystemEventControllerPoolContainer(
     ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystemEventControllerPoolContainer)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__particleSystemParentTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemParentTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__particleSystemParentTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemParentTransform;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__set__particleSystemParentTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystemParentTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__particleSystemMaxSpawnedSystems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemMaxSpawnedSystems;
 }
 constexpr int32_t const& GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__particleSystemMaxSpawnedSystems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemMaxSpawnedSystems;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__set__particleSystemMaxSpawnedSystems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____particleSystemMaxSpawnedSystems = value;
 }
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__beatmapDataCallbackWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__beatmapDataCallbackWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*
@@ -274,16 +274,16 @@ constexpr GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticl
   return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::TickableManager*& GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::__get__tickableManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickableManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::__get__tickableManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickableManager;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::__set__tickableManager(::Zenject::TickableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tickableManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior* GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::New_ctor(
@@ -410,29 +410,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::GlobalNamespace::PauseController*& GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__get__pauseController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pauseController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PauseController*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__get__pauseController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pauseController;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__set__pauseController(::GlobalNamespace::PauseController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pauseController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SongSpeedData*& GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__get__songSpeedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeedData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongSpeedData*> const&
 GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__get__songSpeedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeedData;
 }
 constexpr void GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__set__songSpeedData(::GlobalNamespace::SongSpeedData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songSpeedData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior* GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::New_ctor(
@@ -527,76 +527,76 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::ParticleSystemEmitEventEffect::__get__beatmapEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEvent;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::ParticleSystemEmitEventEffect::__get__beatmapEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEvent;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffect::__set__beatmapEvent(::GlobalNamespace::BasicBeatmapEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapEvent = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::ParticleSystemEmitEventEffect::__get__particleSystemParentTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemParentTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::ParticleSystemEmitEventEffect::__get__particleSystemParentTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemParentTransform;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffect::__set__particleSystemParentTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystemParentTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::ParticleSystemEmitEventEffect::__get__particleSystemMaxSpawnedSystems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemMaxSpawnedSystems;
 }
 constexpr int32_t const& GlobalNamespace::ParticleSystemEmitEventEffect::__get__particleSystemMaxSpawnedSystems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemMaxSpawnedSystems;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffect::__set__particleSystemMaxSpawnedSystems(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____particleSystemMaxSpawnedSystems = value;
 }
 constexpr ::GlobalNamespace::EnvironmentContext& GlobalNamespace::ParticleSystemEmitEventEffect::__get__environmentContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentContext;
 }
 constexpr ::GlobalNamespace::EnvironmentContext const& GlobalNamespace::ParticleSystemEmitEventEffect::__get__environmentContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentContext;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffect::__set__environmentContext(::GlobalNamespace::EnvironmentContext value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentContext = value;
 }
 constexpr ::Zenject::DiContainer*& GlobalNamespace::ParticleSystemEmitEventEffect::__get__diContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____diContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::ParticleSystemEmitEventEffect::__get__diContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____diContainer;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffect::__set__diContainer(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____diContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*& GlobalNamespace::ParticleSystemEmitEventEffect::__get__particleSystemEmitBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEmitBehavior;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*> const&
 GlobalNamespace::ParticleSystemEmitEventEffect::__get__particleSystemEmitBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystemEmitBehavior;
 }
 constexpr void GlobalNamespace::ParticleSystemEmitEventEffect::__set__particleSystemEmitBehavior(::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystemEmitBehavior)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ParticleSystemEmitEventEffect::Start() {

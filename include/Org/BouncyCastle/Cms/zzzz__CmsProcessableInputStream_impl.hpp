@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableInputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsProcessableInputStream._ctor
 template <>
 
@@ -93,27 +93,27 @@ constexpr Org::BouncyCastle::Cms::CmsProcessableInputStream::operator ::Org::Bou
   return static_cast<::Org::BouncyCastle::Cms::CmsReadable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Cms::CmsProcessableInputStream::__get_input() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Cms::CmsProcessableInputStream::__get_input() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
 constexpr void Org::BouncyCastle::Cms::CmsProcessableInputStream::__set_input(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___input)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Cms::CmsProcessableInputStream::__get_used() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___used;
 }
 constexpr bool const& Org::BouncyCastle::Cms::CmsProcessableInputStream::__get_used() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___used;
 }
 constexpr void Org::BouncyCastle::Cms::CmsProcessableInputStream::__set_used(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___used = value;
 }
 inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* Org::BouncyCastle::Cms::CmsProcessableInputStream::New_ctor(::System::IO::Stream* input) {

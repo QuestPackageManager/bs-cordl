@@ -11,10 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeSpanFormat)
 namespace System {
-struct TimeSpan;
-}
-namespace System::Text {
-class StringBuilder;
+class IFormatProvider;
 }
 namespace System::Globalization {
 class DateTimeFormatInfo;
@@ -23,13 +20,16 @@ namespace System::Globalization {
 struct __TimeSpanFormat__Pattern;
 }
 namespace System {
-class IFormatProvider;
+template <typename T> struct Span_1;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System::Globalization {
 struct __TimeSpanFormat__FormatLiterals;
-}
-namespace System {
-template <typename T> struct Span_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;

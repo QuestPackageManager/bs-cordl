@@ -15,22 +15,22 @@ namespace System {
 struct __Number__NumberBuffer;
 }
 namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::Text {
-struct ValueStringBuilder;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-struct Decimal;
+template <typename T> struct Span_1;
 }
 namespace System {
 class IFormatProvider;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
 namespace System::Globalization {
 struct NumberStyles;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Text {
+struct ValueStringBuilder;
 }
 namespace System::Globalization {
 class NumberFormatInfo;

@@ -7,29 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs12Store)
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Pkcs {
-class X509CertificateEntry;
-}
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace System {
-class Type;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Pkcs {
 class __Pkcs12Store__IgnoresCaseHashtable;
 }
+namespace System::Collections {
+class IDictionary;
+}
 namespace Org::BouncyCastle::Pkcs {
 class __Pkcs12Store__CertId;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -37,17 +28,26 @@ class IEnumerable;
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptedPrivateKeyInfo;
 }
+namespace Org::BouncyCastle::Pkcs {
+class AsymmetricKeyEntry;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Pkcs {
+class X509CertificateEntry;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Pkcs {
-class AsymmetricKeyEntry;
+namespace System {
+class Type;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectKeyIdentifier;

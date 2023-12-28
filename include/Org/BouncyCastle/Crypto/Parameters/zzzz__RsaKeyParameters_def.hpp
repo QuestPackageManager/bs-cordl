@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaKeyParameters)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

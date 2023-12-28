@@ -4,9 +4,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpLeapIndicator_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NtpMode_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NtpMode_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::NtpPacket.get_Bytes
 template <>
@@ -522,27 +522,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& LiteNetLib::Utils::NtpPacket::__get__Bytes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Bytes_k__BackingField;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& LiteNetLib::Utils::NtpPacket::__get__Bytes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Bytes_k__BackingField;
 }
 constexpr void LiteNetLib::Utils::NtpPacket::__set__Bytes_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Bytes_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::System::DateTime>& LiteNetLib::Utils::NtpPacket::__get__DestinationTimestamp_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DestinationTimestamp_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::DateTime> const& LiteNetLib::Utils::NtpPacket::__get__DestinationTimestamp_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DestinationTimestamp_k__BackingField;
 }
 constexpr void LiteNetLib::Utils::NtpPacket::__set__DestinationTimestamp_k__BackingField(::System::Nullable_1<::System::DateTime> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DestinationTimestamp_k__BackingField = value;
 }
 inline void LiteNetLib::Utils::NtpPacket::setStaticF_Epoch(::System::DateTime value) {

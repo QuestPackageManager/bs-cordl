@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(JsonWriterException)
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Exception;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;

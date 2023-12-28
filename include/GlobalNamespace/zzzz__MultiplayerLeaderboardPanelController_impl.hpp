@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelItem_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLeaderboardPanelController.Start
 template <>
 
@@ -47,29 +47,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*>&
 GlobalNamespace::MultiplayerLeaderboardPanelController::__get__items() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 constexpr ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*> const&
 GlobalNamespace::MultiplayerLeaderboardPanelController::__get__items() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
 constexpr void GlobalNamespace::MultiplayerLeaderboardPanelController::__set__items(
     ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*, ::Array<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerScoreProvider*& GlobalNamespace::MultiplayerLeaderboardPanelController::__get__scoreProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& GlobalNamespace::MultiplayerLeaderboardPanelController::__get__scoreProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreProvider;
 }
 constexpr void GlobalNamespace::MultiplayerLeaderboardPanelController::__set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerLeaderboardPanelController::Start() {

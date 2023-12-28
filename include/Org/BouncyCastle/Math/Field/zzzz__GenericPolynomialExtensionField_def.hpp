@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(GenericPolynomialExtensionField)
 namespace Org::BouncyCastle::Math::Field {
 class IExtensionField;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IPolynomialExtensionField;
-}
-namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
+class IPolynomialExtensionField;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {

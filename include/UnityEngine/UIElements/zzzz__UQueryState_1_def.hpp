@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryState_1)
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct RuleMatcher;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
-struct RuleMatcher;
+class VisualElement;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements {
-template <typename T> class __UQueryState_1__ActionQueryMatcher;
-}
-namespace UnityEngine::UIElements {
-class __UQuery__SingleQueryMatcher;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct __UQueryState_1__Enumerator;
+template <typename T, typename TElement> class __UQueryState_1__ListQueryMatcher_1;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class __UQueryState_1__ActionQueryMatcher;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T, typename TElement> class __UQueryState_1__ListQueryMatcher_1;
+template <typename T> struct __UQueryState_1__Enumerator;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::UIElements {
+class __UQuery__SingleQueryMatcher;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System {
 class IDisposable;

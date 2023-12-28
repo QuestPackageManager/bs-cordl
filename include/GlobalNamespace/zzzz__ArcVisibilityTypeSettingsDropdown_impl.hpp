@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ArcVisibilityType_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityTypeSettingsDropdown_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown.GetNamedValues
 template <>
 

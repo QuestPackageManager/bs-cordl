@@ -19,39 +19,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::Runtime::Serialization::FixupHolder::__get_m_id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_id;
 }
 constexpr int64_t const& System::Runtime::Serialization::FixupHolder::__get_m_id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_id;
 }
 constexpr void System::Runtime::Serialization::FixupHolder::__set_m_id(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_id = value;
 }
 constexpr ::System::Object*& System::Runtime::Serialization::FixupHolder::__get_m_fixupInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fixupInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::FixupHolder::__get_m_fixupInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fixupInfo;
 }
 constexpr void System::Runtime::Serialization::FixupHolder::__set_m_fixupInfo(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fixupInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Runtime::Serialization::FixupHolder::__get_m_fixupType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fixupType;
 }
 constexpr int32_t const& System::Runtime::Serialization::FixupHolder::__get_m_fixupType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fixupType;
 }
 constexpr void System::Runtime::Serialization::FixupHolder::__set_m_fixupType(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fixupType = value;
 }
 inline ::System::Runtime::Serialization::FixupHolder* System::Runtime::Serialization::FixupHolder::New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType) {

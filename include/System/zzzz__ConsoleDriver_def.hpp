@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleDriver)
 namespace System {
-class IConsoleDriver;
+struct ConsoleKeyInfo;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {

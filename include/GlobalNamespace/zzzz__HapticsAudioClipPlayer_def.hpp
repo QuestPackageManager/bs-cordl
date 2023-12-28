@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HapticsAudioClipPlayer)
 namespace GlobalNamespace {
-class __HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class AudioSource;
+class __HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
-namespace GlobalNamespace {
-class __HapticsAudioClipPlayer__Pool;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
-class __HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
+class __HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace GlobalNamespace {
+class __HapticsAudioClipPlayer__Pool;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -35,14 +35,14 @@ class IEnumerator;
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class WaitForEndOfFrame;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class WaitForEndOfFrame;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -191,8 +191,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HapticsAudioCli
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 315 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14424))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14421)) CS Name: ::HapticsAudioClipPlayer::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 315 }), TypeDefinitionIndex(TypeDefinitionIndex(14424)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11038))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14421)) CS Name: ::HapticsAudioClipPlayer::Pool*
 class CORDL_TYPE __HapticsAudioClipPlayer__Pool : public ::Zenject::MemoryPool_1<::GlobalNamespace::HapticsAudioClipPlayer*> {
 public:
   // Declarations

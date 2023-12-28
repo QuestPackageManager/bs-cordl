@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(Test_MeshFilter_Extensions)
 namespace UnityEngine {
 class MeshFilter;
 }
-namespace HoudiniEngineUnity {
-class __Test_MeshFilter_Extensions____c;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class __Test_MeshFilter_Extensions____c;
 }
 namespace HoudiniEngineUnity {
 class Test_MeshFilter;

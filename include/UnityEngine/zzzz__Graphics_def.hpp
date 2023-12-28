@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Graphics)
 namespace UnityEngine::Rendering {
-struct GraphicsTier;
-}
-namespace UnityEngine {
-struct CubemapFace;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-struct RenderBuffer;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine::Rendering {
 struct ShadowCastingMode;
-}
-namespace UnityEngine {
-class LightProbeProxyVolume;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
+class LightProbeProxyVolume;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::Rendering {
+struct GraphicsTier;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+struct RenderBuffer;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine::Rendering {
 struct LightProbeUsage;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+struct CubemapFace;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine {

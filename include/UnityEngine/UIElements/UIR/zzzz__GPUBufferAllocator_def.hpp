@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GPUBufferAllocator)
 namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+class BestFitAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-class BestFitAllocator;
+struct Alloc;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

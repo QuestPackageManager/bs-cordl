@@ -11,19 +11,19 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataSO_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0._ctor
 template <>
@@ -54,27 +54,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IBeatmapDataBasicInfo*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::__get_beatmapDataBasicInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapDataBasicInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataBasicInfo*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::__get_beatmapDataBasicInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapDataBasicInfo;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::__set_beatmapDataBasicInfo(::GlobalNamespace::IBeatmapDataBasicInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapDataBasicInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::__get_beatmapSaveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::__get_beatmapSaveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::__set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapSaveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0* GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0::New_ctor() {
@@ -185,87 +185,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_readonlyBeatmapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readonlyBeatmapData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_readonlyBeatmapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readonlyBeatmapData;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_readonlyBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readonlyBeatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_beatmapSaveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_beatmapSaveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapSaveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_beatmapDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapDifficulty;
 }
 constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_beatmapDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapDifficulty;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapDifficulty = value;
 }
 constexpr float_t& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_beatsPerMinute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatsPerMinute;
 }
 constexpr float_t const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_beatsPerMinute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatsPerMinute;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_beatsPerMinute(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatsPerMinute = value;
 }
 constexpr bool& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_loadingForDesignatedEnvironment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadingForDesignatedEnvironment;
 }
 constexpr bool const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_loadingForDesignatedEnvironment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___loadingForDesignatedEnvironment;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_loadingForDesignatedEnvironment(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loadingForDesignatedEnvironment = value;
 }
 constexpr ::GlobalNamespace::EnvironmentInfoSO*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_environmentInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_environmentInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentInfo;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_playerSpecificSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSpecificSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__get_playerSpecificSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSpecificSettings;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::__set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerSpecificSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0* GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0::New_ctor() {
@@ -385,27 +385,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::__get_beatmapSaveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::__get_beatmapSaveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::__set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapSaveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDataSO*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataSO*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::__set___4__this(::GlobalNamespace::BeatmapDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0* GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0::New_ctor() {
@@ -513,15 +513,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0::__get_action() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___action;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0::__get_action() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___action;
 }
 constexpr void GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0::__set_action(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0* GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0::New_ctor() {
@@ -730,39 +730,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::BeatmapDataSO::__get__jsonData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jsonData;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapDataSO::__get__jsonData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jsonData;
 }
 constexpr void GlobalNamespace::BeatmapDataSO::__set__jsonData(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jsonData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::BeatmapDataSO::__get__compressedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compressedData;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::BeatmapDataSO::__get__compressedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compressedData;
 }
 constexpr void GlobalNamespace::BeatmapDataSO::__set__compressedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____compressedData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IBeatmapDataBasicInfo*& GlobalNamespace::BeatmapDataSO::__get__beatmapDataBasic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataBasic;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataBasicInfo*> const& GlobalNamespace::BeatmapDataSO::__get__beatmapDataBasic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataBasic;
 }
 constexpr void GlobalNamespace::BeatmapDataSO::__set__beatmapDataBasic(::GlobalNamespace::IBeatmapDataBasicInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataBasic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::BeatmapDataSO::get_data() {

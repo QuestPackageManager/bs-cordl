@@ -11,20 +11,20 @@ CORDL_MODULE_EXPORT(PlayerStatisticsViewController)
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace GlobalNamespace {
-struct __PlayerStatisticsViewController__StatsScopeData;
+namespace HMUI {
+class SegmentedControl;
 }
 namespace HMUI {
 class TextSegmentedControl;
 }
 namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace HMUI {
-class SegmentedControl;
+struct __PlayerStatisticsViewController__StatsScopeData;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
 }
 namespace GlobalNamespace {
 class __PlayerAllOverallStatsData__PlayerOverallStatsData;

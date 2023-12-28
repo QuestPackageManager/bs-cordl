@@ -12,22 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionSelectionMapViewController)
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class MissionNode;
 }
 namespace GlobalNamespace {
 class MissionNodeVisualController;
 }
 namespace GlobalNamespace {
-class MissionNodeSelectionManager;
-}
-namespace GlobalNamespace {
-class MissionNode;
+class IPreviewBeatmapLevel;
 }
 namespace System {
 class Action;
@@ -36,31 +27,40 @@ namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
-class AudioClipAsyncLoader;
-}
-namespace GlobalNamespace {
-class __MissionSelectionMapViewController____c__DisplayClass15_0;
+struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
 }
 namespace HMUI {
 class ScrollView;
 }
 namespace GlobalNamespace {
-struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
-}
-namespace GlobalNamespace {
 class MissionMapAnimationController;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class PerceivedLoudnessPerLevelModel;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class __MissionSelectionMapViewController____c__DisplayClass15_0;
+}
+namespace GlobalNamespace {
+class MissionNodeSelectionManager;
+}
+namespace GlobalNamespace {
+class AudioClipAsyncLoader;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

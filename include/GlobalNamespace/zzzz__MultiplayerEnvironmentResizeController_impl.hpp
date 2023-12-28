@@ -4,10 +4,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType::__MultiplayerEnvironmentResizeController__ResizeType(int32_t value__) noexcept {
@@ -94,54 +94,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__resizeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeType;
 }
 constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__resizeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeType;
 }
 constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__set__resizeType(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resizeType = value;
 }
 constexpr float_t& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
 constexpr float_t const& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
 constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__set__offset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offset = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*>&
 GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__lights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lights;
 }
 constexpr ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*> const&
 GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__lights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lights;
 }
 constexpr void
 GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__set__lights(::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*, ::Array<::GlobalNamespace::TubeBloomPrePassLight*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__otherTransforms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherTransforms;
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__get__otherTransforms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherTransforms;
 }
 constexpr void GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::__set__otherTransforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____otherTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData::get_resizeType() {
@@ -330,103 +330,103 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__platformEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformEnd;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__platformEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformEnd;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__platformEnd(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformEnd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*>&
 GlobalNamespace::MultiplayerEnvironmentResizeController::__get__resizeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> const&
 GlobalNamespace::MultiplayerEnvironmentResizeController::__get__resizeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resizeData;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__resizeData(
     ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resizeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerCenterResizeController*& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__centerResizeController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerResizeController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerCenterResizeController*> const&
 GlobalNamespace::MultiplayerEnvironmentResizeController::__get__centerResizeController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerResizeController;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__centerResizeController(::GlobalNamespace::MultiplayerCenterResizeController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerResizeController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter*& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__beatmapObjectSpawnCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectSpawnCenter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectSpawnCenter*> const& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__beatmapObjectSpawnCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectSpawnCenter;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__beatmapObjectSpawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectSpawnCenter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::MultiplayerEnvironmentResizeController::__get_resizingDidFinishEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resizingDidFinishEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerEnvironmentResizeController::__get_resizingDidFinishEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resizingDidFinishEvent;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set_resizingDidFinishEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resizingDidFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__isResizingFinished() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isResizingFinished;
 }
 constexpr bool const& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__isResizingFinished() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isResizingFinished;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__isResizingFinished(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isResizingFinished = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__edgeDistanceFromCenterFound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeDistanceFromCenterFound;
 }
 constexpr bool const& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__edgeDistanceFromCenterFound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____edgeDistanceFromCenterFound;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__edgeDistanceFromCenterFound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____edgeDistanceFromCenterFound = value;
 }
 constexpr bool& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__spawnCenterDistanceFound() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistanceFound;
 }
 constexpr bool const& GlobalNamespace::MultiplayerEnvironmentResizeController::__get__spawnCenterDistanceFound() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnCenterDistanceFound;
 }
 constexpr void GlobalNamespace::MultiplayerEnvironmentResizeController::__set__spawnCenterDistanceFound(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnCenterDistanceFound = value;
 }
 inline bool GlobalNamespace::MultiplayerEnvironmentResizeController::get_isResizingFinished() {

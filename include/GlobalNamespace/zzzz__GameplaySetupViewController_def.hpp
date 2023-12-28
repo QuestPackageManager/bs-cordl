@@ -7,6 +7,30 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplaySetupViewController)
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class ColorsOverrideSettingsPanelController;
+}
+namespace GlobalNamespace {
+class MultiplayerSettingsPanelController;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class PlayerSettingsPanelController;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
 namespace System {
 class Action;
 }
@@ -14,22 +38,13 @@ namespace GlobalNamespace {
 class __GameplaySetupViewController__Panel;
 }
 namespace GlobalNamespace {
-class PlayerSettingsPanelController;
+class EnvironmentOverrideSettingsPanelController;
 }
 namespace GlobalNamespace {
 class GameplayModifiersPanelController;
 }
 namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class EnvironmentOverrideSettingsPanelController;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
@@ -37,23 +52,8 @@ struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 namespace HMUI {
 class SegmentedControl;
 }
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class MultiplayerSettingsPanelController;
-}
-namespace GlobalNamespace {
-class ColorsOverrideSettingsPanelController;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
 namespace HMUI {
 class TextSegmentedControl;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class IRefreshable;

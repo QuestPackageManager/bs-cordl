@@ -12,11 +12,11 @@ struct AceFlags;
 namespace System::Security::AccessControl {
 struct AceQualifier;
 }
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
 namespace System::Security::AccessControl {
 struct AceType;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

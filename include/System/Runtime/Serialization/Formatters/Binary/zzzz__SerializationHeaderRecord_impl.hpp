@@ -2,8 +2,8 @@
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerializationHeaderRecord_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord._ctor
 template <>
@@ -100,87 +100,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_binaryFormatterMajorVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryFormatterMajorVersion;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_binaryFormatterMajorVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryFormatterMajorVersion;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_binaryFormatterMajorVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___binaryFormatterMajorVersion = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_binaryFormatterMinorVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryFormatterMinorVersion;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_binaryFormatterMinorVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryFormatterMinorVersion;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_binaryFormatterMinorVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___binaryFormatterMinorVersion = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_binaryHeaderEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryHeaderEnum;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_binaryHeaderEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binaryHeaderEnum;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___binaryHeaderEnum = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_topId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topId;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_topId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___topId;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_topId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___topId = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_headerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headerId;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_headerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headerId;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_headerId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headerId = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_majorVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___majorVersion;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_majorVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___majorVersion;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_majorVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___majorVersion = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_minorVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minorVersion;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_minorVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minorVersion;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__set_minorVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minorVersion = value;
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::New_ctor() {

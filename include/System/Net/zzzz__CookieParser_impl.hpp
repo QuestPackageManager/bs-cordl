@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieParser_def.hpp"
-#include "System/Net/zzzz__CookieTokenizer_def.hpp"
 #include "System/Net/zzzz__Cookie_def.hpp"
+#include "System/Net/zzzz__CookieTokenizer_def.hpp"
 //  Writing Method size for method: ::System::Net::CookieParser._ctor
 template <>
 
@@ -45,15 +45,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::CookieTokenizer*& System::Net::CookieParser::__get_m_tokenizer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tokenizer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieTokenizer*> const& System::Net::CookieParser::__get_m_tokenizer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_tokenizer;
 }
 constexpr void System::Net::CookieParser::__set_m_tokenizer(::System::Net::CookieTokenizer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_tokenizer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::CookieParser* System::Net::CookieParser::New_ctor(::StringW cookieString) {

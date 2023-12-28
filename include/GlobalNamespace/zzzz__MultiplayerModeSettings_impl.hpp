@@ -16,51 +16,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::MultiplayerModeSettings::__get_createServerPlayersCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createServerPlayersCount;
 }
 constexpr int32_t const& GlobalNamespace::MultiplayerModeSettings::__get_createServerPlayersCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___createServerPlayersCount;
 }
 constexpr void GlobalNamespace::MultiplayerModeSettings::__set_createServerPlayersCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___createServerPlayersCount = value;
 }
 constexpr ::GlobalNamespace::BeatmapDifficultyMask& GlobalNamespace::MultiplayerModeSettings::__get_quickPlayBeatmapDifficulty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayBeatmapDifficulty;
 }
 constexpr ::GlobalNamespace::BeatmapDifficultyMask const& GlobalNamespace::MultiplayerModeSettings::__get_quickPlayBeatmapDifficulty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayBeatmapDifficulty;
 }
 constexpr void GlobalNamespace::MultiplayerModeSettings::__set_quickPlayBeatmapDifficulty(::GlobalNamespace::BeatmapDifficultyMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___quickPlayBeatmapDifficulty = value;
 }
 constexpr ::StringW& GlobalNamespace::MultiplayerModeSettings::__get_quickPlaySongPackMaskSerializedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlaySongPackMaskSerializedName;
 }
 constexpr ::StringW const& GlobalNamespace::MultiplayerModeSettings::__get_quickPlaySongPackMaskSerializedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlaySongPackMaskSerializedName;
 }
 constexpr void GlobalNamespace::MultiplayerModeSettings::__set_quickPlaySongPackMaskSerializedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___quickPlaySongPackMaskSerializedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::MultiplayerModeSettings::__get_quickPlayEnableLevelSelection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayEnableLevelSelection;
 }
 constexpr bool const& GlobalNamespace::MultiplayerModeSettings::__get_quickPlayEnableLevelSelection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___quickPlayEnableLevelSelection;
 }
 constexpr void GlobalNamespace::MultiplayerModeSettings::__set_quickPlayEnableLevelSelection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___quickPlayEnableLevelSelection = value;
 }
 inline ::GlobalNamespace::MultiplayerModeSettings* GlobalNamespace::MultiplayerModeSettings::New_ctor() {

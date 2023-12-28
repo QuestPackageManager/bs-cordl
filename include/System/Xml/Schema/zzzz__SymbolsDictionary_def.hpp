@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymbolsDictionary)
 namespace System::Collections {
+class Hashtable;
+}
+namespace System::Collections {
 class ArrayList;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class Hashtable;
 }
 namespace System::Collections {
 class ICollection;

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(SelectModifiersViewController)
 namespace GlobalNamespace {
-class GameplayModifiersPanelController;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class GameplayModifiersPanelController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

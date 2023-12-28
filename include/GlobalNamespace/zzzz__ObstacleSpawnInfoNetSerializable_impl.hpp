@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnInfoNetSerializable_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSpawnInfoNetSerializable.Obtain
 template <>
 
@@ -91,171 +91,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_time() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_time() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___time;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_time(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
 }
 constexpr int32_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_lineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineIndex;
 }
 constexpr int32_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_lineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineIndex;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_lineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineIndex = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_lineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_lineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineLayer;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_lineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineLayer = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
 constexpr int32_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_width() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___width;
 }
 constexpr int32_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_width() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___width;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_width(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___width = value;
 }
 constexpr int32_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_height() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___height;
 }
 constexpr int32_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_height() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___height;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_height(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___height = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_moveStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveStartPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_moveStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveStartPos;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_moveStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveStartPos = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_moveEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveEndPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_moveEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveEndPos;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_moveEndPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveEndPos = value;
 }
 constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_jumpEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpEndPos;
 }
 constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_jumpEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpEndPos;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_jumpEndPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___jumpEndPos = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_obstacleHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstacleHeight;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_obstacleHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstacleHeight;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_obstacleHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___obstacleHeight = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_moveDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveDuration;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_moveDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveDuration;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_moveDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveDuration = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_jumpDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpDuration;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_jumpDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___jumpDuration;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_jumpDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___jumpDuration = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_noteLinesDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteLinesDistance;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_noteLinesDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteLinesDistance;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_noteLinesDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noteLinesDistance = value;
 }
 constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__get_rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__set_rotation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotation = value;
 }
 inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* GlobalNamespace::ObstacleSpawnInfoNetSerializable::Obtain() {

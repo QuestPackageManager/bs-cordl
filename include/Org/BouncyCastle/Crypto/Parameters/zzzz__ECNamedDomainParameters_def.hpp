@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECNamedDomainParameters)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -15,14 +21,8 @@ class ECPoint;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

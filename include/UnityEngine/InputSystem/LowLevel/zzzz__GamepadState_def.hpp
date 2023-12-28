@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GamepadState)
-namespace UnityEngine::InputSystem::LowLevel {
-struct GamepadButton;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
+struct GamepadButton;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ApplicationException_impl.hpp"
 #include "System/Threading/zzzz__WaitHandleCannotBeOpenedException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Threading::WaitHandleCannotBeOpenedException._ctor
 template <>
 

@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class NoteDebrisSpawner;
 }
 namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
 class BombExplosionEffect;
 }
 namespace GlobalNamespace {
 class IConnectedPlayerBeatmapObjectEventManager;
-}
-namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

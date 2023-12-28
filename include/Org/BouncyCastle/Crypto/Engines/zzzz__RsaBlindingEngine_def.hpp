@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaBlindingEngine)
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class IRsa;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IRsa;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

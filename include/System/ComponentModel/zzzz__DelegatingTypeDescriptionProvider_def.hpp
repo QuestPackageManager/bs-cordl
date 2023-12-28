@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(DelegatingTypeDescriptionProvider)
 namespace System {
 class Type;
 }
-namespace System::ComponentModel {
-class TypeDescriptionProvider;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace System {
-class Object;
 }
 namespace System::ComponentModel {
 class IExtenderProvider;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
+}
+namespace System::ComponentModel {
+class TypeDescriptionProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {

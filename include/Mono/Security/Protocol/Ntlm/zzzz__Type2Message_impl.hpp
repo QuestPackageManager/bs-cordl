@@ -107,39 +107,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Protocol::Ntlm::Type2Message::__get__nonce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nonce;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Protocol::Ntlm::Type2Message::__get__nonce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nonce;
 }
 constexpr void Mono::Security::Protocol::Ntlm::Type2Message::__set__nonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nonce)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Security::Protocol::Ntlm::Type2Message::__get__targetName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetName;
 }
 constexpr ::StringW const& Mono::Security::Protocol::Ntlm::Type2Message::__get__targetName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetName;
 }
 constexpr void Mono::Security::Protocol::Ntlm::Type2Message::__set__targetName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Protocol::Ntlm::Type2Message::__get__targetInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetInfo;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Protocol::Ntlm::Type2Message::__get__targetInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetInfo;
 }
 constexpr void Mono::Security::Protocol::Ntlm::Type2Message::__set__targetInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Protocol::Ntlm::Type2Message* Mono::Security::Protocol::Ntlm::Type2Message::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> message) {

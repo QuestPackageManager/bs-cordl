@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EnvironmentStartEndSongAudioEffect)
 namespace GlobalNamespace {
-class ILevelEndActions;
+class IGamePause;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -17,10 +17,10 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class IGamePause;
+class EnvironmentAudioEffectsPlayer;
 }
 namespace GlobalNamespace {
-class EnvironmentAudioEffectsPlayer;
+class ILevelEndActions;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 110, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4982))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4063))
 // CS Name: ::EnvironmentStartEndSongAudioEffect*
 class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {

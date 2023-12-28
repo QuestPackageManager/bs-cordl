@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Caching_def.hpp"
-#include "UnityEngine/zzzz__Cache_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
 #include "UnityEngine/zzzz__CachedAssetBundle_def.hpp"
+#include "UnityEngine/zzzz__Cache_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Caching.set_compressionEnabled
 template <>
 

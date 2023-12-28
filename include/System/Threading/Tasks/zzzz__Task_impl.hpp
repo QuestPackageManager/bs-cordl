@@ -3,47 +3,47 @@
 #include "System/Threading/zzzz__ManualResetEventSlim_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_DelayPromise_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/zzzz__AggregateException_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__OperationCanceledException_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Threading/Tasks/zzzz__StackGuard_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskStatus_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskFactory_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_DelayPromise_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_1_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__AggregateException_def.hpp"
-#include "System/zzzz__OperationCanceledException_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
+#include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskFactory_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskExceptionHolder_def.hpp"
 #include "System/Threading/zzzz__TimerCallback_def.hpp"
@@ -90,100 +90,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::ExecutionContext*& System::Threading::Tasks::__Task__ContingentProperties::__get_m_capturedContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_capturedContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_capturedContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_capturedContext;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_capturedContext(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_capturedContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ManualResetEventSlim*& System::Threading::Tasks::__Task__ContingentProperties::__get_m_completionEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_completionEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEventSlim*> const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_completionEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_completionEvent;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_completionEvent(::System::Threading::ManualResetEventSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_completionEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::TaskExceptionHolder*& System::Threading::Tasks::__Task__ContingentProperties::__get_m_exceptionsHolder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_exceptionsHolder;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskExceptionHolder*> const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_exceptionsHolder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_exceptionsHolder;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_exceptionsHolder(::System::Threading::Tasks::TaskExceptionHolder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_exceptionsHolder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::CancellationToken& System::Threading::Tasks::__Task__ContingentProperties::__get_m_cancellationToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cancellationToken;
 }
 constexpr ::System::Threading::CancellationToken const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_cancellationToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cancellationToken;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_cancellationToken(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cancellationToken = value;
 }
 constexpr ::System::Object*& System::Threading::Tasks::__Task__ContingentProperties::__get_m_cancellationRegistration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cancellationRegistration;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_cancellationRegistration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cancellationRegistration;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_cancellationRegistration(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_cancellationRegistration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::Tasks::__Task__ContingentProperties::__get_m_internalCancellationRequested() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_internalCancellationRequested;
 }
 constexpr int32_t const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_internalCancellationRequested() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_internalCancellationRequested;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_internalCancellationRequested(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_internalCancellationRequested = value;
 }
 constexpr int32_t& System::Threading::Tasks::__Task__ContingentProperties::__get_m_completionCountdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_completionCountdown;
 }
 constexpr int32_t const& System::Threading::Tasks::__Task__ContingentProperties::__get_m_completionCountdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_completionCountdown;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_completionCountdown(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_completionCountdown = value;
 }
 constexpr ::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>*& System::Threading::Tasks::__Task__ContingentProperties::__get_m_exceptionalChildren() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_exceptionalChildren;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>*> const&
 System::Threading::Tasks::__Task__ContingentProperties::__get_m_exceptionalChildren() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_exceptionalChildren;
 }
 constexpr void System::Threading::Tasks::__Task__ContingentProperties::__set_m_exceptionalChildren(::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_exceptionalChildren)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::Tasks::__Task__ContingentProperties::SetCompleted() {
@@ -2237,99 +2237,99 @@ constexpr System::Threading::Tasks::Task::operator ::System::IDisposable*() noex
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Threading::Tasks::Task::__get_m_taskId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskId;
 }
 constexpr int32_t const& System::Threading::Tasks::Task::__get_m_taskId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskId;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_taskId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_taskId = value;
 }
 constexpr ::System::Delegate*& System::Threading::Tasks::Task::__get_m_action() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_action;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& System::Threading::Tasks::Task::__get_m_action() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_action;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_action(::System::Delegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Threading::Tasks::Task::__get_m_stateObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::Tasks::Task::__get_m_stateObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateObject;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_stateObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_stateObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::TaskScheduler*& System::Threading::Tasks::Task::__get_m_taskScheduler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskScheduler;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& System::Threading::Tasks::Task::__get_m_taskScheduler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskScheduler;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_taskScheduler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::Task::__get_m_parent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_parent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::Task::__get_m_parent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_parent;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_parent(::System::Threading::Tasks::Task* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_parent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Threading::Tasks::Task::__get_m_stateFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateFlags;
 }
 constexpr int32_t const& System::Threading::Tasks::Task::__get_m_stateFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateFlags;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_stateFlags(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_stateFlags = value;
 }
 constexpr ::System::Object*& System::Threading::Tasks::Task::__get_m_continuationObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_continuationObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::Tasks::Task::__get_m_continuationObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_continuationObject;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_continuationObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_continuationObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::Tasks::__Task__ContingentProperties*& System::Threading::Tasks::Task::__get_m_contingentProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_contingentProperties;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::__Task__ContingentProperties*> const& System::Threading::Tasks::Task::__get_m_contingentProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_contingentProperties;
 }
 constexpr void System::Threading::Tasks::Task::__set_m_contingentProperties(::System::Threading::Tasks::__Task__ContingentProperties* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_contingentProperties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::Tasks::Task::setStaticF_s_taskIdCounter(int32_t value) {

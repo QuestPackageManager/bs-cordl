@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Texture2D)
-namespace UnityEngine {
-class Texture2D;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;

@@ -11,16 +11,16 @@ namespace System::Xml {
 class XmlNameTable;
 }
 namespace System {
-class Exception;
-}
-namespace System {
-class Type;
+class Object;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System {
-class Object;
+class Exception;
+}
+namespace System {
+class Type;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;

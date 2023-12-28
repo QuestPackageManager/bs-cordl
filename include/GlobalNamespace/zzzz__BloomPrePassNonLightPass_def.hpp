@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassNonLightPass)
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -15,9 +18,6 @@ struct __BloomPrePassNonLightPass__ExecutionTimeType;
 }
 namespace UnityEngine {
 class RenderTexture;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassN
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14477)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14477))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14478))
 // CS Name: ::BloomPrePassNonLightPass*
 class CORDL_TYPE BloomPrePassNonLightPass : public ::UnityEngine::MonoBehaviour {

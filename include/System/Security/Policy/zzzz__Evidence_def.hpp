@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Evidence)
-namespace System {
-class Array;
-}
-namespace System::Security::Policy {
-class __Evidence__EvidenceEnumerator;
-}
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Security::Policy {
+class __Evidence__EvidenceEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Security::Policy {

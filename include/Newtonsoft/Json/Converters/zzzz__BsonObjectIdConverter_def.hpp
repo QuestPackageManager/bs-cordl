@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(BsonObjectIdConverter)
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
-namespace Newtonsoft::Json {
-class JsonSerializer;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 CORDL_MODULE_EXPORT(GhostEffectAsset)
-namespace GlobalNamespace {
-class GhostEffectBehaviour;
-}
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
+namespace GlobalNamespace {
+class GhostEffectBehaviour;
+}
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Timeline {
-struct ClipCaps;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
+struct ClipCaps;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,9 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GhostEffectAsset);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 1763 }), TypeDefinitionIndex(TypeDefinitionIndex(6015)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6019)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(10046))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6013)) CS Name: ::GhostEffectAsset*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10046)), TypeDefinitionIndex(TypeDefinitionIndex(6015)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst:
+// 1763 }), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(6019))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6013)) CS Name: ::GhostEffectAsset*
 class CORDL_TYPE GhostEffectAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations

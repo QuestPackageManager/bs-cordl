@@ -15,76 +15,76 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SteamPlatformAdditionalContentModel)
 namespace GlobalNamespace {
-class __SteamLevelProductsModelSO__LevelPackProductData;
+struct __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__16;
+}
+namespace GlobalNamespace {
+class AlwaysOwnedContentContainerSO;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__16;
-}
-namespace GlobalNamespace {
-struct __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18;
-}
-namespace GlobalNamespace {
-struct __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__11;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
 struct __AdditionalContentModel__UpdateEntitlementsResult;
-}
-namespace GlobalNamespace {
-struct __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__14;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
-class SteamLevelProductsModelSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-struct __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__12;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct IsPackBetterBuyThanLevelResult;
-}
-namespace GlobalNamespace {
-struct OpenProductStoreResult;
-}
-namespace System::Threading {
-class SemaphoreSlim;
 }
 namespace GlobalNamespace {
 class __SteamLevelProductsModelSO__LevelPackRedirectionData;
 }
 namespace GlobalNamespace {
+struct __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18;
+}
+namespace GlobalNamespace {
 class __SteamLevelProductsModelSO__LevelProductData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__11;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__12;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+class __SteamLevelProductsModelSO__LevelPackProductData;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct IsPackBetterBuyThanLevelResult;
+}
+namespace GlobalNamespace {
+struct __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__14;
 }
 namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
+class SteamLevelProductsModelSO;
+}
+namespace GlobalNamespace {
+struct OpenProductStoreResult;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -119,9 +119,9 @@ MARK_VAL_T(::GlobalNamespace::__SteamPlatformAdditionalContentModel___OpenLevelP
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4116)) CS Name: ::SteamPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__11
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4116)) CS Name: ::SteamPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__11
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__11 {
 public:
   // Declarations
@@ -179,9 +179,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamPlatform
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4117)) CS Name: ::SteamPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__12
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4117)) CS Name: ::SteamPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__12
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__12 {
 public:
   // Declarations
@@ -239,10 +239,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamPlatform
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 868
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4118)) CS
-// Name: ::SteamPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__14
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 868 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4118))
+// CS Name: ::SteamPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__14
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__14 {
 public:
   // Declarations
@@ -311,9 +311,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamPlatform
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(4097)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4119)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4119)) CS Name:
 // ::SteamPlatformAdditionalContentModel::<IsDataValidAsync>d__16
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__16 {
 public:
@@ -372,10 +372,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SteamPlatform
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 895 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 868 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4120))
-// CS Name: ::SteamPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 868 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4120)) CS
+// Name: ::SteamPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18 {
 public:
   // Declarations

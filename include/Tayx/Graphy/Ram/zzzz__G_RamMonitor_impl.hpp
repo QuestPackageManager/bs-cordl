@@ -122,39 +122,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& Tayx::Graphy::Ram::G_RamMonitor::__get__AllocatedRam_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllocatedRam_k__BackingField;
 }
 constexpr float_t const& Tayx::Graphy::Ram::G_RamMonitor::__get__AllocatedRam_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AllocatedRam_k__BackingField;
 }
 constexpr void Tayx::Graphy::Ram::G_RamMonitor::__set__AllocatedRam_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AllocatedRam_k__BackingField = value;
 }
 constexpr float_t& Tayx::Graphy::Ram::G_RamMonitor::__get__ReservedRam_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReservedRam_k__BackingField;
 }
 constexpr float_t const& Tayx::Graphy::Ram::G_RamMonitor::__get__ReservedRam_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReservedRam_k__BackingField;
 }
 constexpr void Tayx::Graphy::Ram::G_RamMonitor::__set__ReservedRam_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ReservedRam_k__BackingField = value;
 }
 constexpr float_t& Tayx::Graphy::Ram::G_RamMonitor::__get__MonoRam_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MonoRam_k__BackingField;
 }
 constexpr float_t const& Tayx::Graphy::Ram::G_RamMonitor::__get__MonoRam_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MonoRam_k__BackingField;
 }
 constexpr void Tayx::Graphy::Ram::G_RamMonitor::__set__MonoRam_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MonoRam_k__BackingField = value;
 }
 inline float_t Tayx::Graphy::Ram::G_RamMonitor::get_AllocatedRam() {

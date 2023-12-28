@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultVerifierCalculator)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto::IO {
 class SignerSink;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

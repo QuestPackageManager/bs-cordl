@@ -9,6 +9,18 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Host)
 namespace ENet {
+class ChecksumCallback;
+}
+namespace ENet {
+struct SslConfiguration;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace ENet {
+struct Address;
+}
+namespace ENet {
 struct Event;
 }
 namespace System {
@@ -18,22 +30,10 @@ namespace ENet {
 class InterceptCallback;
 }
 namespace ENet {
-struct SslConfiguration;
+struct Peer;
 }
 namespace ENet {
 struct Packet;
-}
-namespace ENet {
-struct Address;
-}
-namespace ENet {
-class ChecksumCallback;
-}
-namespace ENet {
-struct Peer;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace ENet {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::ENet::Host);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15233))
 // CS Name: ::ENet::Host*
 class CORDL_TYPE Host : public ::System::Object {

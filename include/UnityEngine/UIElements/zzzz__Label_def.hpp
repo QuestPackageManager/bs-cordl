@@ -116,8 +116,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7036)), TypeDefinitionIndex(TypeDefinitionIndex(7037)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5266 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7035)) CS Name: ::Label::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5266 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7036))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7035)) CS Name: ::Label::UxmlFactory*
 class CORDL_TYPE __Label__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::__Label__UxmlTraits*> {
 public:
   // Declarations

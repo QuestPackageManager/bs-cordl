@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchSimulation_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation.get_simulatedTouchscreen
 template <>
 
@@ -316,122 +316,122 @@ constexpr UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::operator ::U
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::InputSystem::Touchscreen*& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get__simulatedTouchscreen_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simulatedTouchscreen_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Touchscreen*> const&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get__simulatedTouchscreen_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simulatedTouchscreen_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set__simulatedTouchscreen_k__BackingField(::UnityEngine::InputSystem::Touchscreen* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____simulatedTouchscreen_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_NumPointers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumPointers;
 }
 constexpr int32_t const& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_NumPointers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumPointers;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_NumPointers(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NumPointers = value;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*>& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_Pointers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pointers;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> const& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_Pointers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pointers;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_Pointers(::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Pointers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_CurrentPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPositions;
 }
 constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_CurrentPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPositions;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_CurrentPositions(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CurrentPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*>&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_Touches() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Touches;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> const&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_Touches() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Touches;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_Touches(
     ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Touches)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_LastTouchId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastTouchId;
 }
 constexpr int32_t const& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_LastTouchId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastTouchId;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_LastTouchId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastTouchId = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_PrimaryTouchIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrimaryTouchIndex;
 }
 constexpr int32_t const& UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_PrimaryTouchIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PrimaryTouchIndex;
 }
 constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_PrimaryTouchIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PrimaryTouchIndex = value;
 }
 constexpr ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_OnDeviceChange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnDeviceChange;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> const&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_OnDeviceChange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnDeviceChange;
 }
 constexpr void
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_OnDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnDeviceChange)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_OnEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> const&
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__get_m_OnEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnEvent;
 }
 constexpr void
 UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__set_m_OnEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::setStaticF_s_Instance(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* value) {

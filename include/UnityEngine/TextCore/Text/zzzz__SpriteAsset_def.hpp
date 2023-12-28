@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteAsset)
+namespace UnityEngine::TextCore::Text {
+class __SpriteAsset____c;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteGlyph;
+}
 namespace UnityEngine {
 class Texture;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
-namespace UnityEngine::TextCore::Text {
-class SpriteCharacter;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::TextCore {
 struct FaceInfo;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteGlyph;
-}
-namespace UnityEngine::TextCore::Text {
-class __SpriteAsset____c;
-}
-namespace UnityEngine::TextCore::Text {
 class TextSettings;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteCharacter;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -115,7 +115,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__S
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 217, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(13724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(15526))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13693))
 // CS Name: ::UnityEngine.TextCore.Text::SpriteAsset*
 class CORDL_TYPE SpriteAsset : public ::UnityEngine::TextCore::Text::TextAsset {

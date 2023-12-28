@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(AbandonedMutexException)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Threading {
 class Mutex;
 }
 namespace System::Threading {
 class WaitHandle;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Threading {

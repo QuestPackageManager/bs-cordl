@@ -129,15 +129,15 @@ constexpr System::Xml::SecureStringHasher::operator ::System::Collections::Gener
   return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Xml::SecureStringHasher::__get_hashCodeRandomizer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCodeRandomizer;
 }
 constexpr int32_t const& System::Xml::SecureStringHasher::__get_hashCodeRandomizer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCodeRandomizer;
 }
 constexpr void System::Xml::SecureStringHasher::__set_hashCodeRandomizer(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCodeRandomizer = value;
 }
 inline void System::Xml::SecureStringHasher::setStaticF_hashCodeDelegate(::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* value) {

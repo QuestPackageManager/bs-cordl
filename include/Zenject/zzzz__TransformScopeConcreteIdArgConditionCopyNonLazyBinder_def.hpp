@@ -11,17 +11,17 @@ class GameObjectCreationParameters;
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace Zenject {

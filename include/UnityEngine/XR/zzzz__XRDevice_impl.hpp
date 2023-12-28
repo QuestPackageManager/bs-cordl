@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDevice_def.hpp"
-#include "UnityEngine/XR/zzzz__TrackingSpaceType_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/XR/zzzz__TrackingSpaceType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::XRDevice.SetTrackingSpaceType
 template <>
 

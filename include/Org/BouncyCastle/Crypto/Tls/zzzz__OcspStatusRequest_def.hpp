@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OcspStatusRequest)
+namespace System::IO {
+class Stream;
+}
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

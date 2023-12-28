@@ -10,13 +10,10 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class __InjectTypeInfo__InjectMethodInfo;
-}
-namespace Zenject {
 class __InjectTypeInfo__InjectConstructorInfo;
 }
 namespace Zenject {
-class __InjectTypeInfo__InjectMemberInfo;
+class __InjectTypeInfo__InjectMethodInfo;
 }
 namespace Zenject {
 class InjectableInfo;
@@ -26,6 +23,9 @@ template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class __InjectTypeInfo__InjectMemberInfo;
 }
 namespace Zenject {
 class ZenFactoryMethod;

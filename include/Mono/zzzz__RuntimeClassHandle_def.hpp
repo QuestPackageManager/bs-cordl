@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeClassHandle)
 namespace System {
-struct RuntimeTypeHandle;
+class Object;
 }
 namespace Mono {
 struct __RuntimeStructs__MonoClass;
 }
 namespace System {
-class Object;
+struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace Mono {

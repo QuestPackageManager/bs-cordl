@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EnableRendererWithLightId)
 namespace UnityEngine {
-struct Color;
+class Renderer;
 }
 namespace UnityEngine {
-class Renderer;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

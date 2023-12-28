@@ -1,28 +1,28 @@
 #pragma once
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProvider_2_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IValidatable_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename TContract, typename TMemoryPool> constexpr Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::operator ::Zenject::IValidatable*() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 template <typename TContract, typename TMemoryPool> constexpr TMemoryPool& Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__get__pool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename TContract, typename TMemoryPool> constexpr TMemoryPool const& Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__get__pool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename TContract, typename TMemoryPool> constexpr void Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::__set__pool(TMemoryPool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract, typename TMemoryPool>

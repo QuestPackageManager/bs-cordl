@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpStreamAsyncResult)
-namespace System {
-class AsyncCallback;
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System {
 class Exception;
 }
 namespace System::Threading {
-class WaitHandle;
+class ManualResetEvent;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class Object;
-}
-namespace System::Threading {
-class ManualResetEvent;
 }
 // Forward declare root types
 namespace System::Net {

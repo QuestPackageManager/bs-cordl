@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ApplicationInvite)
 namespace Oculus::Platform::Models {
-class Destination;
+class User;
 }
 namespace Oculus::Platform::Models {
-class User;
+class Destination;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {

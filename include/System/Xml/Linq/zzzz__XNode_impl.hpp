@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
-#include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XNode._ctor
 template <>
@@ -102,15 +102,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Linq::XNode*& System::Xml::Linq::XNode::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& System::Xml::Linq::XNode::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void System::Xml::Linq::XNode::__set_next(::System::Xml::Linq::XNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Linq::XNode* System::Xml::Linq::XNode::New_ctor() {

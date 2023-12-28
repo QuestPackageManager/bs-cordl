@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayList_ReadOnlyArrayList)
+namespace System {
+class Type;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IComparer;
 }
-namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-class Type;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Collections {
 class ICollection;

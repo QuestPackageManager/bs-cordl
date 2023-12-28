@@ -2,12 +2,12 @@
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskSchedulerAwaitTaskContinuation_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskSchedulerAwaitTaskContinuation_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c._ctor
 template <>
 
@@ -106,15 +106,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::Tasks::TaskScheduler*& System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::__get_m_scheduler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_scheduler;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::__get_m_scheduler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_scheduler;
 }
 constexpr void System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::__set_m_scheduler(::System::Threading::Tasks::TaskScheduler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_scheduler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation* System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::New_ctor(::System::Threading::Tasks::TaskScheduler* scheduler,

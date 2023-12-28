@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/Net/zzzz__IPAddress_ReadOnlyIPAddress_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: ::System::Net::IPAddress.get_IsIPv4
 template <>
 
@@ -414,51 +414,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& System::Net::IPAddress::__get__addressOrScopeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addressOrScopeId;
 }
 constexpr uint32_t const& System::Net::IPAddress::__get__addressOrScopeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addressOrScopeId;
 }
 constexpr void System::Net::IPAddress::__set__addressOrScopeId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____addressOrScopeId = value;
 }
 constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& System::Net::IPAddress::__get__numbers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numbers;
 }
 constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*> const& System::Net::IPAddress::__get__numbers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numbers;
 }
 constexpr void System::Net::IPAddress::__set__numbers(::ArrayW<uint16_t, ::Array<uint16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____numbers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::IPAddress::__get__toString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toString;
 }
 constexpr ::StringW const& System::Net::IPAddress::__get__toString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toString;
 }
 constexpr void System::Net::IPAddress::__set__toString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::IPAddress::__get__hashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashCode;
 }
 constexpr int32_t const& System::Net::IPAddress::__get__hashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashCode;
 }
 constexpr void System::Net::IPAddress::__set__hashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hashCode = value;
 }
 inline void System::Net::IPAddress::setStaticF_Any(::System::Net::IPAddress* value) {

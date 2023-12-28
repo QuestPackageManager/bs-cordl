@@ -12,10 +12,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class __SpawnRotationChevron__Pool;
 }
 namespace GlobalNamespace {
-class __SpawnRotationChevron__Pool;
+class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevron__Pool);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4995))
 // CS Name: ::SpawnRotationChevron*
 class CORDL_TYPE SpawnRotationChevron : public ::GlobalNamespace::LightWithIdMonoBehaviour {

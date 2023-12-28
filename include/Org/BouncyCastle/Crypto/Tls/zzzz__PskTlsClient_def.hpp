@@ -10,16 +10,16 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPskIdentity;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsKeyExchange;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

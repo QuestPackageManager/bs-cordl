@@ -11,8 +11,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteSpawnInfoNetSerializable)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct __NoteData__ScoringType;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
@@ -21,19 +24,16 @@ namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+struct ColorType;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace GlobalNamespace {
-struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15028))
 // CS Name: ::NoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {

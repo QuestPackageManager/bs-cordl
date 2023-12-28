@@ -9,11 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Encoding)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Text {
+class __Encoding__DefaultEncoder;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Text {
-class __Encoding__EncodingCharBuffer;
+class Encoder;
+}
+namespace System {
+class Object;
 }
 namespace System::Text {
 class DecoderFallback;
@@ -22,7 +28,22 @@ namespace System::Globalization {
 class CodePageDataItem;
 }
 namespace System::Text {
-class __Encoding__DefaultEncoder;
+class Decoder;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Text {
+class __Encoding__EncodingCharBuffer;
+}
+namespace System::Text {
+class EncoderFallback;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Text {
 class EncoderNLS;
@@ -34,40 +55,19 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace System::Text {
-class Decoder;
-}
-namespace System {
-class Object;
+class __Encoding__DefaultDecoder;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Text {
-class EncoderFallback;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Text {
-class __Encoding__DefaultDecoder;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Text {
 class __Encoding__EncodingByteBuffer;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Text {
-class Encoder;
+class IObjectReference;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class IObjectReference;
 }
 namespace System::Text {
 class EncoderFallbackBuffer;

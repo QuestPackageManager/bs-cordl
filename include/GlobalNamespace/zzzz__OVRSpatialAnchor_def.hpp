@@ -15,10 +15,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpatialAnchor)
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__MultiAnchorActionType;
+struct __OVRSpatialAnchor__EraseOptions;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__EraseOptions;
+struct __OVRSpatialAnchor__UnboundAnchor;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__LoadOptions;
+}
+namespace GlobalNamespace {
+template <typename TResult, typename TCapture> struct __OVRSpatialAnchor__InvertedCapture_2;
+}
+namespace GlobalNamespace {
+struct OVRSpaceUser;
+}
+namespace GlobalNamespace {
+struct OVRSpace;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace GlobalNamespace {
+struct __OVRSpace__StorageLocation;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -27,73 +54,46 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class __OVRSpatialAnchor____c;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__UnboundAnchor;
-}
-namespace GlobalNamespace {
-template <typename TResult, typename TCapture> struct __OVRSpatialAnchor__InvertedCapture_2;
-}
-namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
+struct __OVRSpatialAnchor__OperationResult;
 }
 namespace GlobalNamespace {
 class __OVRSpatialAnchor__Development;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__MultiAnchorDelegatePair;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__LoadOptions;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-struct __OVRSpatialAnchor__SaveOptions;
 }
 namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace GlobalNamespace {
-struct __OVRSpatialAnchor__OperationResult;
-}
-namespace GlobalNamespace {
-struct OVRSpaceUser;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace System {
-struct Guid;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct __OVRSpatialAnchor__SaveOptions;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceStorageLocation;
 }
+namespace System {
+template <typename T> class Action_1;
+}
 namespace GlobalNamespace {
-struct OVRSpace;
+struct __OVRSpatialAnchor__MultiAnchorDelegatePair;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+class __OVRSpatialAnchor____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System {
+struct Guid;
+}
+namespace GlobalNamespace {
+struct __OVRSpatialAnchor__MultiAnchorActionType;
 }
 namespace System {
 template <typename T> class Comparison_1;
@@ -660,8 +660,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSpatialAnc
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(8000)), TypeDefinitionIndex(TypeDefinitionIndex(7999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8004)) CS Name: ::OVRSpatialAnchor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(8000))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8004)) CS Name: ::OVRSpatialAnchor*
 class CORDL_TYPE OVRSpatialAnchor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

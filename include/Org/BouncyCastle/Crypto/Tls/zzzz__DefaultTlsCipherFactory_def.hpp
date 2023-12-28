@@ -6,13 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultTlsCipherFactory)
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsNullCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsBlockCipher;
@@ -20,20 +29,11 @@ class TlsBlockCipher;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAeadCipher;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsNullCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

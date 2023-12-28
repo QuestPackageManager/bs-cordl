@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__AsyncHelper_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 inline void System::Xml::AsyncHelper::setStaticF_DoneTask(::System::Threading::Tasks::Task* value) {
   ::cordl_internals::setStaticField<::System::Threading::Tasks::Task*, "DoneTask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::AsyncHelper*>::get>(
       std::forward<::System::Threading::Tasks::Task*>(value));

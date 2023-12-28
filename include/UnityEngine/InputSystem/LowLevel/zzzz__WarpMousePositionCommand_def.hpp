@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WarpMousePositionCommand)
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
@@ -15,9 +18,6 @@ struct InputDeviceCommand;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

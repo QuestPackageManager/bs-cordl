@@ -2,13 +2,13 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
-#include "LiteNetLib/zzzz__NatAddressType_def.hpp"
-#include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
 #include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
+#include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest._ctor
 template <>
 
@@ -319,29 +319,29 @@ constexpr LiteNetLib::EventBasedNatPunchListener::operator ::LiteNetLib::INatPun
   return static_cast<::LiteNetLib::INatPunchListener*>(static_cast<void*>(this));
 }
 constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*& LiteNetLib::EventBasedNatPunchListener::__get_NatIntroductionRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*> const&
 LiteNetLib::EventBasedNatPunchListener::__get_NatIntroductionRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionRequest;
 }
 constexpr void LiteNetLib::EventBasedNatPunchListener::__set_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NatIntroductionRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*& LiteNetLib::EventBasedNatPunchListener::__get_NatIntroductionSuccess() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionSuccess;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*> const&
 LiteNetLib::EventBasedNatPunchListener::__get_NatIntroductionSuccess() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NatIntroductionSuccess;
 }
 constexpr void LiteNetLib::EventBasedNatPunchListener::__set_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NatIntroductionSuccess)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value) {

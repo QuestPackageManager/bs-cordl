@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::QueryExpression.get_Operator
 template <>
 
@@ -64,15 +64,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator& Newtonsoft::Json::Linq::JsonPath::QueryExpression::__get__Operator_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Operator_k__BackingField;
 }
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const& Newtonsoft::Json::Linq::JsonPath::QueryExpression::__get__Operator_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Operator_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::QueryExpression::__set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Operator_k__BackingField = value;
 }
 inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryExpression::get_Operator() {

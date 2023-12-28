@@ -11,19 +11,19 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class CbcBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

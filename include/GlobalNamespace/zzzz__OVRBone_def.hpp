@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBone)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 struct __OVRSkeleton__BoneId;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Transform)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine {
-class __Transform__Enumerator;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct RotationOrder;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Space;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector3;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-struct Quaternion;
+class __Transform__Enumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;

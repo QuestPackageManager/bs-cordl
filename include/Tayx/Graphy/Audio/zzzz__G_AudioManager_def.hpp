@@ -8,11 +8,20 @@ CORDL_MODULE_EXPORT(G_AudioManager)
 namespace Tayx::Graphy::UI {
 class IMovable;
 }
-namespace Tayx::Graphy::Audio {
-class G_AudioText;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace Tayx::Graphy::UI {
+class IModifiableState;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioGraph;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioMonitor;
@@ -20,29 +29,20 @@ class G_AudioMonitor;
 namespace UnityEngine {
 class RectTransform;
 }
-namespace Tayx::Graphy::UI {
-class IModifiableState;
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioText;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Tayx::Graphy {
 struct __GraphyManager__ModulePosition;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioGraph;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {

@@ -2,12 +2,12 @@
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeBase_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeDeformatter_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Chain_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
 #include "Mono/Security/zzzz__PKCS7_def.hpp"
+#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
-#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Chain_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Authenticode::AuthenticodeDeformatter._ctor
 template <>
 
@@ -146,159 +146,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_filename() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filename;
 }
 constexpr ::StringW const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_filename() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___filename;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_filename(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___filename)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_rawdata() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawdata;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_rawdata() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rawdata;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_rawdata(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rawdata)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_hash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_hash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hash;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_hash(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_coll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coll;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_coll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___coll;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_coll(::Mono::Security::X509::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___coll)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::ASN1*& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_signedHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedHash;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_signedHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedHash;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_signedHash(::Mono::Security::ASN1* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signedHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_timestamp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timestamp;
 }
 constexpr ::System::DateTime const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_timestamp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timestamp;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_timestamp(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timestamp = value;
 }
 constexpr ::Mono::Security::X509::X509Certificate*& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_signingCertificate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signingCertificate;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_signingCertificate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signingCertificate;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_signingCertificate(::Mono::Security::X509::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signingCertificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_reason() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reason;
 }
 constexpr int32_t const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_reason() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reason;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_reason(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reason = value;
 }
 constexpr bool& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_trustedRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trustedRoot;
 }
 constexpr bool const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_trustedRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trustedRoot;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_trustedRoot(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___trustedRoot = value;
 }
 constexpr bool& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_trustedTimestampRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trustedTimestampRoot;
 }
 constexpr bool const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_trustedTimestampRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trustedTimestampRoot;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_trustedTimestampRoot(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___trustedTimestampRoot = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_entry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entry;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_entry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entry;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_entry(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___entry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::X509::X509Chain*& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_signerChain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signerChain;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_signerChain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signerChain;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_signerChain(::Mono::Security::X509::X509Chain* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signerChain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::X509::X509Chain*& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_timestampChain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timestampChain;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& Mono::Security::Authenticode::AuthenticodeDeformatter::__get_timestampChain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timestampChain;
 }
 constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_timestampChain(::Mono::Security::X509::X509Chain* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timestampChain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor() {

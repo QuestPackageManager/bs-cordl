@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__LimitAvatarPoseRestriction_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__LimitAvatarPoseRestriction_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters._ctor
 template <>
 
@@ -22,111 +22,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHeadSquareDistanceFromCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHeadSquareDistanceFromCenter;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHeadSquareDistanceFromCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHeadSquareDistanceFromCenter;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_maxHeadSquareDistanceFromCenter(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxHeadSquareDistanceFromCenter = value;
 }
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_minHeadYPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHeadYPos;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_minHeadYPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHeadYPos;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_minHeadYPos(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minHeadYPos = value;
 }
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHeadYPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHeadYPos;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHeadYPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHeadYPos;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_maxHeadYPos(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxHeadYPos = value;
 }
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_minHandXZSquareDistanceFromHeadCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHandXZSquareDistanceFromHeadCenter;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_minHandXZSquareDistanceFromHeadCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHandXZSquareDistanceFromHeadCenter;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_minHandXZSquareDistanceFromHeadCenter(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minHandXZSquareDistanceFromHeadCenter = value;
 }
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHandXZSquareDistanceFromHeadCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHandXZSquareDistanceFromHeadCenter;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHandXZSquareDistanceFromHeadCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHandXZSquareDistanceFromHeadCenter;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_maxHandXZSquareDistanceFromHeadCenter(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxHandXZSquareDistanceFromHeadCenter = value;
 }
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_minHandYDistanceFromHeadCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHandYDistanceFromHeadCenter;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_minHandYDistanceFromHeadCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHandYDistanceFromHeadCenter;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_minHandYDistanceFromHeadCenter(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minHandYDistanceFromHeadCenter = value;
 }
 constexpr float_t& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHandYDistanceFromHeadCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHandYDistanceFromHeadCenter;
 }
 constexpr float_t const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_maxHandYDistanceFromHeadCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHandYDistanceFromHeadCenter;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_maxHandYDistanceFromHeadCenter(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxHandYDistanceFromHeadCenter = value;
 }
 constexpr bool& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_forceHeadPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceHeadPosition;
 }
 constexpr bool const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_forceHeadPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forceHeadPosition;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_forceHeadPosition(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forceHeadPosition = value;
 }
 constexpr ::UnityEngine::Vector3& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_centerHeadOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___centerHeadOffset;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__get_centerHeadOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___centerHeadOffset;
 }
 constexpr void BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::__set_centerHeadOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___centerHeadOffset = value;
 }
 inline ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::New_ctor() {
@@ -195,15 +195,15 @@ constexpr BeatSaber::AvatarCore::LimitAvatarPoseRestriction::operator ::BeatSabe
   return static_cast<::BeatSaber::AvatarCore::IAvatarPoseRestriction*>(static_cast<void*>(this));
 }
 constexpr ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*& BeatSaber::AvatarCore::LimitAvatarPoseRestriction::__get__parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*> const& BeatSaber::AvatarCore::LimitAvatarPoseRestriction::__get__parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameters;
 }
 constexpr void BeatSaber::AvatarCore::LimitAvatarPoseRestriction::__set__parameters(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::AvatarCore::LimitAvatarPoseRestriction::RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition,

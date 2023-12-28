@@ -119,39 +119,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int16_t& GlobalNamespace::OVRBoneCapsule::__get__BoneIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BoneIndex_k__BackingField;
 }
 constexpr int16_t const& GlobalNamespace::OVRBoneCapsule::__get__BoneIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BoneIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRBoneCapsule::__set__BoneIndex_k__BackingField(int16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____BoneIndex_k__BackingField = value;
 }
 constexpr ::UnityEngine::Rigidbody*& GlobalNamespace::OVRBoneCapsule::__get__CapsuleRigidbody_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CapsuleRigidbody_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& GlobalNamespace::OVRBoneCapsule::__get__CapsuleRigidbody_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CapsuleRigidbody_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRBoneCapsule::__set__CapsuleRigidbody_k__BackingField(::UnityEngine::Rigidbody* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CapsuleRigidbody_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CapsuleCollider*& GlobalNamespace::OVRBoneCapsule::__get__CapsuleCollider_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CapsuleCollider_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CapsuleCollider*> const& GlobalNamespace::OVRBoneCapsule::__get__CapsuleCollider_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CapsuleCollider_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRBoneCapsule::__set__CapsuleCollider_k__BackingField(::UnityEngine::CapsuleCollider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CapsuleCollider_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int16_t GlobalNamespace::OVRBoneCapsule::get_BoneIndex() {

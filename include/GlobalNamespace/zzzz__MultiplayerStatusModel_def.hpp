@@ -12,40 +12,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerStatusModel)
 namespace GlobalNamespace {
+class MultiplayerStatusData;
+}
+namespace GlobalNamespace {
 class INetworkConfig;
 }
-namespace GlobalNamespace {
-class IMultiplayerStatusModel;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-struct __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
+namespace System::Net::Http {
+class HttpClient;
 }
 namespace GlobalNamespace {
 class __MultiplayerStatusModel__MultiplayerStatusDataFB;
 }
 namespace GlobalNamespace {
-class MultiplayerStatusData;
+class IMultiplayerStatusModel;
+}
+namespace GlobalNamespace {
+struct __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Net::Http {
-class HttpClient;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System {
 class UriBuilder;
 }
 namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +112,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSt
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 894 }), TypeDefinitionIndex(TypeDefinitionIndex(4472)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4474)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4472)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 894
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4474)) CS
 // Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
 struct CORDL_TYPE __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9 {
 public:

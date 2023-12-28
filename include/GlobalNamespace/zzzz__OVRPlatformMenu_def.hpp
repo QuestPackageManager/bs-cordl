@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPlatformMenu)
+namespace GlobalNamespace {
+struct __OVRPlatformMenu__eHandler;
+}
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlatformMenu__eBackButtonAction;
-}
-namespace GlobalNamespace {
-struct __OVRPlatformMenu__eHandler;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -135,7 +135,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlatformMe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(7682))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(7682)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7684))
 // CS Name: ::OVRPlatformMenu*
 class CORDL_TYPE OVRPlatformMenu : public ::UnityEngine::MonoBehaviour {

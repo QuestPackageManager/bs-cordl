@@ -11,20 +11,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Baker)
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace RootMotion {
+struct __Baker__Mode;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class Animator;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion {
-struct __Baker__Mode;
+class AnimationClip;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::__Baker__Mode, 0x4>,
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12470)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12470))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12471))
 // CS Name: ::RootMotion::Baker*
 class CORDL_TYPE Baker : public ::UnityEngine::MonoBehaviour {

@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureData)
 namespace System::Globalization {
-class CalendarData;
+struct __CultureData__NumberFormatEntryManaged;
 }
 namespace System::Globalization {
-struct __CultureData__NumberFormatEntryManaged;
+struct CalendarId;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System::Globalization {
-struct CalendarId;
+class CalendarData;
 }
 // Forward declare root types
 namespace System::Globalization {

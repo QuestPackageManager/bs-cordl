@@ -5,13 +5,13 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedPointerEventData_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__UIPointerType_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pen_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__UIPointerType_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::ExtendedPointerEventData._ctor
 template <>
 
@@ -319,87 +319,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::InputControl*& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__control_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____control_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__control_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____control_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__control_k__BackingField(::UnityEngine::InputSystem::InputControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____control_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputDevice*& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__device_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____device_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__device_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____device_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____device_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__touchId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchId_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__touchId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchId_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__touchId_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____touchId_k__BackingField = value;
 }
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__pointerType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerType_k__BackingField;
 }
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__pointerType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerType_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__pointerType_k__BackingField(::UnityEngine::InputSystem::UI::UIPointerType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerType_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__uiToolkitPointerId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uiToolkitPointerId_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__uiToolkitPointerId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uiToolkitPointerId_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__uiToolkitPointerId_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____uiToolkitPointerId_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__trackedDevicePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackedDevicePosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__trackedDevicePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackedDevicePosition_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__trackedDevicePosition_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____trackedDevicePosition_k__BackingField = value;
 }
 constexpr ::UnityEngine::Quaternion& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__trackedDeviceOrientation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackedDeviceOrientation_k__BackingField;
 }
 constexpr ::UnityEngine::Quaternion const& UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__trackedDeviceOrientation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackedDeviceOrientation_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__trackedDeviceOrientation_k__BackingField(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____trackedDeviceOrientation_k__BackingField = value;
 }
 inline ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* UnityEngine::InputSystem::UI::ExtendedPointerEventData::New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {

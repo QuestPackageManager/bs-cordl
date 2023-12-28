@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr int32_t& GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0::__get_numberOfLines() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberOfLines;
 }
 constexpr int32_t const& GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0::__get_numberOfLines() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___numberOfLines;
 }
 constexpr void GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0::__set_numberOfLines(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___numberOfLines = value;
 }
 inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0::New_ctor() {

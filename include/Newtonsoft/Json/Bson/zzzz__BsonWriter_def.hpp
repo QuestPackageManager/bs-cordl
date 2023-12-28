@@ -9,46 +9,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BsonWriter)
 namespace System {
+struct DateTime;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct Guid;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
+namespace System {
 struct TimeSpan;
 }
 namespace System {
 struct DateTimeKind;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
 struct Decimal;
-}
-namespace System {
-struct DateTimeOffset;
 }
 namespace System {
 class Uri;
 }
 namespace Newtonsoft::Json::Bson {
-class BsonBinaryWriter;
+struct BsonType;
 }
 namespace System {
 class Object;
 }
 namespace System::IO {
-class Stream;
+class BinaryWriter;
 }
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
+namespace System::IO {
+class Stream;
 }
 namespace Newtonsoft::Json::Bson {
 class BsonToken;
 }
-namespace System::IO {
-class BinaryWriter;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace System {
-struct Guid;
+namespace Newtonsoft::Json::Bson {
+class BsonBinaryWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {

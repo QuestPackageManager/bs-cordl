@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IOOperation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IOSelectorJob)
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System {
-class IOAsyncResult;
-}
-namespace System {
-class IOAsyncCallback;
-}
 namespace System {
 struct IOOperation;
 }
 namespace System::Threading {
 class ThreadAbortException;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
+namespace System {
+class IOAsyncCallback;
+}
+namespace System {
+class IOAsyncResult;
 }
 // Forward declare root types
 namespace System {

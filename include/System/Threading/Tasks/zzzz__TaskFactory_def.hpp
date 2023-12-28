@@ -9,8 +9,26 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskFactory)
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Threading::Tasks {
+struct TaskContinuationOptions;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 class IAsyncResult;
@@ -18,23 +36,14 @@ class IAsyncResult;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System {
 class Action;
+}
+namespace System::Threading::Tasks {
+class __TaskFactory__CompleteOnInvokePromise;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
@@ -43,22 +52,13 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+template <typename TResult> class Func_1;
 }
-namespace System::Threading::Tasks {
-class __TaskFactory__CompleteOnInvokePromise;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class Object;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System::Threading::Tasks {
 class ITaskCompletionAction;
@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromis
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 400 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2809)) CS Name: ::TaskFactory::CompleteOnInvokePromise*
 class CORDL_TYPE __TaskFactory__CompleteOnInvokePromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*> {
 public:
@@ -134,8 +134,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2810)) CS Name: ::System.Threading.Tasks::TaskFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2790)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2792))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2810)) CS Name: ::System.Threading.Tasks::TaskFactory*
 class CORDL_TYPE TaskFactory : public ::System::Object {
 public:
   // Declarations

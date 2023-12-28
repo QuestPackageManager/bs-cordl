@@ -47,15 +47,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Rendering::IndexFormat& HoudiniEngineUnity::HEU_MeshIndexFormat::__get__indexFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexFormat;
 }
 constexpr ::UnityEngine::Rendering::IndexFormat const& HoudiniEngineUnity::HEU_MeshIndexFormat::__get__indexFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexFormat;
 }
 constexpr void HoudiniEngineUnity::HEU_MeshIndexFormat::__set__indexFormat(::UnityEngine::Rendering::IndexFormat value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____indexFormat = value;
 }
 inline void HoudiniEngineUnity::HEU_MeshIndexFormat::CalculateIndexFormat(int32_t numVertices) {

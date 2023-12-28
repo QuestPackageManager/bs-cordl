@@ -97,7 +97,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 5215 }), TypeDefinitionIndex(TypeDefinitionIndex(6982))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 5215 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6994))
 // CS Name: ::UnityEngine.UIElements::UxmlEnumAttributeDescription`1<T>*
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {

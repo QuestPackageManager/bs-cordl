@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECKeyParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECKeyGenerationParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECKeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

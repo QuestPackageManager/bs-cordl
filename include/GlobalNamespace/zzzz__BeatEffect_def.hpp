@@ -11,22 +11,16 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class IBeatEffectDidFinishEvent;
+class SpriteRenderer;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class AnimationCurve;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
@@ -34,8 +28,14 @@ template <typename T> class ILazyCopyHashSet_1;
 namespace GlobalNamespace {
 class __BeatEffect__Pool;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+class IBeatEffectDidFinishEvent;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -231,8 +231,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect, 0x7
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2808 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4837))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4836)) CS Name: ::BeatEffect::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4837)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2808 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4836)) CS Name: ::BeatEffect::Pool*
 class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatEffect*> {
 public:
   // Declarations

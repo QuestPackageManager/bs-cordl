@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataPersonalBestSO)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;

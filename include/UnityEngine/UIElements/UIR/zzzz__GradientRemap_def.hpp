@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GradientRemap);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 313 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(10162))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7422)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 313 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10162))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7422)) CS Name:
 // ::UnityEngine.UIElements.UIR::GradientRemap*
 class CORDL_TYPE GradientRemap : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:

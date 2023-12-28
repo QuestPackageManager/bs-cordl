@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
-#include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoLocalCertificateSelectionCallback_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
-#include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
+#include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
+#include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoLocalCertificateSelectionCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
@@ -45,16 +45,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const&
 Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr void Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::__set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::New_ctor() {
@@ -115,16 +115,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*> const&
 Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 constexpr void Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::__set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::New_ctor() {

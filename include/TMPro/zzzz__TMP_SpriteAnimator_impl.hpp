@@ -4,14 +4,14 @@
 #include "TMPro/zzzz__TMP_MeshInfo_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7._ctor
 template <>
 
@@ -115,195 +115,195 @@ constexpr TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::operator
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TMP_SpriteAnimator*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAnimator*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set___4__this(::TMPro::TMP_SpriteAnimator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___start = value;
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_end() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___end;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_end() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___end;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_end(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___end = value;
 }
 constexpr ::TMPro::TMP_SpriteAsset*& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_spriteAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spriteAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAsset*> const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_spriteAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spriteAsset;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_spriteAsset(::TMPro::TMP_SpriteAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spriteAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_currentCharacter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentCharacter;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_currentCharacter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentCharacter;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_currentCharacter(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentCharacter = value;
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_framerate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get_framerate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set_framerate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___framerate = value;
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__currentFrame_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFrame_5__2;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__currentFrame_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFrame_5__2;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__currentFrame_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentFrame_5__2 = value;
 }
 constexpr ::TMPro::TMP_CharacterInfo& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__charInfo_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charInfo_5__3;
 }
 constexpr ::TMPro::TMP_CharacterInfo const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__charInfo_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charInfo_5__3;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__charInfo_5__3(::TMPro::TMP_CharacterInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charInfo_5__3 = value;
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__materialIndex_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIndex_5__4;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__materialIndex_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialIndex_5__4;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__materialIndex_5__4(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____materialIndex_5__4 = value;
 }
 constexpr int32_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__vertexIndex_5__5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex_5__5;
 }
 constexpr int32_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__vertexIndex_5__5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexIndex_5__5;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__vertexIndex_5__5(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexIndex_5__5 = value;
 }
 constexpr ::TMPro::TMP_MeshInfo& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__meshInfo_5__6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshInfo_5__6;
 }
 constexpr ::TMPro::TMP_MeshInfo const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__meshInfo_5__6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshInfo_5__6;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__meshInfo_5__6(::TMPro::TMP_MeshInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshInfo_5__6 = value;
 }
 constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__baseSpriteScale_5__7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseSpriteScale_5__7;
 }
 constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__baseSpriteScale_5__7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseSpriteScale_5__7;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__baseSpriteScale_5__7(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseSpriteScale_5__7 = value;
 }
 constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__elapsedTime_5__8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__8;
 }
 constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__elapsedTime_5__8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__8;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__elapsedTime_5__8(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__8 = value;
 }
 constexpr float_t& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__targetTime_5__9() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTime_5__9;
 }
 constexpr float_t const& TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__targetTime_5__9() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetTime_5__9;
 }
 constexpr void TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__set__targetTime_5__9(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetTime_5__9 = value;
 }
 inline ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7* TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::New_ctor(int32_t __1__state) {
@@ -449,27 +449,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& TMPro::TMP_SpriteAnimator::__get_m_animations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, bool>*> const& TMPro::TMP_SpriteAnimator::__get_m_animations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animations;
 }
 constexpr void TMPro::TMP_SpriteAnimator::__set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_animations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TMPro::TMP_Text*& TMPro::TMP_SpriteAnimator::__get_m_TextComponent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextComponent;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& TMPro::TMP_SpriteAnimator::__get_m_TextComponent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextComponent;
 }
 constexpr void TMPro::TMP_SpriteAnimator::__set_m_TextComponent(::TMPro::TMP_Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextComponent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void TMPro::TMP_SpriteAnimator::Awake() {

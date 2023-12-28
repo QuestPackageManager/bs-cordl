@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingObjectEffect)
-namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
-}
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 struct Vector3;

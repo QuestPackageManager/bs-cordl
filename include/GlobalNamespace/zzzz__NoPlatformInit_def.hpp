@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(NoPlatformInit)
 namespace GlobalNamespace {
 class IPlatformInit;
 }
-namespace Zenject {
-class IInitializable;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

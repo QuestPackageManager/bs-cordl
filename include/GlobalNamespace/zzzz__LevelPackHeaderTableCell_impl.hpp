@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelPackHeaderTableCell_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LevelPackHeaderTableCell.SetData
 template <>
 
@@ -78,63 +78,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::LevelPackHeaderTableCell::__get__nameText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameText;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::LevelPackHeaderTableCell::__get__nameText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameText;
 }
 constexpr void GlobalNamespace::LevelPackHeaderTableCell::__set__nameText(::TMPro::TextMeshProUGUI* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Image*& GlobalNamespace::LevelPackHeaderTableCell::__get__backgroundImage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundImage;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::LevelPackHeaderTableCell::__get__backgroundImage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundImage;
 }
 constexpr void GlobalNamespace::LevelPackHeaderTableCell::__set__backgroundImage(::UnityEngine::UI::Image* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backgroundImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::LevelPackHeaderTableCell::__get__highlightBackgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightBackgroundColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::LevelPackHeaderTableCell::__get__highlightBackgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightBackgroundColor;
 }
 constexpr void GlobalNamespace::LevelPackHeaderTableCell::__set__highlightBackgroundColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightBackgroundColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::LevelPackHeaderTableCell::__get__selectedBackgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedBackgroundColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::LevelPackHeaderTableCell::__get__selectedBackgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedBackgroundColor;
 }
 constexpr void GlobalNamespace::LevelPackHeaderTableCell::__set__selectedBackgroundColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedBackgroundColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::LevelPackHeaderTableCell::__get__selectedAndHighlightedBackgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedBackgroundColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::LevelPackHeaderTableCell::__get__selectedAndHighlightedBackgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedBackgroundColor;
 }
 constexpr void GlobalNamespace::LevelPackHeaderTableCell::__set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAndHighlightedBackgroundColor = value;
 }
 inline void GlobalNamespace::LevelPackHeaderTableCell::SetData(::StringW headerText) {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GCHandle)
-namespace System::Runtime::InteropServices {
-struct GCHandleType;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandleType;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {

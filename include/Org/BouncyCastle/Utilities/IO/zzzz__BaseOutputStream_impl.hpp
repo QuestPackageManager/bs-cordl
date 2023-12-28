@@ -229,15 +229,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Org::BouncyCastle::Utilities::IO::BaseOutputStream::__get_closed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closed;
 }
 constexpr bool const& Org::BouncyCastle::Utilities::IO::BaseOutputStream::__get_closed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___closed;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::BaseOutputStream::__set_closed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___closed = value;
 }
 inline bool Org::BouncyCastle::Utilities::IO::BaseOutputStream::get_CanRead() {

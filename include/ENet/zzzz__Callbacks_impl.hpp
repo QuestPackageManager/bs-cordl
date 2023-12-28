@@ -2,10 +2,10 @@
 #include "ENet/zzzz__ENetCallbacks_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Callbacks_def.hpp"
+#include "ENet/zzzz__FreeCallback_def.hpp"
 #include "ENet/zzzz__ENetCallbacks_def.hpp"
 #include "ENet/zzzz__NoMemoryCallback_def.hpp"
 #include "ENet/zzzz__AllocCallback_def.hpp"
-#include "ENet/zzzz__FreeCallback_def.hpp"
 //  Writing Method size for method: ::ENet::Callbacks.get_NativeData
 template <>
 
@@ -51,15 +51,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ENet::ENetCallbacks& ENet::Callbacks::__get_nativeCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeCallbacks;
 }
 constexpr ::ENet::ENetCallbacks const& ENet::Callbacks::__get_nativeCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nativeCallbacks;
 }
 constexpr void ENet::Callbacks::__set_nativeCallbacks(::ENet::ENetCallbacks value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nativeCallbacks = value;
 }
 inline ::ENet::ENetCallbacks ENet::Callbacks::get_NativeData() {

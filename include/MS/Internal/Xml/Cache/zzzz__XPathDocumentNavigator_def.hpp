@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathDocumentNavigator)
+namespace System::Xml::XPath {
+struct XPathNodeType;
+}
+namespace System::Xml::XPath {
+class XPathNavigator;
+}
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
 }
-namespace System::Xml::XPath {
-class XPathNavigator;
-}
-namespace System::Xml::XPath {
-struct XPathNamespaceScope;
-}
 namespace System {
 class Object;
 }
 namespace System::Xml::XPath {
-struct XPathNodeType;
+struct XPathNamespaceScope;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {

@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DataEntry)
-namespace UnityEngine::UI {
-class Text;
-}
-namespace Oculus::Platform::Models {
-class UserList;
-}
-namespace Oculus::Platform::Models {
-class UserProof;
-}
-namespace Oculus::Platform::Models {
-class User;
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 namespace Oculus::Platform::Models {
 class LeaderboardEntryList;
+}
+namespace Oculus::Platform::Models {
+class User;
 }
 namespace Oculus::Platform {
 class Message;
 }
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
+class UserList;
 }
 namespace Oculus::Platform::Models {
 class AchievementDefinitionList;
 }
-namespace Oculus::Platform {
-template <typename T> class Message_1;
+namespace Oculus::Platform::Models {
+class AchievementProgressList;
+}
+namespace Oculus::Platform::Models {
+class UserProof;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Oculus::Platform::Samples::SimplePlatformSample {

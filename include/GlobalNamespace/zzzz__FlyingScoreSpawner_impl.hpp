@@ -4,11 +4,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
+#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition::__FlyingScoreSpawner__SpawnPosition(int32_t value__) noexcept {
   this->value__ = value__;
@@ -33,15 +33,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition& GlobalNamespace::__FlyingScoreSpawner__InitData::__get_spawnPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnPosition;
 }
 constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition const& GlobalNamespace::__FlyingScoreSpawner__InitData::__get_spawnPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnPosition;
 }
 constexpr void GlobalNamespace::__FlyingScoreSpawner__InitData::__set_spawnPosition(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spawnPosition = value;
 }
 inline ::GlobalNamespace::__FlyingScoreSpawner__InitData* GlobalNamespace::__FlyingScoreSpawner__InitData::New_ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition) {
@@ -104,27 +104,27 @@ constexpr GlobalNamespace::FlyingScoreSpawner::operator ::GlobalNamespace::IFlyi
   return static_cast<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool*& GlobalNamespace::FlyingScoreSpawner::__get__flyingScoreEffectPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flyingScoreEffectPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingScoreEffect__Pool*> const& GlobalNamespace::FlyingScoreSpawner::__get__flyingScoreEffectPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flyingScoreEffectPool;
 }
 constexpr void GlobalNamespace::FlyingScoreSpawner::__set__flyingScoreEffectPool(::GlobalNamespace::__FlyingScoreEffect__Pool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____flyingScoreEffectPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__FlyingScoreSpawner__InitData*& GlobalNamespace::FlyingScoreSpawner::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingScoreSpawner__InitData*> const& GlobalNamespace::FlyingScoreSpawner::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::FlyingScoreSpawner::__set__initData(::GlobalNamespace::__FlyingScoreSpawner__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color) {

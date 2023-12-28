@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableView_def.hpp"
-#include "GlobalNamespace/zzzz__DifficultyTableCell_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
+#include "GlobalNamespace/zzzz__DifficultyTableCell_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DifficultyTableView.add_didSelectRow
 template <>
 
@@ -186,75 +186,75 @@ constexpr GlobalNamespace::DifficultyTableView::operator ::HMUI::__TableView__ID
   return static_cast<::HMUI::__TableView__IDataSource*>(static_cast<void*>(this));
 }
 constexpr ::HMUI::TableView*& GlobalNamespace::DifficultyTableView::__get__tableView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableView;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::TableView*> const& GlobalNamespace::DifficultyTableView::__get__tableView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableView;
 }
 constexpr void GlobalNamespace::DifficultyTableView::__set__tableView(::HMUI::TableView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tableView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::DifficultyTableCell*& GlobalNamespace::DifficultyTableView::__get__cellPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DifficultyTableCell*> const& GlobalNamespace::DifficultyTableView::__get__cellPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellPrefab;
 }
 constexpr void GlobalNamespace::DifficultyTableView::__set__cellPrefab(::GlobalNamespace::DifficultyTableCell* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::DifficultyTableCell*& GlobalNamespace::DifficultyTableView::__get__nonSelectableCellPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nonSelectableCellPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DifficultyTableCell*> const& GlobalNamespace::DifficultyTableView::__get__nonSelectableCellPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nonSelectableCellPrefab;
 }
 constexpr void GlobalNamespace::DifficultyTableView::__set__nonSelectableCellPrefab(::GlobalNamespace::DifficultyTableCell* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nonSelectableCellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::DifficultyTableView::__get__cellHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellHeight;
 }
 constexpr float_t const& GlobalNamespace::DifficultyTableView::__get__cellHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellHeight;
 }
 constexpr void GlobalNamespace::DifficultyTableView::__set__cellHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cellHeight = value;
 }
 constexpr ::System::Action_2<::GlobalNamespace::DifficultyTableView*, int32_t>*& GlobalNamespace::DifficultyTableView::__get_didSelectRow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRow;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::DifficultyTableView*, int32_t>*> const& GlobalNamespace::DifficultyTableView::__get_didSelectRow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRow;
 }
 constexpr void GlobalNamespace::DifficultyTableView::__set_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectRow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::IDifficultyBeatmap*, ::Array<::GlobalNamespace::IDifficultyBeatmap*>*>& GlobalNamespace::DifficultyTableView::__get__difficultyBeatmaps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmaps;
 }
 constexpr ::ArrayW<::GlobalNamespace::IDifficultyBeatmap*, ::Array<::GlobalNamespace::IDifficultyBeatmap*>*> const& GlobalNamespace::DifficultyTableView::__get__difficultyBeatmaps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultyBeatmaps;
 }
 constexpr void GlobalNamespace::DifficultyTableView::__set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*, ::Array<::GlobalNamespace::IDifficultyBeatmap*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultyBeatmaps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::DifficultyTableView::add_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int32_t>* value) {

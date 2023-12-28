@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredBeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
-#include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MirroredBeatmapObjectManager.Init
 template <>
 
@@ -174,183 +174,183 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::MirroredBeatmapObjectManager::__get__beatmapObjectManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::MirroredBeatmapObjectManager::__get__beatmapObjectManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBasicGameNotePoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBasicGameNotePoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBasicGameNotePoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBasicGameNotePoolContainer;
 }
 constexpr void
 GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredBasicGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBasicGameNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBurstSliderHeadGameNotePoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderHeadGameNotePoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBurstSliderHeadGameNotePoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderHeadGameNotePoolContainer;
 }
 constexpr void
 GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredBurstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderHeadGameNotePoolContainer)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBurstSliderGameNotePoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderGameNotePoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBurstSliderGameNotePoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderGameNotePoolContainer;
 }
 constexpr void
 GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredBurstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderGameNotePoolContainer)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*& GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBurstSliderFillPoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderFillPoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBurstSliderFillPoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBurstSliderFillPoolContainer;
 }
 constexpr void
 GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredBurstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBurstSliderFillPoolContainer)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredBombNoteController*>*& GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBombNotePoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBombNotePoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredBombNoteController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredBombNotePoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredBombNotePoolContainer;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredBombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredBombNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredBombNotePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredObstacleController*>*& GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredObstaclePoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredObstaclePoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredObstacleController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredObstaclePoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredObstaclePoolContainer;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredObstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredObstacleController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredObstaclePoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredSliderController*>*& GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredSlidersPoolContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredSlidersPoolContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredSliderController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__mirroredSlidersPoolContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredSlidersPoolContainer;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__mirroredSlidersPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredSliderController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredSlidersPoolContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<
     ::GlobalNamespace::IGameNoteMirrorable*,
     ::System::ValueTuple_2<::GlobalNamespace::MirroredGameNoteController*, ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*>>*&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__gameNoteControllersToMirroredGameNoteControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameNoteControllersToMirroredGameNoteControllers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
     ::GlobalNamespace::IGameNoteMirrorable*,
     ::System::ValueTuple_2<::GlobalNamespace::MirroredGameNoteController*, ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*>>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__gameNoteControllersToMirroredGameNoteControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameNoteControllersToMirroredGameNoteControllers;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__gameNoteControllersToMirroredGameNoteControllers(
     ::System::Collections::Generic::Dictionary_2<
         ::GlobalNamespace::IGameNoteMirrorable*,
         ::System::ValueTuple_2<::GlobalNamespace::MirroredGameNoteController*, ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MirroredGameNoteController*>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameNoteControllersToMirroredGameNoteControllers)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::GlobalNamespace::MirroredBombNoteController*>*&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__bombNoteControllersToMirroredBombNoteControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombNoteControllersToMirroredBombNoteControllers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::GlobalNamespace::MirroredBombNoteController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__bombNoteControllersToMirroredBombNoteControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombNoteControllersToMirroredBombNoteControllers;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__bombNoteControllersToMirroredBombNoteControllers(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INoteMirrorable*, ::GlobalNamespace::MirroredBombNoteController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombNoteControllersToMirroredBombNoteControllers)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ObstacleController*, ::GlobalNamespace::MirroredObstacleController*>*&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__obstacleControllersToMirroredObstacleControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleControllersToMirroredObstacleControllers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ObstacleController*, ::GlobalNamespace::MirroredObstacleController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__obstacleControllersToMirroredObstacleControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleControllersToMirroredObstacleControllers;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__obstacleControllersToMirroredObstacleControllers(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ObstacleController*, ::GlobalNamespace::MirroredObstacleController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____obstacleControllersToMirroredObstacleControllers)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>*&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__sliderControllersToMirroredSliderControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderControllersToMirroredSliderControllers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>*> const&
 GlobalNamespace::MirroredBeatmapObjectManager::__get__sliderControllersToMirroredSliderControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderControllersToMirroredSliderControllers;
 }
 constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__set__sliderControllersToMirroredSliderControllers(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderControllersToMirroredSliderControllers)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

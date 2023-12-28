@@ -2,11 +2,11 @@
 #include "System/Globalization/zzzz__DateTimeFormatInfoScanner_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfoScanner_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfoScanner_def.hpp"
 #include "System/Globalization/zzzz__FORMATFLAGS_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern::__DateTimeFormatInfoScanner__FoundDatePattern(int32_t value__) noexcept {
   this->value__ = value__;
@@ -270,27 +270,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Globalization::DateTimeFormatInfoScanner::__get_m_dateWords() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dateWords;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::Globalization::DateTimeFormatInfoScanner::__get_m_dateWords() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dateWords;
 }
 constexpr void System::Globalization::DateTimeFormatInfoScanner::__set_m_dateWords(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_dateWords)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern& System::Globalization::DateTimeFormatInfoScanner::__get__ymdFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ymdFlags;
 }
 constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern const& System::Globalization::DateTimeFormatInfoScanner::__get__ymdFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ymdFlags;
 }
 constexpr void System::Globalization::DateTimeFormatInfoScanner::__set__ymdFlags(::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ymdFlags = value;
 }
 inline void System::Globalization::DateTimeFormatInfoScanner::setStaticF_s_knownWords(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {

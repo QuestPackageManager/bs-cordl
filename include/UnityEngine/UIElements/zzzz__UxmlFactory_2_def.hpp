@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_2)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlFactory;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

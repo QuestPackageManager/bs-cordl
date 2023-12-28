@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(EditAvatarColorViewController)
 namespace GlobalNamespace {
-struct ColorChangeUIEventType;
-}
-namespace UnityEngine::UI {
-class Button;
+class PreviousColorPanelController;
 }
 namespace HMUI {
 class ButtonBinder;
 }
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class HSVPanelController;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
-class PreviousColorPanelController;
+class HSVPanelController;
 }
 namespace UnityEngine {
 struct Color;

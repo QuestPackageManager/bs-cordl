@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(KeyedFactory_4)
 namespace System {
 class Type;
 }
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

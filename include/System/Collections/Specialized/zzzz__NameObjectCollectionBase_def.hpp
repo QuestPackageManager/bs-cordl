@@ -6,23 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameObjectCollectionBase)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
-class Array;
-}
-namespace System {
-class StringComparer;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class Object;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Collections {
-class IEnumerable;
+class Hashtable;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
@@ -31,28 +22,37 @@ namespace System::Collections::Specialized {
 class __NameObjectCollectionBase__NameObjectEntry;
 }
 namespace System::Collections {
-class Hashtable;
+class ArrayList;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections::Specialized {
-class __NameObjectCollectionBase__NameObjectKeysEnumerator;
+class IEnumerator;
 }
 namespace System {
 class DBNull;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Array;
+}
+namespace System::Collections::Specialized {
+class __NameObjectCollectionBase__NameObjectKeysEnumerator;
+}
+namespace System {
+class StringComparer;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {

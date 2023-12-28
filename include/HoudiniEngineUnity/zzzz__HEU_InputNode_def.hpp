@@ -10,19 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputNode)
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputHDAInfo;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputPreset;
-}
-namespace UnityEngine {
-class GameObject;
+struct __HEU_InputNode__InputNodeType;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_InputNode__InputObjectType;
@@ -31,25 +19,37 @@ namespace HoudiniEngineUnity {
 struct __HEU_InputNode__InputActions;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputObjectInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputInterfaceTilemapSettings;
-}
-namespace HoudiniEngineUnity {
 struct __HEU_InputNode__InternalObjectType;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_InputHDAInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputNodeUICache;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputNodeType;
+class HEU_InputInterfaceTilemapSettings;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputPreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputObjectInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -297,7 +297,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputN
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9642)), TypeDefinitionIndex(TypeDefinitionIndex(9641))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9642)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9641))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9645))
 // CS Name: ::HoudiniEngineUnity::HEU_InputNode*
 class CORDL_TYPE HEU_InputNode : public ::UnityEngine::ScriptableObject {

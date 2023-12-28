@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__GetFromPrefabComponentProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Zenject::GetFromPrefabComponentProvider._ctor
 template <>
 
@@ -92,39 +92,39 @@ constexpr Zenject::GetFromPrefabComponentProvider::operator ::Zenject::IProvider
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::IPrefabInstantiator*& Zenject::GetFromPrefabComponentProvider::__get__prefabInstantiator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabInstantiator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& Zenject::GetFromPrefabComponentProvider::__get__prefabInstantiator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabInstantiator;
 }
 constexpr void Zenject::GetFromPrefabComponentProvider::__set__prefabInstantiator(::Zenject::IPrefabInstantiator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefabInstantiator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& Zenject::GetFromPrefabComponentProvider::__get__componentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::GetFromPrefabComponentProvider::__get__componentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentType;
 }
 constexpr void Zenject::GetFromPrefabComponentProvider::__set__componentType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____componentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::GetFromPrefabComponentProvider::__get__matchSingle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matchSingle;
 }
 constexpr bool const& Zenject::GetFromPrefabComponentProvider::__get__matchSingle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____matchSingle;
 }
 constexpr void Zenject::GetFromPrefabComponentProvider::__set__matchSingle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____matchSingle = value;
 }
 inline ::Zenject::GetFromPrefabComponentProvider* Zenject::GetFromPrefabComponentProvider::New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator,

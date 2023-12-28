@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstantMenuButtonTrigger)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace GlobalNamespace {
 class IMenuButtonTrigger;
 }
+namespace System {
+class Action;
+}
 namespace Zenject {
 class ITickable;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

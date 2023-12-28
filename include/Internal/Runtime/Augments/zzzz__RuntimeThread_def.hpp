@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeThread)
 namespace System::Threading {
-class Thread;
+class ParameterizedThreadStart;
 }
 namespace System::Threading {
-class ParameterizedThreadStart;
+class Thread;
 }
 namespace System {
 class Object;

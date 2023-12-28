@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProviderBindingFinalizer)
 namespace Zenject {
-struct BindingInheritanceMethods;
-}
-namespace Zenject {
-class IBindingFinalizer;
-}
-namespace Zenject {
 class __ProviderBindingFinalizer____c;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-struct ScopeTypes;
-}
-namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class DiContainer;
+class BindInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
+struct ScopeTypes;
+}
+namespace Zenject {
+struct BindingInheritanceMethods;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class InjectTypeInfo;

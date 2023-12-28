@@ -8,25 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshUtility)
 namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
 class Mesh;
+}
+namespace UnityEngine::ProBuilder {
+class __MeshUtility____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine {
-struct MeshTopology;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct MeshTopology;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
+struct Vector3;
 }
 namespace UnityEngine {
 class GameObject;
@@ -34,14 +37,11 @@ class GameObject;
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-class __MeshUtility____c;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;

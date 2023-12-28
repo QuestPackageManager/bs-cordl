@@ -12,38 +12,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRLocatable)
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+namespace GlobalNamespace {
+template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
 struct __OVRLocatable__TrackingSpacePose;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 struct OVRAnchor;
 }
 namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
-}
-namespace UnityEngine {
-struct Quaternion;
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceLocationFlags;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Camera;
@@ -62,9 +62,10 @@ MARK_VAL_T(::GlobalNamespace::__OVRLocatable__TrackingSpacePose);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(7783)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7512)) CS Name: ::OVRLocatable::TrackingSpacePose
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7783)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7512))
+// CS Name: ::OVRLocatable::TrackingSpacePose
 struct CORDL_TYPE __OVRLocatable__TrackingSpacePose {
 public:
   // Declarations

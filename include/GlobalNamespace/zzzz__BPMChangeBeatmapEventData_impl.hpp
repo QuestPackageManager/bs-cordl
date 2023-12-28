@@ -49,15 +49,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::BPMChangeBeatmapEventData::__get_bpm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bpm;
 }
 constexpr float_t const& GlobalNamespace::BPMChangeBeatmapEventData::__get_bpm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bpm;
 }
 constexpr void GlobalNamespace::BPMChangeBeatmapEventData::__set_bpm(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bpm = value;
 }
 inline ::GlobalNamespace::BPMChangeBeatmapEventData* GlobalNamespace::BPMChangeBeatmapEventData::New_ctor(float_t time, float_t bpm) {

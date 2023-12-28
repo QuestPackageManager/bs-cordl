@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(ActivationPlayableAsset)
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

@@ -10,8 +10,8 @@ class IEnumerable;
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections {
 class ICollection;
@@ -19,8 +19,8 @@ class ICollection;
 namespace System::ComponentModel {
 struct ListSortDirection;
 }
-namespace System::Collections {
-class IList;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

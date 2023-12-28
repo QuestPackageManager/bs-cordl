@@ -2,16 +2,16 @@
 #include "System/Collections/Specialized/zzzz__NameValueCollection_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollectionType_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
-#include "System/Net/zzzz__HttpRequestHeader_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollectionType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Net/zzzz__HeaderInfoTable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Net/zzzz__HeaderInfoTable_def.hpp"
+#include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Net/zzzz__HttpRequestHeader_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__WebHeaderCollection__RfcChar::__WebHeaderCollection__RfcChar(uint8_t value__) noexcept {
   this->value__ = value__;
@@ -480,51 +480,51 @@ constexpr System::Net::WebHeaderCollection::operator ::System::Runtime::Serializ
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Net::WebHeaderCollection::__get_m_CommonHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommonHeaders;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Net::WebHeaderCollection::__get_m_CommonHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommonHeaders;
 }
 constexpr void System::Net::WebHeaderCollection::__set_m_CommonHeaders(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CommonHeaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::WebHeaderCollection::__get_m_NumCommonHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumCommonHeaders;
 }
 constexpr int32_t const& System::Net::WebHeaderCollection::__get_m_NumCommonHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumCommonHeaders;
 }
 constexpr void System::Net::WebHeaderCollection::__set_m_NumCommonHeaders(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NumCommonHeaders = value;
 }
 constexpr ::System::Collections::Specialized::NameValueCollection*& System::Net::WebHeaderCollection::__get_m_InnerCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InnerCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::NameValueCollection*> const& System::Net::WebHeaderCollection::__get_m_InnerCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InnerCollection;
 }
 constexpr void System::Net::WebHeaderCollection::__set_m_InnerCollection(::System::Collections::Specialized::NameValueCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InnerCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebHeaderCollectionType& System::Net::WebHeaderCollection::__get_m_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr ::System::Net::WebHeaderCollectionType const& System::Net::WebHeaderCollection::__get_m_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr void System::Net::WebHeaderCollection::__set_m_Type(::System::Net::WebHeaderCollectionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Type = value;
 }
 inline void System::Net::WebHeaderCollection::setStaticF_HInfo(::System::Net::HeaderInfoTable* value) {

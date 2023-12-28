@@ -14,33 +14,33 @@
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NamedValue_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NameAndParameters_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlAttribute_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlAttribute_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__InputControlLayout__ControlItem__Flags::__InputControlLayout__ControlItem__Flags(int32_t value__) noexcept {
@@ -2021,114 +2021,114 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__name_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__name_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set__name_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__displayName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayName_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__displayName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayName_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set__displayName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____displayName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Type*& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__type_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__type_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set__type_k__BackingField(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::Utilities::FourCC& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__stateFormat_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateFormat_k__BackingField;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__stateFormat_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateFormat_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set__stateFormat_k__BackingField(::UnityEngine::InputSystem::Utilities::FourCC value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stateFormat_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__stateSizeInBytes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateSizeInBytes_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__stateSizeInBytes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateSizeInBytes_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set__stateSizeInBytes_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stateSizeInBytes_k__BackingField = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get_m_ExtendsLayout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExtendsLayout;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get_m_ExtendsLayout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExtendsLayout;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set_m_ExtendsLayout(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ExtendsLayout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<bool>& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__updateBeforeRender_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateBeforeRender_k__BackingField;
 }
 constexpr ::System::Nullable_1<bool> const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get__updateBeforeRender_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateBeforeRender_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set__updateBeforeRender_k__BackingField(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____updateBeforeRender_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get_m_ControlCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlCount;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get_m_ControlCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlCount;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set_m_ControlCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ControlCount = value;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>&
 UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get_m_Controls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controls;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> const&
 UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__get_m_Controls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controls;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::__set_m_Controls(
     ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Controls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder::get_name() {
@@ -2775,279 +2775,279 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_layout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_layout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_layout(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___layout)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_variants() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___variants;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_variants() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___variants;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_variants(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___variants)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_usage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usage;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_usage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usage;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_usage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___usage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_alias() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alias;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_alias() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___alias;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_alias(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___alias)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_useStateFrom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useStateFrom;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_useStateFrom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useStateFrom;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_useStateFrom(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useStateFrom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr uint32_t const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_offset(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 constexpr uint32_t& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_bit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bit;
 }
 constexpr uint32_t const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_bit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bit;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_bit(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bit = value;
 }
 constexpr uint32_t& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_sizeInBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sizeInBits;
 }
 constexpr uint32_t const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_sizeInBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sizeInBits;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_sizeInBits(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sizeInBits = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_format() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_format() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_format(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___format)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_arraySize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arraySize;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_arraySize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arraySize;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_arraySize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___arraySize = value;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_usages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usages;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_usages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usages;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_usages(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___usages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_aliases() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aliases;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_aliases() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aliases;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___aliases)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_parameters(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_processors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processors;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_processors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processors;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_processors(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___processors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_displayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_displayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___displayName;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_displayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_shortDisplayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortDisplayName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_shortDisplayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortDisplayName;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_shortDisplayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___shortDisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_noisy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noisy;
 }
 constexpr bool const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_noisy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noisy;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_noisy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noisy = value;
 }
 constexpr bool& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_dontReset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dontReset;
 }
 constexpr bool const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_dontReset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dontReset;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_dontReset(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dontReset = value;
 }
 constexpr bool& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_synthetic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___synthetic;
 }
 constexpr bool const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_synthetic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___synthetic;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_synthetic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___synthetic = value;
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_defaultState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultState;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_defaultState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultState;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_defaultState(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_minValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_minValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minValue;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_minValue(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___minValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_maxValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__get_maxValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxValue;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::__set_maxValue(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___maxValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson* UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson::New_ctor() {
@@ -3667,111 +3667,111 @@ constexpr GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___2__current(::UnityEngine::InputSystem::Utilities::InternedString value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr bool& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get_includeSelf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___includeSelf;
 }
 constexpr bool const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get_includeSelf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___includeSelf;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set_includeSelf(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___includeSelf = value;
 }
 constexpr bool& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3__includeSelf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__includeSelf;
 }
 constexpr bool const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3__includeSelf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__includeSelf;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___3__includeSelf(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__includeSelf = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get_layout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get_layout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layout;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set_layout(::UnityEngine::InputSystem::Utilities::InternedString value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layout = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3__layout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__layout;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3__layout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__layout;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___3__layout(::UnityEngine::InputSystem::Utilities::InternedString value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__layout = value;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3____4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3____4__this;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3____4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3____4__this;
 }
 constexpr void GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::__set___3____4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3____4__this = value;
 }
 inline ::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24* GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24::New_ctor(int32_t __1__state) {
@@ -3923,15 +3923,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException::__get__layout_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException::__get__layout_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException::__set__layout_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layout_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException::get_layout() {
@@ -4920,170 +4920,170 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Name = value;
 }
 constexpr ::System::Type*& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Type;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_Type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Variants() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Variants;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Variants() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Variants;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Variants = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::FourCC& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_StateFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateFormat;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_StateFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateFormat;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_StateFormat(::UnityEngine::InputSystem::Utilities::FourCC value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StateFormat = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_StateSizeInBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateSizeInBytes;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_StateSizeInBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateSizeInBytes;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_StateSizeInBytes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StateSizeInBytes = value;
 }
 constexpr ::System::Nullable_1<bool>& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_UpdateBeforeRender() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateBeforeRender;
 }
 constexpr ::System::Nullable_1<bool> const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_UpdateBeforeRender() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateBeforeRender;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_UpdateBeforeRender(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateBeforeRender = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_BaseLayouts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BaseLayouts;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_BaseLayouts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BaseLayouts;
 }
 constexpr void
 UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_BaseLayouts(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BaseLayouts = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_AppliedOverrides() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AppliedOverrides;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_AppliedOverrides() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AppliedOverrides;
 }
 constexpr void
 UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_AppliedOverrides(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AppliedOverrides = value;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*>&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_CommonUsages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommonUsages;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> const&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_CommonUsages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CommonUsages;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_CommonUsages(
     ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CommonUsages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Controls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controls;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> const&
 UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Controls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controls;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_Controls(
     ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Controls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_DisplayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DisplayName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_DisplayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DisplayName;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_DisplayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Description() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Description;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Description() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Description;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_Description(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Description)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const& UnityEngine::InputSystem::Layouts::InputControlLayout::__get_m_Flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
 constexpr void UnityEngine::InputSystem::Layouts::InputControlLayout::__set_m_Flags(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Flags = value;
 }
 inline void UnityEngine::InputSystem::Layouts::InputControlLayout::setStaticF_s_DefaultVariant(::UnityEngine::InputSystem::Utilities::InternedString value) {

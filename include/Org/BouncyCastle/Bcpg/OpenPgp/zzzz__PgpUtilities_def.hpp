@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpUtilities)
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
+}
+namespace System::IO {
+class FileInfo;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
@@ -16,26 +25,17 @@ struct HashAlgorithmTag;
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
 }
-namespace System::IO {
-class FileInfo;
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

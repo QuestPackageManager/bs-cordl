@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateUrl)
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class __CertificateUrl__ListBuffer16;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System::IO {
 class Stream;

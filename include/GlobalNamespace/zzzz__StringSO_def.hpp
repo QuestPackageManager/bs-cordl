@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StringSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 397 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(15869))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15872))
 // CS Name: ::StringSO*
 class CORDL_TYPE StringSO : public ::GlobalNamespace::ObservableVariableSO_1<::StringW> {

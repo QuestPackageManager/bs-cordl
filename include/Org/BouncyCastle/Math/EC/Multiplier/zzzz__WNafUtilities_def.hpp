@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WNafUtilities)
+namespace Org::BouncyCastle::Math::EC {
+class ECPointMap;
+}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__PrecomputeCallback;
+class __WNafUtilities__MapPointCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class WNafPreCompInfo;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPointMap;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__PrecomputeWithPointMapCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__ConfigureBasepointCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WNafUtilities__MapPointCallback;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class __WNafUtilities__PrecomputeCallback;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
+class __WNafUtilities__PrecomputeWithPointMapCallback;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class WNafPreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class __WNafUtilities__ConfigureBasepointCallback;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {

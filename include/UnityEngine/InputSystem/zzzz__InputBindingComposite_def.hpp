@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingComposite)
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem {
-class __InputBindingComposite___GetPartNames_d__12;
+struct InputBindingCompositeContext;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
+class __InputBindingComposite___GetPartNames_d__12;
 }
-namespace System::Reflection {
-class FieldInfo;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Reflection {
+class FieldInfo;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;

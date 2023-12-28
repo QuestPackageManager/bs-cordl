@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BsonRegex)
 namespace Newtonsoft::Json::Bson {
-struct BsonType;
+class BsonString;
 }
 namespace Newtonsoft::Json::Bson {
-class BsonString;
+struct BsonType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {

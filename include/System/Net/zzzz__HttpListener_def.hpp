@@ -8,52 +8,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListener)
 namespace System::Net {
-class ServiceNameStore;
+class AuthenticationSchemeSelector;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Net::Security {
+class SslStream;
 }
 namespace System::Net {
-struct AuthenticationSchemes;
+class HttpListenerPrefixCollection;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace System {
+class Object;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Net {
+class HttpConnection;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class HttpConnection;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Net::Security {
-class SslStream;
-}
-namespace System::Security::Authentication::ExtendedProtection {
-class ExtendedProtectionPolicy;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Collections {
-class ArrayList;
+class ServiceNameStore;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace System {
-class IDisposable;
-}
-namespace Mono::Security::Interface {
-class MonoTlsProvider;
-}
-namespace System::Net {
-class HttpListenerPrefixCollection;
+namespace System::Security::Authentication::ExtendedProtection {
+class ExtendedProtectionPolicy;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System::Net {
-class AuthenticationSchemeSelector;
 }
 namespace System {
 class AsyncCallback;
@@ -61,11 +58,14 @@ class AsyncCallback;
 namespace System::Net {
 class HttpListenerContext;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net {
+class IPAddress;
 }
-namespace System {
-class Object;
+namespace System::Net {
+struct AuthenticationSchemes;
+}
+namespace Mono::Security::Interface {
+class MonoTlsProvider;
 }
 // Forward declare root types
 namespace System::Net {

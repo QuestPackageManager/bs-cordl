@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ExampleEvergreenQuery)
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct HAPI_GeoInfo;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace System::Text {
-class StringBuilder;
+struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;

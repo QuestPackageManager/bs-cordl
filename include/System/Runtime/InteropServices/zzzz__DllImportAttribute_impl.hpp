@@ -88,111 +88,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Runtime::InteropServices::DllImportAttribute::__get__val() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr ::StringW const& System::Runtime::InteropServices::DllImportAttribute::__get__val() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____val;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set__val(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____val)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::InteropServices::DllImportAttribute::__get_EntryPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EntryPoint;
 }
 constexpr ::StringW const& System::Runtime::InteropServices::DllImportAttribute::__get_EntryPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EntryPoint;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_EntryPoint(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___EntryPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::InteropServices::CharSet& System::Runtime::InteropServices::DllImportAttribute::__get_CharSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CharSet;
 }
 constexpr ::System::Runtime::InteropServices::CharSet const& System::Runtime::InteropServices::DllImportAttribute::__get_CharSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CharSet;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_CharSet(::System::Runtime::InteropServices::CharSet value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CharSet = value;
 }
 constexpr bool& System::Runtime::InteropServices::DllImportAttribute::__get_SetLastError() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SetLastError;
 }
 constexpr bool const& System::Runtime::InteropServices::DllImportAttribute::__get_SetLastError() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SetLastError;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_SetLastError(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SetLastError = value;
 }
 constexpr bool& System::Runtime::InteropServices::DllImportAttribute::__get_ExactSpelling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExactSpelling;
 }
 constexpr bool const& System::Runtime::InteropServices::DllImportAttribute::__get_ExactSpelling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExactSpelling;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_ExactSpelling(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ExactSpelling = value;
 }
 constexpr bool& System::Runtime::InteropServices::DllImportAttribute::__get_PreserveSig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreserveSig;
 }
 constexpr bool const& System::Runtime::InteropServices::DllImportAttribute::__get_PreserveSig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PreserveSig;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_PreserveSig(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___PreserveSig = value;
 }
 constexpr ::System::Runtime::InteropServices::CallingConvention& System::Runtime::InteropServices::DllImportAttribute::__get_CallingConvention() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CallingConvention;
 }
 constexpr ::System::Runtime::InteropServices::CallingConvention const& System::Runtime::InteropServices::DllImportAttribute::__get_CallingConvention() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CallingConvention;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_CallingConvention(::System::Runtime::InteropServices::CallingConvention value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CallingConvention = value;
 }
 constexpr bool& System::Runtime::InteropServices::DllImportAttribute::__get_BestFitMapping() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BestFitMapping;
 }
 constexpr bool const& System::Runtime::InteropServices::DllImportAttribute::__get_BestFitMapping() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BestFitMapping;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_BestFitMapping(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___BestFitMapping = value;
 }
 constexpr bool& System::Runtime::InteropServices::DllImportAttribute::__get_ThrowOnUnmappableChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ThrowOnUnmappableChar;
 }
 constexpr bool const& System::Runtime::InteropServices::DllImportAttribute::__get_ThrowOnUnmappableChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ThrowOnUnmappableChar;
 }
 constexpr void System::Runtime::InteropServices::DllImportAttribute::__set_ThrowOnUnmappableChar(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ThrowOnUnmappableChar = value;
 }
 inline ::System::Attribute* System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method) {

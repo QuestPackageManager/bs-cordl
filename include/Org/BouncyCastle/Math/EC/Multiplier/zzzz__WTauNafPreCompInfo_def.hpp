@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(WTauNafPreCompInfo)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
 namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mPoint;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {

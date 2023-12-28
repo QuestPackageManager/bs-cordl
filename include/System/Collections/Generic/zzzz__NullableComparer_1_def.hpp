@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullableComparer_1)
 namespace System {
-class Object;
+template <typename T> struct Nullable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -24,8 +24,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 1033 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2448), inst: 2684 }), TypeDefinitionIndex(TypeDefinitionIndex(3865))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3867)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 1033 }), TypeDefinitionIndex(TypeDefinitionIndex(3865)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2448), inst: 2684 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3867)) CS Name:
 // ::System.Collections.Generic::NullableComparer`1<T>*
 class CORDL_TYPE NullableComparer_1 : public ::System::Collections::Generic::Comparer_1<::System::Nullable_1<T>> {
 public:

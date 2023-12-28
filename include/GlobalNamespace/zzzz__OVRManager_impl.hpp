@@ -9,43 +9,43 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "System/zzzz__Version_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureSettings_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRRuntimeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTracker_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRuntimeSettings_def.hpp"
+#include "System/zzzz__WeakReference_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/zzzz__Action_6_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTracker_def.hpp"
-#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__WeakReference_1_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
-#include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureSettings_def.hpp"
+#include "System/zzzz__Action_4_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "System/zzzz__Action_6_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
+#include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -421,39 +421,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__OVRManager__PassthroughCapabilities::__get__SupportsPassthrough_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SupportsPassthrough_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::__OVRManager__PassthroughCapabilities::__get__SupportsPassthrough_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SupportsPassthrough_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRManager__PassthroughCapabilities::__set__SupportsPassthrough_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SupportsPassthrough_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::__OVRManager__PassthroughCapabilities::__get__SupportsColorPassthrough_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SupportsColorPassthrough_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::__OVRManager__PassthroughCapabilities::__get__SupportsColorPassthrough_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SupportsColorPassthrough_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRManager__PassthroughCapabilities::__set__SupportsColorPassthrough_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____SupportsColorPassthrough_k__BackingField = value;
 }
 constexpr uint32_t& GlobalNamespace::__OVRManager__PassthroughCapabilities::__get__MaxColorLutResolution_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxColorLutResolution_k__BackingField;
 }
 constexpr uint32_t const& GlobalNamespace::__OVRManager__PassthroughCapabilities::__get__MaxColorLutResolution_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxColorLutResolution_k__BackingField;
 }
 constexpr void GlobalNamespace::__OVRManager__PassthroughCapabilities::__set__MaxColorLutResolution_k__BackingField(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxColorLutResolution_k__BackingField = value;
 }
 inline bool GlobalNamespace::__OVRManager__PassthroughCapabilities::get_SupportsPassthrough() {
@@ -3867,750 +3867,750 @@ constexpr GlobalNamespace::OVRManager::operator ::GlobalNamespace::OVRMixedReali
   return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>*& GlobalNamespace::OVRManager::__get_disabledCameras() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disabledCameras;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>*> const& GlobalNamespace::OVRManager::__get_disabledCameras() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disabledCameras;
 }
 constexpr void GlobalNamespace::OVRManager::__set_disabledCameras(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___disabledCameras)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_prevTimeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevTimeScale;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_prevTimeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevTimeScale;
 }
 constexpr void GlobalNamespace::OVRManager::__set_prevTimeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevTimeScale = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_useRecommendedMSAALevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useRecommendedMSAALevel;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_useRecommendedMSAALevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useRecommendedMSAALevel;
 }
 constexpr void GlobalNamespace::OVRManager::__set_useRecommendedMSAALevel(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useRecommendedMSAALevel = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get__monoscopic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoscopic;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get__monoscopic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____monoscopic;
 }
 constexpr void GlobalNamespace::OVRManager::__set__monoscopic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____monoscopic = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__LayerSharpenType& GlobalNamespace::OVRManager::__get__sharpenType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharpenType;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__LayerSharpenType const& GlobalNamespace::OVRManager::__get__sharpenType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharpenType;
 }
 constexpr void GlobalNamespace::OVRManager::__set__sharpenType(::GlobalNamespace::__OVRPlugin__LayerSharpenType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sharpenType = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__ColorSpace& GlobalNamespace::OVRManager::__get__colorGamut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorGamut;
 }
 constexpr ::GlobalNamespace::__OVRManager__ColorSpace const& GlobalNamespace::OVRManager::__get__colorGamut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorGamut;
 }
 constexpr void GlobalNamespace::OVRManager::__set__colorGamut(::GlobalNamespace::__OVRManager__ColorSpace value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorGamut = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_enableDynamicResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableDynamicResolution;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_enableDynamicResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableDynamicResolution;
 }
 constexpr void GlobalNamespace::OVRManager::__set_enableDynamicResolution(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableDynamicResolution = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_minDynamicResolutionScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minDynamicResolutionScale;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_minDynamicResolutionScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minDynamicResolutionScale;
 }
 constexpr void GlobalNamespace::OVRManager::__set_minDynamicResolutionScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minDynamicResolutionScale = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_maxDynamicResolutionScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxDynamicResolutionScale;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_maxDynamicResolutionScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxDynamicResolutionScale;
 }
 constexpr void GlobalNamespace::OVRManager::__set_maxDynamicResolutionScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxDynamicResolutionScale = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_minRenderScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minRenderScale;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_minRenderScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minRenderScale;
 }
 constexpr void GlobalNamespace::OVRManager::__set_minRenderScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minRenderScale = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_maxRenderScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRenderScale;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_maxRenderScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRenderScale;
 }
 constexpr void GlobalNamespace::OVRManager::__set_maxRenderScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxRenderScale = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRManager::__get__headPoseRelativeOffsetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPoseRelativeOffsetRotation;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRManager::__get__headPoseRelativeOffsetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPoseRelativeOffsetRotation;
 }
 constexpr void GlobalNamespace::OVRManager::__set__headPoseRelativeOffsetRotation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPoseRelativeOffsetRotation = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRManager::__get__headPoseRelativeOffsetTranslation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPoseRelativeOffsetTranslation;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRManager::__get__headPoseRelativeOffsetTranslation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPoseRelativeOffsetTranslation;
 }
 constexpr void GlobalNamespace::OVRManager::__set__headPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPoseRelativeOffsetTranslation = value;
 }
 constexpr int32_t& GlobalNamespace::OVRManager::__get_profilerTcpPort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___profilerTcpPort;
 }
 constexpr int32_t const& GlobalNamespace::OVRManager::__get_profilerTcpPort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___profilerTcpPort;
 }
 constexpr void GlobalNamespace::OVRManager::__set_profilerTcpPort(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___profilerTcpPort = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_expandMixedRealityCapturePropertySheet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandMixedRealityCapturePropertySheet;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_expandMixedRealityCapturePropertySheet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandMixedRealityCapturePropertySheet;
 }
 constexpr void GlobalNamespace::OVRManager::__set_expandMixedRealityCapturePropertySheet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___expandMixedRealityCapturePropertySheet = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_enableMixedReality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMixedReality;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_enableMixedReality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableMixedReality;
 }
 constexpr void GlobalNamespace::OVRManager::__set_enableMixedReality(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableMixedReality = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& GlobalNamespace::OVRManager::__get_compositionMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionMethod;
 }
 constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& GlobalNamespace::OVRManager::__get_compositionMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___compositionMethod;
 }
 constexpr void GlobalNamespace::OVRManager::__set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___compositionMethod = value;
 }
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::OVRManager::__get_extraHiddenLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraHiddenLayers;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::OVRManager::__get_extraHiddenLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraHiddenLayers;
 }
 constexpr void GlobalNamespace::OVRManager::__set_extraHiddenLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extraHiddenLayers = value;
 }
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::OVRManager::__get_extraVisibleLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraVisibleLayers;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::OVRManager::__get_extraVisibleLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extraVisibleLayers;
 }
 constexpr void GlobalNamespace::OVRManager::__set_extraVisibleLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___extraVisibleLayers = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_dynamicCullingMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicCullingMask;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_dynamicCullingMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicCullingMask;
 }
 constexpr void GlobalNamespace::OVRManager::__set_dynamicCullingMask(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dynamicCullingMask = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRManager::__get_externalCompositionBackdropColorRift() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorRift;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRManager::__get_externalCompositionBackdropColorRift() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorRift;
 }
 constexpr void GlobalNamespace::OVRManager::__set_externalCompositionBackdropColorRift(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalCompositionBackdropColorRift = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRManager::__get_externalCompositionBackdropColorQuest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorQuest;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRManager::__get_externalCompositionBackdropColorQuest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalCompositionBackdropColorQuest;
 }
 constexpr void GlobalNamespace::OVRManager::__set_externalCompositionBackdropColorQuest(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalCompositionBackdropColorQuest = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__CameraDevice& GlobalNamespace::OVRManager::__get_capturingCameraDevice() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capturingCameraDevice;
 }
 constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& GlobalNamespace::OVRManager::__get_capturingCameraDevice() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___capturingCameraDevice;
 }
 constexpr void GlobalNamespace::OVRManager::__set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___capturingCameraDevice = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_flipCameraFrameHorizontally() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameHorizontally;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_flipCameraFrameHorizontally() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameHorizontally;
 }
 constexpr void GlobalNamespace::OVRManager::__set_flipCameraFrameHorizontally(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flipCameraFrameHorizontally = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_flipCameraFrameVertically() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameVertically;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_flipCameraFrameVertically() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flipCameraFrameVertically;
 }
 constexpr void GlobalNamespace::OVRManager::__set_flipCameraFrameVertically(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flipCameraFrameVertically = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_handPoseStateLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPoseStateLatency;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_handPoseStateLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPoseStateLatency;
 }
 constexpr void GlobalNamespace::OVRManager::__set_handPoseStateLatency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handPoseStateLatency = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_sandwichCompositionRenderLatency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionRenderLatency;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_sandwichCompositionRenderLatency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionRenderLatency;
 }
 constexpr void GlobalNamespace::OVRManager::__set_sandwichCompositionRenderLatency(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sandwichCompositionRenderLatency = value;
 }
 constexpr int32_t& GlobalNamespace::OVRManager::__get_sandwichCompositionBufferedFrames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionBufferedFrames;
 }
 constexpr int32_t const& GlobalNamespace::OVRManager::__get_sandwichCompositionBufferedFrames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sandwichCompositionBufferedFrames;
 }
 constexpr void GlobalNamespace::OVRManager::__set_sandwichCompositionBufferedFrames(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sandwichCompositionBufferedFrames = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OVRManager::__get_chromaKeyColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeyColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRManager::__get_chromaKeyColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeyColor;
 }
 constexpr void GlobalNamespace::OVRManager::__set_chromaKeyColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeyColor = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_chromaKeySimilarity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySimilarity;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_chromaKeySimilarity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySimilarity;
 }
 constexpr void GlobalNamespace::OVRManager::__set_chromaKeySimilarity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeySimilarity = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_chromaKeySmoothRange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySmoothRange;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_chromaKeySmoothRange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySmoothRange;
 }
 constexpr void GlobalNamespace::OVRManager::__set_chromaKeySmoothRange(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeySmoothRange = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_chromaKeySpillRange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySpillRange;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_chromaKeySpillRange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromaKeySpillRange;
 }
 constexpr void GlobalNamespace::OVRManager::__set_chromaKeySpillRange(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromaKeySpillRange = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_useDynamicLighting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useDynamicLighting;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_useDynamicLighting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useDynamicLighting;
 }
 constexpr void GlobalNamespace::OVRManager::__set_useDynamicLighting(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useDynamicLighting = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__DepthQuality& GlobalNamespace::OVRManager::__get_depthQuality() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthQuality;
 }
 constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& GlobalNamespace::OVRManager::__get_depthQuality() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___depthQuality;
 }
 constexpr void GlobalNamespace::OVRManager::__set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___depthQuality = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_dynamicLightingSmoothFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingSmoothFactor;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_dynamicLightingSmoothFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingSmoothFactor;
 }
 constexpr void GlobalNamespace::OVRManager::__set_dynamicLightingSmoothFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dynamicLightingSmoothFactor = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_dynamicLightingDepthVariationClampingValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingDepthVariationClampingValue;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_dynamicLightingDepthVariationClampingValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicLightingDepthVariationClampingValue;
 }
 constexpr void GlobalNamespace::OVRManager::__set_dynamicLightingDepthVariationClampingValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dynamicLightingDepthVariationClampingValue = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& GlobalNamespace::OVRManager::__get_virtualGreenScreenType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenType;
 }
 constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& GlobalNamespace::OVRManager::__get_virtualGreenScreenType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenType;
 }
 constexpr void GlobalNamespace::OVRManager::__set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenType = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_virtualGreenScreenTopY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenTopY;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_virtualGreenScreenTopY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenTopY;
 }
 constexpr void GlobalNamespace::OVRManager::__set_virtualGreenScreenTopY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenTopY = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_virtualGreenScreenBottomY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenBottomY;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_virtualGreenScreenBottomY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenBottomY;
 }
 constexpr void GlobalNamespace::OVRManager::__set_virtualGreenScreenBottomY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenBottomY = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_virtualGreenScreenApplyDepthCulling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenApplyDepthCulling;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_virtualGreenScreenApplyDepthCulling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenApplyDepthCulling;
 }
 constexpr void GlobalNamespace::OVRManager::__set_virtualGreenScreenApplyDepthCulling(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenApplyDepthCulling = value;
 }
 constexpr float_t& GlobalNamespace::OVRManager::__get_virtualGreenScreenDepthTolerance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenDepthTolerance;
 }
 constexpr float_t const& GlobalNamespace::OVRManager::__get_virtualGreenScreenDepthTolerance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___virtualGreenScreenDepthTolerance;
 }
 constexpr void GlobalNamespace::OVRManager::__set_virtualGreenScreenDepthTolerance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___virtualGreenScreenDepthTolerance = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& GlobalNamespace::OVRManager::__get_mrcActivationMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mrcActivationMode;
 }
 constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& GlobalNamespace::OVRManager::__get_mrcActivationMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mrcActivationMode;
 }
 constexpr void GlobalNamespace::OVRManager::__set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mrcActivationMode = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& GlobalNamespace::OVRManager::__get_instantiateMixedRealityCameraGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instantiateMixedRealityCameraGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const&
 GlobalNamespace::OVRManager::__get_instantiateMixedRealityCameraGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___instantiateMixedRealityCameraGameObject;
 }
 constexpr void GlobalNamespace::OVRManager::__set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___instantiateMixedRealityCameraGameObject)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_launchMultimodalHandsControllersOnStartup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___launchMultimodalHandsControllersOnStartup;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_launchMultimodalHandsControllersOnStartup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___launchMultimodalHandsControllersOnStartup;
 }
 constexpr void GlobalNamespace::OVRManager::__set_launchMultimodalHandsControllersOnStartup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___launchMultimodalHandsControllersOnStartup = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_isInsightPassthroughEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInsightPassthroughEnabled;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_isInsightPassthroughEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInsightPassthroughEnabled;
 }
 constexpr void GlobalNamespace::OVRManager::__set_isInsightPassthroughEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isInsightPassthroughEnabled = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_requestBodyTrackingPermissionOnStartup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestBodyTrackingPermissionOnStartup;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_requestBodyTrackingPermissionOnStartup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestBodyTrackingPermissionOnStartup;
 }
 constexpr void GlobalNamespace::OVRManager::__set_requestBodyTrackingPermissionOnStartup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requestBodyTrackingPermissionOnStartup = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_requestFaceTrackingPermissionOnStartup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestFaceTrackingPermissionOnStartup;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_requestFaceTrackingPermissionOnStartup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestFaceTrackingPermissionOnStartup;
 }
 constexpr void GlobalNamespace::OVRManager::__set_requestFaceTrackingPermissionOnStartup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requestFaceTrackingPermissionOnStartup = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_requestEyeTrackingPermissionOnStartup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestEyeTrackingPermissionOnStartup;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_requestEyeTrackingPermissionOnStartup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestEyeTrackingPermissionOnStartup;
 }
 constexpr void GlobalNamespace::OVRManager::__set_requestEyeTrackingPermissionOnStartup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requestEyeTrackingPermissionOnStartup = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_requestScenePermissionOnStartup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestScenePermissionOnStartup;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_requestScenePermissionOnStartup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___requestScenePermissionOnStartup;
 }
 constexpr void GlobalNamespace::OVRManager::__set_requestScenePermissionOnStartup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___requestScenePermissionOnStartup = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get__localDimming() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localDimming;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get__localDimming() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localDimming;
 }
 constexpr void GlobalNamespace::OVRManager::__set__localDimming(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localDimming = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__TrackingOrigin& GlobalNamespace::OVRManager::__get__trackingOriginType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackingOriginType;
 }
 constexpr ::GlobalNamespace::__OVRManager__TrackingOrigin const& GlobalNamespace::OVRManager::__get__trackingOriginType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackingOriginType;
 }
 constexpr void GlobalNamespace::OVRManager::__set__trackingOriginType(::GlobalNamespace::__OVRManager__TrackingOrigin value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____trackingOriginType = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_usePositionTracking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePositionTracking;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_usePositionTracking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usePositionTracking;
 }
 constexpr void GlobalNamespace::OVRManager::__set_usePositionTracking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usePositionTracking = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_useRotationTracking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useRotationTracking;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_useRotationTracking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useRotationTracking;
 }
 constexpr void GlobalNamespace::OVRManager::__set_useRotationTracking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useRotationTracking = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_useIPDInPositionTracking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useIPDInPositionTracking;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_useIPDInPositionTracking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useIPDInPositionTracking;
 }
 constexpr void GlobalNamespace::OVRManager::__set_useIPDInPositionTracking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useIPDInPositionTracking = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_resetTrackerOnLoad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetTrackerOnLoad;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_resetTrackerOnLoad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetTrackerOnLoad;
 }
 constexpr void GlobalNamespace::OVRManager::__set_resetTrackerOnLoad(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetTrackerOnLoad = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_AllowRecenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AllowRecenter;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_AllowRecenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AllowRecenter;
 }
 constexpr void GlobalNamespace::OVRManager::__set_AllowRecenter(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AllowRecenter = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_LateControllerUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateControllerUpdate;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_LateControllerUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateControllerUpdate;
 }
 constexpr void GlobalNamespace::OVRManager::__set_LateControllerUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LateControllerUpdate = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get_LateLatching() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateLatching;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get_LateLatching() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateLatching;
 }
 constexpr void GlobalNamespace::OVRManager::__set_LateLatching(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LateLatching = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType& GlobalNamespace::OVRManager::__get__readOnlyControllerDrivenHandPosesType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readOnlyControllerDrivenHandPosesType;
 }
 constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType const& GlobalNamespace::OVRManager::__get__readOnlyControllerDrivenHandPosesType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readOnlyControllerDrivenHandPosesType;
 }
 constexpr void GlobalNamespace::OVRManager::__set__readOnlyControllerDrivenHandPosesType(::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____readOnlyControllerDrivenHandPosesType = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType& GlobalNamespace::OVRManager::__get_controllerDrivenHandPosesType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerDrivenHandPosesType;
 }
 constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType const& GlobalNamespace::OVRManager::__get_controllerDrivenHandPosesType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___controllerDrivenHandPosesType;
 }
 constexpr void GlobalNamespace::OVRManager::__set_controllerDrivenHandPosesType(::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___controllerDrivenHandPosesType = value;
 }
 constexpr bool& GlobalNamespace::OVRManager::__get__isSupportedPlatform_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSupportedPlatform_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRManager::__get__isSupportedPlatform_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isSupportedPlatform_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRManager::__set__isSupportedPlatform_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isSupportedPlatform_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>*& GlobalNamespace::OVRManager::__get_eventListeners() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventListeners;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>*> const&
 GlobalNamespace::OVRManager::__get_eventListeners() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventListeners;
 }
 constexpr void GlobalNamespace::OVRManager::__set_eventListeners(::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventListeners)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRManager::setStaticF__instance_k__BackingField(::GlobalNamespace::OVRManager* value) {

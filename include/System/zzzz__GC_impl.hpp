@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__GC_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
 //  Writing Method size for method: ::System::GC.GetCollectionCount
 template <>
 

@@ -72,39 +72,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& HMUI::ButtonSpriteSwapToggle::__get__resetToggleOnEnable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resetToggleOnEnable;
 }
 constexpr bool const& HMUI::ButtonSpriteSwapToggle::__get__resetToggleOnEnable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resetToggleOnEnable;
 }
 constexpr void HMUI::ButtonSpriteSwapToggle::__set__resetToggleOnEnable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resetToggleOnEnable = value;
 }
 constexpr bool& HMUI::ButtonSpriteSwapToggle::__get__ignoreHighlight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreHighlight;
 }
 constexpr bool const& HMUI::ButtonSpriteSwapToggle::__get__ignoreHighlight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreHighlight;
 }
 constexpr void HMUI::ButtonSpriteSwapToggle::__set__ignoreHighlight(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreHighlight = value;
 }
 constexpr bool& HMUI::ButtonSpriteSwapToggle::__get__isToggled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isToggled;
 }
 constexpr bool const& HMUI::ButtonSpriteSwapToggle::__get__isToggled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isToggled;
 }
 constexpr void HMUI::ButtonSpriteSwapToggle::__set__isToggled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isToggled = value;
 }
 inline bool HMUI::ButtonSpriteSwapToggle::get_isToggled() {

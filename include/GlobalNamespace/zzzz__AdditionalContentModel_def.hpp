@@ -11,53 +11,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AdditionalContentModel)
+namespace GlobalNamespace {
+struct __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 struct IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
 struct OpenProductStoreResult;
 }
 namespace GlobalNamespace {
+struct __AdditionalContentModel__UpdateEntitlementsResult;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
 struct __AdditionalContentModel___GetPackEntitlementStatusAsync_d__11;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__UpdateEntitlementsResult;
-}
-namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10;
+struct EntitlementStatus;
 }
 namespace GlobalNamespace {
-struct EntitlementStatus;
+class AlwaysOwnedContentContainerSO;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -129,9 +129,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AdditionalCon
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4098)) CS Name: ::AdditionalContentModel::<GetLevelEntitlementStatusAsync>d__10
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4098))
+// CS Name: ::AdditionalContentModel::<GetLevelEntitlementStatusAsync>d__10
 struct CORDL_TYPE __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10 {
 public:
   // Declarations
@@ -189,9 +190,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AdditionalCon
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4099)) CS Name: ::AdditionalContentModel::<GetPackEntitlementStatusAsync>d__11
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4099)) CS Name: ::AdditionalContentModel::<GetPackEntitlementStatusAsync>d__11
 struct CORDL_TYPE __AdditionalContentModel___GetPackEntitlementStatusAsync_d__11 {
 public:
   // Declarations

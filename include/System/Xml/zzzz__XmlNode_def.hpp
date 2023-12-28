@@ -9,38 +9,38 @@ CORDL_MODULE_EXPORT(XmlNode)
 namespace System::Xml {
 class XmlDocument;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-class ICloneable;
-}
 namespace System::Xml {
 class XmlNodeList;
 }
 namespace System::Xml {
-class XmlAttributeCollection;
+class XmlLinkedNode;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Xml {
-class XmlNodeChangedEventArgs;
-}
-namespace System::Xml {
-struct XmlNodeChangedAction;
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
 }
 namespace System::Xml {
-class XmlLinkedNode;
+class XmlAttributeCollection;
+}
+namespace System::Xml {
+struct XmlNodeChangedAction;
+}
+namespace System::Xml {
+class XmlNodeChangedEventArgs;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {

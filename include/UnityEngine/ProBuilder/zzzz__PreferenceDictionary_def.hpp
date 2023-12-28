@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreferenceDictionary)
 namespace UnityEngine {
-class Material;
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class Material;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
-class IHasDefault;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder {
+class IHasDefault;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

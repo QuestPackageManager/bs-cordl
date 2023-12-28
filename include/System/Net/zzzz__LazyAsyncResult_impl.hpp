@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 //  Writing Method size for method: ::System::Net::__LazyAsyncResult__ThreadContext._ctor
 template <>
 
@@ -22,15 +22,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::__LazyAsyncResult__ThreadContext::__get_m_NestedIOCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NestedIOCount;
 }
 constexpr int32_t const& System::Net::__LazyAsyncResult__ThreadContext::__get_m_NestedIOCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NestedIOCount;
 }
 constexpr void System::Net::__LazyAsyncResult__ThreadContext::__set_m_NestedIOCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NestedIOCount = value;
 }
 inline ::System::Net::__LazyAsyncResult__ThreadContext* System::Net::__LazyAsyncResult__ThreadContext::New_ctor() {
@@ -324,99 +324,99 @@ constexpr System::Net::LazyAsyncResult::operator ::System::IAsyncResult*() noexc
   return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 constexpr ::System::Object*& System::Net::LazyAsyncResult::__get_m_AsyncObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::LazyAsyncResult::__get_m_AsyncObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncObject;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_AsyncObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AsyncObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::LazyAsyncResult::__get_m_AsyncState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncState;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::LazyAsyncResult::__get_m_AsyncState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncState;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_AsyncState(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AsyncState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::AsyncCallback*& System::Net::LazyAsyncResult::__get_m_AsyncCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::Net::LazyAsyncResult::__get_m_AsyncCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncCallback;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_AsyncCallback(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AsyncCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Net::LazyAsyncResult::__get_m_Result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Result;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::LazyAsyncResult::__get_m_Result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Result;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_Result(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Result)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::LazyAsyncResult::__get_m_IntCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IntCompleted;
 }
 constexpr int32_t const& System::Net::LazyAsyncResult::__get_m_IntCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IntCompleted;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_IntCompleted(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IntCompleted = value;
 }
 constexpr bool& System::Net::LazyAsyncResult::__get_m_EndCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EndCalled;
 }
 constexpr bool const& System::Net::LazyAsyncResult::__get_m_EndCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EndCalled;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_EndCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EndCalled = value;
 }
 constexpr bool& System::Net::LazyAsyncResult::__get_m_UserEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UserEvent;
 }
 constexpr bool const& System::Net::LazyAsyncResult::__get_m_UserEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UserEvent;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_UserEvent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UserEvent = value;
 }
 constexpr ::System::Object*& System::Net::LazyAsyncResult::__get_m_Event() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Event;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::LazyAsyncResult::__get_m_Event() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Event;
 }
 constexpr void System::Net::LazyAsyncResult::__set_m_Event(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Event)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::LazyAsyncResult::setStaticF_t_ThreadContext(::System::Net::__LazyAsyncResult__ThreadContext* value) {

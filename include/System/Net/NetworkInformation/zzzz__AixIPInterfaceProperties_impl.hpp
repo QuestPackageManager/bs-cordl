@@ -56,15 +56,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::NetworkInformation::AixIPInterfaceProperties::__get__mtu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtu;
 }
 constexpr int32_t const& System::Net::NetworkInformation::AixIPInterfaceProperties::__get__mtu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mtu;
 }
 constexpr void System::Net::NetworkInformation::AixIPInterfaceProperties::__set__mtu(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mtu = value;
 }
 inline ::System::Net::NetworkInformation::AixIPInterfaceProperties*

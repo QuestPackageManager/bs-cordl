@@ -9,19 +9,19 @@ namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-struct CallbackPhase;
-}
-namespace UnityEngine::UIElements {
 struct InvokePolicy;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
 }
 namespace System {
 class Delegate;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct CallbackPhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

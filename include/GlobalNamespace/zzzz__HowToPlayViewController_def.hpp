@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(HowToPlayViewController)
 namespace UnityEngine::UI {
 class Button;
 }
-namespace GlobalNamespace {
-struct __HowToPlayViewController__HowToPlayOptions;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __HowToPlayViewController__HowToPlayOptions;
 }
 // Forward declare root types
 namespace GlobalNamespace {

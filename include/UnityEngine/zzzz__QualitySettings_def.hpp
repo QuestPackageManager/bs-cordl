@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(QualitySettings)
-namespace UnityEngine::Rendering {
-class RenderPipelineAsset;
-}
 namespace UnityEngine {
 class ScriptableObject;
 }
 namespace UnityEngine {
 struct ColorSpace;
+}
+namespace UnityEngine::Rendering {
+class RenderPipelineAsset;
 }
 // Forward declare root types
 namespace UnityEngine {

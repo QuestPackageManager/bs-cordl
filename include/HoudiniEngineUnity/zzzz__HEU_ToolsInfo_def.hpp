@@ -12,13 +12,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ToolsInfo)
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMeshVisibility;
+struct __HEU_ToolsInfo__PaintMergeMode;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMergeMode;
+struct __HEU_ToolsInfo__PaintMeshVisibility;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -146,8 +146,8 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ToolsI
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9948)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9949)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9950)) CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9948)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9949))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9950)) CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
 class CORDL_TYPE HEU_ToolsInfo : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations

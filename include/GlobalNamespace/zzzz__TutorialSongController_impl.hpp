@@ -6,19 +6,19 @@
 #include "GlobalNamespace/zzzz__TutorialSongController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__TutorialSongController__InitData._ctor
 template <>
 
@@ -36,27 +36,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__TutorialSongController__InitData::__get_songBpm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songBpm;
 }
 constexpr float_t const& GlobalNamespace::__TutorialSongController__InitData::__get_songBpm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songBpm;
 }
 constexpr void GlobalNamespace::__TutorialSongController__InitData::__set_songBpm(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songBpm = value;
 }
 constexpr ::GlobalNamespace::BeatmapData*& GlobalNamespace::__TutorialSongController__InitData::__get_beatmapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& GlobalNamespace::__TutorialSongController__InitData::__get_beatmapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapData;
 }
 constexpr void GlobalNamespace::__TutorialSongController__InitData::__set_beatmapData(::GlobalNamespace::BeatmapData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__TutorialSongController__InitData* GlobalNamespace::__TutorialSongController__InitData::New_ctor(float_t songBpm, ::GlobalNamespace::BeatmapData* beatmapData) {
@@ -89,51 +89,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_signal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_signal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signal;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__set_signal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_beatOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatOffset;
 }
 constexpr int32_t const& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_beatOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatOffset;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__set_beatOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatOffset = value;
 }
 constexpr int32_t& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_firstTimeBeatOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstTimeBeatOffset;
 }
 constexpr int32_t const& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_firstTimeBeatOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstTimeBeatOffset;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__set_firstTimeBeatOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___firstTimeBeatOffset = value;
 }
 constexpr int32_t& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_lineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineIndex;
 }
 constexpr int32_t const& GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__get_lineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineIndex;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData::__set_lineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineIndex = value;
 }
 inline ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*
@@ -168,15 +168,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData::__get_noteLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData::__get_noteLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteLineLayer;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData::__set_noteLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noteLineLayer = value;
 }
 inline ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData*
@@ -217,27 +217,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData::__get_cutDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cutDirection;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData::__get_cutDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cutDirection;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData::__set_cutDirection(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cutDirection = value;
 }
 constexpr ::GlobalNamespace::ColorType& GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData::__get_colorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorType;
 }
 constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData::__get_colorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorType;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData::__set_colorType(::GlobalNamespace::ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorType = value;
 }
 inline ::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData*
@@ -315,39 +315,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__get_noteLineLayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteLineLayer;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__get_noteLineLayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteLineLayer;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__set_noteLineLayer(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noteLineLayer = value;
 }
 constexpr int32_t& GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__get_width() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___width;
 }
 constexpr int32_t const& GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__get_width() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___width;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__set_width(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___width = value;
 }
 constexpr int32_t& GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__get_height() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___height;
 }
 constexpr int32_t const& GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__get_height() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___height;
 }
 constexpr void GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData::__set_height(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___height = value;
 }
 inline ::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData*
@@ -602,289 +602,289 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AudioTimeSyncController*& GlobalNamespace::TutorialSongController::__get__audioTimeSyncController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& GlobalNamespace::TutorialSongController::__get__audioTimeSyncController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::TutorialSongController::__get__startWaitTimeInBeats() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startWaitTimeInBeats;
 }
 constexpr int32_t const& GlobalNamespace::TutorialSongController::__get__startWaitTimeInBeats() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startWaitTimeInBeats;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__startWaitTimeInBeats(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startWaitTimeInBeats = value;
 }
 constexpr int32_t& GlobalNamespace::TutorialSongController::__get__numberOfBeatsToSnap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfBeatsToSnap;
 }
 constexpr int32_t const& GlobalNamespace::TutorialSongController::__get__numberOfBeatsToSnap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfBeatsToSnap;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__numberOfBeatsToSnap(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfBeatsToSnap = value;
 }
 constexpr int32_t& GlobalNamespace::TutorialSongController::__get__obstacleDurationInBeats() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleDurationInBeats;
 }
 constexpr int32_t const& GlobalNamespace::TutorialSongController::__get__obstacleDurationInBeats() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacleDurationInBeats;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__obstacleDurationInBeats(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstacleDurationInBeats = value;
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteCuttingTutorialPartDidStartSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCuttingTutorialPartDidStartSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteCuttingTutorialPartDidStartSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCuttingTutorialPartDidStartSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteCuttingTutorialPartDidStartSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteCuttingTutorialPartDidStartSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteCuttingInAnyDirectionDidStartSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCuttingInAnyDirectionDidStartSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteCuttingInAnyDirectionDidStartSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCuttingInAnyDirectionDidStartSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteCuttingInAnyDirectionDidStartSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteCuttingInAnyDirectionDidStartSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__bombCuttingTutorialPartDidStartSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombCuttingTutorialPartDidStartSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__bombCuttingTutorialPartDidStartSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombCuttingTutorialPartDidStartSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__bombCuttingTutorialPartDidStartSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombCuttingTutorialPartDidStartSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__leftObstacleTutorialPartDidStartSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftObstacleTutorialPartDidStartSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__leftObstacleTutorialPartDidStartSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftObstacleTutorialPartDidStartSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__leftObstacleTutorialPartDidStartSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftObstacleTutorialPartDidStartSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__rightObstacleTutorialPartDidStartSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightObstacleTutorialPartDidStartSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__rightObstacleTutorialPartDidStartSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightObstacleTutorialPartDidStartSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__rightObstacleTutorialPartDidStartSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightObstacleTutorialPartDidStartSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__topObstacleTutorialPartDidStartSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topObstacleTutorialPartDidStartSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__topObstacleTutorialPartDidStartSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____topObstacleTutorialPartDidStartSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__topObstacleTutorialPartDidStartSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____topObstacleTutorialPartDidStartSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteWasCutOKSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutOKSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteWasCutOKSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutOKSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteWasCutOKSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteWasCutOKSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteWasCutTooSoonSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutTooSoonSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteWasCutTooSoonSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutTooSoonSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteWasCutTooSoonSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteWasCutTooSoonSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteWasCutWithWrongColorSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutWithWrongColorSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteWasCutWithWrongColorSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutWithWrongColorSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteWasCutWithWrongColorSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteWasCutWithWrongColorSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteWasCutFromDifferentDirectionSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutFromDifferentDirectionSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteWasCutFromDifferentDirectionSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutFromDifferentDirectionSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteWasCutFromDifferentDirectionSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteWasCutFromDifferentDirectionSignal)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__noteWasCutWithSlowSpeedSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutWithSlowSpeedSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__noteWasCutWithSlowSpeedSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteWasCutWithSlowSpeedSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__noteWasCutWithSlowSpeedSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteWasCutWithSlowSpeedSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::Signal*& GlobalNamespace::TutorialSongController::__get__bombWasCutSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombWasCutSignal;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& GlobalNamespace::TutorialSongController::__get__bombWasCutSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombWasCutSignal;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__bombWasCutSignal(::GlobalNamespace::Signal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombWasCutSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__TutorialSongController__InitData*& GlobalNamespace::TutorialSongController::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TutorialSongController__InitData*> const& GlobalNamespace::TutorialSongController::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__initData(::GlobalNamespace::__TutorialSongController__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::TutorialSongController::__get__beatmapObjectManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::TutorialSongController::__get__beatmapObjectManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::TutorialSongController::__get__tutorialBeatmapObjectIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tutorialBeatmapObjectIndex;
 }
 constexpr int32_t const& GlobalNamespace::TutorialSongController::__get__tutorialBeatmapObjectIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tutorialBeatmapObjectIndex;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__tutorialBeatmapObjectIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tutorialBeatmapObjectIndex = value;
 }
 constexpr int32_t& GlobalNamespace::TutorialSongController::__get__prevSpawnedBeatmapObjectIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevSpawnedBeatmapObjectIndex;
 }
 constexpr int32_t const& GlobalNamespace::TutorialSongController::__get__prevSpawnedBeatmapObjectIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevSpawnedBeatmapObjectIndex;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__prevSpawnedBeatmapObjectIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevSpawnedBeatmapObjectIndex = value;
 }
 constexpr float_t& GlobalNamespace::TutorialSongController::__get__songBpm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songBpm;
 }
 constexpr float_t const& GlobalNamespace::TutorialSongController::__get__songBpm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songBpm;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__songBpm(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songBpm = value;
 }
 constexpr ::GlobalNamespace::BeatmapData*& GlobalNamespace::TutorialSongController::__get__beatmapData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& GlobalNamespace::TutorialSongController::__get__beatmapData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__beatmapData(::GlobalNamespace::BeatmapData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*>&
 GlobalNamespace::TutorialSongController::__get__normalModeTutorialObjectsSpawnData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalModeTutorialObjectsSpawnData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> const&
 GlobalNamespace::TutorialSongController::__get__normalModeTutorialObjectsSpawnData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalModeTutorialObjectsSpawnData;
 }
 constexpr void GlobalNamespace::TutorialSongController::__set__normalModeTutorialObjectsSpawnData(
     ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalModeTutorialObjectsSpawnData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::TutorialSongController::Awake() {

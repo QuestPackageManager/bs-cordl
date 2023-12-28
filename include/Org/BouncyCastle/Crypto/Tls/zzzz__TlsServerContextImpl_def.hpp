@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
 CORDL_MODULE_EXPORT(TlsServerContextImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServerContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServerContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class SecurityParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlRootElementFactory)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlRootElementFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6971)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5285 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6970)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5285 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6971)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6970)) CS Name:
 // ::UnityEngine.UIElements::UxmlRootElementFactory*
 class CORDL_TYPE UxmlRootElementFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlRootElementTraits*> {
 public:

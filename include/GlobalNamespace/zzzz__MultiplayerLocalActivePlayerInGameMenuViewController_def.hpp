@@ -5,6 +5,15 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerInGameMenuViewController)
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
 namespace GlobalNamespace {
 class MultiplayerLocalPlayerDisconnectHelper;
 }
@@ -14,29 +23,20 @@ class Button;
 namespace Polyglot {
 class LocalizedTextMeshProUGUI;
 }
-namespace HMUI {
-class ButtonBinder;
-}
 namespace GlobalNamespace {
-class LocalPlayerInGameMenuInitData;
+class DisconnectPromptView;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class DisconnectPromptView;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
 class LevelBar;
+}
+namespace GlobalNamespace {
+class LocalPlayerInGameMenuInitData;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

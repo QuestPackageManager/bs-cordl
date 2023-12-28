@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerCodeView)
-namespace HMUI {
-class ButtonBinder;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

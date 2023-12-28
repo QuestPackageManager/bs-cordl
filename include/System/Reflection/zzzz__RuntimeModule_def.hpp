@@ -14,8 +14,11 @@ struct StreamingContext;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Reflection {
+class RuntimeAssembly;
+}
 namespace System {
-class Object;
+struct Guid;
 }
 namespace System::Reflection {
 class Assembly;
@@ -24,10 +27,7 @@ namespace System {
 class Type;
 }
 namespace System {
-struct Guid;
-}
-namespace System::Reflection {
-class RuntimeAssembly;
+class Object;
 }
 // Forward declare root types
 namespace System::Reflection {

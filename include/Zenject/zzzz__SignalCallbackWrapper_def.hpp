@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalCallbackWrapper)
 namespace Zenject {
+class SignalBindingBindInfo;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System {
-template <typename T> class Action_1;
+class Type;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Type;
-}
-namespace Zenject {
-class SignalBindingBindInfo;
+template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(DTSweep)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class AdvancingFrontNode;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
 class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepConstraint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct Orientation;
+class __DTSweep____c__DisplayClass21_0;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class __DTSweep____c__DisplayClass21_0;
+class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DTSweepConstraint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct Orientation;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class AdvancingFrontNode;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

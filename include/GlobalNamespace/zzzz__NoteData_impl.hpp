@@ -5,12 +5,12 @@
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__NoteData__GameplayType::__NoteData__GameplayType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -714,159 +714,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__NoteData__GameplayType& GlobalNamespace::NoteData::__get__gameplayType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayType_k__BackingField;
 }
 constexpr ::GlobalNamespace::__NoteData__GameplayType const& GlobalNamespace::NoteData::__get__gameplayType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayType_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayType_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__NoteData__ScoringType& GlobalNamespace::NoteData::__get__scoringType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoringType_k__BackingField;
 }
 constexpr ::GlobalNamespace::__NoteData__ScoringType const& GlobalNamespace::NoteData::__get__scoringType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoringType_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__scoringType_k__BackingField(::GlobalNamespace::__NoteData__ScoringType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scoringType_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::ColorType& GlobalNamespace::NoteData::__get__colorType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::NoteData::__get__colorType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__colorType_k__BackingField(::GlobalNamespace::ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorType_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteCutDirection& GlobalNamespace::NoteData::__get__cutDirection_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirection_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteCutDirection const& GlobalNamespace::NoteData::__get__cutDirection_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirection_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutDirection_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::NoteData::__get__timeToNextColorNote_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToNextColorNote_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::NoteData::__get__timeToNextColorNote_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToNextColorNote_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__timeToNextColorNote_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeToNextColorNote_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::NoteData::__get__timeToPrevColorNote_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToPrevColorNote_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::NoteData::__get__timeToPrevColorNote_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToPrevColorNote_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__timeToPrevColorNote_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeToPrevColorNote_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::NoteData::__get__lineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::NoteData::__get__lineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__lineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::NoteData::__get__noteLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::NoteData::__get__noteLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteLineLayer_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::NoteData::__get__beforeJumpNoteLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeJumpNoteLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::NoteData::__get__beforeJumpNoteLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeJumpNoteLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__beforeJumpNoteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeJumpNoteLineLayer_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::NoteData::__get__flipLineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipLineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::NoteData::__get__flipLineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipLineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__flipLineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flipLineIndex_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::NoteData::__get__flipYSide_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipYSide_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::NoteData::__get__flipYSide_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipYSide_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__flipYSide_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flipYSide_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::NoteData::__get__cutDirectionAngleOffset_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirectionAngleOffset_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::NoteData::__get__cutDirectionAngleOffset_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutDirectionAngleOffset_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__cutDirectionAngleOffset_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutDirectionAngleOffset_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::NoteData::__get__cutSfxVolumeMultiplier_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutSfxVolumeMultiplier_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::NoteData::__get__cutSfxVolumeMultiplier_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutSfxVolumeMultiplier_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteData::__set__cutSfxVolumeMultiplier_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutSfxVolumeMultiplier_k__BackingField = value;
 }
 inline int32_t GlobalNamespace::NoteData::get_subtypeGroupIdentifier() {

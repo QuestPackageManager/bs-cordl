@@ -5,18 +5,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Enumerable_def.hpp"
 #include "System/Linq/zzzz__Enumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__Set_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
@@ -40,39 +40,39 @@ template <typename TSource> constexpr System::Linq::__Enumerable__Iterator_1<TSo
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable__Iterator_1<TSource>::__get_threadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable__Iterator_1<TSource>::__get_threadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__Iterator_1<TSource>::__set_threadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threadId = value;
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable__Iterator_1<TSource>::__get_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable__Iterator_1<TSource>::__get_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__Iterator_1<TSource>::__set_state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable__Iterator_1<TSource>::__get_current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable__Iterator_1<TSource>::__get_current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__Iterator_1<TSource>::__set_current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable__Iterator_1<TSource>* System::Linq::__Enumerable__Iterator_1<TSource>::New_ctor() {
@@ -143,42 +143,42 @@ template <typename TSource> inline void System::Linq::__Enumerable__Iterator_1<T
 // Ctor Parameters []
 template <typename TSource> constexpr ::System::Linq::__Enumerable__Iterator_1<TSource>::__Enumerable__Iterator_1() {}
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__set_predicate(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__get_enumerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__get_enumerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__set_enumerator(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource>
@@ -233,39 +233,39 @@ inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::__E
 // Ctor Parameters []
 template <typename TSource> constexpr ::System::Linq::__Enumerable__WhereEnumerableIterator_1<TSource>::__Enumerable__WhereEnumerableIterator_1() {}
 template <typename TSource> constexpr ::ArrayW<TSource, ::Array<TSource>*>& System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr ::ArrayW<TSource, ::Array<TSource>*> const& System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__set_source(::ArrayW<TSource, ::Array<TSource>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource> constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__set_predicate(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__get_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__get_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__set_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
 template <typename TSource>
@@ -313,40 +313,40 @@ inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::__E
 // Ctor Parameters []
 template <typename TSource> constexpr ::System::Linq::__Enumerable__WhereArrayIterator_1<TSource>::__Enumerable__WhereArrayIterator_1() {}
 template <typename TSource> constexpr ::System::Collections::Generic::List_1<TSource>*& System::Linq::__Enumerable__WhereListIterator_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TSource>*> const& System::Linq::__Enumerable__WhereListIterator_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereListIterator_1<TSource>::__set_source(::System::Collections::Generic::List_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable__WhereListIterator_1<TSource>::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource> constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable__WhereListIterator_1<TSource>::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereListIterator_1<TSource>::__set_predicate(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::__List_1__Enumerator<TSource>& System::Linq::__Enumerable__WhereListIterator_1<TSource>::__get_enumerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::__List_1__Enumerator<TSource> const& System::Linq::__Enumerable__WhereListIterator_1<TSource>::__get_enumerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable__WhereListIterator_1<TSource>::__set_enumerator(::System::Collections::Generic::__List_1__Enumerator<TSource> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enumerator = value;
 }
 template <typename TSource>
@@ -393,60 +393,60 @@ template <typename TSource> inline ::System::Collections::Generic::IEnumerable_1
 template <typename TSource> constexpr ::System::Linq::__Enumerable__WhereListIterator_1<TSource>::__Enumerable__WhereListIterator_1() {}
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__set_predicate(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, TResult>*& System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_selector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TResult>*> const& System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_selector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__set_selector(::System::Func_2<TSource, TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_enumerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const&
 System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__get_enumerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__set_enumerator(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
@@ -504,53 +504,53 @@ inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::__E
 // Ctor Parameters []
 template <typename TSource, typename TResult> constexpr ::System::Linq::__Enumerable__WhereSelectEnumerableIterator_2<TSource, TResult>::__Enumerable__WhereSelectEnumerableIterator_2() {}
 template <typename TSource, typename TResult> constexpr ::ArrayW<TSource, ::Array<TSource>*>& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult> constexpr ::ArrayW<TSource, ::Array<TSource>*> const& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__set_source(::ArrayW<TSource, ::Array<TSource>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__set_predicate(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, TResult>*& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_selector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TResult>*> const& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_selector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__set_selector(::System::Func_2<TSource, TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr int32_t& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 template <typename TSource, typename TResult> constexpr int32_t const& System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__get_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__set_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
 template <typename TSource, typename TResult>
@@ -602,58 +602,58 @@ inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::__E
 // Ctor Parameters []
 template <typename TSource, typename TResult> constexpr ::System::Linq::__Enumerable__WhereSelectArrayIterator_2<TSource, TResult>::__Enumerable__WhereSelectArrayIterator_2() {}
 template <typename TSource, typename TResult> constexpr ::System::Collections::Generic::List_1<TSource>*& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TSource>*> const& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__set_source(::System::Collections::Generic::List_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_predicate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_predicate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__set_predicate(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, TResult>*& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_selector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TResult>*> const& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_selector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__set_selector(::System::Func_2<TSource, TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::__List_1__Enumerator<TSource>& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_enumerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::__List_1__Enumerator<TSource> const& System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__get_enumerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__set_enumerator(::System::Collections::Generic::__List_1__Enumerator<TSource> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enumerator = value;
 }
 template <typename TSource, typename TResult>
@@ -705,29 +705,29 @@ inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::__E
 // Ctor Parameters []
 template <typename TSource, typename TResult> constexpr ::System::Linq::__Enumerable__WhereSelectListIterator_2<TSource, TResult>::__Enumerable__WhereSelectListIterator_2() {}
 template <typename TSource> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__get_predicate1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate1;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__get_predicate1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate1;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__set_predicate1(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Func_2<TSource, bool>*& System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__get_predicate2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, bool>*> const& System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__get_predicate2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__set_predicate2(::System::Func_2<TSource, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___predicate2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>* System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::New_ctor() {
@@ -749,32 +749,32 @@ template <typename TSource> inline bool System::Linq::__Enumerable____c__Display
 template <typename TSource> constexpr ::System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>::__Enumerable____c__DisplayClass6_0_1() {}
 template <typename TSource, typename TMiddle, typename TResult>
 constexpr ::System::Func_2<TMiddle, TResult>*& System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>::__get_selector2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector2;
 }
 template <typename TSource, typename TMiddle, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TMiddle, TResult>*> const& System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>::__get_selector2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector2;
 }
 template <typename TSource, typename TMiddle, typename TResult>
 constexpr void System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>::__set_selector2(::System::Func_2<TMiddle, TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TMiddle, typename TResult>
 constexpr ::System::Func_2<TSource, TMiddle>*& System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>::__get_selector1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector1;
 }
 template <typename TSource, typename TMiddle, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TMiddle>*> const& System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>::__get_selector1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector1;
 }
 template <typename TSource, typename TMiddle, typename TResult>
 constexpr void System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>::__set_selector1(::System::Func_2<TSource, TMiddle>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TMiddle, typename TResult>
@@ -818,136 +818,136 @@ template <typename TSource, typename TResult> constexpr System::Linq::__Enumerab
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource, typename TResult> constexpr int32_t& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource, typename TResult> constexpr int32_t const& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource, typename TResult> constexpr TResult& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource, typename TResult> constexpr TResult const& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___2__current(TResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult> constexpr int32_t& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource, typename TResult> constexpr int32_t const& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource, typename TResult> constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>*& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get_selector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>*> const&
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get_selector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set_selector(::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>*& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___3__selector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__selector;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>*> const&
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___3__selector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__selector;
 }
 template <typename TSource, typename TResult>
 constexpr void
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___3__selector(::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__selector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const&
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
 constexpr ::System::Collections::Generic::IEnumerator_1<TResult>*& System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource, typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TResult>*> const&
 System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource, typename TResult>
 constexpr void System::Linq::__Enumerable___SelectManyIterator_d__17_2<TSource, TResult>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource, typename TResult>
@@ -1040,102 +1040,102 @@ template <typename TSource> constexpr System::Linq::__Enumerable___TakeIterator_
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___3__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__count;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___3__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__count;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set___3__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__count = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>* System::Linq::__Enumerable___TakeIterator_d__25_1<TSource>::New_ctor(int32_t __1__state) {
@@ -1219,102 +1219,102 @@ template <typename TSource> constexpr System::Linq::__Enumerable___SkipIterator_
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___3__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__count;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get___3__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__count;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set___3__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__count = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get__e_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____e_5__2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__get__e_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____e_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::__set__e_5__2(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____e_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>* System::Linq::__Enumerable___SkipIterator_d__31_1<TSource>::New_ctor(int32_t __1__state) {
@@ -1398,104 +1398,104 @@ template <typename TSource> constexpr System::Linq::__Enumerable___ConcatIterato
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set_first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___3__first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___3__first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set___3__first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set_second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___3__second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___3__second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set___3__second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>* System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::New_ctor(int32_t __1__state) {
@@ -1585,120 +1585,120 @@ template <typename TSource> constexpr System::Linq::__Enumerable___DistinctItera
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set_comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___3__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___3__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set___3__comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Linq::Set_1<TSource>*& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get__set_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::Set_1<TSource>*> const& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get__set_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set__set_5__2(::System::Linq::Set_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____set_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>* System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::New_ctor(int32_t __1__state) {
@@ -1782,144 +1782,144 @@ template <typename TSource> constexpr System::Linq::__Enumerable___UnionIterator
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set_comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___3__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___3__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___3__comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set_first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___3__first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___3__first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___3__first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set_second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___3__second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___3__second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___3__second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Linq::Set_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get__set_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource> constexpr ::cordl_internals::to_const_pointer<::System::Linq::Set_1<TSource>*> const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get__set_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set__set_5__2(::System::Linq::Set_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____set_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>* System::Linq::__Enumerable___UnionIterator_d__71_1<TSource>::New_ctor(int32_t __1__state) {
@@ -2009,148 +2009,148 @@ template <typename TSource> constexpr System::Linq::__Enumerable___IntersectIter
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set_comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___3__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___3__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___3__comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set_second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___3__second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___3__second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___3__second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set_first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___3__first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___3__first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___3__first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Linq::Set_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get__set_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::Set_1<TSource>*> const& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get__set_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set__set_5__2(::System::Linq::Set_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____set_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const&
 System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>* System::Linq::__Enumerable___IntersectIterator_d__74_1<TSource>::New_ctor(int32_t __1__state) {
@@ -2234,145 +2234,145 @@ template <typename TSource> constexpr System::Linq::__Enumerable___ExceptIterato
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set_comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___3__comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TSource>*> const&
 System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___3__comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__comparer;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___3__comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set_second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___3__second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___3__second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__second;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___3__second(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set_first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___3__first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___3__first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__first;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___3__first(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Linq::Set_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get__set_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::Set_1<TSource>*> const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get__set_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set__set_5__2(::System::Linq::Set_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____set_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const& System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>* System::Linq::__Enumerable___ExceptIterator_d__77_1<TSource>::New_ctor(int32_t __1__state) {
@@ -2456,89 +2456,89 @@ template <typename TSource> constexpr System::Linq::__Enumerable___ReverseIterat
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Linq::Buffer_1<TSource>& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get__buffer_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer_5__2;
 }
 template <typename TSource> constexpr ::System::Linq::Buffer_1<TSource> const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get__buffer_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set__buffer_5__2(::System::Linq::Buffer_1<TSource> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____buffer_5__2 = value;
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get__i_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__get__i_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::__set__i_5__3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
 template <typename TSource> inline ::System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>* System::Linq::__Enumerable___ReverseIterator_d__79_1<TSource>::New_ctor(int32_t __1__state) {
@@ -2616,105 +2616,105 @@ template <typename TSource> constexpr System::Linq::__Enumerable___DefaultIfEmpt
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set___2__current(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr int32_t& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr int32_t const& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const&
 System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get_defaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultValue;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get_defaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultValue;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set_defaultValue(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr TSource& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___3__defaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__defaultValue;
 }
 template <typename TSource> constexpr TSource const& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get___3__defaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__defaultValue;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set___3__defaultValue(TSource value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__defaultValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource> constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get__e_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____e_5__2;
 }
 template <typename TSource>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSource>*> const&
 System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__get__e_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____e_5__2;
 }
 template <typename TSource> constexpr void System::Linq::__Enumerable___DefaultIfEmptyIterator_d__95_1<TSource>::__set__e_5__2(::System::Collections::Generic::IEnumerator_1<TSource>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____e_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TSource>
@@ -2799,78 +2799,78 @@ template <typename TResult> constexpr System::Linq::__Enumerable___OfTypeIterato
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TResult> constexpr int32_t& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TResult> constexpr int32_t const& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TResult> constexpr TResult& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TResult> constexpr TResult const& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__set___2__current(TResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr int32_t& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TResult> constexpr int32_t const& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TResult> constexpr ::System::Collections::IEnumerable*& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__set_source(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr ::System::Collections::IEnumerable*& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__set___3__source(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr ::System::Collections::IEnumerator*& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::__set___7__wrap1(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> inline ::System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>* System::Linq::__Enumerable___OfTypeIterator_d__97_1<TResult>::New_ctor(int32_t __1__state) {
@@ -2954,77 +2954,77 @@ template <typename TResult> constexpr System::Linq::__Enumerable___CastIterator_
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename TResult> constexpr int32_t& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TResult> constexpr int32_t const& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TResult> constexpr TResult& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TResult> constexpr TResult const& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__set___2__current(TResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr int32_t& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TResult> constexpr int32_t const& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TResult> constexpr ::System::Collections::IEnumerable*& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TResult> constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__set_source(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr ::System::Collections::IEnumerable*& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__set___3__source(::System::Collections::IEnumerable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> constexpr ::System::Collections::IEnumerator*& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TResult>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename TResult> constexpr void System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::__set___7__wrap1(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> inline ::System::Linq::__Enumerable___CastIterator_d__99_1<TResult>* System::Linq::__Enumerable___CastIterator_d__99_1<TResult>::New_ctor(int32_t __1__state) {
@@ -3223,99 +3223,99 @@ constexpr System::Linq::__Enumerable___RangeIterator_d__115::operator ::System::
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set___2__current(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set_start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___start = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get___3__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__start;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get___3__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__start;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set___3__start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__start = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get___3__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__count;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get___3__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__count;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set___3__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__count = value;
 }
 constexpr int32_t& System::Linq::__Enumerable___RangeIterator_d__115::__get__i_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 constexpr int32_t const& System::Linq::__Enumerable___RangeIterator_d__115::__get__i_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
 constexpr void System::Linq::__Enumerable___RangeIterator_d__115::__set__i_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 inline ::System::Linq::__Enumerable___RangeIterator_d__115* System::Linq::__Enumerable___RangeIterator_d__115::New_ctor(int32_t __1__state) {

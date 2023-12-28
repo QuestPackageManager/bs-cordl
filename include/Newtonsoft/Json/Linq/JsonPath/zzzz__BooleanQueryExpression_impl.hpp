@@ -1,10 +1,10 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__BooleanQueryExpression_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression.get_Path
 template <>
 
@@ -113,28 +113,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*& Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__get__Path_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Path_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> const&
 Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__get__Path_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Path_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__set__Path_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Path_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Linq::JValue*& Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__get__Value_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Value_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JValue*> const& Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__get__Value_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Value_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::__set__Value_k__BackingField(::Newtonsoft::Json::Linq::JValue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Value_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::get_Path() {

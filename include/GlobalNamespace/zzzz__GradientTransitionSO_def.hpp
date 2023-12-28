@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 CORDL_MODULE_EXPORT(GradientTransitionSO)
-namespace GlobalNamespace {
-class ColorSO;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class ColorSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

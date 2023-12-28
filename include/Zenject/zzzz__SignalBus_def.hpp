@@ -8,19 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalBus)
 namespace Zenject {
-template <typename TSignal> class __SignalBus____c__DisplayClass27_0_1;
+class SignalDeclaration;
+}
+namespace Zenject {
+class __SignalBus____c;
+}
+namespace Zenject {
+class ZenjectSettings;
 }
 namespace System {
 class Action;
-}
-namespace Zenject {
-class __SignalSubscription__Pool;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
 }
 namespace Zenject {
 struct BindingId;
@@ -28,50 +25,53 @@ struct BindingId;
 namespace Zenject {
 struct SignalSubscriptionId;
 }
-namespace Zenject {
-class SignalSubscription;
-}
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
-}
-namespace Zenject {
-struct SignalMissingHandlerResponses;
-}
-namespace Zenject {
-class ZenjectSettings;
-}
-namespace Zenject {
-class __SignalDeclaration__Factory;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
+class ILateDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class __SignalSubscription__Pool;
+}
+namespace Zenject {
+class __ZenjectSettings__SignalSettings;
+}
+namespace Zenject {
+template <typename TSignal> class __SignalBus____c__DisplayClass27_0_1;
+}
+namespace Zenject {
+class __SignalDeclaration__Factory;
+}
+namespace Zenject {
+struct SignalMissingHandlerResponses;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class SignalSubscription;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 template <typename TSignal> class __SignalBus____c__DisplayClass25_0_1;
-}
-namespace Zenject {
-class __SignalBus____c;
-}
-namespace Zenject {
-class ILateDisposable;
-}
-namespace Zenject {
-class SignalDeclaration;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpanAction_2)
 namespace System {
-class Object;
+template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+class Object;
 }
 // Forward declare root types
 namespace System::Buffers {

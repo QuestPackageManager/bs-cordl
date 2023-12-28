@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__AppDomainLevelActivator_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::AppDomainLevelActivator._ctor
 template <>
@@ -56,27 +56,27 @@ constexpr System::Runtime::Remoting::Activation::AppDomainLevelActivator::operat
   return static_cast<::System::Runtime::Remoting::Activation::IActivator*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Runtime::Remoting::Activation::AppDomainLevelActivator::__get__activationUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activationUrl;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Activation::AppDomainLevelActivator::__get__activationUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activationUrl;
 }
 constexpr void System::Runtime::Remoting::Activation::AppDomainLevelActivator::__set__activationUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activationUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Activation::IActivator*& System::Runtime::Remoting::Activation::AppDomainLevelActivator::__get__next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Activation::IActivator*> const& System::Runtime::Remoting::Activation::AppDomainLevelActivator::__get__next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
 constexpr void System::Runtime::Remoting::Activation::AppDomainLevelActivator::__set__next(::System::Runtime::Remoting::Activation::IActivator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator*

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
-#include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
-#include "UnityEngine/Events/zzzz__InvokableCallList_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/Events/zzzz__PersistentCallGroup_def.hpp"
+#include "UnityEngine/Events/zzzz__InvokableCallList_def.hpp"
+#include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Events::UnityEventBase._ctor
 template <>
 
@@ -250,39 +250,39 @@ constexpr UnityEngine::Events::UnityEventBase::operator ::UnityEngine::ISerializ
   return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Events::InvokableCallList*& UnityEngine::Events::UnityEventBase::__get_m_Calls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Calls;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::InvokableCallList*> const& UnityEngine::Events::UnityEventBase::__get_m_Calls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Calls;
 }
 constexpr void UnityEngine::Events::UnityEventBase::__set_m_Calls(::UnityEngine::Events::InvokableCallList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Calls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Events::PersistentCallGroup*& UnityEngine::Events::UnityEventBase::__get_m_PersistentCalls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PersistentCalls;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::PersistentCallGroup*> const& UnityEngine::Events::UnityEventBase::__get_m_PersistentCalls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PersistentCalls;
 }
 constexpr void UnityEngine::Events::UnityEventBase::__set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PersistentCalls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Events::UnityEventBase::__get_m_CallsDirty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CallsDirty;
 }
 constexpr bool const& UnityEngine::Events::UnityEventBase::__get_m_CallsDirty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CallsDirty;
 }
 constexpr void UnityEngine::Events::UnityEventBase::__set_m_CallsDirty(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CallsDirty = value;
 }
 inline ::UnityEngine::Events::UnityEventBase* UnityEngine::Events::UnityEventBase::New_ctor() {

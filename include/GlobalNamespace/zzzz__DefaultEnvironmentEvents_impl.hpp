@@ -72,39 +72,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BasicBeatmapEventType& GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__get__eventType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventType;
 }
 constexpr ::GlobalNamespace::BasicBeatmapEventType const& GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__get__eventType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventType;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__set__eventType(::GlobalNamespace::BasicBeatmapEventType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eventType = value;
 }
 constexpr int32_t& GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr int32_t const& GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__set__value(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____value = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__get__floatValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__get__floatValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatValue;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::__set__floatValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatValue = value;
 }
 inline ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent::get_eventType() {
@@ -197,39 +197,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__get__useDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useDistribution;
 }
 constexpr bool const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__get__useDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__set__useDistribution(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useDistribution = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__get__distributionParam() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distributionParam;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__get__distributionParam() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distributionParam;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__set__distributionParam(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____distributionParam = value;
 }
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__get__distributionParamType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distributionParamType;
 }
 constexpr ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__get__distributionParamType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distributionParamType;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::__set__distributionParamType(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____distributionParamType = value;
 }
 inline bool GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution::get_useDistribution() {
@@ -367,75 +367,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__useFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useFiltering;
 }
 constexpr bool const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__useFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useFiltering;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__set__useFiltering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useFiltering = value;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__randomType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomType;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterRandomType const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__randomType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomType;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__set__randomType(::GlobalNamespace::__IndexFilter__IndexFilterRandomType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____randomType = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__limit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limit;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__limit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limit;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__set__limit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____limit = value;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__alsoAffectType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alsoAffectType;
 }
 constexpr ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__alsoAffectType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alsoAffectType;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__set__alsoAffectType(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alsoAffectType = value;
 }
 constexpr int32_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__seed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____seed;
 }
 constexpr int32_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__seed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____seed;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__set__seed(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____seed = value;
 }
 constexpr int32_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__chunks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chunks;
 }
 constexpr int32_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__get__chunks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chunks;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::__set__chunks(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chunks = value;
 }
 inline bool GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering::get_useFiltering() {
@@ -831,279 +831,279 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LightGroupSO*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__lightGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__lightGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroup;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__lightGroup(::GlobalNamespace::LightGroupSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__environmentColorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColorType;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__environmentColorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentColorType;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__environmentColorType(::GlobalNamespace::EnvironmentColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentColorType = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__brightness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightness;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__brightness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightness;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__brightness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____brightness = value;
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__brightnessDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__brightnessDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__brightnessDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____brightnessDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__brightnessFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessFiltering;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__brightnessFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessFiltering;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__brightnessFiltering(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____brightnessFiltering)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationX;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationX;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationX = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationY;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationY;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationY = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationZ;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationZ;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationZ = value;
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationXDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationXDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationXDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationXDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationXDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotationXDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationYDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationYDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationYDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationYDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationYDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotationYDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationZDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationZDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationZDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationZDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationZDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotationZDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationFiltering;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__rotationFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationFiltering;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__rotationFiltering(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotationFiltering)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationX;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationX;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translationX = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationY;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationY;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translationY = value;
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationZ() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationZ;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationZ() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationZ;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationZ(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translationZ = value;
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationXDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationXDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationXDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationXDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationXDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____translationXDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationYDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationYDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationYDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationYDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationYDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____translationYDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationZDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationZDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationZDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationZDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationZDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____translationZDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationFiltering;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__translationFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationFiltering;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__translationFiltering(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____translationFiltering)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__floatFxValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxValue;
 }
 constexpr float_t const& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__floatFxValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxValue;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__floatFxValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____floatFxValue = value;
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__floatFxDistribution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxDistribution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__floatFxDistribution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxDistribution;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__floatFxDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxDistribution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*& GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__floatFxFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxFiltering;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering*> const&
 GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__get__floatFxFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____floatFxFiltering;
 }
 constexpr void GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::__set__floatFxFiltering(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxFiltering)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::LightGroupSO* GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent::get_lightGroup() {
@@ -1307,32 +1307,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*>*>&
 GlobalNamespace::DefaultEnvironmentEvents::__get__basicBeatmapEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____basicBeatmapEvents;
 }
 constexpr ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*>*> const&
 GlobalNamespace::DefaultEnvironmentEvents::__get__basicBeatmapEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____basicBeatmapEvents;
 }
 constexpr void GlobalNamespace::DefaultEnvironmentEvents::__set__basicBeatmapEvents(
     ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____basicBeatmapEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*>&
 GlobalNamespace::DefaultEnvironmentEvents::__get__lightGroupEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupEvents;
 }
 constexpr ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*> const&
 GlobalNamespace::DefaultEnvironmentEvents::__get__lightGroupEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightGroupEvents;
 }
 constexpr void GlobalNamespace::DefaultEnvironmentEvents::__set__lightGroupEvents(
     ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroupEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*>*>

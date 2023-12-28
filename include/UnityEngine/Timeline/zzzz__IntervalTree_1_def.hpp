@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_1)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::Timeline {
 template <typename T> struct __IntervalTree_1__Entry;
 }
 namespace UnityEngine::Timeline {
 struct IntervalTreeNode;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

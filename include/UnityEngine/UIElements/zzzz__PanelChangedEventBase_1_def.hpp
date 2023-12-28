@@ -19,7 +19,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1716 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1716 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7243))
 // CS Name: ::UnityEngine.UIElements::PanelChangedEventBase`1<T>*
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {

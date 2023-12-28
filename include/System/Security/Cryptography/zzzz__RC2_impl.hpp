@@ -58,15 +58,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Security::Cryptography::RC2::__get_EffectiveKeySizeValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EffectiveKeySizeValue;
 }
 constexpr int32_t const& System::Security::Cryptography::RC2::__get_EffectiveKeySizeValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EffectiveKeySizeValue;
 }
 constexpr void System::Security::Cryptography::RC2::__set_EffectiveKeySizeValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EffectiveKeySizeValue = value;
 }
 inline void System::Security::Cryptography::RC2::setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value) {

@@ -17,75 +17,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::NetworkInformation::MibIPGlobalProperties::__get_StatisticsFile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatisticsFile;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::MibIPGlobalProperties::__get_StatisticsFile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatisticsFile;
 }
 constexpr void System::Net::NetworkInformation::MibIPGlobalProperties::__set_StatisticsFile(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___StatisticsFile)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::MibIPGlobalProperties::__get_StatisticsFileIPv6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatisticsFileIPv6;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::MibIPGlobalProperties::__get_StatisticsFileIPv6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatisticsFileIPv6;
 }
 constexpr void System::Net::NetworkInformation::MibIPGlobalProperties::__set_StatisticsFileIPv6(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___StatisticsFileIPv6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::MibIPGlobalProperties::__get_TcpFile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TcpFile;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::MibIPGlobalProperties::__get_TcpFile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TcpFile;
 }
 constexpr void System::Net::NetworkInformation::MibIPGlobalProperties::__set_TcpFile(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___TcpFile)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::MibIPGlobalProperties::__get_Tcp6File() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Tcp6File;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::MibIPGlobalProperties::__get_Tcp6File() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Tcp6File;
 }
 constexpr void System::Net::NetworkInformation::MibIPGlobalProperties::__set_Tcp6File(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Tcp6File)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::MibIPGlobalProperties::__get_UdpFile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UdpFile;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::MibIPGlobalProperties::__get_UdpFile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UdpFile;
 }
 constexpr void System::Net::NetworkInformation::MibIPGlobalProperties::__set_UdpFile(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UdpFile)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkInformation::MibIPGlobalProperties::__get_Udp6File() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Udp6File;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::MibIPGlobalProperties::__get_Udp6File() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Udp6File;
 }
 constexpr void System::Net::NetworkInformation::MibIPGlobalProperties::__set_Udp6File(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Udp6File)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::NetworkInformation::MibIPGlobalProperties::setStaticF_wsChars(::ArrayW<char16_t, ::Array<char16_t>*> value) {

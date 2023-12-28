@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::SystemCertificateValidator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8984)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8984))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8846))
 // CS Name: ::Mono.Net.Security::SystemCertificateValidator*
 class CORDL_TYPE SystemCertificateValidator : public ::System::Object {

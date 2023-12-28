@@ -13,40 +13,40 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/IO/zzzz__Stream_NullStream_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__IAsyncDisposable_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_NullStream_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IAsyncDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Func_5_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
@@ -142,99 +142,99 @@ constexpr System::IO::__Stream__ReadWriteTask::operator ::System::Threading::Tas
   return static_cast<::System::Threading::Tasks::ITaskCompletionAction*>(static_cast<void*>(this));
 }
 constexpr bool& System::IO::__Stream__ReadWriteTask::__get__isRead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRead;
 }
 constexpr bool const& System::IO::__Stream__ReadWriteTask::__get__isRead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isRead;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__isRead(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isRead = value;
 }
 constexpr bool& System::IO::__Stream__ReadWriteTask::__get__apm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____apm;
 }
 constexpr bool const& System::IO::__Stream__ReadWriteTask::__get__apm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____apm;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__apm(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____apm = value;
 }
 constexpr ::System::IO::Stream*& System::IO::__Stream__ReadWriteTask::__get__stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::IO::__Stream__ReadWriteTask::__get__stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::__Stream__ReadWriteTask::__get__buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::__Stream__ReadWriteTask::__get__buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buffer;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::IO::__Stream__ReadWriteTask::__get__offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
 constexpr int32_t const& System::IO::__Stream__ReadWriteTask::__get__offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__offset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offset = value;
 }
 constexpr int32_t& System::IO::__Stream__ReadWriteTask::__get__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 constexpr int32_t const& System::IO::__Stream__ReadWriteTask::__get__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count = value;
 }
 constexpr ::System::AsyncCallback*& System::IO::__Stream__ReadWriteTask::__get__callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::IO::__Stream__ReadWriteTask::__get__callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__callback(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ExecutionContext*& System::IO::__Stream__ReadWriteTask::__get__context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::IO::__Stream__ReadWriteTask::__get__context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____context;
 }
 constexpr void System::IO::__Stream__ReadWriteTask::__set__context(::System::Threading::ExecutionContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::IO::__Stream__ReadWriteTask::setStaticF_s_invokeAsyncCallback(::System::Threading::ContextCallback* value) {
@@ -497,75 +497,75 @@ constexpr System::IO::__Stream__SynchronousAsyncResult::operator ::System::IAsyn
   return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 constexpr ::System::Object*& System::IO::__Stream__SynchronousAsyncResult::__get__stateObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::IO::__Stream__SynchronousAsyncResult::__get__stateObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateObject;
 }
 constexpr void System::IO::__Stream__SynchronousAsyncResult::__set__stateObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stateObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IO::__Stream__SynchronousAsyncResult::__get__isWrite() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isWrite;
 }
 constexpr bool const& System::IO::__Stream__SynchronousAsyncResult::__get__isWrite() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isWrite;
 }
 constexpr void System::IO::__Stream__SynchronousAsyncResult::__set__isWrite(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isWrite = value;
 }
 constexpr ::System::Threading::ManualResetEvent*& System::IO::__Stream__SynchronousAsyncResult::__get__waitHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitHandle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::IO::__Stream__SynchronousAsyncResult::__get__waitHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitHandle;
 }
 constexpr void System::IO::__Stream__SynchronousAsyncResult::__set__waitHandle(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waitHandle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& System::IO::__Stream__SynchronousAsyncResult::__get__exceptionInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exceptionInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& System::IO::__Stream__SynchronousAsyncResult::__get__exceptionInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exceptionInfo;
 }
 constexpr void System::IO::__Stream__SynchronousAsyncResult::__set__exceptionInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exceptionInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IO::__Stream__SynchronousAsyncResult::__get__endXxxCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endXxxCalled;
 }
 constexpr bool const& System::IO::__Stream__SynchronousAsyncResult::__get__endXxxCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endXxxCalled;
 }
 constexpr void System::IO::__Stream__SynchronousAsyncResult::__set__endXxxCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endXxxCalled = value;
 }
 constexpr int32_t& System::IO::__Stream__SynchronousAsyncResult::__get__bytesRead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesRead;
 }
 constexpr int32_t const& System::IO::__Stream__SynchronousAsyncResult::__get__bytesRead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bytesRead;
 }
 constexpr void System::IO::__Stream__SynchronousAsyncResult::__set__bytesRead(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bytesRead = value;
 }
 inline ::System::IO::__Stream__SynchronousAsyncResult* System::IO::__Stream__SynchronousAsyncResult::New_ctor(int32_t bytesRead, ::System::Object* asyncStateObject) {
@@ -2032,27 +2032,27 @@ constexpr System::IO::Stream::operator ::System::IAsyncDisposable*() noexcept {
   return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::__Stream__ReadWriteTask*& System::IO::Stream::__get__activeReadWriteTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeReadWriteTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::__Stream__ReadWriteTask*> const& System::IO::Stream::__get__activeReadWriteTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeReadWriteTask;
 }
 constexpr void System::IO::Stream::__set__activeReadWriteTask(::System::IO::__Stream__ReadWriteTask* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeReadWriteTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::SemaphoreSlim*& System::IO::Stream::__get__asyncActiveSemaphore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncActiveSemaphore;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::IO::Stream::__get__asyncActiveSemaphore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncActiveSemaphore;
 }
 constexpr void System::IO::Stream::__set__asyncActiveSemaphore(::System::Threading::SemaphoreSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____asyncActiveSemaphore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::IO::Stream::setStaticF_Null(::System::IO::Stream* value) {

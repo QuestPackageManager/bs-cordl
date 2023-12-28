@@ -8,19 +8,19 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeX509;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
 namespace System::Collections {
 class Hashtable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

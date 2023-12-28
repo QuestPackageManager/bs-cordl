@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsDHVerifier_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier.AddDefaultGroup
@@ -166,27 +166,27 @@ constexpr Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::operator ::Org::
   return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::__get_mGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::__get_mGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mGroups;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::__set_mGroups(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::__get_mMinimumPrimeBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMinimumPrimeBits;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::__get_mMinimumPrimeBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMinimumPrimeBits;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::__set_mMinimumPrimeBits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mMinimumPrimeBits = value;
 }
 inline void Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::setStaticF_DefaultMinimumPrimeBits(int32_t value) {

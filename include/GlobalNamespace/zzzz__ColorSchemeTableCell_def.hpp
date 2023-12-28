@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeTableCell)
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace UnityEngine::UI {
 class Image;
 }
@@ -13,9 +16,6 @@ struct Color;
 }
 namespace GlobalNamespace {
 class ColorSchemeView;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

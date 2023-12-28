@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(AbstractTlsPeer)
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCloseable;
 }
-namespace System {
-class Exception;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
@@ -20,6 +17,9 @@ class TlsPeer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

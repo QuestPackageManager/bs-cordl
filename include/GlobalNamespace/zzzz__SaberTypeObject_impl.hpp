@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SaberType& GlobalNamespace::SaberTypeObject::__get__saberType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberType;
 }
 constexpr ::GlobalNamespace::SaberType const& GlobalNamespace::SaberTypeObject::__get__saberType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberType;
 }
 constexpr void GlobalNamespace::SaberTypeObject::__set__saberType(::GlobalNamespace::SaberType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberType = value;
 }
 inline ::GlobalNamespace::SaberType GlobalNamespace::SaberTypeObject::get_saberType() {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParametricBoxFrameController)
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

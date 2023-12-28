@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMouseEvent)
 namespace UnityEngine {
-struct Vector2;
+struct EventModifiers;
 }
 namespace UnityEngine {
-struct EventModifiers;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

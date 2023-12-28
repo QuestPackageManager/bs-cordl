@@ -10,13 +10,13 @@ namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
 class AudioSource;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

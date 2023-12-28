@@ -10,67 +10,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTime)
 namespace System {
-class ISpanFormattable;
+template <typename T> struct Span_1;
 }
 namespace System {
-struct TimeSpan;
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormattable;
 }
 namespace System::Globalization {
 struct DateTimeStyles;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-struct DayOfWeek;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTimeKind;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-template <typename T> struct Span_1;
+struct Decimal;
 }
 namespace System {
 class IConvertible;
 }
 namespace System {
-class IComparable;
+struct TimeSpan;
+}
+namespace System::Globalization {
+class Calendar;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
-struct Decimal;
+struct DateTimeKind;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct DayOfWeek;
+}
+namespace System {
 class Type;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+struct TypeCode;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace System {

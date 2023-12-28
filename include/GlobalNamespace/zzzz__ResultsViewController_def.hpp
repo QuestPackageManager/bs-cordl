@@ -7,35 +7,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResultsViewController)
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class ResultsEnvironmentManager;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class ResultsEnvironmentManager;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class MenuDestination;
+class AudioClip;
 }
 namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
 class FireworksController;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class __ResultsViewController___StartFireworksAfterDelay_d__33;
@@ -46,23 +52,17 @@ class Coroutine;
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class LevelBar;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

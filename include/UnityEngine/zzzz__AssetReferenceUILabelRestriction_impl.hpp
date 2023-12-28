@@ -66,27 +66,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& UnityEngine::AssetReferenceUILabelRestriction::__get_m_AllowedLabels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllowedLabels;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& UnityEngine::AssetReferenceUILabelRestriction::__get_m_AllowedLabels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllowedLabels;
 }
 constexpr void UnityEngine::AssetReferenceUILabelRestriction::__set_m_AllowedLabels(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AllowedLabels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::AssetReferenceUILabelRestriction::__get_m_CachedToString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedToString;
 }
 constexpr ::StringW const& UnityEngine::AssetReferenceUILabelRestriction::__get_m_CachedToString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedToString;
 }
 constexpr void UnityEngine::AssetReferenceUILabelRestriction::__set_m_CachedToString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedToString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AssetReferenceUILabelRestriction* UnityEngine::AssetReferenceUILabelRestriction::New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels) {

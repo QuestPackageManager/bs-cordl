@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;

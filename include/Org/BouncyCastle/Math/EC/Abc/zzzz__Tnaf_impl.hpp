@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__Tnaf_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__SimpleBigDecimal_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Abc::Tnaf.Norm
 template <>
 

@@ -7,29 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpPublicKey)
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class Object;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class PublicKeyPacket;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpUserAttributeSubpacketVector;
 }
 namespace System {
 struct DateTime;
 }
-namespace Org::BouncyCastle::Bcpg {
-class PublicKeyPacket;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignature;
 }
 namespace Org::BouncyCastle::Bcpg {
 class TrustPacket;
@@ -37,17 +43,11 @@ class TrustPacket;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignature;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

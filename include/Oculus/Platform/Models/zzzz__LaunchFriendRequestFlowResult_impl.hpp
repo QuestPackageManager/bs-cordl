@@ -17,27 +17,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Oculus::Platform::Models::LaunchFriendRequestFlowResult::__get_DidCancel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
 constexpr bool const& Oculus::Platform::Models::LaunchFriendRequestFlowResult::__get_DidCancel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
 constexpr void Oculus::Platform::Models::LaunchFriendRequestFlowResult::__set_DidCancel(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidCancel = value;
 }
 constexpr bool& Oculus::Platform::Models::LaunchFriendRequestFlowResult::__get_DidSendRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidSendRequest;
 }
 constexpr bool const& Oculus::Platform::Models::LaunchFriendRequestFlowResult::__get_DidSendRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidSendRequest;
 }
 constexpr void Oculus::Platform::Models::LaunchFriendRequestFlowResult::__set_DidSendRequest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidSendRequest = value;
 }
 inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* Oculus::Platform::Models::LaunchFriendRequestFlowResult::New_ctor(void* o) {

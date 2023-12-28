@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectModifiersViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SelectModifiersViewController.get_gameplayModifiers
 template <>
 
@@ -63,16 +63,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GameplayModifiersPanelController*& GlobalNamespace::SelectModifiersViewController::__get__gameplayModifiersPanelController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersPanelController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersPanelController*> const&
 GlobalNamespace::SelectModifiersViewController::__get__gameplayModifiersPanelController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersPanelController;
 }
 constexpr void GlobalNamespace::SelectModifiersViewController::__set__gameplayModifiersPanelController(::GlobalNamespace::GameplayModifiersPanelController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiersPanelController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::SelectModifiersViewController::get_gameplayModifiers() {

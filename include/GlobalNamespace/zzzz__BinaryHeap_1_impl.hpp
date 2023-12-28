@@ -2,27 +2,27 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BinaryHeap_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& GlobalNamespace::BinaryHeap_1<T>::__get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& GlobalNamespace::BinaryHeap_1<T>::__get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 template <typename T> constexpr void GlobalNamespace::BinaryHeap_1<T>::__set__data(::ArrayW<T, ::Array<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& GlobalNamespace::BinaryHeap_1<T>::__get__tail() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tail;
 }
 template <typename T> constexpr int32_t const& GlobalNamespace::BinaryHeap_1<T>::__get__tail() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tail;
 }
 template <typename T> constexpr void GlobalNamespace::BinaryHeap_1<T>::__set__tail(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tail = value;
 }
 template <typename T> inline ::GlobalNamespace::BinaryHeap_1<T>* GlobalNamespace::BinaryHeap_1<T>::New_ctor() {

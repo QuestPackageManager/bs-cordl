@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rfc3211WrapEngine)
 namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class CbcBlockCipher;
@@ -22,8 +22,8 @@ class CbcBlockCipher;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
 }
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

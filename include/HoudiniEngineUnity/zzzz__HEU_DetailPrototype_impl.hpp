@@ -36,135 +36,135 @@ constexpr HoudiniEngineUnity::HEU_DetailPrototype::operator ::HoudiniEngineUnity
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*>(static_cast<void*>(this));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_DetailPrototype::__get__prototypePrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prototypePrefab;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_DetailPrototype::__get__prototypePrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prototypePrefab;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__prototypePrefab(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prototypePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_DetailPrototype::__get__prototypeTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prototypeTexture;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_DetailPrototype::__get__prototypeTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prototypeTexture;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__prototypeTexture(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prototypeTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__bendFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bendFactor;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__bendFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bendFactor;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__bendFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bendFactor = value;
 }
 constexpr ::UnityEngine::Color& HoudiniEngineUnity::HEU_DetailPrototype::__get__dryColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dryColor;
 }
 constexpr ::UnityEngine::Color const& HoudiniEngineUnity::HEU_DetailPrototype::__get__dryColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dryColor;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__dryColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dryColor = value;
 }
 constexpr ::UnityEngine::Color& HoudiniEngineUnity::HEU_DetailPrototype::__get__healthyColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthyColor;
 }
 constexpr ::UnityEngine::Color const& HoudiniEngineUnity::HEU_DetailPrototype::__get__healthyColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____healthyColor;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__healthyColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____healthyColor = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__maxHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxHeight;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__maxHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxHeight;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__maxHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxHeight = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__maxWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxWidth;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__maxWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxWidth;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__maxWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxWidth = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__minHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minHeight;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__minHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minHeight;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__minHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minHeight = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__minWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minWidth;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__minWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minWidth;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__minWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minWidth = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__noiseSpread() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noiseSpread;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__noiseSpread() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noiseSpread;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__noiseSpread(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noiseSpread = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_DetailPrototype::__get__renderMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderMode;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_DetailPrototype::__get__renderMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderMode;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__renderMode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____renderMode = value;
 }
 inline ::HoudiniEngineUnity::HEU_DetailPrototype* HoudiniEngineUnity::HEU_DetailPrototype::New_ctor() {

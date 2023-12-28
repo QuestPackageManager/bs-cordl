@@ -47,27 +47,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::Bindings::NativeConditionalAttribute::__get__Condition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Condition_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Bindings::NativeConditionalAttribute::__get__Condition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Condition_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeConditionalAttribute::__set__Condition_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Condition_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Bindings::NativeConditionalAttribute::__get__Enabled_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Enabled_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::NativeConditionalAttribute::__get__Enabled_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Enabled_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::NativeConditionalAttribute::__set__Enabled_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Enabled_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::NativeConditionalAttribute::set_Condition(::StringW value) {

@@ -127,27 +127,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::DynamicBoneCollider::__get_m_Radius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Radius;
 }
 constexpr float_t const& GlobalNamespace::DynamicBoneCollider::__get_m_Radius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Radius;
 }
 constexpr void GlobalNamespace::DynamicBoneCollider::__set_m_Radius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Radius = value;
 }
 constexpr float_t& GlobalNamespace::DynamicBoneCollider::__get_m_Height() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Height;
 }
 constexpr float_t const& GlobalNamespace::DynamicBoneCollider::__get_m_Height() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Height;
 }
 constexpr void GlobalNamespace::DynamicBoneCollider::__set_m_Height(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Height = value;
 }
 inline void GlobalNamespace::DynamicBoneCollider::OnValidate() {

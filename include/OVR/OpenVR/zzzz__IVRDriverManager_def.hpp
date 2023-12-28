@@ -23,10 +23,10 @@ namespace OVR::OpenVR {
 class __IVRDriverManager___GetDriverHandle;
 }
 namespace OVR::OpenVR {
-class __IVRDriverManager___GetDriverCount;
+class __IVRDriverManager___GetDriverName;
 }
 namespace OVR::OpenVR {
-class __IVRDriverManager___GetDriverName;
+class __IVRDriverManager___GetDriverCount;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

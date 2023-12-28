@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SphereCuttableBySaber)
-namespace GlobalNamespace {
-class Saber;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class SphereCollider;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

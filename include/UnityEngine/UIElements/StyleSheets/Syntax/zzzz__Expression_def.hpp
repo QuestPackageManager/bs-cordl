@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::Expression);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7494)), TypeDefinitionIndex(TypeDefinitionIndex(7495)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7497)), TypeDefinitionIndex(TypeDefinitionIndex(7493))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7492)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7495)), TypeDefinitionIndex(TypeDefinitionIndex(7493)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7497)), TypeDefinitionIndex(TypeDefinitionIndex(7494))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7492)) CS Name:
 // ::UnityEngine.UIElements.StyleSheets.Syntax::Expression*
 class CORDL_TYPE Expression : public ::System::Object {
 public:

@@ -10,10 +10,10 @@ namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownSettingsController)
+namespace HMUI {
+class SimpleTextDropdown;
+}
 namespace System {
 class Action;
 }
 namespace HMUI {
 class DropdownWithTableView;
-}
-namespace HMUI {
-class SimpleTextDropdown;
 }
 // Forward declare root types
 namespace GlobalNamespace {

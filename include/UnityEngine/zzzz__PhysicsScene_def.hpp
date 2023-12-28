@@ -13,7 +13,7 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector3;
 }
 namespace UnityEngine {
 struct QueryTriggerInteraction;
@@ -22,16 +22,16 @@ namespace System {
 class Object;
 }
 namespace UnityEngine {
+struct RaycastHit;
+}
+namespace UnityEngine {
 class Collider;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct RaycastHit;
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {

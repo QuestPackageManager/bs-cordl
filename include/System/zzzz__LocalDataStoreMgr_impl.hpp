@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LocalDataStoreMgr_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__LocalDataStoreSlot_def.hpp"
 #include "System/zzzz__LocalDataStore_def.hpp"
+#include "System/zzzz__LocalDataStoreSlot_def.hpp"
 #include "System/zzzz__LocalDataStoreHolder_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::System::LocalDataStoreMgr.CreateLocalDataStore
 template <>
@@ -147,63 +147,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<bool, ::Array<bool>*>& System::LocalDataStoreMgr::__get_m_SlotInfoTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SlotInfoTable;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& System::LocalDataStoreMgr::__get_m_SlotInfoTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SlotInfoTable;
 }
 constexpr void System::LocalDataStoreMgr::__set_m_SlotInfoTable(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SlotInfoTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::LocalDataStoreMgr::__get_m_FirstAvailableSlot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstAvailableSlot;
 }
 constexpr int32_t const& System::LocalDataStoreMgr::__get_m_FirstAvailableSlot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstAvailableSlot;
 }
 constexpr void System::LocalDataStoreMgr::__set_m_FirstAvailableSlot(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FirstAvailableSlot = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::LocalDataStore*>*& System::LocalDataStoreMgr::__get_m_ManagedLocalDataStores() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ManagedLocalDataStores;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::LocalDataStore*>*> const& System::LocalDataStoreMgr::__get_m_ManagedLocalDataStores() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ManagedLocalDataStores;
 }
 constexpr void System::LocalDataStoreMgr::__set_m_ManagedLocalDataStores(::System::Collections::Generic::List_1<::System::LocalDataStore*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ManagedLocalDataStores)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*& System::LocalDataStoreMgr::__get_m_KeyToSlotMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_KeyToSlotMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*> const& System::LocalDataStoreMgr::__get_m_KeyToSlotMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_KeyToSlotMap;
 }
 constexpr void System::LocalDataStoreMgr::__set_m_KeyToSlotMap(::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_KeyToSlotMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::LocalDataStoreMgr::__get_m_CookieGenerator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CookieGenerator;
 }
 constexpr int64_t const& System::LocalDataStoreMgr::__get_m_CookieGenerator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CookieGenerator;
 }
 constexpr void System::LocalDataStoreMgr::__set_m_CookieGenerator(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CookieGenerator = value;
 }
 inline ::System::LocalDataStoreHolder* System::LocalDataStoreMgr::CreateLocalDataStore() {

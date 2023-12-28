@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(HealthCheckService)
 namespace System::Net {
 class HttpListener;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace System::Threading {
 class Thread;
 }
-namespace System::Threading {
-class ManualResetEvent;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class IHealthCheckService;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace System::Threading {
+class ManualResetEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {

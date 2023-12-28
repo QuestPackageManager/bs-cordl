@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineArrayReference)
 namespace GlobalNamespace {
-struct __TimelineArrayReference__ArrayTypes;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-class TextMeshPro;
+class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class DirectionalLight;
+}
+namespace TMPro {
+class TextMeshPro;
 }
 namespace GlobalNamespace {
-class DirectionalLight;
+struct __TimelineArrayReference__ArrayTypes;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -11,53 +11,53 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKRender)
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Plane;
+namespace LIV::SDK::Unity {
+struct SDKResolution;
 }
 namespace LIV::SDK::Unity {
 class LIV;
-}
-namespace LIV::SDK::Unity {
-struct SDKInputFrame;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_ID;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace LIV::SDK::Unity {
-struct SDKOutputFrame;
-}
-namespace LIV::SDK::Unity {
-struct SDKResolution;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class Transform;
 }
-namespace UnityEngine::Rendering {
-class CommandBuffer;
+namespace LIV::SDK::Unity {
+struct SDKInputFrame;
 }
 namespace UnityEngine::Rendering {
 struct ColorWriteMask;
 }
+namespace LIV::SDK::Unity {
+struct TEXTURE_ID;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+struct Plane;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace LIV::SDK::Unity {
+struct SDKOutputFrame;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 class Camera;
@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::LIV::SDK::Unity::SDKRender);
 // SizeInfo { instance_size: 832, native_size: -1, calculated_instance_size: 832, calculated_native_size: 828, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(15116)), TypeDefinitionIndex(TypeDefinitionIndex(15115)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15108)), TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(15116)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15115)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15108))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15097)) CS Name: ::LIV.SDK.Unity::SDKRender*
 class CORDL_TYPE SDKRender : public ::System::Object {
 public:

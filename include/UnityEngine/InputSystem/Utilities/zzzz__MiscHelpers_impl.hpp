@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MiscHelpers_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MiscHelpers_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::operator ::System::Collections::Generic::IEnumerable_1<TValue>*() noexcept {
@@ -30,142 +30,142 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__Misc
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TValue> constexpr TValue& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___2__current(TValue value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TValue> constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get_enumerable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerable;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const&
 UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get_enumerable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerable;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set_enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___3__enumerable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__enumerable;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const&
 UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___3__enumerable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__enumerable;
 }
 template <typename TValue>
 constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___3__enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__enumerable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get_start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get_start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___start;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set_start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___start = value;
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___3__start() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__start;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___3__start() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__start;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___3__start(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__start = value;
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get_n() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get_n() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set_n(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___n = value;
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___3__n() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__n;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___3__n() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__n;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___3__n(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__n = value;
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get__index_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index_5__2;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get__index_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index_5__2;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set__index_5__2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index_5__2 = value;
 }
 template <typename TValue> constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TValue>*> const&
 UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue>

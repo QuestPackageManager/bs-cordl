@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRTrackedCamera)
-namespace System {
-class IAsyncResult;
-}
 namespace OVR::OpenVR {
 struct EVRTrackedCameraError;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace OVR::OpenVR {
 struct EVRTrackedCameraFrameType;
@@ -36,40 +36,40 @@ namespace OVR::OpenVR {
 struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetVideoStreamFrameBuffer;
-}
-namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetVideoStreamTextureD3D11;
-}
-namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetVideoStreamTextureGL;
-}
-namespace OVR::OpenVR {
-class __IVRTrackedCamera___ReleaseVideoStreamTextureGL;
-}
-namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetCameraFrameSize;
-}
-namespace OVR::OpenVR {
-class __IVRTrackedCamera___HasCamera;
+class __IVRTrackedCamera___GetCameraErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
 class __IVRTrackedCamera___ReleaseVideoStreamingService;
 }
 namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetVideoStreamTextureSize;
+class __IVRTrackedCamera___GetCameraProjection;
+}
+namespace OVR::OpenVR {
+class __IVRTrackedCamera___GetCameraFrameSize;
+}
+namespace OVR::OpenVR {
+class __IVRTrackedCamera___GetVideoStreamTextureGL;
 }
 namespace OVR::OpenVR {
 class __IVRTrackedCamera___AcquireVideoStreamingService;
 }
 namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetCameraErrorNameFromEnum;
-}
-namespace OVR::OpenVR {
 class __IVRTrackedCamera___GetCameraIntrinsics;
 }
 namespace OVR::OpenVR {
-class __IVRTrackedCamera___GetCameraProjection;
+class __IVRTrackedCamera___GetVideoStreamFrameBuffer;
+}
+namespace OVR::OpenVR {
+class __IVRTrackedCamera___HasCamera;
+}
+namespace OVR::OpenVR {
+class __IVRTrackedCamera___GetVideoStreamTextureSize;
+}
+namespace OVR::OpenVR {
+class __IVRTrackedCamera___GetVideoStreamTextureD3D11;
+}
+namespace OVR::OpenVR {
+class __IVRTrackedCamera___ReleaseVideoStreamTextureGL;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

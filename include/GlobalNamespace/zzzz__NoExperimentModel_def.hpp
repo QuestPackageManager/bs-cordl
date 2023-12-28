@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoExperimentModel)
+namespace GlobalNamespace {
+class IExperimentModel;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class IExperimentData;
-}
-namespace GlobalNamespace {
-class IExperimentModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

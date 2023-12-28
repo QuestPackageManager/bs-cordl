@@ -225,63 +225,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::XR::Management::XRManagerSettings*& UnityEngine::XR::Management::XRGeneralSettings::__get_m_LoaderManagerInstance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LoaderManagerInstance;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRManagerSettings*> const& UnityEngine::XR::Management::XRGeneralSettings::__get_m_LoaderManagerInstance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LoaderManagerInstance;
 }
 constexpr void UnityEngine::XR::Management::XRGeneralSettings::__set_m_LoaderManagerInstance(::UnityEngine::XR::Management::XRManagerSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LoaderManagerInstance)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::XR::Management::XRGeneralSettings::__get_m_InitManagerOnStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitManagerOnStart;
 }
 constexpr bool const& UnityEngine::XR::Management::XRGeneralSettings::__get_m_InitManagerOnStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitManagerOnStart;
 }
 constexpr void UnityEngine::XR::Management::XRGeneralSettings::__set_m_InitManagerOnStart(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InitManagerOnStart = value;
 }
 constexpr ::UnityEngine::XR::Management::XRManagerSettings*& UnityEngine::XR::Management::XRGeneralSettings::__get_m_XRManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XRManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRManagerSettings*> const& UnityEngine::XR::Management::XRGeneralSettings::__get_m_XRManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XRManager;
 }
 constexpr void UnityEngine::XR::Management::XRGeneralSettings::__set_m_XRManager(::UnityEngine::XR::Management::XRManagerSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_XRManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::XR::Management::XRGeneralSettings::__get_m_ProviderIntialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProviderIntialized;
 }
 constexpr bool const& UnityEngine::XR::Management::XRGeneralSettings::__get_m_ProviderIntialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProviderIntialized;
 }
 constexpr void UnityEngine::XR::Management::XRGeneralSettings::__set_m_ProviderIntialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProviderIntialized = value;
 }
 constexpr bool& UnityEngine::XR::Management::XRGeneralSettings::__get_m_ProviderStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProviderStarted;
 }
 constexpr bool const& UnityEngine::XR::Management::XRGeneralSettings::__get_m_ProviderStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProviderStarted;
 }
 constexpr void UnityEngine::XR::Management::XRGeneralSettings::__set_m_ProviderStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProviderStarted = value;
 }
 inline void UnityEngine::XR::Management::XRGeneralSettings::setStaticF_k_SettingsKey(::StringW value) {

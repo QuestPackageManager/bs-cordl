@@ -50,51 +50,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__typeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeId;
 }
 constexpr ::StringW const& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__typeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeId;
 }
 constexpr void System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__set__typeId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__Reloadable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Reloadable_k__BackingField;
 }
 constexpr bool const& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__Reloadable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Reloadable_k__BackingField;
 }
 constexpr void System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__set__Reloadable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Reloadable_k__BackingField = value;
 }
 constexpr ::StringW& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__SerializerTypeName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SerializerTypeName_k__BackingField;
 }
 constexpr ::StringW const& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__SerializerTypeName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SerializerTypeName_k__BackingField;
 }
 constexpr void System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__set__SerializerTypeName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SerializerTypeName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__SerializerBaseTypeName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SerializerBaseTypeName_k__BackingField;
 }
 constexpr ::StringW const& System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__SerializerBaseTypeName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SerializerBaseTypeName_k__BackingField;
 }
 constexpr void System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__set__SerializerBaseTypeName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SerializerBaseTypeName_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

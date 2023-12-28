@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerPasswordEntryViewController)
-namespace HMUI {
-class UIKeyboard;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace HMUI {
+class UIKeyboard;
 }
 namespace HMUI {
 class InputFieldView;

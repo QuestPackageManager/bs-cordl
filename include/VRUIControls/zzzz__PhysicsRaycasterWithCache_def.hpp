@@ -13,14 +13,14 @@ CORDL_MODULE_EXPORT(PhysicsRaycasterWithCache)
 namespace UnityEngine {
 struct Ray;
 }
-namespace UnityEngine {
-struct RaycastHit;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace VRUIControls {
 struct __PhysicsRaycasterWithCache__CachedRaycast;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct RaycastHit;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -36,7 +36,7 @@ MARK_VAL_T(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15487)), TypeDefinitionIndex(TypeDefinitionIndex(10169))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10169)), TypeDefinitionIndex(TypeDefinitionIndex(15487))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15671))
 // CS Name: ::PhysicsRaycasterWithCache::CachedRaycast
 struct CORDL_TYPE __PhysicsRaycasterWithCache__CachedRaycast {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredValueTaskAwaitable)
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+namespace System::Threading::Tasks {
+struct ValueTask;
 }
 namespace System {
 class Action;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelTextSettings.get_defaultPanelTextSettings
 template <>
 

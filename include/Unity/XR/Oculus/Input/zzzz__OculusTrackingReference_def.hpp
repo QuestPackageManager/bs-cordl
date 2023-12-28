@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 CORDL_MODULE_EXPORT(OculusTrackingReference)
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;

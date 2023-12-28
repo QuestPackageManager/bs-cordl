@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__TMP_TextElement_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Character)
-namespace TMPro {
-class TMP_FontAsset;
-}
 namespace UnityEngine::TextCore {
 class Glyph;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 // Forward declare root types
 namespace TMPro {

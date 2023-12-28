@@ -10,20 +10,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerEditorConnectionEvents)
-namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerEditorConnectionEvents__ConnectionChangeEvent;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 struct Guid;
 }
 namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerEditorConnectionEvents____c__DisplayClass6_0;
-}
-namespace UnityEngine::Networking::PlayerConnection {
 class __PlayerEditorConnectionEvents__MessageEvent;
 }
 namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerEditorConnectionEvents__MessageTypeSubscribers;
+class __PlayerEditorConnectionEvents____c__DisplayClass6_0;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class __PlayerEditorConnectionEvents____c__DisplayClass7_0;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityEvent_1;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class MessageEventArgs;
@@ -31,17 +37,11 @@ class MessageEventArgs;
 namespace UnityEngine::Networking::PlayerConnection {
 class __PlayerEditorConnectionEvents____c__DisplayClass8_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::Networking::PlayerConnection {
+class __PlayerEditorConnectionEvents__ConnectionChangeEvent;
 }
 namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerEditorConnectionEvents____c__DisplayClass7_0;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityEvent_1;
+class __PlayerEditorConnectionEvents__MessageTypeSubscribers;
 }
 // Forward declare root types
 namespace UnityEngine::Networking::PlayerConnection {
@@ -225,7 +225,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10304))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass6_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass6_0 : public ::System::Object {
@@ -275,7 +275,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10305))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass7_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass7_0 : public ::System::Object {
@@ -325,7 +325,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10306))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass8_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass8_0 : public ::System::Object {

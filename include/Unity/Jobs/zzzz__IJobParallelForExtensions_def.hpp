@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobParallelForExtensions)
-namespace System {
-class Object;
-}
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
-namespace Unity::Jobs {
-template <typename T> struct __IJobParallelForExtensions__ParallelForJobStruct_1;
+namespace System {
+class Object;
 }
 namespace Unity::Jobs {
 struct JobHandle;
+}
+namespace Unity::Jobs {
+template <typename T> struct __IJobParallelForExtensions__ParallelForJobStruct_1;
 }
 namespace GlobalNamespace {
 template <typename T> class __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction;

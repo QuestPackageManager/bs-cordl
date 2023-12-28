@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationGroupEffect)
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class LightRotationBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
 namespace Tweening {
 class FloatTween;
 }
-namespace Tweening {
-class SongTimeTweeningManager;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class __LightRotationGroupEffect__InitData;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
 struct LightRotationDirection;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class LightRotationBeatmapEventData;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 struct LightAxis;
@@ -144,7 +144,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightRotation
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4941))
 // CS Name: ::LightRotationGroupEffect*
 class CORDL_TYPE LightRotationGroupEffect : public ::System::Object {

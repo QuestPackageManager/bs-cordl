@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsStream)
 namespace System {
+class Object;
+}
+namespace System {
 class IAsyncResult;
 }
-namespace System::Net::Sockets {
-class Socket;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace System::Net::Security {
 class SslStream;
 }
-namespace System {
-class Object;
-}
 namespace System::Net::Sockets {
-class NetworkStream;
+class Socket;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System::Net::Sockets {
+class NetworkStream;
 }
 // Forward declare root types
 namespace System::Net {

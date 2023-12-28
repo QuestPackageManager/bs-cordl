@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatEffectSpawner)
 namespace GlobalNamespace {
-class BloomFogSO;
+class NoteController;
+}
+namespace GlobalNamespace {
+class SongController;
 }
 namespace GlobalNamespace {
 class BeatEffect;
 }
 namespace GlobalNamespace {
-class NoteController;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
 class __BeatEffect__Pool;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class SongController;
+class BloomFogSO;
 }
 namespace GlobalNamespace {
 class __BeatEffectSpawner__InitData;
 }
 namespace GlobalNamespace {
 class ColorManager;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class IBeatEffectDidFinishEvent;

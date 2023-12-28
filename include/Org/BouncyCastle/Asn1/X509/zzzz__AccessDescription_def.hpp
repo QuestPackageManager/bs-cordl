@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AccessDescription)
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
@@ -19,6 +13,12 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

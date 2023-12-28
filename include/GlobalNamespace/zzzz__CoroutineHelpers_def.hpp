@@ -11,13 +11,13 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class ICoroutineStarter;
+class __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace GlobalNamespace {
-class __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
+class ICoroutineStarter;
 }
 namespace System {
 class Action;

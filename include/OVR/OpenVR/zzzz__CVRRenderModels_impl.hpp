@@ -3,16 +3,16 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
-#include "OVR/OpenVR/zzzz__RenderModel_ControllerMode_State_t_def.hpp"
-#include "OVR/OpenVR/zzzz__RenderModel_ComponentState_t_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRRenderModelError_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
+#include "OVR/OpenVR/zzzz__RenderModel_ComponentState_t_def.hpp"
+#include "OVR/OpenVR/zzzz__RenderModel_ControllerMode_State_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRRenderModelError_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRRenderModels_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked._ctor
 template <>
@@ -472,15 +472,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRRenderModels& OVR::OpenVR::CVRRenderModels::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRRenderModels const& OVR::OpenVR::CVRRenderModels::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRRenderModels::__set_FnTable(::OVR::OpenVR::IVRRenderModels value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRRenderModels* OVR::OpenVR::CVRRenderModels::New_ctor(void* pInterface) {

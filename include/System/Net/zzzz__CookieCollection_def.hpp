@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieCollection)
-namespace System::Net {
-class Cookie;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Net {
+struct __CookieCollection__Stamp;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Net {
+class Cookie;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Net {
 class __CookieCollection__CookieCollectionEnumerator;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Net {
-struct __CookieCollection__Stamp;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Array;
 }
 // Forward declare root types
 namespace System::Net {

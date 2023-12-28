@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PermissionSet)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Security {
-class SecurityElement;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Security::Permissions {
-struct PermissionState;
+class ISecurityEncodable;
 }
 namespace System {
 class Object;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Security {
 class IPermission;
+}
+namespace System::Security {
+class SecurityElement;
+}
+namespace System {
+class Array;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Security {
-class ISecurityEncodable;
+namespace System::Security::Permissions {
+struct PermissionState;
 }
 // Forward declare root types
 namespace System::Security {

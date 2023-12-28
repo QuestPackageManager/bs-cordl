@@ -3,8 +3,8 @@
 #include "System/Net/zzzz__FtpOperation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__FtpMethodInfo_def.hpp"
-#include "System/Net/zzzz__FtpMethodFlags_def.hpp"
 #include "System/Net/zzzz__FtpOperation_def.hpp"
+#include "System/Net/zzzz__FtpMethodFlags_def.hpp"
 //  Writing Method size for method: ::System::Net::FtpMethodInfo._ctor
 template <>
 
@@ -104,51 +104,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Net::FtpMethodInfo::__get_Method() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Method;
 }
 constexpr ::StringW const& System::Net::FtpMethodInfo::__get_Method() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Method;
 }
 constexpr void System::Net::FtpMethodInfo::__set_Method(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::FtpOperation& System::Net::FtpMethodInfo::__get_Operation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Operation;
 }
 constexpr ::System::Net::FtpOperation const& System::Net::FtpMethodInfo::__get_Operation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Operation;
 }
 constexpr void System::Net::FtpMethodInfo::__set_Operation(::System::Net::FtpOperation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Operation = value;
 }
 constexpr ::System::Net::FtpMethodFlags& System::Net::FtpMethodInfo::__get_Flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Flags;
 }
 constexpr ::System::Net::FtpMethodFlags const& System::Net::FtpMethodInfo::__get_Flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Flags;
 }
 constexpr void System::Net::FtpMethodInfo::__set_Flags(::System::Net::FtpMethodFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Flags = value;
 }
 constexpr ::StringW& System::Net::FtpMethodInfo::__get_HttpCommand() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HttpCommand;
 }
 constexpr ::StringW const& System::Net::FtpMethodInfo::__get_HttpCommand() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HttpCommand;
 }
 constexpr void System::Net::FtpMethodInfo::__set_HttpCommand(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___HttpCommand)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::FtpMethodInfo::setStaticF_s_knownMethodInfo(::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*> value) {

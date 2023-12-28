@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexRunner)
 namespace System::Text::RegularExpressions {
-class Regex;
+class Match;
 }
 namespace System::Text::RegularExpressions {
-class Match;
+class Regex;
 }
 namespace System {
 struct TimeSpan;

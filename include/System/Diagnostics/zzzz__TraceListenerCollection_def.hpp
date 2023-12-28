@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceListenerCollection)
 namespace System::Collections {
+class ICollection;
+}
+namespace System::Diagnostics {
+class TraceListener;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Object;
-}
-namespace System::Diagnostics {
-class TraceListener;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class ArrayList;
 }
 // Forward declare root types
 namespace System::Diagnostics {

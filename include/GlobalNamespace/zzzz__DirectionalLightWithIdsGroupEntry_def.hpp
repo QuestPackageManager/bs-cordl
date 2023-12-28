@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DirectionalLightWithIdsGroupEntry)
 namespace GlobalNamespace {
-class DirectionalLightWithIds;
+class __DirectionalLightWithIdsGroupEntry__GroupLightData;
 }
 namespace GlobalNamespace {
 struct ColorMixAndWeightingApproach;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId;
 }
 namespace GlobalNamespace {
-class __DirectionalLightWithIdsGroupEntry__GroupLightData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class DirectionalLightWithIds;
 }
 namespace GlobalNamespace {
 class LightGroupSO;

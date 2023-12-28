@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusVRHelper)
-namespace GlobalNamespace {
-class IVerboseLogger;
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace UnityEngine {
-struct Pose;
+struct Quaternion;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__Node;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
@@ -24,23 +24,23 @@ class EventSystem;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IVerboseLogger;
+}
+namespace UnityEngine {
+struct Pose;
 }
 namespace GlobalNamespace {
 struct VRPlatformSDK;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
+struct __OVRPlugin__Node;
 }
 // Forward declare root types
 namespace GlobalNamespace {

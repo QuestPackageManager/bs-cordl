@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureSubpacketVector_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/Sig/zzzz__Features_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__NotationData_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/Sig/zzzz__Features_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector._ctor
 template <>
 
@@ -342,17 +342,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>&
 Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::__get_packets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packets;
 }
 constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const&
 Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::__get_packets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packets;
 }
 constexpr void
 Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::__set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*

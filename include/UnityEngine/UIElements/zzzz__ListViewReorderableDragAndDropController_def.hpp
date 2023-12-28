@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_def.hpp"
 CORDL_MODULE_EXPORT(ListViewReorderableDragAndDropController)
 namespace UnityEngine::UIElements {
+class IListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
 class ListView;
-}
-namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

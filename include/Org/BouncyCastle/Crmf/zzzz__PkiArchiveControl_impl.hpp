@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PkiArchiveControl_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::PkiArchiveControl._ctor
 template <>
 
@@ -96,15 +96,15 @@ constexpr Org::BouncyCastle::Crmf::PkiArchiveControl::operator ::Org::BouncyCast
   return static_cast<::Org::BouncyCastle::Crmf::IControl*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*& Org::BouncyCastle::Crmf::PkiArchiveControl::__get_pkiArchiveOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pkiArchiveOptions;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*> const& Org::BouncyCastle::Crmf::PkiArchiveControl::__get_pkiArchiveOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pkiArchiveOptions;
 }
 constexpr void Org::BouncyCastle::Crmf::PkiArchiveControl::__set_pkiArchiveOptions(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pkiArchiveOptions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crmf::PkiArchiveControl::setStaticF_encryptedPrivKey(int32_t value) {

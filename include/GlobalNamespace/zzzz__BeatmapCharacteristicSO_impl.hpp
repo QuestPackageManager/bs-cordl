@@ -142,111 +142,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Sprite*& GlobalNamespace::BeatmapCharacteristicSO::__get__icon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____icon;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::BeatmapCharacteristicSO::__get__icon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____icon;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__icon(::UnityEngine::Sprite* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____icon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::BeatmapCharacteristicSO::__get__descriptionLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____descriptionLocalizationKey;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapCharacteristicSO::__get__descriptionLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____descriptionLocalizationKey;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__descriptionLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____descriptionLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::BeatmapCharacteristicSO::__get__characteristicNameLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characteristicNameLocalizationKey;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapCharacteristicSO::__get__characteristicNameLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characteristicNameLocalizationKey;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__characteristicNameLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____characteristicNameLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::BeatmapCharacteristicSO::__get__serializedName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializedName;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapCharacteristicSO::__get__serializedName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializedName;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__serializedName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializedName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::BeatmapCharacteristicSO::__get__compoundIdPartName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compoundIdPartName;
 }
 constexpr ::StringW const& GlobalNamespace::BeatmapCharacteristicSO::__get__compoundIdPartName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compoundIdPartName;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__compoundIdPartName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____compoundIdPartName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::BeatmapCharacteristicSO::__get__sortingOrder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortingOrder;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapCharacteristicSO::__get__sortingOrder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortingOrder;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__sortingOrder(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sortingOrder = value;
 }
 constexpr bool& GlobalNamespace::BeatmapCharacteristicSO::__get__containsRotationEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containsRotationEvents;
 }
 constexpr bool const& GlobalNamespace::BeatmapCharacteristicSO::__get__containsRotationEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containsRotationEvents;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__containsRotationEvents(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____containsRotationEvents = value;
 }
 constexpr bool& GlobalNamespace::BeatmapCharacteristicSO::__get__requires360Movement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requires360Movement;
 }
 constexpr bool const& GlobalNamespace::BeatmapCharacteristicSO::__get__requires360Movement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requires360Movement;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__requires360Movement(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requires360Movement = value;
 }
 constexpr int32_t& GlobalNamespace::BeatmapCharacteristicSO::__get__numberOfColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfColors;
 }
 constexpr int32_t const& GlobalNamespace::BeatmapCharacteristicSO::__get__numberOfColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfColors;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSO::__set__numberOfColors(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfColors = value;
 }
 inline ::UnityEngine::Sprite* GlobalNamespace::BeatmapCharacteristicSO::get_icon() {

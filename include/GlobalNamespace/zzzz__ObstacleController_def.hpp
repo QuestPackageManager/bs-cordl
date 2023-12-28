@@ -13,56 +13,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObstacleController)
-namespace UnityEngine {
-struct Bounds;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class __ObstacleController___DissolveCoroutine_d__65;
-}
 namespace GlobalNamespace {
 class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class StretchableObstacle;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class __ObstacleController__Pool;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class __ObstacleController__Pool;
+class __ObstacleController___DissolveCoroutine_d__65;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class StretchableObstacle;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -85,8 +85,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4793)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4792)) CS Name: ::ObstacleController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4793)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4792)) CS Name: ::ObstacleController*
 class CORDL_TYPE ObstacleController : public ::GlobalNamespace::ObstacleControllerBase {
 public:
   // Declarations
@@ -602,7 +602,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 372 }), TypeDefinitionIndex(TypeDefinitionIndex(4792)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4792)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 372 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4790)) CS Name: ::ObstacleController::Pool*
 class CORDL_TYPE __ObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController*> {
 public:

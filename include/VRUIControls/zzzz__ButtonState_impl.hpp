@@ -103,39 +103,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& VRUIControls::ButtonState::__get__button() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button;
 }
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& VRUIControls::ButtonState::__get__button() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button;
 }
 constexpr void VRUIControls::ButtonState::__set__button(::UnityEngine::EventSystems::__PointerEventData__InputButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____button = value;
 }
 constexpr ::VRUIControls::MouseButtonEventData*& VRUIControls::ButtonState::__get__eventData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventData;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::MouseButtonEventData*> const& VRUIControls::ButtonState::__get__eventData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventData;
 }
 constexpr void VRUIControls::ButtonState::__set__eventData(::VRUIControls::MouseButtonEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& VRUIControls::ButtonState::__get__pressedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedValue;
 }
 constexpr float_t const& VRUIControls::ButtonState::__get__pressedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedValue;
 }
 constexpr void VRUIControls::ButtonState::__set__pressedValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedValue = value;
 }
 inline ::VRUIControls::MouseButtonEventData* VRUIControls::ButtonState::get_eventData() {

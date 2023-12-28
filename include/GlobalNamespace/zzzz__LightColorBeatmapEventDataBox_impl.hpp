@@ -1,14 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorBeatmapEventDataBox.get_subtypeIdentifier
 template <>
 
@@ -81,52 +81,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& GlobalNamespace::LightColorBeatmapEventDataBox::__get__lightColorBaseDataList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColorBaseDataList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*> const&
 GlobalNamespace::LightColorBeatmapEventDataBox::__get__lightColorBaseDataList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColorBaseDataList;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventDataBox::__set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightColorBaseDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::LightColorBeatmapEventDataBox::__get__brightnessStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessStep;
 }
 constexpr float_t const& GlobalNamespace::LightColorBeatmapEventDataBox::__get__brightnessStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessStep;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventDataBox::__set__brightnessStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____brightnessStep = value;
 }
 constexpr float_t& GlobalNamespace::LightColorBeatmapEventDataBox::__get__beatStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
 constexpr float_t const& GlobalNamespace::LightColorBeatmapEventDataBox::__get__beatStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventDataBox::__set__beatStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatStep = value;
 }
 constexpr bool& GlobalNamespace::LightColorBeatmapEventDataBox::__get__brightnessDistributionShouldAffectFirstBaseEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessDistributionShouldAffectFirstBaseEvent;
 }
 constexpr bool const& GlobalNamespace::LightColorBeatmapEventDataBox::__get__brightnessDistributionShouldAffectFirstBaseEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____brightnessDistributionShouldAffectFirstBaseEvent;
 }
 constexpr void GlobalNamespace::LightColorBeatmapEventDataBox::__set__brightnessDistributionShouldAffectFirstBaseEvent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____brightnessDistributionShouldAffectFirstBaseEvent = value;
 }
 inline int32_t GlobalNamespace::LightColorBeatmapEventDataBox::get_subtypeIdentifier() {

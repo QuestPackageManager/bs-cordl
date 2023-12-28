@@ -4,14 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameServersFilterText)
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
 namespace HMUI {
 class CurvedTextMeshPro;
 }
 namespace GlobalNamespace {
-class SongPackMasksModel;
+struct SongPackMask;
 }
 namespace System::Text {
 class StringBuilder;
@@ -20,7 +17,10 @@ namespace GlobalNamespace {
 class GameServersFilter;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+class SongPackMasksModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

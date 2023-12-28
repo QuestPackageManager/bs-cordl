@@ -41,15 +41,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode& UnityEngine::Timeline::TimeFieldAttribute::__get__useEditMode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useEditMode_k__BackingField;
 }
 constexpr ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode const& UnityEngine::Timeline::TimeFieldAttribute::__get__useEditMode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useEditMode_k__BackingField;
 }
 constexpr void UnityEngine::Timeline::TimeFieldAttribute::__set__useEditMode_k__BackingField(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useEditMode_k__BackingField = value;
 }
 inline ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode() {

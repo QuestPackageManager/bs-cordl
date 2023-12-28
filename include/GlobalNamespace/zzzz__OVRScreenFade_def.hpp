@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRScreenFade)
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class __OVRScreenFade___Fade_d__25;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

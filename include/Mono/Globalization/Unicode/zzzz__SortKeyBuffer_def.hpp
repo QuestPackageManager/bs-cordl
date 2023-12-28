@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::SortKeyBuffer);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 131, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2272))
 // CS Name: ::Mono.Globalization.Unicode::SortKeyBuffer*
 class CORDL_TYPE SortKeyBuffer : public ::System::Object {

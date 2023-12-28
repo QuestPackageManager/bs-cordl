@@ -10,16 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObjectCreationParameters)
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace System {
 template <typename T> struct Nullable_1;
@@ -27,8 +18,17 @@ template <typename T> struct Nullable_1;
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace System {
+class Object;
+}
 namespace Zenject {
 class InjectContext;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace Zenject {
@@ -40,9 +40,9 @@ MARK_REF_PTR_T(::Zenject::GameObjectCreationParameters);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10949)) CS Name: ::Zenject::GameObjectCreationParameters*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10949)) CS Name: ::Zenject::GameObjectCreationParameters*
 class CORDL_TYPE GameObjectCreationParameters : public ::System::Object {
 public:
   // Declarations

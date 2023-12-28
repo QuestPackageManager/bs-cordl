@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionsGenerator)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace System::Collections {
-class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

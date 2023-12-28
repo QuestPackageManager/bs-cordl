@@ -240,87 +240,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::BloomFogSO::__get__bloomFogEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogEnabled;
 }
 constexpr bool const& GlobalNamespace::BloomFogSO::__get__bloomFogEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogEnabled;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__bloomFogEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomFogEnabled = value;
 }
 constexpr bool& GlobalNamespace::BloomFogSO::__get__legacyAutoExposureEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____legacyAutoExposureEnabled;
 }
 constexpr bool const& GlobalNamespace::BloomFogSO::__get__legacyAutoExposureEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____legacyAutoExposureEnabled;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__legacyAutoExposureEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____legacyAutoExposureEnabled = value;
 }
 constexpr float_t& GlobalNamespace::BloomFogSO::__get__transition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr float_t const& GlobalNamespace::BloomFogSO::__get__transition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__transition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transition = value;
 }
 constexpr float_t& GlobalNamespace::BloomFogSO::__get__autoExposureLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoExposureLimit;
 }
 constexpr float_t const& GlobalNamespace::BloomFogSO::__get__autoExposureLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoExposureLimit;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__autoExposureLimit(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoExposureLimit = value;
 }
 constexpr float_t& GlobalNamespace::BloomFogSO::__get__noteSpawnIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteSpawnIntensity;
 }
 constexpr float_t const& GlobalNamespace::BloomFogSO::__get__noteSpawnIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteSpawnIntensity;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__noteSpawnIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteSpawnIntensity = value;
 }
 constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& GlobalNamespace::BloomFogSO::__get__defaultFogParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultFogParams;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& GlobalNamespace::BloomFogSO::__get__defaultFogParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultFogParams;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__defaultFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultFogParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& GlobalNamespace::BloomFogSO::__get__transitionFogParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transitionFogParams;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& GlobalNamespace::BloomFogSO::__get__transitionFogParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transitionFogParams;
 }
 constexpr void GlobalNamespace::BloomFogSO::__set__transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transitionFogParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BloomFogSO::setStaticF__customFogAttenuationID(int32_t value) {

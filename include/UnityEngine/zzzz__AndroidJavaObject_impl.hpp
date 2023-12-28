@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
-#include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
+#include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJavaObject._ctor
 template <>
 
@@ -382,27 +382,27 @@ constexpr UnityEngine::AndroidJavaObject::operator ::System::IDisposable*() noex
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::GlobalJavaObjectRef*& UnityEngine::AndroidJavaObject::__get_m_jobject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_jobject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GlobalJavaObjectRef*> const& UnityEngine::AndroidJavaObject::__get_m_jobject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_jobject;
 }
 constexpr void UnityEngine::AndroidJavaObject::__set_m_jobject(::UnityEngine::GlobalJavaObjectRef* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_jobject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GlobalJavaObjectRef*& UnityEngine::AndroidJavaObject::__get_m_jclass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_jclass;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GlobalJavaObjectRef*> const& UnityEngine::AndroidJavaObject::__get_m_jclass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_jclass;
 }
 constexpr void UnityEngine::AndroidJavaObject::__set_m_jclass(::UnityEngine::GlobalJavaObjectRef* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_jclass)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::AndroidJavaObject::setStaticF_enableDebugPrints(bool value) {

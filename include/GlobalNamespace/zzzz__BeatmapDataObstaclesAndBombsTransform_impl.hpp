@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0._ctor
 template <>
 
@@ -38,27 +38,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__get_enabledObstaclesType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabledObstaclesType;
 }
 constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__get_enabledObstaclesType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabledObstaclesType;
 }
 constexpr void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__set_enabledObstaclesType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enabledObstaclesType = value;
 }
 constexpr bool& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__get_noBombs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noBombs;
 }
 constexpr bool const& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__get_noBombs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noBombs;
 }
 constexpr void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__set_noBombs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noBombs = value;
 }
 inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::New_ctor() {

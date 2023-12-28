@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUpdateDelegate)
-namespace System {
-class IAsyncResult;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+struct InputEventBuffer;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

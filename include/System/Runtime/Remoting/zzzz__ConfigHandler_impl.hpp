@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ConfigHandler_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
+#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"
-#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ConfigHandler._ctor
 template <>
 
@@ -380,99 +380,99 @@ constexpr System::Runtime::Remoting::ConfigHandler::operator ::Mono::Xml::__Smal
   return static_cast<::Mono::Xml::__SmallXmlParser__IContentHandler*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::ConfigHandler::__get_typeEntries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeEntries;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::ConfigHandler::__get_typeEntries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeEntries;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_typeEntries(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typeEntries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::ConfigHandler::__get_channelInstances() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___channelInstances;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::ConfigHandler::__get_channelInstances() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___channelInstances;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_channelInstances(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___channelInstances)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::ChannelData*& System::Runtime::Remoting::ConfigHandler::__get_currentChannel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentChannel;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ChannelData*> const& System::Runtime::Remoting::ConfigHandler::__get_currentChannel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentChannel;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_currentChannel(::System::Runtime::Remoting::ChannelData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentChannel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Stack*& System::Runtime::Remoting::ConfigHandler::__get_currentProviderData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentProviderData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& System::Runtime::Remoting::ConfigHandler::__get_currentProviderData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentProviderData;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_currentProviderData(::System::Collections::Stack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentProviderData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::ConfigHandler::__get_currentClientUrl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentClientUrl;
 }
 constexpr ::StringW const& System::Runtime::Remoting::ConfigHandler::__get_currentClientUrl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentClientUrl;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_currentClientUrl(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentClientUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::ConfigHandler::__get_appName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appName;
 }
 constexpr ::StringW const& System::Runtime::Remoting::ConfigHandler::__get_appName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appName;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_appName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___appName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Runtime::Remoting::ConfigHandler::__get_currentXmlPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentXmlPath;
 }
 constexpr ::StringW const& System::Runtime::Remoting::ConfigHandler::__get_currentXmlPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentXmlPath;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_currentXmlPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentXmlPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Remoting::ConfigHandler::__get_onlyDelayedChannels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onlyDelayedChannels;
 }
 constexpr bool const& System::Runtime::Remoting::ConfigHandler::__get_onlyDelayedChannels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onlyDelayedChannels;
 }
 constexpr void System::Runtime::Remoting::ConfigHandler::__set_onlyDelayedChannels(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onlyDelayedChannels = value;
 }
 inline ::System::Runtime::Remoting::ConfigHandler* System::Runtime::Remoting::ConfigHandler::New_ctor(bool onlyDelayedChannels) {

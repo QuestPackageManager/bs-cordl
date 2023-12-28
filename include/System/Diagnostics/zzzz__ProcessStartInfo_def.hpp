@@ -9,14 +9,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProcessStartInfo)
-namespace System::Text {
-class Encoding;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System {
-class WeakReference;
+namespace System::Security {
+class SecureString;
 }
 namespace System::Collections::Specialized {
 class StringDictionary;
@@ -24,14 +18,20 @@ class StringDictionary;
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
 namespace System::Diagnostics {
 struct ProcessWindowStyle;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Diagnostics {
 class Process;
 }
-namespace System::Security {
-class SecureString;
+namespace System {
+class WeakReference;
 }
 // Forward declare root types
 namespace System::Diagnostics {

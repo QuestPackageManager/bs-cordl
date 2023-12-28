@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_DetailPrototype);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9956))
 // CS Name: ::HoudiniEngineUnity::HEU_DetailPrototype*
 class CORDL_TYPE HEU_DetailPrototype : public ::System::Object {

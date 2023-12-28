@@ -39,27 +39,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::IPrefabProvider*& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__get__prefabProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__get__prefabProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabProvider;
 }
 constexpr void Zenject::SubContainerCreatorByNewPrefabDynamicContext::__set__prefabProvider(::Zenject::IPrefabProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefabProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__get__gameObjectBindInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__get__gameObjectBindInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr void Zenject::SubContainerCreatorByNewPrefabDynamicContext::__set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObjectBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* Zenject::SubContainerCreatorByNewPrefabDynamicContext::New_ctor(::Zenject::DiContainer* container,

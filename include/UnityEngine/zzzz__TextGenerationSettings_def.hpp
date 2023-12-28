@@ -13,25 +13,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationSettings)
 namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
-struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 struct FontStyle;
 }
 namespace UnityEngine {
-struct VerticalWrapMode;
+struct TextAnchor;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct VerticalWrapMode;
+}
+namespace UnityEngine {
+struct HorizontalWrapMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -43,8 +43,8 @@ MARK_VAL_T(::UnityEngine::TextGenerationSettings);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15902)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(15903)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15903)), TypeDefinitionIndex(TypeDefinitionIndex(15902)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15898)) CS Name: ::UnityEngine::TextGenerationSettings
 struct CORDL_TYPE TextGenerationSettings {
 public:

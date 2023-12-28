@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 CORDL_MODULE_EXPORT(Datatype_anyAtomicType)
 namespace System::Xml::Schema {
-struct XmlTypeCode;
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

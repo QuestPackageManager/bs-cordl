@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NullAllowedIf)
 namespace GlobalNamespace {
+struct __NullAllowed__Context;
+}
+namespace GlobalNamespace {
 struct ComparisonOperation;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-struct __NullAllowed__Context;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowedIf);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16247)), TypeDefinitionIndex(TypeDefinitionIndex(16252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16252)), TypeDefinitionIndex(TypeDefinitionIndex(16247))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16253))
 // CS Name: ::NullAllowedIf*
 class CORDL_TYPE NullAllowedIf : public ::GlobalNamespace::NullAllowed {

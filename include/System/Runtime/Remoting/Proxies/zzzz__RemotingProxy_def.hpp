@@ -6,14 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemotingProxy)
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
 }
 namespace System {
 class Type;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting {
 class Identity;
@@ -21,20 +27,14 @@ class Identity;
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System::Runtime::Remoting {
-class ClientIdentity;
-}
-namespace System::Runtime::Remoting {
-class IRemotingTypeInfo;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace System::Runtime::Remoting::Messaging {
 class ConstructionCall;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System::Runtime::Remoting {
+class ClientIdentity;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {

@@ -30,75 +30,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::ColorUsageAttribute::__get_showAlpha() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showAlpha;
 }
 constexpr bool const& UnityEngine::ColorUsageAttribute::__get_showAlpha() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showAlpha;
 }
 constexpr void UnityEngine::ColorUsageAttribute::__set_showAlpha(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showAlpha = value;
 }
 constexpr bool& UnityEngine::ColorUsageAttribute::__get_hdr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hdr;
 }
 constexpr bool const& UnityEngine::ColorUsageAttribute::__get_hdr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hdr;
 }
 constexpr void UnityEngine::ColorUsageAttribute::__set_hdr(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hdr = value;
 }
 constexpr float_t& UnityEngine::ColorUsageAttribute::__get_minBrightness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minBrightness;
 }
 constexpr float_t const& UnityEngine::ColorUsageAttribute::__get_minBrightness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minBrightness;
 }
 constexpr void UnityEngine::ColorUsageAttribute::__set_minBrightness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minBrightness = value;
 }
 constexpr float_t& UnityEngine::ColorUsageAttribute::__get_maxBrightness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxBrightness;
 }
 constexpr float_t const& UnityEngine::ColorUsageAttribute::__get_maxBrightness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxBrightness;
 }
 constexpr void UnityEngine::ColorUsageAttribute::__set_maxBrightness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxBrightness = value;
 }
 constexpr float_t& UnityEngine::ColorUsageAttribute::__get_minExposureValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minExposureValue;
 }
 constexpr float_t const& UnityEngine::ColorUsageAttribute::__get_minExposureValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minExposureValue;
 }
 constexpr void UnityEngine::ColorUsageAttribute::__set_minExposureValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minExposureValue = value;
 }
 constexpr float_t& UnityEngine::ColorUsageAttribute::__get_maxExposureValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxExposureValue;
 }
 constexpr float_t const& UnityEngine::ColorUsageAttribute::__get_maxExposureValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxExposureValue;
 }
 constexpr void UnityEngine::ColorUsageAttribute::__set_maxExposureValue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxExposureValue = value;
 }
 inline ::UnityEngine::ColorUsageAttribute* UnityEngine::ColorUsageAttribute::New_ctor(bool showAlpha) {

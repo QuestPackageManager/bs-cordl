@@ -9,32 +9,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GridView)
+namespace GlobalNamespace {
+class __GridView__IDataSource;
+}
+namespace GlobalNamespace {
+class __GridView__GridViewCellsEnumerator;
+}
 namespace UnityEngine {
 class MonoBehaviour;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
-class __GridView__GridViewCellsEnumerator;
-}
 namespace UnityEngine {
 class RectTransform;
 }
-namespace GlobalNamespace {
-class __GridView__IDataSource;
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class __GridView__GridViewCellsEnumerator___GetEnumerator_d__1;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -42,8 +39,11 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+class __GridView__GridViewCellsEnumerator___GetEnumerator_d__1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
@@ -107,10 +107,10 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1692 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 1375 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1692 }), TypeDefinitionIndex(TypeDefinitionIndex(3820)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5785)) CS Name: ::GridView::GridViewCellsEnumerator::<GetEnumerator>d__1*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst:
+// 1375 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1692 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1692 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3820)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5785))
+// CS Name: ::GridView::GridViewCellsEnumerator::<GetEnumerator>d__1*
 class CORDL_TYPE __GridView__GridViewCellsEnumerator___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations

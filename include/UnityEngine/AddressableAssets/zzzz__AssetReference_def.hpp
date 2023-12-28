@@ -7,14 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetReference)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace UnityEngine {
-struct Quaternion;
+class GameObject;
 }
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
@@ -22,23 +19,26 @@ class IKeyEvaluator;
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-class Type;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;

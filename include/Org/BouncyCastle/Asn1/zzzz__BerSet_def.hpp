@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerSet_def.hpp"
 CORDL_MODULE_EXPORT(BerSet)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;

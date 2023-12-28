@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__FFTWindow_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
-#include "UnityEngine/zzzz__AudioListener_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "UnityEngine/zzzz__AudioListener_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Audio::G_AudioMonitor.get_Spectrum
 template <>
 
@@ -243,100 +243,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Tayx::Graphy::GraphyManager*& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_graphyManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::GraphyManager*> const& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_graphyManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyManager;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set_m_graphyManager(::Tayx::Graphy::GraphyManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_graphyManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioListener*& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_audioListener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioListener;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioListener*> const& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_audioListener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioListener;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set_m_audioListener(::UnityEngine::AudioListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_audioListener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_findAudioListenerInCameraIfNull() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_findAudioListenerInCameraIfNull;
 }
 constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_findAudioListenerInCameraIfNull() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_findAudioListenerInCameraIfNull;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_findAudioListenerInCameraIfNull = value;
 }
 constexpr ::UnityEngine::FFTWindow& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_FFTWindow() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FFTWindow;
 }
 constexpr ::UnityEngine::FFTWindow const& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_FFTWindow() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FFTWindow;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set_m_FFTWindow(::UnityEngine::FFTWindow value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FFTWindow = value;
 }
 constexpr int32_t& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_spectrumSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_spectrumSize;
 }
 constexpr int32_t const& Tayx::Graphy::Audio::G_AudioMonitor::__get_m_spectrumSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_spectrumSize;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set_m_spectrumSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_spectrumSize = value;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& Tayx::Graphy::Audio::G_AudioMonitor::__get__Spectrum_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Spectrum_k__BackingField;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& Tayx::Graphy::Audio::G_AudioMonitor::__get__Spectrum_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Spectrum_k__BackingField;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set__Spectrum_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Spectrum_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*>& Tayx::Graphy::Audio::G_AudioMonitor::__get__SpectrumHighestValues_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SpectrumHighestValues_k__BackingField;
 }
 constexpr ::ArrayW<float_t, ::Array<float_t>*> const& Tayx::Graphy::Audio::G_AudioMonitor::__get__SpectrumHighestValues_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____SpectrumHighestValues_k__BackingField;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set__SpectrumHighestValues_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SpectrumHighestValues_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& Tayx::Graphy::Audio::G_AudioMonitor::__get__MaxDB_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxDB_k__BackingField;
 }
 constexpr float_t const& Tayx::Graphy::Audio::G_AudioMonitor::__get__MaxDB_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MaxDB_k__BackingField;
 }
 constexpr void Tayx::Graphy::Audio::G_AudioMonitor::__set__MaxDB_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaxDB_k__BackingField = value;
 }
 inline ::ArrayW<float_t, ::Array<float_t>*> Tayx::Graphy::Audio::G_AudioMonitor::get_Spectrum() {

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(AudioClipPlayable)
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine::Playables {
-struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableHandle;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {

@@ -10,8 +10,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerInputModule)
-namespace UnityEngine {
-struct Touch;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseState;
@@ -19,26 +19,26 @@ class __PointerInputModule__MouseState;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::EventSystems {
+class __PointerInputModule__ButtonState;
 }
 namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine {
+struct Touch;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__FramePressState;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class __PointerInputModule__ButtonState;
 }
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__InputButton;
@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__PointerInputModule__MouseState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13166))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13166)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13200))
 // CS Name: ::PointerInputModule::ButtonState*
 class CORDL_TYPE __PointerInputModule__ButtonState : public ::System::Object {

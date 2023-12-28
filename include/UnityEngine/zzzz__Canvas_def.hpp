@@ -10,31 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Canvas)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct AdditionalCanvasShaderChannels;
+struct Vector2;
 }
 namespace UnityEngine {
-class Material;
+struct RenderMode;
 }
 namespace UnityEngine {
 class __Canvas__WillRenderCanvases;
 }
 namespace UnityEngine {
-class Camera;
+struct AdditionalCanvasShaderChannels;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace UnityEngine {
-struct RenderMode;
+class Camera;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace System {
 class Object;

@@ -9,20 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityWebRequest)
-namespace UnityEngine::Networking {
-class UploadHandler;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+class DownloadHandler;
 }
 namespace UnityEngine::Networking {
 struct __UnityWebRequest__UnityWebRequestMethod;
 }
-namespace UnityEngine::Networking {
-struct __UnityWebRequest__UnityWebRequestError;
-}
-namespace UnityEngine::Networking {
-class CertificateHandler;
+namespace System {
+class Uri;
 }
 namespace System::Text {
 class Encoding;
@@ -30,14 +27,17 @@ class Encoding;
 namespace UnityEngine::Networking {
 struct __UnityWebRequest__Result;
 }
-namespace System {
-class Uri;
+namespace UnityEngine::Networking {
+struct __UnityWebRequest__UnityWebRequestError;
 }
 namespace UnityEngine::Networking {
-class DownloadHandler;
+class UploadHandler;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine::Networking {
+class CertificateHandler;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -337,7 +337,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::__Unity
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15579))
 // CS Name: ::UnityEngine.Networking::UnityWebRequest*
 class CORDL_TYPE UnityWebRequest : public ::System::Object {

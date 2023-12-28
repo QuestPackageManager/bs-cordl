@@ -2,13 +2,13 @@
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__StringComparer_impl.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
 //  Writing Method size for method: ::System::CultureAwareComparer._ctor
 template <>
 
@@ -148,27 +148,27 @@ constexpr System::CultureAwareComparer::operator ::System::Runtime::Serializatio
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::Globalization::CompareInfo*& System::CultureAwareComparer::__get__compareInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compareInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& System::CultureAwareComparer::__get__compareInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compareInfo;
 }
 constexpr void System::CultureAwareComparer::__set__compareInfo(::System::Globalization::CompareInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____compareInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CompareOptions& System::CultureAwareComparer::__get__options() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____options;
 }
 constexpr ::System::Globalization::CompareOptions const& System::CultureAwareComparer::__get__options() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____options;
 }
 constexpr void System::CultureAwareComparer::__set__options(::System::Globalization::CompareOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____options = value;
 }
 inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options) {

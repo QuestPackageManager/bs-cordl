@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TestPlatformLeaderboardsHandler)
 namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+}
+namespace GlobalNamespace {
+class __LeaderboardScoreUploader__ScoreData;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__ScoresScope;
 }
 // Forward declare root types
 namespace GlobalNamespace {

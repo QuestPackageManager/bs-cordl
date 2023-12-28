@@ -161,28 +161,28 @@ constexpr UnityEngine::SubsystemsImplementation::SubsystemWithProvider::operator
   return static_cast<::UnityEngine::ISubsystem*>(static_cast<void*>(this));
 }
 constexpr bool& UnityEngine::SubsystemsImplementation::SubsystemWithProvider::__get__running_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____running_k__BackingField;
 }
 constexpr bool const& UnityEngine::SubsystemsImplementation::SubsystemWithProvider::__get__running_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____running_k__BackingField;
 }
 constexpr void UnityEngine::SubsystemsImplementation::SubsystemWithProvider::__set__running_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____running_k__BackingField = value;
 }
 constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider*& UnityEngine::SubsystemsImplementation::SubsystemWithProvider::__get__providerBase_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providerBase_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SubsystemsImplementation::SubsystemProvider*> const&
 UnityEngine::SubsystemsImplementation::SubsystemWithProvider::__get__providerBase_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____providerBase_k__BackingField;
 }
 constexpr void UnityEngine::SubsystemsImplementation::SubsystemWithProvider::__set__providerBase_k__BackingField(::UnityEngine::SubsystemsImplementation::SubsystemProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____providerBase_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::SubsystemsImplementation::SubsystemWithProvider::Start() {

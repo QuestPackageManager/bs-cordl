@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomFogParamsBehaviour)
 namespace GlobalNamespace {
-class BloomFogSO;
+class BloomFogEnvironmentParams;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class BloomFogSO;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
 }
-namespace GlobalNamespace {
-class BloomFogEnvironmentParams;
-}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

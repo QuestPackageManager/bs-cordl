@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloatTween)
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
 }
 namespace System {
 template <typename T> class Action_1;

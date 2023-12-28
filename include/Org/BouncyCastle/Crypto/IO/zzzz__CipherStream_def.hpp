@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CipherStream)
 namespace System::IO {
-class Stream;
-}
-namespace System::IO {
 struct SeekOrigin;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {

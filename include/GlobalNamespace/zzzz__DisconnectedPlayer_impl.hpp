@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DisconnectedPlayer.get_offsetSyncTime
 template <>
 
@@ -239,51 +239,51 @@ constexpr GlobalNamespace::DisconnectedPlayer::operator ::GlobalNamespace::IConn
   return static_cast<::GlobalNamespace::IConnectedPlayer*>(static_cast<void*>(this));
 }
 constexpr ::StringW& GlobalNamespace::DisconnectedPlayer::__get__userId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::DisconnectedPlayer::__get__userId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
 constexpr void GlobalNamespace::DisconnectedPlayer::__set__userId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::DisconnectedPlayer::__get__userName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::DisconnectedPlayer::__get__userName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
 constexpr void GlobalNamespace::DisconnectedPlayer::__set__userName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::DisconnectedPlayer::__get__sortIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::DisconnectedPlayer::__get__sortIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::DisconnectedPlayer::__set__sortIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sortIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& GlobalNamespace::DisconnectedPlayer::__get__multiplayerAvatarsData_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerAvatarsData_k__BackingField;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData const& GlobalNamespace::DisconnectedPlayer::__get__multiplayerAvatarsData_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerAvatarsData_k__BackingField;
 }
 constexpr void GlobalNamespace::DisconnectedPlayer::__set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplayerAvatarsData_k__BackingField = value;
 }
 inline int64_t GlobalNamespace::DisconnectedPlayer::get_offsetSyncTime() {

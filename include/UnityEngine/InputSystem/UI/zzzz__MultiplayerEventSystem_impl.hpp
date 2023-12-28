@@ -108,15 +108,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& UnityEngine::InputSystem::UI::MultiplayerEventSystem::__get_m_PlayerRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PlayerRoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::InputSystem::UI::MultiplayerEventSystem::__get_m_PlayerRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PlayerRoot;
 }
 constexpr void UnityEngine::InputSystem::UI::MultiplayerEventSystem::__set_m_PlayerRoot(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PlayerRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::GameObject* UnityEngine::InputSystem::UI::MultiplayerEventSystem::get_playerRoot() {

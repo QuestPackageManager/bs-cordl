@@ -3,10 +3,10 @@
 #include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
-#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo._ctor
 template <>
 
@@ -188,51 +188,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr int32_t const& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__set__version(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
 constexpr ::StringW& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__algorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____algorithm;
 }
 constexpr ::StringW const& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__algorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____algorithm;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__set__algorithm(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____algorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__set__key(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::ArrayList*& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__get__list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::__set__list(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo::New_ctor() {
@@ -421,51 +421,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__algorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____algorithm;
 }
 constexpr ::StringW const& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__algorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____algorithm;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__set__algorithm(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____algorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__salt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____salt;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__salt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____salt;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____salt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__iterations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iterations;
 }
 constexpr int32_t const& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__iterations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iterations;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__set__iterations(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iterations = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____data;
 }
 constexpr void Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::__set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo* Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo::New_ctor() {

@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetDatabase)
-namespace HoudiniEngineUnity {
-struct __HEU_AssetDatabase__HEU_ImportAssetOptions;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace System {
 class Type;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_AssetDatabase__HEU_ImportAssetOptions;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -1,20 +1,20 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__UnityEventBase_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 template <typename T0, typename T1> constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& UnityEngine::Events::UnityEvent_2<T0, T1>::__get_m_InvokeArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InvokeArray;
 }
 template <typename T0, typename T1> constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& UnityEngine::Events::UnityEvent_2<T0, T1>::__get_m_InvokeArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InvokeArray;
 }
 template <typename T0, typename T1> constexpr void UnityEngine::Events::UnityEvent_2<T0, T1>::__set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InvokeArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T0, typename T1> inline ::UnityEngine::Events::UnityEvent_2<T0, T1>* UnityEngine::Events::UnityEvent_2<T0, T1>::New_ctor() {

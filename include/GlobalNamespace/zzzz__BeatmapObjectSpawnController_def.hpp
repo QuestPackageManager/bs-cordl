@@ -8,14 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnController)
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectSpawner;
 }
 namespace GlobalNamespace {
 class __BeatmapObjectSpawnController__InitData;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapObjectSpawnMovementData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -24,31 +30,25 @@ namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectSpawner;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnMovementData;
-}
-namespace GlobalNamespace {
 class IJumpOffsetYProvider;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;

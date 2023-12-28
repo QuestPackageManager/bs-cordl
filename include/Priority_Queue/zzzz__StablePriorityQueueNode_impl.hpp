@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& Priority_Queue::StablePriorityQueueNode::__get__InsertionIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InsertionIndex_k__BackingField;
 }
 constexpr int64_t const& Priority_Queue::StablePriorityQueueNode::__get__InsertionIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InsertionIndex_k__BackingField;
 }
 constexpr void Priority_Queue::StablePriorityQueueNode::__set__InsertionIndex_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____InsertionIndex_k__BackingField = value;
 }
 inline int64_t Priority_Queue::StablePriorityQueueNode::get_InsertionIndex() {

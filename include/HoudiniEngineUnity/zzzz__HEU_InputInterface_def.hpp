@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterface)
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

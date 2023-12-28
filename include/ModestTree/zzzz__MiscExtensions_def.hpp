@@ -16,11 +16,11 @@ template <typename T> class HashSet_1;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;

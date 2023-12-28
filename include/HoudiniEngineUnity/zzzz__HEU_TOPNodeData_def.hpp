@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TOPNodeData)
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_TOPNodeData__PDGState;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class TOPNodeTags;
-}
 namespace HoudiniEngineUnity {
 class HEU_WorkItemTally;
 }
 namespace HoudiniEngineUnity {
 class HEU_TOPWorkResult;
+}
+namespace HoudiniEngineUnity {
+class TOPNodeTags;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_TOPNodeData__PDGState;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -104,7 +104,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_TOPNod
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9771)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9771))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9772))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNodeData*
 class CORDL_TYPE HEU_TOPNodeData : public ::System::Object {

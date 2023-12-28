@@ -8,38 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServerPlayersTableView)
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class GameServerPlayerTableCell;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HMUI {
-class TableView;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class GameServerPlayerTableCell;
-}
-namespace GlobalNamespace {
 class IAdditionalContentModel;
-}
-namespace HMUI {
-class TableCell;
 }
 namespace HMUI {
 class __TableView__IDataSource;
@@ -48,7 +24,31 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
+}
+namespace HMUI {
+class TableView;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {

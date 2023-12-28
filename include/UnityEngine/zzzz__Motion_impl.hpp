@@ -28,15 +28,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::Motion::__get__isAnimatorMotion_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isAnimatorMotion_k__BackingField;
 }
 constexpr bool const& UnityEngine::Motion::__get__isAnimatorMotion_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isAnimatorMotion_k__BackingField;
 }
 constexpr void UnityEngine::Motion::__set__isAnimatorMotion_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isAnimatorMotion_k__BackingField = value;
 }
 inline ::UnityEngine::Motion* UnityEngine::Motion::New_ctor() {

@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_unsignedInt)
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+class FacetsChecker;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -21,9 +24,6 @@ class Exception;
 }
 namespace System {
 class Type;
-}
-namespace System::Xml::Schema {
-class FacetsChecker;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;

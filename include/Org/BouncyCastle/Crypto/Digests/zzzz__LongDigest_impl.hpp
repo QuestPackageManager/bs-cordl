@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__LongDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::LongDigest._ctor
 template <>
 
@@ -356,183 +356,183 @@ constexpr Org::BouncyCastle::Crypto::Digests::LongDigest::operator ::Org::Bouncy
   return static_cast<::Org::BouncyCastle::Utilities::IMemoable*>(static_cast<void*>(this));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_MyByteLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MyByteLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_MyByteLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MyByteLength;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_MyByteLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MyByteLength = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_xBuf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xBuf;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_xBuf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xBuf;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_xBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xBuf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_xBufOff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xBufOff;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_xBufOff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xBufOff;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_xBufOff(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xBufOff = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_byteCount1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteCount1;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_byteCount1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteCount1;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_byteCount1(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___byteCount1 = value;
 }
 constexpr int64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_byteCount2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteCount2;
 }
 constexpr int64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_byteCount2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteCount2;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_byteCount2(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___byteCount2 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H1;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H1;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H1(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H1 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H2;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H2;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H2(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H2 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H3;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H3;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H3(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H3 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H4;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H4;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H4(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H4 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H5;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H5;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H5(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H5 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H6;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H6;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H6(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H6 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H7;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H7;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H7(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H7 = value;
 }
 constexpr uint64_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H8;
 }
 constexpr uint64_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_H8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___H8;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_H8(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___H8 = value;
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_W() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___W;
 }
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_W() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___W;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_W(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___W)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_wOff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wOff;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Digests::LongDigest::__get_wOff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wOff;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::LongDigest::__set_wOff(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wOff = value;
 }
 inline void Org::BouncyCastle::Crypto::Digests::LongDigest::setStaticF_K(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {

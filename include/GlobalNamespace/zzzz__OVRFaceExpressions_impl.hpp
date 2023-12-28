@@ -3,13 +3,13 @@
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRFaceExpressions__WeightProvider.GetWeight
@@ -616,51 +616,51 @@ constexpr GlobalNamespace::OVRFaceExpressions::operator ::GlobalNamespace::__OVR
   return static_cast<::GlobalNamespace::__OVRFaceExpressions__WeightProvider*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::OVRFaceExpressions::__get__ValidExpressions_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ValidExpressions_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRFaceExpressions::__get__ValidExpressions_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ValidExpressions_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRFaceExpressions::__set__ValidExpressions_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ValidExpressions_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRFaceExpressions::__get__EyeFollowingBlendshapesValid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EyeFollowingBlendshapesValid_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRFaceExpressions::__get__EyeFollowingBlendshapesValid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EyeFollowingBlendshapesValid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRFaceExpressions::__set__EyeFollowingBlendshapesValid_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EyeFollowingBlendshapesValid_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__FaceState& GlobalNamespace::OVRFaceExpressions::__get__currentFaceState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFaceState;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__FaceState const& GlobalNamespace::OVRFaceExpressions::__get__currentFaceState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentFaceState;
 }
 constexpr void GlobalNamespace::OVRFaceExpressions::__set__currentFaceState(::GlobalNamespace::__OVRPlugin__FaceState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentFaceState = value;
 }
 constexpr ::System::Action_1<::StringW>*& GlobalNamespace::OVRFaceExpressions::__get__onPermissionGranted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onPermissionGranted;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& GlobalNamespace::OVRFaceExpressions::__get__onPermissionGranted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onPermissionGranted;
 }
 constexpr void GlobalNamespace::OVRFaceExpressions::__set__onPermissionGranted(::System::Action_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onPermissionGranted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::OVRFaceExpressions::setStaticF__trackingInstanceCount(int32_t value) {

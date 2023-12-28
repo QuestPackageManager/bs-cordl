@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetLoadMode_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleRequestOptions_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ILocationSizeData_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetLoadMode_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions.get_Hash
 template <>
@@ -404,147 +404,147 @@ constexpr UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequest
   return static_cast<::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(static_cast<void*>(this));
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_Hash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Hash;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_Hash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Hash;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_Hash(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Hash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint32_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_Crc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Crc;
 }
 constexpr uint32_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_Crc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Crc;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_Crc(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Crc = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_Timeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Timeout;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_Timeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Timeout;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_Timeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Timeout = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_ChunkedTransfer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkedTransfer;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_ChunkedTransfer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChunkedTransfer;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_ChunkedTransfer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChunkedTransfer = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_RedirectLimit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RedirectLimit;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_RedirectLimit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RedirectLimit;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_RedirectLimit(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RedirectLimit = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_RetryCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RetryCount;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_RetryCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RetryCount;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_RetryCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RetryCount = value;
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_BundleName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BundleName;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_BundleName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BundleName;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_BundleName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_BundleName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_AssetLoadMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetLoadMode;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_AssetLoadMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetLoadMode;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AssetLoadMode = value;
 }
 constexpr int64_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_BundleSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BundleSize;
 }
 constexpr int64_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_BundleSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BundleSize;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_BundleSize(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BundleSize = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_UseCrcForCachedBundles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseCrcForCachedBundles;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_UseCrcForCachedBundles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseCrcForCachedBundles;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_UseCrcForCachedBundles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseCrcForCachedBundles = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_UseUWRForLocalBundles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseUWRForLocalBundles;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_UseUWRForLocalBundles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseUWRForLocalBundles;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_UseUWRForLocalBundles(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseUWRForLocalBundles = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_ClearOtherCachedVersionsWhenLoaded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClearOtherCachedVersionsWhenLoaded;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__get_m_ClearOtherCachedVersionsWhenLoaded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClearOtherCachedVersionsWhenLoaded;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::__set_m_ClearOtherCachedVersionsWhenLoaded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClearOtherCachedVersionsWhenLoaded = value;
 }
 inline ::StringW UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash() {

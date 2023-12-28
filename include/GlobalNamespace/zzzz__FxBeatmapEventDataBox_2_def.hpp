@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FxBeatmapEventDataBox_2)
 namespace GlobalNamespace {
-class IndexFilter;
-}
-namespace GlobalNamespace {
 struct EaseType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
+namespace GlobalNamespace {
+class IndexFilter;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

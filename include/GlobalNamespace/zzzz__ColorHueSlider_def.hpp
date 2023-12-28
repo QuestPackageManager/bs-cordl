@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(ColorHueSlider)
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace HMUI {
 class CircleSlider;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorHueSlider);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13554))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13554)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16174))
 // CS Name: ::ColorHueSlider*
 class CORDL_TYPE ColorHueSlider : public ::HMUI::CircleSlider {

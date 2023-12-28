@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMask256)
-namespace GlobalNamespace {
-template <typename T> class IBitMask_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace System {
-class Object;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
@@ -24,6 +15,15 @@ class NetDataReader;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace GlobalNamespace {
+template <typename T> class IBitMask_1;
+}
+namespace System {
+class Object;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

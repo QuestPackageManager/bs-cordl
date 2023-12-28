@@ -46,75 +46,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::BombExplosionEffect::__get__debrisPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____debrisPS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::BombExplosionEffect::__get__debrisPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____debrisPS;
 }
 constexpr void GlobalNamespace::BombExplosionEffect::__set__debrisPS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____debrisPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::BombExplosionEffect::__get__explosionPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPS;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::BombExplosionEffect::__get__explosionPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPS;
 }
 constexpr void GlobalNamespace::BombExplosionEffect::__set__explosionPS(::UnityEngine::ParticleSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::BombExplosionEffect::__get__debrisCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____debrisCount;
 }
 constexpr int32_t const& GlobalNamespace::BombExplosionEffect::__get__debrisCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____debrisCount;
 }
 constexpr void GlobalNamespace::BombExplosionEffect::__set__debrisCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____debrisCount = value;
 }
 constexpr int32_t& GlobalNamespace::BombExplosionEffect::__get__explosionParticlesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionParticlesCount;
 }
 constexpr int32_t const& GlobalNamespace::BombExplosionEffect::__get__explosionParticlesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionParticlesCount;
 }
 constexpr void GlobalNamespace::BombExplosionEffect::__set__explosionParticlesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionParticlesCount = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::BombExplosionEffect::__get__emitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::BombExplosionEffect::__get__emitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
 constexpr void GlobalNamespace::BombExplosionEffect::__set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitParams = value;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::BombExplosionEffect::__get__explosionPSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPSEmitParams;
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::BombExplosionEffect::__get__explosionPSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPSEmitParams;
 }
 constexpr void GlobalNamespace::BombExplosionEffect::__set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionPSEmitParams = value;
 }
 inline void GlobalNamespace::BombExplosionEffect::Awake() {

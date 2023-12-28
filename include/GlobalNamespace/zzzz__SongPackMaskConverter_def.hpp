@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(SongPackMaskConverter)
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonWriter;
 }
 namespace System {
 class Type;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

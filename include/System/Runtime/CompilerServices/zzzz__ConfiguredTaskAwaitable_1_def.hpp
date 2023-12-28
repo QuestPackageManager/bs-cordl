@@ -12,10 +12,10 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
+class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+class INotifyCompletion;
 }
 namespace System {
 class Action;

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomizedPitch)
-namespace GlobalNamespace {
-class __RandomizedPitch___PlayDelayedCoroutine_d__9;
-}
 namespace UnityEngine {
 class AudioSource;
+}
+namespace GlobalNamespace {
+class __RandomizedPitch___PlayDelayedCoroutine_d__9;
 }
 namespace GlobalNamespace {
 class __RandomizedPitch___RestorePitchWithDelay_d__10;
@@ -22,11 +22,11 @@ class Coroutine;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;

@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(PenetrationAvoidance)
 namespace RootMotion::FinalIK {
 class __PenetrationAvoidance__Avoider;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class __PenetrationAvoidance__Avoider__EffectorLink;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PenetrationAv
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12662))
 // CS Name: ::PenetrationAvoidance::Avoider*
 class CORDL_TYPE __PenetrationAvoidance__Avoider : public ::System::Object {

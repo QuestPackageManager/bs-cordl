@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverTrigonometric_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverTrigonometric_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone.Initiate
 template <>
 
@@ -71,27 +71,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::__get_targetToLocalSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetToLocalSpace;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::__get_targetToLocalSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetToLocalSpace;
 }
 constexpr void RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::__set_targetToLocalSpace(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___targetToLocalSpace = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::__get_defaultLocalBendNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalBendNormal;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::__get_defaultLocalBendNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalBendNormal;
 }
 constexpr void RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::__set_defaultLocalBendNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalBendNormal = value;
 }
 inline void RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone::Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal) {
@@ -473,111 +473,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKSolverTrigonometric::__get_target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKSolverTrigonometric::__get_target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_target(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::IKSolverTrigonometric::__get_IKRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::IKSolverTrigonometric::__get_IKRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotationWeight;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_IKRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKRotationWeight = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::IKSolverTrigonometric::__get_IKRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::IKSolverTrigonometric::__get_IKRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotation;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_IKRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverTrigonometric::__get_bendNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormal;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverTrigonometric::__get_bendNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormal;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_bendNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendNormal = value;
 }
 constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& RootMotion::FinalIK::IKSolverTrigonometric::__get_bone1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& RootMotion::FinalIK::IKSolverTrigonometric::__get_bone1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone1;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_bone1(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& RootMotion::FinalIK::IKSolverTrigonometric::__get_bone2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& RootMotion::FinalIK::IKSolverTrigonometric::__get_bone2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone2;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_bone2(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& RootMotion::FinalIK::IKSolverTrigonometric::__get_bone3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& RootMotion::FinalIK::IKSolverTrigonometric::__get_bone3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bone3;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_bone3(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bone3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverTrigonometric::__get_weightIKPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weightIKPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverTrigonometric::__get_weightIKPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weightIKPosition;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_weightIKPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weightIKPosition = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverTrigonometric::__get_directHierarchy() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___directHierarchy;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverTrigonometric::__get_directHierarchy() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___directHierarchy;
 }
 constexpr void RootMotion::FinalIK::IKSolverTrigonometric::__set_directHierarchy(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___directHierarchy = value;
 }
 inline void RootMotion::FinalIK::IKSolverTrigonometric::SetBendGoalPosition(::UnityEngine::Vector3 goalPosition, float_t weight) {

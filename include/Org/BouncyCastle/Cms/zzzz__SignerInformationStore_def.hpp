@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInformationStore)
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerID;
-}
-namespace System::Collections {
-class IDictionary;
+class SignerInformation;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerInformation;
+class SignerID;
 }
 namespace System::Collections {
 class IList;

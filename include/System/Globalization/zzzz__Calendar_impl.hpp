@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::System::Globalization::Calendar.get_MinSupportedDateTime
 template <>
 
@@ -456,39 +456,39 @@ constexpr System::Globalization::Calendar::operator ::System::ICloneable*() noex
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Globalization::Calendar::__get_m_currentEraValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentEraValue;
 }
 constexpr int32_t const& System::Globalization::Calendar::__get_m_currentEraValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentEraValue;
 }
 constexpr void System::Globalization::Calendar::__set_m_currentEraValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentEraValue = value;
 }
 constexpr bool& System::Globalization::Calendar::__get_m_isReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isReadOnly;
 }
 constexpr bool const& System::Globalization::Calendar::__get_m_isReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_isReadOnly;
 }
 constexpr void System::Globalization::Calendar::__set_m_isReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isReadOnly = value;
 }
 constexpr int32_t& System::Globalization::Calendar::__get_twoDigitYearMax() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twoDigitYearMax;
 }
 constexpr int32_t const& System::Globalization::Calendar::__get_twoDigitYearMax() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twoDigitYearMax;
 }
 constexpr void System::Globalization::Calendar::__set_twoDigitYearMax(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twoDigitYearMax = value;
 }
 inline ::System::DateTime System::Globalization::Calendar::get_MinSupportedDateTime() {

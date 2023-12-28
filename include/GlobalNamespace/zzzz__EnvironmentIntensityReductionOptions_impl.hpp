@@ -69,27 +69,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType& GlobalNamespace::EnvironmentIntensityReductionOptions::__get__compressExpand() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compressExpand;
 }
 constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType const& GlobalNamespace::EnvironmentIntensityReductionOptions::__get__compressExpand() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compressExpand;
 }
 constexpr void GlobalNamespace::EnvironmentIntensityReductionOptions::__set__compressExpand(::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____compressExpand = value;
 }
 constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType& GlobalNamespace::EnvironmentIntensityReductionOptions::__get__rotateRings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateRings;
 }
 constexpr ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType const& GlobalNamespace::EnvironmentIntensityReductionOptions::__get__rotateRings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateRings;
 }
 constexpr void GlobalNamespace::EnvironmentIntensityReductionOptions::__set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotateRings = value;
 }
 inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand() {

@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigInteger)
-namespace System {
-class Object;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace System {
+class Object;
+}
+namespace System {
+class Random;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System {
-class Random;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math {

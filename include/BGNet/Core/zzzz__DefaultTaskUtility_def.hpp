@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTaskUtility)
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System {
 class Action;
 }
-namespace System {
-struct TimeSpan;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+struct TimeSpan;
+}
 namespace System::Threading::Tasks {
-class Task;
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace BGNet::Core {
+class ITaskUtility;
 }
 // Forward declare root types
 namespace BGNet::Core {

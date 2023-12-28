@@ -35,51 +35,51 @@ constexpr HoudiniEngineUnity::HEU_DetailProperties::operator ::HoudiniEngineUnit
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*>(static_cast<void*>(this));
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailProperties::__get__detailDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailDistance;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailProperties::__get__detailDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailDistance;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailProperties::__set__detailDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____detailDistance = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_DetailProperties::__get__detailDensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailDensity;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_DetailProperties::__get__detailDensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailDensity;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailProperties::__set__detailDensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____detailDensity = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_DetailProperties::__get__detailResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailResolution;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_DetailProperties::__get__detailResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailResolution;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailProperties::__set__detailResolution(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____detailResolution = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_DetailProperties::__get__detailResolutionPerPatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailResolutionPerPatch;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_DetailProperties::__get__detailResolutionPerPatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____detailResolutionPerPatch;
 }
 constexpr void HoudiniEngineUnity::HEU_DetailProperties::__set__detailResolutionPerPatch(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____detailResolutionPerPatch = value;
 }
 inline bool HoudiniEngineUnity::HEU_DetailProperties::IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other) {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MaterialController)
 namespace UnityEngine {
-class Material;
+class Renderer;
 }
 namespace UnityEngine {
-class Renderer;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

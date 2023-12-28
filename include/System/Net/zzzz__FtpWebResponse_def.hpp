@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpWebResponse)
-namespace System::IO {
-class Stream;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Uri;
-}
 namespace System::Net {
-class __FtpWebResponse__EmptyStream;
+class WebHeaderCollection;
 }
 namespace System::Net {
 struct FtpStatusCode;
 }
 namespace System::Net {
-class WebHeaderCollection;
+class __FtpWebResponse__EmptyStream;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Uri;
 }
 namespace System {
 class IDisposable;
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebResponse__E
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(9062))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9053))
 // CS Name: ::System.Net::FtpWebResponse*
 class CORDL_TYPE FtpWebResponse : public ::System::Net::WebResponse {

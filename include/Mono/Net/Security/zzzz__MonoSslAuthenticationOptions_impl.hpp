@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
-#include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
-#include "System/Net/Security/zzzz__ServerCertSelectionCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Net/Security/zzzz__ServerCertSelectionCallback_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MonoSslAuthenticationOptions.get_ServerMode
 template <>
 
@@ -244,16 +244,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Security::ServerCertSelectionCallback*& Mono::Net::Security::MonoSslAuthenticationOptions::__get__ServerCertSelectionDelegate_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ServerCertSelectionDelegate_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::ServerCertSelectionCallback*> const&
 Mono::Net::Security::MonoSslAuthenticationOptions::__get__ServerCertSelectionDelegate_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ServerCertSelectionDelegate_k__BackingField;
 }
 constexpr void Mono::Net::Security::MonoSslAuthenticationOptions::__set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ServerCertSelectionDelegate_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

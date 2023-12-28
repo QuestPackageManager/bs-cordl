@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__UVEditing_def.hpp"
-#include "UnityEngine/ProBuilder/MeshOperations/zzzz__UVEditing_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__UVEditing_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
@@ -42,27 +42,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ProBuilder::Face*& UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::__get_f1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f1;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::__get_f1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f1;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::__set_f1(::UnityEngine::ProBuilder::Face* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___f1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ProBuilder::Face*& UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::__get_f2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::__get_f2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f2;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::__set_f2(::UnityEngine::ProBuilder::Face* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___f2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0* UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0::New_ctor() {
@@ -332,15 +332,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0::__get_b() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0::__get_b() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
 constexpr void UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0::__set_b(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0* UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0::New_ctor() {

@@ -11,11 +11,11 @@ class INotifyCompletion;
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

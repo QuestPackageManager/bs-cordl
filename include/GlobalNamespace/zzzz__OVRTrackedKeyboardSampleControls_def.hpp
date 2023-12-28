@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboardSampleControls)
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
 }
 namespace GlobalNamespace {
 class OVRTrackedKeyboard;
 }
-namespace GlobalNamespace {
-class __OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
+namespace UnityEngine::UI {
+class Text;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::UI {
 class InputField;
@@ -34,10 +34,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

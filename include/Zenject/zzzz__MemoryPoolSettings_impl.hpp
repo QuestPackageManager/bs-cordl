@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolExpandMethods_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolSettings_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__PoolExpandMethods_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::MemoryPoolSettings._ctor
 template <>
@@ -64,51 +64,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Zenject::MemoryPoolSettings::__get_InitialSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialSize;
 }
 constexpr int32_t const& Zenject::MemoryPoolSettings::__get_InitialSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialSize;
 }
 constexpr void Zenject::MemoryPoolSettings::__set_InitialSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InitialSize = value;
 }
 constexpr int32_t& Zenject::MemoryPoolSettings::__get_MaxSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MaxSize;
 }
 constexpr int32_t const& Zenject::MemoryPoolSettings::__get_MaxSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MaxSize;
 }
 constexpr void Zenject::MemoryPoolSettings::__set_MaxSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___MaxSize = value;
 }
 constexpr ::Zenject::PoolExpandMethods& Zenject::MemoryPoolSettings::__get_ExpandMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExpandMethod;
 }
 constexpr ::Zenject::PoolExpandMethods const& Zenject::MemoryPoolSettings::__get_ExpandMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ExpandMethod;
 }
 constexpr void Zenject::MemoryPoolSettings::__set_ExpandMethod(::Zenject::PoolExpandMethods value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ExpandMethod = value;
 }
 constexpr bool& Zenject::MemoryPoolSettings::__get_ShowExpandWarning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ShowExpandWarning;
 }
 constexpr bool const& Zenject::MemoryPoolSettings::__get_ShowExpandWarning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ShowExpandWarning;
 }
 constexpr void Zenject::MemoryPoolSettings::__set_ShowExpandWarning(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ShowExpandWarning = value;
 }
 inline void Zenject::MemoryPoolSettings::setStaticF_Default(::Zenject::MemoryPoolSettings* value) {

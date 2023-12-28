@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(F2mCurve)
 namespace Org::BouncyCastle::Math::EC {
 class F2mPoint;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class __F2mCurve__DefaultF2mLookupTable;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
-class __F2mCurve__DefaultF2mLookupTable;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

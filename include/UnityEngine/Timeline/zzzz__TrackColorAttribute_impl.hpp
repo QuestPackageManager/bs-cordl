@@ -34,15 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Color& UnityEngine::Timeline::TrackColorAttribute::__get_m_Color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Color;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::Timeline::TrackColorAttribute::__get_m_Color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Color;
 }
 constexpr void UnityEngine::Timeline::TrackColorAttribute::__set_m_Color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Color = value;
 }
 inline ::UnityEngine::Color UnityEngine::Timeline::TrackColorAttribute::get_color() {

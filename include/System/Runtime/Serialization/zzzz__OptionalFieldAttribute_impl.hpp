@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::OptionalFieldAttribute::__get_versionAdded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___versionAdded;
 }
 constexpr int32_t const& System::Runtime::Serialization::OptionalFieldAttribute::__get_versionAdded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___versionAdded;
 }
 constexpr void System::Runtime::Serialization::OptionalFieldAttribute::__set_versionAdded(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___versionAdded = value;
 }
 inline ::System::Runtime::Serialization::OptionalFieldAttribute* System::Runtime::Serialization::OptionalFieldAttribute::New_ctor() {

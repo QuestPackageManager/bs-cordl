@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(GameSongController)
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
 }
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksUpdater;
+}
+namespace GlobalNamespace {
+class IStartSeekSongController;
+}
 namespace UnityEngine {
 class WaitUntil;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class IStartSeekSongController;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksUpdater;
 }
 // Forward declare root types
 namespace GlobalNamespace {

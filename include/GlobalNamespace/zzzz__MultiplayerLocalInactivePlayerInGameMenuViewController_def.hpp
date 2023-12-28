@@ -5,29 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerInGameMenuViewController)
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace UnityEngine {
-class CanvasGroup;
+class GameObject;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
 }
 namespace Tweening {
 class Tween;
 }
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class ButtonBinder;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class MultiplayerLocalPlayerDisconnectHelper;
 }
 namespace GlobalNamespace {
 class DisconnectPromptView;
@@ -35,20 +29,26 @@ class DisconnectPromptView;
 namespace HMUI {
 class ToggleBinder;
 }
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
 namespace GlobalNamespace {
 class LocalPlayerInGameMenuInitData;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

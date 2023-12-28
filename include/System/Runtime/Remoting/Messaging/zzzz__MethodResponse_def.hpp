@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodResponse)
 namespace System::Runtime::Remoting::Messaging {
-class CADMethodReturnMessage;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class IMessage;
 }
 namespace System {
 class Exception;
 }
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IInternalMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class ArgInfo;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting {
-class Identity;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 class Type;
@@ -41,22 +41,22 @@ namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class ArgInfo;
+class CADMethodReturnMessage;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

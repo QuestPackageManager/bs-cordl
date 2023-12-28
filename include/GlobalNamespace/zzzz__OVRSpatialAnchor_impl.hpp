@@ -6,21 +6,21 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpaceUser_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpaceUser_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpaceQuery_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
@@ -1616,87 +1616,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::OVRSpatialAnchor::__get__startCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startCalled;
 }
 constexpr bool const& GlobalNamespace::OVRSpatialAnchor::__get__startCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startCalled;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set__startCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startCalled = value;
 }
 constexpr uint64_t& GlobalNamespace::OVRSpatialAnchor::__get__requestId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestId;
 }
 constexpr uint64_t const& GlobalNamespace::OVRSpatialAnchor::__get__requestId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestId;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set__requestId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requestId = value;
 }
 constexpr ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions& GlobalNamespace::OVRSpatialAnchor::__get__defaultSaveOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSaveOptions;
 }
 constexpr ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions const& GlobalNamespace::OVRSpatialAnchor::__get__defaultSaveOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSaveOptions;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set__defaultSaveOptions(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultSaveOptions = value;
 }
 constexpr ::GlobalNamespace::__OVRSpatialAnchor__EraseOptions& GlobalNamespace::OVRSpatialAnchor::__get__defaultEraseOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultEraseOptions;
 }
 constexpr ::GlobalNamespace::__OVRSpatialAnchor__EraseOptions const& GlobalNamespace::OVRSpatialAnchor::__get__defaultEraseOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultEraseOptions;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set__defaultEraseOptions(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultEraseOptions = value;
 }
 constexpr ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*& GlobalNamespace::OVRSpatialAnchor::__get_OnLocalize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnLocalize;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*> const& GlobalNamespace::OVRSpatialAnchor::__get_OnLocalize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___OnLocalize;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set_OnLocalize(::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnLocalize)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRSpace& GlobalNamespace::OVRSpatialAnchor::__get__Space_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Space_k__BackingField;
 }
 constexpr ::GlobalNamespace::OVRSpace const& GlobalNamespace::OVRSpatialAnchor::__get__Space_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Space_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set__Space_k__BackingField(::GlobalNamespace::OVRSpace value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Space_k__BackingField = value;
 }
 constexpr ::System::Guid& GlobalNamespace::OVRSpatialAnchor::__get__Uuid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Uuid_k__BackingField;
 }
 constexpr ::System::Guid const& GlobalNamespace::OVRSpatialAnchor::__get__Uuid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Uuid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSpatialAnchor::__set__Uuid_k__BackingField(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Uuid_k__BackingField = value;
 }
 inline void GlobalNamespace::OVRSpatialAnchor::setStaticF_SpatialAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* value) {

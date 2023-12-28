@@ -11,49 +11,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStream)
 namespace System::IO {
-class __FileStream__ReadDelegate;
+struct FileAccess;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafeFileHandle;
 }
 namespace System::IO {
-struct FileAccess;
+struct FileShare;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-class Object;
+namespace System::Runtime::InteropServices {
+class SafeHandle;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::IO {
-struct FileMode;
+class __FileStream__WriteDelegate;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::IO {
-class __FileStream__WriteDelegate;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+struct FileMode;
 }
 namespace System::IO {
-struct FileShare;
+struct SeekOrigin;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::IO {
 struct FileOptions;
+}
+namespace System::IO {
+class __FileStream__ReadDelegate;
 }
 // Forward declare root types
 namespace System::IO {

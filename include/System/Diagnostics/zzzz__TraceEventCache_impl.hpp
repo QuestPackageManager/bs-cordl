@@ -137,39 +137,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& System::Diagnostics::TraceEventCache::__get_timeStamp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeStamp;
 }
 constexpr int64_t const& System::Diagnostics::TraceEventCache::__get_timeStamp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeStamp;
 }
 constexpr void System::Diagnostics::TraceEventCache::__set_timeStamp(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeStamp = value;
 }
 constexpr ::System::DateTime& System::Diagnostics::TraceEventCache::__get_dateTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTime;
 }
 constexpr ::System::DateTime const& System::Diagnostics::TraceEventCache::__get_dateTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTime;
 }
 constexpr void System::Diagnostics::TraceEventCache::__set_dateTime(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dateTime = value;
 }
 constexpr ::StringW& System::Diagnostics::TraceEventCache::__get_stackTrace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stackTrace;
 }
 constexpr ::StringW const& System::Diagnostics::TraceEventCache::__get_stackTrace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stackTrace;
 }
 constexpr void System::Diagnostics::TraceEventCache::__set_stackTrace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stackTrace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Diagnostics::TraceEventCache::setStaticF_processId(int32_t value) {

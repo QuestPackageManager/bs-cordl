@@ -34,15 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData& UnityEngine::Scripting::APIUpdating::MovedFromAttribute::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData const& UnityEngine::Scripting::APIUpdating::MovedFromAttribute::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void UnityEngine::Scripting::APIUpdating::MovedFromAttribute::__set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___data = value;
 }
 /// @param sourceNamespace: ::StringW (default: nullptr)

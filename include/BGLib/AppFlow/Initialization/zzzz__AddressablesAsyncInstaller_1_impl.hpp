@@ -6,10 +6,10 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -53,19 +53,19 @@ constexpr ::BGLib::AppFlow::Initialization::__AddressablesAsyncInstaller_1___Loa
 template <typename T>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>&
 BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::__get__handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handle;
 }
 template <typename T>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> const&
 BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::__get__handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handle;
 }
 template <typename T>
 constexpr void BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::__set__handle(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handle = value;
 }
 template <typename T>

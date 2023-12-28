@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingStartResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13257)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13257))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13454))
 // CS Name: ::Oculus.Platform.Models::LivestreamingStartResult*
 class CORDL_TYPE LivestreamingStartResult : public ::System::Object {

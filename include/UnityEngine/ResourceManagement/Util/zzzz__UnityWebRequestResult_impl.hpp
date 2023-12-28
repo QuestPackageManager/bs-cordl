@@ -140,63 +140,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Error_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Error_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Error_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Error_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__set__Error_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Error_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__ResponseCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ResponseCode_k__BackingField;
 }
 constexpr int64_t const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__ResponseCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ResponseCode_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__set__ResponseCode_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ResponseCode_k__BackingField = value;
 }
 constexpr ::UnityEngine::Networking::__UnityWebRequest__Result& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Result_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
 }
 constexpr ::UnityEngine::Networking::__UnityWebRequest__Result const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Result_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Result_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__set__Result_k__BackingField(::UnityEngine::Networking::__UnityWebRequest__Result value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Result_k__BackingField = value;
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Method_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Method_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Method_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Method_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__set__Method_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Method_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Url_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Url_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Url_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Url_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__set__Url_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Url_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* UnityEngine::ResourceManagement::Util::UnityWebRequestResult::New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {

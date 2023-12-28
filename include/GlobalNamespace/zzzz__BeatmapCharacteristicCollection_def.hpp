@@ -9,13 +9,13 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
+class BeatmapCharacteristicCollectionSO;
+}
+namespace GlobalNamespace {
 class AppStaticSettingsSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollectionSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;

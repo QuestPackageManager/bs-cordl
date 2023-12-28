@@ -8,25 +8,25 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__PointerModel_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__UIPointerType_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__UIPointerBehavior_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedPointerEventData_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__UIPointerType_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__UIPointerBehavior_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__PointerModel_def.hpp"
 // Ctor Parameters [CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "enabledByInputModule", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__InputActionReferenceState::__InputSystemUIInputModule__InputActionReferenceState(int32_t refCount,
                                                                                                                                                        bool enabledByInputModule) noexcept {
@@ -1547,463 +1547,463 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MoveRepeatDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveRepeatDelay;
 }
 constexpr float_t const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MoveRepeatDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveRepeatDelay;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_MoveRepeatDelay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MoveRepeatDelay = value;
 }
 constexpr float_t& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MoveRepeatRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveRepeatRate;
 }
 constexpr float_t const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MoveRepeatRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveRepeatRate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_MoveRepeatRate(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MoveRepeatRate = value;
 }
 constexpr float_t& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_TrackedDeviceDragThresholdMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedDeviceDragThresholdMultiplier;
 }
 constexpr float_t const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_TrackedDeviceDragThresholdMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedDeviceDragThresholdMultiplier;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_TrackedDeviceDragThresholdMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TrackedDeviceDragThresholdMultiplier = value;
 }
 constexpr ::UnityEngine::Transform*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_XRTrackingOrigin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XRTrackingOrigin;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_XRTrackingOrigin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XRTrackingOrigin;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_XRTrackingOrigin(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_XRTrackingOrigin)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionAsset*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_ActionsAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionsAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_ActionsAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionsAsset;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_ActionsAsset(::UnityEngine::InputSystem::InputActionAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionsAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_PointAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PointAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MoveAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MoveAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_MoveAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MoveAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_SubmitAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubmitAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_SubmitAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubmitAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_SubmitAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SubmitAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CancelAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CancelAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CancelAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CancelAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_CancelAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CancelAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_LeftClickAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LeftClickAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_LeftClickAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LeftClickAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_LeftClickAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LeftClickAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MiddleClickAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MiddleClickAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_MiddleClickAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MiddleClickAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_MiddleClickAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MiddleClickAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_RightClickAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RightClickAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_RightClickAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RightClickAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_RightClickAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RightClickAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_ScrollWheelAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollWheelAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_ScrollWheelAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollWheelAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_ScrollWheelAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollWheelAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_TrackedDevicePositionAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedDevicePositionAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_TrackedDevicePositionAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedDevicePositionAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_TrackedDevicePositionAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TrackedDevicePositionAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::InputActionReference*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_TrackedDeviceOrientationAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedDeviceOrientationAction;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_TrackedDeviceOrientationAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TrackedDeviceOrientationAction;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_TrackedDeviceOrientationAction(::UnityEngine::InputSystem::InputActionReference* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TrackedDeviceOrientationAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_DeselectOnBackgroundClick() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeselectOnBackgroundClick;
 }
 constexpr bool const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_DeselectOnBackgroundClick() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeselectOnBackgroundClick;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_DeselectOnBackgroundClick(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DeselectOnBackgroundClick = value;
 }
 constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerBehavior;
 }
 constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerBehavior;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_PointerBehavior(::UnityEngine::InputSystem::UI::UIPointerBehavior value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointerBehavior = value;
 }
 constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CursorLockBehavior() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CursorLockBehavior;
 }
 constexpr ::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CursorLockBehavior() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CursorLockBehavior;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_CursorLockBehavior(::UnityEngine::InputSystem::UI::__InputSystemUIInputModule__CursorLockBehavior value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CursorLockBehavior = value;
 }
 constexpr bool& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_ActionsHooked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionsHooked;
 }
 constexpr bool const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_ActionsHooked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionsHooked;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_ActionsHooked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActionsHooked = value;
 }
 constexpr bool& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_NeedToPurgeStalePointers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NeedToPurgeStalePointers;
 }
 constexpr bool const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_NeedToPurgeStalePointers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NeedToPurgeStalePointers;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_NeedToPurgeStalePointers(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NeedToPurgeStalePointers = value;
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnPointDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnPointDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnPointDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnPointDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnPointDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnPointDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnMoveDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnMoveDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnMoveDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnMoveDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnMoveDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnMoveDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnLeftClickDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnLeftClickDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnLeftClickDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnLeftClickDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnLeftClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnLeftClickDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnRightClickDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnRightClickDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnRightClickDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnRightClickDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnRightClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnRightClickDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnMiddleClickDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnMiddleClickDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnMiddleClickDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnMiddleClickDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnMiddleClickDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnMiddleClickDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnScrollWheelDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnScrollWheelDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnScrollWheelDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnScrollWheelDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnScrollWheelDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnScrollWheelDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnTrackedDevicePositionDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnTrackedDevicePositionDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnTrackedDevicePositionDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnTrackedDevicePositionDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnTrackedDevicePositionDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnTrackedDevicePositionDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnTrackedDeviceOrientationDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnTrackedDeviceOrientationDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnTrackedDeviceOrientationDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnTrackedDeviceOrientationDelegate;
 }
 constexpr void
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnTrackedDeviceOrientationDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnTrackedDeviceOrientationDelegate)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::System::Object*>*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnControlsChangedDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnControlsChangedDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_OnControlsChangedDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnControlsChangedDelegate;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_OnControlsChangedDelegate(::System::Action_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnControlsChangedDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CurrentPointerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerId;
 }
 constexpr int32_t const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CurrentPointerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerId;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_CurrentPointerId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentPointerId = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CurrentPointerIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerIndex;
 }
 constexpr int32_t const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CurrentPointerIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerIndex;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_CurrentPointerIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentPointerIndex = value;
 }
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CurrentPointerType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerType;
 }
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_CurrentPointerType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentPointerType;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_CurrentPointerType(::UnityEngine::InputSystem::UI::UIPointerType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentPointerType = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t>& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerIds;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerIds;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_PointerIds(::UnityEngine::InputSystem::Utilities::InlinedArray_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointerIds = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*>& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerTouchControls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerTouchControls;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerTouchControls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerTouchControls;
 }
 constexpr void
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_PointerTouchControls(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputControl*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointerTouchControls = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel>& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerStates;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> const&
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_PointerStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerStates;
 }
 constexpr void
 UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_PointerStates(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::PointerModel> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointerStates = value;
 }
 constexpr ::UnityEngine::InputSystem::UI::NavigationModel& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_NavigationState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NavigationState;
 }
 constexpr ::UnityEngine::InputSystem::UI::NavigationModel const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_NavigationState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NavigationState;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_NavigationState(::UnityEngine::InputSystem::UI::NavigationModel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NavigationState = value;
 }
 constexpr ::UnityEngine::GameObject*& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_LocalMultiPlayerRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocalMultiPlayerRoot;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::InputSystem::UI::InputSystemUIInputModule::__get_m_LocalMultiPlayerRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LocalMultiPlayerRoot;
 }
 constexpr void UnityEngine::InputSystem::UI::InputSystemUIInputModule::__set_m_LocalMultiPlayerRoot(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LocalMultiPlayerRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::InputSystem::UI::InputSystemUIInputModule::setStaticF_s_InputActionReferenceCounts(

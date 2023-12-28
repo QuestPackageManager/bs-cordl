@@ -9,15 +9,6 @@ CORDL_MODULE_EXPORT(DeleteElements)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __DeleteElements____c;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __DeleteElements____c__DisplayClass2_0;
 }
@@ -26,6 +17,15 @@ template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __DeleteElements____c__DisplayClass0_0;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __DeleteElements____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

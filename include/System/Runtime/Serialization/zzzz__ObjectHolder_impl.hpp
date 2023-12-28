@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__FixupHolderList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__LongList_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
-#include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ValueTypeFixupInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__TypeLoadExceptionHolder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
-#include "System/Runtime/Serialization/zzzz__FixupHolderList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ValueTypeFixupInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__LongList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__TypeLoadExceptionHolder_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::ObjectHolder._ctor
 template <>
 
@@ -626,171 +626,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Runtime::Serialization::ObjectHolder::__get_m_object() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_object;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::ObjectHolder::__get_m_object() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_object;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_object(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_object)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Runtime::Serialization::ObjectHolder::__get_m_id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_id;
 }
 constexpr int64_t const& System::Runtime::Serialization::ObjectHolder::__get_m_id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_id;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_id(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_id = value;
 }
 constexpr int32_t& System::Runtime::Serialization::ObjectHolder::__get_m_missingElementsRemaining() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingElementsRemaining;
 }
 constexpr int32_t const& System::Runtime::Serialization::ObjectHolder::__get_m_missingElementsRemaining() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingElementsRemaining;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_missingElementsRemaining(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_missingElementsRemaining = value;
 }
 constexpr int32_t& System::Runtime::Serialization::ObjectHolder::__get_m_missingDecendents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingDecendents;
 }
 constexpr int32_t const& System::Runtime::Serialization::ObjectHolder::__get_m_missingDecendents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingDecendents;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_missingDecendents(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_missingDecendents = value;
 }
 constexpr ::System::Runtime::Serialization::SerializationInfo*& System::Runtime::Serialization::ObjectHolder::__get_m_serInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& System::Runtime::Serialization::ObjectHolder::__get_m_serInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serInfo;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_serInfo(::System::Runtime::Serialization::SerializationInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_serInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& System::Runtime::Serialization::ObjectHolder::__get_m_surrogate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_surrogate;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& System::Runtime::Serialization::ObjectHolder::__get_m_surrogate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_surrogate;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_surrogate(::System::Runtime::Serialization::ISerializationSurrogate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_surrogate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::FixupHolderList*& System::Runtime::Serialization::ObjectHolder::__get_m_missingElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingElements;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::FixupHolderList*> const& System::Runtime::Serialization::ObjectHolder::__get_m_missingElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_missingElements;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_missingElements(::System::Runtime::Serialization::FixupHolderList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_missingElements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::LongList*& System::Runtime::Serialization::ObjectHolder::__get_m_dependentObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dependentObjects;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::LongList*> const& System::Runtime::Serialization::ObjectHolder::__get_m_dependentObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_dependentObjects;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_dependentObjects(::System::Runtime::Serialization::LongList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_dependentObjects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::ObjectHolder*& System::Runtime::Serialization::ObjectHolder::__get_m_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectHolder*> const& System::Runtime::Serialization::ObjectHolder::__get_m_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_next;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_next(::System::Runtime::Serialization::ObjectHolder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Runtime::Serialization::ObjectHolder::__get_m_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_flags;
 }
 constexpr int32_t const& System::Runtime::Serialization::ObjectHolder::__get_m_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_flags;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_flags(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_flags = value;
 }
 constexpr bool& System::Runtime::Serialization::ObjectHolder::__get_m_markForFixupWhenAvailable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_markForFixupWhenAvailable;
 }
 constexpr bool const& System::Runtime::Serialization::ObjectHolder::__get_m_markForFixupWhenAvailable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_markForFixupWhenAvailable;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_markForFixupWhenAvailable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_markForFixupWhenAvailable = value;
 }
 constexpr ::System::Runtime::Serialization::ValueTypeFixupInfo*& System::Runtime::Serialization::ObjectHolder::__get_m_valueFixup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_valueFixup;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ValueTypeFixupInfo*> const& System::Runtime::Serialization::ObjectHolder::__get_m_valueFixup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_valueFixup;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_valueFixup(::System::Runtime::Serialization::ValueTypeFixupInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_valueFixup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::TypeLoadExceptionHolder*& System::Runtime::Serialization::ObjectHolder::__get_m_typeLoad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_typeLoad;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::TypeLoadExceptionHolder*> const& System::Runtime::Serialization::ObjectHolder::__get_m_typeLoad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_typeLoad;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_typeLoad(::System::Runtime::Serialization::TypeLoadExceptionHolder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_typeLoad)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Serialization::ObjectHolder::__get_m_reachable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_reachable;
 }
 constexpr bool const& System::Runtime::Serialization::ObjectHolder::__get_m_reachable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_reachable;
 }
 constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_reachable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_reachable = value;
 }
 inline ::System::Runtime::Serialization::ObjectHolder* System::Runtime::Serialization::ObjectHolder::New_ctor(int64_t objID) {

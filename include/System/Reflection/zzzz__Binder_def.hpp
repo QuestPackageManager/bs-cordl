@@ -7,20 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Binder)
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-class MethodBase;
-}
 namespace System::Reflection {
 struct ParameterModifier;
-}
-namespace System::Reflection {
-class PropertyInfo;
 }
 namespace System {
 class Type;
@@ -28,8 +16,20 @@ class Type;
 namespace System::Reflection {
 class FieldInfo;
 }
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
 namespace System {
 class Object;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 // Forward declare root types
 namespace System::Reflection {

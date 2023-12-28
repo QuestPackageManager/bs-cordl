@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Keyboard_def.hpp"
 CORDL_MODULE_EXPORT(FastKeyboard)
 namespace UnityEngine::InputSystem::Controls {
+class AnyKeyControl;
+}
+namespace UnityEngine::InputSystem::Controls {
 class DiscreteButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class KeyControl;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AnyKeyControl;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
+class KeyControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

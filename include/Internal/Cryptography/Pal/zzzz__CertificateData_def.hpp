@@ -12,10 +12,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateData)
 namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -27,40 +39,28 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename T> class Stack_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
+class X509Extension;
 }
 namespace Internal::Cryptography::Pal {
-class __CertificateData___ReadReverseRdns_d__21;
+struct GeneralNameType;
 }
 namespace System {
 struct DateTime;
 }
 namespace Internal::Cryptography::Pal {
-struct GeneralNameType;
+class __CertificateData___ReadReverseRdns_d__21;
 }
 namespace Internal::Cryptography::Pal {
 struct __CertificateData__AlgorithmIdentifier;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
+struct X509NameType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
 }
 // Forward declare root types
 namespace Internal::Cryptography::Pal {
@@ -113,8 +113,8 @@ static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::__C
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608 }), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
 class CORDL_TYPE __CertificateData___ReadReverseRdns_d__21 : public ::System::Object {
 public:
   // Declarations
@@ -274,7 +274,7 @@ static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::Pal::__C
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8856)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(8856))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8858))
 // CS Name: ::Internal.Cryptography.Pal::CertificateData
 struct CORDL_TYPE CertificateData {

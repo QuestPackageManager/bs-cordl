@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNamedNodeMap)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Xml {
-struct __XmlNamedNodeMap__SmallXmlNodeList;
+class IEnumerator;
 }
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+struct __XmlNamedNodeMap__SmallXmlNodeList;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace GlobalNamespace {
 class __XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator;
@@ -173,7 +173,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlNamedNodeMap__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11518)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11519))
 // CS Name: ::System.Xml::XmlNamedNodeMap*
 class CORDL_TYPE XmlNamedNodeMap : public ::System::Object {

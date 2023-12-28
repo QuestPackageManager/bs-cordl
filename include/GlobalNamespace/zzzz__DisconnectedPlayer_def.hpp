@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisconnectedPlayer)
 namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
-namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

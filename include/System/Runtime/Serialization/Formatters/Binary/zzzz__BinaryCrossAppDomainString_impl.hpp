@@ -48,27 +48,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::__get_objectId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectId;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::__get_objectId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___objectId;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::__set_objectId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___objectId = value;
 }
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::__set_value(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___value = value;
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::New_ctor() {

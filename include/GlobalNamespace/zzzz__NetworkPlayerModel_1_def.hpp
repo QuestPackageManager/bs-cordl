@@ -17,103 +17,103 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayerModel_1)
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkServer;
-}
-namespace GlobalNamespace {
 template <typename T> class __NetworkPlayerModel_1____c__DisplayClass59_0;
-}
-namespace GlobalNamespace {
-template <typename T> struct __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__StartClientPartyConfig;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetOtherPlayers_d__58;
-}
-namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkPlayer;
-}
-namespace GlobalNamespace {
-struct PublicServerInfo;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+template <typename T> class __NetworkPlayerModel_1___GetOtherPlayers_d__58;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__NetworkPlayer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1____c;
+}
+namespace GlobalNamespace {
+struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__NetworkServer;
 }
 namespace GlobalNamespace {
 template <typename T> class __NetworkPlayerModel_1___GetPartyPlayers_d__57;
 }
 namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__StartClientPartyConfig;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
 class UserInfo;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
+}
+namespace GlobalNamespace {
+template <typename T> struct __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T> class Comparison_1;
@@ -454,7 +454,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14956))
 // CS Name: ::NetworkPlayerModel`1::NetworkServer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkServer : public ::System::Object {
@@ -697,9 +697,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 885 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14957)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15996)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 885 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14957)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
 struct CORDL_TYPE __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56 {
 public:
   // Declarations
@@ -885,8 +885,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1687 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14956)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 4713 }), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(14956)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 4713 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1687 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14959)) CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetOtherPlayers_d__58 : public ::System::Object {
 public:
@@ -1023,7 +1023,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14960))
 // CS Name: ::NetworkPlayerModel`1::<>c__DisplayClass59_0<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c__DisplayClass59_0 : public ::System::Object {

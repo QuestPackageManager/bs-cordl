@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectAce)
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
-namespace System::Security::AccessControl {
-struct AceFlags;
-}
 namespace System {
 struct Guid;
 }
 namespace System::Security::AccessControl {
-struct ObjectAceFlags;
+struct AceFlags;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
+}
+namespace System::Security::AccessControl {
+struct ObjectAceFlags;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
 struct AceType;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::ObjectAce);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3046)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3043))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3046)), TypeDefinitionIndex(TypeDefinitionIndex(3043))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3042))
 // CS Name: ::System.Security.AccessControl::ObjectAce*
 class CORDL_TYPE ObjectAce : public ::System::Security::AccessControl::QualifiedAce {

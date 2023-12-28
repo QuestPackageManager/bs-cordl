@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamBlockCipher)
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

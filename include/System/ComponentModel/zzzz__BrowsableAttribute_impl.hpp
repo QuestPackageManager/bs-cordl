@@ -76,15 +76,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::ComponentModel::BrowsableAttribute::__get__Browsable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Browsable_k__BackingField;
 }
 constexpr bool const& System::ComponentModel::BrowsableAttribute::__get__Browsable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Browsable_k__BackingField;
 }
 constexpr void System::ComponentModel::BrowsableAttribute::__set__Browsable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Browsable_k__BackingField = value;
 }
 inline void System::ComponentModel::BrowsableAttribute::setStaticF_Yes(::System::ComponentModel::BrowsableAttribute* value) {

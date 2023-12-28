@@ -2,8 +2,8 @@
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateKey_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SurrogateKey._ctor
 template <>
 
@@ -37,27 +37,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& System::Runtime::Serialization::SurrogateKey::__get_m_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::SurrogateKey::__get_m_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_type;
 }
 constexpr void System::Runtime::Serialization::SurrogateKey::__set_m_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Serialization::StreamingContext& System::Runtime::Serialization::SurrogateKey::__get_m_context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
 constexpr ::System::Runtime::Serialization::StreamingContext const& System::Runtime::Serialization::SurrogateKey::__get_m_context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
 constexpr void System::Runtime::Serialization::SurrogateKey::__set_m_context(::System::Runtime::Serialization::StreamingContext value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_context = value;
 }
 inline ::System::Runtime::Serialization::SurrogateKey* System::Runtime::Serialization::SurrogateKey::New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {

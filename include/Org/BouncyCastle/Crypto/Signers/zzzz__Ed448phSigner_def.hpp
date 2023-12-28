@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed448phSigner)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed448PrivateKeyParameters;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class IXof;
@@ -16,11 +16,11 @@ class IXof;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PublicKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Ed448PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

@@ -3,20 +3,20 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskFactory_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskFactory_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 template <typename TResult> inline void GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>::setStaticF___9(::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*, "<>9",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>*>::get>(
@@ -60,15 +60,15 @@ System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>::getStaticF_Value()
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::__Task_1__TaskWhenAnyCast<TResult>::__Task_1__TaskWhenAnyCast() {}
 template <typename TResult> constexpr TResult& System::Threading::Tasks::Task_1<TResult>::__get_m_result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_result;
 }
 template <typename TResult> constexpr TResult const& System::Threading::Tasks::Task_1<TResult>::__get_m_result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_result;
 }
 template <typename TResult> constexpr void System::Threading::Tasks::Task_1<TResult>::__set_m_result(TResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_result)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::setStaticF_s_defaultFactory(::System::Threading::Tasks::TaskFactory_1<TResult>* value) {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioMixerProperties)
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

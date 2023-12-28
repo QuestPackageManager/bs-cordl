@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageDictionary)
 namespace System::Runtime::Remoting::Messaging {
-class __MessageDictionary__DictionaryEnumerator;
+class IMethodMessage;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IDictionary;
+class IEnumerable;
+}
+namespace System::Runtime::Remoting::Messaging {
+class __MessageDictionary__DictionaryEnumerator;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
 }
 namespace System::Collections {
 struct DictionaryEntry;

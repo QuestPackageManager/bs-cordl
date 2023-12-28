@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(CmsKeyTransRecipientInfoGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Operators {

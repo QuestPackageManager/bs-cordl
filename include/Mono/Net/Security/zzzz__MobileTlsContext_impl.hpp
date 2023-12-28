@@ -2,16 +2,16 @@
 #include "System/Security/Authentication/zzzz__SslProtocols_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext._ctor
 template <>
 
@@ -389,125 +389,125 @@ constexpr Mono::Net::Security::MobileTlsContext::operator ::System::IDisposable*
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Mono::Net::Security::ChainValidationHelper*& Mono::Net::Security::MobileTlsContext::__get_certificateValidator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateValidator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::ChainValidationHelper*> const& Mono::Net::Security::MobileTlsContext::__get_certificateValidator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateValidator;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set_certificateValidator(::Mono::Net::Security::ChainValidationHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificateValidator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions*& Mono::Net::Security::MobileTlsContext::__get__Options_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Options_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoSslAuthenticationOptions*> const& Mono::Net::Security::MobileTlsContext::__get__Options_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Options_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__Options_k__BackingField(::Mono::Net::Security::MonoSslAuthenticationOptions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Options_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& Mono::Net::Security::MobileTlsContext::__get__Parent_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Parent_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& Mono::Net::Security::MobileTlsContext::__get__Parent_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Parent_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Parent_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Net::Security::MobileTlsContext::__get__IsServer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsServer_k__BackingField;
 }
 constexpr bool const& Mono::Net::Security::MobileTlsContext::__get__IsServer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsServer_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__IsServer_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsServer_k__BackingField = value;
 }
 constexpr ::StringW& Mono::Net::Security::MobileTlsContext::__get__TargetHost_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TargetHost_k__BackingField;
 }
 constexpr ::StringW const& Mono::Net::Security::MobileTlsContext::__get__TargetHost_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TargetHost_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__TargetHost_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TargetHost_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Net::Security::MobileTlsContext::__get__ServerName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ServerName_k__BackingField;
 }
 constexpr ::StringW const& Mono::Net::Security::MobileTlsContext::__get__ServerName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ServerName_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__ServerName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ServerName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Net::Security::MobileTlsContext::__get__AskForClientCertificate_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AskForClientCertificate_k__BackingField;
 }
 constexpr bool const& Mono::Net::Security::MobileTlsContext::__get__AskForClientCertificate_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AskForClientCertificate_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__AskForClientCertificate_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AskForClientCertificate_k__BackingField = value;
 }
 constexpr ::System::Security::Authentication::SslProtocols& Mono::Net::Security::MobileTlsContext::__get__EnabledProtocols_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnabledProtocols_k__BackingField;
 }
 constexpr ::System::Security::Authentication::SslProtocols const& Mono::Net::Security::MobileTlsContext::__get__EnabledProtocols_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____EnabledProtocols_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__EnabledProtocols_k__BackingField(::System::Security::Authentication::SslProtocols value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____EnabledProtocols_k__BackingField = value;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& Mono::Net::Security::MobileTlsContext::__get__ClientCertificates_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ClientCertificates_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const&
 Mono::Net::Security::MobileTlsContext::__get__ClientCertificates_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ClientCertificates_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ClientCertificates_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& Mono::Net::Security::MobileTlsContext::__get__LocalServerCertificate_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalServerCertificate_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const&
 Mono::Net::Security::MobileTlsContext::__get__LocalServerCertificate_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LocalServerCertificate_k__BackingField;
 }
 constexpr void Mono::Net::Security::MobileTlsContext::__set__LocalServerCertificate_k__BackingField(::System::Security::Cryptography::X509Certificates::X509Certificate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____LocalServerCertificate_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

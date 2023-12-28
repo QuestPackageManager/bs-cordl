@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedIntListController)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __NamedIntListController__TextValuePair;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace HMUI {
 template <typename T> class IValueChanger_1;

@@ -227,51 +227,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::TouchInputModule::__get_m_LastMousePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastMousePosition;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::TouchInputModule::__get_m_LastMousePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastMousePosition;
 }
 constexpr void UnityEngine::EventSystems::TouchInputModule::__set_m_LastMousePosition(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastMousePosition = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::TouchInputModule::__get_m_MousePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MousePosition;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::TouchInputModule::__get_m_MousePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MousePosition;
 }
 constexpr void UnityEngine::EventSystems::TouchInputModule::__set_m_MousePosition(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MousePosition = value;
 }
 constexpr ::UnityEngine::EventSystems::PointerEventData*& UnityEngine::EventSystems::TouchInputModule::__get_m_InputPointerEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputPointerEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& UnityEngine::EventSystems::TouchInputModule::__get_m_InputPointerEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputPointerEvent;
 }
 constexpr void UnityEngine::EventSystems::TouchInputModule::__set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InputPointerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::EventSystems::TouchInputModule::__get_m_ForceModuleActive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForceModuleActive;
 }
 constexpr bool const& UnityEngine::EventSystems::TouchInputModule::__get_m_ForceModuleActive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForceModuleActive;
 }
 constexpr void UnityEngine::EventSystems::TouchInputModule::__set_m_ForceModuleActive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForceModuleActive = value;
 }
 inline ::UnityEngine::EventSystems::TouchInputModule* UnityEngine::EventSystems::TouchInputModule::New_ctor() {

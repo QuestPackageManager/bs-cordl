@@ -2,8 +2,8 @@
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__UnwrapPromise_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__UnwrapPromise_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/Threading/Tasks/zzzz__UnwrapPromise_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
@@ -47,27 +47,27 @@ template <typename TResult> constexpr System::Threading::Tasks::UnwrapPromise_1<
   return static_cast<::System::Threading::Tasks::ITaskCompletionAction*>(static_cast<void*>(this));
 }
 template <typename TResult> constexpr uint8_t& System::Threading::Tasks::UnwrapPromise_1<TResult>::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 template <typename TResult> constexpr uint8_t const& System::Threading::Tasks::UnwrapPromise_1<TResult>::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 template <typename TResult> constexpr void System::Threading::Tasks::UnwrapPromise_1<TResult>::__set__state(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
 template <typename TResult> constexpr bool& System::Threading::Tasks::UnwrapPromise_1<TResult>::__get__lookForOce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lookForOce;
 }
 template <typename TResult> constexpr bool const& System::Threading::Tasks::UnwrapPromise_1<TResult>::__get__lookForOce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lookForOce;
 }
 template <typename TResult> constexpr void System::Threading::Tasks::UnwrapPromise_1<TResult>::__set__lookForOce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lookForOce = value;
 }
 template <typename TResult>

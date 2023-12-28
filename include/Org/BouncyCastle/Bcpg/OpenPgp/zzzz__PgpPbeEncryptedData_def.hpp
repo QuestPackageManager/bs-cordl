@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpPbeEncryptedData)
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg {
-class InputStreamPacket;
+struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class SymmetricKeyEncSessionPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace System::IO {
-class Stream;
+class InputStreamPacket;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;

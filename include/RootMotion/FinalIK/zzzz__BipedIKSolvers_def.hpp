@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BipedIKSolvers)
 namespace RootMotion::FinalIK {
-class Constraints;
-}
-namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace RootMotion {
 class BipedReferences;
+}
+namespace RootMotion::FinalIK {
+class IKSolverLookAt;
 }
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
@@ -21,7 +21,7 @@ namespace RootMotion::FinalIK {
 class IKSolverAim;
 }
 namespace RootMotion::FinalIK {
-class IKSolverLookAt;
+class Constraints;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFABRIK;

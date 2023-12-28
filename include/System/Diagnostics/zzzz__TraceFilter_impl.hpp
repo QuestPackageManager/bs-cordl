@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceFilter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceFilter.ShouldTrace
 template <>
 

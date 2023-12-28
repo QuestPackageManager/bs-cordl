@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetEventData)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

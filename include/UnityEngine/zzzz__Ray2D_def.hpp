@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(Ray2D)
 namespace System {
 class IFormattable;
 }
-namespace System {
-class IFormatProvider;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {

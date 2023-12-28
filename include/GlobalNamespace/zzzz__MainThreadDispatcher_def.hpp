@@ -5,37 +5,37 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MainThreadDispatcher)
 namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class ITickable;
+}
+namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
 template <typename A, typename B> class __MainThreadDispatcher____c__DisplayClass3_0_2;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 template <typename A, typename B, typename C, typename D> class __MainThreadDispatcher____c__DisplayClass5_0_4;
 }
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace Zenject {
-class ITickable;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class ConcurrentQueue_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 template <typename A, typename B, typename C> class __MainThreadDispatcher____c__DisplayClass4_0_3;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace GlobalNamespace {
 template <typename A> class __MainThreadDispatcher____c__DisplayClass2_0_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T> class Action_1;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class ConcurrentQueue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

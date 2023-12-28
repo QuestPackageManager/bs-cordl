@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteLineConnectionController)
 namespace GlobalNamespace {
-class ColorManager;
+class PlayerTransforms;
 }
 namespace GlobalNamespace {
 class __NoteLineConnectionController__Pool;
@@ -20,10 +20,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class PlayerTransforms;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class ColorManager;
 }
 namespace GlobalNamespace {
 class NoteController;

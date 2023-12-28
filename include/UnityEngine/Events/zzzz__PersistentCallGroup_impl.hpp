@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__PersistentCallGroup_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
 #include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCallList_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Events::PersistentCallGroup._ctor
 template <>
 
@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*& UnityEngine::Events::PersistentCallGroup::__get_m_Calls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Calls;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*> const& UnityEngine::Events::PersistentCallGroup::__get_m_Calls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Calls;
 }
 constexpr void UnityEngine::Events::PersistentCallGroup::__set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Calls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Events::PersistentCallGroup* UnityEngine::Events::PersistentCallGroup::New_ctor() {

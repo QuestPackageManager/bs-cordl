@@ -2,15 +2,15 @@
 #include "System/Net/Sockets/zzzz__AddressFamily_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::TcpClient._ctor
 template <>
 
@@ -258,63 +258,63 @@ constexpr System::Net::Sockets::TcpClient::operator ::System::IDisposable*() noe
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::Sockets::Socket*& System::Net::Sockets::TcpClient::__get_m_ClientSocket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClientSocket;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& System::Net::Sockets::TcpClient::__get_m_ClientSocket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClientSocket;
 }
 constexpr void System::Net::Sockets::TcpClient::__set_m_ClientSocket(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClientSocket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Sockets::TcpClient::__get_m_Active() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Active;
 }
 constexpr bool const& System::Net::Sockets::TcpClient::__get_m_Active() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Active;
 }
 constexpr void System::Net::Sockets::TcpClient::__set_m_Active(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Active = value;
 }
 constexpr ::System::Net::Sockets::NetworkStream*& System::Net::Sockets::TcpClient::__get_m_DataStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DataStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& System::Net::Sockets::TcpClient::__get_m_DataStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DataStream;
 }
 constexpr void System::Net::Sockets::TcpClient::__set_m_DataStream(::System::Net::Sockets::NetworkStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DataStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Sockets::AddressFamily& System::Net::Sockets::TcpClient::__get_m_Family() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Family;
 }
 constexpr ::System::Net::Sockets::AddressFamily const& System::Net::Sockets::TcpClient::__get_m_Family() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Family;
 }
 constexpr void System::Net::Sockets::TcpClient::__set_m_Family(::System::Net::Sockets::AddressFamily value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Family = value;
 }
 constexpr bool& System::Net::Sockets::TcpClient::__get_m_CleanedUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CleanedUp;
 }
 constexpr bool const& System::Net::Sockets::TcpClient::__get_m_CleanedUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CleanedUp;
 }
 constexpr void System::Net::Sockets::TcpClient::__set_m_CleanedUp(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CleanedUp = value;
 }
 inline ::System::Net::Sockets::TcpClient* System::Net::Sockets::TcpClient::New_ctor() {

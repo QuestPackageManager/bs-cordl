@@ -9,31 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo)
 namespace System::Net::Http::Headers {
-template <typename T, typename U> class __HeaderInfo__HeaderTypeInfo_2;
-}
-namespace System::Net::Http::Headers {
-template <typename T, typename U> class __HeaderInfo__CollectionHeaderTypeInfo_2;
-}
-namespace System::Net::Http::Headers {
 template <typename T> class TryParseDelegate_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Net::Http::Headers {
 template <typename T> class TryParseListDelegate_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
 }
 namespace System::Net::Http::Headers {
+template <typename T, typename U> class __HeaderInfo__HeaderTypeInfo_2;
+}
+namespace System::Net::Http::Headers {
 class HttpHeaders;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
+}
+namespace System::Net::Http::Headers {
+template <typename T, typename U> class __HeaderInfo__CollectionHeaderTypeInfo_2;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HeaderInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14673)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14671))
 // CS Name: ::System.Net.Http.Headers::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {

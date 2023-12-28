@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PreviewDifficultyBeatmapSetExtensions)
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class PreviewDifficultyBeatmapSet;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;

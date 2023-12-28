@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalEmitter_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "UnityEngine/Timeline/zzzz__INotificationOptionProvider_def.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
-#include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__INotificationOptionProvider_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
+#include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::SignalEmitter.get_retroactive
 template <>
 
@@ -140,39 +140,39 @@ constexpr UnityEngine::Timeline::SignalEmitter::operator ::UnityEngine::Timeline
   return static_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(static_cast<void*>(this));
 }
 constexpr bool& UnityEngine::Timeline::SignalEmitter::__get_m_Retroactive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Retroactive;
 }
 constexpr bool const& UnityEngine::Timeline::SignalEmitter::__get_m_Retroactive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Retroactive;
 }
 constexpr void UnityEngine::Timeline::SignalEmitter::__set_m_Retroactive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Retroactive = value;
 }
 constexpr bool& UnityEngine::Timeline::SignalEmitter::__get_m_EmitOnce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EmitOnce;
 }
 constexpr bool const& UnityEngine::Timeline::SignalEmitter::__get_m_EmitOnce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EmitOnce;
 }
 constexpr void UnityEngine::Timeline::SignalEmitter::__set_m_EmitOnce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EmitOnce = value;
 }
 constexpr ::UnityEngine::Timeline::SignalAsset*& UnityEngine::Timeline::SignalEmitter::__get_m_Asset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Asset;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::SignalAsset*> const& UnityEngine::Timeline::SignalEmitter::__get_m_Asset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Asset;
 }
 constexpr void UnityEngine::Timeline::SignalEmitter::__set_m_Asset(::UnityEngine::Timeline::SignalAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Asset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::Timeline::SignalEmitter::get_retroactive() {

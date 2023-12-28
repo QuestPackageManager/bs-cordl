@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LightColorGroupEffectManager)
 namespace GlobalNamespace {
-class LightColorGroupEffect;
+class LightGroup;
 }
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class LightColorGroupEffect;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class LightGroup;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class ColorBoostBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

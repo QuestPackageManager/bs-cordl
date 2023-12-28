@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FieldBuilder)
-namespace System {
-class Type;
-}
 namespace System::Reflection {
-class Binder;
+struct FieldAttributes;
 }
 namespace System {
 struct RuntimeFieldHandle;
 }
 namespace System::Reflection {
-struct FieldAttributes;
+struct BindingFlags;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
-}
-namespace System::Reflection {
-struct BindingFlags;
 }
 namespace System::Globalization {
 class CultureInfo;

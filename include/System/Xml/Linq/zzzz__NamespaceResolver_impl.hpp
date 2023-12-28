@@ -19,51 +19,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_prefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
 constexpr ::StringW const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_prefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
 constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__set_prefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Linq::XNamespace*& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_ns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_ns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
 constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__set_ns(::System::Xml::Linq::XNamespace* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_scope() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scope;
 }
 constexpr int32_t const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_scope() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scope;
 }
 constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__set_scope(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scope = value;
 }
 constexpr ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_prev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*> const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__get_prev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
 constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__set_prev(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::New_ctor() {

@@ -17,44 +17,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboard)
-namespace UnityEngine {
-class BoxCollider;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace GlobalNamespace {
-class OVRPassthroughLayer;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardState;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___Start_d__88;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
 namespace GlobalNamespace {
 class __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -63,46 +27,82 @@ namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__KeyboardPresentation;
 }
 namespace GlobalNamespace {
-struct __OVRKeyboard__TrackedKeyboardInfo;
+class OVRPassthroughLayer;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class __OVRTrackedKeyboard____c;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-class MeshFilter;
+class __OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardQueryFlags;
+struct __OVRKeyboard__TrackedKeyboardInfo;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___Start_d__88;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardState;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard____c;
 }
 namespace GlobalNamespace {
 class OVROverlay;
 }
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace GlobalNamespace {
 class __OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
 }
 namespace UnityEngine {
-class Transform;
+class Shader;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class BoxCollider;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+struct __OVRPlugin__TrackedKeyboardQueryFlags;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -544,7 +544,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKey
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8026)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8034))
 // CS Name: ::OVRTrackedKeyboard::<UpdateTrackingStateCoroutine>d__95*
 class CORDL_TYPE __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 : public ::System::Object {
@@ -915,11 +915,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKey
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 393, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7792)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(8026)), TypeDefinitionIndex(TypeDefinitionIndex(8029)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8028)), TypeDefinitionIndex(TypeDefinitionIndex(7790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8038))
-// CS Name: ::OVRTrackedKeyboard*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7792)), TypeDefinitionIndex(TypeDefinitionIndex(8026)), TypeDefinitionIndex(TypeDefinitionIndex(8028)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8029)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7563)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7790)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8038)) CS
+// Name: ::OVRTrackedKeyboard*
 class CORDL_TYPE OVRTrackedKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

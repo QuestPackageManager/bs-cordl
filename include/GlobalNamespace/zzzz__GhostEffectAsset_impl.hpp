@@ -4,12 +4,12 @@
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectAsset_def.hpp"
-#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GhostEffectAsset.get_clipCaps
 template <>
 
@@ -57,39 +57,39 @@ constexpr GlobalNamespace::GhostEffectAsset::operator ::UnityEngine::Timeline::I
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& GlobalNamespace::GhostEffectAsset::__get__ghostEffectType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostEffectType;
 }
 constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& GlobalNamespace::GhostEffectAsset::__get__ghostEffectType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ghostEffectType;
 }
 constexpr void GlobalNamespace::GhostEffectAsset::__set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ghostEffectType = value;
 }
 constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& GlobalNamespace::GhostEffectAsset::__get_arrayReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayReference;
 }
 constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> const& GlobalNamespace::GhostEffectAsset::__get_arrayReference() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayReference;
 }
 constexpr void GlobalNamespace::GhostEffectAsset::__set_arrayReference(::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___arrayReference = value;
 }
 constexpr ::GlobalNamespace::GhostEffectBehaviour*& GlobalNamespace::GhostEffectAsset::__get__cordl_template() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_template;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostEffectBehaviour*> const& GlobalNamespace::GhostEffectAsset::__get__cordl_template() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_template;
 }
 constexpr void GlobalNamespace::GhostEffectAsset::__set__cordl_template(::GlobalNamespace::GhostEffectBehaviour* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cordl_template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::GhostEffectAsset::get_clipCaps() {

@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTelemetry)
 namespace GlobalNamespace {
+struct __OVRPlugin__Qpl__ResultType;
+}
+namespace GlobalNamespace {
 class __OVRTelemetry__NullTelemetryClient;
-}
-namespace GlobalNamespace {
-struct OVRTelemetryMarker;
-}
-namespace GlobalNamespace {
-class __OVRTelemetry__TelemetryClient;
 }
 namespace GlobalNamespace {
 struct __OVRTelemetry__MarkerPoint;
 }
 namespace GlobalNamespace {
-class __OVRTelemetry__QPLTelemetryClient;
+class __OVRTelemetry__TelemetryClient;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Qpl__ResultType;
+struct OVRTelemetryMarker;
+}
+namespace GlobalNamespace {
+class __OVRTelemetry__QPLTelemetryClient;
 }
 namespace System {
 class IDisposable;

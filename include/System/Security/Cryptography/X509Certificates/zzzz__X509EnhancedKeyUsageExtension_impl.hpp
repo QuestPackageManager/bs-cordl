@@ -116,28 +116,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Security::Cryptography::OidCollection*& System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::__get__enhKeyUsage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enhKeyUsage;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const&
 System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::__get__enhKeyUsage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enhKeyUsage;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::__set__enhKeyUsage(::System::Security::Cryptography::OidCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enhKeyUsage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus& System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::__get__status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr ::System::Security::Cryptography::AsnDecodeStatus const& System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::__get__status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::__set__status(::System::Security::Cryptography::AsnDecodeStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
 inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::New_ctor() {

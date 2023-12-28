@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Asn1SignatureFactory)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+class IStreamCalculator;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+class ISignatureFactory;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

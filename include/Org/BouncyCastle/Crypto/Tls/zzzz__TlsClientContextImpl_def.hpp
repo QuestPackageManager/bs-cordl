@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(TlsClientContextImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContext;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;

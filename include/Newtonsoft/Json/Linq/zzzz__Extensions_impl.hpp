@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__Extensions_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__Extensions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JObject_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename T> inline void Newtonsoft::Json::Linq::__Extensions____c__0_1<T>::setStaticF___9(::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>* value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>*, "<>9",
@@ -241,131 +241,131 @@ template <typename T, typename U> constexpr Newtonsoft::Json::Linq::__Extensions
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename T, typename U> constexpr int32_t& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T, typename U> constexpr int32_t const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T, typename U> constexpr U& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T, typename U> constexpr U const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___2__current(U value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr int32_t& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T, typename U> constexpr int32_t const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename T, typename U> constexpr ::System::Collections::Generic::IEnumerable_1<T>*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set_source(::System::Collections::Generic::IEnumerable_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::System::Collections::Generic::IEnumerable_1<T>*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::System::Object*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename T, typename U> constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set_key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::System::Object*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___3__key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__key;
 }
 template <typename T, typename U> constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___3__key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__key;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___3__key(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get__token_5__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token_5__1;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get__token_5__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token_5__1;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set__token_5__1(::Newtonsoft::Json::Linq::JToken* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____token_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::System::Collections::Generic::IEnumerator_1<T>*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U>
 constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*> const&
 Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 template <typename T, typename U>
 constexpr void Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::__set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> inline ::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>* Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>::New_ctor(int32_t __1__state) {
@@ -492,78 +492,78 @@ template <typename T, typename U> constexpr Newtonsoft::Json::Linq::__Extensions
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 template <typename T, typename U> constexpr int32_t& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T, typename U> constexpr int32_t const& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T, typename U> constexpr U& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T, typename U> constexpr U const& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__set___2__current(U value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr int32_t& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T, typename U> constexpr int32_t const& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename T, typename U> constexpr ::System::Collections::Generic::IEnumerable_1<T>*& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___source;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__set_source(::System::Collections::Generic::IEnumerable_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::System::Collections::Generic::IEnumerable_1<T>*& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___3__source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___3__source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__source;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> constexpr ::System::Collections::Generic::IEnumerator_1<T>*& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T, typename U> constexpr void Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::__set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U> inline ::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>* Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>::New_ctor(int32_t __1__state) {

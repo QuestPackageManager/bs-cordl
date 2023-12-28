@@ -5,14 +5,14 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton::__PointerEventData__InputButton(int32_t value__) noexcept {
   this->value__ = value__;
@@ -989,375 +989,375 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& UnityEngine::EventSystems::PointerEventData::__get__pointerEnter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerEnter_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::EventSystems::PointerEventData::__get__pointerEnter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerEnter_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pointerEnter_k__BackingField(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerEnter_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& UnityEngine::EventSystems::PointerEventData::__get_m_PointerPress() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerPress;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::EventSystems::PointerEventData::__get_m_PointerPress() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointerPress;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set_m_PointerPress(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PointerPress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& UnityEngine::EventSystems::PointerEventData::__get__lastPress_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPress_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::EventSystems::PointerEventData::__get__lastPress_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPress_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__lastPress_k__BackingField(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastPress_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& UnityEngine::EventSystems::PointerEventData::__get__rawPointerPress_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rawPointerPress_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::EventSystems::PointerEventData::__get__rawPointerPress_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rawPointerPress_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__rawPointerPress_k__BackingField(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rawPointerPress_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& UnityEngine::EventSystems::PointerEventData::__get__pointerDrag_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerDrag_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::EventSystems::PointerEventData::__get__pointerDrag_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerDrag_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pointerDrag_k__BackingField(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerDrag_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& UnityEngine::EventSystems::PointerEventData::__get__pointerClick_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerClick_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::EventSystems::PointerEventData::__get__pointerClick_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerClick_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pointerClick_k__BackingField(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerClick_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::EventSystems::RaycastResult& UnityEngine::EventSystems::PointerEventData::__get__pointerCurrentRaycast_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerCurrentRaycast_k__BackingField;
 }
 constexpr ::UnityEngine::EventSystems::RaycastResult const& UnityEngine::EventSystems::PointerEventData::__get__pointerCurrentRaycast_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerCurrentRaycast_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pointerCurrentRaycast_k__BackingField(::UnityEngine::EventSystems::RaycastResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerCurrentRaycast_k__BackingField = value;
 }
 constexpr ::UnityEngine::EventSystems::RaycastResult& UnityEngine::EventSystems::PointerEventData::__get__pointerPressRaycast_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPressRaycast_k__BackingField;
 }
 constexpr ::UnityEngine::EventSystems::RaycastResult const& UnityEngine::EventSystems::PointerEventData::__get__pointerPressRaycast_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPressRaycast_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pointerPressRaycast_k__BackingField(::UnityEngine::EventSystems::RaycastResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerPressRaycast_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& UnityEngine::EventSystems::PointerEventData::__get_hovered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hovered;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> const& UnityEngine::EventSystems::PointerEventData::__get_hovered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hovered;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set_hovered(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hovered)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::EventSystems::PointerEventData::__get__eligibleForClick_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eligibleForClick_k__BackingField;
 }
 constexpr bool const& UnityEngine::EventSystems::PointerEventData::__get__eligibleForClick_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eligibleForClick_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__eligibleForClick_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____eligibleForClick_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::EventSystems::PointerEventData::__get__pointerId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerId_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::EventSystems::PointerEventData::__get__pointerId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerId_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pointerId_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerId_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::PointerEventData::__get__position_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::PointerEventData::__get__position_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__position_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::PointerEventData::__get__delta_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::PointerEventData::__get__delta_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delta_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__delta_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____delta_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::PointerEventData::__get__pressPosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressPosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::PointerEventData::__get__pressPosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressPosition_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pressPosition_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressPosition_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::EventSystems::PointerEventData::__get__worldPosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldPosition_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::EventSystems::PointerEventData::__get__worldPosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldPosition_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__worldPosition_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____worldPosition_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::EventSystems::PointerEventData::__get__worldNormal_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldNormal_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::EventSystems::PointerEventData::__get__worldNormal_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldNormal_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__worldNormal_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____worldNormal_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::EventSystems::PointerEventData::__get__clickTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickTime_k__BackingField;
 }
 constexpr float_t const& UnityEngine::EventSystems::PointerEventData::__get__clickTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickTime_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__clickTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clickTime_k__BackingField = value;
 }
 constexpr int32_t& UnityEngine::EventSystems::PointerEventData::__get__clickCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::EventSystems::PointerEventData::__get__clickCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__clickCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clickCount_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::PointerEventData::__get__scrollDelta_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollDelta_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::PointerEventData::__get__scrollDelta_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollDelta_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__scrollDelta_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollDelta_k__BackingField = value;
 }
 constexpr bool& UnityEngine::EventSystems::PointerEventData::__get__useDragThreshold_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useDragThreshold_k__BackingField;
 }
 constexpr bool const& UnityEngine::EventSystems::PointerEventData::__get__useDragThreshold_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useDragThreshold_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__useDragThreshold_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useDragThreshold_k__BackingField = value;
 }
 constexpr bool& UnityEngine::EventSystems::PointerEventData::__get__dragging_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragging_k__BackingField;
 }
 constexpr bool const& UnityEngine::EventSystems::PointerEventData::__get__dragging_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragging_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__dragging_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dragging_k__BackingField = value;
 }
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& UnityEngine::EventSystems::PointerEventData::__get__button_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
 constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& UnityEngine::EventSystems::PointerEventData::__get__button_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__button_k__BackingField(::UnityEngine::EventSystems::__PointerEventData__InputButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____button_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::EventSystems::PointerEventData::__get__pressure_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressure_k__BackingField;
 }
 constexpr float_t const& UnityEngine::EventSystems::PointerEventData::__get__pressure_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressure_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__pressure_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressure_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::EventSystems::PointerEventData::__get__tangentialPressure_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentialPressure_k__BackingField;
 }
 constexpr float_t const& UnityEngine::EventSystems::PointerEventData::__get__tangentialPressure_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentialPressure_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__tangentialPressure_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tangentialPressure_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::EventSystems::PointerEventData::__get__altitudeAngle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____altitudeAngle_k__BackingField;
 }
 constexpr float_t const& UnityEngine::EventSystems::PointerEventData::__get__altitudeAngle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____altitudeAngle_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__altitudeAngle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____altitudeAngle_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::EventSystems::PointerEventData::__get__azimuthAngle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____azimuthAngle_k__BackingField;
 }
 constexpr float_t const& UnityEngine::EventSystems::PointerEventData::__get__azimuthAngle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____azimuthAngle_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__azimuthAngle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____azimuthAngle_k__BackingField = value;
 }
 constexpr float_t& UnityEngine::EventSystems::PointerEventData::__get__twist_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
 }
 constexpr float_t const& UnityEngine::EventSystems::PointerEventData::__get__twist_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__twist_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____twist_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::PointerEventData::__get__radius_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::PointerEventData::__get__radius_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__radius_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radius_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::PointerEventData::__get__radiusVariance_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radiusVariance_k__BackingField;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::PointerEventData::__get__radiusVariance_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radiusVariance_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radiusVariance_k__BackingField = value;
 }
 constexpr bool& UnityEngine::EventSystems::PointerEventData::__get__fullyExited_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullyExited_k__BackingField;
 }
 constexpr bool const& UnityEngine::EventSystems::PointerEventData::__get__fullyExited_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullyExited_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__fullyExited_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullyExited_k__BackingField = value;
 }
 constexpr bool& UnityEngine::EventSystems::PointerEventData::__get__reentered_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reentered_k__BackingField;
 }
 constexpr bool const& UnityEngine::EventSystems::PointerEventData::__get__reentered_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reentered_k__BackingField;
 }
 constexpr void UnityEngine::EventSystems::PointerEventData::__set__reentered_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reentered_k__BackingField = value;
 }
 inline ::UnityEngine::GameObject* UnityEngine::EventSystems::PointerEventData::get_pointerEnter() {

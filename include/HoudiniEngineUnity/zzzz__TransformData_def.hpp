@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TransformData)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -25,7 +25,7 @@ MARK_VAL_T(::HoudiniEngineUnity::TransformData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9823))
 // CS Name: ::HoudiniEngineUnity::TransformData
 struct CORDL_TYPE TransformData {

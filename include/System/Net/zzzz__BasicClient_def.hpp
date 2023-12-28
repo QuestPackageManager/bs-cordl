@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicClient)
 namespace System::Net {
-class Authorization;
-}
-namespace System::Net {
 class IAuthenticationModule;
 }
 namespace System::Net {
@@ -18,6 +15,9 @@ class ICredentials;
 }
 namespace System::Net {
 class WebRequest;
+}
+namespace System::Net {
+class Authorization;
 }
 // Forward declare root types
 namespace System::Net {

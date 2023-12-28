@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationResult)
-namespace UnityEngine::XR {
-struct MeshId;
-}
-namespace UnityEngine::XR {
-struct MeshVertexAttributes;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::XR {
-struct MeshGenerationStatus;
+struct MeshId;
 }
 namespace UnityEngine {
 class MeshCollider;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::XR {
+struct MeshGenerationStatus;
+}
+namespace UnityEngine::XR {
+struct MeshVertexAttributes;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
-class Mesh;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -47,8 +47,8 @@ MARK_VAL_T(::UnityEngine::XR::MeshGenerationResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15633)), TypeDefinitionIndex(TypeDefinitionIndex(15637)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15634))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15636)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(15634)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15637)), TypeDefinitionIndex(TypeDefinitionIndex(15633))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15636)) CS Name:
 // ::UnityEngine.XR::MeshGenerationResult
 struct CORDL_TYPE MeshGenerationResult {
 public:

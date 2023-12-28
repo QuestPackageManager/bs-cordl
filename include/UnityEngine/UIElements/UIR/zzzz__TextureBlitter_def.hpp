@@ -11,6 +11,24 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextureBlitter)
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Vector2Int;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
 namespace UnityEngine::UIElements::UIR {
 struct __TextureBlitter__BlitInfo;
 }
@@ -18,31 +36,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class Texture;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Vector2Int;
-}
-namespace UnityEngine {
 struct RectInt;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -58,7 +58,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(10244))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10244))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7386))
 // CS Name: ::TextureBlitter::BlitInfo
 struct CORDL_TYPE __TextureBlitter__BlitInfo {
@@ -101,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10162)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7387))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureBlitter*
 class CORDL_TYPE TextureBlitter : public ::System::Object {

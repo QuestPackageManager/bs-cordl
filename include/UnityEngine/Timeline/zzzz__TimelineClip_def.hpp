@@ -11,7 +11,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineClip)
 namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
+}
+namespace UnityEngine {
 class AnimationCurve;
+}
+namespace UnityEngine::Timeline {
+class ICurvesOwner;
+}
+namespace UnityEngine::Timeline {
+class __TimelineClip__TimelineClipUpgrade;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -20,31 +38,13 @@ namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine::Timeline {
+struct __TimelineClip__Versions;
+}
+namespace UnityEngine::Timeline {
 struct __TimelineClip__BlendCurveMode;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine::Timeline {
-class ICurvesOwner;
-}
-namespace UnityEngine::Timeline {
-class TrackAsset;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Timeline {
-class __TimelineClip__TimelineClipUpgrade;
-}
-namespace UnityEngine::Timeline {
 struct __TimelineClip__ClipExtrapolation;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::Timeline {
-struct __TimelineClip__Versions;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -261,8 +261,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Timelin
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13848)), TypeDefinitionIndex(TypeDefinitionIndex(13847)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13871))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13849)) CS Name: ::UnityEngine.Timeline::TimelineClip*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13848)), TypeDefinitionIndex(TypeDefinitionIndex(13871)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13847))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13849)) CS Name: ::UnityEngine.Timeline::TimelineClip*
 class CORDL_TYPE TimelineClip : public ::System::Object {
 public:
   // Declarations

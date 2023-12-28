@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlDocumentTypeWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper._ctor
 template <>
 
@@ -100,15 +100,15 @@ constexpr Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::operator ::Newto
   return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
 }
 constexpr ::System::Xml::XmlDocumentType*& Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::__get__documentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____documentType;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocumentType*> const& Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::__get__documentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____documentType;
 }
 constexpr void Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::__set__documentType(::System::Xml::XmlDocumentType* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____documentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper* Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::New_ctor(::System::Xml::XmlDocumentType* documentType) {

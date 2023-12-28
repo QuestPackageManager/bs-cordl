@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_Collider_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_Collider._ctor
 template <>
@@ -56,15 +56,15 @@ constexpr HoudiniEngineUnity::Test_Collider::operator ::HoudiniEngineUnity::IEqu
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Collider*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Collider*& HoudiniEngineUnity::Test_Collider::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& HoudiniEngineUnity::Test_Collider::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_Collider::__set_self(::UnityEngine::Collider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_Collider* HoudiniEngineUnity::Test_Collider::New_ctor(::UnityEngine::Collider* self) {

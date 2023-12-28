@@ -134,15 +134,15 @@ constexpr Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::operator ::Org:
   return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::__get_mBaseDigest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mBaseDigest;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::__get_mBaseDigest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mBaseDigest;
 }
 constexpr void Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::__set_mBaseDigest(::Org::BouncyCastle::Crypto::IDigest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mBaseDigest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest* Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest) {

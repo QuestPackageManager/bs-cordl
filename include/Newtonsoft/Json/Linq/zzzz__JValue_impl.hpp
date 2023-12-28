@@ -2,24 +2,24 @@
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JValue._ctor
 template <>
 
@@ -880,27 +880,27 @@ constexpr Newtonsoft::Json::Linq::JValue::operator ::System::IConvertible*() noe
   return static_cast<::System::IConvertible*>(static_cast<void*>(this));
 }
 constexpr ::Newtonsoft::Json::Linq::JTokenType& Newtonsoft::Json::Linq::JValue::__get__valueType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueType;
 }
 constexpr ::Newtonsoft::Json::Linq::JTokenType const& Newtonsoft::Json::Linq::JValue::__get__valueType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueType;
 }
 constexpr void Newtonsoft::Json::Linq::JValue::__set__valueType(::Newtonsoft::Json::Linq::JTokenType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____valueType = value;
 }
 constexpr ::System::Object*& Newtonsoft::Json::Linq::JValue::__get__value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonsoft::Json::Linq::JValue::__get__value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
 constexpr void Newtonsoft::Json::Linq::JValue::__set__value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Linq::JValue* Newtonsoft::Json::Linq::JValue::New_ctor(::System::Object* value, ::Newtonsoft::Json::Linq::JTokenType type) {

@@ -7,6 +7,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GatewayIPAddressInformationCollection)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformation;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class Collection_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections {
@@ -17,15 +26,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections::ObjectModel {
-template <typename T> class Collection_1;
-}
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformation;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

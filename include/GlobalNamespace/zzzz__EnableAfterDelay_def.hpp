@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(EnableAfterDelay)
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class __EnableAfterDelay___Start_d__1;
-}
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __EnableAfterDelay___Start_d__1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,8 +2,8 @@
 #include "System/Security/AccessControl/zzzz__KnownAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceType_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::QualifiedAce._ctor
 template <>
 
@@ -109,15 +109,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::AccessControl::QualifiedAce::__get_opaque() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opaque;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::AccessControl::QualifiedAce::__get_opaque() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opaque;
 }
 constexpr void System::Security::AccessControl::QualifiedAce::__set_opaque(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___opaque)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::AccessControl::QualifiedAce* System::Security::AccessControl::QualifiedAce::New_ctor(::System::Security::AccessControl::AceType type,

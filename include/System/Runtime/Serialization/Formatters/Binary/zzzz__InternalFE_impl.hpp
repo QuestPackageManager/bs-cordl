@@ -21,51 +21,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEtypeFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEtypeFormat;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEtypeFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEtypeFormat;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::InternalFE::__set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FEtypeFormat = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEassemblyFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEassemblyFormat;
 }
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEassemblyFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEassemblyFormat;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::InternalFE::__set_FEassemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FEassemblyFormat = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEsecurityLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEsecurityLevel;
 }
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEsecurityLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEsecurityLevel;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::InternalFE::__set_FEsecurityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FEsecurityLevel = value;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEserializerTypeEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEserializerTypeEnum;
 }
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE const& System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEserializerTypeEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FEserializerTypeEnum;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::InternalFE::__set_FEserializerTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FEserializerTypeEnum = value;
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::InternalFE* System::Runtime::Serialization::Formatters::Binary::InternalFE::New_ctor() {

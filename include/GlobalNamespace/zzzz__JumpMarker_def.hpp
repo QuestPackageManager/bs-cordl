@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 CORDL_MODULE_EXPORT(JumpMarker)
-namespace UnityEngine {
-struct PropertyName;
+namespace UnityEngine::Playables {
+class INotification;
 }
 namespace GlobalNamespace {
 class JumpDestinationMarker;
 }
-namespace UnityEngine::Playables {
-class INotification;
+namespace UnityEngine {
+struct PropertyName;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(InstantiationParameters)
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

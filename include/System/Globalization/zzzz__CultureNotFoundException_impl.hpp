@@ -3,8 +3,8 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Globalization/zzzz__CultureNotFoundException_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Globalization::CultureNotFoundException._ctor
 template <>
 
@@ -142,27 +142,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Globalization::CultureNotFoundException::__get__invalidCultureName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invalidCultureName;
 }
 constexpr ::StringW const& System::Globalization::CultureNotFoundException::__get__invalidCultureName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invalidCultureName;
 }
 constexpr void System::Globalization::CultureNotFoundException::__set__invalidCultureName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____invalidCultureName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<int32_t>& System::Globalization::CultureNotFoundException::__get__invalidCultureId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invalidCultureId;
 }
 constexpr ::System::Nullable_1<int32_t> const& System::Globalization::CultureNotFoundException::__get__invalidCultureId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____invalidCultureId;
 }
 constexpr void System::Globalization::CultureNotFoundException::__set__invalidCultureId(::System::Nullable_1<int32_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____invalidCultureId = value;
 }
 inline ::System::Globalization::CultureNotFoundException* System::Globalization::CultureNotFoundException::New_ctor() {

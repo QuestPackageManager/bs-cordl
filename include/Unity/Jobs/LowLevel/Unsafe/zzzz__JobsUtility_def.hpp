@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JobsUtility)
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
 }
-namespace Unity::Jobs::LowLevel::Unsafe {
-struct JobRanges;
+namespace System {
+class Object;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 class __JobsUtility__PanicFunction_;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct __JobsUtility__JobScheduleParameters;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct JobRanges;
 }
 namespace Unity::Jobs {
 struct JobHandle;

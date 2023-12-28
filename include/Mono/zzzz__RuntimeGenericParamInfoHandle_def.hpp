@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeGenericParamInfoHandle)
-namespace System::Reflection {
-struct GenericParameterAttributes;
+namespace System {
+class Type;
 }
 namespace Mono {
 struct __RuntimeStructs__GenericParamInfo;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct GenericParameterAttributes;
 }
 // Forward declare root types
 namespace Mono {

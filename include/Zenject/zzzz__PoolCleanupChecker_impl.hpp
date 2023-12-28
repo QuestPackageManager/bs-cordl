@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::Zenject::__PoolCleanupChecker____c._ctor
 template <>
@@ -168,27 +168,27 @@ constexpr Zenject::PoolCleanupChecker::operator ::Zenject::ILateDisposable*() no
   return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& Zenject::PoolCleanupChecker::__get__poolFactories() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____poolFactories;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*> const& Zenject::PoolCleanupChecker::__get__poolFactories() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____poolFactories;
 }
 constexpr void Zenject::PoolCleanupChecker::__set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____poolFactories)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Type*>*& Zenject::PoolCleanupChecker::__get__ignoredPools() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoredPools;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& Zenject::PoolCleanupChecker::__get__ignoredPools() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoredPools;
 }
 constexpr void Zenject::PoolCleanupChecker::__set__ignoredPools(::System::Collections::Generic::List_1<::System::Type*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ignoredPools)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::PoolCleanupChecker* Zenject::PoolCleanupChecker::New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,

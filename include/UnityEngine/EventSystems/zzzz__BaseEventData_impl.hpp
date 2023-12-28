@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::BaseEventData._ctor
 template <>
 
@@ -63,15 +63,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::EventSystems::EventSystem*& UnityEngine::EventSystems::BaseEventData::__get_m_EventSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::EventSystem*> const& UnityEngine::EventSystems::BaseEventData::__get_m_EventSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EventSystem;
 }
 constexpr void UnityEngine::EventSystems::BaseEventData::__set_m_EventSystem(::UnityEngine::EventSystems::EventSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EventSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::EventSystems::BaseEventData* UnityEngine::EventSystems::BaseEventData::New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {

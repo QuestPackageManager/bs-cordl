@@ -9,32 +9,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSignatureGenerator)
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpUserAttributeSubpacketVector;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpOnePassSignature;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SignatureSubpacketTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
@@ -42,11 +21,32 @@ class ISigner;
 namespace Org::BouncyCastle::Bcpg {
 class SignatureSubpacket;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
+}
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+struct SignatureSubpacketTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignatureSubpacketVector;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpOnePassSignature;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpUserAttributeSubpacketVector;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

@@ -17,52 +17,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PerformancePresetHelper)
 namespace GlobalNamespace {
-struct __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__4;
+struct __PerformancePresetHelper___GetPerformancePresetAsync_d__5;
+}
+namespace GlobalNamespace {
+struct __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__6;
 }
 namespace GlobalNamespace {
 class PerformancePreset;
 }
 namespace GlobalNamespace {
-struct __PerformancePresetHelper___GetAllPresetsForPlatformAsync_d__3;
-}
-namespace GlobalNamespace {
-class __PerformancePresetHelper____c;
-}
-namespace GlobalNamespace {
-struct __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__6;
+struct __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__4;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace GlobalNamespace {
+struct __PerformancePresetHelper___GetAllPresetsForPlatformAsync_d__3;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct __PerformancePresetHelper___GetPerformancePresetAsync_d__5;
+class __PerformancePresetHelper____c;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace UnityEngine {
 class TextAsset;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -159,11 +159,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformancePr
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 896
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 857 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 401 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 866 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10208))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4447)) CS Name: ::PerformancePresetHelper::<GetAllPresetsForPlatformAsync>d__3
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10208)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 857 }), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(3394), inst: 857 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 866 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3835), inst: 401 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4447)) CS Name: ::PerformancePresetHelper::<GetAllPresetsForPlatformAsync>d__3
 struct CORDL_TYPE __PerformancePresetHelper___GetAllPresetsForPlatformAsync_d__3 {
 public:
   // Declarations
@@ -219,10 +219,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformancePr
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4448)) CS
-// Name: ::PerformancePresetHelper::<IsPerformancePresetAvailableAsync>d__4
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4448)) CS Name:
+// ::PerformancePresetHelper::<IsPerformancePresetAvailableAsync>d__4
 struct CORDL_TYPE __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__4 {
 public:
   // Declarations
@@ -272,10 +272,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformancePr
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(10208)), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 401 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 857 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 896 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4449)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(14033), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(10208)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 401 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4449)) CS Name:
 // ::PerformancePresetHelper::<GetPerformancePresetAsync>d__5
 struct CORDL_TYPE __PerformancePresetHelper___GetPerformancePresetAsync_d__5 {
 public:
@@ -335,10 +335,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformancePr
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 870 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2507), inst: 5315 }), TypeDefinitionIndex(TypeDefinitionIndex(14021)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 870 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4450)) CS Name: ::PerformancePresetHelper::<GetDefaultPerformancePresetAsync>d__6
 struct CORDL_TYPE __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__6 {
 public:

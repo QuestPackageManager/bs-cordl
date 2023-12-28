@@ -57,27 +57,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::LocalDataStoreElement::__get_m_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_value;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::LocalDataStoreElement::__get_m_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_value;
 }
 constexpr void System::LocalDataStoreElement::__set_m_value(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::LocalDataStoreElement::__get_m_cookie() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cookie;
 }
 constexpr int64_t const& System::LocalDataStoreElement::__get_m_cookie() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cookie;
 }
 constexpr void System::LocalDataStoreElement::__set_m_cookie(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cookie = value;
 }
 inline ::System::LocalDataStoreElement* System::LocalDataStoreElement::New_ctor(int64_t cookie) {

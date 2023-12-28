@@ -59,15 +59,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Mono::Net::Security::BufferOffsetSize2::__get_InitialSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialSize;
 }
 constexpr int32_t const& Mono::Net::Security::BufferOffsetSize2::__get_InitialSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitialSize;
 }
 constexpr void Mono::Net::Security::BufferOffsetSize2::__set_InitialSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InitialSize = value;
 }
 inline ::Mono::Net::Security::BufferOffsetSize2* Mono::Net::Security::BufferOffsetSize2::New_ctor(int32_t size) {

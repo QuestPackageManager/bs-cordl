@@ -8,29 +8,29 @@ CORDL_MODULE_EXPORT(NullableConverter)
 namespace System {
 class Type;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class __TypeConverter__StandardValuesCollection;
 }
 namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class TypeConverter;
+class Object;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
-class Object;
+class Attribute;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputState__StateChangeMonitorDelegate;
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+class __InputState__StateChangeMonitorDelegate;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

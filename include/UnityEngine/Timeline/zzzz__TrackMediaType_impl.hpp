@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Timeline::__TimelineAsset__MediaType& UnityEngine::Timeline::TrackMediaType::__get_m_MediaType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MediaType;
 }
 constexpr ::UnityEngine::Timeline::__TimelineAsset__MediaType const& UnityEngine::Timeline::TrackMediaType::__get_m_MediaType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MediaType;
 }
 constexpr void UnityEngine::Timeline::TrackMediaType::__set_m_MediaType(::UnityEngine::Timeline::__TimelineAsset__MediaType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MediaType = value;
 }
 inline ::UnityEngine::Timeline::TrackMediaType* UnityEngine::Timeline::TrackMediaType::New_ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt) {

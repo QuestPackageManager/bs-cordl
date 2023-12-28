@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__LightType_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__LightBakingOutput_def.hpp"
 #include "UnityEngine/zzzz__LightShadows_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Light.get_shadows
@@ -234,15 +234,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::Light::__get_m_BakedIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BakedIndex;
 }
 constexpr int32_t const& UnityEngine::Light::__get_m_BakedIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BakedIndex;
 }
 constexpr void UnityEngine::Light::__set_m_BakedIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BakedIndex = value;
 }
 inline ::UnityEngine::LightShadows UnityEngine::Light::get_shadows() {

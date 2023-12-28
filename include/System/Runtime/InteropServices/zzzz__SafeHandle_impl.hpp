@@ -243,51 +243,51 @@ constexpr System::Runtime::InteropServices::SafeHandle::operator ::System::IDisp
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr void*& System::Runtime::InteropServices::SafeHandle::__get_handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void* const& System::Runtime::InteropServices::SafeHandle::__get_handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
 constexpr void System::Runtime::InteropServices::SafeHandle::__set_handle(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handle = value;
 }
 constexpr int32_t& System::Runtime::InteropServices::SafeHandle::__get__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr int32_t const& System::Runtime::InteropServices::SafeHandle::__get__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
 constexpr void System::Runtime::InteropServices::SafeHandle::__set__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
 constexpr bool& System::Runtime::InteropServices::SafeHandle::__get__ownsHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownsHandle;
 }
 constexpr bool const& System::Runtime::InteropServices::SafeHandle::__get__ownsHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownsHandle;
 }
 constexpr void System::Runtime::InteropServices::SafeHandle::__set__ownsHandle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ownsHandle = value;
 }
 constexpr bool& System::Runtime::InteropServices::SafeHandle::__get__fullyInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullyInitialized;
 }
 constexpr bool const& System::Runtime::InteropServices::SafeHandle::__get__fullyInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullyInitialized;
 }
 constexpr void System::Runtime::InteropServices::SafeHandle::__set__fullyInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullyInitialized = value;
 }
 inline ::System::Runtime::InteropServices::SafeHandle* System::Runtime::InteropServices::SafeHandle::New_ctor(void* invalidHandleValue, bool ownsHandle) {

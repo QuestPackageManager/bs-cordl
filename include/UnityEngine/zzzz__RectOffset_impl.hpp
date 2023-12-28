@@ -2,9 +2,9 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RectOffset._ctor
 template <>
@@ -301,27 +301,27 @@ constexpr UnityEngine::RectOffset::operator ::System::IFormattable*() noexcept {
   return static_cast<::System::IFormattable*>(static_cast<void*>(this));
 }
 constexpr void*& UnityEngine::RectOffset::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::RectOffset::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::RectOffset::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 constexpr ::System::Object*& UnityEngine::RectOffset::__get_m_SourceStyle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SourceStyle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::RectOffset::__get_m_SourceStyle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SourceStyle;
 }
 constexpr void UnityEngine::RectOffset::__set_m_SourceStyle(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SourceStyle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::RectOffset* UnityEngine::RectOffset::New_ctor() {

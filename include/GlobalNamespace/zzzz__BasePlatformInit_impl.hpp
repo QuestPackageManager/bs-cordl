@@ -4,13 +4,13 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BasePlatformInit_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
 #include "GlobalNamespace/zzzz__BasePlatformInit_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BasePlatformInit___Initialize_d__5.MoveNext
 template <>
@@ -220,27 +220,27 @@ constexpr GlobalNamespace::BasePlatformInit::operator ::Zenject::IInitializable*
   return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::BasePlatformInit::__get__IsInitialized_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::BasePlatformInit::__get__IsInitialized_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr void GlobalNamespace::BasePlatformInit::__set__IsInitialized_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsInitialized_k__BackingField = value;
 }
 constexpr ::System::Threading::Tasks::Task_1<bool>*& GlobalNamespace::BasePlatformInit::__get__initializationTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializationTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<bool>*> const& GlobalNamespace::BasePlatformInit::__get__initializationTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializationTask;
 }
 constexpr void GlobalNamespace::BasePlatformInit::__set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initializationTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::BasePlatformInit::get_IsInitialized() {

@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedColorListController)
-namespace HMUI {
-template <typename T> class IValueChanger_1;
+namespace GlobalNamespace {
+class __NamedColorListController__ColorValuePair;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-class __NamedColorListController__ColorValuePair;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace HMUI {
+template <typename T> class IValueChanger_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

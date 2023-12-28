@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UriHelper)
 namespace System {
-struct UnescapeMode;
+class UriParser;
 }
 namespace System {
-class UriParser;
+struct UnescapeMode;
 }
 // Forward declare root types
 namespace System {

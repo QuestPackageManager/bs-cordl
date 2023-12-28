@@ -48,27 +48,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::__get__totalIndices_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalIndices_k__BackingField;
 }
 constexpr int32_t const& BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::__get__totalIndices_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalIndices_k__BackingField;
 }
 constexpr void BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::__set__totalIndices_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalIndices_k__BackingField = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::__get__colorIndices_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorIndices_k__BackingField;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::__get__colorIndices_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorIndices_k__BackingField;
 }
 constexpr void BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::__set__colorIndices_k__BackingField(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorIndices_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_totalIndices() {

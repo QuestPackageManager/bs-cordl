@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DTSweepPointComparator)
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

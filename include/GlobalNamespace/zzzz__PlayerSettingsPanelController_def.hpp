@@ -8,23 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerSettingsPanelController)
-namespace GlobalNamespace {
-struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
-}
-namespace GlobalNamespace {
-class NoteJumpStartBeatOffsetDropdown;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace GlobalNamespace {
-class PlayerData;
-}
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
-class EnvironmentEffectsFilterPresetDropdown;
+class FormattedFloatListSettingsController;
+}
+namespace GlobalNamespace {
+class PlayerHeightSettingsController;
+}
+namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace GlobalNamespace {
+class EventBinder;
+}
+namespace GlobalNamespace {
+class ArcVisibilityTypeSettingsDropdown;
 }
 namespace GlobalNamespace {
 class NoteJumpDurationTypeSettingsDropdown;
@@ -32,38 +35,35 @@ class NoteJumpDurationTypeSettingsDropdown;
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class EventBinder;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
+struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace GlobalNamespace {
+class EnvironmentEffectsFilterPresetDropdown;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
-class ArcVisibilityTypeSettingsDropdown;
+class IRefreshable;
 }
 namespace GlobalNamespace {
-class PlayerHeightSettingsController;
+class NoteJumpStartBeatOffsetDropdown;
 }
-namespace HMUI {
-class ToggleBinder;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class PlayerData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -131,7 +131,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSetting
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4606))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5642))
 // CS Name: ::PlayerSettingsPanelController*
 class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {

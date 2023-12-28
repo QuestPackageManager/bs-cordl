@@ -2,22 +2,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleResource_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleRequestOptions_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleResource_def.hpp"
-#include "UnityEngine/zzzz__AssetBundle_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
+#include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAssetBundle_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleResource_def.hpp"
+#include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IAssetBundleResource_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleRequestOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::__AssetBundleResource__LoadType::__AssetBundleResource__LoadType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -398,210 +398,210 @@ constexpr UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResourc
   return static_cast<::UnityEngine::ResourceManagement::IUpdateReceiver*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::AssetBundle*& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_AssetBundle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetBundle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundle*> const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_AssetBundle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssetBundle;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_AssetBundle(::UnityEngine::AssetBundle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AssetBundle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Networking::DownloadHandlerAssetBundle*& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_downloadHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_downloadHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandlerAssetBundle*> const&
 UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_downloadHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_downloadHandler;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_downloadHandler(::UnityEngine::Networking::DownloadHandlerAssetBundle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_downloadHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AsyncOperation*& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_RequestOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestOperation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_RequestOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestOperation;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_RequestOperation(::UnityEngine::AsyncOperation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_WebRequestQueueOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequestQueueOperation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const&
 UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_WebRequestQueueOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequestQueueOperation;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_WebRequestQueueOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_ProvideHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProvideHandle;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_ProvideHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProvideHandle;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProvideHandle = value;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_Options() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Options;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*> const&
 UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_Options() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Options;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_Options(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Options)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_WebRequestCompletedCallbackCalled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequestCompletedCallbackCalled;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_WebRequestCompletedCallbackCalled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WebRequestCompletedCallbackCalled;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_WebRequestCompletedCallbackCalled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WebRequestCompletedCallbackCalled = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_Retries() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Retries;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_Retries() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Retries;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_Retries(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Retries = value;
 }
 constexpr int64_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_BytesToDownload() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BytesToDownload;
 }
 constexpr int64_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_BytesToDownload() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BytesToDownload;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_BytesToDownload(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BytesToDownload = value;
 }
 constexpr int64_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_DownloadedBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadedBytes;
 }
 constexpr int64_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_DownloadedBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadedBytes;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_DownloadedBytes(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DownloadedBytes = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_Completed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Completed;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_Completed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Completed;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_Completed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Completed = value;
 }
 constexpr ::StringW& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_TransformedInternalId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TransformedInternalId;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_TransformedInternalId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TransformedInternalId;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_TransformedInternalId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TransformedInternalId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AssetBundleRequest*& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_PreloadRequest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreloadRequest;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_PreloadRequest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreloadRequest;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_PreloadRequest(::UnityEngine::AssetBundleRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreloadRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_PreloadCompleted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreloadCompleted;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_PreloadCompleted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreloadCompleted;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_PreloadCompleted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PreloadCompleted = value;
 }
 constexpr uint64_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_LastDownloadedByteCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastDownloadedByteCount;
 }
 constexpr uint64_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_LastDownloadedByteCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastDownloadedByteCount;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_LastDownloadedByteCount(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastDownloadedByteCount = value;
 }
 constexpr float_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_TimeoutTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimeoutTimer;
 }
 constexpr float_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_TimeoutTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimeoutTimer;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_TimeoutTimer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TimeoutTimer = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_TimeoutOverFrames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimeoutOverFrames;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__get_m_TimeoutOverFrames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TimeoutOverFrames;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::__set_m_TimeoutOverFrames(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TimeoutOverFrames = value;
 }
 inline bool UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::get_HasTimedOut() {

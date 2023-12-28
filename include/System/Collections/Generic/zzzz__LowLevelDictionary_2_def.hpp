@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelDictionary_2)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue, typename T> class __LowLevelDictionary_2__DefaultComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

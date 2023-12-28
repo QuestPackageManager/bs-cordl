@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleComplexSelector)
+namespace UnityEngine::UIElements {
+class __StyleComplexSelector____c;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+struct __StyleComplexSelector__PseudoStateData;
 }
 namespace UnityEngine::UIElements {
 class StyleRule;
 }
 namespace UnityEngine::UIElements {
-class __StyleComplexSelector____c;
-}
-namespace UnityEngine::UIElements {
 class StyleSelector;
-}
-namespace UnityEngine::UIElements {
-struct __StyleComplexSelector__PseudoStateData;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

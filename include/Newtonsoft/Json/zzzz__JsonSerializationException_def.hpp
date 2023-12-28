@@ -9,16 +9,16 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
+struct StreamingContext;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

@@ -9,10 +9,10 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine::UI {
 class VertexHelper;

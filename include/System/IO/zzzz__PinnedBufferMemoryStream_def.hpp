@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PinnedBufferMemoryStream)
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::IO::PinnedBufferMemoryStream);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(3587))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3587)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3569))
 // CS Name: ::System.IO::PinnedBufferMemoryStream*
 class CORDL_TYPE PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream {

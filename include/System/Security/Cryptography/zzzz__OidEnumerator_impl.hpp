@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__OidEnumerator_def.hpp"
-#include "System/Security/Cryptography/zzzz__OidCollection_def.hpp"
-#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Security/Cryptography/zzzz__OidCollection_def.hpp"
+#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::OidEnumerator._ctor
 template <>
 
@@ -81,27 +81,27 @@ constexpr System::Security::Cryptography::OidEnumerator::operator ::System::Coll
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Cryptography::OidCollection*& System::Security::Cryptography::OidEnumerator::__get__oids() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oids;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& System::Security::Cryptography::OidEnumerator::__get__oids() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oids;
 }
 constexpr void System::Security::Cryptography::OidEnumerator::__set__oids(::System::Security::Cryptography::OidCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oids)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Cryptography::OidEnumerator::__get__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr int32_t const& System::Security::Cryptography::OidEnumerator::__get__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
 constexpr void System::Security::Cryptography::OidEnumerator::__set__current(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
 inline ::System::Security::Cryptography::OidEnumerator* System::Security::Cryptography::OidEnumerator::New_ctor(::System::Security::Cryptography::OidCollection* oids) {

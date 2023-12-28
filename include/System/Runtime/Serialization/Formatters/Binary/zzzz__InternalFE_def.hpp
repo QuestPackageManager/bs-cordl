@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::InternalFE)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(3246))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3297)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(3246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3240))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3297)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::InternalFE*
 class CORDL_TYPE InternalFE : public ::System::Object {
 public:

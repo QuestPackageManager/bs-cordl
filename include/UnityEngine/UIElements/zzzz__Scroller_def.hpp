@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Scroller)
 namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
-}
-namespace UnityEngine::UIElements {
-class Slider;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-class __Scroller__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-struct SliderDirection;
+class __Scroller__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class RepeatButton;
 }
 namespace UnityEngine::UIElements {
-class __Scroller__UxmlFactory;
+class __Scroller__UxmlTraits;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::UIElements {
+struct SliderDirection;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class ChangeEvent_1;
+}
+namespace UnityEngine::UIElements {
+class Slider;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -358,7 +358,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Scrolle
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275 }), TypeDefinitionIndex(TypeDefinitionIndex(7063)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7063)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(7064)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name: ::Scroller::UxmlFactory*
 class CORDL_TYPE __Scroller__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Scroller*, ::UnityEngine::UIElements::__Scroller__UxmlTraits*> {
 public:

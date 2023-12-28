@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoTransitionContext)
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-class NoTransitionInstaller;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+class NoTransitionInstaller;
 }
 // Forward declare root types
 namespace Zenject {

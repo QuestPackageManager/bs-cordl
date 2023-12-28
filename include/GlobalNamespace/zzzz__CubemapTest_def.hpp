@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CubemapTest)
 namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {

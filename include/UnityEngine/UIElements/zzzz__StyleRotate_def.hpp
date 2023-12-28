@@ -15,13 +15,13 @@ namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

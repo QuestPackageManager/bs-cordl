@@ -4,12 +4,12 @@
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/Net/zzzz__FtpStatusCode_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Net/zzzz__FtpStatusCode_def.hpp"
+#include "System/Net/zzzz__FtpWebResponse_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Net::__FtpWebResponse__EmptyStream._ctor
 template <>
@@ -159,123 +159,123 @@ constexpr System::Net::FtpWebResponse::operator ::System::IDisposable*() noexcep
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::IO::Stream*& System::Net::FtpWebResponse::__get__responseStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::FtpWebResponse::__get__responseStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseStream;
 }
 constexpr void System::Net::FtpWebResponse::__set__responseStream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& System::Net::FtpWebResponse::__get__contentLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentLength;
 }
 constexpr int64_t const& System::Net::FtpWebResponse::__get__contentLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentLength;
 }
 constexpr void System::Net::FtpWebResponse::__set__contentLength(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentLength = value;
 }
 constexpr ::System::Uri*& System::Net::FtpWebResponse::__get__responseUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseUri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::FtpWebResponse::__get__responseUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____responseUri;
 }
 constexpr void System::Net::FtpWebResponse::__set__responseUri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::FtpStatusCode& System::Net::FtpWebResponse::__get__statusCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____statusCode;
 }
 constexpr ::System::Net::FtpStatusCode const& System::Net::FtpWebResponse::__get__statusCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____statusCode;
 }
 constexpr void System::Net::FtpWebResponse::__set__statusCode(::System::Net::FtpStatusCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____statusCode = value;
 }
 constexpr ::StringW& System::Net::FtpWebResponse::__get__statusLine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____statusLine;
 }
 constexpr ::StringW const& System::Net::FtpWebResponse::__get__statusLine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____statusLine;
 }
 constexpr void System::Net::FtpWebResponse::__set__statusLine(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____statusLine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebHeaderCollection*& System::Net::FtpWebResponse::__get__ftpRequestHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpRequestHeaders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::FtpWebResponse::__get__ftpRequestHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpRequestHeaders;
 }
 constexpr void System::Net::FtpWebResponse::__set__ftpRequestHeaders(::System::Net::WebHeaderCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ftpRequestHeaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::DateTime& System::Net::FtpWebResponse::__get__lastModified() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastModified;
 }
 constexpr ::System::DateTime const& System::Net::FtpWebResponse::__get__lastModified() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastModified;
 }
 constexpr void System::Net::FtpWebResponse::__set__lastModified(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastModified = value;
 }
 constexpr ::StringW& System::Net::FtpWebResponse::__get__bannerMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerMessage;
 }
 constexpr ::StringW const& System::Net::FtpWebResponse::__get__bannerMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bannerMessage;
 }
 constexpr void System::Net::FtpWebResponse::__set__bannerMessage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bannerMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::FtpWebResponse::__get__welcomeMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____welcomeMessage;
 }
 constexpr ::StringW const& System::Net::FtpWebResponse::__get__welcomeMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____welcomeMessage;
 }
 constexpr void System::Net::FtpWebResponse::__set__welcomeMessage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____welcomeMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::FtpWebResponse::__get__exitMessage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exitMessage;
 }
 constexpr ::StringW const& System::Net::FtpWebResponse::__get__exitMessage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exitMessage;
 }
 constexpr void System::Net::FtpWebResponse::__set__exitMessage(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exitMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::FtpWebResponse* System::Net::FtpWebResponse::New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri,

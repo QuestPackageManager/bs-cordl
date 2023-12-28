@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Timer)
-namespace System::Threading {
-class __Timer__Scheduler;
-}
-namespace System {
-class Object;
-}
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
 namespace System {
-class IAsyncDisposable;
-}
-namespace System::Threading {
-struct __Timer__TimerComparer;
+struct TimeSpan;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Threading {
-class TimerCallback;
+struct __Timer__TimerComparer;
 }
 namespace System {
-struct TimeSpan;
+class Object;
+}
+namespace System::Threading {
+class __Timer__Scheduler;
+}
+namespace System {
+class IAsyncDisposable;
+}
+namespace System::Threading {
+class TimerCallback;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

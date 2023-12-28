@@ -1,8 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__TMP_TextElement_impl.hpp"
 #include "TMPro/zzzz__TMP_Character_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_Character._ctor
 template <>
 

@@ -5,9 +5,9 @@
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__RetryConditionHeaderValue_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::RetryConditionHeaderValue._ctor
 template <>
@@ -180,27 +180,27 @@ constexpr System::Net::Http::Headers::RetryConditionHeaderValue::operator ::Syst
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Nullable_1<::System::DateTimeOffset>& System::Net::Http::Headers::RetryConditionHeaderValue::__get__Date_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Date_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::DateTimeOffset> const& System::Net::Http::Headers::RetryConditionHeaderValue::__get__Date_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Date_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Date_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::Headers::RetryConditionHeaderValue::__get__Delta_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Delta_k__BackingField;
 }
 constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::Headers::RetryConditionHeaderValue::__get__Delta_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Delta_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Delta_k__BackingField = value;
 }
 inline ::System::Net::Http::Headers::RetryConditionHeaderValue* System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(::System::DateTimeOffset date) {

@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XAttributeWrapper_def.hpp"
-#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XAttributeWrapper.get_Attribute
 template <>
 

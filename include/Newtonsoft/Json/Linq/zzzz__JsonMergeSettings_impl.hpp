@@ -77,27 +77,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling& Newtonsoft::Json::Linq::JsonMergeSettings::__get__mergeArrayHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeArrayHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling const& Newtonsoft::Json::Linq::JsonMergeSettings::__get__mergeArrayHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeArrayHandling;
 }
 constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__set__mergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mergeArrayHandling = value;
 }
 constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling& Newtonsoft::Json::Linq::JsonMergeSettings::__get__mergeNullValueHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeNullValueHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling const& Newtonsoft::Json::Linq::JsonMergeSettings::__get__mergeNullValueHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mergeNullValueHandling;
 }
 constexpr void Newtonsoft::Json::Linq::JsonMergeSettings::__set__mergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mergeNullValueHandling = value;
 }
 inline ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::JsonMergeSettings::get_MergeArrayHandling() {

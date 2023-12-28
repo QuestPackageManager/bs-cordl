@@ -76,15 +76,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::ComponentModel::ReadOnlyAttribute::__get__IsReadOnly_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsReadOnly_k__BackingField;
 }
 constexpr bool const& System::ComponentModel::ReadOnlyAttribute::__get__IsReadOnly_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsReadOnly_k__BackingField;
 }
 constexpr void System::ComponentModel::ReadOnlyAttribute::__set__IsReadOnly_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsReadOnly_k__BackingField = value;
 }
 inline void System::ComponentModel::ReadOnlyAttribute::setStaticF_Yes(::System::ComponentModel::ReadOnlyAttribute* value) {

@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorSchemeDropdown)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace HMUI {
 class TableCell;
 }
-namespace GlobalNamespace {
-class ColorSchemeView;
-}
 namespace HMUI {
-class DropdownWithTableView;
-}
-namespace GlobalNamespace {
-class ColorSchemeTableCell;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+class TableView;
 }
 namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace HMUI {
-class TableView;
+class __TableView__IDataSource;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+class ColorSchemeView;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class ColorSchemeTableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {

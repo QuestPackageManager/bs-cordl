@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Helper)
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
+namespace Mono {
+class ISystemCertificateProvider;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
-namespace Mono {
-class ISystemCertificateProvider;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafePasswordHandle;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System {
 class Exception;
 }
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
+}
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+struct X509KeyStorageFlags;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

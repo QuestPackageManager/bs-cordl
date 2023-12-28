@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(XPathItem)
 namespace System {
 class Object;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System {
 class Type;
 }
 namespace System {
 struct DateTime;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::XPath {

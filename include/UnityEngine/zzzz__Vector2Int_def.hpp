@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2Int)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
 class IFormatProvider;
@@ -16,7 +16,7 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct Vector2;

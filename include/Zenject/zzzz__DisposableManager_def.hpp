@@ -8,49 +8,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisposableManager)
 namespace Zenject {
-class __DisposableManager____c__DisplayClass9_0;
-}
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class ILateDisposable;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
 class __DisposableManager____c__DisplayClass4_0;
 }
-namespace Zenject {
-class __DisposableManager____c;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class __DisposableManager____c__DisplayClass4_1;
 }
 namespace Zenject {
+class __DisposableManager____c;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
 struct __DisposableManager__DisposableInfo;
+}
+namespace Zenject {
+class __DisposableManager____c__DisplayClass9_0;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class __DisposableManager__LateDisposableInfo;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
+}
+namespace Zenject {
+class ILateDisposable;
 }
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject {

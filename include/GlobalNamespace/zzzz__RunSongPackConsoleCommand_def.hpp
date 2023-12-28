@@ -9,40 +9,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RunSongPackConsoleCommand)
 namespace GlobalNamespace {
-struct __DebugConsoleController__ConsoleMessage;
-}
-namespace GlobalNamespace {
-class __RunSongPackConsoleCommand____c__DisplayClass12_0;
-}
-namespace GlobalNamespace {
 template <typename T> class RequiredArgument_1;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+struct __DebugConsoleController__ConsoleMessage;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
+class __RunSongPackConsoleCommand____c;
+}
+namespace GlobalNamespace {
+class __RunSongPackConsoleCommand____c__DisplayClass12_0;
+}
+namespace GlobalNamespace {
 class SongRunningHelper;
+}
+namespace GlobalNamespace {
+class ArgumentBase;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class ArgumentBase;
+template <typename T> class OptionalArgument_1;
 }
-namespace GlobalNamespace {
-class __RunSongPackConsoleCommand____c;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {

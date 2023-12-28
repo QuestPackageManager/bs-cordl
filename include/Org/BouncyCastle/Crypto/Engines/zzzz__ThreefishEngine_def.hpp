@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreefishEngine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class __ThreefishEngine__Threefish512Cipher;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class __ThreefishEngine__Threefish256Cipher;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class __ThreefishEngine__ThreefishCipher;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class __ThreefishEngine__Threefish1024Cipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class __ThreefishEngine__Threefish512Cipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class __ThreefishEngine__Threefish256Cipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

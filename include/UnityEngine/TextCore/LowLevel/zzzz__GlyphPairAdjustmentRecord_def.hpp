@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(GlyphPairAdjustmentRecord)
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphAdjustmentRecord;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct FontFeatureLookupFlags;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {

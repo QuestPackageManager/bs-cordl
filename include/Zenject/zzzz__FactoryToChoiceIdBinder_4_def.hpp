@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(FactoryToChoiceIdBinder_4)
 namespace Zenject {
 class FactoryBindInfo;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class BindInfo;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactoryArgumentsToChoiceBinder_4;
+}
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,7 +31,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10707)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10707), inst: 1776 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10707), inst: 1776 }), TypeDefinitionIndex(TypeDefinitionIndex(10707))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10860))
 // CS Name: ::Zenject::FactoryToChoiceIdBinder`4<TParam1,TParam2,TParam3,TContract>*
 class CORDL_TYPE FactoryToChoiceIdBinder_4 : public ::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract> {

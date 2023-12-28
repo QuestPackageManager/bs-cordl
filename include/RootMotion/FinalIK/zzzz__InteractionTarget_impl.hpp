@@ -6,10 +6,10 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__InteractionTarget__Multiplier._ctor
 template <>
 
@@ -25,27 +25,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& RootMotion::FinalIK::__InteractionTarget__Multiplier::__get_curve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
 constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& RootMotion::FinalIK::__InteractionTarget__Multiplier::__get_curve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curve;
 }
 constexpr void RootMotion::FinalIK::__InteractionTarget__Multiplier::__set_curve(::GlobalNamespace::__InteractionObject__WeightCurve__Type value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curve = value;
 }
 constexpr float_t& RootMotion::FinalIK::__InteractionTarget__Multiplier::__get_multiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
 constexpr float_t const& RootMotion::FinalIK::__InteractionTarget__Multiplier::__get_multiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
 constexpr void RootMotion::FinalIK::__InteractionTarget__Multiplier::__set_multiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multiplier = value;
 }
 inline ::RootMotion::FinalIK::__InteractionTarget__Multiplier* RootMotion::FinalIK::__InteractionTarget__Multiplier::New_ctor() {
@@ -220,126 +220,126 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& RootMotion::FinalIK::InteractionTarget::__get_effectorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectorType;
 }
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& RootMotion::FinalIK::InteractionTarget::__get_effectorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___effectorType;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___effectorType = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*>&
 RootMotion::FinalIK::InteractionTarget::__get_multipliers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multipliers;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> const&
 RootMotion::FinalIK::InteractionTarget::__get_multipliers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multipliers;
 }
 constexpr void
 RootMotion::FinalIK::InteractionTarget::__set_multipliers(::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multipliers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::InteractionTarget::__get_interactionSpeedMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interactionSpeedMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionTarget::__get_interactionSpeedMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___interactionSpeedMlp;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_interactionSpeedMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___interactionSpeedMlp = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::InteractionTarget::__get_pivot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pivot;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::InteractionTarget::__get_pivot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pivot;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_pivot(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pivot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::InteractionTarget::__get_twistAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::InteractionTarget::__get_twistAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistAxis;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_twistAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twistAxis = value;
 }
 constexpr float_t& RootMotion::FinalIK::InteractionTarget::__get_twistWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionTarget::__get_twistWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistWeight;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_twistWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twistWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::InteractionTarget::__get_swingWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swingWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::InteractionTarget::__get_swingWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swingWeight;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_swingWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swingWeight = value;
 }
 constexpr bool& RootMotion::FinalIK::InteractionTarget::__get_rotateOnce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateOnce;
 }
 constexpr bool const& RootMotion::FinalIK::InteractionTarget::__get_rotateOnce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateOnce;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_rotateOnce(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotateOnce = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::InteractionTarget::__get_defaultLocalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::InteractionTarget::__get_defaultLocalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotation;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_defaultLocalRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultLocalRotation = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::InteractionTarget::__get_lastPivot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastPivot;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::InteractionTarget::__get_lastPivot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastPivot;
 }
 constexpr void RootMotion::FinalIK::InteractionTarget::__set_lastPivot(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lastPivot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void RootMotion::FinalIK::InteractionTarget::OpenUserManual() {

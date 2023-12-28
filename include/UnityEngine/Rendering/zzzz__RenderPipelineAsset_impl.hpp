@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineAsset_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderPipelineAsset.InternalCreatePipeline
 template <>
 

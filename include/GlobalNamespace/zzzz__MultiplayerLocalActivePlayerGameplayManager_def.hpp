@@ -6,10 +6,25 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerGameplayManager)
 namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerGameplayManager__InitData;
+class MultiplayerLocalActivePlayerInGameMenuController;
 }
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsListener;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalActivePlayerGameplayManager__InitData;
 }
 namespace GlobalNamespace {
 class MultiplayerLocalPlayerDisconnectHelper;
@@ -18,22 +33,7 @@ namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuController;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
 class GameSongController;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
 }
 // Forward declare root types
 namespace GlobalNamespace {

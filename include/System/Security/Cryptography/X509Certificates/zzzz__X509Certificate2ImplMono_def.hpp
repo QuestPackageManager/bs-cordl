@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2ImplMono)
 namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImplCollection;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
+}
+namespace System::Security::Cryptography {
+class RSA;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
-namespace Microsoft::Win32::SafeHandles {
-class SafePasswordHandle;
-}
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
-namespace System::Security::Cryptography {
-class RSA;
-}
 namespace System::Security::Cryptography {
 class DSA;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImplCollection;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

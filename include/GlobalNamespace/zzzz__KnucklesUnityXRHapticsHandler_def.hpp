@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KnucklesUnityXRHapticsHandler)
+namespace UnityEngine {
+class MonoBehaviour;
+}
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine {
+class Coroutine;
+}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace GlobalNamespace {
+class __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
+}
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
-class Coroutine;
-}
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace GlobalNamespace {
-class __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
+class WaitForSecondsRealtime;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine {
-class WaitForSecondsRealtime;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCorou
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15621))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15621)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
 // CS Name: ::KnucklesUnityXRHapticsHandler::<HapticsCoroutine>d__9*
 class CORDL_TYPE __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 : public ::System::Object {
@@ -175,7 +175,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__KnucklesUnity
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {

@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsOverPerCoreLockedStacksArrayPool_1)
 namespace System::Buffers {
+template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
+}
+namespace System::Buffers {
 template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack;
 }
 namespace System {
 class Object;
 }
-namespace System::Buffers {
-template <typename T> struct __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure;
-}
-namespace System::Buffers {
-template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+}
+namespace System::Buffers {
+template <typename T> struct __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -47,7 +47,7 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 }), TypeDefinitionIndex(TypeDefinitionIndex(3886))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure<T>
 struct CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure {

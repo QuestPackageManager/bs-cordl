@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dimension)
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct Angle;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct __Dimension__Unit;
-}
-namespace System {
-class Object;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct TimeValue;
+}
+namespace UnityEngine::UIElements {
+struct Angle;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct __Dimension__Unit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

@@ -18,51 +18,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Mono::Globalization::Unicode::TailoringInfo::__get_LCID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LCID;
 }
 constexpr int32_t const& Mono::Globalization::Unicode::TailoringInfo::__get_LCID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LCID;
 }
 constexpr void Mono::Globalization::Unicode::TailoringInfo::__set_LCID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LCID = value;
 }
 constexpr int32_t& Mono::Globalization::Unicode::TailoringInfo::__get_TailoringIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TailoringIndex;
 }
 constexpr int32_t const& Mono::Globalization::Unicode::TailoringInfo::__get_TailoringIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TailoringIndex;
 }
 constexpr void Mono::Globalization::Unicode::TailoringInfo::__set_TailoringIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TailoringIndex = value;
 }
 constexpr int32_t& Mono::Globalization::Unicode::TailoringInfo::__get_TailoringCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TailoringCount;
 }
 constexpr int32_t const& Mono::Globalization::Unicode::TailoringInfo::__get_TailoringCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TailoringCount;
 }
 constexpr void Mono::Globalization::Unicode::TailoringInfo::__set_TailoringCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TailoringCount = value;
 }
 constexpr bool& Mono::Globalization::Unicode::TailoringInfo::__get_FrenchSort() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FrenchSort;
 }
 constexpr bool const& Mono::Globalization::Unicode::TailoringInfo::__get_FrenchSort() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FrenchSort;
 }
 constexpr void Mono::Globalization::Unicode::TailoringInfo::__set_FrenchSort(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FrenchSort = value;
 }
 inline ::Mono::Globalization::Unicode::TailoringInfo* Mono::Globalization::Unicode::TailoringInfo::New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) {

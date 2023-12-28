@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Component)
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class GameObject;
 }
 namespace System {
@@ -19,6 +16,9 @@ class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 class Object;

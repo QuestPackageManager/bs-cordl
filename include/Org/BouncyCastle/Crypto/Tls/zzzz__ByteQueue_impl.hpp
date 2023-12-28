@@ -200,51 +200,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_databuf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___databuf;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_databuf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___databuf;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::ByteQueue::__set_databuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___databuf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_skipped() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skipped;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_skipped() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skipped;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::ByteQueue::__set_skipped(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___skipped = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_available() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___available;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_available() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___available;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::ByteQueue::__set_available(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___available = value;
 }
 constexpr bool& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_readOnlyBuf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readOnlyBuf;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Tls::ByteQueue::__get_readOnlyBuf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readOnlyBuf;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::ByteQueue::__set_readOnlyBuf(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readOnlyBuf = value;
 }
 inline int32_t Org::BouncyCastle::Crypto::Tls::ByteQueue::NextTwoPow(int32_t i) {

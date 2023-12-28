@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardEntry)
 namespace Oculus::Platform::Models {
-class User;
+class SupplementaryMetric;
 }
 namespace Oculus::Platform::Models {
-class SupplementaryMetric;
+class User;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {

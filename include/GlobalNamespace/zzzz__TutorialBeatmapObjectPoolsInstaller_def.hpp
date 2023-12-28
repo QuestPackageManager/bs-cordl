@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(TutorialBeatmapObjectPoolsInstaller)
 namespace GlobalNamespace {
-class NoteLineConnectionController;
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class BombNoteController;
 }
 namespace GlobalNamespace {
 class TutorialNoteController;
 }
 namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class BombNoteController;
+class NoteLineConnectionController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

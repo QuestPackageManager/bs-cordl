@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::ISignatureFactory.get_AlgorithmDetails
 template <>
 

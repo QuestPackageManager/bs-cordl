@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicAtlasCustomFilter)
-namespace UnityEngine {
-class Texture2D;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 struct DynamicAtlasFilters;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

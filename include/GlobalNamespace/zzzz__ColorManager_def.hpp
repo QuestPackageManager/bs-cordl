@@ -4,6 +4,12 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ColorManager)
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
 namespace UnityEngine {
 struct Color;
 }
@@ -12,12 +18,6 @@ struct SaberType;
 }
 namespace GlobalNamespace {
 struct ColorType;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

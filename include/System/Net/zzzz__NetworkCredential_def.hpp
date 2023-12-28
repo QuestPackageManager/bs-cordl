@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkCredential)
-namespace System::Security {
-class SecureString;
-}
 namespace System::Net {
 class ICredentials;
+}
+namespace System::Security {
+class SecureString;
 }
 namespace System {
 class Uri;

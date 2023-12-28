@@ -8,39 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Text)
-namespace UnityEngine::UI {
-class FontData;
-}
-namespace UnityEngine {
-class TextGenerator;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct VerticalWrapMode;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine {
-struct TextGenerationSettings;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
 namespace UnityEngine {
 class Texture;
 }
@@ -48,7 +15,40 @@ namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine {
+struct VerticalWrapMode;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct TextGenerationSettings;
+}
+namespace UnityEngine {
+struct HorizontalWrapMode;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine::UI {
+class FontData;
+}
+namespace UnityEngine {
 struct FontStyle;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine {
+class TextGenerator;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

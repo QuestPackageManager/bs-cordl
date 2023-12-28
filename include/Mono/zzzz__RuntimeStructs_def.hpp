@@ -11,13 +11,13 @@ namespace Mono {
 struct __RuntimeStructs__RemoteClass;
 }
 namespace Mono {
-struct __RuntimeStructs__MonoClass;
+struct __RuntimeStructs__GenericParamInfo;
 }
 namespace Mono {
 struct __RuntimeStructs__GPtrArray;
 }
 namespace Mono {
-struct __RuntimeStructs__GenericParamInfo;
+struct __RuntimeStructs__MonoClass;
 }
 // Forward declare root types
 namespace Mono {

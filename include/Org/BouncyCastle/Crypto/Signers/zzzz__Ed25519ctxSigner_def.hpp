@@ -12,7 +12,7 @@ namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed25519PublicKeyParameters;
+class Ed25519PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class __Ed25519ctxSigner__Buffer;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed25519PrivateKeyParameters;
+class Ed25519PublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

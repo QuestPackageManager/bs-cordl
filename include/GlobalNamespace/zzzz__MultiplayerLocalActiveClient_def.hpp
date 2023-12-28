@@ -8,36 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveClient)
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class IScoreSyncStateManager;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
-namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
@@ -47,13 +17,43 @@ namespace GlobalNamespace {
 class ComboController;
 }
 namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class IScoreController;
+}
+namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class IScoreSyncStateManager;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 class NoteController;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class INodePoseSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

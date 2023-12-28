@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemInfo)
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
-namespace System {
-struct DateTime;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System {
 struct DateTimeOffset;
@@ -23,11 +23,11 @@ struct FileStatus;
 namespace System::IO {
 struct FileAttributes;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+struct DateTime;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::IO {

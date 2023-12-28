@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FpCurve)
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class FpPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
-class FpPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

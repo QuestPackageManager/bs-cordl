@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyboardBinder)
-namespace HMUI {
-struct __KeyboardBinder__KeyBindingType;
-}
-namespace UnityEngine {
-struct KeyCode;
-}
 namespace System {
 template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -21,8 +18,11 @@ template <typename T> class List_1;
 namespace System {
 template <typename T1, typename T2, typename T3> class Tuple_3;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace HMUI {
+struct __KeyboardBinder__KeyBindingType;
+}
+namespace UnityEngine {
+struct KeyCode;
 }
 namespace System {
 template <typename T> class Action_1;

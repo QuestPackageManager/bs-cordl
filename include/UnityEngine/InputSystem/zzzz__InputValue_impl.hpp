@@ -44,15 +44,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>& UnityEngine::InputSystem::InputValue::__get_m_Context() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
 constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> const& UnityEngine::InputSystem::InputValue::__get_m_Context() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Context;
 }
 constexpr void UnityEngine::InputSystem::InputValue::__set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Context = value;
 }
 inline ::System::Object* UnityEngine::InputSystem::InputValue::Get() {

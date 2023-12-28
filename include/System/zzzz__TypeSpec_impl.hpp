@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeSpec_def.hpp"
+#include "System/Reflection/zzzz__AssemblyName_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__ModifierSpec_def.hpp"
 #include "System/zzzz__TypeSpec_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
-#include "System/zzzz__ModifierSpec_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__TypeIdentifier_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
-#include "System/Reflection/zzzz__AssemblyName_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::__TypeSpec__DisplayNameFormat::__TypeSpec__DisplayNameFormat(int32_t value__) noexcept {
   this->value__ = value__;
@@ -223,87 +223,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::TypeIdentifier*& System::TypeSpec::__get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::TypeIdentifier*> const& System::TypeSpec::__get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
 constexpr void System::TypeSpec::__set_name(::System::TypeIdentifier* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::TypeSpec::__get_assembly_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly_name;
 }
 constexpr ::StringW const& System::TypeSpec::__get_assembly_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___assembly_name;
 }
 constexpr void System::TypeSpec::__set_assembly_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___assembly_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*& System::TypeSpec::__get_nested() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nested;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::TypeIdentifier*>*> const& System::TypeSpec::__get_nested() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nested;
 }
 constexpr void System::TypeSpec::__set_nested(::System::Collections::Generic::List_1<::System::TypeIdentifier*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nested)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>*& System::TypeSpec::__get_generic_params() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generic_params;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::TypeSpec*>*> const& System::TypeSpec::__get_generic_params() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generic_params;
 }
 constexpr void System::TypeSpec::__set_generic_params(::System::Collections::Generic::List_1<::System::TypeSpec*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___generic_params)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>*& System::TypeSpec::__get_modifier_spec() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier_spec;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ModifierSpec*>*> const& System::TypeSpec::__get_modifier_spec() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier_spec;
 }
 constexpr void System::TypeSpec::__set_modifier_spec(::System::Collections::Generic::List_1<::System::ModifierSpec*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___modifier_spec)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::TypeSpec::__get_is_byref() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_byref;
 }
 constexpr bool const& System::TypeSpec::__get_is_byref() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_byref;
 }
 constexpr void System::TypeSpec::__set_is_byref(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_byref = value;
 }
 constexpr ::StringW& System::TypeSpec::__get_display_fullname() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___display_fullname;
 }
 constexpr ::StringW const& System::TypeSpec::__get_display_fullname() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___display_fullname;
 }
 constexpr void System::TypeSpec::__set_display_fullname(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___display_fullname)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool System::TypeSpec::get_HasModifiers() {

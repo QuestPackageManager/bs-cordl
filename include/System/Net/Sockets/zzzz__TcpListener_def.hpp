@@ -9,25 +9,25 @@ namespace System::Net {
 class IPEndPoint;
 }
 namespace System::Net {
-class IPAddress;
+class EndPoint;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net {
+class IPAddress;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System::Net::Sockets {
-class TcpClient;
-}
-namespace System::Net {
-class EndPoint;
+namespace System {
+class Object;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
 namespace System {
-class Object;
+class IAsyncResult;
+}
+namespace System::Net::Sockets {
+class TcpClient;
 }
 // Forward declare root types
 namespace System::Net::Sockets {

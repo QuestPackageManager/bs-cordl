@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(CancellationCallbackInfo)
 namespace System::Threading {
 class ExecutionContext;
 }
-namespace System {
-class Object;
-}
 namespace System::Threading {
-class CancellationTokenSource;
+class ContextCallback;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Threading {
-class ContextCallback;
+class __CancellationCallbackInfo__WithSyncContext;
 }
 namespace System::Threading {
-class __CancellationCallbackInfo__WithSyncContext;
+class CancellationTokenSource;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {

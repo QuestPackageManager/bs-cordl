@@ -82,7 +82,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_ShelfT
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9856)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9856))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9857))
 // CS Name: ::HoudiniEngineUnity::HEU_ShelfToolData*
 class CORDL_TYPE HEU_ShelfToolData : public ::System::Object {

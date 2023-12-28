@@ -1,22 +1,22 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
-#include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
 template <typename T> constexpr T& GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>::__get__v() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____v;
 }
 template <typename T> constexpr T const& GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>::__get__v() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____v;
 }
 template <typename T> constexpr void GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>::__set__v(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____v)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline bool GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>::get_hasValue() {
@@ -209,15 +209,15 @@ constexpr GlobalNamespace::RemoteProcedureCall::operator ::GlobalNamespace::IPoo
   return static_cast<::GlobalNamespace::IPoolablePacket*>(static_cast<void*>(this));
 }
 constexpr int64_t& GlobalNamespace::RemoteProcedureCall::__get__syncTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncTime_k__BackingField;
 }
 constexpr int64_t const& GlobalNamespace::RemoteProcedureCall::__get__syncTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncTime_k__BackingField;
 }
 constexpr void GlobalNamespace::RemoteProcedureCall::__set__syncTime_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____syncTime_k__BackingField = value;
 }
 inline int64_t GlobalNamespace::RemoteProcedureCall::get_syncTime() {

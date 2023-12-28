@@ -1,60 +1,60 @@
 #pragma once
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 template <typename TKey, typename TItem> constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_comparer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TItem>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const&
 System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_comparer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TItem>
 constexpr void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TItem> constexpr ::System::Collections::Generic::Dictionary_2<TKey, TItem>*& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_dict() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dict;
 }
 template <typename TKey, typename TItem>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TItem>*> const& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_dict() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dict;
 }
 template <typename TKey, typename TItem> constexpr void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__set_dict(::System::Collections::Generic::Dictionary_2<TKey, TItem>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dict)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TItem> constexpr int32_t& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_keyCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyCount;
 }
 template <typename TKey, typename TItem> constexpr int32_t const& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_keyCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyCount;
 }
 template <typename TKey, typename TItem> constexpr void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__set_keyCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyCount = value;
 }
 template <typename TKey, typename TItem> constexpr int32_t& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 template <typename TKey, typename TItem> constexpr int32_t const& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
 template <typename TKey, typename TItem> constexpr void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__set_threshold(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
 template <typename TKey, typename TItem> inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::New_ctor() {

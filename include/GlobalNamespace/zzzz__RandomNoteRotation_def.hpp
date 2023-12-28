@@ -8,10 +8,10 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
+class NoteControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {

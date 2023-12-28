@@ -11,20 +11,20 @@ class IMemoryPool;
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class IMemoryPool_3;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class IFactory;
+template <typename TParam1, typename TParam2, typename TValue> class IMemoryPool_3;
 }
 // Forward declare root types
 namespace Zenject {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ThreadPoolTaskScheduler)
-namespace System::Threading {
-class ParameterizedThreadStart;
-}
 namespace System::Threading::Tasks {
 class __ThreadPoolTaskScheduler____c;
 }
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Threading {
+class ParameterizedThreadStart;
 }
 namespace System {
 class Object;

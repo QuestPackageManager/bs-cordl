@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetUtils)
+namespace System::Net::Sockets {
+struct AddressFamily;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net {
+class IPAddress;
+}
 namespace LiteNetLib {
 struct LocalAddrType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net::Sockets {
-struct AddressFamily;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;

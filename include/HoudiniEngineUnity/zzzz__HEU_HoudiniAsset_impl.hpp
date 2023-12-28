@@ -10,48 +10,48 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_RecookPreset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_3_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__ReloadEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_PreAssetEvent_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__CookedEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_CookedDataEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetPreset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_BakedDataEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetSerializedMetaData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InstanceInputUIState_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_BakedDataEvent_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ReloadDataEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__BakedEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeCache_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_3_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_RecookPreset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputPreset_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetSerializedMetaData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_CookedDataEvent_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
+#include "HoudiniEngineUnity/zzzz__ReloadEvent_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetPreset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__CookedEvent_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeCache_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InstanceInputUIState_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PreAssetEvent_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__BakedEvent_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -234,16 +234,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0::__get_previousTransformValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousTransformValues;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*> const&
 HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0::__get_previousTransformValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousTransformValues;
 }
 constexpr void HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0::__set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___previousTransformValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0* HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0::New_ctor() {
@@ -445,39 +445,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__get_newAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newAsset;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__get_newAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newAsset;
 }
 constexpr void HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__set_newAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr int32_t const& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__set_i(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr ::System::Predicate_1<::HoudiniEngineUnity::HEU_Curve*>*& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__get___9__0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__0;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::HoudiniEngineUnity::HEU_Curve*>*> const& HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__get___9__0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__0;
 }
 constexpr void HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::__set___9__0(::System::Predicate_1<::HoudiniEngineUnity::HEU_Curve*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0* HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0::New_ctor() {
@@ -3845,1050 +3845,1050 @@ constexpr HoudiniEngineUnity::HEU_HoudiniAsset::operator ::HoudiniEngineUnity::I
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetType;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetType;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetType(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____assetType = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AssetInfo& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_AssetInfo const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetInfo(::HoudiniEngineUnity::HAPI_AssetInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____assetInfo = value;
 }
 constexpr ::HoudiniEngineUnity::HAPI_NodeInfo& HoudiniEngineUnity::HEU_HoudiniAsset::__get__nodeInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeInfo;
 }
 constexpr ::HoudiniEngineUnity::HAPI_NodeInfo const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__nodeInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__nodeInfo(::HoudiniEngineUnity::HAPI_NodeInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nodeInfo = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetName;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetOpName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetOpName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetOpName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetOpName;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetOpName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetOpName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetHelp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetHelp;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetHelp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetHelp;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetHelp(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetHelp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetID;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetID;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____assetID = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetPath;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__loadAssetFromMemory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadAssetFromMemory;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__loadAssetFromMemory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loadAssetFromMemory;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__loadAssetFromMemory(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loadAssetFromMemory = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__alwaysOverwriteOnLoad() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOverwriteOnLoad;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__alwaysOverwriteOnLoad() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOverwriteOnLoad;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__alwaysOverwriteOnLoad(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alwaysOverwriteOnLoad = value;
 }
 constexpr ::UnityEngine::Object*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetFileObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetFileObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetFileObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetFileObject;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetFileObject(::UnityEngine::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetFileObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectNode*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__objectNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectNodes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectNode*>*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__objectNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectNodes;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__objectNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectNode*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__rootGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__rootGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootGameObject;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__rootGameObject(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rootGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__materialCache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialCache;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>*> const&
 HoudiniEngineUnity::HEU_HoudiniAsset::__get__materialCache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialCache;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__materialCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_Parameters*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__parameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameters;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_Parameters*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__parameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameters;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__parameters(::HoudiniEngineUnity::HEU_Parameters* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Matrix4x4& HoudiniEngineUnity::HEU_HoudiniAsset::__get__lastSyncedTransformMatrix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSyncedTransformMatrix;
 }
 constexpr ::UnityEngine::Matrix4x4 const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__lastSyncedTransformMatrix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSyncedTransformMatrix;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__lastSyncedTransformMatrix(::UnityEngine::Matrix4x4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastSyncedTransformMatrix = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetCacheFolderPath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetCacheFolderPath;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__assetCacheFolderPath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____assetCacheFolderPath;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__assetCacheFolderPath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetCacheFolderPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& HoudiniEngineUnity::HEU_HoudiniAsset::__get__subassetNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subassetNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__subassetNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subassetNames;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__subassetNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subassetNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_HoudiniAsset::__get__selectedSubassetIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedSubassetIndex;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__selectedSubassetIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedSubassetIndex;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__selectedSubassetIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedSubassetIndex = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_AssetPreset*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__savedAssetPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____savedAssetPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_AssetPreset*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__savedAssetPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____savedAssetPreset;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__savedAssetPreset(::HoudiniEngineUnity::HEU_AssetPreset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____savedAssetPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_RecookPreset*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__recookPreset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recookPreset;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_RecookPreset*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__recookPreset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recookPreset;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__recookPreset(::HoudiniEngineUnity::HEU_RecookPreset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recookPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_HoudiniAsset::__get__totalCookCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalCookCount;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__totalCookCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____totalCookCount;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__totalCookCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalCookCount = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction& HoudiniEngineUnity::HEU_HoudiniAsset::__get__requestBuildAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestBuildAction;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__requestBuildAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestBuildAction;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__requestBuildAction(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requestBuildAction = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__checkParameterChangeForCook() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkParameterChangeForCook;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__checkParameterChangeForCook() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkParameterChangeForCook;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__checkParameterChangeForCook(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____checkParameterChangeForCook = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__skipCookCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skipCookCheck;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__skipCookCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skipCookCheck;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__skipCookCheck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____skipCookCheck = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__uploadParameters() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uploadParameters;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__uploadParameters() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uploadParameters;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__uploadParameters(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____uploadParameters = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__forceUploadInputs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceUploadInputs;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__forceUploadInputs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceUploadInputs;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__forceUploadInputs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceUploadInputs = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__upstreamCookChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upstreamCookChanged;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__upstreamCookChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upstreamCookChanged;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__upstreamCookChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____upstreamCookChanged = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookStatus;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookStatus;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__cookStatus(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cookStatus = value;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult& HoudiniEngineUnity::HEU_HoudiniAsset::__get__lastCookResult() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastCookResult;
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__lastCookResult() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastCookResult;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__lastCookResult(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastCookResult = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__isCookingAssetReloaded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isCookingAssetReloaded;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__isCookingAssetReloaded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isCookingAssetReloaded;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__isCookingAssetReloaded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isCookingAssetReloaded = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bForceUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bForceUpdate;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bForceUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bForceUpdate;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__bForceUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bForceUpdate = value;
 }
 constexpr int64_t& HoudiniEngineUnity::HEU_HoudiniAsset::__get__sessionID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionID;
 }
 constexpr int64_t const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__sessionID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionID;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__sessionID(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sessionID = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__WarnedPrefabNotSupported_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WarnedPrefabNotSupported_k__BackingField;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__WarnedPrefabNotSupported_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WarnedPrefabNotSupported_k__BackingField;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__WarnedPrefabNotSupported_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____WarnedPrefabNotSupported_k__BackingField = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__uiLocked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uiLocked;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__uiLocked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uiLocked;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__uiLocked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____uiLocked = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showHDAOptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showHDAOptions;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showHDAOptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showHDAOptions;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showHDAOptions(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showHDAOptions = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showGenerateSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showGenerateSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showGenerateSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showGenerateSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showGenerateSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showGenerateSection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showBakeSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showBakeSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showBakeSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showBakeSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showBakeSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showBakeSection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showEventsSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showEventsSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showEventsSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showEventsSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showEventsSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showEventsSection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showCurvesSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showCurvesSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showCurvesSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showCurvesSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showCurvesSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showCurvesSection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showInputNodesSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showInputNodesSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showInputNodesSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showInputNodesSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showInputNodesSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showInputNodesSection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showToolsSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showToolsSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showToolsSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showToolsSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showToolsSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showToolsSection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showTerrainSection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showTerrainSection;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__showTerrainSection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showTerrainSection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__showTerrainSection(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showTerrainSection = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_InstanceInputUIState*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__instanceInputUIState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instanceInputUIState;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InstanceInputUIState*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__instanceInputUIState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instanceInputUIState;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__instanceInputUIState(::HoudiniEngineUnity::HEU_InstanceInputUIState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instanceInputUIState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::ReloadEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__reloadEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reloadEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::ReloadEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__reloadEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reloadEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__reloadEvent(::HoudiniEngineUnity::ReloadEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reloadEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::CookedEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::CookedEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookedEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__cookedEvent(::HoudiniEngineUnity::CookedEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cookedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::BakedEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bakedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::BakedEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bakedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__bakedEvent(::HoudiniEngineUnity::BakedEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_ReloadDataEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__reloadDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reloadDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_ReloadDataEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__reloadDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reloadDataEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__reloadDataEvent(::HoudiniEngineUnity::HEU_ReloadDataEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reloadDataEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_CookedDataEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookedDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookedDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_CookedDataEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookedDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookedDataEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__cookedDataEvent(::HoudiniEngineUnity::HEU_CookedDataEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cookedDataEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_BakedDataEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bakedDataEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedDataEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_BakedDataEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bakedDataEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedDataEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__bakedDataEvent(::HoudiniEngineUnity::HEU_BakedDataEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedDataEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_PreAssetEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__preAssetEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preAssetEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_PreAssetEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__preAssetEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preAssetEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__preAssetEvent(::HoudiniEngineUnity::HEU_PreAssetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____preAssetEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__refreshUIDelegate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshUIDelegate;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__refreshUIDelegate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshUIDelegate;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__refreshUIDelegate(::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____refreshUIDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::CookedEvent*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__downstreamConnectionCookedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downstreamConnectionCookedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::CookedEvent*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__downstreamConnectionCookedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downstreamConnectionCookedEvent;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__downstreamConnectionCookedEvent(::HoudiniEngineUnity::CookedEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____downstreamConnectionCookedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateUVs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateUVs;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateUVs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateUVs;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__generateUVs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateUVs = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateTangents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateTangents;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateTangents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateTangents;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__generateTangents(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateTangents = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateNormals() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateNormals;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateNormals() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateNormals;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__generateNormals(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateNormals = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__pushTransformToHoudini() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pushTransformToHoudini;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__pushTransformToHoudini() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pushTransformToHoudini;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__pushTransformToHoudini(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pushTransformToHoudini = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__transformChangeTriggersCooks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transformChangeTriggersCooks;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__transformChangeTriggersCooks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transformChangeTriggersCooks;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__transformChangeTriggersCooks(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transformChangeTriggersCooks = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookingTriggersDownCooks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookingTriggersDownCooks;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__cookingTriggersDownCooks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cookingTriggersDownCooks;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__cookingTriggersDownCooks(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cookingTriggersDownCooks = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__autoCookOnParameterChange() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoCookOnParameterChange;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__autoCookOnParameterChange() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoCookOnParameterChange;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__autoCookOnParameterChange(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoCookOnParameterChange = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__ignoreNonDisplayNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreNonDisplayNodes;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__ignoreNonDisplayNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreNonDisplayNodes;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__ignoreNonDisplayNodes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreNonDisplayNodes = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateMeshUsingPoints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateMeshUsingPoints;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__generateMeshUsingPoints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generateMeshUsingPoints;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__generateMeshUsingPoints(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____generateMeshUsingPoints = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__useLODGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useLODGroups;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__useLODGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useLODGroups;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__useLODGroups(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useLODGroups = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__splitGeosByGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____splitGeosByGroup;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__splitGeosByGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____splitGeosByGroup;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__splitGeosByGroup(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____splitGeosByGroup = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__sessionSyncAutoCook() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionSyncAutoCook;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__sessionSyncAutoCook() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionSyncAutoCook;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__sessionSyncAutoCook(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sessionSyncAutoCook = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bakeUpdateKeepPreviousTransformValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakeUpdateKeepPreviousTransformValues;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__bakeUpdateKeepPreviousTransformValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakeUpdateKeepPreviousTransformValues;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__bakeUpdateKeepPreviousTransformValues(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bakeUpdateKeepPreviousTransformValues = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__pauseCooking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pauseCooking;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__pauseCooking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pauseCooking;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__pauseCooking(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pauseCooking = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveEditorEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveEditorEnabled;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveEditorEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveEditorEnabled;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveEditorEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveEditorEnabled = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curves() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curves;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curves() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curves;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curves)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDrawCollision() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDrawCollision;
 }
 constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDrawCollision() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDrawCollision;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveDrawCollision(::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveDrawCollision = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDrawColliders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDrawColliders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Collider*>*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDrawColliders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDrawColliders;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveDrawColliders(::System::Collections::Generic::List_1<::UnityEngine::Collider*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curveDrawColliders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::LayerMask& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDrawLayerMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDrawLayerMask;
 }
 constexpr ::UnityEngine::LayerMask const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDrawLayerMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDrawLayerMask;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveDrawLayerMask(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveDrawLayerMask = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveProjectMaxDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveProjectMaxDistance;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveProjectMaxDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveProjectMaxDistance;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveProjectMaxDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveProjectMaxDistance = value;
 }
 constexpr ::UnityEngine::Vector3& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveProjectDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveProjectDirection;
 }
 constexpr ::UnityEngine::Vector3 const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveProjectDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveProjectDirection;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveProjectDirection(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveProjectDirection = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDisableScaleRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDisableScaleRotation;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveDisableScaleRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveDisableScaleRotation;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveDisableScaleRotation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveDisableScaleRotation = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveCookOnDrag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveCookOnDrag;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveCookOnDrag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveCookOnDrag;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveCookOnDrag(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveCookOnDrag = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveFrameSelectedNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveFrameSelectedNodes;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveFrameSelectedNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveFrameSelectedNodes;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveFrameSelectedNodes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveFrameSelectedNodes = value;
 }
 constexpr float_t& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveFrameSelectedNodeDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveFrameSelectedNodeDistance;
 }
 constexpr float_t const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__curveFrameSelectedNodeDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curveFrameSelectedNodeDistance;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__curveFrameSelectedNodeDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____curveFrameSelectedNodeDistance = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__inputNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputNodes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode*>*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__inputNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputNodes;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__inputNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNode*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__handles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handles;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__handles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handles;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__handles(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__handlesEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlesEnabled;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__handlesEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlesEnabled;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__handlesEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handlesEnabled = value;
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__volumeCaches() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeCaches;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*> const&
 HoudiniEngineUnity::HEU_HoudiniAsset::__get__volumeCaches() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeCaches;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__volumeCaches(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____volumeCaches)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore*>*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__attributeStores() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributeStores;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore*>*> const&
 HoudiniEngineUnity::HEU_HoudiniAsset::__get__attributeStores() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributeStores;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__attributeStores(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributesStore*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____attributeStores)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__editableNodesToolsEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editableNodesToolsEnabled;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__editableNodesToolsEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editableNodesToolsEnabled;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__editableNodesToolsEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____editableNodesToolsEnabled = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_ToolsInfo*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__toolsInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toolsInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_ToolsInfo*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__toolsInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toolsInfo;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__toolsInfo(::HoudiniEngineUnity::HEU_ToolsInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toolsInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::HEU_AssetSerializedMetaData*& HoudiniEngineUnity::HEU_HoudiniAsset::__get__serializedMetaData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializedMetaData;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*> const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__serializedMetaData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializedMetaData;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__serializedMetaData(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializedMetaData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_HoudiniAsset::__get__pendingAutoCookOnMouseRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingAutoCookOnMouseRelease;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_HoudiniAsset::__get__pendingAutoCookOnMouseRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingAutoCookOnMouseRelease;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniAsset::__set__pendingAutoCookOnMouseRelease(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pendingAutoCookOnMouseRelease = value;
 }
 inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetType() {

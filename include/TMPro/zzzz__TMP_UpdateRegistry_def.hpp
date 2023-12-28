@@ -9,10 +9,10 @@ namespace UnityEngine::UI {
 class ICanvasElement;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace TMPro {

@@ -49,40 +49,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Threading::ThreadPoolWorkQueue*& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workQueue;
 }
 constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_workQueue(::System::Threading::ThreadPoolWorkQueue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___workQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workStealingQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workStealingQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*> const&
 System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workStealingQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workStealingQueue;
 }
 constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___workStealingQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Random*& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
 constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_random(::System::Random* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Threading::ThreadPoolWorkQueueThreadLocals::setStaticF_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals* value) {

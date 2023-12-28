@@ -35,28 +35,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::__get__materialPropertyBlockColorSetter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockColorSetter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const&
 GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::__get__materialPropertyBlockColorSetter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockColorSetter;
 }
 constexpr void GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::__set__materialPropertyBlockColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockColorSetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::__get__lightMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightMultiplier;
 }
 constexpr float_t const& GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::__get__lightMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightMultiplier;
 }
 constexpr void GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::__set__lightMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightMultiplier = value;
 }
 inline void GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::ColorWasSet(::UnityEngine::Color color) {

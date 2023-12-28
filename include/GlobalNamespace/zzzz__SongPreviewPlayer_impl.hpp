@@ -3,16 +3,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SongPreviewPlayer__InitData._ctor
 template <>
@@ -30,15 +30,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer__InitData::__get_ambientVolumeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ambientVolumeScale;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer__InitData::__get_ambientVolumeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ambientVolumeScale;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__InitData::__set_ambientVolumeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ambientVolumeScale = value;
 }
 inline ::GlobalNamespace::__SongPreviewPlayer__InitData* GlobalNamespace::__SongPreviewPlayer__InitData::New_ctor(float_t ambientVolumeScale) {
@@ -128,51 +128,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__set__position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position = value;
 }
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__reverbZoneMix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reverbZoneMix;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__reverbZoneMix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reverbZoneMix;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__set__reverbZoneMix(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reverbZoneMix = value;
 }
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__spatialBlend() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spatialBlend;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__spatialBlend() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spatialBlend;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__set__spatialBlend(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spatialBlend = value;
 }
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__spread() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spread;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__get__spread() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spread;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::__set__spread(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spread = value;
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::__SongPreviewPlayer__AudioSourceParams::get_position() {
@@ -281,39 +281,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__get_audioSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__get_audioSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioSource;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__set_audioSource(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__get__maxVolume_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxVolume_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__get__maxVolume_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxVolume_k__BackingField;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__set__maxVolume_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxVolume_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__get__volume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volume;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__get__volume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volume;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::__set__volume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____volume = value;
 }
 inline void GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController::set_volume(float_t value) {
@@ -454,51 +454,51 @@ constexpr GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get_delay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr float_t const& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get_delay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__set_delay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
 constexpr ::GlobalNamespace::SongPreviewPlayer*& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__set___4__this(::GlobalNamespace::SongPreviewPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28* GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::New_ctor(int32_t __1__state) {
@@ -771,247 +771,247 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::SongPreviewPlayer::__get__channelsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channelsCount;
 }
 constexpr int32_t const& GlobalNamespace::SongPreviewPlayer::__get__channelsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channelsCount;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__channelsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____channelsCount = value;
 }
 constexpr ::UnityEngine::AudioSource*& GlobalNamespace::SongPreviewPlayer::__get__audioSourcePrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSourcePrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::SongPreviewPlayer::__get__audioSourcePrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSourcePrefab;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__audioSourcePrefab(::UnityEngine::AudioSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSourcePrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AudioClip*& GlobalNamespace::SongPreviewPlayer::__get__defaultAudioClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAudioClip;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::SongPreviewPlayer::__get__defaultAudioClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAudioClip;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__defaultAudioClip(::UnityEngine::AudioClip* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__volume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volume;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__volume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volume;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__volume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____volume = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__crossFadeToAnotherSongSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crossFadeToAnotherSongSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__crossFadeToAnotherSongSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crossFadeToAnotherSongSpeed;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__crossFadeToAnotherSongSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____crossFadeToAnotherSongSpeed = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__crossFadeToDefaultSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crossFadeToDefaultSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__crossFadeToDefaultSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____crossFadeToDefaultSpeed;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__crossFadeToDefaultSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____crossFadeToDefaultSpeed = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__fadeInSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeInSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__fadeInSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeInSpeed;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__fadeInSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeInSpeed = value;
 }
 constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& GlobalNamespace::SongPreviewPlayer::__get__defaultAudioSourceParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAudioSourceParams;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& GlobalNamespace::SongPreviewPlayer::__get__defaultAudioSourceParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAudioSourceParams;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__defaultAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultAudioSourceParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& GlobalNamespace::SongPreviewPlayer::__get__othersAudioSourceParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____othersAudioSourceParams;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& GlobalNamespace::SongPreviewPlayer::__get__othersAudioSourceParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____othersAudioSourceParams;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__othersAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____othersAudioSourceParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__SongPreviewPlayer__InitData*& GlobalNamespace::SongPreviewPlayer::__get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__InitData*> const& GlobalNamespace::SongPreviewPlayer::__get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__initData(::GlobalNamespace::__SongPreviewPlayer__InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AudioManagerSO*& GlobalNamespace::SongPreviewPlayer::__get__audioManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioManagerSO*> const& GlobalNamespace::SongPreviewPlayer::__get__audioManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__audioManager(::GlobalNamespace::AudioManagerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*>&
 GlobalNamespace::SongPreviewPlayer::__get__audioSourceControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSourceControllers;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> const&
 GlobalNamespace::SongPreviewPlayer::__get__audioSourceControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSourceControllers;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__audioSourceControllers(
     ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSourceControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::SongPreviewPlayer::__get__activeChannel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeChannel;
 }
 constexpr int32_t const& GlobalNamespace::SongPreviewPlayer::__get__activeChannel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeChannel;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__activeChannel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____activeChannel = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__timeToDefaultAudioTransition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToDefaultAudioTransition;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__timeToDefaultAudioTransition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeToDefaultAudioTransition;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__timeToDefaultAudioTransition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeToDefaultAudioTransition = value;
 }
 constexpr bool& GlobalNamespace::SongPreviewPlayer::__get__transitionAfterDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transitionAfterDelay;
 }
 constexpr bool const& GlobalNamespace::SongPreviewPlayer::__get__transitionAfterDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transitionAfterDelay;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__transitionAfterDelay(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transitionAfterDelay = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__volumeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeScale;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__volumeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeScale;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__volumeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____volumeScale = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__fadeSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeSpeed;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__fadeSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeSpeed;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__fadeSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeSpeed = value;
 }
 constexpr float_t& GlobalNamespace::SongPreviewPlayer::__get__ambientVolumeScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ambientVolumeScale;
 }
 constexpr float_t const& GlobalNamespace::SongPreviewPlayer::__get__ambientVolumeScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ambientVolumeScale;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__ambientVolumeScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ambientVolumeScale = value;
 }
 constexpr bool& GlobalNamespace::SongPreviewPlayer::__get__isActiveChannelPaused() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActiveChannelPaused;
 }
 constexpr bool const& GlobalNamespace::SongPreviewPlayer::__get__isActiveChannelPaused() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isActiveChannelPaused;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__isActiveChannelPaused(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isActiveChannelPaused = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*& GlobalNamespace::SongPreviewPlayer::__get__channelToFadeOutCallbackDictionary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channelToFadeOutCallbackDictionary;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*> const&
 GlobalNamespace::SongPreviewPlayer::__get__channelToFadeOutCallbackDictionary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channelToFadeOutCallbackDictionary;
 }
 constexpr void GlobalNamespace::SongPreviewPlayer::__set__channelToFadeOutCallbackDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____channelToFadeOutCallbackDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::AudioClip* GlobalNamespace::SongPreviewPlayer::get_activeAudioClip() {

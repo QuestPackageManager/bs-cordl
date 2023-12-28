@@ -9,8 +9,11 @@ CORDL_MODULE_EXPORT(CancellationToken)
 namespace System {
 class Object;
 }
-namespace System::Threading {
-class __CancellationToken____c;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 namespace System::Threading {
 struct CancellationTokenRegistration;
@@ -18,11 +21,8 @@ struct CancellationTokenRegistration;
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace System::Threading {
+class __CancellationToken____c;
 }
 // Forward declare root types
 namespace System::Threading {

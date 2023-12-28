@@ -33,17 +33,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*>&
 TrackDefinitions::EnvironmentDefinitionsListSO::__get__environmentTracksDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentTracksDefinitions;
 }
 constexpr ::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*> const&
 TrackDefinitions::EnvironmentDefinitionsListSO::__get__environmentTracksDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentTracksDefinitions;
 }
 constexpr void TrackDefinitions::EnvironmentDefinitionsListSO::__set__environmentTracksDefinitions(
     ::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentTracksDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::IEnumerable_1<::TrackDefinitions::EnvironmentTracksDefinitionSO*>* TrackDefinitions::EnvironmentDefinitionsListSO::get_environmentTrackDefinitions() {

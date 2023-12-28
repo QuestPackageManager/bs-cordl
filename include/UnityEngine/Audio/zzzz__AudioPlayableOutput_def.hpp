@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AudioPlayableOutput)
 namespace UnityEngine::Playables {
+struct PlayableOutput;
+}
+namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+class IPlayableOutput;
 }
 namespace UnityEngine {
 class AudioSource;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutput;
-}
-namespace UnityEngine::Playables {
-class IPlayableOutput;
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__MemoryMarshal_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
 template <typename T> inline ::System::Span_1<uint8_t> System::Runtime::InteropServices::MemoryMarshal::AsBytes(::System::Span_1<T> span) {
   static auto* ___internal_method_base =

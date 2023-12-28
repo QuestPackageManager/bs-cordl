@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::CLSCompliantAttribute::__get__compliant() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compliant;
 }
 constexpr bool const& System::CLSCompliantAttribute::__get__compliant() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compliant;
 }
 constexpr void System::CLSCompliantAttribute::__set__compliant(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____compliant = value;
 }
 inline ::System::CLSCompliantAttribute* System::CLSCompliantAttribute::New_ctor(bool isCompliant) {

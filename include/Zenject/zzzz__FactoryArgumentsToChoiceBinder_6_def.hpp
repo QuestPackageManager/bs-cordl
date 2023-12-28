@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_6)
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryToChoiceBinder_6;
-}
-namespace Zenject {
-class FactoryBindInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
 struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryToChoiceBinder_6;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

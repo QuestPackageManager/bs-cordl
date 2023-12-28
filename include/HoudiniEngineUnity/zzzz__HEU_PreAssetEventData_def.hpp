@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_PreAssetEventData)
 namespace HoudiniEngineUnity {
-struct HEU_AssetEventType;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HEU_AssetEventType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PreAssetEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9599))
 // CS Name: ::HoudiniEngineUnity::HEU_PreAssetEventData*
 class CORDL_TYPE HEU_PreAssetEventData : public ::System::Object {

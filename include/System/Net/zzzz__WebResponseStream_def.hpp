@@ -17,68 +17,65 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebResponseStream)
-namespace System::Net {
-class WebRequestStream;
-}
-namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-struct __WebResponseStream___InitReadAsync_d__52;
-}
-namespace System::Net {
-class WebReadStream;
-}
 namespace System {
-class Exception;
-}
-namespace System::Net {
-struct ReadState;
-}
-namespace System::Net {
-class __WebResponseStream____c__DisplayClass41_0;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Net {
-class WebCompletionSource;
-}
-namespace System::Net {
-struct __WebResponseStream___ReadAllAsync_d__48;
+class Version;
 }
 namespace System::Net {
 struct __WebResponseStream___ReadAsync_d__40;
 }
 namespace System::Net {
-class WebException;
+struct __WebResponseStream___ReadAllAsync_d__48;
 }
-namespace System {
-class Version;
+namespace System::Net {
+class WebRequestStream;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Net {
+class __WebResponseStream____c__DisplayClass41_0;
 }
 namespace System::Net {
 struct __WebResponseStream___ReadAllAsyncInner_d__47;
 }
 namespace System::Net {
-struct HttpStatusCode;
+class WebException;
+}
+namespace System::Net {
+class WebReadStream;
+}
+namespace System::Net {
+class BufferOffsetSize;
 }
 namespace System::Net {
 struct WebExceptionStatus;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System {
+class Exception;
+}
+namespace System::Net {
+class WebCompletionSource;
+}
+namespace System::Net {
+struct HttpStatusCode;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+struct ReadState;
+}
+namespace System::Net {
+struct __WebResponseStream___InitReadAsync_d__52;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
@@ -87,10 +84,13 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::IO {
 class MemoryStream;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -125,9 +125,10 @@ MARK_VAL_T(::System::Net::__WebResponseStream___ReadAsync_d__40);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name: ::WebResponseStream::<ReadAsync>d__40
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9239)) CS Name:
+// ::WebResponseStream::<ReadAsync>d__40
 struct CORDL_TYPE __WebResponseStream___ReadAsync_d__40 {
 public:
   // Declarations
@@ -299,9 +300,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9241)) CS
-// Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 873 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9241)) CS Name: ::WebResponseStream::<ReadAllAsyncInner>d__47
 struct CORDL_TYPE __WebResponseStream___ReadAllAsyncInner_d__47 {
 public:
   // Declarations
@@ -366,9 +367,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2787)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 400 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 873 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9242)) CS Name: ::WebResponseStream::<ReadAllAsync>d__48
 struct CORDL_TYPE __WebResponseStream___ReadAllAsync_d__48 {
 public:
   // Declarations
@@ -441,9 +442,9 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebResponseStream
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9214)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9243)) CS
-// Name: ::WebResponseStream::<InitReadAsync>d__52
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(9214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9243))
+// CS Name: ::WebResponseStream::<InitReadAsync>d__52
 struct CORDL_TYPE __WebResponseStream___InitReadAsync_d__52 {
 public:
   // Declarations

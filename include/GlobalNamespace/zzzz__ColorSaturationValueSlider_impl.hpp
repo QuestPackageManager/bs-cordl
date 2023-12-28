@@ -2,14 +2,14 @@
 #include "HMUI/zzzz__Slider2D_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSaturationValueSlider_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "HMUI/zzzz__Slider2D_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSaturationValueSlider.add_colorSaturationOrValueDidChangeEvent
 template <>
 
@@ -158,66 +158,66 @@ constexpr GlobalNamespace::ColorSaturationValueSlider::operator ::UnityEngine::E
   return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::ColorSaturationValueSlider::__get__hue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hue;
 }
 constexpr float_t const& GlobalNamespace::ColorSaturationValueSlider::__get__hue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hue;
 }
 constexpr void GlobalNamespace::ColorSaturationValueSlider::__set__hue(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hue = value;
 }
 constexpr ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*>& GlobalNamespace::ColorSaturationValueSlider::__get__graphics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphics;
 }
 constexpr ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> const& GlobalNamespace::ColorSaturationValueSlider::__get__graphics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphics;
 }
 constexpr void GlobalNamespace::ColorSaturationValueSlider::__set__graphics(::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorSaturationValueSlider::__get__darkColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____darkColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorSaturationValueSlider::__get__darkColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____darkColor;
 }
 constexpr void GlobalNamespace::ColorSaturationValueSlider::__set__darkColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____darkColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::ColorSaturationValueSlider::__get__lightColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::ColorSaturationValueSlider::__get__lightColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColor;
 }
 constexpr void GlobalNamespace::ColorSaturationValueSlider::__set__lightColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightColor = value;
 }
 constexpr ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*&
 GlobalNamespace::ColorSaturationValueSlider::__get_colorSaturationOrValueDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSaturationOrValueDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*> const&
 GlobalNamespace::ColorSaturationValueSlider::__get_colorSaturationOrValueDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSaturationOrValueDidChangeEvent;
 }
 constexpr void GlobalNamespace::ColorSaturationValueSlider::__set_colorSaturationOrValueDidChangeEvent(
     ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSaturationOrValueDidChangeEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

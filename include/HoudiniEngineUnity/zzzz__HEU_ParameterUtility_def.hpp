@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ParameterUtility)
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+struct HAPI_ParmInfo;
 }
 namespace UnityEngine {
-struct Color;
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
-}
-namespace HoudiniEngineUnity {
 class HEU_SessionBase;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

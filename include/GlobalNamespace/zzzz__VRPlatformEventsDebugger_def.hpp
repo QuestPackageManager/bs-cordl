@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(VRPlatformEventsDebugger)
 namespace GlobalNamespace {
 class IVerboseLogger;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
 class IInitializable;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

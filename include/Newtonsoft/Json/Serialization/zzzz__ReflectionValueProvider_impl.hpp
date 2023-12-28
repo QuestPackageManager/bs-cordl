@@ -55,15 +55,15 @@ constexpr Newtonsoft::Json::Serialization::ReflectionValueProvider::operator ::N
   return static_cast<::Newtonsoft::Json::Serialization::IValueProvider*>(static_cast<void*>(this));
 }
 constexpr ::System::Reflection::MemberInfo*& Newtonsoft::Json::Serialization::ReflectionValueProvider::__get__memberInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memberInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& Newtonsoft::Json::Serialization::ReflectionValueProvider::__get__memberInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memberInfo;
 }
 constexpr void Newtonsoft::Json::Serialization::ReflectionValueProvider::__set__memberInfo(::System::Reflection::MemberInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____memberInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* Newtonsoft::Json::Serialization::ReflectionValueProvider::New_ctor(::System::Reflection::MemberInfo* memberInfo) {

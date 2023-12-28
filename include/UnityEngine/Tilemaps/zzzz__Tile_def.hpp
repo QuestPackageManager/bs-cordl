@@ -12,16 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tile)
 namespace UnityEngine {
-class Sprite;
+struct Vector3Int;
 }
-namespace UnityEngine::Tilemaps {
-struct TileData;
-}
-namespace UnityEngine::Tilemaps {
-struct __Tile__ColliderType;
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine {
 class GameObject;
@@ -29,14 +29,14 @@ class GameObject;
 namespace UnityEngine::Tilemaps {
 struct TileFlags;
 }
-namespace UnityEngine {
-struct Vector3Int;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::Tilemaps {
+struct TileData;
 }
 namespace UnityEngine::Tilemaps {
 class ITilemap;
+}
+namespace UnityEngine::Tilemaps {
+struct __Tile__ColliderType;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -104,8 +104,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::__Tile__C
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(15938)), TypeDefinitionIndex(TypeDefinitionIndex(15947)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15946)) CS Name: ::UnityEngine.Tilemaps::Tile*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15938)), TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15947))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15946)) CS Name: ::UnityEngine.Tilemaps::Tile*
 class CORDL_TYPE Tile : public ::UnityEngine::Tilemaps::TileBase {
 public:
   // Declarations

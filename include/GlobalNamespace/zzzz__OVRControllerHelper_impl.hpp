@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
-#include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType::__OVRControllerHelper__ControllerType(int32_t value__) noexcept {
@@ -97,273 +97,273 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuestAndRiftSLeftController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuestAndRiftSLeftController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuestAndRiftSLeftController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuestAndRiftSLeftController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelOculusTouchQuestAndRiftSLeftController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelOculusTouchQuestAndRiftSLeftController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuestAndRiftSRightController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuestAndRiftSRightController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuestAndRiftSRightController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuestAndRiftSRightController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelOculusTouchQuestAndRiftSRightController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelOculusTouchQuestAndRiftSRightController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchRiftLeftController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchRiftLeftController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchRiftLeftController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchRiftLeftController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelOculusTouchRiftLeftController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelOculusTouchRiftLeftController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchRiftRightController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchRiftRightController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchRiftRightController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchRiftRightController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelOculusTouchRiftRightController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelOculusTouchRiftRightController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuest2LeftController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuest2LeftController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuest2LeftController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuest2LeftController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelOculusTouchQuest2LeftController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelOculusTouchQuest2LeftController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuest2RightController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuest2RightController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelOculusTouchQuest2RightController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelOculusTouchQuest2RightController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelOculusTouchQuest2RightController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelOculusTouchQuest2RightController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchProLeftController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchProLeftController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchProLeftController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchProLeftController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelMetaTouchProLeftController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelMetaTouchProLeftController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchProRightController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchProRightController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchProRightController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchProRightController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelMetaTouchProRightController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelMetaTouchProRightController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchPlusLeftController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchPlusLeftController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchPlusLeftController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchPlusLeftController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelMetaTouchPlusLeftController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelMetaTouchPlusLeftController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchPlusRightController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchPlusRightController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_modelMetaTouchPlusRightController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelMetaTouchPlusRightController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_modelMetaTouchPlusRightController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelMetaTouchPlusRightController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__Controller& GlobalNamespace::OVRControllerHelper::__get_m_controller() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
 constexpr ::GlobalNamespace::__OVRInput__Controller const& GlobalNamespace::OVRControllerHelper::__get_m_controller() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_controller(::GlobalNamespace::__OVRInput__Controller value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_controller = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& GlobalNamespace::OVRControllerHelper::__get_m_showState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_showState;
 }
 constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& GlobalNamespace::OVRControllerHelper::__get_m_showState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_showState;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_showState = value;
 }
 constexpr bool& GlobalNamespace::OVRControllerHelper::__get_showWhenHandsArePoweredByNaturalControllerPoses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showWhenHandsArePoweredByNaturalControllerPoses;
 }
 constexpr bool const& GlobalNamespace::OVRControllerHelper::__get_showWhenHandsArePoweredByNaturalControllerPoses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showWhenHandsArePoweredByNaturalControllerPoses;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_showWhenHandsArePoweredByNaturalControllerPoses(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showWhenHandsArePoweredByNaturalControllerPoses = value;
 }
 constexpr ::UnityEngine::Animator*& GlobalNamespace::OVRControllerHelper::__get_m_animator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& GlobalNamespace::OVRControllerHelper::__get_m_animator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animator;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_animator(::UnityEngine::Animator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_animator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRControllerHelper::__get_m_activeController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_activeController;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRControllerHelper::__get_m_activeController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_activeController;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_activeController(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_activeController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRControllerHelper::__get_m_controllerModelsInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerModelsInitialized;
 }
 constexpr bool const& GlobalNamespace::OVRControllerHelper::__get_m_controllerModelsInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerModelsInitialized;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_controllerModelsInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_controllerModelsInitialized = value;
 }
 constexpr bool& GlobalNamespace::OVRControllerHelper::__get_m_hasInputFocus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocus;
 }
 constexpr bool const& GlobalNamespace::OVRControllerHelper::__get_m_hasInputFocus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocus;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_hasInputFocus(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasInputFocus = value;
 }
 constexpr bool& GlobalNamespace::OVRControllerHelper::__get_m_hasInputFocusPrev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocusPrev;
 }
 constexpr bool const& GlobalNamespace::OVRControllerHelper::__get_m_hasInputFocusPrev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocusPrev;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_hasInputFocusPrev(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasInputFocusPrev = value;
 }
 constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType& GlobalNamespace::OVRControllerHelper::__get_activeControllerType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeControllerType;
 }
 constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType const& GlobalNamespace::OVRControllerHelper::__get_activeControllerType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeControllerType;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_activeControllerType(::GlobalNamespace::__OVRControllerHelper__ControllerType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___activeControllerType = value;
 }
 constexpr bool& GlobalNamespace::OVRControllerHelper::__get_m_prevControllerConnected() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerConnected;
 }
 constexpr bool const& GlobalNamespace::OVRControllerHelper::__get_m_prevControllerConnected() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerConnected;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_prevControllerConnected(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevControllerConnected = value;
 }
 constexpr bool& GlobalNamespace::OVRControllerHelper::__get_m_prevControllerConnectedCached() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerConnectedCached;
 }
 constexpr bool const& GlobalNamespace::OVRControllerHelper::__get_m_prevControllerConnectedCached() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerConnectedCached;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_prevControllerConnectedCached(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevControllerConnectedCached = value;
 }
 constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState& GlobalNamespace::OVRControllerHelper::__get_m_prevControllerInHandState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerInHandState;
 }
 constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState const& GlobalNamespace::OVRControllerHelper::__get_m_prevControllerInHandState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerInHandState;
 }
 constexpr void GlobalNamespace::OVRControllerHelper::__set_m_prevControllerInHandState(::GlobalNamespace::__OVRInput__ControllerInHandState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevControllerInHandState = value;
 }
 inline void GlobalNamespace::OVRControllerHelper::Start() {

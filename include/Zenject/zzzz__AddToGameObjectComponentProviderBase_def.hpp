@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AddToGameObjectComponentProviderBase)
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class Action;
 }
 namespace Zenject {
 class __AddToGameObjectComponentProviderBase____c__DisplayClass17_0;
 }
 namespace System {
-class Object;
+class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System {
-class Action;
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -40,7 +40,7 @@ namespace Zenject {
 class IProvider;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class InjectTypeInfo;

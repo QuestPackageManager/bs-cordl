@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FrameData)
 namespace UnityEngine::Playables {
-struct PlayState;
-}
-namespace UnityEngine::Playables {
 struct __FrameData__Flags;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
+}
+namespace UnityEngine::Playables {
+struct PlayState;
 }
 namespace UnityEngine::Playables {
 struct __FrameData__EvaluationType;
@@ -150,7 +150,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::__FrameD
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10438)), TypeDefinitionIndex(TypeDefinitionIndex(10416))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10416)), TypeDefinitionIndex(TypeDefinitionIndex(10438))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
 // CS Name: ::UnityEngine.Playables::FrameData
 struct CORDL_TYPE FrameData {

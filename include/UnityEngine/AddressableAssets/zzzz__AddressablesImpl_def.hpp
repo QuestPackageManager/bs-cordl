@@ -19,188 +19,188 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddressablesImpl)
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass104_0;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass100_0;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass140_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass120_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass114_0;
-}
-namespace UnityEngine::AddressableAssets {
-template <typename TObject> class __AddressablesImpl____c__DisplayClass111_0_1;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__ResourceLocatorInfo;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::AddressableAssets {
-struct __Addressables__MergeMode;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass131_0;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass122_0;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass113_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass97_0;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass106_0;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__LoadResourceLocationKeysOp;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass62_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::AddressableAssets {
-template <typename TObject> class __AddressablesImpl____c__DisplayClass86_0_1;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass132_0;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass146_0;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::AddressableAssets {
-template <typename TObject> class __AddressablesImpl____c__DisplayClass77_0_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass115_0;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass145_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass71_0;
 }
 namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl____c__DisplayClass81_0;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass125_0;
+template <typename TObject> class __AddressablesImpl____c__DisplayClass88_0_1;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class __AddressablesImpl____c__DisplayClass88_0_1;
+class __AddressablesImpl____c__DisplayClass113_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass120_0;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl__ResourceLocatorInfo;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass146_0;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass122_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass136_0;
+class __AddressablesImpl____c__DisplayClass62_0;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl____c__DisplayClass83_0;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
+template <typename TObject> class __AddressablesImpl____c__DisplayClass86_0_1;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__LoadResourceLocationKeyOp;
+class __AddressablesImpl____c__DisplayClass114_0;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class ResourceLocationBase;
 }
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl__LoadResourceLocationKeysOp;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass97_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass131_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass104_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass125_0;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c;
+}
 namespace UnityEngine::AddressableAssets {
 class __AddressablesImpl____c__DisplayClass96_0;
 }
+namespace System {
+class Exception;
+}
+namespace UnityEngine::AddressableAssets {
+template <typename TObject> class __AddressablesImpl____c__DisplayClass77_0_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass140_0;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass145_0;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::AddressableAssets {
+struct __Addressables__MergeMode;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass136_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass132_0;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass71_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass115_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass83_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass100_0;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl__LoadResourceLocationKeyOp;
+}
+namespace UnityEngine::AddressableAssets {
+template <typename TObject> class __AddressablesImpl____c__DisplayClass111_0_1;
+}
+namespace UnityEngine::AddressableAssets {
+class __AddressablesImpl____c__DisplayClass106_0;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IAssetBundleResource;
@@ -463,8 +463,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), TypeDefinitionIndex(TypeDefinitionIndex(14021))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14052)) CS Name: ::AddressablesImpl::LoadResourceLocationKeyOp*
 class CORDL_TYPE __AddressablesImpl__LoadResourceLocationKeyOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
@@ -561,9 +561,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14021))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14053)) CS Name: ::AddressablesImpl::LoadResourceLocationKeysOp*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(3835))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14053))
+// CS Name: ::AddressablesImpl::LoadResourceLocationKeysOp*
 class CORDL_TYPE __AddressablesImpl__LoadResourceLocationKeysOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
 public:
@@ -958,7 +959,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14058))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass81_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass81_0 : public ::System::Object {
@@ -1122,7 +1123,7 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14060))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass86_0`1<TObject>*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass86_0_1 : public ::System::Object {
@@ -2244,7 +2245,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10378)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10378))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14075))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass132_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass132_0 : public ::System::Object {
@@ -2457,10 +2458,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
-// 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(14034))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14078))
-// CS Name: ::AddressablesImpl::<>c__DisplayClass145_0*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14078)) CS Name: ::AddressablesImpl::<>c__DisplayClass145_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass145_0 : public ::System::Object {
 public:
   // Declarations
@@ -2614,10 +2614,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14112)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
-// 795 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 795 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14112)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14080)) CS Name: ::UnityEngine.AddressableAssets::AddressablesImpl*
 class CORDL_TYPE AddressablesImpl : public ::System::Object {
 public:

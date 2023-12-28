@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMaskArray)
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -17,7 +17,7 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 namespace GlobalNamespace {
 template <typename T> class IBitMask_1;

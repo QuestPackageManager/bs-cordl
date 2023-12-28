@@ -1,32 +1,32 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__String_def.hpp"
-#include "System/zzzz__ParamsArray_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__String_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__StringComparison_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Buffers/zzzz__SpanAction_2_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__StringSplitOptions_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Text/zzzz__NormalizationForm_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__StringComparison_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__String_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__ParamsArray_def.hpp"
+#include "System/Text/zzzz__NormalizationForm_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
+#include "System/Buffers/zzzz__SpanAction_2_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__StringSplitOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::__String__TrimType::__String__TrimType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -3115,27 +3115,27 @@ constexpr System::String::operator ::System::ICloneable*() noexcept {
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::String::__get__stringLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringLength;
 }
 constexpr int32_t const& System::String::__get__stringLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringLength;
 }
 constexpr void System::String::__set__stringLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stringLength = value;
 }
 constexpr char16_t& System::String::__get__firstChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstChar;
 }
 constexpr char16_t const& System::String::__get__firstChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstChar;
 }
 constexpr void System::String::__set__firstChar(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstChar = value;
 }
 inline void System::String::setStaticF_Empty(::StringW value) {

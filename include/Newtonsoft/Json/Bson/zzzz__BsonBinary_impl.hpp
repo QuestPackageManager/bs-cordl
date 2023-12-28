@@ -49,15 +49,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryType& Newtonsoft::Json::Bson::BsonBinary::__get__BinaryType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BinaryType_k__BackingField;
 }
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryType const& Newtonsoft::Json::Bson::BsonBinary::__get__BinaryType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BinaryType_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Bson::BsonBinary::__set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____BinaryType_k__BackingField = value;
 }
 inline ::Newtonsoft::Json::Bson::BsonBinaryType Newtonsoft::Json::Bson::BsonBinary::get_BinaryType() {

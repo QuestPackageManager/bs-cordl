@@ -10,22 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlBaseConverter)
 namespace System {
-class Exception;
+class Type;
 }
 namespace System {
 class Object;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
 }
 namespace System {
 struct Decimal;
 }
 namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System {
 struct DateTimeOffset;
@@ -34,16 +40,10 @@ namespace System {
 struct DateTime;
 }
 namespace System {
-struct TimeSpan;
+class Exception;
 }
 namespace System {
 class Uri;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyLeaderboardIdsModelSO_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__SonyLeaderboardIdsModelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__SonyLeaderboardIdsModelSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData.get_SonyLeaderboardId
 template <>
 
@@ -52,27 +52,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::__get__sonyLeaderboardId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyLeaderboardId;
 }
 constexpr uint32_t const& GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::__get__sonyLeaderboardId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyLeaderboardId;
 }
 constexpr void GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::__set__sonyLeaderboardId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sonyLeaderboardId = value;
 }
 constexpr ::StringW& GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::__get__leaderboardId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardId;
 }
 constexpr ::StringW const& GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::__get__leaderboardId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardId;
 }
 constexpr void GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::__set__leaderboardId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline uint32_t GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData::get_SonyLeaderboardId() {
@@ -172,29 +172,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>*& GlobalNamespace::SonyLeaderboardIdsModelSO::__get__leaderboardIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>*> const&
 GlobalNamespace::SonyLeaderboardIdsModelSO::__get__leaderboardIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIds;
 }
 constexpr void GlobalNamespace::SonyLeaderboardIdsModelSO::__set__leaderboardIds(::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*& GlobalNamespace::SonyLeaderboardIdsModelSO::__get__leaderboardIdToSonyId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIdToSonyId;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*> const&
 GlobalNamespace::SonyLeaderboardIdsModelSO::__get__leaderboardIdToSonyId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardIdToSonyId;
 }
 constexpr void GlobalNamespace::SonyLeaderboardIdsModelSO::__set__leaderboardIdToSonyId(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardIdToSonyId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* GlobalNamespace::SonyLeaderboardIdsModelSO::get_leaderboardIds() {

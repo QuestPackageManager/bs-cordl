@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DependenciesCacheKey)
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

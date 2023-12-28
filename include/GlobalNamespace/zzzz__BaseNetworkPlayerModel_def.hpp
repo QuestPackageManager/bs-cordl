@@ -9,53 +9,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseNetworkPlayerModel)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace GlobalNamespace {
-class __BaseNetworkPlayerModel___GetPartyPlayers_d__55;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
-}
-namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
 namespace GlobalNamespace {
 class INetworkPlayer;
-}
-namespace GlobalNamespace {
-class __BaseNetworkPlayerModel__PartyConfig;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class __BaseNetworkPlayerModel__PartyConfig;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+template <typename T> class IConnectionInitParams_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+template <typename T> class INetworkPlayerModelPartyConfig_1;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+class __BaseNetworkPlayerModel___GetPartyPlayers_d__55;
+}
+namespace GlobalNamespace {
 class __BaseNetworkPlayerModel___GetOtherPlayers_d__56;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -63,8 +63,8 @@ class IDisposable;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BaseNetworkPlayerModel___GetPartyPlayers_d__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14937))
 // CS Name: ::BaseNetworkPlayerModel::PartyConfig*
 class CORDL_TYPE __BaseNetworkPlayerModel__PartyConfig : public ::System::Object {
@@ -384,7 +384,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BaseNetworkPl
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14940))
 // CS Name: ::BaseNetworkPlayerModel*
 class CORDL_TYPE BaseNetworkPlayerModel : public ::GlobalNamespace::StandaloneMonobehavior {

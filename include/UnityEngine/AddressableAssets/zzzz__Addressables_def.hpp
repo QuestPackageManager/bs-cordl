@@ -8,23 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Addressables)
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::AddressableAssets {
+struct __Addressables__MergeMode;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IInstanceProvider;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -32,11 +20,35 @@ struct AsyncOperationHandle;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace UnityEngine {
-class GameObject;
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -44,50 +56,38 @@ struct Vector3;
 namespace UnityEngine {
 struct LogType;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::AddressableAssets {
-struct __Addressables__MergeMode;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Exception;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace System {
-class Object;
+class Exception;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
 }
 namespace UnityEngine::SceneManagement {
 struct UnloadSceneOptions;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {

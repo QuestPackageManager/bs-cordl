@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class __GameplayModifiersConfiguration__SongSpeed;
 }
 namespace GlobalNamespace {
-class __GameplayModifiersConfiguration__NoteUniformScale;
+class __GameplayModifiersConfiguration__CutAngleTolerance;
 }
 namespace GlobalNamespace {
-class __GameplayModifiersConfiguration__CutAngleTolerance;
+class __GameplayModifiersConfiguration__NoteUniformScale;
 }
 // Forward declare root types
 namespace GlobalNamespace {

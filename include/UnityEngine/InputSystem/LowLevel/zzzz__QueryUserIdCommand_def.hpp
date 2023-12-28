@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryUserIdCommand)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __QueryUserIdCommand___idBuffer_e__FixedBuffer;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

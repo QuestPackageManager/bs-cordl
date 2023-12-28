@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MacOsIPInterfaceProperties)
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net {
 class IPAddress;
@@ -16,8 +16,8 @@ class IPAddress;
 namespace System::Net::NetworkInformation {
 class MacOsNetworkInterface;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformationCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

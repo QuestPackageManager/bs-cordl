@@ -29,39 +29,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::AnimationStartParams::__get__timeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeOffset;
 }
 constexpr float_t const& GlobalNamespace::AnimationStartParams::__get__timeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeOffset;
 }
 constexpr void GlobalNamespace::AnimationStartParams::__set__timeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeOffset = value;
 }
 constexpr float_t& GlobalNamespace::AnimationStartParams::__get__speed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speed;
 }
 constexpr float_t const& GlobalNamespace::AnimationStartParams::__get__speed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____speed;
 }
 constexpr void GlobalNamespace::AnimationStartParams::__set__speed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____speed = value;
 }
 constexpr ::UnityEngine::Animation*& GlobalNamespace::AnimationStartParams::__get__animation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& GlobalNamespace::AnimationStartParams::__get__animation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animation;
 }
 constexpr void GlobalNamespace::AnimationStartParams::__set__animation(::UnityEngine::Animation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::AnimationStartParams::Start() {

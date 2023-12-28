@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(OnScreenStick)
 namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6388)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6388)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6389))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenStick*
 class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {

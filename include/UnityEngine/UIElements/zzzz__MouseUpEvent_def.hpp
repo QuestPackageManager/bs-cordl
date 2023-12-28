@@ -11,10 +11,10 @@ namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
+class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerUpEvent;
+class PointerMoveEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14743)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14743), inst: 2548 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14732))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14744)) CS Name: ::FloatFxBeatmapEventDataProcessor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14732)), TypeDefinitionIndex(TypeDefinitionIndex(14743)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14743), inst:
+// 2548 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14744)) CS Name: ::FloatFxBeatmapEventDataProcessor*
 class CORDL_TYPE FloatFxBeatmapEventDataProcessor : public ::GlobalNamespace::FxBeatmapEventDataProcessor_1<::GlobalNamespace::FloatFxBeatmapEventData*> {
 public:
   // Declarations

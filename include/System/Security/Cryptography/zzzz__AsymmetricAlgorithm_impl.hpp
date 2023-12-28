@@ -130,30 +130,30 @@ constexpr System::Security::Cryptography::AsymmetricAlgorithm::operator ::System
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& System::Security::Cryptography::AsymmetricAlgorithm::__get_KeySizeValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeySizeValue;
 }
 constexpr int32_t const& System::Security::Cryptography::AsymmetricAlgorithm::__get_KeySizeValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeySizeValue;
 }
 constexpr void System::Security::Cryptography::AsymmetricAlgorithm::__set_KeySizeValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___KeySizeValue = value;
 }
 constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>&
 System::Security::Cryptography::AsymmetricAlgorithm::__get_LegalKeySizesValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LegalKeySizesValue;
 }
 constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const&
 System::Security::Cryptography::AsymmetricAlgorithm::__get_LegalKeySizesValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LegalKeySizesValue;
 }
 constexpr void
 System::Security::Cryptography::AsymmetricAlgorithm::__set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LegalKeySizesValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::AsymmetricAlgorithm* System::Security::Cryptography::AsymmetricAlgorithm::New_ctor() {

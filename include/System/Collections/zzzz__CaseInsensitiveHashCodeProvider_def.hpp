@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveHashCodeProvider)
-namespace System {
-class Object;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Globalization {
 class CompareInfo;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IHashCodeProvider;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 // Forward declare root types
 namespace System::Collections {

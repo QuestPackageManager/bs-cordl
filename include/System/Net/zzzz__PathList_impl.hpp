@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
+#include "System/Collections/zzzz__SortedList_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: ::System::Net::__PathList__PathListComparer.System_Collections_IComparer_Compare
@@ -173,15 +173,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::SortedList*& System::Net::PathList::__get_m_list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& System::Net::PathList::__get_m_list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
 constexpr void System::Net::PathList::__set_m_list(::System::Collections::SortedList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::PathList* System::Net::PathList::New_ctor() {

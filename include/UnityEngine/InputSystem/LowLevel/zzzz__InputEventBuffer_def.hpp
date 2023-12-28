@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEventBuffer)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class ICloneable;
-}
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputEventBuffer__Enumerator;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
 class Object;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

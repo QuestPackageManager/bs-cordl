@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TlsNullCompression)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCompression;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

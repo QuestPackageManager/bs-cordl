@@ -11,38 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandStream)
-namespace System::Text {
-class Decoder;
+namespace System::Net {
+class WebRequest;
 }
 namespace System::Net {
-struct __CommandStream__PipelineEntryFlags;
+struct __CommandStream__PipelineInstruction;
 }
 namespace System::Net {
 class ResponseDescription;
 }
-namespace System {
-class Object;
-}
-namespace System::Net::Sockets {
-class TcpClient;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class WebRequest;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System::Net {
 struct WebExceptionStatus;
-}
-namespace System::Net {
-class __CommandStream__PipelineEntry;
 }
 namespace System::Net {
 struct FtpStatusCode;
@@ -53,11 +32,32 @@ class ReceiveState;
 namespace System {
 class AsyncCallback;
 }
+namespace System::Text {
+class Encoding;
+}
+namespace System::Text {
+class Decoder;
+}
+namespace System::Net::Sockets {
+class TcpClient;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Object;
+}
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
-struct __CommandStream__PipelineInstruction;
+struct __CommandStream__PipelineEntryFlags;
+}
+namespace System::Net {
+class __CommandStream__PipelineEntry;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Net {

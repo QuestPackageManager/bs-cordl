@@ -5,8 +5,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode::__OVRHeadsetEmulator__OpMode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -82,147 +82,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode& GlobalNamespace::OVRHeadsetEmulator::__get_opMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opMode;
 }
 constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const& GlobalNamespace::OVRHeadsetEmulator::__get_opMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opMode;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_opMode(::GlobalNamespace::__OVRHeadsetEmulator__OpMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___opMode = value;
 }
 constexpr bool& GlobalNamespace::OVRHeadsetEmulator::__get_resetHmdPoseOnRelease() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetHmdPoseOnRelease;
 }
 constexpr bool const& GlobalNamespace::OVRHeadsetEmulator::__get_resetHmdPoseOnRelease() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetHmdPoseOnRelease;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_resetHmdPoseOnRelease(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetHmdPoseOnRelease = value;
 }
 constexpr bool& GlobalNamespace::OVRHeadsetEmulator::__get_resetHmdPoseByMiddleMouseButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetHmdPoseByMiddleMouseButton;
 }
 constexpr bool const& GlobalNamespace::OVRHeadsetEmulator::__get_resetHmdPoseByMiddleMouseButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetHmdPoseByMiddleMouseButton;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_resetHmdPoseByMiddleMouseButton(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetHmdPoseByMiddleMouseButton = value;
 }
 constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& GlobalNamespace::OVRHeadsetEmulator::__get_activateKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activateKeys;
 }
 constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& GlobalNamespace::OVRHeadsetEmulator::__get_activateKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activateKeys;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_activateKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activateKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& GlobalNamespace::OVRHeadsetEmulator::__get_pitchKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pitchKeys;
 }
 constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& GlobalNamespace::OVRHeadsetEmulator::__get_pitchKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pitchKeys;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_pitchKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pitchKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRManager*& GlobalNamespace::OVRHeadsetEmulator::__get_manager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___manager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRManager*> const& GlobalNamespace::OVRHeadsetEmulator::__get_manager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___manager;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_manager(::GlobalNamespace::OVRManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___manager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRHeadsetEmulator::__get_lastFrameEmulationActivated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastFrameEmulationActivated;
 }
 constexpr bool const& GlobalNamespace::OVRHeadsetEmulator::__get_lastFrameEmulationActivated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastFrameEmulationActivated;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_lastFrameEmulationActivated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastFrameEmulationActivated = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRHeadsetEmulator::__get_recordedHeadPoseRelativeOffsetTranslation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordedHeadPoseRelativeOffsetTranslation;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRHeadsetEmulator::__get_recordedHeadPoseRelativeOffsetTranslation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordedHeadPoseRelativeOffsetTranslation;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_recordedHeadPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordedHeadPoseRelativeOffsetTranslation = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::OVRHeadsetEmulator::__get_recordedHeadPoseRelativeOffsetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordedHeadPoseRelativeOffsetRotation;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRHeadsetEmulator::__get_recordedHeadPoseRelativeOffsetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordedHeadPoseRelativeOffsetRotation;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_recordedHeadPoseRelativeOffsetRotation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordedHeadPoseRelativeOffsetRotation = value;
 }
 constexpr bool& GlobalNamespace::OVRHeadsetEmulator::__get_hasSentEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasSentEvent;
 }
 constexpr bool const& GlobalNamespace::OVRHeadsetEmulator::__get_hasSentEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasSentEvent;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_hasSentEvent(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasSentEvent = value;
 }
 constexpr bool& GlobalNamespace::OVRHeadsetEmulator::__get_emulatorHasInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___emulatorHasInitialized;
 }
 constexpr bool const& GlobalNamespace::OVRHeadsetEmulator::__get_emulatorHasInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___emulatorHasInitialized;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_emulatorHasInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___emulatorHasInitialized = value;
 }
 constexpr ::UnityEngine::CursorLockMode& GlobalNamespace::OVRHeadsetEmulator::__get_previousCursorLockMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousCursorLockMode;
 }
 constexpr ::UnityEngine::CursorLockMode const& GlobalNamespace::OVRHeadsetEmulator::__get_previousCursorLockMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousCursorLockMode;
 }
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__set_previousCursorLockMode(::UnityEngine::CursorLockMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___previousCursorLockMode = value;
 }
 inline void GlobalNamespace::OVRHeadsetEmulator::Start() {

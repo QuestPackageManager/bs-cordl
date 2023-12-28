@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelPack)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace UnityEngine {
-class Sprite;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPack);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4351))
 // CS Name: ::BeatmapLevelPack*
 class CORDL_TYPE BeatmapLevelPack : public ::System::Object {

@@ -36,27 +36,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Type*& UnityEngine::Timeline::TrackBindingTypeAttribute::__get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::Timeline::TrackBindingTypeAttribute::__get_type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
 constexpr void UnityEngine::Timeline::TrackBindingTypeAttribute::__set_type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Timeline::TrackBindingFlags& UnityEngine::Timeline::TrackBindingTypeAttribute::__get_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr ::UnityEngine::Timeline::TrackBindingFlags const& UnityEngine::Timeline::TrackBindingTypeAttribute::__get_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
 constexpr void UnityEngine::Timeline::TrackBindingTypeAttribute::__set_flags(::UnityEngine::Timeline::TrackBindingFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
 inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(::System::Type* type) {

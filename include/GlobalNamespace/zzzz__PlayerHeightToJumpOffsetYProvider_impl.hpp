@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__PlayerHeightToJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider.get_jumpOffsetY
 template <>
 
@@ -103,27 +103,27 @@ constexpr GlobalNamespace::PlayerHeightToJumpOffsetYProvider::operator ::System:
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::PlayerHeightDetector*& GlobalNamespace::PlayerHeightToJumpOffsetYProvider::__get__playerHeightDetector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightDetector;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeightDetector*> const& GlobalNamespace::PlayerHeightToJumpOffsetYProvider::__get__playerHeightDetector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightDetector;
 }
 constexpr void GlobalNamespace::PlayerHeightToJumpOffsetYProvider::__set__playerHeightDetector(::GlobalNamespace::PlayerHeightDetector* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerHeightDetector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::PlayerHeightToJumpOffsetYProvider::__get__jumpOffsetY() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpOffsetY;
 }
 constexpr float_t const& GlobalNamespace::PlayerHeightToJumpOffsetYProvider::__get__jumpOffsetY() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpOffsetY;
 }
 constexpr void GlobalNamespace::PlayerHeightToJumpOffsetYProvider::__set__jumpOffsetY(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpOffsetY = value;
 }
 inline float_t GlobalNamespace::PlayerHeightToJumpOffsetYProvider::get_jumpOffsetY() {

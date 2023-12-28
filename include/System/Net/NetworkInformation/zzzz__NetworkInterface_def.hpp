@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkInterface)
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+class IPInterfaceProperties;
 }
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct OperationalStatus;
 }
 namespace System::Net::NetworkInformation {
 struct NetworkInterfaceType;

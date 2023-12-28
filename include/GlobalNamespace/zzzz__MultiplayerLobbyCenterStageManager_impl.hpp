@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLobbyCenterStageManager.Init
 template <>
 
@@ -76,63 +76,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerObjectTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerObjectTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerObjectTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerObjectTransform;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__centerObjectTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerObjectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::CenterStageScreenController*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerStageScreenController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerStageScreenController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CenterStageScreenController*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerStageScreenController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerStageScreenController;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__centerStageScreenController(::GlobalNamespace::CenterStageScreenController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerStageScreenController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__lobbyStateDataModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__lobbyStateDataModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyStateDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__innerCircleRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerCircleRadius;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__innerCircleRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerCircleRadius;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__innerCircleRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____innerCircleRadius = value;
 }
 constexpr float_t& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__minOuterCircleRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minOuterCircleRadius;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__minOuterCircleRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minOuterCircleRadius;
 }
 constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__minOuterCircleRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minOuterCircleRadius = value;
 }
 inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::Init(float_t innerCircleRadius, float_t minOuterCircleRadius) {

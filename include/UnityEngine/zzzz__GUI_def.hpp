@@ -11,11 +11,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUI)
-namespace UnityEngine {
-class __GUI__WindowFunction;
+namespace System {
+struct DateTime;
 }
 namespace UnityEngine {
-struct Rect;
+class GUISkin;
 }
 namespace UnityEngine {
 class GUIContent;
@@ -24,19 +24,19 @@ namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-class GUISkin;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngineInternal {
 class GenericStack;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System {
-struct DateTime;
-}
-namespace UnityEngine {
-struct Color;
+class __GUI__WindowFunction;
 }
 namespace System {
 class Object;

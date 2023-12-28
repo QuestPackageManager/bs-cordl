@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBloomMainEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::KawaseBloomMainEffectSO.get_hasPostProcessEffect
 template <>
 
@@ -104,123 +104,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::KawaseBlurRendererSO*& GlobalNamespace::KawaseBloomMainEffectSO::__get__kawaseBlurRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kawaseBlurRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::KawaseBlurRendererSO*> const& GlobalNamespace::KawaseBloomMainEffectSO::__get__kawaseBlurRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kawaseBlurRenderer;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kawaseBlurRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Shader*& GlobalNamespace::KawaseBloomMainEffectSO::__get__mainEffectShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectShader;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::KawaseBloomMainEffectSO::__get__mainEffectShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectShader;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__mainEffectShader(::UnityEngine::Shader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomIntensity;
 }
 constexpr float_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomIntensity;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__bloomIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomIntensity = value;
 }
 constexpr int32_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomIterations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomIterations;
 }
 constexpr int32_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomIterations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomIterations;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__bloomIterations(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomIterations = value;
 }
 constexpr float_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomBoost;
 }
 constexpr float_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomBoost;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__bloomBoost(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomBoost = value;
 }
 constexpr float_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomAlphaWeights() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomAlphaWeights;
 }
 constexpr float_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomAlphaWeights() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomAlphaWeights;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__bloomAlphaWeights(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomAlphaWeights = value;
 }
 constexpr int32_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomTextureWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomTextureWidth;
 }
 constexpr int32_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__bloomTextureWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomTextureWidth;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__bloomTextureWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomTextureWidth = value;
 }
 constexpr float_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__baseColorBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoost;
 }
 constexpr float_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__baseColorBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoost;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__baseColorBoost(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseColorBoost = value;
 }
 constexpr float_t& GlobalNamespace::KawaseBloomMainEffectSO::__get__baseColorBoostThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoostThreshold;
 }
 constexpr float_t const& GlobalNamespace::KawaseBloomMainEffectSO::__get__baseColorBoostThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoostThreshold;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__baseColorBoostThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseColorBoostThreshold = value;
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::KawaseBloomMainEffectSO::__get__mainEffectMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::KawaseBloomMainEffectSO::__get__mainEffectMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectMaterial;
 }
 constexpr void GlobalNamespace::KawaseBloomMainEffectSO::__set__mainEffectMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::KawaseBloomMainEffectSO::setStaticF__bloomTexID(int32_t value) {

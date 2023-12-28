@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolableSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolableSerializable_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PoolableSerializable.NoDomainReloadInit
 template <>
 
@@ -130,15 +130,15 @@ constexpr GlobalNamespace::PoolableSerializable::operator ::LiteNetLib::Utils::I
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::PoolableSerializable::__get__referenceCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceCount;
 }
 constexpr int32_t const& GlobalNamespace::PoolableSerializable::__get__referenceCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____referenceCount;
 }
 constexpr void GlobalNamespace::PoolableSerializable::__set__referenceCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____referenceCount = value;
 }
 inline void GlobalNamespace::PoolableSerializable::setStaticF__pools(

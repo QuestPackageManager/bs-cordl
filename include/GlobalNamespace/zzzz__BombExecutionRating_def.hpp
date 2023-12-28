@@ -73,7 +73,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BombExecution
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(4136))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4136)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4137))
 // CS Name: ::BombExecutionRating*
 class CORDL_TYPE BombExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {

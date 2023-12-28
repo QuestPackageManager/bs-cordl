@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
 #include "System/zzzz__IObservable_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TValue>"
@@ -11,28 +11,28 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::__Take
   return static_cast<::System::IObserver_1<TValue>*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::IObserver_1<TValue>*& UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__get_m_Observer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observer;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__get_m_Observer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Observer;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__set_m_Observer(::System::IObserver_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__get_m_Remaining() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Remaining;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__get_m_Remaining() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Remaining;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__set_m_Remaining(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Remaining = value;
 }
 template <typename TValue>
@@ -75,28 +75,28 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::TakeNO
   return static_cast<::System::IObservable_1<TValue>*>(static_cast<void*>(this));
 }
 template <typename TValue> constexpr ::System::IObservable_1<TValue>*& UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__get_m_Source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Source;
 }
 template <typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__get_m_Source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Source;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__set_m_Source(::System::IObservable_1<TValue>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__get_m_Count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Count;
 }
 template <typename TValue> constexpr int32_t const& UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__get_m_Count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Count;
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__set_m_Count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Count = value;
 }
 template <typename TValue>

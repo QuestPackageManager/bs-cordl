@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__LazyState_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LazyHelper)
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Threading {
-struct LazyThreadSafetyMode;
-}
 namespace System {
 class Object;
 }
 namespace System {
-class Exception;
+struct LazyState;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System {
-struct LazyState;
+class Exception;
+}
+namespace System::Threading {
+struct LazyThreadSafetyMode;
 }
 namespace System {
 class Type;

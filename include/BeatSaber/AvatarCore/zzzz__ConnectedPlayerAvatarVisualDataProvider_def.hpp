@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerAvatarVisualDataProvider)
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace BeatSaber::AvatarCore {
 class IAvatarVisualDataProvider;
 }
 namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

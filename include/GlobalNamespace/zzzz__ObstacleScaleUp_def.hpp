@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleScaleUp)
-namespace GlobalNamespace {
-class ObstacleControllerBase;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class ObstacleController;
+}
+namespace GlobalNamespace {
+class ObstacleControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {

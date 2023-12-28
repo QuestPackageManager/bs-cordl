@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BoundsInt)
 namespace System {
-class Object;
+class IFormattable;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
+}
+namespace UnityEngine {
+struct Vector3Int;
 }
 namespace UnityEngine {
 struct __BoundsInt__PositionEnumerator;
 }
 namespace System {
-class IFormattable;
-}
-namespace UnityEngine {
-struct Vector3Int;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;

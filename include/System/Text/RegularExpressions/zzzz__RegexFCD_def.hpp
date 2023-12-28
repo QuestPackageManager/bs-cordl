@@ -6,14 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexFCD)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System::Text::RegularExpressions {
+struct RegexPrefix;
 }
 namespace System::Text::RegularExpressions {
 class RegexFC;
 }
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Text::RegularExpressions {
+class RegexTree;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
@@ -21,14 +27,8 @@ class RegexNode;
 namespace System::Collections::Generic {
 template <typename T> struct ValueListBuilder_1;
 }
-namespace System::Text::RegularExpressions {
-class RegexTree;
-}
-namespace System::Text::RegularExpressions {
-struct RegexPrefix;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

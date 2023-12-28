@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedText_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "Polyglot/zzzz__LocalizedTextMeshPro_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LevelFailedText.OverrideText
 template <>
 
@@ -31,27 +31,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TMPro::TMP_Text*& GlobalNamespace::LevelFailedText::__get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& GlobalNamespace::LevelFailedText::__get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
 }
 constexpr void GlobalNamespace::LevelFailedText::__set__text(::TMPro::TMP_Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Polyglot::LocalizedTextMeshPro*& GlobalNamespace::LevelFailedText::__get__localizedText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedText;
 }
 constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshPro*> const& GlobalNamespace::LevelFailedText::__get__localizedText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localizedText;
 }
 constexpr void GlobalNamespace::LevelFailedText::__set__localizedText(::Polyglot::LocalizedTextMeshPro* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizedText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LevelFailedText::OverrideText(::StringW text) {

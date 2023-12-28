@@ -11,10 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-struct __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
-}
-namespace Zenject {
-class DiContainer;
+class SceneInfo;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -23,19 +20,22 @@ namespace GlobalNamespace {
 struct __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+class SceneSetupData;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
-class SceneSetupData;
+struct __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -58,7 +58,7 @@ MARK_VAL_T(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillB
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15415))
 // CS Name: ::ScenesTransitionSetupDataSO::<BeforeScenesWillBeActivated>d__10
 struct CORDL_TYPE __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 {

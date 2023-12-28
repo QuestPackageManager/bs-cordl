@@ -6,15 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TypeDescriptionProvider)
-namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::ComponentModel {
-class __TypeDescriptionProvider__EmptyCustomTypeDescriptor;
-}
 namespace System {
 class Object;
 }
@@ -23,6 +14,15 @@ class Type;
 }
 namespace System::ComponentModel {
 class IExtenderProvider;
+}
+namespace System::ComponentModel {
+class __TypeDescriptionProvider__EmptyCustomTypeDescriptor;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
 }
 // Forward declare root types
 namespace System::ComponentModel {

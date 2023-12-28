@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectorMatchRecord)
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+class StyleComplexSelector;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

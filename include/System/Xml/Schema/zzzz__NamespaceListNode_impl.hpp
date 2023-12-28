@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceListNode_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
-#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::NamespaceListNode._ctor
 template <>
@@ -85,27 +85,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Schema::NamespaceList*& System::Xml::Schema::NamespaceListNode::__get_namespaceList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& System::Xml::Schema::NamespaceListNode::__get_namespaceList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceList;
 }
 constexpr void System::Xml::Schema::NamespaceListNode::__set_namespaceList(::System::Xml::Schema::NamespaceList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaceList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::Xml::Schema::NamespaceListNode::__get_particle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Schema::NamespaceListNode::__get_particle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
 constexpr void System::Xml::Schema::NamespaceListNode::__set_particle(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___particle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Schema::NamespaceListNode* System::Xml::Schema::NamespaceListNode::New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle) {

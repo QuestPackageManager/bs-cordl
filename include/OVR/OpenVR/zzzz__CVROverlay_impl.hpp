@@ -3,32 +3,32 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayInputMethod_def.hpp"
-#include "OVR/OpenVR/zzzz__EVROverlayError_def.hpp"
-#include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"
-#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayTransformType_def.hpp"
-#include "OVR/OpenVR/zzzz__EDualAnalogWhich_def.hpp"
-#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayIntersectionMaskPrimitive_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VRMessageOverlayResponse_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayIntersectionParams_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdRect2_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EOverlayDirection_def.hpp"
-#include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayFlags_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayIntersectionResults_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdRect2_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVROverlayError_def.hpp"
 #include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
+#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
+#include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayFlags_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayTransformType_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayIntersectionParams_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayIntersectionMaskPrimitive_t_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayInputMethod_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EOverlayDirection_def.hpp"
+#include "OVR/OpenVR/zzzz__VRMessageOverlayResponse_def.hpp"
+#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EDualAnalogWhich_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__IVROverlay_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked._ctor
 template <>
@@ -1465,15 +1465,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVROverlay& OVR::OpenVR::CVROverlay::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVROverlay const& OVR::OpenVR::CVROverlay::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVROverlay::__set_FnTable(::OVR::OpenVR::IVROverlay value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVROverlay* OVR::OpenVR::CVROverlay::New_ctor(void* pInterface) {

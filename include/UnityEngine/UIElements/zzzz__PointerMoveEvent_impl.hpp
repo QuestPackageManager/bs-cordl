@@ -87,15 +87,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::UIElements::PointerMoveEvent::__get__isHandledByDraggable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isHandledByDraggable_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::PointerMoveEvent::__get__isHandledByDraggable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isHandledByDraggable_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::PointerMoveEvent::__set__isHandledByDraggable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isHandledByDraggable_k__BackingField = value;
 }
 inline bool UnityEngine::UIElements::PointerMoveEvent::get_isHandledByDraggable() {

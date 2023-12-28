@@ -16,140 +16,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComputedStyle)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct Position;
-}
 namespace UnityEngine::UIElements {
 struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct InheritedData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements {
-template <typename T> struct StyleDataRef_1;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine::UIElements {
-struct ComputedTransitionProperty;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyReader;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-struct TransitionData;
-}
-namespace UnityEngine::Yoga {
-class YogaNode;
-}
-namespace UnityEngine::UIElements {
-struct StyleTranslate;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValueManaged;
 }
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct TextShadow;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct Cursor;
+struct ComputedTransitionProperty;
 }
 namespace UnityEngine::UIElements {
-struct RareData;
+struct VisualData;
 }
 namespace UnityEngine::UIElements {
 struct Wrap;
-}
-namespace UnityEngine {
-struct ScaleMode;
-}
-namespace UnityEngine::UIElements {
-struct WhiteSpace;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-struct TransformData;
-}
-namespace UnityEngine::UIElements {
-struct OverflowClipBox;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-struct DisplayStyle;
-}
-namespace UnityEngine::UIElements {
-struct Align;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct OverflowInternal;
+struct EasingFunction;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct OverflowClipBox;
 }
 namespace UnityEngine {
-struct TextAnchor;
+struct Color;
 }
 namespace UnityEngine::UIElements {
-struct LayoutData;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflow;
+struct RareData;
 }
 namespace UnityEngine::UIElements {
 struct TimeValue;
@@ -157,14 +61,110 @@ struct TimeValue;
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
+namespace UnityEngine::UIElements {
+struct LayoutData;
+}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValue;
 }
 namespace UnityEngine::UIElements {
-struct VisualData;
+struct Cursor;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflow;
+}
+namespace UnityEngine::UIElements {
+struct TransformData;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyValue;
+}
+namespace UnityEngine::UIElements {
+struct TransitionData;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
+struct OverflowInternal;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine::UIElements {
+struct WhiteSpace;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyReader;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct StyleDataRef_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+struct ScaleMode;
+}
+namespace UnityEngine {
+struct FontStyle;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+struct StyleTranslate;
+}
+namespace UnityEngine::UIElements {
+struct Position;
+}
+namespace UnityEngine::UIElements {
+struct InheritedData;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+struct Visibility;
+}
+namespace UnityEngine::UIElements {
+struct Justify;
 }
 namespace UnityEngine::UIElements {
 struct FlexDirection;
+}
+namespace UnityEngine::Yoga {
+class YogaNode;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
+namespace UnityEngine::UIElements {
+struct DisplayStyle;
+}
+namespace UnityEngine::UIElements {
+struct Align;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -176,12 +176,12 @@ MARK_VAL_T(::UnityEngine::UIElements::ComputedStyle);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3382 }), TypeDefinitionIndex(TypeDefinitionIndex(7361)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(7315), inst: 3298 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3370 }), TypeDefinitionIndex(TypeDefinitionIndex(7315)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7357)), TypeDefinitionIndex(TypeDefinitionIndex(7356)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3310 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7358)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3371 }), TypeDefinitionIndex(TypeDefinitionIndex(7359)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7360)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3344 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7296)) CS
-// Name: ::UnityEngine.UIElements::ComputedStyle
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3344 }), TypeDefinitionIndex(TypeDefinitionIndex(7358)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7360)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3371 }), TypeDefinitionIndex(TypeDefinitionIndex(7361)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7357)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3298 }), TypeDefinitionIndex(TypeDefinitionIndex(7356)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3310 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(7315), inst: 3382 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 3370 }), TypeDefinitionIndex(TypeDefinitionIndex(7359))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7296)) CS Name: ::UnityEngine.UIElements::ComputedStyle
 struct CORDL_TYPE ComputedStyle {
 public:
   // Declarations

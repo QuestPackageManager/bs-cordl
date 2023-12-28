@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RaycastResult)
 namespace UnityEngine {
-struct Vector2;
+class GameObject;
 }
 namespace UnityEngine::EventSystems {
 class BaseRaycaster;
 }
 namespace UnityEngine {
-class GameObject;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;

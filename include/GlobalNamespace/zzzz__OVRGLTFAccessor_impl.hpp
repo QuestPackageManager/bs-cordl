@@ -4,14 +4,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFAccessor_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFComponentType_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFType_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFType_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFComponentType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFAccessor._ctor
 template <>
 
@@ -277,111 +277,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_byteOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteOffset;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_byteOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteOffset;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_byteOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___byteOffset = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_byteLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteLength;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_byteLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteLength;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_byteLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___byteLength = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_byteStride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteStride;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_byteStride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___byteStride;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_byteStride(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___byteStride = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_bufferId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferId;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_bufferId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferId;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_bufferId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufferId = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_bufferLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferLength;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_bufferLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufferLength;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_bufferLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufferLength = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_additionalOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additionalOffset;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_additionalOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additionalOffset;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_additionalOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___additionalOffset = value;
 }
 constexpr ::GlobalNamespace::OVRGLTFType& GlobalNamespace::OVRGLTFAccessor::__get_dataType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataType;
 }
 constexpr ::GlobalNamespace::OVRGLTFType const& GlobalNamespace::OVRGLTFAccessor::__get_dataType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataType;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_dataType(::GlobalNamespace::OVRGLTFType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dataType = value;
 }
 constexpr ::GlobalNamespace::OVRGLTFComponentType& GlobalNamespace::OVRGLTFAccessor::__get_componentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___componentType;
 }
 constexpr ::GlobalNamespace::OVRGLTFComponentType const& GlobalNamespace::OVRGLTFAccessor::__get_componentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___componentType;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_componentType(::GlobalNamespace::OVRGLTFComponentType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___componentType = value;
 }
 constexpr int32_t& GlobalNamespace::OVRGLTFAccessor::__get_dataCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataCount;
 }
 constexpr int32_t const& GlobalNamespace::OVRGLTFAccessor::__get_dataCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dataCount;
 }
 constexpr void GlobalNamespace::OVRGLTFAccessor::__set_dataCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dataCount = value;
 }
 /// @param bufferViewOnly: bool (default: false)

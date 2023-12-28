@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IUnifiedNetworkPlayerModel)
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
@@ -16,14 +16,14 @@ class INetworkPlayer;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
+struct BeatmapLevelSelectionMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {

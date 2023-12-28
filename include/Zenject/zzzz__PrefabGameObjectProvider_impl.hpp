@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabGameObjectProvider_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 //  Writing Method size for method: ::Zenject::PrefabGameObjectProvider._ctor
 template <>
@@ -90,15 +90,15 @@ constexpr Zenject::PrefabGameObjectProvider::operator ::Zenject::IProvider*() no
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::IPrefabInstantiator*& Zenject::PrefabGameObjectProvider::__get__prefabCreator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabCreator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& Zenject::PrefabGameObjectProvider::__get__prefabCreator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabCreator;
 }
 constexpr void Zenject::PrefabGameObjectProvider::__set__prefabCreator(::Zenject::IPrefabInstantiator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefabCreator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::PrefabGameObjectProvider* Zenject::PrefabGameObjectProvider::New_ctor(::Zenject::IPrefabInstantiator* prefabCreator) {

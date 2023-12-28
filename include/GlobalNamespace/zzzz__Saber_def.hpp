@@ -13,17 +13,17 @@ class SaberMovementData;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class SaberTypeObject;
-}
 namespace GlobalNamespace {
 struct SaberType;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class SaberTypeObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Saber);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5292))
 // CS Name: ::Saber*
 class CORDL_TYPE Saber : public ::UnityEngine::MonoBehaviour {

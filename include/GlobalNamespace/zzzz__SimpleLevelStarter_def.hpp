@@ -6,20 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SimpleLevelStarter)
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+namespace UnityEngine {
+class TextAsset;
+}
+namespace UnityEngine {
+class Component;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class GameScenesManager;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PlayerDataModel;
 }
 namespace Zenject {
 class DiContainer;
@@ -34,19 +40,13 @@ namespace HMUI {
 class ButtonBinder;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-class TextAsset;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

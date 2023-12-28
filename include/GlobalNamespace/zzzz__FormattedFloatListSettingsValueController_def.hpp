@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FormattedFloa
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5593)), TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149)), TypeDefinitionIndex(TypeDefinitionIndex(5593))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5594))
 // CS Name: ::FormattedFloatListSettingsValueController*
 class CORDL_TYPE FormattedFloatListSettingsValueController : public ::GlobalNamespace::ListSettingsController {

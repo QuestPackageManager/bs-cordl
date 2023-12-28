@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlListConverter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlListConverter._ctor
 template <>
 
@@ -181,15 +181,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Schema::XmlValueConverter*& System::Xml::Schema::XmlListConverter::__get_atomicConverter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___atomicConverter;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlValueConverter*> const& System::Xml::Schema::XmlListConverter::__get_atomicConverter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___atomicConverter;
 }
 constexpr void System::Xml::Schema::XmlListConverter::__set_atomicConverter(::System::Xml::Schema::XmlValueConverter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___atomicConverter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::Schema::XmlListConverter* System::Xml::Schema::XmlListConverter::New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter) {

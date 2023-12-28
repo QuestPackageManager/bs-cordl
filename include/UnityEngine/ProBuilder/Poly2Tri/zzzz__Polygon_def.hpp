@@ -6,13 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Polygon)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class DelaunayTriangle;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class PolygonPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -21,13 +27,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class PolygonPoint;
+class Triangulatable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerOctetString)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class __BerOctetString__ChunkEnumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
-class __BerOctetString__ChunkEnumerator;
+class DerOutputStream;
 }
 namespace System {
 class Object;

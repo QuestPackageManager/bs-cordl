@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__RuntimeWrappedException_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::RuntimeWrappedException._ctor
 template <>
@@ -67,15 +67,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Runtime::CompilerServices::RuntimeWrappedException::__get__wrappedException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrappedException;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::CompilerServices::RuntimeWrappedException::__get__wrappedException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wrappedException;
 }
 constexpr void System::Runtime::CompilerServices::RuntimeWrappedException::__set__wrappedException(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____wrappedException)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::RuntimeWrappedException* System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor(::System::Object* thrownObject) {

@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlUtf8RawTextWriterIndent)
 namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-struct ConformanceLevel;
+class BitStack;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
-class BitStack;
+class XmlWriterSettings;
+}
+namespace System::Xml {
+struct ConformanceLevel;
 }
 // Forward declare root types
 namespace System::Xml {

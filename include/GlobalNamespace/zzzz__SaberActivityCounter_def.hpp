@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SaberActivityCounter)
+namespace GlobalNamespace {
+class Saber;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace GlobalNamespace {
-class AveragingValueRecorder;
 }
 namespace GlobalNamespace {
 class MovementHistoryRecorder;
 }
 namespace GlobalNamespace {
-class Saber;
+class AveragingValueRecorder;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

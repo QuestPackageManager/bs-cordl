@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Claims/zzzz__ClaimsPrincipal_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Security::Claims::ClaimsPrincipal.SelectPrimaryIdentity
 template <>
 
@@ -149,40 +149,40 @@ constexpr System::Security::Claims::ClaimsPrincipal::operator ::System::Security
   return static_cast<::System::Security::Principal::IPrincipal*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Security::Claims::ClaimsPrincipal::__get_m_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_version;
 }
 constexpr ::StringW const& System::Security::Claims::ClaimsPrincipal::__get_m_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_version;
 }
 constexpr void System::Security::Claims::ClaimsPrincipal::__set_m_version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Security::Claims::ClaimsPrincipal::__get_m_serializedClaimsIdentities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serializedClaimsIdentities;
 }
 constexpr ::StringW const& System::Security::Claims::ClaimsPrincipal::__get_m_serializedClaimsIdentities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_serializedClaimsIdentities;
 }
 constexpr void System::Security::Claims::ClaimsPrincipal::__set_m_serializedClaimsIdentities(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_serializedClaimsIdentities)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*& System::Security::Claims::ClaimsPrincipal::__get_m_identities() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_identities;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*> const&
 System::Security::Claims::ClaimsPrincipal::__get_m_identities() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_identities;
 }
 constexpr void System::Security::Claims::ClaimsPrincipal::__set_m_identities(::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_identities)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Claims::ClaimsPrincipal::setStaticF_s_identitySelector(

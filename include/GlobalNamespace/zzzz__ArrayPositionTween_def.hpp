@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ArrayPositionTween)
-namespace UnityEngine::Timeline {
-struct ClipCaps;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -16,14 +16,14 @@ struct Playable;
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace GlobalNamespace {
 class CustomTweenBehaviour;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ArrayPositionTween);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10046)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst:
-// 1763 }), TypeDefinitionIndex(TypeDefinitionIndex(6019))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6002)) CS Name: ::ArrayPositionTween*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10046)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 1763 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6019)), TypeDefinitionIndex(TypeDefinitionIndex(10422))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6002)) CS Name: ::ArrayPositionTween*
 class CORDL_TYPE ArrayPositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations

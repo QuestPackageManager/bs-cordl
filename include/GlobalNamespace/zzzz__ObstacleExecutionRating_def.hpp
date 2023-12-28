@@ -73,7 +73,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObstacleExecu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4525)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(4525))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4526))
 // CS Name: ::ObstacleExecutionRating*
 class CORDL_TYPE ObstacleExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {

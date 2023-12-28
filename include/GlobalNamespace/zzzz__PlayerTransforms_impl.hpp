@@ -237,195 +237,195 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& GlobalNamespace::PlayerTransforms::__get__headTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::PlayerTransforms::__get__headTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headTransform;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__headTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::PlayerTransforms::__get__originTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::PlayerTransforms::__get__originTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originTransform;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__originTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::PlayerTransforms::__get__leftHandTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::PlayerTransforms::__get__leftHandTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandTransform;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__leftHandTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftHandTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::PlayerTransforms::__get__rightHandTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::PlayerTransforms::__get__rightHandTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandTransform;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__rightHandTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightHandTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PlayerTransforms::__get__overrideHeadPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideHeadPos;
 }
 constexpr bool const& GlobalNamespace::PlayerTransforms::__get__overrideHeadPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideHeadPos;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__overrideHeadPos(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overrideHeadPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__get__overriddenHeadPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overriddenHeadPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::PlayerTransforms::__get__overriddenHeadPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overriddenHeadPos;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__overriddenHeadPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____overriddenHeadPos = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__get__headWorldPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headWorldPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::PlayerTransforms::__get__headWorldPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headWorldPos;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__headWorldPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headWorldPos = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::PlayerTransforms::__get__headWorldRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headWorldRot;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::PlayerTransforms::__get__headWorldRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headWorldRot;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__headWorldRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headWorldRot = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__get__headPseudoLocalPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPseudoLocalPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::PlayerTransforms::__get__headPseudoLocalPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPseudoLocalPos;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__headPseudoLocalPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPseudoLocalPos = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::PlayerTransforms::__get__headPseudoLocalRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPseudoLocalRot;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::PlayerTransforms::__get__headPseudoLocalRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPseudoLocalRot;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__headPseudoLocalRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPseudoLocalRot = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__get__leftHandPseudoLocalPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandPseudoLocalPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::PlayerTransforms::__get__leftHandPseudoLocalPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandPseudoLocalPos;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__leftHandPseudoLocalPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leftHandPseudoLocalPos = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::PlayerTransforms::__get__leftHandPseudoLocalRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandPseudoLocalRot;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::PlayerTransforms::__get__leftHandPseudoLocalRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandPseudoLocalRot;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__leftHandPseudoLocalRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leftHandPseudoLocalRot = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__get__rightHandPseudoLocalPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandPseudoLocalPos;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::PlayerTransforms::__get__rightHandPseudoLocalPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandPseudoLocalPos;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__rightHandPseudoLocalPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rightHandPseudoLocalPos = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::PlayerTransforms::__get__rightHandPseudoLocalRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandPseudoLocalRot;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::PlayerTransforms::__get__rightHandPseudoLocalRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandPseudoLocalRot;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__rightHandPseudoLocalRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rightHandPseudoLocalRot = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::PlayerTransforms::__get__originParentTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originParentTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::PlayerTransforms::__get__originParentTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originParentTransform;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__originParentTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originParentTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PlayerTransforms::__get__useOriginParentTransformForPseudoLocalCalculations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useOriginParentTransformForPseudoLocalCalculations;
 }
 constexpr bool const& GlobalNamespace::PlayerTransforms::__get__useOriginParentTransformForPseudoLocalCalculations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useOriginParentTransformForPseudoLocalCalculations;
 }
 constexpr void GlobalNamespace::PlayerTransforms::__set__useOriginParentTransformForPseudoLocalCalculations(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useOriginParentTransformForPseudoLocalCalculations = value;
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::PlayerTransforms::get_headWorldPos() {

@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(Dstu7624WrapEngine)
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Engines {
+class Dstu7624Engine;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Crypto::Engines {
-class Dstu7624Engine;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

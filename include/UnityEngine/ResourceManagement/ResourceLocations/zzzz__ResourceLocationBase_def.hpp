@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(ResourceLocationBase)
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {

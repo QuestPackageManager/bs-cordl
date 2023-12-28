@@ -42,87 +42,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling& GlobalNamespace::ReflectionProbeBakingOverride::__get__stateHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateHandling;
 }
 constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling const& GlobalNamespace::ReflectionProbeBakingOverride::__get__stateHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateHandling;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stateHandling = value;
 }
 constexpr bool& GlobalNamespace::ReflectionProbeBakingOverride::__get__setPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setPosition;
 }
 constexpr bool const& GlobalNamespace::ReflectionProbeBakingOverride::__get__setPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setPosition;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__setPosition(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setPosition = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::ReflectionProbeBakingOverride::__get__localPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ReflectionProbeBakingOverride::__get__localPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__localPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPosition = value;
 }
 constexpr bool& GlobalNamespace::ReflectionProbeBakingOverride::__get__setRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setRotation;
 }
 constexpr bool const& GlobalNamespace::ReflectionProbeBakingOverride::__get__setRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setRotation;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__setRotation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setRotation = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::ReflectionProbeBakingOverride::__get__localRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localRotation;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ReflectionProbeBakingOverride::__get__localRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localRotation;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__localRotation(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localRotation = value;
 }
 constexpr bool& GlobalNamespace::ReflectionProbeBakingOverride::__get__setScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setScale;
 }
 constexpr bool const& GlobalNamespace::ReflectionProbeBakingOverride::__get__setScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setScale;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__setScale(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setScale = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::ReflectionProbeBakingOverride::__get__localScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localScale;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::ReflectionProbeBakingOverride::__get__localScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localScale;
 }
 constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__set__localScale(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localScale = value;
 }
 inline void GlobalNamespace::ReflectionProbeBakingOverride::UpdateForProbeBaking() {

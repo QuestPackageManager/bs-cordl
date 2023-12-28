@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitiateUserAccountPairingCommand)
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -14,9 +17,6 @@ class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InitiateUserAccountPairingCommand__Result;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

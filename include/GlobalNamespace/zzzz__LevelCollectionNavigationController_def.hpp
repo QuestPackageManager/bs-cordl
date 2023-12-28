@@ -12,70 +12,70 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCollectionNavigationController)
 namespace GlobalNamespace {
-class LevelCollectionViewController;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController__ContentType;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Tweening {
-class FloatTween;
-}
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __LevelCollectionNavigationController__AlphaAnimationType;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
-class __LevelCollectionNavigationController____c__DisplayClass54_0;
-}
-namespace GlobalNamespace {
-class StandardLevelDetailViewController;
-}
-namespace GlobalNamespace {
-class LevelPackDetailViewController;
+class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class StandardLevelDetailViewController;
+}
+namespace GlobalNamespace {
+class LoadingControl;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class LevelCollectionViewController;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct __LevelCollectionNavigationController__AlphaAnimationType;
+}
+namespace GlobalNamespace {
+class __LevelCollectionNavigationController____c__DisplayClass54_0;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController__ContentType;
+}
+namespace Tweening {
+class FloatTween;
+}
+namespace GlobalNamespace {
+class LevelPackDetailViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelCollecti
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13588)), TypeDefinitionIndex(TypeDefinitionIndex(14719))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(13588))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5657))
 // CS Name: ::LevelCollectionNavigationController*
 class CORDL_TYPE LevelCollectionNavigationController : public ::HMUI::NavigationController {

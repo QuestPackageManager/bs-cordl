@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HijriCalendar)
 namespace System {
-struct DateTime;
+struct DayOfWeek;
 }
 namespace System {
-struct DayOfWeek;
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {

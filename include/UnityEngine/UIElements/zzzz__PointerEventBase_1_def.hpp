@@ -11,31 +11,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerEventBase_1)
 namespace UnityEngine {
-struct EventModifiers;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Event;
+struct Vector2;
 }
-namespace UnityEngine::UIElements {
-class IPointerEventInternal;
+namespace UnityEngine {
+struct EventModifiers;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
-}
-namespace UnityEngine {
-struct Touch;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine {
-struct Vector2;
+class Event;
+}
+namespace UnityEngine {
+struct Touch;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
+}
+namespace UnityEngine::UIElements {
+class IPointerEventInternal;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -49,9 +49,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
-// 1718 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7198)) CS Name:
-// ::UnityEngine.UIElements::PointerEventBase`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1718 }), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7198)) CS
+// Name: ::UnityEngine.UIElements::PointerEventBase`1<T>*
 class CORDL_TYPE PointerEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations

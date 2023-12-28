@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeConverter)
 namespace GlobalNamespace {
-struct ColorSchemeNetSerializable;
+class ColorScheme;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+struct ColorSchemeNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

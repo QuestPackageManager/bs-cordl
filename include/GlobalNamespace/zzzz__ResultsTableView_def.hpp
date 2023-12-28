@@ -6,6 +6,15 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResultsTableView)
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace GlobalNamespace {
+class ResultsTableCell;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
@@ -13,16 +22,7 @@ namespace HMUI {
 class TableCell;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace HMUI {
 class TableView;
-}
-namespace GlobalNamespace {
-class ResultsTableCell;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

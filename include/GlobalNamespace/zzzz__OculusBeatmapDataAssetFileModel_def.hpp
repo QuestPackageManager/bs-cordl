@@ -13,71 +13,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusBeatmapDataAssetFileModel)
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace Oculus::Platform::Models {
-class AssetDetails;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Oculus::Platform {
-template <typename T> class Message_1;
-}
-namespace GlobalNamespace {
-class __OculusBeatmapDataAssetFileModel__LevelDownloadingData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
+class IBeatmapDataAssetFileModel;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDownloadUpdate;
 }
 namespace GlobalNamespace {
-class __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0;
-}
-namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15;
 }
 namespace GlobalNamespace {
-class __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0;
+class __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0;
 }
-namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace Oculus::Platform::Models {
+class AssetDetails;
 }
 namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
 class OculusPlatformAdditionalContentModel;
 }
 namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace GlobalNamespace {
+struct __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace GlobalNamespace {
+class __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0;
+}
+namespace GlobalNamespace {
+class __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
+}
+namespace GlobalNamespace {
+struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13;
 }
 namespace GlobalNamespace {
-class __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
+class __OculusBeatmapDataAssetFileModel__LevelDownloadingData;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDeleteResult;
@@ -95,10 +95,10 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct TaskAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -300,8 +300,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmap
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4531)) CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13 {
 public:
@@ -369,9 +369,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmap
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(4413)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4532)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__14
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14 {
 public:
@@ -519,9 +519,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmap
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4534)) CS
-// Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4534))
+// CS Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15 {
 public:
   // Declarations
@@ -649,8 +649,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmap
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(4413))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4536)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetDownloadAssetBundleFileAsync>d__16
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16 {
 public:

@@ -10,8 +10,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIElementsRuntimeUtility)
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
+}
+namespace UnityEngine::UIElements {
+class PanelSettings;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::UIElements {
+class __UIElementsRuntimeUtility____c;
+}
+namespace UnityEngine::UIElements {
+class Panel;
+}
+namespace UnityEngine::UIElements {
+class DefaultEventSystem;
+}
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 namespace UnityEngine::UIElements {
 class __UIElementsRuntimeUtility__CreateRuntimePanelDelegate;
@@ -20,40 +50,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class Panel;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine::UIElements {
-class PanelSettings;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::UIElements {
-class DefaultEventSystem;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class __UIElementsRuntimeUtility____c;
 }
 namespace System {
 class Object;
@@ -175,7 +175,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEle
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6935))
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtility*
 class CORDL_TYPE UIElementsRuntimeUtility : public ::System::Object {

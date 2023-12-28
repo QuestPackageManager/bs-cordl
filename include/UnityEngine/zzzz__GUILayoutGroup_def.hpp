@@ -12,13 +12,13 @@ namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-class GUILayoutOption;
-}
-namespace UnityEngine {
 class GUILayoutEntry;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GUILayoutOption;
 }
 // Forward declare root types
 namespace UnityEngine {

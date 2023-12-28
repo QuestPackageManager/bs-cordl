@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Callback_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Callback_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::__Callback__RequestCallback._ctor
 template <>
 
@@ -53,15 +53,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Oculus::Platform::__Message__Callback*& Oculus::Platform::__Callback__RequestCallback::__get_messageCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message__Callback*> const& Oculus::Platform::__Callback__RequestCallback::__get_messageCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageCallback;
 }
 constexpr void Oculus::Platform::__Callback__RequestCallback::__set_messageCallback(::Oculus::Platform::__Message__Callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___messageCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Oculus::Platform::__Callback__RequestCallback* Oculus::Platform::__Callback__RequestCallback::New_ctor() {
@@ -90,15 +90,15 @@ inline void Oculus::Platform::__Callback__RequestCallback::HandleMessage(::Oculu
 // Ctor Parameters []
 constexpr ::Oculus::Platform::__Callback__RequestCallback::__Callback__RequestCallback() {}
 template <typename T> constexpr ::Oculus::Platform::__Message_1__Callback<T>*& Oculus::Platform::__Callback__RequestCallback_1<T>::__get_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& Oculus::Platform::__Callback__RequestCallback_1<T>::__get_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename T> constexpr void Oculus::Platform::__Callback__RequestCallback_1<T>::__set_callback(::Oculus::Platform::__Message_1__Callback<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>

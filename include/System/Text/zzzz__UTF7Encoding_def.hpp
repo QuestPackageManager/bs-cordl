@@ -12,31 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UTF7Encoding)
 namespace System::Text {
-class __UTF7Encoding__DecoderUTF7FallbackBuffer;
-}
-namespace System::Text {
 class __UTF7Encoding__Encoder;
-}
-namespace System::Text {
-class __UTF7Encoding__Decoder;
 }
 namespace System {
 class Object;
 }
 namespace System::Text {
-class DecoderNLS;
+class __UTF7Encoding__Decoder;
 }
 namespace System::Text {
 class EncoderNLS;
 }
 namespace System::Text {
+class __UTF7Encoding__DecoderUTF7Fallback;
+}
+namespace System::Text {
+class __UTF7Encoding__DecoderUTF7FallbackBuffer;
+}
+namespace System::Text {
 class Decoder;
 }
 namespace System::Text {
-class Encoder;
+class DecoderNLS;
 }
 namespace System::Text {
-class __UTF7Encoding__DecoderUTF7Fallback;
+class Encoder;
 }
 namespace System::Text {
 class DecoderFallbackBuffer;

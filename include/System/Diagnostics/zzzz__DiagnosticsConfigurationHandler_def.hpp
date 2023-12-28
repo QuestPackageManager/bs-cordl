@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DiagnosticsConfigurationHandler)
-namespace System {
-class Object;
-}
 namespace System::Xml {
 class XmlNode;
+}
+namespace System {
+class Object;
 }
 namespace System::Configuration {
 class IConfigurationSectionHandler;

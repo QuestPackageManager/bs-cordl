@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__FileSystem_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
+#include "GlobalNamespace/zzzz__Interop_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/IO/zzzz__DirectoryInfo_def.hpp"
-#include "GlobalNamespace/zzzz__Interop_def.hpp"
+#include "System/IO/zzzz__FileAttributes_def.hpp"
 //  Writing Method size for method: ::System::IO::FileSystem.CopyDanglingSymlink
 template <>
 

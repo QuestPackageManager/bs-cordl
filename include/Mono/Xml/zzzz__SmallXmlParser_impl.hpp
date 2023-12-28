@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
-#include "System/Collections/zzzz__Stack_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::Mono::Xml::__SmallXmlParser__IContentHandler.OnStartParsing
 template <>
@@ -406,27 +406,27 @@ constexpr Mono::Xml::__SmallXmlParser__AttrListImpl::operator ::Mono::Xml::__Sma
   return static_cast<::Mono::Xml::__SmallXmlParser__IAttrList*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& Mono::Xml::__SmallXmlParser__AttrListImpl::__get_attrNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrNames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& Mono::Xml::__SmallXmlParser__AttrListImpl::__get_attrNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrNames;
 }
 constexpr void Mono::Xml::__SmallXmlParser__AttrListImpl::__set_attrNames(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attrNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::StringW>*& Mono::Xml::__SmallXmlParser__AttrListImpl::__get_attrValues() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrValues;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& Mono::Xml::__SmallXmlParser__AttrListImpl::__get_attrValues() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrValues;
 }
 constexpr void Mono::Xml::__SmallXmlParser__AttrListImpl::__set_attrValues(::System::Collections::Generic::List_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attrValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t Mono::Xml::__SmallXmlParser__AttrListImpl::get_Length() {
@@ -794,147 +794,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler*& Mono::Xml::SmallXmlParser::__get_handler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Xml::__SmallXmlParser__IContentHandler*> const& Mono::Xml::SmallXmlParser::__get_handler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handler;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_handler(::Mono::Xml::__SmallXmlParser__IContentHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::TextReader*& Mono::Xml::SmallXmlParser::__get_reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& Mono::Xml::SmallXmlParser::__get_reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_reader(::System::IO::TextReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Stack*& Mono::Xml::SmallXmlParser::__get_elementNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementNames;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& Mono::Xml::SmallXmlParser::__get_elementNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementNames;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_elementNames(::System::Collections::Stack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elementNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Stack*& Mono::Xml::SmallXmlParser::__get_xmlSpaces() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSpaces;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& Mono::Xml::SmallXmlParser::__get_xmlSpaces() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSpaces;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_xmlSpaces(::System::Collections::Stack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlSpaces)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Mono::Xml::SmallXmlParser::__get_xmlSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSpace;
 }
 constexpr ::StringW const& Mono::Xml::SmallXmlParser::__get_xmlSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xmlSpace;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_xmlSpace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xmlSpace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& Mono::Xml::SmallXmlParser::__get_buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& Mono::Xml::SmallXmlParser::__get_buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_buffer(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Mono::Xml::SmallXmlParser::__get_nameBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameBuffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Mono::Xml::SmallXmlParser::__get_nameBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameBuffer;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_nameBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nameBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Xml::SmallXmlParser::__get_isWhitespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isWhitespace;
 }
 constexpr bool const& Mono::Xml::SmallXmlParser::__get_isWhitespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isWhitespace;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_isWhitespace(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isWhitespace = value;
 }
 constexpr ::Mono::Xml::__SmallXmlParser__AttrListImpl*& Mono::Xml::SmallXmlParser::__get_attributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Xml::__SmallXmlParser__AttrListImpl*> const& Mono::Xml::SmallXmlParser::__get_attributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_attributes(::Mono::Xml::__SmallXmlParser__AttrListImpl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Mono::Xml::SmallXmlParser::__get_line() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___line;
 }
 constexpr int32_t const& Mono::Xml::SmallXmlParser::__get_line() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___line;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_line(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___line = value;
 }
 constexpr int32_t& Mono::Xml::SmallXmlParser::__get_column() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
 constexpr int32_t const& Mono::Xml::SmallXmlParser::__get_column() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_column(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___column = value;
 }
 constexpr bool& Mono::Xml::SmallXmlParser::__get_resetColumn() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetColumn;
 }
 constexpr bool const& Mono::Xml::SmallXmlParser::__get_resetColumn() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetColumn;
 }
 constexpr void Mono::Xml::SmallXmlParser::__set_resetColumn(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetColumn = value;
 }
 inline ::Mono::Xml::SmallXmlParser* Mono::Xml::SmallXmlParser::New_ctor() {

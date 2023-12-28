@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__SonyPublisherSKUSettingsSO_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS4ApplicationCategory_def.hpp"
+#include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion.get_masterVersion
 template <>
 
@@ -51,27 +51,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__get__masterVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
 constexpr ::StringW const& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__get__masterVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
 constexpr void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__set__masterVersion(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__get__applicationVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationVersion;
 }
 constexpr ::StringW const& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__get__applicationVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationVersion;
 }
 constexpr void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__set__applicationVersion(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____applicationVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_masterVersion() {
@@ -195,75 +195,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__buildVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildVersion;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*> const& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__buildVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildVersion;
 }
 constexpr void GlobalNamespace::PS4PublisherSKUSettingsSO::__set__buildVersion(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buildVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__latestBuildVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latestBuildVersion;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*> const& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__latestBuildVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latestBuildVersion;
 }
 constexpr void GlobalNamespace::PS4PublisherSKUSettingsSO::__set__latestBuildVersion(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____latestBuildVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__parentalLockLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentalLockLevel;
 }
 constexpr int32_t const& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__parentalLockLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentalLockLevel;
 }
 constexpr void GlobalNamespace::PS4PublisherSKUSettingsSO::__set__parentalLockLevel(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____parentalLockLevel = value;
 }
 constexpr ::StringW& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__npTitleFilenamePath() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____npTitleFilenamePath;
 }
 constexpr ::StringW const& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__npTitleFilenamePath() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____npTitleFilenamePath;
 }
 constexpr void GlobalNamespace::PS4PublisherSKUSettingsSO::__set__npTitleFilenamePath(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____npTitleFilenamePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__defaultAgeRestriction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAgeRestriction;
 }
 constexpr int32_t const& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__defaultAgeRestriction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAgeRestriction;
 }
 constexpr void GlobalNamespace::PS4PublisherSKUSettingsSO::__set__defaultAgeRestriction(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultAgeRestriction = value;
 }
 constexpr ::GlobalNamespace::PS4ApplicationCategory& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__applicationCategory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationCategory;
 }
 constexpr ::GlobalNamespace::PS4ApplicationCategory const& GlobalNamespace::PS4PublisherSKUSettingsSO::__get__applicationCategory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationCategory;
 }
 constexpr void GlobalNamespace::PS4PublisherSKUSettingsSO::__set__applicationCategory(::GlobalNamespace::PS4ApplicationCategory value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____applicationCategory = value;
 }
 inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* GlobalNamespace::PS4PublisherSKUSettingsSO::get_buildVersion() {

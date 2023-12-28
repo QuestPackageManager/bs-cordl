@@ -16,67 +16,67 @@ namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine {
-struct __Camera__RenderRequestOutputSpace;
-}
-namespace UnityEngine {
-struct StereoTargetEyeMask;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
+struct Color;
 }
 namespace UnityEngine {
 struct __Camera__RenderRequest;
 }
 namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct RenderingPath;
+struct CameraClearFlags;
 }
 namespace UnityEngine {
 struct __Camera__MonoOrStereoscopicEye;
 }
 namespace UnityEngine {
-class __Camera__CameraCallback;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct DepthTextureMode;
-}
-namespace UnityEngine {
-struct __Camera__StereoscopicEye;
+class RenderTexture;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct Vector4;
+struct StereoTargetEyeMask;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequestOutputSpace;
 }
 namespace UnityEngine {
 struct __Camera__RenderRequestMode;
 }
 namespace UnityEngine {
-class RenderTexture;
+struct Vector4;
 }
 namespace UnityEngine {
-struct CameraClearFlags;
+struct Vector2;
+}
+namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace UnityEngine {
+struct DepthTextureMode;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+class __Camera__CameraCallback;
+}
+namespace UnityEngine {
+struct RenderingPath;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+struct __Camera__StereoscopicEye;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace System {
 class Object;
@@ -391,7 +391,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Camera__RenderReq
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10153)), TypeDefinitionIndex(TypeDefinitionIndex(10154))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10154)), TypeDefinitionIndex(TypeDefinitionIndex(10153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10155))
 // CS Name: ::Camera::RenderRequest
 struct CORDL_TYPE __Camera__RenderRequest {

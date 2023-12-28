@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UTF32Encoding)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class DecoderNLS;
-}
-namespace System::Text {
-class Decoder;
-}
 namespace System::Text {
 class Encoder;
 }
 namespace System {
 class Object;
 }
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
 namespace System::Text {
 class __UTF32Encoding__UTF32Decoder;
 }
 namespace System::Text {
 class EncoderNLS;
+}
+namespace System::Text {
+class DecoderNLS;
+}
+namespace System::Text {
+class Decoder;
 }
 // Forward declare root types
 namespace System::Text {

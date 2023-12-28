@@ -15,11 +15,11 @@ class CmsReadable;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

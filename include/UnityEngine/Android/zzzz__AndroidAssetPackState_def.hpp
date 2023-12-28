@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AndroidAssetPackState)
 namespace UnityEngine::Android {
-struct AndroidAssetPackStatus;
+struct AndroidAssetPackError;
 }
 namespace UnityEngine::Android {
-struct AndroidAssetPackError;
+struct AndroidAssetPackStatus;
 }
 // Forward declare root types
 namespace UnityEngine::Android {

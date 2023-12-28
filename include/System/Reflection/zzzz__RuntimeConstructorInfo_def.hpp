@@ -10,55 +10,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeConstructorInfo)
 namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-struct RuntimeMethodHandle;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
 struct MethodImplAttributes;
 }
 namespace System::Reflection {
 struct CallingConventions;
 }
 namespace System::Reflection {
-class Module;
+struct BindingFlags;
 }
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System {
-class Exception;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Reflection {
+class Binder;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class RuntimeModule;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+namespace System::Reflection {
 class ParameterInfo;
+}
+namespace System::Reflection {
+struct MethodAttributes;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 class RuntimeType;
+}
+namespace System {
+struct RuntimeMethodHandle;
 }
 // Forward declare root types
 namespace System::Reflection {

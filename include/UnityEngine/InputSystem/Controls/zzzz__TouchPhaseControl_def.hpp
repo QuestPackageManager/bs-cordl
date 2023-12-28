@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchPhaseControl);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3895 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6287))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6642)) CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3895 }), TypeDefinitionIndex(TypeDefinitionIndex(6287)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6642)) CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
 class CORDL_TYPE TouchPhaseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase> {
 public:
   // Declarations

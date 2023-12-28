@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ClientIdentity)
 namespace System {
-class Type;
+class WeakReference;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
 namespace System {
-class WeakReference;
+class MarshalByRefObject;
 }
 namespace System {
-class MarshalByRefObject;
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalSubscription)
 namespace System {
-class IDisposable;
+template <typename T> class Action_1;
+}
+namespace Zenject {
+struct BindingId;
 }
 namespace Zenject {
 class __SignalSubscription__Pool;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TParam1, typename TParam2> class IPoolable_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace Zenject {
 class SignalDeclaration;
 }
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System {
 class Object;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2> class IPoolable_2;
-}
-namespace Zenject {
-struct BindingId;
 }
 // Forward declare root types
 namespace Zenject {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Zenject::__SignalSubscription__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10661))
 // CS Name: ::Zenject::SignalSubscription*
 class CORDL_TYPE SignalSubscription : public ::System::Object {
@@ -167,8 +167,8 @@ static_assert(::cordl_internals::size_check_v<::Zenject::SignalSubscription, 0x3
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(10659)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10661)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11067)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10661)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11067)), TypeDefinitionIndex(TypeDefinitionIndex(10659)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11067), inst: 3502 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10660)) CS Name: ::SignalSubscription::Pool*
 class CORDL_TYPE __SignalSubscription__Pool : public ::Zenject::PoolableMemoryPool_3<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*, ::Zenject::SignalSubscription*> {
 public:

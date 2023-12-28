@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IPrefabInstantiator)
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Type;
 }
 namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace Zenject {

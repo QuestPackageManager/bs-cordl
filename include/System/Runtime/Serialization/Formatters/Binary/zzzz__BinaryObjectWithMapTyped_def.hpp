@@ -12,13 +12,13 @@ namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;

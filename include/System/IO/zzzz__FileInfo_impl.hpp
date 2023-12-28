@@ -1,10 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__FileSystemInfo_impl.hpp"
 #include "System/IO/zzzz__FileInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/IO/zzzz__StreamWriter_def.hpp"
-#include "System/IO/zzzz__FileStream_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/IO/zzzz__FileStream_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::IO::FileInfo._ctor
 template <>
 

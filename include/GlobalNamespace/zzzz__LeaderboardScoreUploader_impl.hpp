@@ -4,17 +4,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData.get_playerId
@@ -329,147 +329,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__playerId_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerId_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__playerId_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerId_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__playerId_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IDifficultyBeatmap*& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__beatmap_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmap_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__beatmap_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmap_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__beatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmap_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__gameplayModifiers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__gameplayModifiers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__multipliedScore_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multipliedScore_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__multipliedScore_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multipliedScore_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__multipliedScore_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multipliedScore_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__modifiedScore_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiedScore_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__modifiedScore_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiedScore_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__modifiedScore_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifiedScore_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__fullCombo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullCombo_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__fullCombo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullCombo_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__fullCombo_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fullCombo_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__goodCutsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__goodCutsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__goodCutsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goodCutsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__badCutsCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutsCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__badCutsCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutsCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__badCutsCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____badCutsCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__missedCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedCount_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__missedCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedCount_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__missedCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missedCount_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__maxCombo_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCombo_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get__maxCombo_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCombo_k__BackingField;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set__maxCombo_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxCombo_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get_uploadAttemptCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uploadAttemptCount;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get_uploadAttemptCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uploadAttemptCount;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set_uploadAttemptCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___uploadAttemptCount = value;
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get_currentUploadAttemptCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentUploadAttemptCount;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__get_currentUploadAttemptCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentUploadAttemptCount;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoreData::__set_currentUploadAttemptCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentUploadAttemptCount = value;
 }
 inline ::StringW GlobalNamespace::__LeaderboardScoreUploader__ScoreData::get_playerId() {
@@ -622,16 +622,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData::__get_scores() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scores;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const&
 GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData::__get_scores() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scores;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData::__set_scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scores)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData* GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData::New_ctor() {
@@ -782,28 +782,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*& GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::__get_scoreData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoreData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*> const&
 GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::__get_scoreData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoreData;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::__set_scoreData(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scoreData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LeaderboardScoreUploader*& GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardScoreUploader*> const& GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::__set___4__this(::GlobalNamespace::LeaderboardScoreUploader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0* GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0::New_ctor() {
@@ -926,39 +926,39 @@ constexpr GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LeaderboardScoreUploader*& GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardScoreUploader*> const& GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::__set___4__this(::GlobalNamespace::LeaderboardScoreUploader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16* GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16::New_ctor(int32_t __1__state) {
@@ -1161,91 +1161,91 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action*& GlobalNamespace::LeaderboardScoreUploader::__get_allScoresDidUploadEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allScoresDidUploadEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::LeaderboardScoreUploader::__get_allScoresDidUploadEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allScoresDidUploadEvent;
 }
 constexpr void GlobalNamespace::LeaderboardScoreUploader::__set_allScoresDidUploadEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allScoresDidUploadEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& GlobalNamespace::LeaderboardScoreUploader::__get__scoresToUpload() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoresToUpload;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const&
 GlobalNamespace::LeaderboardScoreUploader::__get__scoresToUpload() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoresToUpload;
 }
 constexpr void GlobalNamespace::LeaderboardScoreUploader::__set__scoresToUpload(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoresToUpload)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& GlobalNamespace::LeaderboardScoreUploader::__get__scoresToUploadForCurrentPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoresToUploadForCurrentPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const&
 GlobalNamespace::LeaderboardScoreUploader::__get__scoresToUploadForCurrentPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoresToUploadForCurrentPlayer;
 }
 constexpr void
 GlobalNamespace::LeaderboardScoreUploader::__set__scoresToUploadForCurrentPlayer(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoresToUploadForCurrentPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*& GlobalNamespace::LeaderboardScoreUploader::__get__uploadScoreCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uploadScoreCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*> const&
 GlobalNamespace::LeaderboardScoreUploader::__get__uploadScoreCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uploadScoreCallback;
 }
 constexpr void GlobalNamespace::LeaderboardScoreUploader::__set__uploadScoreCallback(::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uploadScoreCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::LeaderboardScoreUploader::__get__playerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerId;
 }
 constexpr ::StringW const& GlobalNamespace::LeaderboardScoreUploader::__get__playerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerId;
 }
 constexpr void GlobalNamespace::LeaderboardScoreUploader::__set__playerId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::LeaderboardScoreUploader::__get__uploading() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uploading;
 }
 constexpr bool const& GlobalNamespace::LeaderboardScoreUploader::__get__uploading() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uploading;
 }
 constexpr void GlobalNamespace::LeaderboardScoreUploader::__set__uploading(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____uploading = value;
 }
 constexpr ::GlobalNamespace::ISaveData*& GlobalNamespace::LeaderboardScoreUploader::__get__saveData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saveData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& GlobalNamespace::LeaderboardScoreUploader::__get__saveData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saveData;
 }
 constexpr void GlobalNamespace::LeaderboardScoreUploader::__set__saveData(::GlobalNamespace::ISaveData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent(::System::Action* value) {

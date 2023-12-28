@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JsonObjectAttribute)
 namespace Newtonsoft::Json {
-struct MemberSerialization;
+struct Required;
 }
 namespace Newtonsoft::Json {
-struct Required;
+struct MemberSerialization;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -24,9 +24,9 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonObjectAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11815)), TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(11821))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11818)) CS Name: ::Newtonsoft.Json::JsonObjectAttribute*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11815)), TypeDefinitionIndex(TypeDefinitionIndex(11821)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4756 }), TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11818)) CS Name:
+// ::Newtonsoft.Json::JsonObjectAttribute*
 class CORDL_TYPE JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations

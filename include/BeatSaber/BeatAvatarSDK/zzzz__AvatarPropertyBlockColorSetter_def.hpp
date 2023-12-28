@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarPropertyBlockColorSetter)
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15688))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPropertyBlockColorSetter*
 class CORDL_TYPE AvatarPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {

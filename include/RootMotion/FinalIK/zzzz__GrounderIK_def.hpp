@@ -15,10 +15,10 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class Transform;
+class Rigidbody;
 }
 namespace UnityEngine {
-class Rigidbody;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderIK);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12522))
 // CS Name: ::RootMotion.FinalIK::GrounderIK*
 class CORDL_TYPE GrounderIK : public ::RootMotion::FinalIK::Grounder {

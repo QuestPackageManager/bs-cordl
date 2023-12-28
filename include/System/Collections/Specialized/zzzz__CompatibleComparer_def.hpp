@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompatibleComparer)
 namespace System::Collections {
-class IHashCodeProvider;
+class IEqualityComparer;
 }
 namespace System::Collections {
-class IComparer;
+class IHashCodeProvider;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class IComparer;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {

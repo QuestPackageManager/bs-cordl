@@ -44,27 +44,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::Sockets::LingerOption::__get_enabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabled;
 }
 constexpr bool const& System::Net::Sockets::LingerOption::__get_enabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enabled;
 }
 constexpr void System::Net::Sockets::LingerOption::__set_enabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enabled = value;
 }
 constexpr int32_t& System::Net::Sockets::LingerOption::__get_lingerTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lingerTime;
 }
 constexpr int32_t const& System::Net::Sockets::LingerOption::__get_lingerTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lingerTime;
 }
 constexpr void System::Net::Sockets::LingerOption::__set_lingerTime(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lingerTime = value;
 }
 inline ::System::Net::Sockets::LingerOption* System::Net::Sockets::LingerOption::New_ctor(bool enable, int32_t seconds) {

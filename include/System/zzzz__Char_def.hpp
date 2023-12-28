@@ -10,40 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Char)
 namespace System {
-class Type;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System {
-struct TypeCode;
+class IConvertible;
 }
 namespace System {
 struct Decimal;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 namespace System::Globalization {
 struct UnicodeCategory;
 }
 namespace System {
+struct DateTime;
+}
+namespace System {
 class IFormatProvider;
 }
 namespace System {
-template <typename T> class IComparable_1;
+class IComparable;
 }
 namespace System {
-struct DateTime;
+class Type;
 }
 // Forward declare root types
 namespace System {

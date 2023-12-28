@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DerSetParser)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SetParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

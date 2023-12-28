@@ -18,106 +18,106 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MobileAuthenticatedStream)
 namespace Mono::Net::Security {
-class AsyncProtocolRequest;
-}
-namespace Mono::Net::Security {
 struct __MobileAuthenticatedStream__OperationType;
 }
-namespace Mono::Net::Security {
-struct __MobileAuthenticatedStream___ProcessAuthentication_d__48;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace Mono::Net::Security {
-class MonoSslAuthenticationOptions;
+class AsyncProtocolRequest;
 }
 namespace Mono::Net::Security {
-class MobileTlsProvider;
+struct __MobileAuthenticatedStream___InnerWrite_d__67;
 }
 namespace Mono::Net::Security {
-class BufferOffsetSize2;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Mono::Net::Security {
-struct AsyncOperationStatus;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace Mono::Net::Security {
-struct __MobileAuthenticatedStream___StartOperation_d__57;
-}
-namespace System {
-class Exception;
-}
-namespace Mono::Net::Security {
-class BufferOffsetSize;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+class __MobileAuthenticatedStream____c__DisplayClass66_0;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace Mono::Net::Security {
-struct __MobileAuthenticatedStream___InnerRead_d__66;
-}
-namespace Mono::Net::Security {
-struct __MobileAuthenticatedStream__Operation;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace Mono::Net::Security {
-struct __MobileAuthenticatedStream___InnerWrite_d__67;
-}
-namespace System::Net::Security {
-class SslStream;
-}
-namespace System::Threading::Tasks {
-class Task;
+class BufferOffsetSize;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+class Object;
 }
 namespace Mono::Net::Security {
 class MobileTlsContext;
 }
 namespace Mono::Net::Security {
-class __MobileAuthenticatedStream____c__DisplayClass66_0;
+struct __MobileAuthenticatedStream__Operation;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+namespace Mono::Net::Security {
+class MonoSslAuthenticationOptions;
+}
+namespace Mono::Net::Security {
+struct __MobileAuthenticatedStream___InnerRead_d__66;
+}
+namespace Mono::Net::Security {
+class BufferOffsetSize2;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System {
+class Exception;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Mono::Net::Security {
+struct __MobileAuthenticatedStream___ProcessAuthentication_d__48;
+}
+namespace Mono::Net::Security {
+struct AsyncOperationStatus;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace Mono::Net::Security {
+struct __MobileAuthenticatedStream___StartOperation_d__57;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace Mono::Net::Security {
 class AsyncProtocolResult;
@@ -284,9 +284,9 @@ static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::__MobileAut
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875 }), TypeDefinitionIndex(TypeDefinitionIndex(8818)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8831))
-// CS Name: ::MobileAuthenticatedStream::<ProcessAuthentication>d__48
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(8818))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8831)) CS Name:
+// ::MobileAuthenticatedStream::<ProcessAuthentication>d__48
 struct CORDL_TYPE __MobileAuthenticatedStream___ProcessAuthentication_d__48 {
 public:
   // Declarations
@@ -347,9 +347,10 @@ static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::__MobileAut
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875 }), TypeDefinitionIndex(TypeDefinitionIndex(8818)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(8830)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8832)) CS Name: ::MobileAuthenticatedStream::<StartOperation>d__57
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(8818)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8830)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 875 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8832)) CS Name:
+// ::MobileAuthenticatedStream::<StartOperation>d__57
 struct CORDL_TYPE __MobileAuthenticatedStream___StartOperation_d__57 {
 public:
   // Declarations
@@ -473,9 +474,9 @@ static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::__MobileAut
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8834)) CS
-// Name: ::MobileAuthenticatedStream::<InnerRead>d__66
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8834))
+// CS Name: ::MobileAuthenticatedStream::<InnerRead>d__66
 struct CORDL_TYPE __MobileAuthenticatedStream___InnerRead_d__66 {
 public:
   // Declarations
@@ -535,7 +536,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::__MobileAut
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8835))
 // CS Name: ::MobileAuthenticatedStream::<InnerWrite>d__67
 struct CORDL_TYPE __MobileAuthenticatedStream___InnerWrite_d__67 {

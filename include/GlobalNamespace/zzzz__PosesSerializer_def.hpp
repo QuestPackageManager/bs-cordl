@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PosesSerializer)
 namespace GlobalNamespace {
-class RecordingConverter;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
+class PosesRecordingData;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class __PosesRecordingData__TransformsKeyframe;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-class __PosesRecordingData__TransformsKeyframe;
+class RecordingConverter;
 }
 namespace GlobalNamespace {
 class PosesRecordingInfoSaveData;

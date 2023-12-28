@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__GUILayoutEntry_impl.hpp"
 #include "UnityEngine/zzzz__GUIWordWrapSizer_def.hpp"
+#include "UnityEngine/zzzz__GUIContent_def.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
-#include "UnityEngine/zzzz__GUIContent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GUIWordWrapSizer._ctor
 template <>
 
@@ -50,39 +50,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::GUIContent*& UnityEngine::GUIWordWrapSizer::__get_m_Content() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Content;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& UnityEngine::GUIWordWrapSizer::__get_m_Content() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Content;
 }
 constexpr void UnityEngine::GUIWordWrapSizer::__set_m_Content(::UnityEngine::GUIContent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::GUIWordWrapSizer::__get_m_ForcedMinHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForcedMinHeight;
 }
 constexpr float_t const& UnityEngine::GUIWordWrapSizer::__get_m_ForcedMinHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForcedMinHeight;
 }
 constexpr void UnityEngine::GUIWordWrapSizer::__set_m_ForcedMinHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForcedMinHeight = value;
 }
 constexpr float_t& UnityEngine::GUIWordWrapSizer::__get_m_ForcedMaxHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForcedMaxHeight;
 }
 constexpr float_t const& UnityEngine::GUIWordWrapSizer::__get_m_ForcedMaxHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForcedMaxHeight;
 }
 constexpr void UnityEngine::GUIWordWrapSizer::__set_m_ForcedMaxHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForcedMaxHeight = value;
 }
 inline ::UnityEngine::GUIWordWrapSizer* UnityEngine::GUIWordWrapSizer::New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,

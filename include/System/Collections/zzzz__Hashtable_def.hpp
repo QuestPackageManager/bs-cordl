@@ -9,65 +9,65 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hashtable)
-namespace System {
-class ICloneable;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
-class IEnumerable;
+class __Hashtable__SyncHashtable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class __Hashtable__KeyCollection;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Collections {
-class __Hashtable__ValueCollection;
-}
-namespace System::Collections {
-class __Hashtable__SyncHashtable;
+class SerializationInfo;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections {
-class __Hashtable__HashtableEnumerator;
+namespace System {
+class Array;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Collections {
+class __Hashtable__HashtableEnumerator;
+}
+namespace System::Collections {
+class __Hashtable__HashtableDebugView;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 struct __Hashtable__bucket;
 }
 namespace System {
-class Object;
-}
-namespace System {
-class Array;
+class ICloneable;
 }
 namespace System::Collections {
-class __Hashtable__HashtableDebugView;
+class __Hashtable__ValueCollection;
 }
 namespace System::Collections {
 struct DictionaryEntry;

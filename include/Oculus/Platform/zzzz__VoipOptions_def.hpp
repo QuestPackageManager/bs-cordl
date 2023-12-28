@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VoipOptions)
 namespace Oculus::Platform {
-struct VoipBitrate;
+struct VoipDtxState;
 }
 namespace Oculus::Platform {
-struct VoipDtxState;
+struct VoipBitrate;
 }
 // Forward declare root types
 namespace Oculus::Platform {

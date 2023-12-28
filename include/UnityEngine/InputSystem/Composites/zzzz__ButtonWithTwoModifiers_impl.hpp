@@ -81,51 +81,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_modifier1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier1;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_modifier1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier1;
 }
 constexpr void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__set_modifier1(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifier1 = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_modifier2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier2;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_modifier2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier2;
 }
 constexpr void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__set_modifier2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifier2 = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_button() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___button;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_button() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___button;
 }
 constexpr void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__set_button(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___button = value;
 }
 constexpr bool& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_overrideModifiersNeedToBePressedFirst() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideModifiersNeedToBePressedFirst;
 }
 constexpr bool const& UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__get_overrideModifiersNeedToBePressedFirst() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideModifiersNeedToBePressedFirst;
 }
 constexpr void UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::__set_overrideModifiersNeedToBePressedFirst(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideModifiersNeedToBePressedFirst = value;
 }
 inline float_t UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {

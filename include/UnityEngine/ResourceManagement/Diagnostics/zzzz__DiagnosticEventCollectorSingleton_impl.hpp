@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
-#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c._ctor
 template <>
@@ -258,83 +258,83 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*&
 UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_CreatedEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreatedEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const&
 UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_CreatedEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreatedEvents;
 }
 constexpr void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__set_m_CreatedEvents(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CreatedEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*&
 UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_UnhandledEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnhandledEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const&
 UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_UnhandledEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnhandledEvents;
 }
 constexpr void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__set_m_UnhandledEvents(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UnhandledEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*&
 UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_s_EventHandlers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s_EventHandlers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const&
 UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_s_EventHandlers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s_EventHandlers;
 }
 constexpr void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__set_s_EventHandlers(
     ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___s_EventHandlers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_lastTickSent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastTickSent;
 }
 constexpr float_t const& UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_lastTickSent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastTickSent;
 }
 constexpr void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__set_m_lastTickSent(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_lastTickSent = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_lastFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastFrame;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_m_lastFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastFrame;
 }
 constexpr void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__set_m_lastFrame(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_lastFrame = value;
 }
 constexpr float_t& UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_fpsAvg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fpsAvg;
 }
 constexpr float_t const& UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__get_fpsAvg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fpsAvg;
 }
 constexpr void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::__set_fpsAvg(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fpsAvg = value;
 }
 inline void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::setStaticF_s_editorConnectionGuid(::System::Guid value) {

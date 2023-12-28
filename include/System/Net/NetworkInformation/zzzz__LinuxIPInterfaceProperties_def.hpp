@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(LinuxIPInterfaceProperties)
 namespace System::Net::NetworkInformation {
 class GatewayIPAddressInformationCollection;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Net::NetworkInformation {
-class IPAddressCollection;
+class LinuxNetworkInterface;
 }
 namespace System::Net {
 class IPAddress;
 }
 namespace System::Net::NetworkInformation {
-class LinuxNetworkInterface;
+class IPAddressCollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

@@ -13,13 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayerEntitlementChecker)
 namespace GlobalNamespace {
-struct EntitlementsStatus;
-}
-namespace GlobalNamespace {
-struct __NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__6;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
 struct __NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__5;
@@ -28,10 +22,13 @@ namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
-class IMenuRpcManager;
+struct EntitlementsStatus;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct __NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__6;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -41,6 +38,9 @@ struct EntitlementStatus;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -63,7 +63,7 @@ MARK_VAL_T(::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEnt
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12727)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12727)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 881 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14963)) CS Name:
 // ::NetworkPlayerEntitlementChecker::<HandleGetIsEntitledToLevel>d__5
 struct CORDL_TYPE __NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__5 {
@@ -118,9 +118,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkPlayer
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 881
-// }), TypeDefinitionIndex(TypeDefinitionIndex(12727)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14964)) CS Name: ::NetworkPlayerEntitlementChecker::<GetEntitlementStatus>d__6
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12727)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 881 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14964)) CS Name: ::NetworkPlayerEntitlementChecker::<GetEntitlementStatus>d__6
 struct CORDL_TYPE __NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__6 {
 public:
   // Declarations

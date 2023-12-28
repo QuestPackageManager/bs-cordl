@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CmsCompressedDataGenerator)
 namespace Org::BouncyCastle::Cms {
-class CmsCompressedData;
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+class CmsCompressedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(WheelEvent)
-namespace UnityEngine {
-class Event;
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::UIElements {
-class IPointerEvent;
+namespace UnityEngine {
+class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::WheelEvent);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4650 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7215))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7220)) CS Name: ::UnityEngine.UIElements::WheelEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4650 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7220)) CS Name: ::UnityEngine.UIElements::WheelEvent*
 class CORDL_TYPE WheelEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::WheelEvent*> {
 public:
   // Declarations

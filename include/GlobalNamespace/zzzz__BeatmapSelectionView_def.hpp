@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(BeatmapSelectionView)
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
-namespace GlobalNamespace {
-class LevelBar;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class LevelBar;
 }
 // Forward declare root types
 namespace GlobalNamespace {

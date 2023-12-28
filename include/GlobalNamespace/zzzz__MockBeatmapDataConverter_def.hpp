@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockBeatmapDataConverter)
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
 class MockObstacleData;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace GlobalNamespace {
-class __MockBeatmapDataConverter____c;
-}
-namespace GlobalNamespace {
-class MockNoteData;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
+class __MockBeatmapDataConverter____c;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
 class ObstacleData;
+}
+namespace GlobalNamespace {
+class MockNoteData;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -5,14 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabFactory_3)
-namespace UnityEngine {
-class Object;
-}
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
-}
-namespace System {
-class Object;
 }
 namespace Zenject {
 class IFactory;
@@ -22,6 +16,12 @@ class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

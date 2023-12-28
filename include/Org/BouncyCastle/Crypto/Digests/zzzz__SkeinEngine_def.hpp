@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkeinEngine)
-namespace Org::BouncyCastle::Crypto::Engines {
-class ThreefishEngine;
-}
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
 }
 namespace Org::BouncyCastle::Crypto::Digests {
 class __SkeinEngine__UBI;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 namespace Org::BouncyCastle::Crypto::Digests {
 class __SkeinEngine__Parameter;
@@ -23,13 +23,13 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__Configuration;
+class __SkeinEngine__UbiTweak;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SkeinParameters;
+namespace Org::BouncyCastle::Crypto::Engines {
+class ThreefishEngine;
 }
 namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__UbiTweak;
+class __SkeinEngine__Configuration;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisRigidbodyPhysics_def.hpp"
-#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSimplePhysics_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteDebrisRigidbodyPhysics.get_position
 template <>
@@ -77,39 +77,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Rigidbody*& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__rigidbody() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rigidbody;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__rigidbody() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rigidbody;
 }
 constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__set__rigidbody(::UnityEngine::Rigidbody* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rigidbody)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteDebrisSimplePhysics*& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__simplePhysics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simplePhysics;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebrisSimplePhysics*> const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__simplePhysics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simplePhysics;
 }
 constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__set__simplePhysics(::GlobalNamespace::NoteDebrisSimplePhysics* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____simplePhysics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__firstUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstUpdate;
 }
 constexpr bool const& GlobalNamespace::NoteDebrisRigidbodyPhysics::__get__firstUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstUpdate;
 }
 constexpr void GlobalNamespace::NoteDebrisRigidbodyPhysics::__set__firstUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstUpdate = value;
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::NoteDebrisRigidbodyPhysics::get_position() {

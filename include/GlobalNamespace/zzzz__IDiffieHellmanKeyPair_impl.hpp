@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IDiffieHellmanKeyPair.get_publicKey
 template <>
 

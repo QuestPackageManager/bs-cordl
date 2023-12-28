@@ -7,14 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsSignedGenerator)
-namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -23,7 +17,7 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+class SignerIdentifier;
 }
 namespace System::Collections {
 class IList;
@@ -31,17 +25,23 @@ class IList;
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
+}
 namespace Org::BouncyCastle::Cms {
 class SignerInformation;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

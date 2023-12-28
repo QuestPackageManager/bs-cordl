@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(ECGost3410Signer)
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDsaExt;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

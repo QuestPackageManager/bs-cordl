@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationData_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData.get_BuildTarget
 template <>
@@ -352,153 +352,153 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_buildTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_buildTarget;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_buildTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_buildTarget;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_buildTarget(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_buildTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_SettingsHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SettingsHash;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_SettingsHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SettingsHash;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_SettingsHash(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SettingsHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*&
 UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_CatalogLocations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CatalogLocations;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*> const&
 UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_CatalogLocations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CatalogLocations;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_CatalogLocations(
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CatalogLocations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_ProfileEvents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProfileEvents;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_ProfileEvents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProfileEvents;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_ProfileEvents(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ProfileEvents = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_LogResourceManagerExceptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LogResourceManagerExceptions;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_LogResourceManagerExceptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LogResourceManagerExceptions;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_LogResourceManagerExceptions(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LogResourceManagerExceptions = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*&
 UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_ExtraInitializationData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExtraInitializationData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*> const&
 UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_ExtraInitializationData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExtraInitializationData;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_ExtraInitializationData(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ExtraInitializationData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_DisableCatalogUpdateOnStart() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DisableCatalogUpdateOnStart;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_DisableCatalogUpdateOnStart() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DisableCatalogUpdateOnStart;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_DisableCatalogUpdateOnStart(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DisableCatalogUpdateOnStart = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_IsLocalCatalogInBundle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsLocalCatalogInBundle;
 }
 constexpr bool const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_IsLocalCatalogInBundle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsLocalCatalogInBundle;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_IsLocalCatalogInBundle(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsLocalCatalogInBundle = value;
 }
 constexpr ::UnityEngine::ResourceManagement::Util::SerializedType& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_CertificateHandlerType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CertificateHandlerType;
 }
 constexpr ::UnityEngine::ResourceManagement::Util::SerializedType const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_CertificateHandlerType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CertificateHandlerType;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_CertificateHandlerType(::UnityEngine::ResourceManagement::Util::SerializedType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CertificateHandlerType = value;
 }
 constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_AddressablesVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddressablesVersion;
 }
 constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_AddressablesVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddressablesVersion;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_AddressablesVersion(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AddressablesVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_maxConcurrentWebRequests() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxConcurrentWebRequests;
 }
 constexpr int32_t const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_maxConcurrentWebRequests() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_maxConcurrentWebRequests;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_maxConcurrentWebRequests(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_maxConcurrentWebRequests = value;
 }
 constexpr int32_t& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_CatalogRequestsTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CatalogRequestsTimeout;
 }
 constexpr int32_t const& UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__get_m_CatalogRequestsTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CatalogRequestsTimeout;
 }
 constexpr void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::__set_m_CatalogRequestsTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CatalogRequestsTimeout = value;
 }
 inline ::StringW UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_BuildTarget() {

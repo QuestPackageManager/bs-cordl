@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SystemInfo)
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
-}
-namespace UnityEngine {
-struct OperatingSystemFamily;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct FormatUsage;
-}
-namespace UnityEngine::Rendering {
-struct GraphicsDeviceType;
-}
 namespace UnityEngine {
 struct DeviceType;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
+struct FormatUsage;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
 }
 namespace UnityEngine {
+struct OperatingSystemFamily;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct DefaultFormat;
+}
+namespace UnityEngine {
 struct TextureFormat;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
+namespace UnityEngine::Rendering {
+struct GraphicsDeviceType;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -8,55 +8,55 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FilteredBeatmapLevel)
 namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IFilePathSongAudioClipProvider;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class IAssetSongAudioClipProvider;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
 }
-namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class __FilteredBeatmapLevel__FilteredBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;

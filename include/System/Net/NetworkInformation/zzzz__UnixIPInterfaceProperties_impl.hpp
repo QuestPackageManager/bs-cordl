@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::UnixIPInterfaceProperties._ctor
 template <>
 
@@ -40,28 +40,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::NetworkInformation::UnixNetworkInterface*& System::Net::NetworkInformation::UnixIPInterfaceProperties::__get_iface() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::UnixNetworkInterface*> const& System::Net::NetworkInformation::UnixIPInterfaceProperties::__get_iface() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface;
 }
 constexpr void System::Net::NetworkInformation::UnixIPInterfaceProperties::__set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& System::Net::NetworkInformation::UnixIPInterfaceProperties::__get_addresses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const&
 System::Net::NetworkInformation::UnixIPInterfaceProperties::__get_addresses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
 constexpr void System::Net::NetworkInformation::UnixIPInterfaceProperties::__set_addresses(::System::Collections::Generic::List_1<::System::Net::IPAddress*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___addresses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::NetworkInformation::UnixIPInterfaceProperties::setStaticF_ns(::System::Text::RegularExpressions::Regex* value) {

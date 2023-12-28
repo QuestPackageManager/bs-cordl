@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TMP_ListPool_1)
+namespace TMPro {
+template <typename T> class TMP_ObjectPool_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace TMPro {
 template <typename T> class __TMP_ListPool_1____c;
-}
-namespace TMPro {
-template <typename T> class TMP_ObjectPool_1;
 }
 // Forward declare root types
 namespace TMPro {

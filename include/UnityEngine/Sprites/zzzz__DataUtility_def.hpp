@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DataUtility)
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::Sprites {

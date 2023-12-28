@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelPackSO)
+namespace UnityEngine {
+class Sprite;
+}
 namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
 }
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IBeatmapLevelPack;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
 }
 // Forward declare root types
 namespace GlobalNamespace {

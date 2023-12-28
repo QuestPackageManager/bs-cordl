@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
 //  Writing Method size for method: ::VRUIControls::VRPointer.get_lastSelectedVrController
 template <>
 
@@ -289,243 +289,243 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::VRController*& VRUIControls::VRPointer::__get__leftVRController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftVRController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& VRUIControls::VRPointer::__get__leftVRController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftVRController;
 }
 constexpr void VRUIControls::VRPointer::__set__leftVRController(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftVRController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VRController*& VRUIControls::VRPointer::__get__rightVRController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightVRController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& VRUIControls::VRPointer::__get__rightVRController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightVRController;
 }
 constexpr void VRUIControls::VRPointer::__set__rightVRController(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightVRController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::VRUIControls::VRLaserPointer*& VRUIControls::VRPointer::__get__laserPointerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____laserPointerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRLaserPointer*> const& VRUIControls::VRPointer::__get__laserPointerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____laserPointerPrefab;
 }
 constexpr void VRUIControls::VRPointer::__set__laserPointerPrefab(::VRUIControls::VRLaserPointer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____laserPointerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& VRUIControls::VRPointer::__get__cursorPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursorPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& VRUIControls::VRPointer::__get__cursorPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursorPrefab;
 }
 constexpr void VRUIControls::VRPointer::__set__cursorPrefab(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cursorPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& VRUIControls::VRPointer::__get__defaultLaserPointerLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLaserPointerLength;
 }
 constexpr float_t const& VRUIControls::VRPointer::__get__defaultLaserPointerLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultLaserPointerLength;
 }
 constexpr void VRUIControls::VRPointer::__set__defaultLaserPointerLength(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultLaserPointerLength = value;
 }
 constexpr float_t& VRUIControls::VRPointer::__get__laserPointerWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____laserPointerWidth;
 }
 constexpr float_t const& VRUIControls::VRPointer::__get__laserPointerWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____laserPointerWidth;
 }
 constexpr void VRUIControls::VRPointer::__set__laserPointerWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____laserPointerWidth = value;
 }
 constexpr ::VRUIControls::VRLaserPointer*& VRUIControls::VRPointer::__get__laserPointer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____laserPointer;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRLaserPointer*> const& VRUIControls::VRPointer::__get__laserPointer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____laserPointer;
 }
 constexpr void VRUIControls::VRPointer::__set__laserPointer(::VRUIControls::VRLaserPointer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____laserPointer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& VRUIControls::VRPointer::__get__cursorTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursorTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& VRUIControls::VRPointer::__get__cursorTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursorTransform;
 }
 constexpr void VRUIControls::VRPointer::__set__cursorTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cursorTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::VRUIControls::VRLaserPointer*& VRUIControls::VRPointer::__get__leftLaserPointer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftLaserPointer;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRLaserPointer*> const& VRUIControls::VRPointer::__get__leftLaserPointer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftLaserPointer;
 }
 constexpr void VRUIControls::VRPointer::__set__leftLaserPointer(::VRUIControls::VRLaserPointer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftLaserPointer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::VRUIControls::VRLaserPointer*& VRUIControls::VRPointer::__get__rightLaserPointer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightLaserPointer;
 }
 constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRLaserPointer*> const& VRUIControls::VRPointer::__get__rightLaserPointer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightLaserPointer;
 }
 constexpr void VRUIControls::VRPointer::__set__rightLaserPointer(::VRUIControls::VRLaserPointer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightLaserPointer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& VRUIControls::VRPointer::__get__leftCursorTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftCursorTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& VRUIControls::VRPointer::__get__leftCursorTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftCursorTransform;
 }
 constexpr void VRUIControls::VRPointer::__set__leftCursorTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftCursorTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& VRUIControls::VRPointer::__get__rightCursorTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightCursorTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& VRUIControls::VRPointer::__get__rightCursorTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightCursorTransform;
 }
 constexpr void VRUIControls::VRPointer::__set__rightCursorTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightCursorTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::EventSystems::EventSystem*& VRUIControls::VRPointer::__get__eventSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventSystem;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::EventSystem*> const& VRUIControls::VRPointer::__get__eventSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventSystem;
 }
 constexpr void VRUIControls::VRPointer::__set__eventSystem(::UnityEngine::EventSystems::EventSystem* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::VRController*& VRUIControls::VRPointer::__get__lastSelectedVrController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSelectedVrController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& VRUIControls::VRPointer::__get__lastSelectedVrController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSelectedVrController;
 }
 constexpr void VRUIControls::VRPointer::__set__lastSelectedVrController(::GlobalNamespace::VRController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastSelectedVrController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& VRUIControls::VRPointer::__get__lastSelectedControllerWasRight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSelectedControllerWasRight;
 }
 constexpr bool const& VRUIControls::VRPointer::__get__lastSelectedControllerWasRight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSelectedControllerWasRight;
 }
 constexpr void VRUIControls::VRPointer::__set__lastSelectedControllerWasRight(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastSelectedControllerWasRight = value;
 }
 constexpr bool& VRUIControls::VRPointer::__get__rightControllerWasReleased() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightControllerWasReleased;
 }
 constexpr bool const& VRUIControls::VRPointer::__get__rightControllerWasReleased() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightControllerWasReleased;
 }
 constexpr void VRUIControls::VRPointer::__set__rightControllerWasReleased(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rightControllerWasReleased = value;
 }
 constexpr bool& VRUIControls::VRPointer::__get__leftControllerWasReleased() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftControllerWasReleased;
 }
 constexpr bool const& VRUIControls::VRPointer::__get__leftControllerWasReleased() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftControllerWasReleased;
 }
 constexpr void VRUIControls::VRPointer::__set__leftControllerWasReleased(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leftControllerWasReleased = value;
 }
 constexpr bool& VRUIControls::VRPointer::__get__hasLaserPointers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasLaserPointers;
 }
 constexpr bool const& VRUIControls::VRPointer::__get__hasLaserPointers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasLaserPointers;
 }
 constexpr void VRUIControls::VRPointer::__set__hasLaserPointers(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasLaserPointers = value;
 }
 constexpr bool& VRUIControls::VRPointer::__get__hasCursors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasCursors;
 }
 constexpr bool const& VRUIControls::VRPointer::__get__hasCursors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasCursors;
 }
 constexpr void VRUIControls::VRPointer::__set__hasCursors(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasCursors = value;
 }
 constexpr ::UnityEngine::EventSystems::PointerEventData*& VRUIControls::VRPointer::__get__pointerData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerData;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& VRUIControls::VRPointer::__get__pointerData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerData;
 }
 constexpr void VRUIControls::VRPointer::__set__pointerData(::UnityEngine::EventSystems::PointerEventData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::VRController* VRUIControls::VRPointer::get_lastSelectedVrController() {

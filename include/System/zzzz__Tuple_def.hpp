@@ -9,10 +9,10 @@ namespace System {
 template <typename T1, typename T2, typename T3> class Tuple_3;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
+template <typename T1, typename T2> class Tuple_2;
 }
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
+template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
 }
 // Forward declare root types
 namespace System {

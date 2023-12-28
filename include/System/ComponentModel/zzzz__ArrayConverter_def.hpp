@@ -11,22 +11,22 @@ namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System {
-class Attribute;
+class ITypeDescriptorContext;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Attribute;
 }
 namespace System::ComponentModel {
 class __ArrayConverter__ArrayPropertyDescriptor;
 }
 namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System {
-class Object;
+class PropertyDescriptorCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {

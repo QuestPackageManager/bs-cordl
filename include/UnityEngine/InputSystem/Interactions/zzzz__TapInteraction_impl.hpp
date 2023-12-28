@@ -93,39 +93,39 @@ constexpr UnityEngine::InputSystem::Interactions::TapInteraction::operator ::Uni
   return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::TapInteraction::__get_duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::TapInteraction::__get_duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
 constexpr void UnityEngine::InputSystem::Interactions::TapInteraction::__set_duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::TapInteraction::__get_pressPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::TapInteraction::__get_pressPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr void UnityEngine::InputSystem::Interactions::TapInteraction::__set_pressPoint(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pressPoint = value;
 }
 constexpr double_t& UnityEngine::InputSystem::Interactions::TapInteraction::__get_m_TapStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TapStartTime;
 }
 constexpr double_t const& UnityEngine::InputSystem::Interactions::TapInteraction::__get_m_TapStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TapStartTime;
 }
 constexpr void UnityEngine::InputSystem::Interactions::TapInteraction::__set_m_TapStartTime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TapStartTime = value;
 }
 inline float_t UnityEngine::InputSystem::Interactions::TapInteraction::get_durationOrDefault() {

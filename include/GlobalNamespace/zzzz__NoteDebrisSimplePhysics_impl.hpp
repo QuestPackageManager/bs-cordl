@@ -89,63 +89,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteDebrisSimplePhysics::__get__currentForce() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentForce;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteDebrisSimplePhysics::__get__currentForce() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentForce;
 }
 constexpr void GlobalNamespace::NoteDebrisSimplePhysics::__set__currentForce(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentForce = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteDebrisSimplePhysics::__get__currentTorque() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTorque;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteDebrisSimplePhysics::__get__currentTorque() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTorque;
 }
 constexpr void GlobalNamespace::NoteDebrisSimplePhysics::__set__currentTorque(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentTorque = value;
 }
 constexpr ::UnityEngine::Transform*& GlobalNamespace::NoteDebrisSimplePhysics::__get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::NoteDebrisSimplePhysics::__get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
 constexpr void GlobalNamespace::NoteDebrisSimplePhysics::__set__transform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteDebrisSimplePhysics::__get__gravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteDebrisSimplePhysics::__get__gravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
 constexpr void GlobalNamespace::NoteDebrisSimplePhysics::__set__gravity(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gravity = value;
 }
 constexpr bool& GlobalNamespace::NoteDebrisSimplePhysics::__get__firstUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstUpdate;
 }
 constexpr bool const& GlobalNamespace::NoteDebrisSimplePhysics::__get__firstUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstUpdate;
 }
 constexpr void GlobalNamespace::NoteDebrisSimplePhysics::__set__firstUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstUpdate = value;
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::NoteDebrisSimplePhysics::get_position() {

@@ -48,76 +48,76 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_deviceName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deviceName;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_deviceName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deviceName;
 }
 constexpr void UnityEngine::InputSystem::XR::XRDeviceDescriptor::__set_deviceName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___deviceName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_manufacturer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___manufacturer;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_manufacturer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___manufacturer;
 }
 constexpr void UnityEngine::InputSystem::XR::XRDeviceDescriptor::__set_manufacturer(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___manufacturer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_serialNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serialNumber;
 }
 constexpr ::StringW const& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_serialNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serialNumber;
 }
 constexpr void UnityEngine::InputSystem::XR::XRDeviceDescriptor::__set_serialNumber(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serialNumber)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::XR::InputDeviceCharacteristics& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_characteristics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristics;
 }
 constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_characteristics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristics;
 }
 constexpr void UnityEngine::InputSystem::XR::XRDeviceDescriptor::__set_characteristics(::UnityEngine::XR::InputDeviceCharacteristics value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characteristics = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_deviceId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deviceId;
 }
 constexpr int32_t const& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_deviceId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deviceId;
 }
 constexpr void UnityEngine::InputSystem::XR::XRDeviceDescriptor::__set_deviceId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___deviceId = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*& UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_inputFeatures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputFeatures;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*> const&
 UnityEngine::InputSystem::XR::XRDeviceDescriptor::__get_inputFeatures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputFeatures;
 }
 constexpr void UnityEngine::InputSystem::XR::XRDeviceDescriptor::__set_inputFeatures(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputFeatures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::InputSystem::XR::XRDeviceDescriptor::ToJson() {

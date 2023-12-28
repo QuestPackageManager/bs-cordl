@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardTableView)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HMUI {
-class TableCell;
+class __TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class __LeaderboardTableView__ScoreData;
@@ -20,11 +17,14 @@ class __LeaderboardTableView__ScoreData;
 namespace GlobalNamespace {
 class LeaderboardTableCell;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace HMUI {
 class TableView;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+class TableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {

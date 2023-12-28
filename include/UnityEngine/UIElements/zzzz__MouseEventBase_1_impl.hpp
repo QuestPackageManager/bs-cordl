@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEventInternal_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEvent"
 template <typename T> constexpr UnityEngine::UIElements::MouseEventBase_1<T>::operator ::UnityEngine::UIElements::IMouseEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IMouseEvent*>(static_cast<void*>(this));
@@ -20,127 +20,127 @@ template <typename T> constexpr UnityEngine::UIElements::MouseEventBase_1<T>::op
   return static_cast<::UnityEngine::UIElements::IMouseEventInternal*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::MouseEventBase_1<T>::__get__modifiers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__modifiers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifiers_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::MouseEventBase_1<T>::__get__mousePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mousePosition_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__mousePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mousePosition_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__mousePosition_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mousePosition_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::MouseEventBase_1<T>::__get__localMousePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localMousePosition_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__localMousePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localMousePosition_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__localMousePosition_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localMousePosition_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::MouseEventBase_1<T>::__get__mouseDelta_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseDelta_k__BackingField;
 }
 template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__mouseDelta_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseDelta_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__mouseDelta_k__BackingField(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mouseDelta_k__BackingField = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::MouseEventBase_1<T>::__get__clickCount_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__clickCount_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__clickCount_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clickCount_k__BackingField = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::MouseEventBase_1<T>::__get__button_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__button_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__button_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____button_k__BackingField = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::MouseEventBase_1<T>::__get__pressedButtons_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedButtons_k__BackingField;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__pressedButtons_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedButtons_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__pressedButtons_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedButtons_k__BackingField = value;
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::MouseEventBase_1<T>::__get__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
 }
 template <typename T> constexpr bool const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField = value;
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::MouseEventBase_1<T>::__get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField;
 }
 template <typename T> constexpr bool const& UnityEngine::UIElements::MouseEventBase_1<T>::__get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField;
 }
 template <typename T> constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField = value;
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::IPointerEvent*& UnityEngine::UIElements::MouseEventBase_1<T>::__get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPointerEvent*> const&
 UnityEngine::UIElements::MouseEventBase_1<T>::__get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 }
 template <typename T>
 constexpr void UnityEngine::UIElements::MouseEventBase_1<T>::__set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

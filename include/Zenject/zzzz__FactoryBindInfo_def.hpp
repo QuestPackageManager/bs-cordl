@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FactoryBindInfo)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 class Type;
 }
-namespace Zenject {
-class IProvider;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class DiContainer;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

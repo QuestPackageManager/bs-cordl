@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainUtility)
 namespace UnityEngine::TerrainUtils {
+class __TerrainUtility____c__DisplayClass2_0;
+}
+namespace UnityEngine::TerrainUtils {
 class TerrainMap;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainUtility____c__DisplayClass2_1;
-}
-namespace UnityEngine::TerrainUtils {
-class __TerrainUtility____c__DisplayClass2_0;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;

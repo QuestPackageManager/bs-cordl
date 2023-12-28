@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRFace_def.hpp"
-#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRFace.get_FaceExpressions
 template <>
 
@@ -186,39 +186,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OVRFaceExpressions*& GlobalNamespace::OVRFace::__get__faceExpressions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____faceExpressions;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRFaceExpressions*> const& GlobalNamespace::OVRFace::__get__faceExpressions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____faceExpressions;
 }
 constexpr void GlobalNamespace::OVRFace::__set__faceExpressions(::GlobalNamespace::OVRFaceExpressions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____faceExpressions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::OVRFace::__get__blendShapeStrengthMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blendShapeStrengthMultiplier;
 }
 constexpr float_t const& GlobalNamespace::OVRFace::__get__blendShapeStrengthMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blendShapeStrengthMultiplier;
 }
 constexpr void GlobalNamespace::OVRFace::__set__blendShapeStrengthMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____blendShapeStrengthMultiplier = value;
 }
 constexpr ::UnityEngine::SkinnedMeshRenderer*& GlobalNamespace::OVRFace::__get__skinnedMeshRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinnedMeshRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& GlobalNamespace::OVRFace::__get__skinnedMeshRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____skinnedMeshRenderer;
 }
 constexpr void GlobalNamespace::OVRFace::__set__skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____skinnedMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::OVRFaceExpressions* GlobalNamespace::OVRFace::get_FaceExpressions() {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::MarshalByRefObject._ctor
 template <>
@@ -77,15 +77,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::MarshalByRefObject::__get__identity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____identity;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MarshalByRefObject::__get__identity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____identity;
 }
 constexpr void System::MarshalByRefObject::__set__identity(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____identity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::MarshalByRefObject* System::MarshalByRefObject::New_ctor() {

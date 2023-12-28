@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsECDheKeyExchange)
 namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSignerCredentials;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
+class TlsSigner;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSignerCredentials;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+class SecurityParameters;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;

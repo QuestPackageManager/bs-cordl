@@ -440,183 +440,183 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::MockPlayerSettings::__get__userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName;
 }
 constexpr ::StringW const& GlobalNamespace::MockPlayerSettings::__get__userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::MockPlayerSettings::__get__userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr ::StringW const& GlobalNamespace::MockPlayerSettings::__get__userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::MockPlayerSettings::__get__sortIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndex;
 }
 constexpr int32_t const& GlobalNamespace::MockPlayerSettings::__get__sortIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortIndex;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__sortIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sortIndex = value;
 }
 constexpr int64_t& GlobalNamespace::MockPlayerSettings::__get__latency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latency;
 }
 constexpr int64_t const& GlobalNamespace::MockPlayerSettings::__get__latency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latency;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__latency(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____latency = value;
 }
 constexpr bool& GlobalNamespace::MockPlayerSettings::__get__autoConnect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoConnect;
 }
 constexpr bool const& GlobalNamespace::MockPlayerSettings::__get__autoConnect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoConnect;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__autoConnect(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoConnect = value;
 }
 constexpr bool& GlobalNamespace::MockPlayerSettings::__get__inactiveByDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inactiveByDefault;
 }
 constexpr bool const& GlobalNamespace::MockPlayerSettings::__get__inactiveByDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inactiveByDefault;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__inactiveByDefault(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inactiveByDefault = value;
 }
 constexpr ::GlobalNamespace::MockPlayerMovementType& GlobalNamespace::MockPlayerSettings::__get__movementType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementType;
 }
 constexpr ::GlobalNamespace::MockPlayerMovementType const& GlobalNamespace::MockPlayerSettings::__get__movementType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movementType;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__movementType(::GlobalNamespace::MockPlayerMovementType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____movementType = value;
 }
 constexpr ::GlobalNamespace::MockPlayerAvatarType& GlobalNamespace::MockPlayerSettings::__get__avatarType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarType;
 }
 constexpr ::GlobalNamespace::MockPlayerAvatarType const& GlobalNamespace::MockPlayerSettings::__get__avatarType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarType;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__avatarType(::GlobalNamespace::MockPlayerAvatarType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____avatarType = value;
 }
 constexpr uint64_t& GlobalNamespace::MockPlayerSettings::__get__platformUserId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformUserId;
 }
 constexpr uint64_t const& GlobalNamespace::MockPlayerSettings::__get__platformUserId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformUserId;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__platformUserId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____platformUserId = value;
 }
 constexpr ::StringW& GlobalNamespace::MockPlayerSettings::__get__recodingFile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recodingFile;
 }
 constexpr ::StringW const& GlobalNamespace::MockPlayerSettings::__get__recodingFile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recodingFile;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__recodingFile(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recodingFile)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::MockPlayerSettings::__get__aiCubeHitChance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aiCubeHitChance;
 }
 constexpr float_t const& GlobalNamespace::MockPlayerSettings::__get__aiCubeHitChance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aiCubeHitChance;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__aiCubeHitChance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____aiCubeHitChance = value;
 }
 constexpr bool& GlobalNamespace::MockPlayerSettings::__get__leftHanded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHanded;
 }
 constexpr bool const& GlobalNamespace::MockPlayerSettings::__get__leftHanded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHanded;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__leftHanded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leftHanded = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::MockPlayerSettings::__get__saberAColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberAColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::MockPlayerSettings::__get__saberAColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberAColor;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__saberAColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberAColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::MockPlayerSettings::__get__saberBColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::MockPlayerSettings::__get__saberBColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBColor;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__saberBColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberBColor = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::MockPlayerSettings::__get__obstaclesColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::MockPlayerSettings::__get__obstaclesColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstaclesColor;
 }
 constexpr void GlobalNamespace::MockPlayerSettings::__set__obstaclesColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____obstaclesColor = value;
 }
 inline ::StringW GlobalNamespace::MockPlayerSettings::get_userName() {

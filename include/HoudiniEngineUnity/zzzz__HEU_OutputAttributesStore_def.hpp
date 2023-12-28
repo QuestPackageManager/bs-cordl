@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_OutputAttributesStore)
 namespace HoudiniEngineUnity {
-class HEU_OutputAttribute;
+class HEU_OutputAttributeDictionary;
 }
 namespace HoudiniEngineUnity {
-class HEU_OutputAttributeDictionary;
+class HEU_OutputAttribute;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

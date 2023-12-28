@@ -9,16 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRRenderModels)
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct RenderModel_ControllerMode_State_t;
 }
 namespace OVR::OpenVR {
 struct RenderModel_ComponentState_t;
@@ -27,46 +30,25 @@ namespace OVR::OpenVR {
 struct VRControllerState_t;
 }
 namespace OVR::OpenVR {
-struct RenderModel_ControllerMode_State_t;
-}
-namespace OVR::OpenVR {
 struct EVRRenderModelError;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___RenderModelHasComponent;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelName;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___LoadRenderModel_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentStateForDevicePath;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___LoadIntoTextureD3D11_Async;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentRenderModelName;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentName;
+class __IVRRenderModels___GetRenderModelThumbnailURL;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetRenderModelCount;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentState;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___FreeTextureD3D11;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___FreeTexture;
-}
-namespace OVR::OpenVR {
 class __IVRRenderModels___GetRenderModelOriginalPath;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelThumbnailURL;
+class __IVRRenderModels___GetRenderModelErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentCount;
@@ -75,16 +57,34 @@ namespace OVR::OpenVR {
 class __IVRRenderModels___LoadTexture_Async;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelCount;
+class __IVRRenderModels___GetComponentStateForDevicePath;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelErrorNameFromEnum;
+class __IVRRenderModels___FreeTextureD3D11;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___FreeTexture;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___LoadIntoTextureD3D11_Async;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___LoadRenderModel_Async;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentName;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___RenderModelHasComponent;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___LoadTextureD3D11_Async;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentButtonMask;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___LoadTextureD3D11_Async;
+class __IVRRenderModels___GetRenderModelName;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___FreeRenderModel;

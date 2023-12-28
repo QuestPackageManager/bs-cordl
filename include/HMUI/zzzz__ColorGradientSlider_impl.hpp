@@ -2,15 +2,15 @@
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "HMUI/zzzz__ColorGradientSlider_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "HMUI/zzzz__TextSlider_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "HMUI/zzzz__TextSlider_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::HMUI::ColorGradientSlider.add_colorDidChangeEvent
 template <>
 
@@ -167,88 +167,88 @@ constexpr HMUI::ColorGradientSlider::operator ::UnityEngine::EventSystems::IEven
   return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
 }
 constexpr ::StringW& HMUI::ColorGradientSlider::__get__textPrefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textPrefix;
 }
 constexpr ::StringW const& HMUI::ColorGradientSlider::__get__textPrefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textPrefix;
 }
 constexpr void HMUI::ColorGradientSlider::__set__textPrefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textPrefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& HMUI::ColorGradientSlider::__get__color0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color0;
 }
 constexpr ::UnityEngine::Color const& HMUI::ColorGradientSlider::__get__color0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color0;
 }
 constexpr void HMUI::ColorGradientSlider::__set__color0(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color0 = value;
 }
 constexpr ::UnityEngine::Color& HMUI::ColorGradientSlider::__get__color1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color1;
 }
 constexpr ::UnityEngine::Color const& HMUI::ColorGradientSlider::__get__color1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color1;
 }
 constexpr void HMUI::ColorGradientSlider::__set__color1(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color1 = value;
 }
 constexpr ::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*>& HMUI::ColorGradientSlider::__get__gradientImages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gradientImages;
 }
 constexpr ::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*> const& HMUI::ColorGradientSlider::__get__gradientImages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gradientImages;
 }
 constexpr void HMUI::ColorGradientSlider::__set__gradientImages(::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gradientImages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& HMUI::ColorGradientSlider::__get__darkColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____darkColor;
 }
 constexpr ::UnityEngine::Color const& HMUI::ColorGradientSlider::__get__darkColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____darkColor;
 }
 constexpr void HMUI::ColorGradientSlider::__set__darkColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____darkColor = value;
 }
 constexpr ::UnityEngine::Color& HMUI::ColorGradientSlider::__get__lightColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColor;
 }
 constexpr ::UnityEngine::Color const& HMUI::ColorGradientSlider::__get__lightColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColor;
 }
 constexpr void HMUI::ColorGradientSlider::__set__lightColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightColor = value;
 }
 constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& HMUI::ColorGradientSlider::__get_colorDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*> const&
 HMUI::ColorGradientSlider::__get_colorDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorDidChangeEvent;
 }
 constexpr void HMUI::ColorGradientSlider::__set_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::ColorGradientSlider::setStaticF__stringBuilder(::System::Text::StringBuilder* value) {

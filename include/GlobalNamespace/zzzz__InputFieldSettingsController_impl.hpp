@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__InputFieldSettingsController_def.hpp"
-#include "HMUI/zzzz__InputFieldView_def.hpp"
 #include "GlobalNamespace/zzzz__StringSO_def.hpp"
+#include "HMUI/zzzz__InputFieldView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InputFieldSettingsController.Awake
 template <>
 
@@ -76,27 +76,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::InputFieldView*& GlobalNamespace::InputFieldSettingsController::__get__inputFieldView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFieldView;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::InputFieldView*> const& GlobalNamespace::InputFieldSettingsController::__get__inputFieldView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputFieldView;
 }
 constexpr void GlobalNamespace::InputFieldSettingsController::__set__inputFieldView(::HMUI::InputFieldView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputFieldView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::StringSO*& GlobalNamespace::InputFieldSettingsController::__get__settingsValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StringSO*> const& GlobalNamespace::InputFieldSettingsController::__get__settingsValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsValue;
 }
 constexpr void GlobalNamespace::InputFieldSettingsController::__set__settingsValue(::GlobalNamespace::StringSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::InputFieldSettingsController::Awake() {

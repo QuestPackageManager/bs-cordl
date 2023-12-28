@@ -1,17 +1,17 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeConverter_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
-#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlElement_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocument_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XmlNodeConverter.get_DeserializeRootElementName
 template <>
 
@@ -545,40 +545,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Newtonsoft::Json::Converters::XmlNodeConverter::__get__DeserializeRootElementName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DeserializeRootElementName_k__BackingField;
 }
 constexpr ::StringW const& Newtonsoft::Json::Converters::XmlNodeConverter::__get__DeserializeRootElementName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DeserializeRootElementName_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::XmlNodeConverter::__set__DeserializeRootElementName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____DeserializeRootElementName_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Converters::XmlNodeConverter::__get__WriteArrayAttribute_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WriteArrayAttribute_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::XmlNodeConverter::__get__WriteArrayAttribute_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WriteArrayAttribute_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::XmlNodeConverter::__set__WriteArrayAttribute_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____WriteArrayAttribute_k__BackingField = value;
 }
 constexpr bool& Newtonsoft::Json::Converters::XmlNodeConverter::__get__OmitRootObject_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OmitRootObject_k__BackingField;
 }
 constexpr bool const& Newtonsoft::Json::Converters::XmlNodeConverter::__get__OmitRootObject_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OmitRootObject_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Converters::XmlNodeConverter::__set__OmitRootObject_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OmitRootObject_k__BackingField = value;
 }
 inline ::StringW Newtonsoft::Json::Converters::XmlNodeConverter::get_DeserializeRootElementName() {

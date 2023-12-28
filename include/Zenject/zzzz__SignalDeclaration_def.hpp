@@ -10,38 +10,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalDeclaration)
-namespace Zenject {
-class ZenjectSettings;
-}
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
-}
-namespace Zenject {
-class __SignalDeclaration__Factory;
-}
-namespace Zenject {
-class SignalDeclarationBindInfo;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class SignalDeclarationBindInfo;
+}
+namespace Zenject {
+struct BindingId;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class SignalSubscription;
 }
 namespace Zenject {
+class ZenjectSettings;
+}
+namespace Zenject {
 class ITickable;
 }
 namespace Zenject {
-struct BindingId;
+class __SignalDeclaration__Factory;
+}
+namespace Zenject {
+class __ZenjectSettings__SignalSettings;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -226,8 +226,8 @@ static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclaration, 0x48
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10654)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
-// 3493 }), TypeDefinitionIndex(TypeDefinitionIndex(10659))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10658)) CS Name: ::SignalDeclaration::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10659)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3493 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10654)), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10658)) CS Name: ::SignalDeclaration::Factory*
 class CORDL_TYPE __SignalDeclaration__Factory : public ::Zenject::PlaceholderFactory_2<::Zenject::SignalDeclarationBindInfo*, ::Zenject::SignalDeclaration*> {
 public:
   // Declarations

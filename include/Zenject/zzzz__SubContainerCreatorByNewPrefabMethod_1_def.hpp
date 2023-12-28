@@ -10,19 +10,7 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
-class IPrefabProvider;
-}
-namespace Zenject {
-template <typename TParam1> class __SubContainerCreatorByNewPrefabMethod_1____c__DisplayClass2_0;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class GameObjectCreationParameters;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -30,11 +18,23 @@ class DiContainer;
 namespace Zenject {
 class GameObjectContext;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TParam1> class __SubContainerCreatorByNewPrefabMethod_1____c__DisplayClass2_0;
+}
+namespace Zenject {
+class IPrefabProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

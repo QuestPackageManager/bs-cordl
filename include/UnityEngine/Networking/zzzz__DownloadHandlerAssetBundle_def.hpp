@@ -12,10 +12,10 @@ namespace UnityEngine {
 struct CachedAssetBundle;
 }
 namespace UnityEngine {
-struct Hash128;
+class AssetBundle;
 }
 namespace UnityEngine {
-class AssetBundle;
+struct Hash128;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {

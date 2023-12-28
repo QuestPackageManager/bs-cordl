@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoChunkParser)
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
 namespace System::Net {
 class __MonoChunkParser__Chunk;
 }
 namespace System::Net {
 struct __MonoChunkParser__State;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace System::Net {

@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDifficultyBeatmapSet)
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {

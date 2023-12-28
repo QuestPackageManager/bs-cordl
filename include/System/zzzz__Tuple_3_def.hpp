@@ -9,29 +9,29 @@ CORDL_MODULE_EXPORT(Tuple_3)
 namespace System {
 class ITupleInternal;
 }
+namespace System {
+class IComparable;
+}
 namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Collections {
 class IStructuralEquatable;
 }
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
 namespace System {
 class Object;
 }
-namespace System {
-class IComparable;
-}
 namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
+class IComparer;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Collections {
-class IComparer;
+class IStructuralComparable;
 }
 // Forward declare root types
 namespace System {

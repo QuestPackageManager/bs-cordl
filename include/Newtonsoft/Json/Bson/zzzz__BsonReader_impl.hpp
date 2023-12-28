@@ -6,12 +6,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__BinaryReader_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonReader_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
+#include "System/IO/zzzz__BinaryReader_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState::__BsonReader__BsonReaderState(int32_t value__) noexcept {
   this->value__ = value__;
@@ -43,39 +43,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Bson::BsonType& Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__get_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr ::Newtonsoft::Json::Bson::BsonType const& Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__get_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
 constexpr void Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__set_Type(::Newtonsoft::Json::Bson::BsonType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Type = value;
 }
 constexpr int32_t& Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__get_Length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Length;
 }
 constexpr int32_t const& Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__get_Length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Length;
 }
 constexpr void Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__set_Length(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Length = value;
 }
 constexpr int32_t& Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__get_Position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Position;
 }
 constexpr int32_t const& Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__get_Position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Position;
 }
 constexpr void Newtonsoft::Json::Bson::__BsonReader__ContainerContext::__set_Position(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Position = value;
 }
 inline ::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* Newtonsoft::Json::Bson::__BsonReader__ContainerContext::New_ctor(::Newtonsoft::Json::Bson::BsonType type) {
@@ -553,124 +553,124 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::IO::BinaryReader*& Newtonsoft::Json::Bson::BsonReader::__get__reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& Newtonsoft::Json::Bson::BsonReader::__get__reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__reader(::System::IO::BinaryReader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>*& Newtonsoft::Json::Bson::BsonReader::__get__stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>*> const&
 Newtonsoft::Json::Bson::BsonReader::__get__stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Newtonsoft::Json::Bson::BsonReader::__get__byteBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____byteBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Newtonsoft::Json::Bson::BsonReader::__get__byteBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____byteBuffer;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____byteBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Newtonsoft::Json::Bson::BsonReader::__get__charBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charBuffer;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Newtonsoft::Json::Bson::BsonReader::__get__charBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charBuffer;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____charBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Newtonsoft::Json::Bson::BsonType& Newtonsoft::Json::Bson::BsonReader::__get__currentElementType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElementType;
 }
 constexpr ::Newtonsoft::Json::Bson::BsonType const& Newtonsoft::Json::Bson::BsonReader::__get__currentElementType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElementType;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__currentElementType(::Newtonsoft::Json::Bson::BsonType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentElementType = value;
 }
 constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState& Newtonsoft::Json::Bson::BsonReader::__get__bsonReaderState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bsonReaderState;
 }
 constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState const& Newtonsoft::Json::Bson::BsonReader::__get__bsonReaderState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bsonReaderState;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__bsonReaderState(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bsonReaderState = value;
 }
 constexpr ::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*& Newtonsoft::Json::Bson::BsonReader::__get__currentContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentContext;
 }
 constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*> const& Newtonsoft::Json::Bson::BsonReader::__get__currentContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentContext;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__currentContext(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Newtonsoft::Json::Bson::BsonReader::__get__readRootValueAsArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readRootValueAsArray;
 }
 constexpr bool const& Newtonsoft::Json::Bson::BsonReader::__get__readRootValueAsArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readRootValueAsArray;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__readRootValueAsArray(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____readRootValueAsArray = value;
 }
 constexpr bool& Newtonsoft::Json::Bson::BsonReader::__get__jsonNet35BinaryCompatibility() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jsonNet35BinaryCompatibility;
 }
 constexpr bool const& Newtonsoft::Json::Bson::BsonReader::__get__jsonNet35BinaryCompatibility() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jsonNet35BinaryCompatibility;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__jsonNet35BinaryCompatibility(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jsonNet35BinaryCompatibility = value;
 }
 constexpr ::System::DateTimeKind& Newtonsoft::Json::Bson::BsonReader::__get__dateTimeKindHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeKindHandling;
 }
 constexpr ::System::DateTimeKind const& Newtonsoft::Json::Bson::BsonReader::__get__dateTimeKindHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeKindHandling;
 }
 constexpr void Newtonsoft::Json::Bson::BsonReader::__set__dateTimeKindHandling(::System::DateTimeKind value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateTimeKindHandling = value;
 }
 inline void Newtonsoft::Json::Bson::BsonReader::setStaticF_SeqRange1(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

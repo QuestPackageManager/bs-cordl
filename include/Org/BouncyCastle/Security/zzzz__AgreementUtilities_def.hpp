@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AgreementUtilities)
 namespace Org::BouncyCastle::Crypto {
-class IRawAgreement;
+class IBasicAgreement;
 }
 namespace System::Collections {
 class IDictionary;
@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
+class IRawAgreement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

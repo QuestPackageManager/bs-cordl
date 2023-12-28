@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(AchievementsEvaluationHandler)
 namespace GlobalNamespace {
-class AchievementSO;
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class MissionCompletionResults;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class AchievementsModelSO;
@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class MissionNodesManager;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class AchievementSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

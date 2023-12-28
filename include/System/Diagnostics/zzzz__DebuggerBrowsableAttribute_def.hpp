@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3734))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3734)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3735))
 // CS Name: ::System.Diagnostics::DebuggerBrowsableAttribute*
 class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {

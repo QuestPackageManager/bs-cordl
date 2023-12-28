@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(AnimationPlayableExtensions)
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

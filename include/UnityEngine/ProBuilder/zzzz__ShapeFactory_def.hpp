@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ShapeFactory)
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace System {
+class Type;
 }
 namespace UnityEngine::ProBuilder {
 struct PivotLocation;
 }
-namespace System {
-class Type;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

@@ -4,17 +4,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
-#include "Tweening/zzzz__Tween_1_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "Tweening/zzzz__Tween_1_def.hpp"
+#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/zzzz__WaitForSeconds_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0._ctor
 template <>
 
@@ -46,28 +46,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0::__get_partTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0::__get_partTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___partTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0::__set_partTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___partTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0::__get_originalScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originalScale;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0::__get_originalScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originalScale;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0::__set_originalScale(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___originalScale = value;
 }
 inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0*
@@ -193,54 +193,54 @@ constexpr BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
 BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__set___4__this(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::WaitForSeconds*& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get__waitYieldInstruction_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitYieldInstruction_5__2;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSeconds*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__get__waitYieldInstruction_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waitYieldInstruction_5__2;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55::__set__waitYieldInstruction_5__2(::UnityEngine::WaitForSeconds* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____waitYieldInstruction_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55*
@@ -390,41 +390,41 @@ constexpr BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*& BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
 BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60::__set___4__this(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60*
@@ -937,517 +937,517 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__avatarTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__avatarTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__avatarTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____avatarTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__headParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headParent;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__headParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headParent;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__headParent(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__leftHandTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__leftHandTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__leftHandTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftHandTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__rightHandTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__rightHandTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__rightHandTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightHandTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__bodyTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bodyTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__bodyTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bodyTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__bodyTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bodyTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__headInnerTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headInnerTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__headInnerTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headInnerTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__headInnerTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headInnerTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__leftHandInnerTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandInnerTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__leftHandInnerTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandInnerTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__leftHandInnerTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftHandInnerTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__rightHandInnerTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandInnerTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__rightHandInnerTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandInnerTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__rightHandInnerTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightHandInnerTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__bodyInnerTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bodyInnerTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__bodyInnerTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bodyInnerTransform;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__bodyInnerTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bodyInnerTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popDuration;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popDuration;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__popDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____popDuration = value;
 }
 constexpr ::GlobalNamespace::EaseType& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popEaseType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popEaseType;
 }
 constexpr ::GlobalNamespace::EaseType const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popEaseType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popEaseType;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__popEaseType(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____popEaseType = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__headPopAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPopAmount;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__headPopAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headPopAmount;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__headPopAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPopAmount = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__handsPopAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handsPopAmount;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__handsPopAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handsPopAmount;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__handsPopAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handsPopAmount = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__clothesPopAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clothesPopAmount;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__clothesPopAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clothesPopAmount;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__clothesPopAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clothesPopAmount = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__allPopAmount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allPopAmount;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__allPopAmount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allPopAmount;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__allPopAmount(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allPopAmount = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearDuration;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearDuration;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____appearDuration = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearSpacing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearSpacing;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearSpacing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearSpacing;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearSpacing(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____appearSpacing = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearHeight;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearHeight;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____appearHeight = value;
 }
 constexpr ::UnityEngine::Vector3& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__squashFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____squashFactor;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__squashFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____squashFactor;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__squashFactor(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____squashFactor = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearDuration;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearDuration;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearDuration = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearHeight;
 }
 constexpr float_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearHeight;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearHeight = value;
 }
 constexpr ::UnityEngine::Vector3& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearSquash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearSquash;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearSquash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearSquash;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearSquash(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearSquash = value;
 }
 constexpr ::GlobalNamespace::EaseType& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearScaleEase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearScaleEase;
 }
 constexpr ::GlobalNamespace::EaseType const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearScaleEase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearScaleEase;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearScaleEase(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearScaleEase = value;
 }
 constexpr ::GlobalNamespace::EaseType& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearPositionEase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearPositionEase;
 }
 constexpr ::GlobalNamespace::EaseType const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearPositionEase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearPositionEase;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearPositionEase(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearPositionEase = value;
 }
 constexpr ::Tweening::TimeTweeningManager*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__tweeningManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__tweeningManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__tweeningManager(::Tweening::TimeTweeningManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ICoroutineStarter*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__sharedCoroutineStarter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharedCoroutineStarter;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__sharedCoroutineStarter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharedCoroutineStarter;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__sharedCoroutineStarter(::GlobalNamespace::ICoroutineStarter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sharedCoroutineStarter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popHeadTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popHeadTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popHeadTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popHeadTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__popHeadTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____popHeadTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popLeftHandTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popLeftHandTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popLeftHandTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popLeftHandTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__popLeftHandTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____popLeftHandTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popRightHandTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popRightHandTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popRightHandTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popRightHandTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__popRightHandTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____popRightHandTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<float_t>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popClothesTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popClothesTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__popClothesTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popClothesTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__popClothesTween(::Tweening::Tween_1<float_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____popClothesTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearHeadPositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearHeadPositionTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearHeadPositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearHeadPositionTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearHeadPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearHeadPositionTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearHeadScaleTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearHeadScaleTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearHeadScaleTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearHeadScaleTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearHeadScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearHeadScaleTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearBodyPositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearBodyPositionTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearBodyPositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearBodyPositionTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearBodyPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearBodyPositionTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearBodyScaleTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearBodyScaleTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearBodyScaleTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearBodyScaleTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearBodyScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearBodyScaleTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearRightHandPositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearRightHandPositionTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearRightHandPositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearRightHandPositionTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearRightHandPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearRightHandPositionTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearRightHandScaleTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearRightHandScaleTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearRightHandScaleTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearRightHandScaleTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearRightHandScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearRightHandScaleTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearLeftHandPositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearLeftHandPositionTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearLeftHandPositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearLeftHandPositionTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearLeftHandPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearLeftHandPositionTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearLeftHandScaleTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearLeftHandScaleTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__appearLeftHandScaleTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appearLeftHandScaleTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__appearLeftHandScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appearLeftHandScaleTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearScaleTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearScaleTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearScaleTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearScaleTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disappearScaleTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearPositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearPositionTween;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__disappearPositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearPositionTween;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__disappearPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disappearPositionTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__avatarLocalPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarLocalPosition;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__avatarLocalPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarLocalPosition;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__avatarLocalPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____avatarLocalPosition = value;
 }
 constexpr ::UnityEngine::Vector3& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__avatarLocalScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarLocalScale;
 }
 constexpr ::UnityEngine::Vector3 const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__get__avatarLocalScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarLocalScale;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::__set__avatarLocalScale(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____avatarLocalScale = value;
 }
 inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::Awake() {

@@ -15,27 +15,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Security::Util::TokenizerStringBlock::__get_m_block() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_block;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Security::Util::TokenizerStringBlock::__get_m_block() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_block;
 }
 constexpr void System::Security::Util::TokenizerStringBlock::__set_m_block(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_block)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Util::TokenizerStringBlock*& System::Security::Util::TokenizerStringBlock::__get_m_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_next;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& System::Security::Util::TokenizerStringBlock::__get_m_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_next;
 }
 constexpr void System::Security::Util::TokenizerStringBlock::__set_m_next(::System::Security::Util::TokenizerStringBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Util::TokenizerStringBlock* System::Security::Util::TokenizerStringBlock::New_ctor() {

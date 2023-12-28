@@ -10,10 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Guid)
 namespace System {
-template <typename T> class IComparable_1;
+template <typename T> struct Span_1;
+}
+namespace System {
+class IFormattable;
 }
 namespace System {
 class ISpanFormattable;
+}
+namespace System {
+struct __Guid__GuidStyles;
+}
+namespace System {
+struct __Guid__GuidParseThrowStyle;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IComparable;
@@ -28,25 +40,13 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-struct __Guid__GuidStyles;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-class IFormattable;
-}
-namespace System {
-struct __Guid__GuidParseThrowStyle;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> class IComparable_1;
 }
 namespace System {
 class Exception;
@@ -505,7 +505,7 @@ static_assert(::cordl_internals::size_check_v<::System::Guid, 0x10>, "Size misma
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2403)), TypeDefinitionIndex(TypeDefinitionIndex(2404))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2403)), TypeDefinitionIndex(TypeDefinitionIndex(2404)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2405))
 // CS Name: ::Guid::GuidResult
 struct CORDL_TYPE __Guid__GuidResult {

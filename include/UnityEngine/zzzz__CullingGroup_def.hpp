@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(CullingGroup)
 namespace UnityEngine {
 class __CullingGroup__StateChanged;
 }
-namespace UnityEngine {
-struct CullingGroupEvent;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+struct CullingGroupEvent;
 }
 // Forward declare root types
 namespace UnityEngine {

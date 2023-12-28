@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LevelFailedText)
-namespace TMPro {
-class TMP_Text;
-}
 namespace Polyglot {
 class LocalizedTextMeshPro;
+}
+namespace TMPro {
+class TMP_Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {

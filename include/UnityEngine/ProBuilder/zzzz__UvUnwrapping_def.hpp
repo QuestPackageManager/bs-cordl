@@ -10,17 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UvUnwrapping)
+namespace UnityEngine::ProBuilder {
+struct AutoUnwrapSettings;
+}
+namespace UnityEngine::ProBuilder {
+class Bounds2D;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
+struct __AutoUnwrapSettings__Anchor;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ProBuilder {
+class Face;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+struct __UvUnwrapping__UVTransform;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -28,23 +37,14 @@ template <typename T> class IEnumerable_1;
 namespace UnityEngine::ProBuilder {
 class __UvUnwrapping____c;
 }
-namespace UnityEngine::ProBuilder {
-struct __AutoUnwrapSettings__Anchor;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
-namespace UnityEngine::ProBuilder {
-class Bounds2D;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-struct __UvUnwrapping__UVTransform;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -158,7 +158,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__UvUnw
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12214))
 // CS Name: ::UnityEngine.ProBuilder::UvUnwrapping*
 class CORDL_TYPE UvUnwrapping : public ::System::Object {

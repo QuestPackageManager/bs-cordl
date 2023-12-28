@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectInt)
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

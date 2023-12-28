@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UnityTlsConversions)
-namespace Mono::Unity {
-struct __UnityTls__unitytls_protocol;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
-}
-namespace Mono::Security::Interface {
-struct AlertDescription;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
-}
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509verify_result;
+}
 namespace Mono::Security::Interface {
 struct TlsProtocols;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_protocol;
+}
+namespace Mono::Security::Interface {
+struct AlertDescription;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 // Forward declare root types
 namespace Mono::Unity {

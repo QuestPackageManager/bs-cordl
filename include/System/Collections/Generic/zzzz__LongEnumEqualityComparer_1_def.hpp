@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongEnumEqualityComparer_1)
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

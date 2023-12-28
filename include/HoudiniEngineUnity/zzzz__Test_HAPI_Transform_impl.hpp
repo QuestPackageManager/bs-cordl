@@ -2,8 +2,8 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_HAPI_Transform._ctor
 template <>
 
@@ -39,15 +39,15 @@ constexpr HoudiniEngineUnity::Test_HAPI_Transform::operator ::HoudiniEngineUnity
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*>(static_cast<void*>(this));
 }
 constexpr ::HoudiniEngineUnity::HAPI_Transform& HoudiniEngineUnity::Test_HAPI_Transform::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Transform const& HoudiniEngineUnity::Test_HAPI_Transform::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_HAPI_Transform::__set_self(::HoudiniEngineUnity::HAPI_Transform value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self = value;
 }
 inline ::HoudiniEngineUnity::Test_HAPI_Transform* HoudiniEngineUnity::Test_HAPI_Transform::New_ctor(::HoudiniEngineUnity::HAPI_Transform self) {

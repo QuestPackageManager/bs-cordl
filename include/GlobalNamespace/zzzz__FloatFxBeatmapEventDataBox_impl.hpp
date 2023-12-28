@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventDataBox_2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__FloatFxBaseData_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__FloatFxBaseData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventDataBox.get_subtypeIdentifier
 template <>
 
@@ -78,28 +78,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*& GlobalNamespace::FloatFxBeatmapEventDataBox::__get__vfxBaseDataList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vfxBaseDataList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*> const&
 GlobalNamespace::FloatFxBeatmapEventDataBox::__get__vfxBaseDataList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vfxBaseDataList;
 }
 constexpr void GlobalNamespace::FloatFxBeatmapEventDataBox::__set__vfxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vfxBaseDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::FloatFxBeatmapEventDataBox::__get__beatStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
 constexpr float_t const& GlobalNamespace::FloatFxBeatmapEventDataBox::__get__beatStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
 constexpr void GlobalNamespace::FloatFxBeatmapEventDataBox::__set__beatStep(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatStep = value;
 }
 inline int32_t GlobalNamespace::FloatFxBeatmapEventDataBox::get_subtypeIdentifier() {

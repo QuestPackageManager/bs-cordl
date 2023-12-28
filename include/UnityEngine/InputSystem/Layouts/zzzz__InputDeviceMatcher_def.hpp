@@ -19,40 +19,40 @@ namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceMatcher__MatcherJson;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class __InputDeviceMatcher____c;
+struct __InputDeviceMatcher__MatcherJson;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class __InputDeviceMatcher___get_patterns_d__4;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class __InputDeviceMatcher____c;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 namespace GlobalNamespace {
 struct __InputDeviceMatcher__MatcherJson__Capability;
@@ -332,8 +332,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layout
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6625)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 954
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6623)) CS Name: ::InputDeviceMatcher::<get_patterns>d__4*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 954 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6625))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6623)) CS Name:
+// ::InputDeviceMatcher::<get_patterns>d__4*
 class CORDL_TYPE __InputDeviceMatcher___get_patterns_d__4 : public ::System::Object {
 public:
   // Declarations

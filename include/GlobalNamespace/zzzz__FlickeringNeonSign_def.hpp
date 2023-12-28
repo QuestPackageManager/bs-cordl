@@ -9,38 +9,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlickeringNeonSign)
-namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace UnityEngine {
-class AudioClip;
-}
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine {
+class ParticleSystem;
+}
 namespace GlobalNamespace {
-class __FlickeringNeonSign___FlickeringCoroutine_d__16;
+template <typename T> class RandomObjectPicker_1;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace UnityEngine {
-class ParticleSystem;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class AudioClip;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+class __FlickeringNeonSign___FlickeringCoroutine_d__16;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

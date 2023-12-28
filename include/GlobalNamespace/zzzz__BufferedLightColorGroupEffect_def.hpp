@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedLightColorGroupEffect)
-namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
-class LightColorBeatmapEventData;
-}
-namespace GlobalNamespace {
-class __BufferedLightColorGroupEffect__InitData;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
+class LightColorBeatmapEventData;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class __BufferedLightColorGroupEffect__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
-namespace UnityEngine {
-struct Vector4;
+namespace GlobalNamespace {
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class ColorBoostBeatmapEventData;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class LightGroup;

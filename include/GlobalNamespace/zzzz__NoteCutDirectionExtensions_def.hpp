@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteCutDirectionExtensions)
-namespace GlobalNamespace {
-struct NoteCutDirection;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+struct NoteCutDirection;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

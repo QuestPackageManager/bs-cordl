@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RelativeScoreAndImmediateRankCounter)
 namespace GlobalNamespace {
-class IScoreController;
+struct __RankModel__Rank;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+class IScoreController;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

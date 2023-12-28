@@ -7,25 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiHeaderBuilder)
 namespace Org::BouncyCastle::Asn1::Cmp {
-class InfoTypeAndValue;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -33,11 +15,29 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiHeader;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class InfoTypeAndValue;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

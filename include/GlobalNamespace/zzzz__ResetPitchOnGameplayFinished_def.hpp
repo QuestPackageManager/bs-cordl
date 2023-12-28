@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ResetPitchOnGameplayFinished)
 namespace GlobalNamespace {
-class AudioManagerSO;
+class GameplayLevelSceneTransitionEvents;
 }
 namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
+class AudioManagerSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

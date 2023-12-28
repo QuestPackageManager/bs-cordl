@@ -12,10 +12,10 @@ namespace UnityEngine::UIElements {
 class __StyleSelector____c;
 }
 namespace UnityEngine::UIElements {
-struct StyleSelectorPart;
+struct StyleSelectorRelationship;
 }
 namespace UnityEngine::UIElements {
-struct StyleSelectorRelationship;
+struct StyleSelectorPart;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

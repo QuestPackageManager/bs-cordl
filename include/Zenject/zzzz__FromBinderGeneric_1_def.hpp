@@ -7,55 +7,55 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FromBinderGeneric_1)
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
-}
-namespace Zenject {
-template <typename TContract> class __FromBinderGeneric_1____c__DisplayClass15_0;
-}
-namespace Zenject {
-template <typename TContract> class __FromBinderGeneric_1____c__DisplayClass3_0;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-template <typename TContract, typename TFactory> class __FromBinderGeneric_1____c__1_1;
-}
-namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
-template <typename TContract> class __FromBinderGeneric_1____c__DisplayClass14_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-struct InjectSources;
+class InjectContext;
 }
 namespace System {
-template <typename TResult> class Func_1;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class BindInfo;
+template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
 class BindStatement;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
+template <typename TContract> class __FromBinderGeneric_1____c__DisplayClass15_0;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
+}
+namespace Zenject {
+template <typename TContract> class __FromBinderGeneric_1____c__DisplayClass3_0;
+}
+namespace Zenject {
+template <typename TContract> class __FromBinderGeneric_1____c__DisplayClass14_0;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+template <typename TContract, typename TFactory> class __FromBinderGeneric_1____c__1_1;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 class InjectTypeInfo;

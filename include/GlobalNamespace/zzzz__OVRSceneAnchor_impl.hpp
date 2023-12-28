@@ -7,12 +7,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneAnchor.get_Space
 template <>
 
@@ -239,63 +239,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::OVRSpace& GlobalNamespace::OVRSceneAnchor::__get__Space_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Space_k__BackingField;
 }
 constexpr ::GlobalNamespace::OVRSpace const& GlobalNamespace::OVRSceneAnchor::__get__Space_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Space_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneAnchor::__set__Space_k__BackingField(::GlobalNamespace::OVRSpace value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Space_k__BackingField = value;
 }
 constexpr ::System::Guid& GlobalNamespace::OVRSceneAnchor::__get__Uuid_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Uuid_k__BackingField;
 }
 constexpr ::System::Guid const& GlobalNamespace::OVRSceneAnchor::__get__Uuid_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Uuid_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneAnchor::__set__Uuid_k__BackingField(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Uuid_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::OVRAnchor& GlobalNamespace::OVRSceneAnchor::__get__Anchor_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Anchor_k__BackingField;
 }
 constexpr ::GlobalNamespace::OVRAnchor const& GlobalNamespace::OVRSceneAnchor::__get__Anchor_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Anchor_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneAnchor::__set__Anchor_k__BackingField(::GlobalNamespace::OVRAnchor value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Anchor_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRSceneAnchor::__get__IsTracked_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsTracked_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRSceneAnchor::__get__IsTracked_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsTracked_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRSceneAnchor::__set__IsTracked_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsTracked_k__BackingField = value;
 }
 constexpr ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef>& GlobalNamespace::OVRSceneAnchor::__get__pose() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pose;
 }
 constexpr ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> const& GlobalNamespace::OVRSceneAnchor::__get__pose() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pose;
 }
 constexpr void GlobalNamespace::OVRSceneAnchor::__set__pose(::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pose = value;
 }
 inline void GlobalNamespace::OVRSceneAnchor::setStaticF_RotateY180(::UnityEngine::Quaternion value) {

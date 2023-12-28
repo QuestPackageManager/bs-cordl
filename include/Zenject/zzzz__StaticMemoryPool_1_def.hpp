@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticMemoryPool_1)
 namespace Zenject {
-template <typename TValue> class IMemoryPool_1;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
 class IMemoryPool;
 }
+namespace Zenject {
+template <typename TValue> class IMemoryPool_1;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {

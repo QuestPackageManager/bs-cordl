@@ -6,14 +6,14 @@
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncHelper_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__AsyncHelper_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "GlobalNamespace/zzzz__AsyncHelper_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -48,28 +48,28 @@ constexpr ::GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1____RunSync_b_
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T>::__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d() {}
 template <typename T> constexpr ::System::Func_1<::System::Threading::Tasks::Task_1<T>*>*& GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::__get_asyncTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncTask;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Threading::Tasks::Task_1<T>*>*> const& GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::__get_asyncTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncTask;
 }
 template <typename T> constexpr void GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::__set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___asyncTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::__get_result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 template <typename T> constexpr T const& GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::__get_result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result;
 }
 template <typename T> constexpr void GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::__set_result(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___result)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>* GlobalNamespace::__AsyncHelper____c__DisplayClass0_0_1<T>::New_ctor() {
@@ -177,15 +177,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_1<::System::Threading::Tasks::Task*>*& GlobalNamespace::__AsyncHelper____c__DisplayClass1_0::__get_asyncTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncTask;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Threading::Tasks::Task*>*> const& GlobalNamespace::__AsyncHelper____c__DisplayClass1_0::__get_asyncTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncTask;
 }
 constexpr void GlobalNamespace::__AsyncHelper____c__DisplayClass1_0::__set_asyncTask(::System::Func_1<::System::Threading::Tasks::Task*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___asyncTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__AsyncHelper____c__DisplayClass1_0* GlobalNamespace::__AsyncHelper____c__DisplayClass1_0::New_ctor() {

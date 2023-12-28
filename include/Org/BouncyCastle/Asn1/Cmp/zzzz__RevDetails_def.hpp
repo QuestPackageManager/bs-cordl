@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(RevDetails)
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
 }
@@ -18,6 +15,9 @@ class Asn1Object;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

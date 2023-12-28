@@ -1,55 +1,55 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 template <typename K, typename V> constexpr ::System::Action_1<V>*& GlobalNamespace::HMCache_2<K, V>::__get_itemWillBeRemovedFromCacheEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemWillBeRemovedFromCacheEvent;
 }
 template <typename K, typename V> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<V>*> const& GlobalNamespace::HMCache_2<K, V>::__get_itemWillBeRemovedFromCacheEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemWillBeRemovedFromCacheEvent;
 }
 template <typename K, typename V> constexpr void GlobalNamespace::HMCache_2<K, V>::__set_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___itemWillBeRemovedFromCacheEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename K, typename V> constexpr ::System::Collections::Generic::Dictionary_2<K, V>*& GlobalNamespace::HMCache_2<K, V>::__get__cache() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cache;
 }
 template <typename K, typename V> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<K, V>*> const& GlobalNamespace::HMCache_2<K, V>::__get__cache() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cache;
 }
 template <typename K, typename V> constexpr void GlobalNamespace::HMCache_2<K, V>::__set__cache(::System::Collections::Generic::Dictionary_2<K, V>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename K, typename V> constexpr ::System::Collections::Generic::Queue_1<K>*& GlobalNamespace::HMCache_2<K, V>::__get__addedElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addedElements;
 }
 template <typename K, typename V> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<K>*> const& GlobalNamespace::HMCache_2<K, V>::__get__addedElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addedElements;
 }
 template <typename K, typename V> constexpr void GlobalNamespace::HMCache_2<K, V>::__set__addedElements(::System::Collections::Generic::Queue_1<K>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____addedElements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename K, typename V> constexpr int32_t& GlobalNamespace::HMCache_2<K, V>::__get__maxNumberElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxNumberElements;
 }
 template <typename K, typename V> constexpr int32_t const& GlobalNamespace::HMCache_2<K, V>::__get__maxNumberElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxNumberElements;
 }
 template <typename K, typename V> constexpr void GlobalNamespace::HMCache_2<K, V>::__set__maxNumberElements(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxNumberElements = value;
 }
 template <typename K, typename V> inline void GlobalNamespace::HMCache_2<K, V>::add_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value) {

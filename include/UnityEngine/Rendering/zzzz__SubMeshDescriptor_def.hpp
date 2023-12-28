@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubMeshDescriptor)
 namespace UnityEngine {
-struct MeshTopology;
+struct Bounds;
 }
 namespace UnityEngine {
-struct Bounds;
+struct MeshTopology;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

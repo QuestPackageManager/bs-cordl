@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InMultiplayerRichPresenceData)
 namespace GlobalNamespace {
-class IMultiplayerRichPresenceData;
+class IRichPresenceData;
 }
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IMultiplayerRichPresenceData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

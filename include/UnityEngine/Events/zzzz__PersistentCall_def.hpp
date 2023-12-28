@@ -11,22 +11,22 @@ namespace UnityEngine::Events {
 class ArgumentCache;
 }
 namespace UnityEngine::Events {
+class UnityEventBase;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace UnityEngine::Events {
 class BaseInvokableCall;
+}
+namespace UnityEngine::Events {
+struct PersistentListenerMode;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Events {
-struct PersistentListenerMode;
-}
-namespace UnityEngine::Events {
-class UnityEventBase;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::Events::PersistentCall);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10457)), TypeDefinitionIndex(TypeDefinitionIndex(10447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10447)), TypeDefinitionIndex(TypeDefinitionIndex(10457))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10458))
 // CS Name: ::UnityEngine.Events::PersistentCall*
 class CORDL_TYPE PersistentCall : public ::System::Object {

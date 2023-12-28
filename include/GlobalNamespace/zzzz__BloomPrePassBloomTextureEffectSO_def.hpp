@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomPrePassBloomTextureEffectSO)
+namespace UnityEngine {
+class RenderTexture;
+}
 namespace GlobalNamespace {
 class BloomFogSO;
 }
@@ -14,9 +17,6 @@ class PyramidBloomRendererSO;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
-}
-namespace UnityEngine {
-class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

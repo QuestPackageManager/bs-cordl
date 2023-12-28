@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaypointData)
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct OffsetDirection;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

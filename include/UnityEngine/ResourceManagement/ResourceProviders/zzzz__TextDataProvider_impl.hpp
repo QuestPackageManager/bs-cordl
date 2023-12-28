@@ -3,14 +3,14 @@
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__TextDataProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__TextDataProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp.GetPercentComplete
 template <>
 
@@ -153,90 +153,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_Provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Provider;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*> const&
 UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_Provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Provider;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_RequestOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestOperation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const&
 UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_RequestOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestOperation;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_RequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_RequestQueueOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestQueueOperation;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const&
 UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_RequestQueueOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequestQueueOperation;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_RequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RequestQueueOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_PI() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PI;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_PI() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PI;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_PI(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PI = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_IgnoreFailures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IgnoreFailures;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_IgnoreFailures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IgnoreFailures;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_IgnoreFailures(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IgnoreFailures = value;
 }
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_Complete() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Complete;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_Complete() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Complete;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_Complete(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Complete = value;
 }
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_Timeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Timeout;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__get_m_Timeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Timeout;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::__set_m_Timeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Timeout = value;
 }
 inline float_t UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp::GetPercentComplete() {
@@ -380,15 +380,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__get__IgnoreFailures_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreFailures_k__BackingField;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__get__IgnoreFailures_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IgnoreFailures_k__BackingField;
 }
 constexpr void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::__set__IgnoreFailures_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IgnoreFailures_k__BackingField = value;
 }
 inline bool UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::get_IgnoreFailures() {

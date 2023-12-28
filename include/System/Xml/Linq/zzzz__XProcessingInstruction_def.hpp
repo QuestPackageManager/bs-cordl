@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XProcessingInstruction)
 namespace System::Xml {
 struct XmlNodeType;
 }
-namespace System::Xml {
-class XmlWriter;
-}
 namespace System::Xml::Linq {
 class XNode;
+}
+namespace System::Xml {
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

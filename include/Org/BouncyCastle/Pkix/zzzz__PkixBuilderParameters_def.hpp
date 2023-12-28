@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(PkixBuilderParameters)
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixParameters;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

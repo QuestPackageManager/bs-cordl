@@ -4,11 +4,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHandTest_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHandTest_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -151,87 +151,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr ::StringW const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_name;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator*& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_generator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_generator;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator*> const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_generator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_generator;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_generator(::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_generator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_prevValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevValue;
 }
 constexpr bool const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_prevValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevValue;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_prevValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevValue = value;
 }
 constexpr bool& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_currentValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValue;
 }
 constexpr bool const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_currentValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValue;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_currentValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentValue = value;
 }
 constexpr bool& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_currentValueRecentlyChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValueRecentlyChanged;
 }
 constexpr bool const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_currentValueRecentlyChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentValueRecentlyChanged;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_currentValueRecentlyChanged(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currentValueRecentlyChanged = value;
 }
 constexpr float_t& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_displayTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimeout;
 }
 constexpr float_t const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_displayTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimeout;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_displayTimeout(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_displayTimeout = value;
 }
 constexpr float_t& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_displayTimer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimer;
 }
 constexpr float_t const& GlobalNamespace::__OVRHandTest__BoolMonitor::__get_m_displayTimer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_displayTimer;
 }
 constexpr void GlobalNamespace::__OVRHandTest__BoolMonitor::__set_m_displayTimer(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_displayTimer = value;
 }
 /// @param displayTimeout: float_t (default: 0.5)
@@ -376,159 +376,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::UI::Text*& GlobalNamespace::OVRHandTest::__get_uiText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uiText;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& GlobalNamespace::OVRHandTest::__get_uiText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uiText;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_uiText(::UnityEngine::UI::Text* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uiText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>*& GlobalNamespace::OVRHandTest::__get_monitors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monitors;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>*> const& GlobalNamespace::OVRHandTest::__get_monitors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monitors;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHandTest__BoolMonitor*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___monitors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Text::StringBuilder*& GlobalNamespace::OVRHandTest::__get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& GlobalNamespace::OVRHandTest::__get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_data(::System::Text::StringBuilder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__HandState& GlobalNamespace::OVRHandTest::__get_hs_LH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hs_LH;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__HandState const& GlobalNamespace::OVRHandTest::__get_hs_LH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hs_LH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_hs_LH(::GlobalNamespace::__OVRPlugin__HandState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hs_LH = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__HandState& GlobalNamespace::OVRHandTest::__get_hs_RH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hs_RH;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__HandState const& GlobalNamespace::OVRHandTest::__get_hs_RH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hs_RH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_hs_RH(::GlobalNamespace::__OVRPlugin__HandState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hs_RH = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Skeleton& GlobalNamespace::OVRHandTest::__get_skel_LH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skel_LH;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Skeleton const& GlobalNamespace::OVRHandTest::__get_skel_LH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skel_LH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_skel_LH(::GlobalNamespace::__OVRPlugin__Skeleton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___skel_LH = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Skeleton& GlobalNamespace::OVRHandTest::__get_skel_RH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skel_RH;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Skeleton const& GlobalNamespace::OVRHandTest::__get_skel_RH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skel_RH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_skel_RH(::GlobalNamespace::__OVRPlugin__Skeleton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___skel_RH = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Mesh*& GlobalNamespace::OVRHandTest::__get_mesh_LH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mesh_LH;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPlugin__Mesh*> const& GlobalNamespace::OVRHandTest::__get_mesh_LH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mesh_LH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_mesh_LH(::GlobalNamespace::__OVRPlugin__Mesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mesh_LH)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRPlugin__Mesh*& GlobalNamespace::OVRHandTest::__get_mesh_RH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mesh_RH;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRPlugin__Mesh*> const& GlobalNamespace::OVRHandTest::__get_mesh_RH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mesh_RH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_mesh_RH(::GlobalNamespace::__OVRPlugin__Mesh* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mesh_RH)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OVRHandTest::__get_result_skel_LH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_skel_LH;
 }
 constexpr bool const& GlobalNamespace::OVRHandTest::__get_result_skel_LH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_skel_LH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_result_skel_LH(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___result_skel_LH = value;
 }
 constexpr bool& GlobalNamespace::OVRHandTest::__get_result_skel_RH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_skel_RH;
 }
 constexpr bool const& GlobalNamespace::OVRHandTest::__get_result_skel_RH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_skel_RH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_result_skel_RH(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___result_skel_RH = value;
 }
 constexpr bool& GlobalNamespace::OVRHandTest::__get_result_mesh_LH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_mesh_LH;
 }
 constexpr bool const& GlobalNamespace::OVRHandTest::__get_result_mesh_LH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_mesh_LH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_result_mesh_LH(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___result_mesh_LH = value;
 }
 constexpr bool& GlobalNamespace::OVRHandTest::__get_result_mesh_RH() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_mesh_RH;
 }
 constexpr bool const& GlobalNamespace::OVRHandTest::__get_result_mesh_RH() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___result_mesh_RH;
 }
 constexpr void GlobalNamespace::OVRHandTest::__set_result_mesh_RH(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___result_mesh_RH = value;
 }
 inline void GlobalNamespace::OVRHandTest::setStaticF_prevConnected(::StringW value) {

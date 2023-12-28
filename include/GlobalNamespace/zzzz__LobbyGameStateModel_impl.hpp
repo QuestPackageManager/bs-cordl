@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__MultiplayerGameState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyGameStateModel_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbyGameStateModel.get_gameState
 template <>
 
@@ -138,40 +138,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& GlobalNamespace::LobbyGameStateModel::__get_gameStateDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameStateDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& GlobalNamespace::LobbyGameStateModel::__get_gameStateDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameStateDidChangeEvent;
 }
 constexpr void GlobalNamespace::LobbyGameStateModel::__set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameStateDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& GlobalNamespace::LobbyGameStateModel::__get_gameStateDidChangeAlwaysSentEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameStateDidChangeAlwaysSentEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const&
 GlobalNamespace::LobbyGameStateModel::__get_gameStateDidChangeAlwaysSentEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameStateDidChangeAlwaysSentEvent;
 }
 constexpr void GlobalNamespace::LobbyGameStateModel::__set_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameStateDidChangeAlwaysSentEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerGameState& GlobalNamespace::LobbyGameStateModel::__get__gameState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameState;
 }
 constexpr ::GlobalNamespace::MultiplayerGameState const& GlobalNamespace::LobbyGameStateModel::__get__gameState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameState;
 }
 constexpr void GlobalNamespace::LobbyGameStateModel::__set__gameState(::GlobalNamespace::MultiplayerGameState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameState = value;
 }
 inline ::GlobalNamespace::MultiplayerGameState GlobalNamespace::LobbyGameStateModel::get_gameState() {

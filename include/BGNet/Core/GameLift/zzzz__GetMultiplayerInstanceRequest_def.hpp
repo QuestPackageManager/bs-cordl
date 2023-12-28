@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetMultiplayerInstanceRequest)
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+struct ServiceEnvironment;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-struct ServiceEnvironment;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -35,8 +35,8 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12681)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13010)) CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12681)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12740))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13010)) CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations

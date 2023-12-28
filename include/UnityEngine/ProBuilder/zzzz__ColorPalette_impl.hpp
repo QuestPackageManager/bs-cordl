@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ColorPalette_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__IHasDefault_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ColorPalette.get_current
 template <>
 
@@ -140,27 +140,27 @@ constexpr UnityEngine::ProBuilder::ColorPalette::operator ::UnityEngine::ProBuil
   return static_cast<::UnityEngine::ProBuilder::IHasDefault*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Color& UnityEngine::ProBuilder::ColorPalette::__get__current_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current_k__BackingField;
 }
 constexpr ::UnityEngine::Color const& UnityEngine::ProBuilder::ColorPalette::__get__current_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current_k__BackingField;
 }
 constexpr void UnityEngine::ProBuilder::ColorPalette::__set__current_k__BackingField(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& UnityEngine::ProBuilder::ColorPalette::__get_m_Colors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Colors;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& UnityEngine::ProBuilder::ColorPalette::__get_m_Colors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Colors;
 }
 constexpr void UnityEngine::ProBuilder::ColorPalette::__set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Colors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Color UnityEngine::ProBuilder::ColorPalette::get_current() {

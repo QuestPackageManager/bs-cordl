@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__LightConstants_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId.get_bakeId
@@ -114,75 +114,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__LightConstants__BakeId& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__bakeId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakeId;
 }
 constexpr ::GlobalNamespace::__LightConstants__BakeId const& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__bakeId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakeId;
 }
 constexpr void GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__set__bakeId(::GlobalNamespace::__LightConstants__BakeId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bakeId = value;
 }
 constexpr float_t& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__intensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr float_t const& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__intensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
 constexpr void GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__set__intensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
 constexpr float_t& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____weight;
 }
 constexpr float_t const& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____weight;
 }
 constexpr void GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__set__weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____weight = value;
 }
 constexpr int32_t& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__lightmapLightIdColorPropertyId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightIdColorPropertyId;
 }
 constexpr int32_t const& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__lightmapLightIdColorPropertyId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightIdColorPropertyId;
 }
 constexpr void GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__set__lightmapLightIdColorPropertyId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightmapLightIdColorPropertyId = value;
 }
 constexpr int32_t& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__lightProbeLightIdColorPropertyId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightProbeLightIdColorPropertyId;
 }
 constexpr int32_t const& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__lightProbeLightIdColorPropertyId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightProbeLightIdColorPropertyId;
 }
 constexpr void GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__set__lightProbeLightIdColorPropertyId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightProbeLightIdColorPropertyId = value;
 }
 constexpr bool& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__initializedPropertyIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializedPropertyIds;
 }
 constexpr bool const& GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__get__initializedPropertyIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializedPropertyIds;
 }
 constexpr void GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::__set__initializedPropertyIds(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initializedPropertyIds = value;
 }
 inline ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId::get_bakeId() {
@@ -306,30 +306,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::LightmapLightsWithIds::__get__maxTotalIntensity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxTotalIntensity;
 }
 constexpr float_t const& GlobalNamespace::LightmapLightsWithIds::__get__maxTotalIntensity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxTotalIntensity;
 }
 constexpr void GlobalNamespace::LightmapLightsWithIds::__set__maxTotalIntensity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxTotalIntensity = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*>&
 GlobalNamespace::LightmapLightsWithIds::__get__lightIntensityData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> const&
 GlobalNamespace::LightmapLightsWithIds::__get__lightIntensityData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityData;
 }
 constexpr void GlobalNamespace::LightmapLightsWithIds::__set__lightIntensityData(
     ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightIntensityData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::LightmapLightsWithIds::get_maxTotalIntensity() {

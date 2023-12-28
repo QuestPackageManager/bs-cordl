@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseMultiplayerStartGameCountdownViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController.add_playerActiveStateChangedEvent
 template <>
 
@@ -148,64 +148,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BeatmapSelectionView*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__beatmapSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapSelectionView*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__beatmapSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
 constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ModifiersSelectionView*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__modifiersSelectionView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ModifiersSelectionView*> const&
 GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__modifiersSelectionView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
 constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__spectateToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectateToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__spectateToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectateToggle;
 }
 constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__spectateToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectateToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<bool>*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get_playerActiveStateChangedEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerActiveStateChangedEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get_playerActiveStateChangedEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerActiveStateChangedEvent;
 }
 constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set_playerActiveStateChangedEvent(::System::Action_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerActiveStateChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent(::System::Action_1<bool>* value) {

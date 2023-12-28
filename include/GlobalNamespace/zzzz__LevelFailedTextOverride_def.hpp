@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 class __LevelFailedTextOverride__LanguageOverride;
 }
 namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class __LevelFailedTextOverride____c__DisplayClass6_0;
+class PreviewBeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 class LevelFailedText;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __LevelFailedTextOverride____c__DisplayClass6_0;
 }
 namespace Polyglot {
 struct Language;
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4002))
 // CS Name: ::LevelFailedTextOverride::LanguageOverride*
 class CORDL_TYPE __LevelFailedTextOverride__LanguageOverride : public ::System::Object {
@@ -116,7 +116,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelFailedTe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4003))
 // CS Name: ::LevelFailedTextOverride::<>c__DisplayClass6_0*
 class CORDL_TYPE __LevelFailedTextOverride____c__DisplayClass6_0 : public ::System::Object {

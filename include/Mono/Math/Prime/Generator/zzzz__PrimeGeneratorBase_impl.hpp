@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Math/Prime/Generator/zzzz__PrimeGeneratorBase_def.hpp"
-#include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
 #include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
+#include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
 //  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_Confidence
 template <>
 

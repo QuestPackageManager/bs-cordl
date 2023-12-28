@@ -11,8 +11,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextMeshPro)
+namespace TMPro {
+struct MaskingTypes;
+}
+namespace TMPro {
+struct __TMP_Text__UnicodeChar;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace TMPro {
+class TMP_SubMesh;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace TMPro {
+class TextContainer;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace TMPro {
+class TMP_TextInfo;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine {
 class MeshFilter;
@@ -20,50 +56,14 @@ class MeshFilter;
 namespace UnityEngine {
 class Mesh;
 }
-namespace TMPro {
-struct MaskingTypes;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace TMPro {
-struct TMP_VertexDataUpdateFlags;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace TMPro {
-class TextContainer;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Renderer;
-}
-namespace TMPro {
-class TMP_SubMesh;
-}
 namespace UnityEngine::UI {
 class ILayoutElement;
 }
 namespace TMPro {
-class TMP_TextInfo;
+struct TMP_VertexDataUpdateFlags;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
-}
-namespace TMPro {
-struct __TMP_Text__UnicodeChar;
-}
-namespace UnityEngine {
-struct Bounds;
 }
 // Forward declare root types
 namespace TMPro {

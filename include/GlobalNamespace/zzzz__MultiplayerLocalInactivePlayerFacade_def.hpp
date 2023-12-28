@@ -10,16 +10,16 @@ namespace GlobalNamespace {
 class MultiplayerLocalInactivePlayerSongSyncController;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerOutroAnimator;
+class IMultiplayerLevelEndActionsPublisher;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class MultiplayerSpectatorController;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace GlobalNamespace {
-class MultiplayerSpectatorController;
+class MultiplayerLocalInactivePlayerOutroAnimator;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
@@ -31,16 +31,16 @@ namespace GlobalNamespace {
 class IStartSeekSongControllerProvider;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
+class IStartSeekSongController;
 }
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class __MultiplayerLocalInactivePlayerFacade__Factory;
 }
 namespace GlobalNamespace {
-class IStartSeekSongController;
+class IMultiplayerLevelEndActionsListener;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -219,8 +219,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLoca
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(5161)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
-// 3491 }), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5160)) CS Name: ::MultiplayerLocalInactivePlayerFacade::Factory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3491 }), TypeDefinitionIndex(TypeDefinitionIndex(5239)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5161)), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5160)) CS Name:
+// ::MultiplayerLocalInactivePlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerLocalInactivePlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*> {
 public:

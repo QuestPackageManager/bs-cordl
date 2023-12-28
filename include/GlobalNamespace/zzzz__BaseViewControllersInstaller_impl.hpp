@@ -34,30 +34,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::SimpleDialogPromptViewController*& GlobalNamespace::BaseViewControllersInstaller::__get__simpleDialogPromptViewControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simpleDialogPromptViewControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleDialogPromptViewController*> const&
 GlobalNamespace::BaseViewControllersInstaller::__get__simpleDialogPromptViewControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simpleDialogPromptViewControllerPrefab;
 }
 constexpr void GlobalNamespace::BaseViewControllersInstaller::__set__simpleDialogPromptViewControllerPrefab(::GlobalNamespace::SimpleDialogPromptViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____simpleDialogPromptViewControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController*& GlobalNamespace::BaseViewControllersInstaller::__get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController*> const&
 GlobalNamespace::BaseViewControllersInstaller::__get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 }
 constexpr void GlobalNamespace::BaseViewControllersInstaller::__set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab(::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____safeAreaFocusedSimpleDialogPromptViewControllerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

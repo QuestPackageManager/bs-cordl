@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeometryUtility)
 namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class Mesh;
 }
 namespace UnityEngine {
 struct Vector3;

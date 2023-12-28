@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/Security/Cryptography/zzzz__AesCryptoServiceProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
-#include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__EncryptionUtility__IEncryptionState.get_isValid
 template <>
 
@@ -295,137 +295,137 @@ constexpr GlobalNamespace::__EncryptionUtility__EncryptionState::operator ::Syst
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__isValid() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isValid;
 }
 constexpr bool const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__isValid() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isValid;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__isValid(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isValid = value;
 }
 constexpr int32_t& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__lastSentSequenceNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSentSequenceNum;
 }
 constexpr int32_t const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__lastSentSequenceNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSentSequenceNum;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__lastSentSequenceNum(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastSentSequenceNum = value;
 }
 constexpr bool& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__hasReceivedSequenceNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasReceivedSequenceNum;
 }
 constexpr bool const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__hasReceivedSequenceNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasReceivedSequenceNum;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__hasReceivedSequenceNum(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasReceivedSequenceNum = value;
 }
 constexpr uint32_t& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__lastReceivedSequenceNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastReceivedSequenceNum;
 }
 constexpr uint32_t const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__lastReceivedSequenceNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastReceivedSequenceNum;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__lastReceivedSequenceNum(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastReceivedSequenceNum = value;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__receivedSequenceNumBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedSequenceNumBuffer;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__receivedSequenceNumBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedSequenceNumBuffer;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__receivedSequenceNumBuffer(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedSequenceNumBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility__EncryptionState::__get_sendKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sendKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get_sendKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sendKey;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set_sendKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sendKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility__EncryptionState::__get_receiveKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receiveKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get_receiveKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___receiveKey;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set_receiveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___receiveKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__sendMacKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sendMacKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__sendMacKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sendMacKey;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__sendMacKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sendMacKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__receiveMacKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receiveMacKey;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__receiveMacKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receiveMacKey;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__receiveMacKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receiveMacKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__sendMacQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sendMacQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*> const&
 GlobalNamespace::__EncryptionUtility__EncryptionState::__get__sendMacQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sendMacQueue;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__sendMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sendMacQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& GlobalNamespace::__EncryptionUtility__EncryptionState::__get__receiveMacQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receiveMacQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*> const&
 GlobalNamespace::__EncryptionUtility__EncryptionState::__get__receiveMacQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receiveMacQueue;
 }
 constexpr void GlobalNamespace::__EncryptionUtility__EncryptionState::__set__receiveMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receiveMacQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::__EncryptionUtility__EncryptionState::get_isValid() {
@@ -560,51 +560,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_preMasterSecret() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preMasterSecret;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_preMasterSecret() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preMasterSecret;
 }
 constexpr void GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__set_preMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___preMasterSecret)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_serverSeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverSeed;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_serverSeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverSeed;
 }
 constexpr void GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__set_serverSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverSeed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_clientSeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientSeed;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_clientSeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientSeed;
 }
 constexpr void GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__set_clientSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientSeed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_isClient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isClient;
 }
 constexpr bool const& GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__get_isClient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isClient;
 }
 constexpr void GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::__set_isClient(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isClient = value;
 }
 inline ::GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0* GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0::New_ctor() {

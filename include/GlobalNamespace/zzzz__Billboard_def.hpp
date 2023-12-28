@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Billboard)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 struct __Billboard__RotationMode;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Billboard__Ro
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14352))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14352)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14353))
 // CS Name: ::Billboard*
 class CORDL_TYPE Billboard : public ::UnityEngine::MonoBehaviour {

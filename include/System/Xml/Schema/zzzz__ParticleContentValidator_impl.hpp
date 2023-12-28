@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__ParticleContentValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
-#include "System/Collections/zzzz__Stack_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
-#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::ParticleContentValidator._ctor
 template <>
 
@@ -350,87 +350,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::Schema::SymbolsDictionary*& System::Xml::Schema::ParticleContentValidator::__get_symbols() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symbols;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& System::Xml::Schema::ParticleContentValidator::__get_symbols() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symbols;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_symbols(::System::Xml::Schema::SymbolsDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___symbols)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::Positions*& System::Xml::Schema::ParticleContentValidator::__get_positions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& System::Xml::Schema::ParticleContentValidator::__get_positions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_positions(::System::Xml::Schema::Positions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Stack*& System::Xml::Schema::ParticleContentValidator::__get_stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& System::Xml::Schema::ParticleContentValidator::__get_stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_stack(::System::Collections::Stack* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::Schema::SyntaxTreeNode*& System::Xml::Schema::ParticleContentValidator::__get_contentNode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentNode;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& System::Xml::Schema::ParticleContentValidator::__get_contentNode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentNode;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_contentNode(::System::Xml::Schema::SyntaxTreeNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Xml::Schema::ParticleContentValidator::__get_isPartial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isPartial;
 }
 constexpr bool const& System::Xml::Schema::ParticleContentValidator::__get_isPartial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isPartial;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_isPartial(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isPartial = value;
 }
 constexpr int32_t& System::Xml::Schema::ParticleContentValidator::__get_minMaxNodesCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minMaxNodesCount;
 }
 constexpr int32_t const& System::Xml::Schema::ParticleContentValidator::__get_minMaxNodesCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minMaxNodesCount;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_minMaxNodesCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minMaxNodesCount = value;
 }
 constexpr bool& System::Xml::Schema::ParticleContentValidator::__get_enableUpaCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableUpaCheck;
 }
 constexpr bool const& System::Xml::Schema::ParticleContentValidator::__get_enableUpaCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enableUpaCheck;
 }
 constexpr void System::Xml::Schema::ParticleContentValidator::__set_enableUpaCheck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableUpaCheck = value;
 }
 inline ::System::Xml::Schema::ParticleContentValidator* System::Xml::Schema::ParticleContentValidator::New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType) {

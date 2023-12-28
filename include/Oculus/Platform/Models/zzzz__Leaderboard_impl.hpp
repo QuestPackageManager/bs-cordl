@@ -17,51 +17,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& Oculus::Platform::Models::Leaderboard::__get_ApiName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApiName;
 }
 constexpr ::StringW const& Oculus::Platform::Models::Leaderboard::__get_ApiName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ApiName;
 }
 constexpr void Oculus::Platform::Models::Leaderboard::__set_ApiName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ApiName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::Destination*& Oculus::Platform::Models::Leaderboard::__get_DestinationOptional() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationOptional;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& Oculus::Platform::Models::Leaderboard::__get_DestinationOptional() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DestinationOptional;
 }
 constexpr void Oculus::Platform::Models::Leaderboard::__set_DestinationOptional(::Oculus::Platform::Models::Destination* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DestinationOptional)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Oculus::Platform::Models::Destination*& Oculus::Platform::Models::Leaderboard::__get_Destination() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Destination;
 }
 constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& Oculus::Platform::Models::Leaderboard::__get_Destination() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Destination;
 }
 constexpr void Oculus::Platform::Models::Leaderboard::__set_Destination(::Oculus::Platform::Models::Destination* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Destination)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr uint64_t& Oculus::Platform::Models::Leaderboard::__get__cordl_ID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr uint64_t const& Oculus::Platform::Models::Leaderboard::__get__cordl_ID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_ID;
 }
 constexpr void Oculus::Platform::Models::Leaderboard::__set__cordl_ID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cordl_ID = value;
 }
 inline ::Oculus::Platform::Models::Leaderboard* Oculus::Platform::Models::Leaderboard::New_ctor(void* o) {

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeartbeatMessage)
 namespace Org::BouncyCastle::Crypto::Tls {
-class __HeartbeatMessage__PayloadBuffer;
+class TlsContext;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class __HeartbeatMessage__PayloadBuffer;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

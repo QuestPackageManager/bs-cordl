@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarEditHistory_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPart_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarHistorySnapshot_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory.get_undoAvailable
 template <>
 
@@ -142,42 +142,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__get_disableNextSnapshotOverride() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disableNextSnapshotOverride;
 }
 constexpr bool const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__get_disableNextSnapshotOverride() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disableNextSnapshotOverride;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__set_disableNextSnapshotOverride(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disableNextSnapshotOverride = value;
 }
 constexpr ::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__get__snapShots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____snapShots;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*> const&
 BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__get__snapShots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____snapShots;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__set__snapShots(
     ::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____snapShots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__get__currentDataId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentDataId;
 }
 constexpr int32_t const& BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__get__currentDataId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentDataId;
 }
 constexpr void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::__set__currentDataId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentDataId = value;
 }
 inline bool BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::get_undoAvailable() {

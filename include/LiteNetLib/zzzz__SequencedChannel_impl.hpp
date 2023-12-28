@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__SequencedChannel_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::SequencedChannel._ctor
 template <>
 
@@ -48,99 +48,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& LiteNetLib::SequencedChannel::__get__localSequence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localSequence;
 }
 constexpr int32_t const& LiteNetLib::SequencedChannel::__get__localSequence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localSequence;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__localSequence(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localSequence = value;
 }
 constexpr uint16_t& LiteNetLib::SequencedChannel::__get__remoteSequence() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteSequence;
 }
 constexpr uint16_t const& LiteNetLib::SequencedChannel::__get__remoteSequence() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteSequence;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__remoteSequence(uint16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteSequence = value;
 }
 constexpr bool& LiteNetLib::SequencedChannel::__get__reliable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reliable;
 }
 constexpr bool const& LiteNetLib::SequencedChannel::__get__reliable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reliable;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__reliable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reliable = value;
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::SequencedChannel::__get__lastPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::SequencedChannel::__get__lastPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPacket;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__lastPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::LiteNetLib::NetPacket*& LiteNetLib::SequencedChannel::__get__ackPacket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ackPacket;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::SequencedChannel::__get__ackPacket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ackPacket;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__ackPacket(::LiteNetLib::NetPacket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ackPacket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& LiteNetLib::SequencedChannel::__get__mustSendAck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mustSendAck;
 }
 constexpr bool const& LiteNetLib::SequencedChannel::__get__mustSendAck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mustSendAck;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__mustSendAck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mustSendAck = value;
 }
 constexpr uint8_t& LiteNetLib::SequencedChannel::__get__id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr uint8_t const& LiteNetLib::SequencedChannel::__get__id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__id(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____id = value;
 }
 constexpr int64_t& LiteNetLib::SequencedChannel::__get__lastPacketSendTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPacketSendTime;
 }
 constexpr int64_t const& LiteNetLib::SequencedChannel::__get__lastPacketSendTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPacketSendTime;
 }
 constexpr void LiteNetLib::SequencedChannel::__set__lastPacketSendTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPacketSendTime = value;
 }
 inline ::LiteNetLib::SequencedChannel* LiteNetLib::SequencedChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {

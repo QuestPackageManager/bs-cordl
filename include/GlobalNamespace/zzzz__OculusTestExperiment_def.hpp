@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusTestExperiment)
 namespace GlobalNamespace {
+struct __OculusTestExperiment___Init_d__3;
+}
+namespace GlobalNamespace {
 class IExperimentModel;
 }
 namespace GlobalNamespace {
 class __OculusTestExperiment__ExperimentData;
 }
 namespace GlobalNamespace {
-struct __OculusTestExperiment___Init_d__3;
-}
-namespace GlobalNamespace {
 class IExperimentData;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

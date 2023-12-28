@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackLaneRingsManager)
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class TrackLaneRing;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

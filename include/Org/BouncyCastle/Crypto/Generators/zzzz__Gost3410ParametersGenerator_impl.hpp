@@ -146,39 +146,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__get_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__get_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
 constexpr void Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__set_size(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__get_typeproc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeproc;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__get_typeproc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeproc;
 }
 constexpr void Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__set_typeproc(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___typeproc = value;
 }
 constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__get_init_random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___init_random;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__get_init_random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___init_random;
 }
 constexpr void Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::__set_init_random(::Org::BouncyCastle::Security::SecureRandom* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___init_random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::Init(int32_t size, int32_t typeProcedure, ::Org::BouncyCastle::Security::SecureRandom* random) {

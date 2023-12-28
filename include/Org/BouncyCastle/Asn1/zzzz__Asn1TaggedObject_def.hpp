@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1TaggedObject)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObjectParser;
-}
-namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1TaggedObjectParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;

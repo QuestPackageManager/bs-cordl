@@ -14,12 +14,6 @@ template <typename T> class List_1;
 namespace GlobalNamespace {
 template <typename T> class __BatchExtensions___Batch_d__0_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
 }
@@ -28,6 +22,12 @@ class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {

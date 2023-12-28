@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignaturePacket)
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class SignatureSubpacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignaturePacket);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(589))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignaturePacket*
 class CORDL_TYPE SignaturePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {

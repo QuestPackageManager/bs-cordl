@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Delegate_impl.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::MulticastDelegate.GetObjectData
 template <>
@@ -138,15 +138,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>& System::MulticastDelegate::__get_delegates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegates;
 }
 constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> const& System::MulticastDelegate::__get_delegates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegates;
 }
 constexpr void System::MulticastDelegate::__set_delegates(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___delegates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::MulticastDelegate::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {

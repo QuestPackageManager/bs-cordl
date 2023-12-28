@@ -8,9 +8,6 @@ namespace GlobalNamespace {
 class LocalLeaderboardsModel;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
@@ -18,6 +15,9 @@ class ISaveData;
 }
 namespace GlobalNamespace {
 class SonyBackgroundExecutionHelper;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

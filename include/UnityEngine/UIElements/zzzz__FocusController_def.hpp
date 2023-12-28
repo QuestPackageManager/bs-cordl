@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FocusController)
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
-}
-namespace UnityEngine::UIElements {
 struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class FocusChangeDirection;
 }
-namespace UnityEngine::UIElements {
-struct __FocusController__FocusedElement;
-}
-namespace UnityEngine::UIElements {
-class IFocusRing;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IFocusRing;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+struct __FocusController__FocusedElement;
+}
+namespace UnityEngine::UIElements {
+class Focusable;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
-#include "UnityEngine/Rendering/zzzz__GraphicsDeviceType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GraphicsDeviceType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::Management::XRLoader.Initialize
 template <>
 

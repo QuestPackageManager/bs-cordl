@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__CollectionExtensions_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::CollectionExtensions.SetValue
 template <>
 

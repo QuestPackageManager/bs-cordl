@@ -4,22 +4,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TokenType_impl.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatFlags_def.hpp"
 #include "System/Globalization/zzzz__CultureData_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz____DTString_def.hpp"
-#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
-#include "System/Globalization/zzzz__CalendarId_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
 #include "System/zzzz__TokenType_def.hpp"
+#include "System/Globalization/zzzz__CalendarId_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatFlags_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__MonthNameStyles_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: ::System::Globalization::__DateTimeFormatInfo__TokenHashValue._ctor
 template <>
 
@@ -37,39 +37,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Globalization::__DateTimeFormatInfo__TokenHashValue::__get_tokenString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenString;
 }
 constexpr ::StringW const& System::Globalization::__DateTimeFormatInfo__TokenHashValue::__get_tokenString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenString;
 }
 constexpr void System::Globalization::__DateTimeFormatInfo__TokenHashValue::__set_tokenString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tokenString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::TokenType& System::Globalization::__DateTimeFormatInfo__TokenHashValue::__get_tokenType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenType;
 }
 constexpr ::System::TokenType const& System::Globalization::__DateTimeFormatInfo__TokenHashValue::__get_tokenType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenType;
 }
 constexpr void System::Globalization::__DateTimeFormatInfo__TokenHashValue::__set_tokenType(::System::TokenType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tokenType = value;
 }
 constexpr int32_t& System::Globalization::__DateTimeFormatInfo__TokenHashValue::__get_tokenValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenValue;
 }
 constexpr int32_t const& System::Globalization::__DateTimeFormatInfo__TokenHashValue::__get_tokenValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tokenValue;
 }
 constexpr void System::Globalization::__DateTimeFormatInfo__TokenHashValue::__set_tokenValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tokenValue = value;
 }
 inline ::System::Globalization::__DateTimeFormatInfo__TokenHashValue* System::Globalization::__DateTimeFormatInfo__TokenHashValue::New_ctor(::StringW tokenString, ::System::TokenType tokenType,
@@ -1484,534 +1484,534 @@ constexpr System::Globalization::DateTimeFormatInfo::operator ::System::ICloneab
   return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 constexpr ::System::Globalization::CultureData*& System::Globalization::DateTimeFormatInfo::__get__cultureData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cultureData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& System::Globalization::DateTimeFormatInfo::__get__cultureData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cultureData;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__cultureData(::System::Globalization::CultureData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cultureData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get__langName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____langName;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get__langName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____langName;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__langName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____langName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CompareInfo*& System::Globalization::DateTimeFormatInfo::__get__compareInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compareInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& System::Globalization::DateTimeFormatInfo::__get__compareInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compareInfo;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__compareInfo(::System::Globalization::CompareInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____compareInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureInfo*& System::Globalization::DateTimeFormatInfo::__get__cultureInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cultureInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& System::Globalization::DateTimeFormatInfo::__get__cultureInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cultureInfo;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__cultureInfo(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cultureInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_amDesignator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___amDesignator;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_amDesignator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___amDesignator;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_amDesignator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___amDesignator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_pmDesignator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pmDesignator;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_pmDesignator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pmDesignator;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_pmDesignator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pmDesignator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_dateSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateSeparator;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_dateSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateSeparator;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_dateSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dateSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_generalShortTimePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generalShortTimePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_generalShortTimePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generalShortTimePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_generalShortTimePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___generalShortTimePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_generalLongTimePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generalLongTimePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_generalLongTimePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generalLongTimePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_generalLongTimePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___generalLongTimePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_timeSeparator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeSeparator;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_timeSeparator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeSeparator;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_timeSeparator(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timeSeparator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_monthDayPattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monthDayPattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_monthDayPattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monthDayPattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_monthDayPattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___monthDayPattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_dateTimeOffsetPattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTimeOffsetPattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_dateTimeOffsetPattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dateTimeOffsetPattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_dateTimeOffsetPattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dateTimeOffsetPattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::Calendar*& System::Globalization::DateTimeFormatInfo::__get_calendar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calendar;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& System::Globalization::DateTimeFormatInfo::__get_calendar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calendar;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_calendar(::System::Globalization::Calendar* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___calendar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Globalization::DateTimeFormatInfo::__get_firstDayOfWeek() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstDayOfWeek;
 }
 constexpr int32_t const& System::Globalization::DateTimeFormatInfo::__get_firstDayOfWeek() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstDayOfWeek;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_firstDayOfWeek(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___firstDayOfWeek = value;
 }
 constexpr int32_t& System::Globalization::DateTimeFormatInfo::__get_calendarWeekRule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calendarWeekRule;
 }
 constexpr int32_t const& System::Globalization::DateTimeFormatInfo::__get_calendarWeekRule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calendarWeekRule;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_calendarWeekRule(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___calendarWeekRule = value;
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_fullDateTimePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullDateTimePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_fullDateTimePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fullDateTimePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_fullDateTimePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fullDateTimePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_abbreviatedDayNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abbreviatedDayNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_abbreviatedDayNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abbreviatedDayNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_abbreviatedDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___abbreviatedDayNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_m_superShortDayNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_superShortDayNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_m_superShortDayNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_superShortDayNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_m_superShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_superShortDayNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_dayNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dayNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_dayNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dayNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_dayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dayNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_abbreviatedMonthNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abbreviatedMonthNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_abbreviatedMonthNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abbreviatedMonthNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_abbreviatedMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___abbreviatedMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_monthNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monthNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_monthNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___monthNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_monthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___monthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_genitiveMonthNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___genitiveMonthNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_genitiveMonthNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___genitiveMonthNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_genitiveMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___genitiveMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_m_genitiveAbbreviatedMonthNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_genitiveAbbreviatedMonthNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_m_genitiveAbbreviatedMonthNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_genitiveAbbreviatedMonthNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_m_genitiveAbbreviatedMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_genitiveAbbreviatedMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_leapYearMonthNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leapYearMonthNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_leapYearMonthNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leapYearMonthNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_leapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leapYearMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_longDatePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___longDatePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_longDatePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___longDatePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_longDatePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___longDatePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_shortDatePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortDatePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_shortDatePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortDatePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_shortDatePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___shortDatePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_yearMonthPattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yearMonthPattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_yearMonthPattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yearMonthPattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_yearMonthPattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___yearMonthPattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_longTimePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___longTimePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_longTimePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___longTimePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_longTimePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___longTimePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get_shortTimePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortTimePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get_shortTimePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shortTimePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_shortTimePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___shortTimePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_allYearMonthPatterns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allYearMonthPatterns;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_allYearMonthPatterns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allYearMonthPatterns;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_allYearMonthPatterns(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allYearMonthPatterns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_allShortDatePatterns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allShortDatePatterns;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_allShortDatePatterns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allShortDatePatterns;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_allShortDatePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allShortDatePatterns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_allLongDatePatterns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allLongDatePatterns;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_allLongDatePatterns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allLongDatePatterns;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_allLongDatePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allLongDatePatterns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_allShortTimePatterns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allShortTimePatterns;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_allShortTimePatterns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allShortTimePatterns;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_allShortTimePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allShortTimePatterns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_allLongTimePatterns() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allLongTimePatterns;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_allLongTimePatterns() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allLongTimePatterns;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_allLongTimePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allLongTimePatterns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_m_eraNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eraNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_m_eraNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eraNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_m_eraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_eraNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_m_abbrevEraNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_abbrevEraNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_m_abbrevEraNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_abbrevEraNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_m_abbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_abbrevEraNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::DateTimeFormatInfo::__get_m_abbrevEnglishEraNames() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_abbrevEnglishEraNames;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::DateTimeFormatInfo::__get_m_abbrevEnglishEraNames() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_abbrevEnglishEraNames;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_m_abbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_abbrevEnglishEraNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*>& System::Globalization::DateTimeFormatInfo::__get_optionalCalendars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___optionalCalendars;
 }
 constexpr ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> const& System::Globalization::DateTimeFormatInfo::__get_optionalCalendars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___optionalCalendars;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_optionalCalendars(::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___optionalCalendars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Globalization::DateTimeFormatInfo::__get__isReadOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReadOnly;
 }
 constexpr bool const& System::Globalization::DateTimeFormatInfo::__get__isReadOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isReadOnly;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__isReadOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isReadOnly = value;
 }
 constexpr ::System::Globalization::DateTimeFormatFlags& System::Globalization::DateTimeFormatInfo::__get_formatFlags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___formatFlags;
 }
 constexpr ::System::Globalization::DateTimeFormatFlags const& System::Globalization::DateTimeFormatInfo::__get_formatFlags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___formatFlags;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set_formatFlags(::System::Globalization::DateTimeFormatFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___formatFlags = value;
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get__fullTimeSpanPositivePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullTimeSpanPositivePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get__fullTimeSpanPositivePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullTimeSpanPositivePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__fullTimeSpanPositivePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fullTimeSpanPositivePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Globalization::DateTimeFormatInfo::__get__fullTimeSpanNegativePattern() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullTimeSpanNegativePattern;
 }
 constexpr ::StringW const& System::Globalization::DateTimeFormatInfo::__get__fullTimeSpanNegativePattern() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fullTimeSpanNegativePattern;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__fullTimeSpanNegativePattern(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fullTimeSpanNegativePattern)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*>&
 System::Globalization::DateTimeFormatInfo::__get__dtfiTokenHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dtfiTokenHash;
 }
 constexpr ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> const&
 System::Globalization::DateTimeFormatInfo::__get__dtfiTokenHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dtfiTokenHash;
 }
 constexpr void System::Globalization::DateTimeFormatInfo::__set__dtfiTokenHash(
     ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dtfiTokenHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Globalization::DateTimeFormatInfo::setStaticF_s_invariantInfo(::System::Globalization::DateTimeFormatInfo* value) {

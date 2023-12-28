@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SM2Signer)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
+class IDsaEncoding;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IOptionalAvatarDataProvider)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace BeatSaber::AvatarCore {
+struct AvatarDisplayContext;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

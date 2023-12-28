@@ -206,51 +206,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::PlayerAgreements::__get_eulaVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eulaVersion;
 }
 constexpr int32_t const& GlobalNamespace::PlayerAgreements::__get_eulaVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eulaVersion;
 }
 constexpr void GlobalNamespace::PlayerAgreements::__set_eulaVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___eulaVersion = value;
 }
 constexpr int32_t& GlobalNamespace::PlayerAgreements::__get_privacyPolicyVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privacyPolicyVersion;
 }
 constexpr int32_t const& GlobalNamespace::PlayerAgreements::__get_privacyPolicyVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privacyPolicyVersion;
 }
 constexpr void GlobalNamespace::PlayerAgreements::__set_privacyPolicyVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___privacyPolicyVersion = value;
 }
 constexpr int32_t& GlobalNamespace::PlayerAgreements::__get_healthAndSafetyVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___healthAndSafetyVersion;
 }
 constexpr int32_t const& GlobalNamespace::PlayerAgreements::__get_healthAndSafetyVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___healthAndSafetyVersion;
 }
 constexpr void GlobalNamespace::PlayerAgreements::__set_healthAndSafetyVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___healthAndSafetyVersion = value;
 }
 constexpr int32_t& GlobalNamespace::PlayerAgreements::__get_playerSensitivityFlagVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSensitivityFlagVersion;
 }
 constexpr int32_t const& GlobalNamespace::PlayerAgreements::__get_playerSensitivityFlagVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSensitivityFlagVersion;
 }
 constexpr void GlobalNamespace::PlayerAgreements::__set_playerSensitivityFlagVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerSensitivityFlagVersion = value;
 }
 inline ::GlobalNamespace::PlayerAgreements* GlobalNamespace::PlayerAgreements::New_ctor() {

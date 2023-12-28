@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1CipherBuilderWithKey)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto {
+class ICipher;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilder;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilder;
 }
 namespace System {
 class Object;
@@ -29,8 +29,8 @@ class Object;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipher;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;

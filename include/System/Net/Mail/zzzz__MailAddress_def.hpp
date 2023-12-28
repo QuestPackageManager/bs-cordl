@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MailAddress)
-namespace System::Net::Mime {
-class EncodedStreamFactory;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::Net::Mime {
+class EncodedStreamFactory;
 }
 namespace System {
 class Object;

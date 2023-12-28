@@ -94,99 +94,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr char16_t& System::Globalization::Bootstring::__get_delimiter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delimiter;
 }
 constexpr char16_t const& System::Globalization::Bootstring::__get_delimiter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delimiter;
 }
 constexpr void System::Globalization::Bootstring::__set_delimiter(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delimiter = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_base_num() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base_num;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_base_num() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___base_num;
 }
 constexpr void System::Globalization::Bootstring::__set_base_num(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___base_num = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_tmin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tmin;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_tmin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tmin;
 }
 constexpr void System::Globalization::Bootstring::__set_tmin(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tmin = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_tmax() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tmax;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_tmax() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tmax;
 }
 constexpr void System::Globalization::Bootstring::__set_tmax(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tmax = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_skew() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skew;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_skew() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___skew;
 }
 constexpr void System::Globalization::Bootstring::__set_skew(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___skew = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_damp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___damp;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_damp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___damp;
 }
 constexpr void System::Globalization::Bootstring::__set_damp(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___damp = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_initial_bias() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initial_bias;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_initial_bias() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initial_bias;
 }
 constexpr void System::Globalization::Bootstring::__set_initial_bias(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initial_bias = value;
 }
 constexpr int32_t& System::Globalization::Bootstring::__get_initial_n() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initial_n;
 }
 constexpr int32_t const& System::Globalization::Bootstring::__get_initial_n() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initial_n;
 }
 constexpr void System::Globalization::Bootstring::__set_initial_n(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initial_n = value;
 }
 inline ::System::Globalization::Bootstring* System::Globalization::Bootstring::New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp,

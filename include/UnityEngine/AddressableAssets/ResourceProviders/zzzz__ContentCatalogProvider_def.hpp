@@ -11,11 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogProvider)
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+namespace UnityEngine {
+class AssetBundle;
 }
 namespace UnityEngine {
 class AssetBundleCreateRequest;
@@ -23,38 +20,41 @@ class AssetBundleCreateRequest;
 namespace UnityEngine {
 class AsyncOperation;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
 }
 namespace UnityEngine {
 class AssetBundleRequest;
 }
-namespace UnityEngine {
-class AssetBundle;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
 }
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-struct __ContentCatalogProvider__DependencyHashIndex;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
+struct __ContentCatalogProvider__DependencyHashIndex;
+}
+namespace UnityEngine::AddressableAssets::ResourceProviders {
 class __ContentCatalogProvider__InternalOp;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
 }
 namespace GlobalNamespace {
 class __ContentCatalogProvider__InternalOp__BundledCatalog;
@@ -334,8 +334,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ContentCatalo
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 115, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 296 }), TypeDefinitionIndex(TypeDefinitionIndex(14111)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(14033))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 296 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14111))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS Name: ::ContentCatalogProvider::InternalOp*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp : public ::System::Object {
 public:

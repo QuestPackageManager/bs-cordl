@@ -9,58 +9,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GeoNode)
 namespace HoudiniEngineUnity {
-class HEU_VolumeCache;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct HAPI_PartInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
+class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputNode;
+class HEU_GeneratedOutput;
 }
 namespace HoudiniEngineUnity {
 class HEU_ObjectNode;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_GeoType;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
+struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_Curve;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class HEU_VolumeCache;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoType;
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_Curve;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_MaterialData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_PartData;
+class HEU_InputNode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeoNode);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9739)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9739))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9629))
 // CS Name: ::HoudiniEngineUnity::HEU_GeoNode*
 class CORDL_TYPE HEU_GeoNode : public ::UnityEngine::ScriptableObject {

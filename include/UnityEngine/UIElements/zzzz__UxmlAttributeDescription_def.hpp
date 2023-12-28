@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(UxmlAttributeDescription)
 namespace UnityEngine::UIElements {
 struct __UxmlAttributeDescription__Use;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlTypeRestriction;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
+struct CreationContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlA
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6980))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6980)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6981))
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeDescription*
 class CORDL_TYPE UxmlAttributeDescription : public ::System::Object {

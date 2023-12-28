@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 CORDL_MODULE_EXPORT(SelectLevelDestination)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectLevelDestination);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(4152))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4156))
 // CS Name: ::SelectLevelDestination*
 class CORDL_TYPE SelectLevelDestination : public ::GlobalNamespace::MenuDestination {

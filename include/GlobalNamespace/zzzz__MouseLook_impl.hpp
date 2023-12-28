@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "GlobalNamespace/zzzz__MouseLook_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MouseLook.Init
 template <>
 
@@ -121,135 +121,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::MouseLook::__get__xSensitivity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xSensitivity;
 }
 constexpr float_t const& GlobalNamespace::MouseLook::__get__xSensitivity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xSensitivity;
 }
 constexpr void GlobalNamespace::MouseLook::__set__xSensitivity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xSensitivity = value;
 }
 constexpr float_t& GlobalNamespace::MouseLook::__get__ySensitivity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ySensitivity;
 }
 constexpr float_t const& GlobalNamespace::MouseLook::__get__ySensitivity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ySensitivity;
 }
 constexpr void GlobalNamespace::MouseLook::__set__ySensitivity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ySensitivity = value;
 }
 constexpr bool& GlobalNamespace::MouseLook::__get__clampVerticalRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampVerticalRotation;
 }
 constexpr bool const& GlobalNamespace::MouseLook::__get__clampVerticalRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampVerticalRotation;
 }
 constexpr void GlobalNamespace::MouseLook::__set__clampVerticalRotation(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clampVerticalRotation = value;
 }
 constexpr float_t& GlobalNamespace::MouseLook::__get__minimumX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimumX;
 }
 constexpr float_t const& GlobalNamespace::MouseLook::__get__minimumX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minimumX;
 }
 constexpr void GlobalNamespace::MouseLook::__set__minimumX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minimumX = value;
 }
 constexpr float_t& GlobalNamespace::MouseLook::__get__maximumX() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maximumX;
 }
 constexpr float_t const& GlobalNamespace::MouseLook::__get__maximumX() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maximumX;
 }
 constexpr void GlobalNamespace::MouseLook::__set__maximumX(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maximumX = value;
 }
 constexpr bool& GlobalNamespace::MouseLook::__get__smooth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 constexpr bool const& GlobalNamespace::MouseLook::__get__smooth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smooth;
 }
 constexpr void GlobalNamespace::MouseLook::__set__smooth(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smooth = value;
 }
 constexpr float_t& GlobalNamespace::MouseLook::__get__smoothTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothTime;
 }
 constexpr float_t const& GlobalNamespace::MouseLook::__get__smoothTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____smoothTime;
 }
 constexpr void GlobalNamespace::MouseLook::__set__smoothTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____smoothTime = value;
 }
 constexpr bool& GlobalNamespace::MouseLook::__get__lockCursor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockCursor;
 }
 constexpr bool const& GlobalNamespace::MouseLook::__get__lockCursor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lockCursor;
 }
 constexpr void GlobalNamespace::MouseLook::__set__lockCursor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lockCursor = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::MouseLook::__get__characterTargetRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characterTargetRot;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::MouseLook::__get__characterTargetRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____characterTargetRot;
 }
 constexpr void GlobalNamespace::MouseLook::__set__characterTargetRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____characterTargetRot = value;
 }
 constexpr ::UnityEngine::Quaternion& GlobalNamespace::MouseLook::__get__cameraTargetRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraTargetRot;
 }
 constexpr ::UnityEngine::Quaternion const& GlobalNamespace::MouseLook::__get__cameraTargetRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cameraTargetRot;
 }
 constexpr void GlobalNamespace::MouseLook::__set__cameraTargetRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cameraTargetRot = value;
 }
 constexpr bool& GlobalNamespace::MouseLook::__get__cursorIsLocked() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursorIsLocked;
 }
 constexpr bool const& GlobalNamespace::MouseLook::__get__cursorIsLocked() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cursorIsLocked;
 }
 constexpr void GlobalNamespace::MouseLook::__set__cursorIsLocked(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cursorIsLocked = value;
 }
 inline void GlobalNamespace::MouseLook::Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera) {

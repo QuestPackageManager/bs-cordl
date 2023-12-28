@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectionRequest)
 namespace LiteNetLib {
+class NetManager;
+}
+namespace LiteNetLib {
 class NetPeer;
 }
+namespace LiteNetLib {
+struct ConnectionRequestResult;
+}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace LiteNetLib {
 class NetConnectRequestPacket;
-}
-namespace LiteNetLib {
-class NetManager;
-}
-namespace LiteNetLib {
-struct ConnectionRequestResult;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::LiteNetLib::ConnectionRequest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14128)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14128))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14129))
 // CS Name: ::LiteNetLib::ConnectionRequest*
 class CORDL_TYPE ConnectionRequest : public ::System::Object {

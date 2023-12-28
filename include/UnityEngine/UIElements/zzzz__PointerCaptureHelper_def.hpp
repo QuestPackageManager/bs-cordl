@@ -12,10 +12,10 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class PointerDispatchState;
 }
 namespace UnityEngine::UIElements {
-class PointerDispatchState;
+class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

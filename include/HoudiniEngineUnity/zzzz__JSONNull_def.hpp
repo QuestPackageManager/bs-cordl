@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNull)
 namespace HoudiniEngineUnity {
-struct JSONNodeType;
+struct __JSONNode__Enumerator;
 }
 namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
+struct JSONNodeType;
+}
+namespace System {
+class Object;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

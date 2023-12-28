@@ -5,14 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyCollectionBase)
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class ArrayList;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class ICollection;
@@ -20,8 +17,11 @@ class ICollection;
 namespace System {
 class Array;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections {

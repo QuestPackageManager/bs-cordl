@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ServiceEnvironment_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomNetworkConfig_def.hpp"
-#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
-#include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
+#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomNetworkConfig.get_maxPartySize
 template <>
 
@@ -176,125 +176,125 @@ constexpr GlobalNamespace::CustomNetworkConfig::operator ::GlobalNamespace::INet
   return static_cast<::GlobalNamespace::INetworkConfig*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::CustomNetworkConfig::__get__maxPartySize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPartySize_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::CustomNetworkConfig::__get__maxPartySize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPartySize_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__maxPartySize_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxPartySize_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::CustomNetworkConfig::__get__discoveryPort_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____discoveryPort_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::CustomNetworkConfig::__get__discoveryPort_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____discoveryPort_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__discoveryPort_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____discoveryPort_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::CustomNetworkConfig::__get__partyPort_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyPort_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::CustomNetworkConfig::__get__partyPort_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyPort_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__partyPort_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____partyPort_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::CustomNetworkConfig::__get__multiplayerPort_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPort_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::CustomNetworkConfig::__get__multiplayerPort_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPort_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__multiplayerPort_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplayerPort_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::DnsEndPoint*& GlobalNamespace::CustomNetworkConfig::__get__masterServerEndPoint_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerEndPoint_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DnsEndPoint*> const& GlobalNamespace::CustomNetworkConfig::__get__masterServerEndPoint_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterServerEndPoint_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__masterServerEndPoint_k__BackingField(::GlobalNamespace::DnsEndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterServerEndPoint_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomNetworkConfig::__get__multiplayerStatusUrl_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusUrl_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomNetworkConfig::__get__multiplayerStatusUrl_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusUrl_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__multiplayerStatusUrl_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerStatusUrl_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomNetworkConfig::__get__graphUrl_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphUrl_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomNetworkConfig::__get__graphUrl_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphUrl_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__graphUrl_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphUrl_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::CustomNetworkConfig::__get__graphAccessToken_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAccessToken_k__BackingField;
 }
 constexpr ::StringW const& GlobalNamespace::CustomNetworkConfig::__get__graphAccessToken_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAccessToken_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__graphAccessToken_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAccessToken_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::CustomNetworkConfig::__get__forceGameLift_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceGameLift_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::CustomNetworkConfig::__get__forceGameLift_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forceGameLift_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__forceGameLift_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceGameLift_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::ServiceEnvironment& GlobalNamespace::CustomNetworkConfig::__get__serviceEnvironment_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceEnvironment_k__BackingField;
 }
 constexpr ::GlobalNamespace::ServiceEnvironment const& GlobalNamespace::CustomNetworkConfig::__get__serviceEnvironment_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceEnvironment_k__BackingField;
 }
 constexpr void GlobalNamespace::CustomNetworkConfig::__set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____serviceEnvironment_k__BackingField = value;
 }
 inline int32_t GlobalNamespace::CustomNetworkConfig::get_maxPartySize() {

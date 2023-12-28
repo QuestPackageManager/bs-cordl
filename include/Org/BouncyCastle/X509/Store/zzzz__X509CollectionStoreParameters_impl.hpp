@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CollectionStoreParameters_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters._ctor
 template <>
 
@@ -55,15 +55,15 @@ constexpr Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::operato
   return static_cast<::Org::BouncyCastle::X509::Store::IX509StoreParameters*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::__get_collection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::__get_collection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection;
 }
 constexpr void Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::__set_collection(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::New_ctor(::System::Collections::ICollection* collection) {

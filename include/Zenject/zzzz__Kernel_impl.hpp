@@ -2,16 +2,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__Kernel_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
-#include "Zenject/zzzz__TickableManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__DisposableManager_def.hpp"
 #include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "Zenject/zzzz__IFixedTickable_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__TickableManager_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__ILateTickable_def.hpp"
-#include "Zenject/zzzz__DisposableManager_def.hpp"
+#include "Zenject/zzzz__IFixedTickable_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
 //  Writing Method size for method: ::Zenject::Kernel.Initialize
 template <>
 
@@ -206,39 +206,39 @@ constexpr Zenject::Kernel::operator ::Zenject::ILateDisposable*() noexcept {
   return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::TickableManager*& Zenject::Kernel::__get__tickableManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickableManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const& Zenject::Kernel::__get__tickableManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickableManager;
 }
 constexpr void Zenject::Kernel::__set__tickableManager(::Zenject::TickableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tickableManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::InitializableManager*& Zenject::Kernel::__get__initializableManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializableManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::InitializableManager*> const& Zenject::Kernel::__get__initializableManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializableManager;
 }
 constexpr void Zenject::Kernel::__set__initializableManager(::Zenject::InitializableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initializableManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::DisposableManager*& Zenject::Kernel::__get__disposablesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposablesManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::DisposableManager*> const& Zenject::Kernel::__get__disposablesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposablesManager;
 }
 constexpr void Zenject::Kernel::__set__disposablesManager(::Zenject::DisposableManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposablesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Zenject::Kernel::Initialize() {

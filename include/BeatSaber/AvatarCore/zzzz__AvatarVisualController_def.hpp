@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarVisualController)
-namespace UnityEngine {
-struct Color;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace BeatSaber::AvatarCore {
 class AvatarController;
 }
 namespace BeatSaber::AvatarCore {
 class __AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Color;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

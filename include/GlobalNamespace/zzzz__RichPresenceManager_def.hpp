@@ -5,15 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichPresenceManager)
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class PlayingTutorialPresenceData;
-}
 namespace Zenject {
 class DiContainer;
 }
@@ -21,40 +12,49 @@ namespace GlobalNamespace {
 struct MultiplayerGameState;
 }
 namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
+class PlayingTutorialPresenceData;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
-}
-namespace GlobalNamespace {
-class LobbyGameStateModel;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class InMultiplayerRichPresenceData;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class BrowsingMenusRichPresenceData;
 }
 namespace GlobalNamespace {
-class PlayingCampaignRichPresenceData;
+class IRichPresencePlatformHandler;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
 class IRichPresenceData;
 }
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class InMultiplayerRichPresenceData;
+}
+namespace GlobalNamespace {
+class PlayingCampaignRichPresenceData;
+}
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MenuScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

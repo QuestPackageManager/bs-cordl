@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__EncoderFallback_impl.hpp"
 #include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
-#include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "System/Xml/zzzz__CharEntityEncoderFallbackBuffer_def.hpp"
+#include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Xml::CharEntityEncoderFallback._ctor
 template <>
 
@@ -93,63 +93,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& System::Xml::CharEntityEncoderFallback::__get_fallbackBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallbackBuffer*> const& System::Xml::CharEntityEncoderFallback::__get_fallbackBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackBuffer;
 }
 constexpr void System::Xml::CharEntityEncoderFallback::__set_fallbackBuffer(::System::Xml::CharEntityEncoderFallbackBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fallbackBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Xml::CharEntityEncoderFallback::__get_textContentMarks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textContentMarks;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Xml::CharEntityEncoderFallback::__get_textContentMarks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textContentMarks;
 }
 constexpr void System::Xml::CharEntityEncoderFallback::__set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textContentMarks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Xml::CharEntityEncoderFallback::__get_endMarkPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endMarkPos;
 }
 constexpr int32_t const& System::Xml::CharEntityEncoderFallback::__get_endMarkPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endMarkPos;
 }
 constexpr void System::Xml::CharEntityEncoderFallback::__set_endMarkPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endMarkPos = value;
 }
 constexpr int32_t& System::Xml::CharEntityEncoderFallback::__get_curMarkPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curMarkPos;
 }
 constexpr int32_t const& System::Xml::CharEntityEncoderFallback::__get_curMarkPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___curMarkPos;
 }
 constexpr void System::Xml::CharEntityEncoderFallback::__set_curMarkPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___curMarkPos = value;
 }
 constexpr int32_t& System::Xml::CharEntityEncoderFallback::__get_startOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startOffset;
 }
 constexpr int32_t const& System::Xml::CharEntityEncoderFallback::__get_startOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startOffset;
 }
 constexpr void System::Xml::CharEntityEncoderFallback::__set_startOffset(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startOffset = value;
 }
 inline ::System::Xml::CharEntityEncoderFallback* System::Xml::CharEntityEncoderFallback::New_ctor() {

@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlyingTextSpawner.SpawnText
 template <>
 
@@ -58,99 +58,99 @@ constexpr GlobalNamespace::FlyingTextSpawner::operator ::GlobalNamespace::IFlyin
   return static_cast<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::FlyingTextSpawner::__get__duration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr float_t const& GlobalNamespace::FlyingTextSpawner::__get__duration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__duration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
 constexpr float_t& GlobalNamespace::FlyingTextSpawner::__get__xSpread() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xSpread;
 }
 constexpr float_t const& GlobalNamespace::FlyingTextSpawner::__get__xSpread() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xSpread;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__xSpread(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xSpread = value;
 }
 constexpr float_t& GlobalNamespace::FlyingTextSpawner::__get__targetYPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetYPos;
 }
 constexpr float_t const& GlobalNamespace::FlyingTextSpawner::__get__targetYPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetYPos;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__targetYPos(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetYPos = value;
 }
 constexpr float_t& GlobalNamespace::FlyingTextSpawner::__get__targetZPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetZPos;
 }
 constexpr float_t const& GlobalNamespace::FlyingTextSpawner::__get__targetZPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetZPos;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__targetZPos(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetZPos = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::FlyingTextSpawner::__get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::FlyingTextSpawner::__get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
 constexpr float_t& GlobalNamespace::FlyingTextSpawner::__get__fontSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSize;
 }
 constexpr float_t const& GlobalNamespace::FlyingTextSpawner::__get__fontSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSize;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__fontSize(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fontSize = value;
 }
 constexpr bool& GlobalNamespace::FlyingTextSpawner::__get__shake() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shake;
 }
 constexpr bool const& GlobalNamespace::FlyingTextSpawner::__get__shake() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shake;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__shake(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shake = value;
 }
 constexpr ::GlobalNamespace::__FlyingTextEffect__Pool*& GlobalNamespace::FlyingTextSpawner::__get__flyingTextEffectPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flyingTextEffectPool;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingTextEffect__Pool*> const& GlobalNamespace::FlyingTextSpawner::__get__flyingTextEffectPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flyingTextEffectPool;
 }
 constexpr void GlobalNamespace::FlyingTextSpawner::__set__flyingTextEffectPool(::GlobalNamespace::__FlyingTextEffect__Pool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____flyingTextEffectPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FlyingTextSpawner::SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text) {

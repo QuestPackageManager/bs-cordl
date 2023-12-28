@@ -82,27 +82,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__get_certainty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certainty;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__get_certainty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certainty;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__set_certainty(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___certainty = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__get_countSmallPrimes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___countSmallPrimes;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__get_countSmallPrimes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___countSmallPrimes;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__set_countSmallPrimes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___countSmallPrimes = value;
 }
 inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*

@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeCertificateHolder)
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Holder;
 }
 namespace System {
 class ICloneable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

@@ -77,27 +77,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Newtonsoft::Json::Linq::CommentHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__get__commentHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commentHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::CommentHandling const& Newtonsoft::Json::Linq::JsonLoadSettings::__get__commentHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commentHandling;
 }
 constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__set__commentHandling(::Newtonsoft::Json::Linq::CommentHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____commentHandling = value;
 }
 constexpr ::Newtonsoft::Json::Linq::LineInfoHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__get__lineInfoHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineInfoHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::LineInfoHandling const& Newtonsoft::Json::Linq::JsonLoadSettings::__get__lineInfoHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineInfoHandling;
 }
 constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineInfoHandling = value;
 }
 inline ::Newtonsoft::Json::Linq::CommentHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling() {

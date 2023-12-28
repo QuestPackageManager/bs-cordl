@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyUtil)
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -16,9 +19,6 @@ template <typename T> class HashSet_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleEnumType;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

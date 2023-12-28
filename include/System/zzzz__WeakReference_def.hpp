@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(WeakReference)
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;

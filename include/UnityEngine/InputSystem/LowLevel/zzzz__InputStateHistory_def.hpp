@@ -14,8 +14,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateHistory)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputStateHistory__Record;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -23,11 +29,23 @@ class IEnumerator;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputStateHistory__Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateHistory__RecordHeader;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
@@ -35,32 +53,14 @@ class IInputStateChangeMonitor;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputStateHistory__Record;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputStateHistory__Enumerator;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -530,9 +530,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 332
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(6553))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6574)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 332 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6574)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory*
 class CORDL_TYPE InputStateHistory : public ::System::Object {
 public:
   // Declarations

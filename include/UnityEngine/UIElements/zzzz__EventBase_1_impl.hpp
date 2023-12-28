@@ -1,18 +1,18 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__EventBase_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::EventBase_1<T>::__get_m_RefCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;
 }
 template <typename T> constexpr int32_t const& UnityEngine::UIElements::EventBase_1<T>::__get_m_RefCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;
 }
 template <typename T> constexpr void UnityEngine::UIElements::EventBase_1<T>::__set_m_RefCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RefCount = value;
 }
 template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::setStaticF_s_TypeId(int64_t value) {

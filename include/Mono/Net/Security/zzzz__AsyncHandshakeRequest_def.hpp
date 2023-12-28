@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
 CORDL_MODULE_EXPORT(AsyncHandshakeRequest)
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+struct AsyncOperationStatus;
 }
 namespace Mono::Net::Security {
-struct AsyncOperationStatus;
+class MobileAuthenticatedStream;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

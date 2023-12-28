@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CipherUtilities)
+namespace Org::BouncyCastle::Security {
+struct __CipherUtilities__CipherMode;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Security {
+struct __CipherUtilities__CipherPadding;
+}
 namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::Security {
 struct __CipherUtilities__CipherAlgorithm;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IBufferedCipher;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Security {
-struct __CipherUtilities__CipherMode;
-}
 namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
-namespace Org::BouncyCastle::Security {
-struct __CipherUtilities__CipherPadding;
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

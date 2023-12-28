@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1InputStream)
 namespace Org::BouncyCastle::Asn1 {
+class DerSequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerSet;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DefiniteLengthInputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerSequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DefiniteLengthInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

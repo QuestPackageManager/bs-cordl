@@ -14,37 +14,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ThreadedTaskLoadGeo)
 namespace HoudiniEngineUnity {
-class __HEU_ThreadedTaskLoadGeo__HEU_LoadObject;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class HEU_BaseSync;
 }
 namespace HoudiniEngineUnity {
-class HEU_LoadBufferVolume;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferInstancer;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HoudiniEngineUnity {
-class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
-}
-namespace HoudiniEngineUnity {
 class HEU_LoadBufferMesh;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
 }
 namespace HoudiniEngineUnity {
 class __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
@@ -52,32 +28,56 @@ class __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
 namespace UnityEngine {
 struct Color;
 }
+namespace HoudiniEngineUnity {
+struct __HEU_ThreadedTaskLoadGeo__LoadType;
+}
+namespace HoudiniEngineUnity {
+class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_ThreadedTaskLoadGeo__LoadType;
+class HEU_LoadBufferInstancer;
+}
+namespace HoudiniEngineUnity {
+class __HEU_ThreadedTaskLoadGeo__HEU_LoadObject;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferVolume;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IAsyncResult;
 }
 namespace GlobalNamespace {
 struct __HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace HoudiniEngineUnity {
 class HEU_LoadBufferBase;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -221,7 +221,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HEU_ThreadedT
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9811)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9811))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9812))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::HEU_LoadData*
 class CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadData : public ::System::Object {
@@ -519,7 +519,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Thread
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9810)), TypeDefinitionIndex(TypeDefinitionIndex(9809)), TypeDefinitionIndex(TypeDefinitionIndex(9794))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9794)), TypeDefinitionIndex(TypeDefinitionIndex(9809)), TypeDefinitionIndex(TypeDefinitionIndex(9810))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9816))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*
 class CORDL_TYPE HEU_ThreadedTaskLoadGeo : public ::HoudiniEngineUnity::HEU_ThreadedTask {

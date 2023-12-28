@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebRequestPrefixElement)
-namespace System::Net {
-class IWebRequestCreate;
-}
 namespace System {
 class Type;
+}
+namespace System::Net {
+class IWebRequestCreate;
 }
 // Forward declare root types
 namespace System::Net {

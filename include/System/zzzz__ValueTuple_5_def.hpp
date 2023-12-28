@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueTuple_5)
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
+namespace System {
+class Object;
+}
 namespace System {
 class IValueTupleInternal;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System::Collections {
 class IComparer;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
 template <typename T> class IComparable_1;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
 }
 namespace System::Collections {
 class IStructuralEquatable;
@@ -31,7 +31,7 @@ namespace System::Collections {
 class IStructuralComparable;
 }
 namespace System {
-class Object;
+class IComparable;
 }
 namespace System::Collections {
 class IEqualityComparer;

@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPKMacPrimitivesProvider)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMac;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

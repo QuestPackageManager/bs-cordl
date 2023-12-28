@@ -14,62 +14,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandaloneMonobehavior)
-namespace GlobalNamespace {
-class __StandaloneMonobehavior___RunAsyncCoroutine_d__25;
-}
-namespace GlobalNamespace {
-struct __StandaloneMonobehavior___DispatchAsync_d__21;
-}
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System::Threading::Tasks {
-class Task;
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class IStandaloneThreadRunner;
+struct __StandaloneMonobehavior___Dispatch_d__20;
 }
 namespace GlobalNamespace {
-struct __StandaloneMonobehavior___Dispatch_d__20;
+class IStandaloneThreadRunner;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class IStandaloneMonobehavior;
+}
+namespace GlobalNamespace {
+struct __StandaloneMonobehavior___DispatchAsync_d__21;
+}
+namespace GlobalNamespace {
+class __StandaloneMonobehavior___RunAsyncCoroutine_d__25;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 struct FrameTiming;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
-class IStandaloneMonobehavior;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
+class Task;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -150,8 +150,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandaloneMon
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
 // ::StandaloneMonobehavior::<DispatchAsync>d__21
 struct CORDL_TYPE __StandaloneMonobehavior___DispatchAsync_d__21 {
 public:

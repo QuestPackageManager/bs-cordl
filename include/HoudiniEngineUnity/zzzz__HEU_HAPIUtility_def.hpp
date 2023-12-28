@@ -9,68 +9,68 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_HAPIUtility)
-namespace HoudiniEngineUnity {
-struct HAPI_CookOptions;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SessionSyncInfo;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
+class AnimationCurve;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__HEU_AssetType;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAssetRoot;
+struct HAPI_CookOptions;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_TransformEuler;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SessionSyncInfo;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Viewport;
+struct HAPI_NodeInfo;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
+struct HAPI_Viewport;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAssetRoot;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_HoudiniAsset__HEU_AssetType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

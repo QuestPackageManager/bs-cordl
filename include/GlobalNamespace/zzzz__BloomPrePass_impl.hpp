@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__BloomPrePass_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassRenderDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassRenderDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -108,63 +108,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BloomPrePassRendererSO*& GlobalNamespace::BloomPrePass::__get__bloomPrepassRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrepassRenderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassRendererSO*> const& GlobalNamespace::BloomPrePass::__get__bloomPrepassRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrepassRenderer;
 }
 constexpr void GlobalNamespace::BloomPrePass::__set__bloomPrepassRenderer(::GlobalNamespace::BloomPrePassRendererSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrepassRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomPrePassEffectContainerSO*& GlobalNamespace::BloomPrePass::__get__bloomPrePassEffectContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectContainer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectContainerSO*> const& GlobalNamespace::BloomPrePass::__get__bloomPrePassEffectContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectContainer;
 }
 constexpr void GlobalNamespace::BloomPrePass::__set__bloomPrePassEffectContainer(::GlobalNamespace::BloomPrePassEffectContainerSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BloomPrePassRenderDataSO*& GlobalNamespace::BloomPrePass::__get__bloomPrePassRenderData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassRenderData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassRenderDataSO*> const& GlobalNamespace::BloomPrePass::__get__bloomPrePassRenderData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassRenderData;
 }
 constexpr void GlobalNamespace::BloomPrePass::__set__bloomPrePassRenderData(::GlobalNamespace::BloomPrePassRenderDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__BloomPrePass__Mode& GlobalNamespace::BloomPrePass::__get__mode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
 constexpr ::GlobalNamespace::__BloomPrePass__Mode const& GlobalNamespace::BloomPrePass::__get__mode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mode;
 }
 constexpr void GlobalNamespace::BloomPrePass::__set__mode(::GlobalNamespace::__BloomPrePass__Mode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mode = value;
 }
 constexpr ::GlobalNamespace::__BloomPrePassRenderDataSO__Data*& GlobalNamespace::BloomPrePass::__get__renderData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BloomPrePassRenderDataSO__Data*> const& GlobalNamespace::BloomPrePass::__get__renderData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderData;
 }
 constexpr void GlobalNamespace::BloomPrePass::__set__renderData(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BloomPrePass::Awake() {

@@ -98,39 +98,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& System::Text::DecoderReplacementFallbackBuffer::__get__strDefault() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strDefault;
 }
 constexpr ::StringW const& System::Text::DecoderReplacementFallbackBuffer::__get__strDefault() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strDefault;
 }
 constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__strDefault(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____strDefault)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackCount;
 }
 constexpr int32_t const& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackCount;
 }
 constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__fallbackCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fallbackCount = value;
 }
 constexpr int32_t& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackIndex;
 }
 constexpr int32_t const& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackIndex;
 }
 constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__fallbackIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fallbackIndex = value;
 }
 inline ::System::Text::DecoderReplacementFallbackBuffer* System::Text::DecoderReplacementFallbackBuffer::New_ctor(::System::Text::DecoderReplacementFallback* fallback) {

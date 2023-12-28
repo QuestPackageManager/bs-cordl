@@ -2,12 +2,12 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "HMUI/zzzz__ImageView_impl.hpp"
 #include "GlobalNamespace/zzzz__GradientImageViewStateTransition_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__GradientTransitionSO_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__GradientTransitionSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GradientImageViewStateTransition.get_transition
 template <>
 
@@ -340,39 +340,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::GradientTransitionSO*& GlobalNamespace::GradientImageViewStateTransition::__get__transition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GradientTransitionSO*> const& GlobalNamespace::GradientImageViewStateTransition::__get__transition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transition;
 }
 constexpr void GlobalNamespace::GradientImageViewStateTransition::__set__transition(::GlobalNamespace::GradientTransitionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::ColorTween*& GlobalNamespace::GradientImageViewStateTransition::__get__colorTweenA() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenA;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& GlobalNamespace::GradientImageViewStateTransition::__get__colorTweenA() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenA;
 }
 constexpr void GlobalNamespace::GradientImageViewStateTransition::__set__colorTweenA(::Tweening::ColorTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorTweenA)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Tweening::ColorTween*& GlobalNamespace::GradientImageViewStateTransition::__get__colorTweenB() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenB;
 }
 constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& GlobalNamespace::GradientImageViewStateTransition::__get__colorTweenB() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenB;
 }
 constexpr void GlobalNamespace::GradientImageViewStateTransition::__set__colorTweenB(::Tweening::ColorTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorTweenB)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::BaseTransitionSO* GlobalNamespace::GradientImageViewStateTransition::get_transition() {

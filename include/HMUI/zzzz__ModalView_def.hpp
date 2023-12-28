@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ModalView)
-namespace Zenject {
-class DiContainer;
-}
 namespace HMUI {
 class __ModalView____c__DisplayClass17_0;
+}
+namespace UnityEngine {
+class Canvas;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
-class PanelAnimationSO;
-}
-namespace UnityEngine {
 class CanvasGroup;
-}
-namespace UnityEngine {
-class Canvas;
 }
 namespace HMUI {
 class __ModalView____c__DisplayClass21_0;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace HMUI {
+class PanelAnimationSO;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace HMUI {
+class ViewController;
 }
 // Forward declare root types
 namespace HMUI {

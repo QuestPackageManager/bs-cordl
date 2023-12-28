@@ -53,27 +53,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::PreviewBeatmapLevelSO*& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__previewLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevel;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelSO*> const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__previewLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevel;
 }
 constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__set__previewLevel(::GlobalNamespace::PreviewBeatmapLevelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__relativeSfxVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
 constexpr float_t const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__relativeSfxVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
 constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__set__relativeSfxVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____relativeSfxVolume = value;
 }
 inline ::StringW GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::get_levelId() {
@@ -211,28 +211,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__previewLevelCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevelCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelCollectionSO*> const&
 GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__previewLevelCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevelCollection;
 }
 constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__set__previewLevelCollection(::GlobalNamespace::PreviewBeatmapLevelCollectionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewLevelCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__relativeSfxVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
 constexpr float_t const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__relativeSfxVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
 constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__set__relativeSfxVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____relativeSfxVolume = value;
 }
 inline float_t GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::get_relativeSfxVolume() {
@@ -303,32 +303,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*>&
 GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerPack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerPack;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> const&
 GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerPack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerPack;
 }
 constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__set__relativeSfxVolumePerPack(
     ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerPack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*>&
 GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerLevel;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> const&
 GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerLevel;
 }
 constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__set__relativeSfxVolumePerLevel(
     ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*>

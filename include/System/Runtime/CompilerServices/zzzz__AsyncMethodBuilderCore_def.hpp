@@ -25,25 +25,25 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Threading {
-class SendOrPostCallback;
-}
-namespace System::Threading {
 class WaitCallback;
 }
-namespace System {
-class Exception;
-}
 namespace System::Threading {
-class SynchronizationContext;
+class SendOrPostCallback;
 }
 namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore__MoveNextRunner;
+class __AsyncMethodBuilderCore____c;
 }
 namespace System::Runtime::CompilerServices {
 class __AsyncMethodBuilderCore__ContinuationWrapper;
 }
+namespace System {
+class Exception;
+}
 namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore____c;
+class __AsyncMethodBuilderCore__MoveNextRunner;
+}
+namespace System::Threading {
+class SynchronizationContext;
 }
 namespace System::Runtime::CompilerServices {
 class __AsyncMethodBuilderCore____c__DisplayClass5_0;

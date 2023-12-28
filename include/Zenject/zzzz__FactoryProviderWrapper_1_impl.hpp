@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__FactoryProviderWrapper_1_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_1_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_1<TContract>"
 template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContract>::operator ::Zenject::IFactory_1<TContract>*() noexcept {
   return static_cast<::Zenject::IFactory_1<TContract>*>(static_cast<void*>(this));
@@ -16,27 +16,27 @@ template <typename TContract> constexpr Zenject::FactoryProviderWrapper_1<TContr
   return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 template <typename TContract> constexpr ::Zenject::IProvider*& Zenject::FactoryProviderWrapper_1<TContract>::__get__provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
 template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::FactoryProviderWrapper_1<TContract>::__get__provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
 template <typename TContract> constexpr void Zenject::FactoryProviderWrapper_1<TContract>::__set__provider(::Zenject::IProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> constexpr ::Zenject::InjectContext*& Zenject::FactoryProviderWrapper_1<TContract>::__get__injectContext() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectContext;
 }
 template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& Zenject::FactoryProviderWrapper_1<TContract>::__get__injectContext() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectContext;
 }
 template <typename TContract> constexpr void Zenject::FactoryProviderWrapper_1<TContract>::__set__injectContext(::Zenject::InjectContext* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____injectContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract>

@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ColorSchemeNetSerializable)
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace UnityEngine {
 struct Color;
@@ -14,11 +14,11 @@ struct Color;
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace GlobalNamespace {
 struct ColorNoAlphaSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__Animator_impl.hpp"
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__AnimatorInstaller_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::AnimatorInstaller._ctor
 template <>
 
@@ -62,15 +62,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Animator*& Zenject::AnimatorInstaller::__get__animator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animator;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& Zenject::AnimatorInstaller::__get__animator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animator;
 }
 constexpr void Zenject::AnimatorInstaller::__set__animator(::UnityEngine::Animator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::AnimatorInstaller* Zenject::AnimatorInstaller::New_ctor(::UnityEngine::Animator* animator) {

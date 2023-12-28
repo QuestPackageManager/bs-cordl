@@ -10,13 +10,13 @@ namespace System::Runtime::InteropServices {
 struct HandleRef;
 }
 namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
+class SafeWaitHandle;
 }
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
 namespace Microsoft::Win32::SafeHandles {
-class SafeWaitHandle;
+class SafeProcessHandle;
 }
 // Forward declare root types
 namespace Microsoft::Win32 {

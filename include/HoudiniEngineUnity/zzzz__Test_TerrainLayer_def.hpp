@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Test_TerrainLayer)
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
-namespace UnityEngine {
-class TerrainLayer;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class TerrainLayer;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

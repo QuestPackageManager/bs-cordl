@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__ScheduledItem____c._ctor
 template <>
 
@@ -242,63 +242,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Func_1<bool>*& UnityEngine::UIElements::ScheduledItem::__get_timerUpdateStopCondition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timerUpdateStopCondition;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& UnityEngine::UIElements::ScheduledItem::__get_timerUpdateStopCondition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timerUpdateStopCondition;
 }
 constexpr void UnityEngine::UIElements::ScheduledItem::__set_timerUpdateStopCondition(::System::Func_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timerUpdateStopCondition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int64_t& UnityEngine::UIElements::ScheduledItem::__get__startMs_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startMs_k__BackingField;
 }
 constexpr int64_t const& UnityEngine::UIElements::ScheduledItem::__get__startMs_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startMs_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScheduledItem::__set__startMs_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startMs_k__BackingField = value;
 }
 constexpr int64_t& UnityEngine::UIElements::ScheduledItem::__get__delayMs_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delayMs_k__BackingField;
 }
 constexpr int64_t const& UnityEngine::UIElements::ScheduledItem::__get__delayMs_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____delayMs_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScheduledItem::__set__delayMs_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____delayMs_k__BackingField = value;
 }
 constexpr int64_t& UnityEngine::UIElements::ScheduledItem::__get__intervalMs_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalMs_k__BackingField;
 }
 constexpr int64_t const& UnityEngine::UIElements::ScheduledItem::__get__intervalMs_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intervalMs_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScheduledItem::__set__intervalMs_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intervalMs_k__BackingField = value;
 }
 constexpr int64_t& UnityEngine::UIElements::ScheduledItem::__get__endTimeMs_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endTimeMs_k__BackingField;
 }
 constexpr int64_t const& UnityEngine::UIElements::ScheduledItem::__get__endTimeMs_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endTimeMs_k__BackingField;
 }
 constexpr void UnityEngine::UIElements::ScheduledItem::__set__endTimeMs_k__BackingField(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endTimeMs_k__BackingField = value;
 }
 inline void UnityEngine::UIElements::ScheduledItem::setStaticF_OnceCondition(::System::Func_1<bool>* value) {

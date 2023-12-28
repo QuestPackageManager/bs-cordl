@@ -7,23 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenjectSceneLoader)
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace Zenject {
-struct LoadSceneRelationship;
+class DiContainer;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace Zenject {
-class ProjectKernel;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -33,6 +21,18 @@ struct LoadSceneMode;
 }
 namespace Zenject {
 class SceneContext;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace Zenject {
+class ProjectKernel;
+}
+namespace Zenject {
+struct LoadSceneRelationship;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

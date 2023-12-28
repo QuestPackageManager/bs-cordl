@@ -2,16 +2,16 @@
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/IO/zzzz__TextWriter_NullTextWriter_def.hpp"
-#include "System/IO/zzzz__TextWriter_SyncTextWriter_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__IAsyncDisposable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/IO/zzzz__TextWriter_SyncTextWriter_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/IO/zzzz__TextWriter_NullTextWriter_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::System::IO::__TextWriter____c._ctor
 template <>
@@ -376,39 +376,39 @@ constexpr System::IO::TextWriter::operator ::System::IAsyncDisposable*() noexcep
   return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::IO::TextWriter::__get_CoreNewLine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CoreNewLine;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::IO::TextWriter::__get_CoreNewLine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CoreNewLine;
 }
 constexpr void System::IO::TextWriter::__set_CoreNewLine(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CoreNewLine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::IO::TextWriter::__get_CoreNewLineStr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CoreNewLineStr;
 }
 constexpr ::StringW const& System::IO::TextWriter::__get_CoreNewLineStr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CoreNewLineStr;
 }
 constexpr void System::IO::TextWriter::__set_CoreNewLineStr(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CoreNewLineStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IFormatProvider*& System::IO::TextWriter::__get__internalFormatProvider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalFormatProvider;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IFormatProvider*> const& System::IO::TextWriter::__get__internalFormatProvider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalFormatProvider;
 }
 constexpr void System::IO::TextWriter::__set__internalFormatProvider(::System::IFormatProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____internalFormatProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::IO::TextWriter::setStaticF_Null(::System::IO::TextWriter* value) {

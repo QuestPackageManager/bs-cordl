@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HeaderInfoTable)
 namespace System::Net {
-class HeaderParser;
+class HeaderInfo;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class HeaderInfo;
+class HeaderParser;
 }
 // Forward declare root types
 namespace System::Net {

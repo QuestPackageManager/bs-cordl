@@ -13,11 +13,11 @@ class CultureInfo;
 namespace System::Resources {
 struct UltimateResourceFallbackLocation;
 }
-namespace System::Reflection {
-class Assembly;
-}
 namespace System::Resources {
 class IResourceGroveler;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Resources {
 class __ResourceManager__ResourceManagerMediator;

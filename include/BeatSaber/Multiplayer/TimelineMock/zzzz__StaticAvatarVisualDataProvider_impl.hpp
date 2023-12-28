@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Multiplayer/TimelineMock/zzzz__StaticAvatarVisualDataProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider.get_avatarsData
 template <>
 
@@ -39,15 +39,15 @@ constexpr BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::
   return static_cast<::BeatSaber::AvatarCore::IAvatarVisualDataProvider*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData& BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::__get__avatarsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarsData;
 }
 constexpr ::GlobalNamespace::MultiplayerAvatarsData const& BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::__get__avatarsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarsData;
 }
 constexpr void BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::__set__avatarsData(::GlobalNamespace::MultiplayerAvatarsData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____avatarsData = value;
 }
 inline ::GlobalNamespace::MultiplayerAvatarsData BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::get_avatarsData() {

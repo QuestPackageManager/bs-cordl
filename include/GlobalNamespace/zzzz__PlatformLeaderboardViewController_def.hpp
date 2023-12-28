@@ -11,35 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardViewController)
-namespace HMUI {
-class SegmentedControl;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class LevelStatsView;
 }
 namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardViewController___RefreshDelayed_d__32;
 }
 namespace GlobalNamespace {
-class LoadingControl;
+class __PlatformLeaderboardsModel__LeaderboardScore;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class LeaderboardTableView;
@@ -47,26 +44,29 @@ class LeaderboardTableView;
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__ScoresScope;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Sprite;
+namespace HMUI {
+class SegmentedControl;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class LoadingControl;
 }
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__GetScoresResult;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardViewController___Refresh_d__30;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace HMUI {
 class IconSegmentedControl;
 }
 namespace GlobalNamespace {
 class __LeaderboardTableView__ScoreData;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__GetScoresResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -78,13 +78,13 @@ namespace System {
 class IDisposable;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+struct TaskAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,7 +104,7 @@ MARK_VAL_T(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__3
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5726))
 // CS Name: ::PlatformLeaderboardViewController::<Refresh>d__30
 struct CORDL_TYPE __PlatformLeaderboardViewController___Refresh_d__30 {
@@ -285,7 +285,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeade
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4230)), TypeDefinitionIndex(TypeDefinitionIndex(5650))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5650)), TypeDefinitionIndex(TypeDefinitionIndex(4230))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5728))
 // CS Name: ::PlatformLeaderboardViewController*
 class CORDL_TYPE PlatformLeaderboardViewController : public ::GlobalNamespace::LeaderboardViewController {

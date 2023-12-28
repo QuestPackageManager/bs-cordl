@@ -13,25 +13,25 @@ namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class __LoadAppInitAfterSplashScreen___Start_d__2;
+class __LoadAppInitAfterSplashScreen____c;
 }
 namespace GlobalNamespace {
-class __LoadAppInitAfterSplashScreen____c;
+class __LoadAppInitAfterSplashScreen___Start_d__2;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace System {
 template <typename TResult> class Func_1;

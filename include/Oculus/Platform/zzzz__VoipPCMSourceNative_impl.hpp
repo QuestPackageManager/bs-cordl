@@ -76,15 +76,15 @@ constexpr Oculus::Platform::VoipPCMSourceNative::operator ::Oculus::Platform::IV
   return static_cast<::Oculus::Platform::IVoipPCMSource*>(static_cast<void*>(this));
 }
 constexpr uint64_t& Oculus::Platform::VoipPCMSourceNative::__get_senderID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___senderID;
 }
 constexpr uint64_t const& Oculus::Platform::VoipPCMSourceNative::__get_senderID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___senderID;
 }
 constexpr void Oculus::Platform::VoipPCMSourceNative::__set_senderID(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___senderID = value;
 }
 inline int32_t Oculus::Platform::VoipPCMSourceNative::GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length) {

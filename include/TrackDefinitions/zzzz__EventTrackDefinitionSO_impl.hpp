@@ -95,51 +95,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& TrackDefinitions::EventTrackDefinitionSO::__get__dataTransformationType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataTransformationType;
 }
 constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& TrackDefinitions::EventTrackDefinitionSO::__get__dataTransformationType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataTransformationType;
 }
 constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__dataTransformationType(::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dataTransformationType = value;
 }
 constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& TrackDefinitions::EventTrackDefinitionSO::__get__markerType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____markerType;
 }
 constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& TrackDefinitions::EventTrackDefinitionSO::__get__markerType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____markerType;
 }
 constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__markerType(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____markerType = value;
 }
 constexpr bool& TrackDefinitions::EventTrackDefinitionSO::__get__visible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visible;
 }
 constexpr bool const& TrackDefinitions::EventTrackDefinitionSO::__get__visible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visible;
 }
 constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__visible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____visible = value;
 }
 constexpr bool& TrackDefinitions::EventTrackDefinitionSO::__get__needsFiltering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____needsFiltering;
 }
 constexpr bool const& TrackDefinitions::EventTrackDefinitionSO::__get__needsFiltering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____needsFiltering;
 }
 constexpr void TrackDefinitions::EventTrackDefinitionSO::__set__needsFiltering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____needsFiltering = value;
 }
 inline bool TrackDefinitions::EventTrackDefinitionSO::get_visible() {

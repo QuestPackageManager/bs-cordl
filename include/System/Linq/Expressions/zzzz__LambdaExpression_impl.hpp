@@ -17,15 +17,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::LambdaExpression::__get__body() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____body;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::LambdaExpression::__get__body() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____body;
 }
 constexpr void System::Linq::Expressions::LambdaExpression::__set__body(::System::Linq::Expressions::Expression* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____body)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::LambdaExpression::get_Body() {

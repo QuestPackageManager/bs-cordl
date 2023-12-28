@@ -13,11 +13,11 @@ struct ObstaclesQuality;
 namespace UnityEngine {
 class Renderer;
 }
-namespace UnityEngine {
-class Material;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

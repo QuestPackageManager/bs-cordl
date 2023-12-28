@@ -9,10 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeSpan)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IFormattable;
+class ISpanFormattable;
 }
 namespace System {
 class IFormatProvider;
@@ -21,19 +18,22 @@ namespace System {
 class Object;
 }
 namespace System {
-class ISpanFormattable;
-}
-namespace System {
-template <typename T> struct Span_1;
+template <typename T> class IComparable_1;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
-template <typename T> class IComparable_1;
+class IFormattable;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System {

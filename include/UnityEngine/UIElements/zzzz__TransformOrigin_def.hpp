@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransformOrigin)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 struct Length;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

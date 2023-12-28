@@ -10,16 +10,16 @@ namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
-struct RaycastHit;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Ray;
+}
+namespace UnityEngine {
+struct RaycastHit;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -5,26 +5,26 @@
 #include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 template <typename T> constexpr bool& LiteNetLib::Utils::__NetSerializer__FastCall_1<T>::__get_IsArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsArray;
 }
 template <typename T> constexpr bool const& LiteNetLib::Utils::__NetSerializer__FastCall_1<T>::__get_IsArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IsArray;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetSerializer__FastCall_1<T>::__set_IsArray(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsArray = value;
 }
 template <typename T> inline void LiteNetLib::Utils::__NetSerializer__FastCall_1<T>::Init(::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod, bool isArray) {
@@ -74,61 +74,61 @@ template <typename T> inline void LiteNetLib::Utils::__NetSerializer__FastCall_1
 // Ctor Parameters []
 template <typename T> constexpr ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>::__NetSerializer__FastCall_1() {}
 template <typename TClass, typename TProperty> constexpr ::System::Func_2<TClass, TProperty>*& LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_Getter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Getter;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TClass, TProperty>*> const& LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_Getter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Getter;
 }
 template <typename TClass, typename TProperty> constexpr void LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__set_Getter(::System::Func_2<TClass, TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Getter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty> constexpr ::System::Action_2<TClass, TProperty>*& LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_Setter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Setter;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TClass, TProperty>*> const& LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_Setter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Setter;
 }
 template <typename TClass, typename TProperty> constexpr void LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__set_Setter(::System::Action_2<TClass, TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Setter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty>
 constexpr ::System::Func_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>*& LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_GetterArr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___GetterArr;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>*> const&
 LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_GetterArr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___GetterArr;
 }
 template <typename TClass, typename TProperty>
 constexpr void LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__set_GetterArr(::System::Func_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___GetterArr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty>
 constexpr ::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>*& LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_SetterArr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SetterArr;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>*> const&
 LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__get_SetterArr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SetterArr;
 }
 template <typename TClass, typename TProperty>
 constexpr void LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>::__set_SetterArr(::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SetterArr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty>
@@ -227,34 +227,34 @@ template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::__
 template <typename TClass, typename TProperty> constexpr ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<TClass, TProperty>::__NetSerializer__FastCallSpecificAuto_2() {}
 template <typename TClass, typename TProperty>
 constexpr ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>*& LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__get__writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>*> const&
 LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__get__writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 template <typename TClass, typename TProperty>
 constexpr void LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__set__writer(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty>
 constexpr ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>*& LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__get__reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>*> const&
 LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__get__reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 template <typename TClass, typename TProperty>
 constexpr void LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__set__reader(::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty>
@@ -303,15 +303,15 @@ template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::__
 // Ctor Parameters []
 template <typename TClass, typename TProperty> constexpr ::LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>::__NetSerializer__FastCallStatic_2() {}
 template <typename TClass, typename TProperty> constexpr TProperty& LiteNetLib::Utils::__NetSerializer__FastCallStruct_2<TClass, TProperty>::__get__p() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____p;
 }
 template <typename TClass, typename TProperty> constexpr TProperty const& LiteNetLib::Utils::__NetSerializer__FastCallStruct_2<TClass, TProperty>::__get__p() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____p;
 }
 template <typename TClass, typename TProperty> constexpr void LiteNetLib::Utils::__NetSerializer__FastCallStruct_2<TClass, TProperty>::__set__p(TProperty value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____p)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::__NetSerializer__FastCallStruct_2<TClass, TProperty>::Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
@@ -355,16 +355,16 @@ template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::__
 // Ctor Parameters []
 template <typename TClass, typename TProperty> constexpr ::LiteNetLib::Utils::__NetSerializer__FastCallStruct_2<TClass, TProperty>::__NetSerializer__FastCallStruct_2() {}
 template <typename TClass, typename TProperty> constexpr ::System::Func_1<TProperty>*& LiteNetLib::Utils::__NetSerializer__FastCallClass_2<TClass, TProperty>::__get__constructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
 template <typename TClass, typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TProperty>*> const& LiteNetLib::Utils::__NetSerializer__FastCallClass_2<TClass, TProperty>::__get__constructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
 template <typename TClass, typename TProperty> constexpr void LiteNetLib::Utils::__NetSerializer__FastCallClass_2<TClass, TProperty>::__set__constructor(::System::Func_1<TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____constructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TClass, typename TProperty>
@@ -878,15 +878,15 @@ template <typename T> inline void LiteNetLib::Utils::__NetSerializer__IPEndPoint
 // Ctor Parameters []
 template <typename T> constexpr ::LiteNetLib::Utils::__NetSerializer__IPEndPointSerializer_1<T>::__NetSerializer__IPEndPointSerializer_1() {}
 template <typename T> constexpr int32_t& LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>::__get__maxLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxLength;
 }
 template <typename T> constexpr int32_t const& LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>::__get__maxLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxLength;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>::__set__maxLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxLength = value;
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>* LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>::New_ctor(int32_t maxLength) {
@@ -929,27 +929,27 @@ template <typename T> inline void LiteNetLib::Utils::__NetSerializer__StringSeri
 // Ctor Parameters []
 template <typename T> constexpr ::LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>::__NetSerializer__StringSerializer_1() {}
 template <typename T> constexpr ::System::Reflection::PropertyInfo*& LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>::__get_Property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Property;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>::__get_Property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Property;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>::__set_Property(::System::Reflection::PropertyInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Type*& LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>::__get_PropertyType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PropertyType;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>::__get_PropertyType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PropertyType;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>::__set_PropertyType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___PropertyType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T>
@@ -1011,31 +1011,31 @@ template <typename T> constexpr ::LiteNetLib::Utils::__NetSerializer__EnumIntSer
 template <typename T>
 constexpr ::ArrayW<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*, ::Array<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>*>&
 LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::__get__serializers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializers;
 }
 template <typename T>
 constexpr ::ArrayW<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*, ::Array<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>*> const&
 LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::__get__serializers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serializers;
 }
 template <typename T>
 constexpr void LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::__set__serializers(
     ::ArrayW<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*, ::Array<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::__get__membersCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____membersCount;
 }
 template <typename T> constexpr int32_t const& LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::__get__membersCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____membersCount;
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::__set__membersCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____membersCount = value;
 }
 template <typename T> inline void LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>::setStaticF_Instance(::LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>* value) {
@@ -1127,16 +1127,16 @@ template <typename TProperty> inline void LiteNetLib::Utils::__NetSerializer__Cu
 // Ctor Parameters []
 template <typename TProperty> constexpr ::LiteNetLib::Utils::__NetSerializer__CustomTypeStruct_1<TProperty>::__NetSerializer__CustomTypeStruct_1() {}
 template <typename TProperty> constexpr ::System::Func_1<TProperty>*& LiteNetLib::Utils::__NetSerializer__CustomTypeClass_1<TProperty>::__get__constructor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
 template <typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TProperty>*> const& LiteNetLib::Utils::__NetSerializer__CustomTypeClass_1<TProperty>::__get__constructor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
 template <typename TProperty> constexpr void LiteNetLib::Utils::__NetSerializer__CustomTypeClass_1<TProperty>::__set__constructor(::System::Func_1<TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____constructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TProperty>
@@ -1160,32 +1160,32 @@ template <typename TProperty> template <typename T> inline ::LiteNetLib::Utils::
 // Ctor Parameters []
 template <typename TProperty> constexpr ::LiteNetLib::Utils::__NetSerializer__CustomTypeClass_1<TProperty>::__NetSerializer__CustomTypeClass_1() {}
 template <typename TProperty> constexpr ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>*& LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>::__get__writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 template <typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>*> const&
 LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>::__get__writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 template <typename TProperty>
 constexpr void LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>::__set__writer(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TProperty> constexpr ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>*& LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>::__get__reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 template <typename TProperty>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>*> const&
 LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>::__get__reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
 template <typename TProperty> constexpr void LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>::__set__reader(::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TProperty>
@@ -1241,40 +1241,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::LiteNetLib::Utils::NetDataWriter*& LiteNetLib::Utils::NetSerializer::__get__writer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& LiteNetLib::Utils::NetSerializer::__get__writer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writer;
 }
 constexpr void LiteNetLib::Utils::NetSerializer::__set__writer(::LiteNetLib::Utils::NetDataWriter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& LiteNetLib::Utils::NetSerializer::__get__maxStringLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxStringLength;
 }
 constexpr int32_t const& LiteNetLib::Utils::NetSerializer::__get__maxStringLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxStringLength;
 }
 constexpr void LiteNetLib::Utils::NetSerializer::__set__maxStringLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxStringLength = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>*& LiteNetLib::Utils::NetSerializer::__get__registeredTypes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredTypes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>*> const&
 LiteNetLib::Utils::NetSerializer::__get__registeredTypes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____registeredTypes;
 }
 constexpr void LiteNetLib::Utils::NetSerializer::__set__registeredTypes(::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____registeredTypes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline void LiteNetLib::Utils::NetSerializer::RegisterNestedType() {

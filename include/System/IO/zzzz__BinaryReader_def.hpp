@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryReader)
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Text {
-class Decoder;
+class Encoding;
 }
 namespace System {
 struct Decimal;
 }
+namespace System {
+class IDisposable;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Text {
-class Encoding;
+class Decoder;
 }
 // Forward declare root types
 namespace System::IO {

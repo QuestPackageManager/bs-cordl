@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPropertyBlockColorSetter_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter.Awake
 template <>
 
@@ -112,123 +112,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__defaultColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColor;
 }
 constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__defaultColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColor;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__defaultColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultColor = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__darkerColorMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____darkerColorMultiplier;
 }
 constexpr float_t const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__darkerColorMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____darkerColorMultiplier;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__darkerColorMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____darkerColorMultiplier = value;
 }
 constexpr float_t& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__whiteBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____whiteBoost;
 }
 constexpr float_t const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__whiteBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____whiteBoost;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__whiteBoost(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____whiteBoost = value;
 }
 constexpr bool& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__editInPlayMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editInPlayMode;
 }
 constexpr bool const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__editInPlayMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____editInPlayMode;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__editInPlayMode(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____editInPlayMode = value;
 }
 constexpr bool& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__ignoreRimLight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreRimLight;
 }
 constexpr bool const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__ignoreRimLight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreRimLight;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__ignoreRimLight(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreRimLight = value;
 }
 constexpr ::UnityEngine::Renderer*& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__renderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__renderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderer;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__renderer(::UnityEngine::Renderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__rimLightColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightColor;
 }
 constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__rimLightColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightColor;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__rimLightColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rimLightColor = value;
 }
 constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__mainColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainColor;
 }
 constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__mainColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainColor;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__mainColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mainColor = value;
 }
 constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__boostColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boostColor;
 }
 constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__boostColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boostColor;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__boostColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boostColor = value;
 }
 constexpr bool& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__highlighted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlighted;
 }
 constexpr bool const& BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__get__highlighted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlighted;
 }
 constexpr void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::__set__highlighted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlighted = value;
 }
 inline void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value) {

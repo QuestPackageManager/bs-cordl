@@ -1,21 +1,21 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
-#include "Mono/Security/Interface/zzzz__ICertificateValidator_def.hpp"
-#include "Mono/Security/Interface/zzzz__ValidationResult_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
-#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
+#include "Mono/Security/Interface/zzzz__ICertificateValidator_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "Mono/Security/Interface/zzzz__ValidationResult_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
 #include "System/zzzz__WeakReference_1_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0._ctor
 template <>
@@ -53,15 +53,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Security::Interface::MonoTlsSettings*& Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0::__get_settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0::__get_settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___settings;
 }
 constexpr void Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0::__set_settings(::Mono::Security::Interface::MonoTlsSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0* Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0::New_ctor() {
@@ -296,87 +296,87 @@ constexpr Mono::Net::Security::ChainValidationHelper::operator ::Mono::Security:
   return static_cast<::Mono::Security::Interface::ICertificateValidator*>(static_cast<void*>(this));
 }
 constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>*& Mono::Net::Security::ChainValidationHelper::__get_owner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Net::Security::SslStream*>*> const& Mono::Net::Security::ChainValidationHelper::__get_owner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_owner(::System::WeakReference_1<::System::Net::Security::SslStream*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___owner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Security::Interface::MonoTlsSettings*& Mono::Net::Security::ChainValidationHelper::__get_settings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___settings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& Mono::Net::Security::ChainValidationHelper::__get_settings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___settings;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_settings(::Mono::Security::Interface::MonoTlsSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Net::Security::MobileTlsProvider*& Mono::Net::Security::ChainValidationHelper::__get_provider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___provider;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& Mono::Net::Security::ChainValidationHelper::__get_provider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___provider;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_provider(::Mono::Net::Security::MobileTlsProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::ServerCertValidationCallback*& Mono::Net::Security::ChainValidationHelper::__get_certValidationCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certValidationCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ServerCertValidationCallback*> const& Mono::Net::Security::ChainValidationHelper::__get_certValidationCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certValidationCallback;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_certValidationCallback(::System::Net::ServerCertValidationCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certValidationCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Security::LocalCertSelectionCallback*& Mono::Net::Security::ChainValidationHelper::__get_certSelectionCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certSelectionCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertSelectionCallback*> const& Mono::Net::Security::ChainValidationHelper::__get_certSelectionCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certSelectionCallback;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_certSelectionCallback(::System::Net::Security::LocalCertSelectionCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certSelectionCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Mono::Net::Security::MonoTlsStream*& Mono::Net::Security::ChainValidationHelper::__get_tlsStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& Mono::Net::Security::ChainValidationHelper::__get_tlsStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsStream;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_tlsStream(::Mono::Net::Security::MonoTlsStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tlsStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpWebRequest*& Mono::Net::Security::ChainValidationHelper::__get_request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& Mono::Net::Security::ChainValidationHelper::__get_request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr void Mono::Net::Security::ChainValidationHelper::__set_request(::System::Net::HttpWebRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Net::Security::ChainValidationHelper* Mono::Net::Security::ChainValidationHelper::GetInternalValidator(::System::Net::Security::SslStream* owner,

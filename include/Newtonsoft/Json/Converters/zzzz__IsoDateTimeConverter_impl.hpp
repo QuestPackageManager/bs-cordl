@@ -3,12 +3,12 @@
 #include "System/Globalization/zzzz__DateTimeStyles_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IsoDateTimeConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::IsoDateTimeConverter.get_DateTimeStyles
 template <>
 
@@ -144,39 +144,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Globalization::DateTimeStyles& Newtonsoft::Json::Converters::IsoDateTimeConverter::__get__dateTimeStyles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeStyles;
 }
 constexpr ::System::Globalization::DateTimeStyles const& Newtonsoft::Json::Converters::IsoDateTimeConverter::__get__dateTimeStyles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeStyles;
 }
 constexpr void Newtonsoft::Json::Converters::IsoDateTimeConverter::__set__dateTimeStyles(::System::Globalization::DateTimeStyles value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dateTimeStyles = value;
 }
 constexpr ::StringW& Newtonsoft::Json::Converters::IsoDateTimeConverter::__get__dateTimeFormat() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeFormat;
 }
 constexpr ::StringW const& Newtonsoft::Json::Converters::IsoDateTimeConverter::__get__dateTimeFormat() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dateTimeFormat;
 }
 constexpr void Newtonsoft::Json::Converters::IsoDateTimeConverter::__set__dateTimeFormat(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dateTimeFormat)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Globalization::CultureInfo*& Newtonsoft::Json::Converters::IsoDateTimeConverter::__get__culture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& Newtonsoft::Json::Converters::IsoDateTimeConverter::__get__culture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr void Newtonsoft::Json::Converters::IsoDateTimeConverter::__set__culture(::System::Globalization::CultureInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____culture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Globalization::DateTimeStyles Newtonsoft::Json::Converters::IsoDateTimeConverter::get_DateTimeStyles() {

@@ -21,27 +21,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Polyglot::Language& GlobalNamespace::__LocalizedTextAsset__TextInfo::__get_language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr ::Polyglot::Language const& GlobalNamespace::__LocalizedTextAsset__TextInfo::__get_language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr void GlobalNamespace::__LocalizedTextAsset__TextInfo::__set_language(::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
 constexpr ::UnityEngine::TextAsset*& GlobalNamespace::__LocalizedTextAsset__TextInfo::__get_localizedText() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedText;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& GlobalNamespace::__LocalizedTextAsset__TextInfo::__get_localizedText() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizedText;
 }
 constexpr void GlobalNamespace::__LocalizedTextAsset__TextInfo::__set_localizedText(::UnityEngine::TextAsset* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizedText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__LocalizedTextAsset__TextInfo* GlobalNamespace::__LocalizedTextAsset__TextInfo::New_ctor() {
@@ -85,15 +85,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Polyglot::Language& GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__get_language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr ::Polyglot::Language const& GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__get_language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
 constexpr void GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__set_language(::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
 inline ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0* GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::New_ctor() {
@@ -216,28 +216,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*>& GlobalNamespace::LocalizedTextAsset::__get__textInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textInfos;
 }
 constexpr ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> const&
 GlobalNamespace::LocalizedTextAsset::__get__textInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textInfos;
 }
 constexpr void GlobalNamespace::LocalizedTextAsset::__set__textInfos(::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__LocalizedTextAsset__TextInfo*& GlobalNamespace::LocalizedTextAsset::__get__lastTextInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastTextInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LocalizedTextAsset__TextInfo*> const& GlobalNamespace::LocalizedTextAsset::__get__lastTextInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastTextInfo;
 }
 constexpr void GlobalNamespace::LocalizedTextAsset::__set__lastTextInfo(::GlobalNamespace::__LocalizedTextAsset__TextInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastTextInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> GlobalNamespace::LocalizedTextAsset::get_textInfos() {

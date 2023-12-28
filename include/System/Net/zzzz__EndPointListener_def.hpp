@@ -8,46 +8,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EndPointListener)
 namespace System::Net {
-class IPEndPoint;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net {
-class ListenerPrefix;
-}
-namespace System::Net {
-class HttpConnection;
+class HttpListenerContext;
 }
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System {
-class Object;
-}
 namespace System::Net::Sockets {
 class SocketAsyncEventArgs;
 }
-namespace System::Net {
-class IPAddress;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Net {
 class HttpListener;
+}
+namespace System::Net {
+class ListenerPrefix;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Net {
-class HttpListenerContext;
+class IPAddress;
+}
+namespace System::Net {
+class HttpConnection;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System {
+class Uri;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

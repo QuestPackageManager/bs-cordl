@@ -6,14 +6,14 @@
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPassthroughColorLut_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPassthroughColorLut_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -900,111 +900,111 @@ constexpr GlobalNamespace::OVRPassthroughColorLut::operator ::System::IDisposabl
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr uint32_t& GlobalNamespace::OVRPassthroughColorLut::__get__Resolution_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Resolution_k__BackingField;
 }
 constexpr uint32_t const& GlobalNamespace::OVRPassthroughColorLut::__get__Resolution_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Resolution_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__Resolution_k__BackingField(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Resolution_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels& GlobalNamespace::OVRPassthroughColorLut::__get__Channels_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Channels_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels const& GlobalNamespace::OVRPassthroughColorLut::__get__Channels_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Channels_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__Channels_k__BackingField(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Channels_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OVRPassthroughColorLut::__get__IsInitialized_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OVRPassthroughColorLut::__get__IsInitialized_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____IsInitialized_k__BackingField;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__IsInitialized_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IsInitialized_k__BackingField = value;
 }
 constexpr uint64_t& GlobalNamespace::OVRPassthroughColorLut::__get__colorLutHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorLutHandle;
 }
 constexpr uint64_t const& GlobalNamespace::OVRPassthroughColorLut::__get__colorLutHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorLutHandle;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__colorLutHandle(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorLutHandle = value;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle& GlobalNamespace::OVRPassthroughColorLut::__get__allocHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allocHandle;
 }
 constexpr ::System::Runtime::InteropServices::GCHandle const& GlobalNamespace::OVRPassthroughColorLut::__get__allocHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allocHandle;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__allocHandle(::System::Runtime::InteropServices::GCHandle value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allocHandle = value;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData& GlobalNamespace::OVRPassthroughColorLut::__get__lutData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lutData;
 }
 constexpr ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData const& GlobalNamespace::OVRPassthroughColorLut::__get__lutData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lutData;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__lutData(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lutData = value;
 }
 constexpr int32_t& GlobalNamespace::OVRPassthroughColorLut::__get__channelCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channelCount;
 }
 constexpr int32_t const& GlobalNamespace::OVRPassthroughColorLut::__get__channelCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____channelCount;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__channelCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____channelCount = value;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::OVRPassthroughColorLut::__get__colorBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorBytes;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::OVRPassthroughColorLut::__get__colorBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorBytes;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__colorBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorBytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& GlobalNamespace::OVRPassthroughColorLut::__get__locker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locker;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::OVRPassthroughColorLut::__get__locker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____locker;
 }
 constexpr void GlobalNamespace::OVRPassthroughColorLut::__set__locker(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____locker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline uint32_t GlobalNamespace::OVRPassthroughColorLut::get_Resolution() {

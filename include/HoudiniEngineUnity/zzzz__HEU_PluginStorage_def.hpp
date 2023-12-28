@@ -12,25 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PluginStorage)
 namespace HoudiniEngineUnity {
-class __HEU_PluginStorage__StoreData;
+template <typename T> class __HEU_PluginStorage__StoreDataArray_1;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class __HEU_PluginStorage__StoreDataArray_1;
+struct __HEU_PluginStorage__DataType;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionData;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_PluginStorage__DataType;
+class HEU_SessionBase;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PluginStorage__StoreData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -114,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Plugin
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9678))
 // CS Name: ::HEU_PluginStorage::StoreData*
 class CORDL_TYPE __HEU_PluginStorage__StoreData : public ::System::Object {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CBZip2InputStream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CRC_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream.Cadvise
 template <>
 
@@ -640,459 +640,459 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_last() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_last() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_last(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___last = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_origPtr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origPtr;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_origPtr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___origPtr;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_origPtr(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___origPtr = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_blockSize100k() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockSize100k;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_blockSize100k() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockSize100k;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_blockSize100k(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blockSize100k = value;
 }
 constexpr bool& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_blockRandomised() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockRandomised;
 }
 constexpr bool const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_blockRandomised() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockRandomised;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_blockRandomised(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blockRandomised = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_bsBuff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bsBuff;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_bsBuff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bsBuff;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_bsBuff(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bsBuff = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_bsLive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bsLive;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_bsLive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bsLive;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_bsLive(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bsLive = value;
 }
 constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC*& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_mCrc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCrc;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Apache::Bzip2::CRC*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_mCrc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCrc;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_mCrc(::Org::BouncyCastle::Apache::Bzip2::CRC* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mCrc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<bool, ::Array<bool>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_inUse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inUse;
 }
 constexpr ::ArrayW<bool, ::Array<bool>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_inUse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inUse;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_inUse(::ArrayW<bool, ::Array<bool>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inUse)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_nInUse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nInUse;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_nInUse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nInUse;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_nInUse(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nInUse = value;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_seqToUnseq() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seqToUnseq;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_seqToUnseq() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seqToUnseq;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_seqToUnseq(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___seqToUnseq)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_unseqToSeq() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unseqToSeq;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_unseqToSeq() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unseqToSeq;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_unseqToSeq(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unseqToSeq)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_selector() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_selector() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selector;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_selector(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_selectorMtf() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectorMtf;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_selectorMtf() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectorMtf;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_selectorMtf(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectorMtf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_tt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tt;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_tt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tt;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_tt(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_ll8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ll8;
 }
 constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_ll8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ll8;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_ll8(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ll8)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_unzftab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unzftab;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_unzftab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unzftab;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_unzftab(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unzftab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_limit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___limit;
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_limit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___limit;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_limit(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___limit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_basev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basev;
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_basev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basev;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_basev(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___basev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_perm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___perm;
 }
 constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_perm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___perm;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_perm(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___perm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_minLens() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minLens;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_minLens() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minLens;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_minLens(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___minLens)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_bsStream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bsStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_bsStream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bsStream;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_bsStream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bsStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_streamEnd() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___streamEnd;
 }
 constexpr bool const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_streamEnd() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___streamEnd;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_streamEnd(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___streamEnd = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_currentChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentChar;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_currentChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentChar;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_currentChar(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentChar = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_currentState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentState;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_currentState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentState;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_currentState(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentState = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_storedBlockCRC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storedBlockCRC;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_storedBlockCRC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storedBlockCRC;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_storedBlockCRC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___storedBlockCRC = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_storedCombinedCRC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storedCombinedCRC;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_storedCombinedCRC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___storedCombinedCRC;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_storedCombinedCRC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___storedCombinedCRC = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_computedBlockCRC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___computedBlockCRC;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_computedBlockCRC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___computedBlockCRC;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_computedBlockCRC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___computedBlockCRC = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_computedCombinedCRC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___computedCombinedCRC;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_computedCombinedCRC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___computedCombinedCRC;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_computedCombinedCRC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___computedCombinedCRC = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_i2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i2;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_i2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i2;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_i2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i2 = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_chPrev() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chPrev;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_chPrev() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chPrev;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_chPrev(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chPrev = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_ch2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ch2;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_ch2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ch2;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_ch2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ch2 = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_i() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_i() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___i;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_i(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___i = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_tPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tPos;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_tPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tPos;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_tPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tPos = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_rNToGo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rNToGo;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_rNToGo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rNToGo;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_rNToGo(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rNToGo = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_rTPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rTPos;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_rTPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rTPos;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_rTPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rTPos = value;
 }
 constexpr int32_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_j2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___j2;
 }
 constexpr int32_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_j2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___j2;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_j2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___j2 = value;
 }
 constexpr char16_t& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_z() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
 constexpr char16_t const& Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__get_z() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
 constexpr void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::__set_z(char16_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___z = value;
 }
 inline void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::Cadvise() {

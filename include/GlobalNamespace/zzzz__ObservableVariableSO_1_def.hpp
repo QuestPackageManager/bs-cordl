@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(ObservableVariableSO_1)
 namespace GlobalNamespace {
-class IObservableChange;
-}
-namespace GlobalNamespace {
 template <typename T> class IValue_1;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class IObservableChange;
 }
 // Forward declare root types
 namespace GlobalNamespace {

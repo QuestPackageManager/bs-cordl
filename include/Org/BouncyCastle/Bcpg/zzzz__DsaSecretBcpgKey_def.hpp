@@ -13,11 +13,11 @@ class BcpgOutputStream;
 namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
-namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;

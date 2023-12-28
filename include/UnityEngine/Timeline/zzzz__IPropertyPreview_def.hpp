@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPropertyPreview)
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
 namespace UnityEngine::Timeline {
 class IPropertyCollector;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

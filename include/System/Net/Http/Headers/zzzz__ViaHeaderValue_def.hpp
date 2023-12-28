@@ -14,10 +14,10 @@ namespace System {
 class Object;
 }
 namespace System::Net::Http::Headers {
-struct Token;
+class Lexer;
 }
 namespace System::Net::Http::Headers {
-class Lexer;
+struct Token;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

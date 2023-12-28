@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRCompositionUtil)
+namespace GlobalNamespace {
+struct __OVRBoundary__BoundaryType;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine {
 class Mesh;
 }
@@ -13,13 +19,7 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Camera;
-}
-namespace GlobalNamespace {
-struct __OVRBoundary__BoundaryType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

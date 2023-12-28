@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X25519PrivateKeyParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class X25519PublicKeyParameters;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class X25519PublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

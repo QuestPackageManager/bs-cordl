@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifiers)
+namespace GlobalNamespace {
+struct __GameplayModifiers__SongSpeed;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace GlobalNamespace {
-struct __GameplayModifiers__EnabledObstacleType;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__EnergyType;
 }
 namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
+}
+namespace GlobalNamespace {
+struct __GameplayModifiers__EnabledObstacleType;
 }
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct __GameplayModifiers__SongSpeed;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -207,8 +207,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15001))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(14999)), TypeDefinitionIndex(TypeDefinitionIndex(15001)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
 class CORDL_TYPE GameplayModifiers : public ::System::Object {
 public:
   // Declarations

@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommonAcl)
 namespace System::Security::AccessControl {
-template <typename T> class __CommonAcl__RemoveAcesCallback_1;
-}
-namespace System::Security::AccessControl {
-class RawAcl;
-}
-namespace System::Security::AccessControl {
-class ObjectAce;
-}
-namespace System::Security::AccessControl {
-struct PropagationFlags;
-}
-namespace System::Security::AccessControl {
-class GenericAce;
-}
-namespace System::Security::AccessControl {
-struct AuditFlags;
-}
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
-namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
 }
 namespace System::Security::AccessControl {
-struct AceFlags;
+class GenericAce;
+}
+namespace System {
+struct Guid;
+}
+namespace System::Security::AccessControl {
+class RawAcl;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
+}
+namespace System::Security::AccessControl {
+struct PropagationFlags;
+}
+namespace System::Security::AccessControl {
+struct AuditFlags;
+}
+namespace System::Security::AccessControl {
+class ObjectAce;
 }
 namespace System::Security::AccessControl {
 class QualifiedAce;
 }
-namespace System {
-struct Guid;
+namespace System::Security::AccessControl {
+struct AceFlags;
+}
+namespace System::Security::AccessControl {
+template <typename T> class __CommonAcl__RemoveAcesCallback_1;
 }
 namespace System {
 class Object;

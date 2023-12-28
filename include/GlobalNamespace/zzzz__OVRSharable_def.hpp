@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSharable)
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 template <typename T> class IOVRAnchorComponent_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace GlobalNamespace {
 struct OVRAnchor;

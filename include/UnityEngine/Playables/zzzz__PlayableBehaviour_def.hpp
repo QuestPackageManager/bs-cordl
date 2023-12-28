@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayableBehaviour)
-namespace System {
-class Object;
-}
-namespace System {
-class ICloneable;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
 }
 namespace UnityEngine::Playables {
 class IPlayableBehaviour;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class ICloneable;
 }
 namespace UnityEngine::Playables {
 struct Playable;

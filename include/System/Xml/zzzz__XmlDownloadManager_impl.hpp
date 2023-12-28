@@ -5,19 +5,19 @@
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::__XmlDownloadManager____c__DisplayClass4_0._ctor
 template <>
 
@@ -49,15 +49,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Uri*& System::Xml::__XmlDownloadManager____c__DisplayClass4_0::__get_uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Xml::__XmlDownloadManager____c__DisplayClass4_0::__get_uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
 constexpr void System::Xml::__XmlDownloadManager____c__DisplayClass4_0::__set_uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Xml::__XmlDownloadManager____c__DisplayClass4_0* System::Xml::__XmlDownloadManager____c__DisplayClass4_0::New_ctor() {
@@ -248,15 +248,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Hashtable*& System::Xml::XmlDownloadManager::__get_connections() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connections;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::XmlDownloadManager::__get_connections() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connections;
 }
 constexpr void System::Xml::XmlDownloadManager::__set_connections(::System::Collections::Hashtable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::IO::Stream* System::Xml::XmlDownloadManager::GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,

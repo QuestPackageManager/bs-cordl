@@ -9,73 +9,73 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteController)
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartJumpEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class __NoteController___DissolveCoroutine_d__75;
-}
-namespace GlobalNamespace {
 struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidFinishJumpEvent;
 }
 namespace GlobalNamespace {
 class NoteMovement;
 }
-namespace GlobalNamespace {
-class NoteData;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+class INoteControllerNoteWasCutEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasMissedEvent;
 }
 namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidDissolveEvent;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartJumpEvent;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class __NoteController___DissolveCoroutine_d__75;
+}
+namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
 }
+namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

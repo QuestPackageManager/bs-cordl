@@ -69,27 +69,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr int32_t& Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__get_additionCoord() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additionCoord;
 }
 constexpr int32_t const& Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__get_additionCoord() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___additionCoord;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__set_additionCoord(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___additionCoord = value;
 }
 constexpr int32_t& Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__get_doublingCoord() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doublingCoord;
 }
 constexpr int32_t const& Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__get_doublingCoord() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doublingCoord;
 }
 constexpr void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__set_doublingCoord(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___doublingCoord = value;
 }
 inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor() {

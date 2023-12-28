@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedDictionaryEnumerator)
-namespace System {
-class Object;
-}
 namespace System::Collections {
-struct DictionaryEntry;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class LinkedDictionary;
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
+struct DictionaryEntry;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class LinkedDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

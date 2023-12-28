@@ -30,15 +30,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::Bindings::IgnoreAttribute::__get__DoesNotContributeToSize_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DoesNotContributeToSize_k__BackingField;
 }
 constexpr bool const& UnityEngine::Bindings::IgnoreAttribute::__get__DoesNotContributeToSize_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DoesNotContributeToSize_k__BackingField;
 }
 constexpr void UnityEngine::Bindings::IgnoreAttribute::__set__DoesNotContributeToSize_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DoesNotContributeToSize_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize(bool value) {

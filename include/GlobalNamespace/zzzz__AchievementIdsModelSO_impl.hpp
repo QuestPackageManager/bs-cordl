@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AchievementIdsModelSO.get_achievementsIds
 template <>
 
@@ -31,16 +31,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>*& GlobalNamespace::AchievementIdsModelSO::__get__achievementsIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementsIds;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>*> const&
 GlobalNamespace::AchievementIdsModelSO::__get__achievementsIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementsIds;
 }
 constexpr void GlobalNamespace::AchievementIdsModelSO::__set__achievementsIds(::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementsIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>* GlobalNamespace::AchievementIdsModelSO::get_achievementsIds() {

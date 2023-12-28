@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::__get_crossAppDomainArrayIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossAppDomainArrayIndex;
 }
 constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::__get_crossAppDomainArrayIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crossAppDomainArrayIndex;
 }
 constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::__set_crossAppDomainArrayIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___crossAppDomainArrayIndex = value;
 }
 inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::New_ctor() {

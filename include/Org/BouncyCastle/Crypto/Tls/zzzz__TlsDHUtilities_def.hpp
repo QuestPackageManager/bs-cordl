@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDHUtilities)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPrivateKeyParameters;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;

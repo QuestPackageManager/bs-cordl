@@ -13,25 +13,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtdParser)
 namespace System::Xml {
-class __DtdParser__UndeclaredNotation;
-}
-namespace System::Xml::Schema {
-class SchemaEntity;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Xml::Schema {
-struct XmlSeverityType;
-}
-namespace System::Xml::Schema {
-class SchemaInfo;
+class IDtdParserAdapterWithValidation;
 }
 namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml {
-struct __DtdParser__Token;
+class IDtdParser;
 }
 namespace System::Xml {
 class __DtdParser__ParseElementOnlyContent_LocalFrame;
@@ -39,38 +24,53 @@ class __DtdParser__ParseElementOnlyContent_LocalFrame;
 namespace System::Xml {
 struct __DtdParser__ScanningFunction;
 }
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml::Schema {
+class SchemaEntity;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Xml::Schema {
+class ParticleContentValidator;
+}
+namespace System::Xml {
+struct __DtdParser__LiteralType;
+}
 namespace System::Xml::Schema {
 class XmlSchemaException;
+}
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
+namespace System::Xml {
+struct __DtdParser__Token;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml::Schema {
 class SchemaElementDecl;
 }
 namespace System::Xml {
-struct __DtdParser__LiteralType;
-}
-namespace System::Xml {
 class IDtdInfo;
 }
-namespace System::Xml::Schema {
-class ParticleContentValidator;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace System::Xml {
-class IDtdParser;
+class __DtdParser__UndeclaredNotation;
 }
 namespace System::Xml {
 class IDtdParserAdapter;
 }
-namespace System::Xml {
-class IDtdParserAdapterWithValidation;
+namespace System::Xml::Schema {
+struct XmlSeverityType;
 }
-namespace System::Xml {
-class XmlNameTable;
+namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -704,8 +704,8 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__DtdParser__ParseE
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11537)), TypeDefinitionIndex(TypeDefinitionIndex(11544)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11532))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11537))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
 class CORDL_TYPE DtdParser : public ::System::Object {
 public:
   // Declarations

@@ -9,29 +9,29 @@ CORDL_MODULE_EXPORT(Texture)
 namespace UnityEngine {
 struct ColorSpace;
 }
-namespace UnityEngine {
-struct TextureWrapMode;
-}
 namespace UnityEngine::Rendering {
 struct TextureDimension;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
-}
-namespace UnityEngine {
-class UnityException;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct FormatUsage;
 }
 namespace UnityEngine {
+struct TextureWrapMode;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine {
 struct FilterMode;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class UnityException;
 }
 // Forward declare root types
 namespace UnityEngine {

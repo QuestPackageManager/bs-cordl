@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerInstaller)
 namespace GlobalNamespace {
-class AudioManagerSO;
+class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -13,14 +13,14 @@ class PlayerDataModel;
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
+namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataSender;
+}
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
 class RelativeSfxVolumePerLevelModel;
-}
-namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSender;
 }
 // Forward declare root types
 namespace GlobalNamespace {

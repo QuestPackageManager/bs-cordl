@@ -17,28 +17,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonWriter)
 namespace System {
-class Uri;
+struct Decimal;
 }
 namespace Newtonsoft::Json {
-struct FloatFormatHandling;
-}
-namespace System {
-struct Guid;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-struct Formatting;
+struct __JsonWriter__State;
 }
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
 }
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
 namespace System {
-struct Decimal;
+struct DateTime;
+}
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace Newtonsoft::Json {
 class JsonWriterException;
@@ -46,47 +43,50 @@ class JsonWriterException;
 namespace Newtonsoft::Json {
 struct DateTimeZoneHandling;
 }
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
-}
-namespace Newtonsoft::Json {
-struct WriteState;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace Newtonsoft::Json {
-struct JsonContainerType;
+namespace System {
+struct Guid;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-struct TimeSpan;
+class Uri;
 }
-namespace Newtonsoft::Json {
-struct StringEscapeHandling;
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class IDisposable;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace System {
-struct DateTimeOffset;
+class Object;
 }
 namespace Newtonsoft::Json {
 struct JsonPosition;
 }
 namespace Newtonsoft::Json {
-struct __JsonWriter__State;
+struct FloatFormatHandling;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
 }
 namespace System {
-class IDisposable;
+struct DateTimeOffset;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace Newtonsoft::Json {
+struct WriteState;
+}
+namespace Newtonsoft::Json {
+struct Formatting;
+}
+namespace Newtonsoft::Json {
+struct JsonContainerType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -182,9 +182,9 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonWriter__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11842)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(11810)), TypeDefinitionIndex(TypeDefinitionIndex(11798)), TypeDefinitionIndex(TypeDefinitionIndex(11797)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11807))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11843)) CS Name: ::Newtonsoft.Json::JsonWriter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(11807)), TypeDefinitionIndex(TypeDefinitionIndex(11797)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11810)), TypeDefinitionIndex(TypeDefinitionIndex(11798)), TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11843)) CS Name: ::Newtonsoft.Json::JsonWriter*
 class CORDL_TYPE JsonWriter : public ::System::Object {
 public:
   // Declarations

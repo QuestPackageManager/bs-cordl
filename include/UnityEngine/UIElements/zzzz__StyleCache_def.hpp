@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleCache)
-namespace UnityEngine::UIElements {
-struct ComputedTransitionProperty;
-}
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
 class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
+struct ComputedTransitionProperty;
+}
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

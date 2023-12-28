@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLevelSelectionFlowCoordinator)
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
 namespace HMUI {
 struct __ViewController__AnimationType;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class __LevelSelectionFlowCoordinator__State;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
-class __LevelSelectionFlowCoordinator__State;
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class ILobbyGameStateController;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator);
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 305, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(5501)), TypeDefinitionIndex(TypeDefinitionIndex(15047))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(5501))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5517))
 // CS Name: ::MultiplayerLevelSelectionFlowCoordinator*
 class CORDL_TYPE MultiplayerLevelSelectionFlowCoordinator : public ::GlobalNamespace::LevelSelectionFlowCoordinator {

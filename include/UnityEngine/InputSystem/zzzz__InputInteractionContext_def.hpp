@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputInteractionContext)
 namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct __InputInteractionContext__Flags;
+class InputAction;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
-class InputAction;
+struct __InputActionState__TriggerState;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
+struct __InputInteractionContext__Flags;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6176)), TypeDefinitionIndex(TypeDefinitionIndex(6205))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6205)), TypeDefinitionIndex(TypeDefinitionIndex(6176))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6206))
 // CS Name: ::UnityEngine.InputSystem::InputInteractionContext
 struct CORDL_TYPE InputInteractionContext {

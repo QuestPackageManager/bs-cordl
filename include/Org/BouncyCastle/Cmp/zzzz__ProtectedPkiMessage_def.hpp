@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ProtectedPkiMessage)
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiHeader;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Crmf {
 class PKMacBuilder;
@@ -18,19 +21,16 @@ namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiMessage;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Cmp {
 class GeneralPkiMessage;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiBody;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

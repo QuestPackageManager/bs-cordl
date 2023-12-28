@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GenericLogger)
 namespace GlobalNamespace {
-class IVerboseLogger;
-}
-namespace GlobalNamespace {
 class __GenericLogger__ScopedStopwatch;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IVerboseLogger;
 }
 namespace System::Diagnostics {
 class Stopwatch;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

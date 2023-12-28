@@ -14,77 +14,77 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerSaveData)
-namespace GlobalNamespace {
-class __PlayerSaveData__GuestPlayer;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__PlayerAgreementsData;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__GameplayModifiers;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSensitivityFlagSaveData;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
 class __PlayerSaveData__ColorScheme;
-}
-namespace GlobalNamespace {
-class __PlayerSaveData__OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__LocalPlayer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class __PlayerSaveData__PracticeSettings;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__ColorSchemesSettings;
+struct __PlayerSaveData__PlayerSensitivityFlagSaveData;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__UserAgeCategorySaveData;
+class __PlayerSaveData__GuestPlayer;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__MultiplayerModeSettings;
+class __PlayerSaveData__OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__PlayerMissionStatsData;
+class __PlayerSaveData__GameplayModifiers;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__PracticeSettings;
+class __PlayerSaveData__PlayerMissionStatsData;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__MultiplayerModeSettings;
+}
+namespace GlobalNamespace {
+struct __PlayerSaveData__UserAgeCategorySaveData;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__LocalPlayer;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+class __PlayerSaveData__PlayerAgreementsData;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__GameplayModifiers__SongSpeed;
+struct __PlayerSaveData__GameplayModifiers__EnabledObstacleType;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__GameplayModifiers__EnergyType;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__GameplayModifiers__EnabledObstacleType;
-}
-namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+struct __PlayerSaveData__GameplayModifiers__SongSpeed;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+}
+namespace GlobalNamespace {
+struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -336,7 +336,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveDat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4636)), TypeDefinitionIndex(TypeDefinitionIndex(4635)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4635)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4636)),
 // TypeDefinitionIndex(TypeDefinitionIndex(4634))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4637)) CS Name: ::PlayerSaveData::GameplayModifiers*
 class CORDL_TYPE __PlayerSaveData__GameplayModifiers : public ::System::Object {
 public:
@@ -712,8 +712,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveDat
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4640)), TypeDefinitionIndex(TypeDefinitionIndex(4639)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4638))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4641)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4639)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4638)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4640))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4641)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
 class CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations
@@ -1539,7 +1539,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveDat
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4647))
 // CS Name: ::PlayerSaveData::ColorScheme*
 class CORDL_TYPE __PlayerSaveData__ColorScheme : public ::System::Object {
@@ -2149,8 +2149,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveDat
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4653)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(4654)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4655)) CS Name: ::PlayerSaveData::LocalPlayer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4654)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4653))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4655)) CS Name: ::PlayerSaveData::LocalPlayer*
 class CORDL_TYPE __PlayerSaveData__LocalPlayer : public ::System::Object {
 public:
   // Declarations

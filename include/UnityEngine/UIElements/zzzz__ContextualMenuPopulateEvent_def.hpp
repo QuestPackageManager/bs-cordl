@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(ContextualMenuPopulateEvent)
 namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
 class ContextualMenuManager;
 }
 namespace UnityEngine::UIElements {
@@ -12,9 +15,6 @@ class DropdownMenu;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

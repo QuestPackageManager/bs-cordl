@@ -77,27 +77,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Xml::UTF16Decoder::__get_bigEndian() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigEndian;
 }
 constexpr bool const& System::Xml::UTF16Decoder::__get_bigEndian() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bigEndian;
 }
 constexpr void System::Xml::UTF16Decoder::__set_bigEndian(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bigEndian = value;
 }
 constexpr int32_t& System::Xml::UTF16Decoder::__get_lastByte() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastByte;
 }
 constexpr int32_t const& System::Xml::UTF16Decoder::__get_lastByte() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastByte;
 }
 constexpr void System::Xml::UTF16Decoder::__set_lastByte(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastByte = value;
 }
 inline ::System::Xml::UTF16Decoder* System::Xml::UTF16Decoder::New_ctor(bool bigEndian) {

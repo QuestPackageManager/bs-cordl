@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DropdownSettingsController_def.hpp"
+#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DropdownSettingsController.add_dropDownValueDidChangeEvent
 template <>
 
@@ -166,51 +166,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::SimpleTextDropdown*& GlobalNamespace::DropdownSettingsController::__get__dropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& GlobalNamespace::DropdownSettingsController::__get__dropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dropdown;
 }
 constexpr void GlobalNamespace::DropdownSettingsController::__set__dropdown(::HMUI::SimpleTextDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::DropdownSettingsController::__get_dropDownValueDidChangeEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dropDownValueDidChangeEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::DropdownSettingsController::__get_dropDownValueDidChangeEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dropDownValueDidChangeEvent;
 }
 constexpr void GlobalNamespace::DropdownSettingsController::__set_dropDownValueDidChangeEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dropDownValueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::DropdownSettingsController::__get__idx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx;
 }
 constexpr int32_t const& GlobalNamespace::DropdownSettingsController::__get__idx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____idx;
 }
 constexpr void GlobalNamespace::DropdownSettingsController::__set__idx(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idx = value;
 }
 constexpr int32_t& GlobalNamespace::DropdownSettingsController::__get__numberOfElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfElements;
 }
 constexpr int32_t const& GlobalNamespace::DropdownSettingsController::__get__numberOfElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numberOfElements;
 }
 constexpr void GlobalNamespace::DropdownSettingsController::__set__numberOfElements(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numberOfElements = value;
 }
 inline void GlobalNamespace::DropdownSettingsController::add_dropDownValueDidChangeEvent(::System::Action* value) {

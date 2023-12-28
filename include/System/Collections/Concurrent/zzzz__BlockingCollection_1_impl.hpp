@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr System::Collections::Concurrent::BlockingCollection_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
@@ -35,105 +35,105 @@ template <typename T> constexpr System::Collections::Concurrent::BlockingCollect
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(this));
 }
 template <typename T> constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& System::Collections::Concurrent::BlockingCollection_1<T>::__get__collection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collection;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*> const&
 System::Collections::Concurrent::BlockingCollection_1<T>::__get__collection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collection;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__collection(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::BlockingCollection_1<T>::__get__boundedCapacity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundedCapacity;
 }
 template <typename T> constexpr int32_t const& System::Collections::Concurrent::BlockingCollection_1<T>::__get__boundedCapacity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundedCapacity;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__boundedCapacity(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____boundedCapacity = value;
 }
 template <typename T> constexpr ::System::Threading::SemaphoreSlim*& System::Collections::Concurrent::BlockingCollection_1<T>::__get__freeNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeNodes;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::Collections::Concurrent::BlockingCollection_1<T>::__get__freeNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeNodes;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__freeNodes(::System::Threading::SemaphoreSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____freeNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Threading::SemaphoreSlim*& System::Collections::Concurrent::BlockingCollection_1<T>::__get__occupiedNodes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____occupiedNodes;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& System::Collections::Concurrent::BlockingCollection_1<T>::__get__occupiedNodes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____occupiedNodes;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__occupiedNodes(::System::Threading::SemaphoreSlim* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____occupiedNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr bool& System::Collections::Concurrent::BlockingCollection_1<T>::__get__isDisposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDisposed;
 }
 template <typename T> constexpr bool const& System::Collections::Concurrent::BlockingCollection_1<T>::__get__isDisposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDisposed;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__isDisposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDisposed = value;
 }
 template <typename T> constexpr ::System::Threading::CancellationTokenSource*& System::Collections::Concurrent::BlockingCollection_1<T>::__get__consumersCancellationTokenSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____consumersCancellationTokenSource;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
 System::Collections::Concurrent::BlockingCollection_1<T>::__get__consumersCancellationTokenSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____consumersCancellationTokenSource;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__consumersCancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____consumersCancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Threading::CancellationTokenSource*& System::Collections::Concurrent::BlockingCollection_1<T>::__get__producersCancellationTokenSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____producersCancellationTokenSource;
 }
 template <typename T>
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
 System::Collections::Concurrent::BlockingCollection_1<T>::__get__producersCancellationTokenSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____producersCancellationTokenSource;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__producersCancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____producersCancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::BlockingCollection_1<T>::__get__currentAdders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentAdders;
 }
 template <typename T> constexpr int32_t const& System::Collections::Concurrent::BlockingCollection_1<T>::__get__currentAdders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentAdders;
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__set__currentAdders(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentAdders = value;
 }
 template <typename T> inline bool System::Collections::Concurrent::BlockingCollection_1<T>::get_IsAddingCompleted() {

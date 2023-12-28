@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PrefabGameObjectProvider)
 namespace System {
-class Action;
+class Type;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class IPrefabInstantiator;
 }
-namespace Zenject {
-struct TypeValuePair;
+namespace System {
+class Object;
 }
 namespace System {
-class Type;
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class InjectContext;
+struct TypeValuePair;
 }
 namespace Zenject {
 class IProvider;

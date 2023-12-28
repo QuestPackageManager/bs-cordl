@@ -11,17 +11,17 @@ class ManualResetEvent;
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Threading {
 class WaitHandle;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {

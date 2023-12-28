@@ -14,19 +14,19 @@ class INotificationReceiver;
 namespace System {
 class Type;
 }
+namespace UnityEngine::Playables {
+class INotification;
+}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace System {
-class Object;
-}
-namespace UnityEngine::Playables {
-class INotification;
-}
-namespace UnityEngine {
 class Object;
 }
 // Forward declare root types

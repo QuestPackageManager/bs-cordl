@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509ExtensionEnumerator;
+namespace System {
+class Array;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ExtensionEnumerator;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

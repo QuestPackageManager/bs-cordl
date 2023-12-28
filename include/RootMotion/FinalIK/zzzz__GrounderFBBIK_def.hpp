@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GrounderFBBIK)
 namespace RootMotion::FinalIK {
+class IKEffector;
+}
+namespace RootMotion::FinalIK {
 class __GrounderFBBIK__SpineEffector;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
-namespace RootMotion::FinalIK {
-class IKEffector;
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class __Grounding__Leg;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12520))
 // CS Name: ::GrounderFBBIK::SpineEffector*
 class CORDL_TYPE __GrounderFBBIK__SpineEffector : public ::System::Object {
@@ -117,7 +117,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__GrounderF
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12521))
 // CS Name: ::RootMotion.FinalIK::GrounderFBBIK*
 class CORDL_TYPE GrounderFBBIK : public ::RootMotion::FinalIK::Grounder {

@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTracker)
 namespace GlobalNamespace {
-struct __OVRTracker__Frustum;
+struct OVRPose;
 }
 namespace GlobalNamespace {
-struct OVRPose;
+struct __OVRTracker__Frustum;
 }
 namespace UnityEngine {
 struct Vector2;

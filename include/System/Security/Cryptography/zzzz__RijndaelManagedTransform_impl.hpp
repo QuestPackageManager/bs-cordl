@@ -4,11 +4,11 @@
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransform_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
-#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RijndaelManagedTransform._ctor
 template <>
 
@@ -330,219 +330,219 @@ constexpr System::Security::Cryptography::RijndaelManagedTransform::operator ::S
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::System::Security::Cryptography::CipherMode& System::Security::Cryptography::RijndaelManagedTransform::__get_m_cipherMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cipherMode;
 }
 constexpr ::System::Security::Cryptography::CipherMode const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_cipherMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cipherMode;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_cipherMode(::System::Security::Cryptography::CipherMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cipherMode = value;
 }
 constexpr ::System::Security::Cryptography::PaddingMode& System::Security::Cryptography::RijndaelManagedTransform::__get_m_paddingValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_paddingValue;
 }
 constexpr ::System::Security::Cryptography::PaddingMode const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_paddingValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_paddingValue;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_paddingValue(::System::Security::Cryptography::PaddingMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_paddingValue = value;
 }
 constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode& System::Security::Cryptography::RijndaelManagedTransform::__get_m_transformMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_transformMode;
 }
 constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_transformMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_transformMode;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_transformMode(::System::Security::Cryptography::RijndaelManagedTransformMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_transformMode = value;
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_blockSizeBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_blockSizeBits;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_blockSizeBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_blockSizeBits;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_blockSizeBits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_blockSizeBits = value;
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_blockSizeBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_blockSizeBytes;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_blockSizeBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_blockSizeBytes;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_blockSizeBytes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_blockSizeBytes = value;
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_inputBlockSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_inputBlockSize;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_inputBlockSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_inputBlockSize;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_inputBlockSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_inputBlockSize = value;
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_outputBlockSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_outputBlockSize;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_outputBlockSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_outputBlockSize;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_outputBlockSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_outputBlockSize = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_encryptKeyExpansion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_encryptKeyExpansion;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_encryptKeyExpansion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_encryptKeyExpansion;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_encryptKeyExpansion(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_encryptKeyExpansion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_decryptKeyExpansion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_decryptKeyExpansion;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_decryptKeyExpansion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_decryptKeyExpansion;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_decryptKeyExpansion(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_decryptKeyExpansion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_Nr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nr;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_Nr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nr;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_Nr(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Nr = value;
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_Nb() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nb;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_Nb() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nb;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_Nb(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Nb = value;
 }
 constexpr int32_t& System::Security::Cryptography::RijndaelManagedTransform::__get_m_Nk() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nk;
 }
 constexpr int32_t const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_Nk() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nk;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_Nk(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Nk = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_encryptindex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_encryptindex;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_encryptindex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_encryptindex;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_encryptindex(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_encryptindex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_decryptindex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_decryptindex;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_decryptindex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_decryptindex;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_decryptindex(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_decryptindex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_IV() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IV;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_IV() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IV;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_IV(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IV)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_lastBlockBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastBlockBuffer;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_lastBlockBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastBlockBuffer;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_lastBlockBuffer(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_lastBlockBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_depadBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_depadBuffer;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_depadBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_depadBuffer;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_depadBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_depadBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Security::Cryptography::RijndaelManagedTransform::__get_m_shiftRegister() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_shiftRegister;
 }
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptography::RijndaelManagedTransform::__get_m_shiftRegister() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_shiftRegister;
 }
 constexpr void System::Security::Cryptography::RijndaelManagedTransform::__set_m_shiftRegister(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_shiftRegister)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Security::Cryptography::RijndaelManagedTransform::setStaticF_s_Sbox(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

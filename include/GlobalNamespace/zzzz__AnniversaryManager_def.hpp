@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(AnniversaryManager)
 namespace GlobalNamespace {
-struct __MainMenuViewController__MenuButton;
-}
-namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
@@ -18,6 +15,9 @@ class MainMenuViewController;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+struct __MainMenuViewController__MenuButton;
 }
 // Forward declare root types
 namespace GlobalNamespace {

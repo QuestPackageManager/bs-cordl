@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundLightWithId_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColor_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundLightWithId.get_color
 template <>
 
@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::BloomPrePassBackgroundColor*& GlobalNamespace::BloomPrePassBackgroundLightWithId::__get__bloomPrePassBackgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassBackgroundColor;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassBackgroundColor*> const& GlobalNamespace::BloomPrePassBackgroundLightWithId::__get__bloomPrePassBackgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassBackgroundColor;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundLightWithId::__set__bloomPrePassBackgroundColor(::GlobalNamespace::BloomPrePassBackgroundColor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassBackgroundColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Color GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color() {

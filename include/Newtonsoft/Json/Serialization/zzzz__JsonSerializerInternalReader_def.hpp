@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerInternalReader)
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
 namespace System {
 class Object;
 }
 namespace Newtonsoft::Json::Serialization {
-template <typename T> class ObjectConstructor_1;
+struct __JsonSerializerInternalReader__PropertyPresence;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace Newtonsoft::Json {
 struct DefaultValueHandling;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonISerializableContract;
+class JsonDictionaryContract;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json::Serialization {
-struct __JsonSerializerInternalReader__PropertyPresence;
-}
-namespace Newtonsoft::Json::Serialization {
-class __JsonSerializerInternalReader__CreatorPropertyContext;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
@@ -38,22 +38,13 @@ namespace Newtonsoft::Json::Serialization {
 class JsonProperty;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonSerializerProxy;
+class JsonISerializableContract;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonContainerContract;
+class __JsonSerializerInternalReader____c;
 }
 namespace Newtonsoft::Json::Linq {
 class JTokenReader;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonDictionaryContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonArrayContract;
 }
 namespace System::Collections {
 class IList;
@@ -62,31 +53,40 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Newtonsoft::Json::Serialization {
-class __JsonSerializerInternalReader____c;
-}
-namespace Newtonsoft::Json::Serialization {
 class JsonObjectContract;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
 }
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+template <typename T> class ObjectConstructor_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonArrayContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerProxy;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContainerContract;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json::Serialization {
+class __JsonSerializerInternalReader__CreatorPropertyContext;
+}
 namespace Newtonsoft::Json::Serialization {
 class __JsonSerializerInternalReader____c__DisplayClass36_0;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -169,8 +169,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11951)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 4769 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11952)) CS Name: ::JsonSerializerInternalReader::CreatorPropertyContext*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4769
+// }), TypeDefinitionIndex(TypeDefinitionIndex(11951))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11952)) CS Name: ::JsonSerializerInternalReader::CreatorPropertyContext*
 class CORDL_TYPE __JsonSerializerInternalReader__CreatorPropertyContext : public ::System::Object {
 public:
   // Declarations

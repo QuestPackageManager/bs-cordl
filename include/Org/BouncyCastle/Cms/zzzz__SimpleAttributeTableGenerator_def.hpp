@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SimpleAttributeTableGenerator)
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace System::Collections {
 class IDictionary;

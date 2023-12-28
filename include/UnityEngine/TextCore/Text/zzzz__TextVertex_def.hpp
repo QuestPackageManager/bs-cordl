@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextVertex)
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

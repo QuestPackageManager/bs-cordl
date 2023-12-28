@@ -98,27 +98,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Zenject::RunnableContext::__get__autoRun() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoRun;
 }
 constexpr bool const& Zenject::RunnableContext::__get__autoRun() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoRun;
 }
 constexpr void Zenject::RunnableContext::__set__autoRun(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoRun = value;
 }
 constexpr bool& Zenject::RunnableContext::__get__Initialized_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Initialized_k__BackingField;
 }
 constexpr bool const& Zenject::RunnableContext::__get__Initialized_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Initialized_k__BackingField;
 }
 constexpr void Zenject::RunnableContext::__set__Initialized_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Initialized_k__BackingField = value;
 }
 inline void Zenject::RunnableContext::setStaticF__staticAutoRun(bool value) {

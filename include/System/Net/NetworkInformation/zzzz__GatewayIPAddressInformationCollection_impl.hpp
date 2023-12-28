@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection._ctor
 template <>
 
@@ -198,17 +198,17 @@ constexpr System::Net::NetworkInformation::GatewayIPAddressInformationCollection
 }
 constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*&
 System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__get_addresses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*> const&
 System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__get_addresses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
 constexpr void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__set_addresses(
     ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___addresses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor() {

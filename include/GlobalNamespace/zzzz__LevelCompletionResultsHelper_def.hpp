@@ -8,25 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCompletionResultsHelper)
 namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class BeatmapObjectExecutionRating;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class PlayerData;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndAction;
@@ -35,10 +23,22 @@ namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
-class PlayerLevelStatsData;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class PlayerData;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,13 +3,13 @@
 #include "System/Net/zzzz__WebExceptionStatus_impl.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/Net/zzzz__WebException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Net/zzzz__WebExceptionInternalStatus_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Net/zzzz__WebExceptionInternalStatus_def.hpp"
 //  Writing Method size for method: ::System::Net::WebException._ctor
 template <>
 
@@ -237,39 +237,39 @@ constexpr System::Net::WebException::operator ::System::Runtime::Serialization::
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 constexpr ::System::Net::WebExceptionStatus& System::Net::WebException::__get_m_Status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Status;
 }
 constexpr ::System::Net::WebExceptionStatus const& System::Net::WebException::__get_m_Status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Status;
 }
 constexpr void System::Net::WebException::__set_m_Status(::System::Net::WebExceptionStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Status = value;
 }
 constexpr ::System::Net::WebResponse*& System::Net::WebException::__get_m_Response() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Response;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& System::Net::WebException::__get_m_Response() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Response;
 }
 constexpr void System::Net::WebException::__set_m_Response(::System::Net::WebResponse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Response)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::WebExceptionInternalStatus& System::Net::WebException::__get_m_InternalStatus() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InternalStatus;
 }
 constexpr ::System::Net::WebExceptionInternalStatus const& System::Net::WebException::__get_m_InternalStatus() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InternalStatus;
 }
 constexpr void System::Net::WebException::__set_m_InternalStatus(::System::Net::WebExceptionInternalStatus value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InternalStatus = value;
 }
 inline ::System::Net::WebException* System::Net::WebException::New_ctor() {

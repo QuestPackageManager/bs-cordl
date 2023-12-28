@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IsReadOnlyAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3378))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6730))
 // CS Name: ::System.Runtime.CompilerServices::IsReadOnlyAttribute*
 class CORDL_TYPE IsReadOnlyAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IsReadOnlyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24db210 size 0x8 virtual false final false
+  /// @brief Method .ctor addr 0x2da15c8 size 0x8 virtual false final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsReadOnlyAttribute", modifiers: "&&", def_value: None }]

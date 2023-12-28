@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTextureData)
-namespace GlobalNamespace {
-struct OVRTextureFormat;
-}
 namespace UnityEngine {
 struct TextureFormat;
+}
+namespace GlobalNamespace {
+struct OVRTextureFormat;
 }
 // Forward declare root types
 namespace GlobalNamespace {

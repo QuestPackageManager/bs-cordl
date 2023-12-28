@@ -1,30 +1,30 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__QueueSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>*& GlobalNamespace::QueueSet_1<T>::__get__linkedList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linkedList;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& GlobalNamespace::QueueSet_1<T>::__get__linkedList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linkedList;
 }
 template <typename T> constexpr void GlobalNamespace::QueueSet_1<T>::__set__linkedList(::System::Collections::Generic::LinkedList_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____linkedList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1<T>*& GlobalNamespace::QueueSet_1<T>::__get__set() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set;
 }
 template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& GlobalNamespace::QueueSet_1<T>::__get__set() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____set;
 }
 template <typename T> constexpr void GlobalNamespace::QueueSet_1<T>::__set__set(::System::Collections::Generic::HashSet_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____set)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline int32_t GlobalNamespace::QueueSet_1<T>::get_Count() {

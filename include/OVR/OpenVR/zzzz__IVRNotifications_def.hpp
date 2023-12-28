@@ -12,22 +12,22 @@ namespace OVR::OpenVR {
 struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationType;
+struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
+struct EVRNotificationType;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationStyle;
+struct NotificationBitmap_t;
+}
+namespace System {
+class Object;
 }
 namespace OVR::OpenVR {
 class __IVRNotifications___RemoveNotification;

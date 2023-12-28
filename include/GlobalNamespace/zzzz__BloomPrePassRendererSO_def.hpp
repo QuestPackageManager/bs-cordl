@@ -11,25 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassRendererSO)
 namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace GlobalNamespace {
-class __BloomPrePassRendererSO__PreallocationData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class IBloomPrePassParams;
+struct ToneMapping;
 }
 namespace UnityEngine {
 class Texture2D;
@@ -37,23 +19,41 @@ class Texture2D;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Texture;
+namespace GlobalNamespace {
+class __BloomPrePassRendererSO__PreallocationData;
 }
 namespace GlobalNamespace {
 class __BloomPrePassRendererSO__LightsRenderingData;
 }
-namespace GlobalNamespace {
-struct ToneMapping;
-}
 namespace UnityEngine {
 class Camera;
 }
+namespace GlobalNamespace {
+class BloomPrePassLightTypeSO;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class BloomFogSO;
+}
+namespace GlobalNamespace {
+class IBloomPrePassParams;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class Mesh;
@@ -138,7 +138,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassR
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10344))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10344)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14482))
 // CS Name: ::BloomPrePassRendererSO::LightsRenderingData*
 class CORDL_TYPE __BloomPrePassRendererSO__LightsRenderingData : public ::System::Object {

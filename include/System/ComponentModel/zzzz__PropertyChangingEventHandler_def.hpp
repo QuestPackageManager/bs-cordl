@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyChangingEventHandler)
 namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace System::ComponentModel {
 class PropertyChangingEventArgs;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::ComponentModel {

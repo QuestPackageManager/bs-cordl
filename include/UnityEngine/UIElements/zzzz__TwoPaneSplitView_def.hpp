@@ -10,31 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TwoPaneSplitView)
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class __TwoPaneSplitView__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class __TwoPaneSplitView__UxmlFactory;
+class TwoPaneSplitViewResizer;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class TwoPaneSplitViewResizer;
+class __TwoPaneSplitView__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 struct TwoPaneSplitViewOrientation;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+class __TwoPaneSplitView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
@@ -450,8 +450,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TwoPane
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7138)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5283 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7137)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7136)) CS Name: ::TwoPaneSplitView::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5283 }), TypeDefinitionIndex(TypeDefinitionIndex(7137)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7138)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7136)) CS Name: ::TwoPaneSplitView::UxmlFactory*
 class CORDL_TYPE __TwoPaneSplitView__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TwoPaneSplitView*, ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits*> {
 public:

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceCommand)
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

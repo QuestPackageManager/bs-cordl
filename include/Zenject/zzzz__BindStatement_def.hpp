@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BindStatement)
-namespace Zenject {
-class BindInfo;
-}
 namespace System {
 class IDisposable;
 }
@@ -14,13 +11,16 @@ namespace Zenject {
 struct BindingInheritanceMethods;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class IBindingFinalizer;
 }
 // Forward declare root types
 namespace Zenject {

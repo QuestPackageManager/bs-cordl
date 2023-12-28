@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__SerpentEngineBase_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase._ctor
 template <>
 
@@ -479,75 +479,75 @@ constexpr Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::operator ::Org:
   return static_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(static_cast<void*>(this));
 }
 constexpr bool& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_encrypting() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encrypting;
 }
 constexpr bool const& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_encrypting() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encrypting;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_encrypting(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___encrypting = value;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_wKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wKey;
 }
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_wKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wKey;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_wKey(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X0;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X0;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_X0(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___X0 = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X1;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X1;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_X1(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___X1 = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X2;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X2;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_X2(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___X2 = value;
 }
 constexpr int32_t& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X3;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___X3;
 }
 constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_X3(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___X3 = value;
 }
 inline void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::setStaticF_BlockSize(int32_t value) {

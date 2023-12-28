@@ -11,62 +11,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCollectionViewController)
-namespace Zenject {
-class DiContainer;
-}
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class LevelCollectionTableView;
-}
-namespace GlobalNamespace {
-class __LevelCollectionViewController____c__DisplayClass24_0;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace UnityEngine {
-class RectTransform;
+class Sprite;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class AudioClipAsyncLoader;
+class IPreviewBeatmapLevel;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class AudioClipAsyncLoader;
 }
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace GlobalNamespace {
 struct __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class __LevelCollectionViewController____c__DisplayClass24_0;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class PerceivedLoudnessPerLevelModel;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -151,7 +151,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelCollecti
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
 // TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5659)) CS Name:
 // ::LevelCollectionViewController::<SongPlayerCrossfadeToLevelAsync>d__24
 struct CORDL_TYPE __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24 {

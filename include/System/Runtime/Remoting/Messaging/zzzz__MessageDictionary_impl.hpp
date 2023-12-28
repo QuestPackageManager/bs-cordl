@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator._ctor
 template <>
@@ -125,41 +125,41 @@ constexpr System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryE
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__get__methodDictionary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodDictionary;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MessageDictionary*> const&
 System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__get__methodDictionary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodDictionary;
 }
 constexpr void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__set__methodDictionary(::System::Runtime::Remoting::Messaging::MessageDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____methodDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::IDictionaryEnumerator*& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__get__hashtableEnum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashtableEnum;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionaryEnumerator*> const&
 System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__get__hashtableEnum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hashtableEnum;
 }
 constexpr void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__set__hashtableEnum(::System::Collections::IDictionaryEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hashtableEnum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__get__posMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posMethod;
 }
 constexpr int32_t const& System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__get__posMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posMethod;
 }
 constexpr void System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator::__set__posMethod(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____posMethod = value;
 }
 inline ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator*
@@ -603,51 +603,51 @@ constexpr System::Runtime::Remoting::Messaging::MessageDictionary::operator ::Sy
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IDictionary*& System::Runtime::Remoting::Messaging::MessageDictionary::__get__internalProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalProperties;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& System::Runtime::Remoting::Messaging::MessageDictionary::__get__internalProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalProperties;
 }
 constexpr void System::Runtime::Remoting::Messaging::MessageDictionary::__set__internalProperties(::System::Collections::IDictionary* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____internalProperties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage*& System::Runtime::Remoting::Messaging::MessageDictionary::__get__message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____message;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMethodMessage*> const& System::Runtime::Remoting::Messaging::MessageDictionary::__get__message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____message;
 }
 constexpr void System::Runtime::Remoting::Messaging::MessageDictionary::__set__message(::System::Runtime::Remoting::Messaging::IMethodMessage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::Messaging::MessageDictionary::__get__methodKeys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodKeys;
 }
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::Messaging::MessageDictionary::__get__methodKeys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodKeys;
 }
 constexpr void System::Runtime::Remoting::Messaging::MessageDictionary::__set__methodKeys(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____methodKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Runtime::Remoting::Messaging::MessageDictionary::__get__ownProperties() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownProperties;
 }
 constexpr bool const& System::Runtime::Remoting::Messaging::MessageDictionary::__get__ownProperties() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownProperties;
 }
 constexpr void System::Runtime::Remoting::Messaging::MessageDictionary::__set__ownProperties(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ownProperties = value;
 }
 inline ::System::Runtime::Remoting::Messaging::MessageDictionary* System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message) {

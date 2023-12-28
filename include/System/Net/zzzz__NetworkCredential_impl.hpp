@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
-#include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkCredential._ctor
 template <>
@@ -174,39 +174,39 @@ constexpr System::Net::NetworkCredential::operator ::System::Net::ICredentials*(
   return static_cast<::System::Net::ICredentials*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Net::NetworkCredential::__get_m_domain() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_domain;
 }
 constexpr ::StringW const& System::Net::NetworkCredential::__get_m_domain() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_domain;
 }
 constexpr void System::Net::NetworkCredential::__set_m_domain(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_domain)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::NetworkCredential::__get_m_userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_userName;
 }
 constexpr ::StringW const& System::Net::NetworkCredential::__get_m_userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_userName;
 }
 constexpr void System::Net::NetworkCredential::__set_m_userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::SecureString*& System::Net::NetworkCredential::__get_m_password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_password;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::SecureString*> const& System::Net::NetworkCredential::__get_m_password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_password;
 }
 constexpr void System::Net::NetworkCredential::__set_m_password(::System::Security::SecureString* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::NetworkCredential* System::Net::NetworkCredential::New_ctor(::StringW userName, ::StringW password) {

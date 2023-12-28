@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__Touchable_impl.hpp"
 #include "HMUI/zzzz__CircleTouchable_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::HMUI::CircleTouchable.OnEnable
 template <>
@@ -90,39 +90,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& HMUI::CircleTouchable::__get__minRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minRadius;
 }
 constexpr float_t const& HMUI::CircleTouchable::__get__minRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minRadius;
 }
 constexpr void HMUI::CircleTouchable::__set__minRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minRadius = value;
 }
 constexpr float_t& HMUI::CircleTouchable::__get__maxRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRadius;
 }
 constexpr float_t const& HMUI::CircleTouchable::__get__maxRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxRadius;
 }
 constexpr void HMUI::CircleTouchable::__set__maxRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxRadius = value;
 }
 constexpr ::UnityEngine::RectTransform*& HMUI::CircleTouchable::__get__containerRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerRect;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& HMUI::CircleTouchable::__get__containerRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____containerRect;
 }
 constexpr void HMUI::CircleTouchable::__set__containerRect(::UnityEngine::RectTransform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____containerRect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::CircleTouchable::OnEnable() {

@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRVirtualKeyboardSampleInputHandler)
+namespace GlobalNamespace {
+struct __OVRVirtualKeyboard__InputSource;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::EventSystems {
 class OVRInputModule;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct __OVRVirtualKeyboard__InputSource;
-}
-namespace GlobalNamespace {
-class OVRRaycaster;
+class LineRenderer;
 }
 namespace GlobalNamespace {
 class OVRVirtualKeyboard;
 }
-namespace UnityEngine {
-class LineRenderer;
+namespace GlobalNamespace {
+class OVRRaycaster;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7598)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4771 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8062)) CS Name: ::OVRVirtualKeyboardSampleInputHandler*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4771 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8062)) CS Name: ::OVRVirtualKeyboardSampleInputHandler*
 class CORDL_TYPE OVRVirtualKeyboardSampleInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

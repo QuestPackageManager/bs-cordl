@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenTypeInfoGetter)
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace Zenject {

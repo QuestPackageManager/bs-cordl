@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IPreviewBeatmapLevel)
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
@@ -22,10 +16,16 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class PreviewDifficultyBeatmapSet;
 }
 // Forward declare root types
 namespace GlobalNamespace {

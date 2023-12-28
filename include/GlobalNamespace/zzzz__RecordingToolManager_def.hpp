@@ -10,61 +10,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolManager)
 namespace GlobalNamespace {
-struct __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28;
-}
-namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
-}
-namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class IInitializable;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class RecordingSettings;
-}
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
 class RecordingToolConfigurationProcessor;
 }
 namespace GlobalNamespace {
 class __RecordingToolManager____c;
 }
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class RecordingToolSettings;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
+}
+namespace GlobalNamespace {
+class RecordingSettings;
+}
+namespace GlobalNamespace {
+class GameplayLevelSceneTransitionEvents;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -172,7 +172,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RecordingTool
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5964))
 // CS Name: ::RecordingToolManager::<HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish>d__28
 struct CORDL_TYPE __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28 {

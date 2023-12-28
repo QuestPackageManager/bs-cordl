@@ -45,15 +45,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& HoudiniEngineUnity::HEU_HoudiniEngineError::__get__errorMsg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____errorMsg;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_HoudiniEngineError::__get__errorMsg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____errorMsg;
 }
 constexpr void HoudiniEngineUnity::HEU_HoudiniEngineError::__set__errorMsg(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____errorMsg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* HoudiniEngineUnity::HEU_HoudiniEngineError::New_ctor() {

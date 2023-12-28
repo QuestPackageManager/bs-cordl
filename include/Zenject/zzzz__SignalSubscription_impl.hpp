@@ -5,14 +5,14 @@
 #include "Zenject/zzzz__PoolableMemoryPool_3_impl.hpp"
 #include "Zenject/zzzz__SignalDeclaration_impl.hpp"
 #include "Zenject/zzzz__SignalSubscription_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__SignalSubscription_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__SignalDeclaration_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__IPoolable_2_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
+#include "Zenject/zzzz__SignalSubscription_def.hpp"
+#include "Zenject/zzzz__IPoolable_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__SignalDeclaration_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::SignalSubscription._ctor
 template <>
 
@@ -160,51 +160,51 @@ constexpr Zenject::SignalSubscription::operator ::Zenject::IPoolable_2<::System:
   return static_cast<::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*>*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::__SignalSubscription__Pool*& Zenject::SignalSubscription::__get__pool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& Zenject::SignalSubscription::__get__pool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 constexpr void Zenject::SignalSubscription::__set__pool(::Zenject::__SignalSubscription__Pool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::System::Object*>*& Zenject::SignalSubscription::__get__callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& Zenject::SignalSubscription::__get__callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
 constexpr void Zenject::SignalSubscription::__set__callback(::System::Action_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::SignalDeclaration*& Zenject::SignalSubscription::__get__declaration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declaration;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalDeclaration*> const& Zenject::SignalSubscription::__get__declaration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____declaration;
 }
 constexpr void Zenject::SignalSubscription::__set__declaration(::Zenject::SignalDeclaration* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____declaration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Zenject::BindingId& Zenject::SignalSubscription::__get__signalId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signalId;
 }
 constexpr ::Zenject::BindingId const& Zenject::SignalSubscription::__get__signalId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signalId;
 }
 constexpr void Zenject::SignalSubscription::__set__signalId(::Zenject::BindingId value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____signalId = value;
 }
 inline ::Zenject::SignalSubscription* Zenject::SignalSubscription::New_ctor(::Zenject::__SignalSubscription__Pool* pool) {

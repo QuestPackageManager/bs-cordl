@@ -2,11 +2,11 @@
 #include "System/Diagnostics/zzzz__TraceLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__MemoryTraceWriter_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::MemoryTraceWriter.get_LevelFilter
 template <>
 
@@ -102,27 +102,27 @@ constexpr Newtonsoft::Json::Serialization::MemoryTraceWriter::operator ::Newtons
   return static_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::Generic::Queue_1<::StringW>*& Newtonsoft::Json::Serialization::MemoryTraceWriter::__get__traceMessages() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____traceMessages;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::StringW>*> const& Newtonsoft::Json::Serialization::MemoryTraceWriter::__get__traceMessages() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____traceMessages;
 }
 constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____traceMessages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Diagnostics::TraceLevel& Newtonsoft::Json::Serialization::MemoryTraceWriter::__get__LevelFilter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LevelFilter_k__BackingField;
 }
 constexpr ::System::Diagnostics::TraceLevel const& Newtonsoft::Json::Serialization::MemoryTraceWriter::__get__LevelFilter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LevelFilter_k__BackingField;
 }
 constexpr void Newtonsoft::Json::Serialization::MemoryTraceWriter::__set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LevelFilter_k__BackingField = value;
 }
 inline ::System::Diagnostics::TraceLevel Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter() {

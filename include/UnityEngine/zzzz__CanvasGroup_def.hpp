@@ -9,10 +9,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class ICanvasRaycastFilter;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class ICanvasRaycastFilter;
 }
 // Forward declare root types
 namespace UnityEngine {

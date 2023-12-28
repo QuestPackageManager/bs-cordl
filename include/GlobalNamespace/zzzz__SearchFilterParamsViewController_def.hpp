@@ -14,28 +14,28 @@ namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-struct LevelFilter;
-}
-namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
-}
-namespace GlobalNamespace {
 class PlayerSensitivityDropdown;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicsDropdown;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class BeatmapDifficultyDropdown;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class BeatmapDifficultyDropdown;
+struct LevelFilter;
 }
 namespace UnityEngine::UI {
 class Toggle;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicsDropdown;
+}
+namespace GlobalNamespace {
+class FormattedFloatListSettingsController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

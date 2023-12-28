@@ -9,61 +9,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityTlsContext)
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list;
-}
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+struct __UnityTls__unitytls_x509verify_result;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_key_ref;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+struct __UnityTls__unitytls_key;
 }
 namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_x509verify_callback;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_read_callback;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_errorstate;
+struct __UnityTls__unitytls_x509list_ref;
 }
 namespace System {
 class Exception;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509name;
+class __UnityTls__unitytls_tlsctx_x509verify_callback;
 }
-namespace Mono::Security::Interface {
-class MonoTlsConnectionInfo;
-}
-namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_certificate_callback;
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_tlsctx;
+struct __UnityTls__unitytls_key_ref;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_errorstate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace Mono::Unity {
 class __UnityTls__unitytls_tlsctx_write_callback;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_key;
+class __UnityTls__unitytls_tlsctx_certificate_callback;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509list;
 }
 namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list_ref;
+struct __UnityTls__unitytls_x509name;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
+class __UnityTls__unitytls_tlsctx_read_callback;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_tlsctx;
+}
+namespace Mono::Security::Interface {
+class MonoTlsConnectionInfo;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::Mono::Unity::UnityTlsContext);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8837)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(8837))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8810))
 // CS Name: ::Mono.Unity::UnityTlsContext*
 class CORDL_TYPE UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext {

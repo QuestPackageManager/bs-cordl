@@ -14,14 +14,14 @@ struct BezierCurve;
 namespace GlobalNamespace {
 struct __BezierSplineEvaluator__CubicSolveResult;
 }
-namespace GlobalNamespace {
-class BezierSpline;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class BezierSpline;
 }
 // Forward declare root types
 namespace GlobalNamespace {

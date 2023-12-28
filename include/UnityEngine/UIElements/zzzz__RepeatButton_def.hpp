@@ -13,23 +13,23 @@ class __RepeatButton__UxmlFactory;
 namespace UnityEngine::UIElements {
 class __RepeatButton__UxmlTraits;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine::UIElements {
 class Clickable;
 }
-namespace UnityEngine::UIElements {
-class UxmlLongAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class UxmlLongAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -177,8 +177,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepeatB
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7052)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5273
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7051))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7050)) CS Name: ::RepeatButton::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5273 }), TypeDefinitionIndex(TypeDefinitionIndex(7051)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7052)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7050)) CS Name: ::RepeatButton::UxmlFactory*
 class CORDL_TYPE __RepeatButton__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::RepeatButton*, ::UnityEngine::UIElements::__RepeatButton__UxmlTraits*> {
 public:
   // Declarations

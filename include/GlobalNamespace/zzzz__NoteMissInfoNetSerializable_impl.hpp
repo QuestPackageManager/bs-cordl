@@ -3,11 +3,11 @@
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteMissInfoNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteMissInfoNetSerializable.get_colorType
 template <>
 
@@ -215,51 +215,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::ColorType& GlobalNamespace::NoteMissInfoNetSerializable::__get__colorType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::NoteMissInfoNetSerializable::__get__colorType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorType_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteMissInfoNetSerializable::__set__colorType_k__BackingField(::GlobalNamespace::ColorType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorType_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::NoteMissInfoNetSerializable::__get__noteTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::NoteMissInfoNetSerializable::__get__noteTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteTime_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteMissInfoNetSerializable::__set__noteTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteTime_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::NoteMissInfoNetSerializable::__get__noteLineIndex_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineIndex_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::NoteMissInfoNetSerializable::__get__noteLineIndex_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineIndex_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteMissInfoNetSerializable::__set__noteLineIndex_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteLineIndex_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::NoteLineLayer& GlobalNamespace::NoteMissInfoNetSerializable::__get__noteLineLayer_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineLayer_k__BackingField;
 }
 constexpr ::GlobalNamespace::NoteLineLayer const& GlobalNamespace::NoteMissInfoNetSerializable::__get__noteLineLayer_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteLineLayer_k__BackingField;
 }
 constexpr void GlobalNamespace::NoteMissInfoNetSerializable::__set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteLineLayer_k__BackingField = value;
 }
 inline ::GlobalNamespace::ColorType GlobalNamespace::NoteMissInfoNetSerializable::get_colorType() {

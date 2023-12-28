@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGeneratorUtilities)
-namespace UnityEngine::TextCore::Text {
-template <typename T> struct TextProcessingStack_1;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct TextAnchor;
-}
 namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace UnityEngine::TextCore::Text {
-class TextStyle;
+template <typename T> struct TextProcessingStack_1;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
 }
 namespace UnityEngine {
+struct FontStyle;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyles;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine {
 struct Color32;
+}
+namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine::TextCore::Text {
+class TextStyle;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGeneratorUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13710))
 // CS Name: ::UnityEngine.TextCore.Text::TextGeneratorUtilities*
 class CORDL_TYPE TextGeneratorUtilities : public ::System::Object {

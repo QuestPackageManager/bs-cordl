@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitmapAllocator32)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __BitmapAllocator32__Page;
-}
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
 namespace UnityEngine::UIElements::UIR {
 class BaseShaderInfoStorage;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __BitmapAllocator32__Page;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

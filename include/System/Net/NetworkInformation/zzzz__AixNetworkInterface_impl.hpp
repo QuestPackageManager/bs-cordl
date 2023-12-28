@@ -52,27 +52,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& System::Net::NetworkInformation::AixNetworkInterface::__get__ifa_flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ifa_flags;
 }
 constexpr uint32_t const& System::Net::NetworkInformation::AixNetworkInterface::__get__ifa_flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ifa_flags;
 }
 constexpr void System::Net::NetworkInformation::AixNetworkInterface::__set__ifa_flags(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ifa_flags = value;
 }
 constexpr int32_t& System::Net::NetworkInformation::AixNetworkInterface::__get__ifru_mtu() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ifru_mtu;
 }
 constexpr int32_t const& System::Net::NetworkInformation::AixNetworkInterface::__get__ifru_mtu() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ifru_mtu;
 }
 constexpr void System::Net::NetworkInformation::AixNetworkInterface::__set__ifru_mtu(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ifru_mtu = value;
 }
 inline ::System::Net::NetworkInformation::AixNetworkInterface* System::Net::NetworkInformation::AixNetworkInterface::New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) {

@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRuntimeController)
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __OVRRuntimeController___UpdateControllerModel_d__16;
 }
 namespace UnityEngine {
 class Shader;
@@ -17,14 +17,14 @@ class Shader;
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class __OVRRuntimeController___UpdateControllerModel_d__16;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class OVRGLTFAnimatinonNode;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct OVRGLTFInputNode;
@@ -151,7 +151,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRRuntimeCon
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7598))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8162))
 // CS Name: ::OVRRuntimeController*
 class CORDL_TYPE OVRRuntimeController : public ::UnityEngine::MonoBehaviour {

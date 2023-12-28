@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRNotifications)
 namespace OVR::OpenVR {
+struct EVRNotificationType;
+}
+namespace OVR::OpenVR {
 struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationStyle;
-}
-namespace OVR::OpenVR {
-struct EVRNotificationType;
 }
 namespace OVR::OpenVR {
 struct NotificationBitmap_t;

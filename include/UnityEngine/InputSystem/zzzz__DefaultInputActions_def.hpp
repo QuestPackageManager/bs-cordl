@@ -12,58 +12,58 @@ namespace UnityEngine::InputSystem {
 struct __DefaultInputActions__PlayerActions;
 }
 namespace UnityEngine::InputSystem {
-struct __DefaultInputActions__UIActions;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
-}
-namespace System::Collections {
-class IEnumerable;
+struct InputControlScheme;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-class __DefaultInputActions__IUIActions;
-}
 namespace UnityEngine::InputSystem {
 class IInputActionCollection2;
 }
-namespace UnityEngine::InputSystem {
-class __DefaultInputActions__IPlayerActions;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
-struct InputControlScheme;
+class IInputActionCollection;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::InputSystem {
+class __DefaultInputActions__IUIActions;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class __DefaultInputActions__IPlayerActions;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem {
+struct __DefaultInputActions__UIActions;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;

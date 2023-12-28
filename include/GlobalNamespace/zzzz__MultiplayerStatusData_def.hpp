@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerStatusData)
 namespace GlobalNamespace {
-struct __MultiplayerStatusData__AvailabilityStatus;
+class __MultiplayerStatusData__UserMessage;
 }
 namespace GlobalNamespace {
-class __MultiplayerStatusData__UserMessage;
+struct __MultiplayerStatusData__AvailabilityStatus;
 }
 namespace GlobalNamespace {
 class __MultiplayerStatusData__UserMessage__LocalizedMessage;

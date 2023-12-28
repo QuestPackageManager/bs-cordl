@@ -109,39 +109,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Security::Interface::CipherSuiteCode& Mono::Security::Interface::MonoTlsConnectionInfo::__get__CipherSuiteCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CipherSuiteCode_k__BackingField;
 }
 constexpr ::Mono::Security::Interface::CipherSuiteCode const& Mono::Security::Interface::MonoTlsConnectionInfo::__get__CipherSuiteCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CipherSuiteCode_k__BackingField;
 }
 constexpr void Mono::Security::Interface::MonoTlsConnectionInfo::__set__CipherSuiteCode_k__BackingField(::Mono::Security::Interface::CipherSuiteCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CipherSuiteCode_k__BackingField = value;
 }
 constexpr ::Mono::Security::Interface::TlsProtocols& Mono::Security::Interface::MonoTlsConnectionInfo::__get__ProtocolVersion_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ProtocolVersion_k__BackingField;
 }
 constexpr ::Mono::Security::Interface::TlsProtocols const& Mono::Security::Interface::MonoTlsConnectionInfo::__get__ProtocolVersion_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ProtocolVersion_k__BackingField;
 }
 constexpr void Mono::Security::Interface::MonoTlsConnectionInfo::__set__ProtocolVersion_k__BackingField(::Mono::Security::Interface::TlsProtocols value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ProtocolVersion_k__BackingField = value;
 }
 constexpr ::StringW& Mono::Security::Interface::MonoTlsConnectionInfo::__get__PeerDomainName_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PeerDomainName_k__BackingField;
 }
 constexpr ::StringW const& Mono::Security::Interface::MonoTlsConnectionInfo::__get__PeerDomainName_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PeerDomainName_k__BackingField;
 }
 constexpr void Mono::Security::Interface::MonoTlsConnectionInfo::__set__PeerDomainName_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PeerDomainName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Interface::CipherSuiteCode Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode() {

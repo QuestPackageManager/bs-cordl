@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(JumpReceiver)
 namespace UnityEngine::Playables {
-struct Playable;
+class INotificationReceiver;
 }
 namespace UnityEngine::Playables {
-class INotification;
+struct Playable;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-class INotificationReceiver;
+class INotification;
 }
 // Forward declare root types
 namespace GlobalNamespace {

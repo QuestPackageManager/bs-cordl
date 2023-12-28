@@ -2,11 +2,11 @@
 #include "System/zzzz__LazyState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LazyHelper_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__LazyState_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::LazyHelper.get_State
 template <>
@@ -94,27 +94,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::LazyState& System::LazyHelper::__get__State_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____State_k__BackingField;
 }
 constexpr ::System::LazyState const& System::LazyHelper::__get__State_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____State_k__BackingField;
 }
 constexpr void System::LazyHelper::__set__State_k__BackingField(::System::LazyState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____State_k__BackingField = value;
 }
 constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& System::LazyHelper::__get__exceptionDispatch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exceptionDispatch;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& System::LazyHelper::__get__exceptionDispatch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exceptionDispatch;
 }
 constexpr void System::LazyHelper::__set__exceptionDispatch(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exceptionDispatch)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::LazyHelper::setStaticF_NoneViaConstructor(::System::LazyHelper* value) {

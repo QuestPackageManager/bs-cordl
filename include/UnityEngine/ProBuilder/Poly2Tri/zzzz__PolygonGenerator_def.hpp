@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PolygonGenerator)
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class Polygon;
-}
 namespace System {
 class Random;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Polygon;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

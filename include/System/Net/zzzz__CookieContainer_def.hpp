@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieContainer)
-namespace System::Net {
-class CookieCollection;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Net {
 struct HeaderVariantInfo;
 }
-namespace System::Net {
-class Cookie;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Net {
+class CookieCollection;
 }
 namespace System::Net {
 class PathList;
 }
 namespace System {
 class Uri;
+}
+namespace System::Net {
+class Cookie;
 }
 // Forward declare root types
 namespace System::Net {

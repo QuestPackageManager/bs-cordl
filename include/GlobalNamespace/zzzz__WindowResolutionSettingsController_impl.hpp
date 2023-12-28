@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__WindowResolutionSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WindowResolutionSettingsController.GetInitValues
 template <>
 
@@ -66,27 +66,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::Vector2IntSO*& GlobalNamespace::WindowResolutionSettingsController::__get__windowResolution() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowResolution;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector2IntSO*> const& GlobalNamespace::WindowResolutionSettingsController::__get__windowResolution() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowResolution;
 }
 constexpr void GlobalNamespace::WindowResolutionSettingsController::__set__windowResolution(::GlobalNamespace::Vector2IntSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____windowResolution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*>& GlobalNamespace::WindowResolutionSettingsController::__get__windowResolutions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowResolutions;
 }
 constexpr ::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> const& GlobalNamespace::WindowResolutionSettingsController::__get__windowResolutions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowResolutions;
 }
 constexpr void GlobalNamespace::WindowResolutionSettingsController::__set__windowResolutions(::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____windowResolutions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::WindowResolutionSettingsController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {

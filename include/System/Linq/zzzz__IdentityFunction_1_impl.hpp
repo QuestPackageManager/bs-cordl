@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__IdentityFunction_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Linq/zzzz__IdentityFunction_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 template <typename TElement> inline void System::Linq::__IdentityFunction_1____c<TElement>::setStaticF___9(::System::Linq::__IdentityFunction_1____c<TElement>* value) {
   ::cordl_internals::setStaticField<::System::Linq::__IdentityFunction_1____c<TElement>*, "<>9",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__IdentityFunction_1____c<TElement>*>::get>(

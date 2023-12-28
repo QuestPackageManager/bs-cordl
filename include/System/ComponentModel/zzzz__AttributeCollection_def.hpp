@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeCollection)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::ComponentModel {
 struct __AttributeCollection__AttributeEntry;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class Hashtable;
@@ -19,20 +19,20 @@ class Hashtable;
 namespace System {
 class Attribute;
 }
-namespace System::Collections {
-class ICollection;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Array;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

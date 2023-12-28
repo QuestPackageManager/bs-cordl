@@ -7,6 +7,18 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECPoint)
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class __ECPoint__ValidityCallback;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
@@ -15,18 +27,6 @@ class Object;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
-class __ECPoint__ValidityCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;

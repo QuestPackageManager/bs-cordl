@@ -10,31 +10,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TermInfoDriver)
 namespace System {
-struct TermInfoStrings;
-}
-namespace System {
-class TermInfoReader;
-}
-namespace System {
 class ByteMatcher;
-}
-namespace System::Collections {
-class Hashtable;
 }
 namespace System {
 class IConsoleDriver;
 }
 namespace System::IO {
+class StreamReader;
+}
+namespace System::IO {
 class CStreamWriter;
+}
+namespace System {
+struct ConsoleKeyInfo;
 }
 namespace System {
 class Object;
 }
-namespace System::IO {
-class StreamReader;
+namespace System {
+struct TermInfoStrings;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System {
-struct ConsoleKeyInfo;
+class TermInfoReader;
 }
 // Forward declare root types
 namespace System {

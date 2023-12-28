@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RespID)
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class ResponderID;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class ResponderID;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;

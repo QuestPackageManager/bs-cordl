@@ -10,14 +10,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Parameters)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace HoudiniEngineUnity {
-struct HAPI_ParmChoiceInfo;
+class HEU_HoudiniAsset;
 }
-namespace HoudiniEngineUnity {
-class __HEU_Parameters____c__DisplayClass35_0;
+namespace UnityEngine {
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_NodeInfo;
@@ -26,34 +23,37 @@ namespace HoudiniEngineUnity {
 class HEU_InputNode;
 }
 namespace HoudiniEngineUnity {
-class HEU_ParameterModifier;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class __HEU_Parameters____c__DisplayClass35_0;
 }
 namespace HoudiniEngineUnity {
-class HEU_ParameterData;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HAPI_ParmChoiceInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
+class HEU_ParameterModifier;
+}
+namespace HoudiniEngineUnity {
+class HEU_ParameterData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace System {
-template <typename T> class Predicate_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

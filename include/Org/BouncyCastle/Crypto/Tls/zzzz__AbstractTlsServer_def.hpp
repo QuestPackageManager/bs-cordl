@@ -6,50 +6,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsServer)
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
-}
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatus;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServerContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPeer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class NewSessionTicket;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServer;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServerContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

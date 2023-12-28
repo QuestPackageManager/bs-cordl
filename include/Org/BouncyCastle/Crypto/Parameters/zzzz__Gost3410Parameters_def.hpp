@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3410Parameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410ValidationParameters;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -14,8 +14,8 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410ValidationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

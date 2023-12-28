@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(Datatype_char)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class Exception;
-}
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

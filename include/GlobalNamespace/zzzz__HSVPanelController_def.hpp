@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(HSVPanelController)
 namespace GlobalNamespace {
+class ColorSaturationValueSlider;
+}
+namespace GlobalNamespace {
 struct ColorChangeUIEventType;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class ColorSaturationValueSlider;
+struct Vector2;
 }
 namespace GlobalNamespace {
 class ColorHueSlider;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

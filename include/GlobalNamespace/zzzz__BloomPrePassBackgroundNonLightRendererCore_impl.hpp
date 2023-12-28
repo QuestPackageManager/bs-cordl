@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore.get_renderer
 template <>
 
@@ -132,75 +132,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__keepDefaultRendering() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keepDefaultRendering;
 }
 constexpr bool const& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__keepDefaultRendering() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keepDefaultRendering;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__set__keepDefaultRendering(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keepDefaultRendering = value;
 }
 constexpr bool& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__useCustomMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomMaterial;
 }
 constexpr bool const& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__useCustomMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomMaterial;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__set__useCustomMaterial(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useCustomMaterial = value;
 }
 constexpr ::UnityEngine::Material*& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__customMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__customMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customMaterial;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__set__customMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__useCustomPropertyBlock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomPropertyBlock;
 }
 constexpr bool const& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__useCustomPropertyBlock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomPropertyBlock;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__set__useCustomPropertyBlock(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useCustomPropertyBlock = value;
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer*& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__commandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commandBuffer;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__commandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commandBuffer;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____commandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::MaterialPropertyBlock*& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__customPropertyBlock() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customPropertyBlock;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__get__customPropertyBlock() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customPropertyBlock;
 }
 constexpr void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::__set__customPropertyBlock(::UnityEngine::MaterialPropertyBlock* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customPropertyBlock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::setStaticF__worldSpaceCameraPosID(int32_t value) {

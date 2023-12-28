@@ -127,75 +127,75 @@ constexpr UnityEngine::Events::ArgumentCache::operator ::UnityEngine::ISerializa
   return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::Object*& UnityEngine::Events::ArgumentCache::__get_m_ObjectArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ObjectArgument;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& UnityEngine::Events::ArgumentCache::__get_m_ObjectArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ObjectArgument;
 }
 constexpr void UnityEngine::Events::ArgumentCache::__set_m_ObjectArgument(::UnityEngine::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ObjectArgument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::Events::ArgumentCache::__get_m_ObjectArgumentAssemblyTypeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ObjectArgumentAssemblyTypeName;
 }
 constexpr ::StringW const& UnityEngine::Events::ArgumentCache::__get_m_ObjectArgumentAssemblyTypeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ObjectArgumentAssemblyTypeName;
 }
 constexpr void UnityEngine::Events::ArgumentCache::__set_m_ObjectArgumentAssemblyTypeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ObjectArgumentAssemblyTypeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::Events::ArgumentCache::__get_m_IntArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IntArgument;
 }
 constexpr int32_t const& UnityEngine::Events::ArgumentCache::__get_m_IntArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IntArgument;
 }
 constexpr void UnityEngine::Events::ArgumentCache::__set_m_IntArgument(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IntArgument = value;
 }
 constexpr float_t& UnityEngine::Events::ArgumentCache::__get_m_FloatArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FloatArgument;
 }
 constexpr float_t const& UnityEngine::Events::ArgumentCache::__get_m_FloatArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FloatArgument;
 }
 constexpr void UnityEngine::Events::ArgumentCache::__set_m_FloatArgument(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FloatArgument = value;
 }
 constexpr ::StringW& UnityEngine::Events::ArgumentCache::__get_m_StringArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StringArgument;
 }
 constexpr ::StringW const& UnityEngine::Events::ArgumentCache::__get_m_StringArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StringArgument;
 }
 constexpr void UnityEngine::Events::ArgumentCache::__set_m_StringArgument(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StringArgument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& UnityEngine::Events::ArgumentCache::__get_m_BoolArgument() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BoolArgument;
 }
 constexpr bool const& UnityEngine::Events::ArgumentCache::__get_m_BoolArgument() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BoolArgument;
 }
 constexpr void UnityEngine::Events::ArgumentCache::__set_m_BoolArgument(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BoolArgument = value;
 }
 inline ::UnityEngine::Object* UnityEngine::Events::ArgumentCache::get_unityObjectArgument() {

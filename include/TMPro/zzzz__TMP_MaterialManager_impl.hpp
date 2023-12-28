@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_MaterialManager_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "TMPro/zzzz__TMP_MaterialManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__TMP_MaterialManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 //  Writing Method size for method: ::TMPro::__TMP_MaterialManager__FallbackMaterial._ctor
 template <>
 
@@ -24,63 +24,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int64_t& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_fallbackID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackID;
 }
 constexpr int64_t const& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_fallbackID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackID;
 }
 constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__set_fallbackID(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fallbackID = value;
 }
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_sourceMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sourceMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_sourceMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sourceMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__set_sourceMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sourceMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_sourceMaterialCRC() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sourceMaterialCRC;
 }
 constexpr int32_t const& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_sourceMaterialCRC() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sourceMaterialCRC;
 }
 constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__set_sourceMaterialCRC(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sourceMaterialCRC = value;
 }
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_fallbackMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_fallbackMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__set_fallbackMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fallbackMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr int32_t const& TMPro::__TMP_MaterialManager__FallbackMaterial::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr void TMPro::__TMP_MaterialManager__FallbackMaterial::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 inline ::TMPro::__TMP_MaterialManager__FallbackMaterial* TMPro::__TMP_MaterialManager__FallbackMaterial::New_ctor() {
@@ -108,51 +108,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_baseMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_baseMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__set_baseMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___baseMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_stencilMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_stencilMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__set_stencilMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr int32_t const& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
 constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
 constexpr int32_t& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_stencilID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilID;
 }
 constexpr int32_t const& TMPro::__TMP_MaterialManager__MaskingMaterial::__get_stencilID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilID;
 }
 constexpr void TMPro::__TMP_MaterialManager__MaskingMaterial::__set_stencilID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stencilID = value;
 }
 inline ::TMPro::__TMP_MaterialManager__MaskingMaterial* TMPro::__TMP_MaterialManager__MaskingMaterial::New_ctor() {
@@ -195,15 +195,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__get_stencilMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__get_stencilMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass9_0::__set_stencilMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0* TMPro::__TMP_MaterialManager____c__DisplayClass9_0::New_ctor() {
@@ -252,15 +252,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__get_stencilMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__get_stencilMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass11_0::__set_stencilMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0* TMPro::__TMP_MaterialManager____c__DisplayClass11_0::New_ctor() {
@@ -309,15 +309,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__get_stencilMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__get_stencilMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stencilMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass12_0::__set_stencilMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stencilMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0* TMPro::__TMP_MaterialManager____c__DisplayClass12_0::New_ctor() {
@@ -366,15 +366,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Material*& TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__get_baseMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseMaterial;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__get_baseMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseMaterial;
 }
 constexpr void TMPro::__TMP_MaterialManager____c__DisplayClass13_0::__set_baseMaterial(::UnityEngine::Material* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___baseMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0* TMPro::__TMP_MaterialManager____c__DisplayClass13_0::New_ctor() {

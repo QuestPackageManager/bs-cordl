@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireEffect)
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class ColorSO;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class ColorSO;
+class BloomPrePassBackgroundNonLightRenderer;
 }
 namespace GlobalNamespace {
-class LightWithIdManager;
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
+class LightWithIdManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FireEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4007))
 // CS Name: ::FireEffect*
 class CORDL_TYPE FireEffect : public ::UnityEngine::MonoBehaviour {

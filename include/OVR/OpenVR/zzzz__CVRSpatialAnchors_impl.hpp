@@ -4,8 +4,8 @@
 #include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSpatialAnchorError_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__SpatialAnchorPose_t_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRSpatialAnchors._ctor
 template <>
 
@@ -87,15 +87,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::OVR::OpenVR::IVRSpatialAnchors& OVR::OpenVR::CVRSpatialAnchors::__get_FnTable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr ::OVR::OpenVR::IVRSpatialAnchors const& OVR::OpenVR::CVRSpatialAnchors::__get_FnTable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FnTable;
 }
 constexpr void OVR::OpenVR::CVRSpatialAnchors::__set_FnTable(::OVR::OpenVR::IVRSpatialAnchors value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
 inline ::OVR::OpenVR::CVRSpatialAnchors* OVR::OpenVR::CVRSpatialAnchors::New_ctor(void* pInterface) {

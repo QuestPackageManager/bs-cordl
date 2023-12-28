@@ -4,17 +4,17 @@
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__OVRPointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__OVRPointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::EventSystems::__OVRInputModule__InputMode::__OVRInputModule__InputMode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -628,304 +628,304 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& UnityEngine::EventSystems::OVRInputModule::__get_rayTransform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rayTransform;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& UnityEngine::EventSystems::OVRInputModule::__get_rayTransform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rayTransform;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_rayTransform(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rayTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::OVRCursor*& UnityEngine::EventSystems::OVRInputModule::__get_m_Cursor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Cursor;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCursor*> const& UnityEngine::EventSystems::OVRInputModule::__get_m_Cursor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Cursor;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_Cursor(::GlobalNamespace::OVRCursor* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Cursor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRInput__Button& UnityEngine::EventSystems::OVRInputModule::__get_joyPadClickButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___joyPadClickButton;
 }
 constexpr ::GlobalNamespace::__OVRInput__Button const& UnityEngine::EventSystems::OVRInputModule::__get_joyPadClickButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___joyPadClickButton;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_joyPadClickButton(::GlobalNamespace::__OVRInput__Button value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___joyPadClickButton = value;
 }
 constexpr ::UnityEngine::KeyCode& UnityEngine::EventSystems::OVRInputModule::__get_gazeClickKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gazeClickKey;
 }
 constexpr ::UnityEngine::KeyCode const& UnityEngine::EventSystems::OVRInputModule::__get_gazeClickKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gazeClickKey;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_gazeClickKey(::UnityEngine::KeyCode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gazeClickKey = value;
 }
 constexpr bool& UnityEngine::EventSystems::OVRInputModule::__get_performSphereCastForGazepointer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___performSphereCastForGazepointer;
 }
 constexpr bool const& UnityEngine::EventSystems::OVRInputModule::__get_performSphereCastForGazepointer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___performSphereCastForGazepointer;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_performSphereCastForGazepointer(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___performSphereCastForGazepointer = value;
 }
 constexpr bool& UnityEngine::EventSystems::OVRInputModule::__get_useRightStickScroll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useRightStickScroll;
 }
 constexpr bool const& UnityEngine::EventSystems::OVRInputModule::__get_useRightStickScroll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useRightStickScroll;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_useRightStickScroll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useRightStickScroll = value;
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_rightStickDeadZone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightStickDeadZone;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_rightStickDeadZone() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightStickDeadZone;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_rightStickDeadZone(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightStickDeadZone = value;
 }
 constexpr bool& UnityEngine::EventSystems::OVRInputModule::__get_useSwipeScroll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useSwipeScroll;
 }
 constexpr bool const& UnityEngine::EventSystems::OVRInputModule::__get_useSwipeScroll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useSwipeScroll;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_useSwipeScroll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useSwipeScroll = value;
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_swipeDragThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeDragThreshold;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_swipeDragThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeDragThreshold;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_swipeDragThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swipeDragThreshold = value;
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_swipeDragScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeDragScale;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_swipeDragScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeDragScale;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_swipeDragScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swipeDragScale = value;
 }
 constexpr bool& UnityEngine::EventSystems::OVRInputModule::__get_InvertSwipeXAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvertSwipeXAxis;
 }
 constexpr bool const& UnityEngine::EventSystems::OVRInputModule::__get_InvertSwipeXAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvertSwipeXAxis;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_InvertSwipeXAxis(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___InvertSwipeXAxis = value;
 }
 constexpr ::GlobalNamespace::OVRRaycaster*& UnityEngine::EventSystems::OVRInputModule::__get_activeGraphicRaycaster() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeGraphicRaycaster;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRRaycaster*> const& UnityEngine::EventSystems::OVRInputModule::__get_activeGraphicRaycaster() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeGraphicRaycaster;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_activeGraphicRaycaster(::GlobalNamespace::OVRRaycaster* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activeGraphicRaycaster)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_angleDragThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleDragThreshold;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_angleDragThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleDragThreshold;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_angleDragThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___angleDragThreshold = value;
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_m_SpherecastRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpherecastRadius;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_m_SpherecastRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpherecastRadius;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_SpherecastRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SpherecastRadius = value;
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_m_NextAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextAction;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_m_NextAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextAction;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_NextAction(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NextAction = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::OVRInputModule::__get_m_LastMousePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastMousePosition;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::OVRInputModule::__get_m_LastMousePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastMousePosition;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_LastMousePosition(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastMousePosition = value;
 }
 constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::OVRInputModule::__get_m_MousePosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MousePosition;
 }
 constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::OVRInputModule::__get_m_MousePosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MousePosition;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_MousePosition(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MousePosition = value;
 }
 constexpr ::StringW& UnityEngine::EventSystems::OVRInputModule::__get_m_HorizontalAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalAxis;
 }
 constexpr ::StringW const& UnityEngine::EventSystems::OVRInputModule::__get_m_HorizontalAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalAxis;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_HorizontalAxis(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HorizontalAxis)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::EventSystems::OVRInputModule::__get_m_VerticalAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalAxis;
 }
 constexpr ::StringW const& UnityEngine::EventSystems::OVRInputModule::__get_m_VerticalAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalAxis;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_VerticalAxis(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VerticalAxis)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::EventSystems::OVRInputModule::__get_m_SubmitButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubmitButton;
 }
 constexpr ::StringW const& UnityEngine::EventSystems::OVRInputModule::__get_m_SubmitButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubmitButton;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_SubmitButton(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SubmitButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& UnityEngine::EventSystems::OVRInputModule::__get_m_CancelButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CancelButton;
 }
 constexpr ::StringW const& UnityEngine::EventSystems::OVRInputModule::__get_m_CancelButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CancelButton;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_CancelButton(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CancelButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::EventSystems::OVRInputModule::__get_m_InputActionsPerSecond() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputActionsPerSecond;
 }
 constexpr float_t const& UnityEngine::EventSystems::OVRInputModule::__get_m_InputActionsPerSecond() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputActionsPerSecond;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_InputActionsPerSecond(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InputActionsPerSecond = value;
 }
 constexpr bool& UnityEngine::EventSystems::OVRInputModule::__get_m_AllowActivationOnMobileDevice() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllowActivationOnMobileDevice;
 }
 constexpr bool const& UnityEngine::EventSystems::OVRInputModule::__get_m_AllowActivationOnMobileDevice() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AllowActivationOnMobileDevice;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_AllowActivationOnMobileDevice(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AllowActivationOnMobileDevice = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>*& UnityEngine::EventSystems::OVRInputModule::__get_m_VRRayPointerData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VRRayPointerData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>*> const&
 UnityEngine::EventSystems::OVRInputModule::__get_m_VRRayPointerData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VRRayPointerData;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_VRRayPointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VRRayPointerData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& UnityEngine::EventSystems::OVRInputModule::__get_m_MouseState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MouseState;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseState*> const& UnityEngine::EventSystems::OVRInputModule::__get_m_MouseState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MouseState;
 }
 constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_MouseState(::UnityEngine::EventSystems::__PointerInputModule__MouseState* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MouseState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::EventSystems::OVRInputModule* UnityEngine::EventSystems::OVRInputModule::New_ctor() {

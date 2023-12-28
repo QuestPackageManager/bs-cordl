@@ -51,27 +51,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::__get__pricePerBundle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pricePerBundle;
 }
 constexpr float_t const& GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::__get__pricePerBundle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pricePerBundle;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::__set__pricePerBundle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pricePerBundle = value;
 }
 constexpr int32_t& GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::__get__levelsCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsCount;
 }
 constexpr int32_t const& GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::__get__levelsCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsCount;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::__set__levelsCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____levelsCount = value;
 }
 inline float_t GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair::get_pricePerBundle() {
@@ -143,27 +143,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::__get__levelIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelIndex;
 }
 constexpr int32_t const& GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::__get__levelIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelIndex;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::__set__levelIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____levelIndex = value;
 }
 constexpr ::GlobalNamespace::BeatmapLevelSO*& GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::__get__level() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____level;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::__get__level() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____level;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::__set__level(::GlobalNamespace::BeatmapLevelSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____level)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData::get_levelIndex() {
@@ -251,42 +251,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__get__packIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packIndex;
 }
 constexpr int32_t const& GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__get__packIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packIndex;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__set__packIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packIndex = value;
 }
 constexpr ::GlobalNamespace::BeatmapLevelPackSO*& GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__get__levelPack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPack;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackSO*> const& GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__get__levelPack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPack;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__set__levelPack(::GlobalNamespace::BeatmapLevelPackSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*>&
 GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__get__levelProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> const&
 GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__get__levelProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelProductsData;
 }
 constexpr void GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::__set__levelProductsData(
     ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData::get_packIndex() {
@@ -408,45 +408,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::SonyLevelPacksSKUModel::__get__pricePerLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pricePerLevel;
 }
 constexpr float_t const& GlobalNamespace::SonyLevelPacksSKUModel::__get__pricePerLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pricePerLevel;
 }
 constexpr void GlobalNamespace::SonyLevelPacksSKUModel::__set__pricePerLevel(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pricePerLevel = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*>&
 GlobalNamespace::SonyLevelPacksSKUModel::__get__pricePairBundlePairs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pricePairBundlePairs;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> const&
 GlobalNamespace::SonyLevelPacksSKUModel::__get__pricePairBundlePairs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pricePairBundlePairs;
 }
 constexpr void GlobalNamespace::SonyLevelPacksSKUModel::__set__pricePairBundlePairs(
     ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__PricePerBundlePair*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pricePairBundlePairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*>&
 GlobalNamespace::SonyLevelPacksSKUModel::__get__levelPackProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> const&
 GlobalNamespace::SonyLevelPacksSKUModel::__get__levelPackProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPackProductsData;
 }
 constexpr void GlobalNamespace::SonyLevelPacksSKUModel::__set__levelPackProductsData(
     ::ArrayW<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SonyLevelPacksSKUModel__LevelPackProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::SonyLevelPacksSKUModel::get_pricePerLevel() {

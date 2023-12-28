@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextAsset)
 namespace UnityEngine {
+struct __TextAsset__CreateOptions;
+}
+namespace UnityEngine {
 class __TextAsset__EncodingUtility;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
-}
-namespace UnityEngine {
-struct __TextAsset__CreateOptions;
 }
 namespace System::Text {
 class Encoding;

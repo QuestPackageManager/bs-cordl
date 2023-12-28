@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodInfo)
 namespace System::Reflection {
-struct MemberTypes;
+class ParameterInfo;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class Delegate;
+}
 namespace System::Reflection {
-class ParameterInfo;
+struct MemberTypes;
 }
 namespace System {
 class Type;
-}
-namespace System {
-class Delegate;
 }
 // Forward declare root types
 namespace System::Reflection {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerActivePlayersTimeOffsetAverage)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

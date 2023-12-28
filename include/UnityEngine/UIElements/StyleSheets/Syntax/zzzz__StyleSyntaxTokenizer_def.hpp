@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSyntaxTokenizer)
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct StyleSyntaxToken;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct StyleSyntaxToken;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {

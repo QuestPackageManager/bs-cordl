@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__FxBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.get_value
 template <>
 
@@ -127,27 +127,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::FloatFxBeatmapEventData::__get__value_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::FloatFxBeatmapEventData::__get__value_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_k__BackingField;
 }
 constexpr void GlobalNamespace::FloatFxBeatmapEventData::__set__value_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____value_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::EaseType& GlobalNamespace::FloatFxBeatmapEventData::__get__easeType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType_k__BackingField;
 }
 constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::FloatFxBeatmapEventData::__get__easeType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____easeType_k__BackingField;
 }
 constexpr void GlobalNamespace::FloatFxBeatmapEventData::__set__easeType_k__BackingField(::GlobalNamespace::EaseType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____easeType_k__BackingField = value;
 }
 inline void GlobalNamespace::FloatFxBeatmapEventData::setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* value) {

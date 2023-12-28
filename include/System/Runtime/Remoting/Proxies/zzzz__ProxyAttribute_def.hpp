@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(ProxyAttribute)
-namespace System::Runtime::Remoting::Contexts {
-class IContextAttribute;
+namespace System::Runtime::Remoting {
+class ObjRef;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Contexts {
-class Context;
+class IContextAttribute;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RealProxy;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 namespace System {
 class MarshalByRefObject;
-}
-namespace System::Runtime::Remoting {
-class ObjRef;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {

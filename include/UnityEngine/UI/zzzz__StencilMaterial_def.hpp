@@ -9,14 +9,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StencilMaterial)
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::Rendering {
-struct CompareFunction;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class __StencilMaterial__MatEntry;
 }
 namespace UnityEngine::Rendering {
 struct ColorWriteMask;
@@ -24,11 +18,17 @@ struct ColorWriteMask;
 namespace UnityEngine::Rendering {
 struct StencilOp;
 }
+namespace UnityEngine::Rendering {
+struct CompareFunction;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine::UI {
-class __StencilMaterial__MatEntry;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

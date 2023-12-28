@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarVisualController)
-namespace UnityEngine {
-struct Color;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class MulticolorAvatarPartPropertyBlockSetter;
-}
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModel;
+}
+namespace BeatSaber::BeatAvatarSDK {
+struct AvatarPart;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarData;
+class __BeatAvatarVisualController__HighlighterDelegate;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class __BeatAvatarVisualController__HighlighterDelegate;
+class MulticolorAvatarPartPropertyBlockSetter;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarPropertyBlockColorSetter;
+class AvatarData;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+struct Color;
 }
 namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
+class AvatarPropertyBlockColorSetter;
 }
 namespace System {
 class AsyncCallback;
@@ -104,7 +104,7 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::__Beat
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15695))
 // CS Name: ::BeatSaber.BeatAvatarSDK::BeatAvatarVisualController*
 class CORDL_TYPE BeatAvatarVisualController : public ::UnityEngine::MonoBehaviour {

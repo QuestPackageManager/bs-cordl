@@ -9,18 +9,18 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolResult_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23.MoveNext
@@ -410,87 +410,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& Mono::Net::Security::AsyncProtocolRequest::__get__Parent_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Parent_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& Mono::Net::Security::AsyncProtocolRequest::__get__Parent_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Parent_k__BackingField;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Parent_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Mono::Net::Security::AsyncProtocolRequest::__get__RunSynchronously_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RunSynchronously_k__BackingField;
 }
 constexpr bool const& Mono::Net::Security::AsyncProtocolRequest::__get__RunSynchronously_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RunSynchronously_k__BackingField;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set__RunSynchronously_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____RunSynchronously_k__BackingField = value;
 }
 constexpr int32_t& Mono::Net::Security::AsyncProtocolRequest::__get__UserResult_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UserResult_k__BackingField;
 }
 constexpr int32_t const& Mono::Net::Security::AsyncProtocolRequest::__get__UserResult_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UserResult_k__BackingField;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set__UserResult_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UserResult_k__BackingField = value;
 }
 constexpr int32_t& Mono::Net::Security::AsyncProtocolRequest::__get_Started() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Started;
 }
 constexpr int32_t const& Mono::Net::Security::AsyncProtocolRequest::__get_Started() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Started;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set_Started(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Started = value;
 }
 constexpr int32_t& Mono::Net::Security::AsyncProtocolRequest::__get_RequestedSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RequestedSize;
 }
 constexpr int32_t const& Mono::Net::Security::AsyncProtocolRequest::__get_RequestedSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RequestedSize;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set_RequestedSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RequestedSize = value;
 }
 constexpr int32_t& Mono::Net::Security::AsyncProtocolRequest::__get_WriteRequested() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriteRequested;
 }
 constexpr int32_t const& Mono::Net::Security::AsyncProtocolRequest::__get_WriteRequested() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WriteRequested;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set_WriteRequested(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___WriteRequested = value;
 }
 constexpr ::System::Object*& Mono::Net::Security::AsyncProtocolRequest::__get_locker() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Mono::Net::Security::AsyncProtocolRequest::__get_locker() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
 constexpr void Mono::Net::Security::AsyncProtocolRequest::__set_locker(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___locker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Net::Security::MobileAuthenticatedStream* Mono::Net::Security::AsyncProtocolRequest::get_Parent() {

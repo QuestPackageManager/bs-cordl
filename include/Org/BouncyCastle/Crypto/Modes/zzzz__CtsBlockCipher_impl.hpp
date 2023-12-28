@@ -98,15 +98,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::__get_blockSize() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockSize;
 }
 constexpr int32_t const& Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::__get_blockSize() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockSize;
 }
 constexpr void Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::__set_blockSize(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blockSize = value;
 }
 inline ::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher* Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {

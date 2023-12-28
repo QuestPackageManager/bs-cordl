@@ -13,16 +13,16 @@ namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
-class AccessRule;
+struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
 }
 namespace System::Security::AccessControl {
-struct InheritanceFlags;
+struct AccessControlType;
 }
 namespace System::Security::AccessControl {
-struct AccessControlType;
+class AccessRule;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

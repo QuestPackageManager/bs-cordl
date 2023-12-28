@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCharacteristicsDropdown)
-namespace HMUI {
-class DropdownWithTableView;
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace HMUI {
 class SimpleTextDropdown;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace HMUI {
+class DropdownWithTableView;
 }
 namespace GlobalNamespace {
 class __BeatmapCharacteristicsDropdown____c;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;

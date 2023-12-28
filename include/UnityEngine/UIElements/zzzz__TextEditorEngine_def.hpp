@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEditorEngine)
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+class __TextEditorEngine__OnDetectFocusChangeFunction;
 }
 namespace UnityEngine::UIElements {
 class __TextEditorEngine__OnIndexChangeFunction;
 }
-namespace UnityEngine::UIElements {
-class __TextEditorEngine__OnDetectFocusChangeFunction;
+namespace UnityEngine {
+struct Rect;
 }
 namespace System {
 class Object;

@@ -6,32 +6,32 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__FtpWebRequest_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Net/zzzz__TimerThread_def.hpp"
-#include "System/Net/zzzz__FtpWebRequest_def.hpp"
 #include "System/Net/zzzz__ContextAwareResult_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Net/zzzz__TimerThread_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Net/zzzz__FtpControlStream_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__CloseExState_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__LazyAsyncResult_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/Net/zzzz__NetworkCredential_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
 #include "System/Net/zzzz__FtpMethodInfo_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__FtpControlStream_def.hpp"
+#include "System/Net/zzzz__FtpWebResponse_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Net/zzzz__FtpWebRequest_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__LazyAsyncResult_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__FtpWebRequest__RequestStage::__FtpWebRequest__RequestStage(int32_t value__) noexcept {
   this->value__ = value__;
@@ -864,399 +864,399 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Object*& System::Net::FtpWebRequest::__get__syncObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::FtpWebRequest::__get__syncObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncObject;
 }
 constexpr void System::Net::FtpWebRequest::__set__syncObject(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::ICredentials*& System::Net::FtpWebRequest::__get__authInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____authInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& System::Net::FtpWebRequest::__get__authInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____authInfo;
 }
 constexpr void System::Net::FtpWebRequest::__set__authInfo(::System::Net::ICredentials* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____authInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Uri*& System::Net::FtpWebRequest::__get__uri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uri;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::FtpWebRequest::__get__uri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uri;
 }
 constexpr void System::Net::FtpWebRequest::__set__uri(::System::Uri* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::FtpMethodInfo*& System::Net::FtpWebRequest::__get__methodInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpMethodInfo*> const& System::Net::FtpWebRequest::__get__methodInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____methodInfo;
 }
 constexpr void System::Net::FtpWebRequest::__set__methodInfo(::System::Net::FtpMethodInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____methodInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::FtpWebRequest::__get__renameTo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renameTo;
 }
 constexpr ::StringW const& System::Net::FtpWebRequest::__get__renameTo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renameTo;
 }
 constexpr void System::Net::FtpWebRequest::__set__renameTo(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renameTo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::FtpWebRequest::__get__getRequestStreamStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getRequestStreamStarted;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__getRequestStreamStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getRequestStreamStarted;
 }
 constexpr void System::Net::FtpWebRequest::__set__getRequestStreamStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____getRequestStreamStarted = value;
 }
 constexpr bool& System::Net::FtpWebRequest::__get__getResponseStarted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getResponseStarted;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__getResponseStarted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getResponseStarted;
 }
 constexpr void System::Net::FtpWebRequest::__set__getResponseStarted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____getResponseStarted = value;
 }
 constexpr ::System::DateTime& System::Net::FtpWebRequest::__get__startTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTime;
 }
 constexpr ::System::DateTime const& System::Net::FtpWebRequest::__get__startTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startTime;
 }
 constexpr void System::Net::FtpWebRequest::__set__startTime(::System::DateTime value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startTime = value;
 }
 constexpr int32_t& System::Net::FtpWebRequest::__get__timeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeout;
 }
 constexpr int32_t const& System::Net::FtpWebRequest::__get__timeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeout;
 }
 constexpr void System::Net::FtpWebRequest::__set__timeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeout = value;
 }
 constexpr int32_t& System::Net::FtpWebRequest::__get__remainingTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remainingTimeout;
 }
 constexpr int32_t const& System::Net::FtpWebRequest::__get__remainingTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remainingTimeout;
 }
 constexpr void System::Net::FtpWebRequest::__set__remainingTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remainingTimeout = value;
 }
 constexpr int64_t& System::Net::FtpWebRequest::__get__contentLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentLength;
 }
 constexpr int64_t const& System::Net::FtpWebRequest::__get__contentLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentLength;
 }
 constexpr void System::Net::FtpWebRequest::__set__contentLength(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentLength = value;
 }
 constexpr int64_t& System::Net::FtpWebRequest::__get__contentOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentOffset;
 }
 constexpr int64_t const& System::Net::FtpWebRequest::__get__contentOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentOffset;
 }
 constexpr void System::Net::FtpWebRequest::__set__contentOffset(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentOffset = value;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& System::Net::FtpWebRequest::__get__clientCertificates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientCertificates;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& System::Net::FtpWebRequest::__get__clientCertificates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clientCertificates;
 }
 constexpr void System::Net::FtpWebRequest::__set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clientCertificates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::FtpWebRequest::__get__passive() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passive;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__passive() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____passive;
 }
 constexpr void System::Net::FtpWebRequest::__set__passive(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____passive = value;
 }
 constexpr bool& System::Net::FtpWebRequest::__get__binary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____binary;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__binary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____binary;
 }
 constexpr void System::Net::FtpWebRequest::__set__binary(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____binary = value;
 }
 constexpr ::StringW& System::Net::FtpWebRequest::__get__connectionGroupName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionGroupName;
 }
 constexpr ::StringW const& System::Net::FtpWebRequest::__get__connectionGroupName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionGroupName;
 }
 constexpr void System::Net::FtpWebRequest::__set__connectionGroupName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionGroupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::FtpWebRequest::__get__async() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____async;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__async() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____async;
 }
 constexpr void System::Net::FtpWebRequest::__set__async(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____async = value;
 }
 constexpr bool& System::Net::FtpWebRequest::__get__aborted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aborted;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__aborted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____aborted;
 }
 constexpr void System::Net::FtpWebRequest::__set__aborted(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____aborted = value;
 }
 constexpr bool& System::Net::FtpWebRequest::__get__timedOut() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timedOut;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__timedOut() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timedOut;
 }
 constexpr void System::Net::FtpWebRequest::__set__timedOut(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timedOut = value;
 }
 constexpr ::System::Exception*& System::Net::FtpWebRequest::__get__exception() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exception;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& System::Net::FtpWebRequest::__get__exception() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____exception;
 }
 constexpr void System::Net::FtpWebRequest::__set__exception(::System::Exception* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____exception)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__TimerThread__Queue*& System::Net::FtpWebRequest::__get__timerQueue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timerQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Queue*> const& System::Net::FtpWebRequest::__get__timerQueue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timerQueue;
 }
 constexpr void System::Net::FtpWebRequest::__set__timerQueue(::System::Net::__TimerThread__Queue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timerQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__TimerThread__Callback*& System::Net::FtpWebRequest::__get__timerCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timerCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Callback*> const& System::Net::FtpWebRequest::__get__timerCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timerCallback;
 }
 constexpr void System::Net::FtpWebRequest::__set__timerCallback(::System::Net::__TimerThread__Callback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timerCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::FtpWebRequest::__get__enableSsl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableSsl;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__enableSsl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableSsl;
 }
 constexpr void System::Net::FtpWebRequest::__set__enableSsl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enableSsl = value;
 }
 constexpr ::System::Net::FtpControlStream*& System::Net::FtpWebRequest::__get__connection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connection;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpControlStream*> const& System::Net::FtpWebRequest::__get__connection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connection;
 }
 constexpr void System::Net::FtpWebRequest::__set__connection(::System::Net::FtpControlStream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::IO::Stream*& System::Net::FtpWebRequest::__get__stream() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::FtpWebRequest::__get__stream() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
 constexpr void System::Net::FtpWebRequest::__set__stream(::System::IO::Stream* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::__FtpWebRequest__RequestStage& System::Net::FtpWebRequest::__get__requestStage() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestStage;
 }
 constexpr ::System::Net::__FtpWebRequest__RequestStage const& System::Net::FtpWebRequest::__get__requestStage() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestStage;
 }
 constexpr void System::Net::FtpWebRequest::__set__requestStage(::System::Net::__FtpWebRequest__RequestStage value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requestStage = value;
 }
 constexpr bool& System::Net::FtpWebRequest::__get__onceFailed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onceFailed;
 }
 constexpr bool const& System::Net::FtpWebRequest::__get__onceFailed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onceFailed;
 }
 constexpr void System::Net::FtpWebRequest::__set__onceFailed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____onceFailed = value;
 }
 constexpr ::System::Net::WebHeaderCollection*& System::Net::FtpWebRequest::__get__ftpRequestHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpRequestHeaders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::FtpWebRequest::__get__ftpRequestHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpRequestHeaders;
 }
 constexpr void System::Net::FtpWebRequest::__set__ftpRequestHeaders(::System::Net::WebHeaderCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ftpRequestHeaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::FtpWebResponse*& System::Net::FtpWebRequest::__get__ftpWebResponse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpWebResponse;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpWebResponse*> const& System::Net::FtpWebRequest::__get__ftpWebResponse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ftpWebResponse;
 }
 constexpr void System::Net::FtpWebRequest::__set__ftpWebResponse(::System::Net::FtpWebResponse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ftpWebResponse)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::FtpWebRequest::__get__readWriteTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readWriteTimeout;
 }
 constexpr int32_t const& System::Net::FtpWebRequest::__get__readWriteTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readWriteTimeout;
 }
 constexpr void System::Net::FtpWebRequest::__set__readWriteTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____readWriteTimeout = value;
 }
 constexpr ::System::Net::ContextAwareResult*& System::Net::FtpWebRequest::__get__writeAsyncResult() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeAsyncResult;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::ContextAwareResult*> const& System::Net::FtpWebRequest::__get__writeAsyncResult() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeAsyncResult;
 }
 constexpr void System::Net::FtpWebRequest::__set__writeAsyncResult(::System::Net::ContextAwareResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____writeAsyncResult)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::LazyAsyncResult*& System::Net::FtpWebRequest::__get__readAsyncResult() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readAsyncResult;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& System::Net::FtpWebRequest::__get__readAsyncResult() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readAsyncResult;
 }
 constexpr void System::Net::FtpWebRequest::__set__readAsyncResult(::System::Net::LazyAsyncResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readAsyncResult)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::LazyAsyncResult*& System::Net::FtpWebRequest::__get__requestCompleteAsyncResult() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestCompleteAsyncResult;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& System::Net::FtpWebRequest::__get__requestCompleteAsyncResult() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requestCompleteAsyncResult;
 }
 constexpr void System::Net::FtpWebRequest::__set__requestCompleteAsyncResult(::System::Net::LazyAsyncResult* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____requestCompleteAsyncResult)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Net::FtpWebRequest::setStaticF_s_defaultFtpNetworkCredential(::System::Net::NetworkCredential* value) {

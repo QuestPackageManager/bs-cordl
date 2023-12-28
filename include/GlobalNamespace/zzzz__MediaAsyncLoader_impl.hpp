@@ -7,18 +7,18 @@
 #include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "GlobalNamespace/zzzz__MediaAsyncLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IMediaAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__MediaAsyncLoader_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__IMediaAsyncLoader_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0.MoveNext
 template <>
 

@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUpdate)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+struct __InputUpdate__UpdateStepCount;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputUpdate__UpdateStepCount;
+struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputUpdate__SerializedState;
@@ -81,7 +81,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6554)), TypeDefinitionIndex(TypeDefinitionIndex(6553))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6555))
 // CS Name: ::InputUpdate::SerializedState
 struct CORDL_TYPE __InputUpdate__SerializedState {

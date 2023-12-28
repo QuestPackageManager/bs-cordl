@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryFromBinder_6_def.hpp"
 CORDL_MODULE_EXPORT(FactoryToChoiceBinder_6)
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder_6;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder_6;
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,7 +28,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10765)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10765), inst: 1838 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10765), inst: 1838 }), TypeDefinitionIndex(TypeDefinitionIndex(10765))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10854))
 // CS Name: ::Zenject::FactoryToChoiceBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_6 : public ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract> {

@@ -7,8 +7,8 @@ CORDL_MODULE_EXPORT(WingedEdgeEnumerator)
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -16,8 +16,8 @@ class IEnumerator;
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

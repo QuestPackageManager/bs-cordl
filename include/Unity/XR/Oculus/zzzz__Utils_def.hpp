@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utils)
-namespace Unity::XR::Oculus {
-struct SystemHeadset;
-}
 namespace UnityEngine {
 struct Vector4;
+}
+namespace Unity::XR::Oculus {
+struct SystemHeadset;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {

@@ -7,23 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Version)
-namespace System {
-template <typename T> struct Span_1;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class ISpanFormattable;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace System {
-class ICloneable;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
@@ -32,10 +23,19 @@ namespace System {
 class IFormatProvider;
 }
 namespace System {
+class IComparable;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
 template <typename T> class IComparable_1;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace System {

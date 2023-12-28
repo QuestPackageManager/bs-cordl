@@ -2,9 +2,9 @@
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Globalization/zzzz__TaiwanCalendar_def.hpp"
-#include "System/Globalization/zzzz__EraInfo_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/Globalization/zzzz__EraInfo_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
 #include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
 //  Writing Method size for method: ::System::Globalization::TaiwanCalendar.GetDefaultInstance
@@ -288,15 +288,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Globalization::GregorianCalendarHelper*& System::Globalization::TaiwanCalendar::__get_helper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___helper;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Globalization::GregorianCalendarHelper*> const& System::Globalization::TaiwanCalendar::__get_helper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___helper;
 }
 constexpr void System::Globalization::TaiwanCalendar::__set_helper(::System::Globalization::GregorianCalendarHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___helper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Globalization::TaiwanCalendar::setStaticF_taiwanEraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value) {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloorLightTile)
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
 namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace Ice {
-class __FloorLightTile__Pool;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-struct Color;
+class ColorTween;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
 }
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace Ice {
+class __FloorLightTile__Pool;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace Tweening {
-class ColorTween;
+class SongTimeTweeningManager;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace Ice {

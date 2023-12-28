@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityWebRequestAssetBundle)
-namespace UnityEngine {
-struct CachedAssetBundle;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace UnityEngine {
+struct CachedAssetBundle;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {

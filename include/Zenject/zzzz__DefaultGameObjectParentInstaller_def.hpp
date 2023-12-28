@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DefaultGameObjectParentInstaller)
 namespace Zenject {
+class __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -95,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__DefaultGameObjectPare
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3908 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3908 }), TypeDefinitionIndex(TypeDefinitionIndex(11132))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11348))
 // CS Name: ::Zenject::DefaultGameObjectParentInstaller*
 class CORDL_TYPE DefaultGameObjectParentInstaller : public ::Zenject::Installer_2<::StringW, ::Zenject::DefaultGameObjectParentInstaller*> {

@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPAddress)
 namespace System {
-template <typename T> struct Span_1;
+class Object;
 }
 namespace System::Net::Sockets {
 struct AddressFamily;
-}
-namespace System {
-class Object;
 }
 namespace System::Net {
 class __IPAddress__ReadOnlyIPAddress;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Net {

@@ -13,14 +13,14 @@ class BigInteger;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {

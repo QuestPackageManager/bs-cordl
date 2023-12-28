@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::__get__WrapNonExceptionThrows_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WrapNonExceptionThrows_k__BackingField;
 }
 constexpr bool const& System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::__get__WrapNonExceptionThrows_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WrapNonExceptionThrows_k__BackingField;
 }
 constexpr void System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::__set__WrapNonExceptionThrows_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____WrapNonExceptionThrows_k__BackingField = value;
 }
 inline ::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute* System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::New_ctor() {

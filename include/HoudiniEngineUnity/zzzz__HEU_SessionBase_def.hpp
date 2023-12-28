@@ -11,118 +11,118 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionBase)
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_MaterialInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_SphereInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Result;
-}
-namespace HoudiniEngineUnity {
-struct SessionConnectionState;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_EnvIntType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_State;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_BoxInfo;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_HandleBindingInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeTileInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmChoiceInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_CurveInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Viewport;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_SessionSyncInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_CacheProperty;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StatusType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_CookOptions;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HandleInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_HeightFieldSampling;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_StatusVerbosity;
+struct HAPI_StatusType;
 }
 namespace HoudiniEngineUnity {
 struct SessionMode;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_SessionSyncInfo;
+struct HAPI_ImageInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GroupType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CurveInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_MaterialInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmChoiceInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeTileInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionData;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_BoxInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HandleInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_TransformEuler;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_SphereInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_RSTOrder;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AssetInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_StatusVerbosity;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_SessionEnvIntType;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
+}
+namespace HoudiniEngineUnity {
+struct SessionConnectionState;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_XYZOrder;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_State;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_EnvIntType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CookOptions;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GeoInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Result;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_HeightFieldSampling;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

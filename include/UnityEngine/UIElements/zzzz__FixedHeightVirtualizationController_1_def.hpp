@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedHeightVirtualizationController_1)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

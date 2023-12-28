@@ -31,15 +31,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::AlwaysOwnedContentSO*& GlobalNamespace::AlwaysOwnedContentContainerSO::__get__alwaysOwnedContent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedContent;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AlwaysOwnedContentSO*> const& GlobalNamespace::AlwaysOwnedContentContainerSO::__get__alwaysOwnedContent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedContent;
 }
 constexpr void GlobalNamespace::AlwaysOwnedContentContainerSO::__set__alwaysOwnedContent(::GlobalNamespace::AlwaysOwnedContentSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____alwaysOwnedContent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::AlwaysOwnedContentSO* GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedContent() {

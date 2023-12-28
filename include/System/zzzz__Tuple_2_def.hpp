@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tuple_2)
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
-namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System {
-class IComparable;
-}
 namespace System {
 class ITupleInternal;
 }
 namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IComparable;
+}
+namespace System::Collections {
+class IComparer;
 }
 // Forward declare root types
 namespace System {

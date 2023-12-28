@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(Angle)
 namespace UnityEngine::UIElements {
 struct __Angle__Unit;
 }
-namespace UnityEngine::UIElements {
-struct AngleUnit;
-}
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct AngleUnit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

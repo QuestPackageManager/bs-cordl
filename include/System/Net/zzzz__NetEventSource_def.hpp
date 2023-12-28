@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetEventSource)
+namespace System::Net {
+class __NetEventSource__Keywords;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class FormattableString;
-}
-namespace System::Net {
-class __NetEventSource__Keywords;
 }
 // Forward declare root types
 namespace System::Net {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::Net::__NetEventSource__Keywords);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3744)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3744))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9023))
 // CS Name: ::NetEventSource::Keywords*
 class CORDL_TYPE __NetEventSource__Keywords : public ::System::Object {

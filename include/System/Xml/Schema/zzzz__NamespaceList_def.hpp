@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamespaceList)
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Xml {
+class XmlQualifiedName;
+}
 namespace System::Xml::Schema {
 struct __NamespaceList__ListType;
 }
 namespace System::Collections {
 class Hashtable;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Collections {
-class ICollection;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

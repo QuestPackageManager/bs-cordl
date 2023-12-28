@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hash128)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 namespace System {
@@ -18,6 +15,9 @@ template <typename T> class IComparable_1;
 }
 namespace System {
 class IComparable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {

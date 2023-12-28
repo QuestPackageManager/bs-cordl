@@ -39,15 +39,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HMUI::__TimeSlider__TimeType& HMUI::TimeSlider::__get__timeType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeType;
 }
 constexpr ::HMUI::__TimeSlider__TimeType const& HMUI::TimeSlider::__get__timeType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeType;
 }
 constexpr void HMUI::TimeSlider::__set__timeType(::HMUI::__TimeSlider__TimeType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeType = value;
 }
 inline ::StringW HMUI::TimeSlider::TextForValue(float_t value) {

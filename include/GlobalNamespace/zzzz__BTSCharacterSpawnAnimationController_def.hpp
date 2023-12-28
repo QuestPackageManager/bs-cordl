@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnAnimationController)
-namespace GlobalNamespace {
-class SongSpeedData;
+namespace UnityEngine::Timeline {
+class ActivationTrack;
 }
 namespace GlobalNamespace {
 class JumpReceiver;
 }
 namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
-}
-namespace UnityEngine::Timeline {
-class ActivationTrack;
-}
-namespace GlobalNamespace {
 class MaterialPropertyBlockFloatAnimator;
+}
+namespace GlobalNamespace {
+class SongSpeedData;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

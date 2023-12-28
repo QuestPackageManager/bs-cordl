@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IOAsyncResult_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 //  Writing Method size for method: ::System::IOAsyncResult._ctor
 template <>
 
@@ -161,63 +161,63 @@ constexpr System::IOAsyncResult::operator ::System::IAsyncResult*() noexcept {
   return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 constexpr ::System::AsyncCallback*& System::IOAsyncResult::__get_async_callback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_callback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::IOAsyncResult::__get_async_callback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_callback;
 }
 constexpr void System::IOAsyncResult::__set_async_callback(::System::AsyncCallback* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___async_callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Object*& System::IOAsyncResult::__get_async_state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_state;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::IOAsyncResult::__get_async_state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_state;
 }
 constexpr void System::IOAsyncResult::__set_async_state(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___async_state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::ManualResetEvent*& System::IOAsyncResult::__get_wait_handle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wait_handle;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::IOAsyncResult::__get_wait_handle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wait_handle;
 }
 constexpr void System::IOAsyncResult::__set_wait_handle(::System::Threading::ManualResetEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wait_handle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::IOAsyncResult::__get_completed_synchronously() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed_synchronously;
 }
 constexpr bool const& System::IOAsyncResult::__get_completed_synchronously() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed_synchronously;
 }
 constexpr void System::IOAsyncResult::__set_completed_synchronously(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completed_synchronously = value;
 }
 constexpr bool& System::IOAsyncResult::__get_completed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 constexpr bool const& System::IOAsyncResult::__get_completed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
 constexpr void System::IOAsyncResult::__set_completed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completed = value;
 }
 inline ::System::IOAsyncResult* System::IOAsyncResult::New_ctor() {

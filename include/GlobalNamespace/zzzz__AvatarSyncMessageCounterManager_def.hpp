@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarSyncMessageCounterManager)
-namespace GlobalNamespace {
-class AvatarSyncMessageCounter;
+namespace System {
+struct TimeSpan;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -16,8 +16,8 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace GlobalNamespace {
 struct __AvatarSyncMessageCounterManager__MessageType;
 }
-namespace System {
-struct TimeSpan;
+namespace GlobalNamespace {
+class AvatarSyncMessageCounter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

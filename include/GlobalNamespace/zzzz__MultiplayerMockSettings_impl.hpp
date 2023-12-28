@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerMockSettings_def.hpp"
-#include "GlobalNamespace/zzzz__MockServerSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
+#include "GlobalNamespace/zzzz__MockServerSettings_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerSettings_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerMockSettings.get_quickplayServer
 template <>
 
@@ -161,76 +161,76 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& GlobalNamespace::MultiplayerMockSettings::__get__isEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEnabled;
 }
 constexpr bool const& GlobalNamespace::MultiplayerMockSettings::__get__isEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEnabled;
 }
 constexpr void GlobalNamespace::MultiplayerMockSettings::__set__isEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isEnabled = value;
 }
 constexpr ::GlobalNamespace::MockPlayerSettings*& GlobalNamespace::MultiplayerMockSettings::__get__localPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerSettings*> const& GlobalNamespace::MultiplayerMockSettings::__get__localPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayer;
 }
 constexpr void GlobalNamespace::MultiplayerMockSettings::__set__localPlayer(::GlobalNamespace::MockPlayerSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>*& GlobalNamespace::MultiplayerMockSettings::__get__otherPlayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherPlayers;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>*> const&
 GlobalNamespace::MultiplayerMockSettings::__get__otherPlayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherPlayers;
 }
 constexpr void GlobalNamespace::MultiplayerMockSettings::__set__otherPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____otherPlayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MockServerSettings*& GlobalNamespace::MultiplayerMockSettings::__get__quickplayServer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickplayServer;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockServerSettings*> const& GlobalNamespace::MultiplayerMockSettings::__get__quickplayServer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickplayServer;
 }
 constexpr void GlobalNamespace::MultiplayerMockSettings::__set__quickplayServer(::GlobalNamespace::MockServerSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickplayServer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::MultiplayerStatusData*& GlobalNamespace::MultiplayerMockSettings::__get__multiplayerStatusData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerStatusData*> const& GlobalNamespace::MultiplayerMockSettings::__get__multiplayerStatusData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusData;
 }
 constexpr void GlobalNamespace::MultiplayerMockSettings::__set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerStatusData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::QuickPlaySetupData*& GlobalNamespace::MultiplayerMockSettings::__get__quickPlaySetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& GlobalNamespace::MultiplayerMockSettings::__get__quickPlaySetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupData;
 }
 constexpr void GlobalNamespace::MultiplayerMockSettings::__set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickPlaySetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MockServerSettings* GlobalNamespace::MultiplayerMockSettings::get_quickplayServer() {

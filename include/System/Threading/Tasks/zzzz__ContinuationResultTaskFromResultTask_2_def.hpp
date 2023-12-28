@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 CORDL_MODULE_EXPORT(ContinuationResultTaskFromResultTask_2)
 namespace System::Threading::Tasks {
+struct InternalTaskOptions;
+}
+namespace System {
+class Delegate;
+}
+namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
 class Object;
 }
 namespace System::Threading::Tasks {
-struct InternalTaskOptions;
-}
-namespace System::Threading::Tasks {
 struct TaskCreationOptions;
-}
-namespace System {
-class Delegate;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -31,7 +31,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult, typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5126 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5126 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2800))
 // CS Name: ::System.Threading.Tasks::ContinuationResultTaskFromResultTask`2<TAntecedentResult,TResult>*
 class CORDL_TYPE ContinuationResultTaskFromResultTask_2 : public ::System::Threading::Tasks::Task_1<TResult> {

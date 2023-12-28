@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__LeafNode_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
-#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::LeafNode._ctor
 template <>
 
@@ -92,15 +92,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Xml::Schema::LeafNode::__get_pos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr int32_t const& System::Xml::Schema::LeafNode::__get_pos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pos;
 }
 constexpr void System::Xml::Schema::LeafNode::__set_pos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pos = value;
 }
 inline ::System::Xml::Schema::LeafNode* System::Xml::Schema::LeafNode::New_ctor(int32_t pos) {

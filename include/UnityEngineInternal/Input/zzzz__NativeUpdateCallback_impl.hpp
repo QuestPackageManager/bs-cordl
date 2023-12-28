@@ -2,8 +2,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeUpdateCallback_def.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEventBuffer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputUpdateType_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngineInternal::Input::NativeUpdateCallback._ctor
 template <>
 

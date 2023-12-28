@@ -11,41 +11,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlUrlResolver)
-namespace System::Xml {
-class XmlDownloadManager;
-}
-namespace System {
-class Uri;
-}
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class ICredentials;
 }
 namespace System::Xml {
 struct __XmlUrlResolver___GetEntityAsync_d__15;
 }
 namespace System::Net {
-class IWebProxy;
+class ICredentials;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
 }
+namespace System {
+class Type;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System {
+class Uri;
+}
+namespace System::Xml {
+class XmlDownloadManager;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -64,8 +64,8 @@ MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 2
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 2
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
 struct CORDL_TYPE __XmlUrlResolver___GetEntityAsync_d__15 {
 public:

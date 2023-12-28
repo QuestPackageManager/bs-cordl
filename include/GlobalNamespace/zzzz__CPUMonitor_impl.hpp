@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__CPUMonitor_def.hpp"
 #include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/Diagnostics/zzzz__Process_def.hpp"
-#include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
+#include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CPUMonitor.PollUpdate
 template <>
 
@@ -53,63 +53,63 @@ constexpr GlobalNamespace::CPUMonitor::operator ::GlobalNamespace::IPollable*() 
   return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::RollingAverage*& GlobalNamespace::CPUMonitor::__get__utilization() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____utilization;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RollingAverage*> const& GlobalNamespace::CPUMonitor::__get__utilization() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____utilization;
 }
 constexpr void GlobalNamespace::CPUMonitor::__set__utilization(::GlobalNamespace::RollingAverage* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____utilization)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Diagnostics::Process*& GlobalNamespace::CPUMonitor::__get__currentProcess() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentProcess;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Process*> const& GlobalNamespace::CPUMonitor::__get__currentProcess() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentProcess;
 }
 constexpr void GlobalNamespace::CPUMonitor::__set__currentProcess(::System::Diagnostics::Process* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentProcess)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& GlobalNamespace::CPUMonitor::__get__processorCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____processorCount;
 }
 constexpr int32_t const& GlobalNamespace::CPUMonitor::__get__processorCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____processorCount;
 }
 constexpr void GlobalNamespace::CPUMonitor::__set__processorCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____processorCount = value;
 }
 constexpr int64_t& GlobalNamespace::CPUMonitor::__get__lastSampleTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSampleTime;
 }
 constexpr int64_t const& GlobalNamespace::CPUMonitor::__get__lastSampleTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSampleTime;
 }
 constexpr void GlobalNamespace::CPUMonitor::__set__lastSampleTime(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastSampleTime = value;
 }
 constexpr int64_t& GlobalNamespace::CPUMonitor::__get__lastSampleValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSampleValue;
 }
 constexpr int64_t const& GlobalNamespace::CPUMonitor::__get__lastSampleValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastSampleValue;
 }
 constexpr void GlobalNamespace::CPUMonitor::__set__lastSampleValue(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastSampleValue = value;
 }
 inline void GlobalNamespace::CPUMonitor::PollUpdate() {

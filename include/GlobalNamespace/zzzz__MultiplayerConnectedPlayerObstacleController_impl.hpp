@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ObstacleController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleClippingController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController.Init
 template <>
@@ -40,17 +40,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*&
 GlobalNamespace::MultiplayerConnectedPlayerObstacleController::__get__multiplayerConnectedPlayerObstacleClippingController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerConnectedPlayerObstacleClippingController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*> const&
 GlobalNamespace::MultiplayerConnectedPlayerObstacleController::__get__multiplayerConnectedPlayerObstacleClippingController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerConnectedPlayerObstacleClippingController;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::__set__multiplayerConnectedPlayerObstacleClippingController(
     ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerConnectedPlayerObstacleClippingController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

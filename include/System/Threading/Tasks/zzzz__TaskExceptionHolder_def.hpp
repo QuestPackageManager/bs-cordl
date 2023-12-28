@@ -7,23 +7,23 @@ CORDL_MODULE_EXPORT(TaskExceptionHolder)
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
+namespace System {
+class Exception;
 }
 namespace System::Collections::Generic {
 template <typename T> class LowLevelListWithIList_1;
+}
+namespace System {
+class AggregateException;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class AggregateException;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__PlaceholderFactory_3_impl.hpp"
 #include "Zenject/zzzz__Factory_3_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TParam1, typename TParam2, typename TValue> inline ::Zenject::Factory_3<TParam1, TParam2, TValue>* Zenject::Factory_3<TParam1, TParam2, TValue>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::Zenject::Factory_3<TParam1, TParam2, TValue>*>());
 }

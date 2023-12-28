@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(EmptyGameObjectProvider)
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class InjectContext;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class Action;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject {

@@ -13,53 +13,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Uri)
-namespace System {
-class UriFormatException;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System {
-struct ParsingError;
-}
-namespace System {
-struct UriComponents;
-}
-namespace System {
-struct UriHostNameType;
-}
-namespace System {
-struct __Uri__Offset;
+class UriFormatException;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-struct UriFormat;
-}
-namespace System {
-class __Uri__MoreInfo;
-}
-namespace System {
-struct UriKind;
-}
-namespace System {
-class __Uri__UriInfo;
+struct StreamingContext;
 }
 namespace System {
 struct __Uri__Flags;
 }
 namespace System {
-struct __Uri__Check;
+struct ParsingError;
 }
 namespace System {
 class UriParser;
 }
 namespace System {
+struct __Uri__Offset;
+}
+namespace System {
 class Object;
 }
+namespace System {
+struct UriHostNameType;
+}
+namespace System {
+class __Uri__MoreInfo;
+}
+namespace System {
+struct __Uri__Check;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System {
+class __Uri__UriInfo;
+}
+namespace System {
+struct UriComponents;
+}
+namespace System {
+struct UriKind;
+}
+namespace System {
+struct UriFormat;
 }
 // Forward declare root types
 namespace System {
@@ -696,8 +696,8 @@ static_assert(::cordl_internals::size_check_v<::System::__Uri__Check, 0x4>, "Siz
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8880)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8879)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8877)), TypeDefinitionIndex(TypeDefinitionIndex(8870))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8875)) CS Name: ::System::Uri*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8879)), TypeDefinitionIndex(TypeDefinitionIndex(8877)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8880)), TypeDefinitionIndex(TypeDefinitionIndex(8870))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8875)) CS Name: ::System::Uri*
 class CORDL_TYPE Uri : public ::System::Object {
 public:
   // Declarations

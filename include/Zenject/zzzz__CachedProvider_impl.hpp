@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__CachedProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Zenject::CachedProvider._ctor
 template <>
 
@@ -113,39 +113,39 @@ constexpr Zenject::CachedProvider::operator ::Zenject::IProvider*() noexcept {
   return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 constexpr ::Zenject::IProvider*& Zenject::CachedProvider::__get__creator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____creator;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::CachedProvider::__get__creator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____creator;
 }
 constexpr void Zenject::CachedProvider::__set__creator(::Zenject::IProvider* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____creator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::System::Object*>*& Zenject::CachedProvider::__get__instances() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instances;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& Zenject::CachedProvider::__get__instances() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instances;
 }
 constexpr void Zenject::CachedProvider::__set__instances(::System::Collections::Generic::List_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instances)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::CachedProvider::__get__isCreatingInstance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isCreatingInstance;
 }
 constexpr bool const& Zenject::CachedProvider::__get__isCreatingInstance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isCreatingInstance;
 }
 constexpr void Zenject::CachedProvider::__set__isCreatingInstance(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isCreatingInstance = value;
 }
 inline ::Zenject::CachedProvider* Zenject::CachedProvider::New_ctor(::Zenject::IProvider* creator) {

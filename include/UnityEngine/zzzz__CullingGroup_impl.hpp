@@ -4,8 +4,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CullingGroup_def.hpp"
 #include "UnityEngine/zzzz__CullingGroup_def.hpp"
-#include "UnityEngine/zzzz__CullingGroupEvent_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__CullingGroupEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::__CullingGroup__StateChanged._ctor
 template <>
 
@@ -69,27 +69,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr void*& UnityEngine::CullingGroup::__get_m_Ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void* const& UnityEngine::CullingGroup::__get_m_Ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
 }
 constexpr void UnityEngine::CullingGroup::__set_m_Ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Ptr = value;
 }
 constexpr ::UnityEngine::__CullingGroup__StateChanged*& UnityEngine::CullingGroup::__get_m_OnStateChanged() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnStateChanged;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__CullingGroup__StateChanged*> const& UnityEngine::CullingGroup::__get_m_OnStateChanged() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnStateChanged;
 }
 constexpr void UnityEngine::CullingGroup::__set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnStateChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::CullingGroup::SendEvents(::UnityEngine::CullingGroup* cullingGroup, void* eventsPtr, int32_t count) {

@@ -19,34 +19,34 @@ namespace GlobalNamespace {
 struct __GhostDuplicationEffect__GhostEffectParams;
 }
 namespace GlobalNamespace {
+class __GhostDuplicationEffect____c__DisplayClass7_0;
+}
+namespace GlobalNamespace {
 class __GhostDuplicationEffect___HideRedundantWithDelay_d__8;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-class __GhostDuplicationEffect____c__DisplayClass7_0;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -139,7 +139,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GhostDuplicat
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4860))
 // CS Name: ::GhostDuplicationEffect::<>c__DisplayClass7_0*
 class CORDL_TYPE __GhostDuplicationEffect____c__DisplayClass7_0 : public ::System::Object {

@@ -16,53 +16,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChain)
+namespace UnityEngine {
+class Font;
+}
 namespace UnityEngine::UIElements::UIR {
 struct __RenderChain__DepthOrderedDirtyTracking;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__RenderNodeData;
-}
-namespace UnityEngine::UIElements::UIR {
-class VectorImageManager;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __RenderChain__RenderChainStaticIndexAllocator;
-}
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class BasicNodePool_1;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::UIElements::UIR {
-class __RenderChain____c;
-}
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-class UIRStylePainter;
+class AtlasBase;
 }
 namespace UnityEngine::UIElements {
 class TextureRegistry;
 }
+namespace UnityEngine::UIElements::UIR::Implementation {
+class UIRStylePainter;
+}
 namespace UnityEngine::UIElements::UIR {
-struct TextureEntry;
+class RenderChainCommand;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
 }
 namespace UnityEngine {
 class Material;
@@ -71,40 +50,61 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 class UIRTextUpdatePainter;
 }
 namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Action;
+class Texture;
 }
 namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
-}
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class LinkedPool_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
+struct __RenderChain__RenderNodeData;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine::UIElements::UIR {
+class __RenderChain____c;
+}
+namespace UnityEngine::UIElements::UIR {
+class VectorImageManager;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class BasicNodePool_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __RenderChain__RenderChainStaticIndexAllocator;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine::UIElements::UIR {
+struct TextureEntry;
+}
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class LinkedPool_1;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
+}
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypes;
@@ -112,17 +112,17 @@ struct RenderDataDirtyTypes;
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypeClasses;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
 namespace UnityEngine {
-struct Vector4;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Transform3x4;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Vector4;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -253,9 +253,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 755 }), TypeDefinitionIndex(TypeDefinitionIndex(7424)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 751 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7391)) CS Name: ::RenderChain::RenderNodeData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7424)), TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 755
+// }), TypeDefinitionIndex(TypeDefinitionIndex(10246)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 751 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7391))
+// CS Name: ::RenderChain::RenderNodeData
 struct CORDL_TYPE __RenderChain__RenderNodeData {
 public:
   // Declarations
@@ -381,8 +381,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 546, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7388)), TypeDefinitionIndex(TypeDefinitionIndex(7377)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7389)), TypeDefinitionIndex(TypeDefinitionIndex(9966))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7393)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7377)), TypeDefinitionIndex(TypeDefinitionIndex(7389)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7388))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7393)) CS Name:
 // ::UnityEngine.UIElements.UIR::RenderChain*
 class CORDL_TYPE RenderChain : public ::System::Object {
 public:

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockQuickPlaySetupModel_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockQuickPlaySetupModel.GetQuickPlaySetupAsync
 template <>
 
@@ -38,15 +38,15 @@ constexpr GlobalNamespace::MockQuickPlaySetupModel::operator ::GlobalNamespace::
   return static_cast<::GlobalNamespace::IQuickPlaySetupModel*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::QuickPlaySetupData*& GlobalNamespace::MockQuickPlaySetupModel::__get__quickPlaySetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& GlobalNamespace::MockQuickPlaySetupModel::__get__quickPlaySetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupData;
 }
 constexpr void GlobalNamespace::MockQuickPlaySetupModel::__set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____quickPlaySetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*

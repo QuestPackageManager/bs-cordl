@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBindingFinalizer)
 namespace Zenject {
-struct BindingInheritanceMethods;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+struct BindingInheritanceMethods;
 }
 // Forward declare root types
 namespace Zenject {

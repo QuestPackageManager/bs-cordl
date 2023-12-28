@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BcpgInputStream)
 namespace Org::BouncyCastle::Bcpg {
-struct PacketTag;
+class __BcpgInputStream__PartialInputStream;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class __BcpgInputStream__PartialInputStream;
+class Packet;
 }
 namespace Org::BouncyCastle::Bcpg {
-class Packet;
+struct PacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

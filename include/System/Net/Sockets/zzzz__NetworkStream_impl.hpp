@@ -1,22 +1,22 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::NetworkStream._ctor
 template <>
 
@@ -574,99 +574,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::Sockets::Socket*& System::Net::Sockets::NetworkStream::__get__streamSocket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____streamSocket;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& System::Net::Sockets::NetworkStream::__get__streamSocket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____streamSocket;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__streamSocket(::System::Net::Sockets::Socket* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____streamSocket)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& System::Net::Sockets::NetworkStream::__get__ownsSocket() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownsSocket;
 }
 constexpr bool const& System::Net::Sockets::NetworkStream::__get__ownsSocket() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownsSocket;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__ownsSocket(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ownsSocket = value;
 }
 constexpr bool& System::Net::Sockets::NetworkStream::__get__readable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readable;
 }
 constexpr bool const& System::Net::Sockets::NetworkStream::__get__readable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readable;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__readable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____readable = value;
 }
 constexpr bool& System::Net::Sockets::NetworkStream::__get__writeable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeable;
 }
 constexpr bool const& System::Net::Sockets::NetworkStream::__get__writeable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____writeable;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__writeable(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____writeable = value;
 }
 constexpr int32_t& System::Net::Sockets::NetworkStream::__get__closeTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closeTimeout;
 }
 constexpr int32_t const& System::Net::Sockets::NetworkStream::__get__closeTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____closeTimeout;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__closeTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____closeTimeout = value;
 }
 constexpr bool& System::Net::Sockets::NetworkStream::__get__cleanedUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cleanedUp;
 }
 constexpr bool const& System::Net::Sockets::NetworkStream::__get__cleanedUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cleanedUp;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__cleanedUp(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cleanedUp = value;
 }
 constexpr int32_t& System::Net::Sockets::NetworkStream::__get__currentReadTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentReadTimeout;
 }
 constexpr int32_t const& System::Net::Sockets::NetworkStream::__get__currentReadTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentReadTimeout;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__currentReadTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentReadTimeout = value;
 }
 constexpr int32_t& System::Net::Sockets::NetworkStream::__get__currentWriteTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentWriteTimeout;
 }
 constexpr int32_t const& System::Net::Sockets::NetworkStream::__get__currentWriteTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentWriteTimeout;
 }
 constexpr void System::Net::Sockets::NetworkStream::__set__currentWriteTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentWriteTimeout = value;
 }
 inline ::System::Net::Sockets::NetworkStream* System::Net::Sockets::NetworkStream::New_ctor(::System::Net::Sockets::Socket* socket) {

@@ -13,13 +13,13 @@ namespace UnityEngine::InputSystem {
 struct InputInteractionContext;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
-}
-namespace UnityEngine::InputSystem {
 template <typename TValue> class IInputInteraction_1;
 }
 namespace UnityEngine::InputSystem::Interactions {
 struct __MultiTapInteraction__TapPhase;
+}
+namespace UnityEngine::InputSystem {
+class IInputInteraction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -87,7 +87,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Intera
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6647)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6647))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6648))
 // CS Name: ::UnityEngine.InputSystem.Interactions::MultiTapInteraction*
 class CORDL_TYPE MultiTapInteraction : public ::System::Object {

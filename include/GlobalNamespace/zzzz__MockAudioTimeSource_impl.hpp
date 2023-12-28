@@ -128,27 +128,27 @@ constexpr GlobalNamespace::MockAudioTimeSource::operator ::GlobalNamespace::IAud
   return static_cast<::GlobalNamespace::IAudioTimeSource*>(static_cast<void*>(this));
 }
 constexpr float_t& GlobalNamespace::MockAudioTimeSource::__get__songTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MockAudioTimeSource::__get__songTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTime_k__BackingField;
 }
 constexpr void GlobalNamespace::MockAudioTimeSource::__set__songTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songTime_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::MockAudioTimeSource::__get__lastFrameDeltaSongTime_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameDeltaSongTime_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::MockAudioTimeSource::__get__lastFrameDeltaSongTime_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameDeltaSongTime_k__BackingField;
 }
 constexpr void GlobalNamespace::MockAudioTimeSource::__set__lastFrameDeltaSongTime_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameDeltaSongTime_k__BackingField = value;
 }
 inline float_t GlobalNamespace::MockAudioTimeSource::get_songTime() {

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManagerDiagnostics)
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DiagnosticEventContext;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
 namespace UnityEngine::AddressableAssets::Utility {
 class DiagnosticInfo;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DiagnosticEventContext;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {

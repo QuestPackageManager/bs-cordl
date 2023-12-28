@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__TextureEffectSO_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__TextureEffectSO_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
-#include "GlobalNamespace/zzzz__TextureEffectSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassEffectSO.get_textureEffect
 template <>
 
@@ -107,51 +107,51 @@ constexpr GlobalNamespace::BloomPrePassEffectSO::operator ::GlobalNamespace::IBl
   return static_cast<::GlobalNamespace::IBloomPrePassParams*>(static_cast<void*>(this));
 }
 constexpr int32_t& GlobalNamespace::BloomPrePassEffectSO::__get__textureWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureWidth;
 }
 constexpr int32_t const& GlobalNamespace::BloomPrePassEffectSO::__get__textureWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureWidth;
 }
 constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__textureWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textureWidth = value;
 }
 constexpr int32_t& GlobalNamespace::BloomPrePassEffectSO::__get__textureHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureHeight;
 }
 constexpr int32_t const& GlobalNamespace::BloomPrePassEffectSO::__get__textureHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureHeight;
 }
 constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__textureHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textureHeight = value;
 }
 constexpr ::UnityEngine::Vector2& GlobalNamespace::BloomPrePassEffectSO::__get__fov() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fov;
 }
 constexpr ::UnityEngine::Vector2 const& GlobalNamespace::BloomPrePassEffectSO::__get__fov() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fov;
 }
 constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__fov(::UnityEngine::Vector2 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fov = value;
 }
 constexpr float_t& GlobalNamespace::BloomPrePassEffectSO::__get__linesWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linesWidth;
 }
 constexpr float_t const& GlobalNamespace::BloomPrePassEffectSO::__get__linesWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linesWidth;
 }
 constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__linesWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____linesWidth = value;
 }
 inline ::GlobalNamespace::TextureEffectSO* GlobalNamespace::BloomPrePassEffectSO::get_textureEffect() {

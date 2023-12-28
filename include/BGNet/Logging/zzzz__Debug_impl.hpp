@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::BGNet::Logging::__Debug__LoggerLinkedList._ctor
 template <>
 
@@ -20,27 +20,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::BGNet::Logging::__Debug__ILogger*& BGNet::Logging::__Debug__LoggerLinkedList::__get_logger() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___logger;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__ILogger*> const& BGNet::Logging::__Debug__LoggerLinkedList::__get_logger() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___logger;
 }
 constexpr void BGNet::Logging::__Debug__LoggerLinkedList::__set_logger(::BGNet::Logging::__Debug__ILogger* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGNet::Logging::__Debug__LoggerLinkedList*& BGNet::Logging::__Debug__LoggerLinkedList::__get_next() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__LoggerLinkedList*> const& BGNet::Logging::__Debug__LoggerLinkedList::__get_next() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
 constexpr void BGNet::Logging::__Debug__LoggerLinkedList::__set_next(::BGNet::Logging::__Debug__LoggerLinkedList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BGNet::Logging::__Debug__LoggerLinkedList* BGNet::Logging::__Debug__LoggerLinkedList::New_ctor(::BGNet::Logging::__Debug__ILogger* logger) {

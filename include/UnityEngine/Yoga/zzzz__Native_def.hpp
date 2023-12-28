@@ -7,19 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Native)
 namespace UnityEngine::Yoga {
-struct YogaDisplay;
-}
-namespace UnityEngine::Yoga {
-struct YogaEdge;
-}
-namespace UnityEngine::Yoga {
 struct YogaAlign;
 }
 namespace UnityEngine::Yoga {
-struct YogaDirection;
+struct YogaDisplay;
 }
 namespace UnityEngine::Yoga {
-struct YogaJustify;
+struct YogaWrap;
+}
+namespace UnityEngine::Yoga {
+struct YogaEdge;
 }
 namespace UnityEngine::Yoga {
 struct YogaOverflow;
@@ -28,16 +25,19 @@ namespace UnityEngine::Yoga {
 struct YogaPositionType;
 }
 namespace UnityEngine::Yoga {
-struct YogaWrap;
+struct YogaDirection;
+}
+namespace UnityEngine::Yoga {
+struct YogaJustify;
+}
+namespace UnityEngine::Yoga {
+struct YogaMeasureMode;
 }
 namespace UnityEngine::Yoga {
 struct YogaFlexDirection;
 }
 namespace UnityEngine::Yoga {
 class YogaNode;
-}
-namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

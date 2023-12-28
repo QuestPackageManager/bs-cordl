@@ -4,11 +4,11 @@
 #include "HoudiniEngineUnity/zzzz__SessionMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionSyncData_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_SessionType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionSyncData_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_SessionData.GetOrCreateSessionSync
 template <>
 
@@ -371,123 +371,123 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::HoudiniEngineUnity::HAPI_Session& HoudiniEngineUnity::HEU_SessionData::__get__HAPISession() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HAPISession;
 }
 constexpr ::HoudiniEngineUnity::HAPI_Session const& HoudiniEngineUnity::HEU_SessionData::__get__HAPISession() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____HAPISession;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__HAPISession(::HoudiniEngineUnity::HAPI_Session value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____HAPISession = value;
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_SessionData::__get__serverProcessID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverProcessID;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_SessionData::__get__serverProcessID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serverProcessID;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__serverProcessID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____serverProcessID = value;
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionData::__get__initialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionData::__get__initialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__initialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_SessionData::__get__pipeName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pipeName;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_SessionData::__get__pipeName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pipeName;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__pipeName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pipeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& HoudiniEngineUnity::HEU_SessionData::__get__port() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
 }
 constexpr int32_t const& HoudiniEngineUnity::HEU_SessionData::__get__port() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__port(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____port = value;
 }
 constexpr ::StringW& HoudiniEngineUnity::HEU_SessionData::__get__sessionClassType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionClassType;
 }
 constexpr ::StringW const& HoudiniEngineUnity::HEU_SessionData::__get__sessionClassType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionClassType;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__sessionClassType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sessionClassType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& HoudiniEngineUnity::HEU_SessionData::__get__isDefaultSession() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDefaultSession;
 }
 constexpr bool const& HoudiniEngineUnity::HEU_SessionData::__get__isDefaultSession() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDefaultSession;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__isDefaultSession(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDefaultSession = value;
 }
 constexpr ::HoudiniEngineUnity::HEU_SessionSyncData*& HoudiniEngineUnity::HEU_SessionData::__get__sessionSync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionSync;
 }
 constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionSyncData*> const& HoudiniEngineUnity::HEU_SessionData::__get__sessionSync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionSync;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__sessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sessionSync)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HoudiniEngineUnity::SessionConnectionState& HoudiniEngineUnity::HEU_SessionData::__get__connectionState() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionState;
 }
 constexpr ::HoudiniEngineUnity::SessionConnectionState const& HoudiniEngineUnity::HEU_SessionData::__get__connectionState() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionState;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__connectionState(::HoudiniEngineUnity::SessionConnectionState value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectionState = value;
 }
 constexpr ::HoudiniEngineUnity::SessionMode& HoudiniEngineUnity::HEU_SessionData::__get__sessionMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionMode;
 }
 constexpr ::HoudiniEngineUnity::SessionMode const& HoudiniEngineUnity::HEU_SessionData::__get__sessionMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sessionMode;
 }
 constexpr void HoudiniEngineUnity::HEU_SessionData::__set__sessionMode(::HoudiniEngineUnity::SessionMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sessionMode = value;
 }
 inline void HoudiniEngineUnity::HEU_SessionData::setStaticF_INVALID_SESSION_ID(int64_t value) {

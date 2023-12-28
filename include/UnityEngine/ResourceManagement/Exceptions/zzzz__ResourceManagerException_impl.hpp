@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ResourceManagerException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException._ctor
 template <>

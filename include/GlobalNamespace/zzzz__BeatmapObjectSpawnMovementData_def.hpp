@@ -9,28 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnMovementData)
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
-}
-namespace GlobalNamespace {
-class SliderData;
+class IJumpOffsetYProvider;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
+class ObstacleData;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -39,7 +24,22 @@ namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
 class NoteData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

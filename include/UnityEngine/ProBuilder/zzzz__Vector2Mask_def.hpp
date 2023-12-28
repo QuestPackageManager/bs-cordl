@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2Mask)
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

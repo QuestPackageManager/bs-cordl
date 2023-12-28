@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(ScanFilter)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Newtonsoft::Json::Linq::JsonPath {
-class __ScanFilter___ExecuteFilter_d__4;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class __ScanFilter___ExecuteFilter_d__4;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -25,11 +25,11 @@ class IDisposable;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

@@ -42,27 +42,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRChromaticAberration::__get_toggleButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
 constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRChromaticAberration::__get_toggleButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
 constexpr void GlobalNamespace::OVRChromaticAberration::__set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toggleButton = value;
 }
 constexpr bool& GlobalNamespace::OVRChromaticAberration::__get_chromatic() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromatic;
 }
 constexpr bool const& GlobalNamespace::OVRChromaticAberration::__get_chromatic() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chromatic;
 }
 constexpr void GlobalNamespace::OVRChromaticAberration::__set_chromatic(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chromatic = value;
 }
 inline void GlobalNamespace::OVRChromaticAberration::Start() {

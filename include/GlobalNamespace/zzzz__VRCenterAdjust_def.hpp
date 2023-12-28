@@ -11,10 +11,10 @@ namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
-class Vector3SO;
+class ISaveData;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class Vector3SO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,25 +9,25 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
+class NoteControllerBase;
+}
+namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -64,27 +64,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__get_oculusRuntime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oculusRuntime;
 }
 constexpr int32_t const& GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__get_oculusRuntime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oculusRuntime;
 }
 constexpr void GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__set_oculusRuntime(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___oculusRuntime = value;
 }
 constexpr int32_t& GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__get_otherRuntimes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRuntimes;
 }
 constexpr int32_t const& GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__get_otherRuntimes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRuntimes;
 }
 constexpr void GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__set_otherRuntimes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___otherRuntimes = value;
 }
 inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {

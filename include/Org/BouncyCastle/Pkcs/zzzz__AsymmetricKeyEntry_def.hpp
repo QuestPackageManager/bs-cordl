@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricKeyEntry)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace System::Collections {
-class Hashtable;
+class IDictionary;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IDictionary;
+class Hashtable;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

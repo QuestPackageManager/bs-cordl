@@ -1,44 +1,44 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
-#include "Zenject/zzzz__FactoryFromBinder_2_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__FactoryFromBinder_2_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 template <typename TContract> constexpr ::Zenject::DiContainer*& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__bindContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindContainer;
 }
 template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__bindContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindContainer;
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__set__bindContainer(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> constexpr ::Zenject::BindInfo*& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__bindInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfo;
 }
 template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__bindInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindInfo;
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__set__bindInfo(::Zenject::BindInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract> constexpr ::Zenject::FactoryBindInfo*& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__factoryBindInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindInfo;
 }
 template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__get__factoryBindInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindInfo;
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__set__factoryBindInfo(::Zenject::FactoryBindInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____factoryBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TContract>

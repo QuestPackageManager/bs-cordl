@@ -1,7 +1,7 @@
 #pragma once
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"
-#include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
+#include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_GlyphValueRecord.get_xPlacement
 template <>
 

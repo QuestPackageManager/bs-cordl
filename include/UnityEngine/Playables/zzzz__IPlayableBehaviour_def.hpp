@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPlayableBehaviour)
-namespace System {
-class Object;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::Playables {
 struct Playable;

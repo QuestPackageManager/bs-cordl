@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAttributeProvider)
 namespace System {
-class Attribute;
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Type;
+class Attribute;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

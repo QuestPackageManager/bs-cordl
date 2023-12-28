@@ -10,10 +10,10 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority> struct ItemPriority_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> struct ItemPriority_2;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {

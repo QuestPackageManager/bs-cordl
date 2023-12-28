@@ -9,23 +9,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeEventInfo)
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+struct MonoEventInfo;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Reflection {
-struct BindingFlags;
-}
 namespace System {
-class RuntimeType;
+class Object;
 }
 namespace System::Reflection {
 class RuntimeModule;
 }
 namespace System::Reflection {
-class MethodInfo;
+struct BindingFlags;
 }
 namespace System::Reflection {
-class Module;
+class MethodInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -34,13 +40,7 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Reflection {
-struct MonoEventInfo;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
+class Module;
 }
 // Forward declare root types
 namespace System::Reflection {

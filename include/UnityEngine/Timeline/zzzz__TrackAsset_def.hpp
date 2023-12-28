@@ -16,116 +16,116 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackAsset)
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
-namespace UnityEngine::Timeline {
-class IPropertyPreview;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Playables {
-class PlayableAsset;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::Timeline {
-class TrackBindingTypeAttribute;
-}
-namespace UnityEngine::Timeline {
-class IMarker;
-}
-namespace UnityEngine::Timeline {
-class ICurvesOwner;
-}
-namespace UnityEngine::Playables {
-class IPlayableAsset;
-}
-namespace UnityEngine::Timeline {
-struct __TrackAsset__Versions;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::Timeline {
-class TimelineAsset;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Timeline {
-class __TrackAsset___get_outputs_d__65;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::Timeline {
 class RuntimeElement;
 }
-namespace UnityEngine::Playables {
-class PlayableDirector;
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Timeline {
+class __TrackAsset____c;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class Object;
+class ScriptableObject;
+}
+namespace UnityEngine::Timeline {
+class __TrackAsset__TrackAssetUpgrade;
 }
 namespace UnityEngine {
-class GameObject;
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::Playables {
+class PlayableAsset;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
 }
 namespace UnityEngine::Timeline {
 struct __TrackAsset__TransientBuildData;
 }
 namespace UnityEngine::Timeline {
-class __TrackAsset____c;
+class IPropertyPreview;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::Timeline {
-class __TrackAsset__TrackAssetUpgrade;
+template <typename T> class IntervalTree_1;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+struct __TrackAsset__Versions;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace UnityEngine::Playables {
+class IPlayableAsset;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Timeline {
+class IMarker;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine::Timeline {
+class TimelineAsset;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
+class TrackBindingTypeAttribute;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace UnityEngine::Timeline {
+class ICurvesOwner;
+}
+namespace UnityEngine::Timeline {
+class __TrackAsset___get_outputs_d__65;
+}
 namespace System {
 template <typename T> class Comparison_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -464,9 +464,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TrackAs
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13876)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10422)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(13859)), TypeDefinitionIndex(TypeDefinitionIndex(13889))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(13862)) CS Name: ::UnityEngine.Timeline::TrackAsset*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(13876)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13859)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(13889))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13862))
+// CS Name: ::UnityEngine.Timeline::TrackAsset*
 class CORDL_TYPE TrackAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations

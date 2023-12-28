@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Exception_def.hpp"
 CORDL_MODULE_EXPORT(TaskSchedulerException)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 class Exception;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;

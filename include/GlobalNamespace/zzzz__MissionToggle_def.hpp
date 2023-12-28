@@ -6,29 +6,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionToggle)
-namespace HMUI {
-class Interactable;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace GlobalNamespace {
+class Signal;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace HMUI {
+class Interactable;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
@@ -36,11 +39,8 @@ class IPointerExitHandler;
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace GlobalNamespace {
-class Signal;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,9 +3,9 @@
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_1_def.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase::__MultiTapInteraction__TapPhase(int32_t value__) noexcept {
   this->value__ = value__;
@@ -132,99 +132,99 @@ constexpr UnityEngine::InputSystem::Interactions::MultiTapInteraction::operator 
   return static_cast<::UnityEngine::InputSystem::IInputInteraction*>(static_cast<void*>(this));
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tapTime;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tapTime;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_tapTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tapTime = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tapDelay;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tapDelay;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_tapDelay(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tapDelay = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tapCount;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_tapCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tapCount;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_tapCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tapCount = value;
 }
 constexpr float_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_pressPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr float_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_pressPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pressPoint;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_pressPoint(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pressPoint = value;
 }
 constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_CurrentTapPhase() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTapPhase;
 }
 constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_CurrentTapPhase() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTapPhase;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_m_CurrentTapPhase(::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTapPhase = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_CurrentTapCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTapCount;
 }
 constexpr int32_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_CurrentTapCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTapCount;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_m_CurrentTapCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTapCount = value;
 }
 constexpr double_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_CurrentTapStartTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTapStartTime;
 }
 constexpr double_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_CurrentTapStartTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentTapStartTime;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_m_CurrentTapStartTime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentTapStartTime = value;
 }
 constexpr double_t& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_LastTapReleaseTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastTapReleaseTime;
 }
 constexpr double_t const& UnityEngine::InputSystem::Interactions::MultiTapInteraction::__get_m_LastTapReleaseTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LastTapReleaseTime;
 }
 constexpr void UnityEngine::InputSystem::Interactions::MultiTapInteraction::__set_m_LastTapReleaseTime(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastTapReleaseTime = value;
 }
 inline float_t UnityEngine::InputSystem::Interactions::MultiTapInteraction::get_tapTimeOrDefault() {

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ImageSource)
+namespace UnityEngine::UIElements {
+class VectorImage;
+}
 namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

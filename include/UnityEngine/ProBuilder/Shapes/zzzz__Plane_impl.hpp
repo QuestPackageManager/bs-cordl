@@ -2,10 +2,10 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Plane_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::Plane.CopyShape
 template <>
 
@@ -50,27 +50,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Plane::__get_m_HeightSegments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightSegments;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Plane::__get_m_HeightSegments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightSegments;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Plane::__set_m_HeightSegments(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HeightSegments = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::Shapes::Plane::__get_m_WidthSegments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WidthSegments;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Plane::__get_m_WidthSegments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WidthSegments;
 }
 constexpr void UnityEngine::ProBuilder::Shapes::Plane::__set_m_WidthSegments(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WidthSegments = value;
 }
 inline void UnityEngine::ProBuilder::Shapes::Plane::CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {

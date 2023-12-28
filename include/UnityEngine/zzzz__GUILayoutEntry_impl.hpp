@@ -249,111 +249,111 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::GUILayoutEntry::__get_minWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minWidth;
 }
 constexpr float_t const& UnityEngine::GUILayoutEntry::__get_minWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minWidth;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_minWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minWidth = value;
 }
 constexpr float_t& UnityEngine::GUILayoutEntry::__get_maxWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxWidth;
 }
 constexpr float_t const& UnityEngine::GUILayoutEntry::__get_maxWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxWidth;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_maxWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxWidth = value;
 }
 constexpr float_t& UnityEngine::GUILayoutEntry::__get_minHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHeight;
 }
 constexpr float_t const& UnityEngine::GUILayoutEntry::__get_minHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHeight;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_minHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minHeight = value;
 }
 constexpr float_t& UnityEngine::GUILayoutEntry::__get_maxHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHeight;
 }
 constexpr float_t const& UnityEngine::GUILayoutEntry::__get_maxHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxHeight;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_maxHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxHeight = value;
 }
 constexpr ::UnityEngine::Rect& UnityEngine::GUILayoutEntry::__get_rect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::GUILayoutEntry::__get_rect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rect;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_rect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rect = value;
 }
 constexpr int32_t& UnityEngine::GUILayoutEntry::__get_stretchWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchWidth;
 }
 constexpr int32_t const& UnityEngine::GUILayoutEntry::__get_stretchWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchWidth;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_stretchWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stretchWidth = value;
 }
 constexpr int32_t& UnityEngine::GUILayoutEntry::__get_stretchHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchHeight;
 }
 constexpr int32_t const& UnityEngine::GUILayoutEntry::__get_stretchHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchHeight;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_stretchHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stretchHeight = value;
 }
 constexpr bool& UnityEngine::GUILayoutEntry::__get_consideredForMargin() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___consideredForMargin;
 }
 constexpr bool const& UnityEngine::GUILayoutEntry::__get_consideredForMargin() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___consideredForMargin;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_consideredForMargin(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___consideredForMargin = value;
 }
 constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUILayoutEntry::__get_m_Style() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Style;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& UnityEngine::GUILayoutEntry::__get_m_Style() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Style;
 }
 constexpr void UnityEngine::GUILayoutEntry::__set_m_Style(::UnityEngine::GUIStyle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Style)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void UnityEngine::GUILayoutEntry::setStaticF_kDummyRect(::UnityEngine::Rect value) {

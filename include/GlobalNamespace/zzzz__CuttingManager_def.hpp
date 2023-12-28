@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(CuttingManager)
 namespace GlobalNamespace {
+class NoteCutter;
+}
+namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace GlobalNamespace {
-class NoteCutter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

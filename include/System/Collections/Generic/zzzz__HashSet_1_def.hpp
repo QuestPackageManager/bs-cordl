@@ -7,8 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet_1)
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__Slot;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -16,44 +34,26 @@ class IEnumerable;
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections::Generic {
 template <typename T> struct __HashSet_1__Enumerator;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+namespace System {
+template <typename T> class Predicate_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__ElementCount;
 }
 namespace System {
 class IDisposable;

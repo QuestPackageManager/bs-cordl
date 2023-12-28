@@ -12,13 +12,10 @@ namespace HMUI {
 class UIKeyboard;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class GuestNameButtonsListItemsList;
-}
-namespace GlobalNamespace {
 class __EnterPlayerGuestNameViewController__FinishDelegate;
+}
+namespace HMUI {
+class InputFieldView;
 }
 namespace GlobalNamespace {
 class __EnterPlayerGuestNameViewController____c__DisplayClass10_1;
@@ -26,20 +23,23 @@ class __EnterPlayerGuestNameViewController____c__DisplayClass10_1;
 namespace GlobalNamespace {
 class __EnterPlayerGuestNameViewController____c__DisplayClass10_0;
 }
-namespace HMUI {
-class InputFieldView;
+namespace GlobalNamespace {
+class GuestNameButtonsListItemsList;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class StringSignal;
-}
-namespace System {
-class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

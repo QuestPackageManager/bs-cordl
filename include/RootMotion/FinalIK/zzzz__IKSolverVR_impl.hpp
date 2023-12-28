@@ -7,15 +7,15 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "RootMotion/zzzz__InterpolationMode_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -319,101 +319,101 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get__sqrMag_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sqrMag_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get__sqrMag_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sqrMag_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set__sqrMag_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sqrMag_k__BackingField = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get__mag_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mag_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get__mag_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mag_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set__mag_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mag_k__BackingField = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_bones() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bones;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> const&
 RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_bones() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bones;
 }
 constexpr void
 RootMotion::FinalIK::__IKSolverVR__BodyPart::__set_bones(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bones)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_initiated() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_initiated() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initiated;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set_initiated(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initiated = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_rootPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_rootPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set_rootPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_rootRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_rootRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set_rootRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootRotation = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set_index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_LOD() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LOD;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__BodyPart::__get_LOD() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LOD;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__BodyPart::__set_LOD(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LOD = value;
 }
 inline void RootMotion::FinalIK::__IKSolverVR__BodyPart::OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions,
@@ -828,327 +828,327 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Arm::__get_target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_target(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Arm::__get_bendGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_bendGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_bendGoal(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bendGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_positionWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_positionWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_positionWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___positionWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_rotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_rotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_rotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationWeight = value;
 }
 constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode& RootMotion::FinalIK::__IKSolverVR__Arm::__get_shoulderRotationMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shoulderRotationMode;
 }
 constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_shoulderRotationMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shoulderRotationMode;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_shoulderRotationMode(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shoulderRotationMode = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_shoulderRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shoulderRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_shoulderRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shoulderRotationWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_shoulderRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shoulderRotationWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_shoulderTwistWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shoulderTwistWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_shoulderTwistWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shoulderTwistWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_shoulderTwistWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___shoulderTwistWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_bendGoalWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoalWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_bendGoalWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoalWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_bendGoalWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendGoalWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_swivelOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swivelOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_swivelOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swivelOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_swivelOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swivelOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_wristToPalmAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wristToPalmAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_wristToPalmAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wristToPalmAxis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_wristToPalmAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wristToPalmAxis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_palmToThumbAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___palmToThumbAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_palmToThumbAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___palmToThumbAxis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_palmToThumbAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___palmToThumbAxis = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Arm::__get_armLengthMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___armLengthMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_armLengthMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___armLengthMlp;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_armLengthMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___armLengthMlp = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::__IKSolverVR__Arm::__get_stretchCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_stretchCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchCurve;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_stretchCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stretchCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_IKPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_IKPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_IKPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Arm::__get_IKRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_IKRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_IKRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_bendDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendDirection;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_bendDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendDirection;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_bendDirection(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendDirection = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_handPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_handPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_handPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handPositionOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get__position_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get__position_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set__position_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position_k__BackingField = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Arm::__get__rotation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotation_k__BackingField;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Arm::__get__rotation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotation_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set__rotation_k__BackingField(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotation_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Arm::__get_hasShoulder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasShoulder;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_hasShoulder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasShoulder;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_hasShoulder(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasShoulder = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestForwardAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestForwardAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestForwardAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestForwardAxis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_chestForwardAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestForwardAxis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestUpAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestUpAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestUpAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestUpAxis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_chestUpAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestUpAxis = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_chestRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestForward;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_chestForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestForward = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestUp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestUp;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_chestUp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestUp;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_chestUp(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestUp = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Arm::__get_forearmRelToUpperArm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forearmRelToUpperArm;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_forearmRelToUpperArm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forearmRelToUpperArm;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_forearmRelToUpperArm(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___forearmRelToUpperArm = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Arm::__get_upperArmBendAxis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___upperArmBendAxis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Arm::__get_upperArmBendAxis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___upperArmBendAxis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Arm::__set_upperArmBendAxis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___upperArmBendAxis = value;
 }
 inline ::UnityEngine::Vector3 RootMotion::FinalIK::__IKSolverVR__Arm::get_position() {
@@ -1419,171 +1419,171 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepSpeed;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_stepSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepSpeed = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_characterSpaceOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterSpaceOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_characterSpaceOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterSpaceOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_characterSpaceOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characterSpaceOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_position() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_position() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___position;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_position(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___position = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_rotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepToRootRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepToRootRot;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepToRootRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepToRootRot;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_stepToRootRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepToRootRot = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_isSupportLeg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isSupportLeg;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_isSupportLeg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isSupportLeg;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_isSupportLeg(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isSupportLeg = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Footstep::__get__stepProgress_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepProgress_k__BackingField;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get__stepProgress_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stepProgress_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set__stepProgress_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stepProgress_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepFrom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepFrom;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepFrom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepFrom;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_stepFrom(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepFrom = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepTo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepTo;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepTo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepTo;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_stepTo(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepTo = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepFromRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepFromRot;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepFromRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepFromRot;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_stepFromRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepFromRot = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepToRot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepToRot;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_stepToRot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepToRot;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_stepToRot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepToRot = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_footRelativeToRoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRelativeToRoot;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_footRelativeToRoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRelativeToRoot;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_footRelativeToRoot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footRelativeToRoot = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_supportLegW() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportLegW;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_supportLegW() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportLegW;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_supportLegW(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___supportLegW = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_supportLegWV() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportLegWV;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Footstep::__get_supportLegWV() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportLegWV;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Footstep::__set_supportLegWV(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___supportLegWV = value;
 }
 inline bool RootMotion::FinalIK::__IKSolverVR__Footstep::get_isStepping() {
@@ -2000,327 +2000,327 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Leg::__get_target() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_target() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___target;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_target(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoal;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_bendGoal(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bendGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_positionWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_positionWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_positionWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___positionWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_rotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_rotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_rotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendGoalWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoalWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendGoalWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendGoalWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_bendGoalWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendGoalWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_swivelOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swivelOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_swivelOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swivelOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_swivelOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swivelOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendToTargetWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendToTargetWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendToTargetWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendToTargetWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_bendToTargetWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendToTargetWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_legLengthMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___legLengthMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_legLengthMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___legLengthMlp;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_legLengthMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___legLengthMlp = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::__IKSolverVR__Leg::__get_stretchCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchCurve;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_stretchCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stretchCurve;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_stretchCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stretchCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_IKPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_IKPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_IKPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Leg::__get_IKRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_IKRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_IKRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_footPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footPositionOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_heelPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heelPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_heelPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heelPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_heelPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___heelPositionOffset = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotationOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_footRotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footRotationOffset = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Leg::__get_currentMag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentMag;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_currentMag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentMag;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_currentMag(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentMag = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Leg::__get_useAnimatedBendNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAnimatedBendNormal;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_useAnimatedBendNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useAnimatedBendNormal;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_useAnimatedBendNormal(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useAnimatedBendNormal = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get__position_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get__position_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set__position_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position_k__BackingField = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Leg::__get__rotation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotation_k__BackingField;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Leg::__get__rotation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotation_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set__rotation_k__BackingField(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotation_k__BackingField = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Leg::__get__hasToes_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasToes_k__BackingField;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Leg::__get__hasToes_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasToes_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set__hasToes_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasToes_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get__thighRelativeToPelvis_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thighRelativeToPelvis_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get__thighRelativeToPelvis_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____thighRelativeToPelvis_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set__thighRelativeToPelvis_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____thighRelativeToPelvis_k__BackingField = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_footPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_footRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_footRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendNormal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormal;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendNormal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormal;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_bendNormal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendNormal = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Leg::__get_calfRelToThigh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calfRelToThigh;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_calfRelToThigh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calfRelToThigh;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_calfRelToThigh(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___calfRelToThigh = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Leg::__get_thighRelToFoot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thighRelToFoot;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_thighRelToFoot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thighRelToFoot;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_thighRelToFoot(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___thighRelToFoot = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendNormalRelToPelvis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormalRelToPelvis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendNormalRelToPelvis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormalRelToPelvis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_bendNormalRelToPelvis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendNormalRelToPelvis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendNormalRelToTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormalRelToTarget;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Leg::__get_bendNormalRelToTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bendNormalRelToTarget;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Leg::__set_bendNormalRelToTarget(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bendNormalRelToTarget = value;
 }
 inline ::UnityEngine::Vector3 RootMotion::FinalIK::__IKSolverVR__Leg::get_position() {
@@ -2710,341 +2710,341 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___weight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___weight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_footDistance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footDistance;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_footDistance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footDistance;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_footDistance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___footDistance = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepThreshold;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepThreshold;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_stepThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepThreshold = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_angleThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleThreshold;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_angleThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___angleThreshold;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_angleThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___angleThreshold = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_comAngleMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comAngleMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_comAngleMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comAngleMlp;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_comAngleMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___comAngleMlp = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_maxVelocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxVelocity;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_maxVelocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxVelocity;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_maxVelocity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxVelocity = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_velocityFactor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___velocityFactor;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_velocityFactor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___velocityFactor;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_velocityFactor(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___velocityFactor = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_maxLegStretch() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxLegStretch;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_maxLegStretch() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxLegStretch;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_maxLegStretch(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxLegStretch = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_rootSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_rootSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootSpeed;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_rootSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootSpeed = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepSpeed;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_stepSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepSpeed = value;
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepHeight;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepHeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_stepHeight(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stepHeight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AnimationCurve*& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_heelHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heelHeight;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_heelHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___heelHeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_heelHeight(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___heelHeight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_relaxLegTwistMinAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___relaxLegTwistMinAngle;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_relaxLegTwistMinAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___relaxLegTwistMinAngle;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_relaxLegTwistMinAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___relaxLegTwistMinAngle = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_relaxLegTwistSpeed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___relaxLegTwistSpeed;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_relaxLegTwistSpeed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___relaxLegTwistSpeed;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_relaxLegTwistSpeed(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___relaxLegTwistSpeed = value;
 }
 constexpr ::RootMotion::InterpolationMode& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepInterpolation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepInterpolation;
 }
 constexpr ::RootMotion::InterpolationMode const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_stepInterpolation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stepInterpolation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_stepInterpolation(::RootMotion::InterpolationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stepInterpolation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_offset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_blockingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockingEnabled;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_blockingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockingEnabled;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_blockingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blockingEnabled = value;
 }
 constexpr ::UnityEngine::LayerMask& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_blockingLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockingLayers;
 }
 constexpr ::UnityEngine::LayerMask const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_blockingLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockingLayers;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_blockingLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___blockingLayers = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_raycastRadius() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastRadius;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_raycastRadius() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastRadius;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_raycastRadius(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___raycastRadius = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_raycastHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastHeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_raycastHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastHeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_raycastHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___raycastHeight = value;
 }
 constexpr ::UnityEngine::Events::UnityEvent*& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_onLeftFootstep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLeftFootstep;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_onLeftFootstep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLeftFootstep;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_onLeftFootstep(::UnityEngine::Events::UnityEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onLeftFootstep)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Events::UnityEvent*& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_onRightFootstep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onRightFootstep;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_onRightFootstep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onRightFootstep;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_onRightFootstep(::UnityEngine::Events::UnityEvent* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onRightFootstep)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get__centerOfMass_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerOfMass_k__BackingField;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get__centerOfMass_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerOfMass_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set__centerOfMass_k__BackingField(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____centerOfMass_k__BackingField = value;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*>& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_footsteps() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footsteps;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> const&
 RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_footsteps() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___footsteps;
 }
 constexpr void
 RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_footsteps(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___footsteps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_lastComPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastComPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_lastComPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastComPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_lastComPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastComPosition = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_comVelocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comVelocity;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_comVelocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comVelocity;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_comVelocity(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___comVelocity = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_leftFootIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftFootIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_leftFootIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftFootIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_leftFootIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___leftFootIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_rightFootIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightFootIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Locomotion::__get_rightFootIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightFootIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Locomotion::__set_rightFootIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rightFootIndex = value;
 }
 inline ::UnityEngine::Vector3 RootMotion::FinalIK::__IKSolverVR__Locomotion::get_centerOfMass() {
@@ -3561,663 +3561,663 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTarget;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTarget;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headTarget(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisTarget;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisTarget;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisTarget(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pelvisTarget)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_positionWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_positionWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_positionWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___positionWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_rotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_rotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_rotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisPositionWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisPositionWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisPositionWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisPositionWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRotationWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRotationWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisRotationWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisRotationWeight = value;
 }
 constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestGoal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestGoal;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestGoal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestGoal;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestGoal(::UnityEngine::Transform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chestGoal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestGoalWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestGoalWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestGoalWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestGoalWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestGoalWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestGoalWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_minHeadHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHeadHeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_minHeadHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minHeadHeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_minHeadHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minHeadHeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_bodyPosStiffness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyPosStiffness;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_bodyPosStiffness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyPosStiffness;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_bodyPosStiffness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyPosStiffness = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_bodyRotStiffness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyRotStiffness;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_bodyRotStiffness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyRotStiffness;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_bodyRotStiffness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyRotStiffness = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_neckStiffness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___neckStiffness;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_neckStiffness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___neckStiffness;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_neckStiffness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___neckStiffness = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_rotateChestByHands() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateChestByHands;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_rotateChestByHands() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotateChestByHands;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_rotateChestByHands(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotateChestByHands = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestClampWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestClampWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestClampWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestClampWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestClampWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestClampWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headClampWeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headClampWeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headClampWeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headClampWeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headClampWeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headClampWeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_moveBodyBackWhenCrouching() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveBodyBackWhenCrouching;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_moveBodyBackWhenCrouching() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___moveBodyBackWhenCrouching;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_moveBodyBackWhenCrouching(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___moveBodyBackWhenCrouching = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_maintainPelvisPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainPelvisPosition;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_maintainPelvisPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maintainPelvisPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_maintainPelvisPosition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maintainPelvisPosition = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_maxRootAngle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRootAngle;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_maxRootAngle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRootAngle;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_maxRootAngle(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxRootAngle = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_rootHeadingOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootHeadingOffset;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_rootHeadingOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootHeadingOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_rootHeadingOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootHeadingOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKPositionHead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPositionHead;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKPositionHead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPositionHead;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_IKPositionHead(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKPositionHead = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKRotationHead() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotationHead;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKRotationHead() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotationHead;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_IKRotationHead(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKRotationHead = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKPositionPelvis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPositionPelvis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKPositionPelvis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKPositionPelvis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_IKPositionPelvis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKPositionPelvis = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKRotationPelvis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotationPelvis;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_IKRotationPelvis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___IKRotationPelvis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_IKRotationPelvis(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IKRotationPelvis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_goalPositionChest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goalPositionChest;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_goalPositionChest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___goalPositionChest;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_goalPositionChest(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___goalPositionChest = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisPositionOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestPositionOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headPositionOffset = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotationOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisRotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisRotationOffset = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestRotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestRotationOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestRotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestRotationOffset = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headRotationOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headRotationOffset;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headRotationOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headRotationOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headRotationOffset(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headRotationOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_faceDirection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___faceDirection;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_faceDirection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___faceDirection;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_faceDirection(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___faceDirection = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_locomotionHeadPositionOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locomotionHeadPositionOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_locomotionHeadPositionOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locomotionHeadPositionOffset;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_locomotionHeadPositionOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___locomotionHeadPositionOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get__anchorRotation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anchorRotation_k__BackingField;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get__anchorRotation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anchorRotation_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set__anchorRotation_k__BackingField(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____anchorRotation_k__BackingField = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get__anchorRelativeToHead_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anchorRelativeToHead_k__BackingField;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get__anchorRelativeToHead_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anchorRelativeToHead_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set__anchorRelativeToHead_k__BackingField(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____anchorRelativeToHead_k__BackingField = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_anchorRelativeToPelvis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anchorRelativeToPelvis;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_anchorRelativeToPelvis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anchorRelativeToPelvis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_anchorRelativeToPelvis(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___anchorRelativeToPelvis = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRelativeRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRelativeRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisRelativeRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisRelativeRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisRelativeRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisRelativeRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestRelativeRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestRelativeRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestRelativeRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestRelativeRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestRelativeRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestRelativeRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headDeltaPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headDeltaPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headDeltaPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headDeltaPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headDeltaPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headDeltaPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisDeltaRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisDeltaRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisDeltaRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisDeltaRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisDeltaRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisDeltaRotation = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestTargetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestTargetRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestTargetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestTargetRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestTargetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestTargetRotation = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_pelvisIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pelvisIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_pelvisIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pelvisIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_spineIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spineIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_spineIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spineIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_spineIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spineIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_neckIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___neckIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_neckIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___neckIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_neckIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___neckIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headIndex;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headIndex = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___length = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Spine::__get_hasChest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasChest;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_hasChest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasChest;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_hasChest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasChest = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Spine::__get_hasNeck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasNeck;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_hasNeck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasNeck;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_hasNeck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasNeck = value;
 }
 constexpr bool& RootMotion::FinalIK::__IKSolverVR__Spine::__get_hasLegs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasLegs;
 }
 constexpr bool const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_hasLegs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasLegs;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_hasLegs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasLegs = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headHeight;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_headHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headHeight;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_headHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headHeight = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__Spine::__get_sizeMlp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sizeMlp;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_sizeMlp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sizeMlp;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_sizeMlp(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sizeMlp = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestForward() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestForward;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__Spine::__get_chestForward() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chestForward;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__Spine::__set_chestForward(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chestForward = value;
 }
 inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* RootMotion::FinalIK::__IKSolverVR__Spine::get_pelvis() {
@@ -4669,87 +4669,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_readPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_readPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_readPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_readRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_readRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_readRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readRotation = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_solverPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solverPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_solverPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solverPosition;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_solverPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solverPosition = value;
 }
 constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_solverRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solverRotation;
 }
 constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_solverRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solverRotation;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_solverRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___solverRotation = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_length() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_length() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_length(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___length = value;
 }
 constexpr float_t& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_sqrMag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMag;
 }
 constexpr float_t const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_sqrMag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sqrMag;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_sqrMag(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sqrMag = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_axis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::__IKSolverVR__VirtualBone::__get_axis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___axis;
 }
 constexpr void RootMotion::FinalIK::__IKSolverVR__VirtualBone::__set_axis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___axis = value;
 }
 inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* RootMotion::FinalIK::__IKSolverVR__VirtualBone::New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) {
@@ -5325,435 +5325,435 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& RootMotion::FinalIK::IKSolverVR::__get_solverTransforms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solverTransforms;
 }
 constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& RootMotion::FinalIK::IKSolverVR::__get_solverTransforms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solverTransforms;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_solverTransforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___solverTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& RootMotion::FinalIK::IKSolverVR::__get_hasChest() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasChest;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverVR::__get_hasChest() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasChest;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_hasChest(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasChest = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverVR::__get_hasNeck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasNeck;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverVR::__get_hasNeck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasNeck;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_hasNeck(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasNeck = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverVR::__get_hasShoulders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasShoulders;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverVR::__get_hasShoulders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasShoulders;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_hasShoulders(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasShoulders = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverVR::__get_hasToes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasToes;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverVR::__get_hasToes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasToes;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_hasToes(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasToes = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverVR::__get_hasLegs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasLegs;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverVR::__get_hasLegs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasLegs;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_hasLegs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasLegs = value;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& RootMotion::FinalIK::IKSolverVR::__get_readPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readPositions;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& RootMotion::FinalIK::IKSolverVR::__get_readPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readPositions;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_readPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& RootMotion::FinalIK::IKSolverVR::__get_readRotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readRotations;
 }
 constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& RootMotion::FinalIK::IKSolverVR::__get_readRotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readRotations;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_readRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readRotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& RootMotion::FinalIK::IKSolverVR::__get_solvedPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedPositions;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& RootMotion::FinalIK::IKSolverVR::__get_solvedPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedPositions;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_solvedPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___solvedPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& RootMotion::FinalIK::IKSolverVR::__get_solvedRotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedRotations;
 }
 constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& RootMotion::FinalIK::IKSolverVR::__get_solvedRotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___solvedRotations;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_solvedRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___solvedRotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& RootMotion::FinalIK::IKSolverVR::__get_defaultLocalRotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotations;
 }
 constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& RootMotion::FinalIK::IKSolverVR::__get_defaultLocalRotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalRotations;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultLocalRotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& RootMotion::FinalIK::IKSolverVR::__get_defaultLocalPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalPositions;
 }
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& RootMotion::FinalIK::IKSolverVR::__get_defaultLocalPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultLocalPositions;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_defaultLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultLocalPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_rootV() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootV;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_rootV() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootV;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_rootV(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootV = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_rootVelocity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootVelocity;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_rootVelocity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootVelocity;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_rootVelocity(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootVelocity = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_bodyOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_bodyOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bodyOffset;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_bodyOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bodyOffset = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKSolverVR::__get_supportLegIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportLegIndex;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKSolverVR::__get_supportLegIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___supportLegIndex;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_supportLegIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___supportLegIndex = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKSolverVR::__get_lastLOD() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastLOD;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKSolverVR::__get_lastLOD() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastLOD;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_lastLOD(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastLOD = value;
 }
 constexpr int32_t& RootMotion::FinalIK::IKSolverVR::__get_LOD() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LOD;
 }
 constexpr int32_t const& RootMotion::FinalIK::IKSolverVR::__get_LOD() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LOD;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_LOD(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___LOD = value;
 }
 constexpr bool& RootMotion::FinalIK::IKSolverVR::__get_plantFeet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plantFeet;
 }
 constexpr bool const& RootMotion::FinalIK::IKSolverVR::__get_plantFeet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___plantFeet;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_plantFeet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___plantFeet = value;
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__VirtualBone*& RootMotion::FinalIK::IKSolverVR::__get__rootBone_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootBone_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*> const& RootMotion::FinalIK::IKSolverVR::__get__rootBone_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootBone_k__BackingField;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set__rootBone_k__BackingField(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rootBone_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__Spine*& RootMotion::FinalIK::IKSolverVR::__get_spine() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spine;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Spine*> const& RootMotion::FinalIK::IKSolverVR::__get_spine() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spine;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_spine(::RootMotion::FinalIK::__IKSolverVR__Spine* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__Arm*& RootMotion::FinalIK::IKSolverVR::__get_leftArm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftArm;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Arm*> const& RootMotion::FinalIK::IKSolverVR::__get_leftArm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftArm;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_leftArm(::RootMotion::FinalIK::__IKSolverVR__Arm* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftArm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__Arm*& RootMotion::FinalIK::IKSolverVR::__get_rightArm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightArm;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Arm*> const& RootMotion::FinalIK::IKSolverVR::__get_rightArm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightArm;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_rightArm(::RootMotion::FinalIK::__IKSolverVR__Arm* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightArm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& RootMotion::FinalIK::IKSolverVR::__get_leftLeg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftLeg;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& RootMotion::FinalIK::IKSolverVR::__get_leftLeg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftLeg;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_leftLeg(::RootMotion::FinalIK::__IKSolverVR__Leg* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftLeg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& RootMotion::FinalIK::IKSolverVR::__get_rightLeg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightLeg;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& RootMotion::FinalIK::IKSolverVR::__get_rightLeg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightLeg;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_rightLeg(::RootMotion::FinalIK::__IKSolverVR__Leg* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightLeg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::RootMotion::FinalIK::__IKSolverVR__Locomotion*& RootMotion::FinalIK::IKSolverVR::__get_locomotion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locomotion;
 }
 constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Locomotion*> const& RootMotion::FinalIK::IKSolverVR::__get_locomotion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locomotion;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_locomotion(::RootMotion::FinalIK::__IKSolverVR__Locomotion* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___locomotion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*>& RootMotion::FinalIK::IKSolverVR::__get_legs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___legs;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> const& RootMotion::FinalIK::IKSolverVR::__get_legs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___legs;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_legs(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___legs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*>& RootMotion::FinalIK::IKSolverVR::__get_arms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arms;
 }
 constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> const& RootMotion::FinalIK::IKSolverVR::__get_arms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arms;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_arms(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_headPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_headPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headPosition;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_headPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headPosition = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_headDeltaPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headDeltaPosition;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_headDeltaPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headDeltaPosition;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_headDeltaPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___headDeltaPosition = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_raycastOriginPelvis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastOriginPelvis;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_raycastOriginPelvis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___raycastOriginPelvis;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_raycastOriginPelvis(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___raycastOriginPelvis = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_lastOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastOffset;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_lastOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastOffset;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_lastOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastOffset = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_debugPos1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos1;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_debugPos1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos1;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_debugPos1(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___debugPos1 = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_debugPos2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos2;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_debugPos2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos2;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_debugPos2(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___debugPos2 = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_debugPos3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos3;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_debugPos3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos3;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_debugPos3(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___debugPos3 = value;
 }
 constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverVR::__get_debugPos4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos4;
 }
 constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverVR::__get_debugPos4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugPos4;
 }
 constexpr void RootMotion::FinalIK::IKSolverVR::__set_debugPos4(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___debugPos4 = value;
 }
 inline void RootMotion::FinalIK::IKSolverVR::SetToReferences(::RootMotion::FinalIK::__VRIK__References* references) {

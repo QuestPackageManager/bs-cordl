@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertifiedKeyPair_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiPublicationInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertOrEncCert_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiPublicationInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertOrEncCert_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair._ctor
 template <>
 
@@ -135,39 +135,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*& Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__get_certOrEncCert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certOrEncCert;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*> const& Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__get_certOrEncCert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certOrEncCert;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__set_certOrEncCert(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certOrEncCert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__get_privateKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__get_privateKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__set_privateKey(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*& Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__get_publicationInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicationInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*> const& Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__get_publicationInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicationInfo;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::__set_publicationInfo(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicationInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {

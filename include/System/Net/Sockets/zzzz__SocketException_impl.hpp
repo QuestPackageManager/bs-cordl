@@ -1,9 +1,9 @@
 #pragma once
 #include "System/ComponentModel/zzzz__Win32Exception_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketException_def.hpp"
-#include "System/Net/zzzz__EndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Net/zzzz__EndPoint_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::SocketException.WSAGetLastError_icall
 template <>
@@ -134,15 +134,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::EndPoint*& System::Net::Sockets::SocketException::__get_m_EndPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EndPoint;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& System::Net::Sockets::SocketException::__get_m_EndPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EndPoint;
 }
 constexpr void System::Net::Sockets::SocketException::__set_m_EndPoint(::System::Net::EndPoint* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EndPoint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t System::Net::Sockets::SocketException::WSAGetLastError_icall() {

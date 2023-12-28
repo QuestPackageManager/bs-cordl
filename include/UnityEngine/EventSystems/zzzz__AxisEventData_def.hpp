@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AxisEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13207))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13207)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13165))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13163))
 // CS Name: ::UnityEngine.EventSystems::AxisEventData*
 class CORDL_TYPE AxisEventData : public ::UnityEngine::EventSystems::BaseEventData {

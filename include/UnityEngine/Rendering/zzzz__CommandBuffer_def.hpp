@@ -14,31 +14,40 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Mesh;
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+struct FilterMode;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::Rendering {
 struct CommandBufferExecutionFlags;
 }
 namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
 class Renderer;
+}
+namespace UnityEngine {
+struct RenderTextureMemoryless;
+}
+namespace UnityEngine::Rendering {
+struct RenderTargetIdentifier;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
-struct Vector4;
+struct RenderTextureFormat;
 }
-namespace UnityEngine {
-struct FilterMode;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
 }
 namespace UnityEngine::Rendering {
 struct RenderBufferLoadAction;
@@ -46,20 +55,11 @@ struct RenderBufferLoadAction;
 namespace UnityEngine::Rendering {
 struct RenderBufferStoreAction;
 }
-namespace UnityEngine::Rendering {
-struct RenderTargetIdentifier;
-}
 namespace UnityEngine {
-class Material;
+class Mesh;
 }
 namespace UnityEngine {
 struct Matrix4x4;
-}
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
-}
-namespace UnityEngine {
-struct RenderTextureMemoryless;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -71,7 +71,7 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::CommandBuffer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10324))
 // CS Name: ::UnityEngine.Rendering::CommandBuffer*
 class CORDL_TYPE CommandBuffer : public ::System::Object {

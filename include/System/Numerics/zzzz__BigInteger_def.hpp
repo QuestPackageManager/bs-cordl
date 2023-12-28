@@ -9,10 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigInteger)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-template <typename T> class IComparable_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 class IFormatProvider;
@@ -21,19 +18,22 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System::Numerics {
+struct __BigInteger__GetBytesMode;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+class Object;
 }
 namespace System {
 template <typename T> struct Span_1;
-}
-namespace System::Numerics {
-struct __BigInteger__GetBytesMode;
 }
 // Forward declare root types
 namespace System::Numerics {

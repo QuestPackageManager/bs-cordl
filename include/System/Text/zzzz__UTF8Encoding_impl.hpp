@@ -3,15 +3,15 @@
 #include "System/Text/zzzz__EncoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF8Encoding_def.hpp"
-#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__UTF8Encoding_UTF8EncodingSealed_def.hpp"
-#include "System/Text/zzzz__UTF8Encoding_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
+#include "System/Text/zzzz__UTF8Encoding_UTF8EncodingSealed_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__UTF8Encoding_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 //  Writing Method size for method: ::System::Text::__UTF8Encoding__UTF8Encoder._ctor
 template <>
 
@@ -57,15 +57,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::__UTF8Encoding__UTF8Encoder::__get_surrogateChar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___surrogateChar;
 }
 constexpr int32_t const& System::Text::__UTF8Encoding__UTF8Encoder::__get_surrogateChar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___surrogateChar;
 }
 constexpr void System::Text::__UTF8Encoding__UTF8Encoder::__set_surrogateChar(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___surrogateChar = value;
 }
 inline ::System::Text::__UTF8Encoding__UTF8Encoder* System::Text::__UTF8Encoding__UTF8Encoder::New_ctor(::System::Text::UTF8Encoding* encoding) {
@@ -134,15 +134,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Text::__UTF8Encoding__UTF8Decoder::__get_bits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr int32_t const& System::Text::__UTF8Encoding__UTF8Decoder::__get_bits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bits;
 }
 constexpr void System::Text::__UTF8Encoding__UTF8Decoder::__set_bits(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bits = value;
 }
 inline ::System::Text::__UTF8Encoding__UTF8Decoder* System::Text::__UTF8Encoding__UTF8Decoder::New_ctor(::System::Text::UTF8Encoding* encoding) {
@@ -657,27 +657,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Text::UTF8Encoding::__get__emitUTF8Identifier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitUTF8Identifier;
 }
 constexpr bool const& System::Text::UTF8Encoding::__get__emitUTF8Identifier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitUTF8Identifier;
 }
 constexpr void System::Text::UTF8Encoding::__set__emitUTF8Identifier(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitUTF8Identifier = value;
 }
 constexpr bool& System::Text::UTF8Encoding::__get__isThrowException() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isThrowException;
 }
 constexpr bool const& System::Text::UTF8Encoding::__get__isThrowException() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isThrowException;
 }
 constexpr void System::Text::UTF8Encoding::__set__isThrowException(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isThrowException = value;
 }
 inline void System::Text::UTF8Encoding::setStaticF_s_default(::System::Text::__UTF8Encoding__UTF8EncodingSealed* value) {

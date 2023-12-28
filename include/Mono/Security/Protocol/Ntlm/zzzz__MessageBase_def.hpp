@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::MessageBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13767))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13767)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13765))
 // CS Name: ::Mono.Security.Protocol.Ntlm::MessageBase*
 class CORDL_TYPE MessageBase : public ::System::Object {

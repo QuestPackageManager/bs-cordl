@@ -11,9 +11,6 @@ class TextMeshProUGUI;
 namespace UnityEngine::UI {
 class Image;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace System::Text {
 class StringBuilder;
 }
@@ -22,6 +19,9 @@ class RectTransform;
 }
 namespace UnityEngine::UI {
 class Slider;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

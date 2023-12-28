@@ -69,15 +69,15 @@ constexpr Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::opera
   return static_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*>(static_cast<void*>(this));
 }
 constexpr ::System::Collections::IList*& Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::__get_lookupPowX2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookupPowX2;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::__get_lookupPowX2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookupPowX2;
 }
 constexpr void Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::__set_lookupPowX2(::System::Collections::IList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookupPowX2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x) {

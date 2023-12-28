@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorNoteVisuals)
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class NoteControllerBase;
 }
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class INoteControllerDidInitEvent;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

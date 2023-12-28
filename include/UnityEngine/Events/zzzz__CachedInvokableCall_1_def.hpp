@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__InvokableCall_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CachedInvokableCall_1)
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Object;
@@ -26,7 +26,7 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10452), inst: 3926 }), TypeDefinitionIndex(TypeDefinitionIndex(10452))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10452), inst: 3926 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10456))
 // CS Name: ::UnityEngine.Events::CachedInvokableCall`1<T>*
 class CORDL_TYPE CachedInvokableCall_1 : public ::UnityEngine::Events::InvokableCall_1<T> {

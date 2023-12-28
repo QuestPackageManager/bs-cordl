@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedKey_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedData_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::EncryptedKey.GetInstance
 template <>
 
@@ -102,27 +102,27 @@ constexpr Org::BouncyCastle::Asn1::Crmf::EncryptedKey::operator ::Org::BouncyCas
   return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedData*& Org::BouncyCastle::Asn1::Crmf::EncryptedKey::__get_envelopedData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envelopedData;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EnvelopedData*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedKey::__get_envelopedData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envelopedData;
 }
 constexpr void Org::BouncyCastle::Asn1::Crmf::EncryptedKey::__set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___envelopedData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& Org::BouncyCastle::Asn1::Crmf::EncryptedKey::__get_encryptedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptedValue;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedKey::__get_encryptedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptedValue;
 }
 constexpr void Org::BouncyCastle::Asn1::Crmf::EncryptedKey::__set_encryptedValue(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encryptedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* Org::BouncyCastle::Asn1::Crmf::EncryptedKey::GetInstance(::System::Object* o) {

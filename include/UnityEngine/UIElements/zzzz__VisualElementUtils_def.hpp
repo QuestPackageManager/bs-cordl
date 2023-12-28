@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(VisualElementUtils)
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

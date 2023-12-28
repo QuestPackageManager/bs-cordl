@@ -35,16 +35,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Ice::NoteCutFloorLightStreakTileEffectSpawner*& Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::__get__noteCutFloorLightStreakTileEffectSpawner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCutFloorLightStreakTileEffectSpawner;
 }
 constexpr ::cordl_internals::to_const_pointer<::Ice::NoteCutFloorLightStreakTileEffectSpawner*> const&
 Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::__get__noteCutFloorLightStreakTileEffectSpawner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCutFloorLightStreakTileEffectSpawner;
 }
 constexpr void Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::__set__noteCutFloorLightStreakTileEffectSpawner(::Ice::NoteCutFloorLightStreakTileEffectSpawner* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteCutFloorLightStreakTileEffectSpawner)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

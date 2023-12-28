@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Collections/zzzz__CollectionBase_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::X509ExtensionCollection._ctor
 template <>
 
@@ -83,15 +83,15 @@ constexpr Mono::Security::X509::X509ExtensionCollection::operator ::System::Coll
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 constexpr bool& Mono::Security::X509::X509ExtensionCollection::__get_readOnly() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readOnly;
 }
 constexpr bool const& Mono::Security::X509::X509ExtensionCollection::__get_readOnly() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readOnly;
 }
 constexpr void Mono::Security::X509::X509ExtensionCollection::__set_readOnly(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readOnly = value;
 }
 inline ::Mono::Security::X509::X509ExtensionCollection* Mono::Security::X509::X509ExtensionCollection::New_ctor() {

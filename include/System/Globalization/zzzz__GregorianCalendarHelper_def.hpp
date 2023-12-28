@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GregorianCalendarHelper)
 namespace System::Globalization {
-class EraInfo;
+class Calendar;
 }
 namespace System {
 struct DayOfWeek;
 }
 namespace System::Globalization {
-class Calendar;
+class EraInfo;
 }
 namespace System {
 struct DateTime;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Globalization::GregorianCalendarHelper);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3700))
 // CS Name: ::System.Globalization::GregorianCalendarHelper*
 class CORDL_TYPE GregorianCalendarHelper : public ::System::Object {

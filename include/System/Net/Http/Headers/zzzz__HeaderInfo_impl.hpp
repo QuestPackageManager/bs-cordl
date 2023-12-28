@@ -2,15 +2,15 @@
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HeaderInfo_CollectionHeaderTypeInfo_2_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HeaderInfo_CollectionHeaderTypeInfo_2_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::HeaderInfo._ctor
 template <>
 
@@ -147,51 +147,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& System::Net::Http::Headers::HeaderInfo::__get_AllowsMany() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AllowsMany;
 }
 constexpr bool const& System::Net::Http::Headers::HeaderInfo::__get_AllowsMany() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AllowsMany;
 }
 constexpr void System::Net::Http::Headers::HeaderInfo::__set_AllowsMany(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AllowsMany = value;
 }
 constexpr ::System::Net::Http::Headers::HttpHeaderKind& System::Net::Http::Headers::HeaderInfo::__get_HeaderKind() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HeaderKind;
 }
 constexpr ::System::Net::Http::Headers::HttpHeaderKind const& System::Net::Http::Headers::HeaderInfo::__get_HeaderKind() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___HeaderKind;
 }
 constexpr void System::Net::Http::Headers::HeaderInfo::__set_HeaderKind(::System::Net::Http::Headers::HttpHeaderKind value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___HeaderKind = value;
 }
 constexpr ::StringW& System::Net::Http::Headers::HeaderInfo::__get_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr ::StringW const& System::Net::Http::Headers::HeaderInfo::__get_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
 constexpr void System::Net::Http::Headers::HeaderInfo::__set_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<::System::Object*, ::StringW>*& System::Net::Http::Headers::HeaderInfo::__get__CustomToString_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CustomToString_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& System::Net::Http::Headers::HeaderInfo::__get__CustomToString_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CustomToString_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::HeaderInfo::__set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CustomToString_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::HeaderInfo::New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {

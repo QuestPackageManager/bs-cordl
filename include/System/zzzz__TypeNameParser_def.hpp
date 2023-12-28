@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeNameParser)
 namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System {
 class Type;
 }
 namespace System::Reflection {
@@ -17,12 +23,6 @@ template <typename T, typename TResult> class Func_2;
 }
 namespace System::Threading {
 struct StackCrawlMark;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 // Forward declare root types
 namespace System {

@@ -10,16 +10,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System {
-class Object;
+class ICloneable;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
@@ -27,17 +24,20 @@ class DateTimeObject;
 namespace Org::BouncyCastle::X509 {
 class AttributeCertificateHolder;
 }
-namespace System {
-class ICloneable;
+namespace Org::BouncyCastle::X509 {
+class AttributeCertificateIssuer;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

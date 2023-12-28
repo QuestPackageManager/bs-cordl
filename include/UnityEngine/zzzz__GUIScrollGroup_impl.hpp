@@ -72,147 +72,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::GUIScrollGroup::__get_calcMinWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMinWidth;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__get_calcMinWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMinWidth;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_calcMinWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___calcMinWidth = value;
 }
 constexpr float_t& UnityEngine::GUIScrollGroup::__get_calcMaxWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMaxWidth;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__get_calcMaxWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMaxWidth;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_calcMaxWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___calcMaxWidth = value;
 }
 constexpr float_t& UnityEngine::GUIScrollGroup::__get_calcMinHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMinHeight;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__get_calcMinHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMinHeight;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_calcMinHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___calcMinHeight = value;
 }
 constexpr float_t& UnityEngine::GUIScrollGroup::__get_calcMaxHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMaxHeight;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__get_calcMaxHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___calcMaxHeight;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_calcMaxHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___calcMaxHeight = value;
 }
 constexpr float_t& UnityEngine::GUIScrollGroup::__get_clientWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientWidth;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__get_clientWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientWidth;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_clientWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clientWidth = value;
 }
 constexpr float_t& UnityEngine::GUIScrollGroup::__get_clientHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientHeight;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__get_clientHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientHeight;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_clientHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clientHeight = value;
 }
 constexpr bool& UnityEngine::GUIScrollGroup::__get_allowHorizontalScroll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowHorizontalScroll;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__get_allowHorizontalScroll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowHorizontalScroll;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_allowHorizontalScroll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowHorizontalScroll = value;
 }
 constexpr bool& UnityEngine::GUIScrollGroup::__get_allowVerticalScroll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowVerticalScroll;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__get_allowVerticalScroll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowVerticalScroll;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_allowVerticalScroll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowVerticalScroll = value;
 }
 constexpr bool& UnityEngine::GUIScrollGroup::__get_needsHorizontalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needsHorizontalScrollbar;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__get_needsHorizontalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needsHorizontalScrollbar;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_needsHorizontalScrollbar(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___needsHorizontalScrollbar = value;
 }
 constexpr bool& UnityEngine::GUIScrollGroup::__get_needsVerticalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needsVerticalScrollbar;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__get_needsVerticalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___needsVerticalScrollbar;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_needsVerticalScrollbar(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___needsVerticalScrollbar = value;
 }
 constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__get_horizontalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___horizontalScrollbar;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& UnityEngine::GUIScrollGroup::__get_horizontalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___horizontalScrollbar;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_horizontalScrollbar(::UnityEngine::GUIStyle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___horizontalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__get_verticalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verticalScrollbar;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& UnityEngine::GUIScrollGroup::__get_verticalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verticalScrollbar;
 }
 constexpr void UnityEngine::GUIScrollGroup::__set_verticalScrollbar(::UnityEngine::GUIStyle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___verticalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::GUIScrollGroup* UnityEngine::GUIScrollGroup::New_ctor() {

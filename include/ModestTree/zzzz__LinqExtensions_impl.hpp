@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
@@ -32,63 +32,63 @@ template <typename T> constexpr ModestTree::__LinqExtensions___Yield_d__0_1<T>::
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 template <typename T> constexpr int32_t& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr int32_t const& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename T> constexpr T& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr T const& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__set___2__current(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr int32_t& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T> constexpr int32_t const& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename T> constexpr T& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get_item() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___item;
 }
 template <typename T> constexpr T const& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get_item() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___item;
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__set_item(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> constexpr T& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___3__item() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__item;
 }
 template <typename T> constexpr T const& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__get___3__item() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__item;
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__set___3__item(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::ModestTree::__LinqExtensions___Yield_d__0_1<T>* ModestTree::__LinqExtensions___Yield_d__0_1<T>::New_ctor(int32_t __1__state) {
@@ -201,15 +201,15 @@ template <typename T> inline T ModestTree::__LinqExtensions____c__8_1<T>::_GetDu
 // Ctor Parameters []
 template <typename T> constexpr ::ModestTree::__LinqExtensions____c__8_1<T>::__LinqExtensions____c__8_1() {}
 template <typename T> constexpr T& ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename T> constexpr T const& ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__set_value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::New_ctor() {

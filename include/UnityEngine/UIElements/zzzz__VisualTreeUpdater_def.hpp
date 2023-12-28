@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeUpdater)
 namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace UnityEngine::UIElements {
 struct VisualTreeUpdatePhase;
 }
 namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
+}
+namespace UnityEngine::UIElements {
+class __VisualTreeUpdater__UpdaterArray;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class __VisualTreeUpdater__UpdaterArray;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+class BaseVisualElementPanel;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;

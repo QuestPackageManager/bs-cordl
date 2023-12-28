@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRControllerTest)
-namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor;
-}
-namespace GlobalNamespace {
-class __OVRControllerTest____c;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class __OVRControllerTest__BoolMonitor;
 }
 namespace UnityEngine::UI {
 class Text;
 }
 namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor__BoolGenerator;
+class __OVRControllerTest____c;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __OVRControllerTest__BoolMonitor__BoolGenerator;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

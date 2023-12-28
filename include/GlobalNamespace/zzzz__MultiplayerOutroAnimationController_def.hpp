@@ -7,26 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerOutroAnimationController)
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
-class MultiplayerResultsPyramidView;
+class MultiplayerLayoutProvider;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
 }
 namespace UnityEngine {
 class GameObject;
@@ -35,13 +20,28 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class MultiplayerResultsPyramidView;
 }
 namespace UnityEngine {
 struct PropertyName;
 }
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreRingManager;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOutroAnimationController);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10159))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
 // CS Name: ::MultiplayerOutroAnimationController*
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {

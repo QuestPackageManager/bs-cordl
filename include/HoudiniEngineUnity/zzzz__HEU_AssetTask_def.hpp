@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetTask)
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_ReloadEventData;
 }
 namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
+struct __HEU_Task__TaskResult;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
@@ -28,7 +28,7 @@ namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_Task__TaskResult;
+class HEU_CookedEventData;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolSettings)
 namespace Zenject {
-class InjectTypeInfo;
+struct PoolExpandMethods;
 }
 namespace Zenject {
-struct PoolExpandMethods;
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Zenject::MemoryPoolSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10950)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11048))
 // CS Name: ::Zenject::MemoryPoolSettings*
 class CORDL_TYPE MemoryPoolSettings : public ::System::Object {

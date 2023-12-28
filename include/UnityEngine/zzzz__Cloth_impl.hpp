@@ -32,27 +32,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::Cloth::__get__useContinuousCollision_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useContinuousCollision_k__BackingField;
 }
 constexpr float_t const& UnityEngine::Cloth::__get__useContinuousCollision_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useContinuousCollision_k__BackingField;
 }
 constexpr void UnityEngine::Cloth::__set__useContinuousCollision_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useContinuousCollision_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Cloth::__get__selfCollision_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selfCollision_k__BackingField;
 }
 constexpr bool const& UnityEngine::Cloth::__get__selfCollision_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selfCollision_k__BackingField;
 }
 constexpr void UnityEngine::Cloth::__set__selfCollision_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selfCollision_k__BackingField = value;
 }
 inline void UnityEngine::Cloth::set_externalAcceleration(::UnityEngine::Vector3 value) {

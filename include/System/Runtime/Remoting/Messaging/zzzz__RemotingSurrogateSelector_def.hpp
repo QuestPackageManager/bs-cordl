@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(RemotingSurrogateSelector)
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 class ObjRefSurrogate;
@@ -21,7 +21,7 @@ namespace System::Runtime::Remoting::Messaging {
 class RemotingSurrogate;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

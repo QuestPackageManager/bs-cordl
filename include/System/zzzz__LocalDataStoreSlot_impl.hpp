@@ -72,39 +72,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::LocalDataStoreMgr*& System::LocalDataStoreSlot::__get_m_mgr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_mgr;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& System::LocalDataStoreSlot::__get_m_mgr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_mgr;
 }
 constexpr void System::LocalDataStoreSlot::__set_m_mgr(::System::LocalDataStoreMgr* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_mgr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::LocalDataStoreSlot::__get_m_slot() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_slot;
 }
 constexpr int32_t const& System::LocalDataStoreSlot::__get_m_slot() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_slot;
 }
 constexpr void System::LocalDataStoreSlot::__set_m_slot(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_slot = value;
 }
 constexpr int64_t& System::LocalDataStoreSlot::__get_m_cookie() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cookie;
 }
 constexpr int64_t const& System::LocalDataStoreSlot::__get_m_cookie() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cookie;
 }
 constexpr void System::LocalDataStoreSlot::__set_m_cookie(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cookie = value;
 }
 inline ::System::LocalDataStoreSlot* System::LocalDataStoreSlot::New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie) {

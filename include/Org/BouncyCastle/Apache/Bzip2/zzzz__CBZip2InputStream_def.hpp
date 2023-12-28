@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CBZip2InputStream)
 namespace System::IO {
+struct SeekOrigin;
+}
+namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 class CRC;
-}
-namespace System::IO {
-struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {

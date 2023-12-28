@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MqvPrivateParameters)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

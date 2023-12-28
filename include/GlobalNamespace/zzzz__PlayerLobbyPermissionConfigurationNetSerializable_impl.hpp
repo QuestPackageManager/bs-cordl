@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerLobbyPermissionConfigurationNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable.get_userId
 template <>
 
@@ -173,75 +173,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr ::StringW const& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId;
 }
 constexpr void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__set__userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__isServerOwner() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isServerOwner;
 }
 constexpr bool const& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__isServerOwner() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isServerOwner;
 }
 constexpr void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__set__isServerOwner(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isServerOwner = value;
 }
 constexpr bool& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasRecommendBeatmapsPermission() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendBeatmapsPermission;
 }
 constexpr bool const& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasRecommendBeatmapsPermission() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendBeatmapsPermission;
 }
 constexpr void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__set__hasRecommendBeatmapsPermission(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasRecommendBeatmapsPermission = value;
 }
 constexpr bool& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasRecommendGameplayModifiersPermission() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendGameplayModifiersPermission;
 }
 constexpr bool const& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasRecommendGameplayModifiersPermission() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasRecommendGameplayModifiersPermission;
 }
 constexpr void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__set__hasRecommendGameplayModifiersPermission(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasRecommendGameplayModifiersPermission = value;
 }
 constexpr bool& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasKickVotePermission() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasKickVotePermission;
 }
 constexpr bool const& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasKickVotePermission() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasKickVotePermission;
 }
 constexpr void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__set__hasKickVotePermission(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasKickVotePermission = value;
 }
 constexpr bool& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasInvitePermission() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInvitePermission;
 }
 constexpr bool const& GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__get__hasInvitePermission() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInvitePermission;
 }
 constexpr void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::__set__hasInvitePermission(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasInvitePermission = value;
 }
 inline ::StringW GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_userId() {

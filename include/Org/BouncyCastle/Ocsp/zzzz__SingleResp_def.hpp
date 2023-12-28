@@ -4,15 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 CORDL_MODULE_EXPORT(SingleResp)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
-}
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class SingleResponse;
-}
 namespace Org::BouncyCastle::Ocsp {
 class CertificateID;
 }
@@ -21,6 +12,15 @@ class X509Extensions;
 }
 namespace System {
 struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class SingleResponse;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

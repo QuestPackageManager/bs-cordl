@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Inertia)
 namespace RootMotion::FinalIK {
+class __OffsetModifier__OffsetLimits;
+}
+namespace RootMotion::FinalIK {
 class __Inertia__Body;
 }
 namespace RootMotion::FinalIK {
-class __OffsetModifier__OffsetLimits;
+class IKSolverFullBodyBiped;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
 }
 namespace GlobalNamespace {
 class __Inertia__Body__EffectorLink;

@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalCallbackWithLookupWrapper)
-namespace System {
-class IDisposable;
-}
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Type;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class IDisposable;
 }
 namespace Zenject {
 class SignalBus;
 }
 namespace System {
+struct Guid;
+}
+namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-struct Guid;
-}
-namespace System {
-class Type;
+template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
 class SignalBindingBindInfo;
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::Zenject::SignalCallbackWithLookupWrapper);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
 // CS Name: ::Zenject::SignalCallbackWithLookupWrapper*
 class CORDL_TYPE SignalCallbackWithLookupWrapper : public ::System::Object {

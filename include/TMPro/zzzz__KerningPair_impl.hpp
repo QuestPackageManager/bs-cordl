@@ -156,75 +156,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint32_t& TMPro::KerningPair::__get_m_FirstGlyph() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstGlyph;
 }
 constexpr uint32_t const& TMPro::KerningPair::__get_m_FirstGlyph() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstGlyph;
 }
 constexpr void TMPro::KerningPair::__set_m_FirstGlyph(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FirstGlyph = value;
 }
 constexpr ::TMPro::GlyphValueRecord_Legacy& TMPro::KerningPair::__get_m_FirstGlyphAdjustments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstGlyphAdjustments;
 }
 constexpr ::TMPro::GlyphValueRecord_Legacy const& TMPro::KerningPair::__get_m_FirstGlyphAdjustments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstGlyphAdjustments;
 }
 constexpr void TMPro::KerningPair::__set_m_FirstGlyphAdjustments(::TMPro::GlyphValueRecord_Legacy value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FirstGlyphAdjustments = value;
 }
 constexpr uint32_t& TMPro::KerningPair::__get_m_SecondGlyph() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SecondGlyph;
 }
 constexpr uint32_t const& TMPro::KerningPair::__get_m_SecondGlyph() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SecondGlyph;
 }
 constexpr void TMPro::KerningPair::__set_m_SecondGlyph(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SecondGlyph = value;
 }
 constexpr ::TMPro::GlyphValueRecord_Legacy& TMPro::KerningPair::__get_m_SecondGlyphAdjustments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SecondGlyphAdjustments;
 }
 constexpr ::TMPro::GlyphValueRecord_Legacy const& TMPro::KerningPair::__get_m_SecondGlyphAdjustments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SecondGlyphAdjustments;
 }
 constexpr void TMPro::KerningPair::__set_m_SecondGlyphAdjustments(::TMPro::GlyphValueRecord_Legacy value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SecondGlyphAdjustments = value;
 }
 constexpr float_t& TMPro::KerningPair::__get_xOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xOffset;
 }
 constexpr float_t const& TMPro::KerningPair::__get_xOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xOffset;
 }
 constexpr void TMPro::KerningPair::__set_xOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xOffset = value;
 }
 constexpr bool& TMPro::KerningPair::__get_m_IgnoreSpacingAdjustments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IgnoreSpacingAdjustments;
 }
 constexpr bool const& TMPro::KerningPair::__get_m_IgnoreSpacingAdjustments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IgnoreSpacingAdjustments;
 }
 constexpr void TMPro::KerningPair::__set_m_IgnoreSpacingAdjustments(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IgnoreSpacingAdjustments = value;
 }
 inline void TMPro::KerningPair::setStaticF_empty(::TMPro::KerningPair* value) {

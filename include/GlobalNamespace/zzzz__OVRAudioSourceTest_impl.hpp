@@ -41,27 +41,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& GlobalNamespace::OVRAudioSourceTest::__get_period() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___period;
 }
 constexpr float_t const& GlobalNamespace::OVRAudioSourceTest::__get_period() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___period;
 }
 constexpr void GlobalNamespace::OVRAudioSourceTest::__set_period(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___period = value;
 }
 constexpr float_t& GlobalNamespace::OVRAudioSourceTest::__get_nextActionTime() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextActionTime;
 }
 constexpr float_t const& GlobalNamespace::OVRAudioSourceTest::__get_nextActionTime() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextActionTime;
 }
 constexpr void GlobalNamespace::OVRAudioSourceTest::__set_nextActionTime(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextActionTime = value;
 }
 inline void GlobalNamespace::OVRAudioSourceTest::Start() {

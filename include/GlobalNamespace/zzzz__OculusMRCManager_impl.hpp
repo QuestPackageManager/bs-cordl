@@ -4,13 +4,13 @@
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusMRCManager_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_enableMixedReality
 template <>
 
@@ -891,380 +891,380 @@ constexpr GlobalNamespace::OculusMRCManager::operator ::GlobalNamespace::OVRMixe
   return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::OculusMRCManager::__get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::OculusMRCManager::__get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*& GlobalNamespace::OculusMRCManager::__get__instantiateMixedRealityBackgroundCameraGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityBackgroundCameraGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*> const&
 GlobalNamespace::OculusMRCManager::__get__instantiateMixedRealityBackgroundCameraGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityBackgroundCameraGameObject;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__instantiateMixedRealityBackgroundCameraGameObject(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instantiateMixedRealityBackgroundCameraGameObject)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*& GlobalNamespace::OculusMRCManager::__get__instantiateMixedRealityForegroundCameraGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityForegroundCameraGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*> const&
 GlobalNamespace::OculusMRCManager::__get__instantiateMixedRealityForegroundCameraGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityForegroundCameraGameObject;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__instantiateMixedRealityForegroundCameraGameObject(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instantiateMixedRealityForegroundCameraGameObject)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::OculusMRCManager::__get__enableMixedReality_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableMixedReality_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OculusMRCManager::__get__enableMixedReality_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enableMixedReality_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__enableMixedReality_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enableMixedReality_k__BackingField = value;
 }
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::OculusMRCManager::__get__extraHiddenLayers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraHiddenLayers_k__BackingField;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::OculusMRCManager::__get__extraHiddenLayers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraHiddenLayers_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__extraHiddenLayers_k__BackingField(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____extraHiddenLayers_k__BackingField = value;
 }
 constexpr ::UnityEngine::LayerMask& GlobalNamespace::OculusMRCManager::__get__extraVisibleLayers_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraVisibleLayers_k__BackingField;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::OculusMRCManager::__get__extraVisibleLayers_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraVisibleLayers_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__extraVisibleLayers_k__BackingField(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____extraVisibleLayers_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OculusMRCManager::__get__dynamicCullingMask_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamicCullingMask_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OculusMRCManager::__get__dynamicCullingMask_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamicCullingMask_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__dynamicCullingMask_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dynamicCullingMask_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& GlobalNamespace::OculusMRCManager::__get__compositionMethod_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compositionMethod_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& GlobalNamespace::OculusMRCManager::__get__compositionMethod_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compositionMethod_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__compositionMethod_k__BackingField(::GlobalNamespace::__OVRManager__CompositionMethod value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____compositionMethod_k__BackingField = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OculusMRCManager::__get__externalCompositionBackdropColorRift_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCompositionBackdropColorRift_k__BackingField;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OculusMRCManager::__get__externalCompositionBackdropColorRift_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCompositionBackdropColorRift_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__externalCompositionBackdropColorRift_k__BackingField(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____externalCompositionBackdropColorRift_k__BackingField = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OculusMRCManager::__get__externalCompositionBackdropColorQuest_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCompositionBackdropColorQuest_k__BackingField;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OculusMRCManager::__get__externalCompositionBackdropColorQuest_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCompositionBackdropColorQuest_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__externalCompositionBackdropColorQuest_k__BackingField(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____externalCompositionBackdropColorQuest_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__CameraDevice& GlobalNamespace::OculusMRCManager::__get__capturingCameraDevice_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capturingCameraDevice_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& GlobalNamespace::OculusMRCManager::__get__capturingCameraDevice_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capturingCameraDevice_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__capturingCameraDevice_k__BackingField(::GlobalNamespace::__OVRManager__CameraDevice value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____capturingCameraDevice_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OculusMRCManager::__get__flipCameraFrameHorizontally_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipCameraFrameHorizontally_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OculusMRCManager::__get__flipCameraFrameHorizontally_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipCameraFrameHorizontally_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__flipCameraFrameHorizontally_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flipCameraFrameHorizontally_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OculusMRCManager::__get__flipCameraFrameVertically_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipCameraFrameVertically_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OculusMRCManager::__get__flipCameraFrameVertically_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipCameraFrameVertically_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__flipCameraFrameVertically_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flipCameraFrameVertically_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__handPoseStateLatency_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handPoseStateLatency_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__handPoseStateLatency_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handPoseStateLatency_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__handPoseStateLatency_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handPoseStateLatency_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__sandwichCompositionRenderLatency_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sandwichCompositionRenderLatency_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__sandwichCompositionRenderLatency_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sandwichCompositionRenderLatency_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__sandwichCompositionRenderLatency_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sandwichCompositionRenderLatency_k__BackingField = value;
 }
 constexpr int32_t& GlobalNamespace::OculusMRCManager::__get__sandwichCompositionBufferedFrames_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sandwichCompositionBufferedFrames_k__BackingField;
 }
 constexpr int32_t const& GlobalNamespace::OculusMRCManager::__get__sandwichCompositionBufferedFrames_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sandwichCompositionBufferedFrames_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__sandwichCompositionBufferedFrames_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sandwichCompositionBufferedFrames_k__BackingField = value;
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::OculusMRCManager::__get__chromaKeyColor_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeyColor_k__BackingField;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OculusMRCManager::__get__chromaKeyColor_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeyColor_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__chromaKeyColor_k__BackingField(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chromaKeyColor_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__chromaKeySimilarity_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeySimilarity_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__chromaKeySimilarity_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeySimilarity_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__chromaKeySimilarity_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chromaKeySimilarity_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__chromaKeySmoothRange_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeySmoothRange_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__chromaKeySmoothRange_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeySmoothRange_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__chromaKeySmoothRange_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chromaKeySmoothRange_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__chromaKeySpillRange_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeySpillRange_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__chromaKeySpillRange_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chromaKeySpillRange_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__chromaKeySpillRange_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____chromaKeySpillRange_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OculusMRCManager::__get__useDynamicLighting_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useDynamicLighting_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OculusMRCManager::__get__useDynamicLighting_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useDynamicLighting_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__useDynamicLighting_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useDynamicLighting_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__DepthQuality& GlobalNamespace::OculusMRCManager::__get__depthQuality_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depthQuality_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& GlobalNamespace::OculusMRCManager::__get__depthQuality_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depthQuality_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__depthQuality_k__BackingField(::GlobalNamespace::__OVRManager__DepthQuality value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____depthQuality_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__dynamicLightingSmoothFactor_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamicLightingSmoothFactor_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__dynamicLightingSmoothFactor_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamicLightingSmoothFactor_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__dynamicLightingSmoothFactor_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dynamicLightingSmoothFactor_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__dynamicLightingDepthVariationClampingValue_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamicLightingDepthVariationClampingValue_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__dynamicLightingDepthVariationClampingValue_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dynamicLightingDepthVariationClampingValue_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__dynamicLightingDepthVariationClampingValue_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dynamicLightingDepthVariationClampingValue_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenType_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenType_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenType_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenType_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__virtualGreenScreenType_k__BackingField(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenType_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenTopY_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenTopY_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenTopY_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenTopY_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__virtualGreenScreenTopY_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenTopY_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenBottomY_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenBottomY_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenBottomY_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenBottomY_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__virtualGreenScreenBottomY_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenBottomY_k__BackingField = value;
 }
 constexpr bool& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenApplyDepthCulling_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenApplyDepthCulling_k__BackingField;
 }
 constexpr bool const& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenApplyDepthCulling_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenApplyDepthCulling_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__virtualGreenScreenApplyDepthCulling_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenApplyDepthCulling_k__BackingField = value;
 }
 constexpr float_t& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenDepthTolerance_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenDepthTolerance_k__BackingField;
 }
 constexpr float_t const& GlobalNamespace::OculusMRCManager::__get__virtualGreenScreenDepthTolerance_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenDepthTolerance_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__virtualGreenScreenDepthTolerance_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenDepthTolerance_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& GlobalNamespace::OculusMRCManager::__get__mrcActivationMode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcActivationMode_k__BackingField;
 }
 constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& GlobalNamespace::OculusMRCManager::__get__mrcActivationMode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcActivationMode_k__BackingField;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__mrcActivationMode_k__BackingField(::GlobalNamespace::__OVRManager__MrcActivationMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mrcActivationMode_k__BackingField = value;
 }
 constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& GlobalNamespace::OculusMRCManager::__get__instantiateMixedRealityCameraGameObject() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityCameraGameObject;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const&
 GlobalNamespace::OculusMRCManager::__get__instantiateMixedRealityCameraGameObject() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityCameraGameObject;
 }
 constexpr void GlobalNamespace::OculusMRCManager::__set__instantiateMixedRealityCameraGameObject(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instantiateMixedRealityCameraGameObject)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

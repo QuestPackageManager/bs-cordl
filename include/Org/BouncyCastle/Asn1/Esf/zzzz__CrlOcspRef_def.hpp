@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CrlOcspRef)
 namespace Org::BouncyCastle::Asn1::Esf {
-class OtherRevRefs;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class CrlListID;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
-class CrlListID;
+class OtherRevRefs;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class OcspListID;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {

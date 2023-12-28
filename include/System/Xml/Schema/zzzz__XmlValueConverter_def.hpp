@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlValueConverter)
 namespace System {
-class Object;
+class Type;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 struct DateTimeOffset;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
 struct DateTime;
-}
-namespace System {
-struct Decimal;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;

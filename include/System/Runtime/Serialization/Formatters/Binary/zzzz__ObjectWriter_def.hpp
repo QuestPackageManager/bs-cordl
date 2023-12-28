@@ -11,34 +11,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectWriter)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoInit;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class ObjectIDGenerator;
+class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class Queue;
+class SerStack;
 }
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterTypeStyle;
 }
-namespace System::Collections {
-class Hashtable;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoInit;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationObjectManager;
+}
+namespace System {
+class Array;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class WriteObjectInfo;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections {
+class Queue;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class InternalFE;
@@ -46,29 +43,32 @@ class InternalFE;
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System::Runtime::Serialization {
-class SerializationObjectManager;
-}
 namespace System::Runtime::Remoting::Messaging {
 class Header;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
+class NameInfo;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
 }
 namespace System::Runtime::Serialization {
-class IFormatterConverter;
+class ISurrogateSelector;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class ObjectIDGenerator;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -80,7 +80,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectWrite
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(3253))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3289))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectWriter*
 class CORDL_TYPE ObjectWriter : public ::System::Object {

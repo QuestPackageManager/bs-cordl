@@ -10,86 +10,86 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(String)
-namespace System {
-struct ParamsArray;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-struct __String__TrimType;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-class IFormatProvider;
-}
 namespace System::Collections::Generic {
-template <typename T> struct ValueListBuilder_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
-namespace System {
-class IConvertible;
-}
-namespace System {
-struct StringComparison;
-}
 namespace System::Text {
 class Encoding;
 }
-namespace System::Buffers {
-template <typename T, typename TArg> class SpanAction_2;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-struct __String__ProbabilisticMap;
-}
-namespace System {
-struct Decimal;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+struct StringComparison;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+struct __String__TrimType;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-struct StringSplitOptions;
+class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+struct ParamsArray;
 }
 namespace System::Text {
 struct NormalizationForm;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Globalization {
+struct CompareOptions;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IComparable;
+class ICloneable;
+}
+namespace System::Collections::Generic {
+template <typename T> struct ValueListBuilder_1;
+}
+namespace System::Buffers {
+template <typename T, typename TArg> class SpanAction_2;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+struct __String__ProbabilisticMap;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+struct StringSplitOptions;
 }
 // Forward declare root types
 namespace System {

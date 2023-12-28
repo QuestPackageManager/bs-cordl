@@ -1,11 +1,11 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonException_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonReaderException.get_LineNumber
 template <>
 
@@ -216,39 +216,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 constexpr int32_t& Newtonsoft::Json::JsonReaderException::__get__LineNumber_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LineNumber_k__BackingField;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonReaderException::__get__LineNumber_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LineNumber_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonReaderException::__set__LineNumber_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LineNumber_k__BackingField = value;
 }
 constexpr int32_t& Newtonsoft::Json::JsonReaderException::__get__LinePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LinePosition_k__BackingField;
 }
 constexpr int32_t const& Newtonsoft::Json::JsonReaderException::__get__LinePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____LinePosition_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonReaderException::__set__LinePosition_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LinePosition_k__BackingField = value;
 }
 constexpr ::StringW& Newtonsoft::Json::JsonReaderException::__get__Path_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Path_k__BackingField;
 }
 constexpr ::StringW const& Newtonsoft::Json::JsonReaderException::__get__Path_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Path_k__BackingField;
 }
 constexpr void Newtonsoft::Json::JsonReaderException::__set__Path_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Path_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t Newtonsoft::Json::JsonReaderException::get_LineNumber() {

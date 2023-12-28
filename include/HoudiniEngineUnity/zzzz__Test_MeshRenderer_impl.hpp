@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_MeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_MeshRenderer._ctor
 template <>
 
@@ -56,15 +56,15 @@ constexpr HoudiniEngineUnity::Test_MeshRenderer::operator ::HoudiniEngineUnity::
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::MeshRenderer*& HoudiniEngineUnity::Test_MeshRenderer::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& HoudiniEngineUnity::Test_MeshRenderer::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_MeshRenderer::__set_self(::UnityEngine::MeshRenderer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___self)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::HoudiniEngineUnity::Test_MeshRenderer* HoudiniEngineUnity::Test_MeshRenderer::New_ctor(::UnityEngine::MeshRenderer* self) {

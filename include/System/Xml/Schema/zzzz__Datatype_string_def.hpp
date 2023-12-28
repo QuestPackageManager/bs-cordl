@@ -9,32 +9,32 @@ CORDL_MODULE_EXPORT(Datatype_string)
 namespace System::Xml {
 struct XmlTokenizedType;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
+namespace System::Xml {
+class XmlNameTable;
 }
 namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System::Xml {
-class XmlNameTable;
-}
 namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+class XmlValueConverter;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

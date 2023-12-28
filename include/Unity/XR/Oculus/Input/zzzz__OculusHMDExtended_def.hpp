@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMD_def.hpp"
 CORDL_MODULE_EXPORT(OculusHMDExtended)
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {

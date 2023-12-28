@@ -7,10 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IesEngine)
 namespace Org::BouncyCastle::Crypto {
+class IBasicAgreement;
+}
+namespace Org::BouncyCastle::Crypto {
 class BufferedBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class IesParameters;
@@ -19,13 +25,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class KdfParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

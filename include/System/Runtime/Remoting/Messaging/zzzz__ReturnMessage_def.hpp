@@ -7,47 +7,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReturnMessage)
-namespace System::Collections {
-class IDictionary;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class MethodReturnDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System {
-class Object;
+class IMethodMessage;
 }
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Runtime::Remoting {
 class Identity;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IInternalMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MethodReturnDictionary;
+}
+namespace System::Runtime::Remoting::Messaging {
 class ArgInfo;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

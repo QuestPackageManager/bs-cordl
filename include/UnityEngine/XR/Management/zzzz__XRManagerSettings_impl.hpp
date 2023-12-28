@@ -4,15 +4,15 @@
 #include "UnityEngine/XR/Management/zzzz__XRLoader_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagerSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagerSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24._ctor
 template <>
 
@@ -131,55 +131,55 @@ constexpr UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d_
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr int32_t const& UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 constexpr void UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Object*& UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::XR::Management::XRManagerSettings*& UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRManagerSettings*> const&
 UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__set___4__this(::UnityEngine::XR::Management::XRManagerSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*>&
 UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*> const&
 UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void
 UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::__set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
 inline ::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24* UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24::New_ctor(int32_t __1__state) {
@@ -589,89 +589,89 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& UnityEngine::XR::Management::XRManagerSettings::__get_m_InitializationComplete() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitializationComplete;
 }
 constexpr bool const& UnityEngine::XR::Management::XRManagerSettings::__get_m_InitializationComplete() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitializationComplete;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set_m_InitializationComplete(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InitializationComplete = value;
 }
 constexpr bool& UnityEngine::XR::Management::XRManagerSettings::__get_m_RequiresSettingsUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequiresSettingsUpdate;
 }
 constexpr bool const& UnityEngine::XR::Management::XRManagerSettings::__get_m_RequiresSettingsUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RequiresSettingsUpdate;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set_m_RequiresSettingsUpdate(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RequiresSettingsUpdate = value;
 }
 constexpr bool& UnityEngine::XR::Management::XRManagerSettings::__get_m_AutomaticLoading() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutomaticLoading;
 }
 constexpr bool const& UnityEngine::XR::Management::XRManagerSettings::__get_m_AutomaticLoading() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutomaticLoading;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set_m_AutomaticLoading(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AutomaticLoading = value;
 }
 constexpr bool& UnityEngine::XR::Management::XRManagerSettings::__get_m_AutomaticRunning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutomaticRunning;
 }
 constexpr bool const& UnityEngine::XR::Management::XRManagerSettings::__get_m_AutomaticRunning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutomaticRunning;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set_m_AutomaticRunning(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AutomaticRunning = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*& UnityEngine::XR::Management::XRManagerSettings::__get_m_Loaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Loaders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*> const&
 UnityEngine::XR::Management::XRManagerSettings::__get_m_Loaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Loaders;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set_m_Loaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Loaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>*& UnityEngine::XR::Management::XRManagerSettings::__get_m_RegisteredLoaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RegisteredLoaders;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>*> const&
 UnityEngine::XR::Management::XRManagerSettings::__get_m_RegisteredLoaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RegisteredLoaders;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set_m_RegisteredLoaders(::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RegisteredLoaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::XR::Management::XRLoader*& UnityEngine::XR::Management::XRManagerSettings::__get__activeLoader_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLoader_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRLoader*> const& UnityEngine::XR::Management::XRManagerSettings::__get__activeLoader_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLoader_k__BackingField;
 }
 constexpr void UnityEngine::XR::Management::XRManagerSettings::__set__activeLoader_k__BackingField(::UnityEngine::XR::Management::XRLoader* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeLoader_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool UnityEngine::XR::Management::XRManagerSettings::get_automaticLoading() {

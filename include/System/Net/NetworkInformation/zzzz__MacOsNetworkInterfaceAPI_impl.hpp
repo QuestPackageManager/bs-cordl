@@ -50,15 +50,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::__get_AF_INET6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AF_INET6;
 }
 constexpr int32_t const& System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::__get_AF_INET6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___AF_INET6;
 }
 constexpr void System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::__set_AF_INET6(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AF_INET6 = value;
 }
 inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::New_ctor() {

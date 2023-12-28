@@ -5,20 +5,20 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Enumerator._ctor
 template <>
@@ -1406,166 +1406,166 @@ constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory::operator ::Unit
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*>(static_cast<void*>(this));
 }
 constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>*& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get__onRecordAdded_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onRecordAdded_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>*> const&
 UnityEngine::InputSystem::LowLevel::InputStateHistory::__get__onRecordAdded_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onRecordAdded_k__BackingField;
 }
 constexpr void
 UnityEngine::InputSystem::LowLevel::InputStateHistory::__set__onRecordAdded_k__BackingField(::System::Action_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onRecordAdded_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*&
 UnityEngine::InputSystem::LowLevel::InputStateHistory::__get__onShouldRecordStateChange_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onShouldRecordStateChange_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*> const&
 UnityEngine::InputSystem::LowLevel::InputStateHistory::__get__onShouldRecordStateChange_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onShouldRecordStateChange_k__BackingField;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set__onShouldRecordStateChange_k__BackingField(
     ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onShouldRecordStateChange_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*>& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_Controls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controls;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> const&
 UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_Controls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Controls;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_Controls(::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Controls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_ControlCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlCount;
 }
 constexpr int32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_ControlCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ControlCount;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_ControlCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ControlCount = value;
 }
 constexpr ::Unity::Collections::NativeArray_1<uint8_t>& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_RecordBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RecordBuffer;
 }
 constexpr ::Unity::Collections::NativeArray_1<uint8_t> const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_RecordBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RecordBuffer;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_RecordBuffer(::Unity::Collections::NativeArray_1<uint8_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RecordBuffer = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_StateSizeInBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateSizeInBytes;
 }
 constexpr int32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_StateSizeInBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateSizeInBytes;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_StateSizeInBytes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StateSizeInBytes = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_RecordCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RecordCount;
 }
 constexpr int32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_RecordCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RecordCount;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_RecordCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RecordCount = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_HistoryDepth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HistoryDepth;
 }
 constexpr int32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_HistoryDepth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HistoryDepth;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_HistoryDepth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HistoryDepth = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_ExtraMemoryPerRecord() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExtraMemoryPerRecord;
 }
 constexpr int32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_ExtraMemoryPerRecord() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExtraMemoryPerRecord;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_ExtraMemoryPerRecord(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ExtraMemoryPerRecord = value;
 }
 constexpr int32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_HeadIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeadIndex;
 }
 constexpr int32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_HeadIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeadIndex;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_HeadIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HeadIndex = value;
 }
 constexpr uint32_t& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_CurrentVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentVersion;
 }
 constexpr uint32_t const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_CurrentVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentVersion;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_CurrentVersion(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentVersion = value;
 }
 constexpr ::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_UpdateMask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateMask;
 }
 constexpr ::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType> const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_UpdateMask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateMask;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_UpdateMask(::System::Nullable_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateMask = value;
 }
 constexpr bool& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_AddNewControls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddNewControls;
 }
 constexpr bool const& UnityEngine::InputSystem::LowLevel::InputStateHistory::__get_m_AddNewControls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AddNewControls;
 }
 constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory::__set_m_AddNewControls(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AddNewControls = value;
 }
 inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory::get_Count() {

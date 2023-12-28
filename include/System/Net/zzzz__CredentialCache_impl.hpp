@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CredentialCache_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
 //  Writing Method size for method: ::System::Net::CredentialCache.get_DefaultCredentials
 template <>
 

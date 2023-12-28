@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedReflectionProbe_def.hpp"
 #include "UnityEngine/zzzz__Cubemap_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeDataSO_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BakedReflectionProbe.get_reflectionProbeData
 template <>
 
@@ -116,75 +116,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::BakedReflectionProbe::__get__resolutionBeforeDownsample() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolutionBeforeDownsample;
 }
 constexpr int32_t const& GlobalNamespace::BakedReflectionProbe::__get__resolutionBeforeDownsample() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resolutionBeforeDownsample;
 }
 constexpr void GlobalNamespace::BakedReflectionProbe::__set__resolutionBeforeDownsample(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resolutionBeforeDownsample = value;
 }
 constexpr int32_t& GlobalNamespace::BakedReflectionProbe::__get__downsampleByHalfCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsampleByHalfCount;
 }
 constexpr int32_t const& GlobalNamespace::BakedReflectionProbe::__get__downsampleByHalfCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsampleByHalfCount;
 }
 constexpr void GlobalNamespace::BakedReflectionProbe::__set__downsampleByHalfCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____downsampleByHalfCount = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BakedReflectionProbe::__get__size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____size;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BakedReflectionProbe::__get__size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____size;
 }
 constexpr void GlobalNamespace::BakedReflectionProbe::__set__size(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____size = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::BakedReflectionProbe::__get__offset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::BakedReflectionProbe::__get__offset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offset;
 }
 constexpr void GlobalNamespace::BakedReflectionProbe::__set__offset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____offset = value;
 }
 constexpr ::GlobalNamespace::ReflectionProbeDataSO*& GlobalNamespace::BakedReflectionProbe::__get__reflectionProbeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ReflectionProbeDataSO*> const& GlobalNamespace::BakedReflectionProbe::__get__reflectionProbeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionProbeData;
 }
 constexpr void GlobalNamespace::BakedReflectionProbe::__set__reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reflectionProbeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Cubemap*& GlobalNamespace::BakedReflectionProbe::__get__blackCubemap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blackCubemap;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Cubemap*> const& GlobalNamespace::BakedReflectionProbe::__get__blackCubemap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blackCubemap;
 }
 constexpr void GlobalNamespace::BakedReflectionProbe::__set__blackCubemap(::UnityEngine::Cubemap* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blackCubemap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BakedReflectionProbe::setStaticF__reflectionProbeBoundsMinPropertyId(int32_t value) {

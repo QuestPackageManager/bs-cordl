@@ -3,13 +3,13 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Store_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__StoreName_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__OpenFlags_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Store_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Stores_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Store_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__StoreName_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Store._ctor
 template <>
 
@@ -122,64 +122,64 @@ constexpr System::Security::Cryptography::X509Certificates::X509Store::operator 
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr ::StringW& System::Security::Cryptography::X509Certificates::X509Store::__get__name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr ::StringW const& System::Security::Cryptography::X509Certificates::X509Store::__get__name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Store::__set__name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation& System::Security::Cryptography::X509Certificates::X509Store::__get__location() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____location;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation const& System::Security::Cryptography::X509Certificates::X509Store::__get__location() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____location;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Store::__set__location(::System::Security::Cryptography::X509Certificates::StoreLocation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____location = value;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& System::Security::Cryptography::X509Certificates::X509Store::__get_list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const&
 System::Security::Cryptography::X509Certificates::X509Store::__get_list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Store::__set_list(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags& System::Security::Cryptography::X509Certificates::X509Store::__get__flags() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flags;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags const& System::Security::Cryptography::X509Certificates::X509Store::__get__flags() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flags;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Store::__set__flags(::System::Security::Cryptography::X509Certificates::OpenFlags value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flags = value;
 }
 constexpr ::Mono::Security::X509::X509Store*& System::Security::Cryptography::X509Certificates::X509Store::__get_store() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
 constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& System::Security::Cryptography::X509Certificates::X509Store::__get_store() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Store::__set_store(::Mono::Security::X509::X509Store* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___store)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::Cryptography::X509Certificates::X509Store*

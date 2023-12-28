@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebResponse)
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Uri;
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System::IO {
 struct FileAccess;
 }
+namespace System {
+class Uri;
+}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System::Net {
+class ICloseEx;
 }
 namespace System::Net {
 class FileWebRequest;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-struct CloseExState;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Net {
-class ICloseEx;
+struct CloseExState;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Net {

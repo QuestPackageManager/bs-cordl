@@ -1,11 +1,11 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__JSONNode_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNumber_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNodeType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::JSONNumber.get_Tag
 template <>
 
@@ -220,15 +220,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr double_t& HoudiniEngineUnity::JSONNumber::__get_m_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr double_t const& HoudiniEngineUnity::JSONNumber::__get_m_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Data;
 }
 constexpr void HoudiniEngineUnity::JSONNumber::__set_m_Data(double_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Data = value;
 }
 inline ::HoudiniEngineUnity::JSONNodeType HoudiniEngineUnity::JSONNumber::get_Tag() {

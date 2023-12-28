@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GlvEndomorphism)
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {

@@ -9,26 +9,11 @@ CORDL_MODULE_EXPORT(TlsECDHKeyExchange)
 namespace System::Collections {
 class IList;
 }
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAgreementCredentials;
@@ -36,8 +21,23 @@ class TlsAgreementCredentials;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

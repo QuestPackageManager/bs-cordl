@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11966)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11967))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11967)), TypeDefinitionIndex(TypeDefinitionIndex(11966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11970))
 // CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixCertPathValidatorException)
-namespace System {
-class Exception;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

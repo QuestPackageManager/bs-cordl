@@ -15,15 +15,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::Timeline::AudioClipProperties::__get_volume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
 constexpr float_t const& UnityEngine::Timeline::AudioClipProperties::__get_volume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volume;
 }
 constexpr void UnityEngine::Timeline::AudioClipProperties::__set_volume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___volume = value;
 }
 inline ::UnityEngine::Timeline::AudioClipProperties* UnityEngine::Timeline::AudioClipProperties::New_ctor() {

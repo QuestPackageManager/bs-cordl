@@ -2,25 +2,25 @@
 #include "GlobalNamespace/zzzz__ArcVisibilityType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteJumpStartBeatOffsetDropdown_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPresetDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightSettingsController_def.hpp"
+#include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__EventBinder_def.hpp"
+#include "GlobalNamespace/zzzz__ArcVisibilityTypeSettingsDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__EventBinder_def.hpp"
-#include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
-#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
-#include "GlobalNamespace/zzzz__ArcVisibilityTypeSettingsDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightSettingsController_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPresetDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJumpStartBeatOffsetDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout::__PlayerSettingsPanelController__PlayerSettingsPanelLayout(int32_t value__) noexcept {
   this->value__ = value__;
@@ -581,414 +581,414 @@ constexpr GlobalNamespace::PlayerSettingsPanelController::operator ::GlobalNames
   return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__leftHandedToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandedToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__leftHandedToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandedToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__leftHandedToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftHandedToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__reduceDebrisToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reduceDebrisToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__reduceDebrisToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reduceDebrisToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__reduceDebrisToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reduceDebrisToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__noTextsAndHudsToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noTextsAndHudsToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__noTextsAndHudsToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noTextsAndHudsToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__noTextsAndHudsToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noTextsAndHudsToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__advanceHudToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____advanceHudToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__advanceHudToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____advanceHudToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__advanceHudToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____advanceHudToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__autoRestartToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoRestartToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__autoRestartToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____autoRestartToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__autoRestartToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____autoRestartToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerHeightSettingsController*& GlobalNamespace::PlayerSettingsPanelController::__get__playerHeightSettingsController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightSettingsController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeightSettingsController*> const& GlobalNamespace::PlayerSettingsPanelController::__get__playerHeightSettingsController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightSettingsController;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__playerHeightSettingsController(::GlobalNamespace::PlayerHeightSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerHeightSettingsController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::PlayerSettingsPanelController::__get__playerHeightSettingsCanvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightSettingsCanvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::PlayerSettingsPanelController::__get__playerHeightSettingsCanvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerHeightSettingsCanvasGroup;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__playerHeightSettingsCanvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerHeightSettingsCanvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__automaticPlayerHeightToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____automaticPlayerHeightToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__automaticPlayerHeightToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____automaticPlayerHeightToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__automaticPlayerHeightToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____automaticPlayerHeightToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& GlobalNamespace::PlayerSettingsPanelController::__get__sfxVolumeSettingsController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxVolumeSettingsController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__sfxVolumeSettingsController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sfxVolumeSettingsController;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__sfxVolumeSettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sfxVolumeSettingsController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& GlobalNamespace::PlayerSettingsPanelController::__get__saberTrailIntensitySettingsController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberTrailIntensitySettingsController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__saberTrailIntensitySettingsController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberTrailIntensitySettingsController;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__saberTrailIntensitySettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberTrailIntensitySettingsController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpDurationTypeSettingsDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpDurationTypeSettingsDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpDurationTypeSettingsDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpDurationTypeSettingsDropdown;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__noteJumpDurationTypeSettingsDropdown(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteJumpDurationTypeSettingsDropdown)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpFixedDurationSettingsController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpFixedDurationSettingsController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpFixedDurationSettingsController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpFixedDurationSettingsController;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__noteJumpFixedDurationSettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteJumpFixedDurationSettingsController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpFixedDurationSettingsCanvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpFixedDurationSettingsCanvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpFixedDurationSettingsCanvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpFixedDurationSettingsCanvasGroup;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__noteJumpFixedDurationSettingsCanvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteJumpFixedDurationSettingsCanvasGroup)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpStartBeatOffsetDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffsetDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpStartBeatOffsetDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffsetDropdown;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__noteJumpStartBeatOffsetDropdown(::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteJumpStartBeatOffsetDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpStartBeatOffsetCanvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffsetCanvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::PlayerSettingsPanelController::__get__noteJumpStartBeatOffsetCanvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteJumpStartBeatOffsetCanvasGroup;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__noteJumpStartBeatOffsetCanvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteJumpStartBeatOffsetCanvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& GlobalNamespace::PlayerSettingsPanelController::__get__environmentEffectsFilterDefaultPresetDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentEffectsFilterDefaultPresetDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__environmentEffectsFilterDefaultPresetDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentEffectsFilterDefaultPresetDropdown;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__environmentEffectsFilterDefaultPresetDropdown(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentEffectsFilterDefaultPresetDropdown)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& GlobalNamespace::PlayerSettingsPanelController::__get__environmentEffectsFilterExpertPlusPresetDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentEffectsFilterExpertPlusPresetDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__environmentEffectsFilterExpertPlusPresetDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentEffectsFilterExpertPlusPresetDropdown;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__environmentEffectsFilterExpertPlusPresetDropdown(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentEffectsFilterExpertPlusPresetDropdown)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__hideNoteSpawnEffectToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hideNoteSpawnEffectToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__hideNoteSpawnEffectToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hideNoteSpawnEffectToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__hideNoteSpawnEffectToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hideNoteSpawnEffectToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__adaptiveSfxToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____adaptiveSfxToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__adaptiveSfxToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____adaptiveSfxToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__adaptiveSfxToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____adaptiveSfxToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& GlobalNamespace::PlayerSettingsPanelController::__get__headsetHapticIntensityController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headsetHapticIntensityController;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__headsetHapticIntensityController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____headsetHapticIntensityController;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__headsetHapticIntensityController(::GlobalNamespace::FormattedFloatListSettingsController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headsetHapticIntensityController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*& GlobalNamespace::PlayerSettingsPanelController::__get__arcsVisibilityTypeSettingsDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcsVisibilityTypeSettingsDropdown;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*> const&
 GlobalNamespace::PlayerSettingsPanelController::__get__arcsVisibilityTypeSettingsDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcsVisibilityTypeSettingsDropdown;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__arcsVisibilityTypeSettingsDropdown(::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arcsVisibilityTypeSettingsDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::PlayerSettingsPanelController::__get__arcHapticFeedbackCanvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcHapticFeedbackCanvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::PlayerSettingsPanelController::__get__arcHapticFeedbackCanvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcHapticFeedbackCanvasGroup;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__arcHapticFeedbackCanvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arcHapticFeedbackCanvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::PlayerSettingsPanelController::__get__arcsHapticFeedbackToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcsHapticFeedbackToggle;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::PlayerSettingsPanelController::__get__arcsHapticFeedbackToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcsHapticFeedbackToggle;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__arcsHapticFeedbackToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arcsHapticFeedbackToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::CanvasGroup*& GlobalNamespace::PlayerSettingsPanelController::__get__singleplayerOnlyCanvasGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singleplayerOnlyCanvasGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& GlobalNamespace::PlayerSettingsPanelController::__get__singleplayerOnlyCanvasGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____singleplayerOnlyCanvasGroup;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__singleplayerOnlyCanvasGroup(::UnityEngine::CanvasGroup* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____singleplayerOnlyCanvasGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::GameObject*& GlobalNamespace::PlayerSettingsPanelController::__get__arcVisibilityWarning() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcVisibilityWarning;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::PlayerSettingsPanelController::__get__arcVisibilityWarning() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arcVisibilityWarning;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__arcVisibilityWarning(::UnityEngine::GameObject* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arcVisibilityWarning)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::PlayerSettingsPanelController::__get_didChangePlayerSettingsEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangePlayerSettingsEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::PlayerSettingsPanelController::__get_didChangePlayerSettingsEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangePlayerSettingsEvent;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set_didChangePlayerSettingsEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangePlayerSettingsEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ArcVisibilityType& GlobalNamespace::PlayerSettingsPanelController::__get__currentArcType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentArcType;
 }
 constexpr ::GlobalNamespace::ArcVisibilityType const& GlobalNamespace::PlayerSettingsPanelController::__get__currentArcType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentArcType;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__currentArcType(::GlobalNamespace::ArcVisibilityType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentArcType = value;
 }
 constexpr ::GlobalNamespace::PlayerData*& GlobalNamespace::PlayerSettingsPanelController::__get__playerData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& GlobalNamespace::PlayerSettingsPanelController::__get__playerData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerData;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__playerData(::GlobalNamespace::PlayerData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::PlayerSettingsPanelController::__get__playerSpecificSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& GlobalNamespace::PlayerSettingsPanelController::__get__playerSpecificSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSpecificSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::HMUI::ToggleBinder*& GlobalNamespace::PlayerSettingsPanelController::__get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::PlayerSettingsPanelController::__get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::PlayerSettingsPanelController::__get__dirty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dirty;
 }
 constexpr bool const& GlobalNamespace::PlayerSettingsPanelController::__get__dirty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dirty;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__dirty(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dirty = value;
 }
 constexpr bool& GlobalNamespace::PlayerSettingsPanelController::__get__refreshed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshed;
 }
 constexpr bool const& GlobalNamespace::PlayerSettingsPanelController::__get__refreshed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refreshed;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__refreshed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____refreshed = value;
 }
 constexpr ::GlobalNamespace::EventBinder*& GlobalNamespace::PlayerSettingsPanelController::__get__eventBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventBinder;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EventBinder*> const& GlobalNamespace::PlayerSettingsPanelController::__get__eventBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventBinder;
 }
 constexpr void GlobalNamespace::PlayerSettingsPanelController::__set__eventBinder(::GlobalNamespace::EventBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::PlayerSettingsPanelController::add_didChangePlayerSettingsEvent(::System::Action* value) {

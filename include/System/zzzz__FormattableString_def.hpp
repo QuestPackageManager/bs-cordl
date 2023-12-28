@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattableString)
 namespace System {
-class IFormattable;
+class Object;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-class Object;
+class IFormattable;
 }
 // Forward declare root types
 namespace System {

@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WTauNafMultiplier)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class __WTauNafMultiplier__WTauNafCallback;
-}
-namespace Org::BouncyCastle::Math::EC::Abc {
-class ZTauElement;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mPoint;
 }
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class __WTauNafMultiplier__WTauNafCallback;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC::Abc {
+class ZTauElement;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;

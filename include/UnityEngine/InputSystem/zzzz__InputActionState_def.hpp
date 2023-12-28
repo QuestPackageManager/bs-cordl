@@ -18,53 +18,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionState)
-namespace UnityEngine::InputSystem {
-struct InputActionPhase;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
 namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem {
-class __InputActionState____c;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__UnmanagedMemory;
+class IDisposable;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
-}
-namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::InputSystem {
-class InputProcessor;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__InteractionState;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
 }
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
@@ -73,52 +31,94 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionState__GlobalState;
+template <typename TValue> class InputControl_1;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class InputBindingComposite;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-struct InputBindingResolver;
+struct InputBinding;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem {
+class __InputActionState____c;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
 }
 namespace UnityEngine::InputSystem {
 struct __InputActionState__ActionMapIndices;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionState__BindingState;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
+class InputProcessor;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::InputSystem {
-class InputBindingComposite;
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__TriggerState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__UnmanagedMemory;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__BindingState;
 }
 namespace System {
 class Action;
 }
+namespace UnityEngine::InputSystem {
+struct __InputActionState__GlobalState;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingResolver;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionChange;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__InteractionState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TDelegate> struct CallbackArray_1;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputAction__CallbackContext;
+}
 namespace System {
-class Object;
+class ICloneable;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename T> class __SavedStructState_1__TypedRestore;
@@ -126,14 +126,14 @@ template <typename T> class __SavedStructState_1__TypedRestore;
 namespace GlobalNamespace {
 struct __InputActionState__BindingState__Flags;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct InlinedArray_1;
 }
 namespace GlobalNamespace {
 struct __InputActionState__InteractionState__Flags;
@@ -1970,11 +1970,11 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 995 }), TypeDefinitionIndex(TypeDefinitionIndex(3336)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2324)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 565 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }), TypeDefinitionIndex(TypeDefinitionIndex(6140)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 995 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2324), inst: 565 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
 struct CORDL_TYPE __InputActionState__GlobalState {
 public:
   // Declarations
@@ -2077,8 +2077,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name: ::UnityEngine.InputSystem::InputActionState*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6179)), TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6536))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name: ::UnityEngine.InputSystem::InputActionState*
 class CORDL_TYPE InputActionState : public ::System::Object {
 public:
   // Declarations

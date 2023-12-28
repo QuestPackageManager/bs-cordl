@@ -9,6 +9,12 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace System::Collections::Generic {
@@ -18,13 +24,7 @@ namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionsGridView;
 }
 namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
 class LoadingControl;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

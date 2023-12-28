@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TimelineClipExtensions)
 namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace UnityEngine::Timeline {
 class TrackAsset;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

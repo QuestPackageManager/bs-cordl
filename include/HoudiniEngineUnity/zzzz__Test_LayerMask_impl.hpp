@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_LayerMask_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_LayerMask._ctor
 template <>
 
@@ -39,15 +39,15 @@ constexpr HoudiniEngineUnity::Test_LayerMask::operator ::HoudiniEngineUnity::IEq
   return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*>(static_cast<void*>(this));
 }
 constexpr ::UnityEngine::LayerMask& HoudiniEngineUnity::Test_LayerMask::__get_self() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr ::UnityEngine::LayerMask const& HoudiniEngineUnity::Test_LayerMask::__get_self() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___self;
 }
 constexpr void HoudiniEngineUnity::Test_LayerMask::__set_self(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self = value;
 }
 inline ::HoudiniEngineUnity::Test_LayerMask* HoudiniEngineUnity::Test_LayerMask::New_ctor(::UnityEngine::LayerMask self) {

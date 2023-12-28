@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Arch)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;

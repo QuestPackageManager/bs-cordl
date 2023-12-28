@@ -6,14 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQuery)
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UIElements {
+class __UQuery__IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __UQuery__IsOfType_1;
@@ -22,13 +25,10 @@ namespace UnityEngine::UIElements {
 class __UQuery__UQueryMatcher;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__IVisualPredicateWrapper;
+class __UQuery__SingleQueryMatcher;
 }
 namespace UnityEngine::UIElements {
 class __UQuery__FirstQueryMatcher;
-}
-namespace UnityEngine::UIElements {
-class __UQuery__SingleQueryMatcher;
 }
 namespace UnityEngine::UIElements {
 struct RuleMatcher;

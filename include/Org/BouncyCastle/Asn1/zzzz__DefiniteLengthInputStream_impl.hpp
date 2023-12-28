@@ -94,27 +94,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__get__originalLength() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalLength;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__get__originalLength() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalLength;
 }
 constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__set__originalLength(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalLength = value;
 }
 constexpr int32_t& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__get__remaining() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remaining;
 }
 constexpr int32_t const& Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__get__remaining() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remaining;
 }
 constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__set__remaining(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remaining = value;
 }
 inline void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

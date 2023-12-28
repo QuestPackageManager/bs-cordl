@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerSettings);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5184)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5185)) CS Name: ::MockPlayerSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5180)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5184))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5185)) CS Name: ::MockPlayerSettings*
 class CORDL_TYPE MockPlayerSettings : public ::System::Object {
 public:
   // Declarations

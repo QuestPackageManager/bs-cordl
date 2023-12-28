@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
 #include "System/Net/zzzz__HttpListenerRequest_def.hpp"
-#include "System/Net/zzzz__HttpListenerResponse_def.hpp"
 #include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
 #include "System/Net/zzzz__HttpConnection_def.hpp"
+#include "System/Net/zzzz__HttpListener_def.hpp"
+#include "System/Net/zzzz__HttpListenerResponse_def.hpp"
+#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpListenerContext._ctor
 template <>
 
@@ -162,87 +162,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Net::HttpListenerRequest*& System::Net::HttpListenerContext::__get_request() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerRequest*> const& System::Net::HttpListenerContext::__get_request() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 constexpr void System::Net::HttpListenerContext::__set_request(::System::Net::HttpListenerRequest* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___request)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpListenerResponse*& System::Net::HttpListenerContext::__get_response() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___response;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerResponse*> const& System::Net::HttpListenerContext::__get_response() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___response;
 }
 constexpr void System::Net::HttpListenerContext::__set_response(::System::Net::HttpListenerResponse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___response)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Security::Principal::IPrincipal*& System::Net::HttpListenerContext::__get_user() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___user;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& System::Net::HttpListenerContext::__get_user() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___user;
 }
 constexpr void System::Net::HttpListenerContext::__set_user(::System::Security::Principal::IPrincipal* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___user)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::HttpConnection*& System::Net::HttpListenerContext::__get_cnc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cnc;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpConnection*> const& System::Net::HttpListenerContext::__get_cnc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cnc;
 }
 constexpr void System::Net::HttpListenerContext::__set_cnc(::System::Net::HttpConnection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cnc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& System::Net::HttpListenerContext::__get_error() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
 constexpr ::StringW const& System::Net::HttpListenerContext::__get_error() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
 constexpr void System::Net::HttpListenerContext::__set_error(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___error)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& System::Net::HttpListenerContext::__get_err_status() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___err_status;
 }
 constexpr int32_t const& System::Net::HttpListenerContext::__get_err_status() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___err_status;
 }
 constexpr void System::Net::HttpListenerContext::__set_err_status(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___err_status = value;
 }
 constexpr ::System::Net::HttpListener*& System::Net::HttpListenerContext::__get_Listener() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Listener;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& System::Net::HttpListenerContext::__get_Listener() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Listener;
 }
 constexpr void System::Net::HttpListenerContext::__set_Listener(::System::Net::HttpListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Net::HttpListenerContext* System::Net::HttpListenerContext::New_ctor(::System::Net::HttpConnection* cnc) {

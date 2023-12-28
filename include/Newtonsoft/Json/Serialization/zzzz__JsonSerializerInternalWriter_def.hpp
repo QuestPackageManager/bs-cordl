@@ -9,7 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerInternalWriter)
 namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
+class JsonContract;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonContainerContract;
@@ -17,47 +20,53 @@ class JsonContainerContract;
 namespace System::Collections {
 class IDictionary;
 }
+namespace System {
+class Array;
+}
 namespace Newtonsoft::Json {
-struct DefaultValueHandling;
+class JsonConverter;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonStringContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonObjectContract;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonProperty;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonDictionaryContract;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonArrayContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonPrimitiveContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonStringContract;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
-class Array;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonObjectContract;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
-}
-namespace Newtonsoft::Json::Serialization {
 class JsonISerializableContract;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonDictionaryContract;
+class JsonArrayContract;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonSerializerProxy;
@@ -66,19 +75,10 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace Newtonsoft::Json {
-class JsonConverter;
+struct DefaultValueHandling;
 }
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-struct PreserveReferencesHandling;
+namespace Newtonsoft::Json::Serialization {
+class JsonPrimitiveContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

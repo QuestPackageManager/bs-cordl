@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseReceiver_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseReceiver.add_timelinePauseEvent
 template <>
 
@@ -71,15 +71,15 @@ constexpr GlobalNamespace::TimelinePauseReceiver::operator ::UnityEngine::Playab
   return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
 }
 constexpr ::System::Action*& GlobalNamespace::TimelinePauseReceiver::__get_timelinePauseEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timelinePauseEvent;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::TimelinePauseReceiver::__get_timelinePauseEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timelinePauseEvent;
 }
 constexpr void GlobalNamespace::TimelinePauseReceiver::__set_timelinePauseEvent(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___timelinePauseEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent(::System::Action* value) {

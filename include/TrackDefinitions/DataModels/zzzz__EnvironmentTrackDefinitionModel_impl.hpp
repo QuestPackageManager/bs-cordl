@@ -2,19 +2,19 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "TrackDefinitions/DataModels/zzzz__EventBoxGroupType_impl.hpp"
 #include "TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionModel_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionModel_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "TrackDefinitions/zzzz__EnvironmentTracksDefinitionSO_def.hpp"
+#include "TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionModel_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "TrackDefinitions/zzzz__EventTrackDefinitionSO_def.hpp"
-#include "TrackDefinitions/DataModels/zzzz__TrackToolbarType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TrackDefinitions/DataModels/zzzz__TrackToolbarType_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "TrackDefinitions/DataModels/zzzz__EventBoxGroupType_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack._ctor
 template <>
 
@@ -35,40 +35,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LightGroupSO*& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__get_lightGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const&
 TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__get_lightGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroup;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__set_lightGroup(::GlobalNamespace::LightGroupSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__get_groupName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupName;
 }
 constexpr ::StringW const& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__get_groupName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupName;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__set_groupName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::TrackDefinitions::DataModels::EventBoxGroupType& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__get_trackType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackType;
 }
 constexpr ::TrackDefinitions::DataModels::EventBoxGroupType const& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__get_trackType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackType;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack::__set_trackType(::TrackDefinitions::DataModels::EventBoxGroupType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___trackType = value;
 }
 inline ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*
@@ -111,56 +111,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::GlobalNamespace::LightGroupSO*& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_lightGroup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroup;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const&
 TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_lightGroup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroup;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__set_lightGroup(::GlobalNamespace::LightGroupSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_groupName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupName;
 }
 constexpr ::StringW const& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_groupName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupName;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__set_groupName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___groupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_tracksCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tracksCount;
 }
 constexpr int32_t const& TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_tracksCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tracksCount;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__set_tracksCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tracksCount = value;
 }
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>*&
 TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_eventBoxGroupTracks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBoxGroupTracks;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>*> const&
 TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__get_eventBoxGroupTracks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBoxGroupTracks;
 }
 constexpr void TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack::__set_eventBoxGroupTracks(
     ::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventBoxGroupTracks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*
@@ -785,149 +785,149 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::TrackDefinitions::EnvironmentTracksDefinitionSO*& TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackDefinition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackDefinition;
 }
 constexpr ::cordl_internals::to_const_pointer<::TrackDefinitions::EnvironmentTracksDefinitionSO*> const& TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackDefinition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackDefinition;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__trackDefinition(::TrackDefinitions::EnvironmentTracksDefinitionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackDefinition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__beatmapTypeToTrackInfoMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapTypeToTrackInfoMap;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__beatmapTypeToTrackInfoMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapTypeToTrackInfoMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__beatmapTypeToTrackInfoMap(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapTypeToTrackInfoMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
                                                                                                              ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackDefinitionToTrackInfoListMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackDefinitionToTrackInfoListMap;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
                                                                                                        ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackDefinitionToTrackInfoListMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackDefinitionToTrackInfoListMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__trackDefinitionToTrackInfoListMap(
     ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
                                                                                                        ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackDefinitionToTrackInfoListMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                    ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*>&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackPageToTrackInfoListMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackPageToTrackInfoListMap;
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                    ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackPageToTrackInfoListMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackPageToTrackInfoListMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__trackPageToTrackInfoListMap(
     ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
              ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackPageToTrackInfoListMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
                    ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*>&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackPageToTrackToolbarTypeMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackPageToTrackToolbarTypeMap;
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
                    ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__trackPageToTrackToolbarTypeMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackPageToTrackToolbarTypeMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__trackPageToTrackToolbarTypeMap(
     ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
              ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackPageToTrackToolbarTypeMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__visibleTrackInfos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visibleTrackInfos;
 }
 constexpr ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__visibleTrackInfos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____visibleTrackInfos;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__visibleTrackInfos(
     ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____visibleTrackInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__groupIdToPageMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupIdToPageMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__groupIdToPageMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupIdToPageMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__groupIdToPageMap(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupIdToPageMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>*&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__groupIdToTrackMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupIdToTrackMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__groupIdToTrackMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupIdToTrackMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__groupIdToTrackMap(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupIdToTrackMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t,
                                                        ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>*&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__spawnableEventBoxGroupTracksByPageMap() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnableEventBoxGroupTracksByPageMap;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
     int32_t, ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>*> const&
 TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__get__spawnableEventBoxGroupTracksByPageMap() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnableEventBoxGroupTracksByPageMap;
 }
 constexpr void TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::__set__spawnableEventBoxGroupTracksByPageMap(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>*
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spawnableEventBoxGroupTracksByPageMap)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

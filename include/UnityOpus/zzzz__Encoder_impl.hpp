@@ -4,11 +4,11 @@
 #include "UnityOpus/zzzz__NumChannels_impl.hpp"
 #include "UnityOpus/zzzz__OpusSignal_impl.hpp"
 #include "UnityOpus/zzzz__Encoder_def.hpp"
-#include "UnityOpus/zzzz__OpusSignal_def.hpp"
-#include "UnityOpus/zzzz__NumChannels_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
 #include "UnityOpus/zzzz__OpusApplication_def.hpp"
+#include "UnityOpus/zzzz__NumChannels_def.hpp"
+#include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
+#include "UnityOpus/zzzz__OpusSignal_def.hpp"
 //  Writing Method size for method: ::UnityOpus::Encoder.get_Bitrate
 template <>
 
@@ -170,75 +170,75 @@ constexpr UnityOpus::Encoder::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr int32_t& UnityOpus::Encoder::__get_bitrate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitrate;
 }
 constexpr int32_t const& UnityOpus::Encoder::__get_bitrate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bitrate;
 }
 constexpr void UnityOpus::Encoder::__set_bitrate(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bitrate = value;
 }
 constexpr int32_t& UnityOpus::Encoder::__get_complexity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexity;
 }
 constexpr int32_t const& UnityOpus::Encoder::__get_complexity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexity;
 }
 constexpr void UnityOpus::Encoder::__set_complexity(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___complexity = value;
 }
 constexpr ::UnityOpus::OpusSignal& UnityOpus::Encoder::__get_signal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signal;
 }
 constexpr ::UnityOpus::OpusSignal const& UnityOpus::Encoder::__get_signal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signal;
 }
 constexpr void UnityOpus::Encoder::__set_signal(::UnityOpus::OpusSignal value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___signal = value;
 }
 constexpr void*& UnityOpus::Encoder::__get_encoder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoder;
 }
 constexpr void* const& UnityOpus::Encoder::__get_encoder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoder;
 }
 constexpr void UnityOpus::Encoder::__set_encoder(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___encoder = value;
 }
 constexpr ::UnityOpus::NumChannels& UnityOpus::Encoder::__get_channels() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___channels;
 }
 constexpr ::UnityOpus::NumChannels const& UnityOpus::Encoder::__get_channels() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___channels;
 }
 constexpr void UnityOpus::Encoder::__set_channels(::UnityOpus::NumChannels value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___channels = value;
 }
 constexpr bool& UnityOpus::Encoder::__get_disposedValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposedValue;
 }
 constexpr bool const& UnityOpus::Encoder::__get_disposedValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposedValue;
 }
 constexpr void UnityOpus::Encoder::__set_disposedValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposedValue = value;
 }
 inline int32_t UnityOpus::Encoder::get_Bitrate() {

@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MovementBeatmapEventEffect)
-namespace GlobalNamespace {
-class __MovementBeatmapEventEffect__MovementData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class __MovementBeatmapEventEffect__MovementData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MovementBeatmapEventEffect__MovementData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4988))
 // CS Name: ::MovementBeatmapEventEffect::MovementData*
 class CORDL_TYPE __MovementBeatmapEventEffect__MovementData : public ::System::Object {
@@ -94,7 +94,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MovementBeatm
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4989))
 // CS Name: ::MovementBeatmapEventEffect*
 class CORDL_TYPE MovementBeatmapEventEffect : public ::UnityEngine::MonoBehaviour {

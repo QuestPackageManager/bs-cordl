@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GuiRenderableManager)
 namespace Zenject {
-class __GuiRenderableManager____c__DisplayClass1_0;
-}
-namespace Zenject {
-class IGuiRenderable;
-}
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
 class __GuiRenderableManager____c;
-}
-namespace Zenject {
-class __GuiRenderableManager__RenderableInfo;
 }
 namespace System {
 class Type;
 }
+namespace System {
+class Object;
+}
+namespace Zenject {
+class __GuiRenderableManager__RenderableInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
+}
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class IGuiRenderable;
+}
+namespace Zenject {
+class __GuiRenderableManager____c__DisplayClass1_0;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

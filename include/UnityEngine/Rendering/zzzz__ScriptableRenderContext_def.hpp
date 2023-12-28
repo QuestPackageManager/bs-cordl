@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(ScriptableRenderContext)
 namespace UnityEngine {
 class Camera;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Type;
 }
 namespace System {
-class Type;
+template <typename T> class IEquatable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ScriptableRenderContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10356)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10356))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10360))
 // CS Name: ::UnityEngine.Rendering::ScriptableRenderContext
 struct CORDL_TYPE ScriptableRenderContext {

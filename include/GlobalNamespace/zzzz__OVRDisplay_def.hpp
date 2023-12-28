@@ -10,8 +10,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDisplay)
-namespace GlobalNamespace {
-struct __OVRDisplay__LatencyData;
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -20,13 +20,13 @@ namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
+struct __OVRDisplay__EyeRenderDesc;
+}
+namespace GlobalNamespace {
 struct __OVRDisplay__EyeFov;
 }
 namespace GlobalNamespace {
-struct __OVRDisplay__EyeRenderDesc;
-}
-namespace System {
-class Action;
+struct __OVRDisplay__LatencyData;
 }
 namespace UnityEngine {
 struct Vector2;

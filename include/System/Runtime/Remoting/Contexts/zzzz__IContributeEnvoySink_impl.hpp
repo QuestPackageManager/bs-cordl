@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Contexts/zzzz__IContributeEnvoySink_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::IContributeEnvoySink.GetEnvoySink
 template <>
 

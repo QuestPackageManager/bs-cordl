@@ -37,15 +37,15 @@ constexpr System::Runtime::Remoting::EnvoyInfo::operator ::System::Runtime::Remo
   return static_cast<::System::Runtime::Remoting::IEnvoyInfo*>(static_cast<void*>(this));
 }
 constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::EnvoyInfo::__get_envoySinks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envoySinks;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& System::Runtime::Remoting::EnvoyInfo::__get_envoySinks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envoySinks;
 }
 constexpr void System::Runtime::Remoting::EnvoyInfo::__set_envoySinks(::System::Runtime::Remoting::Messaging::IMessageSink* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___envoySinks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::EnvoyInfo* System::Runtime::Remoting::EnvoyInfo::New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks) {

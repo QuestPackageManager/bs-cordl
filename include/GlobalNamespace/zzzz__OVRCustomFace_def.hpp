@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCustomFace)
 namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpression;
+struct __OVRCustomFace__RetargetingType;
 }
 namespace GlobalNamespace {
-struct __OVRCustomFace__RetargetingType;
+struct __OVRFaceExpressions__FaceExpression;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;

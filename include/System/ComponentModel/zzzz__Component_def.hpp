@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Component)
 namespace System::ComponentModel {
-class EventHandlerList;
-}
-namespace System {
-class Type;
+class IComponent;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::ComponentModel {
-class IComponent;
-}
 namespace System {
 class Object;
+}
+namespace System::ComponentModel {
+class EventHandlerList;
+}
+namespace System {
+class Type;
 }
 namespace System::ComponentModel {
 class ISite;

@@ -1,32 +1,32 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_2_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
 template <typename T0, typename T1> constexpr ::GlobalNamespace::LazyCopyHashSet_1<T1>*& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__get__activeItems() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeItems;
 }
 template <typename T0, typename T1>
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T1>*> const& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__get__activeItems() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeItems;
 }
 template <typename T0, typename T1> constexpr void GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T1>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T0, typename T1> constexpr ::Zenject::IMemoryPool_1<T0>*& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__get__memoryPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memoryPool;
 }
 template <typename T0, typename T1> constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T0>*> const& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__get__memoryPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memoryPool;
 }
 template <typename T0, typename T1> constexpr void GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__set__memoryPool(::Zenject::IMemoryPool_1<T0>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____memoryPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T0, typename T1> inline ::System::Collections::Generic::List_1<T1>* GlobalNamespace::MemoryPoolContainer_2<T0, T1>::get_activeItems() {

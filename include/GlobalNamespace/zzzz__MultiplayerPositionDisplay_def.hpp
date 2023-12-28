@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(MultiplayerPositionDisplay)
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;
 }
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class IConnectedPlayer;
 }
 namespace TMPro {
 class TextMeshPro;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionDisplay);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5240))
 // CS Name: ::MultiplayerPositionDisplay*
 class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {

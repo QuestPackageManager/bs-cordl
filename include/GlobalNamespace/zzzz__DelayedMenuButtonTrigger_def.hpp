@@ -9,13 +9,13 @@ namespace Zenject {
 class ITickable;
 }
 namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
-namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
 }
 // Forward declare root types
 namespace GlobalNamespace {

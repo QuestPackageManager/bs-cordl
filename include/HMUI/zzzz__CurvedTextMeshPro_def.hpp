@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CurvedTextMeshPro)
 namespace UnityEngine {
-struct Color32;
+class Mesh;
+}
+namespace HMUI {
+struct __CurvedTextMeshPro__CurvedMeshInfo;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace HMUI {
 class CurvedCanvasSettingsHelper;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace GlobalNamespace {
-class ColorSO;
-}
-namespace UnityEngine {
-struct Color;
+struct Color32;
 }
 namespace GlobalNamespace {
 class IComponentRefresher;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HMUI {
-struct __CurvedTextMeshPro__CurvedMeshInfo;
+namespace GlobalNamespace {
+class ColorSO;
 }
 // Forward declare root types
 namespace HMUI {

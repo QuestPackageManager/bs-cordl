@@ -9,32 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EditAvatarFlowCoordinatorHelper)
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
-}
-namespace GlobalNamespace {
-class AvatarSystemSelectionFlowCoordinator;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper__FinishAction;
-}
-namespace HMUI {
-class FlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarSystemCollection;
@@ -43,10 +19,34 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__EditMode;
+class IAvatarSystemMetadata;
+}
+namespace GlobalNamespace {
+struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+}
+namespace HMUI {
+class FlowCoordinator;
+}
+namespace GlobalNamespace {
+struct __EditAvatarFlowCoordinatorHelper__FinishAction;
+}
+namespace GlobalNamespace {
+class AvatarSystemSelectionFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
+}
+namespace GlobalNamespace {
+struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
+}
+namespace GlobalNamespace {
+struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__EditMode;
 }
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__FinishAction;
@@ -197,9 +197,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15172))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5492)) CS Name:
-// ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15172))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5492)) CS Name: ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
 struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Initialize_d__13 {
 public:
   // Declarations

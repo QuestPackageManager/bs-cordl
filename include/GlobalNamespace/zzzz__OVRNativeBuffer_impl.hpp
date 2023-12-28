@@ -131,39 +131,39 @@ constexpr GlobalNamespace::OVRNativeBuffer::operator ::System::IDisposable*() no
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 constexpr bool& GlobalNamespace::OVRNativeBuffer::__get_disposed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr bool const& GlobalNamespace::OVRNativeBuffer::__get_disposed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
 constexpr void GlobalNamespace::OVRNativeBuffer::__set_disposed(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
 constexpr int32_t& GlobalNamespace::OVRNativeBuffer::__get_m_numBytes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numBytes;
 }
 constexpr int32_t const& GlobalNamespace::OVRNativeBuffer::__get_m_numBytes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_numBytes;
 }
 constexpr void GlobalNamespace::OVRNativeBuffer::__set_m_numBytes(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_numBytes = value;
 }
 constexpr void*& GlobalNamespace::OVRNativeBuffer::__get_m_ptr() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ptr;
 }
 constexpr void* const& GlobalNamespace::OVRNativeBuffer::__get_m_ptr() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ptr;
 }
 constexpr void GlobalNamespace::OVRNativeBuffer::__set_m_ptr(void* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ptr = value;
 }
 inline ::GlobalNamespace::OVRNativeBuffer* GlobalNamespace::OVRNativeBuffer::New_ctor(int32_t numBytes) {

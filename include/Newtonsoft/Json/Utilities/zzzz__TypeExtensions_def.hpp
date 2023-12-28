@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeExtensions)
 namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
 struct MemberTypes;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System::Reflection {
 class MethodInfo;

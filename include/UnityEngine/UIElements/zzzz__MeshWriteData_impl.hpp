@@ -4,8 +4,8 @@
 #include "UnityEngine/UIElements/zzzz__Vertex_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshWriteData._ctor
 template <>
@@ -155,63 +155,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& UnityEngine::UIElements::MeshWriteData::__get_m_Vertices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Vertices;
 }
 constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& UnityEngine::UIElements::MeshWriteData::__get_m_Vertices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Vertices;
 }
 constexpr void UnityEngine::UIElements::MeshWriteData::__set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Vertices = value;
 }
 constexpr ::Unity::Collections::NativeSlice_1<uint16_t>& UnityEngine::UIElements::MeshWriteData::__get_m_Indices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Indices;
 }
 constexpr ::Unity::Collections::NativeSlice_1<uint16_t> const& UnityEngine::UIElements::MeshWriteData::__get_m_Indices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Indices;
 }
 constexpr void UnityEngine::UIElements::MeshWriteData::__set_m_Indices(::Unity::Collections::NativeSlice_1<uint16_t> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Indices = value;
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UIElements::MeshWriteData::__get_m_UVRegion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UVRegion;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::MeshWriteData::__get_m_UVRegion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UVRegion;
 }
 constexpr void UnityEngine::UIElements::MeshWriteData::__set_m_UVRegion(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UVRegion = value;
 }
 constexpr int32_t& UnityEngine::UIElements::MeshWriteData::__get_currentIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentIndex;
 }
 constexpr int32_t const& UnityEngine::UIElements::MeshWriteData::__get_currentIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentIndex;
 }
 constexpr void UnityEngine::UIElements::MeshWriteData::__set_currentIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentIndex = value;
 }
 constexpr int32_t& UnityEngine::UIElements::MeshWriteData::__get_currentVertex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentVertex;
 }
 constexpr int32_t const& UnityEngine::UIElements::MeshWriteData::__get_currentVertex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentVertex;
 }
 constexpr void UnityEngine::UIElements::MeshWriteData::__set_currentVertex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentVertex = value;
 }
 inline ::UnityEngine::UIElements::MeshWriteData* UnityEngine::UIElements::MeshWriteData::New_ctor() {

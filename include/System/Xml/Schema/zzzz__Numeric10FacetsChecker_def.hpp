@@ -11,7 +11,7 @@ namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+class XmlValueConverter;
 }
 namespace System {
 struct Decimal;
@@ -19,11 +19,11 @@ struct Decimal;
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

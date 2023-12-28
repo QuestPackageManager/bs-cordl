@@ -8,26 +8,26 @@ CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_4)
 namespace System {
 struct Guid;
 }
-namespace System {
-class Object;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class IValidatable;
 }
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectContext;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,7 +41,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4843 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4843 }), TypeDefinitionIndex(TypeDefinitionIndex(11219))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11222))
 // CS Name: ::Zenject::PoolableMemoryPoolProvider`4<TParam1,TParam2,TContract,TMemoryPool>*
 class CORDL_TYPE PoolableMemoryPoolProvider_4 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {

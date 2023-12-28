@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(CrossAppDomainChannel)
 namespace System {
 class Object;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Runtime::Remoting::Channels {
-class IChannel;
+class IChannelSender;
 }
 namespace System::Runtime::Remoting::Channels {
 class IChannelReceiver;
 }
 namespace System::Runtime::Remoting::Channels {
-class IChannelSender;
+class IChannel;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

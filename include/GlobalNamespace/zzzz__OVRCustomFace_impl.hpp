@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__OVRCustomFace_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRFace_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomFace_def.hpp"
-#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomFace_def.hpp"
+#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__OVRCustomFace__RetargetingType::__OVRCustomFace__RetargetingType(int32_t value__) noexcept {
@@ -159,41 +159,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*>& GlobalNamespace::OVRCustomFace::__get__mappings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mappings;
 }
 constexpr ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> const&
 GlobalNamespace::OVRCustomFace::__get__mappings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mappings;
 }
 constexpr void
 GlobalNamespace::OVRCustomFace::__set__mappings(::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mappings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__OVRCustomFace__RetargetingType& GlobalNamespace::OVRCustomFace::__get_retargetingType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___retargetingType;
 }
 constexpr ::GlobalNamespace::__OVRCustomFace__RetargetingType const& GlobalNamespace::OVRCustomFace::__get_retargetingType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___retargetingType;
 }
 constexpr void GlobalNamespace::OVRCustomFace::__set_retargetingType(::GlobalNamespace::__OVRCustomFace__RetargetingType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___retargetingType = value;
 }
 constexpr bool& GlobalNamespace::OVRCustomFace::__get__allowDuplicateMapping() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowDuplicateMapping;
 }
 constexpr bool const& GlobalNamespace::OVRCustomFace::__get__allowDuplicateMapping() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allowDuplicateMapping;
 }
 constexpr void GlobalNamespace::OVRCustomFace::__set__allowDuplicateMapping(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allowDuplicateMapping = value;
 }
 inline ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> GlobalNamespace::OVRCustomFace::get_Mappings() {

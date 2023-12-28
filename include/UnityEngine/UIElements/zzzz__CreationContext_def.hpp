@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreationContext)
 namespace System {
-class Object;
-}
-namespace UnityEngine::UIElements {
-class VisualTreeAsset;
-}
-namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UIElements {
-struct __TemplateAsset__AttributeOverride;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class VisualTreeAsset;
+}
+namespace UnityEngine::UIElements {
+struct __TemplateAsset__AttributeOverride;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

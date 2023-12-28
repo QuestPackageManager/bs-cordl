@@ -21,51 +21,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr float_t& UnityEngine::ProBuilder::RaycastHit::__get_distance() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr float_t const& UnityEngine::ProBuilder::RaycastHit::__get_distance() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distance;
 }
 constexpr void UnityEngine::ProBuilder::RaycastHit::__set_distance(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distance = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::RaycastHit::__get_point() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___point;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::RaycastHit::__get_point() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___point;
 }
 constexpr void UnityEngine::ProBuilder::RaycastHit::__set_point(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___point = value;
 }
 constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::RaycastHit::__get_normal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normal;
 }
 constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::RaycastHit::__get_normal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normal;
 }
 constexpr void UnityEngine::ProBuilder::RaycastHit::__set_normal(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___normal = value;
 }
 constexpr int32_t& UnityEngine::ProBuilder::RaycastHit::__get_face() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___face;
 }
 constexpr int32_t const& UnityEngine::ProBuilder::RaycastHit::__get_face() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___face;
 }
 constexpr void UnityEngine::ProBuilder::RaycastHit::__set_face(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___face = value;
 }
 inline ::UnityEngine::ProBuilder::RaycastHit* UnityEngine::ProBuilder::RaycastHit::New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face) {

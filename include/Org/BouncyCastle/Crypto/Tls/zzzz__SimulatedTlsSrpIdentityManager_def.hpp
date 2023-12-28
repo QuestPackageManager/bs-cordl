@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimulatedTlsSrpIdentityManager)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crypto::Agreement::Srp {
+class Srp6VerifierGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpIdentityManager;
 }
-namespace Org::BouncyCastle::Crypto::Agreement::Srp {
-class Srp6VerifierGenerator;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -1,23 +1,23 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
 template <typename T, typename U> constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__get_parser() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
 template <typename T, typename U>
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::TryParseDelegate_1<T>*> const& System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__get_parser() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
 template <typename T, typename U> constexpr void System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T, typename U>

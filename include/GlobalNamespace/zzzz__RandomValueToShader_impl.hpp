@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& GlobalNamespace::RandomValueToShader::__get__lastFrameNum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameNum;
 }
 constexpr int32_t const& GlobalNamespace::RandomValueToShader::__get__lastFrameNum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastFrameNum;
 }
 constexpr void GlobalNamespace::RandomValueToShader::__set__lastFrameNum(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastFrameNum = value;
 }
 inline void GlobalNamespace::RandomValueToShader::setStaticF__randomValueID(int32_t value) {

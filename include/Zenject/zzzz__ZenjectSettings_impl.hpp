@@ -5,12 +5,12 @@
 #include "Zenject/zzzz__SignalMissingHandlerResponses_impl.hpp"
 #include "Zenject/zzzz__ValidationErrorResponses_impl.hpp"
 #include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__ValidationErrorResponses_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__RootResolveMethods_def.hpp"
+#include "Zenject/zzzz__SignalDefaultSyncModes_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__SignalDefaultSyncModes_def.hpp"
 #include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 //  Writing Method size for method: ::Zenject::__ZenjectSettings__SignalSettings._ctor
 template <>
@@ -127,51 +127,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::SignalDefaultSyncModes& Zenject::__ZenjectSettings__SignalSettings::__get__defaultSyncMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSyncMode;
 }
 constexpr ::Zenject::SignalDefaultSyncModes const& Zenject::__ZenjectSettings__SignalSettings::__get__defaultSyncMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSyncMode;
 }
 constexpr void Zenject::__ZenjectSettings__SignalSettings::__set__defaultSyncMode(::Zenject::SignalDefaultSyncModes value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultSyncMode = value;
 }
 constexpr ::Zenject::SignalMissingHandlerResponses& Zenject::__ZenjectSettings__SignalSettings::__get__missingHandlerDefaultResponse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missingHandlerDefaultResponse;
 }
 constexpr ::Zenject::SignalMissingHandlerResponses const& Zenject::__ZenjectSettings__SignalSettings::__get__missingHandlerDefaultResponse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missingHandlerDefaultResponse;
 }
 constexpr void Zenject::__ZenjectSettings__SignalSettings::__set__missingHandlerDefaultResponse(::Zenject::SignalMissingHandlerResponses value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missingHandlerDefaultResponse = value;
 }
 constexpr bool& Zenject::__ZenjectSettings__SignalSettings::__get__requireStrictUnsubscribe() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requireStrictUnsubscribe;
 }
 constexpr bool const& Zenject::__ZenjectSettings__SignalSettings::__get__requireStrictUnsubscribe() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____requireStrictUnsubscribe;
 }
 constexpr void Zenject::__ZenjectSettings__SignalSettings::__set__requireStrictUnsubscribe(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____requireStrictUnsubscribe = value;
 }
 constexpr int32_t& Zenject::__ZenjectSettings__SignalSettings::__get__defaultAsyncTickPriority() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAsyncTickPriority;
 }
 constexpr int32_t const& Zenject::__ZenjectSettings__SignalSettings::__get__defaultAsyncTickPriority() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultAsyncTickPriority;
 }
 constexpr void Zenject::__ZenjectSettings__SignalSettings::__set__defaultAsyncTickPriority(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultAsyncTickPriority = value;
 }
 inline void Zenject::__ZenjectSettings__SignalSettings::setStaticF_Default(::Zenject::__ZenjectSettings__SignalSettings* value) {
@@ -346,63 +346,63 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr bool& Zenject::ZenjectSettings::__get__ensureDeterministicDestructionOrderOnApplicationQuit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ensureDeterministicDestructionOrderOnApplicationQuit;
 }
 constexpr bool const& Zenject::ZenjectSettings::__get__ensureDeterministicDestructionOrderOnApplicationQuit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ensureDeterministicDestructionOrderOnApplicationQuit;
 }
 constexpr void Zenject::ZenjectSettings::__set__ensureDeterministicDestructionOrderOnApplicationQuit(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ensureDeterministicDestructionOrderOnApplicationQuit = value;
 }
 constexpr bool& Zenject::ZenjectSettings::__get__displayWarningWhenResolvingDuringInstall() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayWarningWhenResolvingDuringInstall;
 }
 constexpr bool const& Zenject::ZenjectSettings::__get__displayWarningWhenResolvingDuringInstall() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____displayWarningWhenResolvingDuringInstall;
 }
 constexpr void Zenject::ZenjectSettings::__set__displayWarningWhenResolvingDuringInstall(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____displayWarningWhenResolvingDuringInstall = value;
 }
 constexpr ::Zenject::RootResolveMethods& Zenject::ZenjectSettings::__get__validationRootResolveMethod() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validationRootResolveMethod;
 }
 constexpr ::Zenject::RootResolveMethods const& Zenject::ZenjectSettings::__get__validationRootResolveMethod() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validationRootResolveMethod;
 }
 constexpr void Zenject::ZenjectSettings::__set__validationRootResolveMethod(::Zenject::RootResolveMethods value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____validationRootResolveMethod = value;
 }
 constexpr ::Zenject::ValidationErrorResponses& Zenject::ZenjectSettings::__get__validationErrorResponse() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validationErrorResponse;
 }
 constexpr ::Zenject::ValidationErrorResponses const& Zenject::ZenjectSettings::__get__validationErrorResponse() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____validationErrorResponse;
 }
 constexpr void Zenject::ZenjectSettings::__set__validationErrorResponse(::Zenject::ValidationErrorResponses value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____validationErrorResponse = value;
 }
 constexpr ::Zenject::__ZenjectSettings__SignalSettings*& Zenject::ZenjectSettings::__get__signalSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signalSettings;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& Zenject::ZenjectSettings::__get__signalSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____signalSettings;
 }
 constexpr void Zenject::ZenjectSettings::__set__signalSettings(::Zenject::__ZenjectSettings__SignalSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signalSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Zenject::ZenjectSettings::setStaticF_Default(::Zenject::ZenjectSettings* value) {

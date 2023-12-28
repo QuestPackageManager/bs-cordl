@@ -94,28 +94,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr uint8_t& System::Security::AccessControl::RawAcl::__get_revision() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revision;
 }
 constexpr uint8_t const& System::Security::AccessControl::RawAcl::__get_revision() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revision;
 }
 constexpr void System::Security::AccessControl::RawAcl::__set_revision(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___revision = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*& System::Security::AccessControl::RawAcl::__get_list() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*> const&
 System::Security::AccessControl::RawAcl::__get_list() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
 constexpr void System::Security::AccessControl::RawAcl::__set_list(::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Security::AccessControl::RawAcl* System::Security::AccessControl::RawAcl::New_ctor(uint8_t revision, int32_t capacity) {

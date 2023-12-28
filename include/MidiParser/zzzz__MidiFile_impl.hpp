@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "MidiParser/zzzz__MidiFile_def.hpp"
-#include "MidiParser/zzzz__MidiTrack_def.hpp"
 #include "MidiParser/zzzz__MidiFile_def.hpp"
+#include "MidiParser/zzzz__MidiTrack_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::MidiParser::__MidiFile__Reader.Read16
 template <>
@@ -202,51 +202,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr int32_t& MidiParser::MidiFile::__get_format() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr int32_t const& MidiParser::MidiFile::__get_format() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
 constexpr void MidiParser::MidiFile::__set_format(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___format = value;
 }
 constexpr int32_t& MidiParser::MidiFile::__get_ticksPerQuarterNote() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ticksPerQuarterNote;
 }
 constexpr int32_t const& MidiParser::MidiFile::__get_ticksPerQuarterNote() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ticksPerQuarterNote;
 }
 constexpr void MidiParser::MidiFile::__set_ticksPerQuarterNote(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ticksPerQuarterNote = value;
 }
 constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*>& MidiParser::MidiFile::__get_tracks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tracks;
 }
 constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> const& MidiParser::MidiFile::__get_tracks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tracks;
 }
 constexpr void MidiParser::MidiFile::__set_tracks(::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tracks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& MidiParser::MidiFile::__get_tracksCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tracksCount;
 }
 constexpr int32_t const& MidiParser::MidiFile::__get_tracksCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tracksCount;
 }
 constexpr void MidiParser::MidiFile::__set_tracksCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tracksCount = value;
 }
 inline ::MidiParser::MidiFile* MidiParser::MidiFile::New_ctor(::StringW path) {

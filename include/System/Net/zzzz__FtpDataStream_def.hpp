@@ -6,20 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpDataStream)
-namespace System::Net {
-class FtpWebRequest;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
 struct CloseExState;
-}
-namespace System {
-class Object;
 }
 namespace System::Net {
 class ICloseEx;
@@ -31,7 +22,16 @@ namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
+class FtpWebRequest;
+}
+namespace System::Net {
 struct TriState;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {

@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PolicyMappings)
 namespace System::Collections {
-class IDictionary;
+class Hashtable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System::Collections {
-class Hashtable;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

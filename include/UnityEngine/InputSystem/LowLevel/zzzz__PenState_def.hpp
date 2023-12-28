@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(PenState)
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
+namespace UnityEngine::InputSystem {
+struct PenButton;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::InputSystem {
-struct PenButton;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

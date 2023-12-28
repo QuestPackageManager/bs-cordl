@@ -66,39 +66,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__get__levelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr ::StringW const& GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__get__levelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelId;
 }
 constexpr void GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__set__levelId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__get__perceivedLoudness() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perceivedLoudness;
 }
 constexpr float_t const& GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__get__perceivedLoudness() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perceivedLoudness;
 }
 constexpr void GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__set__perceivedLoudness(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____perceivedLoudness = value;
 }
 constexpr ::StringW& GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__get__checkSum() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkSum;
 }
 constexpr ::StringW const& GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__get__checkSum() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____checkSum;
 }
 constexpr void GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::__set__checkSum(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____checkSum)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::get_levelId() {
@@ -179,17 +179,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 constexpr ::ArrayW<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>*>&
 GlobalNamespace::PerceivedLoudnessPerLevelSO::__get_perceivedLoudnessPerLevel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___perceivedLoudnessPerLevel;
 }
 constexpr ::ArrayW<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>*> const&
 GlobalNamespace::PerceivedLoudnessPerLevelSO::__get_perceivedLoudnessPerLevel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___perceivedLoudnessPerLevel;
 }
 constexpr void GlobalNamespace::PerceivedLoudnessPerLevelSO::__set_perceivedLoudnessPerLevel(
     ::ArrayW<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___perceivedLoudnessPerLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>*

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeInfoAtom_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathDocument_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodePageInfo_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathDocument_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathNodeInfoAtom.get_PageInfo
 template <>
@@ -103,87 +103,87 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__localName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localName;
 }
 constexpr ::StringW const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__localName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localName;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__localName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__namespaceUri() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namespaceUri;
 }
 constexpr ::StringW const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__namespaceUri() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namespaceUri;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__namespaceUri(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namespaceUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__prefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefix;
 }
 constexpr ::StringW const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__prefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefix;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__prefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__pageParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageParent;
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__pageParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageParent;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__pageSibling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageSibling;
 }
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__pageSibling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageSibling;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__pageSibling(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageSibling)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Xml::XPath::XPathDocument*& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__doc() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doc;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Xml::XPath::XPathDocument*> const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__doc() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doc;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__doc(::System::Xml::XPath::XPathDocument* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____doc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo*& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__pageInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageInfo;
 }
 constexpr ::cordl_internals::to_const_pointer<::MS::Internal::Xml::Cache::XPathNodePageInfo*> const& MS::Internal::Xml::Cache::XPathNodeInfoAtom::__get__pageInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageInfo;
 }
 constexpr void MS::Internal::Xml::Cache::XPathNodeInfoAtom::__set__pageInfo(::MS::Internal::Xml::Cache::XPathNodePageInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_PageInfo() {

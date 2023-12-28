@@ -90,27 +90,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::StringW& JetBrains::Annotations::ContractAnnotationAttribute::__get__Contract_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Contract_k__BackingField;
 }
 constexpr ::StringW const& JetBrains::Annotations::ContractAnnotationAttribute::__get__Contract_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Contract_k__BackingField;
 }
 constexpr void JetBrains::Annotations::ContractAnnotationAttribute::__set__Contract_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Contract_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& JetBrains::Annotations::ContractAnnotationAttribute::__get__ForceFullStates_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ForceFullStates_k__BackingField;
 }
 constexpr bool const& JetBrains::Annotations::ContractAnnotationAttribute::__get__ForceFullStates_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ForceFullStates_k__BackingField;
 }
 constexpr void JetBrains::Annotations::ContractAnnotationAttribute::__set__ForceFullStates_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ForceFullStates_k__BackingField = value;
 }
 inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract) {

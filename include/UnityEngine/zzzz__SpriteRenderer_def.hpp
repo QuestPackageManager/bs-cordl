@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SpriteRenderer)
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
 namespace UnityEngine {
-struct SpriteMaskInteraction;
+struct SpriteDrawMode;
 }
 namespace UnityEngine {
 struct SpriteSortPoint;
 }
 namespace UnityEngine {
-class Sprite;
+struct SpriteTileMode;
 }
 namespace UnityEngine {
-struct SpriteDrawMode;
-}
-namespace UnityEngine {
-struct Color;
+struct SpriteMaskInteraction;
 }
 namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityEvent_1;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct SpriteTileMode;
+class Sprite;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::Events {
-template <typename T0> class UnityEvent_1;
+template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace UnityEngine {

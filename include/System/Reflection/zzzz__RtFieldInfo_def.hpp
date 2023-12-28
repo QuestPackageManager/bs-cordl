@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 CORDL_MODULE_EXPORT(RtFieldInfo)
-namespace System::Reflection {
-struct BindingFlags;
-}
 namespace System {
 class Object;
 }
@@ -15,6 +12,9 @@ class Binder;
 }
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {

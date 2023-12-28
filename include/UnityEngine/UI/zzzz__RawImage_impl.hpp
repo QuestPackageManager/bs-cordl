@@ -2,8 +2,8 @@
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UI/zzzz__RawImage_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::RawImage._ctor
 template <>
@@ -130,27 +130,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::Texture*& UnityEngine::UI::RawImage::__get_m_Texture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Texture;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture*> const& UnityEngine::UI::RawImage::__get_m_Texture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Texture;
 }
 constexpr void UnityEngine::UI::RawImage::__set_m_Texture(::UnityEngine::Texture* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Texture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Rect& UnityEngine::UI::RawImage::__get_m_UVRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UVRect;
 }
 constexpr ::UnityEngine::Rect const& UnityEngine::UI::RawImage::__get_m_UVRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UVRect;
 }
 constexpr void UnityEngine::UI::RawImage::__set_m_UVRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UVRect = value;
 }
 inline ::UnityEngine::UI::RawImage* UnityEngine::UI::RawImage::New_ctor() {

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InitializableManager_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::Zenject::__InitializableManager__InitializableInfo._ctor
@@ -54,27 +54,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::IInitializable*& Zenject::__InitializableManager__InitializableInfo::__get_Initializable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Initializable;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IInitializable*> const& Zenject::__InitializableManager__InitializableInfo::__get_Initializable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Initializable;
 }
 constexpr void Zenject::__InitializableManager__InitializableInfo::__set_Initializable(::Zenject::IInitializable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Initializable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& Zenject::__InitializableManager__InitializableInfo::__get_Priority() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
 constexpr int32_t const& Zenject::__InitializableManager__InitializableInfo::__get_Priority() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
 constexpr void Zenject::__InitializableManager__InitializableInfo::__set_Priority(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Priority = value;
 }
 inline ::Zenject::__InitializableManager__InitializableInfo* Zenject::__InitializableManager__InitializableInfo::New_ctor(::Zenject::IInitializable* initializable, int32_t priority) {
@@ -159,15 +159,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::Zenject::IInitializable*& Zenject::__InitializableManager____c__DisplayClass2_0::__get_initializable() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initializable;
 }
 constexpr ::cordl_internals::to_const_pointer<::Zenject::IInitializable*> const& Zenject::__InitializableManager____c__DisplayClass2_0::__get_initializable() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___initializable;
 }
 constexpr void Zenject::__InitializableManager____c__DisplayClass2_0::__set_initializable(::Zenject::IInitializable* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___initializable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::__InitializableManager____c__DisplayClass2_0* Zenject::__InitializableManager____c__DisplayClass2_0::New_ctor() {
@@ -416,28 +416,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>*& Zenject::InitializableManager::__get__initializables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializables;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>*> const&
 Zenject::InitializableManager::__get__initializables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializables;
 }
 constexpr void Zenject::InitializableManager::__set__initializables(::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initializables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& Zenject::InitializableManager::__get__hasInitialized() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInitialized;
 }
 constexpr bool const& Zenject::InitializableManager::__get__hasInitialized() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hasInitialized;
 }
 constexpr void Zenject::InitializableManager::__set__hasInitialized(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasInitialized = value;
 }
 inline ::Zenject::InitializableManager* Zenject::InitializableManager::New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ProModeTrailingCollidersController)
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
 }
 namespace GlobalNamespace {
 class NoteMovement;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

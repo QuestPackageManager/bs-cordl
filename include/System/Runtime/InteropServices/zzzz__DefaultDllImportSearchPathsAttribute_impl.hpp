@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::System::Runtime::InteropServices::DllImportSearchPath& System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__get__paths() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paths;
 }
 constexpr ::System::Runtime::InteropServices::DllImportSearchPath const& System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__get__paths() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paths;
 }
 constexpr void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__set__paths(::System::Runtime::InteropServices::DllImportSearchPath value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____paths = value;
 }
 inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*

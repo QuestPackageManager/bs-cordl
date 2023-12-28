@@ -7,90 +7,90 @@ template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedStates() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStates;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedStates() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStates;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__set__receivedStates(
     ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedDeltas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltas;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedDeltas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltas;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__set__receivedDeltas(
     ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
         value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedDeltas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedStateIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStateIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t const& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedStateIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStateIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__set__receivedStateIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____receivedStateIndex = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedStateCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStateCount;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t const& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedStateCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStateCount;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__set__receivedStateCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____receivedStateCount = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedDeltaIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltaIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t const& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedDeltaIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltaIndex;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__set__receivedDeltaIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____receivedDeltaIndex = value;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedDeltaCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltaCount;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t const& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__get__receivedDeltaCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltaCount;
 }
 template <typename TStateTable, typename TType, typename TState> constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__set__receivedDeltaCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____receivedDeltaCount = value;
 }
 template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::Clear() {
